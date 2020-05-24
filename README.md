@@ -1,6 +1,6 @@
 # Portfolio Website 
 [![HitCount](http://hits.dwyl.com/navendu-pottekkat/navendu-pottekkatgithubio.svg)](http://hits.dwyl.com/navendu-pottekkat/navendu-pottekkatgithubio)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/navendu-pottekkat/navendu-pottekkat.github.io/issues)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A portfolio website that can be used to show your projects or other information. The site is live at [navendu-pottekkat.github.io](https://navendu-pottekkat.github.io/)
