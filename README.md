@@ -13,7 +13,7 @@ If that does not convince you, here are some other reason that might make you bu
 
 Here is a preview of the website.
 
-![Preview](preview.png)
+![Preview](preview.gif)
 
 ## Editing / Personalisation
 
