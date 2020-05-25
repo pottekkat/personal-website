@@ -27,3 +27,5 @@ Please do leave a star if you found this helpful!
 
 Happy coding!
 
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
