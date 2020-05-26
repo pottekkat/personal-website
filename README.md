@@ -23,6 +23,8 @@ You could click on the **Use this template** button or **Fork** this repository.
 
 To make changes, all you would have to do would be to edit the `index.html` file. You can intuitively add your projects and information about yourself.
 
+Here is a great [free tool](https://getavataaars.com/) to build your own avatars! 
+
 Please do leave a star if you found this helpful!
 
 Happy coding!
