@@ -3,7 +3,7 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/navendu-pottekkat/navendu-pottekkat.github.io/issues)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A portfolio website that can be used to show your projects or other information. The site is live at [navendu-pottekkat.github.io](https://navendu-pottekkat.github.io/)
+A portfolio website that can be used to show your projects or other information. The site is live at [navendu.me](https://navendu-pottekkat.github.io/)
 
 If that does not convince you, here are some other reason that might make you build one:
 
