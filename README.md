@@ -6,7 +6,7 @@
 
 Hosted with ❤ by GitHub  
 
-Last updated: 29 June 2020
+**Last updated: 29 June 2020**
 
 A portfolio website that can be used to show your projects or other information. The site is live at [navendu.me](https://navendu-pottekkat.github.io/)
 
