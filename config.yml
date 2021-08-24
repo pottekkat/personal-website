@@ -52,6 +52,10 @@ params:
           
           -
 
+          - I write about Cloud Native, Deep Learning, Open-Source Project Management and more.
+
+          -
+
           - You can find me online on the links below.
 
     socialIcons:
@@ -114,6 +118,10 @@ menu:
           name: Tags
           url: /tags/
           weight: 40
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 50
 
 outputs:
     home:
