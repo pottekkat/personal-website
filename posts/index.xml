@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Navendu Pottekkat</title>
-    <link>https://navendu.me/</link>
-    <description>Recent content on Navendu Pottekkat</description>
+    <title>Posts on Navendu Pottekkat</title>
+    <link>https://navendu.me/posts/</link>
+    <description>Recent content in Posts on Navendu Pottekkat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Aug 2021 11:51:06 +0530</lastBuildDate><atom:link href="https://navendu.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Aug 2021 11:51:06 +0530</lastBuildDate><atom:link href="https://navendu.me/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Intro</title>
       <link>https://navendu.me/posts/intro/</link>
@@ -15,8 +15,6 @@
       <guid>https://navendu.me/posts/intro/</guid>
       <description>Hello there </description>
     </item>
-    
-    
     
   </channel>
 </rss>

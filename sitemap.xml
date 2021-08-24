@@ -2,11 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://navendu.me/posts/intro/</loc>
+    <lastmod>2021-08-24T11:51:06+05:30</lastmod>
+  </url><url>
+    <loc>https://navendu.me/</loc>
+    <lastmod>2021-08-24T11:51:06+05:30</lastmod>
+  </url><url>
+    <loc>https://navendu.me/posts/</loc>
+    <lastmod>2021-08-24T11:51:06+05:30</lastmod>
+  </url><url>
     <loc>https://navendu.me/archives/</loc>
   </url><url>
     <loc>https://navendu.me/categories/</loc>
-  </url><url>
-    <loc>https://navendu.me/</loc>
   </url><url>
     <loc>https://navendu.me/search/</loc>
   </url><url>
