@@ -122,6 +122,10 @@ menu:
           name: About
           url: /about/
           weight: 50
+        - identifier: subscribe
+          name: Subscribe
+          url: http://eepurl.com/hGJfXv
+          weight: 60
 
 outputs:
     home:
