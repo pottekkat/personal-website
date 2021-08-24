@@ -12,3 +12,7 @@ cover:
 ---
 
 # Hello there general kenobi
+
+```python
+print("hello world")
+```

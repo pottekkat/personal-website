@@ -9,6 +9,8 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+googleAnalytics: "G-5BTX6HE4Z9"
+
 minify:
     disableXML: true
     minifyOutput: true
@@ -27,7 +29,7 @@ params:
     ShowShareButtons: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
-    ShowCodeCopyButtons: false
+    ShowCodeCopyButtons: true
     disableSpecial1stPost: false
     disableScrollToTop: false
     comments: false
@@ -75,9 +77,9 @@ params:
           url: "https://www.goodreads.com/user/show/83926433-navendu-pottekkat"
 
     cover:
-        hidden: true # hide everywhere but not in structured data
-        hiddenInList: true # hide on list pages and home
-        hiddenInSingle: true # hide on single page
+        hidden: false # hide everywhere but not in structured data
+        hiddenInList: false # hide on list pages and home
+        hiddenInSingle: false # hide on single page
 
     editPost:
         URL: "https://github.com/navendu-pottekkat/navendu-pottekkat.github.io/blob/hugo/content"
@@ -107,11 +109,11 @@ menu:
         - identifier: search
           name: Search
           url: /search/
-          weight: 10
+          weight: 30
         - identifier: tags
           name: Tags
           url: /tags/
-          weight: 20
+          weight: 40
 
 outputs:
     home:
