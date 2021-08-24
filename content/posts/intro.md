@@ -1,7 +1,7 @@
 ---
 title: "Intro"
 date: 2021-08-24T11:51:06+05:30
-draft: true
+draft: false
 cover:
     image: "images/sample.png"
     # can also paste direct link from external site
