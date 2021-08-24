@@ -41,15 +41,38 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Hi! I'm Navendu 👋🏼"
-        Content: Software Engineer working on Service Meshes, Deep Learning and Everything Open-Source.
+        Content: >
+          - Software Engineer working on Service Meshes, Deep Learning and Everything Open-Source.
+          
+          -
+          
+          - I maintain [Meshery](https://github.com/meshery/meshery) and [Service Mesh Performance](https://github.com/service-mesh-performance/service-mesh-performance) @ [Cloud Native Computing Foundation](https://www.cncf.io/) and I'm also the creator and a maintainer of [NSFW Filter](https://github.com/nsfw-filter/nsfw-filter).
+          
+          -
+
+          - You can find me online on the links below.
 
     socialIcons:
-        - name: twitter
-          url: "https://twitter.com/"
-        - name: stackoverflow
-          url: "https://stackoverflow.com"
+        - name: email
+          url: "mailto:navendupottekkat@gmail.com"
         - name: github
-          url: "https://github.com/"
+          url: "https://github.com/navendu-pottekkat"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/navendup/"
+        - name: medium
+          url: "https://medium.com/@navendupottekkat"
+        - name: stackoverflow
+          url: "https://stackoverflow.com/users/12424846/navendu-pottekkat"
+        - name: twitter
+          url: "https://twitter.com/sudo_navendu"
+        - name: facebook
+          url: "https://www.facebook.com/navendupottekkat/"
+        - name: instagram
+          url: "https://www.instagram.com/sudo_navendu/"
+        - name: youtube
+          url: "https://www.youtube.com/channel/UCWwMJ5SxVStO04W3nOrCiNA"
+        - name: goodreads
+          url: "https://www.goodreads.com/user/show/83926433-navendu-pottekkat"
 
     cover:
         hidden: true # hide everywhere but not in structured data
