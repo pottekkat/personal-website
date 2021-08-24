@@ -36,6 +36,8 @@ params:
     showtoc: false
     tocopen: false
 
+    images: ["images/preview.png"]
+
     # home-info mode
     homeInfoParams:
         Title: "Hi! I'm Navendu 👋🏼"
