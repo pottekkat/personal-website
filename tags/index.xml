@@ -4,6 +4,10 @@
     <title>Tags on Navendu Pottekkat</title>
     <link>https://navendu.me/tags/</link>
     <description>Recent content in Tags on Navendu Pottekkat</description>
+    <image>
+      <url>https://navendu.me/images/preview.png</url>
+      <link>https://navendu.me/images/preview.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://navendu.me/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>

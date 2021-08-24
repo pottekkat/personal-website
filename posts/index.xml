@@ -4,6 +4,10 @@
     <title>Posts on Navendu Pottekkat</title>
     <link>https://navendu.me/posts/</link>
     <description>Recent content in Posts on Navendu Pottekkat</description>
+    <image>
+      <url>https://navendu.me/images/preview.png</url>
+      <link>https://navendu.me/images/preview.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Aug 2021 11:51:06 +0530</lastBuildDate><atom:link href="https://navendu.me/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +17,7 @@
       <pubDate>Tue, 24 Aug 2021 11:51:06 +0530</pubDate>
       
       <guid>https://navendu.me/posts/intro/</guid>
-      <description>Hello there </description>
+      <description>Hello there general kenobi </description>
     </item>
     
   </channel>
