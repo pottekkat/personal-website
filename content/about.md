@@ -1,0 +1,41 @@
+---
+title: "About"
+url: "/about/"
+layout: "about"
+description: "About Navendu Pottekkat"
+searchHidden: true
+---
+
+I'm an Engineer working on Service Meshes, Deep Learning on Edge and Neuro-Memristive Systems.
+
+I work part-time at [Layer5](https://layer5.io/), where we build Open-Source products to make Service Meshes available to everyone.
+
+I’m a maintainer at [Cloud Native Computing Foundation (CNCF)](https://www.cncf.io/) for the projects - Meshery and Service Mesh Performance.
+
+I also maintain (also the creator) [NSFW Filter](https://github.com/nsfw-filter/nsfw-filter) which is a free and Open-Source web extension.
+
+I'm also pursuing my Master's Degree in Computer Science with a primary focus on Machine Intelligence.
+
+I'm a [Google Summer of Code](https://summerofcode.withgoogle.com/projects/#6432043061215232) and an [LFX (Community Bridge)](https://mentorship.lfx.linuxfoundation.org/mentor/bc364b11-a4ab-4b18-b81e-e071bbcfb40c) Mentor for Cloud Native Computing Foundation.
+
+## Speaker Kit
+
+### Bio
+
+As a maintainer of Meshery and SMP at Layer5, Navendu Pottekkat’s passion for designing, developing and deploying scalable, distributed systems is evident in each initiative he advances. His dedication to open-source communities has been evident in mentoring interns through GSoC and LFX. 
+
+He also organizes Meshery and SMP CNCF Community Groups.
+
+### Socials
+
+* Email: [navendupottekkat@gmail.com](mailto:navendupottekkat@gmail.com)
+* Twitter: [sudo_navendu](https://twitter.com/sudo_navendu)
+* GitHub: [navendu-pottekkat](https://github.com/navendu-pottekkat)
+* LinkedIn: [navendup](https://www.linkedin.com/in/navendup/)
+
+
+### Profile Images
+
+{{< figure src="/images/profile.jpeg" title="Full size image" caption="2992×2000" link="/images/profile.jpeg" target="_blank" >}}
+
+{{< figure src="/images/profileSquare.png" title="Cropped (square) size image" caption="400×400" link="/images/profileSquare.png" target="_blank" >}}
