@@ -20,6 +20,8 @@ I'm a [Google Summer of Code](https://summerofcode.withgoogle.com/projects/#6432
 
 ## Speaker Kit
 
+[Talks by Navendu Pottekkat](https://www.youtube.com/playlist?list=PLUVkO7d15olRgs1rU6scvszk0DB5HxKdu)
+
 ### Bio
 
 As a maintainer of Meshery and SMP at Layer5, Navendu Pottekkat’s passion for designing, developing and deploying scalable, distributed systems is evident in each initiative he advances. His dedication to open-source communities has been evident in mentoring interns through GSoC and LFX. 
