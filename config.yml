@@ -9,6 +9,8 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+enableGitInfo: true
+
 googleAnalytics: UA-205698358-1
 
 minify:
@@ -79,6 +81,8 @@ params:
           url: "https://www.youtube.com/channel/UCWwMJ5SxVStO04W3nOrCiNA"
         - name: goodreads
           url: "https://www.goodreads.com/user/show/83926433-navendu-pottekkat"
+        - name: rss
+          url: /index.xml
 
     cover:
         hidden: false # hide everywhere but not in structured data
