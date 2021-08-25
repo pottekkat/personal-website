@@ -1,7 +1,6 @@
 ---
 title: "Intro"
 date: "2021-08-24"
-lastmod: "2021-08-27"
 draft: false
 cover:
     image: "images/sample.png"
