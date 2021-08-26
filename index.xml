@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://navendu.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://navendu.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://navendu.me/about/</link>
@@ -19,6 +19,15 @@
       
       <guid>https://navendu.me/about/</guid>
       <description>About Navendu Pottekkat</description>
+    </item>
+    
+    <item>
+      <title>CNCF Webinar: Meshery, the Service Mesh Manager</title>
+      <link>https://navendu.me/posts/cncf-webinar-meshery/</link>
+      <pubDate>Thu, 19 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://navendu.me/posts/cncf-webinar-meshery/</guid>
+      <description>This CNCF Webinar introduces Meshery, the open source, service mesh management plane that enables the adoption, operation, and management of any service mesh and their workloads.</description>
     </item>
     
     <item>
