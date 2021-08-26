@@ -9,6 +9,34 @@
       <link>https://navendu.me/images/preview.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://navendu.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://navendu.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>documentation</title>
+      <link>https://navendu.me/tags/documentation/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://navendu.me/tags/documentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>readme</title>
+      <link>https://navendu.me/tags/readme/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://navendu.me/tags/readme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>https://navendu.me/tags/tutorial/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://navendu.me/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
