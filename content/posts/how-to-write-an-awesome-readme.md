@@ -3,7 +3,8 @@ title: "How to write an Awesome README"
 date: "2020-07-13"
 draft: false
 summary: "A comprehensive guide to writing README that stands out and makes people go WOW!"
-url: /posts/how-to-write-an-awesome-readme
+tags: ["readme", "documentation", "tutorial"]
+categories: ["tutorials"]
 cover:
     image: "images/awesome-readme/cover.jpeg"
     alt: "Documents cover image"

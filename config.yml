@@ -19,6 +19,11 @@ minify:
     disableXML: true
     minifyOutput: true
 
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: "Navendu Pottekkat"
