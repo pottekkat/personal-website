@@ -20,7 +20,9 @@ Watch the webinar below.
 Check out the links below for getting started with Meshery.
 
 Website: [meshery.io](https://meshery.io/)
+
 GitHub: [meshery/meshery](https://github.com/meshery/meshery)
+
 Twitter: [mesheryio](https://twitter.com/mesheryio/)
 
 [Join the Slack channel](http://slack.layer5.io/)
