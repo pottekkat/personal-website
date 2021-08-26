@@ -19,7 +19,7 @@
     {{- with $.Site.Params.images }}
     <image>
       <url>{{ index . 0 | absURL }}</url>
-      <link>{{ index . 0 | absURL }}</link>
+      <link>{{ index . 2 | absURL }}</link>
       <title>{{ index . 1 }}</title>
     </image>
     {{- end }}
