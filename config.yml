@@ -47,7 +47,7 @@ params:
     showtoc: false
     tocopen: false
 
-    images: ["images/preview.png","Navendu Pottekkat"]
+    images: ["images/preview.png","Navendu Pottekkat", "https://navendu.me/"]
 
     # home-info mode
     homeInfoParams:
