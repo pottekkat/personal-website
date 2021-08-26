@@ -2,6 +2,7 @@
 title: "About"
 url: "/about/"
 layout: "about"
+date: "2021-08-25"
 description: "About Navendu Pottekkat"
 searchHidden: true
 ---
