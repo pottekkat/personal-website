@@ -13,6 +13,8 @@ enableGitInfo: true
 
 googleAnalytics: UA-205698358-1
 
+disqusShortname: navendu
+
 minify:
     disableXML: true
     minifyOutput: true
@@ -34,7 +36,7 @@ params:
     ShowCodeCopyButtons: true
     disableSpecial1stPost: false
     disableScrollToTop: false
-    comments: false
+    comments: true
     hidemeta: false
     hideSummary: false
     showtoc: false
