@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://navendu.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Aug 2021 12:12:25 +0530</lastBuildDate><atom:link href="https://navendu.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20&#43; Open Source Internship Programs that you can Apply to</title>
+      <link>https://navendu.me/posts/open-source-internship-programs/</link>
+      <pubDate>Fri, 27 Aug 2021 12:12:25 +0530</pubDate>
+      
+      <guid>https://navendu.me/posts/open-source-internship-programs/</guid>
+      <description>A curated list of Open Source Internship Programs with all the necessary details.</description>
+    </item>
+    
     <item>
       <title>CNCF Webinar: Meshery, the Service Mesh Manager</title>
       <link>https://navendu.me/posts/cncf-webinar-meshery/</link>

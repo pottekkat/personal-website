@@ -2,8 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://navendu.me/posts/open-source-internship-programs/</loc>
+    <lastmod>2021-08-27T23:01:21+05:30</lastmod>
+  </url><url>
     <loc>https://navendu.me/categories/</loc>
-    <lastmod>2021-08-26T16:51:44+05:30</lastmod>
+    <lastmod>2021-08-27T23:01:21+05:30</lastmod>
+  </url><url>
+    <loc>https://navendu.me/tags/list/</loc>
+    <lastmod>2021-08-27T23:01:21+05:30</lastmod>
+  </url><url>
+    <loc>https://navendu.me/</loc>
+    <lastmod>2021-08-27T23:01:21+05:30</lastmod>
+  </url><url>
+    <loc>https://navendu.me/tags/open-source/</loc>
+    <lastmod>2021-08-27T23:01:21+05:30</lastmod>
+  </url><url>
+    <loc>https://navendu.me/categories/open-source/</loc>
+    <lastmod>2021-08-27T23:01:21+05:30</lastmod>
+  </url><url>
+    <loc>https://navendu.me/posts/</loc>
+    <lastmod>2021-08-27T23:01:21+05:30</lastmod>
+  </url><url>
+    <loc>https://navendu.me/tags/</loc>
+    <lastmod>2021-08-27T23:01:21+05:30</lastmod>
   </url><url>
     <loc>https://navendu.me/tags/cloud-native/</loc>
     <lastmod>2021-08-26T16:51:44+05:30</lastmod>
@@ -14,16 +35,7 @@
     <loc>https://navendu.me/posts/cncf-webinar-meshery/</loc>
     <lastmod>2021-08-26T16:51:44+05:30</lastmod>
   </url><url>
-    <loc>https://navendu.me/</loc>
-    <lastmod>2021-08-26T16:51:44+05:30</lastmod>
-  </url><url>
-    <loc>https://navendu.me/posts/</loc>
-    <lastmod>2021-08-26T16:51:44+05:30</lastmod>
-  </url><url>
     <loc>https://navendu.me/tags/service-mesh/</loc>
-    <lastmod>2021-08-26T16:51:44+05:30</lastmod>
-  </url><url>
-    <loc>https://navendu.me/tags/</loc>
     <lastmod>2021-08-26T16:51:44+05:30</lastmod>
   </url><url>
     <loc>https://navendu.me/tags/talks/</loc>
