@@ -5,8 +5,8 @@ draft: true
 summary: "A curated list of Open Source Internship Programs with all the necessary details."
 ShowToc: true
 TocOpen: true
-tags: ["list", "open-source"]
-categories: ["open-source"]
+tags: ["list", "open-source", "internship"]
+categories: ["open-source", "navendu's curated lists"]
 cover:
     image: "images/open-source-internship-programs/open-door.jpeg"
     alt: "Open Door cover image"
@@ -16,9 +16,9 @@ cover:
 
 Contributing to open-source is one of the best ways to gain skills and build your resume as a student or as a new developer.
 
-As open-source becomes the norm, more and more big tech companies and non-profit organizations have been investing into open-source internship programs.
+As open-source becomes the norm, more and more big tech companies and non-profit organizations have been investing into open-source projects and into internship programs.
 
-These programs often offer the intern a mentorship opportunity and a stable stipend so that they can invest their time in to these programs.
+These programs often offer the intern a mentorship opportunity and a stable stipend so that they can invest their time to work on these projects.
 
 This post consists of all the details of these programs. You can [skip to the summary](#summary) for quick access to all these resources.
 
@@ -46,6 +46,8 @@ This program is organized by The Linux Foundation and aims to pair open-source t
 
 This program will provide you the opportunity to contribute to the type of open-source projects that every company depends on.
 
+There are also non-open-source programs that MLH offers. See [fellowship.mlh.io/#programs](https://fellowship.mlh.io/#programs).
+
 ## Google Season of Docs (GSoD)
 
 | Program Name                                                         | Duration            | Timeline                                                                              | Stipend                                                                                                    |
@@ -53,6 +55,8 @@ This program will provide you the opportunity to contribute to the type of open-
 | [Google Season of Docs](https://developers.google.com/season-of-docs) | 6 Months | [May 17th - December 14th](https://developers.google.com/season-of-docs/docs/timeline) | [Depends of budget of the organization](https://developers.google.com/season-of-docs/docs/tech-writer-payments) |
 
 This program gives technical writers an opportunity to gain experience in open-source.
+
+If you are interested in contributing to documentation, this is a really good opportunity to work on some interesting projects.
 
 ## Outreachy
 
