@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>internship on Navendu Pottekkat</title>
+    <link>https://navendu.me/tags/internship/</link>
+    <description>Recent content in internship on Navendu Pottekkat</description>
+    <image>
+      <url>https://navendu.me/images/preview.png</url>
+      <link>https://navendu.me/</link>
+      <title>Navendu Pottekkat</title>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Aug 2021 17:52:25 +0530</lastBuildDate><atom:link href="https://navendu.me/tags/internship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20&#43; Open Source Internship Programs that you can Apply to</title>
+      <link>https://navendu.me/posts/open-source-internship-programs/</link>
+      <pubDate>Sat, 28 Aug 2021 17:52:25 +0530</pubDate>
+      
+      <guid>https://navendu.me/posts/open-source-internship-programs/</guid>
+      <description>A curated list of Open Source Internship Programs with all the necessary details.</description>
+    </item>
+    
+  </channel>
+</rss>
