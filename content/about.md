@@ -23,6 +23,9 @@ I'm a [Google Summer of Code](https://summerofcode.withgoogle.com/projects/#6432
 
 [Full Playlist](https://www.youtube.com/playlist?list=PLUVkO7d15olRgs1rU6scvszk0DB5HxKdu)
 
+* [Meshery - The Service Mesh Manager | CNCF Webinar | 19th August 2021](https://www.youtube.com/watch?v=mU8qHUGYsk8&list=PLUVkO7d15olRgs1rU6scvszk0DB5HxKdu&index=3&t=1s)
+* [NSFW Filter - Block NSFW Images using AI | TensorFlow User Group India Summit | 3rd September 2020](https://youtu.be/NS5RlRGVDEs?t=8785)
+
 ## Speaker Kit
 
 ### Bio
