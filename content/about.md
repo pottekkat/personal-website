@@ -19,9 +19,11 @@ I'm also pursuing my Master's Degree in Computer Science with a primary focus on
 
 I'm a [Google Summer of Code](https://summerofcode.withgoogle.com/projects/#6432043061215232) and an [LFX (Community Bridge)](https://mentorship.lfx.linuxfoundation.org/mentor/bc364b11-a4ab-4b18-b81e-e071bbcfb40c) Mentor for Cloud Native Computing Foundation.
 
-## Speaker Kit
+## Talks
 
-[Talks by Navendu Pottekkat](https://www.youtube.com/playlist?list=PLUVkO7d15olRgs1rU6scvszk0DB5HxKdu)
+[Full Playlist](https://www.youtube.com/playlist?list=PLUVkO7d15olRgs1rU6scvszk0DB5HxKdu)
+
+## Speaker Kit
 
 ### Bio
 
