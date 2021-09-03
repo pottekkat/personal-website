@@ -53,19 +53,19 @@ params:
     homeInfoParams:
         Title: "Hi! I'm Navendu 👋🏼"
         Content: >
-          - Software Engineer working on Service Meshes, Deep Learning and Everything Open-Source.
+          - Software Engineer working on Service Meshes, Deep Learning and Everything Open-Source
           
           -
           
-          - I maintain [Meshery](https://github.com/meshery/meshery) and [Service Mesh Performance](https://github.com/service-mesh-performance/service-mesh-performance) @ [Cloud Native Computing Foundation](https://www.cncf.io/) and I'm also the creator and a maintainer of [NSFW Filter](https://github.com/nsfw-filter/nsfw-filter).
+          - I maintain [Meshery](https://github.com/meshery/meshery) and [Service Mesh Performance](https://github.com/service-mesh-performance/service-mesh-performance) @ [Cloud Native Computing Foundation](https://www.cncf.io/) and I'm also the creator and a maintainer of [NSFW Filter](https://github.com/nsfw-filter/nsfw-filter)
           
           -
 
-          - I write about Cloud Native, Deep Learning, Open-Source Project Management and more.
+          - I write about Cloud Native, Deep Learning, Open-Source Project Management and more
 
           -
 
-          - You can find me online on the links below.
+          - You can find me online on the links below
 
     socialIcons:
         - name: email
