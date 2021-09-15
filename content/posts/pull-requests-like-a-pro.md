@@ -2,7 +2,7 @@
 title: "Pull Requests Like a PRO"
 date: 2021-09-15T17:52:25+05:30
 draft: false
-summary: "Tips on Making High-Quality Pull Requests."
+summary: "Tips to make High-Quality Pull Requests."
 tags: ["tips", "open-source"]
 categories: ["open-source", "navendu's tips"]
 cover:
@@ -10,6 +10,8 @@ cover:
     alt: "Image that shows Pull Requests Like a PRO"
     relative: false
 ---
+
+_Originally published on the [DEV Community](https://dev.to/navendu/pull-requests-like-a-pro-tips-to-make-high-quality-pull-requests-2hfk)._
 
 With Hacktoberfest around the corner, here are some tips to make better Pull Requests for your next Open-Source contribution.
 
