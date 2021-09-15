@@ -11,7 +11,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Aug 2021 17:52:25 +0530</lastBuildDate><atom:link href="https://navendu.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Sep 2021 17:52:25 +0530</lastBuildDate><atom:link href="https://navendu.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>open-source</title>
+      <link>https://navendu.me/tags/open-source/</link>
+      <pubDate>Wed, 15 Sep 2021 17:52:25 +0530</pubDate>
+      
+      <guid>https://navendu.me/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips</title>
+      <link>https://navendu.me/tags/tips/</link>
+      <pubDate>Wed, 15 Sep 2021 17:52:25 +0530</pubDate>
+      
+      <guid>https://navendu.me/tags/tips/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>internship</title>
       <link>https://navendu.me/tags/internship/</link>
@@ -27,15 +45,6 @@
       <pubDate>Sat, 28 Aug 2021 17:52:25 +0530</pubDate>
       
       <guid>https://navendu.me/tags/list/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>open-source</title>
-      <link>https://navendu.me/tags/open-source/</link>
-      <pubDate>Sat, 28 Aug 2021 17:52:25 +0530</pubDate>
-      
-      <guid>https://navendu.me/tags/open-source/</guid>
       <description></description>
     </item>
     

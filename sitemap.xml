@@ -2,10 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://navendu.me/posts/open-source-internship-programs/</loc>
-    <lastmod>2021-08-28T17:53:02+05:30</lastmod>
-  </url><url>
     <loc>https://navendu.me/categories/</loc>
+    <lastmod>2021-09-15T22:05:25+05:30</lastmod>
+  </url><url>
+    <loc>https://navendu.me/</loc>
+    <lastmod>2021-09-15T22:05:25+05:30</lastmod>
+  </url><url>
+    <loc>https://navendu.me/categories/navendus-tips/</loc>
+    <lastmod>2021-09-15T22:05:25+05:30</lastmod>
+  </url><url>
+    <loc>https://navendu.me/tags/open-source/</loc>
+    <lastmod>2021-09-15T22:05:25+05:30</lastmod>
+  </url><url>
+    <loc>https://navendu.me/categories/open-source/</loc>
+    <lastmod>2021-09-15T22:05:25+05:30</lastmod>
+  </url><url>
+    <loc>https://navendu.me/posts/</loc>
+    <lastmod>2021-09-15T22:05:25+05:30</lastmod>
+  </url><url>
+    <loc>https://navendu.me/posts/pull-requests-like-a-pro/</loc>
+    <lastmod>2021-09-15T22:05:25+05:30</lastmod>
+  </url><url>
+    <loc>https://navendu.me/tags/</loc>
+    <lastmod>2021-09-15T22:05:25+05:30</lastmod>
+  </url><url>
+    <loc>https://navendu.me/tags/tips/</loc>
+    <lastmod>2021-09-15T22:05:25+05:30</lastmod>
+  </url><url>
+    <loc>https://navendu.me/posts/open-source-internship-programs/</loc>
     <lastmod>2021-08-28T17:53:02+05:30</lastmod>
   </url><url>
     <loc>https://navendu.me/tags/internship/</loc>
@@ -14,22 +38,7 @@
     <loc>https://navendu.me/tags/list/</loc>
     <lastmod>2021-08-28T17:53:02+05:30</lastmod>
   </url><url>
-    <loc>https://navendu.me/</loc>
-    <lastmod>2021-08-28T17:53:02+05:30</lastmod>
-  </url><url>
     <loc>https://navendu.me/categories/navendus-curated-lists/</loc>
-    <lastmod>2021-08-28T17:53:02+05:30</lastmod>
-  </url><url>
-    <loc>https://navendu.me/tags/open-source/</loc>
-    <lastmod>2021-08-28T17:53:02+05:30</lastmod>
-  </url><url>
-    <loc>https://navendu.me/categories/open-source/</loc>
-    <lastmod>2021-08-28T17:53:02+05:30</lastmod>
-  </url><url>
-    <loc>https://navendu.me/posts/</loc>
-    <lastmod>2021-08-28T17:53:02+05:30</lastmod>
-  </url><url>
-    <loc>https://navendu.me/tags/</loc>
     <lastmod>2021-08-28T17:53:02+05:30</lastmod>
   </url><url>
     <loc>https://navendu.me/tags/cloud-native/</loc>
