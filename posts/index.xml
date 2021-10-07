@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Sep 2021 12:56:25 +0530</lastBuildDate><atom:link href="https://navendu.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Sep 2021 12:56:25 +0530</lastBuildDate><atom:link href="https://navendu.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building Your Career in Open-Source</title>
+      <link>https://navendu.me/posts/building-your-career-in-open-source/</link>
+      <pubDate>Thu, 30 Sep 2021 12:56:25 +0530</pubDate>
+      
+      <guid>https://navendu.me/posts/building-your-career-in-open-source/</guid>
+      <description>My experience from a new programmer to working in open-source full time.</description>
+    </item>
+    
     <item>
       <title>How to Make Non-Code Contributions to Open-Source Projects</title>
       <link>https://navendu.me/posts/non-code-contributions-to-open-source/</link>
