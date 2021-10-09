@@ -18,7 +18,7 @@ Takeaways from Navendu Pottekkat's session on "Building Your Career in Open-Sour
 
 Have questions? Comment below or reach out to me at [@sudo_navendu](https://twitter.com/sudo_navendu).
 
-You can also checkout this Twitter thread for a quick summary on my talk.
+You can also checkout this Twitter thread for a quick summary of my talk.
 
 {{< rawhtml >}}
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">♥️ Love Open-Source? <br><br>⚡️ Here is how you can build your Career in Open-Source.<br><br>🧵 A thread.<br><br>❗️ Everything mentioned here is from my experience as a noob coder to working in Open-Source full time.</p>&mdash; Navendu Pottekkat (@sudo_navendu) <a href="https://twitter.com/sudo_navendu/status/1446819951902281733?ref_src=twsrc%5Etfw">October 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
