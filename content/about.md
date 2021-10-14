@@ -46,4 +46,4 @@ He also organizes Meshery and SMP CNCF Community Groups.
 
 {{< figure src="/images/profile.png#center" title="Full size image" caption="2992×2000" link="/images/profile.png" target="_blank" class="align-center" >}}
 
-{{< figure src="/images/profileSquare.png#center" title="Cropped (square) size image" caption="400×400" link="/images/profileSquare.png" target="_blank" class="align-center" >}}
+{{< figure src="/images/profileSquare.png#center" title="Cropped (square) size image" caption="1000×1000" link="/images/profileSquare.png" target="_blank" class="align-center" >}}
