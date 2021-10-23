@@ -125,7 +125,7 @@ Open up an issue and let the code contributors know about the bug.
 
 This will help them identify and fix bugs improving the quality of the project.
 
-### 3.2 Become and Advocate/Evangelist
+### 3.2 Become an Advocate/Evangelist
 
 Most open-source projects are community-driven and they usually do not have a dedicated marketing team to publicise the project.
 
