@@ -5,8 +5,8 @@ draft: false
 summary: "Open-Source is not just about code. See how you can make non-code contributions to open-source."
 ShowToc: true
 TocOpen: true
-tags: ["list", "open-source"]
-categories: ["open-source", "navendu's curated lists"]
+tags: ["open-source"]
+categories: ["open-source"]
 cover:
     image: "images/non-code-contributions-to-open-source/non-code-contributons-banner.png"
     alt: "Banner showing non-code contributions to open-source."
