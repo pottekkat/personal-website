@@ -9,7 +9,7 @@ searchHidden: true
 
 I'm an Engineer working on Service Meshes, Deep Learning on Edge and Neuro-Memristive Systems.
 
-I work part-time at [Layer5](https://layer5.io/), where we build Open-Source products to make Service Meshes available to everyone.
+I work at [Layer5](https://layer5.io/), where we build Open-Source products to make Service Meshes available to everyone.
 
 I’m a maintainer at [Cloud Native Computing Foundation (CNCF)](https://www.cncf.io/) for the projects - Meshery and Service Mesh Performance.
 
