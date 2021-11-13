@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>featured on Navendu Pottekkat</title>
+    <link>https://navendu.me/categories/featured/</link>
+    <description>Recent content in featured on Navendu Pottekkat</description>
+    <image>
+      <url>https://navendu.me/images/preview.png</url>
+      <link>https://navendu.me/</link>
+      <title>Navendu Pottekkat</title>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Nov 2021 12:56:25 +0530</lastBuildDate><atom:link href="https://navendu.me/categories/featured/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contributing to Documentation in Open-Source</title>
+      <link>https://navendu.me/posts/contributing-to-documentation/</link>
+      <pubDate>Mon, 08 Nov 2021 12:56:25 +0530</pubDate>
+      
+      <guid>https://navendu.me/posts/contributing-to-documentation/</guid>
+      <description>Contributing to documentation is really impactful for an open-source project. It can also be a stepping stone to make code contributions. Learn how.</description>
+    </item>
+    
+    <item>
+      <title>How to Make Non-Code Contributions to Open-Source Projects</title>
+      <link>https://navendu.me/posts/non-code-contributions-to-open-source/</link>
+      <pubDate>Tue, 21 Sep 2021 12:56:25 +0530</pubDate>
+      
+      <guid>https://navendu.me/posts/non-code-contributions-to-open-source/</guid>
+      <description>Open-Source is not just about code. See how you can make non-code contributions to open-source.</description>
+    </item>
+    
+  </channel>
+</rss>
