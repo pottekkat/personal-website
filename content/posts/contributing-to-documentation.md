@@ -4,7 +4,7 @@ date: 2021-11-08T12:56:25+05:30
 draft: false
 summary: "Contributing to documentation is really impactful for an open-source project. It can also be a stepping stone to make code contributions. Learn how."
 tags: ["open-source"]
-categories: ["open-source"]
+categories: ["open-source", "featured"]
 cover:
     image: "images/contributing-to-documentation/banner-image.jpeg"
     alt: "Banner of a handwritten document."
