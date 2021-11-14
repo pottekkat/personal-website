@@ -109,17 +109,17 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
-        - identifier: archives
-          name: Archives
-          url: /archives/
-          weight: 10
-        - identifier: categories
-          name: Categories
-          url: /categories/
-          weight: 20
         - identifier: search
           name: Search
           url: /search/
+          weight: 10
+        - identifier: archives
+          name: Archives
+          url: /archives/
+          weight: 20
+        - identifier: categories
+          name: Categories
+          url: /categories/
           weight: 30
         - identifier: tags
           name: Tags
