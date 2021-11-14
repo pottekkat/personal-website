@@ -88,8 +88,8 @@ params:
           url: /index.xml
 
     cover:
-        hidden: false # hide everywhere but not in structured data
-        hiddenInList: false # hide on list pages and home
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
         hiddenInSingle: false # hide on single page
 
     editPost:
