@@ -53,27 +53,12 @@ params:
     homeInfoParams:
         Title: "Hi! I'm Navendu 👋🏼"
         Content: >
-          - Software Engineer working on Service Meshes, Deep Learning and Everything Open-Source
-          
-          -
-          
-          - I maintain [Meshery](https://github.com/meshery/meshery) and [Service Mesh Performance](https://github.com/service-mesh-performance/service-mesh-performance) @ [Cloud Native Computing Foundation](https://www.cncf.io/) and I'm also the creator and a maintainer of [NSFW Filter](https://github.com/nsfw-filter/nsfw-filter)
+          - I am a Software Engineer passionate about building Open-Source projects.
+          I maintain [Meshery](https://github.com/meshery/meshery) and [Service Mesh Performance](https://github.com/service-mesh-performance/service-mesh-performance) @ [Cloud Native Computing Foundation](https://www.cncf.io/) and I'm also the creator and a maintainer of [NSFW Filter](https://github.com/nsfw-filter/nsfw-filter).
           
           -
 
-          - I write about [Cloud Native](/tags/cloud-native/), Deep Learning, [Open-Source](/tags/open-source/) Project Management, Books and Life
-
-          -
-
-          - If you are here for the first time, check out the [featured posts](/categories/featured/) or learn more [about me](/about)
-
-          -
-
-          - Subscribe via [email](http://eepurl.com/hGJfXv) or [RSS](/index.xml) to be the first to receive my latest content
-
-          -
-
-          - You can find me online on the links below
+          - If you are here for the first time, check out the [Featured Posts](/categories/featured/) or learn more [About Me](/about) and make sure you Subscribe via [Email](http://eepurl.com/hGJfXv) or [RSS](/index.xml) to be the first to receive my latest content.
 
     subscribeInfo:
       Text: If you liked this post, check out my other [featured posts](/categories/featured) or learn more [about me](/about)!
