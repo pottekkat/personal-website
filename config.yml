@@ -27,7 +27,7 @@ taxonomies:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: "Navendu Pottekkat"
-    description: "Software Engineer working on Service Meshes, Deep Learning and Everything Open-Source."
+    description: "Software Engineer passionate about building Open-Source Projects."
     keywords: [Navendu, Pottekkkat, Blog, Portfolio, Resume]
     author: "Navendu Pottekkat"
     DateFormat: "January 2, 2006"
