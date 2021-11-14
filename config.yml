@@ -51,7 +51,7 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "Hi! I'm Navendu!"
+        Title: "Hi, I'm Navendu!"
         Content: >
           - I am a Software Engineer passionate about building Open-Source projects.
           I maintain [Meshery](https://github.com/meshery/meshery) and [Service Mesh Performance](https://github.com/service-mesh-performance/service-mesh-performance) at [Cloud Native Computing Foundation](https://www.cncf.io/) and I'm also the creator and a maintainer of [NSFW Filter](https://github.com/nsfw-filter/nsfw-filter).
