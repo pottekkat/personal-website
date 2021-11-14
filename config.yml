@@ -69,7 +69,14 @@ params:
 
           -
 
+          - Subscribe via [email](http://eepurl.com/hGJfXv) or [RSS](/index.xml) to be the first to receive my latest content
+
+          -
+
           - You can find me online on the links below
+
+    subscribeInfo:
+      Text: If you liked this post, check out my other [featured posts](/categories/featured) or learn more [about me](/about)!
 
     socialIcons:
         - name: email
