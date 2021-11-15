@@ -1,10 +1,8 @@
 ---
-title: "About"
+title: "About Me"
 url: "/about/"
 layout: "about"
-date: "2020-08-25"
-description: "About Navendu Pottekkat"
-searchHidden: true
+description: "About me"
 ---
 
 I'm an Engineer working on Service Meshes, Deep Learning on Edge and Neuro-Memristive Systems.
