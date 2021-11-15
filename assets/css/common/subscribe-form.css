@@ -1,0 +1,32 @@
+.subscribe-input input {
+    margin-top: 20px;
+    padding: 4px 10px;
+    width: 100%;
+    color: var(--primary);
+    font-weight: bold;
+    border: 2px solid var(--tertiary);
+    border-radius: var(--radius);
+}
+
+.subscribe-input input:focus {
+    border-color: var(--secondary);
+}
+
+.subscribe-button {
+    margin-top: 20px;
+    display: flex;
+    white-space: normal;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: var(--radius);
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    color: var(--primary);
+    width: 100%;
+    overflow: truncate;
+}
+
+.subscribe-button:hover {
+    background: var(--border);
+}
