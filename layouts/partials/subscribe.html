@@ -1,7 +1,13 @@
 {{- with $.Site.Params.subscribeInfo }}
-    <section class="subscribe-content">
-        <hr>
-        <p>Thank you for reading <i>"{{ $.Title }}"</i>! Be sure to <a href="http://eepurl.com/hGJfXv" target="_blank">subscribe via email</a> or <a href="/index.xml" target="_blank">RSS feed</a> to be the first to receive my latest content!</p>
-        <p>{{ .Text | markdownify }}</p>
-    </section>
+<section class="subscribe-content">
+  <hr />
+  <p>
+    Thank you for reading <i>"{{ $.Title }}"</i>! Be sure to
+    <a href="http://eepurl.com/hGJfXv" target="_blank">subscribe via email</a>
+    or <a href="/index.xml" target="_blank">RSS feed</a> to be the first to
+    receive my latest content!
+  </p>
+  <p>{{ .Text | markdownify }}</p>
+</section>
+{{ partial "subscription-form.html" . }}
 {{- end -}}
