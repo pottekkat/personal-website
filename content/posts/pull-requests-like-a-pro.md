@@ -11,8 +11,6 @@ cover:
     relative: false
 ---
 
-_Originally published on the [DEV Community](https://dev.to/navendu/pull-requests-like-a-pro-tips-to-make-high-quality-pull-requests-2hfk)._
-
 With Hacktoberfest around the corner, here are some tips to make better Pull Requests for your next Open-Source contribution.
 
 > As a maintainer and a contributor to Open-Source projects these are the things I look for when reviewing and take care of when submitting Pull Requests.
