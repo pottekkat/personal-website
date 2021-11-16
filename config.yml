@@ -58,10 +58,10 @@ params:
           
           -
 
-          - If you are here for the first time, check out the [Featured Posts](/categories/featured/) or learn more [About Me](/about) and make sure you Subscribe via [Email](http://eepurl.com/hGJfXv) or [RSS](/index.xml) to be the first to receive my latest content.
+          - If you are here for the first time, check out the [Featured Posts](/categories/featured/) or learn more [About Me](/about) and make sure you Subscribe via [Email](/subscribe) or [RSS](/index.xml) to be the first to receive my latest content.
 
     subscribeInfo:
-      Text: If you liked this post, check out my other [Featured posts](/categories/featured) or learn more [About Me](/about)!
+      Text: If you liked this post, check out my other [Featured Posts](/categories/featured) or learn more [About Me](/about)!
 
     socialIcons:
         - name: email
@@ -131,7 +131,7 @@ menu:
           weight: 50
         - identifier: subscribe
           name: Subscribe
-          url: http://eepurl.com/hGJfXv
+          url: /subscribe/
           weight: 60
 
 outputs:
