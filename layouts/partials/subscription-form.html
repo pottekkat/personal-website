@@ -1,8 +1,70 @@
 <section class="subscription-form">
-    <form action="https://send.pageclip.co/zfT8DdguL1qQKClfpH5tKMZnjKMk1WPv/subscribe-form" method="post" autocomplete="off">
-      <div class="subscribe-input">
-        <input type="email" name="email" id="email" required placeholder="Email Address"/>
-      </div>
-      <input onclick="redirect()" value="Subscribe for Updates!" type="submit" class="subscribe-button"/>
-    </form>
+  <form
+    action="https://navendu.us5.list-manage.com/subscribe/post-json?u=fb9ffeb3ee6bc8aaf1d5b8a98&amp;id=5ff8367bc1&c=?"
+    method="post"
+    autocomplete="off"
+    class="subscribe-form"
+  >
+    <div class="subscribe-input">
+      <input
+        type="email"
+        name="EMAIL"
+        id="email"
+        required
+        placeholder="Email Address ↵"
+      />
+    </div>
+    <input
+      value="Subscribe for Updates!"
+      type="submit"
+      class="subscribe-button"
+    />
+  </form>
+  <section class="entry-content">
+    <div class="subscribe-message">
+      Subscribe to my blog to be the first to get updated every time I publish a
+      new post.
+    </div>
+  </section>
 </section>
+
+<!-- Handle form submission with JQuery and Ajax -->
+<script>
+  $(".subscribe-form").submit(function (e) {
+    e.preventDefault();
+
+    var form = $(this);
+    var url = form.attr("action");
+    var method = form.attr("method");
+
+    $.ajax({
+      type: method,
+      url: url,
+      data: form.serialize(),
+      dataType: `jsonp`,
+      success: function (data) {
+        if (data.result === `success`) {
+          form.find(".subscribe-button").attr("value", "Subscribed!");
+          $(".subscribe-message").html(
+            "Thank you for subscribing to my blog! <a target='_blank' href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fnavendu.me&text=I%20just%20subscribed%20to%20@sudo_navendu%27s%20blog%21%20Check%20it%20out%21&hashtags=OpenSource%2CDevelopers%2CDEVCommunity'>Tweet about it</a>!"
+          );
+          $(".subscribe-form :input").prop("disabled", true);
+        } else {
+          form
+            .find(".subscribe-button")
+            .attr("value", "Failed to Subscribe! Click again to retry");
+          $(".subscribe-message").html(
+            "There was an error subscribing you to my blog. " + data.msg + "."
+          );
+          form[0].reset();
+        }
+        console.log(data);
+      },
+      error: function (data) {
+        console.log("An error occurred.");
+        console.log(data);
+        form[0].reset();
+      },
+    });
+  });
+</script>

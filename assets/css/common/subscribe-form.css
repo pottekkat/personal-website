@@ -6,6 +6,7 @@
     font-weight: bold;
     border: 2px solid var(--tertiary);
     border-radius: var(--radius);
+    font-style: normal;
 }
 
 .subscribe-input input:focus {
