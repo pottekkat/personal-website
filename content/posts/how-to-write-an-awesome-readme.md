@@ -5,6 +5,8 @@ draft: false
 summary: "A comprehensive guide to writing README that stands out and makes people go WOW!"
 tags: ["readme", "documentation", "tutorial"]
 categories: ["tutorials"]
+canonicalURL: "https://towardsdatascience.com/how-to-write-an-awesome-readme-68bf4be91f8b"
+ShowCanonicalLink: true
 cover:
     image: "images/awesome-readme/cover.jpeg"
     alt: "Documents cover image"
