@@ -18,7 +18,7 @@ This blog is about:
 *_This list is not exhaustive._
 ## About Me
 
-I am Navendu Pottekkat. I am from [Chittur](https://goo.gl/maps/5AhUrxvBZMiFrbYB6) a small town in South India.
+I am Navendu Pottekkat. I am from [Chittur](https://goo.gl/maps/5AhUrxvBZMiFrbYB6), a small town in South India.
 
 Our town is known for its paddy fields and its toddy (palm wine) shops. We also commemorate a war ([Konganpada festival](https://www.onmanorama.com/travel/kerala/2018/06/30/konganpada-a-war-that-became-a-festival.html)) (said to have occurred around AD 918) we won over the king of Kongu (said to be present day [Coimbatore](https://goo.gl/maps/pERBjPQX8NEPw1kx6)) every year for a couple of days. The father of the [Malayalam](https://en.wikipedia.org/wiki/Malayalam) language, [Thunjathu Ramanujan Ezhuthachan](https://en.wikipedia.org/wiki/Thunchaththu_Ezhuthachan) spent his last days on the banks on the river [Sokanashini](https://en.wikipedia.org/wiki/Kannadipuzha_River) which is the heart of Chittur.
 
