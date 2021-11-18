@@ -58,11 +58,11 @@ Coming back to my academic life, I also did a [lot of internships](https://www.l
 
 To the end of the year, I got a job offer which brought some positivity in life after spending months in relief camps and rehabilitation activities. It was a high paying job in tech and for someone with no idea what to do after college, this was winning the lottery.
 
-I was only a week out of college when I started to work full-time. I was working at a high-growth startup as a product consultant. Life was exciting, I was in the city (Kochi ♥), I had my friends living with me and I had the money to live a comfortable life. But, in the end, after 7 months, I felt like I had learned everything the job has to offer and I decided to quit my job. And I did. Without a plan to fall-back on and no idea what I will be doing next.
+I was only a week out of college when I started to work full-time. I was working at a high-growth startup as a product consultant. Life was exciting, I was in the city (Kochi ♥), I had my friends living with me and I had the money to live a comfortable life. But, in the end after 7 months, I felt like I had learned everything I can from the job and I decided to quit. And I did. Without a plan to fall-back on and no idea what I will be doing next.
 
-It was in January 2020 that I moved out from the city, after quitting my job. Little did I know I was going to turn around my career that year. I wanted to be a software engineer so I spent most of my time learning new technologies and started applying for jobs when [COVID-19](https://en.wikipedia.org/wiki/COVID-19) hit. It took a toll on my job hunt but I was prepared to take 6-8 months off. I started exploring machine learning and deep learning which led to joining a Master's program.
+It was in January 2020 that I moved out from the city after quitting my job. Little did I know I was going to turn around my career that year. I wanted to be a software engineer so I spent most of my time learning new technologies and started applying for jobs when [COVID-19](https://en.wikipedia.org/wiki/COVID-19) hit. It took a toll on my job hunt but I was prepared to take 6-8 months off. I started exploring machine learning and deep learning which led to joining a Master's program.
 
-I was also building deep learning projects and making it open-source. I built a project called [NSFW Filter](https://nsfw-filter.com/) which is a browser extension that filters out NSFW content. The project received a lot of attention and it is still my most popular open-source project. It was on GitHub Trending, was [featured on Product Hunt](https://www.producthunt.com/posts/nsfw-filter) and even made it to the [front page of Hacker News](https://news.ycombinator.com/item?id=24251131).
+I was also building deep learning projects and making it open-source. I built a project called [NSFW Filter](https://nsfw-filter.com/), a browser extension that filters out NSFW content from websites. The project received a lot of attention and it is still my most popular open-source project. It topped GitHub Trending, was [featured on Product Hunt](https://www.producthunt.com/posts/nsfw-filter) and even made it to the [front page of Hacker News](https://news.ycombinator.com/item?id=24251131).
 
 > This led me to a [path in open-source](https://twitter.com/sudo_navendu/status/1446819951902281733) which shaped the rest of my career.
 
@@ -76,7 +76,7 @@ By February 2021, I was an active contributor and I had pushed a couple of new f
 
 It was a great experience and after my internship, I was also nominated to be a maintainer of the project. I also got a job offer from the company that built the project.
 
-I now maintain [Meshery](https://meshery.io/) and [Service Mesh Performance](https://smp-spec.io/), both of which have been donated to the [Cloud Native Computing Foundation](https://www.cncf.io/) and essentially I work full-time on these open-source projects. [99% of the code I write is open-source and free](https://github.com/navendu-pottekkat).
+I now maintain [Meshery](https://meshery.io/) and [Service Mesh Performance](https://smp-spec.io/), both of which have been donated to the [Cloud Native Computing Foundation](https://www.cncf.io/) and I work full-time on these open-source projects. [99% of the code I write is open-source and free](https://github.com/navendu-pottekkat).
 
 {{< figure src="/images/about/workstation.jpg#center" title="Work from home is the best!" caption="localhost - October 2021" link="/images/about/workstation.jpg" target="_blank" class="align-center" >}}
 
