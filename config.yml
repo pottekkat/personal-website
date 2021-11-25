@@ -31,7 +31,7 @@ params:
     keywords: [Navendu, Pottekkkat, Blog, Portfolio, Resume]
     author: "Navendu Pottekkat"
     DateFormat: "January 2, 2006"
-    defaultTheme: dark # dark, light
+    defaultTheme: auto # dark, light
     disableThemeToggle: true
 
     ShowReadingTime: true
