@@ -21,13 +21,13 @@
     align-items: center;
     padding: 10px;
     border-radius: var(--radius);
-    background: var(--code-bg);
+    background: var(--primary);
     border: 1px solid var(--border);
-    color: var(--primary);
+    color: var(--code-bg);
     width: 100%;
     overflow: truncate;
 }
 
 .subscribe-button:hover {
-    background: var(--border);
+    background: var(--content);
 }
