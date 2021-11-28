@@ -67,7 +67,7 @@ For example, if a project requires you to sign every commit, your pull requests 
 
 ## What should you Document?
 
-As mentioned in the previous sessions, you are likely to find issues when you start to use the project referring to the documentation.
+As mentioned in the previous sections, you are likely to find issues when you start to use the project referring to the documentation.
 
 This could be as simple as an outdated screenshot to outdated or missing documentation.
 
