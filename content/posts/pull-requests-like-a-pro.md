@@ -4,7 +4,7 @@ date: 2021-09-15T17:52:25+05:30
 draft: false
 summary: "Tips to make High-Quality Pull Requests."
 tags: ["tips", "open-source"]
-categories: ["open-source", "navendu's tips"]
+categories: ["Open Source", "Navendu's Tips"]
 cover:
     image: "images/pull-requests-like-a-pro/Pull Requests Like a PRO+.png"
     alt: "Image that shows Pull Requests Like a PRO"

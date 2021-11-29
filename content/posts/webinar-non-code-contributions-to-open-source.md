@@ -4,7 +4,7 @@ date: 2021-11-07T12:56:25+05:30
 draft: false
 summary: "Key takeaways and resources from Navendu's talk on Non-Code Contributions to Open-Source."
 tags: ["talks", "open-source"]
-categories: ["open-source", "talks"]
+categories: ["Open Source", "Talks"]
 aliases: [/non-code-contributions]
 ShowToc: true
 TocOpen: true

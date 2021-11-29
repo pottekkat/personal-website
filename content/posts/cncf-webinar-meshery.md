@@ -4,7 +4,7 @@ date: "2021-08-26"
 draft: false
 summary: "This CNCF Webinar introduces Meshery, the open source, service mesh management plane that enables the adoption, operation, and management of any service mesh and their workloads."
 tags: ["talks", "webinar", "cncf", "cloud-native", "service-mesh"]
-categories: ["talks"]
+categories: ["Talks"]
 cover:
     image: "images/cncf-webinar-meshery/cncf-webinar-meshery.png"
     alt: "Meshery UI Demo"
