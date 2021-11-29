@@ -6,7 +6,7 @@ summary: "Open-Source is not just about code. See how you can make non-code cont
 ShowToc: true
 TocOpen: true
 tags: ["open-source"]
-categories: ["open-source", "featured"]
+categories: ["Open Source", "Featured"]
 cover:
     image: "images/non-code-contributions-to-open-source/non-code-contributons-banner.png"
     alt: "Banner showing non-code contributions to open-source."
