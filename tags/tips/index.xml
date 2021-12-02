@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Sep 2021 17:52:25 +0530</lastBuildDate><atom:link href="https://navendu.me/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Dec 2021 12:49:25 +0530</lastBuildDate><atom:link href="https://navendu.me/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Everything you Need to Know About Google Summer of Code (GSoC): Important Dates, Eligibility, Application, Getting Selected and Other Tips</title>
+      <link>https://navendu.me/posts/everything-about-gsoc/</link>
+      <pubDate>Thu, 02 Dec 2021 12:49:25 +0530</pubDate>
+      
+      <guid>https://navendu.me/posts/everything-about-gsoc/</guid>
+      <description>Google Summer of Code (GSoC) is a great way to start contributing to open source while getting paid to do so. This article dives deep into everything GSoC from the application procedure to tips from real experience on being successful</description>
+    </item>
+    
     <item>
       <title>Pull Requests Like a PRO</title>
       <link>https://navendu.me/posts/pull-requests-like-a-pro/</link>

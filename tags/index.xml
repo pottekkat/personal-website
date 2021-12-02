@@ -11,13 +11,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Nov 2021 12:56:25 +0530</lastBuildDate><atom:link href="https://navendu.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Dec 2021 12:49:25 +0530</lastBuildDate><atom:link href="https://navendu.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>open-source</title>
       <link>https://navendu.me/tags/open-source/</link>
-      <pubDate>Mon, 08 Nov 2021 12:56:25 +0530</pubDate>
+      <pubDate>Thu, 02 Dec 2021 12:49:25 +0530</pubDate>
       
       <guid>https://navendu.me/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips</title>
+      <link>https://navendu.me/tags/tips/</link>
+      <pubDate>Thu, 02 Dec 2021 12:49:25 +0530</pubDate>
+      
+      <guid>https://navendu.me/tags/tips/</guid>
       <description></description>
     </item>
     
@@ -27,15 +36,6 @@
       <pubDate>Sun, 07 Nov 2021 12:56:25 +0530</pubDate>
       
       <guid>https://navendu.me/tags/talks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tips</title>
-      <link>https://navendu.me/tags/tips/</link>
-      <pubDate>Wed, 15 Sep 2021 17:52:25 +0530</pubDate>
-      
-      <guid>https://navendu.me/tags/tips/</guid>
       <description></description>
     </item>
     

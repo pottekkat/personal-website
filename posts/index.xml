@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Nov 2021 12:56:25 +0530</lastBuildDate><atom:link href="https://navendu.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Dec 2021 12:49:25 +0530</lastBuildDate><atom:link href="https://navendu.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Everything you Need to Know About Google Summer of Code (GSoC): Important Dates, Eligibility, Application, Getting Selected and Other Tips</title>
+      <link>https://navendu.me/posts/everything-about-gsoc/</link>
+      <pubDate>Thu, 02 Dec 2021 12:49:25 +0530</pubDate>
+      
+      <guid>https://navendu.me/posts/everything-about-gsoc/</guid>
+      <description>Google Summer of Code (GSoC) is a great way to start contributing to open source while getting paid to do so. This article dives deep into everything GSoC from the application procedure to tips from real experience on being successful</description>
+    </item>
+    
     <item>
       <title>Contributing to Documentation in Open-Source</title>
       <link>https://navendu.me/posts/contributing-to-documentation/</link>
