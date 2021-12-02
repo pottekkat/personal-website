@@ -1,5 +1,5 @@
 ---
-title: "Archive"
+title: "Archives"
 layout: "archives"
 url: "/archives/"
 description: "Navendu's archives"

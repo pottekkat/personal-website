@@ -1,13 +1,12 @@
 {{- with $.Site.Params.subscribeInfo }}
 <section class="subscribe-content">
   <hr />
+  <p>Thank you for reading <i>"{{ $.Title }}"</i>!</p>
   <p>
-    Thank you for reading <i>"{{ $.Title }}"</i>! Be sure to
-    subscribe via <a href="/subscribe">email</a>
-    or <a href="/index.xml" target="_blank">RSS feed</a> to be the first to
-    receive my latest content!
+    Be sure to subscribe via <a href="/subscribe">email</a> or
+    <a href="/index.xml" target="_blank">RSS feed</a> to be the first to receive
+    my latest content!
   </p>
   <p>{{ .Text | markdownify }}</p>
 </section>
-{{ partial "subscription-form.html" . }}
-{{- end -}}
+{{ partial "subscription-form.html" . }} {{- end -}}
