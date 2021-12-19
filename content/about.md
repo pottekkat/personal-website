@@ -18,6 +18,10 @@ This blog is about:
 *_This list is not exhaustive._
 ## About Me
 
+{{< blockquote author="J.K. Rowling" link="https://www.shmoop.com/quotes/it-is-our-choices-that-show-what-we-truly-are.html" title="Harry Potter and the Chamber of Secrets" >}}
+  It is our choices, Harry, that show what we truly are, far more than our abilities.
+{{< /blockquote >}}
+
 I am Navendu Pottekkat. I am from [Chittur](https://goo.gl/maps/5AhUrxvBZMiFrbYB6), a small town in South India.
 
 Our town is known for its paddy fields and its toddy (palm wine) shops. We also commemorate a war ([Konganpada festival](https://www.onmanorama.com/travel/kerala/2018/06/30/konganpada-a-war-that-became-a-festival.html)) (said to have occurred around AD 918) we won over the king of Kongu (said to be present day [Coimbatore](https://goo.gl/maps/pERBjPQX8NEPw1kx6)) every year for a couple of days. The father of the [Malayalam](https://en.wikipedia.org/wiki/Malayalam) language, [Thunjathu Ramanujan Ezhuthachan](https://en.wikipedia.org/wiki/Thunchaththu_Ezhuthachan) spent his last days on the banks on the river [Sokanashini](https://en.wikipedia.org/wiki/Kannadipuzha_River) which is the heart of Chittur.
@@ -28,7 +32,9 @@ Like every other Indian kid born in the 90s, my days were filled with [cricket](
 
 At this point, I wanted to be an electrical engineer and I spent most of my time building simple robots and other electronics hobby projects. I made a breakthrough in my final year of high school when I discovered [Arduino](https://www.arduino.cc/). Until then, I was using op-amps and transistors in my projects and these were also difficult to get in my town (I had to travel 13 km to buy parts every time). So, learning about Arduino and getting my hands on one was life changing. Suddenly, I was using my programming knowledge to build electronic projects and I felt like I opened a new door in my life. I remember thinking this is what I want to do for the rest of my life.
 
-> **Morgan Freeman**: But life had other plans for Navendu...
+{{< blockquote author="Morgan Freeman" source="In Real Life" >}}
+  But life had other plans for Navendu...
+{{< /blockquote >}}
 
 > There was actually a point in high school where I wanted to join the military. I cleared the [National Defence Academy](https://www.nda.nic.in/) exams on my first try, worked out everyday and appeared before the Service Selection Board. But by the time I appeared for the SSB, I realized I was being impulsive (I was 17) and didn't really want to join the military ([American Sniper](https://www.imdb.com/title/tt2179136/) had an influence on me I guess). Long story short, it was a great experience and I came back after failing the last round of the selection procedure.
 
