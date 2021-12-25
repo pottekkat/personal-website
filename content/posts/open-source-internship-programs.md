@@ -6,7 +6,7 @@ summary: "A curated list of Open Source Internship Programs with all the necessa
 ShowToc: true
 TocOpen: true
 tags: ["list", "open-source", "internship"]
-categories: ["Open Source", "Navendu's Curated Lists"]
+categories: ["Open Source"]
 cover:
     image: "images/open-source-internship-programs/open-door.jpeg"
     alt: "Open Door cover image"

@@ -6,7 +6,7 @@ summary: "Google Summer of Code (GSoC) is a great way to start contributing to o
 ShowToc: true
 TocOpen: true
 tags: ["open-source", "tips"]
-categories: ["Open Source", "Navendu's Tips"]
+categories: ["Open Source"]
 cover:
   image: "images/everything-about-gsoc/Google Summer of Code (GSoC) Banner.png"
   alt: "Google Summer of Code (GSoC) Banner"
