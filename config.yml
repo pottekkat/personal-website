@@ -2,7 +2,7 @@ baseURL: https://navendu.me/
 languageCode: en-us
 title: "Navendu Pottekkat"
 theme: "PaperMod"
-paginate: 5
+paginate: 20
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -41,7 +41,7 @@ params:
     ShowCodeCopyButtons: true
     disableSpecial1stPost: false
     disableScrollToTop: false
-    comments: true
+    comments: false
     hidemeta: false
     hideSummary: false
     showtoc: false
