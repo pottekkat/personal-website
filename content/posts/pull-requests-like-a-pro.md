@@ -1,6 +1,7 @@
 ---
 title: "Pull Requests Like a PRO"
 date: 2021-09-15T17:52:25+05:30
+weight: 80
 draft: false
 summary: "Tips to make High-Quality Pull Requests."
 tags: ["tips", "open-source"]
