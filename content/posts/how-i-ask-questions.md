@@ -14,7 +14,7 @@ cover:
   relative: false
 ---
 
-I ask a lot of questions to my peers and to strangers on public forums in the internet (I hate those Stack Overflow gatekeepers). This year, I have been trying to improve this process to ask better questions. Here is how I do it.
+I ask a lot of questions to my peers and to strangers on public forums in the internet. This year, I have been trying to improve this process to ask better questions. Here is how I do it.
 
 But first of all,
 
