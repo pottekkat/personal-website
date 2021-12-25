@@ -1,6 +1,7 @@
 ---
 title: "Contributing to Documentation in Open-Source"
 date: 2021-11-08T12:56:25+05:30
+weight: 40
 draft: false
 summary: "Contributing to documentation is really impactful for an open-source project. It can also be a stepping stone to make code contributions. Learn how."
 tags: ["open-source"]

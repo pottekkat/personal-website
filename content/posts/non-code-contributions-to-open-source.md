@@ -1,6 +1,7 @@
 ---
 title: "How to Make Non-Code Contributions to Open-Source Projects"
 date: 2021-09-21T12:56:25+05:30
+weight: 100
 draft: false
 summary: "Open-Source is not just about code. See how you can make non-code contributions to open-source."
 ShowToc: true
