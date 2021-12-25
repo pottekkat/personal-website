@@ -13,15 +13,6 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Dec 2021 12:49:25 +0530</lastBuildDate><atom:link href="https://navendu.me/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Everything you Need to Know About Google Summer of Code (GSoC): Important Dates, Eligibility, Application, Getting Selected and Other Tips</title>
-      <link>https://navendu.me/posts/everything-about-gsoc/</link>
-      <pubDate>Thu, 02 Dec 2021 12:49:25 +0530</pubDate>
-      
-      <guid>https://navendu.me/posts/everything-about-gsoc/</guid>
-      <description>Google Summer of Code (GSoC) is a great way to start contributing to open source while getting paid to do so. This article dives deep into everything GSoC from the application procedure to tips from real experience on being successful</description>
-    </item>
-    
-    <item>
       <title>Contributing to Documentation in Open-Source</title>
       <link>https://navendu.me/posts/contributing-to-documentation/</link>
       <pubDate>Mon, 08 Nov 2021 12:56:25 +0530</pubDate>
@@ -31,30 +22,12 @@
     </item>
     
     <item>
-      <title>Webinar: Non-Code Contributions to Open-Source</title>
-      <link>https://navendu.me/posts/webinar-non-code-contributions-to-open-source/</link>
-      <pubDate>Sun, 07 Nov 2021 12:56:25 +0530</pubDate>
+      <title>Everything you Need to Know About Google Summer of Code (GSoC): Important Dates, Eligibility, Application, Getting Selected and Other Tips</title>
+      <link>https://navendu.me/posts/everything-about-gsoc/</link>
+      <pubDate>Thu, 02 Dec 2021 12:49:25 +0530</pubDate>
       
-      <guid>https://navendu.me/posts/webinar-non-code-contributions-to-open-source/</guid>
-      <description>Key takeaways and resources from Navendu&amp;rsquo;s talk on Non-Code Contributions to Open-Source.</description>
-    </item>
-    
-    <item>
-      <title>Building Your Career in Open-Source</title>
-      <link>https://navendu.me/posts/building-your-career-in-open-source/</link>
-      <pubDate>Thu, 30 Sep 2021 12:56:25 +0530</pubDate>
-      
-      <guid>https://navendu.me/posts/building-your-career-in-open-source/</guid>
-      <description>My experience from a new programmer to working in open-source full time.</description>
-    </item>
-    
-    <item>
-      <title>How to Make Non-Code Contributions to Open-Source Projects</title>
-      <link>https://navendu.me/posts/non-code-contributions-to-open-source/</link>
-      <pubDate>Tue, 21 Sep 2021 12:56:25 +0530</pubDate>
-      
-      <guid>https://navendu.me/posts/non-code-contributions-to-open-source/</guid>
-      <description>Open-Source is not just about code. See how you can make non-code contributions to open-source.</description>
+      <guid>https://navendu.me/posts/everything-about-gsoc/</guid>
+      <description>Google Summer of Code (GSoC) is a great way to start contributing to open source while getting paid to do so. This article dives deep into everything GSoC from the application procedure to tips from real experience on being successful</description>
     </item>
     
     <item>
@@ -67,12 +40,39 @@
     </item>
     
     <item>
+      <title>How to Make Non-Code Contributions to Open-Source Projects</title>
+      <link>https://navendu.me/posts/non-code-contributions-to-open-source/</link>
+      <pubDate>Tue, 21 Sep 2021 12:56:25 +0530</pubDate>
+      
+      <guid>https://navendu.me/posts/non-code-contributions-to-open-source/</guid>
+      <description>Open-Source is not just about code. See how you can make non-code contributions to open-source.</description>
+    </item>
+    
+    <item>
       <title>20&#43; Open Source Internship Programs that you can Apply to</title>
       <link>https://navendu.me/posts/open-source-internship-programs/</link>
       <pubDate>Sat, 28 Aug 2021 17:52:25 +0530</pubDate>
       
       <guid>https://navendu.me/posts/open-source-internship-programs/</guid>
       <description>A curated list of Open Source Internship Programs with all the necessary details.</description>
+    </item>
+    
+    <item>
+      <title>Building Your Career in Open-Source</title>
+      <link>https://navendu.me/posts/building-your-career-in-open-source/</link>
+      <pubDate>Thu, 30 Sep 2021 12:56:25 +0530</pubDate>
+      
+      <guid>https://navendu.me/posts/building-your-career-in-open-source/</guid>
+      <description>My experience from a new programmer to working in open-source full time.</description>
+    </item>
+    
+    <item>
+      <title>Webinar: Non-Code Contributions to Open-Source</title>
+      <link>https://navendu.me/posts/webinar-non-code-contributions-to-open-source/</link>
+      <pubDate>Sun, 07 Nov 2021 12:56:25 +0530</pubDate>
+      
+      <guid>https://navendu.me/posts/webinar-non-code-contributions-to-open-source/</guid>
+      <description>Key takeaways and resources from Navendu&amp;rsquo;s talk on Non-Code Contributions to Open-Source.</description>
     </item>
     
   </channel>
