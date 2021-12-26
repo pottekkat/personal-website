@@ -2,7 +2,7 @@ baseURL: https://navendu.me/
 languageCode: en-us
 title: "Navendu Pottekkat"
 theme: "PaperMod"
-paginate: 20
+paginate: 200
 
 enableRobotsTXT: true
 buildDrafts: false
