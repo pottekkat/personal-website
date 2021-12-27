@@ -70,20 +70,20 @@ params:
           url: "https://github.com/navendu-pottekkat"
         - name: linkedin
           url: "https://www.linkedin.com/in/navendup/"
-        - name: medium
-          url: "https://medium.com/@navendupottekkat"
-        - name: stackoverflow
-          url: "https://stackoverflow.com/users/12424846/navendu-pottekkat"
+        # - name: medium
+        #   url: "https://medium.com/@navendupottekkat"
+        # - name: stackoverflow
+        #   url: "https://stackoverflow.com/users/12424846/navendu-pottekkat"
         - name: twitter
           url: "https://twitter.com/sudo_navendu"
-        - name: facebook
-          url: "https://www.facebook.com/navendupottekkat/"
+        # - name: facebook
+        #   url: "https://www.facebook.com/navendupottekkat/"
         - name: instagram
           url: "https://www.instagram.com/sudo_navendu/"
         - name: youtube
           url: "https://www.youtube.com/channel/UCWwMJ5SxVStO04W3nOrCiNA"
-        - name: goodreads
-          url: "https://www.goodreads.com/user/show/83926433-navendu-pottekkat"
+        # - name: goodreads
+        #   url: "https://www.goodreads.com/user/show/83926433-navendu-pottekkat"
         - name: rss
           url: /index.xml
 
