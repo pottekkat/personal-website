@@ -2,6 +2,6 @@
 title: "Archives"
 layout: "archives"
 url: "/archives/"
-description: "Navendu's archives"
+description: "Archives"
 summary: "archives"
 ---
