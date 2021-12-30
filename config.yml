@@ -61,7 +61,7 @@ params:
           - If you are here for the first time, check out the [Featured Posts](/categories/featured/) or learn more [About Me](/about) and make sure you Subscribe via [Email](/subscribe) or [RSS](/index.xml) to get regular updates.
 
     subscribeInfo:
-      Text: If you liked this post, check out my other [Featured Posts](/categories/featured) or learn more [About Me](/about)!
+      Text: If you liked this post, check out my other [Featured Posts](/categories/featured) or learn more [About Me](/about).
 
     socialIcons:
         - name: email
