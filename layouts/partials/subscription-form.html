@@ -16,7 +16,7 @@
       />
     </div>
     <input
-      value="Subscribe for Updates!"
+      value="Get Updates"
       type="submit"
       class="subscribe-button"
       title="Subscribe"
@@ -47,7 +47,7 @@
         if (data.result === `success`) {
           form.find(".subscribe-button").attr("value", "Subscribed!");
           $(".subscribe-message").html(
-            "Thank you for subscribing to my blog! <a target='_blank' href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fnavendu.me&text=I%20just%20subscribed%20to%20@sudo_navendu%27s%20blog%21%20Check%20it%20out%21&hashtags=OpenSource%2CDevelopers%2CDEVCommunity'>Tweet about it</a>!"
+            "Thank you for subscribing! <a target='_blank' href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fnavendu.me&text=I%20just%20subscribed%20to%20@sudo_navendu%27s%20blog%21%20Check%20it%20out%21&hashtags=OpenSource%2CDevelopers%2CDEVCommunity'>Tweet about it</a>!"
           );
           $(".subscribe-form :input").prop("disabled", true);
         } else {
