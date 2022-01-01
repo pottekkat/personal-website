@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>daily log on Navendu Pottekkat</title>
+    <link>https://navendu.me/tags/daily-log/</link>
+    <description>Recent content in daily log on Navendu Pottekkat</description>
+    <image>
+      <url>https://navendu.me/images/preview.png</url>
+      <link>https://navendu.me/</link>
+      <title>Navendu Pottekkat</title>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 Dec 2021 21:15:25 +0530</lastBuildDate><atom:link href="https://navendu.me/tags/daily-log/index.xml" rel="self" type="application/rss+xml" />
+      <item>
+        <title>#1 New Year, New Me - Friday, 31st December 2021</title>
+        <link>https://navendu.me/daily/31-12-21-new-year-new-me/</link>
+        <pubDate>Fri, 31 Dec 2021 21:15:25 +0530</pubDate>
+        
+        <guid>https://navendu.me/daily/31-12-21-new-year-new-me/</guid>
+        <description>I will blog daily. Or at least I hope to.</description>
+      </item>
+    
+  </channel>
+</rss>
