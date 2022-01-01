@@ -109,10 +109,6 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
-        - identifier: search
-          name: Search
-          url: /search/
-          weight: 10
         - identifier: archives
           name: Archives
           url: /archives/
@@ -121,9 +117,9 @@ menu:
           name: Categories
           url: /categories/
           weight: 30
-        - identifier: tags
-          name: Tags
-          url: /tags/
+        - identifier: daily
+          name: Daily Logs
+          url: /categories/daily-dose-of-pottekkat/
           weight: 40
         - identifier: about
           name: About
