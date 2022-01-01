@@ -72,7 +72,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 {{- /* Search */}}
-{{- if (eq .Layout `search`) -}}
+{{- if or (eq .Layout `search`) (eq .Layout `archives`) -}}
 <link crossorigin="anonymous" rel="preload" as="fetch" href="../index.json">
 {{- $fastsearch := resources.Get "js/fastsearch.js" | js.Build (dict "params" (dict "fuseOpts" .Site.Params.fuseOpts)) }}
 {{- $fusejs := resources.Get "js/fuse.js" }}
