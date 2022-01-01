@@ -118,9 +118,9 @@ menu:
           url: /categories/
           weight: 30
         - identifier: daily
-          name: Daily
+          name: Daily Logs
           url: /categories/daily-dose-of-pottekkat/
-          weight: 50
+          weight: 40
         - identifier: about
           name: About
           url: /about/
