@@ -35,6 +35,7 @@ params:
     disableThemeToggle: true
 
     ShowReadingTime: true
+    ShowLastMod: true
     ShowShareButtons: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
