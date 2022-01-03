@@ -1,4 +1,4 @@
-name: github pages
+name: Build and Publish Website
 
 on:
   push:
@@ -7,8 +7,9 @@ on:
   pull_request:
 
 jobs:
-  deploy:
+  build-and-publish:
     runs-on: ubuntu-20.04
+    name: Build and Publish Website
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
