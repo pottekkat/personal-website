@@ -67,6 +67,8 @@ Here is the [README](https://github.com/navendu-pottekkat/nsfw-filter/blob/maste
 
 I will go through the different parts of the README that **I think** are essential to every README.
 
+{{< gist navendu-pottekkat dd6b823e1edd7c24945235c18b18b539 >}}
+
 Here is [the link for the README file](https://github.com/navendu-pottekkat/awesome-readme/tree/master) used in this example. You can also find a [**template** README file](https://github.com/navendu-pottekkat/awesome-readme/blob/master/README-template.md) that you can directly copy and paste in your projects.
 
 Well, that winds things up.
