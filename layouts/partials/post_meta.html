@@ -8,9 +8,11 @@
 {{- $lastmod := .Lastmod.Format "02.01.2006" -}}
 
 {{- if (.Param "ShowLastMod") -}}
+{{- if .GitInfo -}}
 {{- if in .GitInfo.Subject "update site" -}}
 {{- if ne $lastmod $date -}}
 {{- $scratch.Add "meta" (slice (printf "<span title='%s'>Updated On %s</span>" (.Lastmod) (.Lastmod.Format (default "January 2, 2006" .Site.Params.DateFormat)))) }}
+{{- end }}
 {{- end }}
 {{- end }}
 {{- end }}
