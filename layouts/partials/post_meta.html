@@ -1,0 +1,28 @@
+{{- $scratch := newScratch }}
+
+{{- if not .Date.IsZero -}}
+{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat)))) }}
+{{- end }}
+
+{{- $date := .Date.Format "02.01.2006" -}}
+{{- $lastmod := .Lastmod.Format "02.01.2006" -}}
+
+{{- if (.Param "ShowLastMod") -}}
+{{- if in .GitInfo.Subject "update site" -}}
+{{- if ne $lastmod $date -}}
+{{- $scratch.Add "meta" (slice (printf "<span title='%s'>Updated On %s</span>" (.Lastmod) (.Lastmod.Format (default "January 2, 2006" .Site.Params.DateFormat)))) }}
+{{- end }}
+{{- end }}
+{{- end }}
+
+{{- if (.Param "ShowReadingTime") -}}
+{{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
+{{- end }}
+
+{{- with (partial "author.html" .) }}
+{{- $scratch.Add "meta" (slice .) }}
+{{- end }}
+
+{{- with ($scratch.Get "meta") }}
+{{- delimit . "&nbsp;·&nbsp;" -}}
+{{- end -}}
