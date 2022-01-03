@@ -1,21 +1,21 @@
 # Blog/Portfolio Website
 
-A static blog/portfolio website built using Hugo.
+A static blog/portfolio website built using Hugo. [[See Live](https://navendu.me)]
 
-Uses the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
+Built on top of the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
 
-Changes: New "About" page, fixed issues with Schema, updated footer.
-
-See [adityatelange/hugo-PaperMod/wiki](https://github.com/adityatelange/hugo-PaperMod/wiki) for details on setting this up.
+See [adityatelange/hugo-PaperMod/wiki](https://github.com/adityatelange/hugo-PaperMod/wiki) to use this theme.
 
 See [master](https://github.com/navendu-pottekkat/navendu-pottekkat.github.io/tree/master) branch for Bootstrap based website. This has been updated to Hugo based website.
 
-# Usage
+# New Features
 
-Fork and clone the repo.
-
-Change the `˜/content` folder accordingly.
-
-Change the name of the repo.
-
-Change the branch on which the action needs to run in `˜/.github/workflows` folder.
+* Fixed RSS feeds
+* About page
+* Subscribe page
+* Subscribe form
+* Auto plugin content at the end of posts
+* Show "Updated On" when pages are updated and tagged with "update site"
+* Section for "Daily Logs" separated from posts
+* Consolidated "Search" and "Archive" pages
+* Opens external links on new tab and in-site links on same tab automatically in Markdown
