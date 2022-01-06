@@ -5,6 +5,9 @@ on:
     branches:
       - hugo  # Set a branch to deploy
   pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 21 * * *' # Run everyday at 9:13 PM
 
 jobs:
   build-and-publish:
