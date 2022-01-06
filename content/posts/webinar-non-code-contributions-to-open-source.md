@@ -15,7 +15,7 @@ cover:
     relative: false
 ---
 
-Takeaways and additional resources from [Navendu's session on "Non-Code Contributions to Open-Source"](https://aviyel.com/events/167).
+Takeaways and additional resources from [Navendu\'s session on \'Non-Code Contributions to Open-Source\'](https://aviyel.com/events/167).
 
 Have questions? Comment below or reach out to me at [@sudo_navendu](https://twitter.com/sudo_navendu).
 
@@ -24,6 +24,10 @@ You can also checkout this Twitter thread for a quick summary of my talk.
 {{< rawhtml >}}
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🤩 11 days to go until <a href="https://twitter.com/hacktoberfest?ref_src=twsrc%5Etfw">@hacktoberfest</a> !<br><br>Here are some ways you can contribute to open-source projects WITHOUT contributing code.<br><br>A thread 👇.</p>&mdash; Navendu Pottekkat (@sudo_navendu) <a href="https://twitter.com/sudo_navendu/status/1439233021496889356?ref_src=twsrc%5Etfw">September 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {{< /rawhtml >}}
+
+## Recording
+
+{{< youtube _VPh2_NsCn4 >}}
 
 ## Slides
 
