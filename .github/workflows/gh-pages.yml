@@ -7,7 +7,7 @@ on:
   pull_request:
   workflow_dispatch:
   schedule:
-    - cron: '13 21 * * *' # Run everyday at 9:13 PM
+    - cron: '24 3 * * *' # Run everyday at 8:54 PM IST (3:24 PM UTC)
 
 jobs:
   build-and-publish:
