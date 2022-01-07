@@ -100,7 +100,9 @@ By February 2021, I was an active contributor and I had pushed a couple of new f
 
 It was a great experience and after my internship, I was also nominated to be a maintainer of the project. I also got a job offer from the company that built the project.
 
-I now maintain [Meshery](https://meshery.io/) and [Service Mesh Performance](https://smp-spec.io/), both of which have been donated to the [Cloud Native Computing Foundation](https://www.cncf.io/) and I work full-time on these open-source projects. [99% of the code I write is open-source and free](https://github.com/navendu-pottekkat).
+I now maintain [Meshery](https://meshery.io/) and [Service Mesh Performance](https://smp-spec.io/), both of which have been donated to the [Cloud Native Computing Foundation](https://www.cncf.io/) and I work full-time on these open-source projects.
+
+99% of the code I write is [open-source and free](https://github.com/navendu-pottekkat).
 
 {{< figure src="/images/about/workstation.jpg#center" title="Work from home is the best!" caption="localhost - October 2021" link="/images/about/workstation.jpg" target="_blank" class="align-center" >}}
 
