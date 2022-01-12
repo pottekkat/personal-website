@@ -10,7 +10,7 @@ categories: ["Daily Dose of Pottekkat"]
 
 A couple of months ago, my system to track tasks broke down.
 
-The tool was my own brain and depended on its ability to remember things. But it had this bug where it can only remember so many things before an incoming information pushes out "address the comments on the performance testing design spec".
+The system was my own brain and depended on its ability to remember things. But it had this bug where it can only remember so many things before an incoming information pushes out "address the comments on the performance testing design spec".
 
 I had a physical book and Evernote to complement my ability to remember things but these didn't make me more productive or make my life any easier.
 
