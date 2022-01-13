@@ -34,6 +34,8 @@ params:
     defaultTheme: auto # dark, light
     disableThemeToggle: true
 
+    mainSections: ['posts']
+
     ShowReadingTime: true
     ShowLastMod: true
     ShowShareButtons: true
