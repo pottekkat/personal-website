@@ -16,7 +16,7 @@ I have read Murakami's works during the initial lockdown days.
 
 I got interested in his writing through a collection of his short stories titled "The Elephant Vanishes". It was right up my alley and I went on to read a lot more of his books.
 
-{{< figure src="/images/22-1-22-what-i-talk-about-when-i-talk-about-haruki-murakami/murakami-book-collection.jpeg#center" title="My Haruki Murakami Collection" caption="23rd June 2020" link="/images/about/chittur-river.jpeg" target="_blank" class="align-center" >}}
+{{< figure src="/images/22-1-22-what-i-talk-about-when-i-talk-about-haruki-murakami/murakami-book-collection.jpeg#center" title="My Haruki Murakami Collection" caption="23rd June 2020" link="/images/22-1-22-what-i-talk-about-when-i-talk-about-haruki-murakami/murakami-book-collection.jpeg" target="_blank" class="align-center" >}}
 
 "[Kafka on the Shore](https://www.goodreads.com/book/show/4929.Kafka_on_the_Shore)" was as magical as this [TED video](https://www.youtube.com/watch?v=mB4FO1itCi0) portrays. It under the genre of _[magical realism](https://en.wikipedia.org/wiki/Magic_realism)_ and I may have a taste for this genre.
 
