@@ -10,7 +10,7 @@ categories: ["Daily Dose of Pottekkat"]
 
 My vocabulary of five letter words is improving—thanks to Wordle.
 
-{{< figure src="/images/25-1-22-silicon-valley-gets-software-engineers/screenshot-from-wordle.png/#center" title="I have to get better at this" caption="[powerlanguage.co.uk/wordle](https://www.powerlanguage.co.uk/wordle/)" link="/images/25-1-22-silicon-valley-gets-software-engineers/screenshot-from-wordle.png" target="_blank" class="align-center" >}}
+{{< figure src="/images/25-1-22-silicon-valley-gets-software-engineers/screenshot-from-wordle.png#center" title="I have to get better at this" caption="[powerlanguage.co.uk/wordle](https://www.powerlanguage.co.uk/wordle/)" link="/images/25-1-22-silicon-valley-gets-software-engineers/screenshot-from-wordle.png" target="_blank" class="align-center" >}}
 
 I was reading through Gergely Orosz's article on "[What Silicon Valley ' Gets ' about Software Engineers that Traditional Companies Do Not](https://blog.pragmaticengineer.com/what-silicon-valley-gets-right-on-software-engineers/)" and I couldn't help but compare it to the Indian tech industry.
 
