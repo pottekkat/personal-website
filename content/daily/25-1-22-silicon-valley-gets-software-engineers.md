@@ -1,5 +1,5 @@
 ---
-title: "#24 Silicon Valley \"Gets\" Software Engineers"
+title: "#24 Silicon Valley \"Gets\" Software Engineers - Tuesday, 25th January 2022"
 layout: "daily-theme"
 date: 2022-01-25T12:20:40+05:30
 draft: false
