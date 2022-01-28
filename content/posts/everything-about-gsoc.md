@@ -24,19 +24,21 @@ This is where [open source mentorship programs](../open-source-internship-progra
 
 GSoC is an annual program from Google focusing on bringing students and new developers into to open source.
 
-Each summer, participating students or mentees, get to work on open source projects from the hundreds of organizations that participate in GSoC. The participating mentees are paired with mentors from the participating organizations and are also paid a stipend during their period of mentorship.
+Each summer, participating mentees get to work on open source projects from the hundreds of organizations that participate in GSoC. The participating mentees are paired with mentors from the participating organizations and are also paid a stipend during their period of mentorship.
 
 Here is a quick summary of the program before we dive deep into the details.
 
 | Duration                                                                                                                                       | Timeline                                                                      | Stipend                                                                                                    | Eligibility                                                                                                            |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| 12 Weeks, ˜3 Months ([Could be increased up to 22 weeks](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html)) | [Dates coming soon!](https://developers.google.com/open-source/gsoc/timeline) | [$1500 - $3300](https://developers.google.com/open-source/gsoc/help/student-stipends#total_stipend_amount) | [Anyone about 18 years of age](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html) |
+| 12 Weeks, ˜3 Months ([Could be increased up to 22 weeks](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html)) | [February 7th - November 28th](https://developers.google.com/open-source/gsoc/timeline) | [$1500 - $3300](https://developers.google.com/open-source/gsoc/help/student-stipends#total_stipend_amount) | [Anyone about 18 years of age](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html) |
 
 Stick around till the end to learn more on how you can get selected and my tips as a GSoC mentor.
 
+> This year, GSoC is open to **everyone above the age of 18** and not just students.
+
 ## Why Should I Participate in GSoC?
 
-According to [Linux Foundation's 2021 Open Source Jobs Report](https://www.linuxfoundation.org/tools/the-2021-open-source-jobs-report/), 92% of employers say finding people with open source skills is difficult.
+According to [Linux Foundation\'s 2021 Open Source Jobs Report](https://www.linuxfoundation.org/tools/the-2021-open-source-jobs-report/), 92% of employers say finding people with open source skills is difficult.
 
 Open source skills are in demand and there is definitely a lack of supply.
 
@@ -51,27 +53,27 @@ The goal of GSoC is to enable mentees to be good open source stewards. Successfu
 
 ## Am I Eligible to Participate?
 
-With the [new rules for 2022](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html), everyone over the age of 18 is eligible to participate.
+With the [new rules for 2022](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html), **everyone over the age of 18 is eligible** to participate.
 
 You should also have a strong desire to contribute to open source and help the community of course!
 
 ## When does GSoC Start?
 
-The [2022 timeline for GSoC](https://developers.google.com/open-source/gsoc/timeline) has not yet been published.
+Organizations start applying from February 7th.
 
-But generally, the program starts from January when the organizations start applying.
+Mentees can start applying from **April 4th till April 19th**.
 
-The mentees can start applying around March - April.
+See the [2022 timeline for GSoC](https://developers.google.com/open-source/gsoc/timeline) for other details.
 
 ## How Long is the Program?
 
 This time around, mentors and mentees can [extend the period of GSoC up to 22 weeks](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html) instead of the mandatory 12 weeks as in previous years.
 
-The dates of each [program milestones](https://developers.google.com/open-source/gsoc/timeline) are yet to be announced for 2022.
+See the dates of each [program milestones](https://developers.google.com/open-source/gsoc/timeline) for a better idea on the timeline.
 
 ## How do I Apply?
 
-You can apply on the [GSoC website](https://summerofcode.withgoogle.com/) when it opens next year.
+You can apply on the [GSoC website](https://summerofcode.withgoogle.com/) when the [application period](#when-does-gsoc-start) starts.
 
 The application process is mainly these 3 steps:
 
