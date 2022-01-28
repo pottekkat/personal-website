@@ -3,7 +3,7 @@ title: "#27 I Am My Experiences - Friday, 28th January 2022"
 layout: "daily-theme"
 date: 2022-01-28T11:14:22+05:30
 draft: false
-summary: ""
+summary: "Mini-Boom! I _should_ have guessed it earlier."
 tags: ["daily log"]
 categories: ["Daily Dose of Pottekkat"]
 ---
