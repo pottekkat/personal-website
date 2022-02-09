@@ -11,22 +11,31 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Feb 2022 20:44:15 +0530</lastBuildDate><atom:link href="https://navendu.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Feb 2022 10:54:49 +0530</lastBuildDate><atom:link href="https://navendu.me/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Daily Dose of Pottekkat</title>
-      <link>https://navendu.me/categories/daily-dose-of-pottekkat/</link>
-      <pubDate>Tue, 08 Feb 2022 20:44:15 +0530</pubDate>
+      <title>Book Review</title>
+      <link>https://navendu.me/categories/book-review/</link>
+      <pubDate>Wed, 09 Feb 2022 10:54:49 +0530</pubDate>
       
-      <guid>https://navendu.me/categories/daily-dose-of-pottekkat/</guid>
+      <guid>https://navendu.me/categories/book-review/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Featured</title>
       <link>https://navendu.me/categories/featured/</link>
-      <pubDate>Sat, 25 Dec 2021 11:15:25 +0530</pubDate>
+      <pubDate>Wed, 09 Feb 2022 10:54:49 +0530</pubDate>
       
       <guid>https://navendu.me/categories/featured/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Daily Dose of Pottekkat</title>
+      <link>https://navendu.me/categories/daily-dose-of-pottekkat/</link>
+      <pubDate>Tue, 08 Feb 2022 20:44:15 +0530</pubDate>
+      
+      <guid>https://navendu.me/categories/daily-dose-of-pottekkat/</guid>
       <description></description>
     </item>
     
