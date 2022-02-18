@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>blogs on Navendu Pottekkat</title>
+    <link>https://navendu.me/tags/blogs/</link>
+    <description>Recent content in blogs on Navendu Pottekkat</description>
+    <image>
+      <url>https://navendu.me/images/preview.png</url>
+      <link>https://navendu.me/</link>
+      <title>Navendu Pottekkat</title>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Feb 2022 16:54:49 +0530</lastBuildDate><atom:link href="https://navendu.me/tags/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Developers Should Blog</title>
+      <link>https://navendu.me/posts/why-developers-should-blog/</link>
+      <pubDate>Thu, 17 Feb 2022 16:54:49 +0530</pubDate>
+      
+      <guid>https://navendu.me/posts/why-developers-should-blog/</guid>
+      <description>I have been blogging ever since I started out as a software engineer. Here is why you should do it too.</description>
+    </item>
+    
+  </channel>
+</rss>
