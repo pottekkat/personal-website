@@ -3,7 +3,7 @@ title: "#48 Selling Yourself - Sunday, 20th February 2022"
 layout: "daily-theme"
 date: 2022-02-20T21:19:29+05:30
 draft: false
-summary: ""
+summary: "Do you have an MBA?"
 tags: ["daily log"]
 categories: ["Daily Dose of Pottekkat"]
 ---
