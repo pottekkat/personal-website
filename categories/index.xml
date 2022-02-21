@@ -22,20 +22,20 @@
     </item>
     
     <item>
+      <title>Featured</title>
+      <link>https://navendu.me/categories/featured/</link>
+      <pubDate>Thu, 17 Feb 2022 16:54:49 +0530</pubDate>
+      
+      <guid>https://navendu.me/categories/featured/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Book Review</title>
       <link>https://navendu.me/categories/book-review/</link>
       <pubDate>Wed, 09 Feb 2022 10:54:49 +0530</pubDate>
       
       <guid>https://navendu.me/categories/book-review/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Featured</title>
-      <link>https://navendu.me/categories/featured/</link>
-      <pubDate>Wed, 09 Feb 2022 10:54:49 +0530</pubDate>
-      
-      <guid>https://navendu.me/categories/featured/</guid>
       <description></description>
     </item>
     
@@ -72,6 +72,15 @@
       <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://navendu.me/categories/tutorials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing/Blogging</title>
+      <link>https://navendu.me/categories/writing/blogging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://navendu.me/categories/writing/blogging/</guid>
       <description></description>
     </item>
     

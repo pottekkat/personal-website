@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Dec 2021 11:15:25 +0530</lastBuildDate><atom:link href="https://navendu.me/tags/communication/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Feb 2022 16:54:49 +0530</lastBuildDate><atom:link href="https://navendu.me/tags/communication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Developers Should Blog</title>
+      <link>https://navendu.me/posts/why-developers-should-blog/</link>
+      <pubDate>Thu, 17 Feb 2022 16:54:49 +0530</pubDate>
+      
+      <guid>https://navendu.me/posts/why-developers-should-blog/</guid>
+      <description>I have been blogging ever since I started out as a software engineer. Here is why you should do it too.</description>
+    </item>
+    
     <item>
       <title>How I Ask Questions as a Software Engineer</title>
       <link>https://navendu.me/posts/how-i-ask-questions/</link>
