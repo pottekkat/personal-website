@@ -3,7 +3,7 @@ title: "#58 Parks and Recs is the Best TV Show Ever - Wednesday, 2nd March 2022"
 layout: "daily-theme"
 date: 2022-03-02T09:56:43+05:30
 draft: false
-summary: ""
+summary: "Li'l Sebastian is probably the best minor character in the whole show."
 tags: ["daily log"]
 categories: ["Daily Dose of Pottekkat"]
 ---
