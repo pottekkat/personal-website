@@ -1,7 +1,7 @@
 ---
 title: "#74 Transitioning - Friday, 18th March 2022"
 layout: "daily-theme"
-date: 2022-03-19T17:56:22+05:30
+date: 2022-03-18T17:56:22+05:30
 draft: false
 summary: "Transitioning into the new job and watching Pada."
 tags: ["daily log"]
