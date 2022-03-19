@@ -56,8 +56,11 @@ params:
     homeInfoParams:
         Title: "Navendu Pottekkat"
         Content: >
-          - I'm a Software Engineer building Open-Source projects.
-          I  formerly maintained [Meshery](https://github.com/meshery/meshery) and [Service Mesh Performance](https://github.com/service-mesh-performance/service-mesh-performance) at [Cloud Native Computing Foundation](https://www.cncf.io/) and I'm also the creator and a maintainer of [NSFW Filter](https://github.com/nsfw-filter/nsfw-filter) (looking for maintainers!).
+          - I'm a Software Engineer building Open-Source projects. I currently work on [Apache APISIX](https://apisix.apache.org/)—the Cloud Native API Gateway.
+          
+          -
+          
+          - I  formerly maintained [Meshery](https://github.com/meshery/meshery) and [Service Mesh Performance](https://github.com/service-mesh-performance/service-mesh-performance) at [Cloud Native Computing Foundation](https://www.cncf.io/) and I'm also the creator and a maintainer of [NSFW Filter](https://github.com/nsfw-filter/nsfw-filter) (looking for maintainers!).
           
           -
 
