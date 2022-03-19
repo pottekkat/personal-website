@@ -98,9 +98,11 @@ I found the [Meshery](https://meshery.io/) project which had a really welcoming 
 
 By February 2021, I was an active contributor and I had pushed a couple of new features. This paved the way to an internship through [Linux Foundation (LFX Mentorship Program)](https://mentorship.lfx.linuxfoundation.org/) at the Meshery project for 3 months.
 
-It was a great experience and after my internship, I was also nominated to be a maintainer of the project. I also got a job offer from the company that built the project.
+It was a great experience and after my internship, I was nominated to be a maintainer of the project and got a job offer from the company that built the project.
 
-I now maintain [Meshery](https://meshery.io/) and [Service Mesh Performance](https://smp-spec.io/), both of which have been donated to the [Cloud Native Computing Foundation](https://www.cncf.io/) and I work full-time on these open-source projects.
+I went on to maintain [Meshery](https://meshery.io/) and [Service Mesh Performance](https://smp-spec.io/), both of which have been donated to the [Cloud Native Computing Foundation](https://www.cncf.io/) and I worked full-time on these open-source projects.
+
+Now I work on [Apache APISIX](https://apisix.apache.org/) full-time helping steward the project and increase adoption.
 
 99% of the code I write is [open-source and free](https://github.com/navendu-pottekkat).
 
@@ -120,4 +122,5 @@ _May the source be with you,_
 
 **Navendu Pottekkat**
 
-17th November 2021
+17th November 2021\
+_(Updated on 19th March 2022)_
