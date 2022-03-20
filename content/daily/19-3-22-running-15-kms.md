@@ -3,7 +3,7 @@ title: "#75 Running 15 Kilometers - Saturday, 19th March 2022"
 layout: "daily-theme"
 date: 2022-03-19T19:00:36+05:30
 draft: false
-summary: ""
+summary: "I ran 15 kms today."
 tags: ["daily log"]
 categories: ["Daily Dose of Pottekkat"]
 ---
