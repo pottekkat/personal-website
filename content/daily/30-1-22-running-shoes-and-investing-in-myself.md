@@ -3,7 +3,7 @@ title: "#29 Running Shoes and Investing in Myself - Sunday, 30th January 2022"
 layout: "daily-theme"
 date: 2022-01-30T08:31:29+05:30
 draft: false
-summary: ""
+summary: "It wasn’t an obvious one today but I got the right letters in the third step and I had already eliminated other possible vowels that could go between the two correct letters."
 tags: ["daily log"]
 categories: ["Daily Dose of Pottekkat"]
 ---
