@@ -29,7 +29,9 @@ This post consists of all the details of these programs. You can [skip to the su
 | -------------------------------------------------------------------- | ------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | [Google Summer of Code (GSOC)](https://summerofcode.withgoogle.com/) | 10 Weeks, ˜3 Months | [January 2021 - August 2021](https://developers.google.com/open-source/gsoc/timeline) | [$1500 - $3300](https://developers.google.com/open-source/gsoc/help/student-stipends#total_stipend_amount) |
 
-This is one of the most popular programs with 700+ participating organizations. The program is organized by Google and each year students identify projects and submit proposals to work on them. Accepted students are assigned a mentor by the participating organization and students spend their summer working with them.
+This is one of the most popular programs with 700+ participating organizations. The program is organized by Google and each year mentees identify projects and submit proposals to work on them. Accepted mentees are assigned a mentor by the participating organization and students spend their summer working with them.
+
+As of 2022, [anyone above the age of 18 can participate in GSoC](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html).
 
 ## Linux Foundation Mentorship Program (LFX)
 
