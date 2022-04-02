@@ -1,7 +1,7 @@
 ---
 title: "#87 Writing Plans - Thursday, 31st March 2022"
 layout: "daily-theme"
-date: 2022-04-01T09:28:10+05:30
+date: 2022-03-31T09:28:10+05:30
 draft: false
 summary: "Plans for writing."
 tags: ["daily log"]
