@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Apr 2022 13:21:36 +0530</lastBuildDate><atom:link href="https://navendu.me/daily/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Apr 2022 22:28:08 +0530</lastBuildDate><atom:link href="https://navendu.me/daily/index.xml" rel="self" type="application/rss+xml" />
+      <item>
+        <title>#91 Apache APISIX Has a Lot of Plugins - Monday, 4th April 2022</title>
+        <link>https://navendu.me/daily/4-4-22-apache-apisix-has-a-lot-of-plugins/</link>
+        <pubDate>Mon, 04 Apr 2022 22:28:08 +0530</pubDate>
+        
+        <guid>https://navendu.me/daily/4-4-22-apache-apisix-has-a-lot-of-plugins/</guid>
+        <description>Doing a lot of work in rewriting the Apache APISIX documentation.</description>
+      </item>
+    
       <item>
         <title>#90 It Works! - Sunday, 3rd April 2022</title>
         <link>https://navendu.me/daily/3-4-22-it-works/</link>
