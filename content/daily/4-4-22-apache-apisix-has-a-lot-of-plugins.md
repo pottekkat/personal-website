@@ -16,7 +16,7 @@ Wordle 289 3/6
 ⬛⬛🟩⬛🟩\
 🟩🟩🟩🟩🟩
 
-I spent most of the refactoring Apache APISIX's Plugin documentation.
+I spent most of the day refactoring Apache APISIX's Plugin documentation.
 
 It has a lot of Plugins and working on it opened up a can of worms.
 
