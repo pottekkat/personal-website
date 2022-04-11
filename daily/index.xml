@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Apr 2022 19:25:16 +0530</lastBuildDate><atom:link href="https://navendu.me/daily/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Apr 2022 20:31:21 +0530</lastBuildDate><atom:link href="https://navendu.me/daily/index.xml" rel="self" type="application/rss+xml" />
+      <item>
+        <title>#98 Four Unmerged PRs - Monday, 11th April 2022</title>
+        <link>https://navendu.me/daily/11-4-22-four-unmerged-prs/</link>
+        <pubDate>Mon, 11 Apr 2022 20:31:21 +0530</pubDate>
+        
+        <guid>https://navendu.me/daily/11-4-22-four-unmerged-prs/</guid>
+        <description>I opened two more PRs today. Now I have four open PRs.</description>
+      </item>
+    
       <item>
         <title>#97 Hello Mumbai! - Sunday, 10th April 2022</title>
         <link>https://navendu.me/daily/10-4-22-hello-mumbai/</link>
