@@ -23,8 +23,8 @@ I submitted a couple more talk proposals today. Having a set of stock proposals 
 
 You are going to be seeing a lot more of me at stages this year.
 
-{{< figure src="/images/1-5-22-more-proposals/the-place.jpeg#center" title="Few things beat a Mandi when you are hungry" caption="Palakkad - 2nd May 2022" link="/images/1-5-22-more-proposals/the-place.jpeg" target="_blank" class="align-center" >}}
+{{< figure src="/images/1-5-22-more-proposals/the-place.jpeg#center" title="Few things beat a Mandi when you are hungry" caption="Palakkad - 1st May 2022" link="/images/1-5-22-more-proposals/the-place.jpeg" target="_blank" class="align-center" >}}
 
-{{< figure src="/images/1-5-22-more-proposals/the-people.jpeg#center" title="The people" caption="Palakkad - 2nd May 2022" link="/images/1-5-22-more-proposals/the-people.jpeg" target="_blank" class="align-center" >}}
+{{< figure src="/images/1-5-22-more-proposals/the-people.jpeg#center" title="The people" caption="Palakkad - 1st May 2022" link="/images/1-5-22-more-proposals/the-people.jpeg" target="_blank" class="align-center" >}}
 
-{{< figure src="/images/1-5-22-more-proposals/even-more-people.jpeg#center" title="More people" caption="Palakkad - 2nd May 2022" link="/images/1-5-22-more-proposals/even-more-people.jpeg" target="_blank" class="align-center" >}}
+{{< figure src="/images/1-5-22-more-proposals/even-more-people.jpeg#center" title="More people" caption="Palakkad - 1st May 2022" link="/images/1-5-22-more-proposals/even-more-people.jpeg" target="_blank" class="align-center" >}}
