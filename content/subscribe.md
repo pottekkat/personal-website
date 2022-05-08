@@ -5,7 +5,7 @@ layout: "subscribe"
 description: "Subscribe to my blog"
 ---
 
-When you subscribe, you will receive weekly newsletters and my latest articles delivered directly to your inbox.
+When you subscribe, you will receive occasional newsletters and my latest articles delivered directly to your inbox.
 
 _You will also have access to exclusive, "subscriber only" content._
 
