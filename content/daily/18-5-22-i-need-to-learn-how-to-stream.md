@@ -3,7 +3,7 @@ title: "#134 I Need to Learn How to Stream - Wednesday, 18th May 2022"
 layout: "daily-theme"
 date: 2022-05-18T22:07:05+05:30
 draft: false
-summary: ""
+summary: "Streamin away!"
 tags: ["daily log"]
 categories: ["Daily Dose of Pottekkat"]
 ---
