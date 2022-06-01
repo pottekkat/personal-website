@@ -17,3 +17,5 @@ Today, I spent some time on it, tidying it up and taking it for a ride.
 It is an incredible piece of machinery, and they don't make them as they used to. If I sell it now, I can probably make a significant profit.
 
 But still, it is difficult to maintain. I have to learn to maintain it and keep it in top shape.
+
+{{< figure src="/images/31-5-22-bullet/bullet.jpeg#center" title="Bullet" caption="31st May 2022" link="/images/31-5-22-bullet/bullet.jpeg" target="_blank" class="align-center" >}}
