@@ -35,4 +35,3 @@ Like the previous festivals, a lot went right, and a lot went wrong. We should i
 {{< figure src="/images/25-6-22-ten-days-of-festivities/rps.jpeg#center" title="RPS designs" caption="Kairali-Sree Theatres, Chittur - 24th June 2022" link="/images/25-6-22-ten-days-of-festivities/rps.jpeg" target="_blank" class="align-center" >}}
 
 {{< figure src="/images/25-6-22-ten-days-of-festivities/bicycle.jpeg#center" title="Cool bicycle" caption="Kairali-Sree Theatres, Chittur - 24th June 2022" link="/images/25-6-22-ten-days-of-festivities/bicycle.jpeg" target="_blank" class="align-center" >}}
-
