@@ -10,4 +10,4 @@ categories: ["Daily Dose of Pottekkat"]
 
 And, I have decided that I don't like riding in pouring rain.
 
-{{< figure src="/images/7-7-22-rainy-day-ride/rain-gear.jpeg#center" title="All geared up" caption="Aliyar Dam Road - 27th June 2022" link="/images/27-6-22-bike-ride/gear.jpeg" target="_blank" class="align-center" >}}
+{{< figure src="/images/7-7-22-rainy-day-ride/rain-gear.jpeg#center" title="Rain day gear" caption="localhost" link="/images/7-7-22-rainy-day-ride/rain-gear.jpeg" target="_blank" class="align-center" >}}
