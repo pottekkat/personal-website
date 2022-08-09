@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Aug 2022 22:57:49 +0530</lastBuildDate><atom:link href="https://navendu.me/tags/daily-log/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Aug 2022 20:47:56 +0530</lastBuildDate><atom:link href="https://navendu.me/tags/daily-log/index.xml" rel="self" type="application/rss+xml" />
+      <item>
+        <title>#177 Preparing for Open Source Summit Latin America - Monday, 8th August 2022</title>
+        <link>https://navendu.me/daily/8-8-22-preparing-for-open-source-summit-latin-america/</link>
+        <pubDate>Mon, 08 Aug 2022 20:47:56 +0530</pubDate>
+        
+        <guid>https://navendu.me/daily/8-8-22-preparing-for-open-source-summit-latin-america/</guid>
+        <description>Preparing for my virtual talk at OSS LA!</description>
+      </item>
+    
       <item>
         <title>#176 Building a Docker Clone and Starting a Side Project - Sunday, 7th August 2022</title>
         <link>https://navendu.me/daily/7-8-22-building-a-docker-clone-and-starting-a-side-project/</link>
