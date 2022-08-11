@@ -1,3 +1,4 @@
+# This workflow is disabled and the website is now deployed on Netlify
 name: Build and Publish Website
 
 on:
