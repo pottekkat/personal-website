@@ -1,5 +1,7 @@
 # Blog/Portfolio Website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/88fc42fa-4231-42a5-aac6-40d01f5f2c4c/deploy-status)](https://app.netlify.com/sites/navendu/deploys)
+
 A static blog/portfolio website built using Hugo. [[See Live](https://navendu.me)]
 
 Built on top of the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
