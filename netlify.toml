@@ -4,4 +4,19 @@
 [[redirects]]
   from = "/github"
   to = "https://github.com/navendu-pottekkat"
-  status = 200
+
+[[redirects]]
+  from = "/linkedin"
+  to = "https://www.linkedin.com/in/navendup/"
+
+[[redirects]]
+  from = "/youtube"
+  to = "https://www.youtube.com/channel/UCWwMJ5SxVStO04W3nOrCiNA"
+
+[[redirects]]
+  from = "/resume"
+  to = "https://drive.google.com/file/d/1jDFbGbvKDIWpFo9epExreqTyQCrGo1Vg/view?usp=sharing"
+
+[[redirects]]
+  from = "/twitter"
+  to = "https://twitter.com/sudo_navendu"
