@@ -33,5 +33,5 @@ Do what you love and everything else will follow.
 
 We had some guests today.
 
-{{< figure src="/images/2-5-22-working-for-fun/guests.jpeg#center" title="Guests" caption="Chittur - 2nd May 2022" link="/images/2-5-22-working-for-fun/guests" target="_blank" class="align-center" >}}
+{{< figure src="/images/2-5-22-working-for-fun/guests.jpeg#center" title="Guests" caption="Chittur - 2nd May 2022" link="/images/2-5-22-working-for-fun/guests.jpeg" target="_blank" class="align-center" >}}
 
