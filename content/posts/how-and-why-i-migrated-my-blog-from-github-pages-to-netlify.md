@@ -1,7 +1,7 @@
 ---
 title: "How and Why I Migrated My Blog From Github Pages to Netlify"
 date: 2022-08-12T15:56:00+05:30
-draft: true
+draft: false
 weight: 16
 ShowToc: true
 TocOpen: true
