@@ -160,6 +160,8 @@ flowchart LR
     end
 {{< /mermaid >}}
 
+With APISIX, you can use any of the three plugins to configure rate limits based on number of requests, number of concurrent requests per client, and count ([limit-req](https://apisix.apache.org/docs/apisix/next/plugins/limit-req/), [limit-conn](https://apisix.apache.org/docs/apisix/next/plugins/limit-conn/), [limit-count](https://apisix.apache.org/docs/apisix/next/plugins/limit-count/)).
+
 ### Monitoring and Observability
 
 Your API's reliability and your monitoring setup go hand in hand. You can monitor your reliability metrics by setting up monitoring on your API gateway.
@@ -229,7 +231,7 @@ flowchart LR
     end
 {{< /mermaid >}}
 
-APISIX has a [traffic-split](https://apisix.apache.org/docs/apisix/next/plugins/traffic-split/) plugin that lets you control the traffic to your services. You can use it to set up canary releases or your custom release configuration. 
+APISIX uses the [traffic-split](https://apisix.apache.org/docs/apisix/next/plugins/traffic-split/) plugin that lets you control the traffic to your services. You can use it to set up canary releases or your custom release configuration. 
 
 #### Circuit Breaking
 
@@ -275,6 +277,8 @@ flowchart LR
     u2
     end
 {{< /mermaid >}}
+
+With APISIX, you can use the [redirect](https://apisix.apache.org/docs/apisix/next/plugins/redirect/) plugin to configure redirects.
 
 ## Conclusion
 
