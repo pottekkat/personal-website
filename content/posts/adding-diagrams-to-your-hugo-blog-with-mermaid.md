@@ -11,7 +11,7 @@ tags: ["hugo", "mermaid", "blogs", "tutorials"]
 categories: ["Tutorials"]
 cover:
     image: "/images/adding-diagrams-to-your-hugo-blog-with-mermaid/cover-mermaid.jpeg"
-    alt: ""
+    alt: "Photo of a mermaid tail in the sea."
     caption: "Photo by [Annette Batista Day](https://unsplash.com/@annetteb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
     relative: false
 ---
