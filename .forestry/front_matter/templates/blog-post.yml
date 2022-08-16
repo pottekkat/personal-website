@@ -55,5 +55,3 @@ fields:
     label: Relative
     description: Set to `true`
   description: Configuration for the cover image.
-pages:
-- content/posts/new-test-post.md
