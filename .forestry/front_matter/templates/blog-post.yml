@@ -1,0 +1,44 @@
+---
+label: Blog Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: number
+  name: weight
+  label: weight
+- type: boolean
+  name: ShowToc
+  label: ShowToc
+- type: boolean
+  name: TocOpen
+  label: TocOpen
+- type: text
+  name: summary
+  label: summary
+- type: list
+  name: tags
+  label: tags
+- type: list
+  name: categories
+  label: categories
+- type: field_group
+  name: cover
+  label: cover
+  fields:
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: alt
+    label: alt
+  - type: textarea
+    name: caption
+    label: caption
+  - type: boolean
+    name: relative
+    label: relative
