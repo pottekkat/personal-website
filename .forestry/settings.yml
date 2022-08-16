@@ -19,7 +19,7 @@ sections:
   label: Daily
   create: all
   match: "**/*"
-upload_dir: static/images
+upload_dir: 'static/images/:filename:'
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
