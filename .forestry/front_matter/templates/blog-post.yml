@@ -4,41 +4,54 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title of the blog post.
+  description: Use title case.
 - type: datetime
   name: date
-  label: date
+  label: Date
+  description: Date when the blog is to be published. It could be a date in the future.
 - type: number
   name: weight
-  label: weight
+  label: Weight
+  description: The lower the weight, the higher it would be in the listing.
 - type: boolean
   name: ShowToc
-  label: ShowToc
+  label: Show ToC
+  description: When set to `true`
 - type: boolean
   name: TocOpen
-  label: TocOpen
+  label: Open ToC
+  description: When set to `true`
 - type: text
   name: summary
-  label: summary
+  label: Summary
+  description: Summary of the post. It will also be added as the description for SEO.
 - type: list
   name: tags
-  label: tags
+  label: Tags
+  description: Tag liberally.
 - type: list
   name: categories
-  label: categories
+  label: Categories
+  description: A post can only belong to one category excluding "Featured".
 - type: field_group
   name: cover
-  label: cover
+  label: Cover image
   fields:
   - type: file
     name: image
-    label: image
+    label: Image
+    description: Image to use as the cover image.
   - type: text
     name: alt
-    label: alt
+    label: alt text
+    description: Text to use for screenreaders.
   - type: textarea
     name: caption
-    label: caption
+    label: Caption
+    description: Caption for the image. Usually where the image is sourced from.
   - type: boolean
     name: relative
-    label: relative
+    label: Relative
+    description: Set to `true`
+  description: Configuration for the cover image.
