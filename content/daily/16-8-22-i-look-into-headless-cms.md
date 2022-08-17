@@ -3,7 +3,7 @@ title: "#185 I Look Into Headless CMS - Tuesday, 16th August 2022"
 layout: "daily-theme"
 date: 2022-08-16T23:28:40+05:30
 draft: false
-summary: ""
+summary: "I failed miserably."
 tags: ["daily log"]
 categories: ["Daily Dose of Pottekkat"]
 ---
