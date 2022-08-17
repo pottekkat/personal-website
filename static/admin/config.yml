@@ -1,0 +1,31 @@
+site_url: https://navendu.me
+
+backend:
+  name: git-gateway
+  branch: hugo
+
+publish_mode: editorial_workflow
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "post"
+    label: "Post"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    filter:
+      field: categories
+      value: "Featured"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Weight", name: "weight", widget: "number"}
+      - {label: "Summary", name: "summary", widget: "text"}
+      - {label: "Tags", name: "tags", widget: "string"}
+      - {label: "Categories", name: "categories", widget: "string"}
+      - {label: "Featured Image", name: "cover", widget: "image"}
+      - {label: "Alt", name: "alt", widget: "text"}
+      - {label: "Caption", name: "caption", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown"}

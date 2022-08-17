@@ -71,6 +71,10 @@
 <!-- Import JQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+{{- if .IsHome }}
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{{- end }}
+
 {{- /* Search */}}
 {{- if or (eq .Layout `search`) (eq .Layout `archives`) -}}
 <link crossorigin="anonymous" rel="preload" as="fetch" href="../index.json">
