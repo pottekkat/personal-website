@@ -6,7 +6,8 @@
   var config = {
     startOnLoad: true,
     theme:'{{ if site.Params.mermaid.theme }}{{ site.Params.mermaid.theme }}{{ else }}dark{{ end }}',
-    align:'{{ if site.Params.mermaid.align }}{{ site.Params.mermaid.align }}{{ else }}center{{ end }}'
+    align:'{{ if site.Params.mermaid.align }}{{ site.Params.mermaid.align }}{{ else }}center{{ end }}',
+    securityLevel:'{{ if site.Params.mermaid.securityLevel }}{{ site.Params.mermaid.securityLevel }}{{ else }}loose{{ end }}',
   };
   mermaid.initialize(config);
 </script>
