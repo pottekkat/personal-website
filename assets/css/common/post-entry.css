@@ -117,3 +117,13 @@
     justify-content: center;
     margin: 10px 0px 25px 0px
 }
+
+.highlight-title {
+    display: flex;
+    position: relative;
+    padding: 8px 12px;
+    color: var(--content);
+    font-size: 14px;
+    background-color: var(--code-bg);
+    border-radius: var(--radius) var(--radius) 0 0;
+  }
