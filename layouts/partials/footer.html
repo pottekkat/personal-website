@@ -134,4 +134,17 @@
         }
     });
 </script>
+<script>
+    var els = document.getElementsByClassName("highlight");
+    for (var i = 0; i < els.length; i++) {
+        var title = els[i].title;
+        var code = els[i].firstElementChild.firstElementChild;
+        if (title.length) {
+        var newNode = document.createElement("div");
+        newNode.textContent = title;
+        newNode.classList.add("highlight-title");
+        code.parentNode.insertBefore(newNode, code);
+    }
+}
+</script>
 {{- end }}
