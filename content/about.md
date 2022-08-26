@@ -2,7 +2,7 @@
 title: "About"
 url: "/about/"
 layout: "about"
-description: "About"
+description: "About Navendu Pottekkat and his blog."
 ---
 
 ## About this Blog

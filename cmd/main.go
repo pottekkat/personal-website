@@ -9,6 +9,7 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
+	"regexp"
 	"strings"
 	"time"
 )
@@ -29,6 +30,9 @@ var (
 	// folder where images are stored
 	// this program creates a new folder with same file name as the page to store its images
 	imageDir = "static/images/"
+
+	// to remove characters other than these from the file name
+	nonAlphaNum = regexp.MustCompile(`[^a-zA-Z0-9 ]+`)
 )
 
 func main() {
@@ -36,25 +40,30 @@ func main() {
 	imageFolder := flag.Bool("imageFolder", false, "creates a folder to store images")
 	content := flag.String("content", contentTypes[0], fmt.Sprintf("type of content [%v]", strings.Join(contentTypes, ",")))
 	title := flag.String("title", defaultTitle, "title of the post")
+	cusDate := flag.String("date", "", "date other than current date")
 
 	flag.Parse()
 
 	var filename string
 
 	// generate file name from title of the post
-	filename = strings.ReplaceAll(strings.ToLower(*title), " ", "-")
+	filename = strings.ReplaceAll(nonAlphaNum.ReplaceAllString(strings.ToLower(*title), ""), " ", "-")
 
 	// prepend formatted date to file name for a type of post
 	if *content == contentTypes[1] {
-		currentTime := time.Now().Format(dateFormat)
+		if len(*cusDate) > 0 {
+			filename = *cusDate + "-" + filename
+		} else {
+			currentTime := time.Now().Format(dateFormat)
 
-		splitDate := strings.Split(currentTime, "-")
-		splitDate[2] = splitDate[2][2:]
+			splitDate := strings.Split(currentTime, "-")
+			splitDate[2] = splitDate[2][2:]
 
-		currentDate := strings.Join(splitDate, "-")
-		fmt.Printf("selected date: %s\n", currentDate)
+			currentDate := strings.Join(splitDate, "-")
+			fmt.Printf("selected date: %s\n", currentDate)
 
-		filename = currentDate + "-" + filename
+			filename = currentDate + "-" + filename
+		}
 	}
 
 	arg := filepath.Join(*content, filename+".md")
