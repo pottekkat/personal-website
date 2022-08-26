@@ -43,7 +43,7 @@ Let's look at these factors and the questions they pose:
 2. **Security**: Who can access your API? Is it secure?
 3. **Downtime Frequency**: How frequently is your API down?
 4. **Consistency**: Are your API endpoints constant? Do consumers need to change their code often?
-5. **Monitoring and Reporting** Can you observe issues and failures in your API? Are you reporting them to your consumers?
+5. **Monitoring and Reporting**: Can you observe issues and failures in your API? Are you reporting them to your consumers?
 
 {{< mermaid >}}
 flowchart LR
