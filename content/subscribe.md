@@ -2,7 +2,7 @@
 title: "Subscribe"
 url: "/subscribe/"
 layout: "subscribe"
-description: "Subscribe to my blog"
+description: "Subscribe to Navendu Pottekkat's blog!"
 ---
 
 When you subscribe, you will receive occasional newsletters and my latest articles delivered directly to your inbox.
