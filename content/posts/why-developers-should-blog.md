@@ -6,7 +6,7 @@ weight: 18
 ShowToc: false
 summary: "I have been blogging ever since I started out as a software engineer. Here is why you should do it too."
 tags: ["blogs", "communication"]
-categories: ["Writing/Blogging", "Featured"]
+categories: ["Writing/Blogging"]
 cover:
   image: "/images/why-developers-should-blog/person-typing-banner.jpeg"
   alt: "Photo of a person typing on a laptop"

@@ -20,3 +20,7 @@
 [[redirects]]
   from = "/twitter"
   to = "https://twitter.com/sudo_navendu"
+
+[[redirects]]
+  from = "/tfjs-object-detection"
+  to = "https://github.com/navendu-pottekkat/tfjs-object-detection"
