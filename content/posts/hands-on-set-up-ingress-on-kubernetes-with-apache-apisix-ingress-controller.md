@@ -1,6 +1,6 @@
 ---
 title: "Hands-On: Set Up Ingress on Kubernetes With Apache APISIX Ingress Controller"
-date: 2022-09-09T17:58:44+05:30
+date: 2022-09-09T10:11:44+05:30
 draft: true
 weight: 14
 ShowToc: false
@@ -34,9 +34,9 @@ style i stroke: #e62129
 
 {{< /mermaid >}}
 
-[Apache APISIX](https://apisix.apache.org/) is an open source API gateway (a fancy reverse proxy) that provides features like authentication, traffic routing, load balancing, canary releases, monitoring, and more. APISIX also supports custom Plugins and integrates with popular open source projects like [Apache SkyWalking](https://apisix.apache.org/docs/apisix/next/plugins/skywalking/) and [Prometheus](https://apisix.apache.org/docs/apisix/next/plugins/prometheus/). To learn more about APISIX, you can see the [official documentation](https://apisix.apache.org/docs/apisix/getting-started/).
+[Apache APISIX](https://apisix.apache.org/) is an open source API gateway (a souped-up reverse proxy) that provides features like authentication, traffic routing, load balancing, canary releases, monitoring, and more. APISIX also supports custom Plugins and integrates with popular open source projects like [Apache SkyWalking](https://apisix.apache.org/docs/apisix/next/plugins/skywalking/) and [Prometheus](https://apisix.apache.org/docs/apisix/next/plugins/prometheus/). To learn more about APISIX, you can see the [official documentation](https://apisix.apache.org/docs/apisix/getting-started/).
 
-The [Apache APISIX Ingress controller](https://apisix.apache.org/docs/ingress-controller/next/getting-started/) sits between the defined Ingress rules and the APISIX reverse proxy. It configures the proxy to route traffic based on the defined rules.
+The [Apache APISIX Ingress controller](https://apisix.apache.org/docs/ingress-controller/next/getting-started/) sits between the defined Ingress rules and the APISIX API gateway. It configures the proxy to route traffic based on the defined rules.
 
 {{< mermaid >}}
 flowchart LR
@@ -44,7 +44,7 @@ c(Clients) --> a
 a --> s1("☸ Service 1")
 a --> s2("☸ Service 2")
 a --> s3("☸ Service 3")
-ic("☸ APISIX Ingress controller") --- p("☸ APISIX proxy")  
+ic("☸ APISIX Ingress controller") --- p("☸ APISIX API gateway")  
  style p stroke: #e62129
 linkStyle 0 stroke: #e62129
 linkStyle 1 stroke: #e62129
@@ -172,7 +172,7 @@ If you get a response similar to the one shown below, APISIX is up and running:
 
 ## Configuring APISIX Ingress
 
-Once you have verified that the APISIX proxy and Ingress controller is running, you can create [Routes](https://apisix.apache.org/docs/apisix/terminology/route/) to expose the deployed application to external traffic.
+Once you have verified that the APISIX gateway and Ingress controller is running, you can create [Routes](https://apisix.apache.org/docs/apisix/terminology/route/) to expose the deployed application to external traffic.
 
 This will route traffic between the two application versions based on the client request:
 
@@ -181,7 +181,7 @@ flowchart LR
 c(Client) <--> |"Req: /v1 GET\nResp: Hello from API v1.0!"| a
 a --> |Route| s1("☸ bare-minimum-api-v1")
 a --> s2("☸ bare-minimum-api-v2")
-ic("☸ APISIX Ingress controller") --- p("☸ APISIX proxy")
+ic("☸ APISIX Ingress controller") --- p("☸ APISIX API gateway")
 style p stroke: #e62129
 linkStyle 0 stroke: #e62129
 linkStyle 1 stroke: #e62129
@@ -205,7 +205,7 @@ flowchart LR
 c(Client) <--> |"Req: /v2 GET\nResp: Hello from API v2.0!"| a
 a --> s1("☸ bare-minimum-api-v1")
 a --> |Route| s2("☸ bare-minimum-api-v2")
-ic("☸ APISIX Ingress controller") --- p("☸ APISIX proxy")
+ic("☸ APISIX Ingress controller") --- p("☸ APISIX API gateway")
 style p stroke: #e62129
 linkStyle 0 stroke: #e62129
 linkStyle 2 stroke: #e62129
@@ -253,7 +253,7 @@ spec:
           servicePort: 8081
 ```
 
-The APISIX Ingress controller converts this resource to an APISIX proxy configuration.
+The APISIX Ingress controller converts this resource to an APISIX gateway configuration.
 
 APISIX also supports configuration using native [Kubernetes Ingress resource](https://kubernetes.io/docs/concepts/services-networking/ingress/#the-ingress-resource):
 
@@ -290,7 +290,7 @@ You can use either to configure APISIX but I prefer the easier APISIX custom res
 kubectl apply -f apisix-ingress-manifest.yaml
 ```
 
-If the Ingress controller is configured correctly, you should see a response indicating that APISIX proxy has been configured:
+If the Ingress controller is configured correctly, you should see a response indicating that APISIX API gateway has been configured:
 
 ```shell {title="output"}
 apisixroute.apisix.apache.org/api-routes created
@@ -300,7 +300,7 @@ Now, let's test these Routes.
 
 ## Testing the Created Routes
 
-If you were following along using minikube and `NodePort`, you should be able to access the APISIX proxy through the Node IP of the service `apisix-gateway`. If the Node IP is not reachable directly (if you are on Darwin, Windows, or WSL), you can create a tunnel to access the service on your machine:
+If you were following along using minikube and `NodePort`, you should be able to access APISIX through the Node IP of the service `apisix-gateway`. If the Node IP is not reachable directly (if you are on Darwin, Windows, or WSL), you can create a tunnel to access the service on your machine:
 
 ```shell
 minikube service apisix-gateway --url -n ingress-apisix
@@ -324,4 +324,4 @@ Now you have APISIX routing traffic to your applications! You can try the two co
 
 In this tutorial, you learned to set up APISIX Ingress on your cluster. We tested it out by configuring basic Routes to a sample application.
 
-With APISIX proxy and the Ingress controller, you can also configure Upstreams, Plugins, mTLS, and monitoring. To learn more about APISIX and how you can use these features, visit [apisix.apache.org](https://apisix.apache.org).
+With APISIX gateway and the Ingress controller, you can also configure Upstreams, Plugins, mTLS, and monitoring. To learn more about APISIX and how you can use these features, visit [apisix.apache.org](https://apisix.apache.org).
