@@ -8,6 +8,7 @@ mermaid: true
 summary: "A tutorial on using Ingress in your Kubernetes cluster with Apache APISIX."
 tags: ["ingress", "kubernetes", "apache apisix", "cloud-native"]
 categories: ["Featured", "API Gateway"]
+canonicalURL: "https://apisix.apache.org/blog/2022/09/09/kubernetes-ingress-with-apisix/"
 cover:
   image: "/images/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/gate-banner.jpeg"
   alt: "Photo of a Japanese-style gate in the middle of a pond."
