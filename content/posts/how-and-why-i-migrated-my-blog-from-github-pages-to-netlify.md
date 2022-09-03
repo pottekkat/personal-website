@@ -2,12 +2,12 @@
 title: "How and Why I Migrated My Blog From Github Pages to Netlify"
 date: 2022-08-12T15:56:00+05:30
 draft: false
-weight: 16
+weight: 18
 ShowToc: true
 TocOpen: true
 summary: "This blog is now deployed on Netlify. Here is how and why I did it."
 tags: ["blogs", "tutorials"]
-categories: ["Tutorials", "Featured"]
+categories: ["Tutorials"]
 cover:
   image: "/images/how-and-why-i-migrated-my-blog-from-github-pages-to-netlify/banner-moving-boxes.jpeg"
   alt: "Photo of two people moving boxes."
