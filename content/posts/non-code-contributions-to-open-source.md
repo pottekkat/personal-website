@@ -1,249 +1,162 @@
 ---
-title: "How to Make Non-Code Contributions to Open-Source Projects"
+title: "Non-Code Contributions to Open Source"
 date: 2021-09-21T12:56:25+05:30
-weight: 100
+weight: 12
 draft: false
-summary: "Open-Source is not just about code. See how you can make non-code contributions to open-source."
+summary: "As open source becomes the default way to build software, contributions required to create, manage, and sustain projects go beyond code. This article teaches you to make non-code contributions."
 ShowToc: true
 TocOpen: true
 tags: ["open-source"]
 categories: ["Open Source"]
 cover:
-    image: "images/non-code-contributions-to-open-source/non-code-contributons-banner.png"
+    image: "images/non-code-contributions-to-open-source/pencils-banner.jpeg"
     alt: "Banner showing non-code contributions to open-source."
+    caption: "Photo by [Alexander Grey](https://unsplash.com/@sharonmccutcheon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/diversity?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
     relative: false
 ---
 
-Do you want to contribute to open-source but you are not sure of your coding skills?
+When thinking about open source contributions, most people think about contributing code. This was true in the early days when open source was a way for people to share the cool thing they built.
 
-I have good news for you.
+Now, as open source becomes the default way to build software, contributions required to create, manage, and sustain projects go beyond code.
 
-Non-code contributions are more valuable than contributing code.
+In this article, you will learn how to make impactful contributions to open source that does not involve contributing code.
 
-But what are non-code contributions? How can I make non-code contributions? Why are you bashing coders?
+## Writing
 
-I will try to answer these questions in this post.
+This might be an excellent way to contribute if you are good at technical writing and creating content.
 
-And with [Hacktoberfest](https://hacktoberfest.digitalocean.com/) right around the corner, I hope this post will encourage more open-source contributions.
+You can use your writing skills in different ways.
 
-Like most of my posts, you can read this in Tweet format like the gods intended [here](https://twitter.com/sudo_navendu/status/1439233021496889356).
+### Documentation
 
-## What are non-code contributions?
+People can't use what they don't understand.
 
-Any contribution that helps an open-source project that does not involve writing code. 
+Even if the project is valuable, people would not be able to use it without proper documentation. Contributing to documentation can therefore be impactful.
 
-These can be anything but I have categorised it broadly into these categories:
+Tip: When you first test out a project, go through the existing documentation and see if you can clearly understand and use the project without any issues.
 
-1. ✍️ Writing
-2. 🎨 Designing
-3. 🧑‍🔬 Testing/Using
-4. 👥 Mentoring
-5. 🧑‍🤝‍🧑 Community Managing/Organising
+Chances are you will find areas to improve. You can then open issues for it and fix them.
 
-Let's look at each of these categories in detail.
+It's always helpful to have new people go through the documentation. It will uncover missing information and issues that people close to the project might miss.
 
-## 1. ✍️ Writing
+### Articles and Tutorials
 
-If you are good at technical writing and creating content, then this is for you.
+If you are a project user, you can help by writing articles and tutorials. This can help people who are trying to use the project.
 
-Here is how you can use your writing skills.
+You can add your insights and tips and publish them on your channels or the project's blog.
 
-### 1.1 Write Documentation
+Tip: Most people look for well-written and up-to-date tutorials instead of documentation.
 
-Contributing to documentation is really impactful.
+### Internationalization/Translation
 
-Even if the project is really amazing, without documentation, nobody would be able to figure out how to use it or at least would not get maximum value from the project.
+The language barrier is real in countries where English is not a primary language. People in China may prefer Mandarin over English.
 
-Here is a tip to help you contribute to docs:
+For people from different parts of the world to use a project, it is necessary to internationalize the software and its documentation.
 
-When you first check out an open-source project, go through their existing documentation and see if you can understand or use the project from what you see in the docs.
+If you can write in two languages, you can translate documentation to open up the project to a new user base.
 
-Most likely, you will find areas that you can improve.
+### Social Media
 
-Open issues for these and try to create a pull request adding changes that you think are needed.
+A social media presence can help a project get more users. It can also be a platform to share updates with existing users.
 
-It is always helpful for projects to have a new pair of eyes look at things. New perspectives and new ideas often come from new contributors.
+You can use your writing skills to craft social media posts. You can ask the project maintainers to post on their official account or use your own account.
 
-### 1.2 Write Tutorials and Blog Posts
+## Designing
 
-If you have been a user of the project and you are looking to contribute to it, then this is the best way.
+You can also contribute to open source projects with your design skills.
 
-You can write tutorials and blog posts to help people who are using the project.
+### Art
 
-You can also share your own insights and tips while writing these.
+Create artwork for social media, blog posts, and even swags. Good design is always impactful.
 
-If the project has a dedicated blog, you can ask to publish there or there are other platforms like this where you can freely publish content.
+### Style Guide
 
-I find myself looking for well-written and up-to-date tutorials and blogs instead of going through the documentation. 
-
-There is no doubt that these will help the project as well as the users of the project.
-
-### 1.3 Translate Documentation
-
-People from different parts of the world could use your project.
-
-Language barrier is real and sometimes people may prefer Mandarin over English.
-
-So, if you know Mandarin and English or any other pair of languages, translate the documentation to the other language.
-
-This will open up the project to a whole new user base.
-
-### 1.4 Take Control of the Social Handles
-
-If your project has social media accounts, take control of it and start creating content.
-
-Even if you directly do not have access to the accounts, get in touch with the social media manager of the project and suggest content and ways to engage with your users and community.
-
-This will drive the project's visibility and will help gain more users and contributors.
-
-## 2. 🎨 Designing
-
-If you are a creative person and loves designing stuff, this is where you belong.
-
-Here is how you can use your palette to help the project.
-
-### 2.1 Create Art!
-
-You can put your skills to use to create artworks for the project to share on social media, blog posts and even swags. (who doesn't like swags!)
-
-### 2.2 Create a Style Guide
-
-Most open-source projects have a large and a geographically distributed set of contributors.
+Most open source projects have a large and geographically distributed set of contributors.
 
 Among other challenges, this makes it difficult to maintain consistency in visual designs.
 
-As a designer and a contributor, you can create a style guide to ensure consistency.
+As a designer, you can create a style guide for the project and ensure consistency.
 
-## 3. 🧑‍🔬 Testing/Using
+## Testing/Using
 
-As a user of the open-source project, there are multiple ways in which you can make valuable contributions.
+You can make valuable contributions in multiple ways as an open source user.
 
-### 3.1 Reporting Bugs
+### Reporting Bugs
 
-If you run into any bugs while using/testing the project, raise them.
+Be a needy user. If you run into bugs, raise them. Open an issue with all the relevant details and steps to reproduce it.
 
-Open up an issue and let the code contributors know about the bug.
+Identifying bugs is more difficult than fixing them. Maintainers always welcome bug reports.
 
-This will help them identify and fix bugs improving the quality of the project.
+### Advocating
 
-### 3.2 Become an Advocate/Evangelist
+Open source projects are community driven. And most non-commercial open source projects don't have a dedicated marketing team to publicize the project.
 
-Most open-source projects are community-driven and they usually do not have a dedicated marketing team to publicise the project.
+You can advocate for the project at events and on social media and encourage people to use the project.
 
-This is where you step in as a volunteer advocate and talk about the project in events and social media while encouraging people to use the project.
+Tip: Don't even ask the project owners before advocating for the project. Everyone likes free marketing.
 
-Here is a tip:
+### User Experience
 
-Don't even ask the project owners before advocating for the project.
+Project maintainers can often be too close to the project to realize bad and unintuitive UX. I am, and I know a lot of them.
 
-Everyone likes free marketing.
+As a user, you can report these issues, and they are well received.
 
-### 3.3 Help Improve the User Experience
+### Alpha/Beta Testing
 
-Most open-source project maintainers/code contributors are usually too close to the project to realise bad and unintuitive UX.
+Alpha/Beta tests are controlled tests of a new feature or release to ensure quality and user experience before making it available to the general user base.
 
-I am and I know a lot of them.
+As a user, you can sign up for the alpha/beta programs, test the project before the new features are released, and provide feedback.
 
-Step in here wearing your user hat and report these issues.
+Feedback from these tests always provides insights that can help improve the features/releases.
 
-They are always well received.
+## Community Managing
 
-### 3.4 Sign Up for Alpha/Beta Testing
+An open source project is a byproduct of its community. But who builds and manages these communities?
 
-Alpha/Beta tests are controlled tests of a new feature or a release to ensure quality and user experience before making it available to the general user base.
+That's where a community manager comes in. As a community manager, you can wear different hats.
 
-As a user, you can sign up for the alpha/beta programs and test out the project before the new features are released and provide feedback.
+### Project Organiser
 
-Feedback from these tests always provide insights that can help in iterating over the features/releases.
+Stale issues? Follow up! Issues without proper labels? Add them! Does this issue still exist? Verify and close them! Unclear issue descriptions? Ask for clarification! Unreviewed pull requests? Request for reviews!
 
-## 4. 👥 Mentoring
+All these help the project run smoothly.
 
-Pay it forward by mentoring other contributors. 
-
-Here are some of the ways in which you can do it.
-
-### 4.1 Review Code
-
-The more people there is to review code, the better the quality of the code will be.
-
-Having more eyes on the code would mean less bugs, faster reviews and a better project.
-
-Most projects let anyone review pull requests and comment on it.
-
-If you have opinions, this is the place for you to go.
-
-### 4.2 Mentor a Contributor
-
-Are you skilled in the project's tech stack?
-
-Can you help contributors make better contributions?
-
-Pay it forward by becoming a mentor!
-
-Share your experiences and knowledge and empower them to become a better open-source contributor.
-
-There are a lot of open-source programs which connect mentors and mentees.
-
-I had curated some of these in a previous article. You can check that out [here](https://dev.to/navendu/20-open-source-internship-programs-that-you-can-apply-to-37kh).
-
-## 5. 🧑‍🤝‍🧑 Community Managing/Organising
-
-Open-source projects thrive as its community thrives. 
-
-But who manages this community? Who manages the contributors? Who manages the project?
-
-This is where a community manager comes in.
-
-### 5.1 Organise the Project
-
-Stale issues? Follow up!
-Issues without proper labels? Add them!
-Does this issue still exist? Verify and close them!
-Unclear issue descriptions? Ask for clarification!
-Unreviewed pull requests? Request for reviews!
-
-Help in every way you can to organise the project and make it whistle as a well oiled machine.
-
-From my experience, project organisers and community managers are well recognised in the community as well!
-
-### 5.2 Become the Release Manager
+### Release Manager
 
 A release manager keeps track of what everybody is working on and ensures that a project is ready for a release.
 
 Some of the responsibilities of a release manager are:
 
-* Checking with each team
-* Ensuring different components and features are tested
-* Organising the alpha/beta programs
+-   Checking with each team
+-   Ensuring different components and features are tested
+-   Organizing the alpha/beta programs
 
-This list can go on. Basically you decide when the project is ready to make a new release.
+### Event Organizer
 
-### 5.3 Organise Events and Meetups
+Organize community events and project meetings and maybe represent the project at conferences.
 
-Organise project meetings.
-Represent your project in conferences.
-Organise community events.
+Great community managers who go above and beyond are key players in the success of an open source project.
 
-This list is note exhaustive. 
+## Mentoring
 
-Great community managers go above and beyond and are key players in the success of an open-source project.
+If you are a seasoned contributor, you can pay it forward to the community by being a mentor.
 
-### 5.4 Get More Chefs to Cook (I mean, non-code contributors)
+### Code Review
 
-Engineers attract other engineers.
+Having more people review code can help improve the quality of the code. This means fewer bugs, faster reviews, and a better project.
 
-But the environment these engineers create are usually not super welcoming to non-code contributors.
+Most projects allow anyone to review code.
 
-So, become a steward of the community and make it welcoming to newcomers!
+### Helping Newcomers
 
-Host newcomer meetings, share onboarding resources, connect newcomers to mentors.
+Sharing your skills and experience as a contributor can help newcomers contribute to the project. There are a lot of [open source mentorship programs](/posts/open-source-internship-programs/) that connect mentees to mentors.
 
-What would we do without community managers?
+Having new contributors will ensure the sustainability of the project.
 
-That's the list! Did I miss anything?
+---
 
-Feel free to add them to the comments below.
+This list is not exhaustive; you can always find more ways to make impactful contributions.
 
-What other open-source related topic should I write about next?
+As an open source maintainer, I see the value in every contribution. And I'm sure more maintainers see it too.
 
-Comment below!
+If you found this helpful, checkout [related posts](/categories/open-source/).
