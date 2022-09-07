@@ -1,6 +1,6 @@
 ---
 title: "Non-Code Contributions to Open Source"
-date: 2021-09-21T12:56:25+05:30
+date: 2021-09-21T12:57:25+05:30
 weight: 12
 draft: false
 summary: "As open source becomes the default way to build software, contributions required to create, manage, and sustain projects go beyond code. This article teaches you to make non-code contributions."
