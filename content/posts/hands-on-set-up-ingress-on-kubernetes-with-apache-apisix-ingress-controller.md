@@ -8,8 +8,6 @@ mermaid: true
 summary: "A tutorial on using Ingress in your Kubernetes cluster with Apache APISIX."
 tags: ["ingress", "kubernetes", "apache apisix", "cloud-native"]
 categories: ["Featured", "API Gateway"]
-canonicalURL: "https://apisix.apache.org/blog/2022/09/09/kubernetes-ingress-with-apisix/"
-ShowCanonicalLink: true
 cover:
   image: "/images/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/gate-banner.jpeg"
   alt: "Photo of a Japanese-style gate in the middle of a pond."
@@ -138,7 +136,7 @@ helm install apisix apisix/apisix \
   --set ingress-controller.enabled=true \
   --namespace ingress-apisix \
   --set ingress-controller.config.apisix.serviceNamespace=ingress-apisix
-kubectl get service --namespace ingress-apisix
+kubectl get pods --namespace ingress-apisix
 ```
 
 > **Note**: We are using `NodePort` as the Gateway service type. You can also set it to `LoadBalancer` if your cluster has one.
@@ -153,10 +151,8 @@ Helm will create five resources in your cluster:
 Once all the pods and services are running, you can test APISIX by accessing the Admin API:
 
 ```shell
-kubectl exec -it -n ingress-apisix apisix-<rest of the pod name> -- curl http://127.0.0.1:9180/apisix/admin/routes -H 'X-API-Key: edd1c9f034335f136f87ad84b625c8f1'
+kubectl exec -n ingress-apisix deploy/apisix -- curl -s http://127.0.0.1:9180/apisix/admin/routes -H 'X-API-Key: edd1c9f034335f136f87ad84b625c8f1'
 ```
-
-> **Note**: Replace the pod name with your APISIX gateway pod name.
 
 If you get a response similar to the one shown below, APISIX is up and running:
 
@@ -229,7 +225,7 @@ linkStyle 3 stroke: #e62129
 To configure Routes, APISIX comes with declarative and easy-to-use [custom resource](https://apisix.apache.org/docs/ingress-controller/next/references/apisix_route_v2beta3/):
 
 ```yaml {title="apisix-ingress-manifest.yaml"}
-apiVersion: apisix.apache.org/v2beta2
+apiVersion: apisix.apache.org/v2beta3
 kind: ApisixRoute
 metadata:
   name: api-routes
