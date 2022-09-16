@@ -6,6 +6,7 @@ weight: 14
 summary: "Sharing how I got involved in the LFX Mentorship Program and its life-changing impact on my career and personal life."
 tags: ["linux foundation","open-source","internship"]
 categories: ["Open Source"]
+aliases: [/lfx-mentorship]
 cover:
     image: "/images/how-the-lfx-mentorship-program-helped-me-level-up-my-career/banner-stairs.jpeg"
     alt: "Photo of stairs designed in a modern fashion over an orange background"
