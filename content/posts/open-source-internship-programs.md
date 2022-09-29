@@ -8,6 +8,7 @@ ShowToc: true
 TocOpen: true
 tags: ["list", "open-source", "internship"]
 categories: ["Open Source"]
+aliases: [/open-source-internship]
 cover:
     image: "images/open-source-internship-programs/open-door.jpeg"
     alt: "Open Door cover image"
