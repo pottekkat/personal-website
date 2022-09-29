@@ -8,6 +8,7 @@ ShowToc: true
 TocOpen: true
 tags: ["open-source"]
 categories: ["Open Source"]
+aliases: [/non-code-contributions]
 cover:
     image: "images/non-code-contributions-to-open-source/pencils-banner.jpeg"
     alt: "Banner showing non-code contributions to open-source."

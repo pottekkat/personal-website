@@ -7,6 +7,7 @@ ShowToc: false
 summary: "I ask a lot of questions to my peers and to strangers on public forums in the internet. This year, I have been trying to improve this process to ask better questions. Here is how I do it."
 tags: ["communication", "software engineering", "tips"]
 categories: ["Software Engineering", "Featured"]
+aliases: [/asking-questions]
 cover:
   image: "images/how-i-ask-questions/banner-student-raising-hand.jpeg"
   alt: "Student in classroom raising hand to ask a question"
