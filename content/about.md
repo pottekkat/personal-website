@@ -46,7 +46,7 @@ So, I’m out of school with a clear idea that I want to be an electrical and el
 
 I met new people, learned new things, and explored a lot. The 4 years in college shaped my thinking and made me who I am today, and I wouldn’t change a thing.
 
-{{< figure src="/images/about/college-group.jpeg#center" title="The squad, the whole squad and nothing but the squad" caption="Men's Hostel, College of Engineering Chengannur - May 2019" link="/images/about/college-group.jpeg" target="_blank" class="align-center" >}}
+{{< figure src="/images/about/college-group.jpeg#center" title="The squad, the whole squad, and nothing but the squad" caption="Men's Hostel, College of Engineering Chengannur - May 2019" link="/images/about/college-group.jpeg" target="_blank" class="align-center" >}}
 
 I had a lot of fun in college. I did not have many opportunities in high school to explore my skills outside academics, and I more than made up for it in college. I was involved in the [IEEE student branch](https://www.facebook.com/IEEECEC/) at my college as an executive community member. Also, I became the student representative of [IEEE Robotics and Automation Society](https://www.ieee-ras.org/) in our state chapter.
 
