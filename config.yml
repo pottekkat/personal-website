@@ -27,7 +27,7 @@ taxonomies:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: "Navendu Pottekkat"
-    description: "Software Engineer passionate about building Open-Source Projects."
+    description: "Personal blog of Navendu Pottekkat. I write open source code."
     keywords: [Navendu, Pottekkkat, Blog, Portfolio, Resume]
     author: "Navendu Pottekkat"
     DateFormat: "January 2, 2006"
@@ -58,21 +58,17 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "Navendu Pottekkat"
+        Title: "May the source be with you"
         Content: >
-          - I'm a Software Engineer building Open Source projects. I currently work on [Apache APISIX](https://apisix.apache.org/)—the Cloud Native API Gateway.
-          
+          - I'm Navendu, and welcome to my brain dump.
+
           -
           
-          - I formerly maintained [Meshery](https://github.com/meshery/meshery) and [Service Mesh Performance](https://github.com/service-mesh-performance/service-mesh-performance) at the [Cloud Native Computing Foundation](https://www.cncf.io/). I'm also the creator and a maintainer of [NSFW Filter](https://github.com/nsfw-filter/nsfw-filter) (looking for maintainers!).
+          - I write about my work and life as an open source contributor/maintainer.
           
           -
 
-          - I help new open source contributors by mentoring through [Google Summer of Code](https://summerofcode.withgoogle.com/archive/2021/projects/5689363899351040) and the [Linux Foundation Mentorship Program](https://mentorship.lfx.linuxfoundation.org/mentor/bc364b11-a4ab-4b18-b81e-e071bbcfb40c).
-
-          -
-
-          - If you are here for the first time, check out the [Featured Posts](/categories/featured/) or learn more [About Me](/about) and make sure you Subscribe via [Email](/subscribe) or [RSS](/index.xml) to get regular updates.
+          - If you're here for the first time, try my [Featured Posts](/categories/featured/) or learn more [About Me](/about). Make sure to subscribe via [Email](/subscribe) or [RSS](/index.xml) to get regular updates.
 
     subscribeInfo:
       Text: If you liked this post, check out my [Featured Posts](/categories/featured) or learn more [About Me](/about).
