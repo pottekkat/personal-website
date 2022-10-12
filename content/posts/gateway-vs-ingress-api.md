@@ -253,7 +253,7 @@ flowchart TB
         end
 {{< /mermaid >}}
 
-## Is this the end of Ingress API?
+## Is This the End of Ingress API?
 
 The Gateway API is relatively new, and its implementations are constantly breaking. On the contrary, the Ingress API is in stable release and has stood the test of time.
 
