@@ -75,7 +75,7 @@ params:
 
     socialIcons:
         - name: email
-          url: "mailto:navendupottekkat@gmail.com"
+          url: "mailto:navendu@apache.org"
         - name: github
           url: "https://github.com/navendu-pottekkat"
         - name: linkedin
