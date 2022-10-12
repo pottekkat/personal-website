@@ -261,4 +261,6 @@ If your use case only involves simple routing and if you are okay with using cus
 
 With the Gateway API being a superset of the Ingress API, it might make sense to consolidate both. Thanks to the [SIG Network](https://github.com/kubernetes/community/tree/master/sig-network) community, Gateway API is still growing and will soon be production ready.
 
+Most Ingress controllers and [service meshes](https://istio.io/latest/docs/tasks/traffic-management/ingress/gateway-api/) have already implemented the Gateway API along with the Ingress API, and as the project evolves, more implementations will surface.
+
 Personally, at least for now, I would stick with [custom CRDs](https://apisix.apache.org/docs/ingress-controller/next/getting-started/) provided by the Ingress controllers like Apache APISIX instead of the Ingress or Gateway API.
