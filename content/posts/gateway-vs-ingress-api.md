@@ -143,7 +143,7 @@ Annotations are specific to your choice of an Ingress controller. These "proprie
 
 Being stuck with annotations also sacrifice the usability of the Ingress controllers.
 
-Controllers therefore solved the limitations of the Ingress API by creating their [own custom resources](https://apisix.apache.org/docs/ingress-controller/references/apisix_route_v2beta3/). The example below shows configuring Ingress to route traffic between two versions of an application using APISIX's custom resource:
+Controllers therefore solved the limitations of the Ingress API by creating their [own custom resources](https://apisix.apache.org/docs/ingress-controller/references/apisix_route_v2/). The example below shows configuring Ingress to route traffic between two versions of an application using APISIX's custom resource:
 
 ```yaml {title="apisix-ingress-manifest.yaml"}
 apiVersion: apisix.apache.org/v2
@@ -186,7 +186,7 @@ It takes inspiration from the custom CRDs of different Ingress controllers menti
 
 The Gateway API adds [many features](https://gateway-api.sigs.k8s.io/#gateway-api-concepts) "on top" of the Ingress API's capabilities. This includes HTTP header-based matching, weighted traffic splitting, and other features that require custom proprietary annotations with the Ingress API.
 
-Traffic split with APISIX Ingress resource (see [ApisixRoute/v2beta3 reference](https://apisix.apache.org/docs/ingress-controller/references/apisix_route_v2beta3/)):
+Traffic split with APISIX Ingress resource (see [ApisixRoute/v2 reference](https://apisix.apache.org/docs/ingress-controller/references/apisix_route_v2/)):
 
 ```yaml {title="apisix-ingress-manifest.yaml"}
 apiVersion: apisix.apache.org/v2
