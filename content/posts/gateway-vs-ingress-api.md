@@ -146,7 +146,7 @@ Being stuck with annotations also sacrifice the usability of the Ingress control
 Controllers therefore solved the limitations of the Ingress API by creating their [own custom resources](https://apisix.apache.org/docs/ingress-controller/references/apisix_route_v2beta3/). The example below shows configuring Ingress to route traffic between two versions of an application using APISIX's custom resource:
 
 ```yaml {title="apisix-ingress-manifest.yaml"}
-apiVersion: apisix.apache.org/v2beta3
+apiVersion: apisix.apache.org/v2
 kind: ApisixRoute
 metadata:
   name: api-routes
@@ -189,7 +189,7 @@ The Gateway API adds [many features](https://gateway-api.sigs.k8s.io/#gateway-ap
 Traffic split with APISIX Ingress resource (see [ApisixRoute/v2beta3 reference](https://apisix.apache.org/docs/ingress-controller/references/apisix_route_v2beta3/)):
 
 ```yaml {title="apisix-ingress-manifest.yaml"}
-apiVersion: apisix.apache.org/v2beta3
+apiVersion: apisix.apache.org/v2
 kind: ApisixRoute
 metadata:
   name: traffic-split
@@ -213,7 +213,7 @@ spec:
 Traffic split with Gateway API (see [Canary traffic rollout](https://gateway-api.sigs.k8s.io/guides/traffic-splitting/#canary-traffic-rollout)):
 
 ```yaml {title="kubernetes-gateway-manifest.yaml"}
-apiVersion: gateway.networking.k8s.io/v1beta1
+apiVersion: gateway.networking.k8s.io/v1alpha2
 kind: HTTPRoute
 metadata:
   name: traffic-split
