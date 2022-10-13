@@ -14,6 +14,6 @@ I don't think I will travel much for work this year. I plan to get some work don
 
 {{< figure src="/images/6-10-22-chill-maadi/plan-b.jpeg#center" title="Chill maadi" caption="Plan B, Bangalore - 1st October 2022" link="/images/6-10-22-chill-maadi/plan-b.jpeg" target="_blank" class="align-center" >}}
 
-{{< figure src="/images/6-10-22-chill-maadi/le-sky-dine.jpeg#center" title="Testing a new restaurant" caption="Le Sky Dine, Palakkad - 6th October 2022" link="/images/6-10-22-chill-maadi/URL" target="_blank" class="align-center" >}}
+{{< figure src="/images/6-10-22-chill-maadi/le-sky-dine.jpeg#center" title="Testing a new restaurant" caption="Le Sky Dine, Palakkad - 6th October 2022" link="/images/6-10-22-chill-maadi/le-sky-dine.jpeg" target="_blank" class="align-center" >}}
 
 {{< figure src="/images/6-10-22-chill-maadi/fruitbae.jpeg#center" title="What's for dessert?" caption="FruitBae, Palakkad - 6th October 2022" link="/images/6-10-22-chill-maadi/fruitbae.jpeg" target="_blank" class="align-center" >}}
