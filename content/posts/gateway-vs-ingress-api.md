@@ -1,6 +1,6 @@
 ---
 title: "Comparing Kubernetes Gateway and Ingress APIs"
-date: 2022-10-14T10:12:38+05:30
+date: 2022-10-14T09:12:38+05:30
 draft: false
 weight: 11
 ShowToc: false
