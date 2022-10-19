@@ -365,6 +365,6 @@ In real-world scenarios, you can keep the older version of the service on standb
 
 This tutorial taught you how to configure APISIX Ingress for simple canary releases. We tested it out with our sample application.
 
-You can also configure complex release strategies with APISIX and its Plugins. I will try to cover these in the following articles. To learn more about APISIX, visit [apisix.apache.org](https://apisix.apache.org).
+You can also configure complex release strategies with APISIX and its [Plugins](https://apisix.apache.org/docs/apisix/plugins/traffic-split/#custom-release). I will try to cover these in the following articles. To learn more about APISIX, visit [apisix.apache.org](https://apisix.apache.org).
 
 _See the complete list of articles in the series "[Hands-On With Apache APISIX Ingress](/series/hands-on-with-apache-apisix-ingress/)"._
