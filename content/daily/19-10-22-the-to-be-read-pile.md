@@ -3,7 +3,7 @@ title: "#216 The \"To Be Read\" Pile - Wednesday, 19th October 2022"
 layout: "daily-theme"
 date: 2022-10-19T20:58:26+05:30
 draft: false
-summary: "Catching up on my reading lists. I'm doing poorly."
+summary: "Catching up on my reading. I'm doing poorly."
 tags: ["daily log"]
 categories: ["Daily Dose of Pottekkat"]
 ---
