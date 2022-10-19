@@ -17,7 +17,7 @@ cover:
   relative: false
 ---
 
-_This article is a part of the series [Hands-On With Apache APISIX Ingress](/series/hands-on-with-apache-apisix-ingress/)._
+_This article is a part of the series "[Hands-On With Apache APISIX Ingress](/series/hands-on-with-apache-apisix-ingress/)"._
 
 In Kubernetes, [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/) is a native object that allows you to access your services externally by defining a set of rules. Using a reverse proxy, an [Ingress controller](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/) implements these defined rules and routes external traffic to your services.
 
@@ -327,3 +327,5 @@ Now you have APISIX routing traffic to your applications! You can try the two co
 In this tutorial, you learned to set up APISIX Ingress on your cluster. We tested it out by configuring basic Routes to a sample application.
 
 With APISIX gateway and the Ingress controller, you can also configure Upstreams, Plugins, mTLS, and monitoring. To learn more about APISIX and how you can use these features, visit [apisix.apache.org](https://apisix.apache.org).
+
+_See the complete list of articles in the series "[Hands-On With Apache APISIX Ingress](/series/hands-on-with-apache-apisix-ingress/)"._
