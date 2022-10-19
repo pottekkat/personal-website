@@ -8,6 +8,7 @@ mermaid: true
 summary: "A tutorial on using Ingress in your Kubernetes cluster with Apache APISIX."
 tags: ["ingress", "kubernetes", "apache apisix", "cloud-native"]
 categories: ["Featured", "API Gateway"]
+series: ["Hands-On With Apache APISIX Ingress"]
 aliases: [/apisix-ingress-101]
 cover:
   image: "/images/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/gate-banner.jpeg"
@@ -15,6 +16,8 @@ cover:
   caption: "Photo by [Pixabay](https://www.pexels.com/photo/pagoda-in-gray-scale-shot-301614/)"
   relative: false
 ---
+
+_This article is a part of the series [Hands-On With Apache APISIX Ingress](/series/hands-on-with-apache-apisix-ingress/)._
 
 In Kubernetes, [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/) is a native object that allows you to access your services externally by defining a set of rules. Using a reverse proxy, an [Ingress controller](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/) implements these defined rules and routes external traffic to your services.
 
