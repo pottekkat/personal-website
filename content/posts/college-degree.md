@@ -1,7 +1,7 @@
 ---
 title: "You Might Need a College Degree for a Programming Job"
-date: 2022-10-28T10:18:34+05:30
-draft: true
+date: 2022-10-28T19:18:34+05:30
+draft: false
 weight: 11
 ShowToc: false
 summary: "Many companies and tech gurus claim you don't need a college degree for a programming job. But here's why you might want to get one regardless."
@@ -57,5 +57,7 @@ And this makes complete sense. How else do you initially filter out hundreds, if
 With that being said, there are a lot of new startups that are hiring programmers without college degrees.
 
 In my four years of working full-time, I have worked at multiple companies in India and abroad, and no one has ever asked me for my college qualifications. But behind the scenes, it may have influenced some hiring decisions.
+
+Arguments supporting no degrees make sense when given the correct context. But understanding your context and judging whether it makes sense for you is what you have to consider.
 
 While college degrees do not imply skill and competency for a job, it is still a huge factor in hiring decisions. There will be a future where college degrees won't matter as much, but it overwhelmingly does today.
