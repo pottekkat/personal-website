@@ -6,7 +6,7 @@ weight: 11
 ShowToc: false
 summary: "Many companies and tech gurus claim you don't need a college degree for a programming job. But here's why you might want to get one regardless."
 tags: ["opinions", "education", "computer science"]
-categories: ["Featured", "Opinions"]
+categories: ["Opinions"]
 cover:
     image: "/images/computer-science-degree/graduating-banner.jpeg"
     alt: "Students throwing graduation caps."

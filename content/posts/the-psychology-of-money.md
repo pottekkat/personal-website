@@ -6,7 +6,7 @@ weight: 19
 ShowToc: false
 summary: "Key takeaways from Morgan Housel’s international bestseller “The Psychology of Money”—brief and to the point."
 tags: ["finance", "money management", "book reviews"]
-categories: ["Book Review", "Featured"]
+categories: ["Book Review"]
 cover:
   image: "/images/the-psychology-of-money/chapter-1-cover.jpeg"
   alt: "Quote from the first chapter of Morgan Housel's \"The Psychology of Money\""
