@@ -7,7 +7,7 @@ ShowToc: false
 mermaid: true
 summary: "A tutorial on using Ingress in your Kubernetes cluster with Apache APISIX."
 tags: ["ingress", "kubernetes", "apache apisix", "cloud-native"]
-categories: ["Featured", "API Gateway"]
+categories: ["API Gateway"]
 series: ["Hands-On With Apache APISIX Ingress"]
 aliases: [/apisix-ingress-101]
 cover:
