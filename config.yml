@@ -86,6 +86,8 @@ params:
         #   url: "https://stackoverflow.com/users/12424846/navendu-pottekkat"
         - name: twitter
           url: "https://twitter.com/sudo_navendu"
+        - name: mastodon
+          url: "https://fosstodon.org/@sudo_navendu"
         # - name: facebook
         #   url: "https://www.facebook.com/navendupottekkat/"
         - name: instagram
@@ -96,7 +98,7 @@ params:
         #   url: "https://www.goodreads.com/user/show/83926433-navendu-pottekkat"
         - name: rss
           url: /index.xml
-
+    
     cover:
         hidden: true # hide everywhere but not in structured data
         hiddenInList: true # hide on list pages and home
