@@ -84,4 +84,4 @@ Mastodon has an official app for [Android](https://play.google.com/store/apps/de
 
 ## Wrap Up
 
-That's it for the quick start guide. You should be able to pick more things up as you use Mastodon. You can also refer to the [documentation](https://docs.joinmastodon.org/) to learn more.
+That's it for the quick start guide. You should be able to pick more things up as you use Mastodon. You can also refer the [documentation](https://docs.joinmastodon.org/) to learn more.
