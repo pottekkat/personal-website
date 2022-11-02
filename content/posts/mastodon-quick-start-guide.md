@@ -5,7 +5,7 @@ draft: false
 weight: 10
 ShowToc: true
 TocOpen: true
-summary: "Learn to get up and running with the new microblogging platform everyone is talking about."
+summary: "Learn to get up and running with the microblogging platform everyone is talking about."
 tags: ["tutorials", "mastodon"]
 categories: ["Tutorials"]
 cover:
