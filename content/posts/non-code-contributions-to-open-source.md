@@ -34,7 +34,7 @@ People can't use what they don't understand.
 
 Even if the project is valuable, people would not be able to use it without proper documentation. Contributing to documentation can therefore be impactful.
 
-Tip: When you first test out a project, go through the existing documentation and see if you can clearly understand and use the project without any issues.
+> **Tip**: When you first test out a project, go through the existing documentation and see if you can clearly understand and use the project without any issues.
 
 Chances are you will find areas to improve. You can then open issues for it and fix them.
 
@@ -46,7 +46,7 @@ If you are a project user, you can help by writing articles and tutorials. This 
 
 You can add your insights and tips and publish them on your channels or the project's blog.
 
-Tip: Most people look for well-written and up-to-date tutorials instead of documentation.
+> **Tip**: Most people look for well-written and up-to-date tutorials instead of documentation.
 
 ### Internationalization/Translation
 
@@ -94,7 +94,7 @@ Open source projects are community driven. And most non-commercial open source p
 
 You can advocate for the project at events and on social media and encourage people to use the project.
 
-Tip: Don't even ask the project owners before advocating for the project. Everyone likes free marketing.
+> **Tip**: Don't even ask the project owners before advocating for the project. Everyone likes free marketing.
 
 ### User Experience
 
