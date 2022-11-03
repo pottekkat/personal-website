@@ -93,7 +93,7 @@ params:
         - name: instagram
           url: "https://www.instagram.com/sudo_navendu/"
         - name: youtube
-          url: "https://www.youtube.com/channel/UCWwMJ5SxVStO04W3nOrCiNA"
+          url: "https://youtube.com/@sudo_navendu"
         # - name: goodreads
         #   url: "https://www.goodreads.com/user/show/83926433-navendu-pottekkat"
         - name: rss
