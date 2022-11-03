@@ -18,8 +18,8 @@ I have been tinkering around with the CM4 module for the last two days, and I wi
 
 I found a couple of interesting blogs today:
 
-1.  [Gwern Branwen's Essays](https://www.gwern.net/index)
-2.  [Ribbonfarm](https://www.ribbonfarm.com/)
-3.  [Melting Asphalt](https://meltingasphalt.com/)
+1. [Gwern Branwen's Essays](https://www.gwern.net/index)
+2. [Ribbonfarm](https://www.ribbonfarm.com/)
+3. [Melting Asphalt](https://meltingasphalt.com/)
 
 I also changed the color scheme of this website to be darker. It gives a "lights out" vibe, which I really like.
