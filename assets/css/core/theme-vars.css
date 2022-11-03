@@ -18,6 +18,18 @@
 }
 
 .dark {
+    --theme: rgb(17,17,17);
+    --entry: rgb(33, 33, 33);
+    --primary: rgb(241, 241, 241);
+    --secondary: rgb(180, 180, 180);
+    --tertiary: rgb(33, 33, 33);
+    --content: rgb(236, 236, 236);
+    --hljs-bg: rgb(22, 22, 22);
+    --code-bg: rgb(33, 33, 33);
+    --border: rgb(25, 25, 25);
+}
+
+/* .dark {
     --theme: rgb(29, 30, 32);
     --entry: rgb(46, 46, 51);
     --primary: rgb(218, 218, 219);
@@ -27,7 +39,7 @@
     --hljs-bg: rgb(46, 46, 51);
     --code-bg: rgb(55, 56, 62);
     --border: rgb(51, 51, 51);
-}
+} */
 
 .list {
     background: var(--theme);

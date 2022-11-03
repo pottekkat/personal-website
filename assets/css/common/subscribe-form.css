@@ -29,5 +29,6 @@
 }
 
 .subscribe-button:hover {
-    background: var(--content);
+    background: var(--code-bg);
+    color: var(--primary);
 }
