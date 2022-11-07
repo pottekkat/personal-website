@@ -22,3 +22,5 @@ Some sample text to demonstrate that the graph below is working as intended. Thi
 {{< /rawhtml >}}
 
 Some sample text to demonstrate that the graph below is working as intended. This is created by Navendu Pottekkat.
+
+{{< figure src="/images/2022-stack-overflow/newplot.png#center" title="Title" caption="Caption" link="/images/2022-stack-overflow/newplot.png" target="_blank" class="align-center" >}}
