@@ -1,10 +1,10 @@
 ---
 title: "No Thanks, Crypto, UPI Already Solved Digital Payments"
-date: 2022-11-25T10:27:47+05:30
+date: 2022-11-18T10:27:47+05:30
 draft: true
 weight: 9
 ShowToc: false
-summary: "Cryptocurrencies are trying to be a solution to a problem that does not exist. UPI solved digital payments years ago."
+summary: "Cryptocurrencies are trying to be a solution to a financial problem that does not exist. UPI solved digital payments years ago."
 tags: ["essays", "crypto", "finance"]
 categories: ["essays"]
 cover:
