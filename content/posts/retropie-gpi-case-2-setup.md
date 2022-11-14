@@ -1,6 +1,6 @@
 ---
 title: "Retro Gaming With RetroPie, GPi CASE 2, and a Raspberry Pi"
-date: 2022-11-18T10:15:48+05:30
+date: 2022-11-25T10:15:48+05:30
 draft: true
 weight: 9
 ShowToc: true
