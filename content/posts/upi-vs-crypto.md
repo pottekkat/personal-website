@@ -38,7 +38,7 @@ UPI does not rely on a single bank or company compared to private digital paymen
 
 This means that there are a lot of UPI payment apps you can choose from, and all of them interoperate with each other. Facebook's WhatsApp Payments, Google's GPay, and Walmart's PhonePe (Flipkart) are some popular ones.
 
-Making a payment is easy. You can use a unique UPI ID similar to an email address (`navendupottekkat@okaxis` is my real UPI ID) or scan a QR code that will work on any UPI app. Money will be moved directly from your bank account to the payee's account without intermediaries. These transactions are instantly reflected in your bank account.
+Payments are easy. You can use a unique UPI ID similar to an email address (`navendupottekkat@okaxis` is my real UPI ID) or scan a QR code that will work on any UPI app. Money will be moved directly from your bank account to the payee's account without intermediaries. These transactions are instantly reflected in your bank account.
 
 India accounted for the largest number of real-time transactions in 2021, with 48.6 billion transactions. The combined number from the US, Canada, UK, France, and Germany was 7.5 billion[^11].
 
