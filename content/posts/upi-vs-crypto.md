@@ -1,6 +1,6 @@
 ---
 title: "No Thanks, Crypto, UPI Already Solved Digital Payments"
-date: 2022-11-18T10:27:47+05:30
+date: 2022-11-18T10:04:47+05:30
 draft: true
 weight: 9
 ShowToc: false
