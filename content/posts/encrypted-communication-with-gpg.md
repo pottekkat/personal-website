@@ -207,4 +207,4 @@ You can also configure your email clients or other applications to use this key 
 
 That's it! I'm not a security or cryptography expert, but I will probably look into where I can use these keys next.
 
-I will write a new article or update this if I use GPG keys anywhere else.
+I will write a new article or update this when I do so.
