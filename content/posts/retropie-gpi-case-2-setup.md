@@ -6,7 +6,7 @@ weight: 9
 ShowToc: true
 TocOpen: true
 summary: "A complete tutorial on how to set up RetroPie and play retro games on a GPi CASE 2 with a Raspberry Pi Compute Module 4 under the hood."
-tags: ["gaming", "raspberry pi", "tutorial"]
+tags: ["gaming", "raspberry pi", "tutorials"]
 categories: ["Raspberry Pi"]
 cover:
     image: "/images/retropie-gpi-case-2-setup/game-console-banner.jpeg"
