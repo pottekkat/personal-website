@@ -1,7 +1,7 @@
 ---
 title: "Signed Commits and Encrypted Communication with GPG Keys"
 date: 2022-12-02T10:04:40+05:30
-draft: true
+draft: false
 weight: 8
 ShowToc: true
 TocOpen: true
