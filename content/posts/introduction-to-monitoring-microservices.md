@@ -1,7 +1,7 @@
 ---
 title: "An Introduction to Monitoring Microservices with Prometheus and Grafana"
 date: 2022-12-09T10:15:51+05:30
-draft: true
+draft: false
 weight: 8
 ShowToc: true
 TocOpen: true
@@ -22,7 +22,7 @@ Through continuous monitoring, developers can detect issues with their services 
 
 This article will introduce how you can set up monitoring on your microservice application using two of the popular tools in this space, [Prometheus](https://prometheus.io/), and [Grafana](https://grafana.com/).
 
-The source code and Docker Compose file for this tutorial are available in [navendu-pottekkat/monitoring-101](https://github.com/navendu-pottekkat/monitoring-101).
+The source code and Docker Compose file for this tutorial are available in [monitoring-101](https://github.com/navendu-pottekkat/monitoring-101).
 
 ## Prometheus Basics
 
@@ -359,4 +359,4 @@ This article was only an introduction to how you can set up monitoring on your s
 * [Alerting based on metrics](https://prometheus.io/docs/tutorials/alerting_based_on_metrics/)
 * [Grafana Dashboards](https://grafana.com/docs/grafana/latest/dashboards/)
 
-The complete code and the Docker Compose file for this tutorial are available in [navendu-pottekkat/monitoring-101](https://github.com/navendu-pottekkat/monitoring-101).
+The complete code and the Docker Compose file for this tutorial are available in [monitoring-101](https://github.com/navendu-pottekkat/monitoring-101).
