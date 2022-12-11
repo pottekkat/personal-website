@@ -44,6 +44,7 @@ params:
       enable: true
       domain: "navendu.me"
       proxy_netlify: true
+      outbound_link: true
 
     ShowReadingTime: true
     ShowLastMod: true
