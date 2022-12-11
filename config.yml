@@ -40,6 +40,11 @@ params:
       theme: "dark"
       align: "center"
 
+    plausible:
+      enable = true
+      domain = "navendu.me"
+      proxy_netlify = true
+
     ShowReadingTime: true
     ShowLastMod: true
     ShowShareButtons: true

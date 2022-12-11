@@ -33,7 +33,8 @@
 <meta name="msvalidate.01" content="{{ .Site.Params.analytics.bing.SiteVerificationTag }}" />
 {{- end }}
 
-<script defer data-domain="navendu.me" data-api="/others/api/event" src="/others/js/script.js"></script>
+<!-- use Plausible for analytics -->
+{{ partial "plausible_head.html" . }}
 
 {{- /* Styles */}}
 {{- $theme_vars := (resources.Get "css/core/theme-vars.css") }}
