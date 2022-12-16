@@ -1,7 +1,7 @@
 ---
 title: "Hands-On: Extending Apache APISIX Ingress with Annotations, CRDs, and Plugins"
-date: 2022-12-16T10:30:02+05:30
-draft: true
+date: 2022-12-16T10:04:02+05:30
+draft: false
 weight: 7
 ShowToc: false
 summary: "A hands-on tutorial on leveraging the full features provided by APISIX in Kubernetes Ingress."
