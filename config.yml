@@ -1,7 +1,7 @@
 baseURL: https://navendu.me/
 languageCode: en-us
 title: "Navendu Pottekkat"
-theme: "PaperMod"
+theme: ["PaperMod", "plausible-hugo"]
 paginate: 200000
 
 enableRobotsTXT: true
@@ -11,7 +11,7 @@ buildExpired: false
 
 enableGitInfo: true
 
-googleAnalytics: G-VC68GQDE93
+# googleAnalytics: G-VC68GQDE93
 
 disqusShortname: navendu
 
@@ -39,6 +39,12 @@ params:
     mermaid:
       theme: "dark"
       align: "center"
+
+    plausible:
+      enable: true
+      domain: "navendu.me"
+      proxy_netlify: true
+      outbound_link: true
 
     ShowReadingTime: true
     ShowLastMod: true

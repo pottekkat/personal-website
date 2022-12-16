@@ -33,6 +33,9 @@
 <meta name="msvalidate.01" content="{{ .Site.Params.analytics.bing.SiteVerificationTag }}" />
 {{- end }}
 
+<!-- use Plausible for analytics -->
+{{ partial "plausible_head.html" . }}
+
 {{- /* Styles */}}
 {{- $theme_vars := (resources.Get "css/core/theme-vars.css") }}
 {{- $reset := (resources.Get "css/core/reset.css") }}
@@ -162,7 +165,7 @@
 
 {{- /* Misc */}}
 {{- if hugo.IsProduction | or (eq .Site.Params.env "production") }}
-{{- template "_internal/google_analytics.html" . }}
+<!-- {{- template "_internal/google_analytics.html" . }} -->
 {{- template "_internal/google_news.html" . }}
 {{- template "partials/templates/opengraph.html" . }}
 {{- template "partials/templates/twitter_cards.html" . }}

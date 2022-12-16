@@ -24,3 +24,13 @@
 [[redirects]]
   from = "/tfjs-object-detection"
   to = "https://github.com/navendu-pottekkat/tfjs-object-detection"
+
+[[redirects]]
+  from = "/misc/js/script.js"
+  to = "https://plausible.io/js/script.js"
+  status = 200
+
+[[redirects]]
+  from = "/misc/api/event"
+  to = "https://plausible.io/api/event"
+  status = 200
