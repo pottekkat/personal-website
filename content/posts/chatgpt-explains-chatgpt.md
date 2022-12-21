@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT Explained by ChatGPT"
 date: 2022-12-23T10:07:30+05:30
-draft: true
+draft: false
 weight: 7
 ShowToc: true
 TocOpen: true
