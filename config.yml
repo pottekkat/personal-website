@@ -82,6 +82,8 @@ params:
     socialIcons:
         - name: email
           url: "mailto:navendu@apache.org"
+        - name: telegram
+          url: "https://t.me/MayTheSourceBeWithYou"
         - name: github
           url: "https://github.com/navendu-pottekkat"
         - name: linkedin
