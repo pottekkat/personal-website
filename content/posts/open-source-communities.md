@@ -1,6 +1,6 @@
 ---
 title: "On Open Source Communities"
-date: 2022-12-30T09:40:54+05:30
+date: 2022-12-30T06:40:54+05:30
 draft: false
 weight: 7
 ShowToc: false
