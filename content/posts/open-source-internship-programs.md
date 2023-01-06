@@ -10,9 +10,9 @@ tags: ["list", "open-source", "internship"]
 categories: ["Open Source"]
 aliases: [/open-source-internship]
 cover:
-    image: "images/open-source-internship-programs/open-door.jpeg"
-    alt: "Open Door cover image"
-    caption: "Photo by [lalesh aldarwish](https://www.pexels.com/@lanophotography?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/steel-door-handle-on-door-147634/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)"
+    image: "images/open-source-internship-programs/open-sign.jpeg"
+    alt: "A sign that says open."
+    caption: "Photo by [Ben Taylor](https://www.pexels.com/photo/yellow-and-teal-open-neon-signage-109998/)"
     relative: false
 ---
 
