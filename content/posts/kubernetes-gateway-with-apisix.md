@@ -81,7 +81,7 @@ spec:
       port: 8080
       weight: 50
     - name: bare-minimum-api-v2
-      port: 8081
+      port: 8080
       weight: 50
 ```
 
