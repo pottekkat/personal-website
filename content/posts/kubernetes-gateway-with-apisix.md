@@ -11,7 +11,7 @@ series: ["Hands-On With Apache APISIX Ingress"]
 cover:
     image: "/images/kubernetes-gateway-with-apisix/gateway-banner.jpeg"
     alt: "A photo of Bali Handara Gate."
-    caption: "Photo by [Guillaume Meurice](https://www.pexels.com/photo/asphalt-road-near-black-concrete-arch-gate-beside-trees-1544351/)"
+    caption: "Photo by [Max Ravier](https://www.pexels.com/photo/person-walking-on-pathway-3348363/)"
     relative: false
 ---
 
