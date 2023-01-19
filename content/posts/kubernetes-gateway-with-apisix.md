@@ -2,7 +2,7 @@
 title: "Hands-On: Kubernetes Gateway API With APISIX Ingress"
 date: 2023-01-20T09:45:26+05:30
 draft: true
-weight: 23
+weight: 4
 ShowToc: false
 summary: "A hands-on tutorial on using the new Kubernetes Gateway with Apache APISIX Ingress."
 tags: ["ingress", "kubernetes", "apache apisix", "cloud-native"]
