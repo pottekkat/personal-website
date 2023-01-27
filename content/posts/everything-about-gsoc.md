@@ -10,7 +10,7 @@ tags: ["open-source", "tips"]
 categories: ["Open Source"]
 cover:
   image: "images/everything-about-gsoc/Google Summer of Code (GSoC) Banner.png"
-  alt: "Google Summer of Code (GSoC) Banner"
+  alt: "A poster of Google Summer of Code (GSoC)."
   relative: false
 ---
 
