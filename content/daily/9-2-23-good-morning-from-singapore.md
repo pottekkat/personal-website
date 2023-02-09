@@ -21,3 +21,15 @@ I'm staying on top of a shopping mall, which is pretty cool. The place looks and
 Hotels are overrated. I will choose hostels and co-living spaces over it. They are cheaper, have all the facilities, and you meet people randomly. I will shift to a different (more inexpensive) hostel on Sunday.
 
 I made an attempt to shoot random videos during my travel. I plan to try out my editing skills with it.
+
+## Afternoon update
+
+I finally have a room!
+
+It is only 2 pm, and I have reached almost 30,000 steps. My new shoes suck, and my leg hurts. Thankfully, I bought my trusty pair of Asics. 30,000 is going to look like 3,000 now.
+
+My dinner plan for today is to find the best chicken satay in Singapore and then crash and burn.
+
+Staying in a country longer takes the pressure off to make every minute count and allows you to visit places at a more leisurely pace. And with a work-from-anywhere job, I can get a lot of work done.
+
+I will write a detailed post on my travel, but daily logs will continue unedited.
