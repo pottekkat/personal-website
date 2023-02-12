@@ -3,7 +3,7 @@ title: "#243 \"Garden City\" Is an Accurate Description - Sunday, 12th February 
 layout: "daily-theme"
 date: 2023-02-12T14:04:49+08:00
 draft: false
-summary: ""
+summary: "It feels greener than Kerala."
 tags: ["daily log"]
 categories: ["Daily Dose of Pottekkat"]
 ---
