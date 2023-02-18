@@ -7,14 +7,6 @@ description: "What Navendu is doing now."
 
 Here's what I'm doing now.
 
-## Traveling to Singapore
-
-I will be in Singapore from 9th to 17th February. The plan is to stay faithful to my ability to work from anywhere.
-
-I originally planned the trip to speak at a conference, but it got postponed, and I always book the cheapest, non-refundable tickets. So Singapore, here I come!
-
-I plan to travel around, meet people, and try many different foods. Working from a new city for a while will be a nice change of pace and could help improve my work.
-
 ## Traveling to Bahrain
 
 I'm fulfilling my lifelong dream of watching a Formula 1 race live. I will be in Bahrain on the race weekend (2nd to 6th March).
