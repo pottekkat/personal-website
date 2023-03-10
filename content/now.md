@@ -7,10 +7,6 @@ description: "What Navendu is doing now."
 
 Here's what I'm doing now.
 
-## Traveling to Bahrain
-
-I'm fulfilling my lifelong dream of watching a Formula 1 race live. I will be in Bahrain on the race weekend (2nd to 6th March).
-
 ## Full-Time Job
 
 I work full-time at [API7.ai](https://api7.ai/), where I help build [Apache APISIX](https://apisix.apache.org/).
