@@ -11,6 +11,7 @@ ShowCanonicalLink: true
 summary: "As the size of your APIs increase, the need for making them reliable and robust also increases. This article discusses the best practices for designing reliable APIs by introducing you to a special kind of reverse proxies called API gateways."
 tags: ["api gateway", "apache apisix", "cloud-native"]
 categories: ["Featured", "API Gateway"]
+aliases: [/reliable-apis]
 cover:
     image: "/images/best-practices-for-building-reliable-apis/banner-construction.jpeg"
     alt: "Photo of construction workers on a site."
