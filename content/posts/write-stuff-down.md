@@ -1,8 +1,8 @@
 ---
 title: "Write Stuff Down"
 date: 2023-03-10T09:55:27+05:30
-draft: true
-weight: 1
+draft: false
+weight: 10
 ShowToc: false
 summary: "Writing as a way to think clearly and articulate your thoughts."
 tags: ["communication", "writing", "tips"]
