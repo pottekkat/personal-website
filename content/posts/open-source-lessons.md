@@ -2,7 +2,6 @@
 title: "Lessons Learned From Three Years of Open Source Contributions"
 date: 2022-10-07T09:28:21+05:30
 draft: false
-weight: 12
 ShowToc: false
 summary: "Insights from my three year journey as an open source contributor."
 tags: ["open-source"]

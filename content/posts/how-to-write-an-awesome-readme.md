@@ -1,7 +1,6 @@
 ---
 title: "How to write an Awesome README"
 date: "2020-07-13"
-weight: 200
 draft: false
 summary: "A comprehensive guide to writing README that stands out and makes people go WOW!"
 tags: ["readme", "documentation", "tutorials"]

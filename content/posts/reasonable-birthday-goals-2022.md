@@ -2,7 +2,6 @@
 title: "My Reasonable Birthday Goals"
 date: 2022-11-11T10:31:35+05:30
 draft: false
-weight: 9
 ShowToc: false
 summary: "Evaluating where I am and deciding where I want to be next."
 tags: ["life", "birthday goals"]

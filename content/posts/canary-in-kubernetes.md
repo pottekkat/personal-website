@@ -2,7 +2,6 @@
 title: "Hands-On: Canary Release in Kubernetes With Apache APISIX Ingress"
 date: 2022-10-21T08:41:04+05:30
 draft: false
-weight: 11
 ShowToc: false
 summary: "A hands-on, from-scratch tutorial on setting up canary releases in Kubernetes with Apache APISIX Ingress."
 tags: ["ingress", "kubernetes", "apache apisix", "cloud-native"]

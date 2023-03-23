@@ -2,7 +2,6 @@
 title: "Retro Gaming With RetroPie, GPi CASE 2, and a Raspberry Pi"
 date: 2022-11-25T10:15:48+05:30
 draft: false
-weight: 9
 ShowToc: true
 TocOpen: true
 summary: "A complete tutorial on how to set up RetroPie and play retro games on a GPi CASE 2 with a Raspberry Pi Compute Module 4 under the hood."

@@ -2,7 +2,6 @@
 title: "A Quick Start Guide for Mastodon"
 date: 2022-11-02T14:02:10+05:30
 draft: false
-weight: 10
 ShowToc: true
 TocOpen: true
 summary: "Learn to get up and running with the microblogging platform everyone is talking about."

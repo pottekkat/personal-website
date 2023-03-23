@@ -2,7 +2,6 @@
 title: "Adding Diagrams to Your Hugo Blog With Mermaid"
 date: 2022-08-26T09:46:16+05:30
 draft: false
-weight: 17
 ShowToc: true
 TocOpen: true
 mermaid: true

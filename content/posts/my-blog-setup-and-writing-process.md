@@ -2,7 +2,6 @@
 title: "My Blog Setup and Writing Process"
 date: 2022-09-23T17:09:43+05:30
 draft: false
-weight: 14
 ShowToc: false
 summary: "I've been writing blogs for almost three years now. Recently, I've been putting a lot of effort into building and maintaining my blog. This article documents my blog setup and my writing process from idea to publishing."
 tags: ["blogs", "setup"]

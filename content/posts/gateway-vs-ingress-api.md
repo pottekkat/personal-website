@@ -2,7 +2,7 @@
 title: "Comparing Kubernetes Gateway and Ingress APIs"
 date: 2022-10-14T09:12:38+05:30
 draft: false
-weight: 11
+weight: 20
 ShowToc: false
 mermaid: true
 summary: "Exploring the new Kubernetes Gateway API and comparing it with the existing Kubernetes Ingress API for handling external traffic."
