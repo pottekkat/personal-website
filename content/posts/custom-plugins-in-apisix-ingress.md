@@ -33,6 +33,8 @@ Before you move on, make sure you:
 2. Install and configure `kubectl` to communicate with your cluster.
 3. [Install Helm](https://helm.sh/docs/intro/install/) to deploy the APISIX Ingress controller.
 
+The complete code used in this article is available [here](https://github.com/navendu-pottekkat/apisix-in-kubernetes/tree/master/custom-plugin).
+
 ## Deploying a Sample Application
 
 We will deploy the [bare-minimum-api](/posts/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/#deploying-a-sample-application) as our sample application:
@@ -44,7 +46,7 @@ kubectl expose pod bare-minimum-api --port 8080
 
 ## Writing a Custom Plugin
 
-For this example, we will create a sample Plugin that rewrites the response body from the Upstream with a custom value:
+For this example, we will create a [sample Plugin](https://raw.githubusercontent.com/navendu-pottekkat/apisix-in-kubernetes/master/custom-plugin/plugins/custom-response.lua) that rewrites the response body from the Upstream with a custom value:
 
 ```lua {title="custom-response.lua"}
 -- some required functionalities are provided by apisix.core
@@ -141,7 +143,7 @@ plugins:
 
 Finally you can enable the Ingress controller and configure the gateway to be exposed to external traffic. For this, set `gateway.type=NodePort`, `ingress-controller.enabled=true`, and `ingress-controller.config.apisix.serviceNamespace=ingress-apisix` in your `values.yaml` file.
 
-Now we can run `helm install` with this updated `values.yaml` file:
+Now we can run `helm install` with this [updated values.yaml](https://raw.githubusercontent.com/navendu-pottekkat/apisix-in-kubernetes/master/custom-plugin/values.yaml) file:
 
 ```shell
 helm install apisix apisix/apisix -n ingress-apisix --values ./apisix/values.yaml
