@@ -2,7 +2,6 @@
 title: "Key Takeaways from Morgan Housel\'s \"The Psychology of Money\""
 date: 2022-02-09T10:54:49+05:30
 draft: false
-weight: 19
 ShowToc: false
 summary: "Key takeaways from Morgan Housel’s international bestseller “The Psychology of Money”—brief and to the point."
 tags: ["finance", "money management", "book reviews"]

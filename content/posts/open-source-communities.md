@@ -2,7 +2,6 @@
 title: "On Open Source Communities"
 date: 2022-12-30T06:40:54+05:30
 draft: false
-weight: 7
 ShowToc: false
 summary: "A note on the role of communities in open source."
 tags: ["open-source", "community", "notes"]

@@ -1,7 +1,6 @@
 ---
 title: "20+ Open Source Internship Programs You Can Apply To (Updated for 2023)"
 date: 2021-08-28T17:52:25+05:30
-weight: 120
 draft: false
 summary: "A curated list of open source internship programs with all the necessary details."
 ShowToc: true

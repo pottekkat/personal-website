@@ -2,7 +2,6 @@
 title: "You Might Need a College Degree for a Programming Job"
 date: 2022-10-28T19:18:34+05:30
 draft: false
-weight: 11
 ShowToc: false
 summary: "Many companies and tech gurus claim you don't need a college degree for a programming job. But here's why you might want to get one regardless."
 tags: ["essays", "education", "computer science"]

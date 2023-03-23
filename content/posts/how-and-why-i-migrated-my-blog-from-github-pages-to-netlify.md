@@ -2,7 +2,6 @@
 title: "How and Why I Migrated My Blog From Github Pages to Netlify"
 date: 2022-08-12T15:56:00+05:30
 draft: false
-weight: 18
 ShowToc: true
 TocOpen: true
 summary: "This blog is now deployed on Netlify. Here is how and why I did it."

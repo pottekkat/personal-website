@@ -1,7 +1,6 @@
 ---
 title: "Building Your Career in Open-Source"
 date: 2021-09-30T12:56:25+05:30
-weight: 140
 draft: false
 summary: "My experience from a new programmer to working in open-source full time."
 tags: ["talks", "open-source"]

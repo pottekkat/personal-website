@@ -2,12 +2,11 @@
 title: "ChatGPT Explained by ChatGPT"
 date: 2022-12-21T19:07:30+05:30
 draft: false
-weight: 7
 ShowToc: true
 TocOpen: true
 summary: "A conversation with ChatGPT about ChatGPT. Who are you?"
 tags: ["ai", "chatgpt", "neural networks"]
-categories: ["Featured", "AI"]
+categories: ["AI"]
 cover:
     image: "/images/chatgpt-explains-chatgpt/man-on-alien-planet-banner.png"
     alt: "An AI generated image showing a man on an alien planet witnessing a volcano erupting as asteroids fly in the background."

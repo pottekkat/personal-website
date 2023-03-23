@@ -1,7 +1,6 @@
 ---
 title: "Webinar: Non-Code Contributions to Open-Source"
 date: 2021-11-07T12:56:25+05:30
-weight: 160
 draft: false
 summary: "Key takeaways and resources from Navendu's talk on Non-Code Contributions to Open-Source."
 tags: ["talks", "open-source"]

@@ -2,7 +2,6 @@
 title: "Hands-On: Set Up Ingress on Kubernetes With Apache APISIX Ingress Controller"
 date: 2022-09-09T09:11:44+05:30
 draft: false
-weight: 14
 ShowToc: false
 mermaid: true
 summary: "A tutorial on using Ingress in your Kubernetes cluster with Apache APISIX."

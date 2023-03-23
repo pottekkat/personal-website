@@ -2,7 +2,7 @@
 title: "Best Practices for Building Reliable APIs"
 date: 2022-08-19T17:12:35+05:30
 draft: false
-weight: 15
+weight: 50
 mermaid: true
 ShowToc: true
 TocOpen: true
