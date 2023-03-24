@@ -38,4 +38,6 @@ I still rely on the nerd energy to work. I am obsessed with my work and the proj
 
 *Note that these logs are unedited ramblings.*
 
+_Also, [compilers](https://blog.regehr.org/archives/169)._
+
 *Ciao!*
