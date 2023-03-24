@@ -149,7 +149,7 @@ Now we can run `helm install` with this [updated values.yaml](https://raw.github
 helm install apisix apisix/apisix -n ingress-apisix --values ./apisix/values.yaml
 ```
 
-APISIX  and APISIX Ingress controller should be ready in some time with the custom Plugin mounted successfully.
+APISIX and APISIX Ingress controller should be ready in some time with the custom Plugin mounted successfully.
 
 ## Testing without Enabling the Plugin
 
@@ -214,7 +214,7 @@ spec:
             body: "Hello from your custom Plugin!"
 ```
 
-Now, our custom Plugin should rewrite the Upstream response with "custom response."
+Now, our custom Plugin should rewrite the Upstream response with "Hello from your custom Plugin!"
 
 Let's apply this CRD and test the Route and see what happens:
 
