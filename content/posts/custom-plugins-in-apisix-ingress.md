@@ -109,7 +109,7 @@ Now we can deploy APISIX and mount this ConfigMap.
 
 We will deploy APISIX via Helm as we did in the [previous tutorials](/series/hands-on-with-apache-apisix-ingress/).
 
-But we will  make some changes to the default `values.yaml` file to mount the custom Plugin we created.
+But we will make some changes to the default `values.yaml` file to mount the custom Plugin we created.
 
 You can configure the Plugin under `customPlugins` as shown below:
 
