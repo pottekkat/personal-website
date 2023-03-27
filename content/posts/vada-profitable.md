@@ -93,7 +93,7 @@ I'm fortunate to have a full-time job where I get paid to work on open source pr
 
 But most open source maintainers don't make any money at all from their open source work.
 
-That is where you and I can come in to [support open source projects and maintainers](https://github.com/sponsors/explore) as users of open source software.
+This is where you and I can come in to [support open source projects and maintainers](https://github.com/sponsors/explore) as users of open source software.
 
 Even if you can't support them financially, you can still make a difference by contributing to the project through code, docs, tests, feedback, bug reports, or countless other ways.
 
