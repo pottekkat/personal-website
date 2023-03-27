@@ -2,7 +2,6 @@
 title: "Hands-On: Custom Plugins in APISIX Ingress"
 date: 2023-03-24T09:22:09+05:30
 draft: false
-weight: 10
 ShowToc: false
 summary: "A hands-on tutorial on using custom APISIX Plugins in Kubernetes environments with APISIX Ingress."
 tags: ["ingress", "kubernetes", "apache apisix", "cloud-native"]
