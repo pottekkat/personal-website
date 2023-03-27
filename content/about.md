@@ -5,17 +5,13 @@ layout: "about"
 description: "About Navendu Pottekkat and his blog."
 ---
 
-## About this Blog
+## About This Blog
 
-This blog is about:
+This blog is a window into my world as an open source maintainer.
 
-* getting better
-* experiences
-* technology
-* books
-* life
+I write about a [wide range of topics](/categories/), from in-depth [tutorials for projects](/tags/apache-apisix/) that keep me up at night to the [goals in life](/tags/life/) that keep me inspired.
 
-*_This list is not exhaustive._
+I also try to [write daily](/categories/daily-dose-of-pottekkat/), but fair warning: I don't stop to edit these.
 ## About Me
 
 I work full-time in maintaining [Apache APISIX](https://github.com/apache/apisix). Formerly, I maintained two [CNCF](https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation) projects.
