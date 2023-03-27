@@ -5,7 +5,7 @@ draft: true
 weight: 10
 ShowToc: true
 TocOpen: true
-summary: "This article is about a project I built and open sourced three years ago and our journey to make it uzhunnu vada (UV) profitable."
+summary: "This article is about a project I built and open sourced three years ago and our journey to make it uzhunnu vada (UV) profitable™."
 tags: ["open-source", "nsfw filter", "finance"]
 categories: ["Featured", "Open Source"]
 cover:
