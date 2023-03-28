@@ -16,6 +16,8 @@ I also try to [write daily](/categories/daily-dose-of-pottekkat/), but fair warn
 ### Ethics Statement
 
 I don't accept any form of payment to write about a product or a company. The products I write about are the ones I work on and/or believe in strongly.
+
+I use analytics to help me learn and improve my future articles. This blog uses [Plausible Analytics](https://plausible.io/privacy-focused-web-analytics) and does not collect personal data or personally identifiable information.
 ## About Me
 
 I work full-time in maintaining [Apache APISIX](https://github.com/apache/apisix). Formerly, I maintained two [CNCF](https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation) projects.
