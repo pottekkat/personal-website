@@ -97,7 +97,7 @@ This is where you and I can come in to [support open source projects and maintai
 
 Even if you can't support them financially, you can still make a difference by contributing to the project through code, docs, tests, feedback, bug reports, or countless other ways.
 
----
+![Me eating a vada](/images/vada-profitable/vada-eating-tile.png)
 
 My co-maintainer and I currently fund NSFW Filter. We haven't taken any money out of our Patreon account, and we plan to utilize this money to support open source projects/maintainers.
 
