@@ -13,6 +13,8 @@ cover:
     relative: false
 ---
 
+> _See the discussion on [Hacker News](https://news.ycombinator.com/item?id=35357933)._
+
 Recently, a person has been using AI tools to generate code and open pull requests to open source projects I contribute to.
 
 The code is entirely wrong and doesn't work, and it is evident that the person making these pull requests doesn't understand the code.
@@ -84,3 +86,5 @@ No open source maintainer will readily merge your pull request without at least 
 It is fairly easy to understand when the code doesn't work that an AI generated it. You wouldn't be opening pull requests with code that doesn't work.
 
 Please don't turn this into a “let’s spam open source projects” fest.
+
+_See the discussion on [Hacker News](https://news.ycombinator.com/item?id=35357933)._
