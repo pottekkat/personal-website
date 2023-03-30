@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import os
 import requests
 import yaml
+import pytz
 from datetime import datetime
 
 from dotenv import load_dotenv
@@ -13,6 +14,19 @@ load_dotenv()
 site = os.getenv('SITE')
 period = os.getenv('PERIOD')
 token = os.getenv('TOKEN')
+runtime = os.getenv('RUN')
+
+input_tz = pytz.timezone('UTC')
+output_tz = pytz.timezone('Asia/Kolkata')
+
+input_tz_format = '%Y-%m-%dT%H:%M:%S'
+output_tz_format = '%-I:%M %p, %-d %B %Y (%z)'
+
+input_time = datetime.strptime(runtime, input_tz_format)
+input_time = input_tz.localize(input_time)
+
+output_time = input_time.astimezone(output_tz)
+output_time_str = output_time.strftime(output_tz_format)
 
 def format_date(date_str):
     date = datetime.strptime(date_str, '%Y-%m-%d')
@@ -72,7 +86,8 @@ data_yaml = {
     'most_visitors_date': format_date(most_visitors_date),
     'most_visitors_visitors': most_visitors_visitors,
     'top_page_link': top_page_link,
-    'top_page_visitors': top_page_visitors
+    'top_page_visitors': top_page_visitors,
+    'runtime': output_time_str
 }
 
 fig, ax = plt.subplots()

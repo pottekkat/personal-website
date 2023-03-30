@@ -3,13 +3,16 @@ name: Update Stats
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 21 * * *'
+    - cron: '46 15 * * *'
 
 jobs:
   build:
     permissions: write-all
     runs-on: ubuntu-latest
     steps:
+
+      - name: get current date and time
+        run: echo "RUN=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
 
       - name: checkout repo
         uses: actions/checkout@v2
