@@ -90,10 +90,10 @@ data_yaml = {
     'runtime': output_time_str
 }
 
-fig, ax = plt.subplots()
-
 plt.style.use('dark_background')
 plt.rcParams.update({'font.size': 12})
+
+fig, ax = plt.subplots()
 
 ax.plot(dates, visitors)
 
