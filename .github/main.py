@@ -22,6 +22,10 @@ output_tz = pytz.timezone('Asia/Kolkata')
 input_tz_format = '%Y-%m-%dT%H:%M:%S'
 output_tz_format = '%-I:%M %p, %-d %B %Y (%z)'
 
+if runtime == "":
+    runtime = datetime.now().strftime(input_tz_format)
+    input_tz = pytz.timezone('Asia/Kolkata')
+
 input_time = datetime.strptime(runtime, input_tz_format)
 input_time = input_tz.localize(input_time)
 
@@ -82,14 +86,6 @@ data = response.json()['results'][0]
 top_page_link = data['page']
 top_page_visitors = data['visitors']
 
-data_yaml = {
-    'most_visitors_date': format_date(most_visitors_date),
-    'most_visitors_visitors': most_visitors_visitors,
-    'top_page_link': top_page_link,
-    'top_page_visitors': top_page_visitors,
-    'runtime': output_time_str
-}
-
 plt.style.use('dark_background')
 plt.rcParams.update({'font.size': 12})
 
@@ -106,6 +102,49 @@ ax.set_title('Vistors over the Last Month')
 plt.show()
 
 fig.savefig('./static/images/stats/monthly-visitors.png', dpi=300, bbox_inches='tight', transparent=True)
+
+url = 'https://plausible.io/api/v1/stats/breakdown'
+
+params = {
+    'site_id': site,
+    'period': period,
+    'property': 'visit:source',
+    'limit': '5'
+}
+
+response = requests.get(url, headers=headers, params=params)
+
+data = response.json()['results']
+
+data_sorted = sorted(data, key=lambda x: x['visitors'], reverse=False)
+
+sources = [d['source'] for d in data_sorted]
+visitors = [d['visitors'] for d in data_sorted]
+
+top_sources = sources[:-4:-1]
+direct_link_string = "Traffic from direct links dropped because I have been using tags on links."
+
+if 'Direct / None' in top_sources:
+  direct_link_string = "There is a lot of traffic from direct links. I should level up my link-tagging game."
+
+fig, ax = plt.subplots()
+ax.barh(sources, visitors)
+
+ax.set_title('Top Sources')
+
+plt.show()
+
+fig.savefig('./static/images/stats/monthly-sources.png', dpi=300, bbox_inches='tight', transparent=True)
+
+data_yaml = {
+    'most_visitors_date': format_date(most_visitors_date),
+    'most_visitors_visitors': most_visitors_visitors,
+    'top_page_link': top_page_link,
+    'top_page_visitors': top_page_visitors,
+    'top_sources': top_sources,
+    'direct_link_string': direct_link_string,
+    'runtime': output_time_str
+}
 
 with open('./data/stats/stats.yaml', 'w') as file:
   yaml.dump(data_yaml, file)

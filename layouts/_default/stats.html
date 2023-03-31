@@ -27,6 +27,16 @@
         Stats from the last 30 days<p>Last updated at {{.Site.Data.stats.stats.runtime}}</p>
         </figcaption>
         </figure>
+    <p>
+        Most people visited the site from the source: {{ index (.Site.Data.stats.stats.top_sources) 0 }}.
+    </p>
+    <p>{{.Site.Data.stats.stats.direct_link_string}}</p>
+    <figure class="align-center"><a href="/images/stats/monthly-sources.png" target="_blank">
+        <img loading="lazy" src="/images/stats/monthly-sources.png#center" alt="Chart showing the source of visitors over last one month."> </a><figcaption>
+        Stats from the last 30 days<p>Last updated at {{.Site.Data.stats.stats.runtime}}</p>
+        </figcaption>
+        </figure>
+        <p>What should I add next here? Send your suggestions to <a href="mailto:navendu@apache.org">navendu@apache.org</a>.</p>
     </section>
   </div>
 </article>
