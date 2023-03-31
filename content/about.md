@@ -7,17 +7,22 @@ description: "About Navendu Pottekkat and his blog."
 
 ## About This Blog
 
+[/stats](/stats/)
+
 This blog is a window into my world as an open source maintainer.
 
 I write about a [wide range of topics](/categories/), from in-depth [tutorials for projects](/tags/apache-apisix/) that keep me up at night to the [goals in life](/tags/life/) that keep me inspired.
 
 I also try to [write daily](/categories/daily-dose-of-pottekkat/), but fair warning: I don't stop to edit these.
 
+Unless mentioned otherwise, all material in this blog is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0).
+
 ### Ethics Statement
 
 I don't accept any form of payment to write about a product or a company. The products I write about are the ones I work on and/or believe in strongly.
 
-I use analytics to help me learn and improve my future articles. This blog uses [Plausible Analytics](https://plausible.io/privacy-focused-web-analytics) and does not collect personal data or personally identifiable information.
+I use [analytics](/stats/) to help me learn and improve my future articles. This blog uses [Plausible Analytics](https://plausible.io/privacy-focused-web-analytics) and does not collect personal data or personally identifiable information.
+
 ## About Me
 
 I work full-time in maintaining [Apache APISIX](https://github.com/apache/apisix). Formerly, I maintained two [CNCF](https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation) projects.
