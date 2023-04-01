@@ -11,7 +11,19 @@
     {{- if not (.Param "disableAnchoredHeadings") }} {{- partial
     "anchored_headings.html" .Content -}} {{- else }}{{ .Content }}{{ end }}
     <section class="stats">
+      <h2>Visitors by Country</h2>
       <p>
+        It's always amazing to see people from around the world reading my blog. Most visitors come from
+        {{ range first 3 .Site.Data.stats.stats.top_countries }} {{ . }}, {{ end }} and {{ range last 1 .Site.Data.stats.stats.top_countries }} {{ . }}. {{ end }}
+      </p>
+      <figure class="align-center"><a href="/images/stats/visitors-by-country.png" target="_blank">
+        <img loading="lazy" src="/images/stats/visitors-by-country.png#center" alt="Chart showing the source of visitors over last one month."> </a><figcaption>
+        Stats from the last 30 days<p>Last updated at {{.Site.Data.stats.stats.runtime}}</p>
+        </figcaption>
+        </figure>
+        <p>Shoutout to <a href="https://www.linkedin.com/in/christy-m-thomas/">Christy</a>, an actual GIS Engineer, who helped me create the chart above.</p>
+        <h2>Visitors per Day</h2>
+        <p>
         {{.Site.Data.stats.stats.most_visitors_visitors}} people visited the
         blog on {{.Site.Data.stats.stats.most_visitors_date}}. This is the
         highest number of daily visitors in the past month.
@@ -27,6 +39,7 @@
         Stats from the last 30 days<p>Last updated at {{.Site.Data.stats.stats.runtime}}</p>
         </figcaption>
         </figure>
+    <h2>Visitors by Source</h2>
     <p>
         Most people visited the site from the source: {{ index (.Site.Data.stats.stats.top_sources) 0 }}.
     </p>
