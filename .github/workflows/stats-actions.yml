@@ -25,7 +25,8 @@ jobs:
       - name: install python packages
         run: |
           python -m pip install --upgrade pip
-          sudo apt install libgdal-dev
+          sudo apt install libgdal-dev=3.6.3
+          pip install gdal==3.6.3
           pip install -r ./.github/requirements.txt
           
       - name: execute python script
