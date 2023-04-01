@@ -1,12 +1,15 @@
 import numpy as np
+import pandas as pd
+import geopandas as gpd
 import matplotlib.pyplot as plt
+import matplotlib.colors as colors
 
 import os
 import requests
 import yaml
 import pytz
-from datetime import datetime
 
+from datetime import datetime
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -58,16 +61,17 @@ data = response.json()['results']
 data_mod = {}
 
 for item in data:
-  date = item['date']
-  visitors = item['visitors']
-  data_mod[date] = visitors
+    date = item['date']
+    visitors = item['visitors']
+    data_mod[date] = visitors
 
 dates, visitors = zip(*sorted(data_mod.items()))
 
 dates = np.array(dates, dtype=np.datetime64)
 dates = dates.astype('datetime64[D]')
 
-most_visitors_date, most_visitors_visitors = max(data_mod.items(), key=lambda x: x[1])
+most_visitors_date, most_visitors_visitors = max(
+    data_mod.items(), key=lambda x: x[1])
 
 url = 'https://plausible.io/api/v1/stats/breakdown'
 
@@ -99,9 +103,8 @@ ax.xaxis.set_major_locator(plt.MaxNLocator(5))
 
 ax.set_title('Vistors over the Last Month')
 
-plt.show()
-
-fig.savefig('./static/images/stats/monthly-visitors.png', dpi=300, bbox_inches='tight', transparent=True)
+fig.savefig('./static/images/stats/monthly-visitors.png',
+            dpi=300, bbox_inches='tight', transparent=True)
 
 url = 'https://plausible.io/api/v1/stats/breakdown'
 
@@ -125,26 +128,61 @@ top_sources = sources[:-4:-1]
 direct_link_string = "Traffic from direct links dropped because I have been using tags on links."
 
 if 'Direct / None' in top_sources:
-  direct_link_string = "There is a lot of traffic from direct links. I should level up my link-tagging game."
+    direct_link_string = "There is a lot of traffic from direct links. I should level up my link-tagging game."
 
 fig, ax = plt.subplots()
 ax.barh(sources, visitors)
 
 ax.set_title('Top Sources')
 
-plt.show()
+fig.savefig('./static/images/stats/monthly-sources.png',
+            dpi=300, bbox_inches='tight', transparent=True)
 
-fig.savefig('./static/images/stats/monthly-sources.png', dpi=300, bbox_inches='tight', transparent=True)
+url = 'https://plausible.io/api/v1/stats/breakdown'
+params = {
+    'site_id': site,
+    "period": period,
+    'property': 'visit:country',
+    'metrics': 'visitors'
+}
+
+response = requests.get(url, headers=headers, params=params)
+
+data = response.json()['results']
+
+world = gpd.read_file("./.github/world_admin_boundary.geojson")
+world = world[world.ADMIN != "Antarctica"]
+
+df = pd.DataFrame(data)
+merged_data = world.merge(df, left_on='ISO_A2', right_on='country')
+
+top_countries = list(merged_data.sort_values(by='visitors', ascending=False).iloc[:4].ADMIN.values)
+
+colors_list = ['#c6e9e3', '#8dd3c7', '#45b29f', '#317f72']
+positions = [0.0, 0.6, 0.8, 1.0]
+cmap = colors.LinearSegmentedColormap.from_list(
+    'custom_cmap', list(zip(positions, colors_list)))
+
+fig, ax = plt.subplots(1, 1, figsize=(18, 18))
+
+world.plot(ax=ax, facecolor="none", edgecolor='#ffffff', lw=.5)
+merged_data.plot(ax=ax, column='visitors', cmap=cmap)
+
+ax.set_title('Visitors by Country')
+ax.set_axis_off()
+
+plt.savefig('./static/images/stats/visitors-by-country.png', bbox_inches='tight',dpi=300)
 
 data_yaml = {
     'most_visitors_date': format_date(most_visitors_date),
     'most_visitors_visitors': most_visitors_visitors,
     'top_page_link': top_page_link,
     'top_page_visitors': top_page_visitors,
+    'top_countries': top_countries,
     'top_sources': top_sources,
     'direct_link_string': direct_link_string,
     'runtime': output_time_str
 }
 
 with open('./data/stats/stats.yaml', 'w') as file:
-  yaml.dump(data_yaml, file)
+    yaml.dump(data_yaml, file)
