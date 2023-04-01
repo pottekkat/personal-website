@@ -16,8 +16,8 @@
         It's always amazing to see people from around the world reading my blog. Most visitors come from
         {{ range first 3 .Site.Data.stats.stats.top_countries }} {{ . }}, {{ end }} and {{ range last 1 .Site.Data.stats.stats.top_countries }} {{ . }}. {{ end }}
       </p>
-      <figure class="align-center"><a href="/images/stats/visitors-by-country.png" target="_blank">
-        <img loading="lazy" src="/images/stats/visitors-by-country.png#center" alt="Chart showing the source of visitors over last one month."> </a><figcaption>
+      <figure class="align-center">
+        <img loading="lazy" src="/images/stats/visitors-by-country.png#center" alt="Chart showing the source of visitors over last one month."><figcaption>
         Stats from the last 30 days<p>Last updated at {{.Site.Data.stats.stats.runtime}}</p>
         </figcaption>
         </figure>
@@ -34,8 +34,8 @@
         read <a href="{{ strings.TrimRight .Site.BaseURL "/" }}{{.Site.Data.stats.stats.top_page_link}}">this</a>.
       </p>
 
-      <figure class="align-center"><a href="/images/stats/monthly-visitors.png" target="_blank">
-        <img loading="lazy" src="/images/stats/monthly-visitors.png#center" alt="Chart showing visitors over last one month."> </a><figcaption>
+      <figure class="align-center">
+        <img loading="lazy" src="/images/stats/monthly-visitors.png#center" alt="Chart showing visitors over last one month."><figcaption>
         Stats from the last 30 days<p>Last updated at {{.Site.Data.stats.stats.runtime}}</p>
         </figcaption>
         </figure>
@@ -44,8 +44,8 @@
         Most people visited the site from the source: {{ index (.Site.Data.stats.stats.top_sources) 0 }}.
     </p>
     <p>{{.Site.Data.stats.stats.direct_link_string}}</p>
-    <figure class="align-center"><a href="/images/stats/monthly-sources.png" target="_blank">
-        <img loading="lazy" src="/images/stats/monthly-sources.png#center" alt="Chart showing the source of visitors over last one month."> </a><figcaption>
+    <figure class="align-center">
+        <img loading="lazy" src="/images/stats/monthly-sources.png#center" alt="Chart showing the source of visitors over last one month."><figcaption>
         Stats from the last 30 days<p>Last updated at {{.Site.Data.stats.stats.runtime}}</p>
         </figcaption>
         </figure>
