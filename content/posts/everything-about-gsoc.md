@@ -17,7 +17,7 @@ Contributing to open source is a great way to hone your skills while working on 
 
 After all, when you create a pull request, you open up your code for people to give feedback and criticize.
 
-This is where [open source mentorship programs](../open-source-internship-programs) like [Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com/) come in and bridge the gap between new developers and large open-source codebases.
+This is where [open source mentorship programs](../open-source-internship-programs) like Google Summer of Code (GSoC) come in and bridge the gap between new developers and large open-source codebases.
 
 ## What is Google Summer of Code (GSoC)?
 
