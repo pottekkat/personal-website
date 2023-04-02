@@ -5,7 +5,7 @@ draft: false
 ShowToc: false
 summary: "Someone tried to open pull requests to open source projects with AI-generated code."
 tags: ["open-source", "ai", "spam"]
-categories: ["Featured", "Open Source"]
+categories: ["Open Source"]
 cover:
     image: "/images/ai-generated-spam-prs/owl-banner.jpeg"
     alt: "Close-up photo of an owl."
