@@ -158,5 +158,3 @@ Having new contributors will ensure the sustainability of the project.
 This list is not exhaustive and you can always find more ways to make impactful contributions.
 
 As an open source maintainer, I see the value in every contribution. And I'm sure more maintainers see it too.
-
-If you found this helpful, checkout [related posts](/categories/open-source/).
