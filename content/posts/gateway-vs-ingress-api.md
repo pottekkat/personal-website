@@ -178,7 +178,7 @@ These CRDs made it much easier to configure Ingress, but you are tied to the spe
 
 Ingress API was not broken; it was limited. The Gateway API was designed to overcome these limitations.
 
-{{< blockquote author="gateway-api.sigs.k8s.io" link="[Link](https://gateway-api.sigs.k8s.io/)" title="What is the Gateway API?" >}}
+{{< blockquote author="gateway-api.sigs.k8s.io" link="https://gateway-api.sigs.k8s.io/" title="What is the Gateway API?" >}}
 (Gateway API) aim to evolve Kubernetes service networking through expressive, extensible, and role-oriented interfaces ...
 {{< /blockquote >}}
 
