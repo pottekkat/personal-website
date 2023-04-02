@@ -24,6 +24,16 @@ taxonomies:
   series: series
   tag: tags
 
+related:
+  includeNewer: true
+  indices:
+  - name: categories
+    weight: 40
+  - name: tags
+    weight: 60
+  threshold: 90
+  toLower: false
+
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: "Navendu Pottekkat"
