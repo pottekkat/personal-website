@@ -1,0 +1,57 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+  </header>
+  <div class="post-content">
+    <section class="last-run">
+        <blockquote><p><i>Last updated at {{.Site.Data.stats.stats.runtime}}</i></p></blockquote>
+    </section>
+    {{- if not (.Param "disableAnchoredHeadings") }} {{- partial
+    "anchored_headings.html" .Content -}} {{- else }}{{ .Content }}{{ end }}
+    <section class="stats">
+      <h2>Visitors by Country</h2>
+      <p>
+        It's always amazing to see people from around the world reading my blog. Most visitors come from
+        {{ range first 3 .Site.Data.stats.stats.top_countries }} {{ . }}, {{ end }} and {{ range last 1 .Site.Data.stats.stats.top_countries }} {{ . }}. {{ end }}
+      </p>
+      <figure class="align-center">
+        <img loading="lazy" src="/images/stats/visitors-by-country.png#center" alt="Chart showing the source of visitors over last one month."><figcaption>
+        Stats from the last 30 days<p>Last updated at {{.Site.Data.stats.stats.runtime}}</p>
+        </figcaption>
+        </figure>
+        <p>Shoutout to <a href="https://www.linkedin.com/in/christy-m-thomas/">Christy</a>, an actual GIS Engineer, who helped me create the chart above.</p>
+        <h2>Visitors per Day</h2>
+        <p>
+        {{.Site.Data.stats.stats.most_visitors_visitors}} people visited the
+        blog on {{.Site.Data.stats.stats.most_visitors_date}}. This is the
+        highest number of daily visitors in the past month.
+      </p>
+
+      <p>
+        Out of them, {{.Site.Data.stats.stats.top_page_visitors}} were here to
+        read <a href="{{ strings.TrimRight .Site.BaseURL "/" }}{{.Site.Data.stats.stats.top_page_link}}">this</a>.
+      </p>
+
+      <figure class="align-center">
+        <img loading="lazy" src="/images/stats/monthly-visitors.png#center" alt="Chart showing visitors over last one month."><figcaption>
+        Stats from the last 30 days<p>Last updated at {{.Site.Data.stats.stats.runtime}}</p>
+        </figcaption>
+        </figure>
+    <h2>Visitors by Source</h2>
+    <p>
+        Most people visited the site from the source: {{ index (.Site.Data.stats.stats.top_sources) 0 }}.
+    </p>
+    <p>{{.Site.Data.stats.stats.direct_link_string}}</p>
+    <figure class="align-center">
+        <img loading="lazy" src="/images/stats/monthly-sources.png#center" alt="Chart showing the source of visitors over last one month."><figcaption>
+        Stats from the last 30 days<p>Last updated at {{.Site.Data.stats.stats.runtime}}</p>
+        </figcaption>
+        </figure>
+        <p>What should I add next here? Send your suggestions to <a href="mailto:navendu@apache.org">navendu@apache.org</a>.</p>
+    </section>
+  </div>
+</article>
+
+{{- end }}{{/* end main */}}
