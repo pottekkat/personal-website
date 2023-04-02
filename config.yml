@@ -13,7 +13,7 @@ enableGitInfo: true
 
 # googleAnalytics: G-VC68GQDE93
 
-disqusShortname: navendu
+# disqusShortname: navendu
 
 minify:
     disableXML: true
@@ -52,6 +52,9 @@ params:
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
+    ShowWordCount: false
+    ShowRssButtonInSectionTermList: true
+    UseHugoToc: false
     disableSpecial1stPost: false
     disableScrollToTop: false
     comments: false
