@@ -4,6 +4,7 @@ date: {{ .Date }}
 draft: true
 ShowToc: true
 TocOpen: true
+ShowRelatedContent: false
 summary: ""
 tags: [""]
 categories: [""]
