@@ -77,7 +77,7 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "May the source be with you"
+        Title: "May the Source Be with You"
         Content: >
           - I'm Navendu, and welcome to my brain dump.
 
