@@ -48,3 +48,14 @@
 .dark.list {
     background: var(--theme);
 }
+
+/*change color of text highlight*/
+::-moz-selection {
+    color: var(--theme);
+    background: rgba(236, 236, 236, 0.7);
+  }
+
+::selection {
+    color: var(--theme);
+    background: rgba(236, 236, 236, 0.7);
+}
