@@ -14,8 +14,6 @@ cover:
     relative: false
 ---
 
-_This article is a part of the series "[Hands-On With Apache APISIX Ingress](/series/hands-on-with-apache-apisix-ingress/)"._
-
 In a [previous article](/posts/extending-apisix-ingress/), I explained how to extend APISIX Ingress with Plugins.
 
 APISIX comes with [80+ Plugins](https://apisix.apache.org/plugins/) out of the box. Still, there may come a time when your use case does not fit any Plugins.

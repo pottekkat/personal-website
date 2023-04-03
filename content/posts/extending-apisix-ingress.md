@@ -14,8 +14,6 @@ cover:
     relative: false
 ---
 
-_This article is a part of the series "[Hands-On With Apache APISIX Ingress](/series/hands-on-with-apache-apisix-ingress/)"._
-
 The [default Kubernetes Ingress resource](https://kubernetes.io/docs/concepts/services-networking/ingress/#the-ingress-resource) exposes many standard features provided by Ingress controller implementations. However, if you use Ingress controllers like [Apache APISIX](https://apisix.apache.org/docs/ingress-controller/next/getting-started/), the default Ingress resource will limit its full capabilities.
 
 This tutorial will look at how you can use [annotations](#annotations), [custom resource definitions (CRDs)](#custom-crds), and [Plugins](#plugins) to extend Kubernetes Ingress to include the full capabilities of APISIX.
