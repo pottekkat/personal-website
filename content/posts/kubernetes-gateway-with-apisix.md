@@ -14,8 +14,6 @@ cover:
     relative: false
 ---
 
-_This article is a part of the series "[Hands-On With Apache APISIX Ingress](/series/hands-on-with-apache-apisix-ingress/)"._
-
 Previously, I wrote an article [comparing the Kubernetes Gateway API and the Ingress API](/posts/gateway-vs-ingress-api/).
 
 The Gateway API was designed to overcome the limitations of the Ingress API (like proprietary annotations and custom CRDs), thus providing a unified way to expose services outside the cluster.

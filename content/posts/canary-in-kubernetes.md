@@ -14,8 +14,6 @@ cover:
     relative: false
 ---
 
-_This article is a part of the series "[Hands-On With Apache APISIX Ingress](/series/hands-on-with-apache-apisix-ingress/)"._
-
 A canary release is a process of rolling out a new version of software to a small subset of users before making it generally available. Canary releases can help in testing and controlling new releases and rolling back if there are any issues.
 
 A simple canary release looks like this:
