@@ -4,7 +4,9 @@
         <h1>{{ .Title | markdownify }}</h1>
     </header>
     <div class="entry-content">
-        {{ .Content | markdownify }}
+        <p class="intro">{{ .Content.Intro | markdownify }}</p>
+        <p class="intro">{{ .Content.About | markdownify }}</p>
+        <p>{{ .Content.Action | markdownify }}</p>
     </div>
     <footer class="entry-footer">
         {{ partial "social_icons.html" site.Params.socialIcons }}
