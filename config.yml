@@ -87,10 +87,10 @@ params:
           
           -
 
-          - If you're here for the first time, try my [Featured Posts](/categories/featured/) or learn more [About Me](/about). Make sure to subscribe via [Email](/subscribe) or [RSS](/index.xml) to get regular updates.
+          - If you're here for the first time, try my [featured posts](/categories/featured/) or learn more [about me](/about). Make sure to subscribe via [email](/subscribe) or [RSS](/index.xml) to get regular updates.
 
     subscribeInfo:
-      Text: If you liked this post, check out my [Featured Posts](/categories/featured) or learn more [About Me](/about).
+      Text: If you liked this post, check out my [featured posts](/categories/featured) or learn more [about me](/about).
 
     socialIcons:
         - name: email
