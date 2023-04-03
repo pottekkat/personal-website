@@ -57,7 +57,7 @@ spec:
               service:
                 name: bare-minimum-api-v2
                 port:
-                  number: 8081
+                  number: 8080
             path: /v2
             pathType: Exact
 ```
@@ -96,7 +96,7 @@ spec:
         servicePort: 8080
         weight: 70
       - serviceName: bare-minimum-api-v2
-        servicePort: 8081
+        servicePort: 8080
         weight: 30
 ```
 
@@ -156,7 +156,7 @@ spec:
         servicePort: 8080
         weight: 50
       - serviceName: bare-minimum-api-v2
-        servicePort: 8081
+        servicePort: 8080
         weight: 50
       plugins:
         - name: limit-count

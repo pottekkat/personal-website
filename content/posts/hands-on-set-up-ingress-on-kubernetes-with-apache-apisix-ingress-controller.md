@@ -3,7 +3,6 @@ title: "Hands-On: Set Up Ingress on Kubernetes With Apache APISIX Ingress Contro
 date: 2022-09-09T09:11:44+05:30
 draft: false
 ShowToc: false
-mermaid: true
 summary: "A tutorial on using Ingress in your Kubernetes cluster with Apache APISIX."
 tags: ["ingress", "kubernetes", "apache apisix", "cloud-native"]
 categories: ["API Gateway"]
@@ -20,54 +19,13 @@ _This article is a part of the series "[Hands-On With Apache APISIX Ingress](/se
 
 In Kubernetes, [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/) is a native object that allows you to access your services externally by defining a set of rules. Using a reverse proxy, an [Ingress controller](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/) implements these defined rules and routes external traffic to your services.
 
-{{< mermaid >}}
-flowchart LR
-c(Clients) --> i("☸ Ingress")
-i --> s1("☸ Service 1")
-i --> s2("☸ Service 2")
-i --> s3("☸ Service 3")
-style i stroke: #e62129
-
-    subgraph k["☸ Kubernetes cluster"]
-    i
-    s1
-    s2
-    s3
-    end
-
-{{< /mermaid >}}
+{{< figure src="/images/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/kubernetes-ingress.png#center" title="Kubernetes Ingress" link="/images/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/kubernetes-ingress.png" target="_blank" class="align-center" >}}
 
 [Apache APISIX](https://apisix.apache.org/) is an open source API gateway (a souped-up reverse proxy) that provides features like authentication, traffic routing, load balancing, canary releases, monitoring, and more. APISIX also supports custom Plugins and integrates with popular open source projects like [Apache SkyWalking](https://apisix.apache.org/docs/apisix/next/plugins/skywalking/) and [Prometheus](https://apisix.apache.org/docs/apisix/next/plugins/prometheus/). To learn more about APISIX, you can see the [official documentation](https://apisix.apache.org/docs/apisix/getting-started/).
 
 The [Apache APISIX Ingress controller](https://apisix.apache.org/docs/ingress-controller/next/getting-started/) sits between the defined Ingress rules and the APISIX API gateway. It configures the proxy to route traffic based on the defined rules.
 
-{{< mermaid >}}
-flowchart LR
-c(Clients) --> a
-a --> s1("☸ Service 1")
-a --> s2("☸ Service 2")
-a --> s3("☸ Service 3")
-ic("☸ APISIX Ingress controller") --- p("☸ APISIX API gateway")  
- style p stroke: #e62129
-linkStyle 0 stroke: #e62129
-linkStyle 1 stroke: #e62129
-linkStyle 2 stroke: #e62129
-linkStyle 3 stroke: #e62129
-
-    subgraph k["☸ Kubernetes cluster"]
-        a
-        s1
-        s2
-        s3
-    end
-
-    subgraph a["APISIX"]
-        direction TB
-        ic
-        p
-    end
-
-{{< /mermaid >}}
+{{< figure src="/images/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/apisix-ingress-controller.png#center" title="APISIX Ingress" link="/images/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/apisix-ingress-controller.png" target="_blank" class="align-center" >}}
 
 This hands-on tutorial will teach you how to set up the APISIX Ingress controller on your Kubernetes cluster and route traffic to your services.
 
@@ -83,13 +41,7 @@ We will use a sample HTTP server application ([bare-minimum-api](https://github.
 
 While running the application, you can set a "version" and a port to listen to. For this example, we will create two "versions" of this application which will return different responses as shown below:
 
-{{< mermaid >}}
-flowchart LR
-    c(Clients) --> |:8080/ GET| a1(bare-minimum-api-v1)
-    a1 --> |Hello from API v1.0!| c
-    c --> |:8081/ GET| a2(bare-minimum-api-v2)
-    a2 --> |Hello from API v2.0!| c
-{{< /mermaid >}}
+{{< figure src="/images/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/bare-minimum-api.png#center" title="bare-minimum-api" caption="We configure the v1 API as v1 and the v2 API as v2 manually while deploying them" link="/images/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/bare-minimum-api.png" target="_blank" class="align-center" >}}
 
 You can deploy the application on your Kubernetes cluster by running:
 
@@ -119,8 +71,8 @@ Hello from API v1.0!
 Similarly, you can deploy another "version" of the application by running:
 
 ```shell
-kubectl run bare-minimum-api-v2 --image navendup/bare-minimum-api --port 8081 -- 8081 v2.0
-kubectl expose pod bare-minimum-api-v2 --port 8081
+kubectl run bare-minimum-api-v2 --image navendup/bare-minimum-api --port 8080 -- 8080 v2.0
+kubectl expose pod bare-minimum-api-v2 --port 8080
 ```
 
 Now, we can deploy APISIX Ingress and expose these applications to external traffic.
@@ -177,53 +129,9 @@ Once you have verified that the APISIX gateway and Ingress controller is running
 
 This will route traffic between the two application versions based on the client request:
 
-{{< mermaid >}}
-flowchart LR
-c(Client) <--> |"Req: /v1 GET\nResp: Hello from API v1.0!"| a
-a --> |Route| s1("☸ bare-minimum-api-v1")
-a --> s2("☸ bare-minimum-api-v2")
-ic("☸ APISIX Ingress controller") --- p("☸ APISIX API gateway")
-style p stroke: #e62129
-linkStyle 0 stroke: #e62129
-linkStyle 1 stroke: #e62129
-linkStyle 3 stroke: #e62129
+{{< figure src="/images/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/routing-to-v1.png#center" title="Routing requests to v1" caption="Requests to the path `/v1` should be routed to the bare-minimum-api-**v1** service" link="/images/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/routing-to-v1.png" target="_blank" class="align-center" >}}
 
-    subgraph k["☸ Kubernetes cluster"]
-        a
-        s1
-        s2
-    end
-
-    subgraph a["APISIX"]
-        direction TB
-        ic
-        p
-    end
-{{< /mermaid >}}
-
-{{< mermaid >}}
-flowchart LR
-c(Client) <--> |"Req: /v2 GET\nResp: Hello from API v2.0!"| a
-a --> s1("☸ bare-minimum-api-v1")
-a --> |Route| s2("☸ bare-minimum-api-v2")
-ic("☸ APISIX Ingress controller") --- p("☸ APISIX API gateway")
-style p stroke: #e62129
-linkStyle 0 stroke: #e62129
-linkStyle 2 stroke: #e62129
-linkStyle 3 stroke: #e62129
-
-    subgraph k["☸ Kubernetes cluster"]
-        a
-        s1
-        s2
-    end
-
-    subgraph a["APISIX"]
-        direction TB
-        ic
-        p
-    end
-{{< /mermaid >}}
+{{< figure src="/images/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/routing-to-v2.png#center" title="Routing requests to v2" caption="Requests to the path `/v2` should be routed to the bare-minimum-api-**v2** service" link="/images/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/routing-to-v2.png" target="_blank" class="align-center" >}}
 
 To configure Routes, APISIX comes with declarative and easy-to-use [custom resource](https://apisix.apache.org/docs/ingress-controller/next/references/apisix_route_v2beta3/):
 
@@ -251,7 +159,7 @@ spec:
           - /v2
       backends:
         - serviceName: bare-minimum-api-v2
-          servicePort: 8081
+          servicePort: 8080
 ```
 
 The APISIX Ingress controller converts this resource to an APISIX gateway configuration.
@@ -280,7 +188,7 @@ spec:
               service:
                 name: bare-minimum-api-v2
                 port:
-                  number: 8081
+                  number: 8080
             path: /v2
             pathType: Exact
 ```

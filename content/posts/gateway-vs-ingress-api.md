@@ -97,7 +97,7 @@ spec:
               service:
                 name: bare-minimum-api-v2
                 port:
-                  number: 8081
+                  number: 8080
             path: /v2
             pathType: Prefix
 ```
@@ -169,7 +169,7 @@ spec:
           - /v2
       backends:
         - serviceName: bare-minimum-api-v2
-          servicePort: 8081
+          servicePort: 8080
 ```
 
 These CRDs made it much easier to configure Ingress, but you are tied to the specific Ingress control implementation. Without the Ingress API evolving, you had to choose between usability or portability.
@@ -206,7 +206,7 @@ spec:
           servicePort: 8080
           weight: 90
         - serviceName: bare-minimum-api-v2
-          servicePort: 8081
+          servicePort: 8080
           weight: 10
 ```
 
@@ -226,7 +226,7 @@ spec:
       port: 8080
       weight: 90
     - name: bare-minimum-api-v2
-      port: 8081
+      port: 8080
       weight: 10
 ```
 
