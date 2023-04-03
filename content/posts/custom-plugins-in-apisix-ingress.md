@@ -1,5 +1,5 @@
 ---
-title: "Hands-On: Custom Plugins in APISIX Ingress"
+title: "Custom Plugins in APISIX Ingress"
 date: 2023-03-24T09:22:09+05:30
 draft: false
 ShowToc: false

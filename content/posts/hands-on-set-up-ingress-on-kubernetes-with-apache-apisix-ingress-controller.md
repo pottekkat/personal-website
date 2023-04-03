@@ -1,5 +1,5 @@
 ---
-title: "Hands-On: Set Up Ingress on Kubernetes With Apache APISIX Ingress Controller"
+title: "Set Up Ingress on Kubernetes With Apache APISIX Ingress Controller"
 date: 2022-09-09T09:11:44+05:30
 draft: false
 ShowToc: false

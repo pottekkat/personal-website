@@ -1,5 +1,5 @@
 ---
-title: "Hands-On: Extending Apache APISIX Ingress with Annotations, CRDs, and Plugins"
+title: "Extending Apache APISIX Ingress with Annotations, CRDs, and Plugins"
 date: 2022-12-16T10:04:02+05:30
 draft: false
 ShowToc: false
