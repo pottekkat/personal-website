@@ -1,5 +1,5 @@
 ---
-title: "Hands-On: Kubernetes Gateway API With APISIX Ingress"
+title: "Kubernetes Gateway API With APISIX Ingress"
 date: 2023-01-20T09:45:26+05:30
 draft: false
 ShowToc: false

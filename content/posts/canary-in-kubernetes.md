@@ -1,5 +1,5 @@
 ---
-title: "Hands-On: Canary Release in Kubernetes With Apache APISIX Ingress"
+title: "Canary Release in Kubernetes With Apache APISIX Ingress"
 date: 2022-10-21T08:41:04+05:30
 draft: false
 ShowToc: false
