@@ -7,7 +7,7 @@ tags: ["open-source", "documentation"]
 categories: ["Open Source"]
 cover:
     image: "images/contributing-to-documentation/banner-image.jpeg"
-    alt: "Banner of a handwritten document."
+    alt: "A page with handwritten text."
     relative: false
 ---
 
