@@ -7,6 +7,12 @@ description: "What Navendu is doing now."
 
 Here's what I'm doing now.
 
+## Traveling to Singapore
+
+I will be in Singapore from the 12th to the 17th of April to [speak at FOSSASIA Summit](https://eventyay.com/e/7cfe0771/session/8122).
+
+If you are there, come and say hi! 
+
 ## Full-Time Job
 
 I work full-time at [API7.ai](https://api7.ai/), where I help build [Apache APISIX](https://apisix.apache.org/).
@@ -23,7 +29,7 @@ I don't plan to work on these full-time or scale and monetize them, at least for
 
 ## Reading
 
-I'm currently reading the novel "[The Maid](https://www.goodreads.com/book/show/60040418-the-maid)" by Nita Prose. I like thriller novels; they are my go-to genre when I'm in a reading slump.
+I'm currently reading [V K N's collected short stories](https://www.goodreads.com/book/show/17971843-v-k-n).
 
 I'm also reading "[The Anarchy](https://www.goodreads.com/book/show/42972023-the-anarchy)" by William Dalrymple. It talks about the East India Company and how it rose to power against Indian kingdoms.
 
