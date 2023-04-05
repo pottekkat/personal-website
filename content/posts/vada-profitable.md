@@ -1,7 +1,7 @@
 ---
 title: "Vada (Fritters) Profitable"
-date: 2023-03-31T09:59:04+05:30
-draft: true
+date: 2023-04-07T09:59:04+05:30
+draft: false
 weight: 10
 ShowToc: true
 TocOpen: true
