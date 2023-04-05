@@ -13,7 +13,7 @@ enableGitInfo: true
 
 # googleAnalytics: G-VC68GQDE93
 
-disqusShortname: navendu
+# disqusShortname: navendu
 
 minify:
     disableXML: true
@@ -24,10 +24,20 @@ taxonomies:
   series: series
   tag: tags
 
+related:
+  includeNewer: true
+  indices:
+  - name: categories
+    weight: 40
+  - name: tags
+    weight: 60
+  threshold: 90
+  toLower: false
+
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: "Navendu Pottekkat"
-    description: "Personal blog of Navendu Pottekkat. I write open source code."
+    description: "May the Source Be with You is Navendu Pottekkat's personal blog, where he writes about his work and life as an open source contributor/maintainer."
     keywords: [Navendu, Pottekkkat, Blog, Portfolio, Resume]
     author: "Navendu Pottekkat"
     DateFormat: "January 2, 2006"
@@ -52,6 +62,9 @@ params:
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
+    ShowWordCount: false
+    ShowRssButtonInSectionTermList: true
+    UseHugoToc: false
     disableSpecial1stPost: false
     disableScrollToTop: false
     comments: false
@@ -64,20 +77,14 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "May the source be with you"
-        Content: >
-          - I'm Navendu, and welcome to my brain dump.
-
-          -
-          
-          - I write about my work and life as an open source contributor/maintainer ([what am I doing now?](/now/)).
-          
-          -
-
-          - If you're here for the first time, try my [Featured Posts](/categories/featured/) or learn more [About Me](/about). Make sure to subscribe via [Email](/subscribe) or [RSS](/index.xml) to get regular updates.
+        Title: "May the Source Be with You"
+        Content:
+          Intro: I'm Navendu, and welcome to my brain dump.
+          About: I write about my work and life as an open source contributor/maintainer ([what am I doing now?](/now/)).
+          Action: If you're here for the first time, try my [featured posts](/categories/featured/) or learn more [about me](/about). Make sure to subscribe via [email](/subscribe) or [RSS](/index.xml) to get regular updates.
 
     subscribeInfo:
-      Text: If you liked this post, check out my [Featured Posts](/categories/featured) or learn more [About Me](/about).
+      Text: If you liked this post, check out my [featured posts](/categories/featured) or learn more [about me](/about).
 
     socialIcons:
         - name: email

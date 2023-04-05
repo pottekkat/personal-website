@@ -1,105 +1,86 @@
 ---
-title: "Contributing to Documentation in Open-Source"
+title: "Contributing to Documentation"
 date: 2021-11-08T12:56:25+05:30
 draft: false
 summary: "Contributing to documentation is really impactful for an open-source project. It can also be a stepping stone to make code contributions. Learn how."
-tags: ["open-source"]
+tags: ["open-source", "documentation"]
 categories: ["Open Source"]
 cover:
     image: "images/contributing-to-documentation/banner-image.jpeg"
-    alt: "Banner of a handwritten document."
+    alt: "A page with handwritten text."
     relative: false
 ---
 
-Contributing to open-source can be overwhelming.
+Contributing to the documentation is an impactful way to contribute to open source projects.
 
-You are creating a pull request to an open-source project that would open up your code for people to give feedback and criticise.
+Without clear and concise documentation, people won't be able to understand and use the project.
 
-This turns off a lot of new contributors from making an impact in open-source.
-
-You might also be at a point where you are not confident enough in your programming skills that you hesitate to take that first step in contributing code.
-
-A good way to tackle this and gain confidence to contribute code is to start by contributing to documentation.
-
-Documentation is necessary for every open-source project. Contributing to and maintaining documentation is not an easy task but is highly impactful.
-
-I will drop a bomb and say contributing to documentation is more important than contributing code.
-
-In this post, I will try to share my insights on contributing to documentation from my experience as an open-source contributor and a maintainer.
-
-> Being overwhelmed when you first start to contribute to open-source is natural. Start small. But start.
+In this article, I will share how you can contribute to documentation effectively.
 
 ## Finding a Project
 
-The first thing to do before you can start contributing is finding a project you can contribute to. And the best project to contribute to is the one you have been using for a while.
+How do you find a project to contribute to? I have a two-step plan:
 
-That is, if you have been using a framework or a library, a tool or any other open-source project, contribute to it.
+**Step 1**: The best project to contribute to is the one you have been a user of for a while.
 
-With this, you will have a lot of context on what the project is and you will definitely be able to find areas in the documentation you can improve.
+If you have been using a framework, library, tool, or any open source project, you can contribute to it.
 
-If you cannot find such a project to contribute to, look for projects with an active community of contributors.
+You will already have a lot of context on the project, and you will be able to find ways to improve the documentation.
 
-Community is key in open-source and you will definitely reap the rewards for being part of a thriving community.
+**Step 2**: If you can't find a project like the one mentioned in step 1, contribute to a project with an active community.
 
-All these factors comes secondary to the fact that you should always contribute to projects that YOU are interested in.
+Open source is as much about community as it is about code. Having access to a thriving community will help you be an impactful contributor.
 
-## Start as a User
+Ultimately, all this boils down to your interest. You should only contribute if you are interested in the project.
 
-As mentioned in the above section, you will be able to make impactful contributions if you are already a user of the project.
+## Be a User
 
-So, if you aren't, you should start by exploring the project from the perspective of a user.
+A user of a project can be an impactful contributor.
 
-As a user, you will likely go through documentation and tutorials as you start out and you are likely to find bugs, out-dated content or things you can improve.
+If you aren't a user of the project already, becoming one would be the first step.
 
-When you find areas to improve, open up issues (or any form of tickets if you are not using GitHub) for these and discuss with a project maintainer to validate it and get it assigned to you.
+As a user, you are likely to go through documentation and tutorials as you start out, and you are likely to find issues, outdated content, or areas to improve.
 
-Once you have been assigned an issue, you can start contributing.
+When you find these, you can open issues and discuss them with project maintainers.
 
-## Review the Contributing Guidelines
+Most project maintainers are too close to the project to see the gaps in the documentation. A new user could find these gaps.
 
-Most (if not all) open-source projects will have a contributing guideline in their GitHub/GitLab repository.
+## Read the Contributor Guidelines
 
-This document will be geared towards contributors with guidelines on setting up a developer environment and how you can make contributions.
+Open source projects usually have a contributor guide (CONTRIBUTING.md in the repository) outlining how to contribute to the project.
 
-Read these guidelines carefully and make sure that you follow them.
+If it has guidelines on contributing to documentation (style guides, setup guides), follow them.
 
-For example, if a project requires you to sign every commit, your pull requests will be rejected very quickly if you do not do it.
+## Issues to Look For
 
-## What should you Document?
+When you are looking through the documentation, look for these issues:
 
-As mentioned in the previous sections, you are likely to find issues when you start to use the project referring to the documentation.
+- **Missing documentation**: While following the documentation, you cannot understand how it got from step A to B. There seems to be a missing step that is not obvious. You can report, identify, and add the missing step.
+- **Outdated content/code/images**: Software documentation can get outdated quickly with new releases and breaking changes. Keeping an eye out for outdated content is crucial.
+- **Translations**: Some projects have documentation in multiple languages. If you know multiple languages, you can check to ensure parity between the two versions.
+- **Grammar**: If you find pages with incorrect language, you can correct it as it might alter the meaning of the text.
 
-This could be as simple as an outdated screenshot to outdated or missing documentation.
-
-Open up issues for these as mentioned and discuss it with a maintainer to get it assigned to you.
-
-If you cannot find issues by yourself, you can try to fix already open issues.
-
-There are labels in GitHub issues that can help you filer out only "documentation" or "docs" issues and similar features will be there in any ticketing system being used by the project.
+If you don't find any issues, you can always look for open issues in the project. Documentation issues are usually tagged with "documentation" or "docs" labels.
 
 ## In-Code Documentation
 
-People generally don't think of this when they think about documentation.
+In-code documentation includes logs, error messages, help texts, and other textual interfaces with a user that doesn't necessarily affect the "logic" of the code.
 
-In-code documentation refers to the error messages, help texts and other text the user interacts with that doesn't necessarily affect the "logic" of the code.
+People generally don't think of this when they think of documentation. Still, it is imperative as it is the first user interaction point.
 
-These are really important as users will definitely interact with this while using the project.
+Being a new user will also help you spot these issues quickly.
 
-As a new contributor you have the magic eyes to spot issues with these that seasoned contributors are too close to notice.
+## Beyond Documentation
 
-## More Ways to go Beyond the Docs Page
-
-Good documentation is not just limited to the docs page.
+Good documentation is not limited to the docs website.
 
 It can also involve:
 
-* Writing a blog post that takes the user through a new feature
-* Creating a Twitter thread about the project
-* Documenting processes that can be used for the community (a contributing guide for example)
-* Updating the project's website
+- Writing blog posts that take a user through a new feature
+- Writing a Twitter thread about the project
+- Documenting processes that community members can use (like a contributor guide)
+- Updating the project website
 
-You can always ask the project maintainers to help you find areas that need contributions.
+You can always ask project maintainers to help you find areas they need help.
 
-Before we finish this, I want to point out that non-code open-source contributions are not just limited to writing documentation.
-
-You can [check out other ways you can contribute to open-source projects without contributing code](../non-code-contributions-to-open-source).
+There are many [more ways to contribute to an open source project](/posts/non-code-contributions-to-open-source/) besides writing code and documentation. And all these contributions are impactful.

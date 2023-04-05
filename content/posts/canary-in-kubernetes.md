@@ -1,5 +1,5 @@
 ---
-title: "Hands-On: Canary Release in Kubernetes With Apache APISIX Ingress"
+title: "Canary Release in Kubernetes With Apache APISIX Ingress"
 date: 2022-10-21T08:41:04+05:30
 draft: false
 ShowToc: false
@@ -7,7 +7,6 @@ summary: "A hands-on, from-scratch tutorial on setting up canary releases in Kub
 tags: ["ingress", "kubernetes", "apache apisix", "cloud-native"]
 categories: ["API Gateway"]
 series: ["Hands-On With Apache APISIX Ingress"]
-mermaid: true
 cover:
     image: "/images/canary-in-kubernetes/roads-banner.jpeg"
     alt: "Aerial photo of city street and buildings in Kuala Lumpur."
@@ -15,42 +14,15 @@ cover:
     relative: false
 ---
 
-_This article is a part of the series "[Hands-On With Apache APISIX Ingress](/series/hands-on-with-apache-apisix-ingress/)"._
-
 A canary release is a process of rolling out a new version of software to a small subset of users before making it generally available. Canary releases can help in testing and controlling new releases and rolling back if there are any issues.
 
 A simple canary release looks like this:
 
-1. Route all traffic to existing version of the application:
+{{< figure src="/images/canary-in-kubernetes/canary-1.png#center" title="1. Route all traffic to existing version of the application" link="/images/canary-in-kubernetes/canary-1.png" target="_blank" class="align-center" >}}
 
-    {{< mermaid >}}
-    flowchart LR
-        u(Users) --> r(Router) --> |All Traffic| u1(Old version)
-        r x-.-x |No Traffic| u2(New version)
-        style r stroke: #e62129
-        linkStyle 1 stroke: green
-    {{< /mermaid >}}
+{{< figure src="/images/canary-in-kubernetes/canary-2.png#center" title="2. Route some traffic to the new version and test for bugs/issues" link="/images/canary-in-kubernetes/canary-2.png" target="_blank" class="align-center" >}}
 
-2. Route some traffic to the new version and test if there are any bugs/issues:
-
-    {{< mermaid >}}
-    flowchart LR
-        u(Users) --> r(Router) --> |Most Traffic 95%| u1(Old version)
-        r --> |Some Traffic 5%| u2(New version)
-        style r stroke: #e62129
-        linkStyle 1 stroke: green
-        linkStyle 2 stroke: green
-    {{< /mermaid >}}
-
-3. If everything is okay, route all traffic to the new version and keep the old version on standby:
-
-    {{< mermaid >}}
-    flowchart LR
-        u(Users) --> r(Router) x-.-x |No Traffic| u1(Old version)
-        r --> |All Traffic| u2(New version)
-        style r stroke: #e62129
-        linkStyle 2 stroke: green
-    {{< /mermaid >}}
+{{< figure src="/images/canary-in-kubernetes/canary-3.png#center" title="3. If everything is okay, route all traffic to the new version and keep the old version on standby" link="/images/canary-in-kubernetes/canary-3.png" target="_blank" class="align-center" >}}
 
 In this hands-on tutorial, we will set up a canary release in Kubernetes using [Apache APISIX Ingress](https://apisix.apache.org/docs/ingress-controller/next/getting-started/).
 
@@ -65,13 +37,7 @@ Before you move on, make sure you:
 
 As in the [previous tutorial](/posts/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/#deploying-a-sample-application), we will use our sample HTTP server application, the [bare-minimum-api](https://github.com/navendu-pottekkat/bare-minimum-api). This will act as our versioned service:
 
-{{< mermaid >}}
-flowchart LR
-    c(Clients) --> |:8080/ GET| a1(bare-minimum-api-v1)
-    a1 --> |Hello from API v1.0!| c
-    c --> |:8081/ GET| a2(bare-minimum-api-v2)
-    a2 --> |Hello from API v2.0!| c
-{{< /mermaid >}}
+{{< figure src="/images/canary-in-kubernetes/bare-minimum-api.png#center" title="bare-minimum-api" link="/images/canary-in-kubernetes/bare-minimum-api.png" target="_blank" class="align-center" >}}
 
 To deploy the two "versions" of the application, you can run:
 
@@ -144,29 +110,7 @@ We will set weights for each service to route traffic proportionately.
 
 Initially, we want to route all requests to the old version of the service:
 
-{{< mermaid >}}
-flowchart LR
-u(Users) --> a
-a --> |All Traffic| u1("☸ bare-minimum-api-v1")
-a x-.-x |No Traffic| u2("☸ bare-minimum-api-v2")
-ic("☸ APISIX Ingress controller") --- p("☸ APISIX API gateway")  
-style p stroke: #e62129
-linkStyle 0 stroke: #e62129
-linkStyle 1 stroke: green
-linkStyle 3 stroke: #e62129
-
-    subgraph k["☸ Kubernetes cluster"]
-        a
-        u1
-        u2
-    end
-
-    subgraph a["APISIX"]
-        direction TB
-        ic
-        p
-    end
-{{< /mermaid >}}
+{{< figure src="/images/canary-in-kubernetes/canary-routing-to-v1.png#center" title="Route all requests to bare-minimum-api-v1" link="/images/canary-in-kubernetes/canary-routing-to-v1.png" target="_blank" class="align-center" >}}
 
 To configure this, we can set the weight to `100` and `0` for the `bare-minimum-api-v1` and `bare-minimum-api-v2` services, respectively:
 
@@ -221,30 +165,7 @@ Hello from API v1.0!
 
 Now, you can change the configuration to route some traffic, say 5%, to the new version, `bare-minimum-api-v2`:
 
-{{< mermaid >}}
-flowchart LR
-u(Users) --> a
-a --> |Most Traffic 95%| u1("☸ bare-minimum-api-v1")
-a --> |Some Traffic 5%| u2("☸ bare-minimum-api-v2")
-ic("☸ APISIX Ingress controller") --- p("☸ APISIX API gateway")  
-style p stroke: #e62129
-linkStyle 0 stroke: #e62129
-linkStyle 1 stroke: green
-linkStyle 2 stroke: green
-linkStyle 3 stroke: #e62129
-
-    subgraph k["☸ Kubernetes cluster"]
-        a
-        u1
-        u2
-    end
-
-    subgraph a["APISIX"]
-        direction TB
-        ic
-        p
-    end
-{{< /mermaid >}}
+{{< figure src="/images/canary-in-kubernetes/canary-routing-to-both.png#center" title="Split requests (95:5) between bare-minimum-api-v1 and bare-minimum-api-v2" link="/images/canary-in-kubernetes/canary-routing-to-both.png" target="_blank" class="align-center" >}}
 
 You can configure this by editing your manifest file and applying it to your cluster:
 
@@ -293,29 +214,7 @@ Hello from API v1.0!
 
 Finally, you can route all traffic to the new version of the service.
 
-{{< mermaid >}}
-flowchart LR
-u(Users) --> a
-a x-.-x |No Traffic| u1("☸ bare-minimum-api-v1")
-a --> |All Traffic| u2("☸ bare-minimum-api-v2")
-ic("☸ APISIX Ingress controller") --- p("☸ APISIX API gateway")  
-style p stroke: #e62129
-linkStyle 0 stroke: #e62129
-linkStyle 2 stroke: green
-linkStyle 3 stroke: #e62129
-
-    subgraph k["☸ Kubernetes cluster"]
-        a
-        u1
-        u2
-    end
-
-    subgraph a["APISIX"]
-        direction TB
-        ic
-        p
-    end
-{{< /mermaid >}}
+{{< figure src="/images/canary-in-kubernetes/canary-routing-to-v2.png#center" title="Route all requests to bare-minimum-api-v2" link="/images/canary-in-kubernetes/canary-routing-to-v2.png" target="_blank" class="align-center" >}}
 
 To configure this, you can set the weight to `0` for the `bare-minimum-api-v1` service and `100` for the `bare-minimum-api-v2` service:
 

@@ -1,5 +1,5 @@
 ---
-title: "Key Takeaways from Morgan Housel\'s \"The Psychology of Money\""
+title: "The Psychology of Money"
 date: 2022-02-09T10:54:49+05:30
 draft: false
 ShowToc: false

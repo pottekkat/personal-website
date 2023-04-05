@@ -4,7 +4,6 @@ date: 2022-10-14T09:12:38+05:30
 draft: false
 weight: 20
 ShowToc: false
-mermaid: true
 summary: "Exploring the new Kubernetes Gateway API and comparing it with the existing Kubernetes Ingress API for handling external traffic."
 tags: ["kubernetes", "ingress", "api gateway"]
 categories: ["Featured", "Kubernetes"]
@@ -25,51 +24,11 @@ I will try to answer these questions in this article by getting hands-on with th
 
 The Kubernetes Ingress API was created to standardize exposing services in Kubernetes to external traffic. The Ingress API overcame the limitations of the default service types, `NodePort` and `LoadBalancer`, by introducing features like routing and SSL termination.
 
-{{< mermaid >}}
-flowchart LR
-c(Clients) --> i("☸ Ingress")
-i --> s1("☸ Service 1")
-i --> s2("☸ Service 2")
-i --> s3("☸ Service 3")
-style i stroke: #e62129
-
-    subgraph k["☸ Kubernetes cluster"]
-    i
-    s1
-    s2
-    s3
-    end
-{{< /mermaid >}}
+{{< figure src="/images/gateway-vs-ingress-api/kubernetes-ingress.png#center" title="Kubernetes Ingress" link="/images/gateway-vs-ingress-api/kubernetes-ingress.png" target="_blank" class="align-center" >}}
 
 There are over [20 implementations of Ingress controllers](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/#additional-controllers) available. In this article, I will use [Apache APISIX](https://apisix.apache.org/) and its [Ingress controller](https://apisix.apache.org/docs/ingress-controller/next/getting-started/) for examples.
 
-{{< mermaid >}}
-flowchart LR
-c(Clients) --> a
-a --> s1("☸ Service 1")
-a --> s2("☸ Service 2")
-a --> s3("☸ Service 3")
-ic("☸ APISIX Ingress controller") --- p("☸ APISIX API gateway")  
- style p stroke: #e62129
-linkStyle 0 stroke: #e62129
-linkStyle 1 stroke: #e62129
-linkStyle 2 stroke: #e62129
-linkStyle 3 stroke: #e62129
-
-    subgraph k["☸ Kubernetes cluster"]
-        a
-        s1
-        s2
-        s3
-    end
-
-    subgraph a["APISIX"]
-        direction TB
-        ic
-        p
-    end
-{{< /mermaid >}}
-
+{{< figure src="/images/gateway-vs-ingress-api/apisix-ingress-controller.png#center" title="APISIX Ingress" link="/images/gateway-vs-ingress-api/apisix-ingress-controller.png" target="_blank" class="align-center" >}}
 
 You can create an [Ingress resource](https://kubernetes.io/docs/concepts/services-networking/ingress/#the-ingress-resource) to configure APISIX or any other Ingress implementations.
 
@@ -97,7 +56,7 @@ spec:
               service:
                 name: bare-minimum-api-v2
                 port:
-                  number: 8081
+                  number: 8080
             path: /v2
             pathType: Prefix
 ```
@@ -169,7 +128,7 @@ spec:
           - /v2
       backends:
         - serviceName: bare-minimum-api-v2
-          servicePort: 8081
+          servicePort: 8080
 ```
 
 These CRDs made it much easier to configure Ingress, but you are tied to the specific Ingress control implementation. Without the Ingress API evolving, you had to choose between usability or portability.
@@ -178,7 +137,7 @@ These CRDs made it much easier to configure Ingress, but you are tied to the spe
 
 Ingress API was not broken; it was limited. The Gateway API was designed to overcome these limitations.
 
-{{< blockquote author="gateway-api.sigs.k8s.io" link="[Link](https://gateway-api.sigs.k8s.io/)" title="What is the Gateway API?" >}}
+{{< blockquote author="gateway-api.sigs.k8s.io" link="https://gateway-api.sigs.k8s.io/" title="What is the Gateway API?" >}}
 (Gateway API) aim to evolve Kubernetes service networking through expressive, extensible, and role-oriented interfaces ...
 {{< /blockquote >}}
 
@@ -206,7 +165,7 @@ spec:
           servicePort: 8080
           weight: 90
         - serviceName: bare-minimum-api-v2
-          servicePort: 8081
+          servicePort: 8080
           weight: 10
 ```
 
@@ -226,7 +185,7 @@ spec:
       port: 8080
       weight: 90
     - name: bare-minimum-api-v2
-      port: 8081
+      port: 8080
       weight: 10
 ```
 
@@ -234,24 +193,7 @@ Another improvement from the Ingress API is how the Gateway API [separates conce
 
 The Gateway API separates the configurations into Route and Gateway objects providing autonomy for the application developer and the cluster operator. The diagram below explains this clearly:
 
-{{< mermaid >}}
-flowchart TB
-    gc("GatewayClass\n\n👷🏼 👷🏾‍♀️\nInfrastructure\nprovider") ---- g("Gateway\n\n👩🏻‍🔧 👨🏿‍🔧\nCluster\noperator")
-    g --- hr1("HTTPRoute\n\n👨🏾‍💻 Application developer") --- s1(Service)
-    g --- hr2("HTTPRoute\n\n👩🏼‍💻 Application developer") --- s2(Service)
-    click gc href "https://gateway-api.sigs.k8s.io/api-types/gatewayclass/" _blank
-    click g href "https://gateway-api.sigs.k8s.io/api-types/gateway/" _blank
-    click hr1 href "https://gateway-api.sigs.k8s.io/api-types/httproute/" _blank
-    click hr2 href "https://gateway-api.sigs.k8s.io/api-types/httproute/" _blank
-    subgraph bar["Namespace bar"]
-        hr1
-        s1
-        end
-    subgraph foo["Namespace foo"]
-        hr2
-        s2
-        end
-{{< /mermaid >}}
+{{< figure src="/images/gateway-vs-ingress-api/gateway-api.png#center" title="The Gateway API" caption="Adapted from [gateway-api.sigs.k8s.io](https://gateway-api.sigs.k8s.io/)" link="/images/gateway-vs-ingress-api/gateway-api.png" target="_blank" class="align-center" >}}
 
 ## Is This the End of Ingress API?
 

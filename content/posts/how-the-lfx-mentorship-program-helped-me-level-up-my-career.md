@@ -1,5 +1,5 @@
 ---
-title: "How the LFX Mentorship Program Helped Me Level-Up My Career"
+title: "How the LFX Mentorship Program Helped Me Level Up My Career"
 date: 2022-09-02T10:09:32+05:30
 draft: false
 summary: "Sharing how I got involved in the LFX Mentorship Program and its life-changing impact on my career and personal life."
