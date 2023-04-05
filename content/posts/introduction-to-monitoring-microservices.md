@@ -8,7 +8,6 @@ TocOpen: true
 summary: "This tutorial walks you through setting up monitoring on a microservice application using Prometheus and Grafana."
 tags: ["monitoring", "prometheus", "tutorials"]
 categories: ["Featured", "Microservices"]
-mermaid: true
 cover:
     image: "/images/introduction-to-monitoring-microservices/man-in-cave-banner.png"
     alt: "A man exploring a cave with a lit torch."
@@ -32,17 +31,7 @@ You can instrument your services by using [client libraries](https://prometheus.
 
 Prometheus also has [exporters](https://prometheus.io/docs/instrumenting/exporters/) that let you pull metrics that are not in Prometheus format. An exporter acts as a middleman and transforms exported data into Prometheus readable format.
 
-{{< mermaid >}}
-flowchart LR
-app("Instrumented service\n or Exporter") <--> |scrape metrics| p --> |push alerts| am("Alert\nmanager")
-
-style p stroke: #e6522c
-style db stroke: #e6522c
-
-subgraph p ["Prometheus server"]
-    db(Time series\ndatabase)
-    end
-{{< /mermaid >}}
+{{< figure src="/images/introduction-to-monitoring-microservices/prometheus.png#center" title="Prometheus" link="/images/introduction-to-monitoring-microservices/prometheus.png" target="_blank" class="align-center" >}}
 
 Prometheus provides a powerful query language, [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/), to work with this collected data. You can use PromQL to create complex queries to filter, aggregate, and transform the data to the desired format. 
 
@@ -65,45 +54,13 @@ You can learn more about these metric types and how to use them from the [offici
 
 ## Sample Application
 
-Our [sample application](https://github.com/navendu-pottekkat/monitoring-101) will consist of an API gateway, a Go app, and a Python app.
+Our [sample application](https://github.com/navendu-pottekkat/monitoring-101) will consist of an API gateway, a Go app, and a Python app:
 
-{{< mermaid >}}
-flowchart LR
-u(User) --> |/hello/es?name=Navendu| a(Apache\nAPISIX) --> |/es?name=Navendu| g(Go\nservice) --> |/es| p(Python\nservice)
-p --> |"{message: 'Hola'}"| g
-g --> |"Hola Navendu!"| a
-a --> |"Hola Navendu!"| u
+{{< figure src="/images/introduction-to-monitoring-microservices/sample-application.png#center" title="Sample application" caption="The application will return, \"Hello `name`!\" in the language you choose with the `<name>` you provide. Apache APISIX will be the API gateway that directs traffic to your services." link="/images/introduction-to-monitoring-microservices/sample-application.png" target="_blank" class="align-center" >}}
 
-style a stroke: #e62129
-{{< /mermaid >}}
+The diagram below shows how the system works:
 
-The application will return, "Hello \<name\>!" in the language you choose with the `<name>` you provide. Apache APISIX will be the API gateway that directs traffic to your services.
-
-The diagram below shows how the system works.
-
-{{< mermaid >}}
-sequenceDiagram
-    autonumber
-    actor u as User
-    participant a as Apache APISIX
-    participant g as go-app
-    participant p as python-app
-    link a: Website @ https://apisix.apache.org
-    link g: Source code @ https://github.com/navendu-pottekkat/monitoring-101/blob/master/go-app/main.go
-    link p: Source code @ https://github.com/navendu-pottekkat/monitoring-101/blob/master/python-app/main.py
-    u->>a: GET /hello/es?name=Navendu
-    activate a
-    a->>g: GET /es?name=Navendu
-    activate g
-    g->>p: GET /es
-    activate p
-    p-->>g: {message: "Hola"}
-    deactivate p
-    g-->>a: Hola Navendu!
-    deactivate g
-    a-->>u: Hola Navendu!
-    deactivate a
-{{< /mermaid >}}
+{{< figure src="/images/introduction-to-monitoring-microservices/sequence.png#center" title="Sample application sequence" link="/images/introduction-to-monitoring-microservices/sequence.png" target="_blank" class="align-center" >}}
 
 1. The user sends a GET request to APISIX, the entry point for the application.
 2. APISIX forwards the request to the Go service.

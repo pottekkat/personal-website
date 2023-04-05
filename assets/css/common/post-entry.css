@@ -33,6 +33,11 @@
     -webkit-line-clamp: unset;
 }
 
+/* To add margin below each paragraph in the intro content */
+.entry-content .intro {
+    margin-bottom: 14px;
+}
+
 .post-entry {
     position: relative;
     margin-bottom: var(--gap);

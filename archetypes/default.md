@@ -2,12 +2,12 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-weight: 1
 ShowToc: true
 TocOpen: true
+ShowRelatedContent: false
 summary: ""
 tags: [""]
-categories: ["Featured", ""]
+categories: [""]
 cover:
     image: "/images/{{ .Name }}/"
     alt: ""

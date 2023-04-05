@@ -1,5 +1,5 @@
 ---
-title: "Hands-On: Kubernetes Gateway API With APISIX Ingress"
+title: "Kubernetes Gateway API With APISIX Ingress"
 date: 2023-01-20T09:45:26+05:30
 draft: false
 ShowToc: false
@@ -13,8 +13,6 @@ cover:
     caption: "Photo by [Max Ravier](https://www.pexels.com/photo/person-walking-on-pathway-3348363/)"
     relative: false
 ---
-
-_This article is a part of the series "[Hands-On With Apache APISIX Ingress](/series/hands-on-with-apache-apisix-ingress/)"._
 
 Previously, I wrote an article [comparing the Kubernetes Gateway API and the Ingress API](/posts/gateway-vs-ingress-api/).
 

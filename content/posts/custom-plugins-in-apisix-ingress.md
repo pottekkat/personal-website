@@ -1,5 +1,5 @@
 ---
-title: "Hands-On: Custom Plugins in APISIX Ingress"
+title: "Custom Plugins in APISIX Ingress"
 date: 2023-03-24T09:22:09+05:30
 draft: false
 ShowToc: false
@@ -13,8 +13,6 @@ cover:
     caption: "Photo by [Pixabay](https://www.pexels.com/photo/white-jigsaw-puzzle-illustration-262488/)"
     relative: false
 ---
-
-_This article is a part of the series "[Hands-On With Apache APISIX Ingress](/series/hands-on-with-apache-apisix-ingress/)"._
 
 In a [previous article](/posts/extending-apisix-ingress/), I explained how to extend APISIX Ingress with Plugins.
 

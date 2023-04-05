@@ -1,5 +1,5 @@
 ---
-title: "Hands-On: Extending Apache APISIX Ingress with Annotations, CRDs, and Plugins"
+title: "Extending Apache APISIX Ingress with Annotations, CRDs, and Plugins"
 date: 2022-12-16T10:04:02+05:30
 draft: false
 ShowToc: false
@@ -13,8 +13,6 @@ cover:
     caption: "Photo by [Pixabay](https://www.pexels.com/photo/sea-sunset-ocean-relaxing-55839/)"
     relative: false
 ---
-
-_This article is a part of the series "[Hands-On With Apache APISIX Ingress](/series/hands-on-with-apache-apisix-ingress/)"._
 
 The [default Kubernetes Ingress resource](https://kubernetes.io/docs/concepts/services-networking/ingress/#the-ingress-resource) exposes many standard features provided by Ingress controller implementations. However, if you use Ingress controllers like [Apache APISIX](https://apisix.apache.org/docs/ingress-controller/next/getting-started/), the default Ingress resource will limit its full capabilities.
 
@@ -57,7 +55,7 @@ spec:
               service:
                 name: bare-minimum-api-v2
                 port:
-                  number: 8081
+                  number: 8080
             path: /v2
             pathType: Exact
 ```
@@ -96,7 +94,7 @@ spec:
         servicePort: 8080
         weight: 70
       - serviceName: bare-minimum-api-v2
-        servicePort: 8081
+        servicePort: 8080
         weight: 30
 ```
 
@@ -156,7 +154,7 @@ spec:
         servicePort: 8080
         weight: 50
       - serviceName: bare-minimum-api-v2
-        servicePort: 8081
+        servicePort: 8080
         weight: 50
       plugins:
         - name: limit-count
