@@ -21,10 +21,6 @@ At this point, I wanted to be an electrical engineer. I spent most of my time bu
 
 Suddenly, I was using my programming knowledge to build electronic projects. I felt like I had opened a new door in my life. I remember thinking, this is what I want to do for the rest of my life.
 
-{{< blockquote author="Morgan Freeman" source="In Real Life" >}}
-  But as you will find out, he would not do it for the rest of his life.
-{{< /blockquote >}}
-
 > At a point in high school, I wanted to join the military. I cleared the [National Defence Academy](https://www.nda.nic.in/) exams on my first try, worked out everyday and appeared before the Service Selection Board.
 > 
 > But by the time I appeared for the SSB, I realized I was impulsive (I was 17) and didn’t really want to join the military ([American Sniper](https://www.imdb.com/title/tt2179136/) influenced me, I guess). Long story short, it was a great experience, and I returned after failing the last round of the selection procedure.
@@ -75,7 +71,7 @@ It was in January 2020 that I moved out of the city after quitting my job. Littl
 
 I was also building deep learning projects and making them open-source. I created a project called [NSFW Filter](https://nsfw-filter.com/), a browser extension that filters out NSFW content from websites. The project received a lot of attention and is still my most popular open-source project. It topped GitHub Trending, was [featured on Product Hunt](https://www.producthunt.com/posts/nsfw-filter) and even made it to the [front page of Hacker News](https://news.ycombinator.com/item?id=24251131).
 
-> This led me to a [path in open-source](https://twitter.com/sudo_navendu/status/1446819951902281733) which shaped the rest of my career.
+This led me to a [path in open-source](https://twitter.com/sudo_navendu/status/1446819951902281733) which shaped the rest of my career.
 
 {{< figure src="/images/about/on-hackernews.png#center" title="Front page of Hacker News!" caption="August 2020" link="/images/about/on-hackernews.png" target="_blank" class="align-center" >}}
 
