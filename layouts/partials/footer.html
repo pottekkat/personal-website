@@ -2,11 +2,10 @@
 <footer class="footer">
     {{- if site.Copyright }}
     <span>{{ site.Copyright | markdownify }}</span>
-    {{- else }}
-    <span>Work by <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a></span>
     {{- end }}
+    <span>This work by <a href="{{ "" | absLangURL }}about/#about-me">{{ .Site.Title }}</a></span>
     <span>
-        Licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
+        is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
     </span>
 </footer>
 {{- end }}
