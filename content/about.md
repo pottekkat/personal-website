@@ -15,7 +15,7 @@ I write about a [wide range of topics](/categories/), from in-depth [tutorials f
 
 I also try to [write daily](/categories/daily-dose-of-pottekkat/), but fair warning: I don't stop to edit these.
 
-Unless mentioned otherwise, all material in this blog is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0).
+Unless mentioned otherwise, all material in this blog is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0), and the [source code](https://github.com/navendu-pottekkat/navendu-pottekkat.github.io) of this website is available under the [MIT license](https://github.com/navendu-pottekkat/navendu-pottekkat.github.io/blob/hugo/LICENSE).
 
 ### Ethics Statement
 
