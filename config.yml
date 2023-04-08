@@ -37,7 +37,7 @@ related:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: "Navendu Pottekkat"
-    description: "May the Source Be with You is Navendu Pottekkat's personal blog, where he writes about his work and life as an open source contributor/maintainer."
+    description: "\"May the Source Be with You\" is Navendu Pottekkat's personal blog, where he writes about his work and life as an open source contributor/maintainer."
     keywords: [Navendu, Pottekkkat, Blog, Portfolio, Resume]
     author: "Navendu Pottekkat"
     DateFormat: "January 2, 2006"
