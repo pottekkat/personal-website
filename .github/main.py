@@ -95,6 +95,7 @@ top_page_visitors = data['visitors']
 
 plt.style.use('dark_background')
 plt.rcParams.update({'font.size': 12})
+plt.rcParams.update({'axes.facecolor': '#111111'})
 
 fig, ax = plt.subplots()
 
@@ -107,7 +108,7 @@ ax.xaxis.set_major_locator(plt.MaxNLocator(5))
 # ax.set_title('Vistors over the Last Month')
 
 fig.savefig('./static/images/stats/monthly-visitors.png',
-            dpi=300, bbox_inches='tight', transparent=True)
+            dpi=300, bbox_inches='tight', transparent=False, facecolor="#111111")
 
 url = 'https://plausible.io/api/v1/stats/breakdown'
 
@@ -139,7 +140,7 @@ ax.barh(sources, visitors)
 # ax.set_title('Top Sources')
 
 fig.savefig('./static/images/stats/monthly-sources.png',
-            dpi=300, bbox_inches='tight', transparent=True)
+            dpi=300, bbox_inches='tight', transparent=False, facecolor="#111111")
 
 url = 'https://plausible.io/api/v1/stats/breakdown'
 params = {
@@ -174,7 +175,7 @@ merged_data.plot(ax=ax, column='visitors', cmap=cmap)
 # ax.set_title('Visitors by Country')
 ax.set_axis_off()
 
-plt.savefig('./static/images/stats/visitors-by-country.png', dpi=300, bbox_inches='tight', transparent=True)
+plt.savefig('./static/images/stats/visitors-by-country.png', dpi=300, bbox_inches='tight', transparent=False, facecolor="#111111")
 
 im = Image.open('./static/images/stats/visitors-by-country.png')
 im = im.crop((82, 41, 1467, 624))
