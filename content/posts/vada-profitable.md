@@ -6,7 +6,7 @@ ShowToc: true
 TocOpen: true
 summary: "This article is about a project I built and open sourced three years ago and our journey to make it uzhunnu vada (UV) profitable™."
 tags: ["open-source", "nsfw filter", "finance"]
-categories: ["Featured", "Open Source"]
+categories: ["Open Source"]
 cover:
     image: "/images/vada-profitable/vada-banner.png"
     alt: "Uzhunnu vada being fried."
