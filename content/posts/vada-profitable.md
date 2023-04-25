@@ -2,7 +2,6 @@
 title: "Vada (Fritters) Profitable"
 date: 2023-04-07T09:59:04+05:30
 draft: false
-weight: 10
 ShowToc: true
 TocOpen: true
 summary: "This article is about a project I built and open sourced three years ago and our journey to make it uzhunnu vada (UV) profitable™."
