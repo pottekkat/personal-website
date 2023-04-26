@@ -7,12 +7,6 @@ description: "What Navendu is doing now."
 
 Here's what I'm doing now.
 
-## Traveling to Singapore
-
-I will be in Singapore from the 12th to the 17th of April to [speak at FOSSASIA Summit](https://eventyay.com/e/7cfe0771/session/8122).
-
-If you are there, come and say hi! 
-
 ## Full-Time Job
 
 I work full-time at [API7.ai](https://api7.ai/), where I help build [Apache APISIX](https://apisix.apache.org/).
