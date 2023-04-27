@@ -23,9 +23,9 @@ I don't plan to work on these full-time or scale and monetize them, at least for
 
 ## Reading
 
-I'm currently reading [V K N's collected short stories](https://www.goodreads.com/book/show/17971843-v-k-n).
+I'm currently reading [V K N\'s collected short stories](https://www.goodreads.com/book/show/17971843-v-k-n).
 
-I'm also reading "[The Anarchy](https://www.goodreads.com/book/show/42972023-the-anarchy)" by William Dalrymple. It talks about the East India Company and how it rose to power against Indian kingdoms.
+I'm also reading [The Anarchy](https://www.goodreads.com/book/show/42972023-the-anarchy) by William Dalrymple. It talks about the East India Company and how it rose to power against Indian kingdoms.
 
 I like learning history. I'm terrible at it, and I have been improving my knowledge by reading more history books.
 
