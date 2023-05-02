@@ -345,7 +345,7 @@ Other projects like [Flagger](https://docs.flagger.app/tutorials/gatewayapi-prog
 
 ## What Should You Use?
 
-This question only has one correct answer; "it depends."
+There is only one correct answer to this question; "it depends."
 
 If you are developing APIs and need authentication, security, routing, or metrics, you are better off using an API gateway than building this on your own in your APIs.
 
