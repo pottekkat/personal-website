@@ -1,6 +1,6 @@
 ---
 title: "A Comprehensive Guide to API Gateways, Kubernetes Gateways, and Service Meshes"
-date: 2023-04-25T17:35:19+05:30
+date: 2023-05-05T09:35:19+05:30
 draft: true
 ShowToc: false
 ShowRelatedContent: true
@@ -359,4 +359,4 @@ The convergence of the API gateway and the service mesh through the Kubernetes G
 
 Projects like Apache APISIX use the same technology to build the API gateway and service mesh offerings and integrate well with these specifications, incentivizing vendor-neutral choices.
 
-It is also likely that you will not need any of these. You may not even need microservices or a distributed architecture, but when you need them, gateways and meshes can make your lives a lot easier.
+It is also likely that you will not need any of these. You may [not even need microservices](https://blog.frankel.ch/chopping-monolith/) or a distributed architecture, but when you need them, gateways and meshes can make your lives a lot easier.
