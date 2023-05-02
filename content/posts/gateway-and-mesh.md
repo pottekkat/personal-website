@@ -2,6 +2,7 @@
 title: "A Comprehensive Guide to API Gateways, Kubernetes Gateways, and Service Meshes"
 date: 2023-05-05T09:35:19+05:30
 draft: true
+weight: 10
 ShowToc: false
 ShowRelatedContent: true
 summary: "A comprehensive comparison of API gateways, Kubernetes gateways, and service meshes with actionable insights."
@@ -27,7 +28,7 @@ In this article, I will try to explain these technologies and share how they fun
 
 An API gateway sits between your client applications and your APIs. It accepts all client requests, forwards them to the required APIs, and returns the response to clients in a combined package.
 
-It is basically a reverse proxy with a lot of features.
+It is basically a reverse proxy with a lot of capabilities.
 
 {{< figure src="/images/gateway-and-mesh/api-gateway.png#center" title="API gateway" link="/images/gateway-and-mesh/api-gateway.png" target="_blank" class="align-center" >}}
 
