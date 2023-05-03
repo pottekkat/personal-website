@@ -34,7 +34,7 @@ It is basically a reverse proxy with a lot of capabilities.
 
 On top of this, an API gateway can also have features like authentication, security, fine-grained traffic control, and monitoring, leaving the API developers to focus only on business needs.
 
-There are many API gateway solutions available. Some of these are free and open source:
+There are [many API gateway solutions available](https://landscape.cncf.io/card-mode?category=api-gateway&grouping=category). Some of the popular free and open source solutions are:
 
 - **[Apache APISIX](https://github.com/apache/apisix)**: A high-performance, extensible, cloud native API gateway built on top of Nginx.
 - **[Gloo Edge](https://github.com/solo-io/gloo)**: An API gateway built on top of Envoy proxy.
@@ -43,13 +43,13 @@ There are many API gateway solutions available. Some of these are free and open 
 
 Cloud platforms like [GCP](https://cloud.google.com/api-gateway), [AWS](https://aws.amazon.com/api-gateway/), and [Azure](https://learn.microsoft.com/en-us/azure/api-management/) also have their own proprietary API gateways.
 
-API gateways, Kubernetes gateways, and service meshes support canary deployments. It is a process of gradually rolling out a new software version to a small subset of users before making it generally available.
+API gateways, Kubernetes gateways, and service meshes support canary deployments—gradually rolling out a new software version to a small subset of users before making it generally available.
 
 The example below shows how to configure a canary deployment in Apache APISIX.
 
 {{< figure src="/images/gateway-and-mesh/canary-api-gateway.png#center" title="Canary deployments with an API gateway" link="/images/gateway-and-mesh/canary-api-gateway.png" target="_blank" class="align-center" >}}
 
-To achieve this, you can send a request to the APISIX Admin API with the following configuration:
+You can send a request to the [APISIX Admin API](https://apisix.apache.org/docs/apisix/admin-api/) with the following configuration:
 
 ```shell
 curl http://127.0.0.1:9180/apisix/admin/routes/1 \
@@ -108,7 +108,7 @@ It has two components, the [Ingress](https://kubernetes.io/docs/concepts/service
 
 The Ingress Kubernetes native object defines a set of rules on how external traffic can access your services.
 
-The example below shows how to route traffic based on URI path with the Kubernetes Ingress object:
+This example configuration shows routing traffic based on URI path with the Kubernetes Ingress object:
 
 ```yaml {title="route-traffic.yaml"}
 apiVersion: networking.k8s.io/v1
@@ -138,7 +138,7 @@ spec:
 
 An Ingress controller implements these rules and routes traffic to your cluster using a reverse proxy.
 
-There are over [20 Ingress controller implementations](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/#additional-controllers). APISIX has an [Ingress controller](https://apisix.apache.org/docs/ingress-controller/next/getting-started/) that wraps around APISIX to work as Kubernetes Ingress.
+There are over [20 Ingress controller implementations](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/#additional-controllers). APISIX has an [Ingress controller](https://apisix.apache.org/docs/ingress-controller/next/getting-started/) that wraps around APISIX API gateway to work as Kubernetes Ingress.
 
 {{< figure src="/images/gateway-and-mesh/apisix-ingress.png#center" title="APISIX Ingress" link="/images/gateway-and-mesh/apisix-ingress.png" target="_blank" class="align-center" >}}
 
@@ -228,11 +228,11 @@ spec:
 
 Any Ingress controller (that implements the Gateway API) can now implement this configuration.
 
-The Gateway API also makes many improvements over the Ingress API, but it is still in alpha, and the Gateway API implementations are constantly breaking. You can read more about it in [this article](/posts/gateway-vs-ingress-api/).
-
-API gateways and Kubernetes gateways work across application boundaries solving edge problems while abstracting your APIs.
+The Gateway API also makes [many improvements](/posts/gateway-vs-ingress-api/) over the Ingress API, but it is still in alpha, and the Gateway API implementations are constantly breaking.
 
 ## Service Meshes
+
+API gateways and Kubernetes gateways work across application boundaries solving edge problems while abstracting your APIs.
 
 Service Meshes solve a different challenge.
 
@@ -242,7 +242,7 @@ Typically, this is achieved by deploying sidecar proxies with APIs/services.
 
 {{< figure src="/images/gateway-and-mesh/service-mesh.png#center" title="Service mesh" link="/images/gateway-and-mesh/service-mesh.png" target="_blank" class="align-center" >}}
 
-Here, the sidecar proxies handle the service-to-service/API-to-API communication instead of the developer having to code the networking logic to the services/APIs.
+Here, the sidecar proxies handle the service-to-service communication instead of the developer having to code the networking logic to the services.
 
 There are a lot of service meshes available. Some of the popular ones are:
 
@@ -254,7 +254,7 @@ New service mesh offerings like [Cilium](https://isovalent.com/blog/post/introdu
 
 {{< figure src="/images/gateway-and-mesh/cilium-mesh.png#center" title="Sidecar-less service mesh" caption="A typical service mesh requires 8 proxies for 8 services whereas eBPF-based service meshes like Cilium don't. Adapted from [Cilium Service Mesh – Everything You Need to Know](https://isovalent.com/blog/post/cilium-service-)" link="/images/gateway-and-mesh/cilium-mesh.png" target="_blank" class="align-center" >}}
 
-Service meshes also have basic ingress/egress gateways to handle north-south traffic to and from the APIs/services. Ingress gateways are the entry points of external traffic to a service mesh, and egress gateways allow APIs/services inside a mesh to access external APIs/services.
+Service meshes also have basic ingress/egress gateways to handle north-south traffic to and from the services. Ingress gateways are the entry points of external traffic to a service mesh, and egress gateways allow services inside a mesh to access external services.
 
 {{< figure src="/images/gateway-and-mesh/ingress-egress-mesh.png#center" title="Ingress and egress gateways with a service mesh" link="/images/gateway-and-mesh/ingress-egress-mesh.png" target="_blank" class="align-center" >}}
 
@@ -302,7 +302,7 @@ spec:
         version: "2.0"
 ```
 
-These configurations are specific to service meshes. To switch to a different service mesh, you must create a different but similarly vendor-dependant configuration.
+These configurations are specific to Istio. To switch to a different service mesh, you must create a different but similarly vendor-dependant configuration.
 
 The [Service Mesh Interface](https://smi-spec.io/) (SMI) specification was created to solve this portability issue.
 
