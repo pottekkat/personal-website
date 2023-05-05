@@ -18,8 +18,6 @@ I'm traveling back from Mumbai to Kerala. So yes, I'm at the airport again.
 
 I will start learning about public policy on weekends through an online course. I don't know where this will end, but I'm super excited.
 
-I will start learning about public policy on weekends through an online course. I don't know where this will end, but I'm super excited.
-
 "Tattoos on my internet" was a phrase I heard from [Simone on the Lex Friedman podcast](https://www.youtube.com/watch?v=OgIo36F6Fsg&pp=ygUZbGV4IGZyaWRtYW4gc2ltb25lIGdpZXJ0eg%3D%3D).
 
 _More reasons to write._
