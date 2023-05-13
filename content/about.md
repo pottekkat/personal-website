@@ -9,7 +9,7 @@ description: "About Navendu Pottekkat and his blog."
 
 [/stats](/stats/)
 
-This blog is a window into my world as an open source maintainer.
+This blog is a window into my world as an open source contributor/maintainer.
 
 I write about a [wide range of topics](/categories/), from in-depth [tutorials for projects](/tags/apache-apisix/) that keep me up at night to the [goals in life](/tags/life/) that keep me inspired.
 
