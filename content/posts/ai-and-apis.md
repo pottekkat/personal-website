@@ -56,4 +56,4 @@ More tools supporting theÂ [API lifecycle](https://api7.ai/blog/api7-devportal)Â
 
 Both AI and APIs have been around for a long time. Both of these technologies have gone through a massive overhaul recently, and their combination has created an AI-API economy, producing novel solutions to existing problems and trailblazing new frontiers.
 
-It has been increasingly hard to predict what the future will look like for technology, but it is a safe bet to assume it will be AI/API-first.
+It has been increasingly hard to predict the future of technology, but it is a safe bet to assume it will be AI/API-first.
