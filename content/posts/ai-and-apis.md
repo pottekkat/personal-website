@@ -1,7 +1,7 @@
 ---
 title: "AI and APIs"
-date: 2023-05-19T09:02:35+05:30
-draft: true
+date: 2023-05-21T11:40:35+05:30
+draft: false
 ShowToc: false
 ShowRelatedContent: true
 summary: "What do the recent advancements in generative AI mean for APIs?"
