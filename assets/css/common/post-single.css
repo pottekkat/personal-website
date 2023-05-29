@@ -400,3 +400,15 @@ img.in-text {
     display: inline;
     margin: auto;
 }
+
+a.footnote-ref {
+    font-size: x-small;
+}
+
+a.footnote-ref::before {
+    content: '[';
+}
+
+a.footnote-ref::after {
+    content: ']';
+}
