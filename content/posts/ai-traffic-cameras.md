@@ -125,7 +125,7 @@ Both projects are far more direct in preventing accidents than the Safe Kerala p
 
 It is also interesting to see that NITI Ayog published a strategy guide on how to adopt AI in India, detailing how government can use AI to improve areas like healthcare, agriculture, education, infrastructure, and transportation [^17] without ever mentioning using cameras this extensively to detect traffic violations. 
 
-There could be even more viable alternatives to spend money on than AI cameras. I'm surprised no one bothered to ask, "Why do we need it though?"
+There could be even more viable alternatives to spend money on than AI cameras. Did the government really think this was the best idea?
  
 ## Unsound Technology
 
@@ -167,7 +167,7 @@ The state and the central government should also invest resources in building le
 
 The purpose of this article was not to say that enforcing traffic rules for safer roads was a bad idea but to argue that AI traffic cameras were not the right solution to the problem for multiple reasons.
 
-These reasons suggest shortsighted decision-making by the government for publicity points which they could have easily avoided if someone with clout had asked, "Do we need to do this?" at any point since this project started.
+These reasons suggest shortsighted decision-making by the government for publicity points which they could have easily avoided if someone with clout had asked, "Do we need to do this?"
 
 [^1]: Ministry of Road Transport and Highways, Government of India. 2021. "Annual Report 2019-20." https://morth.nic.in/sites/default/files/Ministry%20Annual%20Report_2019-20.pdf.
 [^2]: Government of Andhra Pradesh. 2013. "Comparative Statistics (States)." https://web.archive.org/web/20131126011218/http://www.ap.gov.in/Other%20Docs/COMPARATIVE%20STATISTICS%20(STATES).pdf.
