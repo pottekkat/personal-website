@@ -1,7 +1,7 @@
 ---
 title: "AI Traffic Cameras Were Always a Bad Idea"
-date: 2023-05-29T09:22:34+05:30
-draft: true
+date: 2023-05-29T15:22:34+05:30
+draft: false
 ShowToc: false
 ShowRelatedContent: false
 summary: "An amateur policy analyst attempts to explain why (disregarding controversies) installing AI traffic cameras in Kerala was a bad idea."
