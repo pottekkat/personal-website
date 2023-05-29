@@ -163,7 +163,7 @@ The government still needs to address such potential privacy concerns as these t
 
 The state and the central government should also invest resources in building legislation to regulate the usage of AI on the public. Jumping the gun and implementing these technologies without fully understanding or being able to control their implications can quickly turn catastrophic.
 
----
+## Traffic Rules Aren't Bad
 
 The purpose of this article was not to say that enforcing traffic rules for safer roads was a bad idea but to argue that AI traffic cameras were not the right solution to the problem for multiple reasons.
 
