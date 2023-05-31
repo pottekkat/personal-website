@@ -14,6 +14,8 @@ cover:
     relative: false
 ---
 
+**Translations**: [Simplified Chinese | 简体中文](https://lib.jimmysong.io/blog/gateway-and-mesh/).
+
 There is still a lot of confusion about API gateways, Kubernetes gateways, and service meshes. A lot of this is because:
 
 1. People often mention these technologies with the same keywords, like canary deployments, rate limiting, and service discovery.
