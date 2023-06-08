@@ -89,13 +89,13 @@ But regex is slow! And we know APISIX is fast. So instead, APISIX uses radix tre
 
 Let's look at a simple example. Suppose we have the following words:
 
--   romane
--   romanus
--   romulus
--   rubens
--   ruber
--   rubicon
--   rubicundus
+- romane
+- romanus
+- romulus
+- rubens
+- ruber
+- rubicon
+- rubicundus
 
 A prefix tree would store it like this:
 
