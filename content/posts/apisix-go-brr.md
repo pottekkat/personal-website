@@ -65,6 +65,7 @@ local ip = ipmatcher.new({
 ngx.say(ip:match("17.172.224.47")) -- true
 ngx.say(ip:match("176.24.76.126")) -- false
 ```
+
 The library uses Lua tables which are hash tables. The IP addresses are hashed and stored as indices in a table, and to search for a given IP address, you just have to index the table and test whether it is nil or not.
 
 {{< figure src="/images/apisix-go-brr/hash-table.png#center" title="Storing IP addresses in a hash table" caption="To search for an IP address, it first computes the hash (index) and checks its value. If it is non-empty, we have a match. This is done in constant time O(1)." link="/images/apisix-go-brr/hash-table.png" target="_blank" class="align-center" >}}
