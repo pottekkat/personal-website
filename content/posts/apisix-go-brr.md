@@ -3,7 +3,7 @@ title: "How is Apache APISIX Fast?"
 date: 2023-06-09T09:33:59+05:30
 draft: true
 ShowToc: false
-ShowRelatedContent: false
+ShowRelatedContent: true
 summary: "Taking a look under Apache APISIX's hood to understand how it achieves ultimate performance."
 tags: ["apache apisix", "api gateway", "performance"]
 categories: ["API Gateway"]
