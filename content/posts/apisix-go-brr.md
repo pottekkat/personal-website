@@ -1,7 +1,7 @@
 ---
 title: "How is Apache APISIX Fast?"
-date: 2023-06-09T09:33:59+05:30
-draft: true
+date: 2023-06-12T09:33:59+05:30
+draft: false
 ShowToc: false
 ShowRelatedContent: true
 canonicalURL: "https://api7.ai/blog/how-is-apisix-fast/"
