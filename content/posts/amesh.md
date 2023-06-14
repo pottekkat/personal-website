@@ -76,9 +76,9 @@ We will build the Amesh images, configure Istio to use APISIX sidecars, deploy I
 
 We will build three images:
 
-amesh-iptables: used for creating an init container to set up some iptables rules. These rules are to direct all traffic through APISIX.
-amesh-sidecar: used for creating the sidecar container.
-amesh-controller: used for creating the Amesh controller control plane component. This controller is used to configure APISIX plugins.
+- amesh-iptables: used for creating an init container to set up some iptables rules. These rules are to direct all traffic through APISIX.
+- amesh-sidecar: used for creating the sidecar container.
+- amesh-controller: used for creating the Amesh controller control plane component. This controller is used to configure APISIX plugins.
 
 First, clone the Amesh repo:
 
