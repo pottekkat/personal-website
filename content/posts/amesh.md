@@ -4,6 +4,8 @@ date: 2023-06-19T09:24:01+05:30
 draft: true
 ShowToc: false
 ShowRelatedContent: false
+canonicalURL: "https://api7.ai/blog/apisix-service-mesh/"
+ShowCanonicalLink: true
 summary: "Apache APISIX is generally used to manage north-south traffic in Kubernetes and often sits at the edge of a cluster. With Amesh, APISIX is now a service mesh."
 tags: ["amesh", "apache apisix", "service-mesh", "istio"]
 categories: ["Service Mesh"]
