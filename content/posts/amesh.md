@@ -1,6 +1,6 @@
 ---
-title: "APISIX Service Mesh?"
-date: 2023-06-19T09:24:01+05:30
+title: "APISIX Service Mesh"
+date: 2023-06-16T09:24:01+05:30
 draft: true
 ShowToc: false
 ShowRelatedContent: false
