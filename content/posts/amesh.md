@@ -1,7 +1,7 @@
 ---
 title: "APISIX Service Mesh"
 date: 2023-06-16T09:24:01+05:30
-draft: true
+draft: false
 ShowToc: false
 ShowRelatedContent: false
 canonicalURL: "https://api7.ai/blog/apisix-service-mesh/"
