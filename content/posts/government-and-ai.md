@@ -1,7 +1,7 @@
 ---
 title: "Eight Things the Indian Government Can Do about AI"
-date: 2023-06-23T09:31:01+05:30
-draft: true
+date: 2023-06-23T17:31:01+05:30
+draft: false
 ShowToc: true
 TocOpen: true
 ShowRelatedContent: true
