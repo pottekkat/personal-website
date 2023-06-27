@@ -24,10 +24,10 @@ APISIX supports Wasm through the [WebAssembly for Proxies (proxy-wasm) specifica
 
 Using Wasm plugins in APISIX has multiple advantages:
 
-*   Many programming languages compile to Wasm. This allows you to leverage the capabilities of your tech stack in APISIX plugins.
-*   The plugins run inside APISIX and not on external plugin runners. This means you compromise less on performance while writing external plugins.
-*   Wasm plugins run inside APISIX but in a separate VM. So even if the plugin crashes, APISIX can continue to run.
-*   _APISIX can only maintain its Wasm support without having to maintain plugin runners for multiple languages\*._
+* Many programming languages compile to Wasm. This allows you to leverage the capabilities of your tech stack in APISIX plugins.
+* The plugins run inside APISIX and not on external plugin runners. This means you compromise less on performance while writing external plugins.
+* Wasm plugins run inside APISIX but in a separate VM. So even if the plugin crashes, APISIX can continue to run.
+* _APISIX can only maintain its Wasm support without having to maintain plugin runners for multiple languages\*._
 
 _\* These advantages come with a set of caveats which we will look at later._
 
@@ -132,7 +132,7 @@ To compile our plugin to a Wasm binary, we can run:
 tinygo build -o custom_response_header.go.wasm -scheduler=none -target=wasi ./main.go
 ```
 
-##  Configuring APISIX to Run the Plugin
+## Configuring APISIX to Run the Plugin
 
 To use the Wasm plugin, we first have to update our APISIX configuration file to add this:
 
@@ -189,9 +189,9 @@ A test using our example `custom-response-header` function implemented through a
 
 Looking solely at this example, it might be tempting to ask why anyone would want to use plugin runners or write Lua plugins. Well, all the advantages of using Wasm comes with the following caveats:
 
-*   **Limited plugins**: The Wasm implementation of programming languages often lacks complete support. For Go, we were limited to using the TinyGo compiler, similar to other languages.
-*   **Immature stack**: Wasm and its usage outside the browser is still a relatively new concept. The proxy-wasm spec also has its limitations due to its relative novelty.
-*   **Lack of concurrency**: Wasm does not have built-in concurrency support. This could be a deal breaker for typical APISIX uses cases where high performance is critical.
-*   **Better alternatives**: Since APISIX can be extended using Lua plugins or plugin runners, there are always alternatives to using Wasm.
+* **Limited plugins**: The Wasm implementation of programming languages often lacks complete support. For Go, we were limited to using the TinyGo compiler, similar to other languages.
+* **Immature stack**: Wasm and its usage outside the browser is still a relatively new concept. The proxy-wasm spec also has its limitations due to its relative novelty.
+* **Lack of concurrency**: Wasm does not have built-in concurrency support. This could be a deal breaker for typical APISIX uses cases where high performance is critical.
+* **Better alternatives**: Since APISIX can be extended using Lua plugins or plugin runners, there are always alternatives to using Wasm.
 
 Despite these caveats, the future of Wasm in APISIX and other proxies seems promising. You can choose to hop on the Wasm bandwagon if its benefits tip the scale against these costs. But currently, APISIX plans to continue supporting all three ways of creating custom plugins for the foreseeable future.
