@@ -14,7 +14,7 @@ cover:
     relative: false
 ---
 
-A key feature of Apache APISIX is its pluggable architecture. In addition to providing [80+ Lua plugins](https://apisix.apache.org/plugins/) out of the box, APISIX also supports external plugins written in other languages through [plugin runners](https://apisix.apache.org/docs/go-plugin-runner/getting-started/) and [WebAssembly (Wasm)](https://apisix.apache.org/docs/apisix/next/wasm/).
+A key feature of Apache APISIX is its pluggable architecture. In addition to providing [80+ Lua plugins](https://apisix.apache.org/plugins/) out of the box, APISIX also supports external plugins written in other languages through [plugin runners](https://apisix.apache.org/docs/go-plugin-runner/getting-started/) and [WebAssembly (Wasm)](https://apisix.apache.org/docs/apisix/wasm/).
 
 In this article, we will write a "tiny" Go plugin for APISIX, compile it to a Wasm binary, run it in APISIX, and learn how it all works. We will also compare the benefits and costs of using Wasm plugins, external plugins (plugin runners), and native Lua plugins.
 
