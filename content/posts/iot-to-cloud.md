@@ -1,7 +1,7 @@
 ---
 title: "Connecting IoT Devices to the Cloud"
-date: 2023-06-30T17:21:57+05:30
-draft: true
+date: 2023-06-30T10:05:57+05:30
+draft: false
 ShowToc: false
 ShowRelatedContent: false
 summary: "A guide to using Apache APISIX as an MQTT proxy to connect IoT devices to the cloud."
