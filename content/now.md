@@ -7,6 +7,12 @@ description: "What Navendu is doing now."
 
 Here's what I'm doing now.
 
+## Traveling to Malaysia and Singapore
+
+I will be traveling to Malaysia on 1st July 2023. I will be in Kuala Lumpur for a week. Then I will fly to Singapore on the 7th and will be there till the 9th.
+
+We are hosting an Apache APISIX Community Meetup in [Malaysia on the 4th](https://forms.gle/sUmjdBQAMPjDehYR8) and [Singapore on the 8th](https://forms.gle/JSzVmfXon9HCTSee9). If you are there and want to say hi, join us!
+
 ## Full-Time Job
 
 I work full-time at [API7.ai](https://api7.ai/), where I help build [Apache APISIX](https://apisix.apache.org/).
