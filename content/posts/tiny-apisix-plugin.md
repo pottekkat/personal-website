@@ -1,7 +1,7 @@
 ---
 title: "A \"Tiny\" APISIX Plugin"
 date: 2023-07-07T09:40:14+05:30
-draft: true
+draft: false
 ShowToc: false
 ShowRelatedContent: false
 summary: "A \"tiny\" example to demonstrate how Apache APISIX supports Wasm plugins."
