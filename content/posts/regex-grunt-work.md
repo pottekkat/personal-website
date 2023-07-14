@@ -1,7 +1,7 @@
 ---
 title: "Grunt Work with RegEx"
 date: 2023-07-14T09:10:27+08:00
-draft: true
+draft: false
 ShowToc: false
 ShowRelatedContent: false
 summary: "My recent experience in using regular expressions to automate a menial task."
