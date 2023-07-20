@@ -7,11 +7,11 @@ description: "What Navendu is doing now."
 
 Here's what I'm doing now.
 
-## Traveling to Malaysia and Singapore
+## Traveling to Singapore and Taiwan
 
-I will be traveling to Malaysia on 1st July 2023. I will be in Kuala Lumpur for a week. Then I will fly to Singapore on the 7th and will be there till the 9th.
+I will travel to Singapore on 27th July 2023 to speak at the [DevOps Asia Summit](https://devopsasiasummit.com/). I will leave for Taipei to join [COSCUP](http://coscup.org/) on the 28th. I have yet to plan when I will return back from Taiwan.
 
-We are hosting an Apache APISIX Community Meetup in [Malaysia on the 4th](https://forms.gle/sUmjdBQAMPjDehYR8) and [Singapore on the 8th](https://forms.gle/JSzVmfXon9HCTSee9). If you are there and want to say hi, join us!
+Feel free to say hi if you are in any of these places. I promise I won't bite.
 
 ## Full-Time Job
 
@@ -23,7 +23,7 @@ I work to ensure that APISIX's users have the best experience using APISIX. I al
 
 ## Blog and Newsletter
 
-I write on this blog about my work and my other projects. I also send [biweekly newsletters](/subscribe/) to a couple of hundred people.
+I write on this blog about my work and my other projects. I also send [biweekly newsletters](/subscribe/) to a couple of hundred people. The newsletter is now on hiatus because of my busy work and personal schedule. I hope to be back at it in a couple of months.
 
 I don't plan to work on these full-time or scale and monetize them, at least for now.
 
