@@ -1,7 +1,7 @@
 ---
 title: "Creating a Custom Data Mask Plugin"
 date: 2023-07-21T09:29:55+05:30
-draft: true
+draft: false
 ShowToc: false
 ShowRelatedContent: false
 canonicalURL: "https://apisix.apache.org/blog/2023/07/20/data-mask-plugin/"
