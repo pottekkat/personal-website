@@ -31,6 +31,16 @@ I work primarily on cloud native/Kubernetes, API gateways, and service meshes. I
 
 The lines between my work and personal life are blurry, but outside of this, I enjoy reading, playing my bass, and riding my motorcycles. If you want to know more about me, here's [my story](/story/).
 
+### Travel
+
+I have been traveling a lot for work and pleasure lately. The only reason I haven't traveled more in the last few years is because my passport sucks. It takes a lot of effort to apply for a visa, and I'm under a lot of stress after I submit my visa application, waiting to know if I can travel.
+
+My European, American, and Singaporean friends have relentlessly heard me rant about this. I don't plan to stop because it is the most limiting thing in the modern world and probably one of the only reasons I envy people in rich countries with better passports.
+
+Still, I have traveled to all these countries, and I plan to keep traveling: 🇸🇬 🇨🇳 🇦🇪 🇱🇰 🇮🇪 🇧🇭 🇲🇾
+
+I have yet to go to a lot of places in India (next year 🤞). And I have traveled to all districts in Kerala.
+
 ## Contact
 
 You can reach out to me at [navendu@apache.org](mailto:navendu@apache.org)
