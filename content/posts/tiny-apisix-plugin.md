@@ -5,7 +5,7 @@ draft: false
 ShowToc: false
 ShowRelatedContent: false
 summary: "A \"tiny\" example to demonstrate how Apache APISIX supports Wasm plugins."
-tags: ["apache apisix", "api gateway", "wasm", "tutorial"]
+tags: ["apache apisix", "api gateway", "wasm", "tutorials"]
 categories: ["API Gateway"]
 cover:
     image: "/images/tiny-apisix-plugin/gopher-banner.jpg"

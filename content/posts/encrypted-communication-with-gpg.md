@@ -5,7 +5,7 @@ draft: false
 ShowToc: true
 TocOpen: true
 summary: "Exploring how symmetric-key and public-key cryptography works by using GPG keys to sign commits and send encrypted messages."
-tags: ["security", "tutorial", "communication"]
+tags: ["security", "tutorials", "communication"]
 categories: ["Tutorials"]
 mermaid: true
 cover:
