@@ -220,8 +220,8 @@ curl localhost:9080/anything/anything -H "Content-Type: application/json" -d '
     "Accept": "*/*",
     "Content-Length": "54",
     "Content-Type": "application/json",
-    "Host": "localhost:9080", 
-    "User-Agent": "curl/7.88.1", 
+    "Host": "localhost:9080",
+    "User-Agent": "curl/7.88.1",
     "X-Forwarded-Host": "localhost"
   },
   "json": {
@@ -314,8 +314,8 @@ curl localhost:9080/anything/anything -H "Content-Type: application/json" -d '
     "Accept": "*/*",
     "Content-Length": "53",
     "Content-Type": "application/json",
-    "Host": "localhost:9080", 
-    "User-Agent": "curl/7.88.1", 
+    "Host": "localhost:9080",
+    "User-Agent": "curl/7.88.1",
     "X-Forwarded-Host": "localhost"
   },
   "json": {
@@ -359,7 +359,7 @@ routes:
                 pattern: "^application\/json$"
         body_schema:
             type: object
-            required: 
+            required:
               - quantity
               - price
               - item
