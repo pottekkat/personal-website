@@ -14,6 +14,14 @@
   </h1>
 </header>
 
+<article class="post-single">
+<div class="post-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+</article>
+
 {{- $pages := where site.RegularPages "Type" "in" site.Params.dailySections }}
 
 {{- if site.Params.ShowAllPagesInArchive }}
