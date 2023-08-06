@@ -1,5 +1,5 @@
 ---
-title: "#94 Setting Up for Visa Appointment - Thursday, 7th April 2022"
+title: "#94 Setting Up for Visa Appointment"
 layout: "daily-theme"
 date: 2022-04-07T19:07:31+05:30
 draft: false

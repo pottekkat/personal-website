@@ -1,5 +1,5 @@
 ---
-title: "#139 Prepping for a Talk - Thursday, 26th May 2022"
+title: "#139 Prepping for a Talk"
 layout: "daily-theme"
 date: 2022-05-26T11:44:23+05:30
 draft: false

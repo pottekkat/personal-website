@@ -1,5 +1,5 @@
 ---
-title: "#58 Parks and Recs is the Best TV Show Ever - Wednesday, 2nd March 2022"
+title: "#58 Parks and Recs is the Best TV Show Ever"
 layout: "daily-theme"
 date: 2022-03-02T09:56:43+05:30
 draft: false

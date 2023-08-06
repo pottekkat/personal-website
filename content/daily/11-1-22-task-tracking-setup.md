@@ -1,5 +1,5 @@
 ---
-title: "#12 Task Tracking Setup - Tuesday, 11th January 2022"
+title: "#12 Task Tracking Setup"
 layout: "daily-theme"
 date: 2022-01-11T22:46:42+05:30
 draft: false

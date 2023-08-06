@@ -1,5 +1,5 @@
 ---
-title: "#114 WeCrashed - Thursday, 28th April 2022"
+title: "#114 WeCrashed"
 layout: "daily-theme"
 date: 2022-04-28T18:51:49+05:30
 draft: false

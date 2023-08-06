@@ -1,5 +1,5 @@
 ---
-title: "#72 Chill Days - Wednesday, 16th March 2022"
+title: "#72 Chill Days"
 layout: "daily-theme"
 date: 2022-03-16T19:01:43+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#3 Blocked by Blockchains - Sunday, 2nd January 2022"
+title: "#3 Blocked by Blockchains"
 layout: "daily-theme"
 date: 2022-01-03T11:58:47+05:30
 draft: false

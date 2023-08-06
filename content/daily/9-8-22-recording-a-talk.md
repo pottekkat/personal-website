@@ -1,5 +1,5 @@
 ---
-title: "#178 Recording a Talk - Tuesday, 9th August 2022"
+title: "#178 Recording a Talk"
 layout: "daily-theme"
 date: 2022-08-09T20:04:36+05:30
 draft: false

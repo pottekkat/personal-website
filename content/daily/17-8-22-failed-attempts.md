@@ -1,5 +1,5 @@
 ---
-title: "#186 Failed Attempts - Wednesday, 17th August 2022"
+title: "#186 Failed Attempts"
 layout: "daily-theme"
 date: 2022-08-17T22:04:00+05:30
 draft: false

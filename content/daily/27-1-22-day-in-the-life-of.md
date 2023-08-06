@@ -1,5 +1,5 @@
 ---
-title: "#26 Day in the Life Of - Thursday, 27th January 2022"
+title: "#26 Day in the Life Of"
 layout: "daily-theme"
 date: 2022-01-27T16:55:11+05:30
 draft: false

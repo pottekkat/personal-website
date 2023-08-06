@@ -1,5 +1,5 @@
 ---
-title: "#200 Diversity, Equity, and Inclusion in Open Source - Friday, 2nd September 2022"
+title: "#200 Diversity, Equity, and Inclusion in Open Source"
 layout: "daily-theme"
 date: 2022-09-02T20:41:24+05:30
 draft: false

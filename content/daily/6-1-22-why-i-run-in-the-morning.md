@@ -1,5 +1,5 @@
 ---
-title: "#7 Why I Run in the Morning - Thursday, 6th January 2022"
+title: "#7 Why I Run in the Morning"
 layout: "daily-theme"
 date: 2022-01-06T19:49:10+05:30
 draft: false

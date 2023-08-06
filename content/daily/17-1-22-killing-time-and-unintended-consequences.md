@@ -1,5 +1,5 @@
 ---
-title: "#16 Killing Time and Unintended Consequences - Monday, 17th January 2022"
+title: "#16 Killing Time and Unintended Consequences"
 layout: "daily-theme"
 date: 2022-01-17T09:27:52+05:30
 draft: false

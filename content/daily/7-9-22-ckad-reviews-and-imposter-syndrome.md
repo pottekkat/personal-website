@@ -1,5 +1,5 @@
 ---
-title: "#204 CKAD, Reviews, and Imposter Syndrome - Wednesday, 7th September 2022"
+title: "#204 CKAD, Reviews, and Imposter Syndrome"
 layout: "daily-theme"
 date: 2022-09-07T21:58:39+05:30
 draft: false

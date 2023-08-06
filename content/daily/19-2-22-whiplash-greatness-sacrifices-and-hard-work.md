@@ -1,5 +1,5 @@
 ---
-title: "#47 Whiplash, Greatness, Sacrifices and Hard Work - Saturday, 19th February 2022"
+title: "#47 Whiplash, Greatness, Sacrifices and Hard Work"
 layout: "daily-theme"
 date: 2022-02-19T15:25:26+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#219 Checo Wins Mexico - Thursday, 27th October 2022"
+title: "#219 Checo Wins Mexico"
 layout: "daily-theme"
 date: 2022-10-27T21:53:33+05:30
 draft: false

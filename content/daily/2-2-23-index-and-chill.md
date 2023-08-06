@@ -1,5 +1,5 @@
 ---
-title: "#237 Index and Chill - Thursday, 2nd February 2023"
+title: "#237 Index and Chill"
 layout: "daily-theme"
 date: 2023-02-02T18:53:03+05:30
 draft: false

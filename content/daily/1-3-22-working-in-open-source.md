@@ -1,5 +1,5 @@
 ---
-title: "#57 Working in Open Source - Tuesday, 1st March 2022"
+title: "#57 Working in Open Source"
 layout: "daily-theme"
 date: 2022-03-01T15:35:07+05:30
 draft: false

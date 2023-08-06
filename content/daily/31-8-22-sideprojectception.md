@@ -1,5 +1,5 @@
 ---
-title: "#198 SideProjectCeption - Wednesday, 31st August 2022"
+title: "#198 SideProjectCeption"
 layout: "daily-theme"
 date: 2022-08-31T21:30:59+05:30
 draft: false

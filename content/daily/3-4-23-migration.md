@@ -1,5 +1,5 @@
 ---
-title: "#255 Migration - Monday, 3rd April 2023"
+title: "#255 Migration"
 layout: "daily-theme"
 date: 2023-04-03T23:57:15+05:30
 draft: false

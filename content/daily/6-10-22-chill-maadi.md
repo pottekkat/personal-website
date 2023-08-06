@@ -1,5 +1,5 @@
 ---
-title: "#213 Chill Maadi - Thursday, 6th October 2022"
+title: "#213 Chill Maadi"
 layout: "daily-theme"
 date: 2022-10-06T22:15:14+05:30
 draft: false

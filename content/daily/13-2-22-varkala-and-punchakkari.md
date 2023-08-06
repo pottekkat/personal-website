@@ -1,5 +1,5 @@
 ---
-title: "#41 Varkala and Punchakkari - Sunday, 13th February 2022"
+title: "#41 Varkala and Punchakkari"
 layout: "daily-theme"
 date: 2022-02-13T12:39:21+05:30
 draft: false

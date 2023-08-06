@@ -1,5 +1,5 @@
 ---
-title: "#230 Benki, Benki, Boom, Boom! - Sunday, 4th December 2022"
+title: "#230 Benki, Benki, Boom, Boom!"
 layout: "daily-theme"
 date: 2022-12-04T20:05:05+05:30
 draft: false

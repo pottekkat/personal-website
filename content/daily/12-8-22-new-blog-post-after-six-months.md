@@ -1,5 +1,5 @@
 ---
-title: "#181 New Blog Post After Six Months - Friday, 12th August 2022"
+title: "#181 New Blog Post After Six Months"
 layout: "daily-theme"
 date: 2022-08-12T20:33:33+05:30
 draft: false

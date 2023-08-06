@@ -1,5 +1,5 @@
 ---
-title: "#199 Conference Season - Thursday, 1st September 2022"
+title: "#199 Conference Season"
 layout: "daily-theme"
 date: 2022-09-01T22:03:45+05:30
 draft: false

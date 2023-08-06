@@ -1,5 +1,5 @@
 ---
-title: "#103 Simple Saturday - Saturday, 16th April 2022"
+title: "#103 Simple Saturday"
 layout: "daily-theme"
 date: 2022-04-16T19:57:01+05:30
 draft: false

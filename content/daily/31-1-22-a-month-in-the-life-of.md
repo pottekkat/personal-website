@@ -1,5 +1,5 @@
 ---
-title: "#30 A Month in the Life Of - Monday, 31st January 2022"
+title: "#30 A Month in the Life Of"
 layout: "daily-theme"
 date: 2022-01-31T18:47:59+05:30
 draft: false

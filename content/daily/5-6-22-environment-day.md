@@ -1,5 +1,5 @@
 ---
-title: "#149 Environment Day - Sunday, 5th June 2022"
+title: "#149 Environment Day"
 layout: "daily-theme"
 date: 2022-06-05T21:05:32+05:30
 draft: false

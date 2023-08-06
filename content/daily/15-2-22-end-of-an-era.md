@@ -1,5 +1,5 @@
 ---
-title: "#43 End of an Era - Tuesday, 15th February 2022"
+title: "#43 End of an Era"
 layout: "daily-theme"
 date: 2022-02-15T18:20:27+05:30
 draft: false

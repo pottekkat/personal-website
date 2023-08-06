@@ -1,5 +1,5 @@
 ---
-title: "#211 Namma Ooru Bengaluru - Tuesday, 27th September 2022"
+title: "#211 Namma Ooru Bengaluru"
 layout: "daily-theme"
 date: 2022-09-27T09:21:21+05:30
 draft: false

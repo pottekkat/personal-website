@@ -1,5 +1,5 @@
 ---
-title: "#226 My World Cup Predictions - Wednesday, 16th November 2022"
+title: "#226 My World Cup Predictions"
 layout: "daily-theme"
 date: 2022-11-16T13:09:35+05:30
 draft: false

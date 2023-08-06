@@ -1,5 +1,5 @@
 ---
-title: "#163 Rainy Day Ride - Thursday, 7th July 2022"
+title: "#163 Rainy Day Ride"
 layout: "daily-theme"
 date: 2022-07-07T19:57:44+05:30
 draft: false

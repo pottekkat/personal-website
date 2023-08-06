@@ -1,5 +1,5 @@
 ---
-title: "#154 Jurassic World Sucks - Friday, 10th June 2022"
+title: "#154 Jurassic World Sucks"
 layout: "daily-theme"
 date: 2022-06-10T23:17:05+05:30
 draft: false

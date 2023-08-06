@@ -1,5 +1,5 @@
 ---
-title: "#116 Clever Subtitles - Saturday, 30th April 2022"
+title: "#116 Clever Subtitles"
 layout: "daily-theme"
 date: 2022-04-30T19:27:03+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#256 API Gateway and Service Mesh - Friday, 7th April 2023"
+title: "#256 API Gateway and Service Mesh"
 layout: "daily-theme"
 date: 2023-04-07T21:59:20+05:30
 draft: false

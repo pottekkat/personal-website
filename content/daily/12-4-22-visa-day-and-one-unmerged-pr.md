@@ -1,5 +1,5 @@
 ---
-title: "#99 Visa Day and One Unmerged PR - Tuesday, 12th April 2022"
+title: "#99 Visa Day and One Unmerged PR"
 layout: "daily-theme"
 date: 2022-04-12T21:23:32+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#191 Open Source Summit Latin America - Tuesday, 23rd August 2022"
+title: "#191 Open Source Summit Latin America"
 layout: "daily-theme"
 date: 2022-08-23T22:20:05+05:30
 draft: false

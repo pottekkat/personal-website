@@ -1,5 +1,5 @@
 ---
-title: "#235 Traveling for Work - Wednesday, 25th January 2023"
+title: "#235 Traveling for Work"
 layout: "daily-theme"
 date: 2023-01-25T20:18:27+05:30
 draft: false

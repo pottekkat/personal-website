@@ -1,5 +1,5 @@
 ---
-title: "#240 Happy KubeCon Proposal Notification Day - Monday, 6th February 2022"
+title: "#240 Happy KubeCon Proposal Notification Day"
 layout: "daily-theme"
 date: 2023-02-06T22:41:31+05:30
 draft: false

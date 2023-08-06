@@ -1,5 +1,5 @@
 ---
-title: "#265 Obsession Overload - Sunday, 4th June 2023"
+title: "#265 Obsession Overload"
 layout: "daily-theme"
 date: 2023-06-04T11:21:19+05:30
 draft: false

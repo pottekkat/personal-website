@@ -1,5 +1,5 @@
 ---
-title: "#81 In a User's Shoes - Friday, 25th March 2022"
+title: "#81 In a User's Shoes"
 layout: "daily-theme"
 date: 2022-03-25T19:28:39+05:30
 draft: false

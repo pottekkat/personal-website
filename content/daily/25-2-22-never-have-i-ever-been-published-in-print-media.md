@@ -1,5 +1,5 @@
 ---
-title: "#53 Never Have I Ever Been Published in Print Media - Friday, 25th February 2022"
+title: "#53 Never Have I Ever Been Published in Print Media"
 layout: "daily-theme"
 date: 2022-02-25T14:23:24+05:30
 draft: false

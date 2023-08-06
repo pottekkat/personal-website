@@ -1,5 +1,5 @@
 ---
-title: "#138 Sick Day - Wednesday, 25th May 2022"
+title: "#138 Sick Day"
 layout: "daily-theme"
 date: 2022-05-25T21:28:20+05:30
 draft: false

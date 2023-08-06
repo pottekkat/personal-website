@@ -1,5 +1,5 @@
 ---
-title: "#202 Homecoming - Sunday, 4th September 2022"
+title: "#202 Homecoming"
 layout: "daily-theme"
 date: 2022-09-04T23:32:08+05:30
 draft: false

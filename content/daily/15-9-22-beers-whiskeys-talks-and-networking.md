@@ -1,5 +1,5 @@
 ---
-title: "#208 Beers, Whiskeys, Talks, and Networking - Thursday, 15th September 2022"
+title: "#208 Beers, Whiskeys, Talks, and Networking"
 layout: "daily-theme"
 date: 2022-09-15T16:46:50+01:00
 draft: false

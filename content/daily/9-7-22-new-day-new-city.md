@@ -1,5 +1,5 @@
 ---
-title: "#165 New Day, New City - Saturday, 9th July 2022"
+title: "#165 New Day, New City"
 layout: "daily-theme"
 date: 2022-07-09T22:40:13+05:30
 draft: false
