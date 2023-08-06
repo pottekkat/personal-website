@@ -1,5 +1,5 @@
 ---
-title: "#85 Viral on Twitter - Tuesday, 29th March 2022"
+title: "#85 Viral on Twitter"
 layout: "daily-theme"
 date: 2022-03-29T10:47:34+05:30
 draft: false

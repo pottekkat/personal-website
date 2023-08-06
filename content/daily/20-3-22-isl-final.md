@@ -1,5 +1,5 @@
 ---
-title: "#76 ISL Final - Sunday, 20th March 2022"
+title: "#76 ISL Final"
 layout: "daily-theme"
 date: 2022-03-20T11:01:17+05:30
 draft: false

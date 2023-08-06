@@ -1,5 +1,5 @@
 ---
-title: "#55 Authenticity - Sunday, 27th February 2022"
+title: "#55 Authenticity"
 layout: "daily-theme"
 date: 2022-02-27T12:38:43+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#159 Ten Days of Festivities - Saturday, 25th June 2022"
+title: "#159 Ten Days of Festivities"
 layout: "daily-theme"
 date: 2022-06-25T18:39:13+05:30
 draft: false

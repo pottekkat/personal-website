@@ -1,5 +1,5 @@
 ---
-title: "#222 Dead End - Monday, 7th November 2022"
+title: "#222 Dead End"
 layout: "daily-theme"
 date: 2022-11-07T22:34:29+05:30
 draft: false

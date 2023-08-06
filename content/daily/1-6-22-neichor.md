@@ -1,5 +1,5 @@
 ---
-title: "#145 Neichor - Wednesday, 1st June 2022"
+title: "#145 Neichor"
 layout: "daily-theme"
 date: 2022-06-01T21:38:18+05:30
 draft: false

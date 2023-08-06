@@ -1,5 +1,5 @@
 ---
-title: "#218 The Younger Generation Might Not Be Super \"Techy\" - Wednesday, 26th October 2022"
+title: "#218 The Younger Generation Might Not Be Super \"Techy\""
 layout: "daily-theme"
 date: 2022-10-26T14:20:56+05:30
 draft: false

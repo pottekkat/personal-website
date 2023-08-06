@@ -1,5 +1,5 @@
 ---
-title: "#152 Highway to the Danger Zone - Wednesday, 8th June 2022"
+title: "#152 Highway to the Danger Zone"
 layout: "daily-theme"
 date: 2022-06-08T23:22:17+05:30
 draft: false

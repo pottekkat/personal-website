@@ -1,5 +1,5 @@
 ---
-title: "#104 Busy Sunday - Sunday, 17th April 2022"
+title: "#104 Busy Sunday"
 layout: "daily-theme"
 date: 2022-04-17T19:57:15+05:30
 draft: false

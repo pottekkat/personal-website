@@ -1,5 +1,5 @@
 ---
-title: "#133 Tomb Raider - Tuesday, 17th May 2022"
+title: "#133 Tomb Raider"
 layout: "daily-theme"
 date: 2022-05-17T22:25:15+05:30
 draft: false

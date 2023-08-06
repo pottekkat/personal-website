@@ -1,5 +1,5 @@
 ---
-title: "#224 Writing Spree - Sunday, 13th November 2022"
+title: "#224 Writing Spree"
 layout: "daily-theme"
 date: 2022-11-13T22:58:29+05:30
 draft: false

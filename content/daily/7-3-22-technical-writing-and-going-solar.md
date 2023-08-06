@@ -1,5 +1,5 @@
 ---
-title: "#63 Technical Writing and Going Solar - Monday, 7th March 2022"
+title: "#63 Technical Writing and Going Solar"
 layout: "daily-theme"
 date: 2022-03-07T19:37:29+05:30
 draft: false

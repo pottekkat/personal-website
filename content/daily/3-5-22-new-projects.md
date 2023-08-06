@@ -1,5 +1,5 @@
 ---
-title: "#119 New Projects - Tuesday, 3rd May 2022"
+title: "#119 New Projects"
 layout: "daily-theme"
 date: 2022-05-03T19:47:47+05:30
 draft: false

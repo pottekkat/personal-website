@@ -1,5 +1,5 @@
 ---
-title: "#29 Running Shoes and Investing in Myself - Sunday, 30th January 2022"
+title: "#29 Running Shoes and Investing in Myself"
 layout: "daily-theme"
 date: 2022-01-30T08:31:29+05:30
 draft: false

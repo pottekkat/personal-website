@@ -1,5 +1,5 @@
 ---
-title: "#187 Making My Life Easier - Thursday, 18th August 2022"
+title: "#187 Making My Life Easier"
 layout: "daily-theme"
 date: 2022-08-18T20:20:51+05:30
 draft: false

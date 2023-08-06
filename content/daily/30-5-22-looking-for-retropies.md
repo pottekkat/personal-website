@@ -1,5 +1,5 @@
 ---
-title: "#143 Looking for RetroPies - Monday, 30th May 2022"
+title: "#143 Looking for RetroPies"
 layout: "daily-theme"
 date: 2022-05-30T20:43:56+05:30
 draft: false

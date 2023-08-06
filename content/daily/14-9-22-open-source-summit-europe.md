@@ -1,5 +1,5 @@
 ---
-title: "#207 Open Source Summit Europe - Wednesday, 14th September 2022"
+title: "#207 Open Source Summit Europe"
 layout: "daily-theme"
 date: 2022-09-14T10:40:52+01:00
 draft: false

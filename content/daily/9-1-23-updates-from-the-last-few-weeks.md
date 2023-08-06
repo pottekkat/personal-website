@@ -1,5 +1,5 @@
 ---
-title: "#233 Updates From the Last Few Weeks - Monday, 9th January 2023"
+title: "#233 Updates From the Last Few Weeks"
 layout: "daily-theme"
 date: 2023-01-09T10:47:42+05:30
 draft: false

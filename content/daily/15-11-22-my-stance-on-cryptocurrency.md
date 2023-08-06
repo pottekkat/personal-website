@@ -1,5 +1,5 @@
 ---
-title: "#225 My Stance on Cryptocurrency - Tuesday, 15th November 2022"
+title: "#225 My Stance on Cryptocurrency"
 layout: "daily-theme"
 date: 2022-11-15T11:46:37+05:30
 draft: false

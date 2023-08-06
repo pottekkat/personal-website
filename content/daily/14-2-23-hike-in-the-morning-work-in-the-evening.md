@@ -1,5 +1,5 @@
 ---
-title: "#244 Hike in the Morning, Work in the Evening - Tuesday, 14th February 2023"
+title: "#244 Hike in the Morning, Work in the Evening"
 layout: "daily-theme"
 date: 2023-02-14T17:45:39+08:00
 draft: false

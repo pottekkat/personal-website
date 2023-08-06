@@ -1,5 +1,5 @@
 ---
-title: "#6 Right Arm Over the Wicket or Why I use my Own Platform to Write - Wednesday, 5th January 2022"
+title: "#6 Right Arm Over the Wicket or Why I use my Own Platform to Write"
 layout: "daily-theme"
 date: 2022-01-05T13:08:11+05:30
 draft: false

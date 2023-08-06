@@ -1,5 +1,5 @@
 ---
-title: "#1 New Year, New Me - Friday, 31st December 2021"
+title: "#1 New Year, New Me"
 layout: "daily-theme"
 date: 2021-12-31T21:15:25+05:30
 draft: false

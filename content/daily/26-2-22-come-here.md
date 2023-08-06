@@ -1,5 +1,5 @@
 ---
-title: "#54 Come Here - Saturday, 26th February 2022"
+title: "#54 Come Here"
 layout: "daily-theme"
 date: 2022-02-26T09:56:19+05:30
 draft: false

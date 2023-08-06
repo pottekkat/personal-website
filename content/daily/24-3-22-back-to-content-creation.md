@@ -1,5 +1,5 @@
 ---
-title: "#80 Back to Content Creation - Thursday, 24th March 2022"
+title: "#80 Back to Content Creation"
 layout: "daily-theme"
 date: 2022-03-24T10:41:14+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#73 New Job Announcement! - Thursday, 17th March 2022"
+title: "#73 New Job Announcement!"
 layout: "daily-theme"
 date: 2022-03-17T19:08:00+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#250 From Bahrain - Saturday, 25th March 2023"
+title: "#250 From Bahrain"
 layout: "daily-theme"
 date: 2023-03-25T14:57:33+05:30
 draft: false

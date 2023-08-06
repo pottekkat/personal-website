@@ -1,5 +1,5 @@
 ---
-title: "#176 Building a Docker Clone and Starting a Side Project - Sunday, 7th August 2022"
+title: "#176 Building a Docker Clone and Starting a Side Project"
 layout: "daily-theme"
 date: 2022-08-07T22:57:49+05:30
 draft: false

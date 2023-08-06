@@ -1,5 +1,5 @@
 ---
-title: "#135 Rise of the Tomb Raider - Thursday, 19th May 2022"
+title: "#135 Rise of the Tomb Raider"
 layout: "daily-theme"
 date: 2022-05-19T19:58:35+05:30
 draft: false

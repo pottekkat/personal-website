@@ -1,5 +1,5 @@
 ---
-title: "#232 Goodbye Google Analytics - Thursday, 15th December 2022"
+title: "#232 Goodbye Google Analytics"
 layout: "daily-theme"
 date: 2022-12-15T20:27:21+05:30
 draft: false

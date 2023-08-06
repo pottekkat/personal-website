@@ -1,5 +1,5 @@
 ---
-title: "#109 Cancelling KubeCon Plans - Friday, 22nd April 2022"
+title: "#109 Cancelling KubeCon Plans"
 layout: "daily-theme"
 date: 2022-04-22T13:44:40+05:30
 draft: false

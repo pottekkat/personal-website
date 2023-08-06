@@ -1,5 +1,5 @@
 ---
-title: "#49 Knowing the Game You Are Playing - Monday, 21st February 2022"
+title: "#49 Knowing the Game You Are Playing"
 layout: "daily-theme"
 date: 2022-02-21T18:20:31+05:30
 draft: false

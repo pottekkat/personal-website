@@ -1,5 +1,5 @@
 ---
-title: "#169 Playing Cricket After a Long Time - Wednesday, 13th July 2022"
+title: "#169 Playing Cricket After a Long Time"
 layout: "daily-theme"
 date: 2022-07-13T22:44:04+05:30
 draft: false

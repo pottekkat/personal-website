@@ -1,5 +1,5 @@
 ---
-title: "#166 Table Madness and Red Bull Ring - Sunday, 10th July 2022"
+title: "#166 Table Madness and Red Bull Ring"
 layout: "daily-theme"
 date: 2022-07-10T19:28:23+05:30
 draft: false

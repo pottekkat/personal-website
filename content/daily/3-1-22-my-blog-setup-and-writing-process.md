@@ -1,5 +1,5 @@
 ---
-title: "#4 My Blog Setup and Writing Process - Monday, 3rd January 2022"
+title: "#4 My Blog Setup and Writing Process"
 layout: "daily-theme"
 date: 2022-01-03T16:02:01+05:30
 draft: false

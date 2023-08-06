@@ -1,5 +1,5 @@
 ---
-title: "#77 Day 1 at New Job - Monday, 21st March 2022"
+title: "#77 Day 1 at New Job"
 layout: "daily-theme"
 date: 2022-03-21T11:20:33+05:30
 draft: false

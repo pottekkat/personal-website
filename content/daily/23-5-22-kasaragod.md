@@ -1,5 +1,5 @@
 ---
-title: "#136 Kasaragod - Monday, 23rd May 2022"
+title: "#136 Kasaragod"
 layout: "daily-theme"
 date: 2022-05-23T11:27:54+05:30
 draft: false

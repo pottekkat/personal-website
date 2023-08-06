@@ -1,5 +1,5 @@
 ---
-title: "#71 Success - Tuesday, 15th March 2022"
+title: "#71 Success"
 layout: "daily-theme"
 date: 2022-03-15T22:43:49+05:30
 draft: false

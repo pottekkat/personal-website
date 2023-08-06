@@ -1,5 +1,5 @@
 ---
-title: "#110 Too Busy to Write? - Sunday, 24th April 2022"
+title: "#110 Too Busy to Write?"
 layout: "daily-theme"
 date: 2022-04-24T19:44:49+05:30
 draft: false

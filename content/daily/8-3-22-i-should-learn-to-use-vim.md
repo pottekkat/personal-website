@@ -1,5 +1,5 @@
 ---
-title: "#64 I Should Learn to Use Vim - Tuesday, 8th March 2022"
+title: "#64 I Should Learn to Use Vim"
 layout: "daily-theme"
 date: 2022-03-08T10:36:22+05:30
 draft: false

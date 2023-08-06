@@ -1,5 +1,5 @@
 ---
-title: "#221 New Explorations - Saturday, 5th November 2022"
+title: "#221 New Explorations"
 layout: "daily-theme"
 date: 2022-11-05T19:44:03+05:30
 draft: false

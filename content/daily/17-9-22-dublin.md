@@ -1,5 +1,5 @@
 ---
-title: "#209 Dublin - Saturday, 17th September 2022"
+title: "#209 Dublin"
 layout: "daily-theme"
 date: 2022-09-17T20:05:47+01:00
 draft: false

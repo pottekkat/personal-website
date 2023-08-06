@@ -1,5 +1,5 @@
 ---
-title: "#87 Writing Plans - Thursday, 31st March 2022"
+title: "#87 Writing Plans"
 layout: "daily-theme"
 date: 2022-03-31T09:28:10+05:30
 draft: false

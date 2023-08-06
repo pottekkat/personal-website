@@ -1,5 +1,5 @@
 ---
-title: "#193 Writing Regularly - Thursday, 25th August 2022"
+title: "#193 Writing Regularly"
 layout: "daily-theme"
 date: 2022-08-25T21:01:41+05:30
 draft: false

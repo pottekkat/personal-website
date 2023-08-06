@@ -1,5 +1,5 @@
 ---
-title: "#25 Sanju, Basil and Risks - Wednesday, 26th January 2022"
+title: "#25 Sanju, Basil and Risks"
 layout: "daily-theme"
 date: 2022-01-26T19:16:55+05:30
 draft: false

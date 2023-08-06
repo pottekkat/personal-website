@@ -1,5 +1,5 @@
 ---
-title: "#121 Hard Work and Hustle - Thursday, 5th May 2022"
+title: "#121 Hard Work and Hustle"
 layout: "daily-theme"
 date: 2022-05-05T11:51:18+05:30
 draft: false
