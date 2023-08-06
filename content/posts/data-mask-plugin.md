@@ -156,7 +156,7 @@ We have now decided what the plugin's functionality would look like and added so
 
 We will first modify the `_M.header_filter` function, which is called before the response header is sent to the client. But why are we changing this? Isn't our plugin supposed to modify the response body?
 
-Well, yes. But when we modify the data in the response body (from `2378-4531-5789-1369` to `2378-\***\*-\*\***-1369`), the `Content-Length` header will no longer be accurate. This can cause the client to interpret that the data returned by the server is abnormal and fail to complete the request.
+Well, yes. But when we modify the data in the response body (from `2378-4531-5789-1369` to `2378-****-****-1369`), the `Content-Length` header will no longer be accurate. This can cause the client to interpret that the data returned by the server is abnormal and fail to complete the request.
 
 Since we haven't modified the request body yet, we cannot calculate the new, accurate value for the `Content-Length` header.  So we need to delete this header value, modify the response body, recalculate the new header value, and set it to the response. To do this in a single sweep, APISIX provides the `core.response.clear_header_as_body_modified` function:
 
