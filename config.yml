@@ -45,7 +45,7 @@ params:
     disableThemeToggle: true
 
     mainSections: ['posts']
-
+    dailySections: ['daily']
     mermaid:
       theme: "dark"
       align: "center"
