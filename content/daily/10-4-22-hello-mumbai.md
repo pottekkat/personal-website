@@ -1,5 +1,5 @@
 ---
-title: "#97 Hello Mumbai! - Sunday, 10th April 2022"
+title: "#97 Hello Mumbai!"
 layout: "daily-theme"
 date: 2022-04-10T19:25:16+05:30
 draft: false

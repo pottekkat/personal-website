@@ -1,5 +1,5 @@
 ---
-title: "#182 Diagrams in My New Blog - Saturday, 13th August 2022"
+title: "#182 Diagrams in My New Blog"
 layout: "daily-theme"
 date: 2022-08-13T22:00:32+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#122 Just Wordle (Idea Stew) - Friday, 6th May 2022"
+title: "#122 Just Wordle (Idea Stew)"
 layout: "daily-theme"
 date: 2022-05-06T11:32:54+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#67 Wordle Only, Too Lazy - Friday, 11th March 2022"
+title: "#67 Wordle Only, Too Lazy"
 layout: "daily-theme"
 date: 2022-03-11T21:27:04+05:30
 draft: false

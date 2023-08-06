@@ -1,5 +1,5 @@
 ---
-title: "#68 Codebar Festival - Saturday, 12th March 2022"
+title: "#68 Codebar Festival"
 layout: "daily-theme"
 date: 2022-03-12T14:31:23+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#129 Three Seasons of Football - Friday, 13th May 2022"
+title: "#129 Three Seasons of Football"
 layout: "daily-theme"
 date: 2022-05-13T19:55:08+05:30
 draft: false

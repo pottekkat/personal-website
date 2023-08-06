@@ -1,5 +1,5 @@
 ---
-title: "#11 What Matters - Monday, 10th January 2022"
+title: "#11 What Matters"
 layout: "daily-theme"
 date: 2022-01-10T22:34:34+05:30
 draft: false

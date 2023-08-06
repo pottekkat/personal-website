@@ -1,5 +1,5 @@
 ---
-title: "#118 Working for Fun - Monday, 2nd May 2022"
+title: "#118 Working for Fun"
 layout: "daily-theme"
 date: 2022-05-02T14:40:59+05:30
 draft: false

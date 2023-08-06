@@ -1,5 +1,5 @@
 ---
-title: "#189 Incentivization - Saturday, 20th August"
+title: "#189 Incentivization"
 layout: "daily-theme"
 date: 2022-08-20T22:39:32+05:30
 draft: false

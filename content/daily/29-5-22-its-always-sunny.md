@@ -1,5 +1,5 @@
 ---
-title: "#142 It's Always Sunny - Sunday, 29th May 2022"
+title: "#142 It's Always Sunny"
 layout: "daily-theme"
 date: 2022-05-29T23:45:51+05:30
 draft: false

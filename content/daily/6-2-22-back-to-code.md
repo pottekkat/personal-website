@@ -1,5 +1,5 @@
 ---
-title: "#35 Back to Code - Sunday, 6th February 2022"
+title: "#35 Back to Code"
 layout: "daily-theme"
 date: 2022-02-06T19:53:39+05:30
 draft: false

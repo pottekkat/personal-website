@@ -1,5 +1,5 @@
 ---
-title: "#234 What's the Best Beer? - Tuesday, 10th January 2023"
+title: "#234 What's the Best Beer?"
 layout: "daily-theme"
 date: 2023-01-10T23:32:14+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#65 I Received My Writers Copy - Wednesday, 9th March 2022"
+title: "#65 I Received My Writers Copy"
 layout: "daily-theme"
 date: 2022-03-09T18:10:34+05:30
 draft: false

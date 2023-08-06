@@ -1,5 +1,5 @@
 ---
-title: "#156 Race Day - Sunday, 12th June 2022"
+title: "#156 Race Day"
 layout: "daily-theme"
 date: 2022-06-12T22:43:11+05:30
 draft: false

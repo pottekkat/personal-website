@@ -1,5 +1,5 @@
 ---
-title: "#155 Open Source Workshop - Saturday, 11th June 2022"
+title: "#155 Open Source Workshop"
 layout: "daily-theme"
 date: 2022-06-11T21:09:51+05:30
 draft: false

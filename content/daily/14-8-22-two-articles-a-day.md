@@ -1,5 +1,5 @@
 ---
-title: "#183 Two Articles a Day - Sunday, 14th August 2022"
+title: "#183 Two Articles a Day"
 layout: "daily-theme"
 date: 2022-08-14T23:22:14+05:30
 draft: false

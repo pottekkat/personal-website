@@ -1,5 +1,5 @@
 ---
-title: "#147 Vikram - Friday, 3rd June 2022"
+title: "#147 Vikram"
 layout: "daily-theme"
 date: 2022-06-03T21:56:47+05:30
 draft: false

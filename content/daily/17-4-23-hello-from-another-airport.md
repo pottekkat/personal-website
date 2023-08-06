@@ -1,5 +1,5 @@
 ---
-title: "#263 Hello From Another Airport - Monday, 17th April 2023"
+title: "#263 Hello From Another Airport"
 layout: "daily-theme"
 date: 2023-04-17T15:54:25+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#214 New Drafts - Wednesday, 12th October 2022"
+title: "#214 New Drafts"
 layout: "daily-theme"
 date: 2022-10-12T22:19:27+05:30
 draft: false

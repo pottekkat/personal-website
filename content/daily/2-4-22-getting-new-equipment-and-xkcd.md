@@ -1,5 +1,5 @@
 ---
-title: "#89 Getting New Equipment and XKCD - Saturday, 2nd April 2022"
+title: "#89 Getting New Equipment and XKCD"
 layout: "daily-theme"
 date: 2022-04-02T12:26:44+05:30
 draft: false

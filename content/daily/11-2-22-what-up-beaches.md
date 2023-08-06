@@ -1,5 +1,5 @@
 ---
-title: "#40 What Up Beaches? - Friday, 11th February 2022"
+title: "#40 What Up Beaches?"
 layout: "daily-theme"
 date: 2022-02-11T13:39:16+05:30
 draft: false

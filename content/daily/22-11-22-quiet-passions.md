@@ -1,5 +1,5 @@
 ---
-title: "#228 Quiet Passions - Tuesday, 22nd November 2022"
+title: "#228 Quiet Passions"
 layout: "daily-theme"
 date: 2022-11-22T20:24:06+05:30
 draft: false

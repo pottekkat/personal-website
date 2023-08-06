@@ -1,5 +1,5 @@
 ---
-title: "#70 Stepping Down From a Maintainer - Monday, 14th March 2022"
+title: "#70 Stepping Down From a Maintainer"
 layout: "daily-theme"
 date: 2022-03-14T18:14:29+05:30
 draft: false

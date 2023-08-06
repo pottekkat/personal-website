@@ -1,5 +1,5 @@
 ---
-title: "#140 Can't Find Video Games - Friday, 27th May 2022"
+title: "#140 Can't Find Video Games"
 layout: "daily-theme"
 date: 2022-05-27T19:59:33+05:30
 draft: false

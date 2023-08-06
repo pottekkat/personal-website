@@ -1,5 +1,5 @@
 ---
-title: "#5 Word Embeddings and Swiss Army Knives - Tuesday, 4th January 2022"
+title: "#5 Word Embeddings and Swiss Army Knives"
 layout: "daily-theme"
 date: 2022-01-04T10:36:58+05:30
 draft: false

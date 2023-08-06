@@ -1,5 +1,5 @@
 ---
-title: "#84 Back on Twitter - Monday, 28th March 2022"
+title: "#84 Back on Twitter"
 layout: "daily-theme"
 date: 2022-03-28T10:40:35+05:30
 draft: false

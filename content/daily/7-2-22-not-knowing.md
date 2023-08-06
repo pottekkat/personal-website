@@ -1,5 +1,5 @@
 ---
-title: "#36 Not Knowing - Monday, 7th February 2022"
+title: "#36 Not Knowing"
 layout: "daily-theme"
 date: 2022-02-07T20:20:20+05:30
 draft: false

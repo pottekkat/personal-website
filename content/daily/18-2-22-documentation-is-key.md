@@ -1,5 +1,5 @@
 ---
-title: "#46 Documentation is Key - Friday, 18th February 2022"
+title: "#46 Documentation is Key"
 layout: "daily-theme"
 date: 2022-02-18T18:19:39+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#48 Selling Yourself - Sunday, 20th February 2022"
+title: "#48 Selling Yourself"
 layout: "daily-theme"
 date: 2022-02-20T21:19:29+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#34 Winner Takes All - Friday, 4th February 2022"
+title: "#34 Winner Takes All"
 layout: "daily-theme"
 date: 2022-02-04T20:12:24+05:30
 draft: false

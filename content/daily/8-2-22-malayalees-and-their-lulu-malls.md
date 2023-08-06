@@ -1,5 +1,5 @@
 ---
-title: "#37 Malayalees and Their LuLu Malls - Tuesday, 8th February 2022"
+title: "#37 Malayalees and Their LuLu Malls"
 layout: "daily-theme"
 date: 2022-02-08T20:44:15+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#158 Busy Week Starts - Tuesday, 14th June 2022"
+title: "#158 Busy Week Starts"
 layout: "daily-theme"
 date: 2022-06-14T07:56:41+05:30
 draft: false

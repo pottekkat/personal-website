@@ -1,5 +1,5 @@
 ---
-title: "#51 Fighting a Different Fight - Wednesday, 23rd February 2022"
+title: "#51 Fighting a Different Fight"
 layout: "daily-theme"
 date: 2022-02-23T14:31:20+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#196 Opinions About the Metaverse - Monday, 29th August 2022"
+title: "#196 Opinions About the Metaverse"
 layout: "daily-theme"
 date: 2022-08-29T11:33:40+05:30
 draft: false

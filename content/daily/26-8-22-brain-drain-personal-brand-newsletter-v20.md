@@ -1,5 +1,5 @@
 ---
-title: "#194 Brain Drain, Personal Brand, Newsletter v2.0 - Friday, 26th August 2022"
+title: "#194 Brain Drain, Personal Brand, Newsletter v2.0"
 layout: "daily-theme"
 date: 2022-08-26T22:14:59+05:30
 draft: false

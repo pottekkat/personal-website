@@ -1,5 +1,5 @@
 ---
-title: "#258 What Drives You? - Sunday, 9th April 2023"
+title: "#258 What Drives You?"
 layout: "daily-theme"
 date: 2023-04-09T20:04:51+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#90 It Works! - Sunday, 3rd April 2022"
+title: "#90 It Works!"
 layout: "daily-theme"
 date: 2022-04-03T13:21:36+05:30
 draft: false

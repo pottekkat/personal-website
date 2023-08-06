@@ -1,5 +1,5 @@
 ---
-title: "#173 ClueCon Weekly - Thursday, 4th August 2022"
+title: "#173 ClueCon Weekly"
 layout: "daily-theme"
 date: 2022-08-04T19:49:55+05:30
 draft: false

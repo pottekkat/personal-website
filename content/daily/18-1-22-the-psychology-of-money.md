@@ -1,5 +1,5 @@
 ---
-title: "#17 The Psychology of Money - Tuesday, 18th January 2022"
+title: "#17 The Psychology of Money"
 layout: "daily-theme"
 date: 2022-01-18T19:53:18+05:30
 draft: false

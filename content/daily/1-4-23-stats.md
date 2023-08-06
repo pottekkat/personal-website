@@ -1,5 +1,5 @@
 ---
-title: "#253 /stats - Saturday, 1st April 2023"
+title: "#253 /stats"
 layout: "daily-theme"
 date: 2023-04-01T23:43:54+05:30
 draft: false

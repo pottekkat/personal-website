@@ -1,5 +1,5 @@
 ---
-title: "#248 To MumbaiFOSS - Friday, 10th March 2023"
+title: "#248 To MumbaiFOSS"
 layout: "daily-theme"
 date: 2023-03-10T14:07:17+05:30
 draft: false

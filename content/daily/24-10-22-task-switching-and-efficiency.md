@@ -1,5 +1,5 @@
 ---
-title: "#217 Task Switching and Efficiency - Monday, 24th October 2022"
+title: "#217 Task Switching and Efficiency"
 layout: "daily-theme"
 date: 2022-10-24T18:53:15+05:30
 draft: false

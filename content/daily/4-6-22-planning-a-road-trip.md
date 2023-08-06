@@ -1,5 +1,5 @@
 ---
-title: "#148 Planning a Road Trip - Saturday, 4th June 2022"
+title: "#148 Planning a Road Trip"
 layout: "daily-theme"
 date: 2022-06-04T19:30:45+05:30
 draft: false

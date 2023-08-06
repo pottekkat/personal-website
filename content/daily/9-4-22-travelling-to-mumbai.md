@@ -1,5 +1,5 @@
 ---
-title: "#96 Travelling to Mumbai - Saturday, 9th April 2022"
+title: "#96 Travelling to Mumbai"
 layout: "daily-theme"
 date: 2022-04-09T17:35:36+05:30
 draft: false

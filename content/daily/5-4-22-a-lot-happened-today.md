@@ -1,5 +1,5 @@
 ---
-title: "#92 A Lot Happened Today - Tuesday, 5th April 2022"
+title: "#92 A Lot Happened Today"
 layout: "daily-theme"
 date: 2022-04-05T17:47:01+05:30
 draft: false

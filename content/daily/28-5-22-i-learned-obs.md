@@ -1,5 +1,5 @@
 ---
-title: "#141 I Learned OBS - Saturday, 28th May 2022"
+title: "#141 I Learned OBS"
 layout: "daily-theme"
 date: 2022-05-28T19:42:26+05:30
 draft: false

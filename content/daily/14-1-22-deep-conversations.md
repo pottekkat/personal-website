@@ -1,5 +1,5 @@
 ---
-title: "#13 Deep Conversations - Friday, 14th January 2022"
+title: "#13 Deep Conversations"
 layout: "daily-theme"
 date: 2022-01-14T19:21:50+05:30
 draft: false

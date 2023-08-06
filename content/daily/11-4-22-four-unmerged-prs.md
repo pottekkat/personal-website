@@ -1,5 +1,5 @@
 ---
-title: "#98 Four Unmerged PRs - Monday, 11th April 2022"
+title: "#98 Four Unmerged PRs"
 layout: "daily-theme"
 date: 2022-04-11T20:31:21+05:30
 draft: false

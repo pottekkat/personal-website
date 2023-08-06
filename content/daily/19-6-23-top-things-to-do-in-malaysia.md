@@ -1,5 +1,5 @@
 ---
-title: "#267 Top Things to Do in Malaysia - Monday, 19th June 2023"
+title: "#267 Top Things to Do in Malaysia"
 layout: "daily-theme"
 date: 2023-06-19T19:25:42+05:30
 draft: false

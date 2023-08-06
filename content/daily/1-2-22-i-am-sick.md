@@ -1,5 +1,5 @@
 ---
-title: "#31 I'm Sick - Tuesday, 1st February 2022"
+title: "#31 I'm Sick"
 layout: "daily-theme"
 date: 2022-02-01T09:33:10+05:30
 draft: false

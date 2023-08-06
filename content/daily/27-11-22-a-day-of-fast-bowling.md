@@ -1,5 +1,5 @@
 ---
-title: "#229 A Day of Fast Bowling - Sunday, 27th November 2022"
+title: "#229 A Day of Fast Bowling"
 layout: "daily-theme"
 date: 2022-11-27T20:40:44+05:30
 draft: false

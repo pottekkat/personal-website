@@ -1,5 +1,5 @@
 ---
-title: "#128 The Talk - Thursday, 12th May 2022"
+title: "#128 The Talk"
 layout: "daily-theme"
 date: 2022-05-12T19:18:22+05:30
 draft: false
