@@ -146,7 +146,7 @@ menu:
           weight: 30
         - identifier: daily
           name: Daily Logs
-          url: /categories/daily-dose-of-pottekkat/
+          url: /dailies/
           weight: 40
         - identifier: about
           name: About
