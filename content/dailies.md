@@ -15,4 +15,4 @@ Welcome to my daily logs! Here are a few notes (warnings) before you scroll down
 5. Please don't read these.
 6. If you ignored the last two warnings, you better [subscribe to this via RSS](/categories/daily-dose-of-pottekkat/index.xml).
 
-On a positive note, there are photos in some of these.
+On a positive note, there are photos in some of these!
