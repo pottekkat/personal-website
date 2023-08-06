@@ -1,5 +1,5 @@
 ---
-title: "#259 Airport Logs - Tuesday, 11th April 2023"
+title: "#259 Airport Logs"
 layout: "daily-theme"
 date: 2023-04-11T19:19:15+05:30
 draft: false

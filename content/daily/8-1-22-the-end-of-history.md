@@ -1,5 +1,5 @@
 ---
-title: "#9 The End of History - Saturday, 8th January 2022"
+title: "#9 The End of History"
 layout: "daily-theme"
 date: 2022-01-08T14:22:02+05:30
 draft: false

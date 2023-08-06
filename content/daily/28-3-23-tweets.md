@@ -1,5 +1,5 @@
 ---
-title: "#252 Tweets - Tuesday, 28th March 2023"
+title: "#252 Tweets"
 layout: "daily-theme"
 date: 2023-03-28T22:43:31+05:30
 draft: false

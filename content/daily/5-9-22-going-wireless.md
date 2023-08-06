@@ -1,5 +1,5 @@
 ---
-title: "#203 Going Wireless - Monday, 5th September 2022"
+title: "#203 Going Wireless"
 layout: "daily-theme"
 date: 2022-09-05T23:27:16+05:30
 draft: false

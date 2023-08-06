@@ -1,5 +1,5 @@
 ---
-title: "#108 One Month at New Job - Thursday, 21st April 2022"
+title: "#108 One Month at New Job"
 layout: "daily-theme"
 date: 2022-04-21T19:29:38+05:30
 draft: false

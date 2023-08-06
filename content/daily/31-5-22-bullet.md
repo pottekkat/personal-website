@@ -1,5 +1,5 @@
 ---
-title: "#144 Bullet - Tuesday, 31st May 2022"
+title: "#144 Bullet"
 layout: "daily-theme"
 date: 2022-05-31T19:15:05+05:30
 draft: false

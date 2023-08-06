@@ -1,5 +1,5 @@
 ---
-title: "#44 Photographs and Memories - Wednesday, 16th February 2022"
+title: "#44 Photographs and Memories"
 layout: "daily-theme"
 date: 2022-02-16T22:59:40+05:30
 draft: false

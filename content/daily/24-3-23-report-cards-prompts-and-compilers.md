@@ -1,5 +1,5 @@
 ---
-title: "#249 Report Cards, Prompts, and Compilers - Friday, 24th March 2023"
+title: "#249 Report Cards, Prompts, and Compilers"
 layout: "daily-theme"
 date: 2023-03-24T18:02:59+05:30
 draft: false

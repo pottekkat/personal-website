@@ -1,5 +1,5 @@
 ---
-title: "#32 Wordle and Building Side Projects - Wednesday, 2nd February 2022"
+title: "#32 Wordle and Building Side Projects"
 layout: "daily-theme"
 date: 2022-02-02T16:33:05+05:30
 draft: false

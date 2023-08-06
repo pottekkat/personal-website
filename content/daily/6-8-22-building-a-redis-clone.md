@@ -1,5 +1,5 @@
 ---
-title: "#175 Building a Redis Clone - Saturday, 6th August 2022"
+title: "#175 Building a Redis Clone"
 layout: "daily-theme"
 date: 2022-08-06T20:57:19+05:30
 draft: false

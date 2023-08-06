@@ -1,5 +1,5 @@
 ---
-title: "#220 Buying Raspberry Pis - Thursday, 3rd November 2022"
+title: "#220 Buying Raspberry Pis"
 layout: "daily-theme"
 date: 2022-11-03T18:55:00+05:30
 draft: false

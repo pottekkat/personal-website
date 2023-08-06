@@ -1,5 +1,5 @@
 ---
-title: "#28 DevConf.CZ - Saturday, 29th January 2022"
+title: "#28 DevConf.CZ"
 layout: "daily-theme"
 date: 2022-01-29T08:34:43+05:30
 draft: false

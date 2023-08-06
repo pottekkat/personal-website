@@ -1,5 +1,5 @@
 ---
-title: "#102 Waiting for Visa - Friday, 15th April 2022"
+title: "#102 Waiting for Visa"
 layout: "daily-theme"
 date: 2022-04-15T19:53:22+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#243 \"Garden City\" Is an Accurate Description - Sunday, 12th February 2023"
+title: "#243 \"Garden City\" Is an Accurate Description"
 layout: "daily-theme"
 date: 2023-02-12T14:04:49+08:00
 draft: false

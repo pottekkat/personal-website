@@ -1,5 +1,5 @@
 ---
-title: "#130 All About the Bass - Saturday, 14th May 2022"
+title: "#130 All About the Bass"
 layout: "daily-theme"
 date: 2022-05-14T19:51:37+05:30
 draft: false

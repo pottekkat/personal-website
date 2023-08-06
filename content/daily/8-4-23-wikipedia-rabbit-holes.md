@@ -1,5 +1,5 @@
 ---
-title: "#257 Wikipedia Rabbit Holes - Saturday, 8th April 2023"
+title: "#257 Wikipedia Rabbit Holes"
 layout: "daily-theme"
 date: 2023-04-08T19:05:49+05:30
 draft: false

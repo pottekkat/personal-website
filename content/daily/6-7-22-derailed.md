@@ -1,5 +1,5 @@
 ---
-title: "#162 Derailed - Wednesday, 6th July 2022"
+title: "#162 Derailed"
 layout: "daily-theme"
 date: 2022-07-06T21:48:37+05:30
 draft: false

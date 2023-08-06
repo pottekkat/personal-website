@@ -1,5 +1,5 @@
 ---
-title: "#117 More Proposals - Sunday, 1st May 2022"
+title: "#117 More Proposals"
 layout: "daily-theme"
 date: 2022-05-01T19:15:39+05:30
 draft: false

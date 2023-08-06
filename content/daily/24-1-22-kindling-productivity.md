@@ -1,5 +1,5 @@
 ---
-title: "#23 Kindling Productivity - Monday, 24th January 2022"
+title: "#23 Kindling Productivity"
 layout: "daily-theme"
 date: 2022-01-24T23:49:09+05:30
 draft: false

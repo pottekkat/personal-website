@@ -1,5 +1,5 @@
 ---
-title: "#62 Batman - Sunday, 6th March 2022"
+title: "#62 Batman"
 layout: "daily-theme"
 date: 2022-03-06T10:27:55+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#239 Movie Marathon-ish - Sunday, 5th February 2023"
+title: "#239 Movie Marathon-ish"
 layout: "daily-theme"
 date: 2023-02-05T22:01:46+05:30
 draft: false

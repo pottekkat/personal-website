@@ -1,5 +1,5 @@
 ---
-title: "#107 I Can't Afford Formula 1 - Wednesday, 20th April 2022"
+title: "#107 I Can't Afford Formula 1"
 layout: "daily-theme"
 date: 2022-04-20T22:09:08+05:30
 draft: false

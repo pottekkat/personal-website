@@ -1,5 +1,5 @@
 ---
-title: "#120 Ownership - Wednesday, 4th May 2022"
+title: "#120 Ownership"
 layout: "daily-theme"
 date: 2022-05-04T19:57:15+05:30
 draft: false

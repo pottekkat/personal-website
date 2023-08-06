@@ -1,5 +1,5 @@
 ---
-title: "#83 Sunday Funday - Sunday, 27th March 2022"
+title: "#83 Sunday Funday"
 layout: "daily-theme"
 date: 2022-03-27T17:47:47+05:30
 draft: false

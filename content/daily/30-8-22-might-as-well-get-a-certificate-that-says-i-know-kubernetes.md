@@ -1,5 +1,5 @@
 ---
-title: "#197 Might as Well Get a Certificate That Says I Know Kubernetes - Tuesday, 30th August 2022"
+title: "#197 Might as Well Get a Certificate That Says I Know Kubernetes"
 layout: "daily-theme"
 date: 2022-08-30T21:26:29+05:30
 draft: false

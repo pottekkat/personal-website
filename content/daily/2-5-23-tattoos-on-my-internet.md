@@ -1,5 +1,5 @@
 ---
-title: "#264 Tattoos on My Internet - Tuesday, 2nd May 2023"
+title: "#264 Tattoos on My Internet"
 layout: "daily-theme"
 date: 2023-05-02T17:30:47+05:30
 draft: false

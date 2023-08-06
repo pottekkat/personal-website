@@ -1,5 +1,5 @@
 ---
-title: "#52 What Good Is Saved Time if Nobody Uses It? - Thursday, 24th February 2022"
+title: "#52 What Good Is Saved Time if Nobody Uses It?"
 layout: "daily-theme"
 date: 2022-02-24T8:54:29+05:30
 draft: false

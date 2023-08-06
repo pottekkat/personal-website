@@ -1,5 +1,5 @@
 ---
-title: "#112 Eliciting Conference Talks From Users - Tuesday, 26th April 2022"
+title: "#112 Eliciting Conference Talks From Users"
 layout: "daily-theme"
 date: 2022-04-26T21:53:21+05:30
 draft: false

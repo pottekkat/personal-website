@@ -1,5 +1,5 @@
 ---
-title: "#111 Getting Started - Monday, 25th April 2022"
+title: "#111 Getting Started"
 layout: "daily-theme"
 date: 2022-04-25T19:41:15+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#157 Test Ride - Monday, 13th June 2022"
+title: "#157 Test Ride"
 layout: "daily-theme"
 date: 2022-06-13T16:12:32+05:30
 draft: false

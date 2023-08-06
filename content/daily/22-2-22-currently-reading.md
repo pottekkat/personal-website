@@ -1,5 +1,5 @@
 ---
-title: "#50 Currently Reading - Tuesday, 22nd February 2022"
+title: "#50 Currently Reading"
 layout: "daily-theme"
 date: 2022-02-22T16:38:16+05:30
 draft: false

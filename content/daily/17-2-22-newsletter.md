@@ -1,5 +1,5 @@
 ---
-title: "#45 Newsletter - Thursday, 17th February 2022"
+title: "#45 Newsletter"
 layout: "daily-theme"
 date: 2022-02-17T17:29:09+05:30
 draft: false

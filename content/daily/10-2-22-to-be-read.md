@@ -1,5 +1,5 @@
 ---
-title: "#39 To Be Read - Thursday, 10th February 2022"
+title: "#39 To Be Read"
 layout: "daily-theme"
 date: 2022-02-10T10:13:34+05:30
 draft: false

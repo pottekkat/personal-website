@@ -1,5 +1,5 @@
 ---
-title: "#95 Growing \"to be read\" Pile - Friday, 8th April 2022"
+title: "#95 Growing \"to be read\" Pile"
 layout: "daily-theme"
 date: 2022-04-08T18:40:39+05:30
 draft: false

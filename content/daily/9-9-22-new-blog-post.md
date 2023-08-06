@@ -1,5 +1,5 @@
 ---
-title: "#206 New Blog Post - Friday, 9th September 2022"
+title: "#206 New Blog Post"
 layout: "daily-theme"
 date: 2022-09-09T22:08:21+05:30
 draft: false

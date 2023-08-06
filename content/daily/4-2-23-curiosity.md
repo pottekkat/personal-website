@@ -1,5 +1,5 @@
 ---
-title: "#238 Curiosity - Saturday, 4th February 2023"
+title: "#238 Curiosity"
 layout: "daily-theme"
 date: 2023-02-04T20:36:10+05:30
 draft: false

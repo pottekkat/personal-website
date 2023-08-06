@@ -1,5 +1,5 @@
 ---
-title: "#38 Back to Twitter - Wednesday, 9th February 2022"
+title: "#38 Back to Twitter"
 layout: "daily-theme"
 date: 2022-02-09T12:37:48+05:30
 draft: false

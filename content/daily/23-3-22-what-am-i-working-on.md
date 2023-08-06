@@ -1,5 +1,5 @@
 ---
-title: "#79 What Am I Working On? - Wednesday, 23rd March 2022"
+title: "#79 What Am I Working On?"
 layout: "daily-theme"
 date: 2022-03-23T19:27:42+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#266 KCD Mumbai - Saturday, 17th June 2023"
+title: "#266 KCD Mumbai"
 layout: "daily-theme"
 date: 2023-06-17T15:30:51+05:30
 draft: false

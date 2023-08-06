@@ -1,5 +1,5 @@
 ---
-title: "#60 A Day Off - Friday, 4th March 2022"
+title: "#60 A Day Off"
 layout: "daily-theme"
 date: 2022-03-04T18:15:40+05:30
 draft: false

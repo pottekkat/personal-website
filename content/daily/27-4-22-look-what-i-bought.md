@@ -1,5 +1,5 @@
 ---
-title: "#113 Look What I Bought - Wednesday, 27th April 2022"
+title: "#113 Look What I Bought"
 layout: "daily-theme"
 date: 2022-04-27T19:22:58+05:30
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "#56 Times Like These - Monday, 28th February 2022"
+title: "#56 Times Like These"
 layout: "daily-theme"
 date: 2022-02-28T18:57:16+05:30
 draft: false
