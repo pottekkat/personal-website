@@ -1,7 +1,7 @@
 {{- $.Scratch.Add "index" slice -}}
 {{- range .Site.RegularPages -}}
-    {{- if and (not .Params.searchHidden) (ne .Layout `archives`) (ne .Layout `dailies`) (ne .Layout `stats`) (ne .Layout `about`) (ne .Layout `search`) (ne .Layout `subscribe`) (ne .Layout `daily-theme`) }}
-    {{- $.Scratch.Add "index" (dict "title" .Title "content" .Plain "permalink" .Permalink "summary" .Summary) -}}
+    {{- if and (not .Params.searchHidden) (ne .Layout `archives`) (ne .Layout `dailies`) (ne .Layout `stats`) (ne .Layout `about`) (ne .Layout `search`) (ne .Layout `subscribe`) }}
+    {{- $.Scratch.Add "index" (dict "title" .Title "content" .Plain "permalink" .Permalink "summary" .Summary "categories" .Params.categories) -}}
     {{- end }}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}

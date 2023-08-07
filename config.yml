@@ -133,6 +133,7 @@ params:
         distance: 1000
         threshold: 0.1
         minMatchCharLength: 0
+        limit: 5
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
