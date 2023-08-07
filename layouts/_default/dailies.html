@@ -22,6 +22,12 @@
 </div>
 </article>
 
+<div id="searchbox">
+  <input id="searchInput" autofocus placeholder="{{ .Params.placeholder | default (printf "Search ↵") }}"
+      aria-label="search" type="search" autocomplete="off" data-show-only="Daily Dose of Pottekkat">
+  <ul id="searchResults" aria-label="search results"></ul>
+</div>
+
 {{- $pages := where site.RegularPages "Type" "in" site.Params.dailySections }}
 
 {{- if site.Params.ShowAllPagesInArchive }}
