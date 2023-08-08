@@ -134,7 +134,7 @@ params:
         threshold: 0.1
         minMatchCharLength: 0
         limit: 5
-        keys: ["title", "permalink", "summary", "content"]
+        keys: ["title", "permalink", "summary", "content", "categories"]
 menu:
     main:
         - identifier: archives
