@@ -12,7 +12,13 @@ jobs:
     steps:
 
       - name: install gdal
-        run: brew install gdal@3.6.4
+        run: |
+          wget https://github.com/OSGeo/gdal/archive/refs/tags/v3.6.4.tar.gz -O gdal.tar.gz
+          tar -xzf gdal.tar.gz
+          cd gdal-3.6.4
+          ./configure
+          make
+          make install
 
       - name: get current date and time
         run: echo "RUN=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
