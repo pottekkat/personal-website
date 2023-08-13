@@ -16,6 +16,8 @@ jobs:
           wget https://github.com/OSGeo/gdal/archive/refs/tags/v3.6.4.tar.gz -O gdal.tar.gz
           tar -xzf gdal.tar.gz
           cd gdal-3.6.4
+          pwd
+          ls
           ./configure
           make
           make install
