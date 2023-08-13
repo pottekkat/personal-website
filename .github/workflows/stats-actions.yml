@@ -12,13 +12,7 @@ jobs:
     steps:
 
       - name: install gdal
-        run: |
-          wget https://github.com/OSGeo/gdal/archive/refs/tags/v3.6.4.tar.gz -O gdal.tar.gz
-          tar -xzf gdal.tar.gz
-          cd gdal-3.6.4
-          cmake ../gdal-3.6.4
-          make
-          make install
+        run: brew install gdal
 
       - name: get current date and time
         run: echo "RUN=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
@@ -34,7 +28,7 @@ jobs:
       - name: install python packages
         run: |
           python -m pip install --upgrade pip
-          pip install gdal==$(gdal-config --version)
+          pip install gdal==3.6.4
           pip install -r ./.github/requirements.txt
           
       - name: execute python script
