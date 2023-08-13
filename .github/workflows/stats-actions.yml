@@ -12,7 +12,7 @@ jobs:
     steps:
 
       - name: install gdal
-        run: brew install gdal@3.6.3
+        run: brew install gdal@3.6.4
 
       - name: get current date and time
         run: echo "RUN=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
