@@ -7,11 +7,11 @@ description: "What Navendu is doing now."
 
 Here's what I'm doing now.
 
-## Traveling to Singapore and Taiwan
+## Upcoming Travels
 
-I will travel to Singapore on 27th July 2023 to speak at the [DevOps Asia Summit](https://devopsasiasummit.com/). I will leave for Taipei to join [COSCUP](http://coscup.org/) on the 28th. I have yet to plan when I will return back from Taiwan.
+I will be in Surakarta for LibreOffice Conf. Asia and UbuCon Asia on October 7th and 8th. I plan to travel around Indonesia and try the digital nomad thing for a few weeks. Bali is definitely at the top of my list.
 
-Feel free to say hi if you are in any of these places. I promise I won't bite.
+Feel free to say hi if you are here. I promise I won't bite.
 
 ## Full-Time Job
 
