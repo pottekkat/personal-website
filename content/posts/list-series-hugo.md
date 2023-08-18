@@ -1,7 +1,7 @@
 ---
 title: "List Articles from a Series in Hugo"
-date: 2023-08-18T10:27:56+05:30
-draft: true
+date: 2023-08-18T17:59:56+05:30
+draft: false
 ShowToc: false
 ShowRelatedContent: true
 summary: "How I added a list of articles in the same series at the beginning of each post."
