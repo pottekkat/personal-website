@@ -395,7 +395,7 @@ plugins:
   - data-mask
 ```
 
-Note: The values in `plugins` in the `config.yaml` file override those in the `config-default.yaml` file. If you want to use other plugins, copy it to the `config.yaml` file.
+> **Note**: The values in `plugins` in the `config.yaml` file override those in the `config-default.yaml` file. If you want to use other plugins, copy it to the `config.yaml` file.
 
 Once you add it to the configuration file, you should be able to use the plugin on your routes.
 
