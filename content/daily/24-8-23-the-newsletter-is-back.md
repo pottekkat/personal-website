@@ -8,7 +8,7 @@ tags: ["daily log"]
 categories: ["Daily Dose of Pottekkat"]
 ---
 
-I sent out the last issue of my newsletter in May. It has been over three months since I wrote one of those for reasons you will find in the newsletter (subscribe now!).
+I sent out the last issue of my newsletter in May. It has been over three months since I wrote one of those for reasons you will find in the newsletter ([subscribe now!](/subscribe/)).
 
 But I am back now. And I plan to send out new issues every two weeks like before.
 
