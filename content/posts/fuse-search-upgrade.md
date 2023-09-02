@@ -1,7 +1,7 @@
 ---
 title: "Upgrading the Fuse.js Search Feature"
-date: 2023-09-01T09:48:36+05:30
-draft: true
+date: 2023-09-02T07:48:36+05:30
+draft: false
 ShowToc: false
 ShowRelatedContent: true
 summary: "Modifying some JavaScript code to add a search feature for the daily logs page."
