@@ -131,7 +131,7 @@ curl http://127.0.0.1:9180/apisix/admin/routes/2 -X PUT -d '
 
 ## Backwards Compatible APIs
 
-Multiple API versions can not always get you far and sometimes, change is inevitable. A strategy to make changes to your API without breaking your client applications is to ensure backwards compatibility. i.e., the interface between your clients and the API remains the same while your API changes.
+Multiple API versions cannot always get you far and sometimes, change is inevitable. A strategy to make changes to your API without breaking your client applications is to ensure backwards compatibility. i.e., the interface between your clients and the API remains the same while your API changes.
 
 For example, if you change your API endpoint (from `/old/api` to `/new/api`), an API gateway can redirect client requests to the new API endpoint without changes to the client applications.
 
