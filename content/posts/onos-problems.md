@@ -15,6 +15,8 @@ cover:
     relative: false
 ---
 
+> **Disclaimer**: I am still learning about public policy and base this blog post on my current understanding of the topic. I will continue improving this post as I learn more. Any feedback and corrections are welcome.
+
 The Indian government funds more than 50% of all scientific research in the country. However, 65% of scientific articles published by Indian researchers are still behind the paywalls of “prestigious” journals.
 
 Most of these “prestigious” journals work on subscription-based business models, and around ₹1500 crores is spent annually by Indian institutions to cover such subscription costs. If you are unaffiliated, it could cost you ₹2285 on average to access a single article from these journals.
