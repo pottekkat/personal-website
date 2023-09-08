@@ -1,9 +1,8 @@
 ---
 title: "One Nation, One Subscription, Many Problems"
 date: 2023-09-08T18:01:51+05:30
-draft: true
-ShowToc: true
-TocOpen: true
+draft: false
+ShowToc: false
 ShowRelatedContent: false
 summary: "Access to publicly funded scientific research should be ubiquitous. But the current plan to achieve this is far from ideal."
 tags: ["public policy", "government", "open access"]
