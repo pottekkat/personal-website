@@ -1,15 +1,15 @@
 direct_link_string: There is a lot of traffic from direct links. I should level up
   my link-tagging game.
-most_visitors_date: 5th August 2023
-most_visitors_visitors: 344
-runtime: 9:21 PM, 4th September 2023 (+0530)
+most_visitors_date: 14th August 2023
+most_visitors_visitors: 196
+runtime: 9:25 PM, 7th September 2023 (+0530)
 top_countries:
 - India
 - United States of America
 - Germany
-- France
-top_page_link: /posts/request-validation/
-top_page_visitors: 229
+- Nigeria
+top_page_link: /posts/gateway-vs-ingress-api/
+top_page_visitors: 48
 top_sources:
 - Google
 - Direct / None
