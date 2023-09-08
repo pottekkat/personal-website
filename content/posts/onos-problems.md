@@ -1,6 +1,6 @@
 ---
 title: "One Nation, One Subscription, Many Problems"
-date: 2023-09-08T18:01:51+05:30
+date: 2023-09-08T15:01:51+05:30
 draft: false
 ShowToc: false
 ShowRelatedContent: false
