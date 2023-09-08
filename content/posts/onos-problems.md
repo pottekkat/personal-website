@@ -25,7 +25,7 @@ However, India’s current policy solution, “One Nation, One Subscription (ONO
 
 Fundamentally, the ONOS scheme is myopic and fails to fix the root cause of the problem: researchers choosing to publish in subscription-based, “prestigious” journals. India would be better off addressing this root problem through long-term thinking instead of duct-tape fixes that could lead to unanticipated consequences.
 
-“One Nation, One Subscription” has everything you need for an excellent policy in its name. Credit to the policymakers! But reading through the proposal makes you wonder if the policymakers picked a catchy name and built a policy around it without actual analysis.
+“One Nation, One Subscription” is an excellent name for a policy. Credit to the policymakers! But reading through the proposal makes you wonder if the policymakers picked a catchy name and built a policy around it without actual analysis.
 
 Simply put, the ONOS scheme proposes negotiating with selected scientific journals to provide subscriptions for the whole country (if only it were Netflix subscriptions).
 
