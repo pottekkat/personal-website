@@ -15,6 +15,8 @@ cover:
     relative: false
 ---
 
+> **Disclaimer**: I am still learning about public policy and base this blog post on my current understanding of the topic. I will continue improving this post as I learn more. Any feedback and corrections are welcome.
+
 India is undoubtedly one of the biggest creators and adopters of artificial intelligence.
 
 The [AI Index Report by Stanford University](https://aiindex.stanford.edu/report/) estimates $3.24 billion in investments to AI startups in India in 2022. Although this is low compared to the $47.36 billion and $13.41 billion investments in the US and China, respectively, Indian investors have spent almost half the money they have spent in the last decade on AI startups in the previous year.
