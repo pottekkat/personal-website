@@ -92,7 +92,7 @@ curl http://127.0.0.1:9180/apisix/admin/routes/1 -X PUT -d '
       "api-v1:80": 1
     }
   }
-}
+}'
 ```
 
 ### In Query Parameters
@@ -353,7 +353,8 @@ curl http://127.0.0.1:9180/apisix/admin/routes/1 -X PUT -d '
 }'
 ```
 
-You can also set up A/B testing, a blue-green deployment with more emphasis on testing and experimentation than deploying new API versions.
+You can also set up A/B testing, a blue-green deployment with more emphasis on testing and experimentation than deploying new API versions. Bobur discusses some of these strategies in detail in [this article](https://api7.ai/blog/api-release-strategies-with-api-gateway).
+
 
 ## Feature Flags
 
