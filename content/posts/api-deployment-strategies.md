@@ -29,7 +29,7 @@ API gateways like APISIX can handle typical scenarios where your clients specify
 
 1. In URI path (`/v1/products` and `/v2/products`)
 2. In query parameters (`/products?version=v1` and `/products?version=v2`)
-3. In request headers (`/products -H 'version: v1'` and `/products -H 'version: v2'`)
+3. In custom request headers (`/products version: v1` and `/products version: v2`) or the `Accept` header (`/products Accept: application/vnd.shoppingapp.product.v1+json`)
 
 APISIX can then be configured to route these requests to the appropriate API version.
 
@@ -40,11 +40,16 @@ The example below shows how you can route traffic to different versions based on
 ```shell
 curl http://127.0.0.1:9180/apisix/admin/routes/1 -X PUT -d '
 {
-  "uri": "/v1/hello",
+  "uri": "/v1/products",
   "upstream": {
     "type": "roundrobin",
     "nodes": {
-      "v1:80": 1
+      "api-v1:80": 1
+    }
+  },
+  "plugins": {
+    "proxy-rewrite": {
+      "uri": "/products"
     }
   }
 }'
@@ -53,17 +58,42 @@ curl http://127.0.0.1:9180/apisix/admin/routes/1 -X PUT -d '
 ```shell
 curl http://127.0.0.1:9180/apisix/admin/routes/2 -X PUT -d '
 {
-  "uri": "/v2/hello",
+  "uri": "/v2/products",
   "upstream": {
     "type": "roundrobin",
     "nodes": {
-      "v2:80": 1
+      "api-v2:80": 1
+    }
+  },
+  "plugins": {
+    "proxy-rewrite": {
+      "uri": "/products"
     }
   }
 }'
 ```
 
-This configuration will route requests to path `/v1/hello` to the `v1` service and the requests to the `v2/hello` path to the `v2` service.
+This configuration will route requests to path `/v1/products` to the `v1` service and the requests to the `v2/products` path to the `v2` service.
+
+To forward requests to all paths to specific API versions, you can use regular expressions in your configuration:
+
+```shell
+curl http://127.0.0.1:9180/apisix/admin/routes/1 -X PUT -d '
+{
+  "uri": "/v1/*",
+  "plugins": {
+    "proxy-rewrite": {
+      "regex_uri": ["/v1/(.*)", "/$1"]
+    }
+  },
+  "upstream": {
+    "type": "roundrobin",
+    "nodes": {
+      "api-v1:80": 1
+    }
+  }
+}
+```
 
 ### In Query Parameters
 
@@ -72,12 +102,12 @@ Here, APISIX is configured to route traffic based on the version specified in th
 ```shell
 curl http://127.0.0.1:9180/apisix/admin/routes/1 -X PUT -d '
 {
-  "uri": "/hello",
+  "uri": "/products",
   "vars": [["arg_version", "==", "v1"]],
   "upstream": {
     "type": "roundrobin",
     "nodes": {
-      "V1:80": 1
+      "api-v1:80": 1
     }
   }
 }'
@@ -86,12 +116,12 @@ curl http://127.0.0.1:9180/apisix/admin/routes/1 -X PUT -d '
 ```shell
 curl http://127.0.0.1:9180/apisix/admin/routes/2 -X PUT -d '
 {
-  "uri": "/hello",
+  "uri": "/products",
   "vars": [["arg_version", "==", "v2"]],
   "upstream": {
     "type": "roundrobin",
     "nodes": {
-      "V2:80": 1
+      "api-v1:80": 1
     }
   }
 }'
@@ -104,12 +134,12 @@ Similar to routing based on query parameters, the below configuration routes req
 ```shell
 curl http://127.0.0.1:9180/apisix/admin/routes/1 -X PUT -d '
 {
-  "uri": "/hello",
+  "uri": "/products",
   "vars": [["http_version", "==", "v1"]],
   "upstream": {
     "type": "roundrobin",
     "nodes": {
-      "v1:80": 1
+      "api-v1:80": 1
     }
   }
 }'
@@ -118,12 +148,28 @@ curl http://127.0.0.1:9180/apisix/admin/routes/1 -X PUT -d '
 ```shell
 curl http://127.0.0.1:9180/apisix/admin/routes/2 -X PUT -d '
 {
-  "uri": "/hello",
+  "uri": "/products",
   "vars": [["http_version", "==", "v2"]],
   "upstream": {
     "type": "roundrobin",
     "nodes": {
-      "v2:80": 1
+      "api-v2:80": 1
+    }
+  }
+}'
+```
+
+If you are using the `Accept` header, you can use the configuration below:
+
+```shell
+curl http://127.0.0.1:9180/apisix/admin/routes/1 -X PUT -d '
+{
+  "uri": "/products",
+  "vars": [["http_accept", "==", "application/vnd.shoppingapp.product.v1+json"]],
+  "upstream": {
+    "type": "roundrobin",
+    "nodes": {
+      "api-v1:80": 1
     }
   }
 }'
@@ -140,15 +186,17 @@ APISIX implements this through the [redirect](https://apisix.apache.org/docs/api
 ```shell
 curl http://127.0.0.1:9180/apisix/admin/routes/1 -X PUT -d '
 {
-  "uri": "/old/api/hello",
+  "uri": "/old/api/products",
   "plugins": {
     "redirect": {
-      "uri": "/new/api/hello",
+      "uri": "/new/api/products",
       "ret_code": 301
     }
   }
 }'
 ```
+
+> **Note**: Client applications need to be configured to follow redirects for this configuration to work.
 
 There could be more complex scenarios where the client-API interface changes. For instance, if the new API expects the key `fullName` instead of `firstName` and `lastName`, clients sending requests in the old API format would break. APISIX can handle such scenarios through the [body-transformer](https://apisix.apache.org/docs/apisix/plugins/body-transformer/) plugin.
 
@@ -157,7 +205,7 @@ The example below shows how APISIX can transform the request body to make your A
 ```shell
 curl http://127.0.0.1:9180/apisix/admin/routes/1 -X PUT -d '
 {
-  "uri": "/hello",
+  "uri": "/login",
   "plugins": {
     "body-transformer": {
       "request": {
@@ -191,6 +239,8 @@ will be transformed to:
 }
 ```
 
+Similar transformations at the API gateway level should only be a temporary measure to ensure backwards compatibility as it could add costs in terms of latency or resource use.
+
 ## Shadow Deployments
 
 Shadow deployment is a strategy to test new APIs with production traffic. This idea stems from the fact that handwritten test cases might not always simulate every complex real-world scenario.
@@ -202,7 +252,7 @@ APISIX has a [proxy-mirror](https://apisix.apache.org/docs/apisix/plugins/proxy-
 ```shell
 curl http://127.0.0.1:9180/apisix/admin/routes/1 -X PUT -d '
 {
-  "uri": "/hello",
+  "uri": "/products",
   "plugins": {
     "proxy-mirror": {
       "host": "http://v2:80"
@@ -232,7 +282,7 @@ APISIX can achieve this routing through the [traffic-split](https://apisix.apach
 ```shell
 curl http://127.0.0.1:9180/apisix/admin/routes/1 -X PUT -d '
 {
-  "uri": "/hello",
+  "uri": "/products",
   "plugins": {
     "traffic-split": {
       "rules": [
@@ -270,7 +320,7 @@ There are similar strategies like blue-green deployments where half of the traff
 ```shell {hl_lines=["17", "20"]}
 curl http://127.0.0.1:9180/apisix/admin/routes/1 -X PUT -d '
 {
-  "uri": "/hello",
+  "uri": "/products",
   "plugins": {
     "traffic-split": {
       "rules": [
