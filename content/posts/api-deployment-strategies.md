@@ -121,7 +121,7 @@ curl http://127.0.0.1:9180/apisix/admin/routes/2 -X PUT -d '
   "upstream": {
     "type": "roundrobin",
     "nodes": {
-      "api-v1:80": 1
+      "api-v2:80": 1
     }
   }
 }'
