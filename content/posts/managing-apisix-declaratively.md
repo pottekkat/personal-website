@@ -102,7 +102,6 @@ services:
     hosts:
       - api7.ai
     upstream:
-      id: httpbin
       name: httpbin
       nodes:
         - host: httpbin.org
@@ -165,7 +164,6 @@ services:
     hosts:
       - api7.ai
     upstream:
-      id: httpbin
       name: httpbin
       nodes:
         - host: httpbin.org
