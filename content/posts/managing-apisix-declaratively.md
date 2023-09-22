@@ -1,7 +1,7 @@
 ---
 title: "Managing APISIX Declaratively with ADC"
 date: 2023-09-22T10:37:34+05:30
-draft: true
+draft: false
 ShowToc: true
 TocOpen: true
 ShowRelatedContent: true
