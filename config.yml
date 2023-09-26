@@ -89,26 +89,26 @@ params:
     socialIcons:
         - name: email
           url: "mailto:navendu@apache.org"
-        - name: telegram
-          url: "https://t.me/MayTheSourceBeWithYou"
+        # - name: telegram
+        #   url: "https://t.me/MayTheSourceBeWithYou"
         - name: github
-          url: "https://github.com/navendu-pottekkat"
+          url: "https://github.com/pottekkat"
         - name: linkedin
-          url: "https://www.linkedin.com/in/navendup/"
+          url: "https://www.linkedin.com/in/realPottekkat/"
         # - name: medium
-        #   url: "https://medium.com/@navendupottekkat"
+        #   url: "https://medium.com/@pottekkat"
         # - name: stackoverflow
         #   url: "https://stackoverflow.com/users/12424846/navendu-pottekkat"
         - name: twitter
-          url: "https://twitter.com/sudo_navendu"
-        - name: mastodon
-          url: "https://fosstodon.org/@sudo_navendu"
+          url: "https://twitter.com/realPottekkat"
+        # - name: mastodon
+        #   url: "https://fosstodon.org/@sudo_navendu"
         # - name: facebook
-        #   url: "https://www.facebook.com/navendupottekkat/"
+        #   url: "https://www.facebook.com/realPottekkat/"
         # - name: instagram
-        #   url: "https://www.instagram.com/sudo_navendu/"
+        #   url: "https://www.instagram.com/realPottekkat/"
         - name: youtube
-          url: "https://youtube.com/@sudo_navendu"
+          url: "https://youtube.com/@realPottekkat"
         # - name: goodreads
         #   url: "https://www.goodreads.com/user/show/83926433-navendu-pottekkat"
         - name: rss
@@ -120,7 +120,7 @@ params:
         hiddenInSingle: false # hide on single page
 
     editPost:
-        URL: "https://github.com/navendu-pottekkat/navendu-pottekkat.github.io/blob/hugo/content"
+        URL: "https://github.com/pottekkat/navendu-pottekkat.github.io/blob/hugo/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 

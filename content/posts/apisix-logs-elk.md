@@ -33,13 +33,13 @@ These tools can be used independently outside this particular stack but are tail
 
 Apache APISIX supports both these use cases out of the box through built-in plugins. This article will examine how you can configure these plugins in APISIX to work with the ELK stack. We will also look at how this system scales as applications get bigger.
 
-The complete configuration used in this article can be found in [this GitHub repository](https://github.com/navendu-pottekkat/elk-log-apisix).
+The complete configuration used in this article can be found in [this GitHub repository](https://github.com/pottekkat/elk-log-apisix).
 
 ## Forwarding Logs to Elasticsearch
 
 APISIX can directly forward logs to Elasticsearch through the [elasticsearch-logger](https://apisix.apache.org/docs/apisix/plugins/elasticsearch-logger/) plugin. For this example, we will deploy APISIX, Elasticsearch, and our upstream applications (two Nginx containers).
 
-{{< figure src="/images/apisix-logs-elk/apisix-elasticsearch.png#center" title="Sample system with two upstream services, APISIX, and Elasticsearch" caption="See [the GitHub repo](https://github.com/navendu-pottekkat/elk-log-apisix) for the complete Docker Compose file" link="/images/apisix-logs-elk/apisix-elasticsearch.png" target="_blank" class="align-center" >}}
+{{< figure src="/images/apisix-logs-elk/apisix-elasticsearch.png#center" title="Sample system with two upstream services, APISIX, and Elasticsearch" caption="See [the GitHub repo](https://github.com/pottekkat/elk-log-apisix) for the complete Docker Compose file" link="/images/apisix-logs-elk/apisix-elasticsearch.png" target="_blank" class="align-center" >}}
 
 The `elasticsearch-logger` plugin can be enabled globally by configuring it on a [global rule](https://apisix.apache.org/docs/apisix/next/terminology/global-rule/):
 
@@ -142,7 +142,7 @@ curl -X GET "http://127.0.0.1:9200/gateway/_search" | jq
 
 Storing and indexing large volumes of logs is not useful on its own. That is why we will use Kibana to analyze and drive insights from these logs.
 
-{{< figure src="/images/apisix-logs-elk/elasticsearch-kibana.png#center" title="Kibana pulls the indexed data from Elasticsearch" caption="See [the GitHub repo](https://github.com/navendu-pottekkat/elk-log-apisix) for the complete Docker Compose file" link="/images/apisix-logs-elk/elasticsearch-kibana.png" target="_blank" class="align-center" >}}
+{{< figure src="/images/apisix-logs-elk/elasticsearch-kibana.png#center" title="Kibana pulls the indexed data from Elasticsearch" caption="See [the GitHub repo](https://github.com/pottekkat/elk-log-apisix) for the complete Docker Compose file" link="/images/apisix-logs-elk/elasticsearch-kibana.png" target="_blank" class="align-center" >}}
 
 As mentioned, Kibana supports logs from Elasticsearch out-of-the-box. Once we deploy Kibana, we can go ahead and [create an index pattern](https://www.elastic.co/guide/en/kibana/7.17/index-patterns.html) for the data we already have in Elasticsearch:
 

@@ -96,6 +96,6 @@ if (showOnly) {
 }
 ```
 
-I added a bit more things to tidy everything up. The complete set of upgrades can be found in [this pull request](https://github.com/navendu-pottekkat/navendu-pottekkat.github.io/pull/96).
+I added a bit more things to tidy everything up. The complete set of upgrades can be found in [this pull request](https://github.com/pottekkat/navendu-pottekkat.github.io/pull/96).
 
 I will keep updating this site as I come across more features I want to add. But for now, I am pretty happy with the search functionality. I can finally search for long-lost posts. But that also means others can search my daily logs! What did I do?!

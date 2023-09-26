@@ -23,7 +23,7 @@ If you are using [Apache APISIX](https://apisix.apache.org) as your API gateway,
 
 You can always set this up in your services directly without configuring it in APISIX. But as the number of your services increases, with each service having different constraints, setting up and managing different rate limits and updating them in each of these services becomes a pain point for development teams.
 
-In this article, we will look at examples of how we can use the rate limiting plugins in APISIX. You can find the complete configuration files and instructions to deploy for this article in [this repository](https://github.com/navendu-pottekkat/rate-limit).
+In this article, we will look at examples of how we can use the rate limiting plugins in APISIX. You can find the complete configuration files and instructions to deploy for this article in [this repository](https://github.com/pottekkat/rate-limit).
 
 ## Rate Limit All Requests
 
