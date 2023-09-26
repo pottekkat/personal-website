@@ -34,7 +34,7 @@ I also used a lot of client-side redirects, which is not desirable as opposed to
 
 Netlify has [deploy previews](https://www.netlify.com/products/deploy-previews/). So, when you make a pull request to your production branch, Netlify will build the site for you and show a preview of what the change will look like.
 
-{{< figure src="/images/how-and-why-i-migrated-my-blog-from-github-pages-to-netlify/deploy-preview-is-ready.png#center" title="Deploy preview feature in Netlify" caption="From [github.com/pottekkat](https://github.com/pottekkat/navendu-pottekkat.github.io/pull/23#issuecomment-1212009294)" link="/images/how-and-why-i-migrated-my-blog-from-github-pages-to-netlify/deploy-preview-is-ready.png" target="_blank" class="align-center" >}}
+{{< figure src="/images/how-and-why-i-migrated-my-blog-from-github-pages-to-netlify/deploy-preview-is-ready.png#center" title="Deploy preview feature in Netlify" caption="From [github.com/pottekkat](https://github.com/pottekkat/personal-website/pull/23#issuecomment-1212009294)" link="/images/how-and-why-i-migrated-my-blog-from-github-pages-to-netlify/deploy-preview-is-ready.png" target="_blank" class="align-center" >}}
 
 You know what this is best for? Previewing draft blog posts!
 
@@ -42,7 +42,7 @@ Using Netlify, I can open a pull request with my draft post, and Netlify will ge
 
 Netlify also brings a better continuous integration experience.
 
-{{< figure src="/images/how-and-why-i-migrated-my-blog-from-github-pages-to-netlify/netlify-ci-checks.png#center" title="CI checks run by Netlify" caption="From [github.com/pottekkat](https://github.com/pottekkat/navendu-pottekkat.github.io/pull/23)" link="/images/how-and-why-i-migrated-my-blog-from-github-pages-to-netlify/netlify-ci-checks.png" target="_blank" class="align-center" >}}
+{{< figure src="/images/how-and-why-i-migrated-my-blog-from-github-pages-to-netlify/netlify-ci-checks.png#center" title="CI checks run by Netlify" caption="From [github.com/pottekkat](https://github.com/pottekkat/personal-website/pull/23)" link="/images/how-and-why-i-migrated-my-blog-from-github-pages-to-netlify/netlify-ci-checks.png" target="_blank" class="align-center" >}}
 
 Netlify lets you configure the build settings through the Netlify UI or a [configuration file](https://docs.netlify.com/configure-builds/file-based-configuration/) (`netlify.toml`). This gives you a lot more control than the few configuration options GitHub Pages provides.
 
