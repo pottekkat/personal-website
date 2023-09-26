@@ -25,7 +25,7 @@ I'm awful at building UI from scratch, so I use a theme. I have added some custo
 
 I like the way the site looks. I talked to my readers about the look and feel of the site, and they seem to like the minimalist approach.
 
-I push this site's code and content to a [GitHub repository](https://github.com/pottekkat/navendu-pottekkat.github.io). This repository is open source. When adding new posts, I [usually make a pull request](https://github.com/pottekkat/navendu-pottekkat.github.io/pull/29). This is to trigger a preview build that other reviewers and I can verify and comment on.
+I push this site's code and content to a [GitHub repository](https://github.com/pottekkat/personal-website). This repository is open source. When adding new posts, I [usually make a pull request](https://github.com/pottekkat/personal-website/pull/29). This is to trigger a preview build that other reviewers and I can verify and comment on.
 
 Preview builds? What is that? That's where Netlify does its magic.
 
@@ -35,9 +35,9 @@ Netlify watches for pushes to my main branch and triggers a deployment. It also 
 
 So, after writing a new post, I make a pull request, and Netlify builds a preview. Reviewers can make suggestions on the PR before merging it and publishing it on the site.
 
-{{< figure src="/images/my-blog-setup-and-writing-process/deploy-preview.png#center" title="Deploy previews" caption="Deploy previews make my life much easier. See [comment](https://github.com/pottekkat/navendu-pottekkat.github.io/pull/29#issuecomment-1228479360)" link="/images/my-blog-setup-and-writing-process/deploy-preview.png" target="_blank" class="align-center" >}}
+{{< figure src="/images/my-blog-setup-and-writing-process/deploy-preview.png#center" title="Deploy previews" caption="Deploy previews make my life much easier. See [comment](https://github.com/pottekkat/personal-website/pull/29#issuecomment-1228479360)" link="/images/my-blog-setup-and-writing-process/deploy-preview.png" target="_blank" class="align-center" >}}
 
-{{< figure src="/images/my-blog-setup-and-writing-process/review.png#center" title="Reviewing draft posts" caption="I also love my diagrams! See [comment](https://github.com/pottekkat/navendu-pottekkat.github.io/pull/29#pullrequestreview-1089711948)" link="/images/my-blog-setup-and-writing-process/review.png" target="_blank" class="align-center" >}}
+{{< figure src="/images/my-blog-setup-and-writing-process/review.png#center" title="Reviewing draft posts" caption="I also love my diagrams! See [comment](https://github.com/pottekkat/personal-website/pull/29#pullrequestreview-1089711948)" link="/images/my-blog-setup-and-writing-process/review.png" target="_blank" class="align-center" >}}
 
 Netlify has many more features like DNS management and A/B testing, but I haven't tried them till now.
 
@@ -63,7 +63,7 @@ To use these shortcodes easily, I have configured custom snippets on VS Code to 
 
 {{< figure src="/images/my-blog-setup-and-writing-process/snippets.gif#center" title="Custom snippets in VS Code" caption="Notice how I can just hit TAB and it jumps to the next configuration" link="/images/my-blog-setup-and-writing-process/snippets.gif" target="_blank" class="align-center" >}}
 
-But, there are limits to what I can achieve with VS Code alone. So, I built a custom CLI to create files to write content and folders to store static content. I call it [hbt—Hugo Blog Tool](https://github.com/pottekkat/navendu-pottekkat.github.io/tree/hugo/cmd).
+But, there are limits to what I can achieve with VS Code alone. So, I built a custom CLI to create files to write content and folders to store static content. I call it [hbt—Hugo Blog Tool](https://github.com/pottekkat/personal-website/tree/hugo/cmd).
 
 {{< figure src="/images/my-blog-setup-and-writing-process/hbt.png#center" title="hbt—Hugo Blog Tool" caption="It ain't much, but it's honest work" link="/images/my-blog-setup-and-writing-process/hbt.png" target="_blank" class="align-center" >}}
 

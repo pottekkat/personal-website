@@ -30,6 +30,6 @@ Our jobs will change for the better. It will put us all in a much better situati
 
 As all of this happened, my last two posts were trending. As much fun as it was to see your post on the front page of Hacker News, I almost blew through my bandwidth quota in Netlify.
 
-Both posts had images or diagrams, which are the main culprits. I noticed the spike in bandwidth today and [configured an image compression tool](https://github.com/pottekkat/navendu-pottekkat.github.io/pull/56#issuecomment-1345471020) in my CI to reduce the size.
+Both posts had images or diagrams, which are the main culprits. I noticed the spike in bandwidth today and [configured an image compression tool](https://github.com/pottekkat/personal-website/pull/56#issuecomment-1345471020) in my CI to reduce the size.
 
 If this fixes the issue, I won't spend any more time trying to optimize the site. Maybe I can pay someone to do it if it becomes an issue.

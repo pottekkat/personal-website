@@ -55,7 +55,7 @@ With this configuration and proper templates, Hugo will automatically generate a
 
 ## Updating the Template
 
-Our goal is to mention the series the post is a part of and list other posts in the same series in order. To do this, we have to update the [single page template](https://gohugo.io/templates/single-page-templates/). Mine is at [layouts/\_default/single.html](https://github.com/pottekkat/navendu-pottekkat.github.io/blob/hugo/layouts/_default/single.html).
+Our goal is to mention the series the post is a part of and list other posts in the same series in order. To do this, we have to update the [single page template](https://gohugo.io/templates/single-page-templates/). Mine is at [layouts/\_default/single.html](https://github.com/pottekkat/personal-website/blob/hugo/layouts/_default/single.html).
 
 The logic for doing this is trivial:
 
@@ -87,7 +87,7 @@ We can add it to the single page template as shown:
 {{end}}
 ```
 
-You can find the entire template on [GitHub](https://github.com/pottekkat/navendu-pottekkat.github.io/blob/f5ff0d20c17616a8fe882effa8bf6138b591a26d/layouts/_default/single.html#L37).
+You can find the entire template on [GitHub](https://github.com/pottekkat/personal-website/blob/f5ff0d20c17616a8fe882effa8bf6138b591a26d/layouts/_default/single.html#L37).
 
 ## Improvements
 
