@@ -87,7 +87,7 @@ I went on to maintain [Meshery](https://meshery.io/) and [Service Mesh Performan
 
 Now I work on [Apache APISIX](https://apisix.apache.org/) full-time, helping steward the project and increase adoption.
 
-99% of the code I write is [open-source and free](https://github.com/navendu-pottekkat).
+99% of the code I write is [open-source and free](https://github.com/pottekkat).
 
 {{< figure src="/images/about/workstation.jpg#center" title="Work from home is the best!" caption="localhost - October 2021" link="/images/about/workstation.jpg" target="_blank" class="align-center" >}}
 

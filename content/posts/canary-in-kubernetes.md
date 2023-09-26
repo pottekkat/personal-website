@@ -35,7 +35,7 @@ Before you move on, make sure you:
 
 ## Deploying a Sample Application
 
-As in the [previous tutorial](/posts/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/#deploying-a-sample-application), we will use our sample HTTP server application, the [bare-minimum-api](https://github.com/navendu-pottekkat/bare-minimum-api). This will act as our versioned service:
+As in the [previous tutorial](/posts/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/#deploying-a-sample-application), we will use our sample HTTP server application, the [bare-minimum-api](https://github.com/pottekkat/bare-minimum-api). This will act as our versioned service:
 
 {{< figure src="/images/canary-in-kubernetes/bare-minimum-api.png#center" title="bare-minimum-api" link="/images/canary-in-kubernetes/bare-minimum-api.png" target="_blank" class="align-center" >}}
 

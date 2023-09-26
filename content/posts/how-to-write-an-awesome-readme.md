@@ -13,7 +13,7 @@ cover:
     relative: false
 ---
 
-> You can skip to the template [here](https://github.com/navendu-pottekkat/awesome-readme).
+> You can skip to the template [here](https://github.com/pottekkat/awesome-readme).
 
 People can't use what they don't understand.
 
@@ -44,7 +44,7 @@ There is not a one-size-fits-all when it comes to usability. But having the foll
 5. **Development**: How users can build a development version of the project on their machines.
 6. **Contribute**: Guide for open source contributors looking to contribute to the project.
 
-Considering all these, I have created a [reusable template](https://github.com/navendu-pottekkat/awesome-readme) you can fork on GitHub.
+Considering all these, I have created a [reusable template](https://github.com/pottekkat/awesome-readme) you can fork on GitHub.
 
 Depending on your project, you might have very different README files. The idea is to use this as a reference as you write your README.
 

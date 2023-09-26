@@ -30,7 +30,7 @@ Before you move on, make sure you:
 2. Install and configure `kubectl` to communicate with your cluster.
 3. [Install Helm](https://helm.sh/docs/intro/install/) to deploy the APISIX Ingress controller.
 
-The complete code used in this article is available [here](https://github.com/navendu-pottekkat/apisix-in-kubernetes/tree/master/custom-plugin).
+The complete code used in this article is available [here](https://github.com/pottekkat/apisix-in-kubernetes/tree/master/custom-plugin).
 
 ## Deploying a Sample Application
 

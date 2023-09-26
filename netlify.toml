@@ -7,15 +7,15 @@
 
 [[redirects]]
   from = "/github"
-  to = "https://github.com/navendu-pottekkat"
+  to = "https://github.com/pottekkat"
 
 [[redirects]]
   from = "/linkedin"
-  to = "https://www.linkedin.com/in/navendup/"
+  to = "https://www.linkedin.com/in/realPottekkat/"
 
 [[redirects]]
   from = "/youtube"
-  to = "https://www.youtube.com/channel/UCWwMJ5SxVStO04W3nOrCiNA"
+  to = "https://youtube.com/@realPottekkat"
 
 [[redirects]]
   from = "/resume"
@@ -23,11 +23,11 @@
 
 [[redirects]]
   from = "/twitter"
-  to = "https://twitter.com/sudo_navendu"
+  to = "https://twitter.com/realPottekkat"
 
 [[redirects]]
   from = "/tfjs-object-detection"
-  to = "https://github.com/navendu-pottekkat/tfjs-object-detection"
+  to = "https://github.com/pottekkat/tfjs-object-detection"
 
 [[redirects]]
   from = "/misc/js/script.js"

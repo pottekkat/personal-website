@@ -35,7 +35,7 @@ Before you move on, make sure you:
 
 ## Deploying a Sample Application
 
-We will use a sample HTTP server application ([bare-minimum-api](https://github.com/navendu-pottekkat/bare-minimum-api)) to demonstrate the working of the Ingress controller.
+We will use a sample HTTP server application ([bare-minimum-api](https://github.com/pottekkat/bare-minimum-api)) to demonstrate the working of the Ingress controller.
 
 While running the application, you can set a "version" and a port to listen to. For this example, we will create two "versions" of this application which will return different responses as shown below:
 

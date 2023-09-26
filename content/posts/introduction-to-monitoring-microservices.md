@@ -21,7 +21,7 @@ Through continuous monitoring, developers can detect issues with their services 
 
 This article will introduce how you can set up monitoring on your microservice application using two of the popular tools in this space, [Prometheus](https://prometheus.io/), and [Grafana](https://grafana.com/).
 
-The source code and Docker Compose file for this tutorial are available in [monitoring-101](https://github.com/navendu-pottekkat/monitoring-101).
+The source code and Docker Compose file for this tutorial are available in [monitoring-101](https://github.com/pottekkat/monitoring-101).
 
 ## Prometheus Basics
 
@@ -54,7 +54,7 @@ You can learn more about these metric types and how to use them from the [offici
 
 ## Sample Application
 
-Our [sample application](https://github.com/navendu-pottekkat/monitoring-101) will consist of an API gateway, a Go app, and a Python app:
+Our [sample application](https://github.com/pottekkat/monitoring-101) will consist of an API gateway, a Go app, and a Python app:
 
 {{< figure src="/images/introduction-to-monitoring-microservices/sample-application.png#center" title="Sample application" caption="The application will return, \"Hello `name`!\" in the language you choose with the `<name>` you provide. Apache APISIX will be the API gateway that directs traffic to your services." link="/images/introduction-to-monitoring-microservices/sample-application.png" target="_blank" class="align-center" >}}
 
@@ -77,7 +77,7 @@ We will instrument and export metrics from all the services in our application a
 
 Apache APISIX is an open source, cloud native API gateway.
 
-You don't need to know about APISIX to follow along, and you can use the [Docker Compose file](https://github.com/navendu-pottekkat/monitoring-101/blob/master/docker-compose.yml) provided to set everything up. To learn more about APISIX, visit [apisix.apache.org](https://apisix.apache.org/).
+You don't need to know about APISIX to follow along, and you can use the [Docker Compose file](https://github.com/pottekkat/monitoring-101/blob/master/docker-compose.yml) provided to set everything up. To learn more about APISIX, visit [apisix.apache.org](https://apisix.apache.org/).
 
 APISIX offers a [prometheus Plugin](https://apisix.apache.org/docs/apisix/2.15/plugins/prometheus/) that easily exports metrics in the Prometheus format. You can configure the Plugin in your APISIX configuration file:
 
@@ -316,4 +316,4 @@ This article was only an introduction to how you can set up monitoring on your s
 * [Alerting based on metrics](https://prometheus.io/docs/tutorials/alerting_based_on_metrics/)
 * [Grafana Dashboards](https://grafana.com/docs/grafana/latest/dashboards/)
 
-The complete code and the Docker Compose file for this tutorial are available in [monitoring-101](https://github.com/navendu-pottekkat/monitoring-101).
+The complete code and the Docker Compose file for this tutorial are available in [monitoring-101](https://github.com/pottekkat/monitoring-101).

@@ -32,7 +32,7 @@ I use [Hugo](https://gohugo.io/) to build my static website.
 
 I was exploring [Jekyll](https://jekyllrb.com/) (which I was already very familiar with from work), [Gatsby](https://www.gatsbyjs.com/) (great reviews, really customizable) and Hugo (simple and fast) and eventually decided to try out Hugo.
 
-I really liked the [minimal themes](https://themes.gohugo.io/tags/minimal/) Hugo had and I wanted my blog to feel minimal as well (it has a lot of [useful features](https://github.com/navendu-pottekkat/navendu-pottekkat.github.io#new-features) under the hood).
+I really liked the [minimal themes](https://themes.gohugo.io/tags/minimal/) Hugo had and I wanted my blog to feel minimal as well (it has a lot of [useful features](https://github.com/pottekkat/navendu-pottekkat.github.io#new-features) under the hood).
 
 I was pleasantly surprised by the build times, website performance and the features Hugo sets up out of the box.
 
@@ -42,11 +42,11 @@ I have since been recommending Hugo to people looking to build static sites.
 
 The website is hosted completely on [GitHub Pages](https://pages.github.com/).
 
-And yes, the site is [fully open source](https://github.com/navendu-pottekkat/navendu-pottekkat.github.io).
+And yes, the site is [fully open source](https://github.com/pottekkat/navendu-pottekkat.github.io).
 
 The write-build-publish process is pretty straightforward since everything is done on GitHub.
 
-I write posts on my computer, commit and push to GitHub which triggers a [workflow](https://github.com/navendu-pottekkat/navendu-pottekkat.github.io/blob/hugo/.github/workflows/gh-pages.yml) that builds and publishes the site on GitHub pages.
+I write posts on my computer, commit and push to GitHub which triggers a [workflow](https://github.com/pottekkat/navendu-pottekkat.github.io/blob/hugo/.github/workflows/gh-pages.yml) that builds and publishes the site on GitHub pages.
 
 I think I will continue hosting on GitHub as it is free and I'm only running a simple static site. I haven't had any issues till now and until something presents itself, it is GitHub all the way!
 
@@ -82,7 +82,7 @@ I removed it because there wasn't really any conversation on the blog and the co
 
 I have found this to be the better path forward as people generally use Reddit, Twitter or platforms like Hacker News to provide feedback on blog posts.
 
-The actual code of the site is [MIT licensed](https://github.com/navendu-pottekkat/navendu-pottekkat.github.io/blob/hugo/LICENSE) and all content on the site is licensed under [Creative Commons Attribution-ShareAlike license](https://creativecommons.org/licenses/by-sa/4.0/).
+The actual code of the site is [MIT licensed](https://github.com/pottekkat/navendu-pottekkat.github.io/blob/hugo/LICENSE) and all content on the site is licensed under [Creative Commons Attribution-ShareAlike license](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Monthly Digest and Newsletter
 
