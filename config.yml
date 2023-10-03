@@ -55,6 +55,7 @@ params:
       domain: "navendu.me"
       proxy_netlify: true
       outbound_link: true
+      gitstar: false
 
     ShowReadingTime: true
     ShowLastMod: true
