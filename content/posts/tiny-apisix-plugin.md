@@ -129,7 +129,7 @@ func (ctx *httpContext) OnHttpResponseHeaders(numHeaders int, endOfStream bool) 
 To compile our plugin to a Wasm binary, we can run:
 
 ```shell
-tinygo build -o custom_response_header.go.wasm -scheduler=none -target=wasi ./main.go
+tinygo build -o custom_response_header.go.wasm -target=wasi ./main.go
 ```
 
 ## Configuring APISIX to Run the Plugin
