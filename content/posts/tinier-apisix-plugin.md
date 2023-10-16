@@ -1,7 +1,7 @@
 ---
 title: 'A "Tinier" APISIX Plugin'
-date: 2023-10-13T09:45:50+05:30
-draft: true
+date: 2023-10-16T09:45:50+05:30
+draft: false
 ShowToc: true
 TocOpen: true
 ShowRelatedContent: false
