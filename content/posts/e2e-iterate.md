@@ -11,7 +11,7 @@ categories: ["Software Engineering"]
 cover:
     image: "/images/e2e-iterate/pipeline-banner.jpg"
     alt: "Photo of pipelines fading into the horizon."
-    caption: "Reasonable engineering advice from an amateur engineer."
+    caption: "An amateur engineer's philosophy on building software."
     relative: false
 ---
 
