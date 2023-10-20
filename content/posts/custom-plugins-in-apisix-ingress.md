@@ -43,7 +43,7 @@ kubectl expose pod bare-minimum-api --port 8080
 
 ## Writing a Custom Plugin
 
-For this example, we will create a [sample Plugin](https://raw.githubusercontent.com/navendu-pottekkat/apisix-in-kubernetes/master/custom-plugin/plugins/custom-response.lua) that rewrites the response body from the Upstream with a custom value:
+For this example, we will create a [sample Plugin](https://raw.githubusercontent.com/pottekkat/apisix-in-kubernetes/master/custom-plugin/plugins/custom-response.lua) that rewrites the response body from the Upstream with a custom value:
 
 ```lua {title="custom-response.lua"}
 -- some required functionalities are provided by apisix.core
@@ -140,7 +140,7 @@ plugins:
 
 Finally you can enable the Ingress controller and configure the gateway to be exposed to external traffic. For this, set `gateway.type=NodePort`, `ingress-controller.enabled=true`, and `ingress-controller.config.apisix.serviceNamespace=ingress-apisix` in your `values.yaml` file.
 
-Now we can run `helm install` with this [updated values.yaml](https://raw.githubusercontent.com/navendu-pottekkat/apisix-in-kubernetes/master/custom-plugin/values.yaml) file:
+Now we can run `helm install` with this [updated values.yaml](https://raw.githubusercontent.com/pottekkat/apisix-in-kubernetes/master/custom-plugin/values.yaml) file:
 
 ```shell
 helm install apisix apisix/apisix -n ingress-apisix --values ./apisix/values.yaml
