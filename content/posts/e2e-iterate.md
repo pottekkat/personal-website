@@ -1,7 +1,7 @@
 ---
 title: "End to End, Iterate"
-date: 2023-10-20T09:58:34+05:30
-draft: true
+date: 2023-10-20T09:55:34+05:30
+draft: false
 ShowToc: true
 TocOpen: true
 ShowRelatedContent: false
