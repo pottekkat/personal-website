@@ -1,7 +1,7 @@
 ---
 title: "Accessing External Services through APISIX Ingress"
 date: 2023-10-27T09:14:16+05:30
-draft: true
+draft: false
 ShowToc: false
 ShowRelatedContent: false
 summary: "A short guide on why and how you might use APISIX to access external services in Kubernetes."
