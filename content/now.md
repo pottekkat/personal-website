@@ -7,12 +7,6 @@ description: "What Navendu is doing now."
 
 Here's what I'm doing now.
 
-## Upcoming Travels
-
-I will be in Surakarta for LibreOffice Conf. Asia and UbuCon Asia on October 7th and 8th. I plan to travel around Indonesia and try the digital nomad thing for a few weeks. Bali is definitely at the top of my list.
-
-Feel free to say hi if you are here. I promise I won't bite.
-
 ## Full-Time Job
 
 I work full-time at [API7.ai](https://api7.ai/), where I help build [Apache APISIX](https://apisix.apache.org/).
