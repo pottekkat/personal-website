@@ -1,6 +1,2 @@
-{{ $url := .Destination | safeURL }}
-{{ if strings.HasPrefix .Destination "http" }}
-  {{ $url = printf "%s?utm_source=navendu_blog&utm_medium=referral&utm_campaign=%s" $url (.Page.Title | urlize) }}
-{{ end }}
-<a href="{{ $url }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank"{{ end }}>{{ .Text }}</a>
+<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank"{{ end }}>{{ .Text }}</a>
 {{- /* This comment removes trailing newlines. */ -}}
