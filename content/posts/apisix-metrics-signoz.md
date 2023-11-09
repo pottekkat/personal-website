@@ -1,6 +1,6 @@
 ---
 title: "Exporting APISIX Metrics to SigNoz"
-date: 2023-11-08T11:30:52+05:30
+date: 2023-11-24T11:30:52+05:30
 draft: true
 ShowToc: true
 TocOpen: true
