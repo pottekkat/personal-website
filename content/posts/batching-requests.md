@@ -26,7 +26,7 @@ This might not always be ideal. Instead, you can use APISIX's request batching c
 
 {{< figure src="/images/batching-requests/with-apisix.png#center" title="Batching requests" caption="Batching requests reduces the number of client-server calls." link="/images/batching-requests/with-apisix.png" target="_blank" class="align-center" >}}
 
-This article will look at how you can configure this through APISIX Ingress in Kubernetes.
+This article will look at how you can configure this through APISIX Ingress in Kubernetes. If you are using the Admin API instead, you can check [this article](https://api7.ai/blog/batch-request-processing-with-api-gateway).
 
 ## Set Up the Example
 
