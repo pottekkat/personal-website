@@ -20,9 +20,13 @@ With APISIX's request batching capability, you can group multiple API requests f
 
 Batching can be useful in many practical scenarios where multiple requests are needed to fulfill a task. For example, the [Conference API](https://conferenceapi.azurewebsites.net/) exposes two different endpoints, `/speaker/{speakerId}/sessions` and `/speaker/{speakerId}/topics`, for listing the sessions and topics belonging to a speaker, respectively. You can make two API calls to show both in a front-end application.
 
+{{< figure src="/images/batching-requests/without-apisix.png#center" title="Making two requests" caption="Sometimes this might not be ideal." link="/images/batching-requests/without-apisix.png" target="_blank" class="align-center" >}}
+
 This might not always be ideal. Instead, you can use APISIX's request batching capability to group these requests into one, reducing the number of client-server calls.
 
-This article will look at how you can configure this through the APISIX Ingress in Kubernetes.
+{{< figure src="/images/batching-requests/with-apisix.png#center" title="Batching requests" caption="Batching requests reduces the number of client-server calls." link="/images/batching-requests/with-apisix.png" target="_blank" class="align-center" >}}
+
+This article will look at how you can configure this through APISIX Ingress in Kubernetes.
 
 ## Set Up the Example
 
