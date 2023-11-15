@@ -16,9 +16,9 @@ cover:
   relative: false
 ---
 
-With APISIX's request batching capability, you can group multiple API requests from the client into a single request. APISIX then turns this request into multiple requests to your upstream services, aggregates the response, and sends it back to the client as a single response.
+With APISIX's request batching capability, you can group multiple independent API requests from the client into a single request. APISIX then turns this request into separate requests to your upstream services, aggregates the response, and sends it back to the client as a single response.
 
-Batching can be useful in many practical scenarios where multiple requests are needed to fulfill a task. For example, the [Conference API](https://conferenceapi.azurewebsites.net/) exposes two different endpoints, `/speaker/{speakerId}/sessions` and `/speaker/{speakerId}/topics`, for listing the sessions and topics belonging to a speaker, respectively. You can make two API calls to show both in a front-end application.
+Batching can be useful in many practical scenarios where multiple independent requests are needed to fulfill a task. For example, the [Conference API](https://conferenceapi.azurewebsites.net/) exposes two different endpoints, `/speaker/{speakerId}/sessions` and `/speaker/{speakerId}/topics`, for listing the sessions and topics belonging to a speaker, respectively. You can make two API calls to show both in a front-end application.
 
 {{< figure src="/images/batching-requests/without-apisix.png#center" title="Making two requests" caption="Sometimes this might not be ideal." link="/images/batching-requests/without-apisix.png" target="_blank" class="align-center" >}}
 
@@ -54,6 +54,8 @@ plugins:
 ```
 
 You can also enable the [public-api](https://apisix.apache.org/docs/apisix/plugins/public-api/) plugin to expose the route to external requests.
+
+> **Note**: You should add all plugins being used to this list, as it will replace the plugins enabled by default.
 
 ## Configure Routes
 
@@ -114,7 +116,7 @@ spec:
         - name: conference-api-upstream
 ```
 
-This may seem complicated, but it is simple. We are matching requests using a regular expression in the path. So regardless of the value of `{speakerId}` in `/speaker/{speakerId}/sessions` and `/speaker/{speakerId}/topics`, we will match the request and forward it to the upstream.
+This may seem complicated, so here is the explanation. We are matching requests using a regular expression in the path. So regardless of the value of `{speakerId}` in `/speaker/{speakerId}/sessions` and `/speaker/{speakerId}/topics`, we will match the request and forward it to the upstream.
 
 > **Note**: If you are configuring APISIX through the Admin API, this is much simpler and reduces to `"uris": ["/speaker/*/topics","/speaker/*/sessions"]`. However, we must use regular expressions since the ApisixRoute CRD does not support [URI patterns](https://github.com/apache/apisix-ingress-controller/blob/c111c12272f58189de785feac256e6ce1193c172/samples/deploy/crd/v1/ApisixRoute.yaml#L107C35-L107C35) with `*` in the middle.
 
@@ -138,7 +140,9 @@ curl -i http://127.0.0.1:50404/speaker -X POST -d \
 }'
 ```
 
-APISIX will make both of these requests and return the aggregated response as shown below:
+APISIX will parse this request body and make separate requests to each endpoint. This saves a lot of network traffic as APISIX is closer to the upstream than the client having to make these calls itself.
+
+The aggregated response from APISIX will be as shown below:
 
 ```json {title="output"}
 [
