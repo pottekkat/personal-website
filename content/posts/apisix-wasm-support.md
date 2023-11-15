@@ -39,7 +39,19 @@ Proxy Wasm is implemented in two parts:
 
 As a plugin developer, you can write Wasm plugins for APISIX using any available SDKs and compile it to a Wasm binary. APISIX will execute this Wasm binary and interact with it through its ABI implementation.
 
-Now, how does APISIX's ABI implementation work?
+How does APISIX handle these interactions?
+
+## Programming Model
+
+APISIX uses the following programming model to work with Wasm plugins. All of these interfaces are implemented by the programmer while writing custom plugins, as we did in the [previous article](/posts/tiny-apisix-plugin/):
+
+{{< figure src="/images/apisix-wasm-support/programming-model.png#center" title="Interfaces for Wasm plugins" caption="See [the documentation](https://apisix.apache.org/docs/apisix/wasm/) for more." link="/images/apisix-wasm-support/programming-model.png" target="_blank" class="align-center" >}}
+
+Each plugin has its own `VMContext`, which can create multiple `PluginContext` for each route. i.e., each `PluginContext` corresponds to an instance of a plugin, so if a service is configured with a Wasm plugin and two routes inherit from the service, each route will have its own `PluginContext`.
+
+Similarly, a `PluginContext` is the parent of multiple `HTTPContext`. Each HTTP request will have its own `HTTPContext`.
+
+Now, let's look at how APISIX implements the Proxy Wasm ABI.
 
 ## Wasm Module for Nginx
 
@@ -105,16 +117,6 @@ The wasm-nginx-module implements two Wasm VMs, [Wasmtime](https://wasmtime.dev/)
 Running Wasm plugins inside a VM comes with beneficial side effects. It offers security and isolation from APISIX, ensuring that any issues with the plugin are self-contained.
 
 The wasm-nginx-module first [loads](https://github.com/api7/wasm-nginx-module/blob/ccc83f7397c711b5f99a55682134a0972a5a6040/lib/resty/proxy-wasm.lua#L81) the `.wasm` binary to the VM and then uses the `call` method, as we saw above. All Wasm plugins are run inside the same Wasm VM.
-
-## Programming Model
-
-APISIX uses the following programming model to work with Wasm plugins. All of these interfaces are implemented by the programmer while writing custom plugins, as we did in the [previous article](/posts/tiny-apisix-plugin/):
-
-{{< figure src="/images/apisix-wasm-support/programming-model.png#center" title="Interfaces for Wasm plugins" caption="See [the documentation](https://apisix.apache.org/docs/apisix/wasm/) for more." link="/images/apisix-wasm-support/programming-model.png" target="_blank" class="align-center" >}}
-
-Each plugin has its own `VMContext`, which can create multiple `PluginContext` for each route. i.e., each `PluginContext` corresponds to an instance of a plugin, so if a service is configured with a Wasm plugin and two routes inherit from the service, each route will have its own `PluginContext`.
-
-Similarly, a `PluginContext` is the parent of multiple `HTTPContext`. Each HTTP request will have its own `HTTPContext`.
 
 ## Room to Improve
 
