@@ -17,7 +17,7 @@ I work to ensure that APISIX's users have the best experience using APISIX. I al
 
 ## Blog and Newsletter
 
-I write on this blog about my work and my other projects. I also send [biweekly newsletters](/subscribe/) to a couple of hundred people. ~~The newsletter is now on hiatus because of my busy work and personal schedule. I hope to be back at it in a couple of months.~~ The newsletter is back!
+I write on this blog about my work and my other projects. I also send ~~biweekly~~ [bimonthly newsletters](/subscribe/) to a couple of hundred people. ~~The newsletter is now on hiatus because of my busy work and personal schedule. I hope to be back at it in a couple of months.~~ The newsletter is back!
 
 I don't plan to work on these full-time or scale and monetize them, at least for now.
 
