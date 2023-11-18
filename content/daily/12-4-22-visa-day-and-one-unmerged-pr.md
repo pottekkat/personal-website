@@ -35,5 +35,5 @@ This is so cool! I never had people commenting online about things I worked on b
 I still have one PR remaining and this Tweet pretty much sums it up:
 
 {{< rawhtml >}}
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A PR this size is not a &quot;child&quot; PR! <a href="https://t.co/z5M23JdAev">pic.twitter.com/z5M23JdAev</a></p>&mdash; Navendu Pottekkat (@sudo_navendu) <a href="https://twitter.com/sudo_navendu/status/1513919120630329346?ref_src=twsrc%5Etfw">April 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A PR this size is not a &quot;child&quot; PR! <a href="https://t.co/z5M23JdAev">pic.twitter.com/z5M23JdAev</a></p>&mdash; Navendu Pottekkat (@realPottekkat) <a href="https://twitter.com/realPottekkat/status/1513919120630329346?ref_src=twsrc%5Etfw">April 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {{< /rawhtml >}}
