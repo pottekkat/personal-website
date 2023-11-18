@@ -71,7 +71,7 @@ It was in January 2020 that I moved out of the city after quitting my job. Littl
 
 I was also building deep learning projects and making them open-source. I created a project called [NSFW Filter](https://nsfw-filter.com/), a browser extension that filters out NSFW content from websites. The project received a lot of attention and is still my most popular open-source project. It topped GitHub Trending, was [featured on Product Hunt](https://www.producthunt.com/posts/nsfw-filter) and even made it to the [front page of Hacker News](https://news.ycombinator.com/item?id=24251131).
 
-This led me to a [path in open-source](https://twitter.com/sudo_navendu/status/1446819951902281733) which shaped the rest of my career.
+This led me to a [path in open-source](https://twitter.com/realPottekkat/status/1446819951902281733) which shaped the rest of my career.
 
 {{< figure src="/images/about/on-hackernews.png#center" title="Front page of Hacker News!" caption="August 2020" link="/images/about/on-hackernews.png" target="_blank" class="align-center" >}}
 

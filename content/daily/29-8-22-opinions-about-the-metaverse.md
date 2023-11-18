@@ -11,7 +11,7 @@ categories: ["Daily Dose of Pottekkat"]
 I have been listening to Mark Zuckerberg's conversation with Joe Rogan and sharing my opinions on Twitter. I'm almost halfway through it.
 
 {{< rawhtml >}}
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m listening to the three-hour The Joe Rogan Experience episode with Mark Zuckerberg.<br><br>26 minutes in, they are talking about virtual and augmented reality.<br><br>I want to be excited about VR and AR, but ... <a href="https://t.co/GlmoWrQQjk">pic.twitter.com/GlmoWrQQjk</a></p>&mdash; Navendu Pottekkat (@sudo_navendu) <a href="https://twitter.com/sudo_navendu/status/1563766111807553537?ref_src=twsrc%5Etfw">August 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m listening to the three-hour The Joe Rogan Experience episode with Mark Zuckerberg.<br><br>26 minutes in, they are talking about virtual and augmented reality.<br><br>I want to be excited about VR and AR, but ... <a href="https://t.co/GlmoWrQQjk">pic.twitter.com/GlmoWrQQjk</a></p>&mdash; Navendu Pottekkat (@realPottekkat) <a href="https://twitter.com/realPottekkat/status/1563766111807553537?ref_src=twsrc%5Etfw">August 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {{< /rawhtml >}}
 
 I read this interesting study about the [time till an open source alternative](https://staltz.com/time-till-open-source-alternative.html). It shows that recently open source alternatives are popping up sooner after the announcement of proprietary software. This gives me much hope as an open source contributor and maintainer.

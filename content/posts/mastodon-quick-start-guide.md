@@ -14,7 +14,7 @@ cover:
     relative: false
 ---
 
-I, like many others, [recently started using Mastodon](https://fosstodon.org/@sudo_navendu).
+I, like many others, [recently started using Mastodon](https://fosstodon.org/@realPottekkat).
 
 It was confusing initially, but a little exploration helped me find my bearings.
 
@@ -40,7 +40,7 @@ You can sign up using your email on any of the [available servers](https://joinm
 
 Once you fill in your details, you will receive a confirmation email with an activation link. Click on it, and you are ready to go.
 
-> **Note**: A Mastodon username would be in the form `@user@instance.name`. For example, my username is [sudo_navendu@fosstodon.org](https://fosstodon.org/@sudo_navendu).
+> **Note**: A Mastodon username would be in the form `@user@instance.name`. For example, my username is [realPottekkat@fosstodon.org](https://fosstodon.org/@realPottekkat).
 
 ## Navigating the UI
 

@@ -16,7 +16,7 @@ I have been maintaining open source code for the past three years.
 
 These are my tips for making better pull requests.
 
-This is a short article, but you can check out this [Twitter thread](https://twitter.com/sudo_navendu/status/1437456596473303042) for a faster read.
+This is a short article, but you can check out this [Twitter thread](https://twitter.com/realPottekkat/status/1437456596473303042) for a faster read.
 
 ## Tip 1: Follow Contributor Docs
 
