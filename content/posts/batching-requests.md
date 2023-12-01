@@ -84,16 +84,16 @@ spec:
 
 > **Note**: The ApisixRoute CRD always requires you to configure an upstream to a route. To work around this, you can use the Admin API as the upstream, as shown above, in scenarios where you don't have/need an upstream.
 
-The above route extracts the individual requests needed to be made by APISIX. To fulfill these requests using the upstream, we have to create another route:
+The above route extracts the individual requests needed to be made by APISIX. To fulfill these requests using the upstream, we have to create another two routes:
 
 ```yaml {title="speaker-topics-sessions-route.yaml"}
 apiVersion: apisix.apache.org/v2
 kind: ApisixRoute
 metadata:
-  name: speaker-topics-sessions-route
+  name: speaker-topics-route
 spec:
   http:
-    - name: speaker-topics-sessions
+    - name: speaker-topics
       match:
         hosts:
           - conferenceapi.azurewebsites.net
@@ -105,6 +105,26 @@ spec:
               name: topics
             op: RegexMatch
             value: "^/speaker/[^/]*/topics$"
+        methods:
+          - "GET"
+      upstreams:
+        - name: conference-api-upstream
+
+---
+
+apiVersion: apisix.apache.org/v2
+kind: ApisixRoute
+metadata:
+  name: speaker-sessions-route
+spec:
+  http:
+    - name: speaker-sessions
+      match:
+        hosts:
+          - conferenceapi.azurewebsites.net
+        paths:
+          - /*
+        exprs:
           - subject:
               scope: Path
               name: sessions
