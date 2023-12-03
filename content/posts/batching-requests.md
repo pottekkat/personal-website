@@ -1,7 +1,7 @@
 ---
 title: "Batching Requests in APISIX Ingress"
-date: 2023-12-01T10:13:43+05:30
-draft: true
+date: 2023-12-01T17:50:43+05:30
+draft: false
 ShowToc: true
 TocOpen: true
 ShowRelatedContent: false
