@@ -1,7 +1,7 @@
 ---
 title: "Nginx is Probably Fine"
-date: 2023-12-08T10:03:56+05:30
-draft: true
+date: 2023-12-10T08:03:56+05:30
+draft: false
 ShowToc: false
 ShowRelatedContent: false
 summary: "Should you build your own reverse proxy to replace Nginx?"
