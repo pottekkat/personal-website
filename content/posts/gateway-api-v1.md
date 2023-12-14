@@ -25,7 +25,7 @@ The Gateway API and its implementations were still in their infancy. The Ingress
 
 For users requiring more capabilities, I suggested using the [custom resources](/posts/extending-apisix-ingress/#custom-crds) provided by the Ingress controllers by trading off portability (switching between different Ingress implementations).
 
-With the v1.0 release, this might change. The Gateway API is much more capable now, and its implementations ([20+ implementations](https://gateway-api.sigs.k8s.io/implementations/)) are catching up quickly.
+With the v1.0 release, this might change. The Gateway API is much more capable now, and its [20+ implementations](https://gateway-api.sigs.k8s.io/implementations/) are catching up quickly.
 
 So, if you are starting anew and choosing between the Ingress and the Gateway API, I suggest you pick the Gateway API if the API and the [implementation you choose](https://apisix.apache.org/docs/ingress-controller/tutorials/configure-ingress-with-gateway-api/) support all the features you want.
 
@@ -33,7 +33,7 @@ So, if you are starting anew and choosing between the Ingress and the Gateway AP
 
 The [Ingress API](https://kubernetes.io/docs/concepts/services-networking/ingress/) works very well, but only for a small subset of common use cases. To extend its capabilities, Ingress implementations started using custom annotations.
 
-So, if you chose Nginx Ingress, you will use some of its [dozens of annotations](https://github.com/kubernetes/ingress-nginx/blob/main/docs/user-guide/nginx-configuration/annotations.md) that are not portable if you decide to switch to another Ingress implementation like [Apache APISIX](https://apisix.apache.org/docs/ingress-controller/concepts/annotations/).
+For example, if you chose Nginx Ingress, you will use some of its [dozens of annotations](https://github.com/kubernetes/ingress-nginx/blob/main/docs/user-guide/nginx-configuration/annotations.md) that are not portable if you decide to switch to another Ingress implementation like [Apache APISIX](https://apisix.apache.org/docs/ingress-controller/concepts/annotations/).
 
 These implementation-specific annotations are also cumbersome to manage and defeat the purpose of managing Ingress in a Kubernetes-native way.
 
@@ -105,13 +105,7 @@ The SMI project [recently merged with the GAMMA initiative](https://smi-spec.io/
 
 The [Gateway API documentation](https://gateway-api.sigs.k8s.io/guides/migrating-from-ingress/) has a comprehensive guide on migrating your Ingress resources to Gateway resources. Instead of restating it, let's try using the [ingress2gateway](https://github.com/kubernetes-sigs/ingress2gateway) tool to convert our Ingress resources to corresponding Gateway API resources.
 
-To install it, run:
-
-```shell
-go install github.com/kubernetes-sigs/ingress2gateway@v0.1.0
-```
-
-Alternatively, you can download the binary for your operating system directly from the [releases page](https://github.com/kubernetes-sigs/ingress2gateway/releases/tag/v0.1.0).
+You can download and install the binary for your operating system directly from the [releases page](https://github.com/kubernetes-sigs/ingress2gateway/releases/tag/v0.1.0).
 
 Let's take a simple Ingress resource:
 
