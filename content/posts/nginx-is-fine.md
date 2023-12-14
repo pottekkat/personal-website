@@ -137,3 +137,5 @@ While there are situations where it might be reasonable to move away from Nginx 
 Nginx, its vast ecosystem, large community, and battle-tested stability can easily be your drop-in solution.
 
 In other words, Nginx is probably fine.
+
+_See the discussion on [Reddit](https://www.reddit.com/r/programming/comments/18f6su8/nginx_is_probably_fine/)._
