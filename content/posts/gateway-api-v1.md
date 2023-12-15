@@ -1,9 +1,11 @@
 ---
 title: "Kubernetes Gateway API v1.0: Should You Switch?"
 date: 2023-12-15T09:26:28+05:30
-draft: true
+draft: false
 ShowToc: true
 TocOpen: true
+canonicalURL: "https://api7.ai/blog/gateway-api-v1"
+ShowCanonicalLink: true
 ShowRelatedContent: false
 summary: "The Kubernetes API was recently made generally available. Does that mean you should switch away from the Ingress API?"
 tags: ["kubernetes", "ingress", "api gateway"]
