@@ -1,7 +1,7 @@
 ---
 title: "Restricting Resource Consumption"
-date: 2024-02-23T10:01:25+05:30
-draft: true
+date: 2024-02-23T09:22:25+05:30
+draft: false
 ShowToc: false
 ShowRelatedContent: false
 summary: "A better way to think about limits to prevent security issues from resource starvation."
