@@ -1,7 +1,7 @@
 ---
 title: "Continuous API Delivery Pipelines"
-date: 2024-03-01T10:36:35+05:30
-draft: true
+date: 2024-03-01T09:06:35+05:30
+draft: false
 ShowToc: false
 ShowRelatedContent: false
 summary: "An exploration of continuous delivery workflows for building and managing APIs at scale."
@@ -102,7 +102,7 @@ The next step in our pipeline should be to convert the OpenAPI definitions to AP
 
 ADC can also run a check against the connected APISIX instance to see the difference in configuration with the proposed changes. The steps shown below runs this check and comments the result on the pull request:
 
-````yaml
+```yaml
 - name: Check config changes
   if: github.event_name == 'pull_request'
   run: adc diff -f "${APISIX_CONFIG}" | tee diff-output.txt
@@ -119,7 +119,7 @@ ADC can also run a check against the connected APISIX instance to see the differ
         repo: context.repo.repo,
         body: '### Configuration changes\nThe following changes will be made to the connected instance of APISIX once you merge this pull request:\n```\n' + output + '```'
       });
-````
+```
 
 For example, making a small change to our HTTPBin API definition file will show these configuration changes in APISIX:
 
