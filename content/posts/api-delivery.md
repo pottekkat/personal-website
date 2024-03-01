@@ -1,6 +1,6 @@
 ---
 title: "Continuous API Delivery Pipelines"
-date: 2024-03-01T09:06:35+05:30
+date: 2024-03-01T11:06:35+05:30
 draft: false
 ShowToc: false
 ShowRelatedContent: false
