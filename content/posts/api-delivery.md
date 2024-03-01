@@ -20,7 +20,7 @@ Streamlining this process is as much a cultural shift as a process shift. A good
 
 These practices can ensure consistency in your APIs while making it efficient for your entire team to manage this consistency. You can also easily track, manage, and verify changes to your APIs and detect potential issues.
 
-This new API delivery pipeline can exist with your existing CI/CD pipelines. Such a pipeline can consist of:
+This new API delivery pipeline can work with your existing CI/CD pipelines. Such a pipeline can consist of:
 
 1. **Definitions**: To define APIs in a standard way.
 2. **Validations**: For validating the API definitions against set specifications.
@@ -28,7 +28,7 @@ This new API delivery pipeline can exist with your existing CI/CD pipelines. Suc
 4. **Deployments**: To sync these changes to the deployed API on approval.
 5. **Tests**: For testing the deployed changes.
 
-In this article, you will learn how to implement a similar pipeline using GitHub Actions. The complete workflow file for the pipeline can be found below.
+In this article, you will learn how to implement a similar pipeline using GitHub Actions. The complete workflow file for the pipeline can be [found below](#testing-apis).
 
 ## Defining APIs
 
