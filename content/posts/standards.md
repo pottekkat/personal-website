@@ -49,13 +49,13 @@ An open standard is a specification that enables users to **freely choose and sw
 
 ## APIs
 
-APIs are standards for interactions.
+APIs are standards for interaction.
 
 The [Ingress API](https://kubernetes.io/docs/concepts/services-networking/ingress/) was created to standardize how external requests are routed to services within a Kubernetes cluster. It was implemented by [around 20 Ingress controllers](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/), which did the actual routing.
 
 The API was independent of its implementations. Users were free to pick any implementation with the Ingress API and switch between implementations.
 
-But it wouldn't last long. This was primarily because of the limitations of the API, resulting in implementations using custom annotations or developing proprietary standards to support advanced features, which only worked with the specific implementation.
+But it wouldn't last long. The API was limited, and implementations started using custom annotations and developed proprietary standards to support advanced features, which only worked with the specific implementation.
 
 Naturally, implementations started to diverge.
 
@@ -90,13 +90,13 @@ Timing your shots to perfection is key to hitting sixes (home runs if you’re A
 
 You either do it too early and curb innovation or be unfashionably late and face inertia from “competing” standards.
 
-In 2015, when the Ingress API was first released, neural networks were more natural, and Kubernetes was still in its infancy. There were also fewer controllers, and the ones that existed didn't really target Kubernetes. In hindsight, it is easy to see this was terrible timing, especially because it involved external implementors (controllers), unlike other Kubernetes APIs.
+In 2015, when the Ingress API was first released, Kubernetes was still in its infancy (and neural networks were more natural). There were also fewer controllers, and the ones that existed didn't really target Kubernetes. In hindsight, it is easy to see this was terrible timing, especially because it involved external implementors (controllers), unlike other Kubernetes APIs.
 
 Fast forward to the late 2020s, Kubernetes was well adopted, and many controllers were mature. With this in place, the Gateway API was undoubtedly better set for adoption.
 
 ## Favorite
 
-Standards are, by definition, independent of their implementations. This wasn't necessarily the case for the Ingress API. The official documentation reads:
+Standards, by definition, are independent of their implementations. This wasn't necessarily the case for the Ingress API. The official documentation reads:
 
 {{< blockquote author="kubernetes.io" link="https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/" title="Ingress Controllers" >}}
 Kubernetes as a project supports and maintains AWS, GCE, and nginx ingress controllers.
@@ -122,25 +122,23 @@ When Ingress wasn't enough, controllers built custom APIs (CRDs) to bridge the g
 
 Instead of building from scratch, contributors involved in the individual controller projects came together to create the Gateway API, which reasonably fit all their needs.
 
-Individual features in the Gateway API also go through an evolutionary process called support levels. There are three support levels:
+Individual features in the Gateway API also go through an evolutionary process called [support levels](https://gateway-api.sigs.k8s.io/concepts/conformance/#2-support-levels). There are three support levels:
 
-* **Implementation-specific**: features that aren't portable, specific to each implementation.
-* **Extended**: portable features that might not be supported by each implementation.
-* **Core**: features supported (or in the roadmap) by all implementations.
+* **Implementation-specific**: Features that aren't portable, specific to each implementation.
+* **Extended**: Portable features that might not be supported by each implementation.
+* **Core**: Features supported (or in the roadmap) by all implementations.
 
 Implementation-specific features will gradually evolve into core features when sufficient implementations support them. And even though some features might not be supported by all implementations, they will still be portable if they choose to implement them down the road.
 
 ## Adapt
 
-Standards that _adapt_ quickly get adopted.
+Standards that _adapt_ quickly are adopted.
 
-As the Ingress API was a part of the Kubernetes APIs, it had to go through the same development process as Kubernetes. This made it difficult for contributors to publish changes independently.
-
-On top of this, the controllers took a lot of time to implement each version when it was released. Standards that **don't** adapt quickly get discarded.
-
-This was during a period when Kubernetes was generating a lot of excitement. The users wanted a reliable way to configure their controllers, and the Ingress API wasn't cutting it anymore.
+As the Ingress API was a part of the Kubernetes APIs, it had to go through the same development process as Kubernetes. Its established release cycles made it difficult for contributors to publish changes independently.
 
 Controllers were moving quickly, adding new features for their users that could not be exposed through a limited Ingress API. This was during a period when Kubernetes was generating a lot of excitement, and the Ingress API wasn't cutting it anymore.
+
+Standards that **don't** adapt quickly are discarded.
 
 The Gateway API maintainers avoided this limitation by implementing the APIs as CRDs (custom extensions to Kubernetes). So, even though it is an official Kubernetes API, it is installed and managed separately. More importantly, the Gateway API project is hosted independently and has separate release cycles.
 
@@ -152,9 +150,9 @@ This happened with the Ingress API, but the Service Mesh Interface (SMI) specifi
 
 SMI was similar to the Ingress API but for working with [service meshes](/posts/gateway-and-mesh/) in Kubernetes. The API supported the lowest common denominator of features supported by every service mesh, and every service mesh implementation was expected to support these features.
 
-The API experienced similar hurdles with adoption, but the project survived. In 2021, I worked with SMI to run and report conformance tests and found that an increasingly few service meshes maintained their SMI support.
+The API experienced similar hurdles with adoption, but the project survived. In 2021, [I worked with SMI](https://youtu.be/1YZlrij7iV0?si=gzLmfEHVD5JdJfTH&t=129) to run and report conformance tests and found that an increasingly few service meshes maintained their SMI support.
 
-Some projects like Linkerd continued to support SMI, but most others that conformed to initial versions of the spec stopped supporting the spec altogether.
+Some projects like Linkerd continued to support SMI, but most others that conformed to initial versions of the spec stopped supporting the spec altogether. The end users lost all tangible benefits of using SMI.
 
 Now that the Gateway API supports service meshes through the GAMMA initiative, I expect [more service meshes](https://gateway-api.sigs.k8s.io/implementations/#service-mesh-implementation-status) to adopt the API, following Istio's lead.
 
@@ -164,9 +162,11 @@ English is a global standard for communication. Why else would someone several l
 
 But English was enforced top-down. You couldn't reasonably decide one day that everyone should be speaking Hindi unless you had the resources of a colonial superpower from the 17th century.
 
-But we translate languages. I can read "Cien años de soledad" without knowing Spanish by its English translation, "One Hundred Years of Solitude." While translations are hard for natural languages, they are easier for standards written for computers.
+But we translate languages. I can read the book "Cien años de soledad" without knowing Spanish by its English translation, "One Hundred Years of Solitude." While translations are hard for natural languages, they are easier for standards written for computers.
 
-Gateway API also does this with the [ingress2gateway](https://github.com/kubernetes-sigs/ingress2gateway) CLI tool. It can convert configurations defined with the Ingress API to Gateway API configuration. It can also translate implementation-specific annotations or CRDs to the Gateway API through providers. I recently wrote a provider for Apache APISIX.
+Gateway API does this with the [ingress2gateway](https://github.com/kubernetes-sigs/ingress2gateway) CLI tool. It can convert configurations defined with the Ingress API to Gateway API configuration. It can also translate implementation-specific annotations or CRDs to the Gateway API through providers.
+
+I recently wrote a [provider for Apache APISIX](https://github.com/kubernetes-sigs/ingress2gateway/tree/main/pkg/i2gw/providers/apisix).
 
 This is a short-term solution. We won't need this tool in the future because everyone will be using the Gateway API.
 
@@ -178,7 +178,7 @@ Is it inevitable? No.
 
 However, preventing standards from evolving or discarding them in favor of something new would undoubtedly curb development.
 
-Standards should not be seen as bounding boxes to fit into but frameworks to build on top of. If a new standard is needed for this framework, it must exist.
+Standards should not be seen as bounding boxes to fit into but frameworks to build on. If a new standard is needed for this framework, it must exist.
 
 In a perfect world, standards will inevitably converge. But such worlds exist only in alternate universes.
 
