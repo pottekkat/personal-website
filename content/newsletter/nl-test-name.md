@@ -2,7 +2,7 @@
 title: "Test Name"
 layout: "newsletter-theme"
 date: 2024-03-10T15:45:33+05:30
-draft: true
+draft: false
 summary: ""
 tags: ["newsletter"]
 categories: ["Newsletter"]
