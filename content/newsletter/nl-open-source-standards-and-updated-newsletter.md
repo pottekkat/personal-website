@@ -2,7 +2,7 @@
 title: "Open Source, Standards, and an Updated Newsletter!"
 layout: "newsletter-theme"
 date: 2024-03-10T17:45:44+05:30
-draft: true
+draft: false
 ShowToc: true
 TocOpen: true
 summary: "We are so back!"
