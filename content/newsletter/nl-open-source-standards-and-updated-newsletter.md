@@ -1,7 +1,7 @@
 ---
 title: "Open Source, Standards, and an Updated Newsletter!"
 layout: "newsletter-theme"
-date: 2024-03-10T17:45:44+05:30
+date: 2024-03-11T09:45:44+05:30
 draft: false
 ShowToc: true
 TocOpen: true
@@ -75,3 +75,5 @@ I have been wanting to write about standards ever since I started working on the
 In this article, I explain everything I learned about standards through the lens of the Gateway API in an attempt to understand how we can build better standards.
 
 **Read here**: "[How Standards Consolidate](/posts/standards/)"
+
+This week, I will be working on a new article on Nginx.
