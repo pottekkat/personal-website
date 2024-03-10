@@ -1,16 +1,34 @@
 {{- define "main" }}
 
 <header class="page-header">
-  <h1>{{ .Title }}</h1>
+  <h1>
+    {{ .Title }}
+    <a href="/categories/newsletter/index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
 </header>
 
+<article class="post-single">
+<div class="post-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+</article>
+
 <div id="searchbox">
-  <input id="searchInput" autofocus placeholder="{{ .Params.placeholder | default (printf "%s ↵" .Title) }}"
-      aria-label="search" type="search" autocomplete="off" data-omit="Daily Dose of Pottekkat, Newsletter">
+  <input id="searchInput" autofocus placeholder="{{ .Params.placeholder | default (printf "Search ↵") }}"
+      aria-label="search" type="search" autocomplete="off" data-show-only="Newsletter">
   <ul id="searchResults" aria-label="search results"></ul>
 </div>
 
-{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $pages := where site.RegularPages "Type" "in" site.Params.newsletterSections }}
 
 {{- if site.Params.ShowAllPagesInArchive }}
 {{- $pages = site.RegularPages }}
