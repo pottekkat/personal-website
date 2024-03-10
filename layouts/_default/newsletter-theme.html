@@ -29,11 +29,15 @@
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}{{ .Content }}{{ end }}
+    <!-- {{ partial "subscribe.html" . }} -->
   </div>
   <footer class="post-footer">
     {{- if (.Param "ShowPostNavLinks") }}
-    {{- partial "daily_nav_links.html" . }}
+    {{- partial "newsletter_nav_links.html" . }}
     {{- end }}
+    {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
+    {{- partial "share_icons.html" . -}}
+  {{- end }}
   </footer>
 </article>
 
