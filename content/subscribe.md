@@ -14,4 +14,4 @@ Every two months, I send out a newsletter with:
 
 I strive to bring maximum value to my readers with each issue of my newsletter. They are constantly improved based on feedback.
 
-Before subscribing, check out a [past issue](https://mailchi.mp/navendu/abstractions-fonts-and-will-gpt-leave-me-without-a-job) and my [featured posts](/categories/featured/) or learn more [about me](/about).
+Before subscribing, check out [past issues](/newsletters/) and my [featured posts](/categories/featured/) or learn more [about me](/about).

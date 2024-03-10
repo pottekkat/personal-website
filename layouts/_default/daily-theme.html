@@ -34,8 +34,6 @@
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "daily_nav_links.html" . }}
     {{- end }}
-    {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
-    {{- end }}
   </footer>
 </article>
 

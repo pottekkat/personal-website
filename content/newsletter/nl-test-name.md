@@ -1,7 +1,7 @@
 ---
-title: "{{ replace (replace .Name "nl-" "") "-" " " | title }}"
+title: "Test Name"
 layout: "newsletter-theme"
-date: {{ .Date }}
+date: 2024-03-10T15:45:33+05:30
 draft: true
 summary: ""
 tags: ["newsletter"]
