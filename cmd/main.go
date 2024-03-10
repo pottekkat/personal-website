@@ -17,7 +17,7 @@ import (
 var (
 	// available categories of content
 	// 1st value is treated as default and 2nd value has special formatting for its file name
-	contentTypes = []string{"posts", "daily"}
+	contentTypes = []string{"posts", "daily", "newsletter"}
 
 	defaultTitle = "New Blog Post"
 
@@ -64,6 +64,10 @@ func main() {
 
 			filename = currentDate + "-" + filename
 		}
+	}
+
+	if *content == contentTypes[2] {
+		filename = "nl-" + filename
 	}
 
 	arg := filepath.Join(*content, filename+".md")

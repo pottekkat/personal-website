@@ -46,6 +46,7 @@ params:
 
     mainSections: ['posts']
     dailySections: ['daily']
+    newsletterSections: ['newsletter']
     mermaid:
       theme: "dark"
       align: "center"

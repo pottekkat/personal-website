@@ -19,14 +19,18 @@ window.onload = function () {
         let showOnly = searchBox.dataset.showOnly;
         let omit = searchBox.dataset.omit;
 
+        let omitValues = omit ? omit.split(", ") : [];
+
         // Filter data based on "showOnly" and "omit"
         if (showOnly) {
           data = data.filter(function (item) {
             return item.categories.indexOf(showOnly) !== -1;
           });
-        } else if (omit) {
+        } else if (omitValues.length > 0) {
           data = data.filter(function (item) {
-            return item.categories.indexOf(omit) === -1;
+            return omitValues.every(function (value) {
+              return item.categories.indexOf(value) === -1;
+            });
           });
         }
         if (data) {
@@ -94,7 +98,9 @@ sInput.onkeyup = function (e) {
   // run a search query (for "term") every time a letter is typed
   // in the search box
   if (fuse) {
-    const results = fuse.search(this.value.trim(), {limit: params.fuseOpts.limit}); // the actual query being run using fuse.js
+    const results = fuse.search(this.value.trim(), {
+      limit: params.fuseOpts.limit,
+    }); // the actual query being run using fuse.js
     if (results.length !== 0) {
       // build our html if result exists
       let resultSet = ""; // our results bucket
