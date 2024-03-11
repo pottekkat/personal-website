@@ -12,7 +12,7 @@ categories: ["Newsletter"]
 
 The newsletter is back with a new format. Again!
 
-Perhaps the only reason for my infrequent newsletter issues is the effort it takes to publish one. I have good experience with [my blog writing setup](/posts/my-blog-setup-and-writing-process/), but the newsletter works on an entirely different stack.
+Perhaps the only reason for my infrequent newsletter issues is the effort it takes to publish one. I have good experience with [my blog writing setup](https://navendu.me/posts/my-blog-setup-and-writing-process/), but the newsletter works on an entirely different stack.
 
 So, I built an elaborate pipeline to write newsletters using my current setup (as someone would). Now I can write a new issue in my code editor, commit the file to the GitHub repo, and programming magic will deliver it to your spam folder (add my email to your contacts).
 
@@ -74,6 +74,6 @@ I have been wanting to write about standards ever since I started working on the
 
 In this article, I explain everything I learned about standards through the lens of the Gateway API in an attempt to understand how we can build better standards.
 
-**Read here**: "[How Standards Consolidate](/posts/standards/)"
+**Read here**: "[How Standards Consolidate](https://navendu.me/posts/standards/)"
 
 This week, I will be working on a new article on Nginx.
