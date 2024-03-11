@@ -1,7 +1,7 @@
 ---
 title: "How Standards Consolidate"
 date: 2024-03-08T09:45:45+05:30
-draft: true
+draft: false
 ShowToc: true
 TocOpen: true
 ShowRelatedContent: false
