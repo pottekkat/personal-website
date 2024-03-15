@@ -33,7 +33,7 @@ But the problem is a bit more nuanced.
 
 ## Security Policy Interference
 
-In early February, [two security vulnerabilities were discovered](https://mailman.nginx.org/pipermail/nginx-announce/2024/NW6MNW34VZ6HDIHH5YFBIJYZJN7FGNAV.html) in Nginx's HTTP/3 implementation. Per policy, the Nginx developers at F5 disclosed these vulnerabilities and issued CVEs, [CVE-2024-24989](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24989) and [CVE-2024-24990](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24990).
+In early February, [two security vulnerabilities were discovered](https://mailman.nginx.org/pipermail/nginx-announce/2024/NW6MNW34VZ6HDIHH5YFBIJYZJN7FGNAV.html) in Nginx's HTTP/3 implementation. Per policy, the Nginx developers at F5 disclosed these vulnerabilities and issued two CVEs, [CVE-2024-24989](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24989) and [CVE-2024-24990](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24990).
 
 Maxim wasn't happy. He wanted to treat these issues as normal bugs as Nginx's HTTP/3 implementation was still considered experimental.
 
