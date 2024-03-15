@@ -1,6 +1,6 @@
 ---
 title: "Wasn't Nginx Free?"
-date: 2024-03-16T19:08:05+05:30
+date: 2024-03-15T19:53:05+05:30
 draft: true
 ShowToc: true
 TocOpen: true
