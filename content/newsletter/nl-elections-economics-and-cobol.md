@@ -2,7 +2,7 @@
 title: "Elections, Economics, and COBOL"
 layout: "newsletter-theme"
 date: 2024-03-25T08:02:42+05:30
-draft: true
+draft: false
 ShowToc: true
 TocOpen: true
 summary: "There's a lot to talk about."
