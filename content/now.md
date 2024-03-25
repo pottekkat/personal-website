@@ -9,7 +9,7 @@ Here's what I'm doing now.
 
 ## Travels
 
-I will be at the following events in the following months. Say hi!
+I will be at these events in the following months. Say hi!
 
 | Event                                               | Location          | Date         |
 | --------------------------------------------------- | ----------------- | ------------ |
