@@ -7,6 +7,16 @@ description: "What Navendu is doing now."
 
 Here's what I'm doing now.
 
+## Travels
+
+I will be at the following events in the following months. Say hi!
+
+| Event                                               | Location          | Date         |
+| --------------------------------------------------- | ----------------- | ------------ |
+| [FOSSMeet](https://www.fossmeet.net/)               | Kozhikode, Kerala | 23, 24 March |
+| [FOSSASIA Summit](https://eventyay.com/e/55d2a466/) | Hanoi, Vietnam    | 5-11 April   |
+| [KCD Pune](https://kcdpune.in/)                     | Pune, Maharashtra | 13 April     |
+
 ## Full-Time Job
 
 I work full-time at [API7.ai](https://api7.ai/), where I help build [Apache APISIX](https://apisix.apache.org/).
