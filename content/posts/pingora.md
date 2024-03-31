@@ -1,11 +1,11 @@
 ---
 title: "Pingora is Not an Nginx Replacement"
-date: 2024-03-29T09:33:09+05:30
-draft: true
+date: 2024-03-31T22:19:09+05:30
+draft: false
 ShowToc: false
 ShowRelatedContent: false
 summary: "But here's another viable Nginx replacement."
-tags: ["pingora", "nginx", "apache apisix"]
+tags: ["pingora", "nginx", "software engineering"]
 categories: ["API Gateway"]
 cover:
     image: "/images/pingora/pingora-banner.jpg"
