@@ -25,6 +25,13 @@
 {{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
 {{- end }}
 
+<!-- Only show authors if they are explicitly mentioned in the post metadata -->
+{{- if or .Params.author }}
+{{- with (partial "author.html" .) }}
+{{- $scratch.Add "meta" (slice .) }}
+{{- end }}
+{{- end }}
+
 {{- with ($scratch.Get "meta") }}
 {{- delimit . "&nbsp;·&nbsp;" -}}
 {{- end -}}
