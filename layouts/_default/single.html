@@ -63,6 +63,9 @@
     {{ if (.Params.mermaid) }}
     {{ partial "mermaid.html" }}
     {{ end }}
+    {{ if (.Params.CodapiURL) }}
+    <codapi-settings url="http://{{ (.Params.CodapiURL) }}"></codapi-settings>
+    {{ end }}
     {{ partial "subscribe.html" . }}
   </div>
   {{- end }}

@@ -1,0 +1,1 @@
+(()=>{var e=window.codapi??{};e.version="0.19.5";e.engines=e.engines??{};e.settings=e.settings??{};window.codapi=e;var t=class extends HTMLElement{connectedCallback(){this.ready||(e.settings.url=this.getAttribute("url"),this.ready=!0)}attributeChangedCallback(n,d,s){e.settings[n]=s}};window.customElements.get("codapi-settings")||customElements.define("codapi-settings",t);})();
