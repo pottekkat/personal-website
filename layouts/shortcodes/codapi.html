@@ -1,0 +1,8 @@
+{{ if ( .Page.Params.EnableCodapi ) }}
+<codapi-snippet
+{{ if .Get "sandbox" }}sandbox="{{ .Get "sandbox" }}"{{ end }}
+{{ if .Get "editor" }}editor="{{ .Get "editor" }}"{{ end }}
+{{ if .Get "selector" }}selector="{{ .Get "selector" }}"{{ end }}
+>
+</codapi-snippet>
+{{ end }}

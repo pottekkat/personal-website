@@ -210,6 +210,10 @@
     word-break: break-all;
 }
 
+.post-content pre code:focus-within {
+    outline: 0;
+}
+
 .post-content blockquote {
     margin: 20px 0;
     padding: 0 14px;
@@ -411,4 +415,32 @@ a.footnote-ref::before {
 
 a.footnote-ref::after {
     content: ']';
+}
+
+codapi-snippet {
+    display: block;
+    margin-bottom: var(--content-gap);
+}
+
+codapi-snippet codapi-toolbar {
+    font-family: monospace;
+    font-size: 0.78em;
+}
+
+/* Custom styles for Codapi buttons similar to share buttons */
+codapi-snippet codapi-toolbar button {
+    padding-inline-start: 14px;
+    padding-inline-end: 14px;
+    background: var(--primary);
+    color: var(--code-bg);
+    border: none; /* Removes the default button border */
+}
+
+codapi-snippet codapi-toolbar button:hover {
+    background: var(--code-bg);
+    color: var(--primary);
+}
+
+codapi-snippet codapi-toolbar button:after {
+    content: " ▶";
 }

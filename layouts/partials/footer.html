@@ -131,6 +131,9 @@
         }
     });
 </script>
+{{- end }}
+
+{{- if (and (eq .Kind "page") (ne .Layout "archives") (ne .Layout "search")) }}
 <script>
     var els = document.getElementsByClassName("highlight");
     for (var i = 0; i < els.length; i++) {
@@ -143,5 +146,38 @@
         code.parentNode.insertBefore(newNode, code);
     }
 }
+</script>
+{{- end }}
+
+{{- if (and (eq .Kind "page") (ne .Layout "archives") (ne .Layout "search") (.Param "EnableCodapi")) }}
+
+{{- $snippet := slice (resources.Get "js/codapi/snippet.js") | resources.Concat "assets/js/codapi/snippet.js" | fingerprint }}
+<script src="{{ $snippet.RelPermalink }}"></script>
+
+{{- $settings := slice (resources.Get "js/codapi/settings.js") | resources.Concat "assets/js/codapi/settings.js" | fingerprint }}
+<script src="{{ $settings.RelPermalink }}"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+ var isEditing = false; // Flag to track if the code block is being edited
+
+ // Listen for focusin event on the document
+ document.addEventListener("focusin", function (event) {
+    if (event.target.tagName === "CODE" && !isEditing) {
+      var highlightTitle = event.target.parentNode.querySelector(".highlight-title");
+      highlightTitle.textContent += " (editing)";
+      isEditing = true; // Set the flag to true to indicate that editing has started
+    }
+ }, true); // Use capture to ensure the event is captured on the code block itself
+
+ // Listen for focusout event on the document
+ document.addEventListener("focusout", function (event) {
+    if (event.target.tagName === "CODE" && isEditing) {
+      var highlightTitle = event.target.parentNode.querySelector(".highlight-title");
+      highlightTitle.textContent = highlightTitle.textContent.replace(" (editing)", "");
+      isEditing = false; // Reset the flag to indicate that editing has ended
+    }
+ }, true); // Use capture to ensure the event is captured on the code block itself
+});
 </script>
 {{- end }}
