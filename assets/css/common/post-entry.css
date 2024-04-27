@@ -94,6 +94,16 @@
     display: inline;
 }
 
+.entry-cover,
+.entry-isexperimental {
+    font-size: 14px;
+    color: var(--secondary);
+}
+
+.entry-isexperimental {
+    display: inline;
+}
+
 .entry-cover {
     margin-bottom: var(--gap);
     text-align: center;

@@ -1,28 +1,12 @@
 {{- $scratch := newScratch }}
 
-{{- if not .Date.IsZero -}}
-{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default "January 2, 2006" site.Params.DateFormat)))) }}
-{{- end }}
-
 {{- $date := .Date.Format "02.01.2006" -}}
 {{- $lastmod := .Lastmod.Format "02.01.2006" -}}
 
 {{- if (.Param "ShowLastMod") -}}
-{{- if .GitInfo -}}
-{{- if in .GitInfo.Subject "update site" -}}
 {{- if ne $lastmod $date -}}
-{{- $scratch.Add "meta" (slice (printf "<span title='%s'>Updated On %s</span>" (.Lastmod) (.Lastmod.Format (default "January 2, 2006" .Site.Params.DateFormat)))) }}
+{{- $scratch.Add "meta" (slice (printf "<span title='%s'>Last Updated On %s</span>" (.Lastmod) (.Lastmod.Format (default "January 2, 2006" .Site.Params.DateFormat)))) }}
 {{- end }}
-{{- end }}
-{{- end }}
-{{- end }}
-
-{{- if (.Param "ShowReadingTime") -}}
-{{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
-{{- end }}
-
-{{- if (.Param "ShowWordCount") -}}
-{{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
 {{- end }}
 
 <!-- Only show authors if they are explicitly mentioned in the post metadata -->
