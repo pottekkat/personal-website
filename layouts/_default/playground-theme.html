@@ -26,6 +26,9 @@
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}{{ .Content }}{{ end }}
+    {{ if (.Params.CodapiURL) }}
+    <codapi-settings url="http://{{ (.Params.CodapiURL) }}"></codapi-settings>
+    {{ end }}
     <!-- {{ partial "subscribe.html" . }} -->
   </div>
   <footer class="post-footer">
