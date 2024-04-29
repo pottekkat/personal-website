@@ -1,0 +1,11 @@
+routes:
+  - id: playground-headers
+    uri: /headers
+    upstream:
+      nodes:
+        httpbin.org:443: 1
+        mock.api7.ai:443: 1
+      type: roundrobin
+      pass_host: node
+      scheme: https
+#END
