@@ -222,4 +222,4 @@ curl "http://127.0.0.1:9080/anything/fun"
 
 {{< codapi sandbox="apisix" editor="basic" files="#play-anything.yaml:apisix.yaml" >}}
 
-This playground is powered by [Codapi](https://github.com/nalgeon/codapi/). A huge thank you to [Anton Zhiyanov](https://github.com/nalgeon) for helping me set it up.
+This playground is powered by [Codapi](https://github.com/nalgeon/codapi/). A huge thank you to its creator, [Anton Zhiyanov](https://github.com/nalgeon).
