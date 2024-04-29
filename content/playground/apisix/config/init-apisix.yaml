@@ -1,0 +1,8 @@
+routes:
+  - id: init-apisix
+    uri: /anything/*
+    upstream:
+      nodes:
+        httpbin.org:80: 1
+      type: roundrobin
+#END
