@@ -7,7 +7,7 @@ date: 2024-04-26T17:22:00+05:30
 lastmod: 2024-04-28T09:22:00+05:30
 experimental: true
 EnableCodapi: true
-CodapiURL: 64.225.85.51:1313/v1
+CodapiURL: codapi.navendu.me/v1
 ShowCodeCopyButtons: false
 tags: ["playground", "apisix", "codapi"]
 categories: ["Playground"]
