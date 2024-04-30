@@ -4,7 +4,7 @@ layout: "playground-theme"
 description: "Getting up and running with Apache APISIX."
 summary: "A playground for Apache APISIX."
 date: 2024-04-26T17:22:00+05:30
-lastmod: 2024-04-28T09:22:00+05:30
+lastmod: 2024-04-29T21:22:00+05:30
 experimental: true
 EnableCodapi: true
 CodapiURL: codapi.navendu.me/v1
