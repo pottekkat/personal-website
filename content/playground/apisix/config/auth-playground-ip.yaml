@@ -1,0 +1,15 @@
+consumers:
+  - username: Nicolas
+    plugins:
+      key-auth:
+        key: sUpEr-seCRet-keY
+routes:
+  - id: playground-ip
+    uri: /ip
+    upstream:
+      nodes:
+        httpbin.org:80: 1
+      type: roundrobin
+    plugins:
+      key-auth: {}
+#END
