@@ -1,0 +1,13 @@
+routes:
+  - id: playground-ip
+    uri: /ip
+    upstream:
+      nodes:
+        httpbin.org:80: 1
+      type: roundrobin
+    plugins:
+      limit-count:
+        count: 2
+        time_window: 10
+        rejected_code: 429
+#END
