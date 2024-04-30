@@ -32,14 +32,10 @@ events {
 }
 
 http {
-    upstream httpbin {
-        server httpbin.org:80;
-    }
-
     server {
         listen 80;
 
-        location /anything/test {
+        location /ip {
             proxy_pass http://httpbin.org:80;
         }
     }
@@ -51,7 +47,7 @@ http {
 Use curl to test your configuration:
 
 ```shell
-curl "http://127.0.0.1:80/anything/test"
+curl "http://127.0.0.1:80/ip"
 ```
 
 {{< codapi sandbox="nginx" editor="basic" files="#nginx.conf:nginx.conf" >}}
