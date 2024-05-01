@@ -10,7 +10,7 @@ ShowCodeCopyButtons: false
 tags: ["playground", "codapi"]
 categories: ["Playground"]
 cover:
-    image: "/images/{{ .Name }}/"
+    image: "/images/pl-{{ .Name }}/"
     alt: ""
     relative: false
     hidden: true
