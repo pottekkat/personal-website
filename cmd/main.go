@@ -17,7 +17,7 @@ import (
 var (
 	// available categories of content
 	// 1st value is treated as default and 2nd value has special formatting for its file name
-	contentTypes = []string{"posts", "daily", "newsletter"}
+	contentTypes = []string{"posts", "daily", "newsletter", "playground"}
 
 	defaultTitle = "New Blog Post"
 
@@ -72,6 +72,10 @@ func main() {
 
 	arg := filepath.Join(*content, filename+".md")
 
+	if *content == contentTypes[3] {
+		arg = filepath.Join(*content, filename, "index.md")
+	}
+
 	fmt.Printf("creating file: %s\n", filename)
 
 	// create new file through hugo
@@ -83,6 +87,10 @@ func main() {
 		}
 	} else {
 		fmt.Printf("error creating a new file: file \"%s\" already exists\n", arg)
+	}
+
+	if *content == contentTypes[3] {
+		filename = "pl-" + filename
 	}
 
 	// create image folder if needed (static/images/<name-of-the-file>)
