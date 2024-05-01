@@ -25,12 +25,6 @@ So here's a sandboxed instance of Nginx that you can play with. I tried using it
 Edit your Nginx configration file:
 
 ```nginx {id="nginx.conf"}
-worker_processes 1;
-
-events {
-    worker_connections 32;
-}
-
 http {
     server {
         listen 80;
@@ -46,10 +40,12 @@ http {
 
 Use curl to test your configuration:
 
-```shell
+```shell {id="main.sh"}
 curl "http://127.0.0.1:80/ip"
 ```
 
-{{< codapi sandbox="nginx" editor="basic" files="#nginx.conf:nginx.conf" >}}
+{{< codapi sandbox="nginx" editor="basic" hidden=true >}}
+
+{{< codapi sandbox="nginx" editor="basic" files="#main.sh:main.sh" template="conf/template.conf" selector="#nginx\.conf > pre > code" >}}
 
 This playground is powered by [Codapi](https://github.com/nalgeon/codapi/). A huge thank you to its creator, [Anton Zhiyanov](https://github.com/nalgeon).
