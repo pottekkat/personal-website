@@ -27,7 +27,7 @@
     {{- else }}{{ .Content }}{{ end }}
     {{ if in .Params.categories "Playground" }}
     {{ $currentPage :=.Page.Permalink }}
-    <p>Try these playgrounds as well::</p>
+    <p>You might also like:</p>
     {{ $playgrounds := where .Site.RegularPages "Params.categories" "intersect" (slice "Playground") }}
     <ul class="playgrounds">
     {{ range sort $playgrounds "Date" }}
