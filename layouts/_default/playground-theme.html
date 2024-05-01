@@ -25,6 +25,20 @@
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}{{ .Content }}{{ end }}
+    {{ if in .Params.categories "Playground" }}
+    {{ $currentPage :=.Page.Permalink }}
+    <p>Also checkout these playgrounds:</p>
+    {{ $playgrounds := where .Site.RegularPages "Params.categories" "intersect" (slice "Playground") }}
+    <ul class="playgrounds">
+    {{ range sort $playgrounds "Date" }}
+          {{ if ne $currentPage .Permalink }}
+          <li>
+            <a href="{{.Permalink}}">{{.LinkTitle}}</a>
+          </li>
+          {{ end }}
+    {{end}}
+    </ul>
+    {{end}}
     {{ if (.Params.CodapiURL) }}
     <codapi-settings url="https://{{ (.Params.CodapiURL) }}"></codapi-settings>
     {{ end }}
