@@ -4,7 +4,6 @@ layout: "playground-theme"
 description: "An interactive playground for Nginx, the world's most popular web server."
 summary: "A playground for Nginx."
 date: 2024-04-28T17:22:00+05:30
-lastmod: 2024-05-01T10:21:22+05:30
 experimental: true
 EnableCodapi: true
 CodapiURL: codapi.navendu.me/v1
