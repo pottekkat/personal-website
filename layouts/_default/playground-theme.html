@@ -27,13 +27,13 @@
     {{- else }}{{ .Content }}{{ end }}
     {{ if in .Params.categories "Playground" }}
     {{ $currentPage :=.Page.Permalink }}
-    <p>You might also like:</p>
+    <p><i>You might also like:</i></p>
     {{ $playgrounds := where .Site.RegularPages "Params.categories" "intersect" (slice "Playground") }}
     <ul class="playgrounds">
     {{ range sort $playgrounds "Date" }}
           {{ if ne $currentPage .Permalink }}
           <li>
-            <a href="{{.Permalink}}">{{.LinkTitle}}</a>
+            <strong><a href="{{.Permalink}}">{{.LinkTitle}}</a></strong>: {{.Description}}
           </li>
           {{ end }}
     {{end}}
