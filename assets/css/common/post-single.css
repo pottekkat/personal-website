@@ -259,7 +259,7 @@
 }
 
 .toc {
-    margin: 0 2px 40px 2px;
+    margin: 0 0px 40px 0px;
     border: 1px solid var(--border);
     background: var(--code-bg);
     border-radius: var(--radius);
