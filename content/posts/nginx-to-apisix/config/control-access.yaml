@@ -1,0 +1,12 @@
+routes: 
+  - id: control-access
+    uri: /anything/*
+    plugins: 
+      ip-restriction: 
+        whitelist: 
+        - 192.168.1.0/24
+    upstream: 
+      type: roundrobin
+      nodes: 
+        httpbin.org:80: 1
+#END
