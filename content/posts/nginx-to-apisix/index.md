@@ -1,6 +1,6 @@
 ---
 title: "F5 Nginx to Apache APISIX"
-date: 2024-05-01T17:51:45+05:30
+date: 2024-05-03T21:08:45+05:30
 draft: true
 ShowToc: true
 TocOpen: true
@@ -20,13 +20,23 @@ cover:
 
 For most of us, Nginx is just an abstraction of the underlying network.
 
-While it was enough for the past two decades, the proliferation of APIs as the standard building blocks for applications, now calls for better, API-first abstractions.
+That's the primary reason why we still use Nginx and think it's a fine choice as a capable web server, reverse proxy, load balancer, and more. Even when I wrote about Cloudflare's migration to Pingora in an article titled "Nginx is Probably Fine," most, if not all, comments were, "Who said otherwise?"
 
-API gateways fit neatly in this increasingly API-first world allowing developers to focus on building applications to handle business problems while leaving the network configurations to the API gateway.
+While Nginx has _served_ us well for the past two decades (pun intended), the proliferation of APIs as the standard building blocks for modern applications demands better, API-first abstractions. _Well, hello, Apache APISIX!_
 
-APISIX is an API gateway built on top of Nginx (OpenResty) maintained by the Apache Software Foundation. An API gateway is a proxy with a lot of features, like fine-grained traffic control, authentication, observability, and more.
+Apache APISIX is a high-performance API gateway built on top of Nginx (OpenResty). As the name suggests, APISIX is maintained by the Apache Software Foundation.
+
+An API gateway can be seen as a reverse proxy, with capabilities like fine-grained traffic control, authentication, observability, and more. To put it simply, APISIX can do what Nginx does and more.
+
+This is precisely the reason why people decide to move from Nginx to APISIX; you get what you have with Nginx and more.
+
+This interactive article attempts to ease this migration by taking Nginx users through their typical use cases with APISIX without compromising familiarity.
 
 ## Proxy Requests
+
+Forwarding client requests to an upstream and returning the responses is a primary requirement for any Nginx replacement.
+
+In Nginx, you proxy requests using the `proxy_pass` directive:
 
 ```nginx {title="nginx.conf", id="proxy-requests-nginx.conf"}
 http {
@@ -41,13 +51,19 @@ http {
 
 {{< codapi sandbox="nginx" editor="off" hidden=true >}}
 
+<!-- Try sending a request to test this configuration:
+
 ```shell {id="proxy-requests-main.sh"}
 curl "http://127.0.0.1:80/anything/example"
 ```
 
 {{< codapi sandbox="nginx" editor="off" hidden=true >}}
 
-{{< codapi sandbox="nginx" editor="off" files="#proxy-requests-main.sh:main.sh" template="conf/template.conf" selector="#proxy-requests-nginx\.conf > pre > code" >}}
+{{< codapi sandbox="nginx" editor="off" files="#proxy-requests-main.sh:main.sh" template="conf/template.conf" selector="#proxy-requests-nginx\.conf > pre > code" >}} -->
+
+You can configure APISIX similarly through _routes_.
+
+At its minimum, a route defines how a request is matched and where it is routed to. The example below shows how APISIX can be configured to route to `httpbin.org:80` as in the Nginx configuration above:
 
 ```yaml {title="apisix.yaml"}
 routes:
@@ -60,13 +76,21 @@ routes:
 #END
 ```
 
+Try testing if this configuration works:
+
 ```shell
 curl "http://127.0.0.1:9080/anything/example"
 ```
 
 {{< codapi sandbox="apisix" editor="off" files="./config/proxy-requests.yaml:apisix.yaml" >}}
 
+Typically, you will have multiple routes to match different conditions before proxying requests to upstreams. These routes then have _plugins_ for features like caching and authentication. We will see plugins in action in later examples.
+
 ## Balance Load
+
+Nginx is widely used as a load balancer to distribute client requests between multiple upstreams.
+
+You typically configure these upstreams in an `upstream` block and reference it in the `proxy_pass` directive:
 
 ```nginx {title="nginx.conf"}
 http {
@@ -85,6 +109,8 @@ http {
 }
 ```
 
+APISIX follows a similar configuration where you can define multiple upstream nodes. The configuration below mimics the load balancer configuration of Nginx:
+
 ```yaml {title="apisix.yaml"}
 routes:
   - id: playground-headers
@@ -99,13 +125,21 @@ routes:
 #END
 ```
 
+If you try sending multiple requests using the below command, you will see that the requests are load balanced between the two upstreams:
+
 ```shell
 curl "http://127.0.0.1:9080/headers"
 ```
 
 {{< codapi sandbox="apisix" editor="off" files="./config/balance-load.yaml:apisix.yaml" >}}
 
+Load balancing between multiple upstream instances is useful for building reliable applications. APISIX also supports other load balancing algorithms like consistent hashing (`chash`), which is useful for [setting up session persistence](https://blog.frankel.ch/sticky-sessions-apache-apisix/).
+
 ## Serve Static Files
+
+The last two examples involved proxying to an application server upstream. But Nginx is also used for serving static files as it is. In fact, most production Nginx instances will just be serving static files.
+
+You typically configure Nginx to cache these files as well. The configuration below uses regular expressions in the location block for matching files based on their extensions:
 
 ```nginx {title="nginx.conf"}
 http {
@@ -119,6 +153,10 @@ http {
     }
 }
 ```
+
+APISIX supports complex route matching through variables. A combination of these variable matches can most often help achieve desired results.
+
+To cache the responses, you can enable the `proxy-cache` plugin on the route:
 
 ```yaml {title="apisix.yaml"}
 routes:
@@ -145,7 +183,15 @@ curl "http://127.0.0.1:9080/whatwg/html/main/404.html"
 
 {{< codapi sandbox="apisix" editor="off" files="./config/static-files.yaml:apisix.yaml" >}}
 
+APISIX comes with around 90 plugins, including the `proxy-cache` plugin, out of the box, and you can configure these plugins on your routes to achieve additional functionalities.
+
+If these plugins don't satisfy your needs, you can even write your own custom plugins.
+
 ## Terminate SSL
+
+Nginx is often configured to terminate SSL traffic to relieve upstreams of this additional burden.
+
+This is done by providing Nginx with the certificate and the private key, which it can use for decrypting HTTPS traffic before proxying upstream:
 
 ```nginx {title="nginx.conf"}
 http {
@@ -160,6 +206,8 @@ http {
     }
 }
 ```
+
+APISIX has an almost identical configuration:
 
 ```yaml {title="apisix.yaml"}
 ssls:
@@ -177,7 +225,11 @@ routes:
 #END
 ```
 
+Instead of passing the certificate and the key directly, we use environment variables, which will automatically be resolved by APISIX.
+
 ## Control Access
+
+In Nginx, you use the `allow` and `deny` directives to control which IP addresses can access your services. This setup is often used as a basic firewall:
 
 ```nginx {title="nginx.conf"}
 http {
@@ -191,6 +243,8 @@ http {
     }
 }
 ```
+
+APISIX can be configured similarly with `whitelist` and `blacklist` in the `ip-restriction` plugin:
 
 ```yaml {title="apisix.yaml"}
 routes: 
@@ -213,4 +267,24 @@ curl "http://127.0.0.1:9080/anything/example"
 
 {{< codapi sandbox="apisix" editor="off" files="./config/control-access.yaml:apisix.yaml" >}}
 
+APISIX also has other security plugins to extend access control like `ua-restriction` and `referer-restriction`, and integrates with external WAF solutions.
+
 ## Custom Configuration
+
+APISIX provides extension points to modify its internal Nginx configuration.
+
+For example, you can configure Nginx to run in the background by adding this snippet to your APISIX configuration file:
+
+```yaml {title="conf/config.yaml"}
+nginx_config:
+  main_configuration_snippet: |
+    daemon on;
+```
+
+This will add the `daemon on;` directive to the Nginx configuration file used by APISIX.
+
+Similar extension points allow you to add directives to the `http` and `server` blocks as well.
+
+This article is not meant to be an exhaustive list of APISIX's or Nginx's capabilities. The best place to build on this understanding is the official docs.
+
+Or, if you are in the mood to play, you can try this experimental APISIX playground.
