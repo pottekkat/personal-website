@@ -1,6 +1,6 @@
 baseURL: https://navendu.me/
 languageCode: en-us
-title: "Navendu Pottekkat"
+title: "Navendu Pottekkat - The Open Source Absolutist"
 theme: ["PaperMod", "plausible-hugo"]
 paginate: 200000
 
@@ -37,7 +37,7 @@ related:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: "Navendu Pottekkat"
-    description: "\"May the Source Be with You\" is Navendu Pottekkat's personal blog, where he writes about his work and life as an open source contributor/maintainer."
+    description: "\"The Open Source Absolutist\" is Navendu Pottekkat's personal blog, where he writes about his work and life as an open source contributor/maintainer."
     keywords: [Navendu, Pottekkkat, Blog, Portfolio, Resume]
     author: "Navendu Pottekkat"
     DateFormat: "January 2, 2006"
@@ -83,9 +83,9 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "May the Source Be with You"
+        Title: "The Open Source Absolutist"
         Content:
-          Intro: I'm Navendu, and welcome to my brain dump.
+          Intro: I’m Navendu and welcome to The Open Source Absolutist, aka my brain dump.
           About: I write about my work and life as an open source contributor/maintainer and an amateur [policy analyst](/categories/public-policy/) ([what am I doing now?](/now/)).
           Action: If you're here for the first time, try my [featured posts](/categories/featured/) or learn more [about me](/about). Make sure to subscribe via [email](/subscribe) or [RSS](/index.xml) to get regular updates.
 
