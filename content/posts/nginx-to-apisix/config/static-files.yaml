@@ -1,0 +1,14 @@
+routes:
+  - id: static-files
+    uri: "/whatwg/*"
+    vars:
+      - - uri
+        - "~~"
+        - "(.jpeg|.html)$"
+    upstream:
+      type: roundrobin
+      scheme: https
+      pass_host: node
+      nodes:
+        raw.githubusercontent.com: 1
+#END
