@@ -1,7 +1,7 @@
 ---
 title: "F5 Nginx to Apache APISIX"
-date: 2024-05-03T21:08:45+05:30
-draft: true
+date: 2024-05-04T21:08:45+05:30
+draft: false
 ShowToc: true
 TocOpen: true
 ShowRelatedContent: false
@@ -20,15 +20,15 @@ cover:
 
 For most of us, Nginx is just an abstraction of the underlying network.
 
-That's the primary reason why we still use Nginx and think it's a fine choice as a capable web server, reverse proxy, load balancer, and more. Even when I wrote about Cloudflare's migration to Pingora in an article titled "Nginx is Probably Fine," most, if not all, comments were, "Who said otherwise?"
+That's the primary reason why we still use Nginx and think it's a fine choice as a capable web server, reverse proxy, load balancer, and more. Even when I wrote about Cloudflare's migration to Pingora in an article titled "[Nginx is Probably Fine](/posts/nginx-is-fine/)," most, if not all, comments were, "Who said otherwise?"
 
 While Nginx has _served_ us well for the past two decades (pun intended), the proliferation of APIs as the standard building blocks for modern applications demands better, API-first abstractions. _Well, hello, Apache APISIX!_
 
-Apache APISIX is a high-performance API gateway built on top of Nginx (OpenResty). As the name suggests, APISIX is maintained by the Apache Software Foundation.
+[Apache APISIX](https://apisix.apache.org) is a high-performance API gateway built on top of Nginx (OpenResty). As the name suggests, APISIX is maintained by the Apache Software Foundation.
 
-An API gateway can be seen as a reverse proxy, with capabilities like fine-grained traffic control, authentication, observability, and more. To put it simply, APISIX can do what Nginx does and more.
+An [API gateway](/categories/api-gateway/) can be seen as a reverse proxy with capabilities like fine-grained traffic control, authentication, and observability. To put it simply, Apache APISIX can do what Nginx does _and more._
 
-This is precisely the reason why people decide to move from Nginx to APISIX; you get what you have with Nginx and more.
+People move from Nginx to APISIX precisely because of this reason.
 
 This interactive article attempts to ease this migration by taking Nginx users through their typical use cases with APISIX without compromising familiarity.
 
@@ -84,7 +84,7 @@ curl "http://127.0.0.1:9080/anything/example"
 
 {{< codapi sandbox="apisix" editor="off" files="./config/proxy-requests.yaml:apisix.yaml" >}}
 
-Typically, you will have multiple routes to match different conditions before proxying requests to upstreams. These routes then have _plugins_ for features like caching and authentication. We will see plugins in action in later examples.
+Typically, you will have multiple routes to match different conditions before proxying requests to upstreams. These routes then have _plugins_ for features like caching and authentication. _We will see plugins in action in later examples._
 
 ## Balance Load
 
@@ -109,7 +109,7 @@ http {
 }
 ```
 
-APISIX follows a similar configuration where you can define multiple upstream nodes. The configuration below mimics the load balancer configuration of Nginx:
+APISIX follows a similar configuration where you can define multiple upstream _nodes_. The configuration below mimics the load balancer configuration of Nginx:
 
 ```yaml {title="apisix.yaml"}
 routes:
@@ -244,7 +244,7 @@ http {
 }
 ```
 
-APISIX can be configured similarly with `whitelist` and `blacklist` in the `ip-restriction` plugin:
+APISIX can be configured similarly with the `whitelist` and `blacklist` attributes in the `ip-restriction` plugin:
 
 ```yaml {title="apisix.yaml"}
 routes: 
@@ -271,7 +271,7 @@ APISIX also has other security plugins to extend access control like `ua-restric
 
 ## Custom Configuration
 
-APISIX provides extension points to modify its internal Nginx configuration.
+APISIX also provides extension points to modify its internal Nginx configuration.
 
 For example, you can configure Nginx to run in the background by adding this snippet to your APISIX configuration file:
 
@@ -283,8 +283,12 @@ nginx_config:
 
 This will add the `daemon on;` directive to the Nginx configuration file used by APISIX.
 
-Similar extension points allow you to add directives to the `http` and `server` blocks as well.
+Similar extension points also allow you to add directives to the `http` and `server` blocks.
 
-This article is not meant to be an exhaustive list of APISIX's or Nginx's capabilities. The best place to build on this understanding is the official docs.
+---
 
-Or, if you are in the mood to play, you can try this experimental APISIX playground.
+This article is not meant to be an exhaustive list of APISIX's or Nginx's capabilities. It also doesn't mean I'm advocating for everyone to ditch Nginx and move to APISIX.
+
+My goal for this article was to highlight the similarities in capabilities between Nginx and APISIX and offer an alternative to Nginx users who want more. Still, for many users, Nginx is probably fine.
+
+If you are migrating to APISIX, the best place to start is the [APISIX documentation](https://apisix.apache.org/). Or, if you are in the mood to play, you can try this experimental [APISIX playground](/playground/apisix/).
