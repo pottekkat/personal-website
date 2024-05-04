@@ -103,7 +103,7 @@ Thank you for reading. I am generally not an “open book”. I don’t know why
 
 _May the source be with you,_
 
-**Navendu Pottekkat**
+![Navendu Pottekkat](/logo.svg)
 
 17th November 2021\
 _(Updated on 19th March 2022)_
