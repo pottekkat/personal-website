@@ -44,6 +44,10 @@ params:
     defaultTheme: dark # dark, light, auto
     disableThemeToggle: true
 
+    label:
+      iconSVG: "static/logo.svg"
+      iconHeight: "25px"
+
     mainSections: ['posts']
     dailySections: ['daily']
     newsletterSections: ['newsletter']
