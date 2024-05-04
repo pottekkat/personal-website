@@ -38,7 +38,7 @@ Forwarding client requests to an upstream and returning the responses is a prima
 
 In Nginx, you proxy requests using the `proxy_pass` directive:
 
-```nginx {title="nginx.conf", id="proxy-requests-nginx.conf"}
+```nginx {title="nginx.conf"}
 http {
     server {
         listen 80;
@@ -48,18 +48,6 @@ http {
     }
 }
 ```
-
-{{< codapi sandbox="nginx" editor="off" hidden=true >}}
-
-<!-- Try sending a request to test this configuration:
-
-```shell {id="proxy-requests-main.sh"}
-curl "http://127.0.0.1:80/anything/example"
-```
-
-{{< codapi sandbox="nginx" editor="off" hidden=true >}}
-
-{{< codapi sandbox="nginx" editor="off" files="#proxy-requests-main.sh:main.sh" template="conf/template.conf" selector="#proxy-requests-nginx\.conf > pre > code" >}} -->
 
 You can configure APISIX similarly through _routes_.
 
