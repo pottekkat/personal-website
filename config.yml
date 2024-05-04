@@ -38,7 +38,7 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: "Navendu Pottekkat"
     description: "\"The Open Source Absolutist\" is Navendu Pottekkat's personal blog, where he writes about his work and life as an open source contributor/maintainer."
-    keywords: [Navendu, Pottekkkat, Blog, Portfolio, Resume]
+    keywords: ["Navendu Pottekkkat", "Personal Blog", "The Open Source Absolutist"]
     author: "Navendu Pottekkat"
     DateFormat: "January 2, 2006"
     defaultTheme: dark # dark, light, auto
