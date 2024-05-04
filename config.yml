@@ -85,7 +85,7 @@ params:
     homeInfoParams:
         Title: "The Open Source Absolutist"
         Content:
-          Intro: I’m Navendu and welcome to The Open Source Absolutist, aka my brain dump.
+          Intro: I’m Navendu and welcome to "The Open Source Absolutist," aka my brain dump.
           About: I write about my work and life as an open source contributor/maintainer and an amateur [policy analyst](/categories/public-policy/) ([what am I doing now?](/now/)).
           Action: If you're here for the first time, try my [featured posts](/categories/featured/) or learn more [about me](/about). Make sure to subscribe via [email](/subscribe) or [RSS](/index.xml) to get regular updates.
 
