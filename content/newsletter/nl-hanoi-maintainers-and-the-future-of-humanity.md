@@ -53,8 +53,8 @@ I wrote two new articles this week.
 
 The first is about Pingora, a Rust library for building network interfaces. Cloudflare originally built it to replace Nginx, but there are other Nginx alternatives that might be better suited for many, if not most, users.
 
-**Read here**: "[Pingora is not an Nginx Replacement](/posts/pingora/)"
+**Read here**: "[Pingora is not an Nginx Replacement](https://navendu.me/posts/pingora/)"
 
 I also wrote a mini essay on AI regulation, focusing on the upcoming elections worldwide and the unquestioned impact AI will have on them. Also, mini essays are a thing now.
 
-**Read here**: "[An Even Playing Field](/posts/even-playing-field/)"
+**Read here**: "[An Even Playing Field](https://navendu.me/posts/even-playing-field/)"
