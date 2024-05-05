@@ -14,9 +14,9 @@ categories: ["Newsletter"]
 
 ## Curated Links
 
-text ... check these out:
+Introduce the theme of the links:
 
-- - **[Title](https://full-link-here)**: Text
+- **[Title](https://link)**: Describe why you shared the link.
 
 ## Hot off the Press
 
