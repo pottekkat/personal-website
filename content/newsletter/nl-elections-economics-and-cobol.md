@@ -44,7 +44,7 @@ It was another "our jobs are over" kind of week for programmers, and the demos l
 
 Devin's creators report that it can solve 1/7 GitHub issues correctly. Not bad considering the novelty of the technology.
 
-{{< figure src="/images/nl-elections-economics-and-cobol/ai-jobs.jpg#center" title="Thousands of AI Authors on the Future of AI" caption="If science continues undisrupted, the chance of unaided machines outperforming humans in every possible task was estimated at 10% by 2027, and 50% by 2047 ([source](https://aiimpacts.org/wp-content/uploads/2023/04/Thousands_of_AI_authors_on_the_future_of_AI.pdf))." link="/images/nl-elections-economics-and-cobol/ai-jobs.jpg" target="_blank" class="align-center" >}}
+<!-- {{< figure src="/images/nl-elections-economics-and-cobol/ai-jobs.jpg#center" title="Thousands of AI Authors on the Future of AI" caption="If science continues undisrupted, the chance of unaided machines outperforming humans in every possible task was estimated at 10% by 2027, and 50% by 2047 ([source](https://aiimpacts.org/wp-content/uploads/2023/04/Thousands_of_AI_authors_on_the_future_of_AI.pdf))." link="/images/nl-elections-economics-and-cobol/ai-jobs.jpg" target="_blank" class="align-center" >}} -->
 
 The nature of our jobs will change inevitably. That has been the case for every technological leap before. But this isn't the first attempt to make programmers obsolete.
 
@@ -52,9 +52,9 @@ COBOL was developed to allow business teams to program. It ended up [creating CO
 
 AI is a radical change, but is it radical enough to make programmers obsolete?
 
-{{< rawhtml >}}
+<!-- {{< rawhtml >}}
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">In every group I speak to, from business executives to scientists, including a group of very accomplished people in Silicon Valley last night, much less than 20% of the crowd has even tried a GPT-4 class model.<br><br>Less than 5% has spent the required 10 hours to know how they tick.</p>&mdash; Ethan Mollick (@emollick) <a href="https://twitter.com/emollick/status/1766303368211767601?ref_src=twsrc%5Etfw">March 9, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 There was also some buzz around AI hardware, with [Hugging Face announcing](https://venturebeat.com/ai/hugging-face-is-launching-an-open-source-robotics-project-led-by-former-tesla-scientist/) an open source robotics project and [Extropic.ai announcing](https://www.extropic.ai/future) their hardware platform. The AI hardware space is neat, and the research around it will be critical in the coming years.
 

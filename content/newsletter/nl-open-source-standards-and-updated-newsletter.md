@@ -46,11 +46,11 @@ Hasn't history proven the benefits of open source? Isn't that the way to go?
 
 ### Open Source Oligarchies?
 
-I haven't paid much attention to the governance of open source foundations, even though I have worked extensively on their projects. But this tweet from Jim Jagielski begs for a deep introspection for foundations.
+I haven't paid much attention to the governance of open source foundations, even though I have worked extensively on their projects. But this [tweet from Jim Jagielski](https://twitter.com/jimjag/status/1765702751785300231) begs for a deep introspection for foundations.
 
-{{< rawhtml >}}
+<!-- {{< rawhtml >}}
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Who else is of the opinion that most boards of <a href="https://twitter.com/hashtag/opensource?src=hash&amp;ref_src=twsrc%5Etfw">#opensource</a> foundations are really just oligarchies nowadays, when it is the same people always elected in, usually holding multiple roles in multiple orgs? Really? Is the current open source leadership really that insular?</p>&mdash; Jim Jagielski (@jimjag) <a href="https://twitter.com/jimjag/status/1765702751785300231?ref_src=twsrc%5Etfw">March 7, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 If this is indeed true, it will result in increasingly unsustainable, narrow-minded foundations, which would hinder the goal of open source collaboration.
 
