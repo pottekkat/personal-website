@@ -14,4 +14,10 @@ categories: ["Newsletter"]
 
 ## Curated Links
 
+text ... check these out:
+
+- - **[Title](https://full-link-here)**: Text
+
 ## Hot off the Press
+
+**Read here**: "[Title](https://navendu.me/link/)"
