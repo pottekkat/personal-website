@@ -1,8 +1,8 @@
 ---
 title: "Software Patents, Crazy Charlie, and the Absolutist"
 layout: "newsletter-theme"
-date: 2024-05-06T09:17:35+05:30
-draft: true
+date: 2024-05-06T19:17:35+05:30
+draft: false
 ShowToc: true
 TocOpen: true
 summary: "Also, how do you accidentally run for President?"
