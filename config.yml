@@ -46,7 +46,6 @@ params:
 
     label:
       iconSVG: "static/logo.svg"
-      iconHeight: "25px"
 
     mainSections: ['posts']
     dailySections: ['daily']
