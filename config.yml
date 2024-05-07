@@ -45,7 +45,8 @@ params:
     disableThemeToggle: true
 
     label:
-      iconSVG: "static/logo.svg"
+      icon: "/logo.png"
+      iconHeight: "26px"
 
     mainSections: ['posts']
     dailySections: ['daily']
