@@ -1,0 +1,11 @@
+<div id="{{ default "main" (.Get "id") }}" class="{{ default "echarts-cont" (.Get "class") }}" style="width: {{ default "100%" (.Get "width") }}; height: {{ default "400px" (.Get "height") }}"></div>
+<script type="text/javascript">
+  var myChart = echarts.init(document.getElementById("{{ default "main" (.Get "id") }}"), '{{ default "pottekkat" (.Get "theme") }}');
+  window.addEventListener('resize', function() {
+    myChart.resize();
+  });
+
+  {{ .Inner | safeJS }}
+
+  myChart.setOption(option);
+</script>

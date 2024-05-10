@@ -165,6 +165,15 @@
     {{- end }}
 </noscript>
 
+<!-- Add ECharts -->
+{{ if (.Params.ECharts) }}
+<script src="{{ (.Params.ECharts) }}"></script>
+{{- $pottekkat := slice (resources.Get "js/echarts/pottekkat.js") | resources.Concat "assets/js/echarts/pottekkat.js" | fingerprint }}
+<script src="{{ $pottekkat.RelPermalink }}"></script>
+<link href="https://cdn.jsdelivr.net/npm/dejavu-sans@1.0.0/css/dejavu-sans.min.css" rel="stylesheet">
+{{ end }}
+<!-- Add ECharts -->
+
 {{- partial "extend_head.html" . -}}
 
 {{- /* Misc */}}
