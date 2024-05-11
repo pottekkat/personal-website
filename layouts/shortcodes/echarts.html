@@ -1,11 +1,15 @@
-<div id="{{ default "main" (.Get "id") }}" class="{{ default "echarts-cont" (.Get "class") }}" style="width: {{ default "100%" (.Get "width") }}; height: {{ default "400px" (.Get "height") }}"></div>
+<div id="canvas-wrapper" style="{{ if .Get "overflow" }}overflow-x: {{ .Get "overflow" }};{{ end }}">
+<div id="{{ default "main" (.Get "id") }}" class="{{ default "echarts-cont" (.Get "class") }}" style="width: {{ default "100%" (.Get "width") }}; height: {{ default "400px" (.Get "height") }};"></div>
 <script type="text/javascript">
-  var myChart = echarts.init(document.getElementById("{{ default "main" (.Get "id") }}"), '{{ default "pottekkat" (.Get "theme") }}');
+  var myChart = echarts.init(document.getElementById("{{ default "main" (.Get "id") }}"), '{{ default "pottekkat" (.Get "theme") }}', {renderer: '{{ default "svg" (.Get "renderer") }}'});
   window.addEventListener('resize', function() {
     myChart.resize();
   });
 
   {{ .Inner | safeJS }}
 
+  {{ if .Get "setOption" }}
   myChart.setOption(option);
+  {{ end }}
 </script>
+</div>
