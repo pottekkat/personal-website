@@ -37,6 +37,12 @@ jobs:
           PERIOD: 30d
           TOKEN: ${{ secrets.PLAUSIBLE_TOKEN }}
         run: python ./.github/main.py
+
+      # run fetchCommits.js and commit just the generated commitsData.json file
+      - name: fetch commits
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node ./.github/fetchCommits.js
           
       - name: commit files
         run: |
