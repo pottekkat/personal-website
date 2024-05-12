@@ -8,6 +8,26 @@ ECharts: "https://unpkg.com/echarts@5.5.0/dist/echarts.min.js"
 
 ## About This Blog
 
+This blog is a window into my world as an open source maintainer and an amateur policy analyst.
+
+I write about a [wide range of topics](/categories/), from in-depth [tutorials for projects](/tags/apache-apisix/) that keep me up at night to the [goals in life](/tags/life/) that keep me inspired.
+
+I also try to [write daily](/categories/daily-dose-of-pottekkat/), but fair warning: I don't stop to edit these.
+
+Unless mentioned otherwise, all material in this blog is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0), and the [source code](https://github.com/pottekkat/personal-website) of this website is available under the [MIT license](https://github.com/pottekkat/personal-website/blob/hugo/LICENSE).
+
+### Ethics Statement
+
+I don't accept any form of payment to write about a product or a company. The products I write about are the ones I work on and/or believe in strongly.
+
+I use [analytics](/stats/) to help me learn and improve my future articles. This blog uses [Plausible Analytics](https://plausible.io/privacy-focused-web-analytics) and does not collect personal data or personally identifiable information.
+
+## About Me
+
+I work full-time in maintaining [Apache APISIX](https://github.com/apache/apisix). Formerly, I maintained two [CNCF](https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation) projects.
+
+I work primarily on cloud native/Kubernetes, API gateways, and service meshes. I [write](/categories/featured/) and occasionally give [talks](https://youtube.com/playlist?list=PLUVkO7d15olRgs1rU6scvszk0DB5HxKdu) ([what am I doing now?](/now/)).
+
 _The chart below shows how much I work on this blog. See more [/stats](/stats/)._
 
 {{< echarts width="720px" height="220px" overflow="auto" setOption=false >}}
@@ -83,26 +103,6 @@ fetch("commitsData.json")
   })
   .catch((error) => console.error("Failed to load commit data:", error));
 {{< /echarts >}}
-
-This blog is a window into my world as an open source maintainer and an amateur policy analyst.
-
-I write about a [wide range of topics](/categories/), from in-depth [tutorials for projects](/tags/apache-apisix/) that keep me up at night to the [goals in life](/tags/life/) that keep me inspired.
-
-I also try to [write daily](/categories/daily-dose-of-pottekkat/), but fair warning: I don't stop to edit these.
-
-Unless mentioned otherwise, all material in this blog is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0), and the [source code](https://github.com/pottekkat/personal-website) of this website is available under the [MIT license](https://github.com/pottekkat/personal-website/blob/hugo/LICENSE).
-
-### Ethics Statement
-
-I don't accept any form of payment to write about a product or a company. The products I write about are the ones I work on and/or believe in strongly.
-
-I use [analytics](/stats/) to help me learn and improve my future articles. This blog uses [Plausible Analytics](https://plausible.io/privacy-focused-web-analytics) and does not collect personal data or personally identifiable information.
-
-## About Me
-
-I work full-time in maintaining [Apache APISIX](https://github.com/apache/apisix). Formerly, I maintained two [CNCF](https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation) projects.
-
-I work primarily on cloud native/Kubernetes, API gateways, and service meshes. I [write](/categories/featured/) and occasionally give [talks](https://youtube.com/playlist?list=PLUVkO7d15olRgs1rU6scvszk0DB5HxKdu) ([what am I doing now?](/now/)).
 
 The lines between my work and personal life are blurry, but outside of this, I enjoy reading, playing my bass, and riding my motorcycles. If you want to know more about me, here's [my story](/story/).
 
