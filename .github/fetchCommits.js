@@ -1,5 +1,7 @@
 const fs = require("fs");
 
+require('dotenv').config({ path: './.github/.env' })
+
 async function fetchCommitData(username, repo, page = 1) {
   const fetch = (await import("node-fetch")).default;
   const token = process.env.GITHUB_TOKEN;
