@@ -3,6 +3,8 @@
 public/*
 .github/myenv/*
 
+.github/node_modules/*
+
 *.env
 
 hbt
