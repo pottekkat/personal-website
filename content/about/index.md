@@ -3,11 +3,86 @@ title: "About"
 url: "/about/"
 layout: "about"
 description: "About Navendu Pottekkat and his blog."
+ECharts: "https://unpkg.com/echarts@5.5.0/dist/echarts.min.js"
 ---
 
 ## About This Blog
 
-[/stats](/stats/)
+_The chart below shows how much I work on this blog. See more [/stats](/stats/)._
+
+{{< echarts width="720px" height="220px" overflow="auto" setOption=false >}}
+fetch("commitsData.json")
+  .then((response) => response.json())
+  .then((data) => {
+    const startDate = data[1][0];
+    const endDate = data[data.length - 1][0];
+
+    const option = {
+      animation: false,
+      calendar: {
+        left: 20,
+        top: 24,
+        right: 2,
+        bottom: 30,
+        range: [startDate, endDate],
+        splitLine: {
+          show: false,
+        },
+        itemStyle: {
+          color: "#111111",
+          borderColor: "#111111",
+          borderWidth: 0,
+        },
+        dayLabel: {
+          color: "#f1f1f1",
+          fontSize: 14,
+        },
+        yearLabel: {
+          show: false,
+        },
+        monthLabel: {
+          color: "#f1f1f1",
+          fontSize: 14,
+          nameMap: [
+            "Jan",
+            "",
+            "Mar",
+            "",
+            "May",
+            "",
+            "Jul",
+            "",
+            "Sep",
+            "",
+            "Nov",
+            "",
+          ],
+        },
+      },
+      visualMap: {
+        min: data[0] + 1,
+        max: 100,
+        inRange: {
+          color: ["#c6e9e3", "#317f72"],
+        },
+        splitNumber: 10,
+        show: false,
+        //   itemSymbol: "circle",
+      },
+      series: {
+        type: "scatter",
+        coordinateSystem: "calendar",
+        symbolSize: function (val) {
+          // Use the natural logarithm of the value to achieve logarithmic scaling
+          return Math.log(val[1]) * 3;
+        },
+        data: data.slice(1),
+      },
+    };
+    myChart.setOption(option);
+  })
+  .catch((error) => console.error("Failed to load commit data:", error));
+{{< /echarts >}}
 
 This blog is a window into my world as an open source maintainer and an amateur policy analyst.
 
