@@ -30,7 +30,7 @@ I work primarily on cloud native/Kubernetes, API gateways, and service meshes. I
 
 _The chart below shows how much I work on this blog. See more [/stats](/stats/)._
 
-{{< echarts width="720px" height="220px" overflow="auto" setOption=false >}}
+{{< echarts title="Stats from the last year" caption="GitHub inspired contribution graph" width="720px" height="120px" overflow="auto" setOption=false >}}
 fetch("commitsData.json")
   .then((response) => response.json())
   .then((data) => {
@@ -40,10 +40,10 @@ fetch("commitsData.json")
     const option = {
       animation: false,
       calendar: {
-        left: 20,
+        left: 38,
         top: 24,
         right: 2,
-        bottom: 30,
+        cellSize: 12,
         range: [startDate, endDate],
         splitLine: {
           show: false,
@@ -51,11 +51,12 @@ fetch("commitsData.json")
         itemStyle: {
           color: "#111111",
           borderColor: "#111111",
-          borderWidth: 0,
+          borderWidth: 2
         },
         dayLabel: {
           color: "#f1f1f1",
           fontSize: 14,
+          nameMap: ["", "Mon", "", "Wed", "", "Fri", ""]
         },
         yearLabel: {
           show: false,
@@ -90,7 +91,7 @@ fetch("commitsData.json")
         //   itemSymbol: "circle",
       },
       series: {
-        type: "scatter",
+        type: "heatmap",
         coordinateSystem: "calendar",
         symbolSize: function (val) {
           // Use the natural logarithm of the value to achieve logarithmic scaling
