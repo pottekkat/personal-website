@@ -13,3 +13,16 @@
   {{ end }}
 </script>
 </div>
+<div id="chart-caption">
+  {{ with (.Get "title") -}}
+      {{ . }}
+  {{- end -}}
+  {{- if or (.Get "caption") (.Get "attr") -}}<p>
+      {{- .Get "caption" | markdownify -}}
+      {{- with .Get "attrlink" }}
+          <a href="{{ . }}">
+      {{- end -}}
+      {{- .Get "attr" | markdownify -}}
+      {{- if .Get "attrlink" }}</a>{{ end }}</p>
+  {{- end }}
+</div>
