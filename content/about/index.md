@@ -3,7 +3,7 @@ title: "About"
 url: "/about/"
 layout: "about"
 description: "About Navendu Pottekkat and his blog."
-ECharts: "https://unpkg.com/echarts@5.5.0/dist/echarts.min.js"
+ECharts: "echarts.min.js"
 ---
 
 ## About This Blog
