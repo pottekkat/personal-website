@@ -2,7 +2,7 @@
 title: "Rug Pulls, Comic Sans, and \"Link in Bio\""
 layout: "newsletter-theme"
 date: 2024-05-20T16:30:26+05:30
-draft: true
+draft: false
 ShowToc: true
 TocOpen: true
 summary: "Rug pulls from big tech are inevitable."
