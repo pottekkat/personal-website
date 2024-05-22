@@ -44,6 +44,8 @@ params:
     defaultTheme: dark # dark, light, auto
     disableThemeToggle: true
 
+    showStupid: true
+
     label:
       icon: "/logo.png"
       iconHeight: "26px"

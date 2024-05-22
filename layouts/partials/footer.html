@@ -181,3 +181,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 {{- end }}
+
+{{- if site.Params.showStupid }}
+{{- $stupid := slice (resources.Get "js/stupid.js") | resources.Concat "assets/js/stupid.js" | fingerprint }}
+<script src="{{ $stupid.RelPermalink }}"></script>
+{{- end }}
