@@ -11,11 +11,11 @@ Here's what I'm doing now.
 
 I will be at these events in the following months. Say hi!
 
-| Event                                               | Location          | Date         |
-| --------------------------------------------------- | ----------------- | ------------ |
-| [FOSSMeet](https://www.fossmeet.net/)               | Kozhikode, Kerala | 23, 24 March |
-| [FOSSASIA Summit](https://eventyay.com/e/55d2a466/) | Hanoi, Vietnam    | 5-11 April   |
-| [KCD Pune](https://kcdpune.in/)                     | Pune, Maharashtra | 13 April     |
+| Event                                                 | Location             | Date                    |
+| ----------------------------------------------------- | -------------------- | ----------------------- |
+| [ApacheCon EU](https://eu.communityovercode.org)      | Bratislava, Slovakia | 3-5 June                |
+| [COSCUP](https://coscup.org/)                         | Taipei, Taiwan       | 3, 4 August             |
+| [UbuCon Asia](https://events.canonical.com/event/47/) | Jaipur, Rajasthan    | 31 August-2 September   |
 
 ## Full-Time Job
 
