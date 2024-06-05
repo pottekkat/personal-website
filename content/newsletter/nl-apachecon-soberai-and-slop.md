@@ -2,7 +2,7 @@
 title: "ApacheCon, Sober AI, and Slop"
 layout: "newsletter-theme"
 date: 2024-06-04T15:09:32+02:00
-draft: true
+draft: false
 ShowToc: true
 TocOpen: true
 summary: "Hello from ApacheCon EU!"
