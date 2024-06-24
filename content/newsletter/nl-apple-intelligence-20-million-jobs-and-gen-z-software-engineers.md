@@ -31,7 +31,7 @@ Still, those cool profiles were cool for a day.
 Here's what I have for you from the past weeks:
 
 - **[Are You an NPC?](https://www.youtube.com/watch?v=UebSfjmQNvs)**: Free will that feels free is good enough for us.
-- **[What do Gen-Z software engineers really think?](mailto:reader-forwarded-email/1f410399f63aa0457e5be695b8a4cf16)**: The Pragmatic Engineer brings another interesting survey on Gen-Z software engineers. I'm on the older end of the Gen-Z spectrum and think the survey is accurate.
+- **[What do Gen-Z software engineers really think?](https://newsletter.pragmaticengineer.com/p/genz-part-2)**: The Pragmatic Engineer brings another interesting survey on Gen-Z software engineers. I'm on the older end of the Gen-Z spectrum and think the survey is accurate.
 - **[I wish you were a Kangaroo](https://news.lettersofnote.com/p/i-wish-you-were-a-kangaroo)**: This collection of excerpts from letters is a good starting point for this blog, "Letters of Note," which has an excellent collection of letters forgotten.
 - **[The Attention Cottage](https://blog.ayjay.org/the-attention-cottage/)**: Alan Jacobs discusses the challenges of managing attention in today's digital world. Having control of my attention has been something I have been striving towards and this article offers a good tool to think about it.
 - **[The End of Software](https://docs.google.com/document/d/103cGe8qixC7ZzFsRu5Ww2VEW5YgH9zQaiaqbBsZ1lcc/edit)**: Understanding conflicting views and opinions is essential. But this is seriously a bad take. The cost of creating software has been low for a long time, which has resulted in new niche software products competing with giants in the game, like Salesforce, across different domains.
