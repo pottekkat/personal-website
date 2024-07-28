@@ -41,6 +41,10 @@ I was also part of the cricket team that won the zonal championships (2 times un
 
 During my final year (2018) in college, a [flood hit Kerala](https://en.wikipedia.org/wiki/2018_Kerala_floods), and Chengannur (where my college is) was one of the [most affected places](https://www.newindianexpress.com/thesundaystandard/2018/aug/18/kerala-floods-horror-and-heartache-at-chengannur-1859525.html) in the state. The first week of the flood went by in a flash. The college and the students (staying in hostels) weren’t affected as we were on higher ground along with other government bodies (police, fire, rescue, control center).
 
+{{< blockquote author="Haruki Murakami" link="https://www.goodreads.com/quotes/50675-sometimes-fate-is-like-a-small-sandstorm-that-keeps-changing" title="Kafka on the Shore" >}}
+And once the storm is over you won't remember how you made it through, how you managed to survive. You won't even be sure, in fact, whether the storm is really over. But one thing is certain. When you come out of the storm you won't be the same person who walked in. That's what this storm's all about.
+{{< /blockquote >}}
+
 Once we learned about the situation, a team of students along with the fire and rescue department started rescue missions across the affected areas in Chengannur, after which our college became the [first rescue camp in Chengannur](https://www.thequint.com/videos/kerala-floods-chengannur-rebuilding#read-more) before help arrived. In a couple of days, the [National Disaster Response Force (NDRF)](https://en.wikipedia.org/wiki/National_Disaster_Response_Force) and the [fishermen](https://indianexpress.com/article/india/kerala-floods-fishermen-relief-rescue-operation-5317511/) landed in Chengannur. They took over the rescue mission, and we turned to run the rescue camps.
 
 > These were one of the most challenging days I had to go through. There were days without sleep, without food (we were serving food to thousands of people in multiple camps across Chengannur, and with the roads blocked by the flood, there weren’t a lot of food coming in), and without morale. 
