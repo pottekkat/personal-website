@@ -16,6 +16,7 @@ I will be at these events in the following months. Say hi!
 | [ApacheCon EU](https://eu.communityovercode.org)      | Bratislava, Slovakia | 3-5 June                |
 | [COSCUP](https://coscup.org/)                         | Taipei, Taiwan       | 3, 4 August             |
 | [UbuCon Asia](https://events.canonical.com/event/47/) | Jaipur, Rajasthan    | 31 August-2 September   |
+| [apidays London](https://www.apidays.global/london)   | London, England      | 16-23 September         |
 
 ## Full-Time Job
 
@@ -27,7 +28,7 @@ I work to ensure that APISIX's users have the best experience using APISIX. I al
 
 ## Blog and Newsletter
 
-I write on this blog about my work and my other projects. I also send [biweekly newsletters](/subscribe/) to a couple of hundred people.
+I write on this blog about my work and my other projects. I also send [occasional newsletters](/subscribe/) to a couple of hundred people.
 
 I don't plan to work on these full-time or scale and monetize them, at least for now.
 

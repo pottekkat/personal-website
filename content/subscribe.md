@@ -5,7 +5,7 @@ layout: "subscribe"
 description: "Subscribe to Navendu Pottekkat's blog!"
 ---
 
-Every two weeks, I send out a newsletter with:
+Occasionally, I send out a newsletter with:
 
 1. Updates on significant events happening in the tech industry and its surrounding ecosystems.
 2. Curated lists of trending and timeless content from the sea of internet noise (articles, tweets, videos, and more).
