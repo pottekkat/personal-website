@@ -126,7 +126,7 @@ Schools have misrepresented this reality for a long time. It nurtures a false na
 
 The bottom line is that there will always be choices and confusion. It is unreasonable to think that you will pick a path when you are 21 and will forever be interested in following it.
 
-You have been reading this for around 10 minutes. Take a break and listen to this [popular Malayalam song](https://www.youtube.com/watch?v=nkDRDlCOqwQ) where the protagonist pleads with the gods to help alleviate his confusion.
+You have been reading this for around 10 minutes. Take a break and listen to this [popular Malayalam song](https://www.youtube.com/watch?v=nkDRDlCOqwQ) where the protagonist pleads with the gods to help alleviate his confusion (totally reasonable).
 
 ## Money Buys Time
 
