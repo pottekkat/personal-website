@@ -42,7 +42,7 @@ fetch("commitsData.json")
       calendar: {
         left: 38,
         top: 24,
-        right: 2,
+        right: 8,
         cellSize: 12,
         range: [startDate, endDate],
         splitLine: {
