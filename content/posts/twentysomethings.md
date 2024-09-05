@@ -130,6 +130,26 @@ You have been reading this for around 10 minutes. Take a break and listen to thi
 
 ## Money Buys Time
 
+Rich people saying things like "mo money, mo problems" is an age-old tale. The rest of us frown at this attempt at patronization and shout, "That's easy for you to say!"
+
+Well, it is indeed easy because rich people are likely more qualified to give advice on money.
+
+{{< blockquote author="The Notorious Big" link="https://www.youtube.com/watch?v=gUhRKVIjJtw" title="Mo Money Mo Problems" >}}
+I don't know what they want from me\
+It's like the more money we come across\
+The more problems we see
+{{< /blockquote >}}
+
+While I understand the intent behind the "mo money, mo problems" mantra, for most of us, money still has a positive marginal utility despite diminishing returns, i.e., having a bit more money can be useful when you have less. But for the rich, extra money has fewer tangible benefits.
+
+What money really offers you is time. Time is more valuable than money, but _money buys time_.
+
+To be more precise, money gives you periods of productive leisure (or "[active unemployment](https://www.palladiummag.com/2022/01/06/quit-your-job/)" if you prefer a more compelling term). It affords you the slack needed to pursue your interests rather than grinding a soul-crushing 9-5 (I love my job, BTW).
+
+I used the money I saved in 2019 to build a mental safety net, giving me the confidence and freedom to quit my job, pursue my interests, and transition to my current career.
+
+When you are stuck between opportunities for the fear of opportunity costs, it could be helpful to pick the opportunity that helps you build a similar safety net. This safety net would expand the range of opportunities you can afford later in life.
+
 ## Manage Intersections
 
 ## Mind the Uncertainty 
