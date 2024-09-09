@@ -152,9 +152,92 @@ When you are stuck between opportunities for the fear of opportunity costs, it c
 
 ## Manage Intersections
 
+For most people, no single skill will get them to the top (unless you're LeBron James and can dunk from half-court). Instead, success comes from combining skills to uncover unique, niche intersections.
+
+You don't need to master each individual skill either. Finding the right combination and working at the intersection will fare better.
+
+Take me, for example. I am not the best engineer, nor am I the best marketer. But I'm better at engineering than most marketers and better at marketing than most engineers. This intersection has defined my career for the last four years.
+
+A better example is Steve Jobs. Jobs wasn't the best designer, engineer, or businessman in Silicon Valley, but his ability to blend those skills into a unique combination positioned him to lead the personal computer revolution.
+
+Similarly, you can pursue several goals, but optimizing for distinct goals simultaneously is a challenge. Even in mathematics, optimizing a function with many variables takes a lot of work.
+
+It is also apparent. You can't seriously have a career as a microbiologist while also going on a world tour as the new lead singer of Linkin Park.
+
+Continuing with the maths analogy, it is important to understand your "life function" before you take action. What are you trying to optimize for? What aren't you optimizing? What variables matter to you? Answering these questions—and revisiting them regularly—helps you prioritize your actions.
+
+To stretch the analogy even further, don't get stuck at a local maxima. It's easy to think you have it all figured out and reached the peak in your twenties, but that's highly unlikely. You might be at a local maximum, thinking you are at the top, while your real mountain is still ahead.
+
 ## Mind the Uncertainty 
+
+The key to finding useful intersections is experimentation. Thankfully, in your twenties, you are full of energy and enthusiasm.
+
+That said, you must be privileged—inherited or earned—to experiment. But if you have the privilege, embrace uncertainty. Embrace quitting jobs. Your future selves will be indebted to you as responsibilities grow.
+
+Quitting my job to pursue a different path was the best thing I ever did for myself. I had the privilege of taking that risk, and I was young enough for it to have an insignificant effect on my future. It opened doors to opportunities I had never imagined. I can't even picture how my life would have been if I hadn't taken that leap—certainly not here giving life advice.
+
+{{< blockquote author="Wolf Tivy" link="https://www.palladiummag.com/2022/01/06/quit-your-job/" title="Quit Your Job" >}}
+Relatedly, it’s unfair and wasteful for the people who could be out there exploring and building the future on their own dime to be either working normal jobs or simply managing their money for profit. This is a key part of what it means to be a responsible elite. You use your privilege and your personal judgment to explore and solve problems that no one else can.
+{{< /blockquote >}}
+
+Jeff Bezos, the founder of Amazon, uses a framework called "[regret minimization](https://www.youtube.com/watch?v=jwG_qR6XmDQ)," which I have found quite helpful. The idea is simple: When presented with an opportunity to do something, ask yourself, "Will I regret not doing this in ten years?" If the answer is yes, absolutely do it, and if not, don't bother.
+
+My framework to assess regret is similar but more actionable:
+
+1. You are more likely to regret not doing something than doing it.
+2. If you regret doing something, you can fix it through future actions.
+3. But if you regret not doing something, the price of inaction will have increased to a point where it becomes impossible to act.
+
+However, don't confuse regret with the sunk cost fallacy—the reluctance to quit because you have already invested time and energy. What often feels like anticipatory regret is the baggage of our sunk costs.
+
+Experimentation is the key to finding useful intersections, and acceptance is the key to minimizing regret. Accept your choices and move on. If you can't fix it, don't let it affect your future.
 
 ## The Master Procrastinator
 
+Procrastination might just be among the top five most popular hobbies for people in their twenties. This isn't really surprising when you think about how easy it is to find ways to procrastinate.
+
+{{< blockquote author="Tim Urban" link="https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html" title="Why Procrastinators Procrastinate" >}}
+The Dark Playground is a place every procrastinator knows well. It's a place where leisure activities happen at times when leisure activities are not supposed to be happening. The fun you have in the Dark Playground isn't actually fun because it's completely unearned and the air is filled with guilt, anxiety, self-hatred, and dread.
+{{< /blockquote >}}
+
+I have often invented reasons to procrastinate or disguised unproductive tasks as useful. I'll tweak my developer environment to just how I like before I start a big coding project, postpone my workouts after my "busy" weeks (I don't have non-busy weeks), or wait until after my friend's wedding before I really get into my next project.
+
+I have learned that perfect conditions rarely exist and that striving for perfection is futile. This becomes problematic when your brain tricks you into thinking procrastination is productive.
+
+Now, I don't have a solution to stop procrastination, but I have found a way to use it to my benefit. At any given time, I have around 5-10 different "projects" on my plate, both at work and in my personal life. To keep myself from slipping into unproductive procrastination, I procrastinate on one project by working on another. Over time, these small bursts of productivity allotted to each project add up, and I manage to finish everything.
+
+Tim Urban's [essays](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) and [TED talk](https://www.youtube.com/watch?v=arj7oStGLkU) helped me understand why I procrastinate, which is most important. Knowing the "why" makes it easy to pull back and not leave my goals in the dust.
+
 ## Get Good, Get Exceptional
 
+{{< blockquote author="Michael Lopp" link="https://randsinrepose.com/archives/crazy-charlies-window/" title="Crazy Charlie’s Window" >}}
+You know what else is crazy? Wasting your time. The reason, decades later, I frequently think of this unpaid weekend adventure sifting through a year of garbage, hardware, and knick-knacks is because it is when I discovered the compounding non-obvious value from doing exceptional work.
+{{< /blockquote >}}
+
+All work can be done exceptionally. Almost always, exceptional work is rewarded.
+
+Getting better at what you do increases your range of opportunities. This additional sample space of opportunities improves the likelihood of finding one you are genuinely interested in.
+
+For example, a mediocre software engineer might only find underpaid work in large service companies (you know who they are). But if you level up, you can leverage your skills to work at _any_ company and earn a significantly better salary. The mediocre will never.
+
+This is a significant differentiator when you live somewhere with limited opportunities. I live in a small rural town in Kerala, where my ambitions rarely match the local taste. My way out was to get good at my job. This led to better opportunities and eventually to my [current](/now/) job (where I get to work on cool stuff!).
+
+{{< blockquote author="Navendu Pottekkat" link="https://x.com/realPottekkat/status/1516817216896790529" title="Tweet from 20th April 2022" >}}
+My strategy for getting a job is: 
+
+1. contribute to the company's open source project (often aggressively 😅)
+2. make an impact with my contributions and
+3. ask for a job to do this full-time
+
+So far, it has worked EVERY time.
+{{< /blockquote >}}
+
+Doing exceptional work will undoubtedly lead you to the opportunities you deserve.
+
+To be exceptional is to treat everything in life as a project. You pick projects and _then_ learn how to do them. You learn it top-down, i.e., you actively pick tools and learn things to help you complete the project instead of the traditional way, where you passively collect random knowledge and degrees (I have two).
+
+I'm sure you will also see how the education system made us ill-prepared. You reach twenty-one with a lot of textbook knowledge, and you spend the entirety of your life trying to fit into existing projects while you should have been pursuing your own projects all along.
+
+It will then seem silly to think you can't learn new things. Nearly all human knowledge is on the internet, and the bits you need to complete your projects are probably compressed into a minute-long YouTube Short edited to Subway Surfers gameplay (I prefer the "sharp knife cuts soap" videos).
+
+## Can't Catch 'Em All
