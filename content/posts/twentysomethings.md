@@ -1,6 +1,6 @@
 ---
 title: "Reasonable Life Advice for Twentysomethings"
-date: 2023-11-07T10:19:06+05:30
+date: 2024-09-15T10:19:06+05:30
 draft: true
 ShowToc: true
 TocOpen: true
@@ -170,7 +170,7 @@ To stretch the analogy even further, don't get stuck at a local maxima. It's eas
 
 ## Mind the Uncertainty 
 
-The key to finding useful intersections is experimentation. Thankfully, in your twenties, you are full of energy and enthusiasm.
+The key to finding useful intersections is experimentation. Thankfully, in your twenties, you have the energy and enthusiasm to experiment.
 
 That said, you must be privileged—inherited or earned—to experiment. But if you have the privilege, embrace uncertainty. Embrace quitting jobs. Your future selves will be indebted to you as responsibilities grow.
 
@@ -218,7 +218,7 @@ All work can be done exceptionally. Almost always, exceptional work is rewarded.
 
 Getting better at what you do increases your range of opportunities. This additional sample space of opportunities improves the likelihood of finding one you are genuinely interested in.
 
-For example, a mediocre software engineer might only find underpaid work in large service companies (you know who they are). But if you level up, you can leverage your skills to work at _any_ company and earn a significantly better salary. The mediocre will never.
+For example, a mediocre software engineer might only find underpaid work in large service companies (you know who they are). But if you level up, you can leverage your skills to work at _any_ company and earn a significantly better salary. Mediocrity will never get you here.
 
 This is a significant differentiator when you live somewhere with limited opportunities. I live in a small rural town in Kerala, where my ambitions rarely match the local taste. My way out was to get good at my job. This led to better opportunities and eventually to my [current](/now/) job (where I get to work on cool stuff!).
 
@@ -241,3 +241,19 @@ I'm sure you will also see how the education system made us ill-prepared. You re
 It will then seem silly to think you can't learn new things. Nearly all human knowledge is on the internet, and the bits you need to complete your projects are probably compressed into a minute-long YouTube Short edited to Subway Surfers gameplay (I prefer the "sharp knife cuts soap" videos).
 
 ## Can't Catch 'Em All
+
+{{< blockquote author="" link="https://en.wikipedia.org/wiki/Ship_of_Theseus" title="Ship of Theseus" >}}
+After several hundreds of years of maintenance, if each individual piece of the Ship of Theseus were replaced, one after the other, was it still the same ship?
+{{< /blockquote >}}
+
+The things we do in life often become ends in themselves, making it difficult to feel truly content with what we have achieved. This isn't a testament to the inevitability of greed but the predictability of our animal brains—we are programmed for continuous pursuit.
+
+This is precisely why I don't think FIRE (Financial Independence, Retire Early) is right for me. I can't retire. I have seen people retire happily, do well for a year or two, and then slump when they realize they have nothing to pursue. The happiest retirees often have other meaningful pursuits outside their work.
+
+I have chased careers and tracked my progress towards abstract goals. But as I got older, I realized that it was the pursuit of these goals—these shifting goals—that kept me motivated.
+
+In the popular anime series Pokémon, the 10-year-old protagonist Ash Ketchum starts his immortal quest to catch every Pokémon. The crux of the show is his pursuit to "catch 'em all," a goal that he never reached (he never even won a tournament until recently) and that kept the show running for 25 years (and counting), entertaining generations of Pokémon fans, including me and my 12-year-old niece.
+
+Accepting you can't catch 'em all helps you alleviate the burden of reaching goals and instead focus on the pursuit. And that's all that needs to matter.
+
+Life is continuous self-discovery. People think that the more they travel, read, and experience life, the more they learn about the world. But it is more true that they learn about themselves. Hopefully, what you read here sounded reasonable, at least partly, enough to cherry-pick and apply to your pursuit of self-discovery.
