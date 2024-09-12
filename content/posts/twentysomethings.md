@@ -1,7 +1,7 @@
 ---
 title: "Reasonable Life Advice for Twentysomethings"
-date: 2024-09-15T10:19:06+05:30
-draft: true
+date: 2024-09-12T12:09:06+05:30
+draft: false
 ShowToc: true
 TocOpen: true
 ShowRelatedContent: false
