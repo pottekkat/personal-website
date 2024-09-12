@@ -246,11 +246,10 @@ The things we do in life often become ends in themselves, making it difficult to
 
 This is precisely why I don't think FIRE (Financial Independence, Retire Early) is right for me. _I can't retire_. I have seen people retire happily, do well for a year or two, and then slump when they realize they have nothing to pursue. The happiest retirees often have other meaningful pursuits outside their work.
 
-I have chased careers and tracked my progress towards abstract goals. But as I got older, I realized that it was the pursuit of these goals—these shifting goals—that kept me motivated.
-
 In the popular anime series Pokémon, the 10-year-old protagonist Ash Ketchum starts his immortal quest to catch every Pokémon. The crux of the show is his pursuit to "catch 'em all," a goal that he never reached (he never even won a tournament until recently) and that kept the show running for 25 years (and counting), entertaining generations of Pokémon fans, including me and my 12-year-old niece.
 
-Accepting you can't catch 'em all helps you alleviate the burden of reaching goals and instead focus on the pursuit. That's all that needs to matter.
+Accepting you can't catch 'em all helps you alleviate the burden of reaching goals and instead focus on the pursuit. That's all that needs to matter. I have chased careers and tracked my progress towards abstract goals. But as I got older, I realized that it was the pursuit of these goals—these shifting goals—that kept me motivated.
+
 
 {{< blockquote author="" link="https://en.wikipedia.org/wiki/Ship_of_Theseus" title="Ship of Theseus" >}}
 After several hundreds of years of maintenance, if each individual piece of the Ship of Theseus were replaced, one after the other, was it still the same ship?
