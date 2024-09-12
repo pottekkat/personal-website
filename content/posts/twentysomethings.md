@@ -258,7 +258,5 @@ Accepting you can't catch 'em all helps you alleviate the burden of reaching goa
 
 Life is continuous self-discovery. People think that the more they travel, read, and experience life, the more they learn about the world. But it is more true that they learn about themselves.
 
-Writing this post was also an attempt at self-discovery. My original intention was to publish it on my 26th birthday—nearly 10 months ago—but it took a lot more reflecting and refining than I anticipated to bring it together.
-
-Most ideas weren't fully formed when I began writing, but like most things in life, they became clearer with time. Hopefully, at least some of these ideas sounded reasonable, enough to cherry-pick and apply to your own pursuit of self-discovery.
+Writing this post was also an attempt at self-discovery. My original intention was to publish it on my 26th birthday—nearly 10 months ago—but it took a lot more reflecting and refining than I anticipated to bring it together. Most ideas weren't fully formed when I began writing, but like most things in life, they became clearer with time. Hopefully, at least some of these ideas sounded reasonable, enough to cherry-pick and apply to your own pursuit of self-discovery.
 
