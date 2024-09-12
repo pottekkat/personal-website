@@ -242,10 +242,6 @@ It will then seem silly to think you can't learn new things. Nearly all human kn
 
 ## Can't Catch 'Em All
 
-{{< blockquote author="" link="https://en.wikipedia.org/wiki/Ship_of_Theseus" title="Ship of Theseus" >}}
-After several hundreds of years of maintenance, if each individual piece of the Ship of Theseus were replaced, one after the other, was it still the same ship?
-{{< /blockquote >}}
-
 The things we do in life often become ends in themselves, making it difficult to feel truly content with what we have achieved. This isn't a testament to the inevitability of greed but the predictability of our animal brains—we are programmed for continuous pursuit.
 
 This is precisely why I don't think FIRE (Financial Independence, Retire Early) is right for me. I can't retire. I have seen people retire happily, do well for a year or two, and then slump when they realize they have nothing to pursue. The happiest retirees often have other meaningful pursuits outside their work.
@@ -256,7 +252,11 @@ In the popular anime series Pokémon, the 10-year-old protagonist Ash Ketchum st
 
 Accepting you can't catch 'em all helps you alleviate the burden of reaching goals and instead focus on the pursuit. And that's all that needs to matter.
 
+{{< blockquote author="" link="https://en.wikipedia.org/wiki/Ship_of_Theseus" title="Ship of Theseus" >}}
+After several hundreds of years of maintenance, if each individual piece of the Ship of Theseus were replaced, one after the other, was it still the same ship?
+{{< /blockquote >}}
+
 Life is continuous self-discovery. People think that the more they travel, read, and experience life, the more they learn about the world. But it is more true that they learn about themselves.
 
-Writing this post was also an attempt at self-discovery. My original intention was to publish it on my 26th birthday—nearly 10 months ago—but it took a lot more reflecting and refining than I anticipated to bring it together. Most ideas weren't fully formed when I began writing, but like most things in life, they became clearer with time. Hopefully, at least some of these ideas sounded reasonable, enough to cherry-pick and apply to your own pursuit of self-discovery.
+Writing this post was also an attempt at self-discovery. My original intention was to publish it on my 26th birthday—nearly 10 months ago—but it took a lot more reflecting and refining than I anticipated to bring it together. Most ideas weren't fully formed when I began writing, but like most things in life, they became clearer with time. Hopefully, at least some of these ideas sounded reasonable enough to cherry-pick for your own pursuit of self-discovery.
 
