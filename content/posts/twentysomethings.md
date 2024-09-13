@@ -242,14 +242,13 @@ It will then seem silly to think you can't learn new things. Nearly all human kn
 
 ## Can't Catch 'Em All
 
-The things we do in life often become ends in themselves, making it difficult to feel truly content with what we have achieved. This isn't a testament to the inevitability of greed but the predictability of our animal brains—we are programmed for continuous pursuit.
+Pursuits often become their own rewards, making it difficult to feel truly satisfied with what we have accomplished. This isn't to say greed is inevitable, but our animal brains are predictable—we are programmed for continuous pursuit.
 
-This is precisely why I don't think FIRE (Financial Independence, Retire Early) is right for me. _I can't retire_. I have seen people retire happily, do well for a year or two, and then slump when they realize they have nothing to pursue. The happiest retirees often have other meaningful pursuits outside their work.
+This is precisely why FIRE (Financial Independence, Retire Early) is not right for most of us. I have seen people retire into their newfound freedom, do well for a year or two, and then struggle when they realize they have nothing to pursue. The happiest retirees often have other meaningful pursuits outside their work.
 
-In the popular anime series Pokémon, the 10-year-old protagonist Ash Ketchum starts his immortal quest to catch every Pokémon. The crux of the show is his pursuit to "catch 'em all," a goal that he never reached (he never even won a tournament until recently) and that kept the show running for 25 years (and counting), entertaining generations of Pokémon fans, including me and my 12-year-old niece.
+In the popular anime series Pokémon, the 10-year-old protagonist Ash Ketchum starts his immortal quest to catch every Pokémon. The crux of the show is this pursuit to "catch 'em all," a goal that Ash never reached but kept the show running for 25 years (and counting), entertaining generations of Pokémon fans, including me and my 12-year-old niece.
 
-Accepting you can't catch 'em all helps you alleviate the burden of reaching goals and instead focus on the pursuit. That's all that needs to matter. I have chased careers and tracked my progress towards abstract goals. But as I got older, I realized that it was the pursuit of these goals—these shifting goals—that kept me motivated.
-
+Accepting you can't catch 'em all alleviates the burden of merely reaching goals to instead focus on their pursuit.
 
 {{< blockquote author="" link="https://en.wikipedia.org/wiki/Ship_of_Theseus" title="Ship of Theseus" >}}
 After several hundreds of years of maintenance, if each individual piece of the Ship of Theseus were replaced, one after the other, was it still the same ship?
@@ -257,5 +256,5 @@ After several hundreds of years of maintenance, if each individual piece of the 
 
 Life is continuous self-discovery. People think that the more they travel, read, and experience life, the more they learn about the world. But it is more true that they learn about themselves.
 
-Writing this post was also an attempt at self-discovery. My original intention was to publish it on my 26th birthday—nearly 10 months ago—but it took a lot more reflecting and refining than I anticipated to bring it together. Most ideas weren't fully formed when I began writing, but like most things in life, they became clearer with time.
+Writing this post was also an attempt at self-discovery. My original intention was to publish it on my 26th birthday—nearly 10 months ago—but reflecting, reexamining, and refining myself took longer. What you see here is, at best, a transient documentation of my ongoing self-discovery journey, which is far from complete.
 
