@@ -248,7 +248,7 @@ This is precisely why FIRE (Financial Independence, Retire Early) is not right f
 
 In the popular anime series Pokémon, the 10-year-old protagonist Ash Ketchum starts his immortal quest to catch every Pokémon. The crux of the show is this pursuit to "catch 'em all," a goal that Ash never reached but kept the show running for 25 years (and counting), entertaining generations of Pokémon fans, including me and my 12-year-old niece.
 
-Accepting you can't catch 'em all alleviates the burden of merely reaching goals to instead focus on their pursuit.
+Accepting you can't "catch 'em all" alleviates the burden of merely reaching goals to instead focus on their pursuit.
 
 {{< blockquote author="" link="https://en.wikipedia.org/wiki/Ship_of_Theseus" title="Ship of Theseus" >}}
 After several hundreds of years of maintenance, if each individual piece of the Ship of Theseus were replaced, one after the other, was it still the same ship?
