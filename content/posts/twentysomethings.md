@@ -88,7 +88,7 @@ _This is also why the argument that countries like India need to focus on buildi
 
 But being ambitious today likely feels more overwhelming than 10 or 20 years ago.
 
-This sense of overwhelm stems from the fact that ambitious people now have significantly more opportunities to make an impact—opportunities that can, paradoxically, become paralyzing.
+This sense of being overwhelmed stems from the fact that ambitious people now have significantly more opportunities to make an impact—opportunities that can, paradoxically, become paralyzing.
 
 My ambitions have grown in scope as I got older. But constantly reaching for these ambitious endeavors has often left me crippled, crushed by long-term goals without a clear path to achieving them.
 
@@ -200,7 +200,7 @@ Procrastination might just be among the top five most popular hobbies for people
 The Dark Playground is a place every procrastinator knows well. It's a place where leisure activities happen at times when leisure activities are not supposed to be happening. The fun you have in the Dark Playground isn't actually fun because it's completely unearned and the air is filled with guilt, anxiety, self-hatred, and dread.
 {{< /blockquote >}}
 
-I have often invented reasons to procrastinate or disguised unproductive tasks as useful. I'll tweak my developer environment to just how I like before I start a big coding project, postpone my workouts after my "busy" weeks (I don't have non-busy weeks), or wait until after my friend's wedding before I really get into my next project.
+I have often invented reasons to procrastinate or disguised unproductive tasks as useful. I'll tweak my developer environment to just how I like it before I start a big coding project, postpone my workouts after my "busy" weeks (I don't have non-busy weeks), or wait until after my friend's wedding before I really get into my next project.
 
 I have learned that perfect conditions rarely exist and that striving for perfection is futile. This becomes problematic when your brain tricks you into thinking procrastination is productive.
 
@@ -254,7 +254,7 @@ Accepting you can't "catch 'em all" alleviates the burden of merely reaching goa
 After several hundreds of years of maintenance, if each individual piece of the Ship of Theseus were replaced, one after the other, was it still the same ship?
 {{< /blockquote >}}
 
-Life is continuous self-discovery. People think that the more they travel, read, and experience life, the more they learn about the world. But it is more true that they learn about themselves.
+Life is continuous self-discovery. People think that the more they travel, read, and experience life, the more they learn about the world. But in truth, they learn more about themselves.
 
 Writing this post was also an attempt at self-discovery. My original intention was to publish it on my 26th birthday—nearly 10 months ago—but reflecting, reexamining, and refining myself took longer. What you see here is, at best, a transient documentation of my ongoing self-discovery journey, which is far from complete.
 
