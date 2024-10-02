@@ -33,12 +33,12 @@
 }
 
 .social-icons a:not(:last-of-type) {
-    margin-inline-end: 16px;
+    margin-inline-end: 18px;
 }
 
 .social-icons a svg {
-    height: 36px;
-    width: 36px;
+    height: 32px;
+    width: 32px;
 }
 
 code {
