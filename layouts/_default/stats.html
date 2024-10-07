@@ -4,10 +4,8 @@
   <header class="post-header">
     <h1 class="post-title">{{ .Title }}</h1>
   </header>
+  <div class="last-run">Last updated at {{.Site.Data.stats.stats.runtime}}</div>
   <div class="post-content">
-    <section class="last-run">
-        <blockquote><p><i>Last updated at {{.Site.Data.stats.stats.runtime}}</i></p></blockquote>
-    </section>
     {{- if not (.Param "disableAnchoredHeadings") }} {{- partial
     "anchored_headings.html" .Content -}} {{- else }}{{ .Content }}{{ end }}
     <section class="stats">
@@ -21,7 +19,7 @@
         Stats from the last 30 days<p>Last updated at {{.Site.Data.stats.stats.runtime}}</p>
         </figcaption>
         </figure>
-        <p>Shoutout to <a href="https://www.linkedin.com/in/christy-m-thomas/">Christy</a>, an actual GIS Engineer, who helped me create the chart above.</p>
+        <p>Shoutout to <a href="https://www.linkedin.com/in/christy-m-thomas/">Christy</a>, an actual GIS Engineer, who helped me create this chart.</p>
         <h2 id="visitors-per-day">Visitors per Day<a hidden="" class="anchor" aria-hidden="true" href="#visitors-per-day">#</a></h2>
         <p>
         {{.Site.Data.stats.stats.most_visitors_visitors}} people visited the

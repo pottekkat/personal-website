@@ -1,5 +1,5 @@
 ---
-title: "Stats"
+title: "Statistics"
 url: "/stats/"
 layout: "stats"
 description: "Statistics."
