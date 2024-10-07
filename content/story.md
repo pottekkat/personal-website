@@ -109,5 +109,3 @@ _May the source be with you,_
 
 {{< figure src="/logo.png" height="25px" >}}
 
-17th November 2021\
-_(Updated on 19th March 2022)_
