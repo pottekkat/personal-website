@@ -43,7 +43,7 @@ input_time = input_tz.localize(input_time)
 
 output_time = input_time.astimezone(output_tz)
 
-output_tz_format = f'%-I:%M %p, %-d{get_suffix(output_time)} %B %Y (%z)'
+output_tz_format = f'%-I:%M %p, %-d{get_suffix(output_time)} %B %Y'
 
 output_time_str = output_time.strftime(output_tz_format)
 

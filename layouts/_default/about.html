@@ -1,5 +1,10 @@
 {{- define "main" }}
 
+{{ $t := .Lastmod }}
+{{ $day := humanize $t.Day }}
+{{ $monthYear := $t.Format "January 2006" }}
+{{ $time := $t.Format "3:04 PM" }}
+
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">
@@ -8,17 +13,8 @@
       {{- end }}
     </h1>
   </header>
+  <div class="last-run">Last updated at {{ $time }}, {{ $day }} {{ $monthYear }}</div>
   <div class="post-content">
-    <section class="last-run">
-      <blockquote>
-        {{ $t := .Lastmod }}
-        {{ $day := humanize $t.Day }}
-        {{ $monthYear := $t.Format "January 2006" }}
-        {{ $time := $t.Format "3:04 PM" }}
-        {{ $tz := $t.Format "-0700" }}
-        <p><i>Last updated at {{ $time }}, {{ $day }} {{ $monthYear }} ({{ $tz}})</i></p>
-      </blockquote>
-    </section>
     {{- if not (.Param "disableAnchoredHeadings") }} {{- partial
     "anchored_headings.html" .Content -}} {{- else }}{{ .Content }}{{ end }}
   </div>
