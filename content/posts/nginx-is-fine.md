@@ -2,11 +2,12 @@
 title: "Nginx is Probably Fine"
 date: 2023-12-10T08:03:56+05:30
 draft: false
+weight: 20
 ShowToc: false
 ShowRelatedContent: false
 summary: "Should you build your own reverse proxy to replace Nginx?"
 tags: ["api gateway", "software engineering", "performance"]
-categories: ["API Gateway"]
+categories: ["API Gateway", "Featured"]
 cover:
     image: "/images/nginx-is-fine/engine-banner.jpg"
     alt: "A photo of a crankshaft of an engine."

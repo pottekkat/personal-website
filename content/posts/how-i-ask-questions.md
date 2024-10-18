@@ -1,12 +1,11 @@
 ---
 title: "How I Ask Questions as a Software Engineer"
 date: 2021-12-25T11:15:25+05:30
-weight: 30
 draft: false
 ShowToc: false
 summary: "I ask a lot of questions to my peers and to strangers on public forums in the internet. This year, I have been trying to improve this process to ask better questions. Here is how I do it."
 tags: ["communication", "software engineering", "tips"]
-categories: ["Software Engineering", "Featured"]
+categories: ["Software Engineering"]
 aliases: [/asking-questions]
 cover:
   image: "images/how-i-ask-questions/banner-student-raising-hand.jpeg"

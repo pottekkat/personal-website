@@ -2,11 +2,12 @@
 title: "One Nation, One Subscription, Many Problems"
 date: 2023-09-08T15:01:51+05:30
 draft: false
+weight: 40
 ShowToc: false
 ShowRelatedContent: false
 summary: "Access to publicly funded scientific research should be ubiquitous. But the current plan to achieve this is far from ideal."
 tags: ["public policy", "government", "open access"]
-categories: ["Public Policy"]
+categories: ["Public Policy", "Featured"]
 cover:
     image: "/images/onos-problems/india-globe-banner.jpg"
     alt: "A photo of a globe focused on India."

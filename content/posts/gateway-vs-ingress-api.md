@@ -2,11 +2,11 @@
 title: "Comparing Kubernetes Gateway and Ingress APIs"
 date: 2022-10-14T09:12:38+05:30
 draft: false
-weight: 20
+weight: 30
 ShowToc: false
 summary: "Exploring the new Kubernetes Gateway API and comparing it with the existing Kubernetes Ingress API for handling external traffic."
 tags: ["kubernetes", "ingress", "api gateway"]
-categories: ["Featured", "Kubernetes"]
+categories: ["Kubernetes", "Featured"]
 cover:
     image: "/images/gateway-vs-ingress-api/banner-comparing-apples.jpeg"
     alt: "Photo of a person comparing peaches in a food market."
