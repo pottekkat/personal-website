@@ -2,14 +2,13 @@
 title: "Best Practices for Building Reliable APIs"
 date: 2022-08-19T17:12:35+05:30
 draft: false
-weight: 50
 ShowToc: true
 TocOpen: true
 canonicalURL: "https://api7.ai/blog/best-practices-for-building-reliable-apis-with-api-gateways/"
 ShowCanonicalLink: true
 summary: "As the size of your APIs increase, the need for making them reliable and robust also increases. This article discusses the best practices for designing reliable APIs by introducing you to a special kind of reverse proxies called API gateways."
 tags: ["api gateway", "apache apisix", "cloud-native"]
-categories: ["Featured", "API Gateway"]
+categories: ["API Gateway"]
 aliases: [/reliable-apis]
 cover:
     image: "/images/best-practices-for-building-reliable-apis/banner-construction.jpeg"

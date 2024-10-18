@@ -2,12 +2,13 @@
 title: "Reasonable Life Advice for Twentysomethings"
 date: 2024-09-12T12:09:06+05:30
 draft: false
+weight: 10
 ShowToc: true
 TocOpen: true
 ShowRelatedContent: false
 summary: "I could probably give solid life advice to twenty-year-olds, right?"
 tags: ["life", "advice"]
-categories: ["Life"]
+categories: ["Life", "Featured"]
 cover:
     image: "/images/twentysomethings/26-banner.jpg"
     alt: "A sign that shows the number 26."

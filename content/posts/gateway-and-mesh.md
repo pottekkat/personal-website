@@ -2,11 +2,12 @@
 title: "A Comprehensive Guide to API Gateways, Kubernetes Gateways, and Service Meshes"
 date: 2023-05-05T09:15:19+05:30
 draft: false
+weight: 50
 ShowToc: false
 ShowRelatedContent: true
 summary: "A comprehensive comparison of API gateways, Kubernetes gateways, and service meshes with actionable insights."
 tags: ["api gateway", "service mesh", "kubernetes"]
-categories: ["API Gateway"]
+categories: ["API Gateway", "Featured"]
 cover:
     image: "/images/gateway-and-mesh/mesh-banner.jpeg"
     alt: "A photo of a mesh that is likely the weaving in a wooden chair."

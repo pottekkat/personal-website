@@ -2,12 +2,11 @@
 title: "An Introduction to Monitoring Microservices with Prometheus and Grafana"
 date: 2022-12-09T10:15:51+05:30
 draft: false
-weight: 40
 ShowToc: true
 TocOpen: true
 summary: "This tutorial walks you through setting up monitoring on a microservice application using Prometheus and Grafana."
 tags: ["monitoring", "prometheus", "tutorials"]
-categories: ["Featured", "Microservices"]
+categories: ["Microservices"]
 cover:
     image: "/images/introduction-to-monitoring-microservices/man-in-cave-banner.png"
     alt: "A man exploring a cave with a lit torch."
