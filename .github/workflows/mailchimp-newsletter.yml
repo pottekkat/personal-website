@@ -1,0 +1,31 @@
+name: Send Published Newsletter to Mailchimp via RSS
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    permissions: write-all
+    runs-on: macos-latest
+    steps:
+
+      - name: checkout repo
+        uses: actions/checkout@v2
+
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10.11'
+          
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r ./.github/mailchimp-scripts/requirements.txt
+          
+      - name: execute python script
+        env:
+          RSS_URL: ${{ secrets.RSS_URL }}
+          API_KEY: ${{ secrets.MAILCHIMP_API_KEY }}
+          TEMPLATE_NAME: ${{ secrets.NEWSLETTER_TEMPLATE_NAME }}
+          TEST_EMAIL: ${{ secrets.TEST_EMAIL }}
+        run: python ./.github/mailchimp-scripts/main.py
