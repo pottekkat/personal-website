@@ -6,7 +6,7 @@ description: "About Navendu Pottekkat and his blog."
 ECharts: "echarts.min.js"
 ---
 
-Welcome to _The Open Source Absolutist_.
+Welcome to "The Open Source Absolutist".
 
 ## About This Blog
 
