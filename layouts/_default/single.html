@@ -28,7 +28,7 @@
   {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
     {{- partial "share_icons.html" . -}}
   {{- end }}
-  {{- if (.Param "ShowToc") }}
+  {{- if (or (.Param "ShowToc") (.Param "toc.show")) }}
   {{- partial "toc.html" . }}
   {{- end }}
 
