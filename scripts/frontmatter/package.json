@@ -1,0 +1,11 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Personal Website of Navendu Pottekkat.",
+  "author": "Navendu Pottekkat",
+  "license": "MIT",
+  "dependencies": {
+    "@frontmatter/extensibility": "^0.0.17"
+  },
+  "type": "module"
+}

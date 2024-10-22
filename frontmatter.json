@@ -1,0 +1,220 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.preview.trailingSlash": true,
+  "frontMatter.website.host": "https://navendu.me",
+  "frontMatter.taxonomy.alignFilename": true,
+  "frontMatter.git.disableOnBranches": ["hugo"],
+  "frontMatter.taxonomy.customTaxonomy": [
+    {
+      "id": "series",
+      "options": [
+        "Hands-On With Apache APISIX Ingress"
+      ]
+    }
+  ],
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "Post (default)",
+      "pageBundle": false,
+      "filePrefix": "",
+      "slugTemplate": "{{seoTitle}}",
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Slug",
+          "name": "slug",
+          "type": "slug",
+          "default": "{{slug}}"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Draft?",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Table of contents (ToC)",
+          "name": "toc",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "Show ToC?",
+              "name": "show",
+              "type": "boolean",
+              "default": false
+            },
+            {
+              "title": "Open ToC?",
+              "name": "open",
+              "type": "boolean",
+              "default": false,
+              "when": {
+                "fieldRef": "show",
+                "operator": "eq",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "title": "Show related content?",
+          "name": "ShowRelatedContent",
+          "type": "boolean"
+        },
+        {
+          "title": "Summary",
+          "name": "summary",
+          "type": "string"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "Series",
+          "name": "series",
+          "type": "taxonomy",
+          "taxonomyId": "series"
+        },
+        {
+          "title": "Aliases",
+          "name": "aliases",
+          "type": "list"
+        },
+        {
+          "title": "Cover",
+          "name": "cover",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "Image",
+              "name": "image",
+              "type": "image",
+              "isPreviewImage": true
+            },
+            {
+              "title": "Alt text",
+              "name": "alt",
+              "type": "string"
+            },
+            {
+              "title": "Caption",
+              "name": "caption",
+              "type": "string",
+              "single": true
+            },
+            {
+              "title": "Relative?",
+              "name": "relative",
+              "type": "boolean",
+              "default": "true"
+            }
+          ]
+        }
+      ],
+      "postScript": "create-image-folder"
+    },
+    {
+      "name": "Daily",
+      "pageBundle": false,
+      "filePrefix": "{{date|dd-M-yy}}",
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "single": true,
+          "actions": [
+            {
+              "title": "Add log number",
+              "script": "./scripts/frontmatter/daily-logs-title.js"
+            }
+          ]
+        },
+        {
+          "title": "Layout",
+          "name": "layout",
+          "type": "string",
+          "default": "daily-theme",
+          "hidden": true,
+          "required": true
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Draft?",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Summary",
+          "name": "summary",
+          "type": "string"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags",
+          "default": [
+            "daily log"
+          ]
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories",
+          "default": "Daily Dose of Pottekkat"
+        }
+      ]
+    }
+  ],
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "Posts",
+      "path": "[[workspace]]/content/posts",
+      "previewPath": "posts",
+      "contentTypes": [
+        "Post (default)"
+      ]
+    },
+    {
+      "title": "Dailies",
+      "path": "[[workspace]]/content/daily",
+      "previewPath": "daily",
+      "contentTypes": [
+        "Daily"
+      ]
+    }
+  ],
+  "frontMatter.dashboard.content.card.fields.description": "summary",
+  "frontMatter.custom.scripts": [{
+    "id": "create-image-folder",
+    "title": "Create image folder",
+    "script": "./scripts/frontmatter/create-image-folder.js"
+  }]
+}
