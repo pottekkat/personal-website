@@ -5,7 +5,7 @@ draft: false
 ShowToc: false
 summary: "Cryptocurrencies are trying to be a solution to a financial problem that does not exist. UPI solved digital payments years ago."
 tags: ["essays", "crypto", "finance"]
-categories: ["essays"]
+categories: ["Essays"]
 cover:
     image: "/images/upi-vs-crypto/theyyam-banner.jpeg"
     alt: "A photo of a traditional artist from Kerala."
