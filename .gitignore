@@ -5,6 +5,7 @@ public/*
 .github/mailchimp-scripts/myenv/*
 
 .github/node_modules/*
+scripts/frontmatter/node_modules/*
 
 *.env
 
