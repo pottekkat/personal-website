@@ -10,9 +10,7 @@
   "frontMatter.taxonomy.customTaxonomy": [
     {
       "id": "series",
-      "options": [
-        "Hands-On With Apache APISIX Ingress"
-      ]
+      "options": ["Hands-On With Apache APISIX Ingress"]
     }
   ],
   "frontMatter.taxonomy.contentTypes": [
@@ -180,9 +178,7 @@
           "title": "Tags",
           "name": "tags",
           "type": "tags",
-          "default": [
-            "daily log"
-          ]
+          "default": ["daily log"]
         },
         {
           "title": "Categories",
@@ -198,23 +194,24 @@
       "title": "Posts",
       "path": "[[workspace]]/content/posts",
       "previewPath": "posts",
-      "contentTypes": [
-        "Post (default)"
-      ]
+      "contentTypes": ["Post (default)"]
     },
     {
       "title": "Dailies",
       "path": "[[workspace]]/content/daily",
       "previewPath": "daily",
-      "contentTypes": [
-        "Daily"
-      ]
+      "contentTypes": ["Daily"]
     }
   ],
   "frontMatter.dashboard.content.card.fields.description": "summary",
-  "frontMatter.custom.scripts": [{
-    "id": "create-image-folder",
-    "title": "Create image folder",
-    "script": "./scripts/frontmatter/create-image-folder.js"
-  }]
+  "frontMatter.custom.scripts": [
+    {
+      "id": "create-image-folder",
+      "title": "Create image folder",
+      "script": "./scripts/frontmatter/create-image-folder.js"
+    }
+  ],
+  "frontMatter.extensibility.scripts": [
+    "./.frontmatter/ui/external.js"
+  ]
 }
