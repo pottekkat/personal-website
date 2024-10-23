@@ -6,6 +6,9 @@
   "frontMatter.preview.trailingSlash": true,
   "frontMatter.website.host": "https://navendu.me",
   "frontMatter.taxonomy.alignFilename": true,
+  "frontMatter.panel.actions.disabled": [
+    "createContent"
+  ],
   "frontMatter.git.disableOnBranches": [
     "hugo"
   ],
@@ -297,6 +300,7 @@
   "frontMatter.extensibility.scripts": [
     "./.frontmatter/ui/external.js"
   ],
+  "frontMatter.snippets.wrapper.enabled": false,
   "frontMatter.content.snippets": {
     "Figure": {
       "description": "Figure with title, caption, and link.",
@@ -359,6 +363,24 @@
         "{{< rawhtml >}}",
         "[[&selection]]",
         "{{< /rawhtml >}}"
+      ],
+      "fields": [
+        {
+          "name": "selection",
+          "title": "HTML",
+          "type": "string",
+          "default": "FM_SELECTED_TEXT"
+        }
+      ]
+    },
+    "Newsletter template": {
+      "description": "Newsletter template with headings and placeholders.",
+      "body": [
+        "## What's Happening?",
+        "",
+        "## Curated Links",
+        "",
+        "## Hot off the Press"
       ],
       "fields": [
         {
