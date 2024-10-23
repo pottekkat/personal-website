@@ -6,11 +6,15 @@
   "frontMatter.preview.trailingSlash": true,
   "frontMatter.website.host": "https://navendu.me",
   "frontMatter.taxonomy.alignFilename": true,
-  "frontMatter.git.disableOnBranches": ["hugo"],
+  "frontMatter.git.disableOnBranches": [
+    "hugo"
+  ],
   "frontMatter.taxonomy.customTaxonomy": [
     {
       "id": "series",
-      "options": ["Hands-On With Apache APISIX Ingress"]
+      "options": [
+        "Hands-On With Apache APISIX Ingress"
+      ]
     }
   ],
   "frontMatter.taxonomy.contentTypes": [
@@ -178,13 +182,81 @@
           "title": "Tags",
           "name": "tags",
           "type": "tags",
-          "default": ["daily log"]
+          "default": [
+            "daily log"
+          ]
         },
         {
           "title": "Categories",
           "name": "categories",
           "type": "categories",
           "default": "Daily Dose of Pottekkat"
+        }
+      ]
+    },
+    {
+      "name": "Newsletter",
+      "pageBundle": false,
+      "filePrefix": "nl",
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Layout",
+          "name": "layout",
+          "type": "string",
+          "default": "newsletter-theme",
+          "hidden": true,
+          "required": false
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Draft?",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Show ToC?",
+          "name": "ShowToc",
+          "type": "boolean",
+          "default": true,
+          "hidden": true
+        },
+        {
+          "title": "Open ToC?",
+          "name": "TocOpen",
+          "type": "boolean",
+          "default": true,
+          "hidden": true
+        },
+        {
+          "title": "Summary",
+          "name": "summary",
+          "type": "string"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags",
+          "default": [
+            "newsletter"
+          ]
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories",
+          "default": "Newsletter"
         }
       ]
     }
@@ -194,13 +266,25 @@
       "title": "Posts",
       "path": "[[workspace]]/content/posts",
       "previewPath": "posts",
-      "contentTypes": ["Post (default)"]
+      "contentTypes": [
+        "Post (default)"
+      ]
     },
     {
       "title": "Dailies",
       "path": "[[workspace]]/content/daily",
       "previewPath": "daily",
-      "contentTypes": ["Daily"]
+      "contentTypes": [
+        "Daily"
+      ]
+    },
+    {
+      "title": "Newsletters",
+      "path": "[[workspace]]/content/newsletter",
+      "previewPath": "newsletter",
+      "contentTypes": [
+        "Newsletter"
+      ]
     }
   ],
   "frontMatter.dashboard.content.card.fields.description": "summary",
@@ -213,5 +297,78 @@
   ],
   "frontMatter.extensibility.scripts": [
     "./.frontmatter/ui/external.js"
-  ]
+  ],
+  "frontMatter.content.snippets": {
+    "Figure": {
+      "description": "Figure with title, caption, and link.",
+      "body": "{{< figure src=\"[[&mediaUrl]]#center\" title=\"[[title]]\" caption=\"[[caption]]\" link=\"[[&mediaUrl]]\" target=\"_blank\" class=\"align-center\" >}}",
+      "isMediaSnippet": true
+    },
+    "Quote": {
+      "description": "Quote with the author, link, and title.",
+      "body": [
+        "{{< blockquote author=\"[[author]]\" link=\"[[&link]]\" title=\"[[title]]\" >}}",
+        "[[selection]]",
+        "{{< /blockquote >}}"
+      ],
+      "fields": [
+        {
+          "name": "author",
+          "title": "Author",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "title",
+          "title": "Title",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "link",
+          "title": "Link",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "selection",
+          "title": "Quote",
+          "type": "string",
+          "default": "FM_SELECTED_TEXT"
+        }
+      ]
+    },
+    "Diagram": {
+      "description": "Mermaid.js diagram.",
+      "body": [
+        "{{< mermaid >}}",
+        "[[&selection]]",
+        "{{< /mermaid >}}"
+      ],
+      "fields": [
+        {
+          "name": "selection",
+          "title": "Diagram",
+          "type": "string",
+          "default": "FM_SELECTED_TEXT"
+        }
+      ]
+    },
+    "HTML": {
+      "description": "Raw HTML code.",
+      "body": [
+        "{{< rawhtml >}}",
+        "[[&selection]]",
+        "{{< /rawhtml >}}"
+      ],
+      "fields": [
+        {
+          "name": "selection",
+          "title": "HTML",
+          "type": "string",
+          "default": "FM_SELECTED_TEXT"
+        }
+      ]
+    }
+  }
 }
