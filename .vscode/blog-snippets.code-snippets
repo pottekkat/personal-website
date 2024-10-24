@@ -1,0 +1,48 @@
+{
+	"Add figure": {
+		"scope": "markdown",
+		"prefix": "fig",
+		"body": [
+			"{{< figure src=\"/images/$TM_FILENAME_BASE/${1:URL}#center\" title=\"${2:Title}\" caption=\"${3:Caption}\" link=\"/images/$TM_FILENAME_BASE/${1:URL}\" target=\"_blank\" class=\"align-center\" >}}"
+		],
+		"description": "Add a figure to post"
+	},
+	"Add quote": {
+		"scope": "markdown",
+		"prefix": "quo",
+		"body": [
+			"{{< blockquote author=\"${1:Author}\" link=\"${2:Link}\" title=\"${3:Title}\" >}}",
+			"\t${TM_SELECTED_TEXT:${0:Quote}}",
+			"{{< /blockquote >}}"
+		],
+		"description": "Add a quote to post"
+	},
+	"Add diagram": {
+		"scope": "markdown",
+		"prefix": "dia",
+		"body": [
+			"{{< mermaid >}}",
+			"${TM_SELECTED_TEXT:${0:Diagram}}",
+			"{{< /mermaid >}}"
+		],
+		"description": "Add a diagram to post"
+	},
+	"Add HTML": {
+		"scope": "markdown",
+		"prefix": "htm",
+		"body": [
+			"{{< rawhtml >}}",
+			"${TM_SELECTED_TEXT:${0:HTML}}",
+			"{{< /rawhtml >}}"
+		],
+		"description": "Add a HTML to post"
+	},
+	"Add codapi": {
+		"scope": "markdown",
+		"prefix": "codapi",
+		"body": [
+			"{{< codapi sandbox=\"${1:python}\" editor=\"${2:basic}\" >}}"
+		],
+		"description": "Add codapi to post"
+	},
+}
