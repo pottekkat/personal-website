@@ -1,18 +1,23 @@
 ---
-title: "Exporting APISIX Metrics to SigNoz"
+title: Exporting APISIX Metrics to SigNoz
 date: 2023-11-24T10:23:52+05:30
 draft: false
 ShowToc: true
 TocOpen: true
 ShowRelatedContent: false
-summary: "A guide for using SigNoz to collect and observe metrics from Apache APISIX."
-tags: ["monitoring", "signoz", "tutorial"]
-categories: ["API Gateway"]
+summary: A guide for using SigNoz to collect and observe metrics from Apache APISIX.
+tags:
+  - monitoring
+  - signoz
+  - tutorials
+categories:
+  - API Gateway
 cover:
-    image: "/images/apisix-metrics-signoz/eye-banner.jpg"
-    alt: "A photo of an eye of a person in the shadows."
-    caption: "SigNoz is a relatively new \"Swiss Army Knife\" for observability."
-    relative: false
+  image: /images/apisix-metrics-signoz/eye-banner.jpg
+  alt: A photo of an eye of a person in the shadows.
+  caption: SigNoz is a relatively new "Swiss Army Knife" for observability.
+  relative: false
+slug: exporting-apisix-metrics-signoz
 ---
 
 [SigNoz](https://signoz.io/) is a popular open source observability platform. It provides tooling to observe traces, logs, and metrics with the ability to set up alerts and create dashboards.
@@ -83,12 +88,12 @@ receivers:
   prometheus:
     config:
       scrape_configs:
-        - job_name: 'apisix'
+        - job_name: "apisix"
           scrape_interval: 10s
           static_configs:
-            - targets: ['apisix:9080']
+            - targets: ["apisix:9080"]
               labels:
-                instance: 'apisix'
+                instance: "apisix"
 ```
 
 You can then restart SigNoz, and the configuration will be in effect.

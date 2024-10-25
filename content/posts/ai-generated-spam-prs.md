@@ -1,16 +1,20 @@
 ---
-title: "AI-Generated Spam Pull Requests"
+title: AI-Generated Spam Pull Requests
 date: 2023-03-29T18:15:40+05:30
 draft: false
 ShowToc: false
-summary: "Someone tried to open pull requests to open source projects with AI-generated code."
-tags: ["open-source", "ai", "spam"]
-categories: ["Open Source"]
+summary: Someone tried to open pull requests to open source projects with AI-generated code.
+tags:
+  - ai
+  - open source
+  - spam
+categories:
+  - Open Source
 cover:
-    image: "/images/ai-generated-spam-prs/owl-banner.jpeg"
-    alt: "Close-up photo of an owl."
-    caption: "Photo by [Pixabay](https://www.pexels.com/photo/brown-and-black-owl-staring-86596/)"
-    relative: false
+  image: /images/ai-generated-spam-prs/owl-banner.jpeg
+  alt: Close-up photo of an owl.
+  caption: Photo by [Pixabay](https://www.pexels.com/photo/brown-and-black-owl-staring-86596/)
+  relative: false
 ---
 
 > _See the discussion on [Hacker News](https://news.ycombinator.com/item?id=35357933)._

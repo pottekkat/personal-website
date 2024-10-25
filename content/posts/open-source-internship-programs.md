@@ -1,18 +1,23 @@
 ---
-title: "20+ Open Source Internship Programs (Updated for 2024)"
+title: 20+ Open Source Internship Programs (Updated for 2024)
 date: 2021-08-28T17:52:25+05:30
 draft: false
-summary: "A curated list of open source internship/mentorship programs with all the necessary details."
+summary: A curated list of open source internship/mentorship programs with all the necessary details.
 ShowToc: true
 TocOpen: true
-tags: ["list", "open-source", "internship"]
-categories: ["Open Source"]
-aliases: [/open-source-internship]
+tags:
+  - internship
+  - list
+  - open source
+categories:
+  - Open Source
+aliases:
+  - /open-source-internship
 cover:
-    image: "images/open-source-internship-programs/open-sign.jpeg"
-    alt: "A sign that says open."
-    caption: "Photo by [Ben Taylor](https://www.pexels.com/photo/yellow-and-teal-open-neon-signage-109998/)"
-    relative: false
+  image: images/open-source-internship-programs/open-sign.jpeg
+  alt: A sign that says open.
+  caption: Photo by [Ben Taylor](https://www.pexels.com/photo/yellow-and-teal-open-neon-signage-109998/)
+  relative: false
 ---
 
 Contributing to open source is one of the best ways to gain skills and build your resume as a student or a new developer.

@@ -1,18 +1,21 @@
 ---
-title: "Non-Code Contributions to Open Source"
+title: Non-Code Contributions to Open Source
 date: 2021-09-21T12:56:25+05:30
 draft: false
-summary: "As open source becomes the default way to build software, contributions required to create, manage, and sustain projects go beyond code. This article teaches you to make non-code contributions."
+summary: As open source becomes the default way to build software, contributions required to create, manage, and sustain projects go beyond code. This article teaches you to make non-code contributions.
 ShowToc: true
 TocOpen: true
-tags: ["open-source"]
-categories: ["Open Source"]
-aliases: [/non-code-contributions]
+tags:
+  - open source
+categories:
+  - Open Source
+aliases:
+  - /non-code-contributions
 cover:
-    image: "images/non-code-contributions-to-open-source/pencils-banner.jpeg"
-    alt: "Banner showing non-code contributions to open-source."
-    caption: "Photo by [Alexander Grey](https://unsplash.com/@sharonmccutcheon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/diversity?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
-    relative: false
+  image: images/non-code-contributions-to-open-source/pencils-banner.jpeg
+  alt: Banner showing non-code contributions to open-source.
+  caption: Photo by [Alexander Grey](https://unsplash.com/@sharonmccutcheon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/diversity?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  relative: false
 ---
 
 When thinking about open source contributions, most people think about contributing code. This was true in the early days when open source was a way for people to share the cool thing they built.

@@ -1,16 +1,19 @@
 ---
-title: "Works on My Machine"
+title: Works on My Machine
 date: 2023-11-03T09:22:24+05:30
 draft: false
 ShowToc: false
 ShowRelatedContent: true
-summary: "A tale of how I spent an irrationally long time figuring out why the tests pass on my machine but fail in the CI."
-tags: ["software engineering", "open-source"]
-categories: ["Software Engineering"]
+summary: A tale of how I spent an irrationally long time figuring out why the tests pass on my machine but fail in the CI.
+tags:
+  - open source
+  - software engineering
+categories:
+  - Software Engineering
 cover:
-  image: "/images/works-on-my-machine/surreal-it-banner.jpg"
-  alt: "A surreal depicting of a software engineer's workstation."
-  caption: "My machine according to AI."
+  image: /images/works-on-my-machine/surreal-it-banner.jpg
+  alt: A surreal depicting of a software engineer's workstation.
+  caption: My machine according to AI.
   relative: false
 ---
 

@@ -1,16 +1,18 @@
 ---
-title: "Lessons Learned From Three Years of Open Source Contributions"
+title: Lessons Learned From Three Years of Open Source Contributions
 date: 2022-10-07T09:28:21+05:30
 draft: false
 ShowToc: false
-summary: "Insights from my three year journey as an open source contributor."
-tags: ["open-source"]
-categories: ["Open Source"]
+summary: Insights from my three year journey as an open source contributor.
+tags:
+  - open source
+categories:
+  - Open Source
 cover:
-    image: "/images/open-source-lessons/banner-book-of-kells.jpeg"
-    alt: "A photo of the Book of Kells library from Trinity College Dublin."
-    caption: "Photo by [Andrea Barsali](https://www.pexels.com/photo/wooden-book-shelves-inside-library-of-trinity-college-in-dublin-12030035/)"
-    relative: false
+  image: /images/open-source-lessons/banner-book-of-kells.jpeg
+  alt: A photo of the Book of Kells library from Trinity College Dublin.
+  caption: Photo by [Andrea Barsali](https://www.pexels.com/photo/wooden-book-shelves-inside-library-of-trinity-college-in-dublin-12030035/)
+  relative: false
 ---
 
 I have been contributing to open source projects for the past three years. During this time, I have built, scaled, and maintained my own projects and projects in foundations, including CNCF and the ASF. This is my story and the lessons I learned along the way.

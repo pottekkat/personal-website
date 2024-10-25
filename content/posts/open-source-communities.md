@@ -1,16 +1,20 @@
 ---
-title: "On Open Source Communities"
+title: On Open Source Communities
 date: 2022-12-30T06:40:54+05:30
 draft: false
 ShowToc: false
-summary: "A note on the role of communities in open source."
-tags: ["open-source", "community", "notes"]
-categories: ["Open Source"]
+summary: A note on the role of communities in open source.
+tags:
+  - community
+  - notes
+  - open source
+categories:
+  - Open Source
 cover:
-    image: "/images/open-source-communities/protest-banner.jpeg"
-    alt: "A photo of a crowd protesting."
-    caption: "Photo by [Amine M'siouri](https://www.pexels.com/photo/crowd-of-people-black-and-white-photo-2246258/)"
-    relative: false
+  image: /images/open-source-communities/protest-banner.jpeg
+  alt: A photo of a crowd protesting.
+  caption: Photo by [Amine M'siouri](https://www.pexels.com/photo/crowd-of-people-black-and-white-photo-2246258/)
+  relative: false
 ---
 
 > I don't know if I would classify this as an article. This is a note an open source maintainer made about open source communities. In the future, I might turn this into a complete article.

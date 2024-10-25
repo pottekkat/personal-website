@@ -1,14 +1,17 @@
 ---
-title: "Contributing to Documentation"
+title: Contributing to Documentation
 date: 2021-11-08T12:56:25+05:30
 draft: false
-summary: "Contributing to documentation is really impactful for an open-source project. It can also be a stepping stone to make code contributions. Learn how."
-tags: ["open-source", "documentation"]
-categories: ["Open Source"]
+summary: Contributing to documentation is really impactful for an open-source project. It can also be a stepping stone to make code contributions. Learn how.
+tags:
+  - documentation
+  - open source
+categories:
+  - Open Source
 cover:
-    image: "images/contributing-to-documentation/banner-image.jpeg"
-    alt: "A page with handwritten text."
-    relative: false
+  image: images/contributing-to-documentation/banner-image.jpeg
+  alt: A page with handwritten text.
+  relative: false
 ---
 
 Contributing to the documentation is an impactful way to contribute to open source projects.

@@ -2,14 +2,17 @@
 title: "Everything you Need to Know About Google Summer of Code (GSoC): Important Dates, Eligibility, Application, Getting Selected and Other Tips"
 date: 2021-12-02T12:49:25+05:30
 draft: false
-summary: "Google Summer of Code (GSoC) is a great way to start contributing to open source while getting paid to do so. This article dives deep into everything GSoC from the application procedure to tips from real experience on being successful"
+summary: Google Summer of Code (GSoC) is a great way to start contributing to open source while getting paid to do so. This article dives deep into everything GSoC from the application procedure to tips from real experience on being successful
 ShowToc: true
 TocOpen: true
-tags: ["open-source", "tips"]
-categories: ["Open Source"]
+tags:
+  - open source
+  - tips
+categories:
+  - Open Source
 cover:
-  image: "images/everything-about-gsoc/Google Summer of Code (GSoC) Banner.png"
-  alt: "A poster of Google Summer of Code (GSoC)."
+  image: images/everything-about-gsoc/Google Summer of Code (GSoC) Banner.png
+  alt: A poster of Google Summer of Code (GSoC).
   relative: false
 ---
 

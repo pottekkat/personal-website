@@ -1,16 +1,21 @@
 ---
-title: "How the LFX Mentorship Program Helped Me Level Up My Career"
+title: How the LFX Mentorship Program Helped Me Level Up My Career
 date: 2022-09-02T10:09:32+05:30
 draft: false
-summary: "Sharing how I got involved in the LFX Mentorship Program and its life-changing impact on my career and personal life."
-tags: ["linux foundation","open-source","internship"]
-categories: ["Open Source"]
-aliases: [/lfx-mentorship]
+summary: Sharing how I got involved in the LFX Mentorship Program and its life-changing impact on my career and personal life.
+tags:
+  - internship
+  - linux foundation
+  - open source
+categories:
+  - Open Source
+aliases:
+  - /lfx-mentorship
 cover:
-    image: "/images/how-the-lfx-mentorship-program-helped-me-level-up-my-career/banner-stairs.jpeg"
-    alt: "Photo of stairs designed in a modern fashion over an orange background"
-    caption: "Photo by [Kanhaiya Sharma](https://www.pexels.com/photo/white-plastic-tool-on-orange-surface-1306256)"
-    relative: false
+  image: /images/how-the-lfx-mentorship-program-helped-me-level-up-my-career/banner-stairs.jpeg
+  alt: Photo of stairs designed in a modern fashion over an orange background
+  caption: Photo by [Kanhaiya Sharma](https://www.pexels.com/photo/white-plastic-tool-on-orange-surface-1306256)
+  relative: false
 ---
 
 Contributing to open source is nerve-wracking, especially if you are a beginner.

@@ -1,17 +1,21 @@
 ---
-title: "Vada (Fritters) Profitable"
+title: Vada (Fritters) Profitable
 date: 2023-04-07T09:59:04+05:30
 draft: false
 ShowToc: true
 TocOpen: true
-summary: "This article is about a project I built and open sourced three years ago and our journey to make it uzhunnu vada (UV) profitable™."
-tags: ["open-source", "nsfw filter", "finance"]
-categories: ["Open Source"]
+summary: This article is about a project I built and open sourced three years ago and our journey to make it uzhunnu vada (UV) profitable™.
+tags:
+  - finance
+  - nsfw filter
+  - open source
+categories:
+  - Open Source
 cover:
-    image: "/images/vada-profitable/vada-banner.png"
-    alt: "Uzhunnu vada being fried."
-    caption: "You are missing out on life if you haven't had uzhunnu vadas."
-    relative: false
+  image: /images/vada-profitable/vada-banner.png
+  alt: Uzhunnu vada being fried.
+  caption: You are missing out on life if you haven't had uzhunnu vadas.
+  relative: false
 ---
 
 _Uzhunnu vada/ഉഴുന്ന് വട_ is a popular South Indian snack (like fritters) made from black gram ([Vigna mungo](https://en.wikipedia.org/wiki/Vigna_mungo)).

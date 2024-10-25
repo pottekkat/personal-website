@@ -1,15 +1,18 @@
 ---
-title: "Pull Requests like a Pro"
+title: Pull Requests like a Pro
 date: 2021-09-15T17:52:25+05:30
 draft: false
-summary: "Tips to make High-Quality Pull Requests."
-tags: ["tips", "open-source"]
-categories: ["Open Source"]
+summary: Tips to make High-Quality Pull Requests.
+tags:
+  - open source
+  - tips
+categories:
+  - Open Source
 cover:
-    image: "images/pull-requests-like-a-pro/formula-1-banner.jpeg"
-    alt: "Photo of a Formula 1 racing car coming out of the pit stops."
-    caption: "Photo by [Dimitrije Djekanovic](https://www.pexels.com/photo/racing-team-with-their-racing-car-13857977/)"
-    relative: false
+  image: images/pull-requests-like-a-pro/formula-1-banner.jpeg
+  alt: Photo of a Formula 1 racing car coming out of the pit stops.
+  caption: Photo by [Dimitrije Djekanovic](https://www.pexels.com/photo/racing-team-with-their-racing-car-13857977/)
+  relative: false
 ---
 
 I have been maintaining open source code for the past three years.
