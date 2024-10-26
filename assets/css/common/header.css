@@ -6,6 +6,8 @@
     margin-inline-start: auto;
     margin-inline-end: auto;
     line-height: var(--header-height);
+    background: var(--entry-image), var(--entry);
+    clip-path: polygon(0 10%, 95% 15%, 99% 25%, 98% 85%, 0 100%);
 }
 
 .nav a {

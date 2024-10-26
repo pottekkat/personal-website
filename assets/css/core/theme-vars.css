@@ -27,6 +27,8 @@
     --hljs-bg: rgb(22, 22, 22);
     --code-bg: rgb(33, 33, 33);
     --border: rgb(25, 25, 25);
+    --background-image: url(/images/stardust.png);
+    --entry-image: url(/images/white-wall.png);
 }
 
 /* .dark {
@@ -46,7 +48,7 @@
 }
 
 .dark.list {
-    background: var(--theme);
+    background: var(--background-image) repeat-x center top, var(--theme);
 }
 
 /*change color of text highlight*/

@@ -10,6 +10,8 @@
     padding: calc((var(--footer-height) - var(--gap)) / 2) var(--gap);
     text-align: center;
     line-height: 24px;
+    background: var(--entry-image), var(--entry);
+    clip-path: polygon(0 0, 50% 15%, 95% 25%, 100% 20%, 100% 90%, 0 80%);
 }
 
 .footer span {
