@@ -1,5 +1,7 @@
 // Run: go build -o ../
 
+// Deprecated, use Front Matter CMS instead
+
 package main
 
 import (
