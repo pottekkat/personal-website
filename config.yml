@@ -153,10 +153,10 @@ menu:
           name: Categories
           url: /categories/
           weight: 30
-        - identifier: daily
-          name: Daily Logs
-          url: /dailies/
-          weight: 40
+        # - identifier: daily
+        #   name: Daily
+        #   url: /dailies/
+        #   weight: 40
         - identifier: about
           name: About
           url: /about/
