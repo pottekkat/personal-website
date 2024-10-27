@@ -11,7 +11,12 @@
     text-align: center;
     line-height: 24px;
     background: var(--entry-image), var(--entry);
-    clip-path: polygon(0 0, 50% 15%, 95% 25%, 100% 20%, 100% 90%, 0 80%);
+}
+
+@media (min-width: 768px) {
+    .footer {
+        clip-path: polygon(0 10%, 50% 15%, 95% 25%, 100% 20%, 100% 90%, 0 80%);
+    }
 }
 
 .footer span {
@@ -38,7 +43,7 @@
     bottom: 60px;
     right: 30px;
     z-index: 99;
-    background: var(--tertiary);
+    background: var(--background-color);
     width: 42px;
     height: 42px;
     padding: 12px;

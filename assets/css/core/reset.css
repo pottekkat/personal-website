@@ -26,7 +26,7 @@ body {
     font-size: 18px;
     line-height: 1.6;
     word-break: break-word;
-    background: var(--background-image) repeat-x center top, var(--theme);
+    background: var(--background-image), var(--theme);
 }
 
 article,

@@ -4,8 +4,15 @@
     max-width: calc(var(--main-width) + var(--gap) * 2);
     margin: auto;
     padding: var(--gap);
-    background: var(--theme);
+    background: var(--content-background), var(--theme);
 }
+
+@media (min-width: 768px) {
+    .main {
+        clip-path: polygon(0 7px, 34% 10px, 100% 5px, 100% calc(100% - 10px), 0 calc(100% - 5px));
+    }
+}
+
 
 .page-header h1 {
     font-size: 40px;
