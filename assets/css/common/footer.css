@@ -43,7 +43,7 @@
     bottom: 60px;
     right: 30px;
     z-index: 99;
-    background: var(--background-color);
+    background: var(--tertiary);
     width: 42px;
     height: 42px;
     padding: 12px;
