@@ -32,12 +32,12 @@ I work primarily on cloud native/Kubernetes, API gateways, and service meshes. I
 
 _The chart below shows how much I work on this blog. See more [/stats](/stats/)._
 
-{{< echarts title="Stats from the last year" caption="GitHub inspired contribution graph" width="720px" height="120px" overflow="auto" setOption=false >}}
+{{< echarts title="Stats from the last year" caption="GitHub inspired contribution graph" width="720px" height="120px" overflow="auto" setOption=false class="nofill" >}}
 fetch("commitsData.json")
-  .then((response) => response.json())
-  .then((data) => {
-    const startDate = data[1][0];
-    const endDate = data[data.length - 1][0];
+.then((response) => response.json())
+.then((data) => {
+const startDate = data[1][0];
+const endDate = data[data.length - 1][0];
 
     const option = {
       animation: false,
@@ -51,8 +51,8 @@ fetch("commitsData.json")
           show: false,
         },
         itemStyle: {
-          color: "#111111",
-          borderColor: "#111111",
+          color: "rgba(0,0,0,0)",
+          borderColor: "rgba(0,0,0,0)",
           borderWidth: 2
         },
         dayLabel: {
@@ -103,8 +103,9 @@ fetch("commitsData.json")
       },
     };
     myChart.setOption(option);
-  })
-  .catch((error) => console.error("Failed to load commit data:", error));
+
+})
+.catch((error) => console.error("Failed to load commit data:", error));
 {{< /echarts >}}
 
 The lines between my work and personal life are blurry, but outside of this, I enjoy reading, playing my bass, and riding my motorcycles. If you want to know more about me, here's [my story](/story/).

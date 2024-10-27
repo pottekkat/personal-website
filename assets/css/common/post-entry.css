@@ -141,4 +141,5 @@
     font-size: 14px;
     background-color: var(--code-bg);
     border-radius: var(--radius) var(--radius) 0 0;
+    margin-bottom: calc(var(--gap)/2.5);
   }

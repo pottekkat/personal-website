@@ -198,6 +198,7 @@
     line-height: 1.5;
     background: var(--code-bg);
     border-radius: 0;
+    border: 1px solid var(--code-bg);
 }
 
 .post-content pre code {
@@ -235,6 +236,7 @@
 .post-content img {
     border-radius: 0;
     margin: 1rem 0;
+    border: 1px solid var(--code-bg);
 }
 
 .post-content img[src*="#center"] {
@@ -465,4 +467,8 @@ codapi-snippet codapi-toolbar button:after {
     margin-bottom: 16px;
     color: var(--secondary);
     font-size: 14px;
+}
+
+#canvas-wrapper > .nofill > div > svg > rect {
+    fill: none;
 }

@@ -9,10 +9,10 @@ summary: "A comprehensive comparison of API gateways, Kubernetes gateways, and s
 tags: ["api gateway", "service mesh", "kubernetes"]
 categories: ["API Gateway", "Featured"]
 cover:
-    image: "/images/gateway-and-mesh/mesh-banner.jpeg"
-    alt: "A photo of a mesh that is likely the weaving in a wooden chair."
-    caption: "Photo by [Anna Tarazevich](https://www.pexels.com/photo/close-up-photo-of-natural-rattan-hexagonal-woven-material-6594391/)"
-    relative: false
+  image: "/images/gateway-and-mesh/mesh-banner.jpeg"
+  alt: "A photo of a mesh that is likely the weaving in a wooden chair."
+  caption: "Photo by [Anna Tarazevich](https://www.pexels.com/photo/close-up-photo-of-natural-rattan-hexagonal-woven-material-6594391/)"
+  relative: false
 ---
 
 **Translations**: [Simplified Chinese | 简体中文](https://lib.jimmysong.io/blog/gateway-and-mesh/).
@@ -168,12 +168,12 @@ metadata:
   name: api-canary
 spec:
   rules:
-  - http:
-      paths:
-      - backend:
-          serviceName: api-v2
-          servicePort: 8080
-        path: /
+    - http:
+        paths:
+          - backend:
+              serviceName: api-v2
+              servicePort: 8080
+            path: /
 ```
 
 The above configuration will route 5% of the traffic to the api-v2 service.
@@ -219,13 +219,13 @@ metadata:
   name: api-canary
 spec:
   rules:
-  - backendRefs:
-    - name: api-v1
-      port: 8080
-      weight: 95
-    - name: api-v2
-      port: 8080
-      weight: 5
+    - backendRefs:
+        - name: api-v1
+          port: 8080
+          weight: 95
+        - name: api-v2
+          port: 8080
+          weight: 5
 ```
 
 Any Ingress controller (that implements the Gateway API) can now implement this configuration.
@@ -327,17 +327,17 @@ metadata:
   name: api-canary
 spec:
   parentRefs:
-  - kind: Service
-    name: api-a
-    port: 8080
+    - kind: Service
+      name: api-a
+      port: 8080
   rules:
-  - backendRefs:
-    - name: api-b-v1
-      port: 8080
-      weight: 95
-    - name: api-b-v2
-      port: 8080
-      weight: 5
+    - backendRefs:
+        - name: api-b-v1
+          port: 8080
+          weight: 95
+        - name: api-b-v2
+          port: 8080
+          weight: 5
 ```
 
 There are [some concerns](https://thenewstack.io/the-gateway-api-is-in-the-firing-line-of-the-service-mesh-wars/) that the GAMMA project might become skewed to serve the needs of one particular project than the larger community, which will eventually lead to other projects using their own APIs, similar to the [custom CRD scenario](/posts/gateway-vs-ingress-api/#custom-crds--ingress-api) after the Kubernetes Ingress API.
