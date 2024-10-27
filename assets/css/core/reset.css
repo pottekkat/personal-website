@@ -23,7 +23,7 @@ h6 {
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6;
     word-break: break-word;
     background: var(--background-image), var(--theme);

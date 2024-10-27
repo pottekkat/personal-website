@@ -5,7 +5,7 @@
 
 .post-title {
     margin-bottom: 2px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .post-description {
@@ -46,16 +46,16 @@
 
 .post-content h1 {
     margin: 40px auto 32px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .post-content h2 {
     margin: 32px auto 24px;
-    font-size: 32px;
+    font-size: 26px;
 }
 
 .post-content h3 {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .post-content h4 {
@@ -217,9 +217,11 @@
 }
 
 .post-content blockquote {
-    margin: 20px 0;
-    padding: 0 14px;
-    border-inline-start: 3px solid var(--primary);
+    margin: 20px auto;
+    padding: 14px 14px;
+    border-inline-start: 3px solid var(--secondary);
+    background-color: var(--code-bg);
+    width: 90%;
 }
 
 .post-content hr {
