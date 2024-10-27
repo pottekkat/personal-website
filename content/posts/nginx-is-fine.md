@@ -9,10 +9,10 @@ summary: "Should you build your own reverse proxy to replace Nginx?"
 tags: ["api gateway", "software engineering", "performance"]
 categories: ["API Gateway", "Featured"]
 cover:
-    image: "/images/nginx-is-fine/engine-banner.jpg"
-    alt: "A photo of a crankshaft of an engine."
-    caption: "Emphasis on \"probably.\""
-    relative: false
+  image: "/images/nginx-is-fine/engine-banner.jpg"
+  alt: "A photo of a crankshaft of an engine."
+  caption: 'Emphasis on "probably."'
+  relative: false
 ---
 
 I recently found articles from the past few years about companies migrating away from [Nginx](https://nginx.org/en/). Some of these migrations are to [other reverse proxies like Envoy](https://dropbox.tech/infrastructure/how-we-migrated-dropbox-from-nginx-to-envoy), while others choose to build their [own in-house solutions](https://blog.cloudflare.com/how-we-built-pingora-the-proxy-that-connects-cloudflare-to-the-internet/).
