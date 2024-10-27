@@ -3,16 +3,15 @@
     min-height: calc(100vh - var(--header-height) - var(--footer-height));
     max-width: calc(var(--main-width) + var(--gap));
     margin: auto;
-    padding-top: var(--gap);
-    padding-bottom: var(--gap);
-    padding-left: calc(var(--gap) * 2);
-    padding-right: calc(var(--gap) * 2);
+    padding: var(--gap);
     background: var(--content-background), var(--theme);
 }
 
 @media (min-width: 768px) {
     .main {
         clip-path: polygon(0 7px, 34% 10px, 100% 5px, 100% calc(100% - 10px), 0 calc(100% - 5px));
+        padding-left: calc(var(--gap) * 2);
+        padding-right: calc(var(--gap) * 2);
     }
 }
 
