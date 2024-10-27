@@ -20,7 +20,7 @@
 }
 
 .logo,
-#menu {
+.menulinks {
     display: flex;
     margin: auto calc(var(--gap) * 2);
 }
@@ -97,4 +97,27 @@ body:not(.dark) #sun {
 
 .logo-switches {
     flex-wrap: inherit;
+}
+
+.menu-toggle {
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    right: calc(var(--gap) * 2);
+}
+
+/* Hide the navbar links on small screens */
+@media (max-width: 625px) {
+    .menulinks {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+}
+
+/* Show the navbar links when the toggle button is active */
+#menu.active {
+    display: flex;
 }

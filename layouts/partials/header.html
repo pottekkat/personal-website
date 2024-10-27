@@ -122,7 +122,10 @@
             </div>
         </div>
         {{- $currentPage := . }}
-        <ul id="menu">
+        <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="menu">
+            &#9776; <!-- Hamburger icon -->
+        </button>
+        <ul id="menu" class="menulinks">
             {{- range site.Menus.main }}
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
             {{- $page_url:= $currentPage.Permalink | absLangURL }}
@@ -149,3 +152,16 @@
         </ul>
     </nav>
 </header>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const menuToggleButton = document.getElementById('menu-toggle');
+    const menuLinks = document.getElementById('menu');
+
+    menuToggleButton.addEventListener('click', function() {
+        const isExpanded = menuToggleButton.getAttribute('aria-expanded') === 'true';
+        menuToggleButton.setAttribute('aria-expanded', !isExpanded);
+        menuLinks.classList.toggle('active');
+    });
+});
+</script>
