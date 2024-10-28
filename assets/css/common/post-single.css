@@ -362,7 +362,19 @@
 }
 
 .share-buttons a:not(:last-of-type) {
-    margin-inline-end: 12px;
+    margin-inline-end: 16px;
+}
+
+.share-buttons svg {
+    height: 28px;
+    width: 28px;
+    color: var(--code-bg);
+    background-color: var(--primary);
+    padding: 4px;
+}
+
+.share-buttons svg:hover {
+    background-color: var(--secondary);
 }
 
 h1:hover .anchor,
