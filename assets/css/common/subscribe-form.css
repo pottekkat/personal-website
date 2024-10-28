@@ -23,8 +23,7 @@
 }
 
 .subscribe-button:hover {
-    background: var(--code-bg);
-    color: var(--primary);
+    background: var(--secondary);
 }
 
 .subscribe-form {

@@ -72,6 +72,7 @@ params:
     ShowCodeCopyButtons: true
     ShowWordCount: false
     ShowRssButtonInSectionTermList: true
+    ShowRssButtonInHome: true
     UseHugoToc: false
     disableSpecial1stPost: false
     disableScrollToTop: false
@@ -119,8 +120,8 @@ params:
           url: "https://youtube.com/@realPottekkat"
         # - name: goodreads
         #   url: "https://www.goodreads.com/user/show/83926433-navendu-pottekkat"
-        - name: rss
-          url: /index.xml
+        # - name: rss
+        #   url: /index.xml
     
     cover:
         hidden: true # hide everywhere but not in structured data

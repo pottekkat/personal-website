@@ -20,6 +20,10 @@
     font-size: 30px;
 }
 
+.page-header a:hover {
+    color: var(--secondary);
+}
+
 .pagination {
     display: flex;
 }
@@ -38,17 +42,24 @@
 }
 
 .social-icons {
-    padding: 10px 0;
-    align-self: center;
+    padding-top: 10px;
+    align-self: self-start;
 }
 
 .social-icons a:not(:last-of-type) {
-    margin-inline-end: 18px;
+    margin-inline-end: 12px;
 }
 
 .social-icons a svg {
-    height: 32px;
-    width: 32px;
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+}
+
+.social-icons span {
+    margin-right: 5px;
+    font-size: 14px;
+    color: var(--secondary);
 }
 
 code {

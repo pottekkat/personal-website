@@ -19,6 +19,10 @@
     display: block;
 }
 
+.nav a:hover {
+    color: var(--secondary);
+}
+
 .logo,
 .menulinks {
     display: flex;
@@ -104,6 +108,10 @@ body:not(.dark) #sun {
     display: none;
     cursor: pointer;
     right: calc(var(--gap) * 2);
+}
+
+.menu-toggle:hover {
+    color: var(--secondary);
 }
 
 /* Hide the navbar links on small screens */
