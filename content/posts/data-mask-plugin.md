@@ -4,6 +4,8 @@ date: 2023-07-21T09:29:55+05:30
 draft: false
 ShowToc: false
 ShowRelatedContent: false
+editPost:
+  disabled: true
 canonicalURL: "https://apisix.apache.org/blog/2023/07/20/data-mask-plugin/"
 ShowCanonicalLink: true
 summary: "A tutorial on creating a custom Apache APISIX plugin in Lua through a real use case."

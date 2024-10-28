@@ -33,6 +33,10 @@
     -webkit-line-clamp: unset;
 }
 
+.home-info a:hover {
+    color: var(--secondary);
+}
+
 /* To add margin below each paragraph in the intro content */
 .entry-content .intro {
     margin-bottom: 14px;
@@ -69,6 +73,12 @@
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
+}
+
+.entry-content a {
+    box-shadow: 0 1px 0;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
 }
 
 .entry-footer {
@@ -119,12 +129,6 @@
 .entry-cover a {
     color: var(--secondary);
     box-shadow: 0 1px 0 var(--primary);
-}
-
-.subscribe-message {
-    margin-top: var(--gap);
-    text-align: center;
-    font-style: italic;
 }
 
 .mermaid {

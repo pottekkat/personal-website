@@ -1,0 +1,8 @@
+<div class="social-icons">
+    <span>Also seen on:</span>
+    {{- range . }}
+    <a href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer me" title="{{ (.title | default .name) | title }}">
+        {{ partial "svg.html" . }}
+    </a>
+    {{- end }}
+</div>
