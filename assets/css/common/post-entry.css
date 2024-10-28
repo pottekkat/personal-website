@@ -121,12 +121,6 @@
     box-shadow: 0 1px 0 var(--primary);
 }
 
-.subscribe-message {
-    margin-top: var(--gap);
-    text-align: center;
-    font-style: italic;
-}
-
 .mermaid {
     display: flex;
     justify-content: center;
