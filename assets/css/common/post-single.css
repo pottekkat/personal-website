@@ -173,8 +173,13 @@
 .post-content .highlight:not(table),
 .post-content pre {
     margin: 10px auto;
-    background: var(--hljs-bg) !important;
+    background: var(--theme) !important;
     border-radius: var(--radius);
+}
+
+.dark .post-content .highlight:not(table),
+.dark .post-content pre {
+    background: var(--hljs-bg) !important;
 }
 
 .post-content li > .highlight {
@@ -213,6 +218,9 @@
     line-height: 1.5;
     background: var(--code-bg);
     border-radius: 0;
+}
+
+.dark .post-content code {
     border: 1px solid var(--code-bg);
 }
 
@@ -253,6 +261,9 @@
 .post-content img {
     border-radius: 0;
     margin: 1rem 0;
+}
+
+.dark .post-content img {
     border: 1px solid var(--code-bg);
 }
 

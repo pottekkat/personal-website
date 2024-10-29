@@ -47,6 +47,12 @@
     margin-inline-end: 8px;
 }
 
+/* add a filter to invert the png in light more, i.e., not in dark more */
+
+body:not(.dark) #main-header-logo {
+    filter: invert(75%);
+}
+
 button#theme-toggle {
     font-size: 26px;
     margin: auto 4px;

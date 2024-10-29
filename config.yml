@@ -41,14 +41,14 @@ params:
     keywords: ["navendu pottekkat", "personal blog", "the open source absolutist"]
     author: "Navendu Pottekkat"
     DateFormat: "January 2, 2006"
-    defaultTheme: dark # dark, light, auto
-    disableThemeToggle: true
+    defaultTheme: "dark" # dark, light, auto
+    disableThemeToggle: false
 
     showStupid: true
 
     label:
       icon: "/logo.png"
-      iconHeight: "26px"
+      iconHeight: "20px"
 
     mainSections: ['posts']
     dailySections: ['daily']

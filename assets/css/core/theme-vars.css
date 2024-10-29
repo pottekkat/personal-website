@@ -6,15 +6,19 @@
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 0;
-    --theme: rgb(245, 245, 245);
-    --entry: rgb(255, 255, 255);
-    --primary: rgb(30, 30, 30);
-    --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
-    --content: rgb(31, 31, 31);
-    --hljs-bg: rgb(28, 29, 33);
-    --code-bg: rgb(255, 255, 255);
-    --border: rgb(250, 250, 250);
+    --theme: rgb(255, 255, 255);
+    --entry: rgb(248, 244, 239);
+    --primary: rgba(30, 30, 30, 0.87);
+    --secondary: rgb(117, 117, 117);
+    --tertiary: rgb(248, 244, 239);
+    --content: rgba(31, 31, 31, 0.87);
+    --hljs-bg: rgba(22, 22, 22, 0.91);
+    --code-bg: rgb(248, 244, 239);
+    --border: rgb(247, 247, 247);
+    --background-color: rgb(180, 180, 180);
+    --background-image: url(/images/black-felt.png);
+    --entry-image: url(/images/white-wall.png);
+    --content-background: none;
 }
 
 .dark {
@@ -47,7 +51,7 @@
 } */
 
 .list {
-    background: var(--theme);
+    background: var(--background-image), var(--theme);
 }
 
 .dark.list {
@@ -57,10 +61,17 @@
 /*change color of text highlight*/
 ::-moz-selection {
     color: var(--theme);
-    background: rgba(236, 236, 236, 0.7);
+    background: var(--content);
   }
+
+.dark ::-moz-selection {
+    background: rgba(236, 236, 236, 0.7);
+}
 
 ::selection {
     color: var(--theme);
+    background: var(--content);
+}
+.dark ::selection {
     background: rgba(236, 236, 236, 0.7);
 }
