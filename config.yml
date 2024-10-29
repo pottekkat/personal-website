@@ -144,6 +144,9 @@ params:
         minMatchCharLength: 0
         limit: 5
         keys: ["title", "permalink", "summary", "content", "categories"]
+
+    assets:
+        disableHLJS: true
 menu:
     main:
         - identifier: archives
@@ -172,3 +175,7 @@ outputs:
         - HTML
         - RSS
         - JSON # is necessary
+
+markup:
+  highlight:
+    noClasses: false
