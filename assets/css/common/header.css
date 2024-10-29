@@ -58,6 +58,10 @@ button#theme-toggle {
     margin: auto 4px;
 }
 
+button#theme-toggle:hover {
+    color: var(--secondary);
+}
+
 body.dark #moon {
     vertical-align: middle;
     display: none;
