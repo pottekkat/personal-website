@@ -11,14 +11,14 @@
     --primary: rgba(30, 30, 30, 0.87);
     --secondary: rgb(117, 117, 117);
     --tertiary: rgb(248, 244, 239);
-    --content: rgba(31, 31, 31, 0.87);
-    --hljs-bg: rgba(250, 250, 250, 0.91);
+    --content: rgba(31, 31, 31, 0.91);
+    --hljs-bg: rgba(252, 252, 252);
     --code-bg: rgb(248, 244, 239);
     --border: rgb(247, 247, 247);
     --background-color: rgb(180, 180, 180);
-    --background-image: url(/images/black-felt.png);
-    --entry-image: url(/images/white-wall.png);
-    --content-background: none;
+    --background-image: url(/images/binding-dark.png);
+    --entry-image: url(/images/asfalt-dark.png);
+    --content-background: url(/images/notebook.png);
 }
 
 .dark {
@@ -35,7 +35,7 @@
     --background-color: rgb(75, 75, 75);
     --background-image: url(/images/binding-dark.png);
     --entry-image: url(/images/white-wall.png);
-    --content-background: url(/images/black-felt.png)
+    --content-background: url(/images/black-felt.png);
 }
 
 /* .dark {
@@ -51,7 +51,7 @@
 } */
 
 .list {
-    background: var(--background-image), var(--theme);
+    background: var(--background-image), rgb(from var(--theme) calc(r/1.01) calc(g/1.05) calc(b/1.09));
 }
 
 .dark.list {
