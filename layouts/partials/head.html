@@ -137,19 +137,23 @@
     <style>
         @media (prefers-color-scheme: dark) {
             :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --hljs-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
+                --theme: rgb(17,17,17);
+                --entry: rgb(33, 33, 33);
+                --primary: rgb(241, 241, 241);
+                --secondary: rgb(180, 180, 180);
+                --tertiary: rgb(33, 33, 33);
+                --content: rgb(216, 216, 216);
+                --hljs-bg: rgb(22, 22, 22);
+                --code-bg: rgb(33, 33, 33);
+                --border: rgb(25, 25, 25);
+                --background-color: rgb(75, 75, 75);
+                --background-image: url(/images/binding-dark.png);
+                --entry-image: url(/images/white-wall.png);
+                --content-background: url(/images/black-felt.png);
             }
 
             .list {
-                background: var(--theme);
+                background: var(--background-image), var(--theme);
             }
 
             .list:not(.dark)::-webkit-scrollbar-track {

@@ -41,14 +41,14 @@ params:
     keywords: ["navendu pottekkat", "personal blog", "the open source absolutist"]
     author: "Navendu Pottekkat"
     DateFormat: "January 2, 2006"
-    defaultTheme: dark # dark, light, auto
-    disableThemeToggle: true
+    defaultTheme: "dark" # dark, light, auto
+    disableThemeToggle: false
 
     showStupid: true
 
     label:
       icon: "/logo.png"
-      iconHeight: "26px"
+      iconHeight: "20px"
 
     mainSections: ['posts']
     dailySections: ['daily']
@@ -144,6 +144,9 @@ params:
         minMatchCharLength: 0
         limit: 5
         keys: ["title", "permalink", "summary", "content", "categories"]
+
+    assets:
+        disableHLJS: true
 menu:
     main:
         - identifier: archives
@@ -172,3 +175,7 @@ outputs:
         - HTML
         - RSS
         - JSON # is necessary
+
+markup:
+  highlight:
+    noClasses: false

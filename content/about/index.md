@@ -33,6 +33,12 @@ I work primarily on cloud native/Kubernetes, API gateways, and service meshes. I
 _The chart below shows how much I work on this blog. See more [/stats](/stats/)._
 
 {{< echarts title="Stats from the last year" caption="GitHub inspired contribution graph" width="720px" height="120px" overflow="auto" setOption=false class="nofill" >}}
+var chartColor = ["#c6e9e3", "#317f72"];
+
+if (!document.body.classList.contains("dark")) {
+chartColor = ["#e8b98a", "#c34052"];
+}
+
 fetch("commitsData.json")
 .then((response) => response.json())
 .then((data) => {
@@ -56,7 +62,7 @@ const endDate = data[data.length - 1][0];
           borderWidth: 2
         },
         dayLabel: {
-          color: "#f1f1f1",
+          color: "currentColor",
           fontSize: 14,
           nameMap: ["", "Mon", "", "Wed", "", "Fri", ""]
         },
@@ -64,7 +70,7 @@ const endDate = data[data.length - 1][0];
           show: false,
         },
         monthLabel: {
-          color: "#f1f1f1",
+          color: "currentColor",
           fontSize: 14,
           nameMap: [
             "Jan",
@@ -86,7 +92,7 @@ const endDate = data[data.length - 1][0];
         min: data[0] + 1,
         max: 100,
         inRange: {
-          color: ["#c6e9e3", "#317f72"],
+          color: chartColor,
         },
         splitNumber: 10,
         show: false,

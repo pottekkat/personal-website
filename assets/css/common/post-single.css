@@ -173,8 +173,13 @@
 .post-content .highlight:not(table),
 .post-content pre {
     margin: 10px auto;
-    background: var(--hljs-bg) !important;
+    background: var(--theme) !important;
     border-radius: var(--radius);
+}
+
+.dark .post-content .highlight:not(table),
+.dark .post-content pre {
+    background: var(--hljs-bg) !important;
 }
 
 .post-content li > .highlight {
@@ -220,7 +225,7 @@
     display: block;
     margin: auto 0;
     padding: 10px;
-    color: rgb(213, 213, 214);
+    color: var(--content);
     background: var(--hljs-bg) !important;
     border-radius: var(--radius);
     overflow-x: auto;

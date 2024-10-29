@@ -26,6 +26,10 @@ body {
     font-size: 16px;
     line-height: 1.6;
     word-break: break-word;
+    background: var(--background-image), rgb(from var(--theme) calc(r/1.01) calc(g/1.05) calc(b/1.09));
+}
+
+body.dark {
     background: var(--background-image), var(--theme);
 }
 

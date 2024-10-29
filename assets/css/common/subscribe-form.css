@@ -39,6 +39,10 @@
     padding-inline-start: 14px;
     padding-inline-end: 14px;
     border: 1px solid var(--code-bg);
+    background-color: var(--theme);
+}
+
+.dark .subscription-form {
     background-color: var(--hljs-bg);
 }
 
