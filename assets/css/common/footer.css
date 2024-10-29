@@ -10,7 +10,7 @@
     padding: calc((var(--footer-height) - var(--gap)) / 2) var(--gap);
     text-align: center;
     line-height: 24px;
-    background: var(--entry-image), var(--entry);
+    background: left var(--entry-image), var(--entry);
 }
 
 @media (min-width: 768px) {
