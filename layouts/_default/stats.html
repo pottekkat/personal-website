@@ -15,8 +15,11 @@
         {{ range first 3 .Site.Data.stats.stats.top_countries }} {{ . }}, {{ end }} and {{ range last 1 .Site.Data.stats.stats.top_countries }} {{ . }}. {{ end }}
       </p>
       <figure class="align-center">
-        <img loading="lazy" src="/images/stats/visitors-by-country.png#center" alt="Chart showing the source of visitors over last one month."><figcaption>
-        Stats from the last 30 days<p>Last updated at {{.Site.Data.stats.stats.runtime}}</p>
+        <div class="image-border">
+          <img class="invert-diagram-colors" loading="lazy" src="/images/stats/visitors-by-country.png#center" alt="Chart showing the source of visitors over last one month.">
+        </div>        
+        <figcaption>
+          Stats from the last 30 days<p>Last updated at {{.Site.Data.stats.stats.runtime}}</p>
         </figcaption>
         </figure>
         <p>Shoutout to <a href="https://www.linkedin.com/in/christy-m-thomas/">Christy</a>, an actual GIS Engineer, who helped me create this chart.</p>
@@ -33,8 +36,11 @@
       </p>
 
       <figure class="align-center">
-        <img loading="lazy" src="/images/stats/monthly-visitors.png#center" alt="Chart showing visitors over last one month."><figcaption>
-        Stats from the last 30 days<p>Last updated at {{.Site.Data.stats.stats.runtime}}</p>
+        <div class="image-border">
+          <img class="invert-diagram-colors" loading="lazy" src="/images/stats/monthly-visitors.png#center" alt="Chart showing visitors over last one month.">
+        </div>
+        <figcaption>
+          Stats from the last 30 days<p>Last updated at {{.Site.Data.stats.stats.runtime}}</p>
         </figcaption>
         </figure>
     <h2 id="visitors-by-source">Visitors by Source<a hidden="" class="anchor" aria-hidden="true" href="#visitors-by-source">#</a></h2>
@@ -43,7 +49,10 @@
     </p>
     <p>{{.Site.Data.stats.stats.direct_link_string}}</p>
     <figure class="align-center">
-        <img loading="lazy" src="/images/stats/monthly-sources.png#center" alt="Chart showing the source of visitors over last one month."><figcaption>
+      <div class="image-border">
+        <img class="invert-diagram-colors" loading="lazy" src="/images/stats/monthly-sources.png#center" alt="Chart showing the source of visitors over last one month.">
+      </div>
+        <figcaption>
         Stats from the last 30 days<p>Last updated at {{.Site.Data.stats.stats.runtime}}</p>
         </figcaption>
         </figure>

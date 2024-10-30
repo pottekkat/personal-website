@@ -255,20 +255,23 @@
     max-width: 100%;
 }
 
-.post-content img {
+.post-content figure .image-border {
     border-radius: 0;
-    margin: 1rem 0;
+    margin: 1rem auto;
+}
+
+.post-content figure .image-border {
     border: 1px solid var(--code-bg);
 }
 
-body:not(.dark) .post-content figure img {
+body:not(.dark) .post-content figure .invert-diagram-colors {
     filter: invert(100%) brightness(100%) contrast(120%);
 }
 
-
-.post-content img[src*="#center"] {
+/* Added this to the image-border, regardless of #center every image will have auto margin */
+/* .post-content img[src*="#center"] {
     margin: 1rem auto;
-}
+} */
 
 .post-content figure.align-center {
     text-align: center;
