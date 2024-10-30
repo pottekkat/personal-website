@@ -15,7 +15,7 @@
 
 @media (min-width: 768px) {
     .footer {
-        clip-path: polygon(0 10%, 50% 15%, 95% 25%, 100% 20%, 100% 90%, 0 80%);
+        clip-path: polygon(0 12%, 38% 15%, 64% 18%, 100% 20%, 100% 90%, 0 80%);
     }
 }
 
