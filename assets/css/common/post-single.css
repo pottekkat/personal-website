@@ -261,6 +261,11 @@
     border: 1px solid var(--code-bg);
 }
 
+body:not(.dark) .post-content figure img {
+    filter: invert(100%) brightness(100%) contrast(120%);
+}
+
+
 .post-content img[src*="#center"] {
     margin: 1rem auto;
 }
@@ -398,8 +403,9 @@ h6:hover .anchor {
 .paginav {
     margin: 10px 0;
     display: flex;
-    line-height: 30px;
+    line-height: 26px;
     border-radius: var(--radius);
+    font-size: 14px;
 }
 
 .paginav a {
