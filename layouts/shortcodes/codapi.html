@@ -1,12 +1,12 @@
-{{ if ( .Page.Params.EnableCodapi ) }}
-<codapi-snippet
-{{ if .Get "sandbox" }}sandbox="{{ .Get "sandbox" }}"{{ end }}
-{{ if .Get "editor" }}editor="{{ .Get "editor" }}"{{ end }}
-{{ if .Get "selector" }}selector="{{ .Get "selector" }}"{{ end }}
-{{ if .Get "template" }}template="{{ .Get "template" }}"{{ end }}
-{{ if .Get "files" }}files="{{ .Get "files" }}"{{ end }}
-{{ if .Get "id" }}id="{{ .Get "id" }}"{{ end }}
-{{ if .Get "hidden" }}style="display: none;"{{ end }}
->
-</codapi-snippet>
+{{ if .Page.Params.EnableCodapi }}
+  <codapi-snippet
+    {{ with .Get "sandbox" }}sandbox="{{ . }}"{{ end }}
+    {{ with .Get "editor" }}editor="{{ . }}"{{ end }}
+    {{ with .Get "selector" }}selector="{{ . }}"{{ end }}
+    {{ with .Get "template" }}template="{{ . }}"{{ end }}
+    {{ with .Get "files" }}files="{{ . }}"{{ end }}
+    {{ with .Get "id" }}id="{{ . }}"{{ end }}
+    {{ with .Get "hidden" }}style="display: none;"{{ end }}
+  >
+  </codapi-snippet>
 {{ end }}
