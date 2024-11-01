@@ -82,4 +82,4 @@ The article focuses on migrating from Nginx to Apache APISIX. The neat part is t
 
 **Read here**: “[F5 Nginx to Apache APISIX](https://navendu.me//posts/nginx-to-apisix/)”
 
-I plan to write about how I set up a sandboxed instance of APISIX for this interactive article and the [playgrounds](https://navendu.me/playground/apisix/) later this week.
+I plan to write about how I set up a sandboxed instance of APISIX for this interactive article and the [playgrounds](https://navendu.me/playgrounds/apisix/) later this week.

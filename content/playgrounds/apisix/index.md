@@ -1,6 +1,5 @@
 ---
 title: "Apache APISIX Playground"
-layout: "playground-theme"
 description: "Getting up and running with Apache APISIX."
 summary: "A playground for Apache APISIX."
 date: 2024-04-26T17:22:00+05:30
@@ -11,10 +10,10 @@ ShowCodeCopyButtons: false
 tags: ["playground", "apisix", "codapi"]
 categories: ["Playground"]
 cover:
-    image: "/images/pl-apisix/apisix-logo-banner.jpg"
-    alt: "Apache APISIX logo."
-    relative: false
-    hidden: true
+  image: "/images/pl-apisix/apisix-logo-banner.jpg"
+  alt: "Apache APISIX logo."
+  relative: false
+  hidden: true
 ---
 
 [Apache APISIX](https://apisix.apache.org/) is a high-performance cloud native API gateway.

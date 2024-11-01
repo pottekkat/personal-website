@@ -12,10 +12,10 @@ ShowCodeCopyButtons: false
 tags: ["apache apisix", "nginx", "interactive", "api gateway"]
 categories: ["API Gateway"]
 cover:
-    image: "/images/nginx-to-apisix/migrating-birds-banner.jpg"
-    alt: "Migrating birds."
-    caption: "Apache APISIX can be a better alternative to Nginx for most users."
-    relative: false
+  image: "/images/nginx-to-apisix/migrating-birds-banner.jpg"
+  alt: "Migrating birds."
+  caption: "Apache APISIX can be a better alternative to Nginx for most users."
+  relative: false
 ---
 
 For most of us, Nginx is just an abstraction of the underlying network.
@@ -235,16 +235,16 @@ http {
 APISIX can be configured similarly with the `whitelist` and `blacklist` attributes in the `ip-restriction` plugin:
 
 ```yaml {title="apisix.yaml"}
-routes: 
+routes:
   - id: control-access
     uri: /anything/*
-    plugins: 
-      ip-restriction: 
-        whitelist: 
-        - 192.168.1.0/24
-    upstream: 
+    plugins:
+      ip-restriction:
+        whitelist:
+          - 192.168.1.0/24
+    upstream:
       type: roundrobin
-      nodes: 
+      nodes:
         httpbin.org:80: 1
 #END
 ```
@@ -279,4 +279,4 @@ This article is not meant to be an exhaustive list of APISIX's or Nginx's capabi
 
 My goal for this article was to highlight the similarities in capabilities between Nginx and APISIX and offer an alternative to Nginx users who want more. Still, for many users, Nginx is probably fine.
 
-If you are migrating to APISIX, the best place to start is the [APISIX documentation](https://apisix.apache.org/). Or, if you are in the mood to play, you can try this experimental [APISIX playground](/playground/apisix/).
+If you are migrating to APISIX, the best place to start is the [APISIX documentation](https://apisix.apache.org/). Or, if you are in the mood to play, you can try this experimental [APISIX playground](/playgrounds/apisix/).

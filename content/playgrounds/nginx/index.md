@@ -1,6 +1,5 @@
 ---
 title: "Nginx Playground"
-layout: "playground-theme"
 description: "An interactive playground for Nginx, the world's most popular web server."
 summary: "A playground for Nginx."
 date: 2024-04-28T17:22:00+05:30
@@ -11,13 +10,13 @@ ShowCodeCopyButtons: false
 tags: ["playground", "nginx", "codapi"]
 categories: ["Playground"]
 cover:
-    image: "/images/pl-nginx/nginx-logo-banner.jpg"
-    alt: "Nginx logo."
-    relative: false
-    hidden: true
+  image: "/images/pl-nginx/nginx-logo-banner.jpg"
+  alt: "Nginx logo."
+  relative: false
+  hidden: true
 ---
 
-I originally intended this playground to be a walkthrough of Nginx's primary and most often used capabilities (like the [Apache APISIX playground](/playground/apisix/)). But that has to wait.
+I originally intended this playground to be a walkthrough of Nginx's primary and most often used capabilities (like the [Apache APISIX playground](/playgrounds/apisix/)). But that has to wait.
 
 So here's a sandboxed instance of Nginx that you can play with. I tried using it as a proxy, as shown in the example, and it works.
 

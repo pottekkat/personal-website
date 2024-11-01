@@ -1,6 +1,5 @@
 ---
 title: "{{ replace .Name "-" " " | title }} Playground"
-layout: "playground-theme"
 date: {{ .Date }}
 experimental: true
 EnableCodapi: true
