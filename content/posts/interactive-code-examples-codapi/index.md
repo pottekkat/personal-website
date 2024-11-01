@@ -38,7 +38,7 @@ Unsurprisingly, this is too cumbersome and time-consuming for most readers, espe
 
 While readers can skim through the static code/configuration snippets, they would benefit if these examples were interactive. This means that instead of just reading the code, they could _run it_ directly in their browser without spending time trying to get a local instance running. No installation. No Docker. Just instant, hands-on learning.
 
-During my search for a solution that could help me build this interactivity, I found [Codapi](https://codapi.org/), an open source tool built specifically for the purpose. It was easy to use and had everything I needed to make an [interactive APISIX blog post](/posts/nginx-to-apisix/) (and a [couple of playgrounds](/playground/)).
+During my search for a solution that could help me build this interactivity, I found [Codapi](https://codapi.org/), an open source tool built specifically for the purpose. It was easy to use and had everything I needed to make an [interactive APISIX blog post](/posts/nginx-to-apisix/) (and a [couple of playgrounds](/playgrounds/)).
 
 In this tutorial, I will show you how to use Codapi to write similar interactive, engaging, and fun technical content for your libraries, programming languages, and tools.
 
@@ -466,7 +466,7 @@ There could also be scenarios where you might need to pass in whole additional f
 >
 > {{< codapi sandbox="apisix" editor="off" files="./codapi/apisix.yaml:apisix.yaml" >}}
 >
-> _From [Apache APISIX Playground](/playground/apisix)._
+> _From [Apache APISIX Playground](/playgrounds/apisix)._
 
 Inside the sandbox, APISIX is first configured with the YAML configuration, and then the `curl` command is used to send a request to the configured APISIX instance.
 
