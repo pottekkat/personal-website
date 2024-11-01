@@ -1,6 +1,5 @@
 ---
 title: "Software Patents, Crazy Charlie, and the Absolutist"
-layout: "newsletter-theme"
 date: 2024-05-06T19:17:35+05:30
 draft: false
 ShowToc: true
@@ -42,7 +41,7 @@ I'm an open source absolutist. I believe that open source has the innate ability
 
 ## What's Happening?
 
-Everyone was watching [Shogun](https://en.wikipedia.org/wiki/Sh%C5%8Dgun_(2024_miniseries)), the new Netflix miniseries, last week. I did, too, and it is excellent.
+Everyone was watching [Shogun](<https://en.wikipedia.org/wiki/Sh%C5%8Dgun_(2024_miniseries)>), the new Netflix miniseries, last week. I did, too, and it is excellent.
 
 Set in medieval Japan, the show focuses on a British trader caught in the middle of a war for the throne of Japan. Each shot in the series is beautiful, and the storytelling is on point. This would be a good pick if you are in for a quick treat.
 

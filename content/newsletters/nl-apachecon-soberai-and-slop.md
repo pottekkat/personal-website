@@ -1,6 +1,5 @@
 ---
 title: "ApacheCon, Sober AI, and Slop"
-layout: "newsletter-theme"
 date: 2024-06-04T15:09:32+02:00
 draft: false
 ShowToc: true
@@ -56,5 +55,3 @@ There is a lot of talk about sustainable open source business models. In one of 
 I think it's interesting in its own regard.
 
 **Read here**: "[Vada (Fritters) Profitable](https://navendu.me/posts/vada-profitable/)"
-
-

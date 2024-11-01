@@ -1,6 +1,5 @@
 ---
 title: "Newsletters"
-layout: "newsletters"
 url: "/newsletters/"
 description: "Navendu Pottekkat's weekly newsletter."
 summary: "newsletters"

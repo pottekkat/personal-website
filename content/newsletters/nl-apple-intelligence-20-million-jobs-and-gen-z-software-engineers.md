@@ -1,6 +1,5 @@
 ---
 title: "Apple Intelligence, 20 Million Jobs, and Gen-Z Software Engineers"
-layout: "newsletter-theme"
 date: 2024-06-24T13:01:24+05:30
 draft: false
 ShowToc: true

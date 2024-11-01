@@ -1,6 +1,5 @@
 ---
 title: "Elections, Economics, and COBOL"
-layout: "newsletter-theme"
 date: 2024-03-25T08:02:42+05:30
 draft: false
 ShowToc: true

@@ -1,6 +1,5 @@
 ---
 title: "Wikipedia, Reviews, and the Internet"
-layout: "newsletter-theme"
 date: 2024-04-22T09:07:25+05:30
 draft: false
 ShowToc: true

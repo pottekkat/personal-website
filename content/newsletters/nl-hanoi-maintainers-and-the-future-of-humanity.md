@@ -1,6 +1,5 @@
 ---
 title: "Hanoi, Maintainers, and the Future of Humanity"
-layout: "newsletter-theme"
 date: 2024-04-08T17:43:07+07:00
 draft: false
 ShowToc: true

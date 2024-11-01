@@ -1,6 +1,5 @@
 ---
 title: "Open Source, Standards, and an Updated Newsletter!"
-layout: "newsletter-theme"
 date: 2024-03-11T09:45:44+05:30
 draft: false
 ShowToc: true
@@ -24,7 +23,7 @@ Did I coin a new term?
 
 ### Artificial Indialligence
 
-The Indian government [uncharacteristically remained calm](https://techcrunch.com/2023/04/05/india-opts-against-ai-regulation/) during the _superintelligent AI fear cycle_ while most others were scrambling to pass new legislation.
+The Indian government [uncharacteristically remained calm](https://techcrunch.com/2023/04/05/india-opts-against-ai-regulation/) during the *superintelligent AI fear cycle* while most others were scrambling to pass new legislation.
 
 I remember being very happy with the government's decision to "do nothing." But all of that is going down the drain with their new "advisory" to [require government approval](https://timesofindia.indiatimes.com/gadgets-news/government-to-tech-companies-take-permission-before-launching-ai-models-in-india/articleshow/108167769.cms) for deploying any "under-trial" or "unreliable" platforms on the Indian public internet.
 
