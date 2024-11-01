@@ -1,6 +1,5 @@
 ---
-title: "Rug Pulls, Comic Sans, and \"Link in Bio\""
-layout: "newsletter-theme"
+title: 'Rug Pulls, Comic Sans, and "Link in Bio"'
 date: 2024-05-20T16:30:26+05:30
 draft: false
 ShowToc: true
