@@ -285,8 +285,8 @@
     },
     {
       "title": "Newsletters",
-      "path": "[[workspace]]/content/newsletter",
-      "previewPath": "newsletter",
+      "path": "[[workspace]]/content/newsletters",
+      "previewPath": "newsletters",
       "contentTypes": [
         "Newsletter"
       ]

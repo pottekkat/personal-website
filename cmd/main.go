@@ -19,7 +19,7 @@ import (
 var (
 	// available categories of content
 	// 1st value is treated as default and 2nd value has special formatting for its file name
-	contentTypes = []string{"posts", "daily", "newsletter", "playground"}
+	contentTypes = []string{"posts", "daily", "newsletters", "playground"}
 
 	defaultTitle = "New Blog Post"
 
