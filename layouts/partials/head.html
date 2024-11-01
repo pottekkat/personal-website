@@ -81,7 +81,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 {{- /* Search */}}
-{{- if or (eq .Layout `search`) (eq .Layout `archives`) (eq .Layout `dailies`) (eq .Layout `newsletters`) -}}
+{{- if or (eq .Layout `search`) (eq .Layout `archives`) (eq .Type `dailies`) (eq .Type `newsletters`) -}}
 <link crossorigin="anonymous" rel="preload" as="fetch" href="../index.json">
 {{- $fastsearch := resources.Get "js/fastsearch.js" | js.Build (dict "params" (dict "fuseOpts" site.Params.fuseOpts)) | resources.Minify }}
 {{- $fusejs := resources.Get "js/fuse.basic.min.js" }}

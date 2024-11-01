@@ -157,14 +157,6 @@
           ]
         },
         {
-          "title": "Layout",
-          "name": "layout",
-          "type": "string",
-          "default": "daily-theme",
-          "hidden": true,
-          "required": true
-        },
-        {
           "title": "Publishing date",
           "name": "date",
           "type": "datetime",
@@ -208,14 +200,6 @@
           "name": "title",
           "type": "string",
           "single": true
-        },
-        {
-          "title": "Layout",
-          "name": "layout",
-          "type": "string",
-          "default": "newsletter-theme",
-          "hidden": true,
-          "required": false
         },
         {
           "title": "Publishing date",
@@ -277,16 +261,16 @@
     },
     {
       "title": "Dailies",
-      "path": "[[workspace]]/content/daily",
-      "previewPath": "daily",
+      "path": "[[workspace]]/content/dailies",
+      "previewPath": "dailies",
       "contentTypes": [
         "Daily"
       ]
     },
     {
       "title": "Newsletters",
-      "path": "[[workspace]]/content/newsletter",
-      "previewPath": "newsletter",
+      "path": "[[workspace]]/content/newsletters",
+      "previewPath": "newsletters",
       "contentTypes": [
         "Newsletter"
       ]

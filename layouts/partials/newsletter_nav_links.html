@@ -1,4 +1,4 @@
-{{- $pages := where site.RegularPages "Type" "in" "newsletter" }}
+{{- $pages := where site.RegularPages "Type" "in" "newsletters" }}
 {{- if and (gt (len $pages) 1) (in $pages . ) }}
 <nav class="paginav">
   {{- with $pages.Next . }}
