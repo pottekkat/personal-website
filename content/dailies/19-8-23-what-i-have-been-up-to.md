@@ -8,7 +8,7 @@ tags: ["daily log"]
 categories: ["Daily Dose of Pottekkat"]
 ---
 
-It has been two months since I wrote one of these! It is the longest I have not written daily logs since I started this almost two years ago. But sometimes, life gets in the way, and you are too busy to just sit down and write your thoughts. 
+It has been two months since I wrote one of these! It is the longest I have not written daily logs since I started this almost two years ago. But sometimes, life gets in the way, and you are too busy to just sit down and write your thoughts.
 
 I have been having a lot of ideas nonetheless, and I have jotted it down somewhere. I expect to be more consistent here and explore those ideas.
 
@@ -16,7 +16,7 @@ So, what have I been up to in the past two months? A lot, actually.
 
 ## Meeting My Colleagues in Kuala Lumpur
 
-In [my last daily log](/daily/19-6-23-top-things-to-do-in-malaysia/), I shared how I will meet my colleagues at [API7.ai](https://api7.ai) for the first time in Malaysia. I have only met one of my colleagues on two separate occasions, but the rest have been little boxes on my screen for the last year and a half.
+In [my last daily log](/dailies/19-6-23-top-things-to-do-in-malaysia/), I shared how I will meet my colleagues at [API7.ai](https://api7.ai) for the first time in Malaysia. I have only met one of my colleagues on two separate occasions, but the rest have been little boxes on my screen for the last year and a half.
 
 It was an enjoyable weekend, and we ended it with an in-person community meetup in Malaysia and Singapore.
 

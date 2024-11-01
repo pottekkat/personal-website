@@ -14,7 +14,7 @@ Thakur is bringing everything to the table and he has been practically unplayabl
 
 As the pitch plays an integral part in this match, it is going to be an exciting day four if it starts of with a couple of wickets. It should be neck and neck.
 
-I recently wrote about [My Blog Setup and my Writing Process](/daily/3-1-22-my-blog-setup-and-writing-process/). And a topic I [didn\'t articulate fully](/daily/3-1-22-my-blog-setup-and-writing-process/#why-do-i-write-on-my-own-website) was the reason why I chose to write on my own blog instead of platforms like Medium.
+I recently wrote about [My Blog Setup and my Writing Process](/dailies/3-1-22-my-blog-setup-and-writing-process/). And a topic I [didn\'t articulate fully](/dailies/3-1-22-my-blog-setup-and-writing-process/#why-do-i-write-on-my-own-website) was the reason why I chose to write on my own blog instead of platforms like Medium.
 
 These platforms will limit me in the future. If this blog turns to be a viable business in the future, I don't want to be at the mercy of the platform to setup payments, subscriptions, or something else.
 

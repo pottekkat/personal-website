@@ -17,7 +17,7 @@ Wordle 242 4/6
 ⬛🟩🟨🟨⬛\
 🟩🟩🟩🟩🟩
 
-I went through some of the photos from [my last trips](/daily/13-2-22-varkala-and-punchakkari/) and [my last day](/daily/15-2-22-end-of-an-era/) at Digital University Kerala.
+I went through some of the photos from [my last trips](/dailies/13-2-22-varkala-and-punchakkari/) and [my last day](/dailies/15-2-22-end-of-an-era/) at Digital University Kerala.
 
 I keep these photos just to look at them in the future. These photos take you back in time and fills you with memories. It tells you stories and you listen to them.
 

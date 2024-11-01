@@ -10,7 +10,7 @@ categories: Daily Dose of Pottekkat
 fmContentType: Daily
 ---
 
-I was reading Paul Orlando's latest post, "[The Youth](https://unintendedconsequenc.es/the-youth/)," in which he reflects on his encounter with the Spartacist Youth League (a fancy group of communists in America). Having lived all my life in Kerala, I'm not a stranger to communism, as my Vietnamese friend had [boldly reminded me](/daily/14-2-24-welcome-my-communist-brother/) during my trip to Ho Chi Minh.
+I was reading Paul Orlando's latest post, "[The Youth](https://unintendedconsequenc.es/the-youth/)," in which he reflects on his encounter with the Spartacist Youth League (a fancy group of communists in America). Having lived all my life in Kerala, I'm not a stranger to communism, as my Vietnamese friend had [boldly reminded me](/dailies/14-2-24-welcome-my-communist-brother/) during my trip to Ho Chi Minh.
 
 Anyway, Paul's reflections closely mimic mine. My go-to argument against communism only involves human nature. The default human nature is so incredible that we collectively built a system where everyone gets what they want. Do you want to buy avocados in your small, remote town? Well, it's a bit pricey, but here you go. Do you like Arabian food more than you like Ethiopian food? Well, there are more Arabian restaurants in town anyway!
 

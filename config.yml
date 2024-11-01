@@ -51,7 +51,7 @@ params:
       iconHeight: "20px"
 
     mainSections: ['posts']
-    dailySections: ['daily']
+    dailySections: ['dailies']
     newsletterSections: ['newsletters']
     mermaid:
       theme: "dark"

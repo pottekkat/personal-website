@@ -14,7 +14,7 @@ I like to be in the zone. Obsessed over something, you forget everything and foc
 
 This weekend, I had to remind myself to go for a walk or get some sleep because staring at a screen for every waking hour is unhealthy.
 
-I finished two articles today. [The diagrams](/daily/13-8-22-diagrams-in-my-new-blog/) look good. And I also revamped my newsletter.
+I finished two articles today. [The diagrams](/dailies/13-8-22-diagrams-in-my-new-blog/) look good. And I also revamped my newsletter.
 
 The newsletter will be on a biweekly schedule. It will have more content and personality than before.
 

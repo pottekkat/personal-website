@@ -16,7 +16,7 @@ I have been averaging 25 to 30,000 steps a day in the last week. Not being used 
 
 Back home, I need to walk more. The problem is that my town isn't exactly walkable, and I end up using a scooter or car.
 
-In our recent [town master plan](/daily/16-10-22-the-master-plan/) workshop, walkable cities were a primary topic. Having more public spaces and updating the city design to be more walkable will solve health, traffic, and general well-being problems people have.
+In our recent [town master plan](/dailies/16-10-22-the-master-plan/) workshop, walkable cities were a primary topic. Having more public spaces and updating the city design to be more walkable will solve health, traffic, and general well-being problems people have.
 
 We haven't focused a lot on these, and most of our towns are poorly designed beyond repair. I don't know the history of how we reached this situation, but we had poor designers in the government. I hope in the future, small towns like ours make an effort and implement initiatives to promote public spaces and transport.
 

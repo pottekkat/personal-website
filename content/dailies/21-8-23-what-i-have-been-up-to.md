@@ -8,7 +8,7 @@ tags: ["daily log"]
 categories: ["Daily Dose of Pottekkat"]
 ---
 
-I have been sharing photos here in the past few days, but like I said the other day, I have been up to a [lot of stuff](/daily/19-8-23-what-i-have-been-up-to/).
+I have been sharing photos here in the past few days, but like I said the other day, I have been up to a [lot of stuff](/dailies/19-8-23-what-i-have-been-up-to/).
 
 So besides all that traveling, talks, and meeting friends, I have been learning about policymaking on the weekends. You might have noticed some [articles related to public policy](/categories/public-policy/) in the last couple of months.
 

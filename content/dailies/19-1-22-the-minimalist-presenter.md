@@ -10,7 +10,7 @@ categories: ["Daily Dose of Pottekkat"]
 
 _It's Wednesday my dudes!_
 
-I was working on the slides for [two of my talks](/daily/16-1-22-service-mesh-performance-and-asking-questions) and realized how minimal they were.
+I was working on the slides for [two of my talks](/dailies/16-1-22-service-mesh-performance-and-asking-questions) and realized how minimal they were.
 
 I had made it a habit to make my slides into tools that just _assists_ my presentation and not something that is overloaded with information.
 

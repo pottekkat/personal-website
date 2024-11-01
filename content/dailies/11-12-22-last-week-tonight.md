@@ -18,7 +18,7 @@ So, this year, I missed around 115 days of daily logs. But I can live with it be
 
 A lot of stuff happened in the last few weeks. We are in the climax stages of the World Cup, there is an AI that can bullshit about almost anything very well, and I have back-to-back trending posts that even made it to the front page of Hacker News.
 
-I was two teams off in my [quarter-final predictions](/daily/16-11-22-my-world-cup-predictions/), which is not bad. I still think my prediction for the final would be correct, although I want a Croatia vs. Morocco final.
+I was two teams off in my [quarter-final predictions](/dailies/16-11-22-my-world-cup-predictions/), which is not bad. I still think my prediction for the final would be correct, although I want a Croatia vs. Morocco final.
 
 People are worried about chat GPT, and rightfully so. I thought my job as an engineer and content creator was irreplaceable, but here we are with an AI that could almost do it all.
 

@@ -1,6 +1,5 @@
 ---
 title: "{{ replace (replace .Name "nl-" "") "-" " " | title }}"
-layout: "newsletter-theme"
 date: {{ .Date }}
 draft: true
 ShowToc: true

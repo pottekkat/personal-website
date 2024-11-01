@@ -277,8 +277,8 @@
     },
     {
       "title": "Dailies",
-      "path": "[[workspace]]/content/daily",
-      "previewPath": "daily",
+      "path": "[[workspace]]/content/dailies",
+      "previewPath": "dailies",
       "contentTypes": [
         "Daily"
       ]

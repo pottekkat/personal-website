@@ -53,7 +53,7 @@ Welcome to 2022 where it is all about your personal brand.
 
 Building a personal brand can help you in many ways. Creating content on the internet and putting your name on it is a solid step towards this.
 
-What you write will be associated to your personal brand. And personal brands helps you build [personal monopolies](/daily/23-1-22-personal-monopolies/).
+What you write will be associated to your personal brand. And personal brands helps you build [personal monopolies](/dailies/23-1-22-personal-monopolies/).
 
 ## You are Setting Up Your Career
 

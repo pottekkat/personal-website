@@ -8,7 +8,7 @@ tags: ["daily log"]
 categories: ["Daily Dose of Pottekkat"]
 ---
 
-[A year ago](/daily/1-2-22-i-am-sick), I was playing Wordle and was sick. I’m healthy now, but I tried today’s Wordle:
+[A year ago](/dailies/1-2-22-i-am-sick), I was playing Wordle and was sick. I’m healthy now, but I tried today’s Wordle:
 
 Wordle 592 3/6
 

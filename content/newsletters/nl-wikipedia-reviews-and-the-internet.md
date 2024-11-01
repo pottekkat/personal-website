@@ -86,4 +86,4 @@ I wrote a daily log entry from an airplane last week.
 
 I was on my way back from Hanoi after the FOSSASIA Summit, and I took some time to reflect on the conference and my interactions with the people and the country. It also has some photos.
 
-**Read here**: "[#279 Airplane Logs (FOSSASIA Summit 2024)](https://navendu.me/daily/11-4-24-airplane-logs/)"
+**Read here**: "[#279 Airplane Logs (FOSSASIA Summit 2024)](https://navendu.me/dailies/11-4-24-airplane-logs/)"

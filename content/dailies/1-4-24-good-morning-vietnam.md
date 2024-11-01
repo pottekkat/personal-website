@@ -8,7 +8,7 @@ tags: ["daily log"]
 categories: ["Daily Dose of Pottekkat"]
 ---
 
-I'm [back](/daily/14-2-24-welcome-my-communist-brother/) in Vietnam, this time for work. I will be at the [FOSSASIA Summit 2024](https://eventyay.com/e/55d2a466/) next week.
+I'm [back](/dailies/14-2-24-welcome-my-communist-brother/) in Vietnam, this time for work. I will be at the [FOSSASIA Summit 2024](https://eventyay.com/e/55d2a466/) next week.
 
 This is my favorite conference of the year, and I have been looking forward to it since my talk was accepted.
 

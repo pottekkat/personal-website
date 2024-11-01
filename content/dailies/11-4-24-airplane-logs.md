@@ -28,7 +28,7 @@ On a side thought, I wonder how people with kids generally pick where to sit on 
 
 Bringing my thoughts back to reality and to Hanoi now.
 
-Like [last time](/daily/13-4-23-fossasia-day-1/), the FOSSASIA Summit did a good job of bringing a big enough umbrella to host a variety of communities and projects. There were many familiar faces from last year's event and other conferences in Asia, and I spent a lot of time catching up with them.
+Like [last time](/dailies/13-4-23-fossasia-day-1/), the FOSSASIA Summit did a good job of bringing a big enough umbrella to host a variety of communities and projects. There were many familiar faces from last year's event and other conferences in Asia, and I spent a lot of time catching up with them.
 
 I also met a lot of new people, but there wasn't enough time or energy to continue all those conversations as I wanted to but I'm pretty sure I will run into them sometime in the future.
 
@@ -56,7 +56,7 @@ I understand that conferences will have marketing. Even I plug Apache APISIX in 
 
 In any case, I found most of the sales pitch talks from the conference uninteresting and skipped them for quality conversations in the hallway.
 
-Although [I have been to Vietnam before](/daily/14-2-24-welcome-my-communist-brother/), this was my first time in Hanoi. I spent the weekend exploring the city by foot and food.
+Although [I have been to Vietnam before](/dailies/14-2-24-welcome-my-communist-brother/), this was my first time in Hanoi. I spent the weekend exploring the city by foot and food.
 
 {{< figure src="/images/11-4-24-airplane-logs/run.jpeg#center" title="Early morning run" caption="Hoan Kiem Lake, Hanoi - 6th April 2024" link="/images/11-4-24-airplane-logs/run.jpeg" target="_blank" class="align-center" >}}
 
