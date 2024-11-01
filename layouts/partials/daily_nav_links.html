@@ -1,4 +1,4 @@
-{{- $pages := where site.RegularPages "Type" "in" "daily" }}
+{{- $pages := where site.RegularPages "Type" "in" "dailies" }}
 {{- if and (gt (len $pages) 1) (in $pages . ) }}
 <nav class="paginav">
   {{- with $pages.Next . }}

@@ -33,7 +33,7 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end -}}
     {{ range $pages }}
-    {{- if and (ne .Layout `search`) (ne .Layout `archives`) (ne .Layout `dailies`) (ne .Layout `about`) (ne .Layout `stats`) (ne .Layout `subscribe`) (ne .Layout `daily-theme`) (ne .Layout `newsletter-theme`) (ne .Layout `playground-theme`) }}
+    {{- if and (ne .Layout `search`) (ne .Layout `archives`) (ne .Layout `about`) (ne .Layout `stats`) (ne .Layout `subscribe`) (ne .Type `dailies`) (ne .Type `newsletters`) (ne .Type `playgrounds`) }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
@@ -45,7 +45,7 @@
       <content:encoded>{{ (printf "<![CDATA[%s]]>" .Content) | safeHTML }}</content:encoded>
       {{- end }}
     </item>
-    {{- else if eq .Layout `daily-theme` }}
+    {{- else if eq .Type `dailies` }}
       {{- if not $.IsHome }}
       <item>
         <title>{{ .Title }}</title>
@@ -59,7 +59,7 @@
         {{- end }}
       </item>
       {{- end }}
-    {{- else if eq .Layout `newsletter-theme` }}
+    {{- else if eq .Type `newsletters` }}
       {{- if not $.IsHome }}
       <item>
         <title>{{ .Title }}</title>

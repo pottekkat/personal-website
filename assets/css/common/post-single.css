@@ -257,21 +257,18 @@
 
 .post-content figure .image-border {
     border-radius: 0;
-    margin: 1rem auto;
-}
-
-.post-content figure .image-border {
     border: 1px solid var(--code-bg);
+    margin: 1rem auto; /* 1rem vertical margin, mostly 0 horizontal margin */
 }
 
 body:not(.dark) .post-content figure .invert-diagram-colors {
     filter: invert(100%) brightness(100%) contrast(120%);
 }
 
-/* Added this to the image-border, regardless of #center every image will have auto margin */
-/* .post-content img[src*="#center"] {
-    margin: 1rem auto;
-} */
+/* No vertical margin only auto horizontal margin to align itself to the center */
+.post-content img[src*="#center"] {
+    margin: 0 auto;
+}
 
 .post-content figure.align-center {
     text-align: center;

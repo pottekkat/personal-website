@@ -9,7 +9,7 @@ import * as fs from "fs";
     return;
   }
 
-  const logNumber = fs.readdirSync("./content/daily").length
+  const logNumber = fs.readdirSync("./content/dailies").length
 
   FieldAction.update("#" + logNumber + " " + frontMatter.title);
 })();
