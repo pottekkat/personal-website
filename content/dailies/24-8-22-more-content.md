@@ -1,6 +1,5 @@
 ---
 title: "#192 More Content"
-layout: "daily-theme"
 date: 2022-08-24T19:41:18+05:30
 draft: false
 summary: "Upping my content game."

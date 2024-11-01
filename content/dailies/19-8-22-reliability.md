@@ -1,6 +1,5 @@
 ---
 title: "#188 Reliability"
-layout: "daily-theme"
 date: 2022-08-19T22:35:58+05:30
 draft: false
 summary: "New post published today. Friday is new blog day now."

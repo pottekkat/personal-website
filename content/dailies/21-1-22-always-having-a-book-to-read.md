@@ -1,6 +1,5 @@
 ---
 title: "#20 Always Having a Book to Read"
-layout: "daily-theme"
 date: 2022-01-21T07:28:34+05:30
 draft: false
 summary: "Always having a book to read helped me from falling down YouTube rabbit holes."

@@ -1,6 +1,5 @@
 ---
 title: "#154 Jurassic World Sucks"
-layout: "daily-theme"
 date: 2022-06-10T23:17:05+05:30
 draft: false
 summary: "The new Jurassic World movie sucks."

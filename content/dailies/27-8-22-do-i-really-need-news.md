@@ -1,6 +1,5 @@
 ---
 title: "#195 Do I Really Need News?"
-layout: "daily-theme"
 date: 2022-08-27T22:38:16+05:30
 draft: false
 summary: "Really?"

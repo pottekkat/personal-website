@@ -1,9 +1,8 @@
 ---
 title: "#221 New Explorations"
-layout: "daily-theme"
 date: 2022-11-05T19:44:03+05:30
 draft: false
-summary: "Writing a lot of new articles and exploring new \"genres\" for articles."
+summary: 'Writing a lot of new articles and exploring new "genres" for articles.'
 tags: ["daily log"]
 categories: ["Daily Dose of Pottekkat"]
 ---

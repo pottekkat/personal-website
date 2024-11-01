@@ -1,6 +1,5 @@
 ---
 title: "#51 Fighting a Different Fight"
-layout: "daily-theme"
 date: 2022-02-23T14:31:20+05:30
 draft: false
 summary: "Is it healthy to rebel everything that came before?"

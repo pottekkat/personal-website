@@ -1,6 +1,5 @@
 ---
 title: "#223 The Internet as a Place to Rant"
-layout: "daily-theme"
 date: 2022-11-12T16:53:46+05:30
 draft: false
 summary: "And the people who will listen your rants."

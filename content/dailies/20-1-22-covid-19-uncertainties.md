@@ -1,6 +1,5 @@
 ---
 title: "#19 COVID 19 Uncertainties"
-layout: "daily-theme"
 date: 2022-01-20T18:37:14+05:30
 draft: false
 summary: ""

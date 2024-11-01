@@ -1,9 +1,8 @@
 ---
 title: "#200 Diversity, Equity, and Inclusion in Open Source"
-layout: "daily-theme"
 date: 2022-09-02T20:41:24+05:30
 draft: false
-summary: "\"I can't believe I've been writing this for 200 days\", preparing for conferences, and reading through Linux Foundation's DEI report."
+summary: '"I can''t believe I''ve been writing this for 200 days", preparing for conferences, and reading through Linux Foundation''s DEI report.'
 tags: ["daily log"]
 categories: ["Daily Dose of Pottekkat"]
 ---

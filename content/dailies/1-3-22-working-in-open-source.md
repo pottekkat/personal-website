@@ -1,6 +1,5 @@
 ---
 title: "#57 Working in Open Source"
-layout: "daily-theme"
 date: 2022-03-01T15:35:07+05:30
 draft: false
 summary: "Do you want to work for [insert large consulting company from India]?"

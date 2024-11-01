@@ -1,9 +1,8 @@
 ---
 title: "#147 Vikram"
-layout: "daily-theme"
 date: 2022-06-03T21:56:47+05:30
 draft: false
-summary: "Watched the new movie \"Vikram\" filled with a stellar cast."
+summary: 'Watched the new movie "Vikram" filled with a stellar cast.'
 tags: ["daily log"]
 categories: ["Daily Dose of Pottekkat"]
 ---

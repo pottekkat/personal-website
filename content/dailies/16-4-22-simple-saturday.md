@@ -1,6 +1,5 @@
 ---
 title: "#103 Simple Saturday"
-layout: "daily-theme"
 date: 2022-04-16T19:57:01+05:30
 draft: false
 summary: "Taking it slow. Photos!"

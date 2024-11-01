@@ -1,6 +1,5 @@
 ---
-title: "#276 \"Welcome My Communist Brother!\""
-layout: "daily-theme"
+title: '#276 "Welcome My Communist Brother!"'
 date: 2024-02-14T08:38:40+05:30
 draft: false
 summary: "Hello from Vietnam! Kind of."

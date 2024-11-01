@@ -1,6 +1,5 @@
 ---
 title: "#215 The Master Plan"
-layout: "daily-theme"
 date: 2022-10-16T18:10:03+05:30
 draft: false
 summary: "Spending the weekend working on our town's future."

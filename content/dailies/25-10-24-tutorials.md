@@ -1,6 +1,5 @@
 ---
 title: "#290 Tutorials"
-layout: daily-theme
 date: 2024-10-25T22:20:52+05:30
 draft: false
 summary: |

@@ -1,6 +1,5 @@
 ---
 title: "#251 Charts"
-layout: "daily-theme"
 date: 2023-03-27T23:32:46+05:30
 draft: false
 summary: "My new-found love for charts."

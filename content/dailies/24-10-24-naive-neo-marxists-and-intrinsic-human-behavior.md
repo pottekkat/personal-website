@@ -1,6 +1,5 @@
 ---
 title: "#289 Naive Neo-Marxists and Intrinsic Human Behavior"
-layout: daily-theme
 date: 2024-10-24T21:50:55+05:30
 draft: false
 summary: My beef against Marxists and Marxism has grown since I started learning economics.

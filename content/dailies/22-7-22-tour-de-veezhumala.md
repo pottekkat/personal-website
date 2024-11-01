@@ -1,6 +1,5 @@
 ---
 title: "#172 Tour De Veezhumala"
-layout: "daily-theme"
 date: 2022-07-22T22:39:39+05:30
 draft: false
 summary: "Intense trek to reach the top of Veezhumala."

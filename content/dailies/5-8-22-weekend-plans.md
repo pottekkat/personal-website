@@ -1,6 +1,5 @@
 ---
 title: "#174 Weekend Plans"
-layout: "daily-theme"
 date: 2022-08-05T19:54:42+05:30
 draft: false
 summary: "I can finally start working on my side projects!"

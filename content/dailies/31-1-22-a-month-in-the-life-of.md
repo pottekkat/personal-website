@@ -1,6 +1,5 @@
 ---
 title: "#30 A Month in the Life Of"
-layout: "daily-theme"
 date: 2022-01-31T18:47:59+05:30
 draft: false
 summary: "It's been a month since I started writing daily logs."
@@ -35,5 +34,6 @@ I am excited about the next month. There will be a lot of good changes that shou
 _I don't have a photo for you today but here is a cool song._
 
 {{< rawhtml >}}
+
 <iframe src="https://open.spotify.com/embed/track/32uXfxJERzv4RK1gMLXbOA?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 {{< /rawhtml >}}

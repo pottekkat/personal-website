@@ -1,6 +1,5 @@
 ---
 title: "#117 More Proposals"
-layout: "daily-theme"
 date: 2022-05-01T19:15:39+05:30
 draft: false
 summary: "More talk proposals at conferences. Bonus: Photos!"

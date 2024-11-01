@@ -1,6 +1,5 @@
 ---
 title: "#108 One Month at New Job"
-layout: "daily-theme"
 date: 2022-04-21T19:29:38+05:30
 draft: false
 summary: "One month flew by! Made some significant contributions. Bonus: Photo from my friend's marriage!"

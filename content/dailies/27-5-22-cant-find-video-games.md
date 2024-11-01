@@ -1,6 +1,5 @@
 ---
 title: "#140 Can't Find Video Games"
-layout: "daily-theme"
 date: 2022-05-27T19:59:33+05:30
 draft: false
 summary: "Can't find a low end video game that is fun to play and won't burn my MacBook Air."

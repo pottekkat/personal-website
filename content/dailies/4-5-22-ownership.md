@@ -1,6 +1,5 @@
 ---
 title: "#120 Ownership"
-layout: "daily-theme"
 date: 2022-05-04T19:57:15+05:30
 draft: false
 summary: "Owning your work makes you more productive."

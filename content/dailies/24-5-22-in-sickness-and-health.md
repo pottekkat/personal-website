@@ -1,6 +1,5 @@
 ---
 title: "#137 In Sickness and Health"
-layout: "daily-theme"
 date: 2022-05-24T18:18:54+05:30
 draft: false
 summary: "Sick today."

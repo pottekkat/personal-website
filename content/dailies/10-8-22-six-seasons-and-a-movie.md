@@ -1,6 +1,5 @@
 ---
 title: "#179 Six Seasons and a Movie"
-layout: "daily-theme"
 date: 2022-08-10T20:13:52+05:30
 draft: false
 summary: "Troy and Abed make a mooovie!"

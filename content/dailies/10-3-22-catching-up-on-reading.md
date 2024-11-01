@@ -1,6 +1,5 @@
 ---
 title: "#66 Catching Up on Reading"
-layout: "daily-theme"
 date: 2022-03-10T17:42:27+05:30
 draft: false
 summary: "Lot of emails and articles to catch up on."

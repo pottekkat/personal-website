@@ -1,6 +1,5 @@
 ---
 title: "#81 In a User's Shoes"
-layout: "daily-theme"
 date: 2022-03-25T19:28:39+05:30
 draft: false
 summary: "Thinking from a user's perspective to make a project better."
@@ -28,4 +27,4 @@ I look at the documentation from a user's perspective and try to find out the pa
 
 It is quite rewarding when the end result is a much more readable and easy to navigate documentation.
 
-I impulse bought two Noam Chomsky books. Prime delivery is so cool that it will be delivered tomorrow. 
+I impulse bought two Noam Chomsky books. Prime delivery is so cool that it will be delivered tomorrow.

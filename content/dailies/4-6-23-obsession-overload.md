@@ -1,6 +1,5 @@
 ---
 title: "#265 Obsession Overload"
-layout: "daily-theme"
 date: 2023-06-04T11:21:19+05:30
 draft: false
 summary: "Obsessed about obsessions."

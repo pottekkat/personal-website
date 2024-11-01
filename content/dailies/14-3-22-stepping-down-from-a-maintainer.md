@@ -1,6 +1,5 @@
 ---
 title: "#70 Stepping Down From a Maintainer"
-layout: "daily-theme"
 date: 2022-03-14T18:14:29+05:30
 draft: false
 summary: "I'm changing jobs and stepping down from a CNCF maintainer."

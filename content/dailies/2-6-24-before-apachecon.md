@@ -1,6 +1,5 @@
 ---
 title: "#282 Before ApacheCon"
-layout: "daily-theme"
 date: 2024-06-02T19:23:12+02:00
 draft: false
 summary: "I'm in Europe for ApacheCon!"
@@ -67,6 +66,3 @@ I returned to the Central Station early because of my irrational paranoia about 
 The bus ride to Bratislava was quick and only took about an hour. I decided to walk to my hotel on the small hill on the outskirts of the city, but I might have discounted how tired I was already after walking about 30,000 steps. But the city has a charm that makes it worth the walk.
 
 I had questioned why the conference was in Slovakia, of all places in Europe, but after the walk to my hotel, I concluded that this beautiful city is indeed a great place to talk about open source.
-
-
-

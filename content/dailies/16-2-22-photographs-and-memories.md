@@ -1,6 +1,5 @@
 ---
 title: "#44 Photographs and Memories"
-layout: "daily-theme"
 date: 2022-02-16T22:59:40+05:30
 draft: false
 summary: "Looking at old photos is one of the greatest joys in life."

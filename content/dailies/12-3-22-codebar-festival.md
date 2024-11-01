@@ -1,6 +1,5 @@
 ---
 title: "#68 Codebar Festival"
-layout: "daily-theme"
 date: 2022-03-12T14:31:23+05:30
 draft: false
 summary: "I'm speaking at the Codebar Festival today."

@@ -1,6 +1,5 @@
 ---
 title: "#88 Project Ideas"
-layout: "daily-theme"
 date: 2022-04-01T12:19:45+05:30
 draft: false
 summary: "What do you do when you get new ideas?"

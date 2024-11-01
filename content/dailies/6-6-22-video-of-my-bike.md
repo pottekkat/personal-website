@@ -1,6 +1,5 @@
 ---
 title: "#150 Video of My Bike"
-layout: "daily-theme"
 date: 2022-06-06T19:42:41+05:30
 draft: false
 summary: "150 days of writing! I have a small video for you today."

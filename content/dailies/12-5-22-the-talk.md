@@ -1,6 +1,5 @@
 ---
 title: "#128 The Talk"
-layout: "daily-theme"
 date: 2022-05-12T19:18:22+05:30
 draft: false
 summary: "Talked at a meetup after months!"
@@ -11,6 +10,7 @@ categories: ["Daily Dose of Pottekkat"]
 Last time I gave a talk was in February. It has been a long gap compared to my previous schedule where I spoke at least once a month.
 
 {{< rawhtml >}}
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LhUubDB7uuo?start=2402" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {{< /rawhtml >}}
 

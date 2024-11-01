@@ -1,6 +1,5 @@
 ---
 title: "#206 New Blog Post"
-layout: "daily-theme"
 date: 2022-09-09T22:08:21+05:30
 draft: false
 summary: "Conference season September begins."

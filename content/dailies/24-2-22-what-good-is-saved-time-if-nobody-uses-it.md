@@ -1,6 +1,5 @@
 ---
 title: "#52 What Good Is Saved Time if Nobody Uses It?"
-layout: "daily-theme"
 date: 2022-02-24T8:54:29+05:30
 draft: false
 summary: "We are obsessed with saving time."
@@ -20,7 +19,7 @@ Wordle 250 5/6
 
 As a society, we are obsessed with speed and saving time.
 
-But what good is this saved time? 
+But what good is this saved time?
 
 Do we use this saved time? Is it filled with arbitrary chores?
 

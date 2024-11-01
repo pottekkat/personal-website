@@ -1,6 +1,5 @@
 ---
 title: "#102 Waiting for Visa"
-layout: "daily-theme"
 date: 2022-04-15T19:53:22+05:30
 draft: false
 summary: "Shoulda, coulda, woulda got it in two."

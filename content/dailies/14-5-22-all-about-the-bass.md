@@ -1,6 +1,5 @@
 ---
 title: "#130 All About the Bass"
-layout: "daily-theme"
 date: 2022-05-14T19:51:37+05:30
 draft: false
 summary: "Bought two set of strings for my bass."

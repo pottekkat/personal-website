@@ -1,6 +1,5 @@
 ---
 title: "#132 Norwegian Wood"
-layout: "daily-theme"
 date: 2022-05-16T22:43:17+05:30
 draft: false
 summary: "Rainy days calls for nostalgia."

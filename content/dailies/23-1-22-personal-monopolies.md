@@ -1,6 +1,5 @@
 ---
 title: "#22 Personal Monopolies"
-layout: "daily-theme"
 date: 2022-01-23T12:35:35+05:30
 draft: false
 summary: ""

@@ -1,6 +1,5 @@
 ---
 title: "#86 Debates Are Pointless"
-layout: "daily-theme"
 date: 2022-03-30T22:34:13+05:30
 draft: false
 summary: "Will Smith slapped Chris Rock and now we can't have a peaceful dinner."

@@ -1,6 +1,5 @@
 ---
 title: "#78 Day 2 at New Job"
-layout: "daily-theme"
 date: 2022-03-22T19:34:11+05:30
 draft: false
 summary: "Finding my bearings."

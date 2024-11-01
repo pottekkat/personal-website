@@ -1,6 +1,5 @@
 ---
 title: "#181 New Blog Post After Six Months"
-layout: "daily-theme"
 date: 2022-08-12T20:33:33+05:30
 draft: false
 summary: "I wrote about how and why I moved this blog to Netlify."

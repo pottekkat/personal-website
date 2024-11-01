@@ -1,6 +1,5 @@
 ---
 title: "#110 Too Busy to Write?"
-layout: "daily-theme"
 date: 2022-04-24T19:44:49+05:30
 draft: false
 summary: "I'm too busy to write. Even to play Wordle!"

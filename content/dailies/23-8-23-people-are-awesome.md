@@ -1,6 +1,5 @@
 ---
 title: "#272 People Are Awesome"
-layout: "daily-theme"
 date: 2023-08-23T17:48:49+05:30
 draft: false
 summary: "ISRO just landed a spacecraft on the frickin moon."

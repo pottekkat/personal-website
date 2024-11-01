@@ -1,6 +1,5 @@
 ---
 title: "#136 Kasaragod"
-layout: "daily-theme"
 date: 2022-05-23T11:27:54+05:30
 draft: false
 summary: "Traveled to Kasaragod over the weekend. Bonus: Photos!"

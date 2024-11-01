@@ -1,6 +1,5 @@
 ---
 title: "#170 Tour de Alappuzha"
-layout: "daily-theme"
 date: 2022-07-15T22:50:44+05:30
 draft: false
 summary: "Fun times in Alappuzha."

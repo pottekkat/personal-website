@@ -1,6 +1,5 @@
 ---
 title: "#38 Back to Twitter"
-layout: "daily-theme"
 date: 2022-02-09T12:37:48+05:30
 draft: false
 summary: "I'm back on Twitter!"
@@ -29,5 +28,6 @@ But this forces you to write better content and helps you understand what your a
 So, I'm back on Twitter today. I have a couple of tweets and threads lined up ready to go. I will work on these in a single take over the weekend.
 
 {{< rawhtml >}}
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">An open source project is as strong as its technical writers.<br><br>Without a clear and concise documentation, programmers won&#39;t be able to understand and use the project.</p>&mdash; Navendu Pottekkat (@realPottekkat) <a href="https://twitter.com/realPottekkat/status/1491452098608865284?ref_src=twsrc%5Etfw">February 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {{< /rawhtml >}}

@@ -1,6 +1,5 @@
 ---
 title: "#236 Here and Now"
-layout: "daily-theme"
 date: 2023-02-01T13:01:34+05:30
 draft: false
 summary: "/now"

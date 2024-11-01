@@ -1,6 +1,5 @@
 ---
 title: "#256 API Gateway and Service Mesh"
-layout: "daily-theme"
 date: 2023-04-07T21:59:20+05:30
 draft: false
 summary: "How do I go about writing this article?"

@@ -1,6 +1,5 @@
 ---
 title: "#260 FOSSASIA Summit Day 1"
-layout: "daily-theme"
 date: 2023-04-13T22:33:39+08:00
 draft: false
 summary: "FOSSASIA Summit started today!"

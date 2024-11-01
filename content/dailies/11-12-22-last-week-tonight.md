@@ -1,6 +1,5 @@
 ---
 title: "#231 Last Week Tonight"
-layout: "daily-theme"
 date: 2022-12-11T16:35:32+05:30
 draft: false
 summary: "A lot of stuff happened in the past week."

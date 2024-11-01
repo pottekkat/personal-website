@@ -1,6 +1,5 @@
 ---
 title: "#254 Blog Binging"
-layout: "daily-theme"
 date: 2023-04-02T23:42:04+05:30
 draft: false
 summary: "IDK if this is good or bad."

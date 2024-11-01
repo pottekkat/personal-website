@@ -1,6 +1,5 @@
 ---
 title: "#246 Back in Kerala"
-layout: "daily-theme"
 date: 2023-02-21T10:43:01+05:30
 draft: false
 summary: "Doing Kerala things."

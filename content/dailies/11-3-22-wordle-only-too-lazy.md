@@ -1,6 +1,5 @@
 ---
 title: "#67 Wordle Only, Too Lazy"
-layout: "daily-theme"
 date: 2022-03-11T21:27:04+05:30
 draft: false
 summary: "Too lazy to write. Working on presentation."

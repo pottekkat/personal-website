@@ -1,6 +1,5 @@
 ---
 title: "#180 Moving to Netlify"
-layout: "daily-theme"
 date: 2022-08-11T19:13:00+05:30
 draft: false
 summary: "I moved my Hugo blog from GitHub pages to Netlify."

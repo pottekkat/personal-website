@@ -1,6 +1,5 @@
 ---
 title: "#50 Currently Reading"
-layout: "daily-theme"
 date: 2022-02-22T16:38:16+05:30
 draft: false
 summary: "50 days of writing! But what am I reading now?"

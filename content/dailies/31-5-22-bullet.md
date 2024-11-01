@@ -1,6 +1,5 @@
 ---
 title: "#144 Bullet"
-layout: "daily-theme"
 date: 2022-05-31T19:15:05+05:30
 draft: false
 summary: "My motorcycle is older than me."

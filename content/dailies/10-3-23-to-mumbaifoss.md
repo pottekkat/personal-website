@@ -1,6 +1,5 @@
 ---
 title: "#248 To MumbaiFOSS"
-layout: "daily-theme"
 date: 2023-03-10T14:07:17+05:30
 draft: false
 summary: "Guess where I'm writing this from?"

@@ -1,6 +1,5 @@
 ---
 title: "#275 Constant External Stimulation"
-layout: "daily-theme"
 date: 2023-08-28T10:53:33+05:30
 draft: false
 summary: "Turning down the external noise to clear the noise inside."

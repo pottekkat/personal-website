@@ -1,6 +1,5 @@
 ---
 title: "#32 Wordle and Building Side Projects"
-layout: "daily-theme"
 date: 2022-02-02T16:33:05+05:30
 draft: false
 summary: "Wordle and what I'm doing about my side projects."
@@ -44,5 +43,6 @@ I don't want to reveal too many things before I have some projects ready. _2022 
 I was listening to this masterpiece while writing this.
 
 {{< rawhtml >}}
+
 <iframe src="https://open.spotify.com/embed/track/5HNCy40Ni5BZJFw1TKzRsC?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 {{< /rawhtml >}}

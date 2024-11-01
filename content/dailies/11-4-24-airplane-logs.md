@@ -1,6 +1,5 @@
 ---
 title: "#279 Airplane Logs (FOSSASIA Summit 2024)"
-layout: "daily-theme"
 date: 2024-04-11T20:33:16+07:00
 draft: false
 summary: "Hello from the sky above Indian ocean."

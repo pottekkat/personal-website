@@ -1,6 +1,5 @@
 ---
 title: "#255 Migration"
-layout: "daily-theme"
 date: 2023-04-03T23:57:15+05:30
 draft: false
 summary: "New diagrams and a binge-worthy blog."

@@ -1,6 +1,5 @@
 ---
 title: "#273 The Newsletter Is Back"
-layout: "daily-theme"
 date: 2023-08-24T23:08:47+05:30
 draft: false
 summary: "I am back writing my newsletter after a three-month hiatus."

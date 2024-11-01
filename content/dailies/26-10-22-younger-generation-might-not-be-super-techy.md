@@ -1,6 +1,5 @@
 ---
-title: "#218 The Younger Generation Might Not Be Super \"Techy\""
-layout: "daily-theme"
+title: '#218 The Younger Generation Might Not Be Super "Techy"'
 date: 2022-10-26T14:20:56+05:30
 draft: false
 summary: "Hot take: Being able to use technology does not necessarily mean you are good at building it."

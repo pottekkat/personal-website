@@ -1,6 +1,5 @@
 ---
 title: "#274 Open Access and Open Source"
-layout: "daily-theme"
 date: 2023-08-25T18:49:36+05:30
 draft: false
 summary: "Can the open access movement learn from open source?"

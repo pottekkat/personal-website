@@ -1,6 +1,5 @@
 ---
 title: "#262 FOSSASIA Summit Day 3"
-layout: "daily-theme"
 date: 2023-04-15T13:57:37+08:00
 draft: false
 summary: "I gave my talk today!"

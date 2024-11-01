@@ -1,6 +1,5 @@
 ---
 title: "#84 Back on Twitter"
-layout: "daily-theme"
 date: 2022-03-28T10:40:35+05:30
 draft: false
 summary: "Here we go tweetin' again!"

@@ -1,6 +1,5 @@
 ---
 title: "#43 End of an Era"
-layout: "daily-theme"
 date: 2022-02-15T18:20:27+05:30
 draft: false
 summary: "Goodbye People. Bonus: Photos and videos that will make me cry in a couple of days."
@@ -15,6 +14,7 @@ Here's to two years. Here's to you. Here's to us.
 To set the tone,
 
 {{< rawhtml >}}
+
 <iframe src="https://open.spotify.com/embed/track/4KOWSd4xb8HzQBelJ4gsEL?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 {{< /rawhtml >}}
 

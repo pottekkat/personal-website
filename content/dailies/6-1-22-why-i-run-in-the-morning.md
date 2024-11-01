@@ -1,6 +1,5 @@
 ---
 title: "#7 Why I Run in the Morning"
-layout: "daily-theme"
 date: 2022-01-06T19:49:10+05:30
 draft: false
 summary: "Doing hard things is hard. But you have to do it to be the best version of yourself. Everyday is a struggle but at the end of the day I'm happy I chose to do the hard things."
@@ -37,5 +36,5 @@ This state of mind is liberating to be in. Every problem seems insignificant and
 I leave you today with a quote from [Haruki Murakami](https://en.wikipedia.org/wiki/Haruki_Murakami), one of my favorite authors.
 
 {{< blockquote author="Haruki Murakami" link="https://www.azquotes.com/quote/878421" title="What I Talk About When I Talk About Running" >}}
-  In long-distance running the only opponent you have to beat is yourself, the way you used to be.
+In long-distance running the only opponent you have to beat is yourself, the way you used to be.
 {{< /blockquote >}}

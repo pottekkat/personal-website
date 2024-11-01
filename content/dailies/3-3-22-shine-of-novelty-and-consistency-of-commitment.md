@@ -1,6 +1,5 @@
 ---
 title: "#59 Shine of Novelty and Consistency of Commitment"
-layout: "daily-theme"
 date: 2022-03-03T17:46:18+05:30
 draft: false
 summary: "Ooh shiny!"

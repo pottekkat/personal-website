@@ -1,6 +1,5 @@
 ---
 title: "#228 Quiet Passions"
-layout: "daily-theme"
 date: 2022-11-22T20:24:06+05:30
 draft: false
 summary: "How internet brought quite passions to life."

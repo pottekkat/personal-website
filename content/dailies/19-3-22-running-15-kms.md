@@ -1,6 +1,5 @@
 ---
 title: "#75 Running 15 Kilometers"
-layout: "daily-theme"
 date: 2022-03-19T19:00:36+05:30
 draft: false
 summary: "I ran 15 kms today."

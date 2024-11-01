@@ -1,6 +1,5 @@
 ---
 title: "#207 Open Source Summit Europe"
-layout: "daily-theme"
 date: 2022-09-14T10:40:52+01:00
 draft: false
 summary: "A bit last moment, but I made it here!"

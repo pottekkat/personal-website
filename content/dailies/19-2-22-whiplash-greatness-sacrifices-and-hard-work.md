@@ -1,6 +1,5 @@
 ---
 title: "#47 Whiplash, Greatness, Sacrifices and Hard Work"
-layout: "daily-theme"
 date: 2022-02-19T15:25:26+05:30
 draft: false
 summary: "I re-watched the movie Whiplash today. It is one of my favorite movies of all time."

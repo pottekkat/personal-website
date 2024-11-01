@@ -1,6 +1,5 @@
 ---
 title: "#133 Tomb Raider"
-layout: "daily-theme"
 date: 2022-05-17T22:25:15+05:30
 draft: false
 summary: "I played a video game (and enjoyed it) after a long time."

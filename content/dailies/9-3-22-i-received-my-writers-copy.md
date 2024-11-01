@@ -1,6 +1,5 @@
 ---
 title: "#65 I Received My Writers Copy"
-layout: "daily-theme"
 date: 2022-03-09T18:10:34+05:30
 draft: false
 summary: "My talk was transcribed into an article and published in the Open Source For You Magazine. I got my author's copy today!"

@@ -1,6 +1,5 @@
 ---
 title: "#166 Table Madness and Red Bull Ring"
-layout: "daily-theme"
 date: 2022-07-10T19:28:23+05:30
 draft: false
 summary: "Cricket match, Wimbledon finals, and race at the Red Bull Ring. I play table tennis."

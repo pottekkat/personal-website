@@ -1,6 +1,5 @@
 ---
 title: "#114 WeCrashed"
-layout: "daily-theme"
 date: 2022-04-28T18:51:49+05:30
 draft: false
 summary: "I never knew the WeWork story until this week."
@@ -49,5 +48,6 @@ _I might be ranting just because people treat me condescendingly when I say I wo
 I leave you on a high note with words of wisdom from a _great_ philosopher:
 
 {{< rawhtml >}}
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Abstractions are key when you are learning.<br><br>It took me a long time to come to terms with this.<br><br>You will never progress quickly if you insist you have to learn everything from scratch.</p>&mdash; Navendu Pottekkat (@realPottekkat) <a href="https://twitter.com/realPottekkat/status/1519688390194737153?ref_src=twsrc%5Etfw">April 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {{< /rawhtml >}}

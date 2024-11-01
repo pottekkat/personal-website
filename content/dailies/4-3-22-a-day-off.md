@@ -1,6 +1,5 @@
 ---
 title: "#60 A Day Off"
-layout: "daily-theme"
 date: 2022-03-04T18:15:40+05:30
 draft: false
 summary: "I kind of took a day off. Whoa! 60 days!"

@@ -1,6 +1,5 @@
 ---
-title: "#243 \"Garden City\" Is an Accurate Description"
-layout: "daily-theme"
+title: '#243 "Garden City" Is an Accurate Description'
 date: 2023-02-12T14:04:49+08:00
 draft: false
 summary: "It feels greener than Kerala."
@@ -20,4 +19,4 @@ In the next week, I will be working from Singapore. If it feels good, I may cons
 
 I checked into a hostel today. I have a bed in a dorm. It is cheaper, and this is where I will be staying for the next five days.
 
-I plan to go for a walk by Marina Bay in the evening and see the F1 street circuit. 
+I plan to go for a walk by Marina Bay in the evening and see the F1 street circuit.

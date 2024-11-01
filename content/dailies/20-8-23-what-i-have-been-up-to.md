@@ -1,6 +1,5 @@
 ---
 title: "#269 What I Have Been Up To"
-layout: "daily-theme"
 date: 2023-08-20T13:18:41+05:30
 draft: false
 summary: "Long time no see."

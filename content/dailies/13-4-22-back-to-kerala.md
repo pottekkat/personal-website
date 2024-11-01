@@ -1,6 +1,5 @@
 ---
 title: "#100 Back to Kerala"
-layout: "daily-theme"
 date: 2022-04-13T21:34:37+05:30
 draft: false
 summary: "100 days? That's awesome!"

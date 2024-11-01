@@ -1,6 +1,5 @@
 ---
 title: "#171 Auf Wiedersehen"
-layout: "daily-theme"
 date: 2022-07-16T23:41:37+05:30
 draft: false
 summary: "Leaving these people. Again."

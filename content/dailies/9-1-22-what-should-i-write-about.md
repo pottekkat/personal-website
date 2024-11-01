@@ -1,6 +1,5 @@
 ---
 title: "#10 What Should I Write About?"
-layout: "daily-theme"
 date: 2022-01-09T19:54:21+05:30
 draft: false
 summary: "What?"

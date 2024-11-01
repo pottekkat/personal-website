@@ -1,6 +1,5 @@
 ---
 title: "#36 Not Knowing"
-layout: "daily-theme"
 date: 2022-02-07T20:20:20+05:30
 draft: false
 summary: "I know nothing."
@@ -46,5 +45,6 @@ So, when it comes to you having to work on areas that are new to you, you would 
 _I know nothing_.
 
 {{< rawhtml >}}
+
 <iframe src="https://open.spotify.com/embed/track/5FVd6KXrgO9B3JPmC8OPst?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 {{< /rawhtml >}}

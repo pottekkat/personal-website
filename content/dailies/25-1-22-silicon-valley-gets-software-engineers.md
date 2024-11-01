@@ -1,6 +1,5 @@
 ---
-title: "#24 Silicon Valley \"Gets\" Software Engineers"
-layout: "daily-theme"
+title: '#24 Silicon Valley "Gets" Software Engineers'
 date: 2022-01-25T12:20:40+05:30
 draft: false
 summary: ""

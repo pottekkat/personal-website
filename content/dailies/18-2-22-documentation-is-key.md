@@ -1,6 +1,5 @@
 ---
 title: "#46 Documentation is Key"
-layout: "daily-theme"
 date: 2022-02-18T18:19:39+05:30
 draft: false
 summary: "People can’t use what they don’t understand."

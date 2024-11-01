@@ -1,6 +1,5 @@
 ---
 title: "#261 FOSSASIA Summit Day 2"
-layout: "daily-theme"
 date: 2023-04-14T16:37:47+08:00
 draft: false
 summary: "Day two means party time!"

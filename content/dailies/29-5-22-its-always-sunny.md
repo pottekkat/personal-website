@@ -1,6 +1,5 @@
 ---
 title: "#142 It's Always Sunny"
-layout: "daily-theme"
 date: 2022-05-29T23:45:51+05:30
 draft: false
 summary: "Race day, IPL Final day, and rewatching an old gem."

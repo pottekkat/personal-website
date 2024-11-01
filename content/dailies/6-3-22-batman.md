@@ -1,6 +1,5 @@
 ---
 title: "#62 Batman"
-layout: "daily-theme"
 date: 2022-03-06T10:27:55+05:30
 draft: false
 summary: "I got tickets to watch the new Batman movie today."

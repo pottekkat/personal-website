@@ -1,6 +1,5 @@
 ---
 title: "#34 Winner Takes All"
-layout: "daily-theme"
 date: 2022-02-04T20:12:24+05:30
 draft: false
 summary: "The winner takes it all. It is a training algorithm for neural networks."
@@ -37,5 +36,6 @@ I don't have clear-cut short term goals other than to continue what I am doing. 
 Open road, _I'm hitting the ground running_.
 
 {{< rawhtml >}}
+
 <iframe src="https://open.spotify.com/embed/track/3oEkrIfXfSh9zGnE7eBzSV?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 {{< /rawhtml >}}

@@ -1,6 +1,5 @@
 ---
 title: "#278 Good Morning, Vietnam"
-layout: "daily-theme"
 date: 2024-04-01T20:11:21+05:30
 draft: false
 summary: "I will be in Hanoi for the FOSSASIA Summit 2024!"

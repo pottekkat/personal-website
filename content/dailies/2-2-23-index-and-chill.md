@@ -1,6 +1,5 @@
 ---
 title: "#237 Index and Chill"
-layout: "daily-theme"
 date: 2023-02-02T18:53:03+05:30
 draft: false
 summary: "No, I don't want to day trade and get rich."

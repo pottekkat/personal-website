@@ -1,6 +1,5 @@
 ---
 title: "#286 Piastri's Maiden Win"
-layout: "daily-theme"
 date: 2024-07-22T20:13:50+05:30
 draft: false
 summary: "What did I just witness?"
@@ -19,4 +18,3 @@ _I would not want to be in that post-race briefing room._
 Now that Verstappen isn't winning every race, Formula 1 is fun to watch again. Norris has the fastest car now, and if he and McLaren play their cards right, they can finish the season with two titles. They have managed to throw away easy wins in the last two races, which could have further closed the gap to Verstappen and Red Bull.
 
 McLaren and Norris might not be prepared to be the best of the pack this season. Regardless, they must step up now that they are seriously in the race for the championships.
-

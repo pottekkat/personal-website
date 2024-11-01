@@ -1,6 +1,5 @@
 ---
 title: "#11 What Matters"
-layout: "daily-theme"
 date: 2022-01-10T22:34:34+05:30
 draft: false
 summary: "But in the end, it doesn't even matter."
@@ -25,5 +24,6 @@ I leave you with one of my favorite songs from one of my favorite bands of all t
 _In the end, it doesn't even matter._
 
 {{< rawhtml >}}
+
 <iframe src="https://open.spotify.com/embed/track/60a0Rd6pjrkxjPbaKzXjfq?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 {{< /rawhtml >}}

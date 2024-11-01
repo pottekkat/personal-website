@@ -1,6 +1,5 @@
 ---
 title: "#220 Buying Raspberry Pis"
-layout: "daily-theme"
 date: 2022-11-03T18:55:00+05:30
 draft: false
 summary: "The lack of availability of Raspberry Pis could be a case study for the global supply chain problem."
@@ -11,6 +10,7 @@ categories: ["Daily Dose of Pottekkat"]
 After at least half a year of searching, I finally have my hands on a [Raspberry Pi Computer Module 4](https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000).
 
 {{< rawhtml >}}
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How do you get Raspberry Pis if you don&#39;t have friends like <a href="https://twitter.com/jjzhiyuan?ref_src=twsrc%5Etfw">@jjzhiyuan</a>, who was kind enough to buy and ship it to me from Wuhan?<br><br>If you include customs fees and GST, this might be the most anyone has paid for a Raspberry Pi. <a href="https://t.co/ZFUkcBsjBO">pic.twitter.com/ZFUkcBsjBO</a></p>&mdash; Navendu Pottekkat (@realPottekkat) <a href="https://twitter.com/realPottekkat/status/1588155110752157696?ref_src=twsrc%5Etfw">November 3, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {{< /rawhtml >}}
 

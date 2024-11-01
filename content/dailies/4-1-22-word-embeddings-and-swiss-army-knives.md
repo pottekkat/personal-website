@@ -1,6 +1,5 @@
 ---
 title: "#5 Word Embeddings and Swiss Army Knives"
-layout: "daily-theme"
 date: 2022-01-04T10:36:58+05:30
 draft: false
 summary: "What's cooler than representing words as real-valued vectors to capture its semantic meaning?"
@@ -9,7 +8,7 @@ categories: ["Daily Dose of Pottekkat"]
 ---
 
 {{< blockquote author="Elon Musk" link="https://www.youtube.com/watch?v=ViOdlRzq3MY" title="When asked about SpaceX" >}}
-  When something is important enough, you do it even if odds are not in your favour.
+When something is important enough, you do it even if odds are not in your favour.
 {{< /blockquote >}}
 
 I heard this quote today while I was listening to the [Lex Fridman Podcast](https://lexfridman.com/podcast/) with Elon Musk as the guest.
@@ -17,6 +16,7 @@ I heard this quote today while I was listening to the [Lex Fridman Podcast](http
 How powerful is that?
 
 {{< rawhtml >}}
+
 <iframe src="https://open.spotify.com/embed/episode/1E3ESPFzTHiAxJVXQPiRGd?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 {{< /rawhtml >}}
 
@@ -34,7 +34,7 @@ I will answer this in a bit. But, to give some context, I was working on word em
 
 My goal was to do intent classification on a text dataset. I had some experience with word embedding models in the past but I haven't explored them deeply. Until today.
 
-Long story short, I used [GloVe](https://en.wikipedia.org/wiki/GloVe_(machine_learning)) embedding to vectorize my text data. The GloVe model captures global statistics as well, compared to something like [Word2vec](https://en.wikipedia.org/wiki/Word2vec) which relies just on the local context information of the words.
+Long story short, I used [GloVe](<https://en.wikipedia.org/wiki/GloVe_(machine_learning)>) embedding to vectorize my text data. The GloVe model captures global statistics as well, compared to something like [Word2vec](https://en.wikipedia.org/wiki/Word2vec) which relies just on the local context information of the words.
 
 Now, how do we "learn" from the word embeddings?
 

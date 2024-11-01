@@ -1,6 +1,5 @@
 ---
 title: "#240 Happy KubeCon Proposal Notification Day"
-layout: "daily-theme"
 date: 2023-02-06T22:41:31+05:30
 draft: false
 summary: "Happy Rejekts proposal submission day!"

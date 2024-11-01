@@ -1,6 +1,5 @@
 ---
 title: "#28 DevConf.CZ"
-layout: "daily-theme"
 date: 2022-01-29T08:34:43+05:30
 draft: false
 summary: "Highlights from conference day."
@@ -34,11 +33,12 @@ Here is the "photo of the day" featuring me taking an awkward screenshot while t
 ABBA is _so_ good. Here is your daily dose of ABBA.
 
 {{< blockquote author="ABBA" link="https://open.spotify.com/track/4BM8yJ0PzBi2ZewpMTOxtx?si=936dedcef3b14a82" title="Fernando" >}}
-  I can see it in your eyes
-  
-  How proud you were to fight for freedom in this land
+I can see it in your eyes
+
+How proud you were to fight for freedom in this land
 {{< /blockquote >}}
 
 {{< rawhtml >}}
+
 <iframe src="https://open.spotify.com/embed/track/4BM8yJ0PzBi2ZewpMTOxtx?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 {{< /rawhtml >}}

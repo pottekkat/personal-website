@@ -1,6 +1,5 @@
 ---
 title: "#37 Malayalees and Their LuLu Malls"
-layout: "daily-theme"
 date: 2022-02-08T20:44:15+05:30
 draft: false
 summary: "Mallus love their LuLus."

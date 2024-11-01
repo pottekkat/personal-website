@@ -1,6 +1,5 @@
 ---
 title: "#169 Playing Cricket After a Long Time"
-layout: "daily-theme"
 date: 2022-07-13T22:44:04+05:30
 draft: false
 summary: "We played cricket in our nearby turf and it was fun!"

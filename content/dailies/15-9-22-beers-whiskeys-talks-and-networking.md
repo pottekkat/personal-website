@@ -1,6 +1,5 @@
 ---
 title: "#208 Beers, Whiskeys, Talks, and Networking"
-layout: "daily-theme"
 date: 2022-09-15T16:46:50+01:00
 draft: false
 summary: "Photos from the past days in Dublin."

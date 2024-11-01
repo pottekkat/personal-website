@@ -1,6 +1,5 @@
 ---
 title: "#48 Selling Yourself"
-layout: "daily-theme"
 date: 2022-02-20T21:19:29+05:30
 draft: false
 summary: "Do you have an MBA?"
@@ -11,6 +10,7 @@ categories: ["Daily Dose of Pottekkat"]
 How good was 2003?
 
 {{< rawhtml >}}
+
 <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcYAgq4oLyJ4?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 {{< /rawhtml >}}
 

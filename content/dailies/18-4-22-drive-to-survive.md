@@ -1,6 +1,5 @@
 ---
 title: "#105 Drive to Survive"
-layout: "daily-theme"
 date: 2022-04-18T19:26:57+05:30
 draft: false
 summary: "How fast is Lewis Hamilton?"

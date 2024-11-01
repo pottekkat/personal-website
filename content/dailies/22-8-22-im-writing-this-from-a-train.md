@@ -1,6 +1,5 @@
 ---
 title: "#190 I'm Writing This From a Train"
-layout: "daily-theme"
 date: 2022-08-22T16:20:26+05:30
 draft: false
 summary: "Work from train."

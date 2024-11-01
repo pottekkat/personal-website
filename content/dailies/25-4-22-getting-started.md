@@ -1,9 +1,8 @@
 ---
 title: "#111 Getting Started"
-layout: "daily-theme"
 date: 2022-04-25T19:41:15+05:30
 draft: false
-summary: "Refactoring the \"Getting started\" guide."
+summary: 'Refactoring the "Getting started" guide.'
 tags: ["daily log"]
 categories: ["Daily Dose of Pottekkat"]
 ---

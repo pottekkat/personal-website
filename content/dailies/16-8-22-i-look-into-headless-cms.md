@@ -1,6 +1,5 @@
 ---
 title: "#185 I Look Into Headless CMS"
-layout: "daily-theme"
 date: 2022-08-16T23:28:40+05:30
 draft: false
 summary: "I failed miserably."

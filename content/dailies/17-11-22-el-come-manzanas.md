@@ -1,6 +1,5 @@
 ---
 title: "#227 Él Come Manzanas"
-layout: "daily-theme"
 date: 2022-11-17T17:31:50+05:30
 draft: false
 summary: "So, I started learning Spanish."

@@ -1,6 +1,5 @@
 ---
 title: "#161 Bike Ride"
-layout: "daily-theme"
 date: 2022-06-27T10:44:04+05:30
 draft: false
 summary: "Took my new motorcycle out for a ride."

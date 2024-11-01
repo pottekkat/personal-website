@@ -1,6 +1,5 @@
 ---
 title: "#141 I Learned OBS"
-layout: "daily-theme"
 date: 2022-05-28T19:42:26+05:30
 draft: false
 summary: "After all this time, I learn to work with OBS. It is really amazing and I'm disappointed I didn't use it earlier."

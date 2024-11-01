@@ -1,6 +1,5 @@
 ---
 title: "#121 Hard Work and Hustle"
-layout: "daily-theme"
 date: 2022-05-05T11:51:18+05:30
 draft: false
 summary: "Hardworking is undermined and not considered cool anymore. Don't cancel me."
@@ -35,5 +34,6 @@ Thank you for coming to my TED talk.
 I have also been curating a playlist of songs I find on TV shows and movies. They aren't mainstream AFAIK and they have lead to discovering awesome artists and bands. Check it out!
 
 {{< rawhtml >}}
+
 <iframe src="https://open.spotify.com/embed/playlist/3cDHI7Lg37jBy0SQgcF28D?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 {{< /rawhtml >}}

@@ -1,6 +1,5 @@
 ---
 title: "#115 Back After Two Years"
-layout: "daily-theme"
 date: 2022-04-29T22:33:01+05:30
 draft: false
 summary: "Back with a new version."

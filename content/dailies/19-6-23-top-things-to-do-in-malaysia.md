@@ -1,6 +1,5 @@
 ---
 title: "#267 Top Things to Do in Malaysia"
-layout: "daily-theme"
 date: 2023-06-19T19:25:42+05:30
 draft: false
 summary: "I'm sorting through the mess to plan my travels for next month."

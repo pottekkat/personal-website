@@ -1,6 +1,5 @@
 ---
 title: "#177 Preparing for Open Source Summit Latin America"
-layout: "daily-theme"
 date: 2022-08-08T20:47:56+05:30
 draft: false
 summary: "Preparing for my virtual talk at OSS LA!"

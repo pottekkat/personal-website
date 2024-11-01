@@ -1,6 +1,5 @@
 ---
 title: "#198 SideProjectCeption"
-layout: "daily-theme"
 date: 2022-08-31T21:30:59+05:30
 draft: false
 summary: "Finish side projects or start more side projects?"
@@ -14,6 +13,6 @@ I've been picking up more projects recently, spending a lot more time in front o
 
 Interesting reads for today:
 
-* [The silent majority](https://vadimkravcenko.com/shorts/the-silent-majority/)
-* [Visual Studio Code is designed to fracture](https://ghuntley.com/fracture/)
-* [The third place - the secret to a happy life for remote workers](https://mikebifulco.com/posts/remote-work-and-the-third-place)
+- [The silent majority](https://vadimkravcenko.com/shorts/the-silent-majority/)
+- [Visual Studio Code is designed to fracture](https://ghuntley.com/fracture/)
+- [The third place - the secret to a happy life for remote workers](https://mikebifulco.com/posts/remote-work-and-the-third-place)

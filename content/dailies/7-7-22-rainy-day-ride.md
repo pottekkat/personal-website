@@ -1,6 +1,5 @@
 ---
 title: "#163 Rainy Day Ride"
-layout: "daily-theme"
 date: 2022-07-07T19:57:44+05:30
 draft: false
 summary: "I went on a rainy day ride. Rain, not for me."

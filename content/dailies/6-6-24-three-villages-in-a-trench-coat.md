@@ -1,6 +1,5 @@
 ---
 title: "#283 Three Villages in a Trench Coat"
-layout: "daily-theme"
 date: 2024-06-06T18:48:54+02:00
 draft: false
 summary: "This place is beautiful!"

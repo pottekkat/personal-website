@@ -1,6 +1,5 @@
 ---
 title: "#162 Derailed"
-layout: "daily-theme"
 date: 2022-07-06T21:48:37+05:30
 draft: false
 summary: "I've been off the tracks these past weeks. Need to get back to the consistency."

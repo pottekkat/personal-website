@@ -1,6 +1,5 @@
 ---
 title: "#82 First Day Off"
-layout: "daily-theme"
 date: 2022-03-26T08:30:39+05:30
 draft: false
 summary: "First day off since I started my new job."

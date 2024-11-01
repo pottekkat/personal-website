@@ -1,6 +1,5 @@
 ---
 title: "#211 Namma Ooru Bengaluru"
-layout: "daily-theme"
 date: 2022-09-27T09:21:21+05:30
 draft: false
 summary: "I'm in Bangalore for the week. Bonus: Photos from Pune."

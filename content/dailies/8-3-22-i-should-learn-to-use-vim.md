@@ -1,6 +1,5 @@
 ---
 title: "#64 I Should Learn to Use Vim"
-layout: "daily-theme"
 date: 2022-03-08T10:36:22+05:30
 draft: false
 summary: "Vim or Emacs? Nano."
@@ -25,5 +24,6 @@ I had tried to learn Vim a while back but I just didn't have enough time to cont
 I discovered this cool song today.
 
 {{< rawhtml >}}
+
 <iframe src="https://open.spotify.com/embed/track/40F0039l1fl2It8LOqr0Kl?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 {{< /rawhtml >}}

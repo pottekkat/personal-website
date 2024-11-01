@@ -1,6 +1,5 @@
 ---
 title: "#176 Building a Docker Clone and Starting a Side Project"
-layout: "daily-theme"
 date: 2022-08-07T22:57:49+05:30
 draft: false
 summary: "Learning how Docker works and finally getting started on my side project. Posting publicly for accountability."

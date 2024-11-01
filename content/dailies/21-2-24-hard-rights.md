@@ -1,6 +1,5 @@
 ---
 title: "#277 Hard Rights"
-layout: "daily-theme"
 date: 2024-02-21T18:20:51+05:30
 draft: false
 summary: "Handbrake life turns are hard for many reasons."
@@ -39,6 +38,7 @@ I'm interested in a lot of things. Coming to that realization and stopping mysel
 I saw this tweet the other day and remembered reading these while growing up. Something new came up every week/month (I am trying to remember how frequent these were) and captured my interest. These books might have something to do with my endless curiosity.
 
 {{< rawhtml >}}
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;d attribute 50% of my worldly curiosity to this and their yearbook <a href="https://t.co/q7BGKSY47W">https://t.co/q7BGKSY47W</a></p>&mdash; pH (@pHequals7) <a href="https://twitter.com/pHequals7/status/1760994548883595423?ref_src=twsrc%5Etfw">February 23, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {{< /rawhtml >}}
 

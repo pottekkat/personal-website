@@ -1,6 +1,5 @@
 ---
 title: "#23 Kindling Productivity"
-layout: "daily-theme"
 date: 2022-01-24T23:49:09+05:30
 draft: false
 summary: "I have been reading more ever since I started using my Kindle again."

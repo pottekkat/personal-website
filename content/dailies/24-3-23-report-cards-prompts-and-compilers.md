@@ -1,6 +1,5 @@
 ---
 title: "#249 Report Cards, Prompts, and Compilers"
-layout: "daily-theme"
 date: 2023-03-24T18:02:59+05:30
 draft: false
 summary: "Have you learned to write prompts yet?"
@@ -36,8 +35,8 @@ I had okay grades with little hard work during my undergrad, but I spent a lot o
 
 I still rely on the nerd energy to work. I am obsessed with my work and the projects I work on. And this means that I am always motivated to work on the project. I am a model employee.
 
-*Note that these logs are unedited ramblings.*
+_Note that these logs are unedited ramblings._
 
 _Also, [compilers](https://blog.regehr.org/archives/169)._
 
-*Ciao!*
+_Ciao!_

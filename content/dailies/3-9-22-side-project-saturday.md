@@ -1,6 +1,5 @@
 ---
 title: "#201 Side Project Saturday"
-layout: "daily-theme"
 date: 2022-09-03T22:52:06+05:30
 draft: false
 summary: "Working on side projects, writing, and AI images."

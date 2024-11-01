@@ -1,6 +1,5 @@
 ---
 title: "#160 Road Trip to Valparai"
-layout: "daily-theme"
 date: 2022-06-26T21:13:20+05:30
 draft: false
 summary: "We went on a road trip."

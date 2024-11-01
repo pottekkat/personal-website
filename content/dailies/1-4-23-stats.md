@@ -1,6 +1,5 @@
 ---
 title: "#253 /stats"
-layout: "daily-theme"
 date: 2023-04-01T23:43:54+05:30
 draft: false
 summary: "/stats is here. Check it out."

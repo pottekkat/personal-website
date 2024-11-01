@@ -1,6 +1,5 @@
 ---
 title: "#212 Namma Ooru Bengaluru 2"
-layout: "daily-theme"
 date: 2022-09-30T08:45:21+05:30
 draft: false
 summary: "Speaking at Open Source India and meeting old friends. Bonus: Photos from Bangalore."

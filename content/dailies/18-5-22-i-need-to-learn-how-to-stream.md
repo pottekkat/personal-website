@@ -1,6 +1,5 @@
 ---
 title: "#134 I Need to Learn How to Stream"
-layout: "daily-theme"
 date: 2022-05-18T22:07:05+05:30
 draft: false
 summary: "Streamin away!"

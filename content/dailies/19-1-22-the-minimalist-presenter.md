@@ -1,6 +1,5 @@
 ---
 title: "#18 The Minimalist Presenter"
-layout: "daily-theme"
 date: 2022-01-19T19:51:26+05:30
 draft: false
 summary: ""

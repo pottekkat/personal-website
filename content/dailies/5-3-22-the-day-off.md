@@ -1,6 +1,5 @@
 ---
 title: "#61 The Day Off"
-layout: "daily-theme"
 date: 2022-03-05T10:17:45+05:30
 draft: false
 summary: "Chill."

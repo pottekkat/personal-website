@@ -1,6 +1,5 @@
 ---
 title: "#242 Singapore Day 2"
-layout: "daily-theme"
 date: 2023-02-10T23:05:33+08:00
 draft: false
 summary: "I went to the dentist today."

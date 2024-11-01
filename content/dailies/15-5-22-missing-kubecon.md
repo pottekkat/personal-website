@@ -1,6 +1,5 @@
 ---
 title: "#131 Missing Kubecon"
-layout: "daily-theme"
 date: 2022-05-15T20:03:04+05:30
 draft: false
 summary: "I missed my first in-person KubeCon."

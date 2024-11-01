@@ -1,6 +1,5 @@
 ---
 title: "#196 Opinions About the Metaverse"
-layout: "daily-theme"
 date: 2022-08-29T11:33:40+05:30
 draft: false
 summary: "TLDR; I don't like it. Bonus: Pictures!"
@@ -11,6 +10,7 @@ categories: ["Daily Dose of Pottekkat"]
 I have been listening to Mark Zuckerberg's conversation with Joe Rogan and sharing my opinions on Twitter. I'm almost halfway through it.
 
 {{< rawhtml >}}
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m listening to the three-hour The Joe Rogan Experience episode with Mark Zuckerberg.<br><br>26 minutes in, they are talking about virtual and augmented reality.<br><br>I want to be excited about VR and AR, but ... <a href="https://t.co/GlmoWrQQjk">pic.twitter.com/GlmoWrQQjk</a></p>&mdash; Navendu Pottekkat (@realPottekkat) <a href="https://twitter.com/realPottekkat/status/1563766111807553537?ref_src=twsrc%5Etfw">August 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {{< /rawhtml >}}
 

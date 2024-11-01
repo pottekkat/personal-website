@@ -1,6 +1,5 @@
 ---
 title: "#244 Hike in the Morning, Work in the Evening"
-layout: "daily-theme"
 date: 2023-02-14T17:45:39+08:00
 draft: false
 summary: "Hike at Windsor Nature Park and work at library@harbourfront."

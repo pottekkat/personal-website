@@ -1,6 +1,5 @@
 ---
 title: "#21 What I Talk About When I Talk About Haruki Murakami"
-layout: "daily-theme"
 date: 2022-01-22T19:05:08+05:30
 draft: false
 summary: ""

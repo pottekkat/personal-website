@@ -1,6 +1,5 @@
 ---
 title: "#219 Checo Wins Mexico"
-layout: "daily-theme"
 date: 2022-10-27T21:53:33+05:30
 draft: false
 summary: "Mexico GP weekend is here and everyone wants Checo to win."
@@ -15,5 +14,6 @@ There is something inspiring about Checo winning his home GP in front of his hom
 Anyway, it would be a fun race. It will also be great to see Lewis and Sebastian get podiums as the season closes.
 
 {{< rawhtml >}}
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🤞<a href="https://twitter.com/SChecoPerez?ref_src=twsrc%5Etfw">@SChecoPerez</a> wins <a href="https://twitter.com/hashtag/MexicoGP?src=hash&amp;ref_src=twsrc%5Etfw">#MexicoGP</a> <a href="https://t.co/Agu40qZU3N">pic.twitter.com/Agu40qZU3N</a></p>&mdash; Navendu Pottekkat (@realPottekkat) <a href="https://twitter.com/realPottekkat/status/1585667541933752325?ref_src=twsrc%5Etfw">October 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {{< /rawhtml >}}

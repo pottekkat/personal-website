@@ -1,6 +1,5 @@
 ---
 title: "#73 New Job Announcement!"
-layout: "daily-theme"
 date: 2022-03-17T19:08:00+05:30
 draft: false
 summary: "It's official! I will be starting a new job on Monday!"

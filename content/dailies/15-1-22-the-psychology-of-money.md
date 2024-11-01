@@ -1,6 +1,5 @@
 ---
 title: "#14 The Psychology of Money"
-layout: "daily-theme"
 date: 2022-01-15T15:43:20+05:30
 draft: false
 summary: ""

@@ -1,12 +1,12 @@
 ---
 title: "#287 London is Londoning"
-layout: "daily-theme"
 date: 2024-09-23T17:38:51+05:30
 draft: false
 summary: "Highlights from my recent London trip."
 tags: ["daily log"]
 categories: ["Daily Dose of Pottekkat"]
 ---
+
 I don't know how else to put it, but _London is Londoning_. The city looks precisely as painted in books and movies. It gave me a sense of familiarity even though it was my first visit.
 
 To that point, the most surprising aspect was the weather or how it made the city look and feel characteristically gloomy. I had thought this was color grading when I watched movies set in England—like how they added the golden-brown filter in Hollywood movies to show that it's Mexico. But it is indeed real.
@@ -56,4 +56,3 @@ This is an incomplete photo dump.
 {{< figure src="/images/23-9-24-london-is-londoning/lords.jpeg#center" title="Home" caption="Lord's, London - 23rd September 2024" link="/images/23-9-24-london-is-londoning/lords.jpeg" target="_blank" class="align-center" >}}
 
 {{< figure src="/images/23-9-24-london-is-londoning/221b.jpeg#center" title="Elementary" caption="221b, Baker Street, London - 23rd September 2024" link="/images/23-9-24-london-is-londoning/221b.jpeg" target="_blank" class="align-center" >}}
-

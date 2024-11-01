@@ -1,6 +1,5 @@
 ---
 title: "#89 Getting New Equipment and XKCD"
-layout: "daily-theme"
 date: 2022-04-02T12:26:44+05:30
 draft: false
 summary: "I'm getting new equipment."
@@ -31,5 +30,6 @@ I got a USB-C to USB-A hub along with it to make sure that I can connect all my 
 I have no clue whether it will work properly or if I have to buy something else but I hope it does.
 
 {{< rawhtml >}}
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/xkcd?ref_src=twsrc%5Etfw">@xkcd</a> 2601 💯<br><br>🐢 I also used to talk to Turtles.</p>&mdash; Navendu Pottekkat (@realPottekkat) <a href="https://twitter.com/realPottekkat/status/1510141766938546181?ref_src=twsrc%5Etfw">April 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {{< /rawhtml >}}

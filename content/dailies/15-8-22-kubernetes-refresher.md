@@ -1,6 +1,5 @@
 ---
 title: "#184 Kubernetes Refresher"
-layout: "daily-theme"
 date: 2022-08-15T19:38:38+05:30
 draft: false
 summary: "Spent the day refreshing my Kubernetes knowledge."

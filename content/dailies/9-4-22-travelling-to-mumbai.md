@@ -1,6 +1,5 @@
 ---
 title: "#96 Travelling to Mumbai"
-layout: "daily-theme"
 date: 2022-04-09T17:35:36+05:30
 draft: false
 summary: "I have an early morning flight to Mumbai tomorrow."

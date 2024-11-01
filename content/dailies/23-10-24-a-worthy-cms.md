@@ -1,6 +1,5 @@
 ---
 title: "#288 A Worthy CMS"
-layout: daily-theme
 date: 2024-10-23T22:01:01+05:30
 draft: false
 summary: I FINALLY found a CMS I can work with (without driving myself mad).
@@ -10,7 +9,7 @@ categories: Daily Dose of Pottekkat
 fmContentType: Daily
 ---
 
-I have been inactive here for a while, but I have my reasons. I also have reasons to think I might be more active here starting this week. *Deets dropping soon*.
+I have been inactive here for a while, but I have my reasons. I also have reasons to think I might be more active here starting this week. _Deets dropping soon_.
 
 Well, for starters, my writing workflow sucked. My "CMS" was 100 lines of Go code that barely met the thresholds of both a CLI and a CMS. Suffice to say, it took a lot of effort to create, manage, and publish new posts.
 

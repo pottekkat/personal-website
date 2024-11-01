@@ -1,6 +1,5 @@
 ---
 title: "#164 Goodbyes"
-layout: "daily-theme"
 date: 2022-07-08T20:27:43+05:30
 draft: false
 summary: "It's an end of an era."

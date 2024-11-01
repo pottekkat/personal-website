@@ -1,6 +1,5 @@
 ---
 title: "#232 Goodbye Google Analytics"
-layout: "daily-theme"
 date: 2022-12-15T20:27:21+05:30
 draft: false
 summary: "I'm moving away from using Google Analytics on this site."

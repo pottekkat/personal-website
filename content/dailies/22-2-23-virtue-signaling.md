@@ -1,6 +1,5 @@
 ---
 title: "#247 Virtue Signaling"
-layout: "daily-theme"
 date: 2023-02-22T11:37:25+05:30
 draft: false
 summary: "Virtue signaling is a global problem."

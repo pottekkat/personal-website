@@ -1,6 +1,5 @@
 ---
 title: "#15 Service Mesh Performance and Asking Questions"
-layout: "daily-theme"
 date: 2022-01-16T09:29:58+05:30
 draft: false
 summary: ""

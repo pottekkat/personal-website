@@ -1,6 +1,5 @@
 ---
 title: "#41 Varkala and Punchakkari"
-layout: "daily-theme"
 date: 2022-02-13T12:39:21+05:30
 draft: false
 summary: "Photos from the last three days at Varkala and Punchakkari."
@@ -11,6 +10,7 @@ categories: ["Daily Dose of Pottekkat"]
 This song sets the tone perfectly.
 
 {{< rawhtml >}}
+
 <iframe src="https://open.spotify.com/embed/track/3AJwUDP919kvQ9QcozQPxg?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 {{< /rawhtml >}}
 

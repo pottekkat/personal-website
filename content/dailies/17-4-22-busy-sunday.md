@@ -1,6 +1,5 @@
 ---
 title: "#104 Busy Sunday"
-layout: "daily-theme"
 date: 2022-04-17T19:57:15+05:30
 draft: false
 summary: "I'm a workaholic."

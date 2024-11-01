@@ -1,6 +1,5 @@
 ---
 title: "#123 Strange"
-layout: "daily-theme"
 date: 2022-05-07T23:46:34+05:30
 draft: false
 summary: "Watched the new Dr. Strange movie."

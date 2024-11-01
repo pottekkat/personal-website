@@ -1,6 +1,5 @@
 ---
 title: "#116 Clever Subtitles"
-layout: "daily-theme"
 date: 2022-04-30T19:27:03+05:30
 draft: false
 summary: "Pachinko tells stories in subtitles and I submitted a couple of talk proposals."

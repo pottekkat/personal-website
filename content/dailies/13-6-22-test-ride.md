@@ -1,6 +1,5 @@
 ---
 title: "#157 Test Ride"
-layout: "daily-theme"
 date: 2022-06-13T16:12:32+05:30
 draft: false
 summary: "Test drove Honda CB300R. I'm inclined to buy it. Bonus: Pictures from Chulliyar Dam."

@@ -1,6 +1,5 @@
 ---
 title: "#8 The Psychology of Money"
-layout: "daily-theme"
 date: 2022-01-08T08:28:58+05:30
 draft: false
 summary: "There is no reason to risk what you have and need for what you don’t have and don’t need."

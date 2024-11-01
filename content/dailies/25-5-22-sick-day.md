@@ -1,6 +1,5 @@
 ---
 title: "#138 Sick Day"
-layout: "daily-theme"
 date: 2022-05-25T21:28:20+05:30
 draft: false
 summary: "In sickness and health 2.0."

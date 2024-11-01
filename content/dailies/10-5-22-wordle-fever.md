@@ -1,6 +1,5 @@
 ---
 title: "#126 Wordle Fever"
-layout: "daily-theme"
 date: 2022-05-10T10:35:20+05:30
 draft: false
 summary: "Wordle no more."

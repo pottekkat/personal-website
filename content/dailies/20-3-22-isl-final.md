@@ -1,6 +1,5 @@
 ---
 title: "#76 ISL Final"
-layout: "daily-theme"
 date: 2022-03-20T11:01:17+05:30
 draft: false
 summary: "ISL final watch party! Bonus: Pictures from Malampuzha Dam."
@@ -24,6 +23,6 @@ We went out to Malampuzha to chill in this deserted spot.
 
 And we also had a watch party for the final.
 
-It was disappointing to see Blasters loose in the penalties but it was fun until then. 
+It was disappointing to see Blasters loose in the penalties but it was fun until then.
 
 {{< figure src="/images/20-3-22-isl-final/isl-final-in-the-streets.jpeg#center" title="ISL Final watch party!" caption="Chittur - 20th March 2022" link="/images/20-3-22-isl-final/isl-final-in-the-streets.jpeg" target="_blank" class="align-center" >}}

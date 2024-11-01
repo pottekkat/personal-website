@@ -1,6 +1,5 @@
 ---
 title: "#186 Failed Attempts"
-layout: "daily-theme"
 date: 2022-08-17T22:04:00+05:30
 draft: false
 summary: "Tried integrating Netlify CMS. It doesn't do what I want it to do."

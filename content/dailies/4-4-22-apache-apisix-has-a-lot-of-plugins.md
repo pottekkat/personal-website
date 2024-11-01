@@ -1,6 +1,5 @@
 ---
 title: "#91 Apache APISIX Has a Lot of Plugins"
-layout: "daily-theme"
 date: 2022-04-04T22:28:08+05:30
 draft: false
 summary: "Doing a lot of work in rewriting the Apache APISIX documentation."

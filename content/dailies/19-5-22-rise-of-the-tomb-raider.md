@@ -1,6 +1,5 @@
 ---
 title: "#135 Rise of the Tomb Raider"
-layout: "daily-theme"
 date: 2022-05-19T19:58:35+05:30
 draft: false
 summary: "I finished the first one. Moving on to the next."

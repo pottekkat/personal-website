@@ -1,6 +1,5 @@
 ---
 title: "#285 Ideas That Stick"
-layout: "daily-theme"
 date: 2024-07-18T17:31:57+05:30
 draft: false
 summary: "You are not you when you are hungry."
@@ -15,4 +14,3 @@ The episode was about writing that sticks—the ones you see in excellent advert
 For example, many startups and businesses essentially do the same thing when you boil them down to their skeletons. When there is a lack of functional differences, what sets them apart is the presentation.
 
 This does not necessarily mean you should be clever and bait audiences into your ideas; rather, you should convey them in the most simple and elegant manner.
-

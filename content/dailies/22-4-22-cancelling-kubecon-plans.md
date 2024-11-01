@@ -1,6 +1,5 @@
 ---
 title: "#109 Cancelling KubeCon Plans"
-layout: "daily-theme"
 date: 2022-04-22T13:44:40+05:30
 draft: false
 summary: "I would not be traveling to KubeCon in Valencia. It sucks. See you next year!"

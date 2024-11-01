@@ -1,6 +1,5 @@
 ---
 title: "#16 Killing Time and Unintended Consequences"
-layout: "daily-theme"
 date: 2022-01-17T09:27:52+05:30
 draft: false
 summary: ""
@@ -25,6 +24,7 @@ I read "[A New Morality of Attainment (Goodhart’s Law)](https://unintendedcons
 You can check out the podcast episode here.
 
 {{< rawhtml >}}
+
 <iframe src="https://open.spotify.com/embed/episode/7mVIjIS0UiGDzAzMfZ2Kfb?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 {{< /rawhtml >}}
 

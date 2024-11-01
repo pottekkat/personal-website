@@ -1,6 +1,5 @@
 ---
 title: "#209 Dublin"
-layout: "daily-theme"
 date: 2022-09-17T20:05:47+01:00
 draft: false
 summary: "Traveling around the city and the outskirts: 36,738 steps in a day with four hours to go."

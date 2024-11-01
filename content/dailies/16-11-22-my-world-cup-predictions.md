@@ -1,6 +1,5 @@
 ---
 title: "#226 My World Cup Predictions"
-layout: "daily-theme"
 date: 2022-11-16T13:09:35+05:30
 draft: false
 summary: "Based more on personal preferences than data. Let's see how this turns out."
@@ -14,16 +13,17 @@ Personal preferences might have more influence on my decisions than actual data 
 
 Group stages are challenging. There are a lot of groups where things could go at least three ways.
 
-|   | Group A        | Group B   | Group C         | Group D      | Group E       | Group F    | Group G        | Group H        |
-|---|----------------|-----------|-----------------|--------------|---------------|------------|----------------|----------------|
-| 1 | 🇳🇱 Netherlands | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | 🇦🇷 Argentina    | 🇫🇷 France    | 🇪🇸 Spain      | 🇭🇷 Croatia | 🇧🇷 Brazil      | 🇵🇹 Portugal    |
-| 2 | 🇸🇳 Senegal     | 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales   | 🇲🇽 Mexico       | 🇩🇰 Denmark   | 🇩🇪 Germany    | 🇧🇪 Belgium | 🇨🇭 Switzerland | 🇺🇾 Uruguay     |
-| 3 | 🇪🇨 Ecuador     | 🇺🇸 USA    | 🇵🇱 Poland       | 🇦🇺 Australia | 🇯🇵 Japan      | 🇨🇦 Canada  | 🇨🇲 Cameroon    | 🇰🇷 South Korea |
-| 4 | 🇶🇦 Qatar       | 🇮🇷 Iran   | 🇸🇦 Saudi Arabia | 🇹🇳 Tunisia   | 🇨🇷 Costa Rica | 🇲🇦 Morocco | 🇷🇸 Serbia      | 🇬🇭 Ghana       |
+|     | Group A        | Group B    | Group C         | Group D      | Group E       | Group F    | Group G        | Group H        |
+| --- | -------------- | ---------- | --------------- | ------------ | ------------- | ---------- | -------------- | -------------- |
+| 1   | 🇳🇱 Netherlands | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | 🇦🇷 Argentina    | 🇫🇷 France    | 🇪🇸 Spain      | 🇭🇷 Croatia | 🇧🇷 Brazil      | 🇵🇹 Portugal    |
+| 2   | 🇸🇳 Senegal     | 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales   | 🇲🇽 Mexico       | 🇩🇰 Denmark   | 🇩🇪 Germany    | 🇧🇪 Belgium | 🇨🇭 Switzerland | 🇺🇾 Uruguay     |
+| 3   | 🇪🇨 Ecuador     | 🇺🇸 USA     | 🇵🇱 Poland       | 🇦🇺 Australia | 🇯🇵 Japan      | 🇨🇦 Canada  | 🇨🇲 Cameroon    | 🇰🇷 South Korea |
+| 4   | 🇶🇦 Qatar       | 🇮🇷 Iran    | 🇸🇦 Saudi Arabia | 🇹🇳 Tunisia   | 🇨🇷 Costa Rica | 🇲🇦 Morocco | 🇷🇸 Serbia      | 🇬🇭 Ghana       |
 
 This is where it gets interesting. These are all top teams, and I don't have enough data or facts (who does) to make reasonable predictions. But I will try my best.
 
 {{< rawhtml >}}
+
 <table>
 	<tbody>
 		<tr>
@@ -98,8 +98,8 @@ This is where it gets interesting. These are all top teams, and I don't have eno
 </table>
 {{< /rawhtml >}}
 
-
 {{< rawhtml >}}
+
 <details>
     <summary>
     And in the final,

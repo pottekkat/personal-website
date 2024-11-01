@@ -1,6 +1,5 @@
 ---
 title: "#58 Parks and Recs is the Best TV Show Ever"
-layout: "daily-theme"
 date: 2022-03-02T09:56:43+05:30
 draft: false
 summary: "Li'l Sebastian is probably the best minor character in the whole show."
@@ -22,6 +21,7 @@ Wordle 256 4/6
 Parks and Recreation is the best TV show ever created.
 
 {{< rawhtml >}}
+
 <div style="width:480px"><iframe allow="fullscreen" frameBorder="0" height="270" src="https://giphy.com/embed/702ybfQFkrkrWnIByR/video" width="480"></iframe></div>
 {{< /rawhtml >}}
 

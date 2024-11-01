@@ -1,6 +1,5 @@
 ---
 title: "#124 Football"
-layout: "daily-theme"
 date: 2022-05-08T20:35:31+05:30
 draft: false
 summary: "The American one."

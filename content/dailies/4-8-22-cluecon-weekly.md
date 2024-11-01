@@ -1,6 +1,5 @@
 ---
 title: "#173 ClueCon Weekly"
-layout: "daily-theme"
 date: 2022-08-04T19:49:55+05:30
 draft: false
 summary: "I was invited to be a guest on this week's ClueCon Weekly!"

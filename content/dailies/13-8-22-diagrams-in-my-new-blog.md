@@ -1,6 +1,5 @@
 ---
 title: "#182 Diagrams in My New Blog"
-layout: "daily-theme"
 date: 2022-08-13T22:00:32+05:30
 draft: false
 summary: "My new blog post will have diagrams. So, I added markdown to diagrams using Mermaid.js."
@@ -17,7 +16,7 @@ This blog post I mentioned will have some diagrams. I could go the easy for now 
 The best solution, after some research, was to use [Mermaid](https://mermaid-js.github.io/mermaid/#/), which is a:
 
 {{< blockquote link="https://mermaid-js.github.io/mermaid/#/" title="Mermaid docs" >}}
-  JavaScript based diagramming and charting tool that renders Markdown-inspired text definitions to create and modify diagrams dynamically.
+JavaScript based diagramming and charting tool that renders Markdown-inspired text definitions to create and modify diagrams dynamically.
 {{< /blockquote >}}
 
 I spent some time setting it up properly and configuring it for my site. It looks and works great in the end. I will probably write an article about this setup as I found it quite tricky to set it up properly.

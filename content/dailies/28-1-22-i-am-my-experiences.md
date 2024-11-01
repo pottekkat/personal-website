@@ -1,6 +1,5 @@
 ---
 title: "#27 I Am My Experiences"
-layout: "daily-theme"
 date: 2022-01-28T11:14:22+05:30
 draft: false
 summary: "Mini-Boom! I _should_ have guessed it earlier."

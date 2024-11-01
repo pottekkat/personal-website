@@ -1,6 +1,5 @@
 ---
 title: "#33 Poetry"
-layout: "daily-theme"
 date: 2022-02-03T08:22:23+05:30
 draft: false
 summary: "I haven't been much of a poetry reader."

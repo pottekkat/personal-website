@@ -1,6 +1,5 @@
 ---
 title: "#39 To Be Read"
-layout: "daily-theme"
 date: 2022-02-10T10:13:34+05:30
 draft: false
 summary: "4 is par and 3 is a birdie."

@@ -1,6 +1,5 @@
 ---
 title: "#210 How Many Flights Is Too Many Flights?"
-layout: "daily-theme"
 date: 2022-09-23T22:03:56+05:30
 draft: false
 summary: "I was in too many airports this week. Bonus: Photos from COCON."

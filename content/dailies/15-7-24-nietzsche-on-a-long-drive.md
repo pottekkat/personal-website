@@ -1,6 +1,5 @@
 ---
 title: "#284 Nietzsche on a Long Drive"
-layout: "daily-theme"
 date: 2024-07-15T12:52:12+05:30
 draft: false
 summary: "Take me home, country roads."
@@ -17,4 +16,3 @@ It was easy to agree with the lecturer's conclusion that Nietzsche's ideas refle
 However, his ideas are pretty interesting when we try to model society. Nietzsche argues that what modern Christian-aligned society identifies as bad is just the opposite of what the strong, the victors, and the Pagans thought was good.
 
 While I disagree with his conclusions, his ideas serve as a useful microscope into the human condition, explaining why we do what we do.
-

@@ -1,6 +1,5 @@
 ---
 title: "#122 Just Wordle (Idea Stew)"
-layout: "daily-theme"
 date: 2022-05-06T11:32:54+05:30
 draft: false
 summary: "I don't have anything interesting to share today."
@@ -28,4 +27,4 @@ It took me all these years to realize that thinking about a problem is more impo
 Anyways, I have a lot of ideas brewing. I'm finding it difficult to be fully devoted to one particular thing—I'm all over the place now—but I should be able to get things in order soon and start working on these ideas.
 
 It's race weekend tomorrow!\
-🏎️ 
+🏎️

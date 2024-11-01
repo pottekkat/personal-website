@@ -1,6 +1,5 @@
 ---
 title: "#175 Building a Redis Clone"
-layout: "daily-theme"
 date: 2022-08-06T20:57:19+05:30
 draft: false
 summary: "I learn about Redis and build a Redis clone."
