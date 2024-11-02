@@ -3,8 +3,6 @@ title: "#250 From Bahrain"
 date: 2023-03-25T14:57:33+05:30
 draft: false
 summary: "Photos from the Bahrain Grand Prix."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I went to the Bahrain Grand Prix earlier this month.

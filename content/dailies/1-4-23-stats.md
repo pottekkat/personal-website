@@ -3,8 +3,6 @@ title: "#253 /stats"
 date: 2023-04-01T23:43:54+05:30
 draft: false
 summary: "/stats is here. Check it out."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 It has been some time. I wanted to write here every day, but I have been super busy outside of work.

@@ -3,8 +3,6 @@ title: "#283 Three Villages in a Trench Coat"
 date: 2024-06-06T18:48:54+02:00
 draft: false
 summary: "This place is beautiful!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 While walking around Bratislava, you constantly remind yourself that you are in a capital city when all around you feel the warmth and coziness of a small village.

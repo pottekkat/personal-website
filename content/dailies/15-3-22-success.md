@@ -3,8 +3,6 @@ title: "#71 Success"
 date: 2022-03-15T22:43:49+05:30
 draft: false
 summary: "Success is contagious. Bonus: Photos from Kava, Malampuzha."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Easy as a Tuesday morning.

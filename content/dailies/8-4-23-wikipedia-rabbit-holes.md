@@ -3,8 +3,6 @@ title: "#257 Wikipedia Rabbit Holes"
 date: 2023-04-08T19:05:49+05:30
 draft: false
 summary: "Wikipedia is an unpredictable rabbit hole."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I have been binging Wikipedia articles all evening. I will let the links tell the story.

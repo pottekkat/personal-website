@@ -3,8 +3,6 @@ title: "#79 What Am I Working On?"
 date: 2022-03-23T19:27:42+05:30
 draft: false
 summary: "I try to articulate what I'm working on."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 On some days, I have to really think.

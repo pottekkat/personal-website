@@ -3,8 +3,6 @@ title: "#164 Goodbyes"
 date: 2022-07-08T20:27:43+05:30
 draft: false
 summary: "It's an end of an era."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Today might be an end of an era. The last month was quite fun with all my friends back in our hometown. And today, everyone is leaving.

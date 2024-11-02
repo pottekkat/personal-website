@@ -3,8 +3,6 @@ title: "#195 Do I Really Need News?"
 date: 2022-08-27T22:38:16+05:30
 draft: false
 summary: "Really?"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I have been following significantly less "news" recently.

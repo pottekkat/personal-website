@@ -3,8 +3,6 @@ title: "#246 Back in Kerala"
 date: 2023-02-21T10:43:01+05:30
 draft: false
 summary: "Doing Kerala things."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I'm back in Kerala after more than a week. I did "Kerala things" over the weekend and did not rest after the week-long travel.

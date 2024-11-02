@@ -3,9 +3,6 @@ title: "#288 A Worthy CMS"
 date: 2024-10-23T22:01:01+05:30
 draft: false
 summary: I FINALLY found a CMS I can work with (without driving myself mad).
-tags:
-  - daily log
-categories: Daily Dose of Pottekkat
 fmContentType: Daily
 ---
 

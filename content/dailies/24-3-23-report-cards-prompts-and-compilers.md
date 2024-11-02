@@ -3,8 +3,6 @@ title: "#249 Report Cards, Prompts, and Compilers"
 date: 2023-03-24T18:02:59+05:30
 draft: false
 summary: "Have you learned to write prompts yet?"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Have you learned to write ~~code~~ prompts yet?

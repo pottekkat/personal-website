@@ -3,8 +3,6 @@ title: "#139 Prepping for a Talk"
 date: 2022-05-26T11:44:23+05:30
 draft: false
 summary: "First timer talks are always a lot of work."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I have to finish recording a talk by Sunday. It's my first talk about API gateways, and hopefully, it will be much easier the second time.

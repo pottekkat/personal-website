@@ -3,8 +3,6 @@ title: '#95 Growing "to be read" Pile'
 date: 2022-04-08T18:40:39+05:30
 draft: false
 summary: "When will I read all these and close all these tabs?"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Wordle 293 3/6

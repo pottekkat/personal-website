@@ -3,8 +3,6 @@ title: "#21 What I Talk About When I Talk About Haruki Murakami"
 date: 2022-01-22T19:05:08+05:30
 draft: false
 summary: ""
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I finished reading "[The Defining Decade](https://www.goodreads.com/book/show/40603783-the-defining-decade)" by Meg Jay.

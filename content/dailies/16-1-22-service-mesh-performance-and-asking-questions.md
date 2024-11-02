@@ -3,8 +3,6 @@ title: "#15 Service Mesh Performance and Asking Questions"
 date: 2022-01-16T09:29:58+05:30
 draft: false
 summary: ""
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I have two upcoming talks in the next two weeks.

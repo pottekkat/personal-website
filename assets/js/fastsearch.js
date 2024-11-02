@@ -24,12 +24,12 @@ window.onload = function () {
         // Filter data based on "showOnly" and "omit"
         if (showOnly) {
           data = data.filter(function (item) {
-            return item.categories.indexOf(showOnly) !== -1;
+            return item.section.indexOf(showOnly) !== -1;
           });
         } else if (omitValues.length > 0) {
           data = data.filter(function (item) {
             return omitValues.every(function (value) {
-              return item.categories.indexOf(value) === -1;
+              return item.section.indexOf(value) === -1;
             });
           });
         }
@@ -39,7 +39,7 @@ window.onload = function () {
             distance: 100,
             threshold: 0.4,
             ignoreLocation: true,
-            keys: ["title", "permalink", "summary", "content", "categories"],
+            keys: ["title", "permalink", "summary", "content", "categories", "section"],
           };
           if (params.fuseOpts) {
             options = {
@@ -55,6 +55,7 @@ window.onload = function () {
                 "summary",
                 "content",
                 "categories",
+                "section",
               ],
               location: params.fuseOpts.location ?? 0,
               threshold: params.fuseOpts.threshold ?? 0.4,

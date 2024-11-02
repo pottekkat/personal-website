@@ -3,8 +3,6 @@ title: "#49 Knowing the Game You Are Playing"
 date: 2022-02-21T18:20:31+05:30
 draft: false
 summary: "You play a different game than everyone else. Understanding that is the first step."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 It's the easy words that get you.

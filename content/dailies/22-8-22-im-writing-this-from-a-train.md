@@ -3,8 +3,6 @@ title: "#190 I'm Writing This From a Train"
 date: 2022-08-22T16:20:26+05:30
 draft: false
 summary: "Work from train."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I'm on a train as I'm writing this.

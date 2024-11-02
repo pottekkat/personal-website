@@ -3,8 +3,6 @@ title: "#259 Airport Logs"
 date: 2023-04-11T19:19:15+05:30
 draft: false
 summary: "This might be a theme here."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I'm writing this again from an airport. I guess this is a thing now, considering I have written at least four daily logs in airports over the past months.

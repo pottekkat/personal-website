@@ -3,8 +3,6 @@ title: "#232 Goodbye Google Analytics"
 date: 2022-12-15T20:27:21+05:30
 draft: false
 summary: "I'm moving away from using Google Analytics on this site."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I made the easy decision to switch the Plausible Analytics last week.

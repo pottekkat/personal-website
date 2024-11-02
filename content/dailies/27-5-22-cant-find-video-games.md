@@ -3,8 +3,6 @@ title: "#140 Can't Find Video Games"
 date: 2022-05-27T19:59:33+05:30
 draft: false
 summary: "Can't find a low end video game that is fun to play and won't burn my MacBook Air."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I finished _The Rise of the Tomb Raider_ today. Great game. Great storyline.

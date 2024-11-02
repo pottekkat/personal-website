@@ -3,8 +3,6 @@ title: "#236 Here and Now"
 date: 2023-02-01T13:01:34+05:30
 draft: false
 summary: "/now"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 [A year ago](/dailies/1-2-22-i-am-sick), I was playing Wordle and was sick. I’m healthy now, but I tried today’s Wordle:

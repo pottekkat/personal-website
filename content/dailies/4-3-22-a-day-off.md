@@ -3,8 +3,6 @@ title: "#60 A Day Off"
 date: 2022-03-04T18:15:40+05:30
 draft: false
 summary: "I kind of took a day off. Whoa! 60 days!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Easy.

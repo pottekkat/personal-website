@@ -3,8 +3,6 @@ title: "#52 What Good Is Saved Time if Nobody Uses It?"
 date: 2022-02-24T8:54:29+05:30
 draft: false
 summary: "We are obsessed with saving time."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I thought I had it at two. Could I _[be](https://memegenerator.net/img/instances/59277106/could-i-be-any-more-wrong.jpg)_ any more wrong?

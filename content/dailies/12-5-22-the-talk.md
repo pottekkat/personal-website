@@ -3,8 +3,6 @@ title: "#128 The Talk"
 date: 2022-05-12T19:18:22+05:30
 draft: false
 summary: "Talked at a meetup after months!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Last time I gave a talk was in February. It has been a long gap compared to my previous schedule where I spoke at least once a month.

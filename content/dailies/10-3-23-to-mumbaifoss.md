@@ -3,8 +3,6 @@ title: "#248 To MumbaiFOSS"
 date: 2023-03-10T14:07:17+05:30
 draft: false
 summary: "Guess where I'm writing this from?"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Guess where I'm writing this from? Yes, an airport.

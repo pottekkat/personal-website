@@ -3,8 +3,6 @@ title: "#80 Back to Content Creation"
 date: 2022-03-24T10:41:14+05:30
 draft: false
 summary: "I start writing again!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 😎

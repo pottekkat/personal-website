@@ -3,8 +3,6 @@ title: "#143 Looking for RetroPies"
 date: 2022-05-30T20:43:56+05:30
 draft: false
 summary: "Kids be buying PS5s. Me be buying RetroPies."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 If you are a reader here, you would not be a stranger to my recent video game adventures.

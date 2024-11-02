@@ -3,8 +3,6 @@ title: "#104 Busy Sunday"
 date: 2022-04-17T19:57:15+05:30
 draft: false
 summary: "I'm a workaholic."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Wordle 302 4/6

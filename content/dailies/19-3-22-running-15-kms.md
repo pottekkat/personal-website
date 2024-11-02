@@ -3,8 +3,6 @@ title: "#75 Running 15 Kilometers"
 date: 2022-03-19T19:00:36+05:30
 draft: false
 summary: "I ran 15 kms today."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Lucky guesses.

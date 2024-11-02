@@ -14,7 +14,7 @@ This blog is a window into my world as an open source maintainer and an amateur 
 
 I write about a [wide range of topics](/categories/), from in-depth [tutorials for projects](/tags/apache-apisix/) that keep me up at night to the [goals in life](/tags/life/) that keep me inspired.
 
-I also try to [write daily](/categories/daily-dose-of-pottekkat/), but fair warning: I don't stop to edit these.
+I also try to [write daily](/dailies/), but fair warning: I don't stop to edit these.
 
 Unless mentioned otherwise, all material in this blog is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0), and the [source code](https://github.com/pottekkat/personal-website) of this website is available under the [MIT license](https://github.com/pottekkat/personal-website/blob/hugo/LICENSE).
 

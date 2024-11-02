@@ -3,8 +3,6 @@ title: "#8 The Psychology of Money"
 date: 2022-01-08T08:28:58+05:30
 draft: false
 summary: "There is no reason to risk what you have and need for what you don’t have and don’t need."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Today I started reading "[The Psychology of Money](https://www.goodreads.com/book/show/41881472-the-psychology-of-money)" by Morgan Housel and I am four chapters in already.

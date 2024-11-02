@@ -3,8 +3,6 @@ title: "#225 My Stance on Cryptocurrency"
 date: 2022-11-15T11:46:37+05:30
 draft: false
 summary: "I have not voiced an opinion all along. But this week's article might change that."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I will publish a new article on Friday, which shows my stance on cryptocurrencies.

@@ -3,8 +3,6 @@ title: "#278 Good Morning, Vietnam"
 date: 2024-04-01T20:11:21+05:30
 draft: false
 summary: "I will be in Hanoi for the FOSSASIA Summit 2024!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I'm [back](/dailies/14-2-24-welcome-my-communist-brother/) in Vietnam, this time for work. I will be at the [FOSSASIA Summit 2024](https://eventyay.com/e/55d2a466/) next week.

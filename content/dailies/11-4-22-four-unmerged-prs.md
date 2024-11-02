@@ -3,8 +3,6 @@ title: "#98 Four Unmerged PRs"
 date: 2022-04-11T20:31:21+05:30
 draft: false
 summary: "I opened two more PRs today. Now I have four open PRs."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 The **, the whole **, and nothing but the \_\_.

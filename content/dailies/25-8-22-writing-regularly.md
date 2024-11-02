@@ -3,8 +3,6 @@ title: "#193 Writing Regularly"
 date: 2022-08-25T21:01:41+05:30
 draft: false
 summary: "Every successful blogger I follow says that the key to their success is writing regularly."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I'm getting back on my continuous writing schedule. I fell off the tracks a couple of months back, but now I feel I'm back 100%.

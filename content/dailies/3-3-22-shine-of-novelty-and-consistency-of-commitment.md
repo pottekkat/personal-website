@@ -3,8 +3,6 @@ title: "#59 Shine of Novelty and Consistency of Commitment"
 date: 2022-03-03T17:46:18+05:30
 draft: false
 summary: "Ooh shiny!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I beat my roommate today. In Wordle that is.

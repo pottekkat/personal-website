@@ -5,8 +5,6 @@ draft: false
 ShowToc: true
 TocOpen: true
 summary: "What do Gen-Z software engineers think of the workplace?"
-tags: ["newsletter"]
-categories: ["Newsletter"]
 ---
 
 Hello from the only place I call home, Kerala!

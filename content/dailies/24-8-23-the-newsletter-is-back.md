@@ -3,8 +3,6 @@ title: "#273 The Newsletter Is Back"
 date: 2023-08-24T23:08:47+05:30
 draft: false
 summary: "I am back writing my newsletter after a three-month hiatus."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I sent out the last issue of my newsletter in May. It has been over three months since I wrote one of those for reasons you will find in the newsletter ([subscribe now!](/subscribe/)).

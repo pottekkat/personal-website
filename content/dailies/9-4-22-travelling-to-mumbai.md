@@ -3,8 +3,6 @@ title: "#96 Travelling to Mumbai"
 date: 2022-04-09T17:35:36+05:30
 draft: false
 summary: "I have an early morning flight to Mumbai tomorrow."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I found out that I broke my streak the day before. But I'm back and kicking!

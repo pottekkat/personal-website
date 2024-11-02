@@ -3,8 +3,6 @@ title: "#84 Back on Twitter"
 date: 2022-03-28T10:40:35+05:30
 draft: false
 summary: "Here we go tweetin' again!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I think I have exhausted all the captions for my Wordle scores.

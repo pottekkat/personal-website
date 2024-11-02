@@ -3,8 +3,6 @@ title: "#215 The Master Plan"
 date: 2022-10-16T18:10:03+05:30
 draft: false
 summary: "Spending the weekend working on our town's future."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I'm spending the weekend working on our town's master plan. It's great seeing people from a small town come together with expert town planners to plan the town's future.

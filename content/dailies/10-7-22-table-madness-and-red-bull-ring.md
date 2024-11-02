@@ -3,8 +3,6 @@ title: "#166 Table Madness and Red Bull Ring"
 date: 2022-07-10T19:28:23+05:30
 draft: false
 summary: "Cricket match, Wimbledon finals, and race at the Red Bull Ring. I play table tennis."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Perez going DNF sucked, but it was a thrilling race.

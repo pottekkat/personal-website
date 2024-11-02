@@ -3,8 +3,6 @@ title: "#10 What Should I Write About?"
 date: 2022-01-09T19:54:21+05:30
 draft: false
 summary: "What?"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 It is really cool to have a place on the internet to post my unfiltered ramblings everyday.

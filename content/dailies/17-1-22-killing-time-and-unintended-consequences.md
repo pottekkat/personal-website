@@ -3,8 +3,6 @@ title: "#16 Killing Time and Unintended Consequences"
 date: 2022-01-17T09:27:52+05:30
 draft: false
 summary: ""
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I start off my "work day"—when I finish my morning routine and sit in front of my computer screen—by catching up on some light reading.

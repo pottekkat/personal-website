@@ -3,8 +3,6 @@ title: "#63 Technical Writing and Going Solar"
 date: 2022-03-07T19:37:29+05:30
 draft: false
 summary: "It ain't much, but it's honest work."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 It ain't much, but it's honest work.

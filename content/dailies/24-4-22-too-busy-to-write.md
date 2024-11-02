@@ -3,8 +3,6 @@ title: "#110 Too Busy to Write?"
 date: 2022-04-24T19:44:49+05:30
 draft: false
 summary: "I'm too busy to write. Even to play Wordle!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I had a busy weekend. I was too busy to even play Wordle. There goes my streak.

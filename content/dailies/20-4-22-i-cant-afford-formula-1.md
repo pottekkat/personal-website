@@ -3,8 +3,6 @@ title: "#107 I Can't Afford Formula 1"
 date: 2022-04-20T22:09:08+05:30
 draft: false
 summary: "I might very well have an opportunity to watch a Grand Prix but it costs way too much."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Where did the car go?

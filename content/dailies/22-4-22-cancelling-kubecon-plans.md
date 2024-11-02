@@ -3,8 +3,6 @@ title: "#109 Cancelling KubeCon Plans"
 date: 2022-04-22T13:44:40+05:30
 draft: false
 summary: "I would not be traveling to KubeCon in Valencia. It sucks. See you next year!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I can miss days if I come back with a bang.

@@ -3,8 +3,6 @@ title: "#133 Tomb Raider"
 date: 2022-05-17T22:25:15+05:30
 draft: false
 summary: "I played a video game (and enjoyed it) after a long time."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I bought the first game in the Tomb Raider trilogy from 2013.

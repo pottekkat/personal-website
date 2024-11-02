@@ -3,8 +3,6 @@ title: "#201 Side Project Saturday"
 date: 2022-09-03T22:52:06+05:30
 draft: false
 summary: "Working on side projects, writing, and AI images."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I spent the day working on my newsletter and blog. A new newsletter issue and a blog post will be published this Friday.

@@ -3,8 +3,6 @@ title: "#268 What I Have Been Up To"
 date: 2023-08-19T13:02:08+05:30
 draft: false
 summary: "Long time no see."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 It has been two months since I wrote one of these! It is the longest I have not written daily logs since I started this almost two years ago. But sometimes, life gets in the way, and you are too busy to just sit down and write your thoughts.

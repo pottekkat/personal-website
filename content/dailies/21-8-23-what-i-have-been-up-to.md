@@ -3,8 +3,6 @@ title: "#270 What I Have Been Up To"
 date: 2023-08-21T19:31:35+05:30
 draft: false
 summary: "Long time no see."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I have been sharing photos here in the past few days, but like I said the other day, I have been up to a [lot of stuff](/dailies/19-8-23-what-i-have-been-up-to/).

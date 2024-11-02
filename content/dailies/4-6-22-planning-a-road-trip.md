@@ -3,8 +3,6 @@ title: "#148 Planning a Road Trip"
 date: 2022-06-04T19:30:45+05:30
 draft: false
 summary: "We can ride on my motorcycle."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I'm thinking of going on a road trip—a motorcycle trip—in one of the coming weekends.

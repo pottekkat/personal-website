@@ -5,8 +5,6 @@ draft: false
 ShowToc: true
 TocOpen: true
 summary: "We are so back!"
-tags: ["newsletter"]
-categories: ["Newsletter"]
 ---
 
 The newsletter is back with a new format. Again!

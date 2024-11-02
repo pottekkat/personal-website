@@ -3,8 +3,6 @@ title: "#50 Currently Reading"
 date: 2022-02-22T16:38:16+05:30
 draft: false
 summary: "50 days of writing! But what am I reading now?"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Will we ever get tired of this game?

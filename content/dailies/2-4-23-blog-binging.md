@@ -3,8 +3,6 @@ title: "#254 Blog Binging"
 date: 2023-04-02T23:42:04+05:30
 draft: false
 summary: "IDK if this is good or bad."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Every so often, I stumble across fascinating personal blogs of engineers.

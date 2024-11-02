@@ -3,8 +3,6 @@ title: "#13 Deep Conversations"
 date: 2022-01-14T19:21:50+05:30
 draft: false
 summary: ""
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I have a good excuse for why I missed my writing schedule the past two days.

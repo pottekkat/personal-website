@@ -3,8 +3,6 @@ title: "#152 Highway to the Danger Zone"
 date: 2022-06-08T23:22:17+05:30
 draft: false
 summary: "Traveled 60 kms to watch Top Gun: Maverick"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 We traveled nearly 60 kms yesterday evening to catch the new Top Gun movie. It was totally worth it.

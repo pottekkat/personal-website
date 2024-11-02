@@ -3,8 +3,6 @@ title: "#263 Hello From Another Airport"
 date: 2023-04-17T15:54:25+05:30
 draft: false
 summary: "Continuing the theme."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I'm writing this after a heavy lunch at Chennai Airport.

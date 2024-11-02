@@ -3,8 +3,6 @@ title: "#177 Preparing for Open Source Summit Latin America"
 date: 2022-08-08T20:47:56+05:30
 draft: false
 summary: "Preparing for my virtual talk at OSS LA!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I will speak at the Open Source Summit Latin America hosted by the Linux Foundation.

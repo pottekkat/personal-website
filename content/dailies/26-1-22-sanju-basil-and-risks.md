@@ -3,8 +3,6 @@ title: "#25 Sanju, Basil and Risks"
 date: 2022-01-26T19:16:55+05:30
 draft: false
 summary: 'How good is the "Basil meets Sanju" interview?'
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 How good is the "[Basil meets Sanju](https://youtu.be/r3y6VLsqpYw)" interview?

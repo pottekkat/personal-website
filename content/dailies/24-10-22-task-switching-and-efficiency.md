@@ -3,8 +3,6 @@ title: "#217 Task Switching and Efficiency"
 date: 2022-10-24T18:53:15+05:30
 draft: false
 summary: "Switching tasks can unlock a different kind of efficiency."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 One of the perks of my job is there are always entirely different categories of tasks I need to do.

@@ -3,8 +3,6 @@ title: "#86 Debates Are Pointless"
 date: 2022-03-30T22:34:13+05:30
 draft: false
 summary: "Will Smith slapped Chris Rock and now we can't have a peaceful dinner."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 How clever is Wordle's user experience?

@@ -5,8 +5,6 @@ draft: false
 ShowToc: true
 TocOpen: true
 summary: "Greetings from Hanoi!"
-tags: ["newsletter"]
-categories: ["Newsletter"]
 ---
 
 Hello from Hanoi!

@@ -3,8 +3,6 @@ title: "#85 Viral on Twitter"
 date: 2022-03-29T10:47:34+05:30
 draft: false
 summary: "My tweet went viral."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Too close for comfort.

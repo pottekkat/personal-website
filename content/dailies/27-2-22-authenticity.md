@@ -3,8 +3,6 @@ title: "#55 Authenticity"
 date: 2022-02-27T12:38:43+05:30
 draft: false
 summary: "Authenticity is always rewarded."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 🇺🇦

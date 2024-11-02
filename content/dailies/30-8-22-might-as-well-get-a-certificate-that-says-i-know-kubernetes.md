@@ -3,8 +3,6 @@ title: "#197 Might as Well Get a Certificate That Says I Know Kubernetes"
 date: 2022-08-30T21:26:29+05:30
 draft: false
 summary: "I'm taking the CKAD examination."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I purchased the Certified Kubernetes Application Developer (CKAD) examination today. I haven't scheduled a test yet, but I will in the coming months after I finish some travel.

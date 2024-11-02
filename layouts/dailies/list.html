@@ -3,7 +3,7 @@
 <header class="page-header">
   <h1>
     {{ .Title }}
-    <a href="/categories/daily-dose-of-pottekkat/index.xml" title="RSS" aria-label="RSS">
+    <a href="/dailies/index.xml" title="RSS" aria-label="RSS">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
         stroke-linecap="round" stroke-linejoin="round" height="23">
         <path d="M4 11a9 9 0 0 1 9 9" />
@@ -24,7 +24,7 @@
 
 <div id="searchbox">
   <input id="searchInput" autofocus placeholder="{{ .Params.placeholder | default (printf "Search") }}"
-      aria-label="search" type="search" autocomplete="off" data-show-only="Daily Dose of Pottekkat">
+      aria-label="search" type="search" autocomplete="off" data-show-only="dailies">
   <ul id="searchResults" aria-label="search results"></ul>
 </div>
 

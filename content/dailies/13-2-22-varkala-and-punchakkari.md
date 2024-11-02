@@ -3,8 +3,6 @@ title: "#41 Varkala and Punchakkari"
 date: 2022-02-13T12:39:21+05:30
 draft: false
 summary: "Photos from the last three days at Varkala and Punchakkari."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 This song sets the tone perfectly.

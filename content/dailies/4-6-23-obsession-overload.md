@@ -3,8 +3,6 @@ title: "#265 Obsession Overload"
 date: 2023-06-04T11:21:19+05:30
 draft: false
 summary: "Obsessed about obsessions."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 It is in my fundamental nature to obsess over things. I have learned that it is central to who I am. And it is great.

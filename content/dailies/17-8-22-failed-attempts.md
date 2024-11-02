@@ -3,8 +3,6 @@ title: "#186 Failed Attempts"
 date: 2022-08-17T22:04:00+05:30
 draft: false
 summary: "Tried integrating Netlify CMS. It doesn't do what I want it to do."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I had given up trying out CMS products yesterday. But after finding how easy it is to use Netlify's open source CMS, I decided to give it another try.

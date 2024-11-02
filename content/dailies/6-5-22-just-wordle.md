@@ -3,8 +3,6 @@ title: "#122 Just Wordle (Idea Stew)"
 date: 2022-05-06T11:32:54+05:30
 draft: false
 summary: "I don't have anything interesting to share today."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Here is my Wordle score today and a sentence that shows how much I try to be funny but fail.

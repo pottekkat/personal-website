@@ -3,8 +3,6 @@ title: "#240 Happy KubeCon Proposal Notification Day"
 date: 2023-02-06T22:41:31+05:30
 draft: false
 summary: "Happy Rejekts proposal submission day!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Long story short, my KubeCon proposal was rejected.

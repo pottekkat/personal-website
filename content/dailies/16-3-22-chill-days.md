@@ -3,8 +3,6 @@ title: "#72 Chill Days"
 date: 2022-03-16T19:01:43+05:30
 draft: false
 summary: "Taking time off before my new job."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 My old college roommate and I still play this everyday and share scores with each other.

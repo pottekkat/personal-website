@@ -3,8 +3,6 @@ title: "#191 Open Source Summit Latin America"
 date: 2022-08-23T22:20:05+05:30
 draft: false
 summary: "I'm live!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I spoke at Open Source Latin America a couple of hours ago. It was fun, and I had a few questions during the talk and at the end. People seemed to like it.
