@@ -15,7 +15,7 @@ Wordle 226 5/6
 🟨⬛🟨🟨🟩\
 🟩🟩🟩🟩🟩
 
-It's been a month since I started _[Daily Logs](/categories/daily-dose-of-pottekkat/)_.
+It's been a month since I started _[Daily Logs](/dailies/)_.
 
 Writing everyday has helped me articulate my thoughts and build a habit.
 

@@ -66,4 +66,4 @@ My goal for the not so far future is to build products on my own and monetize th
 
 So, being a utility player should help me out.
 
-Five days into [writing daily](/categories/daily-dose-of-pottekkat/). I'm lovin it!
+Five days into [writing daily](/dailies/). I'm lovin it!
