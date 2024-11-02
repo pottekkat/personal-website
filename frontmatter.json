@@ -173,20 +173,6 @@
           "title": "Summary",
           "name": "summary",
           "type": "string"
-        },
-        {
-          "title": "Tags",
-          "name": "tags",
-          "type": "tags",
-          "default": [
-            "daily log"
-          ]
-        },
-        {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories",
-          "default": "Daily Dose of Pottekkat"
         }
       ]
     },
@@ -232,20 +218,6 @@
           "title": "Summary",
           "name": "summary",
           "type": "string"
-        },
-        {
-          "title": "Tags",
-          "name": "tags",
-          "type": "tags",
-          "default": [
-            "newsletter"
-          ]
-        },
-        {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories",
-          "default": "Newsletter"
         }
       ]
     }
