@@ -5,8 +5,6 @@ draft: false
 ShowToc: true
 TocOpen: true
 summary: "Rug pulls from big tech are inevitable."
-tags: ["newsletter"]
-categories: ["Newsletter"]
 ---
 
 Have you noticed that this is a link-only newsletter?

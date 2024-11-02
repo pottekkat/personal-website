@@ -5,8 +5,6 @@ draft: false
 ShowToc: true
 TocOpen: true
 summary: "Hello from ApacheCon EU!"
-tags: ["newsletter"]
-categories: ["Newsletter"]
 ---
 
 Hello from Abu Dhabi!

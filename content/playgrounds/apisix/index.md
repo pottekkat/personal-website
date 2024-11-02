@@ -7,8 +7,6 @@ experimental: true
 EnableCodapi: true
 CodapiURL: codapi.navendu.me/v1
 ShowCodeCopyButtons: false
-tags: ["playground", "apisix", "codapi"]
-categories: ["Playground"]
 cover:
   image: "/images/pl-apisix/apisix-logo-banner.jpg"
   alt: "Apache APISIX logo."

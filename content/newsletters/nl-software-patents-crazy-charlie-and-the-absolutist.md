@@ -5,8 +5,6 @@ draft: false
 ShowToc: true
 TocOpen: true
 summary: "Also, how do you accidentally run for President?"
-tags: ["newsletter"]
-categories: ["Newsletter"]
 ---
 
 I spent an absurd amount of time tweaking [my blog](https://navendu.me/) this weekend.

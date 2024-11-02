@@ -7,8 +7,6 @@ experimental: true
 EnableCodapi: true
 CodapiURL: codapi.navendu.me/v1
 ShowCodeCopyButtons: false
-tags: ["playground", "nginx", "codapi"]
-categories: ["Playground"]
 cover:
   image: "/images/pl-nginx/nginx-logo-banner.jpg"
   alt: "Nginx logo."
