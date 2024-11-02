@@ -1,8 +1,8 @@
 ---
 title: Making Code Examples Interactive with Codapi
 slug: adding-interactive-code-examples-codapi
-date: 2024-11-04T10:21:22+05:30
-draft: true
+date: 2024-11-04T10:01:22+05:30
+draft: false
 toc:
   show: true
   open: true
@@ -124,7 +124,7 @@ WORKDIR /sandbox
 
 The Dockerfile seems quite simple:
 
-1. First, it specifies the lightweight Alpine Linux (`alpine:3.18`) image as the base image.
+1. It specifies the lightweight Alpine Linux (`alpine:3.18`) image as the base image.
 2. Then, it creates a new user called `sandbox` (without a password) and sets its home directory to `/sandbox`.
 3. The last two lines set the default user to the newly created `sandbox` and the working directory to `/sandbox`. This ensures that commands are run as the isolated `sandbox` user rather than as root.
 
@@ -270,7 +270,7 @@ With the `codapi-snippet` element in place, all you have to do is add the JavaSc
 <script src="https://unpkg.com/@antonz/codapi@0.19.7/dist/settings.js"></script>
 ```
 
-The widget can also be [installed using npm](https://www.npmjs.com/package/@antonz/codapi). Optionally, you can include the default styles to make the interactive snippets less boring:
+The widget can also be [installed using npm](https://www.npmjs.com/package/@antonz/codapi). Optionally, you can include the default styles to make the controls less boring:
 
 ```html {title="interactive-blog-post.html"}
 <link
@@ -310,7 +310,7 @@ codapi-snippet codapi-toolbar button:after {
 }
 ```
 
-The widget works out of the box for most needs. But it offers many more customizations and features like [attaching to specific code blocks](#attach-to-a-specific-code-snippet), [using templates](#wrap-snippets-in-templates), [passing additional files](#pass-additional-files-with-snippets), and more.
+The widget works out of the box for most needs. But it offers many more customizations and features like [attaching to specific code blocks](#attaching-to-a-specific-code-snippet), [using templates](#reducing-boilerplates-with-templates), [passing additional files](#passing-additional-files), and more.
 
 ### Customizing the Widget
 
@@ -702,7 +702,7 @@ I did not write all these in one go and make it work on my first try. It took a 
 
 Codapi has a very simple feature that makes all this a bit easier. _Logs_. When you send a request to your Codapi server, you will be able to find logs that show exactly what `docker` commands are being run.
 
-For example, all of the configurations made in the APISIX sandbox show up in the `docker run` command executed by Codapi and can be seen in the logs:
+For example, all of the configurations made in the APISIX sandbox show up in the Docker commands executed by Codapi and can be seen in the logs:
 
 ```text
 2024/11/01 10:32:00 [run --rm --name apisix_run_3ce93d7a --runtime runc --cpus 1 --memory 256m --network bridge --pids-limit 128 --user sandbox --detach --volume /var/folders/_l/qylg3zld3f371dwzfgljl40h0000gn/T/3993507765:/sandbox:rw --cap-drop all --ulimit nofile=256 codapi/apisix docker-start]
@@ -727,6 +727,6 @@ docker stop apisix_run_3ce93d7a
 
 If you are facing issues or trying to debug your sandbox, try running these Docker commands without Codapi. Once it works without Codapi, you can migrate them to Codapi configurations.
 
-That's all for this rather lengthy but comprehensive tutorial on making your code examples interactive. You can use Codapi on your blogs and documentation or even create playgrounds for your tools and libraries.
+That's all for this rather lengthy but comprehensive tutorial on making your code examples interactive. You can use Codapi on your blogs and documentation or even create playgrounds for your tools and libraries. I have found it quite helpful when writing articles, and our users love trying things out in the playground.
 
 To go even further, check out [codapi.org](https://codapi.org).
