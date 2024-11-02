@@ -3,8 +3,6 @@ title: "#198 SideProjectCeption"
 date: 2022-08-31T21:30:59+05:30
 draft: false
 summary: "Finish side projects or start more side projects?"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Do you also face this issue where you start working on more side projects instead of completing the ones you already started?

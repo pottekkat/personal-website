@@ -3,8 +3,6 @@ title: '#24 Silicon Valley "Gets" Software Engineers'
 date: 2022-01-25T12:20:40+05:30
 draft: false
 summary: ""
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 My vocabulary of five letter words is improving—thanks to Wordle.

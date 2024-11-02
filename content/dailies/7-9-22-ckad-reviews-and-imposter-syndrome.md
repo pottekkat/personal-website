@@ -3,8 +3,6 @@ title: "#204 CKAD, Reviews, and Imposter Syndrome"
 date: 2022-09-07T21:58:39+05:30
 draft: false
 summary: "It is real."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I have been using my free time to prepare for the CKAD examination. Since my current focus at work is on ingress controllers, it works out very well.

@@ -3,8 +3,6 @@ title: "#87 Writing Plans"
 date: 2022-03-31T09:28:10+05:30
 draft: false
 summary: "Plans for writing."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Bad week on Wordle.

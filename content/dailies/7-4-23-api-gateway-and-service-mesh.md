@@ -3,8 +3,6 @@ title: "#256 API Gateway and Service Mesh"
 date: 2023-04-07T21:59:20+05:30
 draft: false
 summary: "How do I go about writing this article?"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I'm working on a new article comparing service mesh and API gateway technologies.

@@ -3,8 +3,6 @@ title: "#221 New Explorations"
 date: 2022-11-05T19:44:03+05:30
 draft: false
 summary: 'Writing a lot of new articles and exploring new "genres" for articles.'
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 My writing schedule seems to be working well.

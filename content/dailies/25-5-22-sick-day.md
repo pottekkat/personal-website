@@ -3,8 +3,6 @@ title: "#138 Sick Day"
 date: 2022-05-25T21:28:20+05:30
 draft: false
 summary: "In sickness and health 2.0."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I took a sick day from work today. Rested all morning and started to feel better by evening.

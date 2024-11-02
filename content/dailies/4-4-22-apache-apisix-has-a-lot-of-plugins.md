@@ -3,8 +3,6 @@ title: "#91 Apache APISIX Has a Lot of Plugins"
 date: 2022-04-04T22:28:08+05:30
 draft: false
 summary: "Doing a lot of work in rewriting the Apache APISIX documentation."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I don't want to "jinx it" by calling this streak.

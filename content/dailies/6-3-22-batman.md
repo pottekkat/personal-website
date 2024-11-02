@@ -3,8 +3,6 @@ title: "#62 Batman"
 date: 2022-03-06T10:27:55+05:30
 draft: false
 summary: "I got tickets to watch the new Batman movie today."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Just when I thought I had it in two.

@@ -3,8 +3,6 @@ title: "#161 Bike Ride"
 date: 2022-06-27T10:44:04+05:30
 draft: false
 summary: "Took my new motorcycle out for a ride."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Took my new motorcycle out for a ride today morning. It handles really well and I love it. Looking forward to more rides in this.

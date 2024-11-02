@@ -3,8 +3,6 @@ title: "#127 Prepping for a Talk"
 date: 2022-05-11T19:15:31+05:30
 draft: false
 summary: "Talking at a meetup after months!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I will be talking about "Contributing to Open Source 101" tomorrow!

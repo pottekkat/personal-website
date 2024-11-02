@@ -3,8 +3,6 @@ title: "#203 Going Wireless"
 date: 2022-09-05T23:27:16+05:30
 draft: false
 summary: "How fast did we go wireless?"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 It feels like yesterday when we all had wires on our devices. Now all of a sudden, people seem to have gone wireless.

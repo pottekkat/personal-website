@@ -3,8 +3,6 @@ title: "#286 Piastri's Maiden Win"
 date: 2024-07-22T20:13:50+05:30
 draft: false
 summary: "What did I just witness?"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I was out the other day and missed the Hungarian Grand Prix. But after waking up to all the Twitter drama about Max Verstappen just sending it out of nowhere and McLaren seeming to do everything in their power to make what should be their best season in a very long time difficult, I had no choice but to watch the whole race replay.

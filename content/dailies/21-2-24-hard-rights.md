@@ -3,8 +3,6 @@ title: "#277 Hard Rights"
 date: 2024-02-21T18:20:51+05:30
 draft: false
 summary: "Handbrake life turns are hard for many reasons."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I am surprised by how my thinking around pursuits, professions, and life goals evolved.

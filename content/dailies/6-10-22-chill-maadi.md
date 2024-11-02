@@ -3,8 +3,6 @@ title: "#213 Chill Maadi"
 date: 2022-10-06T22:15:14+05:30
 draft: false
 summary: "I'm back home for good. Bonus: Photos."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I'm finally back home after almost a month of travel. Traveling is fun but exhausting.

@@ -3,8 +3,6 @@ title: "#22 Personal Monopolies"
 date: 2022-01-23T12:35:35+05:30
 draft: false
 summary: ""
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I want to be _the only person that does what I do_.

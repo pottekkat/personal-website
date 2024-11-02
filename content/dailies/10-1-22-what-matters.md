@@ -3,8 +3,6 @@ title: "#11 What Matters"
 date: 2022-01-10T22:34:34+05:30
 draft: false
 summary: "But in the end, it doesn't even matter."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I'm taking time off work to shift my focus to finishing my Master's for the next one month.

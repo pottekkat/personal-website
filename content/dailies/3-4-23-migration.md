@@ -3,8 +3,6 @@ title: "#255 Migration"
 date: 2023-04-03T23:57:15+05:30
 draft: false
 summary: "New diagrams and a binge-worthy blog."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I'm in the process of migrating/redrawing diagrams in this blog from Mermaid.js to PNG diagrams from Canva.

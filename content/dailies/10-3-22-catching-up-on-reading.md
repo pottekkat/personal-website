@@ -3,8 +3,6 @@ title: "#66 Catching Up on Reading"
 date: 2022-03-10T17:42:27+05:30
 draft: false
 summary: "Lot of emails and articles to catch up on."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Too many stupid guesses.

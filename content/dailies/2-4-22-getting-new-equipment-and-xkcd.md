@@ -3,8 +3,6 @@ title: "#89 Getting New Equipment and XKCD"
 date: 2022-04-02T12:26:44+05:30
 draft: false
 summary: "I'm getting new equipment."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 😎

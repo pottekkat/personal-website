@@ -3,8 +3,6 @@ title: "#124 Football"
 date: 2022-05-08T20:35:31+05:30
 draft: false
 summary: "The American one."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I swear I did Wordle but didn't save the score.

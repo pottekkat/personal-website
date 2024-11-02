@@ -3,8 +3,6 @@ title: "#284 Nietzsche on a Long Drive"
 date: 2024-07-15T12:52:12+05:30
 draft: false
 summary: "Take me home, country roads."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 When I'm alone on a long drive, I almost always listen to podcasts or lectures I don't have time to listen to on regular days.

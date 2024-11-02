@@ -4,8 +4,6 @@ date: 2021-12-31T21:15:25+05:30
 draft: false
 ShowToc: false
 summary: "I will blog daily. Or at least I hope to."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 It's the last day of the year. It might as well be my first daily log.

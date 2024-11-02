@@ -3,8 +3,6 @@ title: "#56 Times Like These"
 date: 2022-02-28T18:57:16+05:30
 draft: false
 summary: "It's times like these time and time again."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 🇺🇦

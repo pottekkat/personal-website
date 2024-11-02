@@ -3,8 +3,6 @@ title: "#36 Not Knowing"
 date: 2022-02-07T20:20:20+05:30
 draft: false
 summary: "I know nothing."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 This should have taken at least a step less.

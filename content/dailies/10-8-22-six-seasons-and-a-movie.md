@@ -3,8 +3,6 @@ title: "#179 Six Seasons and a Movie"
 date: 2022-08-10T20:13:52+05:30
 draft: false
 summary: "Troy and Abed make a mooovie!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I forgot how great of a show Community was.

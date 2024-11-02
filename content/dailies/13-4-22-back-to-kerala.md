@@ -3,8 +3,6 @@ title: "#100 Back to Kerala"
 date: 2022-04-13T21:34:37+05:30
 draft: false
 summary: "100 days? That's awesome!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 It was very hard to go from three to four!

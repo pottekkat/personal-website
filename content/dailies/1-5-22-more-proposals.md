@@ -3,8 +3,6 @@ title: "#117 More Proposals"
 date: 2022-05-01T19:15:39+05:30
 draft: false
 summary: "More talk proposals at conferences. Bonus: Photos!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I don't know a lot of words.

@@ -3,8 +3,6 @@ title: "#234 What's the Best Beer?"
 date: 2023-01-10T23:32:14+05:30
 draft: false
 summary: "The boys are back together beer."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 The boys are back.

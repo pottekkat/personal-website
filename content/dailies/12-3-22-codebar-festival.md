@@ -3,8 +3,6 @@ title: "#68 Codebar Festival"
 date: 2022-03-12T14:31:23+05:30
 draft: false
 summary: "I'm speaking at the Codebar Festival today."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Wordle can't beat me today.

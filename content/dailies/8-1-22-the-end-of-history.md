@@ -3,8 +3,6 @@ title: "#9 The End of History"
 date: 2022-01-08T14:22:02+05:30
 draft: false
 summary: "People are unable to predict their personal changes. We see ourselves as finished products at any point of time. Is that the end of history?"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 People believe that they have experienced significant personal growth and changes in tastes up to the present moment but will not substantially grow or mature in the future.

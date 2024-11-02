@@ -3,8 +3,6 @@ title: "#194 Brain Drain, Personal Brand, Newsletter v2.0"
 date: 2022-08-26T22:14:59+05:30
 draft: false
 summary: "Supply and demand."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I live in my hometown, and I work remotely. I'm paid well by my Hong Kong-based company, and I live a comfortable life.

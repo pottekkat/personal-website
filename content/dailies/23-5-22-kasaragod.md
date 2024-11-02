@@ -3,8 +3,6 @@ title: "#136 Kasaragod"
 date: 2022-05-23T11:27:54+05:30
 draft: false
 summary: "Traveled to Kasaragod over the weekend. Bonus: Photos!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I went to Kasaragod to attend a marriage this weekend.

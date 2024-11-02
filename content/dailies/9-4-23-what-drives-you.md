@@ -3,8 +3,6 @@ title: "#258 What Drives You?"
 date: 2023-04-09T20:04:51+05:30
 draft: false
 summary: "Narrowing what drives me and my future plans."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I think it is so stupid that we have to figure out what we want to do when we are 18.

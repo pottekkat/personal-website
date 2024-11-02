@@ -3,8 +3,6 @@ title: "#237 Index and Chill"
 date: 2023-02-02T18:53:03+05:30
 draft: false
 summary: "No, I don't want to day trade and get rich."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I didn't have any idea of how finances worked. I think I still don't.

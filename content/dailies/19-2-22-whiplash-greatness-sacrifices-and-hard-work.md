@@ -3,8 +3,6 @@ title: "#47 Whiplash, Greatness, Sacrifices and Hard Work"
 date: 2022-02-19T15:25:26+05:30
 draft: false
 summary: "I re-watched the movie Whiplash today. It is one of my favorite movies of all time."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Thought I had it at 4. Getting it at 5 was easy as I tried every remaining letter and eventually it spelled something meaningful and I got all green lights.

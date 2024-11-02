@@ -3,8 +3,6 @@ title: "#116 Clever Subtitles"
 date: 2022-04-30T19:27:03+05:30
 draft: false
 summary: "Pachinko tells stories in subtitles and I submitted a couple of talk proposals."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 It was a lucky guess.

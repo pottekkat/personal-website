@@ -3,8 +3,6 @@ title: "#97 Hello Mumbai!"
 date: 2022-04-10T19:25:16+05:30
 draft: false
 summary: "Reached Mumbai today!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I'm Batman.

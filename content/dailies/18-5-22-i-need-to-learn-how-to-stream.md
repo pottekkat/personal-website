@@ -3,8 +3,6 @@ title: "#134 I Need to Learn How to Stream"
 date: 2022-05-18T22:07:05+05:30
 draft: false
 summary: "Streamin away!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I got away with Zoom recordings for virtual talks at conferences these last few years.

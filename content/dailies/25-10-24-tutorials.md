@@ -4,9 +4,6 @@ date: 2024-10-25T22:20:52+05:30
 draft: false
 summary: |
   Writing tutorials isn't always fun, but it is necessary and helpful.
-tags:
-  - daily log
-categories: Daily Dose of Pottekkat
 fmContentType: Daily
 ---
 

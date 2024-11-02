@@ -3,8 +3,6 @@ title: "#26 Day in the Life Of"
 date: 2022-01-27T16:55:11+05:30
 draft: false
 summary: "Nothing much. Just a daily update."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Boom!

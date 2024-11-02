@@ -3,8 +3,6 @@ title: "#231 Last Week Tonight"
 date: 2022-12-11T16:35:32+05:30
 draft: false
 summary: "A lot of stuff happened in the past week."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 It seems like I can only "write daily" on Sundays.

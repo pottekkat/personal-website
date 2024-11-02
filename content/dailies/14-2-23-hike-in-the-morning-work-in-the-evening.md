@@ -3,8 +3,6 @@ title: "#244 Hike in the Morning, Work in the Evening"
 date: 2023-02-14T17:45:39+08:00
 draft: false
 summary: "Hike at Windsor Nature Park and work at library@harbourfront."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I went for a long hike early this morning.

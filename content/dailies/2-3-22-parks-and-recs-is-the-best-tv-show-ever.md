@@ -3,8 +3,6 @@ title: "#58 Parks and Recs is the Best TV Show Ever"
 date: 2022-03-02T09:56:43+05:30
 draft: false
 summary: "Li'l Sebastian is probably the best minor character in the whole show."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 🇺🇦

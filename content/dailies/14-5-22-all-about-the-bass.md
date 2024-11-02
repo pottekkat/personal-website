@@ -3,8 +3,6 @@ title: "#130 All About the Bass"
 date: 2022-05-14T19:51:37+05:30
 draft: false
 summary: "Bought two set of strings for my bass."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 A little known fact about me is that I play bass—the electric bass guitar.

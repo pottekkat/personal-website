@@ -3,8 +3,6 @@ title: "#210 How Many Flights Is Too Many Flights?"
 date: 2022-09-23T22:03:56+05:30
 draft: false
 summary: "I was in too many airports this week. Bonus: Photos from COCON."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 It has been a busy and tiring week. I came back from Dublin on Tuesday and only came to my senses Wednesday evening. Then I prepared for my talk for Friday (today) and left Thursday afternoon again to reach the conference.

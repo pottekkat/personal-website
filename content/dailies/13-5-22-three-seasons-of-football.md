@@ -3,8 +3,6 @@ title: "#129 Three Seasons of Football"
 date: 2022-05-13T19:55:08+05:30
 draft: false
 summary: "Watched three seasons of Friday Night Lights without knowing anything about American football."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I just watched three seasons of Friday Night Lights without knowing anything about American football.

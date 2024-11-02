@@ -3,8 +3,6 @@ title: "#235 Traveling for Work"
 date: 2023-01-25T20:18:27+05:30
 draft: false
 summary: "Starting my travels for the year."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I have started my "work travels" for the year.

@@ -3,8 +3,6 @@ title: "#99 Visa Day and One Unmerged PR"
 date: 2022-04-12T21:23:32+05:30
 draft: false
 summary: "My three PRs from yesterday was merged. Only one remains."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 What is better than a flush?

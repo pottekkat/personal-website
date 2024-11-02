@@ -3,8 +3,6 @@ title: "#147 Vikram"
 date: 2022-06-03T21:56:47+05:30
 draft: false
 summary: 'Watched the new movie "Vikram" filled with a stellar cast.'
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I watched the new movie _Vikram_ starring Kamal Haasan, Fahad Fazil, Vijay Sethupathi, and other stars (no spoilers).

@@ -3,8 +3,6 @@ title: "#271 You Haven't Changed at All"
 date: 2023-08-22T19:14:37+05:30
 draft: false
 summary: 'Why do you always hear, "You haven''t changed at all!"?'
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I had this hypothesis that people say, "You haven't changed at all" when meeting after a long time because people behave differently around different people.

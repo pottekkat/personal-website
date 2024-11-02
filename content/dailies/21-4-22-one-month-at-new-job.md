@@ -3,8 +3,6 @@ title: "#108 One Month at New Job"
 date: 2022-04-21T19:29:38+05:30
 draft: false
 summary: "One month flew by! Made some significant contributions. Bonus: Photo from my friend's marriage!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I didn't play Wordle today and I broke my streak for the second time.

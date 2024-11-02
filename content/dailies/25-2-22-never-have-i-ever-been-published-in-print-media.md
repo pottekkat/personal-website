@@ -3,8 +3,6 @@ title: "#53 Never Have I Ever Been Published in Print Media"
 date: 2022-02-25T14:23:24+05:30
 draft: false
 summary: "My article is being published in a print magazine!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 🇺🇦

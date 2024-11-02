@@ -3,8 +3,6 @@ title: "#5 Word Embeddings and Swiss Army Knives"
 date: 2022-01-04T10:36:58+05:30
 draft: false
 summary: "What's cooler than representing words as real-valued vectors to capture its semantic meaning?"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 {{< blockquote author="Elon Musk" link="https://www.youtube.com/watch?v=ViOdlRzq3MY" title="When asked about SpaceX" >}}

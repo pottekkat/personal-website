@@ -3,8 +3,6 @@ title: "#131 Missing Kubecon"
 date: 2022-05-15T20:03:04+05:30
 draft: false
 summary: "I missed my first in-person KubeCon."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I had plans to go to KubeCon that was cancelled almost a month back. It didn't suck so much then but it is starting to suck now.

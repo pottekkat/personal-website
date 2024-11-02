@@ -3,8 +3,6 @@ title: "#46 Documentation is Key"
 date: 2022-02-18T18:19:39+05:30
 draft: false
 summary: "People can’t use what they don’t understand."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Too cool for par.

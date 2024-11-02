@@ -3,8 +3,6 @@ title: "#18 The Minimalist Presenter"
 date: 2022-01-19T19:51:26+05:30
 draft: false
 summary: ""
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 _It's Wednesday my dudes!_

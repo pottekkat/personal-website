@@ -3,8 +3,6 @@ title: "#223 The Internet as a Place to Rant"
 date: 2022-11-12T16:53:46+05:30
 draft: false
 summary: "And the people who will listen your rants."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 The internet is a place where you can talk about anything, and you will have an audience. This is far from my real life, where I can't just go to random people or friends/family and talk about sustaining open source projects.

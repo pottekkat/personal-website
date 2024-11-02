@@ -3,8 +3,6 @@ title: "#90 It Works!"
 date: 2022-04-03T13:21:36+05:30
 draft: false
 summary: "My USB hub setup seems to work. Waiting for my new microphone to arrive tomorrow. Plus, I read a lot about Singapore today."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I'm back in easy mode.

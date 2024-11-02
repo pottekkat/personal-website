@@ -3,8 +3,6 @@ title: '#216 The "To Be Read" Pile'
 date: 2022-10-19T20:58:26+05:30
 draft: false
 summary: "Catching up on my reading. I'm doing poorly."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I just finished reading all the open tabs on my email client. I have 38 tabs open on my browser.

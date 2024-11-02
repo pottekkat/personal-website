@@ -3,8 +3,6 @@ title: "#180 Moving to Netlify"
 date: 2022-08-11T19:13:00+05:30
 draft: false
 summary: "I moved my Hugo blog from GitHub pages to Netlify."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I was working on a new blog post. I wanted to publish it on my own blog first. But, it did not have a draft preview feature. I could set one up, but with my site being static, there are fewer options to receive feedback from reviewers.

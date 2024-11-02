@@ -3,8 +3,6 @@ title: "#196 Opinions About the Metaverse"
 date: 2022-08-29T11:33:40+05:30
 draft: false
 summary: "TLDR; I don't like it. Bonus: Pictures!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I have been listening to Mark Zuckerberg's conversation with Joe Rogan and sharing my opinions on Twitter. I'm almost halfway through it.

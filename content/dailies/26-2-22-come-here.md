@@ -3,8 +3,6 @@ title: "#54 Come Here"
 date: 2022-02-26T09:56:19+05:30
 draft: false
 summary: "Quick update and a song I like."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 🇺🇦

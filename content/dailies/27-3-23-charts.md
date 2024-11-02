@@ -3,8 +3,6 @@ title: "#251 Charts"
 date: 2023-03-27T23:32:46+05:30
 draft: false
 summary: "My new-found love for charts."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I was obsessed with building charts since I learned how to build them from structured data with code.

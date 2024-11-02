@@ -3,8 +3,6 @@ title: "#209 Dublin"
 date: 2022-09-17T20:05:47+01:00
 draft: false
 summary: "Traveling around the city and the outskirts: 36,738 steps in a day with four hours to go."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 {{< figure src="/images/17-9-22-dublin/abbey-court.jpeg#center" title="I loved staying at Abbey Court" caption="Dublin - 16th September 2022" link="/images/17-9-22-dublin/abbey-court.jpeg" target="_blank" class="align-center" >}}

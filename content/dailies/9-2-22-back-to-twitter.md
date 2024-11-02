@@ -3,8 +3,6 @@ title: "#38 Back to Twitter"
 date: 2022-02-09T12:37:48+05:30
 draft: false
 summary: "I'm back on Twitter!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Took a lot of tries to find the letters!

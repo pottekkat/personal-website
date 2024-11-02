@@ -3,8 +3,6 @@ title: "#14 The Psychology of Money"
 date: 2022-01-15T15:43:20+05:30
 draft: false
 summary: ""
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I finished reading "[The Psychology of Money](https://www.goodreads.com/book/show/41881472-the-psychology-of-money)" by Morgan Housel today.

@@ -3,8 +3,6 @@ title: "#252 Tweets"
 date: 2023-03-28T22:43:31+05:30
 draft: false
 summary: "Tweets."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Tweets of the day.

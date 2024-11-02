@@ -3,8 +3,6 @@ title: "#34 Winner Takes All"
 date: 2022-02-04T20:12:24+05:30
 draft: false
 summary: "The winner takes it all. It is a training algorithm for neural networks."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 It was a good guess today.

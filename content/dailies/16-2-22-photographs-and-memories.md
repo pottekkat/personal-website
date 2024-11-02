@@ -3,8 +3,6 @@ title: "#44 Photographs and Memories"
 date: 2022-02-16T22:59:40+05:30
 draft: false
 summary: "Looking at old photos is one of the greatest joys in life."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I missed a couple of days of Wordle but my streak hasn't been broken apparently.

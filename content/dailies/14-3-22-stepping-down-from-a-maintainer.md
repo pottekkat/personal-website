@@ -3,8 +3,6 @@ title: "#70 Stepping Down From a Maintainer"
 date: 2022-03-14T18:14:29+05:30
 draft: false
 summary: "I'm changing jobs and stepping down from a CNCF maintainer."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 What is _The Rock_ cooking?

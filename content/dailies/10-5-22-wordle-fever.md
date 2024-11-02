@@ -3,8 +3,6 @@ title: "#126 Wordle Fever"
 date: 2022-05-10T10:35:20+05:30
 draft: false
 summary: "Wordle no more."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 It's been some time since I shared my Wordle scores with my roommate. I think we are at a point where the game lost its charm.

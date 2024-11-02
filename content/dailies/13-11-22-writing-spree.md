@@ -3,8 +3,6 @@ title: "#224 Writing Spree"
 date: 2022-11-13T22:58:29+05:30
 draft: false
 summary: "Write. Rewrite. Edit. Re-edit."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I was working on a new article today. I have been trying to broaden the stuff I write about. This meant a lot of research and reading into topics I'm not an expert on.

@@ -3,8 +3,6 @@ title: "#81 In a User's Shoes"
 date: 2022-03-25T19:28:39+05:30
 draft: false
 summary: "Thinking from a user's perspective to make a project better."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Took too long. I'm loosing my knack.

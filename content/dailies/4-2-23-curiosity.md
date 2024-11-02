@@ -3,8 +3,6 @@ title: "#238 Curiosity"
 date: 2023-02-04T20:36:10+05:30
 draft: false
 summary: "Driven by curiosity."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I'm reading xkcd's [what if? 2](https://www.goodreads.com/en/book/show/60190659) right now, and what if? is a book I recommend to everyone.

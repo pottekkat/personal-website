@@ -3,8 +3,6 @@ title: "#114 WeCrashed"
 date: 2022-04-28T18:51:49+05:30
 draft: false
 summary: "I never knew the WeWork story until this week."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Phew!

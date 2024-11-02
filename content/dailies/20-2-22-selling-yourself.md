@@ -3,8 +3,6 @@ title: "#48 Selling Yourself"
 date: 2022-02-20T21:19:29+05:30
 draft: false
 summary: "Do you have an MBA?"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 How good was 2003?

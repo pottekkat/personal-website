@@ -3,8 +3,6 @@ title: "#120 Ownership"
 date: 2022-05-04T19:57:15+05:30
 draft: false
 summary: "Owning your work makes you more productive."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Some days, I play to just keep up with the streak.

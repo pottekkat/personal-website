@@ -3,8 +3,6 @@ title: "#105 Drive to Survive"
 date: 2022-04-18T19:26:57+05:30
 draft: false
 summary: "How fast is Lewis Hamilton?"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Wordle 303 4/6

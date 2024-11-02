@@ -3,8 +3,6 @@ title: "#19 COVID 19 Uncertainties"
 date: 2022-01-20T18:37:14+05:30
 draft: false
 summary: ""
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 The Coronavirus Omicron variant is hitting hard in India and I'm in its epicenter in Trivandrum.

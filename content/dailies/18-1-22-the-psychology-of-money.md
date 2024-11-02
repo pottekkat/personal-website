@@ -3,8 +3,6 @@ title: "#17 The Psychology of Money"
 date: 2022-01-18T19:53:18+05:30
 draft: false
 summary: 'I finished reading "The Psychology of Money".'
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 {{< blockquote author="Richard Feynman" link="https://en.wikiquote.org/wiki/Talk:Richard_Feynman#Imagine_how_much_harder_physics_would_be_if_electrons_had_feelings!" title="Speaking at a Caltech graduation ceremony" >}}

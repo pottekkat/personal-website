@@ -3,8 +3,6 @@ title: "#20 Always Having a Book to Read"
 date: 2022-01-21T07:28:34+05:30
 draft: false
 summary: "Always having a book to read helped me from falling down YouTube rabbit holes."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I always have a book to read. Even if I haven't read it in months, I am _technically still reading_ the book.
