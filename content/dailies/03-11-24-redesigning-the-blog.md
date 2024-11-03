@@ -1,8 +1,8 @@
 ---
 title: Redesigning the Blog
 date: 2024-11-03T18:51:12+05:30
-draft: true
-summary: ""
+draft: false
+summary: A week spent well. Sleep-deprived.
 fmContentType: Daily
 ---
 
