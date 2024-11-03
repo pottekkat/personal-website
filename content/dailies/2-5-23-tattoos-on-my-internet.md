@@ -3,8 +3,6 @@ title: "#264 Tattoos on My Internet"
 date: 2023-05-02T17:30:47+05:30
 draft: false
 summary: "Why am I at an airport again?"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 It has been a while. I was super busy traveling for work and personal reasons and couldn't find time to write this.

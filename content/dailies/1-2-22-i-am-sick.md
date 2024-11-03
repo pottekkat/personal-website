@@ -3,8 +3,6 @@ title: "#31 I'm Sick"
 date: 2022-02-01T09:33:10+05:30
 draft: false
 summary: "I am suddenly sick."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Aaaaaaaah!

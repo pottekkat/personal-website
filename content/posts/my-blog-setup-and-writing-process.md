@@ -7,10 +7,10 @@ summary: "I've been writing blogs for almost three years now. Recently, I've bee
 tags: ["blogs", "setup"]
 categories: ["Writing/Blogging"]
 cover:
-    image: "/images/my-blog-setup-and-writing-process/banner-typewriter.jpeg"
-    alt: "A photo of a typewriter."
-    caption: "Photo by [Caryn](https://www.pexels.com/photo/typewriter-keys-938165/)"
-    relative: false
+  image: "/images/my-blog-setup-and-writing-process/banner-typewriter.jpeg"
+  alt: "A photo of a typewriter."
+  caption: "Photo by [Caryn](https://www.pexels.com/photo/typewriter-keys-938165/)"
+  relative: false
 ---
 
 I've been writing blogs for almost three years now. Recently, I've been putting a lot of effort into building and maintaining my blog. This article documents my blog setup and my writing process from idea to publishing.
@@ -51,7 +51,7 @@ I've tried different open source CMS platforms, but none seem easy to migrate to
 
 But, to make my life easier, I use some tools and configurations.
 
-My site contains two types of posts; the [regular blog posts](/) shown on the homepage and [daily logs](/categories/daily-dose-of-pottekkat/). Each of these posts has a custom front matter. I have configured [archetypes](https://gohugo.io/content-management/archetypes/) to create new files with these front matters easily.
+My site contains two types of posts; the [regular blog posts](/) shown on the homepage and [daily logs](/dailies/). Each of these posts has a custom front matter. I have configured [archetypes](https://gohugo.io/content-management/archetypes/) to create new files with these front matters easily.
 
 This makes it easy to create new posts. A new file is created and configured; I just have to worry about the content.
 

@@ -3,8 +3,6 @@ title: "#229 A Day of Fast Bowling"
 date: 2022-11-27T20:40:44+05:30
 draft: false
 summary: "Don't play sports without training."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 The last time I played in a cricket tournament was in 2019. Even though I like playing, I haven't been able to in the past years.

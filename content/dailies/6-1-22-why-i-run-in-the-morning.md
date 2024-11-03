@@ -3,8 +3,6 @@ title: "#7 Why I Run in the Morning"
 date: 2022-01-06T19:49:10+05:30
 draft: false
 summary: "Doing hard things is hard. But you have to do it to be the best version of yourself. Everyday is a struggle but at the end of the day I'm happy I chose to do the hard things."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Running 8 km (~5 mi) is the first thing I do every morning.

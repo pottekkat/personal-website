@@ -3,8 +3,6 @@ title: "#170 Tour de Alappuzha"
 date: 2022-07-15T22:50:44+05:30
 draft: false
 summary: "Fun times in Alappuzha."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 {{< figure src="/images/15-7-22-tour-de-alappuzha/the-ride.jpeg#center" title="The ride" caption="Alappuzha - 15th July 2022" link="/images/15-7-22-tour-de-alappuzha/the-ride.jpeg" target="_blank" class="align-center" >}}

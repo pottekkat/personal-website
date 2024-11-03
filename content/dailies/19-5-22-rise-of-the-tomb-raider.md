@@ -3,8 +3,6 @@ title: "#135 Rise of the Tomb Raider"
 date: 2022-05-19T19:58:35+05:30
 draft: false
 summary: "I finished the first one. Moving on to the next."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 As I was writing this, a notification popped up on my screen saying that "Rise of the Tomb Raider" had finished downloading.

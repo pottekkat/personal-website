@@ -3,8 +3,6 @@ title: "#275 Constant External Stimulation"
 date: 2023-08-28T10:53:33+05:30
 draft: false
 summary: "Turning down the external noise to clear the noise inside."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I drove alone for six hours this weekend. I spent the whole time listening to David Perell's new podcast, [How I Write](https://youtube.com/playlist?list=PLFxhXLgGkVzKCn23_g8qM19DMDgco8eNJ&si=b6lA2HvhmREyxPFO).

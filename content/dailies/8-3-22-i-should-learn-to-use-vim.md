@@ -3,8 +3,6 @@ title: "#64 I Should Learn to Use Vim"
 date: 2022-03-08T10:36:22+05:30
 draft: false
 summary: "Vim or Emacs? Nano."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Wordle 262 3/6

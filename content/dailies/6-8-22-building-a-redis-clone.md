@@ -3,8 +3,6 @@ title: "#175 Building a Redis Clone"
 date: 2022-08-06T20:57:19+05:30
 draft: false
 summary: "I learn about Redis and build a Redis clone."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I built a Redis clone today following the tutorial from [codecrafters.io](https://codecrafters.io/).

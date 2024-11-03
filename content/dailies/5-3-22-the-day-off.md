@@ -3,8 +3,6 @@ title: "#61 The Day Off"
 date: 2022-03-05T10:17:45+05:30
 draft: false
 summary: "Chill."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I took the day off to read.

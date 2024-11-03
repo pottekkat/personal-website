@@ -3,8 +3,6 @@ title: "#121 Hard Work and Hustle"
 date: 2022-05-05T11:51:18+05:30
 draft: false
 summary: "Hardworking is undermined and not considered cool anymore. Don't cancel me."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 These American words.

@@ -5,8 +5,6 @@ draft: false
 ShowToc: true
 TocOpen: true
 summary: "Let's delve into this week's newsletter."
-tags: ["newsletter"]
-categories: ["Newsletter"]
 ---
 
 I’m back from my travels into a productive week at work.

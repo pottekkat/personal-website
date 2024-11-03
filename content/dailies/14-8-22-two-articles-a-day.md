@@ -3,8 +3,6 @@ title: "#183 Two Articles a Day"
 date: 2022-08-14T23:22:14+05:30
 draft: false
 summary: "Keeps socializing away."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I have been more active on my blog in the last four days than over the last four months combined.

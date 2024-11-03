@@ -3,8 +3,6 @@ title: "#3 Blocked by Blockchains"
 date: 2022-01-03T11:58:47+05:30
 draft: false
 summary: "Learning about Blockchain, Crypto and Web3."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I can't go a day without seeing "10 Free Resources to Learn Web3" Tweets on my feed.

@@ -3,8 +3,6 @@ title: "#45 Newsletter"
 date: 2022-02-17T17:29:09+05:30
 draft: false
 summary: "Launching my newsletter next week!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 No. No. Yes.

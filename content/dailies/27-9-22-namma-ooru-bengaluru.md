@@ -3,8 +3,6 @@ title: "#211 Namma Ooru Bengaluru"
 date: 2022-09-27T09:21:21+05:30
 draft: false
 summary: "I'm in Bangalore for the week. Bonus: Photos from Pune."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I'm in Bangalore for I don't know how long. It's going to be a conference week, a busy work week, a "meet friends I haven't seen for two years" week, cramped into one week.

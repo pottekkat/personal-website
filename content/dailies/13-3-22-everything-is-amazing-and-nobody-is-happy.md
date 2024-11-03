@@ -3,8 +3,6 @@ title: "#69 Everything Is Amazing and Nobody Is Happy"
 date: 2022-03-13T10:28:04+05:30
 draft: false
 summary: "Technological advancement makes our lives a lot easier. Or does it? Bonus: Photos from Meenkara Dam."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Concentration is key.

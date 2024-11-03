@@ -3,8 +3,6 @@ title: "#30 A Month in the Life Of"
 date: 2022-01-31T18:47:59+05:30
 draft: false
 summary: "It's been a month since I started writing daily logs."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I need to be more careful. I am turning on the hard mode from tomorrow.
@@ -17,7 +15,7 @@ Wordle 226 5/6
 🟨⬛🟨🟨🟩\
 🟩🟩🟩🟩🟩
 
-It's been a month since I started _[Daily Logs](/categories/daily-dose-of-pottekkat/)_.
+It's been a month since I started _[Daily Logs](/dailies/)_.
 
 Writing everyday has helped me articulate my thoughts and build a habit.
 

@@ -3,8 +3,6 @@ title: "#274 Open Access and Open Source"
 date: 2023-08-25T18:49:36+05:30
 draft: false
 summary: "Can the open access movement learn from open source?"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I have been thinking about the Open Access movement in scientific publishing recently. Basically, most scientific research, funded mostly by public money, is behind paywalls.

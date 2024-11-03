@@ -5,8 +5,6 @@ draft: false
 ShowToc: true
 TocOpen: true
 summary: "There's a lot to talk about."
-tags: ["newsletter"]
-categories: ["Newsletter"]
 ---
 
 Should I consume less content, or is there a lot happening? Either way, there's a lot to talk about.

@@ -5,8 +5,6 @@ draft: true
 ShowToc: true
 TocOpen: true
 summary: ""
-tags: ["newsletter"]
-categories: ["Newsletter"]
 ---
 
 ## What's Happening?

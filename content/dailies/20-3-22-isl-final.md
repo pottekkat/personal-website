@@ -3,8 +3,6 @@ title: "#76 ISL Final"
 date: 2022-03-20T11:01:17+05:30
 draft: false
 summary: "ISL final watch party! Bonus: Pictures from Malampuzha Dam."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I forgot to play Wordle today and I lost my 52 day streak.

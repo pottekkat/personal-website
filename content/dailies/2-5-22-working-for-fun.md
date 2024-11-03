@@ -3,8 +3,6 @@ title: "#118 Working for Fun"
 date: 2022-05-02T14:40:59+05:30
 draft: false
 summary: "A large percentage of your life should be filled with things you absolutely love to do."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Words are meaningless.

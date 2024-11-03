@@ -3,8 +3,6 @@ title: "#43 End of an Era"
 date: 2022-02-15T18:20:27+05:30
 draft: false
 summary: "Goodbye People. Bonus: Photos and videos that will make me cry in a couple of days."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I left my campus yesterday after being here on and off for two years.

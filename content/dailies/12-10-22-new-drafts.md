@@ -3,8 +3,6 @@ title: "#214 New Drafts"
 date: 2022-10-12T22:19:27+05:30
 draft: false
 summary: "New post on Kubernetes Gateway API coming soon."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Last week was a blast. I spent the weekend on my motorcycle and traveled close to 500 km.

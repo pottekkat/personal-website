@@ -3,8 +3,6 @@ title: "#144 Bullet"
 date: 2022-05-31T19:15:05+05:30
 draft: false
 summary: "My motorcycle is older than me."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I have a 95' Royal Enfield Bullet. It was in the shop till April, and now it's back good as new.

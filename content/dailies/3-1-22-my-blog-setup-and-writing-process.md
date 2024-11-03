@@ -3,8 +3,6 @@ title: "#4 My Blog Setup and Writing Process"
 date: 2022-01-03T16:02:01+05:30
 draft: false
 summary: "I recently started writing on my own website. Here's a look into my setup and the process I follow to write posts."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ShowToc: true
 TocOpen: true
 ---

@@ -3,8 +3,6 @@ title: "#103 Simple Saturday"
 date: 2022-04-16T19:57:01+05:30
 draft: false
 summary: "Taking it slow. Photos!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Wordle 301 3/6

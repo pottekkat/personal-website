@@ -3,8 +3,6 @@ title: "#220 Buying Raspberry Pis"
 date: 2022-11-03T18:55:00+05:30
 draft: false
 summary: "The lack of availability of Raspberry Pis could be a case study for the global supply chain problem."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 After at least half a year of searching, I finally have my hands on a [Raspberry Pi Computer Module 4](https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000).

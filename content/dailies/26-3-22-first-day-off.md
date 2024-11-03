@@ -3,8 +3,6 @@ title: "#82 First Day Off"
 date: 2022-03-26T08:30:39+05:30
 draft: false
 summary: "First day off since I started my new job."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I still send my scores to my old grad school roommate.

@@ -3,8 +3,6 @@ title: "#92 A Lot Happened Today"
 date: 2022-04-05T17:47:01+05:30
 draft: false
 summary: "I'm going to KubeCon, my microphone arrived, I went to a film festival and I need to get a visa."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Too big of a day to care about my Wordle score.

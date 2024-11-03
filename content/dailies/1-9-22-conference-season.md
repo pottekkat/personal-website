@@ -3,8 +3,6 @@ title: "#199 Conference Season"
 date: 2022-09-01T22:03:45+05:30
 draft: false
 summary: "Is it September already?"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 It's September, and Hacktoberfest folks are already out. Let's go for a spam free 22.

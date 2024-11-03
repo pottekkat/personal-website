@@ -3,8 +3,6 @@ title: "#113 Look What I Bought"
 date: 2022-04-27T19:22:58+05:30
 draft: false
 summary: "Cool new shizz!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Wordle 312 5/6

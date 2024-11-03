@@ -3,8 +3,6 @@ title: "#172 Tour De Veezhumala"
 date: 2022-07-22T22:39:39+05:30
 draft: false
 summary: "Intense trek to reach the top of Veezhumala."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 {{< figure src="/images/22-7-22-tour-de-veezhumala/people.jpeg#center" title="People" caption="Veezhumala - 22nd July 2022" link="/images/22-7-22-tour-de-veezhumala/people.jpeg" target="_blank" class="align-center" >}}

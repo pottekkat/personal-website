@@ -3,8 +3,6 @@ title: "#262 FOSSASIA Summit Day 3"
 date: 2023-04-15T13:57:37+08:00
 draft: false
 summary: "I gave my talk today!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I had to get up early to make it to my talk. Remind me to schedule my talks before the conference party next time!

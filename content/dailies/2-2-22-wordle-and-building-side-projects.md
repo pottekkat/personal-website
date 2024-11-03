@@ -3,8 +3,6 @@ title: "#32 Wordle and Building Side Projects"
 date: 2022-02-02T16:33:05+05:30
 draft: false
 summary: "Wordle and what I'm doing about my side projects."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Oh yea!

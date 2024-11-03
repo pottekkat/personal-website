@@ -3,8 +3,6 @@ title: "#6 Right Arm Over the Wicket or Why I use my Own Platform to Write"
 date: 2022-01-05T13:08:11+05:30
 draft: false
 summary: "I used to write on blogging platforms like Medium and DEV.to. I stopped using them and started writing on my own blog recently. Here, I explore why I chose to do that and make bold predictions on the outcome of a cricket match."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 [India is playing South Africa](https://www.google.com/search?q=ind+vs+sa) and I'm really excited for day four. It may seem one sided now and an easy win for the Proteas but the scores don't tell the whole story.

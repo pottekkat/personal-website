@@ -3,8 +3,6 @@ title: "#272 People Are Awesome"
 date: 2023-08-23T17:48:49+05:30
 draft: false
 summary: "ISRO just landed a spacecraft on the frickin moon."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 What a great day to be alive and witness ISRO landing Chandrayaan-3 on the moon. Seeing the joy and sense of achievement of the scientists behind the project was something. I hope this inspires a new generation of engineers, scientists, and spacefarers. _People are awesome._

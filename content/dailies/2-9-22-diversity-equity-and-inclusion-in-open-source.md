@@ -3,8 +3,6 @@ title: "#200 Diversity, Equity, and Inclusion in Open Source"
 date: 2022-09-02T20:41:24+05:30
 draft: false
 summary: '"I can''t believe I''ve been writing this for 200 days", preparing for conferences, and reading through Linux Foundation''s DEI report.'
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 200 daily logs. That's a lot of words.

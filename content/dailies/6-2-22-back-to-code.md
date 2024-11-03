@@ -3,8 +3,6 @@ title: "#35 Back to Code"
 date: 2022-02-06T19:53:39+05:30
 draft: false
 summary: "I go back to writing code."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Got there eventually.

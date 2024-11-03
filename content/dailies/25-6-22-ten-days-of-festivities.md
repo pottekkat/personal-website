@@ -3,8 +3,6 @@ title: "#159 Ten Days of Festivities"
 date: 2022-06-25T18:39:13+05:30
 draft: false
 summary: "It's been a long week, without you my friend. Bonus: Photos from PIFF 2022!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Whew!

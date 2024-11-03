@@ -3,8 +3,6 @@ title: "#77 Day 1 at New Job"
 date: 2022-03-21T11:20:33+05:30
 draft: false
 summary: "I start at API7.ai today!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I still can't believe [I missed Wordle yesterday](../20-3-22-isl-final).

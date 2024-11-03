@@ -3,8 +3,6 @@ title: "#184 Kubernetes Refresher"
 date: 2022-08-15T19:38:38+05:30
 draft: false
 summary: "Spent the day refreshing my Kubernetes knowledge."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I have been using Kubernetes since 2020. I built tooling around Kubernetes last year but lost my touch coming into 2022.

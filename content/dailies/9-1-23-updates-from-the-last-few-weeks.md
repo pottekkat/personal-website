@@ -3,8 +3,6 @@ title: "#233 Updates From the Last Few Weeks"
 date: 2023-01-09T10:47:42+05:30
 draft: false
 summary: "It's a new year!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I started writing these on 31st December 2021. As the year progressed, I managed to decline my consistency.

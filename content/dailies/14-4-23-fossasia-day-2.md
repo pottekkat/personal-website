@@ -3,8 +3,6 @@ title: "#261 FOSSASIA Summit Day 2"
 date: 2023-04-14T16:37:47+08:00
 draft: false
 summary: "Day two means party time!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Day two had a lot of interesting talks.

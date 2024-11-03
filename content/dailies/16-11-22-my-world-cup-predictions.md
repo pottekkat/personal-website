@@ -3,8 +3,6 @@ title: "#226 My World Cup Predictions"
 date: 2022-11-16T13:09:35+05:30
 draft: false
 summary: "Based more on personal preferences than data. Let's see how this turns out."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I had time to kill, so I made my predictions for the FIFA World Cup.

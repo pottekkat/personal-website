@@ -3,8 +3,6 @@ title: "#141 I Learned OBS"
 date: 2022-05-28T19:42:26+05:30
 draft: false
 summary: "After all this time, I learn to work with OBS. It is really amazing and I'm disappointed I didn't use it earlier."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 After hearing about it for the last two years, I finally started using [Open Broadcaster Software](https://obsproject.com/) (OBS).

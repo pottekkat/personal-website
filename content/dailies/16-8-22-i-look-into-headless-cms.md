@@ -3,8 +3,6 @@ title: "#185 I Look Into Headless CMS"
 date: 2022-08-16T23:28:40+05:30
 draft: false
 summary: "I failed miserably."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I stumbled across headless CMS today. Seeing that some of the products had generous free tiers, I decided to try them out.

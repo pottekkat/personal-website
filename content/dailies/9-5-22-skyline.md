@@ -3,8 +3,6 @@ title: "#125 Skyline"
 date: 2022-05-09T17:22:36+05:30
 draft: false
 summary: "3D print reveal. Bonus: Photos!"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Too sunny!

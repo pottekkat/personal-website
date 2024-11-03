@@ -3,8 +3,6 @@ title: "#123 Strange"
 date: 2022-05-07T23:46:34+05:30
 draft: false
 summary: "Watched the new Dr. Strange movie."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Another day, another missed Wordle.

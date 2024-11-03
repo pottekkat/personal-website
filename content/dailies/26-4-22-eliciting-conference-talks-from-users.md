@@ -3,8 +3,6 @@ title: "#112 Eliciting Conference Talks From Users"
 date: 2022-04-26T21:53:21+05:30
 draft: false
 summary: "What should I talk about next?"
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Bella ciao!

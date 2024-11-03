@@ -3,8 +3,6 @@ title: "#279 Airplane Logs (FOSSASIA Summit 2024)"
 date: 2024-04-11T20:33:16+07:00
 draft: false
 summary: "Hello from the sky above Indian ocean."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Hello from the sky!

@@ -3,8 +3,6 @@ title: "#74 Transitioning"
 date: 2022-03-18T17:56:22+05:30
 draft: false
 summary: "Transitioning into the new job and watching Pada."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Wordle 272 3/6

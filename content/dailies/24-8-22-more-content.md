@@ -3,8 +3,6 @@ title: "#192 More Content"
 date: 2022-08-24T19:41:18+05:30
 draft: false
 summary: "Upping my content game."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I invested in some tools to level up my content on the internet.

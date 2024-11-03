@@ -3,8 +3,6 @@ title: "#119 New Projects"
 date: 2022-05-03T19:47:47+05:30
 draft: false
 summary: "Starting some new projects."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Fifth month of this and it is still exciting.

@@ -3,8 +3,6 @@ title: "#132 Norwegian Wood"
 date: 2022-05-16T22:43:17+05:30
 draft: false
 summary: "Rainy days calls for nostalgia."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Back in 2020, when COVID-19 had just started, I used to read Murakami's novels on cold, gloomy, rainy days.

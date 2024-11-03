@@ -3,8 +3,6 @@ title: "#285 Ideas That Stick"
 date: 2024-07-18T17:31:57+05:30
 draft: false
 summary: "You are not you when you are hungry."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I was listening to the [How I Write podcast episode with David Perell and Harry Dry](https://youtu.be/TUMjnmfsPeM?si=fFp3CwyI8SRRWW85), the great copywriter.

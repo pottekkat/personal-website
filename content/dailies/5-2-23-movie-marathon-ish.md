@@ -3,8 +3,6 @@ title: "#239 Movie Marathon-ish"
 date: 2023-02-05T22:01:46+05:30
 draft: false
 summary: "Watched two movies today."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I went to watch Nanpakal Nerathu Mayakkam and Romancham today. A day well spent.

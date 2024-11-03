@@ -3,8 +3,6 @@ title: "#40 What Up Beaches?"
 date: 2022-02-11T13:39:16+05:30
 draft: false
 summary: "Hitting beaches today with the gang."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 They moved Wordle to the NY Times website. I did today's in four tries but when I went to share the results, the platform was already changed and it did not have my today's play.

@@ -3,8 +3,6 @@ title: "#83 Sunday Funday"
 date: 2022-03-27T17:47:47+05:30
 draft: false
 summary: "Attended an event just to eat good Biriyani today."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Tough one today.

@@ -3,8 +3,6 @@ title: "#287 London is Londoning"
 date: 2024-09-23T17:38:51+05:30
 draft: false
 summary: "Highlights from my recent London trip."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I don't know how else to put it, but _London is Londoning_. The city looks precisely as painted in books and movies. It gave me a sense of familiarity even though it was my first visit.

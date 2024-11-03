@@ -3,8 +3,6 @@ title: "#149 Environment Day"
 date: 2022-06-05T21:05:32+05:30
 draft: false
 summary: "Living in a small town has its own set of perks."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Living in a small town has its own set of perks.

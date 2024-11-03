@@ -3,8 +3,6 @@ title: "#182 Diagrams in My New Blog"
 date: 2022-08-13T22:00:32+05:30
 draft: false
 summary: "My new blog post will have diagrams. So, I added markdown to diagrams using Mermaid.js."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I spent my Saturday working on my new blog post. It's work-related, and I want to publish it on my blog.

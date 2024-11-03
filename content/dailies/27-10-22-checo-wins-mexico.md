@@ -3,8 +3,6 @@ title: "#219 Checo Wins Mexico"
 date: 2022-10-27T21:53:33+05:30
 draft: false
 summary: "Mexico GP weekend is here and everyone wants Checo to win."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 It is race weekend in Mexico, and we all want Checo Perez to win.

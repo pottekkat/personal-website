@@ -3,8 +3,6 @@ title: "#28 DevConf.CZ"
 date: 2022-01-29T08:34:43+05:30
 draft: false
 summary: "Highlights from conference day."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 Boom! Boom! Boom!

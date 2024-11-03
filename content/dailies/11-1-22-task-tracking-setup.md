@@ -3,8 +3,6 @@ title: "#12 Task Tracking Setup"
 date: 2022-01-11T22:46:42+05:30
 draft: false
 summary: ""
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 A couple of months ago, my system to track tasks broke down.

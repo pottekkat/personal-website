@@ -3,8 +3,6 @@ title: "#266 KCD Mumbai"
 date: 2023-06-17T15:30:51+05:30
 draft: false
 summary: "I'm at Kubernetes Community Days Mumbai to talk about the Gateway API."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I'm back in Mumbai for Kubernetes Community Days.

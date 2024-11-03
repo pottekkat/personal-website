@@ -3,8 +3,6 @@ title: "#178 Recording a Talk"
 date: 2022-08-09T20:04:36+05:30
 draft: false
 summary: "I forgot to set the stopwatch and I spoke for 37 minutes."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I have been known to not get off the stage during conferences.

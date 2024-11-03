@@ -3,8 +3,6 @@ title: "#137 In Sickness and Health"
 date: 2022-05-24T18:18:54+05:30
 draft: false
 summary: "Sick today."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 I was sick today after a long time.

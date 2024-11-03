@@ -12,6 +12,6 @@ Welcome to my daily logs! Here are a few notes (warnings) before you scroll down
 3. These are raw and unedited. I might say stuff and then evolve out of it in a year. The past me is not the present me; the present me is not the future me.
 4. Don't read these.
 5. Please don't read these.
-6. If you ignored the last two warnings, you better [subscribe to this via RSS](/categories/daily-dose-of-pottekkat/index.xml).
+6. If you ignored the last two warnings, you better [subscribe to this via RSS](/dailies/index.xml).
 
 On a positive note, there are photos in some of these!

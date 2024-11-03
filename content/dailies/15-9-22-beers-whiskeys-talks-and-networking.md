@@ -3,8 +3,6 @@ title: "#208 Beers, Whiskeys, Talks, and Networking"
 date: 2022-09-15T16:46:50+01:00
 draft: false
 summary: "Photos from the past days in Dublin."
-tags: ["daily log"]
-categories: ["Daily Dose of Pottekkat"]
 ---
 
 {{< figure src="/images/15-9-22-beers-whiskeys-talks-and-networking/guinness-storehouse.jpeg#center" title="First thing to do in Ireland" caption="Guinness Storehouse, Dublin - 13th September 2022" link="/images/15-9-22-beers-whiskeys-talks-and-networking/guinness-storehouse.jpeg" target="_blank" class="align-center" >}}
