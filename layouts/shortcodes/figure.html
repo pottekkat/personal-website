@@ -2,10 +2,10 @@
            {{- if eq (.Get "align") "center" }}align-center {{ end }}
            {{- with .Get "class" }}{{ . }}{{- end }}"
 {{- end -}}>
+    <div class="image-border">
     {{- if .Get "link" -}}
         <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
     {{- end }}
-    <div class="image-border">
     <img loading="lazy" src="{{ .Get "src" }}{{- if eq (.Get "align") "center" }}#center{{- end }}"
          {{- if or (.Get "alt") (.Get "title") }}
          alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "title" | markdownify| plainify }}{{ end }}"

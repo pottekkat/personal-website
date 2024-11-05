@@ -256,6 +256,7 @@
 }
 
 .post-content figure .image-border {
+    display: inline-block;
     border-radius: 0;
     border: 1px solid var(--code-bg);
     margin: 1rem auto; /* 1rem vertical margin, mostly 0 horizontal margin */
