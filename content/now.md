@@ -9,22 +9,22 @@ Here's what I'm doing now.
 
 ## Travels
 
-I will be at these events in the following months. Say hi!
+I used to travel a lot. But now, I'm back home in Kerala for the foreseeable future.
 
-| Event                                                 | Location             | Date                    |
-| ----------------------------------------------------- | -------------------- | ----------------------- |
-| [ApacheCon EU](https://eu.communityovercode.org)      | Bratislava, Slovakia | 3-5 June                |
-| [COSCUP](https://coscup.org/)                         | Taipei, Taiwan       | 3, 4 August             |
-| [UbuCon Asia](https://events.canonical.com/event/47/) | Jaipur, Rajasthan    | 31 August-2 September   |
-| [apidays London](https://www.apidays.global/london)   | London, England      | 16-23 September         |
+~~I will be at these events in the following months. Say hi!~~
+
+| Event                                                     | Location                 | Date                      |
+| --------------------------------------------------------- | ------------------------ | ------------------------- |
+| ~~[ApacheCon EU](https://eu.communityovercode.org)~~      | ~~Bratislava, Slovakia~~ | ~~3-5 June~~              |
+| ~~[COSCUP](https://coscup.org/)~~                         | ~~Taipei, Taiwan~~       | ~~3, 4 August~~           |
+| ~~[UbuCon Asia](https://events.canonical.com/event/47/)~~ | ~~Jaipur, Rajasthan~~    | ~~31 August-2 September~~ |
+| ~~[apidays London](https://www.apidays.global/london)~~   | ~~London, England~~      | ~~16-23 September~~       |
 
 ## Full-Time Job
 
-I work full-time at [API7.ai](https://api7.ai/), where I help build [Apache APISIX](https://apisix.apache.org/).
+I recently left my job to pursue my more amateur interests. It's still novel, so I don't really know how to put labels on the things that I do now (or whether I should).
 
-Apache APISIX is an open source, high-performance, cloud native API gateway.
-
-I work to ensure that APISIX's users have the best experience using APISIX. I also travel a lot to talk to more people about APISIX.
+But previously, I worked on open source projects in the cloud native space. I have traveled a lot to speak at conferences and meet our customers.
 
 ## Blog and Newsletter
 
