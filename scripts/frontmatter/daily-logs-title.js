@@ -9,7 +9,8 @@ import * as fs from "fs";
     return;
   }
 
-  const logNumber = fs.readdirSync("./content/dailies").length
+  // add 1 to offset the index file
+  const logNumber = fs.readdirSync("./content/dailies").length + 1;
 
   FieldAction.update("#" + logNumber + " " + frontMatter.title);
 })();
