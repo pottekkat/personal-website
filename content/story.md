@@ -6,7 +6,7 @@ description: "Navendu's story."
 ---
 
 {{< blockquote author="J.K. Rowling" link="https://www.shmoop.com/quotes/it-is-our-choices-that-show-what-we-truly-are.html" title="Harry Potter and the Chamber of Secrets" >}}
-  It is our choices, Harry, that show what we truly are, far more than our abilities.
+It is our choices, Harry, that show what we truly are, far more than our abilities.
 {{< /blockquote >}}
 
 I am Navendu Pottekkat. I am from [Chittur](https://goo.gl/maps/5AhUrxvBZMiFrbYB6), a small town in South India.
@@ -22,7 +22,7 @@ At this point, I wanted to be an electrical engineer. I spent most of my time bu
 Suddenly, I was using my programming knowledge to build electronic projects. I felt like I had opened a new door in my life. I remember thinking, this is what I want to do for the rest of my life.
 
 > At a point in high school, I wanted to join the military. I cleared the [National Defence Academy](https://www.nda.nic.in/) exams on my first try, worked out everyday and appeared before the Service Selection Board.
-> 
+>
 > But by the time I appeared for the SSB, I realized I was impulsive (I was 17) and didn’t really want to join the military ([American Sniper](https://www.imdb.com/title/tt2179136/) influenced me, I guess). Long story short, it was a great experience, and I returned after failing the last round of the selection procedure.
 
 So, I’m out of school with a clear idea that I want to be an electrical and electronics engineer. I appeared for the state entrance exams, which I did well. I got into the College of Engineering Chengannur ([oh pistha!](https://www.facebook.com/100000500930027/videos/2595263980500274/)) to study Electrical and Electronics Engineering. I moved out to my college in [Alappuzha](https://www.google.com/search?q=alappuzha&sxsrf=AOaemvL-vjVXguyMDg1VX_fiORigu4p7tA:1637144237369&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjA9drFlZ_0AhWsxzgGHWICBggQ_AUoAnoECAEQBA&biw=1279&bih=884&dpr=1), and life changed.
@@ -47,8 +47,8 @@ And once the storm is over you won't remember how you made it through, how you m
 
 Once we learned about the situation, a team of students along with the fire and rescue department started rescue missions across the affected areas in Chengannur, after which our college became the [first rescue camp in Chengannur](https://www.thequint.com/videos/kerala-floods-chengannur-rebuilding#read-more) before help arrived. In a couple of days, the [National Disaster Response Force (NDRF)](https://en.wikipedia.org/wiki/National_Disaster_Response_Force) and the [fishermen](https://indianexpress.com/article/india/kerala-floods-fishermen-relief-rescue-operation-5317511/) landed in Chengannur. They took over the rescue mission, and we turned to run the rescue camps.
 
-> These were one of the most challenging days I had to go through. There were days without sleep, without food (we were serving food to thousands of people in multiple camps across Chengannur, and with the roads blocked by the flood, there weren’t a lot of food coming in), and without morale. 
-> 
+> These were one of the most challenging days I had to go through. There were days without sleep, without food (we were serving food to thousands of people in multiple camps across Chengannur, and with the roads blocked by the flood, there weren’t a lot of food coming in), and without morale.
+>
 > I came out of this experience a different person.
 
 As human beings, it is in our nature to fight back and stay strong together. [Onam](https://en.wikipedia.org/wiki/Onam), the festival of Kerala celebrating the homecoming of the legendary king [Mahabali](https://en.wikipedia.org/wiki/Mahabali) was more meaningful that year. Amidst all the chaos, people came together and celebrated the festival.
@@ -89,7 +89,7 @@ It was a great experience, and after my internship, I was nominated to be a proj
 
 I went on to maintain [Meshery](https://meshery.io/) and [Service Mesh Performance](https://smp-spec.io/), which have been donated to the [Cloud Native Computing Foundation](https://www.cncf.io/). I worked full-time on these open-source projects.
 
-Now I work on [Apache APISIX](https://apisix.apache.org/) full-time, helping steward the project and increase adoption.
+~~Now I work on [Apache APISIX](https://apisix.apache.org/) full-time, helping steward the project and increase adoption.~~ I no longer work here full-time.
 
 99% of the code I write is [open-source and free](https://github.com/pottekkat).
 
@@ -107,5 +107,6 @@ Thank you for reading. I am generally not an “open book”. I don’t know why
 
 _May the source be with you,_
 
-{{< figure src="/logo.png" height="25px" >}}
-
+{{< rawhtml >}}
+<img src="/logo.png" height="20px" alt="logo/signature">
+{{< /rawhtml >}}
