@@ -10,11 +10,15 @@ Welcome to "The Open Source Absolutist."
 
 ## About This Blog
 
-This blog is a window into my world as an open source maintainer and an amateur policy analyst.
+A justifiable definition of this blog would be "a sliding window into my obsessions." And I have _a lot_ of obsessions.
 
-I write about a [wide range of topics](/categories/), from in-depth [tutorials for projects](/tags/apache-apisix/) that keep me up at night to the [goals in life](/tags/life/) that keep me inspired.
+At present, these obsessions and the contents of the blog include but are not limited to the following:
 
-I also try to [write daily](/dailies/), but fair warning: I don't stop to edit these.
+1. Building sustainable [open source](/categories/open-source/) projects and communities.
+2. Advocating for [better policies](/categories/public-policy/), especially the ones surrounding the use of technology.
+3. Navigating life as [twentysomethings](/categories/life/), exploring roads less taken.
+
+This blog also contains [tutorials for open source projects](/tags/apache-apisix/), [unedited daily ramblings](/dailies/), and an [occasional newsletter](/newsletters/).
 
 Unless mentioned otherwise, all material in this blog is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0), and the [source code](https://github.com/pottekkat/personal-website) of this website is available under the [MIT license](https://github.com/pottekkat/personal-website/blob/hugo/LICENSE).
 
@@ -26,9 +30,15 @@ I use [analytics](/stats/) to help me learn and improve my future articles. This
 
 ## About Me
 
-I work full-time in maintaining [Apache APISIX](https://github.com/apache/apisix). Formerly, I maintained two [CNCF](https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation) projects.
+Quick links: [featured posts](/categories/featured/), [talks](https://youtube.com/playlist?list=PLUVkO7d15olRgs1rU6scvszk0DB5HxKdu), [what am I doing now?](/now/)
 
-I work primarily on cloud native/Kubernetes, API gateways, and service meshes. I [write](/categories/featured/) and occasionally give [talks](https://youtube.com/playlist?list=PLUVkO7d15olRgs1rU6scvszk0DB5HxKdu) ([what am I doing now?](/now/)).
+It's hard to compress yourself into a couple of sentences. You should try.
+
+Since this blog is called "The Open Source Absolutist," it wouldn't be surprising to learn that I'm indeed an open source absolutist. Most, if not all, of the code I write, have written, and will write is, was, and will be open source. I'm also an advocate for open education, research, healthcare, markets, and governance.
+
+I [actively maintain](https://github.com/pottekkat) open source projects, including projects hosted by the Apache Software Foundation and the Cloud Native Computing Foundation. At present, my primary focus is on sustainable open source.
+
+I'm also learning about economics and public policy and using my background in engineering to advocate for better policies, especially policies surrounding technology. I'm an amateur at best, and that's okay because the word "amateur" comes from the Latin amare, which means "to love."
 
 _The chart below shows how much I work on this blog. See more [/stats](/stats/)._
 
@@ -114,11 +124,13 @@ const endDate = data[data.length - 1][0];
 .catch((error) => console.error("Failed to load commit data:", error));
 {{< /echarts >}}
 
-The lines between my work and personal life are blurry, but outside of this, I enjoy reading, playing my bass, and riding my motorcycles. If you want to know more about me, here's [my story](/story/).
+I spent most of my adult life trying different things. I have built embedded systems for nuclear reactors, installed solar panels on homes across central Kerala, maintained personal and commercial open source software, traveled to different countries, met countless people, and slept at airports (Changi airport is my favorite). I want to try more.
+
+Outside of this, I enjoy reading, playing my bass, and riding my motorcycles. If you want to know more about me, here's [my story](/story/).
 
 ### Travel
 
-I have been traveling a lot for work and pleasure lately. The only reason I haven't traveled more in the last few years is because my passport sucks. It takes a lot of effort to apply for a visa, and I'm under a lot of stress after I submit my visa application, waiting to know if I can travel.
+The only reason I haven't traveled more in the last few years is because my passport sucks. It takes a lot of effort to apply for a visa, and I'm under a lot of stress after I submit my visa application, waiting to know if I can travel.
 
 My European, American, and Singaporean friends have relentlessly heard me rant about this. I don't plan to stop because it is the most limiting thing in the modern world and probably one of the only reasons I envy people in rich countries with better passports.
 
