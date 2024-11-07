@@ -37,7 +37,7 @@ related:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: "Navendu Pottekkat"
-    description: "\"The Open Source Absolutist\" is Navendu Pottekkat's personal blog, where he writes about his work and life as an open source contributor/maintainer."
+    description: "\"The Open Source Absolutist\" is Navendu Pottekkat's personal blog, where he mostly writes about his work and life as an open source contributor/maintainer and an amateur policy analyst."
     keywords: ["navendu pottekkat", "personal blog", "the open source absolutist"]
     author: "Navendu Pottekkat"
     DateFormat: "January 2, 2006"
@@ -88,8 +88,8 @@ params:
     homeInfoParams:
         Title: "The Open Source Absolutist"
         Content:
-          Intro: I’m Navendu and welcome to "The Open Source Absolutist," aka my brain dump.
-          About: I write about my work and life as an open source contributor/maintainer and an amateur [policy analyst](/categories/public-policy/) ([what am I doing now?](/now/)).
+          Intro: I’m Navendu, and welcome to "The Open Source Absolutist," aka my brain dump.
+          About: I mostly write about my work and life as an open source contributor/maintainer and an amateur [policy analyst](/categories/public-policy/) ([what am I doing now?](/now/)).
           Action: If you're here for the first time, try my [featured posts](/categories/featured/) or learn more [about me](/about). Make sure to subscribe via [email](/subscribe) or [RSS](/index.xml) to get regular updates.
 
     subscribeInfo:
