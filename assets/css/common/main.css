@@ -93,3 +93,31 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+.section-links-archive {
+    list-style: none;
+    word-break: keep-all;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top: 2.5px;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+.section-links-archive li {
+    display: inline;
+}
+
+.section-links-archive li:not(:last-of-type) {
+    margin-right: 12px;
+}
+
+.section-links-archive a:hover {
+    color: var(--secondary);
+}
+
+.section-links-archive svg {
+    height: 12px;
+    width: auto;
+    margin-right: 4px;
+}
