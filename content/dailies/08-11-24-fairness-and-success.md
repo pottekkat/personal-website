@@ -1,7 +1,7 @@
 ---
 title: "#292 Fairness and Success"
 date: 2024-11-08T16:20:16+05:30
-draft: true
+draft: false
 summary: Happy Friday to those who celebrate!
 fmContentType: Daily
 ---
