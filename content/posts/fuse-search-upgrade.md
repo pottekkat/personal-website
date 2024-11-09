@@ -6,7 +6,7 @@ ShowToc: false
 ShowRelatedContent: true
 summary: "Modifying some JavaScript code to add a search feature for the daily logs page."
 tags: ["blogs", "setup"]
-categories: ["Blogging"]
+categories: ["Writing/Blogging"]
 cover:
   image: "/images/fuse-search-upgrade/search-banner.jpg"
   alt: "A child looking though a pair of binoculars."

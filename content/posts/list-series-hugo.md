@@ -6,12 +6,12 @@ ShowToc: false
 ShowRelatedContent: true
 summary: "How I added a list of articles in the same series at the beginning of each post."
 tags: ["blogs", "setup"]
-categories: ["Blogging"]
+categories: ["Writing/Blogging"]
 cover:
-    image: "/images/list-series-hugo/dominoes-banner.jpg"
-    alt: "Domino tiles arranged in order."
-    caption: "Maybe a very trivial setup, but I'm not a Hugo expert."
-    relative: false
+  image: "/images/list-series-hugo/dominoes-banner.jpg"
+  alt: "Domino tiles arranged in order."
+  caption: "Maybe a very trivial setup, but I'm not a Hugo expert."
+  relative: false
 ---
 
 At least some of my readers know [this site is built using Hugo](/posts/my-blog-setup-and-writing-process/). One of the ways I procrastinate from doing actual work is by making tiny improvements to the site. And in a recent round of improvements, I added a template to list other articles in the same series in order in a blog post. It looks like [this](/posts/canary-in-kubernetes/):
@@ -45,10 +45,10 @@ tags: ["ingress", "kubernetes", "apache apisix", "cloud-native"]
 categories: ["API Gateway"]
 series: ["Hands-On With Apache APISIX Ingress"]
 cover:
-    image: "/images/canary-in-kubernetes/roads-banner.jpeg"
-    alt: "Aerial photo of city street and buildings in Kuala Lumpur."
-    caption: "Photo by [Deva Darshan](https://www.pexels.com/photo/aerial-photo-of-city-street-and-buildings-1044329/)"
-    relative: false
+  image: "/images/canary-in-kubernetes/roads-banner.jpeg"
+  alt: "Aerial photo of city street and buildings in Kuala Lumpur."
+  caption: "Photo by [Deva Darshan](https://www.pexels.com/photo/aerial-photo-of-city-street-and-buildings-1044329/)"
+  relative: false
 ```
 
 With this configuration and proper templates, Hugo will automatically generate a [page listing all series](/series/) and [individual pages](/series/hands-on-with-apache-apisix-ingress/) to list posts in each series.
@@ -68,22 +68,27 @@ The logic for doing this is trivial:
 We can add it to the single page template as shown:
 
 ```html {title="single.html"}
-{{ if .Param "series" }}
- {{ $currentPage := .Page.Permalink }}
- {{ $name := index .Params.series 0 }}
- <p><i>This article is a part of the series "<a href='/series/{{$name | urlize }}'>{{$name}}</a>."</i></p>
- <p>Other articles in the series:</p>
- {{ $name := $name | urlize }}
-   {{ $series := index .Site.Taxonomies.series $name }}
-   <ul class="series">
-   {{ range sort $series.Pages "Date" }}
-     <li>
-       {{ if ne $currentPage .Permalink }}
-       <a href="{{.Permalink}}">{{.LinkTitle}}</a>
-       {{ else }}<b>{{.LinkTitle}}</b>{{ end }}
-     </li>
-   {{end}}
-   </ul>
+{{ if .Param "series" }} {{ $currentPage := .Page.Permalink }} {{ $name := index
+.Params.series 0 }}
+<p>
+  <i
+    >This article is a part of the series "<a href="/series/{{$name | urlize }}"
+      >{{$name}}</a
+    >."</i
+  >
+</p>
+<p>Other articles in the series:</p>
+{{ $name := $name | urlize }} {{ $series := index .Site.Taxonomies.series $name
+}}
+<ul class="series">
+  {{ range sort $series.Pages "Date" }}
+  <li>
+    {{ if ne $currentPage .Permalink }}
+    <a href="{{.Permalink}}">{{.LinkTitle}}</a>
+    {{ else }}<b>{{.LinkTitle}}</b>{{ end }}
+  </li>
+  {{end}}
+</ul>
 {{end}}
 ```
 
