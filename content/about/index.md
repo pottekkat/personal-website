@@ -20,7 +20,7 @@ At present, these obsessions and the contents of the blog include but are not li
 
 This blog also contains [tutorials for open source projects](/tags/apache-apisix/), [unedited daily ramblings](/dailies/), and an [occasional newsletter](/newsletters/).
 
-Unless mentioned otherwise, all material in this blog is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0), and the [source code](https://github.com/pottekkat/personal-website) of this website is available under the [MIT license](https://github.com/pottekkat/personal-website/blob/hugo/LICENSE).
+Unless mentioned otherwise, all material in this blog is licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0), and the [source code](https://github.com/pottekkat/personal-website) of this website is available under the [MIT license](https://github.com/pottekkat/personal-website/blob/hugo/LICENSE).
 
 ### Ethics Statement
 
