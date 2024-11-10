@@ -22,10 +22,6 @@
 
 {{- $pages := where site.RegularPages "Type" "in" site.Params.newsletterSections }}
 
-{{- if site.Params.ShowAllPagesInArchive }}
-{{- $pages = site.RegularPages }}
-{{- end }}
-
 {{- range $pages.GroupByPublishDate "2006" }}
 {{- if ne .Key "0001" }}
 <div class="archive-year">
