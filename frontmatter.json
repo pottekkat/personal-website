@@ -147,7 +147,7 @@
     {
       "name": "Daily",
       "pageBundle": false,
-      "filePrefix": "{{date|dd-M-yy}}",
+      "filePrefix": "{{date|d-M-yy}}",
       "fields": [
         {
           "title": "Title",
