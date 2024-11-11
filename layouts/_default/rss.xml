@@ -33,7 +33,7 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end -}}
     {{ range $pages }}
-    {{- if and (ne .Layout `search`) (ne .Layout `archives`) (ne .Layout `about`) (ne .Layout `stats`) (ne .Layout `subscribe`) (ne .Type `dailies`) (ne .Type `newsletters`) (ne .Type `playgrounds`) }}
+    {{- if and (ne .Layout `search`) (ne .Layout `archives`) (ne .Layout `about`) (ne .Layout `stats`) (ne .Layout `subscribe`) (ne .Type `dailies`) (ne .Type `newsletters`) (ne .Type `playgrounds`) (ne .Type `tils`) }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
@@ -57,6 +57,18 @@
         {{- if .Site.Params.ShowFullTextinRSS }}
         <content:encoded>{{ (printf "<![CDATA[%s]]>" .Content) | safeHTML }}</content:encoded>
         {{- end }}
+      </item>
+      {{- end }}
+    {{- else if eq .Type `tils` }}
+      {{- if not $.IsHome }}
+      <item>
+        <title>{{ .Title }}</title>
+        <link>{{ .Permalink }}</link>
+        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+        {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
+        <guid>{{ .Permalink }}</guid>
+        <description>{{ with .Description | html }}{{ . }}{{ else }}{{ .Summary | html }}{{ end -}}</description>
+        <content:encoded>{{ (printf "<![CDATA[%s]]>" .Content) | safeHTML }}</content:encoded>
       </item>
       {{- end }}
     {{- else if eq .Type `newsletters` }}
