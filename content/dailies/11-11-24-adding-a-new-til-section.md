@@ -1,7 +1,7 @@
 ---
 title: "#293 Adding a New TIL Section"
 date: 2024-11-11T21:51:57+05:30
-draft: true
+draft: false
 summary: I'm adding a new TIL section to share small things I learn.
 fmContentType: Daily
 ---
