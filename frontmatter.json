@@ -229,6 +229,7 @@
     {
       "name": "TILs",
       "pageBundle": false,
+      "filePrefix": "{{date|d-M-yy}}",
       "fields": [
         {
           "title": "Title",
