@@ -2,7 +2,7 @@ baseURL: https://navendu.me/
 languageCode: en-us
 title: "Navendu Pottekkat - The Open Source Absolutist"
 theme: ["PaperMod", "plausible-hugo"]
-paginate: 200000
+# paginate: 200000 # removed pagination so this is redundant
 
 enableRobotsTXT: true
 buildDrafts: false
