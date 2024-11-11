@@ -82,6 +82,11 @@
           "type": "boolean"
         },
         {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
           "title": "Summary",
           "name": "summary",
           "type": "string"
@@ -142,7 +147,7 @@
     {
       "name": "Daily",
       "pageBundle": false,
-      "filePrefix": "{{date|dd-M-yy}}",
+      "filePrefix": "{{date|d-M-yy}}",
       "fields": [
         {
           "title": "Title",
