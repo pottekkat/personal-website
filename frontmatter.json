@@ -82,6 +82,11 @@
           "type": "boolean"
         },
         {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
           "title": "Summary",
           "name": "summary",
           "type": "string"
