@@ -244,6 +244,16 @@
           "dateFormat": "yyyy-MM-dd'T'HH:mm:ssXXX",
           "default": "{{now}}",
           "isPublishDate": true
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "fmContentType",
+          "name": "fmContentType",
+          "type": "string"
         }
       ]
     }
