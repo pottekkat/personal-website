@@ -32,11 +32,20 @@
         Playgrounds</span>
     </a>
   </li>
+  <li>
+    <a href="/tils/">
+      <span>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0.75 15 10.5" width="17.14" height="12">
+          <path d="M7.5.75q-.287 0-.555.096L.37 3.22a.565.565 0 0 0 0 1.06l1.357.49a3.86 3.86 0 0 0-.602 2.071V7.5c0 .666-.253 1.352-.523 1.894a6 6 0 0 1-.527.881c-.075.101-.096.232-.054.352s.141.209.262.239l1.5.375a.374.374 0 0 0 .457-.291 6 6 0 0 0-.049-2.548 5.2 5.2 0 0 0-.316-.984v-.577c0-.708.239-1.376.654-1.91a2.9 2.9 0 0 1 1.153-.837l3.68-1.446a.375.375 0 0 1 .274.696L3.956 4.79a2.2 2.2 0 0 0-.755.506l3.741 1.35a1.67 1.67 0 0 0 1.11 0l6.577-2.367a.565.565 0 0 0 0-1.06L8.055.846A1.7 1.7 0 0 0 7.5.75M3 9.563c0 .827 2.016 1.688 4.5 1.688s4.5-.86 4.5-1.688l-.359-3.408-3.332 1.204a2.38 2.38 0 0 1-1.618 0L3.358 6.154z"></path>
+        </svg>
+        TILs</span>
+    </a>
+  </li>
 </ul>
 
 <div id="searchbox">
   <input id="searchInput" autofocus placeholder="{{ .Params.placeholder | default (printf "%s" .Title) }}"
-      aria-label="search" type="search" autocomplete="off" data-omit="dailies, newsletters, playgrounds">
+      aria-label="search" type="search" autocomplete="off" data-omit="dailies, newsletters, playgrounds, tils">
   <ul id="searchResults" aria-label="search results"></ul>
 </div>
 

@@ -56,11 +56,28 @@
     transform: scale(0.96);
 }
 
+.til-post-entry {
+    position: relative;
+    margin-bottom: var(--gap);
+    padding: var(--gap);
+    background: var(--entry);
+    border-radius: var(--radius);
+    border-inline-start: 3px solid var(--secondary);
+}
+
+.til-post-entry:first-of-type {
+    margin-top: 40px;
+}
+
 .tag-entry .entry-cover {
     display: flex;
 }
 
 .entry-header h2 {
+    font-size: 20px;
+}
+
+.til-entry-header h2 {
     font-size: 20px;
 }
 
@@ -84,6 +101,12 @@
 .entry-footer {
     color: var(--secondary);
     font-size: 13px;
+}
+
+.til-entry-footer {
+    color: var(--secondary);
+    font-size: 13px;
+    margin-bottom: 10px;
 }
 
 .entry-link {

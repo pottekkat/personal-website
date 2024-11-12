@@ -225,6 +225,37 @@
           "type": "string"
         }
       ]
+    },
+    {
+      "name": "TILs",
+      "pageBundle": false,
+      "filePrefix": "{{date|d-M-yy}}",
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "dateFormat": "yyyy-MM-dd'T'HH:mm:ssXXX",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "fmContentType",
+          "name": "fmContentType",
+          "type": "string"
+        }
+      ]
     }
   ],
   "frontMatter.content.pageFolders": [
@@ -250,6 +281,14 @@
       "previewPath": "newsletters",
       "contentTypes": [
         "Newsletter"
+      ]
+    },
+    {
+      "title": "TILs",
+      "path": "[[workspace]]/content/tils",
+      "previewPath": "tils",
+      "contentTypes": [
+        "TILs"
       ]
     }
   ],

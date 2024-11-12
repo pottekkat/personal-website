@@ -1,0 +1,53 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>
+    {{ .Title }}
+    <a href="index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+{{- if .Content }}
+<div class="post-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+<div id="searchbox">
+  <input id="searchInput" placeholder="{{ .Params.placeholder | default (printf "Search") }}"
+      aria-label="search" type="search" autocomplete="off" data-show-only="tils">
+  <ul id="searchResults" aria-label="search results"></ul>
+</div>
+
+{{- $pages := union .RegularPages .Sections }}
+{{- range $index, $page := $pages }}
+
+<article class="til-post-entry">
+  <header class="til-entry-header">
+    <a aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}">
+      <h2>
+        {{- .Title }}
+      </h2>
+    </a>
+  </header>
+  <div class="til-entry-footer">
+    {{- partial "post_meta.html" . -}}
+  </div>
+  <div class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </div>
+</article>
+{{- end }}
+
+{{- end }}{{- /* end main */ -}}
