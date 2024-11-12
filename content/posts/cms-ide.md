@@ -292,7 +292,7 @@ I have created a `Quote` snippet that lets me convert the selected text to a blo
 
 Snippets are configured inside `frontMatter.content.snippets` in your `frontmatter.json` file:
 
-```json
+```json {title="frontmatter.json", linenos="inline", linenostart=268}
 {
   "frontMatter.content.snippets": {
     "Quote": {
@@ -337,7 +337,7 @@ The placeholders (`[[author]]`, `[[&link]]`) in the snippet are replaced by the 
 
 I have also created a `Figure` media snippet to easily add images with a title, caption, and URL:
 
-```json
+```json {title="frontmatter.json", linenos="inline", linenostart=268}
 {
   "frontMatter.content.snippets": {
     "Figure": {
