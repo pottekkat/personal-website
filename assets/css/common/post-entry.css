@@ -58,9 +58,9 @@
 
 .til-post-entry {
     position: relative;
-    margin-bottom: var(--gap);
-    padding: var(--gap);
-    background: var(--entry);
+    margin-bottom: calc(var(--gap) * 2);
+    padding-left: var(--gap);
+    padding-right: var(--gap);
     border-radius: var(--radius);
     border-inline-start: 3px solid var(--secondary);
 }
