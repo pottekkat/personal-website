@@ -82,7 +82,7 @@
           "type": "boolean"
         },
         {
-          "title": "description",
+          "title": "Description",
           "name": "description",
           "type": "string"
         },
@@ -265,6 +265,9 @@
       "previewPath": "posts",
       "contentTypes": [
         "Post (default)"
+      ],
+      "excludePaths": [
+        "_*.*" // Exclude all files starting with an underscore
       ]
     },
     {
@@ -273,6 +276,9 @@
       "previewPath": "dailies",
       "contentTypes": [
         "Daily"
+      ],
+      "excludePaths": [
+        "_*.*" // Exclude all files starting with an underscore
       ]
     },
     {
@@ -281,6 +287,9 @@
       "previewPath": "newsletters",
       "contentTypes": [
         "Newsletter"
+      ],
+      "excludePaths": [
+        "_*.*" // Exclude all files starting with an underscore
       ]
     },
     {
@@ -289,6 +298,9 @@
       "previewPath": "tils",
       "contentTypes": [
         "TILs"
+      ],
+      "excludePaths": [
+        "_*.*" // Exclude all files starting with an underscore
       ]
     }
   ],
