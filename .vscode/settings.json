@@ -3,7 +3,7 @@
   "frontMatter.git.enabled": true,
   "frontMatter.dashboard.openOnStart": true,
   "[markdown]": {
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "editor.formatOnPaste": true,
     "editor.fontSize": 14,
     "editor.lineHeight": 26,
