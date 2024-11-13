@@ -1,7 +1,7 @@
 ---
 title: "#294 Anarchy is Moronic"
 date: 2024-11-12T20:34:18+05:30
-draft: true
+draft: false
 summary: Anarchists are as elite as communists.
 fmContentType: Daily
 cover:
