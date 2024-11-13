@@ -172,7 +172,8 @@
         {
           "title": "Draft?",
           "name": "draft",
-          "type": "draft"
+          "type": "draft",
+          "default": false
         },
         {
           "title": "Summary",
