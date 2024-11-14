@@ -81,7 +81,7 @@ And it needed a better layout and some style changes.
 
 ## Adding a TIL "list" and "single" Layout
 
-I had to change how the TILs were listed in the section. Like [Julia's TIL](https://jvns.ca/til/) and unlike my [other sections](/posts/), I wanted each TIL in the list to include the complete content of the page.
+I had to change how the TILs were listed in the section. Like [Julia\'s TIL](https://jvns.ca/til/) and unlike my [other sections](/posts/), I wanted each TIL in the list to include the complete content of the page.
 
 This required a custom layout:
 
