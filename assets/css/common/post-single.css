@@ -216,7 +216,8 @@
     padding: 4px 6px;
     font-size: 0.78em;
     line-height: 1.5;
-    background: var(--code-bg);
+    color: var(--inline-code-bg);
+    background: var(--hljs-bg);
     border-radius: 0;
     border: 1px solid var(--code-bg);
 }
