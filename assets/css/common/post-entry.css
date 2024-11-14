@@ -162,6 +162,7 @@
 
 .highlight-title {
     display: flex;
+    overflow-x: auto;
     position: relative;
     padding: 8px 12px;
     color: var(--content);
