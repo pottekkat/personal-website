@@ -169,5 +169,5 @@
     font-size: 0.8em;
     background-color: var(--code-bg);
     border-radius: var(--radius) var(--radius) 0 0;
-    margin-bottom: calc(var(--gap)/2.5);
+    margin-bottom: calc(var(--gap)/5);
   }
