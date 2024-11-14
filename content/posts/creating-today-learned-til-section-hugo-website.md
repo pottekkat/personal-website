@@ -79,7 +79,7 @@ I wanted to keep the TIL pages plain and simple. The only front matter they have
 
 And it needed a better layout and some style changes.
 
-## Creating a TIL "list" and "single" Layout
+## Adding a TIL "list" and "single" Layout
 
 I had to change how the TILs were listed in the section. Like [Julia's TIL](https://jvns.ca/til/) and unlike my [other sections](/posts/), I wanted each TIL in the list to include the complete content of the page.
 
@@ -187,7 +187,7 @@ Each TIL page follows a simple layout:
 
 With some CSS sprinkled on top, the TIL section started to look neat.
 
-## Creating a Front Matter CMS Content Type/Hugo Archetype
+## Defining a Front Matter CMS Content Type/Hugo Archetype
 
 A TIL section is only useful if I can quickly create and post content. Thankfully, I [started using Front Matter CMS](/posts/cms-ide/) recently, which allows me to write faster.
 
