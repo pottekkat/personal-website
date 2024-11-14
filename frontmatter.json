@@ -250,11 +250,6 @@
           "title": "Description",
           "name": "description",
           "type": "string"
-        },
-        {
-          "title": "fmContentType",
-          "name": "fmContentType",
-          "type": "string"
         }
       ]
     }
