@@ -138,7 +138,7 @@
               "title": "Relative?",
               "name": "relative",
               "type": "boolean",
-              "default": "true"
+              "default": true
             }
           ]
         }
