@@ -8,8 +8,8 @@ EnableCodapi: true
 CodapiURL: codapi.navendu.me/v1
 ShowCodeCopyButtons: false
 cover:
-  image: "/images/pl-jq/json-logo-banner.jpg"
-  alt: "JSON logo."
+  image: "/images/pl-jq/jq-logo-banner.jpg"
+  alt: "jq logo."
   relative: false
   hidden: true
 ---
