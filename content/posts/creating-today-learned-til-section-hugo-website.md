@@ -2,7 +2,7 @@
 title: Creating a "Today I Learned (TIL)" Section for My Hugo Website
 slug: til-section-hugo
 date: 2024-11-18T09:36:00+05:30
-draft: true
+draft: false
 toc:
   show: true
   open: true
