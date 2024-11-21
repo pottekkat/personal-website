@@ -4,7 +4,7 @@
     max-width: calc(var(--main-width) + var(--gap));
     margin: auto;
     padding: var(--gap);
-    background: var(--content-background), var(--theme);
+    background: var(--content-background), var(--content-background-color);
 }
 
 @media (min-width: 768px) {

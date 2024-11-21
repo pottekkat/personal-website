@@ -7,6 +7,7 @@
     --footer-height: 60px;
     --radius: 0;
     --theme: rgb(255, 255, 255);
+    --content-background-color: rgba(255, 255, 255, .95);
     --entry: rgb(248, 244, 239);
     --primary: rgba(30, 30, 30, 0.87);
     --secondary: rgb(117, 117, 117);
@@ -19,16 +20,16 @@
     --background-color: rgb(180, 180, 180);
     --background-image: url(/images/binding-dark.png);
     --entry-image: url(/images/asfalt-dark.png);
-    --content-background: url(/images/notebook.png);
+    --content-background: none;
 }
 
 .dark {
     --theme: rgb(17,17,17);
+    --content-background-color: rgba(22, 22, 22, .9);
     --entry: rgb(33, 33, 33);
     --primary: rgb(241, 241, 241);
     --secondary: rgb(180, 180, 180);
     --tertiary: rgb(33, 33, 33);
-    /* --content: rgb(236, 236, 236); */
     --content: rgb(216, 216, 216);
     --hljs-bg: rgb(22, 22, 22);
     --code-bg: rgb(33, 33, 33);
@@ -36,7 +37,7 @@
     --background-color: rgb(75, 75, 75);
     --background-image: url(/images/binding-dark.png);
     --entry-image: url(/images/white-wall.png);
-    --content-background: url(/images/black-felt.png);
+    --content-background: none;
 }
 
 /* .dark {
