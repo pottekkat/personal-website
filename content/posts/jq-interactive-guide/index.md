@@ -1,8 +1,8 @@
 ---
 title: An Interactive Guide to Transforming JSON with jq
 slug: jq-interactive-guide
-date: 2024-11-25T20:21:51+05:30
-draft: true
+date: 2024-11-22T11:17:51+05:30
+draft: false
 toc:
   show: true
   open: true
