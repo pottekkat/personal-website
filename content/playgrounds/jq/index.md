@@ -2,7 +2,7 @@
 title: "jq Playground"
 description: "Learn to transform JSON with jq."
 summary: "A playground for jq."
-date: 2024-11-25T20:21:51+05:30
+date: 2024-11-22T11:21:51+05:30
 experimental: true
 EnableCodapi: true
 CodapiURL: codapi.navendu.me/v1
