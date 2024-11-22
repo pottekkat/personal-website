@@ -482,8 +482,7 @@ codapi-snippet codapi-toolbar button {
 }
 
 codapi-snippet codapi-toolbar button:hover {
-    background: var(--code-bg);
-    color: var(--primary);
+    background: var(--secondary);
 }
 
 codapi-snippet codapi-toolbar button:after {
