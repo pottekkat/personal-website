@@ -11,8 +11,17 @@ jobs:
     runs-on: macos-latest
     steps:
 
+      - name: Install pkgconf if not already installed
+        run: |
+          if ! brew list pkgconf &>/dev/null; then
+            brew install pkgconf
+          fi
+
       - name: Unlink conflicting pkg-config
-        run: brew unlink pkg-config@0.29.2
+        run: |
+          if brew list pkg-config@0.29.2 &>/dev/null; then
+            brew unlink pkg-config@0.29.2
+          fi
 
       - name: Force-link pkgconf
         run: brew link --overwrite pkgconf
