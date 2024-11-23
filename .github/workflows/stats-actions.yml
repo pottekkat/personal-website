@@ -11,6 +11,12 @@ jobs:
     runs-on: macos-latest
     steps:
 
+      - name: Unlink conflicting pkg-config
+        run: brew unlink pkg-config@0.29.2
+
+      - name: Force-link pkgconf
+        run: brew link --overwrite pkgconf
+
       - name: install gdal
         run: brew install gdal --force --overwrite
 
