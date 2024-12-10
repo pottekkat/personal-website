@@ -2,7 +2,7 @@
 title: Will Open Source Be Fair?
 slug: open-source-fair
 date: 2024-12-10T12:07:05+05:30
-draft: true
+draft: false
 toc:
   show: false
 ShowRelatedContent: false
