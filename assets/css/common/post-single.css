@@ -140,8 +140,8 @@
     padding-inline-start: 10px;
 }
 
-.post-content dd ~ dd,
-.post-content dt ~ dt {
+.post-content dd~dd,
+.post-content dt~dt {
     margin-top: 10px;
 }
 
@@ -182,7 +182,7 @@
     background: var(--hljs-bg) !important;
 }
 
-.post-content li > .highlight {
+.post-content li>.highlight {
     margin-inline-end: 0;
 }
 
@@ -260,7 +260,8 @@
     display: inline-block;
     border-radius: 0;
     border: 1px solid var(--code-bg);
-    margin: 1rem auto; /* 1rem vertical margin, mostly 0 horizontal margin */
+    /* 0 vertical margin, mostly 0 horizontal margin */
+    margin: 0 auto;
 }
 
 body:not(.dark) .post-content figure .invert-diagram-colors {
@@ -276,14 +277,14 @@ body:not(.dark) .post-content figure .invert-diagram-colors {
     text-align: center;
 }
 
-.post-content figure > figcaption {
+.post-content figure>figcaption {
     color: var(--primary);
     font-size: 16px;
     font-weight: bold;
     margin: 8px 0 16px;
 }
 
-.post-content figure > figcaption > p {
+.post-content figure>figcaption>p {
     color: var(--secondary);
     font-size: 14px;
     font-weight: normal;
@@ -478,7 +479,8 @@ codapi-snippet codapi-toolbar button {
     padding-inline-end: 14px;
     background: var(--primary);
     color: var(--code-bg);
-    border: none; /* Removes the default button border */
+    border: none;
+    /* Removes the default button border */
 }
 
 codapi-snippet codapi-toolbar button:hover {
@@ -497,7 +499,7 @@ codapi-snippet codapi-toolbar button:after {
     text-align: center;
 }
 
-#chart-caption > p {
+#chart-caption>p {
     color: var(--secondary);
     font-size: 14px;
     font-weight: normal;
@@ -510,6 +512,6 @@ codapi-snippet codapi-toolbar button:after {
     font-size: 14px;
 }
 
-#canvas-wrapper > .nofill > div > svg > rect {
+#canvas-wrapper>.nofill>div>svg>rect {
     fill: none;
 }
