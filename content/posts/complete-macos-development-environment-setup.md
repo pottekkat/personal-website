@@ -179,7 +179,7 @@ On a side note, the gh CLI is really well-designed. I often use it as a referenc
 
 ## NeoVim
 
-In this section, I declare my dominance over my lesser peers who still click buttons like primitive cave developers. Yeah, bro, "Ctrl + C, Ctrl + V" is peak efficiency.
+In this section, I declare my dominance over my lesser peers who still click buttons like primitive cave developers. Yeah bro, "Ctrl + C, Ctrl + V" is peak efficiency.
 
 Now, where do I start with [NeoVim](https://neovim.io/)?
 
