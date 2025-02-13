@@ -2,7 +2,7 @@
 title: My Complete macOS Development Environment Setup
 slug: development-environment
 date: 2025-02-13T10:27:06+05:30
-draft: true
+draft: false
 toc:
   show: true
   open: true
