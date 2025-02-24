@@ -1,8 +1,8 @@
 ---
 title: 'Timeless Lessons in Citizenship and Governance from "The Nitopadesha"—Part 1: The Jewel of Citizencraft'
 slug: the-jewel-of-citizencraft
-date: 2025-02-19T17:32:34+05:30
-draft: true
+date: 2025-02-24T18:49:01+05:30
+draft: false
 toc:
   show: true
   open: true
