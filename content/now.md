@@ -24,7 +24,7 @@ I used to travel a lot. But now, I'm back home in Kerala for the foreseeable fut
 
 I recently left my job to pursue my more amateur interests. It's still novel, so I don't really know how to put labels on the things that I do now (or whether I should).
 
-But previously, I worked on open source projects in the cloud native space. I have traveled a lot to speak at conferences and meet our customers.
+But previously, I worked on open source projects in the cloud native space. I have traveled a lot to speak at conferences and meet customers.
 
 ## Blog and Newsletter
 
@@ -34,16 +34,12 @@ I don't plan to work on these full-time or scale and monetize them, at least for
 
 ## Reading
 
-I'm currently reading [V K N\'s collected short stories](https://www.goodreads.com/book/show/17971843-v-k-n).
+I'm currently reading [Leviathan Wakes](https://www.goodreads.com/book/show/8855321-leviathan-wakes) by James S. A. Corey.
 
-I'm also reading [The Anarchy](https://www.goodreads.com/book/show/42972023-the-anarchy) by William Dalrymple. It talks about the East India Company and how it rose to power against Indian kingdoms.
-
-I like learning history. I'm terrible at it, and I have been improving my knowledge by reading more history books.
-
-I have also been using [Readwise](https://readwise.io/i/navendu4) for articles and newsletters. It works really well. I will create a public list of my subscriptions soon.
+I'm also reading [The Art of Doing Science and Engineering](https://www.goodreads.com/book/show/530415.The_Art_of_Doing_Science_and_Engineering) by Richard Hamming.
 
 ## Side Projects and Hobbies
 
-I'm not working on any side projects now. But I have a big "Ideas" document that I find myself updating constantly.
+I'm exclusively working on my side projects now. Some are really side quests with the potential to become the main storyline.
 
 A lot of my hobbies, like playing my bass guitar, have reduced significantly. I plan to spend more time on my hobbies after a few months.
