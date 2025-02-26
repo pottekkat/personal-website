@@ -96,6 +96,12 @@ Let's see if your instincts match reality.
 .question .next:hover {
     background: var(--secondary);
 }
+
+.question button.disabled {
+    background: var(--border);
+    cursor: not-allowed;
+    text-decoration: line-through;
+}
 </style>
 
 <div id="quiz-container"></div>
@@ -154,12 +160,20 @@ document.addEventListener("DOMContentLoaded", function () {
             document.querySelectorAll(".answer").forEach(button => {
                 button.addEventListener("click", function () {
                     let questionDiv = this.closest(".question");
-
                     let correctAnswer = questionDiv.getAttribute("data-correct");
                     let resultText = this.getAttribute("data-button") === correctAnswer ? "✅ Correct!" : this.getAttribute("data-message");
                     
                     questionDiv.querySelector(".result").innerText = resultText;
                     questionDiv.querySelector(".next").classList.remove("hidden");
+
+                    // Disable all answer buttons and change their colors
+                    questionDiv.querySelectorAll(".answer").forEach(btn => {
+                        btn.disabled = true;
+                        btn.classList.add('disabled');
+                        if (btn.getAttribute("data-button") === correctAnswer) {
+                            btn.classList.remove('disabled');
+                        }
+                    });
                 });
             });
 
