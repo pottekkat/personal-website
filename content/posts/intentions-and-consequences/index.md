@@ -38,7 +38,7 @@ Let's see if your instincts match reality.
 <style>
 #quiz-container {
     width: 100%;
-    margin: auto;
+    margin: 40px auto;
     padding: 14px;
     border: 1px solid var(--code-bg);
 }
@@ -110,9 +110,8 @@ Let's see if your instincts match reality.
 
 <div id="quiz-container"></div>
 
-<!-- New paragraph to scroll to -->
 <p id="quiz-end">
-    Congratulations on completing the quiz! Reflect on the outcomes and think about how intentions and consequences play a role in policy-making.
+    How was the quiz? What did you notice about the outcomes of these policies? Were you able to <i>accurately</i> pick the good policies from the bad?
 </p>
 
 <script>
@@ -201,3 +200,15 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 {{< /rawhtml >}}
+
+All these policies had good intentions. No doubt. But if good intentions were enough, every policy intervention made by the government would be a success, unlike the glaring examples we saw before.
+
+Most people, including policymakers, tend to make this mistake and evaluate policies by their intentions rather than their track record, even though history is littered with well-meaning policies that backfired spectacularly.
+
+They forget that policies don't operate in a vacuum. Instead policies interact with markets and society, often leading to consequences nobody anticipated.
+
+If we don't train ourselves to think in terms of consequences rather than intentions, we risk endorsing policies that sound good but make problems worse. As the wise monkey from _The Nitopadesha_ says:
+
+{{< blockquote link="/posts/the-jewel-of-citizencraft/" title="The Monkey and the Fearsome Four-Eyed Dogs, The Nitopadesha" >}}
+... in all matters of public interest, one must judge things from the calculation of consequences.
+{{< /blockquote >}}
