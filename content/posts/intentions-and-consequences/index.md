@@ -102,9 +102,18 @@ Let's see if your instincts match reality.
     cursor: not-allowed;
     text-decoration: line-through;
 }
+
+#quiz-end {
+    margin-top: 20px;
+}
 </style>
 
 <div id="quiz-container"></div>
+
+<!-- New paragraph to scroll to -->
+<p id="quiz-end">
+    Congratulations on completing the quiz! Reflect on the outcomes and think about how intentions and consequences play a role in policy-making.
+</p>
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
@@ -183,7 +192,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     if (currentQuestionIndex < questions.length) {
                         showQuestion(currentQuestionIndex);
                     } else {
-                        alert("You have completed the quiz!");
+                        // Scroll to the new paragraph when the quiz is finished
+                        document.getElementById('quiz-end').scrollIntoView({ behavior: 'smooth' });
                     }
                 });
             });
