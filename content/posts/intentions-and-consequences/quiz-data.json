@@ -1,0 +1,50 @@
+[
+    {
+        "question": "In an effort to support farmers, the Government of India announced a minimum support price (MSP) to farmers to ensure their livelihood. The selected crops included paddy, which prompted a lot of farmers in Punjab and Haryana to cultivate paddy. Did this intervention result in any problems?",
+        "correct": "negative",
+        "answers": [
+            {
+                "option": "Positive effect",
+                "text": "It helped farmers and increased the agricultural output of the country.",
+                "value": "positive",
+                "message": "❌ That's wrong! The minimum support price system caused a net negative effect."
+            },
+            {
+                "option": "No effect",
+                "text": "It did not have any visible effect on farmers or agricultural productivity.",
+                "value": "no-effect",
+                "message": "❌ Wrong! The correct answer is: Negative effect."
+            },
+            {
+                "option": "Negative effect",
+                "text": "It had no positive effects and also created a lot of negative externalities which were very unintended.",
+                "value": "negative",
+                "message": "✅ Correct!"
+            }
+        ]
+    },
+    {
+        "question": "Policy 2: A state increases the minimum wage to $15/hour. Did this policy have a positive effect, negative effect, or no effect?",
+        "correct": "no-effect",
+        "answers": [
+            {
+                "option":"Positive effect",
+                "text": "Text explaining the positive effect.",
+                "value": "positive",
+                "message": "❌ Wrong! The correct answer is: No effect."
+            },
+            {
+                "option": "No effect",
+                "text": "It did not have any visible effect on farmers or agricultural productivity.",
+                "value": "no-effect",
+                "message": "✅ Correct!"
+            },
+            {
+                "option": "Negative effect",
+                "text": "It did not have any visible effect on farmers or agricultural productivity.",
+                "value": "negative",
+                "message": "❌ Wrong! The correct answer is: No effect."
+            }
+        ]
+    }
+]
