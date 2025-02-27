@@ -1,25 +1,26 @@
 [
     {
-        "question": "In an effort to support farmers, the Government of India announced a minimum support price (MSP) to farmers to ensure their livelihood. The selected crops included paddy, which prompted a lot of farmers in Punjab and Haryana to cultivate paddy. Did this intervention result in any problems?",
+        "title": "Minimum Support Price • 1 of 8",
+        "question": "The <strong>Minimum Support Price (MSP)</strong> is a guaranteed price set by the Indian government to <strong>protect farmers from market fluctuations and ensure stable incomes</strong> while encouraging food production. After its introduction in the 60s, MSP has evolved into a key mechanism for income and food security, covering 23 essential commodities through the Food Corporation of India (FCI).",
         "correct": "negative",
         "answers": [
             {
-                "option": "Positive effect",
-                "text": "It helped farmers and increased the agricultural output of the country.",
+                "option": "Positive outcome",
+                "text": "It boosted food production and improved farmers' livelihoods while ensuring food security.",
                 "value": "positive",
-                "message": "❌ That's wrong! The minimum support price system caused a net negative effect."
+                "message": "<p>❌ <em>Not quite!</em></p><p>While it secured farmer incomes, it also <strong>increased paddy cultivation so much that the government's rice stocks were way above the buffer stock norms</strong>, <a href=\"https://www.financialexpress.com/opinion/from-plate-to-plough-sowing-paddy-reaping-smog/1760567/\" target=\"_blank\">leading to massive inefficiencies</a>. The MSP heavily incentivized farmers in Punjab and Haryana&mdash;regions with low rainfall&mdash;to cultivate paddy, which started a <a href=\"https://publicpolicy.substack.com/p/7-msp-is-really-maximum-smog-price?open=false#%C2%A7policywtf-paddy-minimum-support-prices-cause-delhi-smog\" target=\"_blank\">chain of events</a> <strong>contributing to the infamous Delhi smog</strong>.</p><p>Markets and prices naturally guide production decisions. When interventions like the MSP attempt to override these signals through price controls, they often <strong>create long-term distortions</strong> that outweigh any short-term benefits.</p>"
             },
             {
-                "option": "No effect",
-                "text": "It did not have any visible effect on farmers or agricultural productivity.",
+                "option": "No outcome",
+                "text": "It had no impact on farmers or agricultural practices.",
                 "value": "no-effect",
-                "message": "❌ Wrong! The correct answer is: Negative effect."
+                "message": "<p>❌ <em>Not quite!</em></p><p>In the short term, it increased food production and secured farmer incomes. In the long term, <strong>paddy cultivation increased so much that the government's rice stocks were way above the buffer stock norms</strong>, <a href=\"https://www.financialexpress.com/opinion/from-plate-to-plough-sowing-paddy-reaping-smog/1760567/\" target=\"_blank\">leading to massive inefficiencies</a>. The MSP heavily incentivized farmers in Punjab and Haryana&mdash;regions with low rainfall&mdash;to cultivate paddy, which started a <a href=\"https://publicpolicy.substack.com/p/7-msp-is-really-maximum-smog-price?open=false#%C2%A7policywtf-paddy-minimum-support-prices-cause-delhi-smog\" target=\"_blank\">chain of events</a> <strong>contributing to the infamous Delhi smog</strong>.</p><p>Markets and prices naturally guide production decisions. When interventions like the MSP attempt to override these signals through price controls, they often <strong>create long-term distortions</strong> that outweigh any short-term benefits.</p>"
             },
             {
-                "option": "Negative effect",
-                "text": "It had no positive effects and also created a lot of negative externalities which were very unintended.",
+                "option": "Negative outcome",
+                "text": "It didn't improve food security and incentivized unsustainable farming practices, hurting the farmers despite the minimum guarantee.",
                 "value": "negative",
-                "message": "✅ Correct!"
+                "message": "<p>✅ <em>Correct!</em></p><p>While it secured farmer incomes, it also <strong>increased paddy cultivation so much that the government's rice stocks were way above the buffer stock norms</strong>, <a href=\"https://www.financialexpress.com/opinion/from-plate-to-plough-sowing-paddy-reaping-smog/1760567/\" target=\"_blank\">leading to massive inefficiencies</a>. The MSP heavily incentivized farmers in Punjab and Haryana&mdash;regions with low rainfall&mdash;to cultivate paddy, which started a <a href=\"https://publicpolicy.substack.com/p/7-msp-is-really-maximum-smog-price?open=false#%C2%A7policywtf-paddy-minimum-support-prices-cause-delhi-smog\" target=\"_blank\">chain of events</a> <strong>contributing to the infamous Delhi smog</strong>.</p><p>Markets and prices naturally guide production decisions. When interventions like the MSP attempt to override these signals through price controls, they often <strong>create long-term distortions</strong> that outweigh any short-term benefits.</p>"
             }
         ]
     },
