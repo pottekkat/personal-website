@@ -126,7 +126,7 @@ Let's see if your instincts match reality.
 
     <p>They forget that policies don't operate in a vacuum. Instead policies interact with markets and society, often leading to consequences nobody anticipated.</p>
 
-    <p>If we don’t train ourselves to think in terms of consequences rather than intentions, we risk endorsing policies that sound good but make problems worse. As the wise monkey from <em>The Nitopadesha</em> says:</p>
+    <p>If we don’t train ourselves to think in terms of consequences rather than intentions, we risk endorsing policies that sound good but make problems worse. As the wise crow from <em>The Nitopadesha</em> says:</p>
 
     <blockquote><p>… in all matters of public interest, one must judge things from the calculation of consequences.</p><footer><strong></strong>
     <cite><a target="_blank" href="/posts/the-jewel-of-citizencraft/" title="/posts/the-jewel-of-citizencraft/">The Monkey and the Fearsome Four-Eyed Dogs, The Nitopadesha</a></cite></footer></blockquote>
