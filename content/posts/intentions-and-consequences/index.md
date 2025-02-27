@@ -84,10 +84,6 @@ Let's see if your instincts match reality.
     margin-top: 20px;
 }
 
-.result:empty {
-    margin-bottom: 0px !important;
-}
-
 .question .next {
     background: var(--primary);
     color: var(--code-bg);
@@ -101,6 +97,11 @@ Let's see if your instincts match reality.
     background: var(--border);
     cursor: not-allowed;
     text-decoration: line-through;
+}
+
+.question .question-title {
+    font-size: 14px;
+    color: var(--secondary);
 }
 
 #quiz-end {
@@ -145,8 +146,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 questionDiv.setAttribute('data-correct', item.correct);
 
+                const questionTitle = document.createElement('p');
+                questionTitle.innerText = item.title;
+                questionTitle.classList.add('question-title')
+                questionDiv.appendChild(questionTitle);
+
                 const questionText = document.createElement('p');
-                questionText.innerText = item.question;
+                questionText.innerHTML = item.question;
                 questionDiv.appendChild(questionText);
 
                 item.answers.forEach((answer, answerIndex) => {
@@ -161,7 +167,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     questionDiv.appendChild(answerButton);
                 });
 
-                const resultP = document.createElement('p');
+                const resultP = document.createElement('div');
                 resultP.classList.add('result');
                 questionDiv.appendChild(resultP);
 
@@ -186,17 +192,16 @@ document.addEventListener("DOMContentLoaded", function () {
             document.querySelectorAll(".answer").forEach(button => {
                 button.addEventListener("click", function () {
                     let questionDiv = this.closest(".question");
-                    let correctAnswer = questionDiv.getAttribute("data-correct");
-                    let resultText = this.getAttribute("data-button") === correctAnswer ? "✅ Correct!" : this.getAttribute("data-message");
+                    let resultText = this.getAttribute("data-message");
                     
-                    questionDiv.querySelector(".result").innerText = resultText;
+                    questionDiv.querySelector(".result").innerHTML = resultText;
                     questionDiv.querySelector(".next").classList.remove("hidden");
 
                     // Disable all answer buttons and change their colors
                     questionDiv.querySelectorAll(".answer").forEach(btn => {
                         btn.disabled = true;
                         btn.classList.add('disabled');
-                        if (btn.getAttribute("data-button") === correctAnswer) {
+                        if (btn.getAttribute("data-button") === questionDiv.getAttribute("data-correct")) {
                             btn.classList.remove('disabled');
                         }
                     });
