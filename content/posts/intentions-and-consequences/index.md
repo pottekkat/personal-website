@@ -203,6 +203,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         btn.classList.add('disabled');
                         if (btn.getAttribute("data-button") === questionDiv.getAttribute("data-correct")) {
                             btn.classList.remove('disabled');
+                            btn.innerHTML = `✅ ${btn.innerHTML}`;
                         }
                     });
                 });
