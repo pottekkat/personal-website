@@ -104,11 +104,19 @@ Let's see if your instincts match reality.
 }
 
 #quiz-end {
+    display: none;
+    margin-top: 20px;
+}
+
+#placeholder {
     margin-top: 20px;
 }
 </style>
 
 <div id="quiz-container"></div>
+
+<!-- Placeholder message -->
+<p id="placeholder"><strong>Complete the exercise</strong> to continue.</p>
 
 <div id="quiz-end">
     <p>How was the quiz? What did you notice about the outcomes of these policies? Were you able to <em>accurately</em> pick the good policies from the bad?</p>
@@ -202,6 +210,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     if (currentQuestionIndex < questions.length) {
                         showQuestion(currentQuestionIndex);
                     } else {
+                        // Show the quiz-end div and hide the placeholder when the quiz is finished
+                        document.getElementById('quiz-end').style.display = 'block';
+                        document.getElementById('placeholder').style.display = 'none';
                         // Scroll to the new paragraph when the quiz is finished
                         document.getElementById('quiz-end').scrollIntoView({ behavior: 'smooth' });
                     }
