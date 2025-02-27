@@ -115,7 +115,6 @@ Let's see if your instincts match reality.
 
 <div id="quiz-container"></div>
 
-<!-- Placeholder message -->
 <p id="placeholder"><strong>Complete the exercise</strong> to continue.</p>
 
 <div id="quiz-end">
