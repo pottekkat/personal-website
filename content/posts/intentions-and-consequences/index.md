@@ -214,6 +214,19 @@ document.addEventListener("DOMContentLoaded", function () {
                     currentQuestionIndex++;
                     if (currentQuestionIndex < questions.length) {
                         showQuestion(currentQuestionIndex);
+
+                        // Scroll to the start of the quiz container when the next button is clicked
+                        const quizContainer = document.getElementById('quiz-container');
+                        const offset = 50; // Adjust this value to leave space from the top
+                        const bodyRect = document.body.getBoundingClientRect().top;
+                        const elementRect = quizContainer.getBoundingClientRect().top;
+                        const elementPosition = elementRect - bodyRect;
+                        const offsetPosition = elementPosition - offset;
+
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: 'smooth'
+                        });
                     } else {
                         // Show the quiz-end div and hide the placeholder when the quiz is finished
                         document.getElementById('quiz-end').style.display = 'block';
