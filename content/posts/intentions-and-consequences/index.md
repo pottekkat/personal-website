@@ -1,7 +1,7 @@
 ---
 title: Intentions and Consequences
 slug: intentions-and-consequences
-date: 2025-02-25T08:45:02+05:30
+date: 2025-03-03T08:45:02+05:30
 draft: true
 toc:
     show: false
