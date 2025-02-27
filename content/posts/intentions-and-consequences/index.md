@@ -110,9 +110,20 @@ Let's see if your instincts match reality.
 
 <div id="quiz-container"></div>
 
-<p id="quiz-end">
-    How was the quiz? What did you notice about the outcomes of these policies? Were you able to <i>accurately</i> pick the good policies from the bad?
-</p>
+<div id="quiz-end">
+    <p>How was the quiz? What did you notice about the outcomes of these policies? Were you able to <em>accurately</em> pick the good policies from the bad?</p>
+
+    <p>All these policies had good intentions. <em>No doubt</em>. But if good intentions were enough, <em>every</em> policy intervention made by the government would be a success, unlike the glaring examples we saw before.</p>
+
+    <p>Most people, including policymakers, tend to make this mistake and evaluate policies by their intentions rather than their track record, even though history is littered with well-meaning policies that backfired spectacularly.</p>
+
+    <p>They forget that policies don't operate in a vacuum. Instead policies interact with markets and society, often leading to consequences nobody anticipated.</p>
+
+    <p>If we don’t train ourselves to think in terms of consequences rather than intentions, we risk endorsing policies that sound good but make problems worse. As the wise monkey from <em>The Nitopadesha</em> says:</p>
+
+    <blockquote><p>… in all matters of public interest, one must judge things from the calculation of consequences.</p><footer><strong></strong>
+    <cite><a target="_blank" href="/posts/the-jewel-of-citizencraft/" title="/posts/the-jewel-of-citizencraft/">The Monkey and the Fearsome Four-Eyed Dogs, The Nitopadesha</a></cite></footer></blockquote>
+</div>
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
@@ -200,15 +211,3 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 {{< /rawhtml >}}
-
-All these policies had good intentions. No doubt. But if good intentions were enough, every policy intervention made by the government would be a success, unlike the glaring examples we saw before.
-
-Most people, including policymakers, tend to make this mistake and evaluate policies by their intentions rather than their track record, even though history is littered with well-meaning policies that backfired spectacularly.
-
-They forget that policies don't operate in a vacuum. Instead policies interact with markets and society, often leading to consequences nobody anticipated.
-
-If we don't train ourselves to think in terms of consequences rather than intentions, we risk endorsing policies that sound good but make problems worse. As the wise monkey from _The Nitopadesha_ says:
-
-{{< blockquote link="/posts/the-jewel-of-citizencraft/" title="The Monkey and the Fearsome Four-Eyed Dogs, The Nitopadesha" >}}
-... in all matters of public interest, one must judge things from the calculation of consequences.
-{{< /blockquote >}}
