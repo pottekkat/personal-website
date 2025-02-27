@@ -1,4 +1,5 @@
 [
+    
     {
         "title": "Minimum Support Price • 1 of 8",
         "question": "The <strong>Minimum Support Price (MSP)</strong> is a guaranteed price set by the Indian government to <strong>protect farmers from market fluctuations and ensure stable incomes</strong> while encouraging food production. After its introduction in the 60s, MSP has evolved into a key mechanism for income and food security, covering 23 essential commodities through the Food Corporation of India (FCI).",
@@ -25,11 +26,12 @@
         ]
     },
     {
-        "question": "Policy 2: A state increases the minimum wage to $15/hour. Did this policy have a positive effect, negative effect, or no effect?",
+        "title": "Title of the Policy in Chicago Manual Style • 2 of 8",
+        "question": "Title of the Policy in Chicago Manual Style • 2 of 8",
         "correct": "no-effect",
         "answers": [
             {
-                "option":"Positive effect",
+                "option":"Positive outcome",
                 "text": "Text explaining the positive effect.",
                 "value": "positive",
                 "message": "❌ Wrong! The correct answer is: No effect."
