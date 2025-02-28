@@ -6,6 +6,8 @@ summary: The AI hype is very real.
 fmContentType: Daily
 ---
 
+The AI hype is very, very real.
+
 I have been using the deep research agents from Grok and OpenAI, and they have been a game changer. They have also been a bit overwhelming because now there's so much less friction in doing what I want.
 
 You see, I have had an "ideas" folder since I first started using Notion, and over the years, ideas have only been going into the folder. Nothing came out. This was by design, as many of these were deferred to a future where I had the time to work on them.
