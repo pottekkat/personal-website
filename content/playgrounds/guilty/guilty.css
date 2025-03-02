@@ -1,0 +1,341 @@
+.guilty-game {
+  width: 100%;
+  margin: 40px auto;
+  padding: 14px;
+}
+
+/* .dark .guilty-game {
+  background-color: var(--hljs-bg);
+} */
+
+/* Help container and toggle */
+.guilty-help-container {
+  margin-bottom: 20px;
+  background-color: var(--code-bg);
+}
+
+.guilty-help-collapsed {
+  background-color: transparent;
+}
+
+.guilty-help-collapsed .guilty-instructions {
+  display: none;
+}
+
+.guilty-instructions {
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+  opacity: 1;
+  max-height: 300px;
+}
+
+.guilty-help-toggle {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 14px 14px;
+  color: var(--primary);
+  font-size: 14px;
+  cursor: default;
+  text-align: left;
+}
+
+/* Apply cursor pointer to help toggle after first answer (whether expanded or collapsed) */
+.guilty-help-toggle:not(.guilty-help-toggle-disabled) {
+  cursor: pointer;
+}
+
+/* Only apply hover effects after first answer (not in initial state) */
+.guilty-help-toggle:not(.guilty-help-toggle-disabled):hover .guilty-help-text {
+  color: var(--secondary);
+}
+
+/* Disable the help toggle initially */
+.guilty-help-toggle-disabled {
+  cursor: default;
+}
+
+.guilty-help-toggle-disabled:hover .guilty-help-text {
+  color: var(--primary);
+}
+
+.guilty-help-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  height: 12px;
+  background-color: transparent;
+  color: var(--primary);
+  margin-right: 6px;
+  flex-shrink: 0;
+}
+
+.guilty-help-icon svg {
+  width: 12px;
+  height: 12px;
+  fill: currentColor;
+}
+
+.guilty-help-toggle:not(.guilty-help-toggle-disabled):hover .guilty-help-icon svg {
+  fill: var(--secondary);
+}
+
+.guilty-help-toggle-disabled:hover .guilty-help-icon svg {
+  fill: var(--primary);
+}
+
+.guilty-game-board {
+  margin-bottom: 20px;
+}
+
+.guilty-input-area {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.guilty-word-input {
+  margin-right: 10px;
+  padding: 4px 10px;
+  color: var(--primary);
+  border: 2px solid var(--tertiary);
+  font-size: 14px;
+  width: 100%;
+  flex: 1;
+}
+
+.guilty-word-input:focus {
+  border-color: var(--secondary);
+}
+
+.guilty-submit-btn {
+  padding: 4px 10px;
+  background: var(--primary);
+  color: var(--code-bg);
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.guilty-submit-btn:hover {
+  background: var(--secondary);
+}
+
+.guilty-submit-btn:disabled {
+  background-color: var(--secondary);
+  cursor: not-allowed;
+}
+
+/* Attempts area */
+.guilty-attempts {
+  margin-bottom: 20px;
+}
+
+.guilty-attempts-empty {
+  background: var(--border);
+}
+
+.guilty-attempt-row {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: var(--code-bg);
+}
+
+.guilty-latest-attempt {
+  border-left: 3px solid var(--secondary);
+}
+
+.guilty-best-attempt {
+  font-weight: bold;
+}
+
+.guilty-attempt-number {
+  flex: 0 0 30px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.guilty-attempt-word {
+  flex: 1;
+  padding: 0 14px;
+  font-size: 14px;
+}
+
+.guilty-attempt-score {
+  font-size: 14px;
+  flex: 0 0 80px;
+  text-align: right;
+  padding: 4px 8px;
+  opacity: 0;
+}
+
+.guilty-score-revealed {
+  opacity: 1;
+}
+
+.guilty-highlight-transition {
+  transition: border-left-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.guilty-correct-pulse {
+  animation: correctPulse 0.3s ease-in-out;
+}
+
+@keyframes correctPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.01); }
+  100% { transform: scale(1); }
+}
+
+/* Results section */
+.guilty-results {
+  padding: 14px;
+  margin-top: 30px;
+  border: 1px solid var(--code-bg);
+}
+
+.dark .guilty-results {
+  background-color: var(--hljs-bg);
+}
+
+.guilty-results-title {
+  font-size: 14px;
+  color: var(--secondary);
+}
+
+.guilty-results-footer {
+  font-size: 12px;
+  color: var(--secondary);
+  margin-top: 20px;
+  margin-bottom: 0 !important;
+}
+
+.guilty-score-summary {
+  margin-bottom: 30px;
+}
+
+.guilty-score-row {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.guilty-score-bar-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  height: 14px;
+  overflow: visible;
+  position: relative;
+}
+
+.guilty-score-bar {
+  height: 100%;
+  background-color: var(--secondary);
+  transition: width 0.3s ease-in;
+  position: absolute;
+  left: 0;
+}
+
+.guilty-score-value {
+  padding: 0 10px;
+  white-space: nowrap;
+  color: var(--primary);
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  transition: margin-left 0.3s ease-in;
+  font-size: 14px;
+}
+
+.guilty-best-score {
+  background: var(--primary);
+}
+
+.guilty-share-container {
+  margin-top: 20px;
+}
+
+.guilty-share-btn {
+  padding: 4px 10px;
+  font-size: 14px;
+  background: var(--primary);
+  color: var(--code-bg);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.guilty-share-btn:hover {
+  background: var(--secondary);
+}
+
+.guilty-share-icon {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+  margin-right: 6px;
+  flex-shrink: 0;
+}
+
+.guilty-message {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 14px 30px;
+  background-color: var(--tertiary);
+  color: var(--secondary);
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  z-index: 1000;
+}
+
+.guilty-message-visible {
+  opacity: 1;
+}
+
+/* Add inline message styles */
+.guilty-inline-message {
+  margin: 8px 0;
+  padding: 0px 14px;
+  color: var(--secondary);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.guilty-message-icon {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+  margin-right: 6px;
+  flex-shrink: 0;
+}
+
+.guilty-message-text {
+  flex: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .guilty-game {
+    padding: 8px;
+  }
+  
+  .guilty-attempt-word {
+    font-size: 14px;
+  }
+  
+  .guilty-attempt-score {
+    flex: 0 0 60px;
+    font-size: 14px;
+  }
+} 
