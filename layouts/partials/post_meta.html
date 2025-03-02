@@ -18,7 +18,11 @@
 {{- end }}
 
 {{- if (.Param "ShowReadingTime") -}}
-{{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
+    {{- if .Params.readingTime -}}
+        {{- $scratch.Add "meta" (slice (printf "%d min" .Params.readingTime)) -}}
+    {{- else -}}
+        {{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) -}}
+    {{- end -}}
 {{- end }}
 
 {{- if (.Param "ShowWordCount") -}}
