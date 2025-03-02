@@ -1,0 +1,152 @@
+[
+    {
+        "title": "Right to Information • 1 of 6",
+        "question": "The <strong>Right to Information Act (RTI)</strong>, enacted in 2005, lets citizens <strong>access information held by public authorities</strong>, aiming to boost transparency and accountability. When it was introduced, some hailed it as a democratic tool, while others, including bureaucrats, feared misuse and administrative chaos.",
+        "correct": "positive",
+        "answers": [
+            {
+                "option": "Positive outcome",
+                "text": "It empowered citizens, cut corruption, and improved transparency in governance.",
+                "value": "positive",
+                "message": "<p>✅ <em>Nailed it!</em></p><p>Despite early fears, RTI has seen over 4800 applications daily, exposing corruption and driving policy shifts <a href=\"https://economictimes.indiatimes.com/news/politics-and-nation/1-75-crore-rti-applications-filed-since-2005-study/articleshow/54705694.cms\" target=\"_blank\">[The Economic Times]</a>. It's even <strong>encouraged proactive disclosure</strong> by officials, a win for accountability.</p><p>Everyone, especially the government, should be held accountable for their actions by society.</p>"
+            },
+            {
+                "option": "No outcome",
+                "text": "It didn't really change how government operates or affect corruption levels.",
+                "value": "no-effect",
+                "message": "<p>❌ <em>Not quite there!</em></p><p>RTI didn't just sit on the shelf—it's logged over 4800 requests daily, <strong>uncovering scams and pushing transparency</strong> <a href=\"https://economictimes.indiatimes.com/news/politics-and-nation/1-75-crore-rti-applications-filed-since-2005-study/articleshow/54705694.cms\" target=\"_blank\">[The Economic Times]</a>. It's even nudged officials to share more information upfront.</p><p>Everyone, especially the government, should be held accountable for their actions by society.</p>"
+            },
+            {
+                "option": "Negative outcome",
+                "text": "It bogged down officials with frivolous requests and increased corruption.",
+                "value": "negative",
+                "message": "<p>❌ <em>Off the mark!</em></p><p>While misuse was a worry, RTI has <strong>empowered citizens</strong> to hold the government accountable. With over 4800 RTI applications daily, it has helped cut corruption and boost accountability <a href=\"https://economictimes.indiatimes.com/news/politics-and-nation/1-75-crore-rti-applications-filed-since-2005-study/articleshow/54705694.cms\" target=\"_blank\">[The Economic Times]</a>. It's even led to <strong>voluntary disclosures</strong>, flipping the script on early fears.</p><p>A society needs to keep its government accountable for its actions in order to prosper.</p>"
+            }
+        ]
+    },
+    {
+        "title": "Minimum Support Price • 2 of 6",
+        "question": "The <strong>Minimum Support Price (MSP)</strong> is a guaranteed price set by the Indian government to <strong>protect farmers from market fluctuations and ensure stable incomes</strong> while encouraging food production. After its introduction in the 60s, MSP has evolved into a key mechanism for income and food security, covering 22 essential commodities through the Food Corporation of India (FCI).",
+        "correct": "negative",
+        "answers": [
+            {
+                "option": "Positive outcome",
+                "text": "It boosted food production and improved farmers' livelihoods while ensuring food security.",
+                "value": "positive",
+                "message": "<p>❌ <em>Not quite!</em></p><p>While it secured farmer incomes, it also <strong>increased paddy cultivation so much that the government's rice stocks were way above the buffer stock norms</strong>, leading to massive inefficiencies [<a href=\"https://www.financialexpress.com/opinion/from-plate-to-plough-sowing-paddy-reaping-smog/1760567/\" target=\"_blank\">Financial Express</a>]. The MSP heavily incentivized farmers in Punjab and Haryana—regions with low rainfall—to cultivate paddy, which started a chain of events <strong>contributing to the infamous Delhi smog</strong> [<a href=\"https://publicpolicy.substack.com/p/7-msp-is-really-maximum-smog-price\" target=\"_blank\">Anticipating the Unintended Substack</a>].</p><p>Markets and prices naturally guide production decisions. When interventions like the MSP attempt to override these signals through price controls, they often <strong>create long-term distortions</strong> that outweigh any short-term benefits.</p>"
+            },
+            {
+                "option": "No outcome",
+                "text": "It had no impact on farmers or agricultural practices.",
+                "value": "no-effect",
+                "message": "<p>❌ <em>Not quite!</em></p><p>In the short term, it increased food production and secured farmer incomes. In the long term, <strong>paddy cultivation increased so much that the government's rice stocks were way above the buffer stock norms</strong>, leading to massive inefficiencies [<a href=\"https://www.financialexpress.com/opinion/from-plate-to-plough-sowing-paddy-reaping-smog/1760567/\" target=\"_blank\">Financial Express</a>]. The MSP heavily incentivized farmers in Punjab and Haryana—regions with low rainfall—to cultivate paddy, which started a chain of events <strong>contributing to the infamous Delhi smog</strong> [<a href=\"https://publicpolicy.substack.com/p/7-msp-is-really-maximum-smog-price\" target=\"_blank\">Anticipating the Unintended Substack</a>].</p><p>Markets and prices naturally guide production decisions. When interventions like the MSP attempt to override these signals through price controls, they often <strong>create long-term distortions</strong> that outweigh any short-term benefits.</p>"
+            },
+            {
+                "option": "Negative outcome",
+                "text": "It didn't improve food security and incentivized unsustainable farming practices, hurting the farmers despite the minimum guarantee.",
+                "value": "negative",
+                "message": "<p>✅ <em>Correct!</em></p><p>While it secured farmer incomes, it also <strong>increased paddy cultivation so much that the government's rice stocks were way above the buffer stock norms</strong>, leading to massive inefficiencies [<a href=\"https://www.financialexpress.com/opinion/from-plate-to-plough-sowing-paddy-reaping-smog/1760567/\" target=\"_blank\">Financial Express</a>]. The MSP heavily incentivized farmers in Punjab and Haryana—regions with low rainfall—to cultivate paddy, which started a chain of events <strong>contributing to the infamous Delhi smog</strong> [<a href=\"https://publicpolicy.substack.com/p/7-msp-is-really-maximum-smog-price\" target=\"_blank\">Anticipating the Unintended Substack</a>].</p><p>Markets and prices naturally guide production decisions. When interventions like the MSP attempt to override these signals through price controls, they often <strong>create long-term distortions</strong> that outweigh any short-term benefits.</p>"
+            }
+        ]
+    },
+    {
+        "title": "Drug Price Control • 3 of 6",
+        "question": "The <strong>Drug Price Control Order (DPCO) 2013</strong> was rolled out to <strong>regulate the prices of essential medicines</strong> and make healthcare more accessible and affordable for India's poorest. Enforced by the National Pharmaceutical Pricing Authority, the policy <strong>capped prices based on the weighted average of market prices</strong> of the drugs under the National List of Essential Medicines (NLEM).",
+        "correct": "negative",
+        "answers": [
+            {
+                "option": "Positive outcome",
+                "text": "It made essential medicines affordable and improved access to healthcare nationwide, particularly for economically disadvantaged populations.",
+                "value": "positive",
+                "message": "<p>❌ <em>Not quite the cure!</em></p><p>While prices dropped, pharma companies <strong>shifted focus to unregulated (but related) drugs</strong>, reducing the use of price-capped medicines, especially among less formally educated doctors serving the poor <a href=\"https://www.ama.org/2024/06/04/how-an-indian-government-policy-backfired-prescription-drug-price-regulations-led-to-more-marketing-for-unregulated-medications/\" target=\"_blank\">[AMA Study]</a>. This <strong>undermined access to essentials</strong>, turning a good intention into a public health setback.</p><p>Price controls can sound noble, but they often <strong>distort market incentives</strong> in unexpected ways.</p>"
+            },
+            {
+                "option": "No outcome",
+                "text": "It didn't improve the affordability of medicines or access to healthcare.",
+                "value": "no-effect",
+                "message": "<p>❌ <em>Not quite the cure!</em></p><p>It did lower some prices, but the real story is that companies <strong>pushed unregulated drugs instead</strong>, cutting the availability of price-controlled essentials, especially for the disadvantaged <a href=\"https://www.ama.org/2024/06/04/how-an-indian-government-policy-backfired-prescription-drug-price-regulations-led-to-more-marketing-for-unregulated-medications/\" target=\"_blank\">[AMA Study]</a>. The policy didn't just sit idle—it <strong>shifted the problem</strong> rather than solving it.</p><p>Price controls can sound noble, but they often <strong>distort market incentives</strong> in unexpected ways.</p>"
+            },
+            {
+                "option": "Negative outcome",
+                "text": "It declined sales of essential drugs with no significant change in affordability, disproportionately affecting economically disadvantaged populations.",
+                "value": "negative",
+                "message": "<p>✅ <em>Right diagnosis!</em></p><p>Though it aimed to help, pharma firms <strong>sidestepped price-caps by marketing unregulated drugs</strong>, slashing the use of essential medicines, particularly among less formally educated doctors in poor areas <a href=\"https://www.ama.org/2024/06/04/how-an-indian-government-policy-backfired-prescription-drug-price-regulations-led-to-more-marketing-for-unregulated-medications/\" target=\"_blank\">[AMA Study]</a>. This <strong>hurt public health</strong> more than it helped affordability.</p><p>Price controls can <strong>distort market dynamics</strong>, often leaving the vulnerable worse off.</p>"
+            }
+        ]
+    },
+    {
+        "title": "Economic Reforms • 4 of 6",
+        "question": "The Indian government introduced <strong>sweeping economic reforms</strong> to <strong>remove licensing barriers, open up trade, and attract foreign investment</strong> in an attempt to reduce the state's role in industries and allow private enterprises to compete more freely in the market. This policy received a lot of criticism, with many arguing that it would <strong>lead to job losses and foreign domination</strong>, hurting both the workers and the local industries alike.",
+        "correct": "positive",
+        "answers": [
+            {
+                "option": "Positive outcome",
+                "text": "It spurred economic growth, increased investments, and reduced poverty in the long run.",
+                "value": "positive",
+                "message": "<p>✅ <em>Exactly right!</em></p><p>Despite fears of economic collapse, these reforms—the <strong>1991 Liberalization, Privatization, and Globalization (LPG) Reforms</strong>—<strong>transformed India's economy</strong>. GDP growth soared, foreign investment increased dramatically, and India became a major player in the global economy [<a href=\"https://www.removepaywall.com/search?url=https://economictimes.indiatimes.com/markets/stocks/news/since-1991-budget-size-grew-19-times-economy-9-times-your-income-5-times/articleshow/62735382.cms\" target=\"_blank\">The Economic Times</a>]. Millions were lifted out of poverty as new job opportunities emerged.</p><p>This was a <strong>watershed moment</strong> in India's economic history.</p>"
+            },
+            {
+                "option": "No outcome",
+                "text": "It had little effect—economic conditions remained largely unchanged.",
+                "value": "no-effect",
+                "message": "<p>❌ <em>Not quite!</em></p><p>This was one of the most <strong>transformative economic shifts</strong> in India's history. The policy—known as the <strong>1991 LPG Reforms</strong>—paved the way for high growth, foreign investments, and an expanding middle class. The years after its implementation saw rapid industrialization and urbanization [<a href=\"https://www.removepaywall.com/search?url=https://economictimes.indiatimes.com/markets/stocks/news/since-1991-budget-size-grew-19-times-economy-9-times-your-income-5-times/articleshow/62735382.cms\" target=\"_blank\">The Economic Times</a>].</p><p>India's economy opened up, and while the full benefits weren't immediate, it created the foundation for the country's economic rise.</p>"
+            },
+            {
+                "option": "Negative outcome",
+                "text": "It led to job losses, worsened economic disparity, and harmed local workers and industries.",
+                "value": "negative",
+                "message": "<p>❌ <em>Not quite!</em></p><p>While opposition at the time feared foreign domination and job losses, these reforms—now known as the <strong>1991 LPG Reforms</strong>—<strong>boosted economic growth, investment, and entrepreneurship</strong>. India went from a struggling, heavily controlled economy to a rising global player [<a href=\"https://www.removepaywall.com/search?url=https://economictimes.indiatimes.com/markets/stocks/news/since-1991-budget-size-grew-19-times-economy-9-times-your-income-5-times/articleshow/62735382.cms\" target=\"_blank\">The Economic Times</a>].</p><p>Although some industries needed time to adjust, the overall effect was overwhelmingly positive, making India more competitive and prosperous in the long run.</p>"
+            }
+        ]
+    },
+    {
+        "title": "Make in India • 5 of 6",
+        "question": "<p>The government launched the <strong>Make in India</strong> initiative to turn India into a global manufacturing powerhouse. The policy aimed to <strong>boost domestic production, attract foreign investment, and generate millions of manufacturing jobs</strong>. It was heavily promoted as a way to reduce dependence on imports and strengthen the economy.</p>",
+        "correct": "no-effect",
+        "answers": [
+            {
+                "option": "Positive outcome",
+                "text": "It significantly increased manufacturing output, created jobs, and boosted exports.",
+                "value": "positive",
+                "message": "<p>❌ <em>Not quite!</em></p><p>Despite the hype, <strong>Make in India failed to achieve its core goals</strong>. Manufacturing's share of GDP remained stagnant at ~17%, job creation fell far short of expectations, and foreign investment in manufacturing sectors was limited [<a href=\"https://www.hudson.org/domestic-policy/indias-manufacturing-sector-stagnant-relying-pli-not-enough-policies-need-relook-aparna-pande\" target=\"_blank\">Hudson Institute</a>].</p><p>While it helped ease regulations and improve infrastructure, <strong>it did not lead to the manufacturing boom</strong> that was promised.</p>"
+            },
+            {
+                "option": "No outcome",
+                "text": "It had little effect—manufacturing and exports remained largely unchanged.",
+                "value": "no-effect",
+                "message": "<p>✅ <em>Exactly right!</em></p><p>Despite grand ambitions, <strong>Make in India failed to deliver</strong>. The manufacturing sector's contribution to GDP barely moved, and job growth was nowhere near expectations. Industrial production did not see a major transformation, and India's exports remained sluggish [<a href=\"https://www.hudson.org/domestic-policy/indias-manufacturing-sector-stagnant-relying-pli-not-enough-policies-need-relook-aparna-pande\" target=\"_blank\">Hudson Institute</a>].</p><p>While some industries benefited, the overall impact was minimal—this was a policy that was made to <strong>look promising on paper but had little real-world effect</strong>.</p>"
+            },
+            {
+                "option": "Negative outcome",
+                "text": "It harmed domestic businesses and led to economic setbacks.",
+                "value": "negative",
+                "message": "<p>❌ <em>Not quite!</em></p><p><strong>Make in India didn't fail spectacularly—it just didn't work.</strong> Manufacturing output stagnated, job creation was minimal, and the economy remained largely dependent on services. However, it didn't actively harm industries—it simply didn't have a measurable impact [<a href=\"https://www.hudson.org/domestic-policy/indias-manufacturing-sector-stagnant-relying-pli-not-enough-policies-need-relook-aparna-pande\" target=\"_blank\">Hudson Institute</a>].</p><p>Some minor reforms were useful, but overall, the policy <strong>did not change the trajectory of India's economy</strong> like it promised.</p>"
+            }
+        ]
+    },
+    {
+        "title": "Alcohol Prohibition • 6 of 6",
+        "question": "In multiple Indian states, <strong>alcohol prohibition</strong> was introduced to <strong>curb consumption and reduce social harms</strong> like domestic violence and drunk driving, in line with Article 47 of the Constitution. Rooted in Gandhian ideals, it aimed to improve public health and social order.",
+        "correct": "negative",
+        "answers": [
+            {
+                "option": "Positive outcome",
+                "text": "It reduced alcohol consumption and improved public health across these states.",
+                "value": "positive",
+                "message": "<p>❌ <em>Oops, not quite!</em></p><p>While it did lower drinking rates in some areas, prohibition also <strong>sparked a boom in illegal liquor trade and substance abuse</strong>, with adulterated booze causing health crises and deaths, like the frequent hooch tragedies in Bihar <a href=\"https://en.wikipedia.org/wiki/2022_Bihar_alcohol_poisoning\" target=\"_blank\">[Wikipedia]</a>. Enforcement struggles led to <strong>increased corruption</strong> and lost tax revenue, outweighing the initial benefits <a href=\"https://ageconsearch.umn.edu/record/275972\" target=\"_blank\">[Pullabhotla, 2018]</a>.</p><p>When policies ban rather than regulate, they often <strong>drive activities underground</strong>, creating bigger problems than they attempt to solve.</p>"
+            },
+            {
+                "option": "No outcome",
+                "text": "It had no significant impact on alcohol-related issues or social order.",
+                "value": "no-effect",
+                "message": "<p>❌ <em>Not exactly!</em></p><p>It did reduce some alcohol consumption initially, but the policy <strong>triggered a rise in illegal liquor markets</strong>, leading to deadly consequences like methanol poisoning <a href=\"https://en.wikipedia.org/wiki/2022_Bihar_alcohol_poisoning\" target=\"_blank\">[Wikipedia]</a>. The <strong>economic hit from lost tax revenue</strong> and corruption in enforcement added to the woes <a href=\"https://ageconsearch.umn.edu/record/275972\" target=\"_blank\">[Pullabhotla, 2018]</a>.</p><p>When policies ban rather than regulate, they often <strong>drive activities underground</strong>, creating bigger problems than they attempt to solve.</p>"
+            },
+            {
+                "option": "Negative outcome",
+                "text": "It failed to stop alcohol consumption effectively and fueled illegal trade, harming public health and safety.",
+                "value": "negative",
+                "message": "<p>✅ <em>Spot on!</em></p><p>While it aimed to cut alcohol-related harms, prohibition <strong>sparked a boom in illegal liquor trade</strong>, with adulterated drinks causing health crises and deaths, like Bihar's hooch incidents <a href=\"https://en.wikipedia.org/wiki/2022_Bihar_alcohol_poisoning\" target=\"_blank\">[Wikipedia]</a>. Enforcement struggles fueled <strong>corruption and slashed tax revenue</strong>, outweighing any initial benefits <a href=\"https://ageconsearch.umn.edu/record/275972\" target=\"_blank\">[Pullabhotla, 2018]</a>.</p><p>Banning rather than regulating often <strong>drives activities underground</strong>, creating bigger headaches than anticipated.</p>"
+            }
+        ]
+    }
+]
