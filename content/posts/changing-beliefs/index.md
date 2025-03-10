@@ -46,7 +46,7 @@ This is the introduction.
 </style>
 
 <!-- Load p5.js libraries once per page -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js"></script>
 {{< /rawhtml >}}
 
 {{< rawhtml >}}
@@ -54,49 +54,52 @@ This is the introduction.
 <div id="sketch-container-1" class="sketch-container"></div>
 
 <script>
-// This creates an instance mode sketch that won't conflict with other sketches
+/**
+ * Interactive Grid of Squares
+ * 
+ * This sketch creates a responsive grid of squares that change color on hover.
+ * It uses p5.js in "instance mode" to avoid conflicts with other scripts.
+ * 
+ * The code is structured in these main parts:
+ * 1. Square class - Manages individual squares in the grid
+ * 2. Layout calculation - Handles responsive sizing and positioning
+ * 3. p5.js lifecycle methods (setup, draw) - Initialize and render the sketch
+ * 4. Event handling - Responds to window resize and mouse interaction
+ */
 const sketch1 = (p) => {
-  // Grid configuration
-  const gridSize = { rows: 5, cols: 10 }; // 5×10 grid = 50 squares
-  const squares = [];
-  let squareSize, paddingX, paddingY, startY;
+  // Configuration for our grid
+  const gridSize = { rows: 5, cols: 10 }; // Creates 50 squares (5×10)
+  const squares = []; // Will hold all our square objects
   
-  // Helper function to get CSS variable color
-  const getCSSColor = (varName) => {
-    const color = getComputedStyle(document.documentElement).getPropertyValue(varName).trim();
-    
-    if (color.startsWith('#')) {
-      // Convert hex to RGB
-      const r = parseInt(color.slice(1, 3), 16);
-      const g = parseInt(color.slice(3, 5), 16);
-      const b = parseInt(color.slice(5, 7), 16);
-      return [r, g, b];
-    } else if (color.startsWith('rgb')) {
-      // Extract RGB values
-      return color.match(/\d+/g)?.slice(0, 3).map(Number) || color;
-    }
-    
-    return color;
-  };
+  // Variables for layout calculations
+  let squareSize;   // Size of each square
+  let paddingX;     // Horizontal space between squares
+  let paddingY;     // Vertical space between squares
+  let startY;       // Starting Y position to center grid vertically
   
-  // Square class
+  // Colors from CSS variables (cached on setup)
+  let primaryColor, secondaryColor;
+  
+  /**
+   * Square class - Represents a single square in the grid
+   * Each square knows its position and can detect mouse hover
+   */
   class Square {
     constructor(row, col) {
       this.row = row;
       this.col = col;
-      this.x = 0;
-      this.y = 0;
+      this.x = 0;      // Will be calculated in update()
+      this.y = 0;      // Will be calculated in update()
       this.hovered = false;
-      this.primaryColor = getCSSColor('--primary');
-      this.secondaryColor = getCSSColor('--secondary');
     }
     
+    // Update square position and check for mouse hover
     update(mouseX, mouseY) {
-      // Position
+      // Calculate position based on grid layout
       this.x = paddingX + (this.col * (squareSize + paddingX));
       this.y = startY + (this.row * (squareSize + paddingY));
       
-      // Hover detection - immediate change, no animation
+      // Check if mouse is over this square
       this.hovered = 
         mouseX > this.x && 
         mouseX < this.x + squareSize && 
@@ -104,54 +107,64 @@ const sketch1 = (p) => {
         mouseY < this.y + squareSize;
     }
     
+    // Draw the square with appropriate color
     draw() {
-      // Draw square with sharp edges
-      if (Array.isArray(this.primaryColor) && Array.isArray(this.secondaryColor)) {
-        const color = this.hovered ? this.secondaryColor : this.primaryColor;
-        p.fill(color[0], color[1], color[2]);
-      } else {
-        p.fill(this.hovered ? this.secondaryColor : this.primaryColor);
-      }
-      
-      p.noStroke(); // No border
-      p.rect(this.x, this.y, squareSize, squareSize); // Sharp corners (no radius)
+      // Use hover color or default color
+      p.fill(this.hovered ? secondaryColor : primaryColor);
+      p.noStroke(); // No border for clean look
+      p.rect(this.x, this.y, squareSize, squareSize); // Draw square
     }
   }
   
-  // Calculate layout dimensions
+  /**
+   * Calculate layout dimensions based on container size
+   * This ensures the grid is responsive and properly centered
+   */
   const calculateLayout = () => {
+    // Get container dimensions
     const container = document.getElementById('sketch-container-1');
     const containerWidth = container.offsetWidth - 28; // Account for padding
-    const containerHeight = containerWidth * 0.6;
+    const containerHeight = containerWidth * 0.6; // Maintain aspect ratio
     
-    // Resize canvas if it exists
+    // Resize canvas if it already exists
     if (p.width > 0) {
       p.resizeCanvas(containerWidth, containerHeight);
     }
     
-    // Calculate square size for even distribution
+    // Calculate optimal square size and spacing
     const gapRatio = 0.2; // Gap is 20% of square size
+    
+    // Calculate maximum possible square size that fits the container
     const maxSquareWidth = containerWidth / (gridSize.cols + ((gridSize.cols - 1) * gapRatio));
     const maxSquareHeight = containerHeight / (gridSize.rows + ((gridSize.rows - 1) * gapRatio));
     squareSize = Math.min(maxSquareWidth, maxSquareHeight);
     
-    // Calculate padding
+    // Calculate padding between squares
     paddingX = (containerWidth - (squareSize * gridSize.cols)) / (gridSize.cols + 1);
     paddingY = squareSize * gapRatio;
     
-    // Center grid vertically
+    // Center grid vertically within container
     const totalGridHeight = (squareSize * gridSize.rows) + (paddingY * (gridSize.rows - 1));
     startY = (containerHeight - totalGridHeight) / 2;
     
     return { width: containerWidth, height: containerHeight };
   };
   
+  /**
+   * p5.js setup function - runs once at the beginning
+   * Initializes the canvas and creates all square objects
+   */
   p.setup = function() {
+    // Get CSS variables for colors
+    const root = getComputedStyle(document.documentElement);
+    primaryColor = root.getPropertyValue('--primary').trim();
+    secondaryColor = root.getPropertyValue('--secondary').trim();
+    
     // Calculate dimensions and create canvas
     const dimensions = calculateLayout();
     p.createCanvas(dimensions.width, dimensions.height);
     
-    // Create squares
+    // Create all squares in the grid
     squares.length = 0; // Clear any existing squares
     for (let row = 0; row < gridSize.rows; row++) {
       for (let col = 0; col < gridSize.cols; col++) {
@@ -160,21 +173,25 @@ const sketch1 = (p) => {
     }
   };
 
+  /**
+   * p5.js draw function - runs continuously in a loop
+   * Updates and renders all squares
+   */
   p.draw = function() {
     p.clear(); // Transparent background
     
-    // Update and draw squares
+    // Update and draw each square
     squares.forEach(square => {
       square.update(p.mouseX, p.mouseY);
       square.draw();
     });
   };
 
-  // Handle window resize
+  // Handle window resize events
   p.windowResized = calculateLayout;
 };
 
-// Create the sketch in the specific container
+// Create the sketch in the container
 new p5(sketch1, document.getElementById('sketch-container-1'));
 </script>
 {{< /rawhtml >}}
