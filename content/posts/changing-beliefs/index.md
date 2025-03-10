@@ -147,14 +147,9 @@ const sketch1 = (p) => {
   };
   
   p.setup = function() {
-    // Calculate dimensions
+    // Calculate dimensions and create canvas
     const dimensions = calculateLayout();
-    
-    // Create canvas and properly append it to the container
-    const canvas = p.createCanvas(dimensions.width, dimensions.height);
-    
-    // Fix for the appendChild error - use parent() instead of style()
-    canvas.parent('sketch-container-1');
+    p.createCanvas(dimensions.width, dimensions.height);
     
     // Create squares
     squares.length = 0; // Clear any existing squares
