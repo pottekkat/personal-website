@@ -68,7 +68,7 @@ This is the introduction.
  */
 const sketch1 = (p) => {
   // Configuration for our grid
-  const gridSize = { rows: 5, cols: 10 }; // Creates 50 squares (5×10)
+  const gridSize = { rows: 10, cols: 10 }; // Creates 50 squares (5×10)
   const squares = []; // Will hold all our square objects
   
   // Variables for layout calculations
@@ -124,28 +124,32 @@ const sketch1 = (p) => {
     // Get container dimensions
     const container = document.getElementById('sketch-container-1');
     const containerWidth = container.offsetWidth - 28; // Account for padding
-    const containerHeight = containerWidth * 0.6; // Maintain aspect ratio
+    
+    // Define a consistent padding that will be used throughout the grid
+    // Use a responsive padding that scales with container size but has minimum and maximum values
+    const minPadding = 4; // Minimum padding in pixels
+    const maxPadding = 20; // Maximum padding in pixels
+    const paddingRatio = 0.02; // 2% of container width
+    const padding = Math.min(Math.max(containerWidth * paddingRatio, minPadding), maxPadding);
+    
+    // Calculate the available space for squares after accounting for all padding
+    const availableWidth = containerWidth - (padding * (gridSize.cols + 1));
+    const squareWidth = availableWidth / gridSize.cols;
+    
+    // Calculate the total height needed for the grid with consistent padding
+    const totalHeight = (squareWidth * gridSize.rows) + (padding * (gridSize.rows + 1));
+    const containerHeight = totalHeight;
     
     // Resize canvas if it already exists
     if (p.width > 0) {
       p.resizeCanvas(containerWidth, containerHeight);
     }
     
-    // Calculate optimal square size and spacing
-    const gapRatio = 0.2; // Gap is 20% of square size
-    
-    // Calculate maximum possible square size that fits the container
-    const maxSquareWidth = containerWidth / (gridSize.cols + ((gridSize.cols - 1) * gapRatio));
-    const maxSquareHeight = containerHeight / (gridSize.rows + ((gridSize.rows - 1) * gapRatio));
-    squareSize = Math.min(maxSquareWidth, maxSquareHeight);
-    
-    // Calculate padding between squares
-    paddingX = (containerWidth - (squareSize * gridSize.cols)) / (gridSize.cols + 1);
-    paddingY = squareSize * gapRatio;
-    
-    // Center grid vertically within container
-    const totalGridHeight = (squareSize * gridSize.rows) + (paddingY * (gridSize.rows - 1));
-    startY = (containerHeight - totalGridHeight) / 2;
+    // Set square size and padding values
+    squareSize = squareWidth;
+    paddingX = padding;
+    paddingY = padding;
+    startY = padding; // Start from the top with consistent padding
     
     return { width: containerWidth, height: containerHeight };
   };
@@ -188,7 +192,10 @@ const sketch1 = (p) => {
   };
 
   // Handle window resize events
-  p.windowResized = calculateLayout;
+  p.windowResized = function() {
+    const dimensions = calculateLayout();
+    p.resizeCanvas(dimensions.width, dimensions.height);
+  };
 };
 
 // Create the sketch in the container
