@@ -3,27 +3,35 @@ title: The Idea of Changing Beliefs
 slug: changing-beliefs
 date: 2025-03-13T09:28:09+05:30
 readingTime: 5
-draft: false
+draft: true
 toc:
     show: false
 ShowRelatedContent: false
-description: An interactive guide to learning one of the foundational theories in probability.
-summary: An interactive quiz to teach the importance of evaluating actions by their consequences and not their intentions.
+description: An interactive guide for updating beliefs based on evidence.
+summary: A visual and interactive guide to understanding Bayes' Theorem, a fundamental tool for updating probabilities with new evidence.
 tags:
-    - government
-    - public policy
     - interactive
+    - mathematics
+    - visual
 categories:
-    - Public Policy
+    - Mathematics
 series: []
 aliases: []
 cover:
-    image: /images/intentions-and-consequences/red-sandalwood-banner.jpg
-    alt: Red Sandalwood Tree.
+    image: /images/changing-beliefs/testing-banner.jpg
+    alt: Photo of test tubes used for conducting medical tests.
     caption: The virtue of a doer itself does not guarantee good outcomes - The Nitopadesha
     relative: true
 fmContentType: Post (default)
 ---
+
+{{< blockquote author="Christopher Martyn" link="https://doi.org/10.1136/bmj.g5619" title="Risky business: doctors’ understanding of statistics" >}}
+If a test to detect a disease whose prevalence is 1/1000 has a false positive rate of 5%, what is the chance that a person found to have a positive result actually has the disease, assuming that you know nothing else about the person’s symptoms or signs?
+{{< /blockquote >}}
+
+Every once in a while some variation of the following question shows up on social media, sparking a debate between confused normal people until someone shows up in the comments with the idea of changing beliefs, more popularly known as the Bayes Theorem.
+
+This time, this was along another debate around the activities or the competency of the United States Department of Health and Human Services, The HHS.
 
 This is the introduction.
 
