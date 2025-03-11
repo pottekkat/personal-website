@@ -25,8 +25,8 @@ cover:
 fmContentType: Post (default)
 ---
 
-{{< blockquote author="Christopher Martyn" link="https://doi.org/10.1136/bmj.g5619" title="Risky business: doctors’ understanding of statistics" >}}
-If a test to detect a disease whose prevalence is 1/1000 has a false positive rate of 5%, what is the chance that a person found to have a positive result actually has the disease, assuming that you know nothing else about the person’s symptoms or signs?
+{{< blockquote author="Christopher Martyn" link="https://doi.org/10.1136/bmj.g5619" title="Risky business: doctors' understanding of statistics" >}}
+If a test to detect a disease whose prevalence is 1/1000 has a false positive rate of 5%, what is the chance that a person found to have a positive result actually has the disease, assuming that you know nothing else about the person's symptoms or signs?
 {{< /blockquote >}}
 
 Every once in a while some variation of the following question shows up on social media, sparking a debate between confused normal people until someone shows up in the comments with the idea of changing beliefs, more popularly known as the Bayes Theorem.
