@@ -283,6 +283,65 @@ new p5(sketch1, document.getElementById('sketch-container-1'));
 {{< /rawhtml >}}
 
 {{< rawhtml >}}
+<style>
+.legend-circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: inline-block;
+}
+.red-circle {
+  background-color: rgb(220, 53, 69);
+}
+.yellow-circle {
+  background-color: rgb(255, 193, 7);
+}
+.green-circle {
+  background-color: rgb(75, 192, 112);
+}
+</style>
+
+<p style="margin-bottom: 5px !important;">
+  <span class="legend-circle red-circle"></span>
+  <strong>1</strong> person <strong>has the disease</strong> and <strong>tested positive</strong> (because $P(D) = \frac{1}{1000}$ and $P(+ \mid D) = 1$).
+</p>
+<p style="margin-bottom: 5px !important;">
+  <span class="legend-circle yellow-circle"></span>
+  <strong>49</strong> people <strong>don't have the disease</strong> but <strong>tested positive</strong> (because $P(+ \mid \neg D) = 5\% = \frac{5}{100} \approx \frac{49}{999}$, for easier calculation).
+</p>
+<p>
+  <span class="legend-circle green-circle"></span>
+  <strong>950</strong> people <strong>don't have the disease</strong> and <strong>tested negative</strong>.
+</p>
+<p>
+From our sample of 1000 people, 50 tested positive for the disease (<span class="legend-circle red-circle" style="margin: 0 3px !important;"></span> and <span class="legend-circle yellow-circle" style="margin: 0 3px !important;"></span>). So, if a person tests positive, we know they are either the <span class="legend-circle red-circle" style="margin: 0 3px !important;"></span> 1 true positive or somewhere in the <span class="legend-circle yellow-circle" style="margin: 0 3px !important;"></span> 49 false positives. Hence, the <strong>probability of having the disease, given a person tested positive</strong>, can be written as:
+<p>
+{{< /rawhtml >}}
+
+$$
+\begin{aligned}
+P(D \mid +) &= \frac{Number \ of \ true \ positives}{Total \ number \ of \ positives} \\\\[3ex]
+&= \frac{Number \ of \ true \ positives}{Number \ of \ true \ positives + Number \ of \ false \ positives} \\\\[3ex]
+&= \frac{1}{1 + 49} \\\\[3ex]
+&= \boxed{2\\%}
+\end{aligned}
+$$
+
+We can arrive at the same result mathematically through Bayes' Theorem:
+
+$$
+\begin{aligned}
+P(D \mid +) &= \frac{P(D \cap +)}{P(+)} \\\\[3ex]
+&= \frac{\frac{1}{1000}}{\frac{1}{1000} + \frac{49}{1000}} \\\\[3ex]
+&= \frac{1}{50} \\\\[3ex]
+&= \boxed{2\\%}
+\end{aligned}
+$$
+
+When you look at an example, arriving at 2% seems obvious and intuitive. Then why are people answering this question wrong? It is because they are using the new information on its own instead of using the new information to update their existing beliefs.
+
+{{< rawhtml >}}
 <!-- Create a container for this specific sketch -->
 <div id="sketch-container-2" class="sketch-container"></div>
 
