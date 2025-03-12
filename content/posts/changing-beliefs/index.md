@@ -101,11 +101,8 @@ const sketch1 = (p) => {
   let startY;       // Starting Y position to center grid vertically
   
   // Colors for our circles
-  let greenColor, yellowColor, redColor, hoverColor;
-  
-  // Legend configuration
-  let legendHeight = 60; // Height for the legend area
-  let legendPadding = 10; // Padding around legend items
+  let greenColor, yellowColor, redColor;
+  let greenHoverColor, yellowHoverColor, redHoverColor;
   
   /**
    * Circle class - Represents a single circle in the grid
@@ -135,7 +132,11 @@ const sketch1 = (p) => {
     draw() {
       // Determine fill color based on type and hover state
       if (this.hovered) {
-        p.fill(hoverColor);
+        switch (this.colorType) {
+          case 'red': p.fill(redHoverColor); break;
+          case 'yellow': p.fill(yellowHoverColor); break;
+          default: p.fill(greenHoverColor); // green is default
+        }
       } else {
         switch (this.colorType) {
           case 'red': p.fill(redColor); break;
@@ -149,9 +150,30 @@ const sketch1 = (p) => {
     }
   }
   
+  // Create lighter/darker versions of colors for hover states
+  const createHoverColors = () => {
+    // Helper function to create hover color
+    const createHoverColor = (baseColor, factor) => {
+      const r = p.red(baseColor);
+      const g = p.green(baseColor);
+      const b = p.blue(baseColor);
+      
+      // Adjust brightness based on factor
+      return p.color(
+        p.constrain(r * factor, 0, 255),
+        p.constrain(g * factor, 0, 255),
+        p.constrain(b * factor, 0, 255)
+      );
+    };
+    
+    // Create hover colors
+    greenHoverColor = createHoverColor(greenColor, 1.2);
+    yellowHoverColor = createHoverColor(yellowColor, 1.1); // Darker for yellow as it's already bright
+    redHoverColor = createHoverColor(redColor, 1.2);
+  };
+  
   /**
    * Calculate layout dimensions based on container size
-   * This ensures the grid is responsive and properly centered
    */
   const calculateLayout = () => {
     // Get container dimensions
@@ -159,7 +181,6 @@ const sketch1 = (p) => {
     const containerWidth = container.offsetWidth - 28; // Account for padding
     
     // Define a consistent padding that will be used throughout the grid
-    // Use a responsive padding that scales with container size but has minimum and maximum values
     const minPadding = 2; // Minimum padding in pixels
     const maxPadding = 10; // Maximum padding in pixels
     const paddingRatio = 0.01; // 1% of container width
@@ -170,13 +191,10 @@ const sketch1 = (p) => {
     const circleWidth = availableWidth / gridSize.cols;
     
     // Calculate the total height needed for the grid with consistent padding
-    const totalHeight = (circleWidth * gridSize.rows) + (padding * (gridSize.rows + 1)) + legendHeight;
-    const containerHeight = totalHeight;
+    const gridHeight = (circleWidth * gridSize.rows) + (padding * (gridSize.rows + 1));
     
-    // Resize canvas if it already exists
-    if (p.width > 0) {
-      p.resizeCanvas(containerWidth, containerHeight);
-    }
+    // Use exactly the same padding at the bottom as at the top
+    const totalHeight = gridHeight;
     
     // Set circle size and padding values
     circleSize = circleWidth;
@@ -184,38 +202,7 @@ const sketch1 = (p) => {
     paddingY = padding;
     startY = padding; // Start from the top with consistent padding
     
-    return { width: containerWidth, height: containerHeight };
-  };
-  
-  // Draw the legend at the bottom of the canvas
-  const drawLegend = () => {
-    const legendY = p.height - legendHeight + legendPadding;
-    const itemSpacing = 120; // Horizontal spacing between legend items
-    const circleRadius = 8; // Size of the legend circles
-    const textOffset = 15; // Space between circle and text
-    
-    let startX = paddingX * 2;
-    
-    // Red circle - Person with disease
-    p.fill(redColor);
-    p.ellipse(startX, legendY, circleRadius * 2);
-    p.fill(0); // Text color
-    p.textAlign(p.LEFT, p.CENTER);
-    p.text("Person with disease (1)", startX + textOffset, legendY);
-    
-    // Yellow circle - False positive
-    startX += itemSpacing;
-    p.fill(yellowColor);
-    p.ellipse(startX, legendY, circleRadius * 2);
-    p.fill(0); // Text color
-    p.text("False positives (49)", startX + textOffset, legendY);
-    
-    // Green circle - True negative
-    startX += itemSpacing;
-    p.fill(greenColor);
-    p.ellipse(startX, legendY, circleRadius * 2);
-    p.fill(0); // Text color
-    p.text("True negatives (950)", startX + textOffset, legendY);
+    return { width: containerWidth, height: totalHeight };
   };
   
   /**
@@ -227,7 +214,9 @@ const sketch1 = (p) => {
     greenColor = p.color(75, 192, 112); // Softer green
     yellowColor = p.color(255, 193, 7); // Amber yellow
     redColor = p.color(220, 53, 69); // Bootstrap danger red
-    hoverColor = p.color(108, 117, 125); // Gray for hover
+    
+    // Create hover colors
+    createHoverColors();
     
     // Calculate dimensions and create canvas
     const dimensions = calculateLayout();
@@ -265,10 +254,6 @@ const sketch1 = (p) => {
       
       circles.push(new Circle(row, col, colorType));
     }
-    
-    // Set text properties
-    p.textSize(12);
-    p.textFont('Arial');
   };
 
   /**
@@ -283,9 +268,6 @@ const sketch1 = (p) => {
       circle.update(p.mouseX, p.mouseY);
       circle.draw();
     });
-    
-    // Draw the legend
-    drawLegend();
   };
 
   // Handle window resize events
