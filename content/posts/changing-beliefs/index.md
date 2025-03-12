@@ -82,64 +82,70 @@ If we consider a sample of 1000 people and assume the test is perfectly accurate
 
 <script>
 /**
- * Interactive Grid of Squares
+ * Interactive Grid of Circles
  * 
- * This sketch creates a responsive grid of squares that change color on hover.
- * It uses p5.js in "instance mode" to avoid conflicts with other scripts.
- * 
- * The code is structured in these main parts:
- * 1. Square class - Manages individual squares in the grid
- * 2. Layout calculation - Handles responsive sizing and positioning
- * 3. p5.js lifecycle methods (setup, draw) - Initialize and render the sketch
- * 4. Event handling - Responds to window resize and mouse interaction
+ * This sketch creates a responsive grid of 1000 circles with specific color distribution:
+ * - 1 red circle (representing a person with the disease)
+ * - 49 yellow circles (representing false positives)
+ * - 950 green circles (representing true negatives)
  */
 const sketch1 = (p) => {
-  // Configuration for our grid
-  const gridSize = { rows: 10, cols: 10 }; // Creates 50 squares (5×10)
-  const squares = []; // Will hold all our square objects
+  // Configuration for our grid - 1000 elements total
+  const gridSize = { rows: 25, cols: 40 }; // 25×40 = 1000 circles
+  const circles = []; // Will hold all our circle objects
   
   // Variables for layout calculations
-  let squareSize;   // Size of each square
-  let paddingX;     // Horizontal space between squares
-  let paddingY;     // Vertical space between squares
+  let circleSize;   // Size of each circle
+  let paddingX;     // Horizontal space between circles
+  let paddingY;     // Vertical space between circles
   let startY;       // Starting Y position to center grid vertically
   
-  // Colors from CSS variables (cached on setup)
-  let primaryColor, secondaryColor;
+  // Colors for our circles
+  let greenColor, yellowColor, redColor, hoverColor;
+  
+  // Legend configuration
+  let legendHeight = 60; // Height for the legend area
+  let legendPadding = 10; // Padding around legend items
   
   /**
-   * Square class - Represents a single square in the grid
-   * Each square knows its position and can detect mouse hover
+   * Circle class - Represents a single circle in the grid
    */
-  class Square {
-    constructor(row, col) {
+  class Circle {
+    constructor(row, col, colorType) {
       this.row = row;
       this.col = col;
       this.x = 0;      // Will be calculated in update()
       this.y = 0;      // Will be calculated in update()
+      this.colorType = colorType; // 'red', 'yellow', or 'green'
       this.hovered = false;
     }
     
-    // Update square position and check for mouse hover
+    // Update circle position and check for mouse hover
     update(mouseX, mouseY) {
       // Calculate position based on grid layout
-      this.x = paddingX + (this.col * (squareSize + paddingX));
-      this.y = startY + (this.row * (squareSize + paddingY));
+      this.x = paddingX + (this.col * (circleSize + paddingX)) + (circleSize / 2);
+      this.y = startY + (this.row * (circleSize + paddingY)) + (circleSize / 2);
       
-      // Check if mouse is over this square
-      this.hovered = 
-        mouseX > this.x && 
-        mouseX < this.x + squareSize && 
-        mouseY > this.y && 
-        mouseY < this.y + squareSize;
+      // Check if mouse is over this circle
+      const distance = p.dist(mouseX, mouseY, this.x, this.y);
+      this.hovered = distance < circleSize / 2;
     }
     
-    // Draw the square with appropriate color
+    // Draw the circle with appropriate color
     draw() {
-      // Use hover color or default color
-      p.fill(this.hovered ? secondaryColor : primaryColor);
+      // Determine fill color based on type and hover state
+      if (this.hovered) {
+        p.fill(hoverColor);
+      } else {
+        switch (this.colorType) {
+          case 'red': p.fill(redColor); break;
+          case 'yellow': p.fill(yellowColor); break;
+          default: p.fill(greenColor); // green is default
+        }
+      }
+      
       p.noStroke(); // No border for clean look
-      p.rect(this.x, this.y, squareSize, squareSize); // Draw square
+      p.ellipse(this.x, this.y, circleSize); // Draw circle
     }
   }
   
@@ -154,17 +160,17 @@ const sketch1 = (p) => {
     
     // Define a consistent padding that will be used throughout the grid
     // Use a responsive padding that scales with container size but has minimum and maximum values
-    const minPadding = 4; // Minimum padding in pixels
-    const maxPadding = 20; // Maximum padding in pixels
-    const paddingRatio = 0.02; // 2% of container width
+    const minPadding = 2; // Minimum padding in pixels
+    const maxPadding = 10; // Maximum padding in pixels
+    const paddingRatio = 0.01; // 1% of container width
     const padding = Math.min(Math.max(containerWidth * paddingRatio, minPadding), maxPadding);
     
-    // Calculate the available space for squares after accounting for all padding
+    // Calculate the available space for circles after accounting for all padding
     const availableWidth = containerWidth - (padding * (gridSize.cols + 1));
-    const squareWidth = availableWidth / gridSize.cols;
+    const circleWidth = availableWidth / gridSize.cols;
     
     // Calculate the total height needed for the grid with consistent padding
-    const totalHeight = (squareWidth * gridSize.rows) + (padding * (gridSize.rows + 1));
+    const totalHeight = (circleWidth * gridSize.rows) + (padding * (gridSize.rows + 1)) + legendHeight;
     const containerHeight = totalHeight;
     
     // Resize canvas if it already exists
@@ -172,8 +178,8 @@ const sketch1 = (p) => {
       p.resizeCanvas(containerWidth, containerHeight);
     }
     
-    // Set square size and padding values
-    squareSize = squareWidth;
+    // Set circle size and padding values
+    circleSize = circleWidth;
     paddingX = padding;
     paddingY = padding;
     startY = padding; // Start from the top with consistent padding
@@ -181,41 +187,105 @@ const sketch1 = (p) => {
     return { width: containerWidth, height: containerHeight };
   };
   
+  // Draw the legend at the bottom of the canvas
+  const drawLegend = () => {
+    const legendY = p.height - legendHeight + legendPadding;
+    const itemSpacing = 120; // Horizontal spacing between legend items
+    const circleRadius = 8; // Size of the legend circles
+    const textOffset = 15; // Space between circle and text
+    
+    let startX = paddingX * 2;
+    
+    // Red circle - Person with disease
+    p.fill(redColor);
+    p.ellipse(startX, legendY, circleRadius * 2);
+    p.fill(0); // Text color
+    p.textAlign(p.LEFT, p.CENTER);
+    p.text("Person with disease (1)", startX + textOffset, legendY);
+    
+    // Yellow circle - False positive
+    startX += itemSpacing;
+    p.fill(yellowColor);
+    p.ellipse(startX, legendY, circleRadius * 2);
+    p.fill(0); // Text color
+    p.text("False positives (49)", startX + textOffset, legendY);
+    
+    // Green circle - True negative
+    startX += itemSpacing;
+    p.fill(greenColor);
+    p.ellipse(startX, legendY, circleRadius * 2);
+    p.fill(0); // Text color
+    p.text("True negatives (950)", startX + textOffset, legendY);
+  };
+  
   /**
    * p5.js setup function - runs once at the beginning
-   * Initializes the canvas and creates all square objects
+   * Initializes the canvas and creates all circle objects
    */
   p.setup = function() {
-    // Get CSS variables for colors
-    const root = getComputedStyle(document.documentElement);
-    primaryColor = root.getPropertyValue('--primary').trim();
-    secondaryColor = root.getPropertyValue('--secondary').trim();
+    // Get colors that work in both light and dark themes
+    greenColor = p.color(75, 192, 112); // Softer green
+    yellowColor = p.color(255, 193, 7); // Amber yellow
+    redColor = p.color(220, 53, 69); // Bootstrap danger red
+    hoverColor = p.color(108, 117, 125); // Gray for hover
     
     // Calculate dimensions and create canvas
     const dimensions = calculateLayout();
     p.createCanvas(dimensions.width, dimensions.height);
     
-    // Create all squares in the grid
-    squares.length = 0; // Clear any existing squares
-    for (let row = 0; row < gridSize.rows; row++) {
-      for (let col = 0; col < gridSize.cols; col++) {
-        squares.push(new Square(row, col));
-      }
+    // Create all circles in the grid with specific color distribution
+    circles.length = 0; // Clear any existing circles
+    
+    // Create array of positions and shuffle it
+    const positions = [];
+    for (let i = 0; i < gridSize.rows * gridSize.cols; i++) {
+      positions.push(i);
     }
+    
+    // Fisher-Yates shuffle
+    for (let i = positions.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [positions[i], positions[j]] = [positions[j], positions[i]];
+    }
+    
+    // Assign colors based on shuffled positions
+    for (let i = 0; i < positions.length; i++) {
+      const pos = positions[i];
+      const row = Math.floor(pos / gridSize.cols);
+      const col = pos % gridSize.cols;
+      
+      let colorType;
+      if (i === 0) {
+        colorType = 'red'; // 1 red circle
+      } else if (i < 50) {
+        colorType = 'yellow'; // 49 yellow circles
+      } else {
+        colorType = 'green'; // 950 green circles
+      }
+      
+      circles.push(new Circle(row, col, colorType));
+    }
+    
+    // Set text properties
+    p.textSize(12);
+    p.textFont('Arial');
   };
 
   /**
    * p5.js draw function - runs continuously in a loop
-   * Updates and renders all squares
+   * Updates and renders all circles
    */
   p.draw = function() {
     p.clear(); // Transparent background
     
-    // Update and draw each square
-    squares.forEach(square => {
-      square.update(p.mouseX, p.mouseY);
-      square.draw();
+    // Update and draw each circle
+    circles.forEach(circle => {
+      circle.update(p.mouseX, p.mouseY);
+      circle.draw();
     });
+    
+    // Draw the legend
+    drawLegend();
   };
 
   // Handle window resize events
@@ -247,7 +317,7 @@ new p5(sketch1, document.getElementById('sketch-container-1'));
  * 3. p5.js lifecycle methods (setup, draw) - Initialize and render the sketch
  * 4. Event handling - Responds to window resize and mouse interaction
  */
-const sketch1 = (p) => {
+const sketch2 = (p) => {
   // Configuration for our grid
   const gridSize = { rows: 10, cols: 10 }; // Creates 50 squares (5×10)
   const squares = []; // Will hold all our square objects
@@ -380,7 +450,7 @@ const sketch1 = (p) => {
 };
 
 // Create the sketch in the container
-new p5(sketch1, document.getElementById('sketch-container-2'));
+new p5(sketch2, document.getElementById('sketch-container-2'));
 </script>
 {{< /rawhtml >}}
 
