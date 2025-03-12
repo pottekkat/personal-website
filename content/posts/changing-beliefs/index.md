@@ -30,13 +30,13 @@ fmContentType: Post (default)
 If a test to detect a disease whose prevalence is 1/1000 has a false positive rate of 5%, what is the chance that a person found to have a positive result actually has the disease, assuming that you know nothing else about the person's symptoms or signs?
 {{< /blockquote >}}
 
-Every once in a while, some variation of this question shows up on social media, filling the comments section with intuitive but incorrect answers until someone shows up and solves the problem mathematically (or `@AskPerplexity` it nowadays). This time, it showed up in a [reply to a tweet](https://x.com/jeremykauffman/status/1898011686558196194) dunking the new leadership of the United States Department of Health and Human Services (HHS).
+Every once in a while, some variation of this question goes viral on social media, flooding the comments section with intuitive but incorrect answers until someone shows up and solves the problem mathematically (or `@AskPerplexity` it these days). This time, the question appeared in a [reply to a tweet](https://x.com/jeremykauffman/status/1898011686558196194) dunking on the new leadership of the U.S. Department of Health and Human Services (HHS).
 
 When this question was originally proposed, an overwhelming majority of people, including doctors and medical students from Harvard teaching hospitals, thought the patient in the question had a **95% chance** of actually having the disease when the correct answer is closer to **just 2%**.
 
-While this question is phrased awkwardly and has some missing data, the reason why people make guesses closer to 95% instead of 2% is because of the counterintuitive nature of probability. After all, if the test only has a 5% false positive rate, i.e., incorrectly predicting a person has the disease while they don't, it feels reasonable to guess that 95% of the time, the test would correctly guess the person has the disease.
+While this question is phrased awkwardly and has some missing data, the reason why people make guesses closer to 95% instead of 2% is because of the counterintuitive nature of probability. After all, if the test only has a 5% false positive rate, i.e., incorrectly predicting a person has the disease while they don't, it *feels* reasonable to guess that 95% of the time, the test would correctly guess the person has the disease.
 
-But even if we assume the test could correctly predict a person has the disease when they actually have the disease with complete certainty, i.e., a 100% true positive rate, the answer is still 2%. Let's break down the mathematics to see this with clarity.
+But even if we assume the test could correctly predict a person has the disease when they actually have the disease with complete certainty, i.e., a 100% true positive rate, the answer is still 2%. Let's break down the mathematics to see why.
 
 Here's what we know:
 
@@ -45,12 +45,14 @@ $$
 $$
 
 $$
-\text{False positive rate: } P(+ \mid \neg D) = 5\% = \frac{5}{100}
+\text{False positive rate: } P(+ \mid \neg D) = 5\\% = \frac{5}{100}
 $$
 
-> **Note**: $P(D)$ is the initial probability of having the disease before knowing the test result.
+> **Note**: $P(D)$ is the probability of having the disease before knowing the test result.
 
-With this information, we have to find the probability of having the disease given a positive test result, i.e., $P(D \mid +)$
+What we need to find is the probability that a person actually has the disease given that they tested positive, i.e., $P(D \mid +)$.
+
+If we consider a sample of 1000 people and assume the test is perfectly accurate when detecting the disease, i.e., a 100% true positive rate ($P(+ \mid D)$), this is what the test results would look like:
 
 {{< rawhtml >}}
 
