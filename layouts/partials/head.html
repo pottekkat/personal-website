@@ -178,6 +178,11 @@
 {{ end }}
 <!-- Add ECharts -->
 
+{{- /* Math rendering */}}
+{{ if or .Params.math .Site.Params.math }}
+{{ partial "math.html" . }}
+{{ end }}
+
 {{- partial "extend_head.html" . -}}
 
 {{- /* Misc */}}
