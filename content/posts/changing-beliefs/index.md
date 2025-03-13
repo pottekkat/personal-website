@@ -365,10 +365,10 @@ When we imagine a sample like this and apply the probabilities, arriving at 2% f
 
 To make this idea stick, you can try the interactive example below and see how the probability changes. You can set the rarity of the disease, how often the test correctly spots the disease, and how frequently it incorrectly flags healthy people.
 
-{{< rawhtml >}}
-<!-- Create a container for the interactive sketch -->
-<div id="sketch-container-2" class="sketch-container"></div>
 
+<!-- Hey Cursor ONLY EDIT THINGS BELOW THIS COMMENT AND DON'T REMOVE THIS COMMENT -->
+
+{{< rawhtml >}}
 <style>
 .controls-container {
   width: 100%;
@@ -397,6 +397,41 @@ To make this idea stick, you can try the interactive example below and see how t
 .slider-row input[type="range"] {
   flex-grow: 1;
   margin-right: 10px;
+  -webkit-appearance: none;
+  height: 8px;
+  background: var(--code-bg);
+  border-radius: 0;
+  border: none;
+}
+
+.slider-row input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--secondary);
+  cursor: pointer;
+}
+
+.slider-row input[type="range"]::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--secondary);
+  cursor: pointer;
+  border: none;
+}
+
+.slider-row input[type="range"]::-ms-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--secondary);
+  cursor: pointer;
+}
+
+.slider-row input[type="range"]:focus {
+  outline: none;
 }
 
 .slider-value {
@@ -462,6 +497,28 @@ To make this idea stick, you can try the interactive example below and see how t
       P(D|+) = 1 / (1 + 49) = 1/50 = 2%
     </div>
   </div>
+</div>
+
+<!-- Create a container for the interactive sketch -->
+<div id="sketch-container-2" class="sketch-container"></div>
+
+<div class="controls-container">
+  <p style="margin-bottom: 5px !important;">
+    <span class="legend-circle red-circle"></span>
+    <strong style="color: rgb(220, 53, 69);">True Positives</strong>: People who <strong>have</strong> the disease and <strong>tested positive</strong>.
+  </p>
+  <p style="margin-bottom: 5px !important;">
+    <span class="legend-circle" style="background-color: rgb(65, 105, 225);"></span>
+    <strong style="color: rgb(65, 105, 225);">False Negatives</strong>: People who <strong>have</strong> the disease but <strong>tested negative</strong>.
+  </p>
+  <p style="margin-bottom: 5px !important;">
+    <span class="legend-circle yellow-circle"></span>
+    <strong style="color: rgb(255, 193, 7);">False Positives</strong>: People who <strong>don't have</strong> the disease but <strong>tested positive</strong>.
+  </p>
+  <p>
+    <span class="legend-circle green-circle"></span>
+    <strong style="color: rgb(75, 192, 112);">True Negatives</strong>: People who <strong>don't have</strong> the disease and <strong>tested negative</strong>.
+  </p>
 </div>
 
 <script>
@@ -711,23 +768,4 @@ const sketch2 = (p) => {
 
 new p5(sketch2, document.getElementById('sketch-container-2'));
 </script>
-
-<div class="controls-container">
-  <p style="margin-bottom: 5px !important;">
-    <span class="legend-circle red-circle"></span>
-    <strong style="color: rgb(220, 53, 69);">True Positives</strong>: People who <strong>have</strong> the disease and <strong>tested positive</strong>.
-  </p>
-  <p style="margin-bottom: 5px !important;">
-    <span class="legend-circle" style="background-color: rgb(65, 105, 225);"></span>
-    <strong style="color: rgb(65, 105, 225);">False Negatives</strong>: People who <strong>have</strong> the disease but <strong>tested negative</strong>.
-  </p>
-  <p style="margin-bottom: 5px !important;">
-    <span class="legend-circle yellow-circle"></span>
-    <strong style="color: rgb(255, 193, 7);">False Positives</strong>: People who <strong>don't have</strong> the disease but <strong>tested positive</strong>.
-  </p>
-  <p>
-    <span class="legend-circle green-circle"></span>
-    <strong style="color: rgb(75, 192, 112);">True Negatives</strong>: People who <strong>don't have</strong> the disease and <strong>tested negative</strong>.
-  </p>
-</div>
 {{< /rawhtml >}}
