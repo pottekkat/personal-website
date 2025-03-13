@@ -92,7 +92,7 @@ If we consider a sample of 1000 people where exactly 1 person has the disease (b
 
 <!-- Common utility functions for sketches -->
 <script>
-// Common colors used across sketches
+// Colors for all sketches
 const COLORS = {
   red: [220, 53, 69],      // Danger red
   yellow: [255, 193, 7],   // Amber yellow
@@ -102,13 +102,12 @@ const COLORS = {
   // secondary: null          // Will be set from CSS variable
 };
 
-// Helper function to create hover color
+// Makes a color lighter or darker
 function createHoverColor(p, baseColor, factor) {
   const r = p.red(baseColor);
   const g = p.green(baseColor);
   const b = p.blue(baseColor);
   
-  // Adjust brightness based on factor
   return p.color(
     p.constrain(r * factor, 0, 255),
     p.constrain(g * factor, 0, 255),
@@ -116,14 +115,14 @@ function createHoverColor(p, baseColor, factor) {
   );
 }
 
-// Helper function to get CSS variables (not needed now)
+// Not needed now
 /* function getCssVariables() {
   const root = getComputedStyle(document.documentElement);
   COLORS.primary = root.getPropertyValue('--primary').trim();
   COLORS.secondary = root.getPropertyValue('--secondary').trim();
 } */
 
-// Circle class - Base class for circle elements
+// Base class for circle elements
 class Circle {
   constructor(p, row, col, colorType, circleSize, paddingX, paddingY, startY) {
     this.p = p;
@@ -157,28 +156,25 @@ function calculateLayout(containerId, gridSize, minPadding, maxPadding, paddingR
   const container = document.getElementById(containerId);
   const containerWidth = container.offsetWidth - 28; // Account for padding
   
-  // Define a consistent padding that will be used throughout the grid
+  // A consistent padding that will be used throughout the grid
   const padding = Math.min(Math.max(containerWidth * paddingRatio, minPadding), maxPadding);
   
-  // Calculate the available space for elements after accounting for all padding
+  // Calculate available space for elements after accounting for all padding
   const availableWidth = containerWidth - (padding * (gridSize.cols + 1));
   const elementWidth = availableWidth / gridSize.cols;
   
   // Calculate the total height needed for the grid with consistent padding
   const gridHeight = (elementWidth * gridSize.rows) + (padding * (gridSize.rows + 1));
   
-  // Use exactly the same padding at the bottom as at the top
-  const totalHeight = gridHeight;
-  
   return { 
     width: containerWidth, 
-    height: totalHeight,
+    height: gridHeight,
     elementWidth: elementWidth,
     padding: padding
   };
 }
 
-// Fisher-Yates shuffle algorithm
+// Shuffle the grid randomly
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -195,33 +191,25 @@ function shuffleArray(array) {
 
 <script>
 /**
- * Grid of Circles
- * 
- * This sketch creates a responsive grid of 1000 circles with specific color distribution:
- * - 1 red circle (representing a person with the disease)
- * - 49 yellow circles (representing false positives)
- * - 950 green circles (representing true negatives)
+ * Grid of 1000 circles showing disease test results:
+ * - 1 red: person with disease (true positive)
+ * - 49 yellow: people without disease who tested positive (false positives)
+ * - 950 green: people without disease who tested negative (true negatives)
  */
 const sketch1 = (p) => {
-  // Configuration for our grid - 1000 elements total
-  const gridSize = { rows: 25, cols: 40 }; // 25×40 = 1000 circles
-  const circles = []; // Will hold all our circle objects
+  // Grid configuration
+  const gridSize = { rows: 25, cols: 40 };
+  const circles = [];
   
-  // Variables for layout calculations
-  let circleSize;   // Size of each circle
-  let paddingX;     // Horizontal space between circles
-  let paddingY;     // Vertical space between circles
-  let startY;       // Starting Y position to center grid vertically
+  // Layout variables
+  let circleSize, paddingX, paddingY, startY;
   
-  // Colors for our circles
+  // Colors
   let greenColor, yellowColor, redColor;
   let greenHoverColor, yellowHoverColor, redHoverColor;
   
-  /**
-   * Circle class specific to this sketch
-   */
+  // Circle implementation for this sketch
   class GridCircle extends Circle {
-    // Draw the circle with appropriate color
     draw() {
       // Determine fill color based on type and hover state
       if (this.hovered) {
@@ -234,12 +222,12 @@ const sketch1 = (p) => {
         switch (this.colorType) {
           case 'red': this.p.fill(redColor); break;
           case 'yellow': this.p.fill(yellowColor); break;
-          default: this.p.fill(greenColor); // green is default
+          default: this.p.fill(greenColor);
         }
       }
       
-      this.p.noStroke(); // No border for clean look
-      this.p.ellipse(this.x, this.y, this.circleSize); // Draw circle
+      this.p.noStroke();
+      this.p.ellipse(this.x, this.y, this.circleSize);
     }
   }
   
@@ -247,46 +235,23 @@ const sketch1 = (p) => {
   const createHoverColors = () => {
     // Create hover colors
     greenHoverColor = createHoverColor(p, greenColor, 1.2);
-    yellowHoverColor = createHoverColor(p, yellowColor, 1.1); // Darker for yellow as it's already bright
+    yellowHoverColor = createHoverColor(p, yellowColor, 1.1);
     redHoverColor = createHoverColor(p, redColor, 1.2);
   };
   
-  /**
-   * p5.js setup function - runs once at the beginning
-   * Initializes the canvas and creates all circle objects
-   */
-  p.setup = function() {
-    // Get colors that work in both light and dark themes
-    greenColor = p.color(COLORS.green);
-    yellowColor = p.color(COLORS.yellow);
-    redColor = p.color(COLORS.red);
-    
-    // Create hover colors
-    createHoverColors();
-    
-    // Calculate dimensions and create canvas
-    const dimensions = calculateLayout('sketch-container-1', gridSize, 2, 10, 0.01);
-    p.createCanvas(dimensions.width, dimensions.height);
-    
-    // Set circle size and padding values
-    circleSize = dimensions.elementWidth;
-    paddingX = dimensions.padding;
-    paddingY = dimensions.padding;
-    startY = dimensions.padding; // Start from the top with consistent padding
-    
-    // Create all circles in the grid with specific color distribution
+  // Create all circles with their colors
+  const createCircles = () => {
     circles.length = 0; // Clear any existing circles
     
-    // Create array of positions and shuffle it
+    // Create and shuffle positions
     const positions = [];
     for (let i = 0; i < gridSize.rows * gridSize.cols; i++) {
       positions.push(i);
     }
     
-    // Shuffle positions
     shuffleArray(positions);
     
-    // Assign colors based on shuffled positions
+    // Create circles with appropriate colors
     for (let i = 0; i < positions.length; i++) {
       const pos = positions[i];
       const row = Math.floor(pos / gridSize.cols);
@@ -304,22 +269,38 @@ const sketch1 = (p) => {
       circles.push(new GridCircle(p, row, col, colorType, circleSize, paddingX, paddingY, startY));
     }
   };
-
-  /**
-   * p5.js draw function - runs continuously in a loop
-   * Updates and renders all circles
-   */
-  p.draw = function() {
-    p.clear(); // Transparent background
+  
+  p.setup = function() {
+    // Initialize colors
+    greenColor = p.color(COLORS.green);
+    yellowColor = p.color(COLORS.yellow);
+    redColor = p.color(COLORS.red);
     
-    // Update and draw each circle
+    createHoverColors();
+    
+    // Calculate dimensions and create canvas
+    const dimensions = calculateLayout('sketch-container-1', gridSize, 2, 10, 0.01);
+    p.createCanvas(dimensions.width, dimensions.height);
+    
+    // Set layout values
+    circleSize = dimensions.elementWidth;
+    paddingX = dimensions.padding;
+    paddingY = dimensions.padding;
+    startY = dimensions.padding;
+    
+    // Create the circles
+    createCircles();
+  };
+
+  p.draw = function() {
+    p.clear();
+    
     circles.forEach(circle => {
       circle.update(p.mouseX, p.mouseY);
       circle.draw();
     });
   };
 
-  // Handle window resize events
   p.windowResized = function() {
     const dimensions = calculateLayout('sketch-container-1', gridSize, 2, 10, 0.01);
     p.resizeCanvas(dimensions.width, dimensions.height);
@@ -329,10 +310,12 @@ const sketch1 = (p) => {
     paddingX = dimensions.padding;
     paddingY = dimensions.padding;
     startY = dimensions.padding;
+    
+    // Recreate all circles with new dimensions
+    createCircles();
   };
 };
 
-// Create the sketch in the container
 new p5(sketch1, document.getElementById('sketch-container-1'));
 </script>
 {{< /rawhtml >}}
