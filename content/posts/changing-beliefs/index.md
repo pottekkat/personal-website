@@ -69,10 +69,124 @@ If we consider a sample of 1000 people where exactly 1 person has the disease (b
     justify-content: center;
     align-items: center;
 }
+.legend-circle {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: inline-block;
+}
+.red-circle {
+  background-color: rgb(220, 53, 69);
+}
+.yellow-circle {
+  background-color: rgb(255, 193, 7);
+}
+.green-circle {
+  background-color: rgb(75, 192, 112);
+}
 </style>
 
 <!-- Load p5.js libraries once per page -->
 <script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js"></script>
+
+<!-- Common utility functions for sketches -->
+<script>
+// Common colors used across sketches
+const COLORS = {
+  red: [220, 53, 69],      // Danger red
+  yellow: [255, 193, 7],   // Amber yellow
+  green: [75, 192, 112],   // Softer green
+  // Not needed now because no text is being rendered inside the canvas
+  // primary: null,           // Will be set from CSS variable
+  // secondary: null          // Will be set from CSS variable
+};
+
+// Helper function to create hover color
+function createHoverColor(p, baseColor, factor) {
+  const r = p.red(baseColor);
+  const g = p.green(baseColor);
+  const b = p.blue(baseColor);
+  
+  // Adjust brightness based on factor
+  return p.color(
+    p.constrain(r * factor, 0, 255),
+    p.constrain(g * factor, 0, 255),
+    p.constrain(b * factor, 0, 255)
+  );
+}
+
+// Helper function to get CSS variables (not needed now)
+/* function getCssVariables() {
+  const root = getComputedStyle(document.documentElement);
+  COLORS.primary = root.getPropertyValue('--primary').trim();
+  COLORS.secondary = root.getPropertyValue('--secondary').trim();
+} */
+
+// Circle class - Base class for circle elements
+class Circle {
+  constructor(p, row, col, colorType, circleSize, paddingX, paddingY, startY) {
+    this.p = p;
+    this.row = row;
+    this.col = col;
+    this.x = 0;      // Will be calculated in update()
+    this.y = 0;      // Will be calculated in update()
+    this.colorType = colorType;
+    this.circleSize = circleSize;
+    this.paddingX = paddingX;
+    this.paddingY = paddingY;
+    this.startY = startY;
+    this.hovered = false;
+  }
+  
+  // Update circle position and check for mouse hover
+  update(mouseX, mouseY) {
+    // Calculate position based on grid layout
+    this.x = this.paddingX + (this.col * (this.circleSize + this.paddingX)) + (this.circleSize / 2);
+    this.y = this.startY + (this.row * (this.circleSize + this.paddingY)) + (this.circleSize / 2);
+    
+    // Check if mouse is over this circle
+    const distance = this.p.dist(mouseX, mouseY, this.x, this.y);
+    this.hovered = distance < this.circleSize / 2;
+  }
+}
+
+// Calculate layout dimensions based on container size
+function calculateLayout(containerId, gridSize, minPadding, maxPadding, paddingRatio) {
+  // Get container dimensions
+  const container = document.getElementById(containerId);
+  const containerWidth = container.offsetWidth - 28; // Account for padding
+  
+  // Define a consistent padding that will be used throughout the grid
+  const padding = Math.min(Math.max(containerWidth * paddingRatio, minPadding), maxPadding);
+  
+  // Calculate the available space for elements after accounting for all padding
+  const availableWidth = containerWidth - (padding * (gridSize.cols + 1));
+  const elementWidth = availableWidth / gridSize.cols;
+  
+  // Calculate the total height needed for the grid with consistent padding
+  const gridHeight = (elementWidth * gridSize.rows) + (padding * (gridSize.rows + 1));
+  
+  // Use exactly the same padding at the bottom as at the top
+  const totalHeight = gridHeight;
+  
+  return { 
+    width: containerWidth, 
+    height: totalHeight,
+    elementWidth: elementWidth,
+    padding: padding
+  };
+}
+
+// Fisher-Yates shuffle algorithm
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+</script>
 {{< /rawhtml >}}
 
 {{< rawhtml >}}
@@ -81,7 +195,7 @@ If we consider a sample of 1000 people where exactly 1 person has the disease (b
 
 <script>
 /**
- * Interactive Grid of Circles
+ * Grid of Circles
  * 
  * This sketch creates a responsive grid of 1000 circles with specific color distribution:
  * - 1 red circle (representing a person with the disease)
@@ -104,104 +218,37 @@ const sketch1 = (p) => {
   let greenHoverColor, yellowHoverColor, redHoverColor;
   
   /**
-   * Circle class - Represents a single circle in the grid
+   * Circle class specific to this sketch
    */
-  class Circle {
-    constructor(row, col, colorType) {
-      this.row = row;
-      this.col = col;
-      this.x = 0;      // Will be calculated in update()
-      this.y = 0;      // Will be calculated in update()
-      this.colorType = colorType; // 'red', 'yellow', or 'green'
-      this.hovered = false;
-    }
-    
-    // Update circle position and check for mouse hover
-    update(mouseX, mouseY) {
-      // Calculate position based on grid layout
-      this.x = paddingX + (this.col * (circleSize + paddingX)) + (circleSize / 2);
-      this.y = startY + (this.row * (circleSize + paddingY)) + (circleSize / 2);
-      
-      // Check if mouse is over this circle
-      const distance = p.dist(mouseX, mouseY, this.x, this.y);
-      this.hovered = distance < circleSize / 2;
-    }
-    
+  class GridCircle extends Circle {
     // Draw the circle with appropriate color
     draw() {
       // Determine fill color based on type and hover state
       if (this.hovered) {
         switch (this.colorType) {
-          case 'red': p.fill(redHoverColor); break;
-          case 'yellow': p.fill(yellowHoverColor); break;
-          default: p.fill(greenHoverColor); // green is default
+          case 'red': this.p.fill(redHoverColor); break;
+          case 'yellow': this.p.fill(yellowHoverColor); break;
+          default: this.p.fill(greenHoverColor); // green is default
         }
       } else {
         switch (this.colorType) {
-          case 'red': p.fill(redColor); break;
-          case 'yellow': p.fill(yellowColor); break;
-          default: p.fill(greenColor); // green is default
+          case 'red': this.p.fill(redColor); break;
+          case 'yellow': this.p.fill(yellowColor); break;
+          default: this.p.fill(greenColor); // green is default
         }
       }
       
-      p.noStroke(); // No border for clean look
-      p.ellipse(this.x, this.y, circleSize); // Draw circle
+      this.p.noStroke(); // No border for clean look
+      this.p.ellipse(this.x, this.y, this.circleSize); // Draw circle
     }
   }
   
   // Create lighter/darker versions of colors for hover states
   const createHoverColors = () => {
-    // Helper function to create hover color
-    const createHoverColor = (baseColor, factor) => {
-      const r = p.red(baseColor);
-      const g = p.green(baseColor);
-      const b = p.blue(baseColor);
-      
-      // Adjust brightness based on factor
-      return p.color(
-        p.constrain(r * factor, 0, 255),
-        p.constrain(g * factor, 0, 255),
-        p.constrain(b * factor, 0, 255)
-      );
-    };
-    
     // Create hover colors
-    greenHoverColor = createHoverColor(greenColor, 1.2);
-    yellowHoverColor = createHoverColor(yellowColor, 1.1); // Darker for yellow as it's already bright
-    redHoverColor = createHoverColor(redColor, 1.2);
-  };
-  
-  /**
-   * Calculate layout dimensions based on container size
-   */
-  const calculateLayout = () => {
-    // Get container dimensions
-    const container = document.getElementById('sketch-container-1');
-    const containerWidth = container.offsetWidth - 28; // Account for padding
-    
-    // Define a consistent padding that will be used throughout the grid
-    const minPadding = 2; // Minimum padding in pixels
-    const maxPadding = 10; // Maximum padding in pixels
-    const paddingRatio = 0.01; // 1% of container width
-    const padding = Math.min(Math.max(containerWidth * paddingRatio, minPadding), maxPadding);
-    
-    // Calculate the available space for circles after accounting for all padding
-    const availableWidth = containerWidth - (padding * (gridSize.cols + 1));
-    const circleWidth = availableWidth / gridSize.cols;
-    
-    // Calculate the total height needed for the grid with consistent padding
-    const gridHeight = (circleWidth * gridSize.rows) + (padding * (gridSize.rows + 1));
-    
-    // Use exactly the same padding at the bottom as at the top
-    const totalHeight = gridHeight;
-    
-    // Set circle size and padding values
-    circleSize = circleWidth;
-    paddingX = padding;
-    paddingY = padding;
-    startY = padding; // Start from the top with consistent padding
-    
-    return { width: containerWidth, height: totalHeight };
+    greenHoverColor = createHoverColor(p, greenColor, 1.2);
+    yellowHoverColor = createHoverColor(p, yellowColor, 1.1); // Darker for yellow as it's already bright
+    redHoverColor = createHoverColor(p, redColor, 1.2);
   };
   
   /**
@@ -210,16 +257,22 @@ const sketch1 = (p) => {
    */
   p.setup = function() {
     // Get colors that work in both light and dark themes
-    greenColor = p.color(75, 192, 112); // Softer green
-    yellowColor = p.color(255, 193, 7); // Amber yellow
-    redColor = p.color(220, 53, 69); // Bootstrap danger red
+    greenColor = p.color(COLORS.green);
+    yellowColor = p.color(COLORS.yellow);
+    redColor = p.color(COLORS.red);
     
     // Create hover colors
     createHoverColors();
     
     // Calculate dimensions and create canvas
-    const dimensions = calculateLayout();
+    const dimensions = calculateLayout('sketch-container-1', gridSize, 2, 10, 0.01);
     p.createCanvas(dimensions.width, dimensions.height);
+    
+    // Set circle size and padding values
+    circleSize = dimensions.elementWidth;
+    paddingX = dimensions.padding;
+    paddingY = dimensions.padding;
+    startY = dimensions.padding; // Start from the top with consistent padding
     
     // Create all circles in the grid with specific color distribution
     circles.length = 0; // Clear any existing circles
@@ -230,11 +283,8 @@ const sketch1 = (p) => {
       positions.push(i);
     }
     
-    // Fisher-Yates shuffle
-    for (let i = positions.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [positions[i], positions[j]] = [positions[j], positions[i]];
-    }
+    // Shuffle positions
+    shuffleArray(positions);
     
     // Assign colors based on shuffled positions
     for (let i = 0; i < positions.length; i++) {
@@ -251,7 +301,7 @@ const sketch1 = (p) => {
         colorType = 'green'; // 950 green circles
       }
       
-      circles.push(new Circle(row, col, colorType));
+      circles.push(new GridCircle(p, row, col, colorType, circleSize, paddingX, paddingY, startY));
     }
   };
 
@@ -271,8 +321,14 @@ const sketch1 = (p) => {
 
   // Handle window resize events
   p.windowResized = function() {
-    const dimensions = calculateLayout();
+    const dimensions = calculateLayout('sketch-container-1', gridSize, 2, 10, 0.01);
     p.resizeCanvas(dimensions.width, dimensions.height);
+    
+    // Update circle size and padding values
+    circleSize = dimensions.elementWidth;
+    paddingX = dimensions.padding;
+    paddingY = dimensions.padding;
+    startY = dimensions.padding;
   };
 };
 
@@ -282,25 +338,6 @@ new p5(sketch1, document.getElementById('sketch-container-1'));
 {{< /rawhtml >}}
 
 {{< rawhtml >}}
-<style>
-.legend-circle {
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  margin-right: 5px;
-  display: inline-block;
-}
-.red-circle {
-  background-color: rgb(220, 53, 69);
-}
-.yellow-circle {
-  background-color: rgb(255, 193, 7);
-}
-.green-circle {
-  background-color: rgb(75, 192, 112);
-}
-</style>
-
 <p style="margin-bottom: 5px !important;">
   <span class="legend-circle red-circle"></span>
   <strong style="color: rgb(220, 53, 69);">1</strong> person <strong style="color: rgb(220, 53, 69);">has the disease</strong> and <strong style="color: rgb(220, 53, 69);">tested positive</strong> (because $P(D) = \frac{1}{1000}$ and $P(+ \mid D) = 1$).
