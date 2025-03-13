@@ -364,3 +364,370 @@ When we imagine a sample like this and apply the probabilities, arriving at 2% f
 **Bayes' theorem teaches us to update our prior beliefs**—here, the 1 in 1000 prevalence of the disease—**with new evidence, like the test result.**
 
 To make this idea stick, you can try the interactive example below and see how the probability changes. You can set the rarity of the disease, how often the test correctly spots the disease, and how frequently it incorrectly flags healthy people.
+
+{{< rawhtml >}}
+<!-- Create a container for the interactive sketch -->
+<div id="sketch-container-2" class="sketch-container"></div>
+
+<style>
+.controls-container {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto 20px auto;
+  padding: 14px;
+  border: 1px solid var(--code-bg);
+  background-color: var(--content-background);
+}
+
+.slider-container {
+  margin-bottom: 15px;
+}
+
+.slider-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.slider-row {
+  display: flex;
+  align-items: center;
+}
+
+.slider-row input[type="range"] {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.slider-value {
+  min-width: 60px;
+  text-align: right;
+  font-family: var(--code-font-family);
+}
+
+.results-container {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid var(--code-bg);
+}
+
+.results-container h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.probability-result {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+
+.equation-container {
+  margin-top: 15px;
+  font-family: var(--code-font-family);
+  line-height: 1.6;
+}
+</style>
+
+<div class="controls-container">
+  <div class="slider-container">
+    <label for="prevalence-slider">Disease Prevalence (per 1000 people)</label>
+    <div class="slider-row">
+      <input type="range" id="prevalence-slider" min="1" max="100" value="1" step="1">
+      <span class="slider-value" id="prevalence-value">1</span>
+    </div>
+  </div>
+  
+  <div class="slider-container">
+    <label for="sensitivity-slider">Test Sensitivity (True Positive Rate)</label>
+    <div class="slider-row">
+      <input type="range" id="sensitivity-slider" min="50" max="100" value="100" step="1">
+      <span class="slider-value" id="sensitivity-value">100%</span>
+    </div>
+  </div>
+  
+  <div class="slider-container">
+    <label for="specificity-slider">Test Specificity (True Negative Rate)</label>
+    <div class="slider-row">
+      <input type="range" id="specificity-slider" min="50" max="100" value="95" step="1">
+      <span class="slider-value" id="specificity-value">95%</span>
+    </div>
+  </div>
+  
+  <div class="results-container">
+    <h4>Probability of having the disease given a positive test result:</h4>
+    <div class="probability-result" id="bayes-result">2%</div>
+    
+    <div class="equation-container" id="equation-display">
+      P(D|+) = 1 / (1 + 49) = 1/50 = 2%
+    </div>
+  </div>
+</div>
+
+<script>
+/**
+ * Dynamic grid of circles showing disease test results with configurable parameters:
+ * - Prevalence: How many people per 1000 have the disease
+ * - Sensitivity: How often the test correctly identifies people with the disease
+ * - Specificity: How often the test correctly identifies people without the disease
+ */
+const sketch2 = (p) => {
+  // Grid configuration
+  const gridSize = { rows: 25, cols: 40 };
+  const circles = [];
+  
+  // Layout variables
+  let circleSize, paddingX, paddingY, startY;
+  
+  // Colors
+  let greenColor, yellowColor, redColor;
+  let greenHoverColor, yellowHoverColor, redHoverColor;
+  
+  // Probability parameters
+  let prevalence = 1;       // Per 1000 people
+  let sensitivity = 100;    // True positive rate (%)
+  let specificity = 95;     // True negative rate (%)
+  
+  // Calculated values
+  let truePositives = 0;
+  let falsePositives = 0;
+  let trueNegatives = 0;
+  let falseNegatives = 0;
+  
+  // Circle implementation for this sketch
+  class GridCircle extends Circle {
+    draw() {
+      if (this.hovered) {
+        switch (this.colorType) {
+          case 'red': this.p.fill(redHoverColor); break;
+          case 'yellow': this.p.fill(yellowHoverColor); break;
+          case 'blue': this.p.fill(p.color(100, 150, 255)); break;
+          default: this.p.fill(greenHoverColor);
+        }
+      } else {
+        switch (this.colorType) {
+          case 'red': this.p.fill(redColor); break;
+          case 'yellow': this.p.fill(yellowColor); break;
+          case 'blue': this.p.fill(p.color(65, 105, 225)); break;
+          default: this.p.fill(greenColor);
+        }
+      }
+      
+      this.p.noStroke();
+      this.p.ellipse(this.x, this.y, this.circleSize);
+    }
+  }
+  
+  // Setup hover colors
+  const createHoverColors = () => {
+    greenHoverColor = createHoverColor(p, greenColor, 1.2);
+    yellowHoverColor = createHoverColor(p, yellowColor, 1.1);
+    redHoverColor = createHoverColor(p, redColor, 1.2);
+  };
+  
+  // Calculate the number of circles in each category based on current parameters
+  const calculateDistribution = () => {
+    const totalCircles = gridSize.rows * gridSize.cols;
+    
+    // Calculate how many people have the disease
+    const diseaseCount = Math.round((prevalence / 1000) * totalCircles);
+    const healthyCount = totalCircles - diseaseCount;
+    
+    // Calculate test results
+    truePositives = Math.round(diseaseCount * (sensitivity / 100));
+    falseNegatives = diseaseCount - truePositives;
+    
+    trueNegatives = Math.round(healthyCount * (specificity / 100));
+    falsePositives = healthyCount - trueNegatives;
+    
+    // Update the result display
+    updateResultDisplay();
+  };
+  
+  // Update the probability result and equation display
+  const updateResultDisplay = () => {
+    const totalPositives = truePositives + falsePositives;
+    
+    // Calculate Bayes probability
+    let probability = 0;
+    if (totalPositives > 0) {
+      probability = (truePositives / totalPositives) * 100;
+    }
+    
+    // Update the result display
+    const resultElement = document.getElementById('bayes-result');
+    if (resultElement) {
+      resultElement.textContent = probability.toFixed(1) + '%';
+    }
+    
+    // Update the equation display
+    const equationElement = document.getElementById('equation-display');
+    if (equationElement) {
+      equationElement.innerHTML = `
+        P(D|+) = ${truePositives} / (${truePositives} + ${falsePositives}) = 
+        ${truePositives}/${totalPositives} = ${probability.toFixed(1)}%
+      `;
+    }
+  };
+  
+  // Create all circles with their colors
+  const createCircles = () => {
+    circles.length = 0; // Clear any existing circles
+    
+    // Calculate distribution based on current parameters
+    calculateDistribution();
+    
+    // Create and shuffle positions
+    const positions = [];
+    for (let i = 0; i < gridSize.rows * gridSize.cols; i++) {
+      positions.push(i);
+    }
+    
+    shuffleArray(positions);
+    
+    // Create circles with appropriate colors
+    let circleIndex = 0;
+    
+    // True positives (red) - people with disease who tested positive
+    for (let i = 0; i < truePositives; i++) {
+      const pos = positions[circleIndex++];
+      const row = Math.floor(pos / gridSize.cols);
+      const col = pos % gridSize.cols;
+      circles.push(new GridCircle(p, row, col, 'red', circleSize, paddingX, paddingY, startY));
+    }
+    
+    // False negatives (blue) - people with disease who tested negative
+    for (let i = 0; i < falseNegatives; i++) {
+      const pos = positions[circleIndex++];
+      const row = Math.floor(pos / gridSize.cols);
+      const col = pos % gridSize.cols;
+      circles.push(new GridCircle(p, row, col, 'blue', circleSize, paddingX, paddingY, startY));
+    }
+    
+    // False positives (yellow) - people without disease who tested positive
+    for (let i = 0; i < falsePositives; i++) {
+      const pos = positions[circleIndex++];
+      const row = Math.floor(pos / gridSize.cols);
+      const col = pos % gridSize.cols;
+      circles.push(new GridCircle(p, row, col, 'yellow', circleSize, paddingX, paddingY, startY));
+    }
+    
+    // True negatives (green) - people without disease who tested negative
+    for (let i = 0; i < trueNegatives; i++) {
+      const pos = positions[circleIndex++];
+      const row = Math.floor(pos / gridSize.cols);
+      const col = pos % gridSize.cols;
+      circles.push(new GridCircle(p, row, col, 'green', circleSize, paddingX, paddingY, startY));
+    }
+  };
+  
+  // Setup event listeners for sliders
+  const setupSliders = () => {
+    // Prevalence slider
+    const prevalenceSlider = document.getElementById('prevalence-slider');
+    const prevalenceValue = document.getElementById('prevalence-value');
+    
+    if (prevalenceSlider && prevalenceValue) {
+      prevalenceSlider.addEventListener('input', function() {
+        prevalence = parseInt(this.value);
+        prevalenceValue.textContent = prevalence;
+        createCircles();
+      });
+    }
+    
+    // Sensitivity slider
+    const sensitivitySlider = document.getElementById('sensitivity-slider');
+    const sensitivityValue = document.getElementById('sensitivity-value');
+    
+    if (sensitivitySlider && sensitivityValue) {
+      sensitivitySlider.addEventListener('input', function() {
+        sensitivity = parseInt(this.value);
+        sensitivityValue.textContent = sensitivity + '%';
+        createCircles();
+      });
+    }
+    
+    // Specificity slider
+    const specificitySlider = document.getElementById('specificity-slider');
+    const specificityValue = document.getElementById('specificity-value');
+    
+    if (specificitySlider && specificityValue) {
+      specificitySlider.addEventListener('input', function() {
+        specificity = parseInt(this.value);
+        specificityValue.textContent = specificity + '%';
+        createCircles();
+      });
+    }
+  };
+  
+  p.setup = function() {
+    // Initialize colors
+    greenColor = p.color(COLORS.green);
+    yellowColor = p.color(COLORS.yellow);
+    redColor = p.color(COLORS.red);
+    
+    createHoverColors();
+    
+    // Calculate dimensions and create canvas
+    const dimensions = calculateLayout('sketch-container-2', gridSize, 2, 10, 0.01);
+    p.createCanvas(dimensions.width, dimensions.height);
+    
+    // Set layout values
+    circleSize = dimensions.elementWidth;
+    paddingX = dimensions.padding;
+    paddingY = dimensions.padding;
+    startY = dimensions.padding;
+    
+    // Setup slider event listeners
+    setupSliders();
+    
+    // Create the circles
+    createCircles();
+  };
+
+  p.draw = function() {
+    p.clear();
+    
+    circles.forEach(circle => {
+      circle.update(p.mouseX, p.mouseY);
+      circle.draw();
+    });
+  };
+
+  p.windowResized = function() {
+    const dimensions = calculateLayout('sketch-container-2', gridSize, 2, 10, 0.01);
+    p.resizeCanvas(dimensions.width, dimensions.height);
+    
+    // Update layout values
+    circleSize = dimensions.elementWidth;
+    paddingX = dimensions.padding;
+    paddingY = dimensions.padding;
+    startY = dimensions.padding;
+    
+    // Recreate all circles with new dimensions
+    createCircles();
+  };
+};
+
+new p5(sketch2, document.getElementById('sketch-container-2'));
+</script>
+
+<div class="controls-container">
+  <p style="margin-bottom: 5px !important;">
+    <span class="legend-circle red-circle"></span>
+    <strong style="color: rgb(220, 53, 69);">True Positives</strong>: People who <strong>have</strong> the disease and <strong>tested positive</strong>.
+  </p>
+  <p style="margin-bottom: 5px !important;">
+    <span class="legend-circle" style="background-color: rgb(65, 105, 225);"></span>
+    <strong style="color: rgb(65, 105, 225);">False Negatives</strong>: People who <strong>have</strong> the disease but <strong>tested negative</strong>.
+  </p>
+  <p style="margin-bottom: 5px !important;">
+    <span class="legend-circle yellow-circle"></span>
+    <strong style="color: rgb(255, 193, 7);">False Positives</strong>: People who <strong>don't have</strong> the disease but <strong>tested positive</strong>.
+  </p>
+  <p>
+    <span class="legend-circle green-circle"></span>
+    <strong style="color: rgb(75, 192, 112);">True Negatives</strong>: People who <strong>don't have</strong> the disease and <strong>tested negative</strong>.
+  </p>
+</div>
+{{< /rawhtml >}}
