@@ -285,8 +285,8 @@ new p5(sketch1, document.getElementById('sketch-container-1'));
 {{< rawhtml >}}
 <style>
 .legend-circle {
-  width: 8px;
-  height: 8px;
+  width: 9px;
+  height: 9px;
   border-radius: 50%;
   margin-right: 5px;
   display: inline-block;
@@ -328,7 +328,7 @@ P(D \mid +) &= \frac{Number \ of \ true \ positives}{Total \ number \ of \ posit
 \end{aligned}
 $$
 
-We can arrive at the same result mathematically through Bayes' Theorem:
+We can arrive at the same result mathematically through [Bayes\' theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem):
 
 $$
 \begin{aligned}
@@ -339,7 +339,7 @@ P(D \mid +) &= \frac{P(D \cap +)}{P(+)} \\\\[3ex]
 \end{aligned}
 $$
 
-When you look at an example, arriving at 2% seems obvious and intuitive. Then why are people answering this question wrong? It is because they are using the new information on its own instead of using the new information to update their existing beliefs.
+When we imagine a sample like this and apply the probabilities, arriving at 2% feels clear and intuitive. Then why do so many people get it wrong? When presented with a question like this, they often focus only on the test's false positive rate (5%) and assume it means a 95% chance of being correct, ignoring the disease's rarity. **Bayes' theorem teaches us to update our prior beliefs**—here, the 1 in 1000 prevalence of the disease—**with new evidence, like the test result.**
 
 {{< rawhtml >}}
 <!-- Create a container for this specific sketch -->
