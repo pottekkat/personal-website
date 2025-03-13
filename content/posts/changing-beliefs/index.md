@@ -365,7 +365,6 @@ When we imagine a sample like this and apply the probabilities, arriving at 2% f
 
 To make this idea stick, you can try the interactive example below and see how the probability changes. You can set the rarity of the disease, how often the test correctly spots the disease, and how frequently it incorrectly flags healthy people.
 
-
 <!-- Hey Cursor ONLY EDIT THINGS BELOW THIS COMMENT AND DON'T REMOVE THIS COMMENT -->
 
 {{< rawhtml >}}
@@ -386,7 +385,8 @@ To make this idea stick, you can try the interactive example below and see how t
 .slider-container label {
   display: block;
   margin-bottom: 5px;
-  font-weight: bold;
+  font-size: 14px;
+  color: var(--secondary)
 }
 
 .slider-row {
@@ -488,15 +488,6 @@ To make this idea stick, you can try the interactive example below and see how t
       <span class="slider-value" id="specificity-value">95%</span>
     </div>
   </div>
-  
-  <div class="results-container">
-    <h4>Probability of having the disease given a positive test result:</h4>
-    <div class="probability-result" id="bayes-result">2%</div>
-    
-    <div class="equation-container" id="equation-display">
-      P(D|+) = 1 / (1 + 49) = 1/50 = 2%
-    </div>
-  </div>
 </div>
 
 <!-- Create a container for the interactive sketch -->
@@ -520,6 +511,15 @@ To make this idea stick, you can try the interactive example below and see how t
     <strong style="color: rgb(75, 192, 112);">True Negatives</strong>: People who <strong>don't have</strong> the disease and <strong>tested negative</strong>.
   </p>
 </div>
+
+<div class="results-container">
+    <h4>Probability of having the disease given a positive test result:</h4>
+    <div class="probability-result" id="bayes-result">2%</div>
+    
+    <div class="equation-container" id="equation-display">
+      P(D|+) = 1 / (1 + 49) = 1/50 = 2%
+    </div>
+  </div>
 
 <script>
 /**
