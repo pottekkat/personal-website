@@ -2,7 +2,6 @@
 title: The Idea of Changing Beliefs
 slug: changing-beliefs
 date: 2025-03-13T09:28:09+05:30
-readingTime: 5
 draft: true
 math: true
 toc:
@@ -34,9 +33,9 @@ Every once in a while, some variation of this question goes viral on social medi
 
 When this question was originally proposed, an overwhelming majority of people, including doctors and medical students from Harvard teaching hospitals, thought the patient in the question had a **95% chance** of actually having the disease when the correct answer is closer to **just 2%**.
 
-While this question is phrased awkwardly and has some missing data, the reason why people make guesses closer to 95% instead of 2% is because of the counterintuitive nature of probability. After all, if the test only has a 5% false positive rate, i.e., incorrectly predicting a person has the disease while they don't, it *feels* reasonable to guess that 95% of the time, the test would correctly guess the person has the disease.
+While this question is phrased awkwardly and has some missing data, the reason why people make guesses closer to 95% instead of 2% is because of the counterintuitive nature of probability. After all, if the test only has a 5% false positive rate, i.e., incorrectly detecting a person has the disease while they don't, it *feels* reasonable to guess that 95% of the time, the test would correctly detect the person has the disease.
 
-But even if we assume the test could correctly predict a person has the disease when they actually have the disease with complete certainty, i.e., a 100% true positive rate, the answer is still 2%. Let's break down the mathematics to see why.
+But even if we assume the test could correctly detect a person has the disease when they actually have the disease with complete certainty, i.e., a 100% true positive rate, the answer is still 2%. Let's break down the mathematics to see why.
 
 Here's what we know:
 
@@ -52,7 +51,7 @@ $$
 
 What we need to find is the probability that a person actually has the disease given that they tested positive, i.e., $P(D \mid +)$.
 
-If we consider a sample of 1000 people and assume the test is perfectly accurate when detecting the disease, i.e., a 100% true positive rate ($P(+ \mid D)$), this is what the test results would look like:
+If we consider a sample of 1000 people where exactly 1 person has the disease (because $P(D) = \frac{1}{1000}$) and assume the test is perfectly accurate when detecting the disease, i.e., a 100% true positive rate ($P(+ \mid D)$), this is what the test results would look like:
 
 {{< rawhtml >}}
 
@@ -343,3 +342,5 @@ $$
 When we imagine a sample like this and apply the probabilities, arriving at 2% feels clear and intuitive. Then why do so many people get it wrong? When presented with a question like this, they often focus only on the test's false positive rate (5%) and assume it means a 95% chance of being correct, ignoring the disease's rarity.
 
 **Bayes' theorem teaches us to update our prior beliefs**—here, the 1 in 1000 prevalence of the disease—**with new evidence, like the test result.**
+
+To make this idea stick, you can try the interactive example below and see how the probability changes. You can set the rarity of the disease, how often the test correctly spots the disease, and how frequently it incorrectly flags healthy people.
