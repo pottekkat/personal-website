@@ -304,15 +304,15 @@ new p5(sketch1, document.getElementById('sketch-container-1'));
 
 <p style="margin-bottom: 5px !important;">
   <span class="legend-circle red-circle"></span>
-  <strong>1</strong> person <strong>has the disease</strong> and <strong>tested positive</strong> (because $P(D) = \frac{1}{1000}$ and $P(+ \mid D) = 1$).
+  <strong style="color: rgb(220, 53, 69);">1</strong> person <strong style="color: rgb(220, 53, 69);">has the disease</strong> and <strong style="color: rgb(220, 53, 69);">tested positive</strong> (because $P(D) = \frac{1}{1000}$ and $P(+ \mid D) = 1$).
 </p>
 <p style="margin-bottom: 5px !important;">
   <span class="legend-circle yellow-circle"></span>
-  <strong>49</strong> people <strong>don't have the disease</strong> but <strong>tested positive</strong> (because $P(+ \mid \neg D) = 5\% = \frac{5}{100} \approx \frac{49}{999}$, for easier calculation).
+  <strong style="color: rgb(255, 193, 7);">49</strong> people <strong style="color: rgb(255, 193, 7);">don't have the disease</strong> but <strong style="color: rgb(255, 193, 7);">tested positive</strong> (because $P(+ \mid \neg D) = 5\% = \frac{5}{100} \approx \frac{49}{999}$, for easier calculation).
 </p>
 <p>
   <span class="legend-circle green-circle"></span>
-  <strong>950</strong> people <strong>don't have the disease</strong> and <strong>tested negative</strong>.
+  <strong style="color: rgb(75, 192, 112);">950</strong> people <strong style="color: rgb(75, 192, 112);">don't have the disease</strong> and <strong style="color: rgb(75, 192, 112);">tested negative</strong>.
 </p>
 <p>
 From our sample of 1000 people, 50 tested positive for the disease (<span class="legend-circle red-circle" style="margin: 0 3px !important;"></span> and <span class="legend-circle yellow-circle" style="margin: 0 3px !important;"></span>). So, if a person tests positive, we know they are either the <span class="legend-circle red-circle" style="margin: 0 3px !important;"></span> 1 true positive or somewhere in the <span class="legend-circle yellow-circle" style="margin: 0 3px !important;"></span> 49 false positives. Hence, the <strong>probability of having the disease, given a person tested positive</strong>, can be written as:
@@ -322,13 +322,13 @@ From our sample of 1000 people, 50 tested positive for the disease (<span class=
 $$
 \begin{aligned}
 P(D \mid +) &= \frac{Number \ of \ true \ positives}{Total \ number \ of \ positives} \\\\[3ex]
-&= \frac{Number \ of \ true \ positives}{Number \ of \ true \ positives + Number \ of \ false \ positives} \\\\[3ex]
-&= \frac{1}{1 + 49} \\\\[3ex]
+&= \frac{\color{#DC3545} Number \ of \ true \ positives}{\color{#DC3545} Number \ of \ true \ positives \color{normalcolor} + \color{#FFC107} Number \ of \ false \ positives} \\\\[3ex]
+&= \frac{\color{#DC3545} 1}{\color{#DC3545} 1 \color{normalcolor} + \color{#FFC107} 49} \\\\[3ex]
 &= \boxed{2\\%}
 \end{aligned}
 $$
 
-We can arrive at the same result mathematically through [Bayes\' theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem):
+We can arrive at the same result through [Bayes\' theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem):
 
 $$
 \begin{aligned}
@@ -339,7 +339,9 @@ P(D \mid +) &= \frac{P(D \cap +)}{P(+)} \\\\[3ex]
 \end{aligned}
 $$
 
-When we imagine a sample like this and apply the probabilities, arriving at 2% feels clear and intuitive. Then why do so many people get it wrong? When presented with a question like this, they often focus only on the test's false positive rate (5%) and assume it means a 95% chance of being correct, ignoring the disease's rarity. **Bayes' theorem teaches us to update our prior beliefs**—here, the 1 in 1000 prevalence of the disease—**with new evidence, like the test result.**
+When we imagine a sample like this and apply the probabilities, arriving at 2% feels clear and intuitive. Then why do so many people get it wrong? When presented with a question like this, they often focus only on the test's false positive rate (5%) and assume it means a 95% chance of being correct, ignoring the disease's rarity.
+
+**Bayes' theorem teaches us to update our prior beliefs**—here, the 1 in 1000 prevalence of the disease—**with new evidence, like the test result.**
 
 {{< rawhtml >}}
 <!-- Create a container for this specific sketch -->
