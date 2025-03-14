@@ -445,30 +445,30 @@ To make this idea stick, you can try the interactive example below and see how t
   <div class="slider-container">
     <label for="prevalence-slider">
       Disease Prevalence (per 1000 people)
-      <span class="slider-value" id="prevalence-value">1</span>
+      <span class="slider-value" id="prevalence-value">10</span>
     </label>
     <div class="slider-row">
-      <input type="range" id="prevalence-slider" min="1" max="100" value="1" step="1">
+      <input type="range" id="prevalence-slider" min="1" max="100" value="10" step="1">
     </div>
   </div>
   
   <div class="slider-container">
     <label for="sensitivity-slider">
       Test Sensitivity (True Positive Rate)
-      <span class="slider-value" id="sensitivity-value">100%</span>
+      <span class="slider-value" id="sensitivity-value">90%</span>
     </label>
     <div class="slider-row">
-      <input type="range" id="sensitivity-slider" min="50" max="100" value="100" step="1">
+      <input type="range" id="sensitivity-slider" min="50" max="100" value="90" step="1">
     </div>
   </div>
   
   <div class="slider-container">
     <label for="specificity-slider">
       Test Specificity (True Negative Rate)
-      <span class="slider-value" id="specificity-value">95%</span>
+      <span class="slider-value" id="specificity-value">91%</span>
     </label>
     <div class="slider-row">
-      <input type="range" id="specificity-slider" min="50" max="100" value="95" step="1">
+      <input type="range" id="specificity-slider" min="50" max="100" value="91" step="1">
     </div>
   </div>
 </div>
@@ -546,9 +546,9 @@ const sketch2 = (p) => {
   let greenHoverColor, yellowHoverColor, redHoverColor, blueHoverColor;
   
   // Probability parameters
-  let prevalence = 1;       // Per 1000 people
-  let sensitivity = 100;    // True positive rate (%)
-  let specificity = 95;     // True negative rate (%)
+  let prevalence = 10;       // Per 1000 people
+  let sensitivity = 90;    // True positive rate (%)
+  let specificity = 91;     // True negative rate (%)
   
   // Calculated values
   let truePositives = 0;
@@ -842,8 +842,8 @@ function updateLegendMath(prevalence, sensitivity, specificity) {
 // Add event listener to render KaTeX after the page loads
 document.addEventListener('DOMContentLoaded', function() {
   // Initial render of the equation and legend math
-  updateBayesEquation(1, 50, 2.0, 1, 100, 95);
-  updateLegendMath(1, 100, 95);
+  updateBayesEquation(9, 99, 9.09, 10, 90, 91);
+  updateLegendMath(10, 90, 91);
   
   // Check if KaTeX is available
   if (!window.katex && typeof window.renderMathInElement === 'function') {
