@@ -616,10 +616,10 @@ const sketch2 = (p) => {
       probability = (truePositives / totalPositives) * 100;
     }
     
-    // Update the result display
+    // Update the result display - always use 2 decimal places
     const resultElement = document.getElementById('bayes-result');
     if (resultElement) {
-      resultElement.textContent = probability.toFixed(1) + '%';
+      resultElement.textContent = probability.toFixed(2) + '%';
     }
     
     // Update the legend counts and text
