@@ -439,29 +439,6 @@ To make this idea stick, you can try the interactive example below and see how t
   min-width: 40px;
   text-align: right;
 }
-
-.results-container {
-  margin-top: 20px;
-  padding-top: 15px;
-  border-top: 1px solid var(--code-bg);
-}
-
-.results-container h4 {
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-
-.probability-result {
-  font-weight: bold;
-  font-size: 1.2em;
-  color: var(--primary);
-}
-
-.equation-container {
-  margin-top: 15px;
-  font-family: var(--code-font-family);
-  line-height: 1.6;
-}
 </style>
 
 <div class="controls-container">
@@ -498,8 +475,10 @@ To make this idea stick, you can try the interactive example below and see how t
 
 <!-- Create a container for the interactive sketch -->
 <div id="sketch-container-2" class="sketch-container"></div>
-
-<div class="controls-container">
+<p style="margin-bottom: 5px !important;">
+  <span class="legend-circle red-circle"></span>
+  <strong style="color: rgb(220, 53, 69);">1</strong> person <strong style="color: rgb(220, 53, 69);">has the disease</strong> and <strong style="color: rgb(220, 53, 69);">tested positive</strong> (because $P(D) = \frac{1}{1000}$ and $P(+ \mid D) = 1$).
+</p>
   <p style="margin-bottom: 5px !important;">
     <span class="legend-circle red-circle"></span>
     <strong style="color: rgb(220, 53, 69);">True Positives</strong>: People who <strong style="color: rgb(220, 53, 69);">have</strong> the disease and <strong style="color: rgb(220, 53, 69);">tested positive</strong>.
@@ -516,19 +495,15 @@ To make this idea stick, you can try the interactive example below and see how t
     <span class="legend-circle green-circle"></span>
     <strong style="color: rgb(75, 192, 112);">True Negatives</strong>: People who <strong style="color: rgb(75, 192, 112);">don't have</strong> the disease and <strong style="color: rgb(75, 192, 112);">tested negative</strong>.
   </p>
-</div>
 
-<div class="controls-container">
-  <div class="results-container" style="margin-top: 0;">
-    <h4>Probability of having the disease given a positive test result:</h4>
-    <div class="probability-result" id="bayes-result">2%</div>
+  <div class="results-container">
+    <p>Probability of having the disease given a positive test result:</p>
+    <p class="probability-result" id="bayes-result">2%</p>
     
-    <div class="equation-container" id="equation-display">
+    <p class="equation-container" id="equation-display">
       P(D|+) = 1 / (1 + 49) = 1/50 = 2%
-    </div>
+    </p>
   </div>
-</div>
-
 <script>
 /**
  * Dynamic grid of circles showing disease test results with configurable parameters:
