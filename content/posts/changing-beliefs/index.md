@@ -475,35 +475,33 @@ To make this idea stick, you can try the interactive example below and see how t
 
 <!-- Create a container for the interactive sketch -->
 <div id="sketch-container-2" class="sketch-container"></div>
+
 <p style="margin-bottom: 5px !important;">
   <span class="legend-circle red-circle"></span>
-  <strong style="color: rgb(220, 53, 69);">1</strong> person <strong style="color: rgb(220, 53, 69);">has the disease</strong> and <strong style="color: rgb(220, 53, 69);">tested positive</strong> (because $P(D) = \frac{1}{1000}$ and $P(+ \mid D) = 1$).
+  <strong style="color: rgb(220, 53, 69);"><span id="true-positives-count">1</span></strong> people <strong style="color: rgb(220, 53, 69);">have the disease</strong> and <strong style="color: rgb(220, 53, 69);">tested positive</strong> (because $P(D) = \frac{<span id="prevalence-eq">1</span>}{1000}$ and $P(+ \mid D) = <span id="sensitivity-eq">100</span>\%$).
 </p>
-  <p style="margin-bottom: 5px !important;">
-    <span class="legend-circle red-circle"></span>
-    <strong style="color: rgb(220, 53, 69);">True Positives</strong>: People who <strong style="color: rgb(220, 53, 69);">have</strong> the disease and <strong style="color: rgb(220, 53, 69);">tested positive</strong>.
-  </p>
-  <p style="margin-bottom: 5px !important;">
-    <span class="legend-circle" style="background-color: rgb(65, 105, 225);"></span>
-    <strong style="color: rgb(65, 105, 225);">False Negatives</strong>: People who <strong style="color: rgb(65, 105, 225);">have</strong> the disease but <strong style="color: rgb(65, 105, 225);">tested negative</strong>.
-  </p>
-  <p style="margin-bottom: 5px !important;">
-    <span class="legend-circle yellow-circle"></span>
-    <strong style="color: rgb(255, 193, 7);">False Positives</strong>: People who <strong style="color: rgb(255, 193, 7);">don't have</strong> the disease but <strong style="color: rgb(255, 193, 7);">tested positive</strong>.
-  </p>
-  <p>
-    <span class="legend-circle green-circle"></span>
-    <strong style="color: rgb(75, 192, 112);">True Negatives</strong>: People who <strong style="color: rgb(75, 192, 112);">don't have</strong> the disease and <strong style="color: rgb(75, 192, 112);">tested negative</strong>.
-  </p>
+<p style="margin-bottom: 5px !important;">
+  <span class="legend-circle" style="background-color: rgb(65, 105, 225);"></span>
+  <strong style="color: rgb(65, 105, 225);"><span id="false-negatives-count">0</span></strong> people <strong style="color: rgb(65, 105, 225);">have the disease</strong> but <strong style="color: rgb(65, 105, 225);">tested negative</strong> (because $P(- \mid D) = <span id="false-negative-eq">0</span>\%$).
+</p>
+<p style="margin-bottom: 5px !important;">
+  <span class="legend-circle yellow-circle"></span>
+  <strong style="color: rgb(255, 193, 7);"><span id="false-positives-count">49</span></strong> people <strong style="color: rgb(255, 193, 7);">don't have the disease</strong> but <strong style="color: rgb(255, 193, 7);">tested positive</strong> (because $P(+ \mid \neg D) = <span id="false-positive-eq">5</span>\% = \frac{100 - <span id="specificity-eq">95</span>}{100}$).
+</p>
+<p>
+  <span class="legend-circle green-circle"></span>
+  <strong style="color: rgb(75, 192, 112);"><span id="true-negatives-count">950</span></strong> people <strong style="color: rgb(75, 192, 112);">don't have the disease</strong> and <strong style="color: rgb(75, 192, 112);">tested negative</strong> (because $P(- \mid \neg D) = <span id="specificity-eq2">95</span>\%$).
+</p>
 
-  <div class="results-container">
-    <p>Probability of having the disease given a positive test result:</p>
-    <p class="probability-result" id="bayes-result">2%</p>
-    
-    <p class="equation-container" id="equation-display">
-      P(D|+) = 1 / (1 + 49) = 1/50 = 2%
-    </p>
+<div class="results-container">
+  <p>Probability of having the disease given a positive test result:</p>
+  <p class="probability-result" id="bayes-result">2%</p>
+  
+  <div class="equation-container" id="equation-display">
+    <!-- KaTeX will render here -->
   </div>
+</div>
+
 <script>
 /**
  * Dynamic grid of circles showing disease test results with configurable parameters:
@@ -600,14 +598,22 @@ const sketch2 = (p) => {
       resultElement.textContent = probability.toFixed(1) + '%';
     }
     
-    // Update the equation display
-    const equationElement = document.getElementById('equation-display');
-    if (equationElement) {
-      equationElement.innerHTML = `
-        P(D|+) = ${truePositives} / (${truePositives} + ${falsePositives}) = 
-        ${truePositives}/${totalPositives} = ${probability.toFixed(1)}%
-      `;
-    }
+    // Update the counts in the legend
+    document.getElementById('true-positives-count').textContent = truePositives;
+    document.getElementById('false-negatives-count').textContent = falseNegatives;
+    document.getElementById('false-positives-count').textContent = falsePositives;
+    document.getElementById('true-negatives-count').textContent = trueNegatives;
+    
+    // Update the equation parameters
+    document.getElementById('prevalence-eq').textContent = prevalence;
+    document.getElementById('sensitivity-eq').textContent = sensitivity;
+    document.getElementById('false-negative-eq').textContent = (100 - sensitivity);
+    document.getElementById('false-positive-eq').textContent = (100 - specificity);
+    document.getElementById('specificity-eq').textContent = specificity;
+    document.getElementById('specificity-eq2').textContent = specificity;
+    
+    // Generate the Bayes equation with current values
+    updateBayesEquation(truePositives, totalPositives, probability);
   };
   
   // Create all circles with their colors
@@ -748,6 +754,40 @@ const sketch2 = (p) => {
     createCircles();
   };
 };
+
+// Function to update the Bayes equation with current values
+function updateBayesEquation(truePositives, totalPositives, probability) {
+  const equationElement = document.getElementById('equation-display');
+  if (!equationElement) return;
+  
+  // Format the equation with proper KaTeX delimiters
+  equationElement.innerHTML = `
+    <p class="katex-block">
+      $$
+      \\begin{aligned}
+      P(D \\mid +) &= \\frac{P(D \\cap +)}{P(+)} \\\\[2ex]
+      &= \\frac{P(+ \\mid D) \\cdot P(D)}{P(+ \\mid D) \\cdot P(D) + P(+ \\mid \\neg D) \\cdot P(\\neg D)} \\\\[2ex]
+      &= \\frac{${truePositives}}{${totalPositives}} = ${probability.toFixed(1)}\\%
+      \\end{aligned}
+      $$
+    </p>
+  `;
+  
+  // If the site has auto-rendering for KaTeX, trigger it
+  if (typeof window.renderMathInElement === 'function') {
+    try {
+      window.renderMathInElement(equationElement);
+    } catch (e) {
+      console.error('Math rendering error:', e);
+    }
+  }
+}
+
+// Add event listener to render KaTeX after the page loads
+document.addEventListener('DOMContentLoaded', function() {
+  // Initial render of the equation
+  updateBayesEquation(1, 50, 2.0);
+});
 
 new p5(sketch2, document.getElementById('sketch-container-2'));
 </script>
