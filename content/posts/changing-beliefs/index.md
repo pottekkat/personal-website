@@ -378,15 +378,17 @@ To make this idea stick, you can try the interactive example below and see how t
   background-color: var(--content-background);
 }
 
-.slider-container {
+.slider-container:not(:last-of-type) {
   margin-bottom: 15px;
 }
 
 .slider-container label {
-  display: block;
+  display: flex;
+  align-items: center;
   margin-bottom: 5px;
   font-size: 14px;
-  color: var(--secondary)
+  color: var(--secondary);
+  justify-content: space-between;
 }
 
 .slider-row {
@@ -396,7 +398,6 @@ To make this idea stick, you can try the interactive example below and see how t
 
 .slider-row input[type="range"] {
   flex-grow: 1;
-  margin-right: 10px;
   -webkit-appearance: none;
   height: 8px;
   background: var(--code-bg);
@@ -406,16 +407,16 @@ To make this idea stick, you can try the interactive example below and see how t
 
 .slider-row input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
-  width: 16px;
-  height: 16px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: var(--secondary);
   cursor: pointer;
 }
 
 .slider-row input[type="range"]::-moz-range-thumb {
-  width: 16px;
-  height: 16px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: var(--secondary);
   cursor: pointer;
@@ -423,8 +424,8 @@ To make this idea stick, you can try the interactive example below and see how t
 }
 
 .slider-row input[type="range"]::-ms-thumb {
-  width: 16px;
-  height: 16px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: var(--secondary);
   cursor: pointer;
@@ -435,9 +436,8 @@ To make this idea stick, you can try the interactive example below and see how t
 }
 
 .slider-value {
-  min-width: 60px;
+  min-width: 40px;
   text-align: right;
-  font-family: var(--code-font-family);
 }
 
 .results-container {
@@ -466,26 +466,32 @@ To make this idea stick, you can try the interactive example below and see how t
 
 <div class="controls-container">
   <div class="slider-container">
-    <label for="prevalence-slider">Disease Prevalence (per 1000 people)</label>
+    <label for="prevalence-slider">
+      Disease Prevalence (per 1000 people)
+      <span class="slider-value" id="prevalence-value">1</span>
+    </label>
     <div class="slider-row">
       <input type="range" id="prevalence-slider" min="1" max="100" value="1" step="1">
-      <span class="slider-value" id="prevalence-value">1</span>
     </div>
   </div>
   
   <div class="slider-container">
-    <label for="sensitivity-slider">Test Sensitivity (True Positive Rate)</label>
+    <label for="sensitivity-slider">
+      Test Sensitivity (True Positive Rate)
+      <span class="slider-value" id="sensitivity-value">100%</span>
+    </label>
     <div class="slider-row">
       <input type="range" id="sensitivity-slider" min="50" max="100" value="100" step="1">
-      <span class="slider-value" id="sensitivity-value">100%</span>
     </div>
   </div>
   
   <div class="slider-container">
-    <label for="specificity-slider">Test Specificity (True Negative Rate)</label>
+    <label for="specificity-slider">
+      Test Specificity (True Negative Rate)
+      <span class="slider-value" id="specificity-value">95%</span>
+    </label>
     <div class="slider-row">
       <input type="range" id="specificity-slider" min="50" max="100" value="95" step="1">
-      <span class="slider-value" id="specificity-value">95%</span>
     </div>
   </div>
 </div>
@@ -496,23 +502,24 @@ To make this idea stick, you can try the interactive example below and see how t
 <div class="controls-container">
   <p style="margin-bottom: 5px !important;">
     <span class="legend-circle red-circle"></span>
-    <strong style="color: rgb(220, 53, 69);">True Positives</strong>: People who <strong>have</strong> the disease and <strong>tested positive</strong>.
+    <strong style="color: rgb(220, 53, 69);">True Positives</strong>: People who <strong style="color: rgb(220, 53, 69);">have</strong> the disease and <strong style="color: rgb(220, 53, 69);">tested positive</strong>.
   </p>
   <p style="margin-bottom: 5px !important;">
     <span class="legend-circle" style="background-color: rgb(65, 105, 225);"></span>
-    <strong style="color: rgb(65, 105, 225);">False Negatives</strong>: People who <strong>have</strong> the disease but <strong>tested negative</strong>.
+    <strong style="color: rgb(65, 105, 225);">False Negatives</strong>: People who <strong style="color: rgb(65, 105, 225);">have</strong> the disease but <strong style="color: rgb(65, 105, 225);">tested negative</strong>.
   </p>
   <p style="margin-bottom: 5px !important;">
     <span class="legend-circle yellow-circle"></span>
-    <strong style="color: rgb(255, 193, 7);">False Positives</strong>: People who <strong>don't have</strong> the disease but <strong>tested positive</strong>.
+    <strong style="color: rgb(255, 193, 7);">False Positives</strong>: People who <strong style="color: rgb(255, 193, 7);">don't have</strong> the disease but <strong style="color: rgb(255, 193, 7);">tested positive</strong>.
   </p>
   <p>
     <span class="legend-circle green-circle"></span>
-    <strong style="color: rgb(75, 192, 112);">True Negatives</strong>: People who <strong>don't have</strong> the disease and <strong>tested negative</strong>.
+    <strong style="color: rgb(75, 192, 112);">True Negatives</strong>: People who <strong style="color: rgb(75, 192, 112);">don't have</strong> the disease and <strong style="color: rgb(75, 192, 112);">tested negative</strong>.
   </p>
 </div>
 
-<div class="results-container">
+<div class="controls-container">
+  <div class="results-container" style="margin-top: 0;">
     <h4>Probability of having the disease given a positive test result:</h4>
     <div class="probability-result" id="bayes-result">2%</div>
     
@@ -520,6 +527,7 @@ To make this idea stick, you can try the interactive example below and see how t
       P(D|+) = 1 / (1 + 49) = 1/50 = 2%
     </div>
   </div>
+</div>
 
 <script>
 /**
