@@ -515,8 +515,7 @@ To make this idea stick, you can try the interactive example below and see how t
 </div>
 
 <div class="results-container">
-  <p>Probability of having the disease given a positive test result:</p>
-  <p class="probability-result" id="bayes-result">2%</p>
+  <p>The probability of having the disease given a positive test result is <span class="probability-result" id="bayes-result">2%</span> which is calculated as shown below:</p>
   
   <div class="equation-container" id="equation-display">
     <!-- KaTeX will render here -->
