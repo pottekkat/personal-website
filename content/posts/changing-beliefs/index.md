@@ -526,7 +526,7 @@ To make this idea stick, try the interactive example below and watch how the pro
   </div>
 </div>
 
-<p>Let's take this a step further and see what happens to the probability when a person with a positive test result takes another test like you usually do for confirmation. We can use Bayes' Theorem again, but this time, the prior probability ($P(D)$) is <span class="probability-result" id="bayes-result-copy">9.09%</span>, i.e., the probability of having the disease before taking the second test. Assuming that we take the same test, we can plug this value into our equation:</p>
+<p>Let's take this a step further and see what happens to the probability when a person with a positive test result takes another test like you usually do for confirmation.</p><p>We can use Bayes' Theorem again, but this time, the prior probability ($P(D)$) is <span class="probability-result" id="bayes-result-copy">9.09%</span>, i.e., the probability of having the disease before taking the second test. Assuming that we take the same test, the probability of having the disease given the person tested positive twice can be written as:</p>
 
 <script>
 /**
