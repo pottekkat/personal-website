@@ -519,7 +519,7 @@ To make this idea stick, you can try the interactive example below and see how t
 </div>
 
 <div class="results-container">
-  <p>The probability of having the disease given a positive test result is <span class="probability-result" id="bayes-result">2%</span> which is calculated as shown below:</p>
+  <p>The probability of having the disease given a positive test result is around <span class="probability-result" id="bayes-result">2%</span>, which is calculated as shown below:</p>
   
   <div class="equation-container" id="equation-display">
     <!-- KaTeX will render here -->
@@ -815,7 +815,7 @@ function updateBayesEquation(truePositives, totalPositives, probability, prevale
       &= \\frac{${formatNumber(sensitivityDecimal)} \\cdot ${formatNumber(prevalenceDecimal)}}{${formatNumber(sensitivityDecimal)} \\cdot ${formatNumber(prevalenceDecimal)} + ${formatNumber(falsePositiveRate)} \\cdot ${formatNumber(1-prevalenceDecimal)}} \\\\[3ex]
       &= \\frac{${formatNumber(truePositiveNumerator)}}{${formatNumber(truePositiveNumerator)} + ${formatNumber(falsePositiveDenominator)}} \\\\[3ex]
       &= \\frac{${formatNumber(truePositiveNumerator)}}{${formatNumber(denominator)}} \\\\[3ex]
-      &= \\frac{${truePositives}}{${totalPositives}} \\\\[3ex]
+      &\\approx \\frac{${truePositives}}{${totalPositives}} \\\\[3ex]
       &= \\boxed{${formatNumber(probability)}\\%}
       \\end{aligned}
       $$
