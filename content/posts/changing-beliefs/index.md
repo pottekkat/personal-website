@@ -542,8 +542,8 @@ const sketch2 = (p) => {
   let circleSize, paddingX, paddingY, startY;
   
   // Colors
-  let greenColor, yellowColor, redColor;
-  let greenHoverColor, yellowHoverColor, redHoverColor;
+  let greenColor, yellowColor, redColor, blueColor;
+  let greenHoverColor, yellowHoverColor, redHoverColor, blueHoverColor;
   
   // Probability parameters
   let prevalence = 1;       // Per 1000 people
@@ -559,32 +559,40 @@ const sketch2 = (p) => {
   // Circle implementation for this sketch
   class GridCircle extends Circle {
     draw() {
+      this.p.noStroke();
+      
       if (this.hovered) {
         switch (this.colorType) {
           case 'red': this.p.fill(redHoverColor); break;
           case 'yellow': this.p.fill(yellowHoverColor); break;
-          case 'blue': this.p.fill(p.color(100, 150, 255)); break;
+          case 'blue': this.p.fill(blueHoverColor); break;
           default: this.p.fill(greenHoverColor);
         }
       } else {
         switch (this.colorType) {
           case 'red': this.p.fill(redColor); break;
           case 'yellow': this.p.fill(yellowColor); break;
-          case 'blue': this.p.fill(p.color(65, 105, 225)); break;
+          case 'blue': this.p.fill(blueColor); break;
           default: this.p.fill(greenColor);
         }
       }
       
-      this.p.noStroke();
       this.p.ellipse(this.x, this.y, this.circleSize);
     }
   }
   
-  // Setup hover colors
-  const createHoverColors = () => {
+  // Setup colors
+  const setupColors = () => {
+    greenColor = p.color(COLORS.green);
+    yellowColor = p.color(COLORS.yellow);
+    redColor = p.color(COLORS.red);
+    blueColor = p.color(65, 105, 225);
+    
+    // Create hover colors
     greenHoverColor = createHoverColor(p, greenColor, 1.2);
     yellowHoverColor = createHoverColor(p, yellowColor, 1.1);
     redHoverColor = createHoverColor(p, redColor, 1.2);
+    blueHoverColor = createHoverColor(p, blueColor, 1.2);
   };
   
   // Calculate the number of circles in each category based on current parameters
@@ -623,22 +631,30 @@ const sketch2 = (p) => {
     }
     
     // Update the legend counts and text
-    document.getElementById('tp-count').textContent = truePositives;
-    document.getElementById('fn-count').textContent = falseNegatives;
-    document.getElementById('fp-count').textContent = falsePositives;
-    document.getElementById('tn-count').textContent = trueNegatives;
-    
-    // Update singular/plural text
-    document.getElementById('tp-people-text').textContent = truePositives === 1 ? 'person' : 'people';
-    document.getElementById('fn-people-text').textContent = falseNegatives === 1 ? 'person' : 'people';
-    document.getElementById('fp-people-text').textContent = falsePositives === 1 ? 'person' : 'people';
-    document.getElementById('tn-people-text').textContent = trueNegatives === 1 ? 'person' : 'people';
+    updateLegendCounts();
     
     // Update the legend math expressions
     updateLegendMath(prevalence, sensitivity, specificity);
     
     // Generate the Bayes equation with current values
     updateBayesEquation(truePositives, totalPositives, probability, prevalence, sensitivity, specificity);
+  };
+  
+  // Update legend counts and singular/plural text
+  const updateLegendCounts = () => {
+    const counts = {
+      'tp': truePositives,
+      'fn': falseNegatives,
+      'fp': falsePositives,
+      'tn': trueNegatives
+    };
+    
+    // Update all counts and people/person text
+    Object.keys(counts).forEach(key => {
+      const count = counts[key];
+      document.getElementById(`${key}-count`).textContent = count;
+      document.getElementById(`${key}-people-text`).textContent = count === 1 ? 'person' : 'people';
+    });
   };
   
   // Create all circles with their colors
@@ -659,85 +675,49 @@ const sketch2 = (p) => {
     // Create circles with appropriate colors
     let circleIndex = 0;
     
-    // True positives (red) - people with disease who tested positive
-    for (let i = 0; i < truePositives; i++) {
-      const pos = positions[circleIndex++];
-      const row = Math.floor(pos / gridSize.cols);
-      const col = pos % gridSize.cols;
-      circles.push(new GridCircle(p, row, col, 'red', circleSize, paddingX, paddingY, startY));
-    }
+    // Helper function to add circles of a specific type
+    const addCircles = (count, colorType) => {
+      for (let i = 0; i < count; i++) {
+        const pos = positions[circleIndex++];
+        const row = Math.floor(pos / gridSize.cols);
+        const col = pos % gridSize.cols;
+        circles.push(new GridCircle(p, row, col, colorType, circleSize, paddingX, paddingY, startY));
+      }
+    };
     
-    // False negatives (blue) - people with disease who tested negative
-    for (let i = 0; i < falseNegatives; i++) {
-      const pos = positions[circleIndex++];
-      const row = Math.floor(pos / gridSize.cols);
-      const col = pos % gridSize.cols;
-      circles.push(new GridCircle(p, row, col, 'blue', circleSize, paddingX, paddingY, startY));
-    }
-    
-    // False positives (yellow) - people without disease who tested positive
-    for (let i = 0; i < falsePositives; i++) {
-      const pos = positions[circleIndex++];
-      const row = Math.floor(pos / gridSize.cols);
-      const col = pos % gridSize.cols;
-      circles.push(new GridCircle(p, row, col, 'yellow', circleSize, paddingX, paddingY, startY));
-    }
-    
-    // True negatives (green) - people without disease who tested negative
-    for (let i = 0; i < trueNegatives; i++) {
-      const pos = positions[circleIndex++];
-      const row = Math.floor(pos / gridSize.cols);
-      const col = pos % gridSize.cols;
-      circles.push(new GridCircle(p, row, col, 'green', circleSize, paddingX, paddingY, startY));
-    }
+    // Add all circle types
+    addCircles(truePositives, 'red');     // True positives
+    addCircles(falseNegatives, 'blue');   // False negatives
+    addCircles(falsePositives, 'yellow'); // False positives
+    addCircles(trueNegatives, 'green');   // True negatives
   };
   
   // Setup event listeners for sliders
   const setupSliders = () => {
-    // Prevalence slider
-    const prevalenceSlider = document.getElementById('prevalence-slider');
-    const prevalenceValue = document.getElementById('prevalence-value');
+    // Helper function to set up each slider
+    const setupSlider = (id, valueId, suffix, updateFn) => {
+      const slider = document.getElementById(id);
+      const valueElement = document.getElementById(valueId);
+      
+      if (slider && valueElement) {
+        slider.addEventListener('input', function() {
+          const value = parseInt(this.value);
+          updateFn(value);
+          valueElement.textContent = suffix ? value + suffix : value;
+          createCircles();
+        });
+      }
+    };
     
-    if (prevalenceSlider && prevalenceValue) {
-      prevalenceSlider.addEventListener('input', function() {
-        prevalence = parseInt(this.value);
-        prevalenceValue.textContent = prevalence;
-        createCircles();
-      });
-    }
-    
-    // Sensitivity slider
-    const sensitivitySlider = document.getElementById('sensitivity-slider');
-    const sensitivityValue = document.getElementById('sensitivity-value');
-    
-    if (sensitivitySlider && sensitivityValue) {
-      sensitivitySlider.addEventListener('input', function() {
-        sensitivity = parseInt(this.value);
-        sensitivityValue.textContent = sensitivity + '%';
-        createCircles();
-      });
-    }
-    
-    // Specificity slider
-    const specificitySlider = document.getElementById('specificity-slider');
-    const specificityValue = document.getElementById('specificity-value');
-    
-    if (specificitySlider && specificityValue) {
-      specificitySlider.addEventListener('input', function() {
-        specificity = parseInt(this.value);
-        specificityValue.textContent = specificity + '%';
-        createCircles();
-      });
-    }
+    // Set up all sliders
+    setupSlider('prevalence-slider', 'prevalence-value', '', value => prevalence = value);
+    setupSlider('sensitivity-slider', 'sensitivity-value', '%', value => sensitivity = value);
+    setupSlider('specificity-slider', 'specificity-value', '%', value => specificity = value);
   };
   
   p.setup = function() {
     // Initialize colors
-    greenColor = p.color(COLORS.green);
-    yellowColor = p.color(COLORS.yellow);
-    redColor = p.color(COLORS.red);
-    
-    createHoverColors();
+    setupColors();
     
     // Calculate dimensions and create canvas
     const dimensions = calculateLayout('sketch-container-2', gridSize, 2, 10, 0.01);
@@ -780,6 +760,18 @@ const sketch2 = (p) => {
   };
 };
 
+// Helper function to format numbers with natural precision up to max 5 decimal places
+const formatNumber = (num) => {
+  // Convert to string with up to 5 decimal places
+  const str = num.toString();
+  // If it's an integer or has fewer than 5 decimal places, return as is
+  if (!str.includes('.') || str.split('.')[1].length <= 5) {
+    return str;
+  }
+  // Otherwise limit to 5 decimal places without trailing zeros
+  return parseFloat(num.toFixed(5)).toString();
+};
+
 // Function to update the Bayes equation with current values
 function updateBayesEquation(truePositives, totalPositives, probability, prevalence, sensitivity, specificity) {
   const equationElement = document.getElementById('equation-display');
@@ -792,18 +784,6 @@ function updateBayesEquation(truePositives, totalPositives, probability, prevale
   const truePositiveNumerator = sensitivityDecimal * prevalenceDecimal;
   const falsePositiveDenominator = falsePositiveRate * (1 - prevalenceDecimal);
   const denominator = truePositiveNumerator + falsePositiveDenominator;
-  
-  // Helper function to format numbers with natural precision up to max 5 decimal places
-  const formatNumber = (num) => {
-    // Convert to string with up to 5 decimal places
-    const str = num.toString();
-    // If it's an integer or has fewer than 5 decimal places, return as is
-    if (!str.includes('.') || str.split('.')[1].length <= 5) {
-      return str;
-    }
-    // Otherwise limit to 5 decimal places without trailing zeros
-    return parseFloat(num.toFixed(5)).toString();
-  };
   
   // Format the equation with proper KaTeX delimiters and more detailed steps
   equationElement.innerHTML = `
@@ -834,43 +814,35 @@ function updateBayesEquation(truePositives, totalPositives, probability, prevale
 
 // Function to update the legend math expressions
 function updateLegendMath(prevalence, sensitivity, specificity) {
-  // Render each math element separately
-  if (window.katex) {
-    try {
-      // True positives math
-      katex.render(`P(D) = \\frac{${prevalence}}{1000}`, document.getElementById('tp-math-1'), {
-        throwOnError: false
-      });
-      katex.render(`P(+ \\mid D) = ${sensitivity}\\%`, document.getElementById('tp-math-2'), {
-        throwOnError: false
-      });
-      
-      // False negatives math
-      katex.render(`P(- \\mid D) = ${100 - sensitivity}\\%`, document.getElementById('fn-math'), {
-        throwOnError: false
-      });
-      
-      // False positives math
-      katex.render(`P(+ \\mid \\neg D) = ${100 - specificity}\\%`, document.getElementById('fp-math-1'), {
-        throwOnError: false
-      });
-      
-      // True negatives math
-      katex.render(`P(- \\mid \\neg D) = ${specificity}\\%`, document.getElementById('tn-math'), {
-        throwOnError: false
-      });
-    } catch (e) {
-      console.error('KaTeX rendering error:', e);
-    }
+  // Only proceed if KaTeX is available
+  if (!window.katex) return;
+  
+  try {
+    // Define all math expressions
+    const mathExpressions = {
+      'tp-math-1': `P(D) = \\frac{${prevalence}}{1000}`,
+      'tp-math-2': `P(+ \\mid D) = ${sensitivity}\\%`,
+      'fn-math': `P(- \\mid D) = ${100 - sensitivity}\\%`,
+      'fp-math-1': `P(+ \\mid \\neg D) = ${100 - specificity}\\%`,
+      'tn-math': `P(- \\mid \\neg D) = ${specificity}\\%`
+    };
+    
+    // Render all expressions
+    Object.entries(mathExpressions).forEach(([elementId, expression]) => {
+      const element = document.getElementById(elementId);
+      if (element) {
+        katex.render(expression, element, { throwOnError: false });
+      }
+    });
+  } catch (e) {
+    console.error('KaTeX rendering error:', e);
   }
 }
 
 // Add event listener to render KaTeX after the page loads
 document.addEventListener('DOMContentLoaded', function() {
-  // Initial render of the equation
+  // Initial render of the equation and legend math
   updateBayesEquation(1, 50, 2.0, 1, 100, 95);
-  
-  // Initial render of the legend math
   updateLegendMath(1, 100, 95);
   
   // Check if KaTeX is available
