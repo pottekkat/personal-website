@@ -519,12 +519,14 @@ To make this idea stick, try the interactive example below and watch how the pro
 </div>
 
 <div class="results-container">
-  <p>The probability of having the disease given a positive test result is around <span class="probability-result" id="bayes-result">2%</span>, which is calculated as shown below:</p>
+  <p>The probability of having the disease given a positive test result is around <span class="probability-result" id="bayes-result">9.09%</span>, which is calculated as shown below:</p>
   
   <div class="equation-container" id="equation-display">
     <!-- KaTeX will render here -->
   </div>
 </div>
+
+<p>Let's take this a step further and see what happens to the probability when a person with a positive test result takes another test like you usually do for confirmation. We can use Bayes' Theorem again, but this time, the prior probability ($P(D)$) is <span class="probability-result" id="bayes-result-copy">9.09%</span>, i.e., the probability of having the disease before taking the second test. Assuming that we take the same test, we can plug this value into our equation:</p>
 
 <script>
 /**
@@ -624,10 +626,17 @@ const sketch2 = (p) => {
       probability = (truePositives / totalPositives) * 100;
     }
     
-    // Update the result display - always use 2 decimal places
+    // Update the result display in both places - always use 2 decimal places
+    const probabilityText = probability.toFixed(2) + '%';
     const resultElement = document.getElementById('bayes-result');
+    const resultCopyElement = document.getElementById('bayes-result-copy');
+    
     if (resultElement) {
-      resultElement.textContent = probability.toFixed(2) + '%';
+      resultElement.textContent = probabilityText;
+    }
+    
+    if (resultCopyElement) {
+      resultCopyElement.textContent = probabilityText;
     }
     
     // Update the legend counts and text
