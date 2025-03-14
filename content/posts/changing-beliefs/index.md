@@ -363,7 +363,7 @@ When we imagine a sample like this and apply the probabilities, arriving at 2% f
 
 **Bayes' theorem teaches us to update our prior beliefs**—here, the 1 in 1000 prevalence of the disease—**with new evidence, like the test result.**
 
-To make this idea stick, you can try the interactive example below and see how the probability changes. You can set the rarity of the disease, how often the test correctly spots the disease, and how frequently it incorrectly flags healthy people.
+To make this idea stick, try the interactive example below and watch how the probability shifts. You can adjust the disease prevalence, the test's sensitivity to detect the disease, and its specificity to accurately rule out the disease in healthy people.
 
 <!-- Hey Cursor ONLY EDIT THINGS BELOW THIS COMMENT AND DON'T REMOVE THIS COMMENT -->
 
