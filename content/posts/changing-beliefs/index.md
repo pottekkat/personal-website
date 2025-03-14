@@ -798,11 +798,11 @@ function updateBayesEquation(truePositives, totalPositives, probability, prevale
     <p class="katex-block">
       $$
       \\begin{aligned}
-      P(D \\mid +) &= \\frac{P(D \\cap +)}{P(+)} \\\\[2ex]
-      &= \\frac{P(+ \\mid D) \\cdot P(D)}{P(+ \\mid D) \\cdot P(D) + P(+ \\mid \\neg D) \\cdot P(\\neg D)} \\\\[2ex]
-      &= \\frac{${sensitivityDecimal.toFixed(2)} \\cdot ${prevalenceDecimal.toFixed(3)}}{${sensitivityDecimal.toFixed(2)} \\cdot ${prevalenceDecimal.toFixed(3)} + ${falsePositiveRate.toFixed(2)} \\cdot ${(1-prevalenceDecimal).toFixed(3)}} \\\\[2ex]
-      &= \\frac{${truePositiveNumerator.toFixed(5)}}{${truePositiveNumerator.toFixed(5)} + ${falsePositiveDenominator.toFixed(5)}} \\\\[2ex]
-      &= \\frac{${truePositiveNumerator.toFixed(5)}}{${denominator.toFixed(5)}} \\\\[2ex]
+      P(D \\mid +) &= \\frac{P(D \\cap +)}{P(+)} \\\\[3ex]
+      &= \\frac{P(+ \\mid D) \\cdot P(D)}{P(+ \\mid D) \\cdot P(D) + P(+ \\mid \\neg D) \\cdot P(\\neg D)} \\\\[3ex]
+      &= \\frac{${sensitivityDecimal.toFixed(2)} \\cdot ${prevalenceDecimal.toFixed(3)}}{${sensitivityDecimal.toFixed(2)} \\cdot ${prevalenceDecimal.toFixed(3)} + ${falsePositiveRate.toFixed(2)} \\cdot ${(1-prevalenceDecimal).toFixed(3)}} \\\\[3ex]
+      &= \\frac{${truePositiveNumerator.toFixed(5)}}{${truePositiveNumerator.toFixed(5)} + ${falsePositiveDenominator.toFixed(5)}} \\\\[3ex]
+      &= \\frac{${truePositiveNumerator.toFixed(5)}}{${denominator.toFixed(5)}} \\\\[3ex]
       &= \\frac{${truePositives}}{${totalPositives}} = ${probability.toFixed(1)}\\%
       \\end{aligned}
       $$
