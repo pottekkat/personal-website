@@ -793,6 +793,18 @@ function updateBayesEquation(truePositives, totalPositives, probability, prevale
   const falsePositiveDenominator = falsePositiveRate * (1 - prevalenceDecimal);
   const denominator = truePositiveNumerator + falsePositiveDenominator;
   
+  // Helper function to format numbers with natural precision up to max 5 decimal places
+  const formatNumber = (num) => {
+    // Convert to string with up to 5 decimal places
+    const str = num.toString();
+    // If it's an integer or has fewer than 5 decimal places, return as is
+    if (!str.includes('.') || str.split('.')[1].length <= 5) {
+      return str;
+    }
+    // Otherwise limit to 5 decimal places without trailing zeros
+    return parseFloat(num.toFixed(5)).toString();
+  };
+  
   // Format the equation with proper KaTeX delimiters and more detailed steps
   equationElement.innerHTML = `
     <p class="katex-block">
@@ -800,10 +812,11 @@ function updateBayesEquation(truePositives, totalPositives, probability, prevale
       \\begin{aligned}
       P(D \\mid +) &= \\frac{P(D \\cap +)}{P(+)} \\\\[3ex]
       &= \\frac{P(+ \\mid D) \\cdot P(D)}{P(+ \\mid D) \\cdot P(D) + P(+ \\mid \\neg D) \\cdot P(\\neg D)} \\\\[3ex]
-      &= \\frac{${sensitivityDecimal.toFixed(2)} \\cdot ${prevalenceDecimal.toFixed(3)}}{${sensitivityDecimal.toFixed(2)} \\cdot ${prevalenceDecimal.toFixed(3)} + ${falsePositiveRate.toFixed(2)} \\cdot ${(1-prevalenceDecimal).toFixed(3)}} \\\\[3ex]
-      &= \\frac{${truePositiveNumerator.toFixed(5)}}{${truePositiveNumerator.toFixed(5)} + ${falsePositiveDenominator.toFixed(5)}} \\\\[3ex]
-      &= \\frac{${truePositiveNumerator.toFixed(5)}}{${denominator.toFixed(5)}} \\\\[3ex]
-      &= \\frac{${truePositives}}{${totalPositives}} = ${probability.toFixed(1)}\\%
+      &= \\frac{${formatNumber(sensitivityDecimal)} \\cdot ${formatNumber(prevalenceDecimal)}}{${formatNumber(sensitivityDecimal)} \\cdot ${formatNumber(prevalenceDecimal)} + ${formatNumber(falsePositiveRate)} \\cdot ${formatNumber(1-prevalenceDecimal)}} \\\\[3ex]
+      &= \\frac{${formatNumber(truePositiveNumerator)}}{${formatNumber(truePositiveNumerator)} + ${formatNumber(falsePositiveDenominator)}} \\\\[3ex]
+      &= \\frac{${formatNumber(truePositiveNumerator)}}{${formatNumber(denominator)}} \\\\[3ex]
+      &= \\frac{${truePositives}}{${totalPositives}} \\\\[3ex]
+      &= \\boxed{${formatNumber(probability)}\\%}
       \\end{aligned}
       $$
     </p>
