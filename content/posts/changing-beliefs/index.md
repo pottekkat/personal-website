@@ -476,22 +476,43 @@ To make this idea stick, you can try the interactive example below and see how t
 <!-- Create a container for the interactive sketch -->
 <div id="sketch-container-2" class="sketch-container"></div>
 
-<p style="margin-bottom: 5px !important;">
-  <span class="legend-circle red-circle"></span>
-  <strong style="color: rgb(220, 53, 69);"><span id="true-positives-count">1</span></strong> people <strong style="color: rgb(220, 53, 69);">have the disease</strong> and <strong style="color: rgb(220, 53, 69);">tested positive</strong> (because $P(D) = \frac{<span id="prevalence-eq">1</span>}{1000}$ and $P(+ \mid D) = <span id="sensitivity-eq">100</span>\%$).
-</p>
-<p style="margin-bottom: 5px !important;">
-  <span class="legend-circle" style="background-color: rgb(65, 105, 225);"></span>
-  <strong style="color: rgb(65, 105, 225);"><span id="false-negatives-count">0</span></strong> people <strong style="color: rgb(65, 105, 225);">have the disease</strong> but <strong style="color: rgb(65, 105, 225);">tested negative</strong> (because $P(- \mid D) = <span id="false-negative-eq">0</span>\%$).
-</p>
-<p style="margin-bottom: 5px !important;">
-  <span class="legend-circle yellow-circle"></span>
-  <strong style="color: rgb(255, 193, 7);"><span id="false-positives-count">49</span></strong> people <strong style="color: rgb(255, 193, 7);">don't have the disease</strong> but <strong style="color: rgb(255, 193, 7);">tested positive</strong> (because $P(+ \mid \neg D) = <span id="false-positive-eq">5</span>\% = \frac{100 - <span id="specificity-eq">95</span>}{100}$).
-</p>
-<p>
-  <span class="legend-circle green-circle"></span>
-  <strong style="color: rgb(75, 192, 112);"><span id="true-negatives-count">950</span></strong> people <strong style="color: rgb(75, 192, 112);">don't have the disease</strong> and <strong style="color: rgb(75, 192, 112);">tested negative</strong> (because $P(- \mid \neg D) = <span id="specificity-eq2">95</span>\%$).
-</p>
+<div id="legend-container">
+  <!-- True positives -->
+  <p style="margin-bottom: 5px !important;">
+    <span class="legend-circle red-circle"></span>
+    <strong style="color: rgb(220, 53, 69);"><span id="tp-count">1</span></strong> people 
+    <strong style="color: rgb(220, 53, 69);">have the disease</strong> and 
+    <strong style="color: rgb(220, 53, 69);">tested positive</strong> 
+    (because <span id="tp-math-1"></span> and <span id="tp-math-2"></span>).
+  </p>
+  
+  <!-- False negatives -->
+  <p style="margin-bottom: 5px !important;">
+    <span class="legend-circle" style="background-color: rgb(65, 105, 225);"></span>
+    <strong style="color: rgb(65, 105, 225);"><span id="fn-count">0</span></strong> people 
+    <strong style="color: rgb(65, 105, 225);">have the disease</strong> but 
+    <strong style="color: rgb(65, 105, 225);">tested negative</strong> 
+    (because <span id="fn-math"></span>).
+  </p>
+  
+  <!-- False positives -->
+  <p style="margin-bottom: 5px !important;">
+    <span class="legend-circle yellow-circle"></span>
+    <strong style="color: rgb(255, 193, 7);"><span id="fp-count">49</span></strong> people 
+    <strong style="color: rgb(255, 193, 7);">don't have the disease</strong> but 
+    <strong style="color: rgb(255, 193, 7);">tested positive</strong> 
+    (because <span id="fp-math-1"></span> = <span id="fp-math-2"></span>).
+  </p>
+  
+  <!-- True negatives -->
+  <p>
+    <span class="legend-circle green-circle"></span>
+    <strong style="color: rgb(75, 192, 112);"><span id="tn-count">950</span></strong> people 
+    <strong style="color: rgb(75, 192, 112);">don't have the disease</strong> and 
+    <strong style="color: rgb(75, 192, 112);">tested negative</strong> 
+    (because <span id="tn-math"></span>).
+  </p>
+</div>
 
 <div class="results-container">
   <p>Probability of having the disease given a positive test result:</p>
@@ -598,19 +619,14 @@ const sketch2 = (p) => {
       resultElement.textContent = probability.toFixed(1) + '%';
     }
     
-    // Update the counts in the legend
-    document.getElementById('true-positives-count').textContent = truePositives;
-    document.getElementById('false-negatives-count').textContent = falseNegatives;
-    document.getElementById('false-positives-count').textContent = falsePositives;
-    document.getElementById('true-negatives-count').textContent = trueNegatives;
+    // Update the legend counts
+    document.getElementById('tp-count').textContent = truePositives;
+    document.getElementById('fn-count').textContent = falseNegatives;
+    document.getElementById('fp-count').textContent = falsePositives;
+    document.getElementById('tn-count').textContent = trueNegatives;
     
-    // Update the equation parameters
-    document.getElementById('prevalence-eq').textContent = prevalence;
-    document.getElementById('sensitivity-eq').textContent = sensitivity;
-    document.getElementById('false-negative-eq').textContent = (100 - sensitivity);
-    document.getElementById('false-positive-eq').textContent = (100 - specificity);
-    document.getElementById('specificity-eq').textContent = specificity;
-    document.getElementById('specificity-eq2').textContent = specificity;
+    // Update the legend math expressions
+    updateLegendMath(prevalence, sensitivity, specificity);
     
     // Generate the Bayes equation with current values
     updateBayesEquation(truePositives, totalPositives, probability);
@@ -783,10 +799,55 @@ function updateBayesEquation(truePositives, totalPositives, probability) {
   }
 }
 
+// Function to update the legend math expressions
+function updateLegendMath(prevalence, sensitivity, specificity) {
+  // Render each math element separately
+  if (window.katex) {
+    try {
+      // True positives math
+      katex.render(`P(D) = \\frac{${prevalence}}{1000}`, document.getElementById('tp-math-1'), {
+        throwOnError: false
+      });
+      katex.render(`P(+ \\mid D) = ${sensitivity}\\%`, document.getElementById('tp-math-2'), {
+        throwOnError: false
+      });
+      
+      // False negatives math
+      katex.render(`P(- \\mid D) = ${100 - sensitivity}\\%`, document.getElementById('fn-math'), {
+        throwOnError: false
+      });
+      
+      // False positives math
+      katex.render(`P(+ \\mid \\neg D) = ${100 - specificity}\\%`, document.getElementById('fp-math-1'), {
+        throwOnError: false
+      });
+      katex.render(`\\frac{100 - ${specificity}}{100}`, document.getElementById('fp-math-2'), {
+        throwOnError: false
+      });
+      
+      // True negatives math
+      katex.render(`P(- \\mid \\neg D) = ${specificity}\\%`, document.getElementById('tn-math'), {
+        throwOnError: false
+      });
+    } catch (e) {
+      console.error('KaTeX rendering error:', e);
+    }
+  }
+}
+
 // Add event listener to render KaTeX after the page loads
 document.addEventListener('DOMContentLoaded', function() {
   // Initial render of the equation
   updateBayesEquation(1, 50, 2.0);
+  
+  // Initial render of the legend math
+  updateLegendMath(1, 100, 95);
+  
+  // Check if KaTeX is available
+  if (!window.katex && typeof window.renderMathInElement === 'function') {
+    // If direct KaTeX API is not available but auto-render is, use that
+    window.renderMathInElement(document.getElementById('legend-container'));
+  }
 });
 
 new p5(sketch2, document.getElementById('sketch-container-2'));
