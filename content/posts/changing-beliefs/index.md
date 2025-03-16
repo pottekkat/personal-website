@@ -4,24 +4,26 @@ slug: changing-beliefs
 date: 2025-03-17T09:28:09+05:30
 draft: false
 math: true
+weight: 15
 toc:
-    show: false
+  show: false
 ShowRelatedContent: false
 description: An interactive guide for updating beliefs based on evidence.
 summary: A visual and interactive guide to understanding Bayes' Theorem, a fundamental tool for updating probabilities with new evidence.
 tags:
-    - interactive
-    - mathematics
-    - visual
+  - interactive
+  - mathematics
+  - visual
 categories:
-    - Mathematics
+  - Featured
+  - Mathematics
 series: []
 aliases: []
 cover:
-    image: /images/changing-beliefs/testing-banner.jpg
-    alt: Photo of test tubes used for conducting medical tests.
-    caption: Reshape what you believe by weighing every new piece of evidence against what you thought you knew—~~Gautama Buddha~~ Bayes' theorem
-    relative: true
+  image: /images/changing-beliefs/testing-banner.jpg
+  alt: Photo of test tubes used for conducting medical tests.
+  caption: Reshape what you believe by weighing every new piece of evidence against what you thought you knew—~~Gautama Buddha~~ Bayes' theorem
+  relative: true
 fmContentType: Post (default)
 ---
 
