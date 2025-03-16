@@ -20,7 +20,7 @@ aliases: []
 cover:
     image: /images/changing-beliefs/testing-banner.jpg
     alt: Photo of test tubes used for conducting medical tests.
-    caption: The virtue of a doer itself does not guarantee good outcomes - The Nitopadesha
+    caption: Reshape what you believe by weighing every new piece of evidence against what you thought you knew—~~Gautama Buddha~~ Bayes' theorem
     relative: true
 fmContentType: Post (default)
 ---
@@ -930,3 +930,7 @@ document.addEventListener('DOMContentLoaded', function() {
 new p5(sketch2, document.getElementById('sketch-container-2'));
 </script>
 {{< /rawhtml >}}
+
+This result makes intuitive sense. When you test positive twice, the chances of having the disease are much higher than when you initially tested positive. This is the essence of Bayes' theorem—with each bit of new information, we can update our beliefs incrementally. Try changing the probabilities again in the interactive example and see if you can build intuition.
+
+Grant Sanderson, a.k.a 3Blue1Brown, has a [series of videos](https://www.youtube.com/@3blue1brown/search?query=bayes%20theorem) on this topic that can help you learn more. I also recommend [Veritasium (Derek Muller)\'s video](https://www.youtube.com/watch?v=R13BD8qKeTg), where he talks specifically about the medical test paradox.
