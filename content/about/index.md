@@ -28,6 +28,14 @@ I don't accept any form of payment to write about a product or a company. The pr
 
 I use [analytics](/stats/) to help me learn and improve my future articles. This blog uses [Plausible Analytics](https://plausible.io/privacy-focused-web-analytics) and does not collect personal data or personally identifiable information.
 
+#### AI Usage Disclosure
+
+I often use AI tools to think through problems and routine programming tasks. It has proven to be helpful and has made me much faster. But rest assured, I write everything you read here, and AI is only my first reader.
+
+I have been trying to use AI to program interactive articles. I still do a lot of heavy lifting, but AI makes my job easier.
+
+The bottom line is everything you see here is still deeply personal. AI is only a tool, and it isn't something I see myself being replaced with because I write to collect my thoughts; outsourcing thinking does not make any sense.
+
 ## About Me
 
 Quick links: [featured posts](/categories/featured/), [talks](https://youtube.com/playlist?list=PLUVkO7d15olRgs1rU6scvszk0DB5HxKdu), [what am I doing now?](/now/)
@@ -206,4 +214,3 @@ You can verify my public key using my fingerprint:
 ```text
 0D34 FAA1 5D04 4F67 1CCB  741D DE0F 662B 8EBB DAB4
 ```
-
