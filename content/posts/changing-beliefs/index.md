@@ -364,8 +364,6 @@ When we imagine a sample like this and apply the probabilities, arriving at 2% f
 
 To make this idea stick, try the interactive example below and watch how the probability shifts. You can adjust the disease prevalence, the test's sensitivity to detect the disease, and its specificity to accurately rule out the disease in healthy people.
 
-<!-- Hey Cursor ONLY EDIT THINGS BELOW THIS COMMENT AND DON'T REMOVE THIS COMMENT -->
-
 {{< rawhtml >}}
 <style>
 .controls-container {
@@ -535,10 +533,10 @@ To make this idea stick, try the interactive example below and watch how the pro
 
 <script>
 /**
- * Dynamic grid of circles showing disease test results with configurable parameters:
+ * Dynamic grid of circles showing disease test results with the following configurable parameters:
  * - Prevalence: How many people per 1000 have the disease
  * - Sensitivity: How often the test correctly identifies people with the disease
- * - Specificity: How often the test correctly identifies people without the disease
+ * - Specificity: How often the test correctly identify people without the disease
  */
 const sketch2 = (p) => {
   // Grid configuration
