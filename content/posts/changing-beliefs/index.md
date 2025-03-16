@@ -1,8 +1,8 @@
 ---
 title: The Idea of Changing Beliefs
 slug: changing-beliefs
-date: 2025-03-13T09:28:09+05:30
-draft: true
+date: 2025-03-17T09:28:09+05:30
+draft: false
 math: true
 toc:
     show: false
