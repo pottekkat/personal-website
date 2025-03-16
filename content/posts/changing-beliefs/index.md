@@ -233,7 +233,6 @@ const sketch1 = (p) => {
   
   // Create lighter/darker versions of colors for hover states
   const createHoverColors = () => {
-    // Create hover colors
     greenHoverColor = createHoverColor(p, greenColor, 1.2);
     yellowHoverColor = createHoverColor(p, yellowColor, 1.1);
     redHoverColor = createHoverColor(p, redColor, 1.2);
@@ -549,8 +548,9 @@ const sketch2 = (p) => {
   // Layout variables
   let circleSize, paddingX, paddingY, startY;
   
-  // Color palette
-  const colors = {};
+  // Colors
+  let greenColor, yellowColor, redColor, blueColor;
+  let greenHoverColor, yellowHoverColor, redHoverColor, blueHoverColor;
   
   // Probability parameters
   let prevalence = 10;      // Per 1000 people
@@ -563,54 +563,51 @@ const sketch2 = (p) => {
   let trueNegatives = 0;
   let falseNegatives = 0;
   
-  // Enhanced circle class for visualization
-  class GridCircle {
-    constructor(p, row, col, colorType, circleSize, paddingX, paddingY, startY, colors) {
-      this.p = p;
-      this.row = row;
-      this.col = col;
-      this.x = 0;
-      this.y = 0;
-      this.colorType = colorType;
-      this.circleSize = circleSize;
-      this.paddingX = paddingX;
-      this.paddingY = paddingY;
-      this.startY = startY;
-      this.hovered = false;
-      this.colors = colors;
-    }
-    
-    update(mouseX, mouseY) {
-      this.x = this.paddingX + (this.col * (this.circleSize + this.paddingX)) + (this.circleSize / 2);
-      this.y = this.startY + (this.row * (this.circleSize + this.paddingY)) + (this.circleSize / 2);
-      
-      const distance = this.p.dist(mouseX, mouseY, this.x, this.y);
-      this.hovered = distance < this.circleSize / 2;
+  // Reuse the Circle class from the first sketch
+  class GridCircle extends Circle {
+    constructor(p, row, col, colorType, circleSize, paddingX, paddingY, startY) {
+      super(p, row, col, colorType, circleSize, paddingX, paddingY, startY);
     }
     
     draw() {
+      // Determine fill color based on type and hover state
+      if (this.hovered) {
+        switch (this.colorType) {
+          case 'red': this.p.fill(redHoverColor); break;
+          case 'yellow': this.p.fill(yellowHoverColor); break;
+          case 'blue': this.p.fill(blueHoverColor); break;
+          default: this.p.fill(greenHoverColor);
+        }
+      } else {
+        switch (this.colorType) {
+          case 'red': this.p.fill(redColor); break;
+          case 'yellow': this.p.fill(yellowColor); break;
+          case 'blue': this.p.fill(blueColor); break;
+          default: this.p.fill(greenColor);
+        }
+      }
+      
       this.p.noStroke();
-      const colorKey = this.colorType + (this.hovered ? 'Hover' : '');
-      this.p.fill(this.colors[colorKey]);
       this.p.ellipse(this.x, this.y, this.circleSize);
     }
   }
   
+  // Create lighter/darker versions of colors for hover states
+  const createHoverColors = () => {
+    greenHoverColor = createHoverColor(p, greenColor, 1.2);
+    yellowHoverColor = createHoverColor(p, yellowColor, 1.1);
+    redHoverColor = createHoverColor(p, redColor, 1.2);
+    blueHoverColor = createHoverColor(p, blueColor, 1.2);
+  };
+  
   // Initialize colors
   const setupColors = () => {
-    // Base colors
-    const baseColors = {
-      green: p.color(75, 192, 112),
-      yellow: p.color(255, 193, 7),
-      red: p.color(220, 53, 69),
-      blue: p.color(65, 105, 225)
-    };
+    greenColor = p.color(COLORS.green);
+    yellowColor = p.color(COLORS.yellow);
+    redColor = p.color(COLORS.red);
+    blueColor = p.color(65, 105, 225);
     
-    // Create standard and hover variants
-    Object.entries(baseColors).forEach(([key, color]) => {
-      colors[key] = color;
-      colors[key + 'Hover'] = utils.createHoverColor(p, color, key === 'yellow' ? 1.1 : 1.2);
-    });
+    createHoverColors();
   };
   
   // Calculate distribution based on parameters
@@ -667,8 +664,13 @@ const sketch2 = (p) => {
     circles.length = 0;
     calculateDistribution();
     
-    const positions = Array.from({ length: gridSize.rows * gridSize.cols }, (_, i) => i);
-    utils.shuffleArray(positions);
+    // Create and shuffle positions
+    const positions = [];
+    for (let i = 0; i < gridSize.rows * gridSize.cols; i++) {
+      positions.push(i);
+    }
+    
+    shuffleArray(positions);
     
     let circleIndex = 0;
     
@@ -681,10 +683,7 @@ const sketch2 = (p) => {
         const row = Math.floor(pos / gridSize.cols);
         const col = pos % gridSize.cols;
         
-        circles.push(new GridCircle(
-          p, row, col, colorType, circleSize, 
-          paddingX, paddingY, startY, colors
-        ));
+        circles.push(new GridCircle(p, row, col, colorType, circleSize, paddingX, paddingY, startY));
       }
     };
     
@@ -722,7 +721,7 @@ const sketch2 = (p) => {
   p.setup = function() {
     setupColors();
     
-    const dimensions = utils.calculateLayout('sketch-container-2', gridSize, 2, 10, 0.01);
+    const dimensions = calculateLayout('sketch-container-2', gridSize, 2, 10, 0.01);
     p.createCanvas(dimensions.width, dimensions.height);
     
     circleSize = dimensions.elementWidth;
@@ -746,7 +745,7 @@ const sketch2 = (p) => {
 
   // Handle window resize
   p.windowResized = function() {
-    const dimensions = utils.calculateLayout('sketch-container-2', gridSize, 2, 10, 0.01);
+    const dimensions = calculateLayout('sketch-container-2', gridSize, 2, 10, 0.01);
     p.resizeCanvas(dimensions.width, dimensions.height);
     
     circleSize = dimensions.elementWidth;
@@ -794,19 +793,6 @@ const utils = {
       [array[i], array[j]] = [array[j], array[i]];
     }
     return array;
-  },
-  
-  // Create hover color variants
-  createHoverColor: (p, baseColor, factor) => {
-    const r = p.red(baseColor);
-    const g = p.green(baseColor);
-    const b = p.blue(baseColor);
-    
-    return p.color(
-      p.constrain(r * factor, 0, 255),
-      p.constrain(g * factor, 0, 255),
-      p.constrain(b * factor, 0, 255)
-    );
   },
   
   // Update DOM element text if it exists
