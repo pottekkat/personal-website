@@ -854,6 +854,12 @@ function updateSecondTestEquation(firstTestProbability, sensitivity, specificity
   const numerator = pPlus2GivenD * pDGivenPlus1;
   const finalProbability = (numerator / pPlus2GivenPlus1) * 100;
   
+  // Calculate approximate whole number fraction based on a population of 100
+  // This creates a more intuitive representation similar to the first equation
+  const population = 100;
+  const secondTestPositives = Math.round(pPlus2GivenPlus1 * population);
+  const truePositivesAfterTwoTests = Math.round(numerator * population);
+  
   // Format the equation with proper KaTeX delimiters and detailed steps
   equationElement.innerHTML = `
     <p class="katex-block">
@@ -863,6 +869,7 @@ function updateSecondTestEquation(firstTestProbability, sensitivity, specificity
       &= \\frac{P(+_2 \\mid D) \\cdot P(D \\mid +_1)}{P(+_2 \\mid D) \\cdot P(D \\mid +_1) + P(+_2 \\mid \\neg D) \\cdot P(\\neg D \\mid +_1)} \\\\[3ex]
       &= \\frac{${formatNumber(sensitivityDecimal)} \\cdot ${formatNumber(firstProbabilityDecimal)}}{${formatNumber(sensitivityDecimal)} \\cdot ${formatNumber(firstProbabilityDecimal)} + ${formatNumber(pPlus2GivenNotD)} \\cdot ${formatNumber(pNotDGivenPlus1)}} \\\\[3ex]
       &= \\frac{${formatNumber(numerator)}}{${formatNumber(pPlus2GivenPlus1)}} \\\\[3ex]
+      &\\approx \\frac{${truePositivesAfterTwoTests}}{${secondTestPositives}} \\\\[3ex]
       &= \\boxed{${formatNumber(finalProbability)}\\%}
       \\end{aligned}
       $$
