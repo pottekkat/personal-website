@@ -263,7 +263,7 @@
         "Post (default)"
       ],
       "excludePaths": [
-        "_*.*" // Exclude all files starting with an underscore
+        "_*.*"
       ]
     },
     {
@@ -274,7 +274,7 @@
         "Daily"
       ],
       "excludePaths": [
-        "_*.*" // Exclude all files starting with an underscore
+        "_*.*"
       ]
     },
     {
@@ -285,7 +285,7 @@
         "Newsletter"
       ],
       "excludePaths": [
-        "_*.*" // Exclude all files starting with an underscore
+        "_*.*"
       ]
     },
     {
@@ -296,7 +296,7 @@
         "TILs"
       ],
       "excludePaths": [
-        "_*.*" // Exclude all files starting with an underscore
+        "_*.*"
       ]
     }
   ],

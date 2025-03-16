@@ -245,6 +245,10 @@
     width: 90%;
 }
 
+.post-content blockquote p:last-of-type:not(:has(+ footer)) {
+    margin-bottom: 0;
+}
+
 .post-content hr {
     margin: 30px 0;
     height: 2px;
@@ -514,4 +518,34 @@ codapi-snippet codapi-toolbar button:after {
 
 #canvas-wrapper>.nofill>div>svg>rect {
     fill: none;
+}
+
+.katex-display {
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-width: 100%;
+    padding: 0.5em 0;
+    margin: 0.5em 0;
+    scrollbar-width: thin;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.katex-display::-webkit-scrollbar {
+    height: 4px;
+}
+
+/* Track */
+.katex-display::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+.katex-display::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 4px;
+}
+
+/* Handle on hover */
+.katex-display::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary);
 }
