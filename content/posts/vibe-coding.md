@@ -20,7 +20,7 @@ cover:
   image: /images/vibe-coding/vibes-banner.jpg
   alt: An old Japanese style drawing of a man on a boat.
   caption: I have no plan. I have no funding. But I have all the vibes. Let's go.
-  relative: true
+  relative: false
 fmContentType: Post (default)
 ---
 
