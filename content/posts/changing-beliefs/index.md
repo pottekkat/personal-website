@@ -549,13 +549,12 @@ const sketch2 = (p) => {
   // Layout variables
   let circleSize, paddingX, paddingY, startY;
   
-  // Colors
-  let greenColor, yellowColor, redColor, blueColor;
-  let greenHoverColor, yellowHoverColor, redHoverColor, blueHoverColor;
+  // Color palette
+  const colors = {};
   
   // Probability parameters
-  let prevalence = 10;       // Per 1000 people
-  let sensitivity = 90;    // True positive rate (%)
+  let prevalence = 10;      // Per 1000 people
+  let sensitivity = 90;     // True positive rate (%)
   let specificity = 91;     // True negative rate (%)
   
   // Calculated values
@@ -564,95 +563,88 @@ const sketch2 = (p) => {
   let trueNegatives = 0;
   let falseNegatives = 0;
   
-  // Circle implementation for this sketch
-  class GridCircle extends Circle {
+  // Enhanced circle class for visualization
+  class GridCircle {
+    constructor(p, row, col, colorType, circleSize, paddingX, paddingY, startY, colors) {
+      this.p = p;
+      this.row = row;
+      this.col = col;
+      this.x = 0;
+      this.y = 0;
+      this.colorType = colorType;
+      this.circleSize = circleSize;
+      this.paddingX = paddingX;
+      this.paddingY = paddingY;
+      this.startY = startY;
+      this.hovered = false;
+      this.colors = colors;
+    }
+    
+    update(mouseX, mouseY) {
+      this.x = this.paddingX + (this.col * (this.circleSize + this.paddingX)) + (this.circleSize / 2);
+      this.y = this.startY + (this.row * (this.circleSize + this.paddingY)) + (this.circleSize / 2);
+      
+      const distance = this.p.dist(mouseX, mouseY, this.x, this.y);
+      this.hovered = distance < this.circleSize / 2;
+    }
+    
     draw() {
       this.p.noStroke();
-      
-      if (this.hovered) {
-        switch (this.colorType) {
-          case 'red': this.p.fill(redHoverColor); break;
-          case 'yellow': this.p.fill(yellowHoverColor); break;
-          case 'blue': this.p.fill(blueHoverColor); break;
-          default: this.p.fill(greenHoverColor);
-        }
-      } else {
-        switch (this.colorType) {
-          case 'red': this.p.fill(redColor); break;
-          case 'yellow': this.p.fill(yellowColor); break;
-          case 'blue': this.p.fill(blueColor); break;
-          default: this.p.fill(greenColor);
-        }
-      }
-      
+      const colorKey = this.colorType + (this.hovered ? 'Hover' : '');
+      this.p.fill(this.colors[colorKey]);
       this.p.ellipse(this.x, this.y, this.circleSize);
     }
   }
   
-  // Setup colors
+  // Initialize colors
   const setupColors = () => {
-    greenColor = p.color(COLORS.green);
-    yellowColor = p.color(COLORS.yellow);
-    redColor = p.color(COLORS.red);
-    blueColor = p.color(65, 105, 225);
+    // Base colors
+    const baseColors = {
+      green: p.color(75, 192, 112),
+      yellow: p.color(255, 193, 7),
+      red: p.color(220, 53, 69),
+      blue: p.color(65, 105, 225)
+    };
     
-    // Create hover colors
-    greenHoverColor = createHoverColor(p, greenColor, 1.2);
-    yellowHoverColor = createHoverColor(p, yellowColor, 1.1);
-    redHoverColor = createHoverColor(p, redColor, 1.2);
-    blueHoverColor = createHoverColor(p, blueColor, 1.2);
+    // Create standard and hover variants
+    Object.entries(baseColors).forEach(([key, color]) => {
+      colors[key] = color;
+      colors[key + 'Hover'] = utils.createHoverColor(p, color, key === 'yellow' ? 1.1 : 1.2);
+    });
   };
   
-  // Calculate the number of circles in each category based on current parameters
+  // Calculate distribution based on parameters
   const calculateDistribution = () => {
     const totalCircles = gridSize.rows * gridSize.cols;
     
-    // Calculate how many people have the disease
     const diseaseCount = Math.round((prevalence / 1000) * totalCircles);
     const healthyCount = totalCircles - diseaseCount;
     
-    // Calculate test results
     truePositives = Math.round(diseaseCount * (sensitivity / 100));
     falseNegatives = diseaseCount - truePositives;
     
     trueNegatives = Math.round(healthyCount * (specificity / 100));
     falsePositives = healthyCount - trueNegatives;
     
-    // Update the result display
     updateResultDisplay();
   };
   
-  // Update the probability result and equation display
+  // Update display with calculated values
   const updateResultDisplay = () => {
     const totalPositives = truePositives + falsePositives;
     
-    // Calculate Bayes probability
     let probability = 0;
     if (totalPositives > 0) {
       probability = (truePositives / totalPositives) * 100;
     }
     
-    // Update the result display in both places - always use 2 decimal places
     const probabilityText = probability.toFixed(2) + '%';
-    const resultElement = document.getElementById('bayes-result');
-    const resultCopyElement = document.getElementById('bayes-result-copy');
+    utils.updateElement('bayes-result', probabilityText);
+    utils.updateElement('bayes-result-copy', probabilityText);
     
-    if (resultElement) {
-      resultElement.textContent = probabilityText;
-    }
-    
-    if (resultCopyElement) {
-      resultCopyElement.textContent = probabilityText;
-    }
-    
-    // Update the legend counts and text
     updateLegendCounts();
-    
-    // Update the legend math expressions
-    updateLegendMath(prevalence, sensitivity, specificity);
-    
-    // Generate the Bayes equation with current values
-    updateBayesEquation(truePositives, totalPositives, probability, prevalence, sensitivity, specificity);
+    bayesMath.updateLegendMath(prevalence, sensitivity, specificity);
+    bayesMath.updateBayesEquation(truePositives, totalPositives, probability, prevalence, sensitivity, specificity);
   };
   
   // Update legend counts and singular/plural text
@@ -664,39 +656,35 @@ const sketch2 = (p) => {
       'tn': trueNegatives
     };
     
-    // Update all counts and people/person text
-    Object.keys(counts).forEach(key => {
-      const count = counts[key];
-      document.getElementById(`${key}-count`).textContent = count;
-      document.getElementById(`${key}-people-text`).textContent = count === 1 ? 'person' : 'people';
+    Object.entries(counts).forEach(([key, count]) => {
+      utils.updateElement(`${key}-count`, count);
+      utils.updateElement(`${key}-people-text`, count === 1 ? 'person' : 'people');
     });
   };
   
-  // Create all circles with their colors
+  // Create circles based on current distribution
   const createCircles = () => {
-    circles.length = 0; // Clear any existing circles
-    
-    // Calculate distribution based on current parameters
+    circles.length = 0;
     calculateDistribution();
     
-    // Create and shuffle positions
-    const positions = [];
-    for (let i = 0; i < gridSize.rows * gridSize.cols; i++) {
-      positions.push(i);
-    }
+    const positions = Array.from({ length: gridSize.rows * gridSize.cols }, (_, i) => i);
+    utils.shuffleArray(positions);
     
-    shuffleArray(positions);
-    
-    // Create circles with appropriate colors
     let circleIndex = 0;
     
-    // Helper function to add circles of a specific type
+    // Helper to add circles of a specific type
     const addCircles = (count, colorType) => {
       for (let i = 0; i < count; i++) {
+        if (circleIndex >= positions.length) return;
+        
         const pos = positions[circleIndex++];
         const row = Math.floor(pos / gridSize.cols);
         const col = pos % gridSize.cols;
-        circles.push(new GridCircle(p, row, col, colorType, circleSize, paddingX, paddingY, startY));
+        
+        circles.push(new GridCircle(
+          p, row, col, colorType, circleSize, 
+          paddingX, paddingY, startY, colors
+        ));
       }
     };
     
@@ -707,10 +695,15 @@ const sketch2 = (p) => {
     addCircles(trueNegatives, 'green');   // True negatives
   };
   
-  // Setup event listeners for sliders
+  // Setup slider controls
   const setupSliders = () => {
-    // Helper function to set up each slider
-    const setupSlider = (id, valueId, suffix, updateFn) => {
+    const sliders = [
+      { id: 'prevalence-slider', valueId: 'prevalence-value', suffix: '', updateFn: val => prevalence = val },
+      { id: 'sensitivity-slider', valueId: 'sensitivity-value', suffix: '%', updateFn: val => sensitivity = val },
+      { id: 'specificity-slider', valueId: 'specificity-value', suffix: '%', updateFn: val => specificity = val }
+    ];
+    
+    sliders.forEach(({ id, valueId, suffix, updateFn }) => {
       const slider = document.getElementById(id);
       const valueElement = document.getElementById(valueId);
       
@@ -722,35 +715,26 @@ const sketch2 = (p) => {
           createCircles();
         });
       }
-    };
-    
-    // Set up all sliders
-    setupSlider('prevalence-slider', 'prevalence-value', '', value => prevalence = value);
-    setupSlider('sensitivity-slider', 'sensitivity-value', '%', value => sensitivity = value);
-    setupSlider('specificity-slider', 'specificity-value', '%', value => specificity = value);
+    });
   };
   
+  // p5.js setup function
   p.setup = function() {
-    // Initialize colors
     setupColors();
     
-    // Calculate dimensions and create canvas
-    const dimensions = calculateLayout('sketch-container-2', gridSize, 2, 10, 0.01);
+    const dimensions = utils.calculateLayout('sketch-container-2', gridSize, 2, 10, 0.01);
     p.createCanvas(dimensions.width, dimensions.height);
     
-    // Set layout values
     circleSize = dimensions.elementWidth;
     paddingX = dimensions.padding;
     paddingY = dimensions.padding;
     startY = dimensions.padding;
     
-    // Setup slider event listeners
     setupSliders();
-    
-    // Create the circles
     createCircles();
   };
 
+  // p5.js draw function
   p.draw = function() {
     p.clear();
     
@@ -760,173 +744,202 @@ const sketch2 = (p) => {
     });
   };
 
+  // Handle window resize
   p.windowResized = function() {
-    const dimensions = calculateLayout('sketch-container-2', gridSize, 2, 10, 0.01);
+    const dimensions = utils.calculateLayout('sketch-container-2', gridSize, 2, 10, 0.01);
     p.resizeCanvas(dimensions.width, dimensions.height);
     
-    // Update layout values
     circleSize = dimensions.elementWidth;
     paddingX = dimensions.padding;
     paddingY = dimensions.padding;
     startY = dimensions.padding;
     
-    // Recreate all circles with new dimensions
     createCircles();
   };
 };
 
-// Helper function to format numbers with natural precision up to max 5 decimal places
-const formatNumber = (num) => {
-  // Convert to string with up to 5 decimal places
-  const str = num.toString();
-  // If it's an integer or has fewer than 5 decimal places, return as is
-  if (!str.includes('.') || str.split('.')[1].length <= 5) {
-    return str;
+// Utility functions for shared operations
+const utils = {
+  // Format numbers with natural precision up to max 5 decimal places
+  formatNumber: (num) => {
+    const str = num.toString();
+    if (!str.includes('.') || str.split('.')[1].length <= 5) {
+      return str;
+    }
+    return parseFloat(num.toFixed(5)).toString();
+  },
+  
+  // Calculate layout dimensions based on container size
+  calculateLayout: (containerId, gridSize, minPadding, maxPadding, paddingRatio) => {
+    const container = document.getElementById(containerId);
+    const containerWidth = container.offsetWidth - 28;
+    
+    const padding = Math.min(Math.max(containerWidth * paddingRatio, minPadding), maxPadding);
+    const availableWidth = containerWidth - (padding * (gridSize.cols + 1));
+    const elementWidth = availableWidth / gridSize.cols;
+    const gridHeight = (elementWidth * gridSize.rows) + (padding * (gridSize.rows + 1));
+    
+    return { 
+      width: containerWidth, 
+      height: gridHeight,
+      elementWidth: elementWidth,
+      padding: padding
+    };
+  },
+  
+  // Shuffle array for random circle placement
+  shuffleArray: (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  },
+  
+  // Create hover color variants
+  createHoverColor: (p, baseColor, factor) => {
+    const r = p.red(baseColor);
+    const g = p.green(baseColor);
+    const b = p.blue(baseColor);
+    
+    return p.color(
+      p.constrain(r * factor, 0, 255),
+      p.constrain(g * factor, 0, 255),
+      p.constrain(b * factor, 0, 255)
+    );
+  },
+  
+  // Update DOM element text if it exists
+  updateElement: (id, text) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = text;
+  },
+  
+  // Render math with KaTeX if available
+  renderMath: (element) => {
+    if (typeof window.renderMathInElement === 'function') {
+      try {
+        window.renderMathInElement(element);
+      } catch (e) {
+        console.error('Math rendering error:', e);
+      }
+    }
   }
-  // Otherwise limit to 5 decimal places without trailing zeros
-  return parseFloat(num.toFixed(5)).toString();
 };
 
-// Function to update the Bayes equation with current values
-function updateBayesEquation(truePositives, totalPositives, probability, prevalence, sensitivity, specificity) {
-  const equationElement = document.getElementById('equation-display');
-  if (!equationElement) return;
-  
-  // Calculate values for the expanded equation
-  const prevalenceDecimal = prevalence / 1000;
-  const sensitivityDecimal = sensitivity / 100;
-  const falsePositiveRate = (100 - specificity) / 100;
-  const truePositiveNumerator = sensitivityDecimal * prevalenceDecimal;
-  const falsePositiveDenominator = falsePositiveRate * (1 - prevalenceDecimal);
-  const denominator = truePositiveNumerator + falsePositiveDenominator;
-  
-  // Format the equation with proper KaTeX delimiters and more detailed steps
-  equationElement.innerHTML = `
-    <p class="katex-block">
-      $$
-      \\begin{aligned}
-      P(D \\mid +) &= \\frac{P(D \\cap +)}{P(+)} \\\\[3ex]
-      &= \\frac{P(+ \\mid D) \\cdot P(D)}{P(+ \\mid D) \\cdot P(D) + P(+ \\mid \\neg D) \\cdot P(\\neg D)} \\\\[3ex]
-      &= \\frac{${formatNumber(sensitivityDecimal)} \\cdot ${formatNumber(prevalenceDecimal)}}{${formatNumber(sensitivityDecimal)} \\cdot ${formatNumber(prevalenceDecimal)} + ${formatNumber(falsePositiveRate)} \\cdot ${formatNumber(1-prevalenceDecimal)}} \\\\[3ex]
-      &= \\frac{${formatNumber(truePositiveNumerator)}}{${formatNumber(truePositiveNumerator)} + ${formatNumber(falsePositiveDenominator)}} \\\\[3ex]
-      &= \\frac{${formatNumber(truePositiveNumerator)}}{${formatNumber(denominator)}} \\\\[3ex]
-      &\\approx \\frac{${truePositives}}{${totalPositives}} \\\\[3ex]
-      &= \\boxed{${formatNumber(probability)}\\%}
-      \\end{aligned}
-      $$
-    </p>
-  `;
-  
-  // Also update the second test equation
-  updateSecondTestEquation(probability, sensitivity, specificity);
-  
-  // If the site has auto-rendering for KaTeX, trigger it
-  if (typeof window.renderMathInElement === 'function') {
-    try {
-      window.renderMathInElement(equationElement);
-    } catch (e) {
-      console.error('Math rendering error:', e);
-    }
-  }
-}
-
-// Function to update the second test equation
-function updateSecondTestEquation(firstTestProbability, sensitivity, specificity) {
-  const equationElement = document.getElementById('second-test-equation-display');
-  if (!equationElement) return;
-  
-  // Convert percentages to decimals
-  const firstProbabilityDecimal = firstTestProbability / 100;
-  const sensitivityDecimal = sensitivity / 100;
-  const specificityDecimal = specificity / 100;
-  
-  // Calculate the probability of a positive second test
-  // P(+2|+1) = P(+2|D)P(D|+1) + P(+2|¬D)P(¬D|+1)
-  const pDGivenPlus1 = firstProbabilityDecimal;
-  const pNotDGivenPlus1 = 1 - pDGivenPlus1;
-  const pPlus2GivenD = sensitivityDecimal;
-  const pPlus2GivenNotD = 1 - specificityDecimal;
-  
-  const pPlus2GivenPlus1 = (pPlus2GivenD * pDGivenPlus1) + (pPlus2GivenNotD * pNotDGivenPlus1);
-  
-  // Calculate the final probability using Bayes' theorem
-  // P(D|+1,+2) = P(+2|D)⋅P(D|+1) / P(+2|+1)
-  const numerator = pPlus2GivenD * pDGivenPlus1;
-  const finalProbability = (numerator / pPlus2GivenPlus1) * 100;
-  
-  // Calculate approximate whole number fraction based on a population of 100
-  // This creates a more intuitive representation similar to the first equation
-  const population = 100;
-  const secondTestPositives = Math.round(pPlus2GivenPlus1 * population);
-  const truePositivesAfterTwoTests = Math.round(numerator * population);
-  
-  // Format the equation with proper KaTeX delimiters and detailed steps
-  equationElement.innerHTML = `
-    <p class="katex-block">
-      $$
-      \\begin{aligned}
-      P(D \\mid +_1, +_2) &= \\frac{P(+_2 \\mid D) \\cdot P(D \\mid +_1)}{P(+_2 \\mid +_1)} \\\\[3ex]
-      &= \\frac{P(+_2 \\mid D) \\cdot P(D \\mid +_1)}{P(+_2 \\mid D) \\cdot P(D \\mid +_1) + P(+_2 \\mid \\neg D) \\cdot P(\\neg D \\mid +_1)} \\\\[3ex]
-      &= \\frac{${formatNumber(sensitivityDecimal)} \\cdot ${formatNumber(firstProbabilityDecimal)}}{${formatNumber(sensitivityDecimal)} \\cdot ${formatNumber(firstProbabilityDecimal)} + ${formatNumber(pPlus2GivenNotD)} \\cdot ${formatNumber(pNotDGivenPlus1)}} \\\\[3ex]
-      &= \\frac{${formatNumber(numerator)}}{${formatNumber(pPlus2GivenPlus1)}} \\\\[3ex]
-      &\\approx \\frac{${truePositivesAfterTwoTests}}{${secondTestPositives}} \\\\[3ex]
-      &= \\boxed{${formatNumber(finalProbability)}\\%}
-      \\end{aligned}
-      $$
-    </p>
-  `;
-  
-  // If the site has auto-rendering for KaTeX, trigger it
-  if (typeof window.renderMathInElement === 'function') {
-    try {
-      window.renderMathInElement(equationElement);
-    } catch (e) {
-      console.error('Math rendering error:', e);
-    }
-  }
-}
-
-// Function to update the legend math expressions
-function updateLegendMath(prevalence, sensitivity, specificity) {
-  // Only proceed if KaTeX is available
-  if (!window.katex) return;
-  
-  try {
-    // Define all math expressions
-    const mathExpressions = {
-      'tp-math-1': `P(D) = \\frac{${prevalence}}{1000}`,
-      'tp-math-2': `P(+ \\mid D) = ${sensitivity}\\%`,
-      'fn-math': `P(- \\mid D) = ${100 - sensitivity}\\%`,
-      'fp-math-1': `P(+ \\mid \\neg D) = ${100 - specificity}\\%`,
-      'tn-math': `P(- \\mid \\neg D) = ${specificity}\\%`
-    };
+// Bayes theorem calculations
+const bayesMath = {
+  // Update the Bayes equation with current values
+  updateBayesEquation: (truePositives, totalPositives, probability, prevalence, sensitivity, specificity) => {
+    const equationElement = document.getElementById('equation-display');
+    if (!equationElement) return;
     
-    // Render all expressions
-    Object.entries(mathExpressions).forEach(([elementId, expression]) => {
-      const element = document.getElementById(elementId);
-      if (element) {
-        katex.render(expression, element, { throwOnError: false });
-      }
-    });
-  } catch (e) {
-    console.error('KaTeX rendering error:', e);
-  }
-}
-
-// Add event listener to render KaTeX after the page loads
-document.addEventListener('DOMContentLoaded', function() {
-  // Initial render of the equation and legend math
-  updateBayesEquation(9, 99, 9.09, 10, 90, 91);
-  updateLegendMath(10, 90, 91);
+    const prevalenceDecimal = prevalence / 1000;
+    const sensitivityDecimal = sensitivity / 100;
+    const falsePositiveRate = (100 - specificity) / 100;
+    const truePositiveNumerator = sensitivityDecimal * prevalenceDecimal;
+    const falsePositiveDenominator = falsePositiveRate * (1 - prevalenceDecimal);
+    const denominator = truePositiveNumerator + falsePositiveDenominator;
+    
+    equationElement.innerHTML = `
+      <p class="katex-block">
+        $$
+        \\begin{aligned}
+        P(D \\mid +) &= \\frac{P(D \\cap +)}{P(+)} \\\\[3ex]
+        &= \\frac{P(+ \\mid D) \\cdot P(D)}{P(+ \\mid D) \\cdot P(D) + P(+ \\mid \\neg D) \\cdot P(\\neg D)} \\\\[3ex]
+        &= \\frac{${utils.formatNumber(sensitivityDecimal)} \\cdot ${utils.formatNumber(prevalenceDecimal)}}{${utils.formatNumber(sensitivityDecimal)} \\cdot ${utils.formatNumber(prevalenceDecimal)} + ${utils.formatNumber(falsePositiveRate)} \\cdot ${utils.formatNumber(1-prevalenceDecimal)}} \\\\[3ex]
+        &= \\frac{${utils.formatNumber(truePositiveNumerator)}}{${utils.formatNumber(truePositiveNumerator)} + ${utils.formatNumber(falsePositiveDenominator)}} \\\\[3ex]
+        &= \\frac{${utils.formatNumber(truePositiveNumerator)}}{${utils.formatNumber(denominator)}} \\\\[3ex]
+        &\\approx \\frac{${truePositives}}{${totalPositives}} \\\\[3ex]
+        &= \\boxed{${utils.formatNumber(probability)}\\%}
+        \\end{aligned}
+        $$
+      </p>
+    `;
+    
+    bayesMath.updateSecondTestEquation(probability, sensitivity, specificity);
+    utils.renderMath(equationElement);
+  },
   
-  // Check if KaTeX is available
+  // Update the second test equation
+  updateSecondTestEquation: (firstTestProbability, sensitivity, specificity) => {
+    const equationElement = document.getElementById('second-test-equation-display');
+    if (!equationElement) return;
+    
+    const firstProbabilityDecimal = firstTestProbability / 100;
+    const sensitivityDecimal = sensitivity / 100;
+    const specificityDecimal = specificity / 100;
+    
+    const pDGivenPlus1 = firstProbabilityDecimal;
+    const pNotDGivenPlus1 = 1 - pDGivenPlus1;
+    const pPlus2GivenD = sensitivityDecimal;
+    const pPlus2GivenNotD = 1 - specificityDecimal;
+    
+    const pPlus2GivenPlus1 = (pPlus2GivenD * pDGivenPlus1) + (pPlus2GivenNotD * pNotDGivenPlus1);
+    const numerator = pPlus2GivenD * pDGivenPlus1;
+    const finalProbability = (numerator / pPlus2GivenPlus1) * 100;
+    
+    const population = 100;
+    const secondTestPositives = Math.round(pPlus2GivenPlus1 * population);
+    const truePositivesAfterTwoTests = Math.round(numerator * population);
+    
+    equationElement.innerHTML = `
+      <p class="katex-block">
+        $$
+        \\begin{aligned}
+        P(D \\mid +_1, +_2) &= \\frac{P(+_2 \\mid D) \\cdot P(D \\mid +_1)}{P(+_2 \\mid +_1)} \\\\[3ex]
+        &= \\frac{P(+_2 \\mid D) \\cdot P(D \\mid +_1)}{P(+_2 \\mid D) \\cdot P(D \\mid +_1) + P(+_2 \\mid \\neg D) \\cdot P(\\neg D \\mid +_1)} \\\\[3ex]
+        &= \\frac{${utils.formatNumber(sensitivityDecimal)} \\cdot ${utils.formatNumber(firstProbabilityDecimal)}}{${utils.formatNumber(sensitivityDecimal)} \\cdot ${utils.formatNumber(firstProbabilityDecimal)} + ${utils.formatNumber(pPlus2GivenNotD)} \\cdot ${utils.formatNumber(pNotDGivenPlus1)}} \\\\[3ex]
+        &= \\frac{${utils.formatNumber(numerator)}}{${utils.formatNumber(pPlus2GivenPlus1)}} \\\\[3ex]
+        &\\approx \\frac{${truePositivesAfterTwoTests}}{${secondTestPositives}} \\\\[3ex]
+        &= \\boxed{${utils.formatNumber(finalProbability)}\\%}
+        \\end{aligned}
+        $$
+      </p>
+    `;
+    
+    utils.renderMath(equationElement);
+  },
+  
+  // Update the legend math expressions
+  updateLegendMath: (prevalence, sensitivity, specificity) => {
+    if (!window.katex) return;
+    
+    try {
+      const mathExpressions = {
+        'tp-math-1': `P(D) = \\frac{${prevalence}}{1000}`,
+        'tp-math-2': `P(+ \\mid D) = ${sensitivity}\\%`,
+        'fn-math': `P(- \\mid D) = ${100 - sensitivity}\\%`,
+        'fp-math-1': `P(+ \\mid \\neg D) = ${100 - specificity}\\%`,
+        'tn-math': `P(- \\mid \\neg D) = ${specificity}\\%`
+      };
+      
+      Object.entries(mathExpressions).forEach(([elementId, expression]) => {
+        const element = document.getElementById(elementId);
+        if (element) {
+          katex.render(expression, element, { throwOnError: false });
+        }
+      });
+    } catch (e) {
+      console.error('KaTeX rendering error:', e);
+    }
+  }
+};
+
+// Initialize on page load
+document.addEventListener('DOMContentLoaded', function() {
+  // Initial render of equations
+  bayesMath.updateBayesEquation(9, 99, 9.09, 10, 90, 91);
+  bayesMath.updateLegendMath(10, 90, 91);
+  
+  // Render math if auto-render is available
   if (!window.katex && typeof window.renderMathInElement === 'function') {
-    // If direct KaTeX API is not available but auto-render is, use that
     window.renderMathInElement(document.getElementById('legend-container'));
     window.renderMathInElement(document.getElementById('second-test-equation-display'));
   }
 });
 
+// Create the interactive visualization
 new p5(sketch2, document.getElementById('sketch-container-2'));
 </script>
 {{< /rawhtml >}}
