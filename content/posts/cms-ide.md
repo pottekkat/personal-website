@@ -18,7 +18,7 @@ cover:
   image: /images/cms-ide/toy-story-banner.jpg
   alt: Woody and Buzz from Toy Story.
   caption: And there's a snake in my boots! Seriously, how good was Toy Story?
-  relative: true
+  relative: false
 fmContentType: Post (default)
 ---
 
@@ -98,7 +98,7 @@ cover:
   image: /images/cms-ide/toy-story-banner.jpg
   alt: Woody and Buzz from Toy Story.
   caption: And there's a snake in my boots! How good was Toy Story?
-  relative: true
+  relative: false
 fmContentType: Post (default)
 ```
 

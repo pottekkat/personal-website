@@ -21,7 +21,7 @@ cover:
   image: /images/jq-interactive-guide/prism-banner.jpg
   alt: Prism splitting white light into its component colors.
   caption: Learning to use jq even a little bit can give you tremendous JSON superpowers.
-  relative: true
+  relative: false
 fmContentType: Post (default)
 ---
 

@@ -19,7 +19,7 @@ cover:
   image: /images/complete-macos-development-environment-setup/tools-banner.jpg
   alt: Tools placed on a wall.
   caption: Now that I have all the necessary tools, I will start writing code, right? Right? RIGHT?
-  relative: true
+  relative: false
 fmContentType: Post (default)
 ---
 

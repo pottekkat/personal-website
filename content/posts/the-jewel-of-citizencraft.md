@@ -21,7 +21,7 @@ cover:
   image: /images/the-jewel-of-citizencraft/peepal-banner.jpg
   alt: A photo of a Peepal (Sacred Fig) tree.
   caption: Under the Peepal tree, the citizens of Chakrapuri engaged in spirited debates, shaping the future of their republic.
-  relative: true
+  relative: false
 fmContentType: Post (default)
 ---
 

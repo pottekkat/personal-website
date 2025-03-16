@@ -4,7 +4,7 @@ date: 2025-03-12T18:25:32+05:30
 description: "The `:has()` pseudo-class and the next-sibling `+` combinator are really useful for some complex CSS."
 fmContentType: TILs
 cover:
-    relative: true
+    relative: false
 ---
 
 The relatively new `:has()` [pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:has) can be combined with the [next-sibling](https://developer.mozilla.org/en-US/docs/Web/CSS/Next-sibling_combinator) `+` combinator for some nifty CSS selections. I used this selection today:

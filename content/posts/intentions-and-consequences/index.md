@@ -21,7 +21,7 @@ cover:
     image: /images/intentions-and-consequences/red-sandalwood-banner.jpg
     alt: Red Sandalwood Tree.
     caption: The virtue of a doer itself does not guarantee good outcomes - The Nitopadesha
-    relative: true
+    relative: false
 fmContentType: Post (default)
 ---
 

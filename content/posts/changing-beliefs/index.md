@@ -23,7 +23,7 @@ cover:
   image: /images/changing-beliefs/testing-banner.jpg
   alt: Photo of test tubes used for conducting medical tests.
   caption: Reshape what you believe by weighing every new piece of evidence against what you thought you knew—~~Gautama Buddha~~ Bayes' theorem
-  relative: true
+  relative: false
 fmContentType: Post (default)
 ---
 

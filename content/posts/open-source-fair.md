@@ -16,7 +16,7 @@ cover:
   image: /images/open-source-fair/scale-banner.jpg
   alt: A scale with a black and a white chess piece.
   caption: As most things, it isn't black and white.
-  relative: true
+  relative: false
 fmContentType: Post (default)
 ---
 
