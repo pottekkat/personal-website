@@ -528,6 +528,12 @@ To make this idea stick, try the interactive example below and watch how the pro
 
 <p>Let's take this a step further and see what happens to the probability when a person with a positive test result takes another test like you usually do for confirmation.</p><p>We can use Bayes' Theorem again, but this time, the prior probability ($P(D)$) is <span class="probability-result" id="bayes-result-copy">9.09%</span>, i.e., the probability of having the disease before taking the second test. Assuming that we take the same test, the probability of having the disease given the person tested positive twice can be written as:</p>
 
+{{< rawhtml >}}
+<div class="equation-container" id="second-test-equation-display">
+  <!-- KaTeX will render here -->
+</div>
+{{< /rawhtml >}}
+
 <script>
 /**
  * Dynamic grid of circles showing disease test results with configurable parameters:
@@ -811,6 +817,58 @@ function updateBayesEquation(truePositives, totalPositives, probability, prevale
     </p>
   `;
   
+  // Also update the second test equation
+  updateSecondTestEquation(probability, sensitivity, specificity);
+  
+  // If the site has auto-rendering for KaTeX, trigger it
+  if (typeof window.renderMathInElement === 'function') {
+    try {
+      window.renderMathInElement(equationElement);
+    } catch (e) {
+      console.error('Math rendering error:', e);
+    }
+  }
+}
+
+// Function to update the second test equation
+function updateSecondTestEquation(firstTestProbability, sensitivity, specificity) {
+  const equationElement = document.getElementById('second-test-equation-display');
+  if (!equationElement) return;
+  
+  // Convert percentages to decimals
+  const firstProbabilityDecimal = firstTestProbability / 100;
+  const sensitivityDecimal = sensitivity / 100;
+  const specificityDecimal = specificity / 100;
+  
+  // Calculate the probability of a positive second test
+  // P(+2|+1) = P(+2|D)P(D|+1) + P(+2|¬D)P(¬D|+1)
+  const pDGivenPlus1 = firstProbabilityDecimal;
+  const pNotDGivenPlus1 = 1 - pDGivenPlus1;
+  const pPlus2GivenD = sensitivityDecimal;
+  const pPlus2GivenNotD = 1 - specificityDecimal;
+  
+  const pPlus2GivenPlus1 = (pPlus2GivenD * pDGivenPlus1) + (pPlus2GivenNotD * pNotDGivenPlus1);
+  
+  // Calculate the final probability using Bayes' theorem
+  // P(D|+1,+2) = P(+2|D)⋅P(D|+1) / P(+2|+1)
+  const numerator = pPlus2GivenD * pDGivenPlus1;
+  const finalProbability = (numerator / pPlus2GivenPlus1) * 100;
+  
+  // Format the equation with proper KaTeX delimiters and detailed steps
+  equationElement.innerHTML = `
+    <p class="katex-block">
+      $$
+      \\begin{aligned}
+      P(D \\mid +_1, +_2) &= \\frac{P(+_2 \\mid D) \\cdot P(D \\mid +_1)}{P(+_2 \\mid +_1)} \\\\[3ex]
+      &= \\frac{P(+_2 \\mid D) \\cdot P(D \\mid +_1)}{P(+_2 \\mid D) \\cdot P(D \\mid +_1) + P(+_2 \\mid \\neg D) \\cdot P(\\neg D \\mid +_1)} \\\\[3ex]
+      &= \\frac{${formatNumber(sensitivityDecimal)} \\cdot ${formatNumber(firstProbabilityDecimal)}}{${formatNumber(sensitivityDecimal)} \\cdot ${formatNumber(firstProbabilityDecimal)} + ${formatNumber(pPlus2GivenNotD)} \\cdot ${formatNumber(pNotDGivenPlus1)}} \\\\[3ex]
+      &= \\frac{${formatNumber(numerator)}}{${formatNumber(pPlus2GivenPlus1)}} \\\\[3ex]
+      &= \\boxed{${formatNumber(finalProbability)}\\%}
+      \\end{aligned}
+      $$
+    </p>
+  `;
+  
   // If the site has auto-rendering for KaTeX, trigger it
   if (typeof window.renderMathInElement === 'function') {
     try {
@@ -858,6 +916,7 @@ document.addEventListener('DOMContentLoaded', function() {
   if (!window.katex && typeof window.renderMathInElement === 'function') {
     // If direct KaTeX API is not available but auto-render is, use that
     window.renderMathInElement(document.getElementById('legend-container'));
+    window.renderMathInElement(document.getElementById('second-test-equation-display'));
   }
 });
 
