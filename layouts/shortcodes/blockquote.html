@@ -1,4 +1,3 @@
-
 <!-- Author: Parsia Hakimian https://github.com/parsiya/Hugo-Shortcodes -->
 <!-- port of Octopress blockquote plugin http://octopress.org/docs/plugins/blockquote/ to Hugo
      see readme for usage -->
@@ -50,7 +49,7 @@
 {{ end }}
 
 <blockquote>
-  <p>{{ .Inner | markdownify }}</p>
+  {{ .Inner | markdownify }}
   <footer>
     <strong>{{ with $.Scratch.Get "bl_author" }}{{ . }}{{ end }}</strong>
     {{ with $.Scratch.Get "bl_source" }}
