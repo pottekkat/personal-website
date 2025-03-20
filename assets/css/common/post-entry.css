@@ -37,8 +37,8 @@
     color: var(--secondary);
 }
 
-/* To add margin below each paragraph in the intro content */
-.entry-content .intro {
+/* To add margin below each paragraph except the last one */
+.entry-content p:not(:last-of-type) {
     margin-bottom: 14px;
 }
 

@@ -25,9 +25,7 @@
   </header>
   {{ partial "social_icons.html" site.Params.socialIcons }}
   <div class="entry-content">
-    <p class="intro">{{ .Content.Intro | markdownify }}</p>
-    <p class="intro">{{ .Content.About | markdownify }}</p>
-    <p>{{ .Content.Action | markdownify }}</p>
+    {{ .Content | markdownify }}
   </div>
   {{ partial "subscription-form.html" . }}
 </article>
