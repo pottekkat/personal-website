@@ -54,7 +54,7 @@ git init -b main
 <script src="./git-visualization.js"></script>
 {{< /rawhtml >}}
 
-{{< mermaid >}}
+{{< mermaid id="git-graph-1" >}}
 flowchart LR
     A[Run git init to start.]
 {{< /mermaid >}}
