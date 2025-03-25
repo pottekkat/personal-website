@@ -47,16 +47,16 @@ Sed ac mi sed dui sodales cursus eget posuere sapien. Mauris blandit neque et eg
 git init
 ```
 
-{{< codapi id="init-1" sandbox="git" editor="none" template="init.sh" >}}
+{{< codapi id="init-1" sandbox="git" editor="off" template="init.sh" >}}
 
 {{< rawhtml>}}
-<script src="/js/codapi-events.js"></script>
-<script src="/js/git-visualization.js"></script>
+<script src="./codapi-events.js"></script>
+<script src="./git-visualization.js"></script>
 {{< /rawhtml >}}
 
 {{< mermaid >}}
-gitGraph
-   commit id: "initial"
+flowchart LR
+    A[Run git init to start.]
 {{< /mermaid >}}
 
 ```shell
@@ -64,22 +64,22 @@ git config user.email alice@example.com
 git config user.name "Alice Zakas"
 ```
 
-{{< codapi id="init-2" depends-on="init-1" sandbox="git" editor="none" template="init.sh" output-tail=true >}}
+{{< codapi id="init-2" depends-on="init-1" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
 
 ```shell
 git status
 ```
 
-{{< codapi id="init-3" depends-on="init-2" sandbox="git" editor="none" template="init.sh" output-tail=true >}}
+{{< codapi id="init-3" depends-on="init-2" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
 
 ```shell
 git add .
 ```
 
-{{< codapi id="init-4" depends-on="init-3" sandbox="git" editor="none" template="init.sh" output-tail=true >}}
+{{< codapi id="init-4" depends-on="init-3" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
 
 ```shell
 git commit -m "initial commit"
 ```
 
-{{< codapi id="init-5" depends-on="init-4" sandbox="git" editor="none" template="init.sh" output-tail=true >}}
+{{< codapi id="init-5" depends-on="init-4" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
