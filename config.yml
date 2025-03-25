@@ -54,7 +54,6 @@ params:
     dailySections: ['dailies']
     newsletterSections: ['newsletters']
     mermaid:
-      theme: "dark"
       align: "center"
 
     plausible:
