@@ -1,31 +1,31 @@
 // Git visualization state
 let gitState = {
     initialized: false,
-    currentBranch: 'master',
-    branches: ['master'],
+    currentBranch: 'main',
+    branches: [],
     commits: []
 };
 
 // Function to update the mermaid diagram
 function updateGitGraph() {
-    const mermaidElement = document.querySelector('.mermaid');
+    const mermaidElement = document.getElementById('git-graph-1');
     if (!mermaidElement) return;
 
-    let graphDefinition = 'gitGraph\n';
+    let graphDefinition;
     
     if (!gitState.initialized) {
-        graphDefinition += '   commit id: "Not a git repository."\n';
+        graphDefinition = 'flowchart LR\n    A[Run git init to start.]\n';
     } else if (gitState.commits.length === 0) {
-        // After git init, show empty master branch
-        graphDefinition += '   branch master\n';
+        // After git init, show empty main branch
+        graphDefinition = 'flowchart LR\n    A[Initialized a Git repository.]\n';
     } else {
         // After git commit, show the commit
-        graphDefinition += '   commit id: "initial commit"\n';
+        graphDefinition = 'gitGraph\n   commit id: "initial commit"\n';
     }
 
     // Update the mermaid diagram
     mermaidElement.textContent = graphDefinition;
-    mermaid.render('git-graph', graphDefinition).then(({svg}) => {
+    mermaid.render('git-graph-svg-1', graphDefinition).then(({svg}) => {
         mermaidElement.innerHTML = svg;
     });
 }
@@ -38,8 +38,8 @@ function handleGitCommand(id) {
         // Initialize with an empty state
         gitState = {
             initialized: true,
-            currentBranch: 'master',
-            branches: ['master'],
+            currentBranch: 'main',
+            branches: ['main'],
             commits: []
         };
         console.log('Git initialized:', gitState);
