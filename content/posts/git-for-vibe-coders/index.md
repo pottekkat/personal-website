@@ -44,10 +44,10 @@ Aenean tristique magna ut quam vulputate lacinia. Vivamus commodo luctus mauris,
 Sed ac mi sed dui sodales cursus eget posuere sapien. Mauris blandit neque et egestas consectetur. Praesent non purus id nisi interdum placerat. Etiam id risus quis metus consectetur feugiat. In efficitur ipsum vitae magna pellentesque, id tempor mauris cursus. In lectus nisl, ultrices ac hendrerit eget, ultricies pulvinar arcu. Donec erat ipsum, pharetra eu mi sed, volutpat sodales mauris.
 
 ```shell
-git init
+git init -b main
 ```
 
-{{< codapi id="init-1" sandbox="git" editor="off" template="init.sh" >}}
+{{< codapi id="diagram-trigger-init" sandbox="git" editor="off" template="init.sh" >}}
 
 {{< rawhtml>}}
 <script src="./codapi-events.js"></script>
@@ -64,7 +64,7 @@ git config user.email alice@example.com
 git config user.name "Alice Zakas"
 ```
 
-{{< codapi id="init-2" depends-on="init-1" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
+{{< codapi id="init-2" depends-on="diagram-trigger-init" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
 
 ```shell
 git status
@@ -82,4 +82,4 @@ git add .
 git commit -m "initial commit"
 ```
 
-{{< codapi id="init-5" depends-on="init-4" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
+{{< codapi id="diagram-trigger-commit" depends-on="init-4" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
