@@ -3,7 +3,9 @@ let gitState = {
     initialized: false,
     currentBranch: 'main',
     branches: [],
-    commits: []
+    commits: [],
+    commandSequence: ['diagram-trigger-init', 'diagram-trigger-commit'],
+    lastExecutedCommand: null
 };
 
 // Function to update the mermaid diagram
@@ -34,9 +36,32 @@ function updateGitGraph() {
 function handleGitCommand(id) {
     console.log('Handling command for id:', id);
     
+    // Find the index of the current command in the sequence
+    const currentIndex = gitState.commandSequence.indexOf(id);
+    if (currentIndex === -1) return; // Command not in sequence
+
+    // Execute any skipped commands in order
+    for (let i = 0; i < currentIndex; i++) {
+        const skippedCommand = gitState.commandSequence[i];
+        if (skippedCommand !== gitState.lastExecutedCommand) {
+            executeCommand(skippedCommand);
+        }
+    }
+
+    // Execute the current command
+    executeCommand(id);
+    gitState.lastExecutedCommand = id;
+
+    // Update the visualization
+    updateGitGraph();
+}
+
+// Function to execute a single command
+function executeCommand(id) {
     if (id === 'diagram-trigger-init') {
         // Initialize with an empty state
         gitState = {
+            ...gitState,
             initialized: true,
             currentBranch: 'main',
             branches: ['main'],
@@ -52,9 +77,6 @@ function handleGitCommand(id) {
         });
         console.log('Commit added:', gitState);
     }
-
-    // Update the visualization
-    updateGitGraph();
 }
 
 // Listen for Codapi command outputs
