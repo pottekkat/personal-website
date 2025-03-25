@@ -9,8 +9,9 @@ ShowRelatedContent: false
 description: A practical + interactive crash course on Git (that slaps).
 summary: A practical, hands-on, and interactive guide to Git for new coders and creative builders.
 EnableCodapi: true
-CodapiURL: localhost:1314/v1
+CodapiURL: codapi.navendu.me/v1
 ShowCodeCopyButtons: false
+mermaid: true
 tags:
     - interactive
     - software engineering
@@ -28,7 +29,7 @@ cover:
 fmContentType: Post (default)
 ---
 
-Test
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur eleifend velit, sit amet venenatis risus posuere auctor. Etiam rhoncus ex nec arcu malesuada, et pellentesque mi varius. Aenean eu ante quis nunc molestie ultricies ac ut elit. Donec sit amet tellus id enim imperdiet viverra. Morbi mauris diam, scelerisque non tortor quis, condimentum semper mauris. Vestibulum aliquet placerat ante, nec eleifend ligula venenatis eget. Phasellus a turpis eget sapien varius tincidunt eget vitae mauris.
 
 {{< blockquote author="@thekitze" link="https://twitter.com/thekitze/status/1901918860573290914" title="March 18, 2025 on Twitter" >}}
 they should invent a tool where vibe code can be stored in the cloud so from time to time you do a "checkin" of your code and you can always revert to it and go to a previous version
@@ -36,14 +37,46 @@ they should invent a tool where vibe code can be stored in the cloud so from tim
 like a ... hub for code
 {{< /blockquote >}}
 
+Maecenas sapien diam, sagittis sit amet vehicula at, dapibus a neque. Duis at eros pulvinar, pellentesque velit varius, feugiat dui. Vivamus dapibus vel lorem sed convallis. Mauris nec purus pellentesque, tincidunt eros vitae, aliquam elit. Pellentesque mattis massa vitae tortor vehicula, eu aliquet enim laoreet. Pellentesque pharetra elit ac euismod bibendum. Duis augue lectus, sodales vel porta nec, lacinia eget eros. Nam nec luctus lacus. Vivamus ultrices ultricies velit quis volutpat.
+
+Aenean tristique magna ut quam vulputate lacinia. Vivamus commodo luctus mauris, sit amet vehicula purus consequat a. Donec at blandit sapien, ac pretium risus. Fusce fringilla, felis eu maximus dictum, quam sapien placerat sapien, id facilisis ante turpis in lorem. Aenean at suscipit velit. Ut dui ligula, tincidunt in ligula ac, aliquet aliquet orci. Sed fermentum neque semper massa maximus mollis. Sed ac mi sed dui sodales cursus eget posuere sapien. Mauris blandit neque et egestas consectetur. Praesent non purus id nisi interdum placerat. Etiam id risus quis metus consectetur feugiat. In efficitur ipsum vitae magna pellentesque, id tempor mauris cursus. In lectus nisl, ultrices ac hendrerit eget, ultricies pulvinar arcu. Donec erat ipsum, pharetra eu mi sed, volutpat sodales mauris.
+
+{{< mermaid >}}
+gitGraph
+   commit
+   commit
+   branch develop
+   checkout develop
+   commit
+   commit
+   checkout main
+   merge develop
+   commit
+   commit
+{{< /mermaid >}}
+
+Sed ac mi sed dui sodales cursus eget posuere sapien. Mauris blandit neque et egestas consectetur. Praesent non purus id nisi interdum placerat. Etiam id risus quis metus consectetur feugiat. In efficitur ipsum vitae magna pellentesque, id tempor mauris cursus. In lectus nisl, ultrices ac hendrerit eget, ultricies pulvinar arcu. Donec erat ipsum, pharetra eu mi sed, volutpat sodales mauris.
+
 ```shell
 git init
 ```
 
-{{< codapi id="init-1" sandbox="git" editor="basic" template="init.sh" >}}
+{{< codapi id="init-1" sandbox="git" editor="none" template="init.sh" >}}
 
 ```shell
 git status
 ```
 
-{{< codapi id="init-2" depends-on="init-1" sandbox="git" editor="basic" template="init.sh"output-tail=true >}}
+{{< codapi id="init-2" depends-on="init-1" sandbox="git" editor="none" template="init.sh" output-tail=true >}}
+
+```shell
+git add .
+```
+
+{{< codapi id="init-3" depends-on="init-2" sandbox="git" editor="none" template="init.sh" output-tail=true >}}
+
+```shell
+git commit -m "initial commit"
+```
+
+{{< codapi id="init-4" depends-on="init-3" sandbox="git" editor="none" template="init.sh" output-tail=true >}}
