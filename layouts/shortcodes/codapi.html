@@ -7,6 +7,7 @@
     {{ with .Get "files" }}files="{{ . }}"{{ end }}
     {{ with .Get "id" }}id="{{ . }}"{{ end }}
     {{ with .Get "hidden" }}style="display: none;"{{ end }}
+    {{ with .Get "depends-on" }}depends-on="{{ . }}"{{ end }}
   >
   </codapi-snippet>
 {{ end }}
