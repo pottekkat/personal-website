@@ -24,7 +24,7 @@ aliases: []
 cover:
     image: /images/git-for-vibe-coders/deepseek-banner.jpg
     alt: Photo of the DeepSeek chat interface.
-    caption: "Prompt: Write a commit message that has \"skibidi rizz.\" Clearly, I don't know what these words mean. I'm just trying to fit in ... Ohio?! That doesn't sound right..."
+    caption: "Prompt: Write a commit message that has \"skibidi rizz.\" Clearly, I don't know what these words mean. I'm just trying to fit in… Ohio?! That doesn't sound right either…"
     relative: false
 fmContentType: Post (default)
 ---
