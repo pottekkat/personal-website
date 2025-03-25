@@ -53,8 +53,6 @@ params:
     mainSections: ['posts']
     dailySections: ['dailies']
     newsletterSections: ['newsletters']
-    mermaid:
-      align: "center"
 
     plausible:
       enable: true
