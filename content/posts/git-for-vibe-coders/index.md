@@ -41,20 +41,6 @@ Maecenas sapien diam, sagittis sit amet vehicula at, dapibus a neque. Duis at er
 
 Aenean tristique magna ut quam vulputate lacinia. Vivamus commodo luctus mauris, sit amet vehicula purus consequat a. Donec at blandit sapien, ac pretium risus. Fusce fringilla, felis eu maximus dictum, quam sapien placerat sapien, id facilisis ante turpis in lorem. Aenean at suscipit velit. Ut dui ligula, tincidunt in ligula ac, aliquet aliquet orci. Sed fermentum neque semper massa maximus mollis. Sed ac mi sed dui sodales cursus eget posuere sapien. Mauris blandit neque et egestas consectetur. Praesent non purus id nisi interdum placerat. Etiam id risus quis metus consectetur feugiat. In efficitur ipsum vitae magna pellentesque, id tempor mauris cursus. In lectus nisl, ultrices ac hendrerit eget, ultricies pulvinar arcu. Donec erat ipsum, pharetra eu mi sed, volutpat sodales mauris.
 
-{{< mermaid >}}
-gitGraph
-   commit
-   commit
-   branch develop
-   checkout develop
-   commit
-   commit
-   checkout main
-   merge develop
-   commit
-   commit
-{{< /mermaid >}}
-
 Sed ac mi sed dui sodales cursus eget posuere sapien. Mauris blandit neque et egestas consectetur. Praesent non purus id nisi interdum placerat. Etiam id risus quis metus consectetur feugiat. In efficitur ipsum vitae magna pellentesque, id tempor mauris cursus. In lectus nisl, ultrices ac hendrerit eget, ultricies pulvinar arcu. Donec erat ipsum, pharetra eu mi sed, volutpat sodales mauris.
 
 ```shell
@@ -63,20 +49,37 @@ git init
 
 {{< codapi id="init-1" sandbox="git" editor="none" template="init.sh" >}}
 
+{{< rawhtml>}}
+<script src="/js/codapi-events.js"></script>
+<script src="/js/git-visualization.js"></script>
+{{< /rawhtml >}}
+
+{{< mermaid >}}
+gitGraph
+   commit id: "initial"
+{{< /mermaid >}}
+
 ```shell
-git status
+git config user.email alice@example.com
+git config user.name "Alice Zakas"
 ```
 
 {{< codapi id="init-2" depends-on="init-1" sandbox="git" editor="none" template="init.sh" output-tail=true >}}
 
 ```shell
-git add .
+git status
 ```
 
 {{< codapi id="init-3" depends-on="init-2" sandbox="git" editor="none" template="init.sh" output-tail=true >}}
 
 ```shell
-git commit -m "initial commit"
+git add .
 ```
 
 {{< codapi id="init-4" depends-on="init-3" sandbox="git" editor="none" template="init.sh" output-tail=true >}}
+
+```shell
+git commit -m "initial commit"
+```
+
+{{< codapi id="init-5" depends-on="init-4" sandbox="git" editor="none" template="init.sh" output-tail=true >}}
