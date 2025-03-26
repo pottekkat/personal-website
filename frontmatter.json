@@ -6,6 +6,7 @@
   "frontMatter.preview.trailingSlash": true,
   "frontMatter.website.host": "https://navendu.me",
   "frontMatter.taxonomy.alignFilename": true,
+  "frontMatter.global.timezone": "",
   "frontMatter.panel.actions.disabled": [
     "createContent"
   ],
