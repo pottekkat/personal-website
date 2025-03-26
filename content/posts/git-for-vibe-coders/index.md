@@ -54,10 +54,11 @@ git init -b main
     .sticky-container {
         background-color: red;
     }
+
     .sticky-container > :last-child {
         min-height: 26vh;
+        margin-bottom: 0;
     }
-
 
     #git-graph-1 {
         margin-top: 30px;
