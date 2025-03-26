@@ -97,6 +97,7 @@ git add .
 
 {{< codapi id="init-4" depends-on="init-3" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
 
+<!-- This is where the scrolling stops. -->
 {{< rawhtml >}}
 </div>
 {{< /rawhtml >}}
