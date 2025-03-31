@@ -74,56 +74,53 @@ _Say it with me_: **_autarky is terrible_**.
 
 ## Incentives Move the World
 
-Story name: _Story of the Singing Cats_
-About Bellikota's cousins, Rakamma, Thanakka, and Pallavi.
+The _Story of the Singing Cats_ features Bellikota's three Tamilian (?) cousins from Kovai—Rakamma, Thanakka, and Pallavi. The names of the characters in _The Nitopadesha_ span the entire length and breadth of the subcontinent, and it makes me wonder just how far-reaching these ancient civilizations were and how much we've lost to time.
+
+The cats teach us a simple but important lesson: **all behavior is incentive-driven**.
 
 {{< blockquote title="Story of the Singing Cats, The Nitopadesha" >}}
 For without incentives no one moves, speeds up or changes direction.
 {{< /blockquote >}}
 
-This third story is set in Kovai and its characters have very Tamilian names which is pretty interesting. I wonder how big these civilizations were to have this breadth of knowledge. Truly we have lost a lot.
+**People act when they're motivated**. It's simple. Some respond to money. Some to status. To some others, it is fear, coercion, or shame. However, incentives only work when matched to the people and the situation.
 
-People act with incentives and don't act without incentives.
+That's why a monetary fine is the best way to deal with traffic violations. Try shaming someone into wearing a helmet and see how far that gets you.
 
-Different incetives work different people in different situations.
+Listening to Bellikota talk about incentives, Udaradevan is reminded of what the Fearsome Four-Eyed Dog—perhaps the same one [from the first book](/posts/the-jewel-of-citizencraft/#unintended-consequences)—told his grandfather Tarakaran.
 
-Different types of incentives: Higher status/respect, monetary incentives, force/violence/backmail.
+## Markets are Mostly Fair
 
-For example traffic violation should have a monetary incentive to not pay the fine. Other incentives would not work.
-
-Bellikota's story reminds Udaradevan about the Fearsome Four-Eyed Dog and he moves on to the next story.
-
-## Markets are Fairer than you think (Working title, could be improved)
-
-Story name: _The Handiwork of the Unseen Spirit_
-About Udaradevan's grandfather Tarakaran again and the counsel he got from the Fearsome Four-Eyed Dog from first book perhaps.
+_The Handiwork of the Unseen Spirit_ drives home this idea:
 
 {{< blockquote title="The Handiwork of the Unseen Spirit, The Nitopadesha" >}}
 Yet know this, bear! What we call the market is fairer than others that you can imagine.
 {{< /blockquote >}}
 
-Markets are fair. It ensures that society produces right quantities of the right things at the right price. Markets aligns self-interest with that of others.
+The market, when left alone to function properly, **is mostly fair**. The market matches supply and demand. It ensures that **the right quantities of the right things are produced at the right price**. It aligns self-interest with that of others and rewards those who provide value.
 
-What we often confuse as a failure of markets or cApItailSm is just crony-capitalism, where a business gains an unfair advantage through close ties with the government. Think about all the times you were angry at company; did the company have close ties with the government?
+What we often confuse as a failure of markets or cApItailSm is just crony capitalism, where businesses cozy up to the government to gain an unfair advantage. Think about all the times you were angry at a company; did the company have close ties with the government?
 
-When Udaradevan finished his story Bellikota remarks that "there are important conditions for markets to work, and they must be well understood. There are important conditions when markets fail, and they too must be understood."
+But **markets do fail sometimes**. And when Udaradevan finishes his story, Bellikota doesn't let that slip by:
 
-Bellikota drives this point home by narrating the story of his first cousin twice removed in the next story.
+{{< blockquote title="The Handiwork of the Unseen Spirit, The Nitopadesha" >}}
+There are important conditions for markets to work, and they must be well understood. There are important conditions when markets fail, and they too must be understood.
+{{< /blockquote >}}
+
+The next story is of one such failure—a classic case of negative externalities.
 
 ## Opportunities Have Costs
 
-Story name: _The Case of the Wilting Orchards_
-About Bellikota's cousin Jayarasi
+The story, _The Case of the Wilting Orchards_, is about opportunity costs, negative externalities, and the tragedy of the commons.
 
 {{< blockquote title="The Case of the Wilting Orchards, The Nitopadesha" >}}
 The price is right only when it truly counts all the costs incurred and all the opportunities forgone.
 {{< /blockquote >}}
 
-This story also has a callback to the first book and talks about managing the commons or the public goods.
+All actions have a hidden opportunity cost, i.e., the cost of not doing some other action. A price must reflect this opportunity cost.
 
-The idea presented in this chapter is that it is important to know when the free market fails. Our activities might affect unrelated persons. Prices should also include these and the opportunity costs.
+The most obvious example of this is a negative externality, as shown in the story, where someone's actions have a negative impact on a public good. Negative externality is a market failure that warrents government intervention. Here, the opportunity cost is the damage done to the public good and that must be reflected in the price.
 
-The story concludes with Bellikota and Udaradevan talking about how interefence in the market by the rulers had a positive impact in this story. But Udaradevan is quickly reminded of the well-known story in his clan about what happens when rulers do interfere in the markets unwittingly.
+This is what I meant by "markets are _mostly_ fair." Sometimes, market failures justify smart government intervention. But as we'll soon see, unwittingly interfering in markets usually backfires.
 
 ## Don't Touch the Prices!
 
