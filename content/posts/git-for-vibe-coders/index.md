@@ -1,7 +1,7 @@
 ---
 title: Git for Vibe Coders and Non-Programmers
 slug: git-for-vibe-coders
-date: 2025-03-27T09:28:09+05:30
+date: 2025-04-14T09:28:09+05:30
 draft: false
 toc:
     show: false
@@ -22,14 +22,20 @@ categories:
 series: []
 aliases: []
 cover:
-    image: /images/git-for-vibe-coders/deepseek-banner.jpg
-    alt: Photo of the DeepSeek chat interface.
+    image: /images/git-for-vibe-coders/git-banner.jpg
+    alt: Photo showing a Git tree.
     caption: "Prompt: Write a commit message that has \"skibidi rizz.\" Clearly, I don't know what these words mean. I'm just trying to fit in… Ohio?! That doesn't sound right either…"
     relative: false
 fmContentType: Post (default)
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur eleifend velit, sit amet venenatis risus posuere auctor. Etiam rhoncus ex nec arcu malesuada, et pellentesque mi varius. Aenean eu ante quis nunc molestie ultricies ac ut elit. Donec sit amet tellus id enim imperdiet viverra. Morbi mauris diam, scelerisque non tortor quis, condimentum semper mauris. Vestibulum aliquet placerat ante, nec eleifend ligula venenatis eget. Phasellus a turpis eget sapien varius tincidunt eget vitae mauris.
+You may not need to know programming to vibe code your way to the next Facebook. But you will thank me after you've vibed too much and the AI agent just broke your entire website and shit hits the fan.
+
+Git is a better "restore checkpoint" button you frantically try to find when cursor gets carried away with your vibes. Git can do a lot of things and trying to learn everything Git can do or god forbid read its documentation is, as we both know, a futile exercise. Instead, I will get you to learn Git (get it?) through a five minute interactive guide before your TikTok brains can take over.
+
+> **Note**: It is very likely that your IDE (the application where you vibe code) comes with a graphical interface (GUI) for Git. But it is worthwile to understand the basic commands that run behind the scenes through these GUIs. I explain more about using these GUIs later in the article.
+
+I don't know if you would bother learning Git if you didn't bother to learn programming, but learning Git prevents you from embarrasing yourself online:
 
 {{< blockquote author="@thekitze" link="https://twitter.com/thekitze/status/1901918860573290914" title="March 18, 2025 on Twitter" >}}
 they should invent a tool where vibe code can be stored in the cloud so from time to time you do a "checkin" of your code and you can always revert to it and go to a previous version
@@ -37,11 +43,37 @@ they should invent a tool where vibe code can be stored in the cloud so from tim
 like a ... hub for code
 {{< /blockquote >}}
 
-Maecenas sapien diam, sagittis sit amet vehicula at, dapibus a neque. Duis at eros pulvinar, pellentesque velit varius, feugiat dui. Vivamus dapibus vel lorem sed convallis. Mauris nec purus pellentesque, tincidunt eros vitae, aliquam elit. Pellentesque mattis massa vitae tortor vehicula, eu aliquet enim laoreet. Pellentesque pharetra elit ac euismod bibendum. Duis augue lectus, sodales vel porta nec, lacinia eget eros. Nam nec luctus lacus. Vivamus ultrices ultricies velit quis volutpat.
+I know the tweet was a joke but I can't wait for what you vibe coders will come up with next.
 
-Aenean tristique magna ut quam vulputate lacinia. Vivamus commodo luctus mauris, sit amet vehicula purus consequat a. Donec at blandit sapien, ac pretium risus. Fusce fringilla, felis eu maximus dictum, quam sapien placerat sapien, id facilisis ante turpis in lorem. Aenean at suscipit velit. Ut dui ligula, tincidunt in ligula ac, aliquet aliquet orci. Sed fermentum neque semper massa maximus mollis. Sed ac mi sed dui sodales cursus eget posuere sapien. Mauris blandit neque et egestas consectetur. Praesent non purus id nisi interdum placerat. Etiam id risus quis metus consectetur feugiat. In efficitur ipsum vitae magna pellentesque, id tempor mauris cursus. In lectus nisl, ultrices ac hendrerit eget, ultricies pulvinar arcu. Donec erat ipsum, pharetra eu mi sed, volutpat sodales mauris.
+## Installing Git
 
-Sed ac mi sed dui sodales cursus eget posuere sapien. Mauris blandit neque et egestas consectetur. Praesent non purus id nisi interdum placerat. Etiam id risus quis metus consectetur feugiat. In efficitur ipsum vitae magna pellentesque, id tempor mauris cursus. In lectus nisl, ultrices ac hendrerit eget, ultricies pulvinar arcu. Donec erat ipsum, pharetra eu mi sed, volutpat sodales mauris.
+It is very likely that you already have Git installed on your computer.
+
+To check, open Terminal (on macOS) or Command Prompt on Windows and type:
+
+```shell
+git version
+```
+
+If Git is not installed, follow [this guide](https://github.com/git-guides/install-git) to install it. You can run the examples in this guide on the browser itself by clicking the run button.
+
+## git clone
+
+The first command you probably need to know is `git clone`. It lets you clone the code you found on GitHub, exactly as it is, to your local machine.
+
+This tutorial will use a React-based web app project as an example. But the same ideas apply to any software project you have.
+
+```shell
+git clone xxx
+```
+
+{{< codapi id="diagram-trigger-init" sandbox="git" editor="off" template="init.sh" >}}
+
+## git init
+
+But you are no thief. You are not "cloning" someone else's project. You are a visionary, you only build things from scratch (although the AI you are using is trained on the free labour of hundreds of thousands of volunteers).
+
+Before you lean into the vibes and go on your "Accept all" spree, it would be safe if you started using Git. You start by initializing Git on your project folder.
 
 ```shell
 git init -b main
@@ -107,7 +139,3 @@ git commit -m "initial commit"
 ```
 
 {{< codapi id="diagram-trigger-commit" depends-on="init-4" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
-
-Maecenas sapien diam, sagittis sit amet vehicula at, dapibus a neque. Duis at eros pulvinar, pellentesque velit varius, feugiat dui. Vivamus dapibus vel lorem sed convallis. Mauris nec purus pellentesque, tincidunt eros vitae, aliquam elit. Pellentesque mattis massa vitae tortor vehicula, eu aliquet enim laoreet. Pellentesque pharetra elit ac euismod bibendum. Duis augue lectus, sodales vel porta nec, lacinia eget eros. Nam nec luctus lacus. Vivamus ultrices ultricies velit quis volutpat.
-
-Aenean tristique magna ut quam vulputate lacinia. Vivamus commodo luctus mauris, sit amet vehicula purus consequat a. Donec at blandit sapien, ac pretium risus. Fusce fringilla, felis eu maximus dictum, quam sapien placerat sapien, id facilisis ante turpis in lorem. Aenean at suscipit velit. Ut dui ligula, tincidunt in ligula ac, aliquet aliquet orci. Sed fermentum neque semper massa maximus mollis. Sed ac mi sed dui sodales cursus eget posuere sapien. Mauris blandit neque et egestas consectetur. Praesent non purus id nisi interdum placerat. Etiam id risus quis metus consectetur feugiat. In efficitur ipsum vitae magna pellentesque, id tempor mauris cursus. In lectus nisl, ultrices ac hendrerit eget, ultricies pulvinar arcu. Donec erat ipsum, pharetra eu mi sed, volutpat sodales mauris.
