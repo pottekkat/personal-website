@@ -88,7 +88,7 @@ That's why a monetary fine is the best way to deal with traffic violations. Try 
 
 Listening to Bellikota talk about incentives, Udaradevan is reminded of what the Fearsome Four-Eyed Dog—perhaps the same one [from the first book](/posts/the-jewel-of-citizencraft/#unintended-consequences)—told his grandfather Tarakaran.
 
-## Markets are Mostly Fair
+## The Market is Mostly Fair
 
 _The Handiwork of the Unseen Spirit_ drives home this idea:
 
@@ -98,7 +98,7 @@ Yet know this, bear! What we call the market is fairer than others that you can 
 
 The market, when left alone to function properly, **is mostly fair**. The market matches supply and demand. It ensures that **the right quantities of the right things are produced at the right price**. It aligns self-interest with that of others and rewards those who provide value.
 
-What we often confuse as a failure of markets or cApItailSm is just crony capitalism, where businesses cozy up to the government to gain an unfair advantage. Think about all the times you were angry at a company; did the company have close ties with the government?
+What we often confuse as a failure of the market or cApItailSm is just crony capitalism, where businesses cozy up to the government to gain an unfair advantage. Think about all the times you were angry at a company; did the company have close ties with the government?
 
 But **markets do fail sometimes**. And when Udaradevan finishes his story, Bellikota doesn't let that slip by:
 
@@ -110,62 +110,58 @@ The next story is of one such failure—a classic case of negative externalities
 
 ## Opportunities Have Costs
 
-The story, _The Case of the Wilting Orchards_, is about opportunity costs, negative externalities, and the tragedy of the commons.
+_The Case of the Wilting Orchards_ is one neat parable about opportunity costs, negative externalities, and the tragedy of the commons.
 
 {{< blockquote title="The Case of the Wilting Orchards, The Nitopadesha" >}}
 The price is right only when it truly counts all the costs incurred and all the opportunities forgone.
 {{< /blockquote >}}
 
-All actions have a hidden opportunity cost, i.e., the cost of not doing some other action. A price must reflect this opportunity cost.
+All actions have a hidden cost: the cost of not doing something else, a.k.a. the opportunity cost. A fair price must reflect the opportunity cost.
 
-The most obvious example of this is a negative externality, as shown in the story, where someone's actions have a negative impact on a public good. Negative externality is a market failure that warrents government intervention. Here, the opportunity cost is the damage done to the public good and that must be reflected in the price.
+The most obvious example is a negative externality, as shown in the story, where someone's actions negatively impact a public good. A negative externality is a market failure where government intervention makes sense. Here, the opportunity cost is the damage done to the public good, which must be reflected in the price.
 
-This is what I meant by "markets are _mostly_ fair." Sometimes, market failures justify smart government intervention. But as we'll soon see, unwittingly interfering in markets usually backfires.
+This is what I meant earlier when I said the market is _mostly_ fair; sometimes, it needs an intervention. But as we'll soon see, blindly interfering in the market usually makes things worse.
 
 ## Don't Touch the Prices!
 
-Story name: _When the Bear Was Sent to Prison_
-About Tarakaran, grandfather of Udaradevan again about the time he was sent prison.
+Tarakaran's rollercoaster of a life takes a predictable nosedive in _When the Bear Was Sent to Prison_—a cautionary tale about what happens when rulers start setting prices, even with the best of intentions.
 
 {{< blockquote title="When the Bear Was Sent to Prison, The Nitopadesha" >}}
 A realm where the ruler sets prices will lose the path to prosperity and also fall into moral darkness.
 {{< /blockquote >}}
 
-Rulers setting prices, even with the best of intentions often result in worser outcomes.
+When governments fix prices, they distort incentives and create shortages.
 
-Most of the time when someone lobbies to set prices, it is because of some hidden motives.
+Take rent controls, for example. It sounds great—make housing affordable! But in practice, it kills the supply. Landlords have no reason to rent out their homes and even less reason to maintain them. Why fix a leaking roof if you can't raise the rent?
 
-A good example of this is rent controls. A rent control is an artificial price set by the government to cap the maximum rent. It has the best of intentions. But intentions are futile if the consequences are not good (link to the intentions and consequences article here). The intention is to make renting more affordable but the reality is now there a less number of houses available for rent (because the landlord has no incentive to rent) and the ones that are rented out are old and unmaintained (because the landlord has no incentive to improve his property as he cannot collect more rent).
+[Intentions don\'t mean a thing](/posts/intentions-and-consequences/) if the consequence is a disaster.
 
-Just recently, the libertarian president of Argentina, removed rent controls and this has more houses available with cheaper rents. The only thing needed to do to fix rents was to remove government regulations and artificially setting prices. India needs to follow suit with such de-regulation policies even if it is for clout.
+[Argentina recently scrapped rent controls](https://www.wsj.com/world/americas/argentina-milei-rent-control-free-market-5345c3d5) under its newly elected libertarian president, and guess what? Rents dropped, and more houses were on the market. All it took to fix the housing problem was getting the government out of the way. India needs to follow suit, even if it's just mimicry.
 
-A general rule of thumb is to always be wary of government intervention. If the government is intervening without any market failure then be sure it is a bad idea or there is a hidden motive.
+Whenever someone lobbies for price-setting, assume there's a hidden agenda. A good rule of thumb is that if there's no clear market failure, government intervention is either a bad idea or a smokescreen to hide hidden motives.
 
 ## Free to be Free
 
-Story name: _The Case of the Three Heirs_
-About again Bellikotas' cousing Jayarasi (was Jayarasi mentioned in other stories) talking about an episode highlighting freedom of enterprise.
+Bellikota's cousin Jayarasi makes a comeback in _The Case of the Three Heirs_, a story that ties together the lessons we learned about economic freedom in this book.
 
-{{< blockquote title="The Story of the Generous Bear, The Nitopadesha" >}}
+{{< blockquote title="The Case of the Three Heirs, The Nitopadesha" >}}
 Freedom is natural, and interference the aberration.
 {{< /blockquote >}}
 
-Freedom is the natural state of affairs. A realm that is free is prosperous.
+Freedom to trade. Freedom to build. Freedom to be left alone. Freedom is the natural state of affairs.
 
-It is of human nature to be free. I'm convinced that if people spend a minute thinking about policy from the freedom lens, they would realize how restricting modern policies are and even the ones that claim to help people.
+I'm convinced that if people paused for a minute to think about public policy from a freedom-first lens, they'd realize how many things are restricted for no good reason while claiming to help people.
 
-Should private companies run airlines? Absolutely they should and the government must not be intervening in the airlines market with its own sub par offerings, distorting the prices. I'm seeing more Air India ads now and I didn't know what to do with that information other than dumping it on you.
+Should the government or a private company run an airline? I know I'm seeing more Air India ads now than ever before, and I don't know what to do with that information other than leave it here.
 
 ## The Secret to Prosperity
 
-This ends the second book of _The Nitopadesha_.
+The second book of _The Nitopadesha_ ends with Udaradevan and Bellikota walking back home, quietly reflecting on the lessons.
 
-Like the protagonists in the first book, Udaradevan and Bellikota walk their way home contemplating their discussion.
+Before parting ways, Bellikota summarizes the secret to prosperity in a few simple lines:
 
-Bellikota generously summarizes the secret to prospertiy is just a few short words:
-
-{{< blockquote title="The Story of the Generous Bear, The Nitopadesha" >}}
+{{< blockquote title="Epilogue to the Second Book, The Nitopadesha" >}}
 … the government's role is all-important in holding the Thread of the Science of Prosperity. The government even plays a role by not playing a role. A good government knows what, where, how, when, and how much it should do in the matters of trade and enterprise. A bad one, just the opposite.
 {{< /blockquote >}}
 
-The third book of _The Nitopadesha_, _The Subtle Scales of Judgement_, tries to answers a simple question: "Why is judgement hard?", but that has to wait for another article.
+The third book of _The Nitopadesha_, _The Subtle Scales of Judgement_, wrestles with a simple question: "Why is judgment hard?" But that's an inception of stories for another time.
