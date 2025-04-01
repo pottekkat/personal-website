@@ -15,7 +15,7 @@ tags:
   - book reviews
 categories:
   - Public Policy
-series: []
+series: ["The Nitopadesha"]
 aliases: []
 cover:
   image: /images/the-jewel-of-citizencraft/peepal-banner.jpg
@@ -245,4 +245,4 @@ To summarize the timeless lessons from _The Jewel of Citizencraft_:
 7. Judge actions by consequences.
 8. Converse by being polite, civil, and mindful.
 
-The second book of _The Nitopadesha_, _The Thread of the Science of Prosperity_, gets into the intricacies of markets and is filled with lessons in economics. But that's an inception of stories for another time.
+The second book of _The Nitopadesha_, _[The Thread of the Science of Prosperity](/posts/the-thread-of-the-science-of-prosperity/)_, gets into the intricacies of markets and is filled with lessons in economics. But that's an inception of stories for another time.
