@@ -14,7 +14,7 @@ bookMeta:
         - "Science Fiction"
         - "Hard Science Fiction"
         - "Chinese Literature"
-    rating: 4.3
+    rating: 2
     status: "Reading"
     coverImage: "https://covers.openlibrary.org/b/id/8755578-L.jpg"
     goodreadsUrl: "https://www.goodreads.com/book/show/20518872-the-three-body-problem"

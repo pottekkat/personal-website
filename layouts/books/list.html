@@ -74,10 +74,13 @@
         <p class="book-author">{{ .Params.bookMeta.author }}</p>
         {{- if .Params.bookMeta.rating }}
         <div class="book-rating">
-          {{- $rating := math.Round (mul .Params.bookMeta.rating 2) }}
-          {{- range seq 10 }}
-          {{- if le . $rating }}
+          {{- $rating := .Params.bookMeta.rating }}
+          {{- range seq 5 }}
+          {{- $currentStar := . }}
+          {{- if ge $rating $currentStar }}
           <span class="star-filled">★</span>
+          {{- else if and (gt $rating (sub $currentStar 1)) (lt $rating $currentStar) }}
+          <span class="star-half">★</span>
           {{- else }}
           <span class="star-empty">☆</span>
           {{- end }}
@@ -116,10 +119,13 @@
     <div class="td-author">{{ .Params.bookMeta.author }}</div>
     <div class="td-rating">
       {{- if .Params.bookMeta.rating }}
-      {{- $rating := math.Round (mul .Params.bookMeta.rating 2) }}
-      {{- range seq 10 }}
-      {{- if le . $rating }}
+      {{- $rating := .Params.bookMeta.rating }}
+      {{- range seq 5 }}
+      {{- $currentStar := . }}
+      {{- if ge $rating $currentStar }}
       <span class="star-filled">★</span>
+      {{- else if and (gt $rating (sub $currentStar 1)) (lt $rating $currentStar) }}
+      <span class="star-half">★</span>
       {{- else }}
       <span class="star-empty">☆</span>
       {{- end }}
@@ -418,8 +424,26 @@
   color: var(--primary);
 }
 
+.star-half {
+  color: var(--primary);
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0.5em;
+}
+
+.star-half:after {
+  content: "★";
+  color: var(--secondary);
+  position: absolute;
+  left: 0.5em;
+  width: 0.5em;
+  overflow: hidden;
+}
+
 .star-empty {
-  color: var(--border);
+  color: var(--secondary);
 }
 
 @media screen and (max-width: 500px) {
