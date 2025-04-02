@@ -89,7 +89,7 @@
           {{- end }}
         </div>
         {{- end }}
-        <span class="book-status {{ lower .Params.bookMeta.status }}">{{ .Params.bookMeta.status }}</span>
+        <span class="book-status {{ replace (lower .Params.bookMeta.status) " " "-" }}">{{ .Params.bookMeta.status }}</span>
       </div>
     </div>
   </a>
@@ -138,7 +138,7 @@
     </div>
     <div class="td-status">
       {{- if .Params.bookMeta.status }}
-      <span class="book-status {{ lower .Params.bookMeta.status }}">{{ .Params.bookMeta.status }}</span>
+      <span class="book-status {{ replace (lower .Params.bookMeta.status) " " "-" }}">{{ .Params.bookMeta.status }}</span>
       {{- else }}
       <span class="book-status want-to-read">Want to Read</span>
       {{- end }}
@@ -316,7 +316,7 @@
 }
 
 .book-status.want-to-read {
-  background: var(--entry);
+  background: var(--hljs-bg);
   color: var(--content);
 }
 
