@@ -16,7 +16,6 @@ bookMeta:
         - "Chinese Literature"
     rating: 2
     status: "Reading"
-    coverImage: "https://covers.openlibrary.org/b/id/8755578-L.jpg"
     goodreadsUrl: "https://www.goodreads.com/book/show/20518872-the-three-body-problem"
     purchaseLinks:
         amazon: "https://www.amazon.com/Three-Body-Problem-Cixin-Liu/dp/0765382032"
