@@ -148,6 +148,20 @@
 </div>
 
 <style>
+/* Add these rules at the start of the style block */
+body:not(.grid-active):not(.list-active) {
+  /* Set default view */
+  display: block;
+}
+
+body:not(.grid-active):not(.list-active) #grid {
+  display: inline-block;
+}
+
+body:not(.grid-active):not(.list-active) #list {
+  display: none;
+}
+
 .view-toggle-wrapper {
   display: flex;
   align-items: center;
@@ -491,6 +505,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const body = document.body;
   const toggleText = viewToggle.querySelector('.toggle-text');
 
+  // Set initial state immediately before loading preference
+  body.classList.add('list-active');
+  
   // Load saved view preference
   const savedView = localStorage.getItem('booksViewPreference') || 'list';
   setView(savedView);
@@ -502,12 +519,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function setView(view) {
     if (view === 'grid') {
-      body.classList.add('grid-active');
       body.classList.remove('list-active');
+      body.classList.add('grid-active');
       toggleText.textContent = 'List view';
     } else {
-      body.classList.add('list-active');
       body.classList.remove('grid-active');
+      body.classList.add('list-active');
       toggleText.textContent = 'Grid view';
     }
     localStorage.setItem('booksViewPreference', view);
