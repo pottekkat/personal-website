@@ -1,5 +1,11 @@
 {{- define "main" }}
 
+{{- $pages := where site.RegularPages "Type" "books" }}
+{{- $lastMod := "" }}
+{{- range first 1 $pages.ByLastmod.Reverse }}
+  {{- $lastMod = .Lastmod }}
+{{- end }}
+
 <header class="page-header">
   <h1>
     {{ .Title }}
@@ -12,53 +18,422 @@
       </svg>
     </a>
   </h1>
+  <div class="post-description">{{ .Description }}</div>
 </header>
 
 <article class="post-single">
-<div class="post-content">
-  {{- if not (.Param "disableAnchoredHeadings") }}
-  {{- partial "anchored_headings.html" .Content -}}
-  {{- else }}{{ .Content }}{{ end }}
-</div>
+  <div class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </div>
 </article>
 
 <div id="searchbox">
-  <input id="searchInput" autofocus placeholder="{{ .Params.placeholder | default (printf "Search") }}"
-      aria-label="search" type="search" autocomplete="off" data-show-only="books">
+  <input id="searchInput" autofocus placeholder="{{ .Params.placeholder | default (printf "Search Books") }}"
+    aria-label="search" type="search" autocomplete="off" data-show-only="books">
   <ul id="searchResults" aria-label="search results"></ul>
 </div>
 
-{{- $pages := where site.RegularPages "Type" "books" }}
+<div class="view-toggle-wrapper">
+  <span class="last-updated">
+    {{- if $lastMod }}
+      Last updated {{ $lastMod.Format "at 3:04 PM, January 2, 2006" }}
+    {{- end }}
+  </span>
+  <button id="view-toggle" accesskey="v" class="toggle-button">
+    <svg id="grid" xmlns="http://www.w3.org/2000/svg" viewBox="0 1.5 15 21" height="14"
+      fill="currentColor">
+      <path d="M1.875 16.5h2.25C5.161 16.5 6 17.339 6 18.375v2.25A1.874 1.874 0 0 1 4.125 22.5h-2.25A1.874 1.874 0 0 1 0 20.625v-2.25C0 17.339.839 16.5 1.875 16.5m9 0h2.25c1.036 0 1.875.839 1.875 1.875v2.25a1.874 1.874 0 0 1-1.875 1.875h-2.25A1.874 1.874 0 0 1 9 20.625v-2.25c0-1.036.839-1.875 1.875-1.875m-9-1.5A1.874 1.874 0 0 1 0 13.125v-2.25C0 9.839.839 9 1.875 9h2.25C5.161 9 6 9.839 6 10.875v2.25A1.874 1.874 0 0 1 4.125 15zm9-6h2.25C14.161 9 15 9.839 15 10.875v2.25A1.874 1.874 0 0 1 13.125 15h-2.25A1.874 1.874 0 0 1 9 13.125v-2.25C9 9.839 9.839 9 10.875 9m-9-1.5A1.874 1.874 0 0 1 0 5.625v-2.25C0 2.339.839 1.5 1.875 1.5h2.25C5.161 1.5 6 2.339 6 3.375v2.25A1.874 1.874 0 0 1 4.125 7.5zm9-6h2.25C14.161 1.5 15 2.339 15 3.375v2.25A1.874 1.874 0 0 1 13.125 7.5h-2.25A1.874 1.874 0 0 1 9 5.625v-2.25C9 2.339 9.839 1.5 10.875 1.5"></path>
+    </svg>
+    <svg id="list" xmlns="http://www.w3.org/2000/svg" viewBox="0.75 2.25 23.25 19.5" height="14"
+      fill="currentColor">
+      <path d="M1.875 2.25C1.252 2.25.75 2.752.75 3.375v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125zM9 3c-.83 0-1.5.67-1.5 1.5S8.17 6 9 6h13.5c.83 0 1.5-.67 1.5-1.5S23.33 3 22.5 3zm0 7.5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5h13.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5zM9 18c-.83 0-1.5.67-1.5 1.5S8.17 21 9 21h13.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5zM.75 10.875v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125h-2.25c-.623 0-1.125.502-1.125 1.125m1.125 6.375c-.623 0-1.125.502-1.125 1.125v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125z"></path>
+    </svg>
+    <span class="toggle-text">Switch to grid view</span>
+  </button>
+</div>
 
-{{- range $pages.GroupByPublishDate "2006" }}
-{{- if ne .Key "0001" }}
-<div class="archive-year">
-  <h2 class="archive-year-header">
-    {{- replace .Key "0001" "" }}<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup>
-  </h2>
-  {{- range .Pages.GroupByDate "January" }}
-  <div class="archive-month">
-    <h3 class="archive-month-header">{{- .Key }}<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup></h3>
-    <div class="archive-posts">
-      {{- range .Pages }}
-      {{- if eq .Kind "page" }}
-      <div class="archive-entry">
-        <h3 class="archive-entry-title">
-          {{- .Title | markdownify }}
-          {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
-        </h3>
-        <div class="archive-meta">
-          {{- partial "post_meta.html" . -}}
+<div id="books-container" class="books-container grid-view">
+  {{- range $pages.ByDate.Reverse }}
+  <a href="{{ .Permalink }}" class="book-card">
+    <div class="book-cover">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" 
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+      </svg>
+    </div>
+    <div class="book-info">
+      <h3 class="book-title">{{ .Title }}</h3>
+      <div class="book-meta">
+        <p class="book-author">{{ .Params.bookMeta.author }}</p>
+        {{- if .Params.bookMeta.rating }}
+        <div class="book-rating">
+          {{- $rating := math.Round (mul .Params.bookMeta.rating 2) }}
+          {{- range seq 10 }}
+          {{- if le . $rating }}
+          <span class="star-filled">★</span>
+          {{- else }}
+          <span class="star-empty">☆</span>
+          {{- end }}
+          {{- end }}
         </div>
-        <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+        {{- end }}
+        <span class="book-status {{ lower .Params.bookMeta.status }}">{{ .Params.bookMeta.status }}</span>
       </div>
+    </div>
+  </a>
+  {{- end }}
+</div>
+
+<div id="books-table" class="books-table list-view">
+  <div class="table-header">
+    <div class="th-icon"></div>
+    <div class="th-title">Title</div>
+    <div class="th-author">Author</div>
+    <div class="th-rating">Rating</div>
+    <div class="th-status">Status</div>
+  </div>
+  {{- range $pages.ByDate.Reverse }}
+  <a href="{{ .Permalink }}" class="table-row">
+    <div class="td-icon">
+      <svg class="book-placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" 
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+      </svg>
+    </div>
+    <div class="td-title">{{ .Title }}</div>
+    <div class="td-author">{{ .Params.bookMeta.author }}</div>
+    <div class="td-rating">
+      {{- if .Params.bookMeta.rating }}
+      {{- $rating := math.Round (mul .Params.bookMeta.rating 2) }}
+      {{- range seq 10 }}
+      {{- if le . $rating }}
+      <span class="star-filled">★</span>
+      {{- else }}
+      <span class="star-empty">☆</span>
+      {{- end }}
       {{- end }}
       {{- end }}
     </div>
-  </div>
+    <div class="td-status">
+      {{- if .Params.bookMeta.status }}
+      <span class="book-status {{ lower .Params.bookMeta.status }}">{{ .Params.bookMeta.status }}</span>
+      {{- else }}
+      <span class="book-status want-to-read">Want to Read</span>
+      {{- end }}
+    </div>
+  </a>
   {{- end }}
 </div>
-{{- end }}
-{{- end }}
+
+<style>
+.view-toggle-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  font-size: 14px;
+  color: var(--secondary);
+}
+
+.toggle-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  padding: 6px 12px;
+  color: var(--secondary);
+  font-size: 14px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.toggle-button:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+  background: var(--entry);
+}
+
+.grid-active #view-toggle #list,
+.list-active #view-toggle #grid {
+  display: none;
+}
+
+.grid-active #view-toggle #grid,
+.list-active #view-toggle #list {
+  display: inline-block;
+}
+
+.books-container {
+  display: none;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.grid-active .books-container {
+  display: grid;
+}
+
+.book-card {
+  background: var(--entry);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+}
+
+.book-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--primary);
+}
+
+.book-cover {
+  aspect-ratio: 2/3;
+  background: var(--entry);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.book-cover svg {
+  width: 48px;
+  height: 48px;
+  color: var(--secondary);
+  opacity: 0.6;
+}
+
+.book-cover-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary);
+}
+
+.book-info {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.book-title {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.book-title a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.book-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--secondary);
+}
+
+.book-author {
+  margin: 0;
+}
+
+.book-rating {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  font-size: 12px;
+  color: var(--primary);
+}
+
+.book-status {
+  display: inline-flex;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-status.read {
+  background: var(--primary);
+  color: var(--theme);
+}
+
+.book-status.reading {
+  background: #2ecc71;
+  color: var(--theme);
+}
+
+.book-status.want-to-read {
+  background: var(--border);
+  color: var(--content);
+}
+
+/* Table styles */
+.books-table {
+  display: none;
+  background: var(--entry);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.list-active .books-table {
+  display: block;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: 32px minmax(200px, 2fr) minmax(150px, 1fr) 120px 120px;
+  gap: 16px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  font-weight: 500;
+  color: var(--secondary);
+  font-size: 14px;
+  align-items: center;
+  background: var(--code-bg);
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 32px minmax(200px, 2fr) minmax(150px, 1fr) 120px 120px;
+  gap: 16px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  text-decoration: none;
+  color: var(--content);
+  transition: all 0.2s ease;
+  align-items: center;
+}
+
+.table-row:hover {
+  background: var(--entry);
+}
+
+.td-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+}
+
+.book-placeholder {
+  width: 20px;
+  height: 20px;
+  color: var(--secondary);
+  opacity: 0.6;
+}
+
+.table-row:hover .book-placeholder {
+  color: var(--primary);
+  opacity: 1;
+}
+
+.td-title {
+  font-weight: 500;
+  color: var(--primary);
+}
+
+.td-author {
+  color: var(--secondary);
+}
+
+.td-rating {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  font-size: 12px;
+  color: var(--primary);
+}
+
+.td-status {
+  display: flex;
+  align-items: center;
+}
+
+.td-status .book-status {
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.td-status .book-status.read {
+  background: var(--primary);
+  color: var(--theme);
+}
+
+.td-status .book-status.reading {
+  background: #2ecc71;
+  color: var(--theme);
+}
+
+.td-status .book-status.want-to-read {
+  background: var(--border);
+  color: var(--content);
+}
+
+.star-filled {
+  color: var(--primary);
+}
+
+.star-empty {
+  color: var(--border);
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const viewToggle = document.getElementById('view-toggle');
+  const body = document.body;
+  const toggleText = viewToggle.querySelector('.toggle-text');
+
+  // Load saved view preference
+  const savedView = localStorage.getItem('booksViewPreference') || 'list';
+  setView(savedView);
+
+  viewToggle.addEventListener('click', () => {
+    const newView = body.classList.contains('grid-active') ? 'list' : 'grid';
+    setView(newView);
+  });
+
+  function setView(view) {
+    if (view === 'grid') {
+      body.classList.add('grid-active');
+      body.classList.remove('list-active');
+      toggleText.textContent = 'Switch to list view';
+    } else {
+      body.classList.add('list-active');
+      body.classList.remove('grid-active');
+      toggleText.textContent = 'Switch to grid view';
+    }
+    localStorage.setItem('booksViewPreference', view);
+  }
+});
+</script>
 
 {{- end }}{{/* end main */}}
+
