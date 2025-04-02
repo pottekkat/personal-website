@@ -65,7 +65,7 @@
       {{- end }}
     </div>
     <div class="book-info">
-      <h3 class="book-title">{{ .Title }}</h3>
+      <h2 class="book-title">{{ .Title }}</h2>
       <div class="book-meta">
         <p class="book-author">{{ .Params.bookMeta.author }}</p>
         {{- if .Params.bookMeta.rating }}
@@ -250,9 +250,7 @@
 
 .book-title {
   margin: 0;
-  font-size: 1rem;
-  line-height: 1.4;
-  font-weight: 500;
+  font-size: 20px;
 }
 
 .book-title a {
@@ -263,13 +261,14 @@
 .book-meta {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-  font-size: 0.9rem;
+  gap: 8px;
+  font-size: var(--content-size, 0.9rem);
   color: var(--secondary);
 }
 
 .book-author {
   margin: 0;
+  font-size: 14px;
 }
 
 .book-rating {
@@ -296,6 +295,7 @@
 }
 
 .book-status {
+  margin-top: 8px;
   display: inline-flex;
   padding: 4px 12px;
   border-radius: 12px;
@@ -311,12 +311,12 @@
 }
 
 .book-status.reading {
-  background: #2ecc71;
+  background: var(--secondary);
   color: var(--theme);
 }
 
 .book-status.want-to-read {
-  background: var(--border);
+  background: var(--entry);
   color: var(--content);
 }
 
