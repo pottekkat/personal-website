@@ -50,7 +50,7 @@
       fill="currentColor">
       <path d="M1.875 2.25C1.252 2.25.75 2.752.75 3.375v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125zM9 3c-.83 0-1.5.67-1.5 1.5S8.17 6 9 6h13.5c.83 0 1.5-.67 1.5-1.5S23.33 3 22.5 3zm0 7.5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5h13.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5zM9 18c-.83 0-1.5.67-1.5 1.5S8.17 21 9 21h13.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5zM.75 10.875v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125h-2.25c-.623 0-1.125.502-1.125 1.125m1.125 6.375c-.623 0-1.125.502-1.125 1.125v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125z"></path>
     </svg>
-    <span class="toggle-text">Switch to grid view</span>
+    <span class="toggle-text">Grid view</span>
   </button>
 </div>
 
@@ -140,32 +140,34 @@
 }
 
 .toggle-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
   background: var(--code-bg);
   border: 1px solid var(--border);
   cursor: pointer;
   padding: 6px 12px;
+  margin-left: 20px;
   color: var(--secondary);
   font-size: 14px;
-  border-radius: 6px;
-  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.toggle-button svg {
+  width: 16px;
+  height: 16px;
 }
 
 .toggle-button:hover {
   color: var(--primary);
-  border-color: var(--primary);
-  background: var(--entry);
-}
-
-.grid-active #view-toggle #list,
-.list-active #view-toggle #grid {
-  display: none;
 }
 
 .grid-active #view-toggle #grid,
 .list-active #view-toggle #list {
+  display: none;
+}
+
+.grid-active #view-toggle #list,
+.list-active #view-toggle #grid {
   display: inline-block;
 }
 
@@ -403,6 +405,16 @@
 .star-empty {
   color: var(--border);
 }
+
+@media screen and (max-width: 500px) {
+  .toggle-button .toggle-text {
+    display: none;
+  }
+  
+  .toggle-button {
+    padding: 6px;
+  }
+}
 </style>
 
 <script>
@@ -424,11 +436,11 @@ document.addEventListener('DOMContentLoaded', function() {
     if (view === 'grid') {
       body.classList.add('grid-active');
       body.classList.remove('list-active');
-      toggleText.textContent = 'Switch to list view';
+      toggleText.textContent = 'List view';
     } else {
       body.classList.add('list-active');
       body.classList.remove('grid-active');
-      toggleText.textContent = 'Switch to grid view';
+      toggleText.textContent = 'Grid view';
     }
     localStorage.setItem('booksViewPreference', view);
   }
