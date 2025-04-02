@@ -14,7 +14,7 @@ bookMeta:
         - "Literary Fiction"
         - "Contemporary"
         - "Technology"
-    rating: 4.8
+    rating: 4.5
     status: "Read"
     coverImage: "https://covers.openlibrary.org/b/id/12749872-L.jpg"
     goodreadsUrl: "https://www.goodreads.com/book/show/58784475-tomorrow-and-tomorrow-and-tomorrow"

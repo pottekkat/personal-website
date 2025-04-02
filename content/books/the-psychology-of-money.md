@@ -14,7 +14,7 @@ bookMeta:
         - "Finance"
         - "Personal Development"
         - "Psychology"
-    rating: 4.7
+    rating: 4.5
     status: "Want to Read"
     coverImage: "https://covers.openlibrary.org/b/id/10389966-L.jpg"
     goodreadsUrl: "https://www.goodreads.com/book/show/41881472-the-psychology-of-money"
