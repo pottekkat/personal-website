@@ -58,11 +58,15 @@
   {{- range $pages.ByDate.Reverse }}
   <a href="{{ .Permalink }}" class="book-card">
     <div class="book-cover">
+      {{- if .Params.bookMeta.coverImage }}
+      <img src="{{ .Params.bookMeta.coverImage }}" alt="Cover of {{ .Title }}" class="book-cover-img">
+      {{- else }}
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" 
         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
         <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
       </svg>
+      {{- end }}
     </div>
     <div class="book-info">
       <h3 class="book-title">{{ .Title }}</h3>
@@ -98,11 +102,15 @@
   {{- range $pages.ByDate.Reverse }}
   <a href="{{ .Permalink }}" class="table-row">
     <div class="td-icon">
+      {{- if .Params.bookMeta.coverImage }}
+      <img src="{{ .Params.bookMeta.coverImage }}" alt="Cover of {{ .Title }}" class="book-cover-img-small">
+      {{- else }}
       <svg class="book-placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" 
         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
         <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
       </svg>
+      {{- end }}
     </div>
     <div class="td-title">{{ .Title }}</div>
     <div class="td-author">{{ .Params.bookMeta.author }}</div>
@@ -175,7 +183,7 @@
   display: none;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 2rem;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .grid-active .books-container {
@@ -195,8 +203,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--code-bg);
-  margin-bottom: 8px;
+  background: var(--entry);
+  overflow: hidden;
 }
 
 .book-cover svg {
@@ -204,6 +212,12 @@
   height: 48px;
   color: var(--secondary);
   opacity: 0.6;
+}
+
+.book-cover-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .book-cover-placeholder {
@@ -328,7 +342,9 @@
   align-items: center;
   justify-content: center;
   width: 32px;
-  height: 32px;
+  height: 48px;
+  overflow: hidden;
+  border-radius: 4px;
 }
 
 .book-placeholder {
@@ -336,6 +352,12 @@
   height: 20px;
   color: var(--secondary);
   opacity: 0.6;
+}
+
+.book-cover-img-small {
+  width: 32px;
+  height: 48px;
+  object-fit: cover;
 }
 
 .table-row:hover .book-placeholder {
