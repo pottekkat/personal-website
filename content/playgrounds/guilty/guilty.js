@@ -482,7 +482,7 @@ class GuiltyGame {
         <div class="guilty-score-row">
           <div class="guilty-score-bar-container">
             <div class="guilty-score-bar ${isBest ? 'guilty-best-score' : ''}" style="width: 0%;" data-target-width="${scoreWidth}%"></div>
-            <div class="guilty-score-value" style="margin-left: ${Math.max(scoreWidth, 5)}%">${this.formatScoreDisplay(attempt.score)}</div>
+            <div class="guilty-score-value" style="margin-left: ${Math.max(scoreWidth, 5)}%; opacity: 0">${this.formatScoreDisplay(attempt.score)}</div>
           </div>
         </div>
       `;
@@ -496,11 +496,24 @@ class GuiltyGame {
     const scoreRows = document.querySelectorAll('.guilty-score-row');
     
     scoreRows.forEach((row, index) => {
+      // Initially hide the score value
+      const scoreValue = row.querySelector('.guilty-score-value');
+      if (scoreValue) {
+        scoreValue.style.opacity = '0';
+      }
+      
       setTimeout(() => {
         const bar = row.querySelector('.guilty-score-bar');
         const targetWidth = bar.getAttribute('data-target-width');
         
         bar.style.width = targetWidth;
+        
+        // Show score after bar animation completes
+        setTimeout(() => {
+          if (scoreValue) {
+            scoreValue.style.opacity = '1';
+          }
+        }, 300); // Match the bar transition duration
       }, index * 300);
     });
   }
