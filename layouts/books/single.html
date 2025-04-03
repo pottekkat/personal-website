@@ -144,13 +144,14 @@
   display: flex;
   flex-direction: column;
   gap: calc(var(--gap) / 4);
+  height: 100%;
+  justify-content: space-between;
 }
 
 .book-cover-container {
   width: 100%;
   aspect-ratio: 2/3;
   overflow: hidden;
-  margin-bottom: var(--gap);
   background: var(--entry);
 }
 
@@ -245,13 +246,12 @@
 }
 
 .book-link.goodreads {
-  background-color: #f4f1e9;
-  color: #37210f;
+  background-color: var(--primary);
+  color: var(--code-bg);
 }
 
 .book-link.goodreads:hover {
-  opacity: 0.9;
-  color: #37210f;
+  background: var(--secondary);
 }
 
 .book-link-icon {
