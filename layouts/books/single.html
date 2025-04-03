@@ -31,7 +31,6 @@
         <div class="book-status-section">
           <div class="book-status {{ replace (lower .status) " " "-" }}">{{ .status }}</div>
           
-          {{- if and (eq (lower .status) "read") .rating }}
           <div class="book-rating">
             {{- $rating := .rating }}
             {{- range seq 5 }}
@@ -51,7 +50,6 @@
             {{- end }}
             {{- end }}
           </div>
-          {{- end }}
         </div>
         
         {{- with .goodreadsUrl }}
