@@ -100,39 +100,47 @@
   {{- end }}
 </div>
 
-<div id="books-table" class="books-table list-view">
-  <div class="table-header">
-    <div class="th-icon"></div>
-    <div class="th-title">Title</div>
-    <div class="th-author">Author</div>
-    <div class="th-rating">Rating</div>
-    <div class="th-status">Status</div>
-  </div>
-  {{- range $pages.ByDate.Reverse }}
-  <a href="{{ .Permalink }}" class="table-row">
-    <div class="td-icon">
-      {{- if .Params.bookMeta.coverImage }}
-      <img src="{{ .Params.bookMeta.coverImage }}" alt="Cover of {{ .Title }}" class="book-cover-img-small" loading="lazy" onerror="this.style.display='none'; this.parentNode.innerHTML = '<svg class=\'book-placeholder\' xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 21 24\' fill=\'currentColor\'><path d=\'M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9\'></path></svg>'">
-      {{- else }}
-      <svg class="book-placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 24" fill="currentColor"><path d="M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9"></path></svg>
+<div id="books-table" class="books-table list-view post-content">
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Rating</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{- range $pages.ByDate.Reverse }}
+      <tr class="book-row" data-href="{{ .Permalink }}">
+        <td>
+          <div class="td-icon">
+            {{- if .Params.bookMeta.coverImage }}
+            <img src="{{ .Params.bookMeta.coverImage }}" alt="Cover of {{ .Title }}" class="book-cover-img-small" loading="lazy" onerror="this.style.display='none'; this.parentNode.innerHTML = '<svg class=\'book-placeholder\' xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 21 24\' fill=\'currentColor\'><path d=\'M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9\'></path></svg>'">
+            {{- else }}
+            <svg class="book-placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 24" fill="currentColor"><path d="M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9"></path></svg>
+            {{- end }}
+          </div>
+        </td>
+        <td>{{ .Title }}</td>
+        <td>{{ .Params.bookMeta.author }}</td>
+        <td>
+          {{- if .Params.bookMeta.rating }}
+          {{- template "star-rating" dict "rating" .Params.bookMeta.rating }}
+          {{- end }}
+        </td>
+        <td>
+          {{- if .Params.bookMeta.status }}
+          <span class="book-status {{ replace (lower .Params.bookMeta.status) " " "-" }}">{{ .Params.bookMeta.status }}</span>
+          {{- else }}
+          <span class="book-status want-to-read">Want to Read</span>
+          {{- end }}
+        </td>
+      </tr>
       {{- end }}
-    </div>
-    <div class="td-title">{{ .Title }}</div>
-    <div class="td-author">{{ .Params.bookMeta.author }}</div>
-    <div class="td-rating">
-      {{- if .Params.bookMeta.rating }}
-      {{- template "star-rating" dict "rating" .Params.bookMeta.rating }}
-      {{- end }}
-    </div>
-    <div class="td-status">
-      {{- if .Params.bookMeta.status }}
-      <span class="book-status {{ replace (lower .Params.bookMeta.status) " " "-" }}">{{ .Params.bookMeta.status }}</span>
-      {{- else }}
-      <span class="book-status want-to-read">Want to Read</span>
-      {{- end }}
-    </div>
-  </a>
-  {{- end }}
+    </tbody>
+  </table>
 </div>
 
 <style>
@@ -293,54 +301,55 @@ body:not(.grid-active):not(.list-active) #list { display: inline-block; }
 /* Table view styles */
 .books-table {
   display: none;
-  background: var(--entry);
-  border-radius: 8px;
-  overflow: hidden;
-  border: 1px solid var(--border);
+  margin-bottom: 24px;
 }
 
 .list-active .books-table { display: block; }
 
-.table-header,
-.table-row {
-  display: grid;
-  grid-template-columns: 32px minmax(200px, 2fr) minmax(150px, 1fr) 120px 120px;
-  gap: 16px;
-  padding: 12px 16px;
+.books-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 32px;
+}
+
+.books-table td,
+.books-table th {
+  min-width: 80px;
+  padding: 12px 8px;
+  line-height: 1.5;
   border-bottom: 1px solid var(--border);
-  align-items: center;
 }
 
-.table-header {
-  font-weight: 500;
+.books-table th {
+  font-size: 14px;
+  text-align: start;
   color: var(--secondary);
-  font-size: var(--book-font-size);
-  background: var(--code-bg);
+  font-weight: 500;
 }
 
-.table-row {
-  text-decoration: none;
-  color: var(--content);
-  transition: all 0.2s ease;
+.books-table tbody tr {
+  cursor: pointer;
+  transition: background-color 0.2s;
 }
 
-.table-row:hover {
+.books-table tbody tr:hover {
   background: var(--entry);
 }
 
+.books-table td:first-child {
+  width: 48px;
+  padding: 8px;
+}
+
 .td-icon {
+  display: flex;
   width: 32px;
   height: 48px;
   border-radius: 4px;
-}
-
-.td-title {
-  font-weight: 500;
-  color: var(--primary);
-}
-
-.td-author {
-  color: var(--secondary);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background: var(--entry);
 }
 
 @media screen and (max-width: 500px) {
@@ -378,6 +387,14 @@ body:not(.grid-active):not(.list-active) #list { display: inline-block; }
     viewToggle.addEventListener('click', () => {
       const newView = document.body.classList.contains(`${VIEWS.GRID}-active`) ? VIEWS.LIST : VIEWS.GRID;
       setView(newView);
+    });
+
+    // Make table rows clickable
+    const bookRows = document.querySelectorAll('.book-row');
+    bookRows.forEach(row => {
+      row.addEventListener('click', () => {
+        window.location.href = row.dataset.href;
+      });
     });
   });
 })();
