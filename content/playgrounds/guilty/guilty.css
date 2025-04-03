@@ -248,7 +248,6 @@
   display: inline-block;
   position: relative;
   z-index: 1;
-  transition: margin-left 0.3s ease-in;
   font-size: 14px;
 }
 
