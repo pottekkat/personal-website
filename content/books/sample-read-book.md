@@ -16,7 +16,6 @@ bookMeta:
     status: "Read"
     coverImage: "https://example.com/sample-read-book-cover.jpg"
     goodreadsUrl: "https://www.goodreads.com/book/show/sample-read-book"
-    googleBooksUrl: "https://books.google.com/books?id=sample-read-id"
 ---
 
 This is a sample book that has been read. The rating will be displayed since the status is "Read".
