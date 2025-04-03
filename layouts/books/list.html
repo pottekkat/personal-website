@@ -1,0 +1,407 @@
+{{- define "star-rating" }}
+  {{- $rating := .rating }}
+  {{- range seq 5 }}
+  {{- $currentStar := . }}
+  {{- if ge $rating $currentStar }}
+  <span class="star">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0.57 0 12.37 12"><path d="M7.427.422a.752.752 0 0 0-1.35 0L4.57 3.523l-3.365.497c-.281.042-.516.239-.602.509s-.016.567.185.766L3.23 7.711l-.577 3.415a.753.753 0 0 0 1.094.788l3.007-1.605 3.007 1.605c.253.134.56.115.792-.054s.349-.452.302-.734l-.578-3.415 2.442-2.416c.202-.199.274-.497.185-.766s-.321-.466-.602-.509l-3.368-.497z"></path></svg>
+  </span>
+  {{- else if and (gt $rating (sub $currentStar 1)) (lt $rating $currentStar) }}
+  <span class="star">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0.57 0 12.38 12"><path d="m6.75 8.822.002-.002.619.33 1.997 1.066-.387-2.287-.112-.673.485-.48 1.643-1.624-2.252-.333-.687-.101-.302-.623-1.003-2.058-.002.007zm4.104 2.304a.753.753 0 0 1-1.094.788l-3.007-1.605-3.007 1.605a.752.752 0 0 1-1.094-.788l.578-3.415L.788 5.295c-.202-.199-.274-.497-.185-.766s.321-.466.602-.509l3.365-.497L6.08.422a.752.752 0 0 1 1.35 0l1.507 3.101 3.366.497c.281.042.516.239.602.509s.016.567-.185.766l-2.443 2.416z"></path></svg>
+  </span>
+  {{- else }}
+  <span class="star">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0.56 0 12.37 12"><path d="M6.748 0a.56.56 0 0 1 .506.316l1.608 3.312 3.591.53c.211.03.387.178.452.382s.012.424-.138.574l-2.604 2.583.614 3.647c.035.211-.052.424-.227.551s-.405.141-.593.04l-3.211-1.716-3.207 1.713c-.19.101-.42.087-.593-.04s-.262-.34-.227-.551l.614-3.647-2.604-2.58a.56.56 0 0 1 .314-.956l3.591-.53L6.242.316A.56.56 0 0 1 6.748 0m0 1.852-1.23 2.536a.57.57 0 0 1-.424.312l-2.774.407 2.013 1.995c.129.129.19.312.159.492l-.476 2.805 2.466-1.317a.56.56 0 0 1 .53 0l2.466 1.317-.473-2.803a.56.56 0 0 1 .159-.492l2.013-1.995-2.773-.41a.56.56 0 0 1-.424-.312z"></path></svg>
+  </span>
+  {{- end }}
+  {{- end }}
+{{- end }}
+
+{{- define "main" }}
+
+{{- $pages := where site.RegularPages "Type" "books" }}
+{{- $lastMod := "" }}
+{{- range first 1 $pages.ByLastmod.Reverse }}
+  {{- $lastMod = .Lastmod }}
+{{- end }}
+
+<header class="page-header">
+  <h1>
+    {{ .Title }}
+    <a href="/books/index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+  <div class="post-description">{{ .Description }}</div>
+</header>
+
+<article class="post-single">
+  <div class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </div>
+</article>
+
+<div id="searchbox">
+  <input id="searchInput" autofocus placeholder="{{ .Params.placeholder | default (printf "Search Books") }}"
+    aria-label="search" type="search" autocomplete="off" data-show-only="books">
+  <ul id="searchResults" aria-label="search results"></ul>
+</div>
+
+<div class="view-toggle-wrapper">
+  <span class="last-updated">
+    {{- if $lastMod }}
+      Last updated {{ $lastMod.Format "at 3:04 PM, January 2, 2006" }}
+    {{- end }}
+  </span>
+  <button id="view-toggle" accesskey="v" class="toggle-button">
+    <svg id="grid" xmlns="http://www.w3.org/2000/svg" viewBox="0 1.5 15 21" height="14"
+      fill="currentColor">
+      <path d="M1.875 16.5h2.25C5.161 16.5 6 17.339 6 18.375v2.25A1.874 1.874 0 0 1 4.125 22.5h-2.25A1.874 1.874 0 0 1 0 20.625v-2.25C0 17.339.839 16.5 1.875 16.5m9 0h2.25c1.036 0 1.875.839 1.875 1.875v2.25a1.874 1.874 0 0 1-1.875 1.875h-2.25A1.874 1.874 0 0 1 9 20.625v-2.25c0-1.036.839-1.875 1.875-1.875m-9-1.5A1.874 1.874 0 0 1 0 13.125v-2.25C0 9.839.839 9 1.875 9h2.25C5.161 9 6 9.839 6 10.875v2.25A1.874 1.874 0 0 1 4.125 15zm9-6h2.25C14.161 9 15 9.839 15 10.875v2.25A1.874 1.874 0 0 1 13.125 15h-2.25A1.874 1.874 0 0 1 9 13.125v-2.25C9 9.839 9.839 9 10.875 9m-9-1.5A1.874 1.874 0 0 1 0 5.625v-2.25C0 2.339.839 1.5 1.875 1.5h2.25C5.161 1.5 6 2.339 6 3.375v2.25A1.874 1.874 0 0 1 4.125 7.5zm9-6h2.25C14.161 1.5 15 2.339 15 3.375v2.25A1.874 1.874 0 0 1 13.125 7.5h-2.25A1.874 1.874 0 0 1 9 5.625v-2.25C9 2.339 9.839 1.5 10.875 1.5"></path>
+    </svg>
+    <svg id="list" xmlns="http://www.w3.org/2000/svg" viewBox="0.75 2.25 23.25 19.5" height="14"
+      fill="currentColor">
+      <path d="M1.875 2.25C1.252 2.25.75 2.752.75 3.375v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125zM9 3c-.83 0-1.5.67-1.5 1.5S8.17 6 9 6h13.5c.83 0 1.5-.67 1.5-1.5S23.33 3 22.5 3zm0 7.5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5h13.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5zM9 18c-.83 0-1.5.67-1.5 1.5S8.17 21 9 21h13.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5zM.75 10.875v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125h-2.25c-.623 0-1.125.502-1.125 1.125m1.125 6.375c-.623 0-1.125.502-1.125 1.125v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125z"></path>
+    </svg>
+    <span class="toggle-text">list view</span>
+  </button>
+</div>
+
+<div id="books-container" class="books-container grid-view">
+  {{- range $pages.ByDate.Reverse }}
+  <a href="{{ .Permalink }}" class="book-card">
+    <div class="book-cover">
+      {{- if .Params.bookMeta.coverImage }}
+      <img src="{{ .Params.bookMeta.coverImage }}" alt="Cover of {{ .Title }}" class="book-cover-img" loading="lazy" decoding="async" onerror="this.style.display='none'; this.parentNode.innerHTML = '<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 21 24\' fill=\'currentColor\'><path d=\'M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9\'></path></svg>'">
+      {{- else }}
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 24" fill="currentColor"><path d="M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9"></path></svg>
+      {{- end }}
+    </div>
+    <div class="book-info">
+      <h2 class="book-title">{{ .Title }}</h2>
+      <div class="book-meta">
+        <p class="book-author">{{ .Params.bookMeta.author }}</p>
+        {{- if .Params.bookMeta.rating }}
+        <div class="book-rating">
+          {{- template "star-rating" dict "rating" .Params.bookMeta.rating }}
+        </div>
+        {{- end }}
+        <span class="book-status {{ replace (lower .Params.bookMeta.status) " " "-" }}">{{ .Params.bookMeta.status }}</span>
+      </div>
+    </div>
+  </a>
+  {{- end }}
+</div>
+
+<div id="books-table" class="books-table list-view post-content">
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Rating</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{- range $pages.ByDate.Reverse }}
+      <tr class="book-row" data-href="{{ .Permalink }}">
+        <td>
+          <div class="td-icon">
+            {{- if .Params.bookMeta.coverImage }}
+            <img src="{{ .Params.bookMeta.coverImage }}" alt="Cover of {{ .Title }}" class="book-cover-img-small" loading="lazy" decoding="async" onerror="this.style.display='none'; this.parentNode.innerHTML = '<svg class=\'book-placeholder\' xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 21 24\' fill=\'currentColor\'><path d=\'M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9\'></path></svg>'">
+            {{- else }}
+            <svg class="book-placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 24" fill="currentColor"><path d="M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9"></path></svg>
+            {{- end }}
+          </div>
+        </td>
+        <td>{{ .Title }}</td>
+        <td>{{ .Params.bookMeta.author }}</td>
+        <td>
+          {{- if .Params.bookMeta.rating }}
+          {{- template "star-rating" dict "rating" .Params.bookMeta.rating }}
+          {{- end }}
+        </td>
+        <td>
+          {{- if .Params.bookMeta.status }}
+          <span class="book-status {{ replace (lower .Params.bookMeta.status) " " "-" }}">{{ .Params.bookMeta.status }}</span>
+          {{- else }}
+          <span class="book-status want-to-read">Want to Read</span>
+          {{- end }}
+        </td>
+      </tr>
+      {{- end }}
+    </tbody>
+  </table>
+</div>
+
+<style>
+/* Common styles */
+:root {
+  --book-font-size: 14px;
+  --star-size: 14px;
+}
+
+/* View toggle styles */
+.view-toggle-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0 20px;
+  font-size: var(--book-font-size);
+  color: var(--secondary);
+}
+
+.toggle-button {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  padding: 6px 12px;
+  margin-left: 20px;
+  color: var(--secondary);
+  font-size: var(--book-font-size);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.toggle-button:hover {
+  color: var(--primary);
+}
+
+.toggle-button svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* View state management */
+body:not(.grid-active):not(.list-active) #grid { display: none; }
+body:not(.grid-active):not(.list-active) #list { display: inline-block; }
+.grid-active #view-toggle #grid,
+.list-active #view-toggle #list { display: none; }
+.grid-active #view-toggle #list,
+.list-active #view-toggle #grid { display: inline-block; }
+
+/* Grid view styles */
+.books-container {
+  display: none;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 24px;
+}
+
+.grid-active .books-container { display: grid; }
+
+.book-card {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Book cover styles */
+.book-cover,
+.td-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--entry);
+  overflow: hidden;
+}
+
+.book-cover {
+  aspect-ratio: 2/3;
+}
+
+.book-cover svg,
+.book-placeholder {
+  width: 48px;
+  height: 48px;
+  color: var(--secondary);
+  opacity: 0.6;
+}
+
+.book-cover-img,
+.book-cover-img-small {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.book-cover-img-small {
+  width: 32px;
+  height: 48px;
+}
+
+/* Book info styles */
+.book-info {
+  background: var(--entry);
+  padding: var(--gap);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.book-title {
+  font-size: 20px;
+}
+
+.book-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: var(--secondary);
+}
+
+.book-author {
+  font-size: var(--book-font-size);
+}
+
+/* Star rating styles */
+.book-rating,
+.td-rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--primary);
+}
+
+.star {
+  display: inline-flex;
+  width: var(--star-size);
+  height: var(--star-size);
+}
+
+.star svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+
+/* Book status styles */
+.book-status {
+  display: inline;
+  padding: 0;
+  font-size: 13px;
+  color: var(--content);
+}
+
+/* These are the only status variations we need */
+.book-status.reading { font-style: italic; }
+.book-status.read { font-weight: 600; }
+
+/* Table view styles */
+.books-table {
+  display: none;
+  margin-bottom: 24px;
+}
+
+.list-active .books-table { display: block; }
+
+/* Only keep unique table styles that aren't in reset.css or post-single.css */
+.books-table tbody tr {
+  cursor: pointer;
+}
+
+/* .books-table tbody tr:hover {
+  background: var(--entry);
+} */
+
+/* Column widths */
+.books-table td:first-child {
+  width: 48px;
+  padding: 8px;
+}
+
+.books-table td:nth-child(4) {
+  min-width: 120px; /* Rating column */
+  white-space: nowrap;
+}
+
+.books-table td:nth-child(4) .star {
+  margin-right: 5px; /* Add spacing between stars */
+}
+
+.books-table td:nth-child(4) .star:last-child {
+  margin-right: 0; /* Remove margin from last star */
+}
+
+.books-table td:last-child {
+  min-width: 100px; /* Status column */
+  white-space: nowrap;
+}
+
+.td-icon {
+  display: flex;
+  width: 32px;
+  height: 48px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background: var(--entry);
+}
+
+/* Fix the SVG in the list view to be the same size as grid view */
+.td-icon .book-placeholder {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (max-width: 500px) {
+  .toggle-button .toggle-text { display: none; }
+  .toggle-button { padding: 6px; }
+}
+</style>
+
+<script>
+(() => {
+  const VIEWS = {
+    GRID: 'grid',
+    LIST: 'list'
+  };
+
+  const STORAGE_KEY = 'booksViewPreference';
+
+  const setView = (view) => {
+    const body = document.body;
+    const toggleText = document.querySelector('.toggle-text');
+    
+    body.classList.remove(`${VIEWS.GRID}-active`, `${VIEWS.LIST}-active`);
+    body.classList.add(`${view}-active`);
+    toggleText.textContent = `${view === VIEWS.GRID ? VIEWS.LIST : VIEWS.GRID} view`;
+    localStorage.setItem(STORAGE_KEY, view);
+  };
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const viewToggle = document.getElementById('view-toggle');
+    const savedView = localStorage.getItem(STORAGE_KEY) || VIEWS.GRID;
+    
+    // Set initial state
+    setView(savedView);
+
+    viewToggle.addEventListener('click', () => {
+      const newView = document.body.classList.contains(`${VIEWS.GRID}-active`) ? VIEWS.LIST : VIEWS.GRID;
+      setView(newView);
+    });
+
+    // Make table rows clickable
+    const bookRows = document.querySelectorAll('.book-row');
+    bookRows.forEach(row => {
+      row.addEventListener('click', () => {
+        window.location.href = row.dataset.href;
+      });
+    });
+  });
+})();
+</script>
+
+{{- end }}{{/* end main */}}
+

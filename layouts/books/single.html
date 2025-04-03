@@ -1,0 +1,301 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title">
+      {{ .Title }}
+      {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+    </h1>
+    {{- if .Description }}
+    <div class="post-description">
+      {{ .Description }}
+    </div>
+    {{- end }}
+  </header>
+
+  <div class="book-layout">
+    {{- with .Params.bookMeta }}
+    <div class="book-cover-wrapper">
+      <div class="book-cover-section">
+        <div class="book-cover-container">
+          {{- with .coverImage }}
+          <img src="{{ . }}" alt="Cover of {{ $.Title }}" class="book-cover" loading="lazy" decoding="async" onerror="this.style.display='none'; this.parentNode.innerHTML = '<div class=\'book-cover-placeholder\'><svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 21 24\' fill=\'currentColor\'><path d=\'M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9\'></path></svg></div>'">
+          {{- else }}
+          <div class="book-cover-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 24" fill="currentColor"><path d="M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9"></path></svg>
+          </div>
+          {{- end }}
+        </div>
+        
+        <div class="book-status-section">
+          <div class="book-status {{ replace (lower .status) " " "-" }}">{{ .status }}</div>
+          
+          <div class="book-rating">
+            {{- $rating := .rating }}
+            {{- range seq 5 }}
+            {{- $currentStar := . }}
+            {{- if ge $rating $currentStar }}
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0.57 0 12.37 12"><path d="M7.427.422a.752.752 0 0 0-1.35 0L4.57 3.523l-3.365.497c-.281.042-.516.239-.602.509s-.016.567.185.766L3.23 7.711l-.577 3.415a.753.753 0 0 0 1.094.788l3.007-1.605 3.007 1.605c.253.134.56.115.792-.054s.349-.452.302-.734l-.578-3.415 2.442-2.416c.202-.199.274-.497.185-.766s-.321-.466-.602-.509l-3.368-.497z"></path></svg>
+            </span>
+            {{- else if and (gt $rating (sub $currentStar 1)) (lt $rating $currentStar) }}
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0.57 0 12.38 12"><path d="m6.75 8.822.002-.002.619.33 1.997 1.066-.387-2.287-.112-.673.485-.48 1.643-1.624-2.252-.333-.687-.101-.302-.623-1.003-2.058-.002.007zm4.104 2.304a.753.753 0 0 1-1.094.788l-3.007-1.605-3.007 1.605a.752.752 0 0 1-1.094-.788l.578-3.415L.788 5.295c-.202-.199-.274-.497-.185-.766s.321-.466.602-.509l3.365-.497L6.08.422a.752.752 0 0 1 1.35 0l1.507 3.101 3.366.497c.281.042.516.239.602.509s.016.567-.185.766l-2.443 2.416z"></path></svg>
+            </span>
+            {{- else }}
+            <span class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0.56 0 12.37 12"><path d="M6.748 0a.56.56 0 0 1 .506.316l1.608 3.312 3.591.53c.211.03.387.178.452.382s.012.424-.138.574l-2.604 2.583.614 3.647c.035.211-.052.424-.227.551s-.405.141-.593.04l-3.211-1.716-3.207 1.713c-.19.101-.42.087-.593-.04s-.262-.34-.227-.551l.614-3.647-2.604-2.58a.56.56 0 0 1 .314-.956l3.591-.53L6.242.316A.56.56 0 0 1 6.748 0m0 1.852-1.23 2.536a.57.57 0 0 1-.424.312l-2.774.407 2.013 1.995c.129.129.19.312.159.492l-.476 2.805 2.466-1.317a.56.56 0 0 1 .53 0l2.466 1.317-.473-2.803a.56.56 0 0 1 .159-.492l2.013-1.995-2.773-.41a.56.56 0 0 1-.424-.312z"></path></svg>
+            </span>
+            {{- end }}
+            {{- end }}
+          </div>
+        </div>
+        
+        {{- with .goodreadsUrl }}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="book-link goodreads">
+          <span class="book-link-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 1 14 14"><path d="M9.372 5.975c.159 1.166-.147 2.469-1.122 3.147-.697.484-1.65.441-2.212.178-1.159-.541-1.547-1.831-1.462-3.038.134-1.903 1.278-2.747 2.353-2.734 1.466-.006 2.244.994 2.444 2.447M14 2.75v10.5A1.75 1.75 0 0 1 12.25 15H1.75A1.75 1.75 0 0 1 0 13.25V2.75C0 1.784.784 1 1.75 1h10.5c.966 0 1.75.784 1.75 1.75m-3.687 7.037s-.003-1.063-.003-6.791h-.906v1.259c-.025.009-.037-.016-.05-.037-.3-.647-1.122-1.447-2.375-1.438-1.622.013-2.725.975-3.144 2.431a4.8 4.8 0 0 0-.172 1.425c.053 2.434 1.409 3.681 3.513 3.6.903-.034 1.703-.531 2.156-1.413q.024-.045.053-.091l.019.006c.009.119.006.959.003 1.078-.006.463-.063.922-.225 1.359-.244.656-.697 1.084-1.391 1.234a3.4 3.4 0 0 1-1.663-.037c-.672-.191-1.141-.594-1.284-1.306-.009-.05-.041-.041-.072-.041h-.838c.025.331.1.634.266.912.756 1.266 2.584 1.516 4.006 1.169 1.559-.384 2.103-1.716 2.106-3.322"></path></svg>
+          </span>
+          View on Goodreads
+        </a>
+        {{- end }}
+      </div>
+    </div>
+
+    <div class="book-details">
+      <div class="book-metadata">
+        <div class="metadata-item">
+          <span class="metadata-label">Author</span>
+          <span class="metadata-value">{{ .author }}</span>
+        </div>
+        
+        {{- with .publisher }}
+        <div class="metadata-item">
+          <span class="metadata-label">Publisher</span>
+          <span class="metadata-value">{{ . }}</span>
+        </div>
+        {{- end }}
+
+        {{- with .published }}
+        <div class="metadata-item">
+          <span class="metadata-label">Published</span>
+          <span class="metadata-value">{{ . }}</span>
+        </div>
+        {{- end }}
+
+        {{- with .isbn }}
+        <div class="metadata-item">
+          <span class="metadata-label">ISBN</span>
+          <span class="metadata-value">{{ . }}</span>
+        </div>
+        {{- end }}
+
+        {{- with .pageCount }}
+        <div class="metadata-item">
+          <span class="metadata-label">Pages</span>
+          <span class="metadata-value">{{ . }}</span>
+        </div>
+        {{- end }}
+
+        {{- with .genre }}
+        <div class="metadata-item">
+          <span class="metadata-label">Genre</span>
+          <span class="metadata-value">{{ delimit . ", " }}</span>
+        </div>
+        {{- end }}
+      </div>
+    </div>
+    {{- end }}
+  </div>
+
+  <div class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </div>
+  <footer class="post-footer">
+    {{- if (.Param "ShowPostNavLinks") }}
+    {{- partial "book_nav_links.html" . }}
+    {{- end }}
+  </footer>
+</article>
+
+<style>
+/* Book single view styles */
+:root {
+  --book-font-size: 14px;
+  --star-size: 14px;
+}
+
+.book-layout {
+  display: flex;
+  gap: var(--gap);
+  margin: var(--gap) 0;
+}
+
+.book-cover-wrapper {
+  flex: 0 0 200px;
+}
+
+.book-cover-section {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--gap) / 4);
+  height: 100%;
+  justify-content: space-between;
+}
+
+.book-cover-container {
+  width: 100%;
+  aspect-ratio: 2/3;
+  overflow: hidden;
+  background: var(--entry);
+}
+
+.book-cover,
+.book-cover-placeholder {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 2/3;
+  overflow: hidden;
+}
+
+.book-cover {
+  object-fit: cover;
+}
+
+.book-cover-placeholder {
+  background: var(--entry);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-cover-placeholder svg {
+  width: 48px;
+  height: 48px;
+  color: var(--secondary);
+  opacity: 0.6;
+}
+
+.book-status-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: var(--gap);
+}
+
+.book-details {
+  flex: 1;
+  background: var(--entry);
+  border: 1px solid var(--border);
+  padding: var(--gap);
+  border-radius: var(--radius);
+}
+
+.book-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.star {
+  display: inline-flex;
+  width: var(--star-size);
+  height: var(--star-size);
+}
+
+.star svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+
+.book-status {
+  padding: 4px 12px;
+  font-size: 13px;
+  display: inline-block;
+  color: var(--secondary);
+  text-align: center;
+}
+
+.book-status.reading {
+  font-style: italic;
+}
+
+.book-status.read {
+  font-weight: 600;
+}
+
+.book-link {
+  display: flex;
+  padding: 8px 12px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  border: 1px solid var(--border);
+  color: var(--primary);
+  border-radius: var(--radius);
+  font-size: var(--book-font-size);
+}
+
+.book-link.goodreads {
+  background-color: var(--primary);
+  color: var(--code-bg);
+}
+
+.book-link.goodreads:hover {
+  background: var(--secondary);
+}
+
+.book-link-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-link-icon svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.book-metadata {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+.metadata-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.metadata-label {
+  font-size: 14px;
+  color: var(--secondary);
+}
+
+.metadata-value {
+  font-size: 16px;
+  color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .book-layout {
+    flex-direction: column;
+  }
+
+  .book-cover-wrapper {
+    align-self: center;
+    max-width: 200px;
+  }
+}
+</style>
+
+{{- end }}{{/* end main */}}
