@@ -309,16 +309,29 @@ body:not(.grid-active):not(.list-active) #list { display: inline-block; }
 /* Only keep unique table styles that aren't in reset.css or post-single.css */
 .books-table tbody tr {
   cursor: pointer;
-  transition: background-color 0.2s;
 }
 
 .books-table tbody tr:hover {
   background: var(--entry);
 }
 
+/* Column widths */
 .books-table td:first-child {
   width: 48px;
   padding: 8px;
+}
+
+.books-table td:nth-child(4) {
+  min-width: 120px; /* Rating column */
+  white-space: nowrap;
+}
+
+.books-table td:nth-child(4) .star {
+  margin-right: 5px; /* Add spacing between stars */
+}
+
+.books-table td:nth-child(4) .star:last-child {
+  margin-right: 0; /* Remove margin from last star */
 }
 
 .td-icon {
