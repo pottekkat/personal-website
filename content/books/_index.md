@@ -1,8 +1,8 @@
 ---
-title: "Book Reviews"
+title: "The Bookshelf"
 url: "/books/"
-description: "Navendu Pottekkat's book reviews and incomplete reading list."
+description: "My incomplete reading list."
 summary: "books"
 ---
 
-These are my notes from some of the books I'm reading/have read.
+I'm starting this on 3rd April 2025. Some of these are backdated, but I plan to use this to track every book I read.
