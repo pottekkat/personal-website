@@ -5,7 +5,7 @@
     {{ partial "breadcrumbs.html" . }}
     <h1 class="post-title">
       {{ .Title }}
-      {{- if .Draft }}<div class="entry-isdraft"><sup>&nbsp;&nbsp;[draft]</sup></div>{{- end }}
+      {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
     </h1>
     {{- if .Description }}
     <div class="post-description">
@@ -13,27 +13,20 @@
     </div>
     {{- end }}
   </header>
-  {{- $isHidden := .Params.cover.hidden | default .Site.Params.cover.hiddenInSingle | default .Site.Params.cover.hidden }}
-  {{- partial "cover.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
-  {{- if (or (.Param "ShowToc") (.Param "toc.show")) }}
-  {{- partial "toc.html" . }}
-  {{- end }}
 
   <div class="book-layout">
     {{- with .Params.bookMeta }}
     <div class="book-cover-wrapper">
       <div class="book-cover-section">
-        {{- with .coverImage }}
         <div class="book-cover-container">
+          {{- with .coverImage }}
           <img src="{{ . }}" alt="Cover of {{ $.Title }}" class="book-cover" loading="lazy" decoding="async" onerror="this.style.display='none'; this.parentNode.innerHTML = '<div class=\'book-cover-placeholder\'><svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 21 24\' fill=\'currentColor\'><path d=\'M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9\'></path></svg></div>'">
-        </div>
-        {{- else }}
-        <div class="book-cover-container">
+          {{- else }}
           <div class="book-cover-placeholder">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 24" fill="currentColor"><path d="M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9"></path></svg>
           </div>
+          {{- end }}
         </div>
-        {{- end }}
         
         <div class="book-status-section">
           <div class="book-status {{ replace (lower .status) " " "-" }}">{{ .status }}</div>
@@ -131,20 +124,26 @@
 </article>
 
 <style>
+/* Book single view styles */
+:root {
+  --book-font-size: 14px;
+  --star-size: 14px;
+}
+
 .book-layout {
   display: flex;
-  gap: 2rem;
-  margin: 2rem 0;
+  gap: var(--gap);
+  margin: var(--gap) 0;
 }
 
 .book-cover-wrapper {
-  flex: 0 0 250px;
+  flex: 0 0 200px;
 }
 
 .book-cover-section {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: calc(var(--gap) / 4);
 }
 
 .book-cover-container {
@@ -152,6 +151,7 @@
   aspect-ratio: 2/3;
   overflow: hidden;
   margin-bottom: var(--gap);
+  background: var(--entry);
 }
 
 .book-cover,
@@ -167,15 +167,15 @@
 }
 
 .book-cover-placeholder {
-  background: var(--code-bg);
+  background: var(--entry);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .book-cover-placeholder svg {
-  width: 60px;
-  height: 60px;
+  width: 48px;
+  height: 48px;
   color: var(--secondary);
   opacity: 0.6;
 }
@@ -184,7 +184,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   margin-bottom: var(--gap);
 }
 
@@ -193,6 +193,7 @@
   background: var(--entry);
   border: 1px solid var(--border);
   padding: var(--gap);
+  border-radius: var(--radius);
 }
 
 .book-rating {
@@ -204,8 +205,8 @@
 
 .star {
   display: inline-flex;
-  width: 20px;
-  height: 20px;
+  width: var(--star-size);
+  height: var(--star-size);
 }
 
 .star svg {
@@ -216,7 +217,7 @@
 
 .book-status {
   padding: 4px 12px;
-  font-size: 14px;
+  font-size: 13px;
   display: inline-block;
   color: var(--secondary);
   text-align: center;
@@ -239,6 +240,8 @@
   text-decoration: none;
   border: 1px solid var(--border);
   color: var(--primary);
+  border-radius: var(--radius);
+  font-size: var(--book-font-size);
 }
 
 .book-link.goodreads {
@@ -278,8 +281,6 @@
 .metadata-label {
   font-size: 14px;
   color: var(--secondary);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
 }
 
 .metadata-value {
