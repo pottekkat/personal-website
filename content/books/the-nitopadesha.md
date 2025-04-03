@@ -2,7 +2,7 @@
 title: The Nitopadesha
 date: 2024-12-15T10:31:53+05:30
 draft: false
-summary: Review of "The Nitopadesha" by Nitin Pai
+summary: Review of "The Nitopadesha" by Nitin Pai.
 bookMeta:
     author: Nitin Pai
     published: 2023
