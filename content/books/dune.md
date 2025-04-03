@@ -16,7 +16,7 @@ bookMeta:
         - "Classic"
     rating: 5
     status: "Read"
-    coverImage: "https://covers.openlibrary.org/b/id/8605947-L.jpg"
+    coverImage: "https://pics.cdn.librarything.com/picsizes/11/61/11613096-b-h635-w450-pv25_5971677a7351444341587343_v5.png"
     goodreadsUrl: "https://www.goodreads.com/book/show/44767458-dune"
     purchaseLinks:
         amazon: "https://www.amazon.com/Dune-Frank-Herbert/dp/0441172717"
