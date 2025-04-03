@@ -253,6 +253,98 @@
           "type": "string"
         }
       ]
+    },
+    {
+      "name": "Book Review",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "dateFormat": "yyyy-MM-dd'T'HH:mm:ssXXX",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Draft?",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Summary",
+          "name": "summary",
+          "type": "string"
+        },
+        {
+          "title": "Book Metadata",
+          "name": "bookMeta",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "Author",
+              "name": "author",
+              "type": "string"
+            },
+            {
+              "title": "Year Published",
+              "name": "published",
+              "type": "number"
+            },
+            {
+              "title": "ISBN",
+              "name": "isbn",
+              "type": "string"
+            },
+            {
+              "title": "Publisher",
+              "name": "publisher",
+              "type": "string"
+            },
+            {
+              "title": "Page Count",
+              "name": "pageCount",
+              "type": "number"
+            },
+            {
+              "title": "Genre",
+              "name": "genre",
+              "type": "choice",
+              "choices": [
+                "Science Fiction",
+                "Fantasy",
+                "Fiction",
+                "Space"
+              ]
+            },
+            {
+              "title": "Reading Status",
+              "name": "status",
+              "type": "string"
+            },
+            {
+              "title": "Rating (1-5)",
+              "name": "rating",
+              "type": "number"
+            },
+            {
+              "title": "Book Cover",
+              "name": "coverImage",
+              "type": "image"
+            },
+            {
+              "title": "Goodreads URL",
+              "name": "goodreadsUrl",
+              "type": "string"
+            }
+          ]
+        }
+      ]
     }
   ],
   "frontMatter.content.pageFolders": [
@@ -295,6 +387,17 @@
       "previewPath": "tils",
       "contentTypes": [
         "TILs"
+      ],
+      "excludePaths": [
+        "_*.*"
+      ]
+    },
+    {
+      "title": "Book Reviews",
+      "path": "[[workspace]]/content/books",
+      "previewPath": "books",
+      "contentTypes": [
+        "Book Review"
       ],
       "excludePaths": [
         "_*.*"
