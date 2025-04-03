@@ -9,12 +9,10 @@ bookMeta:
     isbn: "9781234567890"
     publisher: "Sample Publisher"
     pageCount: 300
-    format: "Paperback"
     genre: 
         - "Fiction"
         - "Sample"
-    rating: 4.5
-    status: "Reading"
+    status: "Want to Read"
     coverImage: "https://example.com/sample-book-cover.jpg"
     goodreadsUrl: "https://www.goodreads.com/book/show/sample-book"
     googleBooksUrl: "https://books.google.com/books?id=sample-id"
