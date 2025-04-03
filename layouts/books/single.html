@@ -24,10 +24,14 @@
     <div class="book-cover-wrapper">
       <div class="book-cover-section">
         {{- with .coverImage }}
-        <img src="{{ . }}" alt="Cover of {{ $.Title }}" class="book-cover" loading="lazy" decoding="async" onerror="this.style.display='none'; this.parentNode.innerHTML = '<div class=\'book-cover-placeholder\'><svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 21 24\' fill=\'currentColor\'><path d=\'M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9\'></path></svg></div>'">
+        <div class="book-cover-container">
+          <img src="{{ . }}" alt="Cover of {{ $.Title }}" class="book-cover" loading="lazy" decoding="async" onerror="this.style.display='none'; this.parentNode.innerHTML = '<div class=\'book-cover-placeholder\'><svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 21 24\' fill=\'currentColor\'><path d=\'M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9\'></path></svg></div>'">
+        </div>
         {{- else }}
-        <div class="book-cover-placeholder">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 24" fill="currentColor"><path d="M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9"></path></svg>
+        <div class="book-cover-container">
+          <div class="book-cover-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 24" fill="currentColor"><path d="M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9"></path></svg>
+          </div>
         </div>
         {{- end }}
         
@@ -149,12 +153,19 @@
   gap: 4px;
 }
 
-.book-cover,
-.book-cover-placeholder {
+.book-cover-container {
   width: 100%;
   aspect-ratio: 2/3;
   overflow: hidden;
   margin-bottom: var(--gap);
+}
+
+.book-cover,
+.book-cover-placeholder {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 2/3;
+  overflow: hidden;
 }
 
 .book-cover {
