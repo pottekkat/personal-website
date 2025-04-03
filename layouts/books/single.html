@@ -69,12 +69,6 @@
           View on Goodreads
         </a>
         {{- end }}
-        
-        {{- with .googleBooksUrl }}
-        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="book-link google-books">
-          View on Google Books
-        </a>
-        {{- end }}
       </div>
     </div>
 
@@ -267,16 +261,6 @@
   width: 16px;
   height: 16px;
   fill: currentColor;
-}
-
-.book-link.google-books {
-  background: var(--code-bg);
-  color: var(--primary);
-}
-
-.book-link.google-books:hover {
-  color: var(--secondary);
-  background: var(--border);
 }
 
 .book-metadata {

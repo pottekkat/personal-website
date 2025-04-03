@@ -15,7 +15,6 @@ bookMeta:
     status: "Want to Read"
     coverImage: "https://example.com/sample-book-cover.jpg"
     goodreadsUrl: "https://www.goodreads.com/book/show/sample-book"
-    googleBooksUrl: "https://books.google.com/books?id=sample-id"
 ---
 
 This is a sample book entry to demonstrate the structure of book metadata. 
