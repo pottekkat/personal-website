@@ -306,27 +306,7 @@ body:not(.grid-active):not(.list-active) #list { display: inline-block; }
 
 .list-active .books-table { display: block; }
 
-.books-table table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 32px;
-}
-
-.books-table td,
-.books-table th {
-  min-width: 80px;
-  padding: 12px 8px;
-  line-height: 1.5;
-  border-bottom: 1px solid var(--border);
-}
-
-.books-table th {
-  font-size: 14px;
-  text-align: start;
-  color: var(--secondary);
-  font-weight: 500;
-}
-
+/* Only keep unique table styles that aren't in reset.css or post-single.css */
 .books-table tbody tr {
   cursor: pointer;
   transition: background-color 0.2s;
