@@ -349,6 +349,12 @@ body:not(.grid-active):not(.list-active) #list { display: inline-block; }
   background: var(--entry);
 }
 
+/* Fix the SVG in the list view to be the same size as grid view */
+.td-icon .book-placeholder {
+  width: 16px;
+  height: 16px;
+}
+
 @media screen and (max-width: 500px) {
   .toggle-button .toggle-text { display: none; }
   .toggle-button { padding: 6px; }
