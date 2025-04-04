@@ -50,6 +50,10 @@ fmContentType: Post (default)
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.driver-popover-title {
+    font-size: 16px;
+}
+
 /* Remove hover effects from disabled buttons while keeping cursor style */
 .driver-popover button[disabled]:hover {
   background-color: inherit !important;
@@ -101,12 +105,12 @@ const driverObj = driver({
     stagePadding: 0,
     stageRadius: 0,
     steps: [
-    { element: '#init-driver-code', popover: { title: 'Git Command', description: 'This is the Git command that will be run.', side: "top", align: 'start' }},
+    { element: '#init-driver-code', popover: { title: 'Git Command', description: 'This is the Git command to be run.', side: "top", align: 'start' }},
     { 
       element: '#init-driver-codapi > codapi-toolbar > button', 
       popover: { 
         title: 'Run Button', 
-        description: 'Click the "Run" button to execute the Git command on a machine in the cloud.', 
+        description: '<strong>Click the "Run" button</strong> to run the command on a machine in the cloud.', 
         side: "bottom", 
         align: 'start' 
       },
@@ -168,8 +172,8 @@ const driverObj = driver({
     { 
       element: '#init-driver-codapi > codapi-output > pre', 
       popover: { 
-        title: 'Output', 
-        description: 'This is the output of the Git command that was run.', 
+        title: 'Command Output', 
+        description: 'This is the output of the command.', 
         side: "bottom", 
         align: 'start' 
       }
