@@ -37,23 +37,23 @@ fmContentType: Post (default)
 /* Remove rounded borders from popover */
 .driver-popover {
   border-radius: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .driver-popover button {
   border-radius: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* Remove hover effects for disabled button */
-.driver-popover button[disabled]:hover,
-.driver-popover button.driver-disabled-btn:hover {
+/* Add font family to driver elements */
+.driver-popover-title, .driver-popover-description, .driver-popover-footer, .driver-popover-progress-text {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Remove hover effects from disabled buttons while keeping cursor style */
+.driver-popover button[disabled]:hover {
   background-color: inherit !important;
   color: inherit !important;
-}
-
-/* Override any transition effects for the disabled button */
-.driver-popover button[disabled],
-.driver-popover button.driver-disabled-btn {
-  transition: none !important;
 }
 </style>
 {{< /rawhtml >}}
@@ -97,7 +97,7 @@ const driver = window.driver.js.driver;
 const driverObj = driver({
     animate: false,
     showProgress: true,
-    showButtons: ['next', 'previous', 'close'],
+    showButtons: ['next', 'previous'],
     stagePadding: 0,
     stageRadius: 0,
     steps: [
@@ -120,7 +120,6 @@ const driverObj = driver({
           // Output is already visible, enable the next button right away
           if (nextBtn) {
             nextBtn.removeAttribute('disabled');
-            nextBtn.classList.remove('driver-disabled-btn');
             nextBtn.style.opacity = '1';
             nextBtn.style.cursor = 'pointer';
           }
@@ -128,7 +127,6 @@ const driverObj = driver({
           // Output is not visible, disable the next button
           if (nextBtn) {
             nextBtn.setAttribute('disabled', 'disabled');
-            nextBtn.classList.add('driver-disabled-btn');
             nextBtn.style.opacity = '0.5';
             nextBtn.style.cursor = 'not-allowed';
           }
@@ -141,7 +139,6 @@ const driverObj = driver({
                   // Enable the next button when hidden attribute is removed
                   if (nextBtn) {
                     nextBtn.removeAttribute('disabled');
-                    nextBtn.classList.remove('driver-disabled-btn');
                     nextBtn.style.opacity = '1';
                     nextBtn.style.cursor = 'pointer';
                   }
