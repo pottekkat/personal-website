@@ -29,13 +29,13 @@ cover:
 fmContentType: Post (default)
 ---
 
-You may not need to know programming to vibe code your way to the next Facebook. But you will thank me after you've vibed too much and the AI agent just broke your entire website and shit hits the fan.
+You may not need to know programming to vibe code your way to glory or the next Facebook. But you will thank me when shit hits the fan after you've vibed just a little bit too much, and the AI agent just broke your entire website.
 
-Git is a better "restore checkpoint" button you frantically try to find when cursor gets carried away with your vibes. Git can do a lot of things and trying to learn everything Git can do or god forbid read its documentation is, as we both know, a futile exercise. Instead, I will get you to learn Git (get it?) through a five minute interactive guide before your TikTok brains can take over.
+Git is a better "restore checkpoint" button that you frantically try to find when Cursor gets too carried away with your ~~lazy prompts~~; I mean, vibes. Git can do a lot, but trying to learn them all or, god forbid, read its documentation is, as we both know, a futile exercise. Instead, I will get you to learn Git through a five-minute interactive guide before your TikTok brains can take over.
 
-> **Note**: It is very likely that your IDE (the application where you vibe code) comes with a graphical interface (GUI) for Git. But it is worthwile to understand the basic commands that run behind the scenes through these GUIs. I explain more about using these GUIs later in the article.
+> **Note**: It isn't unlikely that your IDE (the app where you vibe code) comes with a graphical interface (GUI) for Git. But it is worth your time to learn the basic Git commands before jumping to a GUI abstraction.
 
-I don't know if you would bother learning Git if you didn't bother to learn programming, but learning Git prevents you from embarrasing yourself online:
+I don't really know if you would bother learning Git when you didn't bother to learn programming. But I do know learning Git prevents you from embarrassing yourself online:
 
 {{< blockquote author="@thekitze" link="https://twitter.com/thekitze/status/1901918860573290914" title="March 18, 2025 on Twitter" >}}
 they should invent a tool where vibe code can be stored in the cloud so from time to time you do a "checkin" of your code and you can always revert to it and go to a previous version
@@ -43,7 +43,7 @@ they should invent a tool where vibe code can be stored in the cloud so from tim
 like a ... hub for code
 {{< /blockquote >}}
 
-I know the tweet was a joke but I can't wait for what you vibe coders will come up with next.
+I know, I know. This tweet was a joke. But I can't wait for what you vibe coders will come up with next!
 
 ## Installing Git
 
