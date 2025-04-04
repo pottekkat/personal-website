@@ -204,10 +204,10 @@ The first command you probably need to know is `git clone`. It lets you clone th
 This tutorial will use a React-based web app project as an example. But the same ideas apply to any software project you have.
 
 ```shell
-git clone xxx
+git clone https://github.com/pottekkat/gandhi-exhibition.git
 ```
 
-{{< codapi id="diagram-trigger-init" sandbox="git" editor="off" template="init.sh" >}}
+{{< codapi sandbox="git" editor="off" >}}
 
 ## git init
 
