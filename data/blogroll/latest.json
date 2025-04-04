@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-04-04T08:36:24.396099",
+  "lastUpdated": "2025-04-04T14:09:52.277734",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -77,6 +77,13 @@
       "postTitle": "It's Just a Function",
       "postUrl": "https://blog.jfo.click/it-s-just-a-function",
       "publishDate": "Jan 08, 2023"
+    },
+    {
+      "blogTitle": "A Java geek",
+      "blogUrl": "https://blog.frankel.ch/",
+      "postTitle": "Mutation Testing in Rust",
+      "postUrl": "https://blog.frankel.ch/mutation-testing-rust/",
+      "publishDate": "Sun, 30 Mar 2025 00:00:00 +0000"
     },
     {
       "blogTitle": "Julia Evans",
