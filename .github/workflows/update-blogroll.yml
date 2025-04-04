@@ -1,0 +1,42 @@
+name: Update Blogroll Latest Posts
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight UTC
+
+jobs:
+  update-blogroll:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          ref: hugo
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10.11'
+          
+      - name: Install Python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r .github/blogroll-scripts/requirements.txt
+          
+      - name: Execute Python script
+        run: python .github/blogroll-scripts/update_blogroll.py
+          
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/blogroll/latest.json
+          git diff-index --quiet HEAD || (git commit -m "update blogroll latest posts" --allow-empty)
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: hugo
