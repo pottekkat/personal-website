@@ -43,18 +43,11 @@ fmContentType: Post (default)
   border-radius: 0;
 }
 
-/* Remove rounded borders and padding from highlighted element */
-.driver-active-element {
-  border-radius: 0;
-}
-
 /* Remove hover effects for disabled button */
 .driver-popover button[disabled]:hover,
 .driver-popover button.driver-disabled-btn:hover {
   background-color: inherit !important;
   color: inherit !important;
-  cursor: not-allowed !important;
-  pointer-events: none !important;
 }
 
 /* Override any transition effects for the disabled button */
