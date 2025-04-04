@@ -37,9 +37,3 @@
     {{ end }}
   </tbody>
 </table>
-
-{{ if (fileExists "data/blogroll/latest.json") }}
-  <p class="blogroll-updated">
-    Last updated: {{ dateFormat "January 2, 2006" $.Site.Data.blogroll.latest.lastUpdated }}
-  </p>
-{{ end }}
