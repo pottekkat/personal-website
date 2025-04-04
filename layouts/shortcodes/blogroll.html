@@ -2,15 +2,44 @@
   <thead>
     <tr>
       <th>Blog</th>
-      <th>Feed URL</th>
+      <th>Feed</th>
+      <th>Latest</th>
     </tr>
   </thead>
   <tbody>
     {{ range .Site.Data.blogroll.blogroll.feeds }}
+      {{ $blogTitle := .title }}
+      {{ $latestPost := "" }}
+      
+      {{ if (fileExists "data/blogroll/latest.json") }}
+        {{ range $.Site.Data.blogroll.latest.posts }}
+          {{ if eq .blogTitle $blogTitle }}
+            {{ $latestPost = . }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      
       <tr>
         <td><a href="{{ .htmlURL }}" target="_blank" rel="noopener">{{ .title }}</a></td>
         <td><a href="{{ .xmlURL }}" target="_blank" rel="noopener">RSS</a></td>
+        <td>
+          {{ if $latestPost }}
+            {{ if not (isset $latestPost "error") }}
+              <a href="{{ $latestPost.postUrl }}" target="_blank" rel="noopener">{{ $latestPost.postTitle }}</a>
+            {{ else }}
+              <span title="{{ $latestPost.errorMessage }}">Unavailable</span>
+            {{ end }}
+          {{ else }}
+            <span>Loading...</span>
+          {{ end }}
+        </td>
       </tr>
     {{ end }}
   </tbody>
 </table>
+
+{{ if (fileExists "data/blogroll/latest.json") }}
+  <p class="blogroll-updated">
+    Last updated: {{ dateFormat "January 2, 2006" $.Site.Data.blogroll.latest.lastUpdated }}
+  </p>
+{{ end }}

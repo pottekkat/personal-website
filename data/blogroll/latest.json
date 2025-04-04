@@ -1,0 +1,159 @@
+{
+  "lastUpdated": "2025-04-04T13:13:03.929419",
+  "posts": [
+    {
+      "blogTitle": "XKCD",
+      "blogUrl": "https://xkcd.com/",
+      "postTitle": "Decay Chain",
+      "postUrl": "https://xkcd.com/3071/",
+      "publishDate": "Wed, 02 Apr 2025 04:00:00 -0000"
+    },
+    {
+      "blogTitle": "David Heinemeier Hansson",
+      "blogUrl": "https://world.hey.com/dhh",
+      "postTitle": "Great AI Steals",
+      "postUrl": "https://world.hey.com/dhh/great-ai-steals-280615be",
+      "publishDate": "2025-03-31T10:27:27Z"
+    },
+    {
+      "blogTitle": "Simon Willison's Weblog",
+      "blogUrl": "https://simonwillison.net/",
+      "postTitle": "First look at the modern attr()",
+      "postUrl": "https://simonwillison.net/2025/Apr/3/first-look-at-the-modern-attr/#atom-everything",
+      "publishDate": "2025-04-03T15:53:52+00:00"
+    },
+    {
+      "blogTitle": "Paul Graham: Essays",
+      "blogUrl": "https://www.paulgraham.com/articles.html",
+      "postTitle": "Superlinear Returns",
+      "postUrl": "http://www.paulgraham.com/superlinear.html",
+      "publishDate": null
+    },
+    {
+      "blogTitle": "Bartosz Ciechanowski",
+      "blogUrl": "https://ciechanow.ski/",
+      "postTitle": "Moon",
+      "postUrl": "https://ciechanow.ski/moon/",
+      "publishDate": "Tue, 17 Dec 2024 04:00:00 -0800"
+    },
+    {
+      "blogTitle": "Melting Asphalt",
+      "blogUrl": "https://meltingasphalt.com/",
+      "postTitle": "Outbreak",
+      "postUrl": "https://meltingasphalt.com/outbreak/",
+      "publishDate": "Tue, 17 Mar 2020 16:11:22 +0000"
+    },
+    {
+      "blogTitle": "Tiny Projects",
+      "blogUrl": "https://tinyprojects.dev/",
+      "postTitle": "Tiny Website | Tiny Projects",
+      "postUrl": "https://tinyprojects.dev/projects/tiny_website",
+      "publishDate": "Mon, 18 May 2020"
+    },
+    {
+      "blogTitle": "Kailash Nadh / Personal homepage",
+      "blogUrl": "https://nadh.in/",
+      "postTitle": "DeepSeek, AI sovereignty, and India",
+      "postUrl": "https://nadh.in/blog/deepseek-ai-sovereignty-india/",
+      "publishDate": "Wed, 29 Jan 2025 00:00:00 +0000"
+    },
+    {
+      "blogTitle": "Stephen Diehl",
+      "blogUrl": "https://www.stephendiehl.com/",
+      "postTitle": "MLIR Part 6 - Specializing Python with E-graphs",
+      "postUrl": "https://www.stephendiehl.com/posts/mlir_egraphs/",
+      "publishDate": "Mon, 17 Mar 2025 00:00:00 +0000"
+    },
+    {
+      "blogTitle": "Austin Z. Henley's Blog",
+      "blogUrl": "https://austinhenley.com/",
+      "postTitle": "My 25-year adventure in AI and ML",
+      "postUrl": "https://austinhenley.com/blog/25yearsofai.html",
+      "publishDate": "Tue, 31 Dec 2024 19:00:01 -0400"
+    },
+    {
+      "blogTitle": "blog.jfo.click",
+      "blogUrl": "http://blog.jfo.click/",
+      "postTitle": "It's Just a Function",
+      "postUrl": "https://blog.jfo.click/it-s-just-a-function",
+      "publishDate": "Jan 08, 2023"
+    },
+    {
+      "blogTitle": "A Java geek",
+      "blogUrl": "https://blog.frankel.ch/",
+      "postTitle": "Mutation Testing in Rust",
+      "postUrl": "https://blog.frankel.ch/mutation-testing-rust/",
+      "publishDate": "Sun, 30 Mar 2025 00:00:00 +0000"
+    },
+    {
+      "blogTitle": "Julia Evans",
+      "blogUrl": "https://jvns.ca/",
+      "postTitle": "Standards for ANSI escape codes",
+      "postUrl": "https://jvns.ca/blog/2025/03/07/escape-code-standards/",
+      "publishDate": "2025-03-07T00:00:00+00:00"
+    },
+    {
+      "blogTitle": "Imposter!",
+      "blogUrl": "https://mfrw.github.io/",
+      "postTitle": "eBPF 101",
+      "postUrl": "http://mfrw.github.io/ebpf-101/",
+      "publishDate": "2022-01-17T00:00:00+00:00"
+    },
+    {
+      "blogTitle": "Kaazhchakal",
+      "blogUrl": "https://yezhuvath.com/",
+      "postTitle": "Floating Monasteries!",
+      "postUrl": "https://yezhuvath.com/2024/11/03/floating-monasteries/",
+      "publishDate": "Sun, 03 Nov 2024 10:44:29 +0000"
+    },
+    {
+      "blogTitle": "Tangled Bytes",
+      "blogUrl": "https://tangledbytes.com/",
+      "postTitle": "USC CSE 138 Distributed Systems",
+      "postUrl": "https://tangledbytes.com/notes/usc-cse-138-distributed-systems/",
+      "publishDate": "Thu, 31 Aug 2023 16:46:37 +0530"
+    },
+    {
+      "blogTitle": "Orhun's Blog",
+      "blogUrl": "https://blog.orhun.dev/",
+      "postTitle": "How I set up this blog",
+      "postUrl": "https://blog.orhun.dev/setting-up-this-blog/",
+      "publishDate": "Mon, 23 Dec 2024 00:00:00 +0000"
+    },
+    {
+      "blogTitle": "Derek Sivers",
+      "blogUrl": "https://sive.rs/",
+      "postTitle": "Why did I move to New Zealand?",
+      "postUrl": "https://sive.rs/nz0",
+      "publishDate": "Tue, 25 Feb 2025 00:00:00 +0000"
+    },
+    {
+      "blogTitle": "Maggie Appleton",
+      "blogUrl": "https://maggieappleton.com/",
+      "postTitle": "Statistically, When Will My Baby Be Born?",
+      "postUrl": "https://maggieappleton.com/birth-probability/",
+      "publishDate": "Mon, 24 Mar 2025 00:00:00 GMT"
+    },
+    {
+      "blogTitle": "Anton Zhiyanov",
+      "blogUrl": "https://antonz.org/",
+      "postTitle": "Howto: Humble command-line assistant",
+      "postUrl": "https://antonz.org/howto/",
+      "publishDate": "Sat, 22 Feb 2025 12:00:00 +0000"
+    },
+    {
+      "blogTitle": "Andrew's Blog",
+      "blogUrl": "https://sheep.horse/",
+      "postTitle": "Book : Moby Dick by Herman Melville",
+      "postUrl": "https://sheep.horse/2023/2/book_-_moby_dick_by_herman_melville.html",
+      "publishDate": "Thu, 02 Feb 2023 19:59:48 +0000"
+    },
+    {
+      "blogTitle": "Salman Faris",
+      "blogUrl": "https://salmanfarisvp.com/",
+      "postTitle": "\u0d06\u0d7c\u0d21\u0d41\u0d2f\u0d3f\u0d28\u0d4b \u0d07\u0d28\u0d4d\u0d24\u0d4d\u0d2f\u0d2f\u0d3f\u0d7d \ud83c\uddee\ud83c\uddf3 - Arduino in India.",
+      "postUrl": "https://salmanfarisvp.github.io/posts/arduino-day-2025-malayalam-post/",
+      "publishDate": "2024-09-14T06:45:00+05:30"
+    }
+  ]
+}
