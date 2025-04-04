@@ -32,6 +32,37 @@ fmContentType: Post (default)
 {{< rawhtml >}}
 <script src="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.js.iife.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.css"/>
+
+<style>
+/* Remove rounded borders from popover */
+.driver-popover {
+  border-radius: 0;
+}
+
+.driver-popover button {
+  border-radius: 0;
+}
+
+/* Remove rounded borders and padding from highlighted element */
+.driver-active-element {
+  border-radius: 0;
+}
+
+/* Remove hover effects for disabled button */
+.driver-popover button[disabled]:hover,
+.driver-popover button.driver-disabled-btn:hover {
+  background-color: inherit !important;
+  color: inherit !important;
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+}
+
+/* Override any transition effects for the disabled button */
+.driver-popover button[disabled],
+.driver-popover button.driver-disabled-btn {
+  transition: none !important;
+}
+</style>
 {{< /rawhtml >}}
 
 You may not need to know programming to vibe code your way to glory or the next Facebook. But you will thank me when shit hits the fan after you've vibed just a little bit too much, and the AI agent just broke your entire website.
@@ -64,7 +95,7 @@ git version
 
 If it shows you a version number like the one above, you already have Git installed and are ready to follow the rest of the guide.
 
-> **Note**: This guide is interactive, meaning you can click the "Run" button above to run the Git commands on an actual computer living in the cloud (show me how).
+> **Note**: This guide is interactive, meaning you can click the "Run" button to run the Git command on a computer living in the cloud. {{< rawhtml >}}<a href="#" id="show-me-how"><i>Show me how!</i></a>{{< /rawhtml >}}
 
 {{< rawhtml >}}
 <script>
@@ -74,14 +105,99 @@ const driverObj = driver({
     animate: false,
     showProgress: true,
     showButtons: ['next', 'previous', 'close'],
+    stagePadding: 0,
+    stageRadius: 0,
     steps: [
     { element: '#init-driver-code', popover: { title: 'Git Command', description: 'This is the Git command that will be run.', side: "top", align: 'start' }},
-    { element: '#init-driver-codapi > codapi-toolbar > button', popover: { title: 'Run Button', description: 'The \"Run\" button will run the Git command on a machine running in the cloud and returns the output.', side: "bottom", align: 'start' }},
-    { element: '#init-driver-codapi > codapi-output > pre', popover: { title: 'Output', description: 'This is the output of the Git command that was run.', side: "bottom", align: 'start' }},
+    { 
+      element: '#init-driver-codapi > codapi-toolbar > button', 
+      popover: { 
+        title: 'Run Button', 
+        description: 'Click the "Run" button to execute the Git command on a machine in the cloud.', 
+        side: "bottom", 
+        align: 'start' 
+      },
+      onHighlighted: (element, step, { state }) => {
+        // When this step is active, check the current state of the output element
+        const nextBtn = state.popover.nextButton;
+        const output = document.querySelector('#init-driver-codapi > codapi-output');
+        
+        // Initial state - check if output is already visible
+        if (output && !output.hasAttribute('hidden')) {
+          // Output is already visible, enable the next button right away
+          if (nextBtn) {
+            nextBtn.removeAttribute('disabled');
+            nextBtn.classList.remove('driver-disabled-btn');
+            nextBtn.style.opacity = '1';
+            nextBtn.style.cursor = 'pointer';
+          }
+        } else {
+          // Output is not visible, disable the next button
+          if (nextBtn) {
+            nextBtn.setAttribute('disabled', 'disabled');
+            nextBtn.classList.add('driver-disabled-btn');
+            nextBtn.style.opacity = '0.5';
+            nextBtn.style.cursor = 'not-allowed';
+          }
+          
+          // Set up a mutation observer to watch for the hidden attribute to be removed
+          if (output) {
+            const observer = new MutationObserver((mutations) => {
+              mutations.forEach((mutation) => {
+                if (mutation.attributeName === 'hidden' && !output.hasAttribute('hidden')) {
+                  // Enable the next button when hidden attribute is removed
+                  if (nextBtn) {
+                    nextBtn.removeAttribute('disabled');
+                    nextBtn.classList.remove('driver-disabled-btn');
+                    nextBtn.style.opacity = '1';
+                    nextBtn.style.cursor = 'pointer';
+                  }
+                  // Disconnect observer after enabling the button
+                  observer.disconnect();
+                }
+              });
+            });
+            
+            // Start observing the output element for attribute changes
+            observer.observe(output, { attributes: true });
+            
+            // Store the observer in a variable to be able to disconnect it when needed
+            state.runBtnObserver = observer;
+          }
+        }
+      },
+      // Clean up when leaving this step
+      onDeselected: (element, step, { state }) => {
+        // Disconnect the observer if it exists
+        if (state.runBtnObserver) {
+          state.runBtnObserver.disconnect();
+          state.runBtnObserver = null;
+        }
+      }
+    },
+    { 
+      element: '#init-driver-codapi > codapi-output > pre', 
+      popover: { 
+        title: 'Output', 
+        description: 'This is the output of the Git command that was run.', 
+        side: "bottom", 
+        align: 'start' 
+      }
+    },
   ]
 });
 
-driverObj.drive();
+// Wait for the DOM to be fully loaded
+document.addEventListener('DOMContentLoaded', function() {
+  // Get the "show me how" link and add click event listener
+  const showMeHowLink = document.getElementById('show-me-how');
+  if (showMeHowLink) {
+    showMeHowLink.addEventListener('click', function(e) {
+      e.preventDefault(); // Prevent default link behavior
+      driverObj.drive();
+    });
+  }
+});
 </script>
 {{< /rawhtml >}}
 
