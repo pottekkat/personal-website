@@ -47,7 +47,7 @@ I know, I know. This tweet was a joke. But I can't wait for what you vibe coders
 
 ## Installing Git
 
-It is very likely that you already have Git installed on your computer.
+It isn't unlikely that you already have Git installed on your computer.
 
 To check, open Terminal (on macOS) or Command Prompt on Windows and type:
 
@@ -55,7 +55,13 @@ To check, open Terminal (on macOS) or Command Prompt on Windows and type:
 git version
 ```
 
-If Git is not installed, follow [this guide](https://github.com/git-guides/install-git) to install it. You can run the examples in this guide on the browser itself by clicking the run button.
+{{< codapi sandbox="git" editor="off" >}}
+
+If it shows you a version number like the one above, you already have Git installed and are ready to follow the rest of the guide.
+
+> **Note**: This guide is interactive, meaning you can click the "Run" button above to run the Git commands on an actual computer living in the cloud (show me how).
+
+If Git isn't installed, follow [this guide](https://github.com/git-guides/install-git) to install it before you jump to the next part of the guide. You can also run these examples on the browser and install Git later.
 
 ## git clone
 
