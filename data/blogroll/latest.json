@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-04-04T13:13:03.929419",
+  "lastUpdated": "2025-04-04T08:36:24.396099",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -79,13 +79,6 @@
       "publishDate": "Jan 08, 2023"
     },
     {
-      "blogTitle": "A Java geek",
-      "blogUrl": "https://blog.frankel.ch/",
-      "postTitle": "Mutation Testing in Rust",
-      "postUrl": "https://blog.frankel.ch/mutation-testing-rust/",
-      "publishDate": "Sun, 30 Mar 2025 00:00:00 +0000"
-    },
-    {
       "blogTitle": "Julia Evans",
       "blogUrl": "https://jvns.ca/",
       "postTitle": "Standards for ANSI escape codes",
@@ -147,13 +140,6 @@
       "postTitle": "Book : Moby Dick by Herman Melville",
       "postUrl": "https://sheep.horse/2023/2/book_-_moby_dick_by_herman_melville.html",
       "publishDate": "Thu, 02 Feb 2023 19:59:48 +0000"
-    },
-    {
-      "blogTitle": "Salman Faris",
-      "blogUrl": "https://salmanfarisvp.com/",
-      "postTitle": "\u0d06\u0d7c\u0d21\u0d41\u0d2f\u0d3f\u0d28\u0d4b \u0d07\u0d28\u0d4d\u0d24\u0d4d\u0d2f\u0d2f\u0d3f\u0d7d \ud83c\uddee\ud83c\uddf3 - Arduino in India.",
-      "postUrl": "https://salmanfarisvp.github.io/posts/arduino-day-2025-malayalam-post/",
-      "publishDate": "2024-09-14T06:45:00+05:30"
     }
   ]
 }
