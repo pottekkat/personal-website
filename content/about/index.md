@@ -22,6 +22,8 @@ This blog also contains [tutorials for open source projects](/tags/apache-apisix
 
 Unless mentioned otherwise, all material in this blog is licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0), and the [source code](https://github.com/pottekkat/personal-website) of this website is available under the [MIT license](https://github.com/pottekkat/personal-website/blob/hugo/LICENSE).
 
+Here are [some other blogs I like](/blogroll/).
+
 ### Ethics Statement
 
 I don't accept any form of payment to write about a product or a company. The products I write about are the ones I work on and/or believe in strongly.
