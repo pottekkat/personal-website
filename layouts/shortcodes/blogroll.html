@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <tr>
+      <th>Blog</th>
+      <th>Feed URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range .Site.Data.blogroll.blogroll.feeds }}
+      <tr>
+        <td><a href="{{ .htmlURL }}" target="_blank" rel="noopener">{{ .title }}</a></td>
+        <td><a href="{{ .xmlURL }}" target="_blank" rel="noopener">RSS</a></td>
+      </tr>
+    {{ end }}
+  </tbody>
+</table>
