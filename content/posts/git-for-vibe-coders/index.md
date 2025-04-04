@@ -29,6 +29,11 @@ cover:
 fmContentType: Post (default)
 ---
 
+{{< rawhtml >}}
+<script src="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.js.iife.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.css"/>
+{{< /rawhtml >}}
+
 You may not need to know programming to vibe code your way to glory or the next Facebook. But you will thank me when shit hits the fan after you've vibed just a little bit too much, and the AI agent just broke your entire website.
 
 Git is a better "restore checkpoint" button that you frantically try to find when Cursor gets too carried away with your ~~lazy prompts~~; I mean, vibes. Git can do a lot, but trying to learn them all or, god forbid, read its documentation is, as we both know, a futile exercise. Instead, I will get you to learn Git through a five-minute interactive guide before your TikTok brains can take over.
@@ -51,15 +56,34 @@ It isn't unlikely that you already have Git installed on your computer.
 
 To check, open Terminal (on macOS) or Command Prompt on Windows and type:
 
-```shell
+```shell {id="init-driver-code"}
 git version
 ```
 
-{{< codapi sandbox="git" editor="off" >}}
+{{< codapi id="init-driver-codapi" sandbox="git" editor="off" >}}
 
 If it shows you a version number like the one above, you already have Git installed and are ready to follow the rest of the guide.
 
 > **Note**: This guide is interactive, meaning you can click the "Run" button above to run the Git commands on an actual computer living in the cloud (show me how).
+
+{{< rawhtml >}}
+<script>
+const driver = window.driver.js.driver;
+
+const driverObj = driver({
+    animate: false,
+    showProgress: true,
+    showButtons: ['next', 'previous', 'close'],
+    steps: [
+    { element: '#init-driver-code', popover: { title: 'Git Command', description: 'This is the Git command that will be run.', side: "top", align: 'start' }},
+    { element: '#init-driver-codapi > codapi-toolbar > button', popover: { title: 'Run Button', description: 'The \"Run\" button will run the Git command on a machine running in the cloud and returns the output.', side: "bottom", align: 'start' }},
+    { element: '#init-driver-codapi > codapi-output > pre', popover: { title: 'Output', description: 'This is the output of the Git command that was run.', side: "bottom", align: 'start' }},
+  ]
+});
+
+driverObj.drive();
+</script>
+{{< /rawhtml >}}
 
 If Git isn't installed, follow [this guide](https://github.com/git-guides/install-git) to install it before you jump to the next part of the guide. You can also run these examples on the browser and install Git later.
 
