@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-04-05T00:20:49.287589",
+  "lastUpdated": "2025-04-05T09:37:53.775778",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Decay Chain",
-      "postUrl": "https://xkcd.com/3071/",
-      "publishDate": "Wed, 02 Apr 2025 04:00:00 -0000"
+      "postTitle": "Stargazing 4",
+      "postUrl": "https://xkcd.com/3072/",
+      "publishDate": "Fri, 04 Apr 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -77,6 +77,13 @@
       "postTitle": "It's Just a Function",
       "postUrl": "https://blog.jfo.click/it-s-just-a-function",
       "publishDate": "Jan 08, 2023"
+    },
+    {
+      "blogTitle": "A Java geek",
+      "blogUrl": "https://blog.frankel.ch/",
+      "postTitle": "Mutation Testing in Rust",
+      "postUrl": "https://blog.frankel.ch/mutation-testing-rust/",
+      "publishDate": "Sun, 30 Mar 2025 00:00:00 +0000"
     },
     {
       "blogTitle": "Julia Evans",
