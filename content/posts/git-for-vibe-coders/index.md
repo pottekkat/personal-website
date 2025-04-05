@@ -4,7 +4,8 @@ slug: git-for-vibe-coders
 date: 2025-04-14T09:28:09+05:30
 draft: false
 toc:
-    show: false
+  show: true
+  open: true
 ShowRelatedContent: false
 description: A practical + interactive crash course on Git (that slaps).
 summary: A practical, hands-on, and interactive guide to Git for new coders and creative builders.
@@ -13,19 +14,19 @@ CodapiURL: codapi.navendu.me/v1
 ShowCodeCopyButtons: false
 mermaid: true
 tags:
-    - interactive
-    - software engineering
-    - tutorials
-    - tips
+  - interactive
+  - software engineering
+  - tutorials
+  - tips
 categories:
-    - Tutorials
+  - Tutorials
 series: []
 aliases: []
 cover:
-    image: /images/git-for-vibe-coders/git-banner.jpg
-    alt: Photo showing a Git tree.
-    caption: "Prompt: Write a commit message that has \"skibidi rizz.\" Clearly, I don't know what these words mean. I'm just trying to fit in… Ohio?! That doesn't sound right either…"
-    relative: false
+  image: /images/git-for-vibe-coders/git-banner.jpg
+  alt: Photo showing a Git tree.
+  caption: "Prompt: Write a commit message that has \"skibidi rizz.\" Clearly, I don't know what these words mean. I'm just trying to fit in… Ohio?! That doesn't sound right either…"
+  relative: false
 fmContentType: Post (default)
 ---
 
@@ -78,7 +79,7 @@ like a ... hub for code
 
 I know, I know. This tweet was a joke. But I can't wait for what you vibe coders will come up with next!
 
-## Installing Git
+## Install Git
 
 It isn't unlikely that you already have Git installed on your computer.
 
@@ -199,17 +200,42 @@ If Git isn't installed, follow [this guide](https://github.com/git-guides/instal
 
 ## git config
 
-## git clone
-
-The first command you probably need to know is `git clone`. It lets you clone the code you found on GitHub, exactly as it is, to your local machine.
-
-This tutorial will use a React-based web app project as an example. But the same ideas apply to any software project you have.
+You can start by configuring _your_ **username and email address**. I usually configure this globally with the `--global` flag:
 
 ```shell
-git clone https://github.com/pottekkat/gandhi-exhibition.git
+git config --global user.email jane@acme.com
+git config --global user.name "Jane Doe"
 ```
 
 {{< codapi sandbox="git" editor="off" >}}
+
+This tells Git who you are, and every time you "commit" your code, Git will record your name and email as the author of the commit.
+
+_We'll learn more about commits shortly._
+
+## git clone
+
+One of the first commands you need to know is `git clone`. It lets you clone the dope code you found on GitHub to your computer.
+
+This tutorial uses a [React-based web app](https://github.com/pottekkat/my-vibe-app) as an example. But the same ideas apply to any software project you have.
+
+To clone a project, run:
+
+```shell
+git clone https://github.com/pottekkat/my-vibe-app.git
+```
+
+{{< codapi sandbox="git" editor="off" >}}
+
+You can similarly clone any repository (public or private repositories you have access to) by swapping the URL.
+
+{{< figure src="/images/git-for-vibe-coders/git-clone.png#center" title="Getting the git clone URL from a GitHub repository" caption="You are a coder, you do not click the \"Download ZIP\" button. That\'s for normies." link="/images/git-for-vibe-coders/git-clone.png" target="_blank" class="align-center" >}}
+
+Before we move on, Git and GitHub. _What's the difference?_
+
+Git is a **tool you run on your computer** to track changes to your code/files.
+
+[GitHub is an entirely different service](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git) that **hosts Git repositories in the cloud** to share and collaborate. Alternatives to GitHub, like [GitLab](https://gitlab.com) or [Bitbucket](https://bitbucket.org), do the same thing, but GitHub is just more popular.
 
 ## git init
 
