@@ -197,6 +197,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 If Git isn't installed, follow [this guide](https://github.com/git-guides/install-git) to install it before you jump to the next part of the guide. You can also run these examples on the browser and install Git later.
 
+## git config
+
 ## git clone
 
 The first command you probably need to know is `git clone`. It lets you clone the code you found on GitHub, exactly as it is, to your local machine.
