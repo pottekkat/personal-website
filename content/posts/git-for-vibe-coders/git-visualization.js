@@ -19,7 +19,7 @@ function updateGitGraph() {
         graphDefinition = 'flowchart LR\n    A[Run git init to start.]\n';
     } else if (gitState.commits.length === 0) {
         // After git init, show empty main branch
-        graphDefinition = 'flowchart LR\n    A[Initialized a Git repository.]\n';
+        graphDefinition = 'flowchart LR\n    A[Initialized a Git repository with a main branch.]\n';
     } else {
         // After git commit, show the commit
         graphDefinition = 'gitGraph\n   commit id: "initial commit"\n';

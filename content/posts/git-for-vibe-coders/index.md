@@ -229,7 +229,7 @@ git clone https://github.com/pottekkat/my-vibe-app.git
 
 You can similarly clone any repository (public or private repositories you have access to) by swapping the URL.
 
-{{< figure src="/images/git-for-vibe-coders/git-clone.png#center" title="Getting the git clone URL from a GitHub repository" caption="You are a coder, you do not click the \"Download ZIP\" button. That\'s for normies." link="/images/git-for-vibe-coders/git-clone.png" target="_blank" class="align-center" >}}
+{{< figure src="/images/git-for-vibe-coders/git-clone.png#center" title="Getting the git clone URL from a GitHub repository" caption="You are a coder; you do not click the \"Download ZIP\" button. That\'s for normies." link="/images/git-for-vibe-coders/git-clone.png" target="_blank" class="align-center" >}}
 
 Before we move on, Git and GitHub. _What's the difference?_
 
@@ -239,9 +239,9 @@ Git is a **tool you run on your computer** to track changes to your code/files.
 
 ## git init
 
-But you are no thief. You are not "cloning" someone else's project. You are a visionary, you only build things from scratch (although the AI you are using is trained on the free labour of hundreds of thousands of volunteers).
+But you are no thief! You are not "cloning" someone else's project. You are a visionary who ONLY builds things from scratch (although the AI you use is trained on the free labor of hundreds of thousands of developers).
 
-Before you lean into the vibes and go on your "Accept all" spree, it would be safe if you started using Git. You start by initializing Git on your project folder.
+Before you lean into the vibes and go on your "Accept all" spree, it would be safer if you started using Git. You can initialize Git on your project folder:
 
 ```shell
 git init -b main
@@ -278,9 +278,16 @@ flowchart LR
     A[Run git init to start.]
 {{< /mermaid >}}
 
+This is equivalent to saying, "Hey, Git, start keeping track of changes in my project folder." Your boring folder is now a Git repository.
+
+There's also a cryptic flag, `-b main`. Here, the `-b` stands for branch, and `main` is the branch name. i.e., We initialize the Git repository with a new branch named `main`.
+
+The `main` branch will be our default branch. To experiment/surrender yourself to the vibes and click "Accept all," you can create a new branch called, say, `feature`. Now, any changes you make will be local to the feature branch and won't affect the main branch, allowing you to roll back changes or eventually merge (accept) the changes to `main` if it works.
+
+We will learn about merging later, but for now, all you need to know is we have Git working in your project repository.
+
 ```shell
-git config user.email alice@example.com
-git config user.name "Alice Zakas"
+git status
 ```
 
 {{< codapi id="init-2" depends-on="diagram-trigger-init" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
