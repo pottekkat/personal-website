@@ -391,7 +391,14 @@ To create a new `feature` branch, run:
 {{< /rawhtml >}}
 
 ```shell
-git branch feature
+git checkout feature
 ```
 
-{{< codapi id="sequence-a-6" depends-on="sequence-a-5" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
+{{< codapi id="diagram-trigger-checkout" depends-on="diagram-trigger-checkout" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
+
+> **Tip**: You can create a new branch and switch to it in a single step by running:
+> ```shell
+> git checkout -b feature
+> ```
+>
+> Trust me, you don't want the carpel tunnel syndrome from typing that extra line.
