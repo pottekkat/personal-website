@@ -207,7 +207,7 @@ git config --global user.email jane@acme.com
 git config --global user.name "Jane Doe"
 ```
 
-{{< codapi sandbox="git" editor="off" >}}
+{{< codapi id="sequence-a-1" sandbox="git" editor="off" >}}
 
 This tells Git who you are, and every time you "commit" your code, Git will record your name and email as the author of the commit.
 
@@ -247,7 +247,7 @@ Before you lean into the vibes and go on your "Accept all" spree, it would be sa
 git init -b main
 ```
 
-{{< codapi id="diagram-trigger-init" sandbox="git" editor="off" template="init.sh" >}}
+{{< codapi id="diagram-trigger-init" depends-on="sequence-a-1" sandbox="git" editor="off" template="init.sh" >}}
 
 {{< rawhtml>}}
 <style>
@@ -286,23 +286,19 @@ The `main` branch will be our default branch. To experiment/surrender yourself t
 
 We will learn about merging later, but for now, all you need to know is we have Git working in your project repository.
 
-```shell
-git status
-```
-
-{{< codapi id="init-2" depends-on="diagram-trigger-init" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
+You can check the current status of Git by running:
 
 ```shell
 git status
 ```
 
-{{< codapi id="init-3" depends-on="init-2" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
+{{< codapi id="sequence-a-3" depends-on="diagram-trigger-init" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
 
 ```shell
 git add .
 ```
 
-{{< codapi id="init-4" depends-on="init-3" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
+{{< codapi id="sequence-a-4" depends-on="sequence-a-3" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
 
 <!-- This is where the scrolling stops. -->
 {{< rawhtml >}}
@@ -313,4 +309,4 @@ git add .
 git commit -m "initial commit"
 ```
 
-{{< codapi id="diagram-trigger-commit" depends-on="init-4" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
+{{< codapi id="diagram-trigger-commit" depends-on="sequence-a-4" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
