@@ -231,6 +231,16 @@ You can similarly clone any repository (public or private repositories you have 
 
 {{< figure src="/images/git-for-vibe-coders/git-clone.png#center" title="Getting the git clone URL from a GitHub repository" caption="You are a coder; you do not click the \"Download ZIP\" button. That\'s for normies." link="/images/git-for-vibe-coders/git-clone.png" target="_blank" class="align-center" >}}
 
+The example, `my-vibe-app` contains the following files:
+
+```shell
+tree
+```
+
+{{< codapi sandbox="git" editor="off" template="init.sh" >}}
+
+Which is just the boilerplate React app.
+
 Before we move on, Git and GitHub. _What's the difference?_
 
 Git is a **tool you run on your computer** to track changes to your code/files.
@@ -278,15 +288,17 @@ flowchart LR
     A[Run git init to start.]
 {{< /mermaid >}}
 
-This is equivalent to saying, "Hey, Git, start keeping track of changes in my project folder." Your boring folder is now a Git repository.
+This is equivalent to saying, "Hey, Git, **start keeping track of changes in my project folder**." Your boring folder is now a Git repository.
 
-There's also a cryptic flag, `-b main`. Here, the `-b` stands for branch, and `main` is the branch name. i.e., We initialize the Git repository with a new branch named `main`.
+There's also a cryptic flag, `-b main`. Here, the `-b` stands for "branch", and `main` is the branch name. i.e., We initialize the Git repository with a new branch named `main`.
 
-The `main` branch will be our default branch. To experiment/surrender yourself to the vibes and click "Accept all," you can create a new branch called, say, `feature`. Now, any changes you make will be local to the feature branch and won't affect the main branch, allowing you to roll back changes or eventually merge (accept) the changes to `main` if it works.
+The `main` branch will be our default branch. To experiment/surrender yourself to the vibes and click "Accept all," you can create a new branch called, say, `feature`. Now, **any changes you make will be local to the feature branch and won't affect the main branch**, allowing you to roll back changes or eventually "merge" (accept) the changes to `main` if it works.
 
-We will learn about merging later, but for now, all you need to know is we have Git working in your project repository.
+You will learn about branching and merging later, but for now, all you need to know is you have Git working in your project repository.
 
-You can check the current status of Git by running:
+## git status
+
+To check if you have Git set up, run:
 
 ```shell
 git status
@@ -294,11 +306,84 @@ git status
 
 {{< codapi id="sequence-a-3" depends-on="diagram-trigger-init" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
 
+It gives us a lot of useful information:
+
+1. The branch we are on (`main`).
+2. The list of "untracked" files and, as we will see later,
+3. The "staged" files.
+4. The ignored files and more.
+
+We will be using the `git status` command a lot to **check the status** before running a Git command.
+
+## git add
+
+Let's start tracking the files. If you look at the output from the `git status` command, you will see a mention of a `git add` command. The `git add` command **lets you "stage" files**.
+
+Staging sounds a lot more complicated than it really is. Imagine you are a chef:
+
+1. You are working in a kitchen (your project folder)
+2. You have a bunch of ingredients lying around (your files)
+3. You want to prepare a dish (a "commit"; we will learn this later)
+
+Before preparing the dish, you lay out all the ingredients you will use on a prep table. This prep table is the staging area.
+
+Let's just add all files to the staging area for now. This can be done as shown below:
+
 ```shell
 git add .
 ```
 
 {{< codapi id="sequence-a-4" depends-on="sequence-a-3" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
+
+Now, if you check the status:
+
+```shell
+git status
+```
+
+{{< codapi id="sequence-a-4-1" depends-on="sequence-a-4" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
+
+The "Untracked files" are now "Changes to be committed."
+
+You can also **choose which files to stage** instead of staging all files. We will look into it more later.
+
+## git commit
+
+Now that your files are staged—laid out neatly on your chef's prep table—it's time to cook. Committing files is like saying, "Git, lock in; I want to save this moment in time."
+
+To commit the staged files, run:
+
+```shell
+git commit -m "initial commit"
+```
+
+{{< codapi id="diagram-trigger-commit" depends-on="sequence-a-4" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
+
+The `-m` flag stands for "message." This is your short diary entry for the change. Write a message that makes sense when you look back in three months when your project is on fire (it is not fire 🔥, it is on fire 🧯). Since it is our first commit, "initial commit" works.
+
+If your project ever breaks in the future, you can come back to this exact moment, this exact commit, and be like:
+
+> Ah yes, simpler times. The vibes were pure then.
+
+Now, if you check the status, you will see a clean "tree":
+
+```shell
+git status
+```
+
+{{< codapi id="sequence-a-5" depends-on="diagram-trigger-commit" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
+
+You're now versioned and vibin'.
+
+## git branch
+
+You've commited your initial changes. But now you want to add a new feature. Are you about to mess up your perfectly working project?
+
+_Hell no!_
+
+Instead, you create a new branch—a safe space where you can vibe freely without breaking the main project.
+
+To create a new `feature` branch, run:
 
 <!-- This is where the scrolling stops. -->
 {{< rawhtml >}}
@@ -306,7 +391,7 @@ git add .
 {{< /rawhtml >}}
 
 ```shell
-git commit -m "initial commit"
+git branch feature
 ```
 
-{{< codapi id="diagram-trigger-commit" depends-on="sequence-a-4" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
+{{< codapi id="sequence-a-6" depends-on="sequence-a-5" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
