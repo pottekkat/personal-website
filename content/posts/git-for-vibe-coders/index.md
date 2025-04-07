@@ -65,7 +65,7 @@ fmContentType: Post (default)
 
 You may not need to learn programming to vibe code your way to glory—or the next Facebook. But you will thank me when things go sideways after you've vibed _just a little too much_ and your AI agent casually breaks your entire website.
 
-Git is a better "restore checkpoint" button that you frantically try to find when Cursor gets too carried away with your ~~lazy prompts~~; I mean, vibes. Git can do a lot, but trying to learn it all or, god forbid, [read the documentation](https://git-scm.com/doc) is, as we both know, a futile exercise. Instead, I will get you to learn _enough_ Git through a ten-minute interactive guide before your TikTok brains can take over.
+Git is a better "restore checkpoint" button that you frantically try to find when Cursor gets too carried away with your ~~lazy prompts~~; I mean, vibes. Git can do a lot, but trying to learn it all or, god forbid, [read the documentation](https://git-scm.com/doc) is, as we both know, a futile exercise. Instead, I will get you to learn _enough_ Git through a ~~five~~ ~~ten~~ thirteen?-minute interactive guide before your TikTok brains can take over.
 
 > **Note**: It isn't unlikely that your IDE (the app where you vibe code) comes with a graphical interface (GUI) for Git. But it is worth your time to learn the basic Git commands before jumping to a GUI abstraction.
 
@@ -356,7 +356,7 @@ You can also **choose which files to stage** instead of staging all files. We wi
 
 ## git commit
 
-Now that your files are staged—laid out neatly on your chef's prep table—_it's time to cook_. Committing files is saying, "Git, lock in; I want to save this moment in time."
+Now that your files are staged—laid out neatly on your chef's prep table—_it's time to cook_. Committing files is saying, "Git, lock in; I want to **save this moment in time**."
 
 To commit the staged files, run:
 
@@ -366,7 +366,7 @@ git commit -m "initial commit"
 
 {{< codapi id="diagram-trigger-commit" depends-on="sequence-a-4" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
 
-The `-m` flag stands for "message." This is your short diary entry for the change. Write a message that makes sense when you look back in three months when your project is on fire (it is not fire 🔥, it is on fire 🧯). Since it is our first commit, "initial commit" works.
+The `-m` flag stands for "message." This is your **short diary entry** for the change. **Write a message that makes sense** when you look back in three months when your project is on fire (it is not fire 🔥, it is on fire 🧯). Since it is our first commit, "initial commit" works.
 
 {{< figure src="/images/git-for-vibe-coders/git-commit.png#center" title="\"Commiting\" the staged changes" caption="While I preach to write good commit messages, most of mine are just fixes. Of course, when things break in the future, I'm well and truly fu—" link="/images/git-for-vibe-coders/git-commit.png" target="_blank" class="align-center" >}}
 
@@ -394,7 +394,7 @@ Are you about to mess up your perfectly fine project?
 
 _Absolutely not._
 
-Instead, you create a new branch—a safe space where you can vibe freely without breaking the main project.
+Instead, you create a new branch—a **safe space where you can vibe freely without breaking the main project**.
 
 To create a new branch called `feature`, run:
 
@@ -529,7 +529,7 @@ git diff
 
 {{< codapi id="sequence-a-9" depends-on="sequence-a-8" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
 
-It shows you exactly what changed, i.e., what was removed and what was added. The `+` shows the added text, and the `-` shows the removed text.
+It **shows you exactly what changed**, i.e., what was removed and what was added. The `+` shows the added text, and the `-` shows the removed text.
 
 Let's commit the changes like we did before:
 
@@ -645,7 +645,7 @@ git commit -m "increase border radius"
 
 {{< codapi id="diagram-trigger-commit-feature-2" depends-on="sequence-a-10" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
 
-You can make more changes and commit more times. Every commit is a checkpoint.
+You can make more changes and commit more times. **Every commit is a checkpoint**.
 
 ## git merge
 
@@ -675,3 +675,126 @@ git merge feature
 {{< figure src="/images/git-for-vibe-coders/git-merge.png#center" title="Switch back to \"main\" and find the \"Merge\" option from the dropdown" caption="Follow the same steps as before on the GUI to switch back to the `main` branch from the `feature` branch." link="/images/git-for-vibe-coders/git-merge.png" target="_blank" class="align-center" >}}
 
 And just like that, the new and improved vibes are part of your main project, and you are basically a Git wizard 🧙🏽‍♀️.
+
+## .gitignore File
+
+So your feature is merged, your app is vibing... and then Git hits you with this:
+
+```shell
+...
+modified: node_modules/globals/
+modified: node_modules/has-flag/
+modified: node_modules/ignore/
+modified: node_modules/import-fresh/
+modified: node_modules/imurmurhash/
+modified: node_modules/is-extglob/
+modified: node_modules/json-stable-stringify-without-jsonify/
+...
+```
+
+> **Note**: If you followed along locally, you might have already seen something similar.
+
+_Why is Git tracking 1000 files you never touched?_
+
+Because it is doing what it was told—track _everything_—unless you say otherwise. That's where the `.gitignore` file comes in.
+
+It's a **special file where you tell Git, "Don't even look at these."**
+
+In our case, the `node_modules` folder should never be tracked. So you can create a file named `.gitignore` in the root of the project and add:
+
+```text {title=".gitignore"}
+node_modules
+```
+
+You can also ignore irrelevant system files like `.DS_Store` and sensitive `.env` files or **any file you wouldn't want to upload to the cloud**. If you are unsure what to ignore, ask Cursor or use [one of these templates](https://github.com/github/gitignore/) as a starting point.
+
+## git remote
+
+So far, we've been vibin' locally. But at some point, you'll want to **connect your local project to GitHub**, so you can back it up, share it, deploy it, and vibe with others.
+
+First, [create a new repository on GitHub](https://github.com/new).
+
+{{< figure src="/images/git-for-vibe-coders/new-repository.png#center" title="Creating a new repository" caption="Go to [github.com/new](https://github.com/new) to create a new repository if you can't find the right button." link="/images/git-for-vibe-coders/new-repository.png" target="_blank" class="align-center" >}}
+
+Once you do, GitHub will show you a page with a bunch of helpful stuff.
+
+{{< figure src="/images/git-for-vibe-coders/git-remote.png#center" title="Copy the link to your \"remote\" repository" caption="You can just follow the steps mentioned here to get started with Git." link="/images/git-for-vibe-coders/git-remote.png" target="_blank" class="align-center" >}}
+
+Just copy the URL it gives you, something like:
+
+```shell
+https://github.com/pottekkat/my-vibe-app.git
+```
+
+Now head back to your terminal to connect your local project to this "remote" repository:
+
+```shell
+git remote add origin https://github.com/pottekkat/my-vibe-app.git
+```
+
+Here, `origin` is the **nickname we give to the remote repository**. You can call it whatever you want, but `origin` is the convention. The URL, as you might have guessed, is where **Git will "push" your code to** (and "pull" from).
+
+You can check if it worked with:
+
+```shell
+git remote -v
+```
+
+_Welcome to the internet!_
+
+## git push, pull
+
+Now that you have an `origin` remote established, you can **use** `git push` **to send your local commits to GitHub**:
+
+```shell
+git push -u origin main
+```
+
+This sends your `main` branch to the `origin` remote. The `-u` flag tells Git to **set this as the default**, so next time, you can just run:
+
+```shell
+git push
+```
+
+And Git will know where to push.
+
+If all goes well, you'll see your commits show up on GitHub, and others can now clone your project like we did earlier.
+
+Similarly, if you or someone else makes changes and pushes to your GitHub repository, you can **bring those changes into your local project** with:
+
+```shell
+git pull
+```
+
+This **downloads any new commits from remote and merges them** into your local branch.
+
+> **Tip**: Always pull before you push.
+
+## Next Steps
+
+This article has already gone on longer than your peak attention span. So, I now graciously concede your attention back to TikTok slop.
+
+Here's what you have learned so far:
+
+1. Clone a repository
+2. Configure Git
+3. Initialize Git in a project
+4. Check the Git status
+5. Stage files
+6. Commit changes
+7. Create new branches
+8. Merge two branches
+9. Create a `.gitignore` file
+10. Configure a remote repository
+11. Push to and pull from a remote
+
+There's still more to learn, but this is enough to get by. To dive deeper, here are some excellent resources:
+
+- **[Learn Git Branching](https://learngitbranching.js.org/)**: An interactive and intuitive playground that promises to teach you Git while having fun.
+- **[Git Immersion](https://gitimmersion.com/)**: A longer guide that walks through the fundamentals of Git.
+- **[Git by example](https://antonz.org/git-by-example/)**: A hands-on browser-based playground similar to this one.
+- **[Git Cheat Sheet](https://training.github.com/downloads/github-git-cheat-sheet/)**: GitHub's official Git cheat sheet for those "wait, what was that command again?!" moments.
+- **[Dangit, Git!?!](https://dangitgit.com)**: Everyone eventually makes a mess with Git and don't know what to do. This is for when you mess up but don't know what or how bad you messed up.
+- **[Flight rules for Git](https://github.com/k88hudson/git-flight-rules)**: This is similar to _Dangit, Git!?!_ but is more comprehensive.
+
+Or just **keep using Git**. You'll _eventually_ get the hang of it.
