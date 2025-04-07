@@ -222,6 +222,10 @@
     border: 1px solid var(--code-bg);
 }
 
+.post-content blockquote code {
+    border: 1px solid var(--secondary);
+}
+
 .post-content pre code {
     display: block;
     margin: auto 0;
@@ -549,3 +553,24 @@ codapi-snippet codapi-toolbar button:after {
 .katex-display::-webkit-scrollbar-thumb:hover {
     background: var(--secondary);
 }
+
+.mermaid {
+    display: flex;
+    justify-content: center;
+    margin: 14px 0px 14px 0px;
+    padding: 14px 4px 14px 4px;
+    border-radius: 0;
+    border: 1px solid var(--code-bg);
+}
+
+.highlight-title {
+    display: flex;
+    overflow-x: auto;
+    position: relative;
+    padding: 8px 12px;
+    color: var(--content);
+    font-size: 0.8em;
+    background-color: var(--code-bg);
+    border-radius: var(--radius) var(--radius) 0 0;
+    margin-bottom: calc(var(--gap)/5);
+  }
