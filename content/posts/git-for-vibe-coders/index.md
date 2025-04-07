@@ -375,7 +375,7 @@ git status
 
 You're now versioned and vibin'.
 
-## git branch
+## git branch, checkout, diff
 
 You've got your `main` branch. It's clean. It works.
 
@@ -383,7 +383,7 @@ But now you want to add a new feature.
 
 Are you about to mess up your perfectly fine project?
 
-_Hell no!_
+_Absolutely not._
 
 Instead, you create a new branch—a safe space where you can vibe freely without breaking the main project.
 
@@ -630,25 +630,31 @@ git add src/index.css
 git commit -m "increase border radius"
 ```
 
-{{< codapi id="diagram-trigger-commit-feature-2" depends-on="sequence-a-10" sandbox="git" editor="off" template="init.sh" output-tail=false >}}
+{{< codapi id="diagram-trigger-commit-feature-2" depends-on="sequence-a-10" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
 
 <!-- This is where the scrolling stops. -->
 {{< rawhtml >}}
 </div>
 {{< /rawhtml >}}
 
-Sample text.
+You can make more changes and commit more times. Every commit is a checkpoint.
 
-Sample text.
+## git merge
 
-Sample text.
+Once you are happy with the new features, switch back to the `main` branch:
 
-Sample text.
+```shell
+git checkout main
+```
 
-Sample text.
+{{< codapi id="sequence-a-11" depends-on="diagram-trigger-commit-feature-2" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
 
-Sample text.
+Then, "merge" your `feature` branch into it:
 
-Sample text.
+```shell
+git merge feature
+```
 
-Sample text.
+{{< codapi id="diagram-trigger-merge" depends-on="sequence-a-11" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
+
+And just like that, the new and improved vibes are part of your main project.

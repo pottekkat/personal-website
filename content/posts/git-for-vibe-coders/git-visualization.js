@@ -5,7 +5,13 @@ let gitState = {
     branches: [],
     commits: [],
     commandHistory: [],
-    commandSequence: ['diagram-trigger-init', 'diagram-trigger-commit', 'diagram-trigger-branch'],
+    commandSequence: [
+        'diagram-trigger-init', 
+        'diagram-trigger-commit', 
+        'diagram-trigger-branch',
+        'diagram-trigger-commit-feature-1',
+        'diagram-trigger-commit-feature-2'
+    ],
     lastExecutedCommand: null
 };
 
@@ -20,20 +26,34 @@ function updateGitGraph() {
     let graphDefinition;
     
     // Ensure state integrity - important fix
-    if (gitState.initialized && gitState.commits.length > 0 && gitState.branches.includes('feature')) {
-        // State shows we have a commit and a feature branch - make sure diagram reflects this
-        graphDefinition = 'gitGraph\n';
-        graphDefinition += '   commit id: "initial commit"\n';
-        graphDefinition += '   branch feature\n';
-        graphDefinition += '   checkout feature\n';
-        graphDefinition += '   checkout main\n';
-    } else if (gitState.initialized && gitState.commits.length > 0) {
-        // We just have a commit
-        graphDefinition = 'gitGraph\n';
-        graphDefinition += '   commit id: "initial commit"\n';
-    } else if (gitState.initialized) {
-        // After git init, show empty main branch
-        graphDefinition = 'flowchart LR\n    A[Initialized a Git repository with a main branch.]\n';
+    if (gitState.initialized) {
+        if (gitState.commits.length === 0) {
+            // After git init, show empty main branch
+            graphDefinition = 'flowchart LR\n    A[Initialized a Git repository with a main branch.]\n';
+        } else {
+            // We have at least one commit
+            graphDefinition = 'gitGraph\n';
+            
+            // Add the initial commit on main
+            graphDefinition += '   commit id: "initial commit"\n';
+            
+            // If we have a feature branch, show it
+            if (gitState.branches.includes('feature')) {
+                graphDefinition += '   branch feature\n';
+                graphDefinition += '   checkout feature\n';
+                
+                // Add feature branch commits if they exist
+                const featureCommits = gitState.commits.filter(commit => 
+                    commit.branch === 'feature' && commit.id !== 'initial commit');
+                
+                featureCommits.forEach(commit => {
+                    graphDefinition += `   commit id: "${commit.id}"\n`;
+                });
+                
+                // Return to main branch for clarity
+                graphDefinition += '   checkout main\n';
+            }
+        }
     } else {
         // Not initialized
         graphDefinition = 'flowchart LR\n    A[Run git init to start.]\n';
@@ -104,6 +124,19 @@ function ensureCommandPrerequisites(id) {
         if (!gitState.initialized) {
             executeCommand('diagram-trigger-init');
         }
+    } else if (id === 'diagram-trigger-commit-feature-1' || id === 'diagram-trigger-commit-feature-2') {
+        // Feature commits require init, main commit, and branch creation
+        if (!gitState.initialized) {
+            executeCommand('diagram-trigger-init');
+        }
+        if (gitState.commits.length === 0) {
+            executeCommand('diagram-trigger-commit');
+        }
+        if (!gitState.branches.includes('feature')) {
+            executeCommand('diagram-trigger-branch');
+        }
+        // Set current branch to feature for these commits
+        gitState.currentBranch = 'feature';
     }
 }
 
@@ -135,6 +168,30 @@ function executeCommand(id) {
         if (!gitState.branches.includes('feature')) {
             console.log('Adding branch');
             gitState.branches.push('feature');
+        }
+    } else if (id === 'diagram-trigger-commit-feature-1') {
+        // Add first feature branch commit
+        const commitExists = gitState.commits.some(commit => commit.id === 'update app title');
+        if (!commitExists) {
+            console.log('Adding first feature commit');
+            gitState.commits.push({
+                type: 'commit',
+                id: 'update app title',
+                branch: 'feature'
+            });
+            gitState.currentBranch = 'feature';
+        }
+    } else if (id === 'diagram-trigger-commit-feature-2') {
+        // Add second feature branch commit
+        const commitExists = gitState.commits.some(commit => commit.id === 'increase border radius');
+        if (!commitExists) {
+            console.log('Adding second feature commit');
+            gitState.commits.push({
+                type: 'commit',
+                id: 'increase border radius',
+                branch: 'feature'
+            });
+            gitState.currentBranch = 'feature';
         }
     }
     
