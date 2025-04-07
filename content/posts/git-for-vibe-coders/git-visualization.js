@@ -66,7 +66,7 @@ function updateGitGraph() {
     }
 
     // Log the graph definition we're about to render
-    console.log('Rendering graph definition:', graphDefinition);
+    // console.log('Rendering graph definition:', graphDefinition);
 
     // Backup state before rendering
     stateBackup = JSON.parse(JSON.stringify(gitState));
@@ -86,7 +86,7 @@ function updateGitGraph() {
 
 // Function to handle Git commands
 function handleGitCommand(id) {
-    console.log('Handling command for id:', id, 'Current state:', JSON.stringify(gitState));
+    // console.log('Handling command for id:', id, 'Current state:', JSON.stringify(gitState));
     
     // Add to command history if not already there
     if (!gitState.commandHistory.includes(id)) {
@@ -97,7 +97,7 @@ function handleGitCommand(id) {
     const currentIndex = gitState.commandSequence.indexOf(id);
     
     if (currentIndex === -1) {
-        console.log('Command not in sequence:', id);
+        // console.log('Command not in sequence:', id);
         return; // Command not in sequence
     }
     
@@ -112,7 +112,7 @@ function handleGitCommand(id) {
     updateGitGraph();
     
     // Log the final state after command execution
-    console.log('Final state after command:', JSON.stringify(gitState));
+    // console.log('Final state after command:', JSON.stringify(gitState));
 }
 
 // Function to ensure prerequisites for a command are met
@@ -170,12 +170,12 @@ function ensureCommandPrerequisites(id) {
 
 // Function to execute a single command
 function executeCommand(id) {
-    console.log('Executing command:', id);
+    // console.log('Executing command:', id);
     
     if (id === 'diagram-trigger-init') {
         // Initialize only if not already initialized
         if (!gitState.initialized) {
-            console.log('Initializing Git repository');
+            // console.log('Initializing Git repository');
             gitState.initialized = true;
             gitState.currentBranch = 'main';
             gitState.branches = ['main'];
@@ -184,7 +184,7 @@ function executeCommand(id) {
     } else if (id === 'diagram-trigger-commit') {
         // Add a commit only if we don't already have one
         if (gitState.commits.length === 0) {
-            console.log('Adding commit');
+            // console.log('Adding commit');
             gitState.commits.push({
                 type: 'commit',
                 id: 'initial commit',
@@ -194,14 +194,14 @@ function executeCommand(id) {
     } else if (id === 'diagram-trigger-branch') {
         // Add feature branch if not already there
         if (!gitState.branches.includes('feature')) {
-            console.log('Adding branch');
+            // console.log('Adding branch');
             gitState.branches.push('feature');
         }
     } else if (id === 'diagram-trigger-commit-feature-1') {
         // Add first feature branch commit
         const commitExists = gitState.commits.some(commit => commit.id === 'update app title');
         if (!commitExists) {
-            console.log('Adding first feature commit');
+            // console.log('Adding first feature commit');
             gitState.commits.push({
                 type: 'commit',
                 id: 'update app title',
@@ -213,7 +213,7 @@ function executeCommand(id) {
         // Add second feature branch commit
         const commitExists = gitState.commits.some(commit => commit.id === 'increase border radius');
         if (!commitExists) {
-            console.log('Adding second feature commit');
+            // console.log('Adding second feature commit');
             gitState.commits.push({
                 type: 'commit',
                 id: 'increase border radius',
@@ -225,7 +225,7 @@ function executeCommand(id) {
         // Add merge commit if not already merged
         const mergeExists = gitState.commits.some(commit => commit.type === 'merge');
         if (!mergeExists) {
-            console.log('Adding merge commit');
+            // console.log('Adding merge commit');
             gitState.commits.push({
                 type: 'merge',
                 branch: 'main',
@@ -236,12 +236,12 @@ function executeCommand(id) {
         }
     }
     
-    console.log('State after executing', id, ':', JSON.stringify(gitState));
+    // console.log('State after executing', id, ':', JSON.stringify(gitState));
 }
 
 // Listen for Codapi command outputs
 document.addEventListener('codapiCommandComplete', (event) => {
-    console.log('Received Codapi event:', event);
+    // console.log('Received Codapi event:', event);
     const { id } = event.detail;
     
     // Add a small delay to ensure DOM is ready

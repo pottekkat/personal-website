@@ -15,7 +15,7 @@ customElements.whenDefined('codapi-snippet').then(() => {
                             id: snippet.id
                         }
                     });
-                    console.log('emitting custom event for diagram trigger:', snippet.id);
+                    // console.log('emitting custom event for diagram trigger:', snippet.id);
                     document.dispatchEvent(customEvent);
                 }
             });
