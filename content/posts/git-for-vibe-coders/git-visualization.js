@@ -10,7 +10,8 @@ let gitState = {
         'diagram-trigger-commit', 
         'diagram-trigger-branch',
         'diagram-trigger-commit-feature-1',
-        'diagram-trigger-commit-feature-2'
+        'diagram-trigger-commit-feature-2',
+        'diagram-trigger-merge'
     ],
     lastExecutedCommand: null
 };
@@ -50,8 +51,13 @@ function updateGitGraph() {
                     graphDefinition += `   commit id: "${commit.id}"\n`;
                 });
                 
-                // Return to main branch for clarity
+                // Return to main branch
                 graphDefinition += '   checkout main\n';
+                
+                // If merge has been performed, add a merge commit
+                if (gitState.commits.some(commit => commit.type === 'merge')) {
+                    graphDefinition += '   merge feature\n';
+                }
             }
         }
     } else {
@@ -137,6 +143,28 @@ function ensureCommandPrerequisites(id) {
         }
         // Set current branch to feature for these commits
         gitState.currentBranch = 'feature';
+    } else if (id === 'diagram-trigger-merge') {
+        // Merge requires init, main commit, feature branch, and at least one feature commit
+        if (!gitState.initialized) {
+            executeCommand('diagram-trigger-init');
+        }
+        if (gitState.commits.length === 0) {
+            executeCommand('diagram-trigger-commit');
+        }
+        if (!gitState.branches.includes('feature')) {
+            executeCommand('diagram-trigger-branch');
+        }
+        
+        // Ensure we have at least one feature commit
+        const hasFeatureCommit = gitState.commits.some(commit => 
+            commit.branch === 'feature' && commit.id !== 'initial commit');
+            
+        if (!hasFeatureCommit) {
+            executeCommand('diagram-trigger-commit-feature-1');
+        }
+        
+        // Switch to main branch for merge
+        gitState.currentBranch = 'main';
     }
 }
 
@@ -192,6 +220,19 @@ function executeCommand(id) {
                 branch: 'feature'
             });
             gitState.currentBranch = 'feature';
+        }
+    } else if (id === 'diagram-trigger-merge') {
+        // Add merge commit if not already merged
+        const mergeExists = gitState.commits.some(commit => commit.type === 'merge');
+        if (!mergeExists) {
+            console.log('Adding merge commit');
+            gitState.commits.push({
+                type: 'merge',
+                branch: 'main',
+                mergedFrom: 'feature'
+            });
+            // Switch to main branch
+            gitState.currentBranch = 'main';
         }
     }
     
