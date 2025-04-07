@@ -377,28 +377,278 @@ You're now versioned and vibin'.
 
 ## git branch
 
-You've commited your initial changes. But now you want to add a new feature. Are you about to mess up your perfectly working project?
+You've got your `main` branch. It's clean. It works.
+
+But now you want to add a new feature.
+
+Are you about to mess up your perfectly fine project?
 
 _Hell no!_
 
 Instead, you create a new branch—a safe space where you can vibe freely without breaking the main project.
 
-To create a new `feature` branch, run:
+To create a new branch called `feature`, run:
+
+```shell
+git branch feature
+```
+
+{{< codapi id="diagram-trigger-branch" depends-on="sequence-a-5" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
+
+Then switch to it from the `main` branch:
+
+```shell
+git checkout feature
+```
+
+{{< codapi id="sequence-a-6" depends-on="diagram-trigger-branch" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
+
+> **Tip**: You can create a new branch and switch to it in a single command:
+>
+> ```shell
+> git checkout -b feature
+> ```
+>
+> Trust me, you don't want the carpal tunnel syndrome from typing that extra line.
+
+Let's make a slight change in the code. For example, I will just update the `<h1>` header in the `src/App.jsx` file:
+
+```diff {title="src/App.jsx"}
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+      <div>
+        <a href="https://vite.dev" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+      </div>
+-     <h1>Vite + React</h1>
++     <h1>My Vibe App</h1>
+      <div className="card">
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.jsx</code> and save to test HMR
+        </p>
+      </div>
+      <p className="read-the-docs">
+        Click on the Vite and React logos to learn more
+      </p>
+    </>
+  )
+}
+
+export default App
+```
+
+```shell {id="update-file" hidden=true}
+# Check if directory exists, create if needed
+mkdir -p src
+# Create modified App.jsx file with changed h1 tag
+cat > src/App.jsx << 'EOF'
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+      <div>
+        <a href="https://vite.dev" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+      </div>
+      <h1>My Vibe App</h1>
+      <div className="card">
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.jsx</code> and save to test HMR
+        </p>
+      </div>
+      <p className="read-the-docs">
+        Click on the Vite and React logos to learn more
+      </p>
+    </>
+  )
+}
+
+export default App
+EOF
+echo "Updated src/App.jsx successfully"
+```
+
+{{< codapi id="sequence-a-7" depends-on="sequence-a-6" sandbox="git" editor="off" files="#update-file:main.sh" output-tail=true hidden=true >}}
+
+Now, if you check the status:
+
+```shell
+git status
+```
+
+{{< codapi id="sequence-a-8" depends-on="sequence-a-7" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
+
+Git will tell you that the file was modified.
+
+Now, try running:
+
+```shell
+git diff
+```
+
+{{< codapi id="sequence-a-9" depends-on="sequence-a-8" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
+
+It shows you exactly what changed, i.e., what was removed and what was added. The `+` shows the added text, and the `-` shows the removed text.
+
+Let's commit the changes like we did before:
+
+```shell
+git add src/App.jsx
+git commit -m "update the app title"
+```
+
+{{< codapi id="diagram-trigger-commit-feature-1" depends-on="sequence-a-9" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
+
+You've now **committed the changes only to the** `feature` **branch**. Your `main` branch is still chillin' like nothing happened.
+
+Let's make another change. This time, we'll increase the `border-radius` of the `button` from `8px`:
+
+```diff {title="src/index.css" linenos="inline" lineNoStart=38}
+button {
+- border-radius: 8px;
++ border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+```
+
+```shell {id="update-css" hidden=true}
+# Check if directory exists, create if needed
+mkdir -p src
+# Create modified App.jsx file with changed h1 tag
+cat > src/index.css << 'EOF'
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+EOF
+echo "Updated src/index.css successfully"
+```
+
+{{< codapi id="sequence-a-10" depends-on="diagram-trigger-commit-feature-1" sandbox="git" editor="off" files="#update-css:main.sh" output-tail=true hidden=true >}}
+
+```shell
+git add src/index.css
+git commit -m "increase border radius"
+```
+
+{{< codapi id="diagram-trigger-commit-feature-2" depends-on="sequence-a-10" sandbox="git" editor="off" template="init.sh" output-tail=false >}}
 
 <!-- This is where the scrolling stops. -->
 {{< rawhtml >}}
 </div>
 {{< /rawhtml >}}
 
-```shell
-git checkout feature
-```
+Sample text.
 
-{{< codapi id="diagram-trigger-checkout" depends-on="diagram-trigger-checkout" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
+Sample text.
 
-> **Tip**: You can create a new branch and switch to it in a single step by running:
-> ```shell
-> git checkout -b feature
-> ```
->
-> Trust me, you don't want the carpel tunnel syndrome from typing that extra line.
+Sample text.
+
+Sample text.
+
+Sample text.
+
+Sample text.
+
+Sample text.
+
+Sample text.

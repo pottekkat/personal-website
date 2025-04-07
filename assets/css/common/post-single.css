@@ -222,6 +222,10 @@
     border: 1px solid var(--code-bg);
 }
 
+.post-content blockquote code {
+    border: 1px solid var(--secondary);
+}
+
 .post-content pre code {
     display: block;
     margin: auto 0;
