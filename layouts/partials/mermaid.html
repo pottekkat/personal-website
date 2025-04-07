@@ -3,9 +3,11 @@
   src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"
 ></script>
 <script>
+  var isDark = document.body.classList.contains('dark');
+  var theme = isDark ? 'dark' : 'default';
   var config = {
     startOnLoad: true,
-    theme:'{{ if site.Params.mermaid.theme }}{{ site.Params.mermaid.theme }}{{ else }}dark{{ end }}',
+    theme: theme,
     align:'{{ if site.Params.mermaid.align }}{{ site.Params.mermaid.align }}{{ else }}center{{ end }}',
     securityLevel:'{{ if site.Params.mermaid.securityLevel }}{{ site.Params.mermaid.securityLevel }}{{ else }}loose{{ end }}',
   };

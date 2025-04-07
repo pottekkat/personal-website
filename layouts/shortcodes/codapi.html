@@ -8,6 +8,7 @@
     {{ with .Get "id" }}id="{{ . }}"{{ end }}
     {{ with .Get "hidden" }}style="display: none;"{{ end }}
     {{ with .Get "depends-on" }}depends-on="{{ . }}"{{ end }}
+    {{ with .Get "output-tail" }}output-tail{{ end }}
   >
   </codapi-snippet>
 {{ end }}
