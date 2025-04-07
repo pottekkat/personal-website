@@ -63,9 +63,9 @@ fmContentType: Post (default)
 </style>
 {{< /rawhtml >}}
 
-You may not need to know programming to vibe code your way to glory or the next Facebook. But you will thank me when shit hits the fan after you've vibed just a little bit too much, and the AI agent just broke your entire website.
+You may not need to learn programming to vibe code your way to glory—or the next Facebook. But you will thank me when things go sideways after you've vibed _just a little too much_ and your AI agent casually breaks your entire website.
 
-Git is a better "restore checkpoint" button that you frantically try to find when Cursor gets too carried away with your ~~lazy prompts~~; I mean, vibes. Git can do a lot, but trying to learn them all or, god forbid, read its documentation is, as we both know, a futile exercise. Instead, I will get you to learn Git through a five-minute interactive guide before your TikTok brains can take over.
+Git is a better "restore checkpoint" button that you frantically try to find when Cursor gets too carried away with your ~~lazy prompts~~; I mean, vibes. Git can do a lot, but trying to learn it all or, god forbid, [read the documentation](https://git-scm.com/doc) is, as we both know, a futile exercise. Instead, I will get you to learn _enough_ Git through a ten-minute interactive guide before your TikTok brains can take over.
 
 > **Note**: It isn't unlikely that your IDE (the app where you vibe code) comes with a graphical interface (GUI) for Git. But it is worth your time to learn the basic Git commands before jumping to a GUI abstraction.
 
@@ -77,7 +77,7 @@ they should invent a tool where vibe code can be stored in the cloud so from tim
 like a ... hub for code
 {{< /blockquote >}}
 
-I know, I know. This tweet was a joke. But I can't wait for what you vibe coders will come up with next!
+I know, I know—this tweet was a joke. But honestly, I can't wait for what vibe coders will come up with next!
 
 ## Install Git
 
@@ -196,6 +196,8 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 {{< /rawhtml >}}
 
+{{< figure src="/images/git-for-vibe-coders/git-install.png#center" title="Git GUI in Cursor" caption="Everything you learn from this guide has been abstracted into a button." link="/images/git-for-vibe-coders/git-install.png" target="_blank" class="align-center" >}}
+
 If Git isn't installed, follow [this guide](https://github.com/git-guides/install-git) to install it before you jump to the next part of the guide. You can also run these examples on the browser and install Git later.
 
 ## git config
@@ -262,7 +264,7 @@ git init -b main
 {{< rawhtml>}}
 <style>
     .sticky-container > :last-child {
-        min-height: 250px;
+        min-height: 365px;
         margin-bottom: 0;
     }
 
@@ -313,6 +315,9 @@ It gives us a lot of useful information:
 3. The "staged" files.
 4. The ignored files and more.
 
+
+{{< figure src="/images/git-for-vibe-coders/git-status.png#center" title="Untracked Files" caption="Once you understand how to use Git, this GUI becomes more intuitive." link="/images/git-for-vibe-coders/git-status.png" target="_blank" class="align-center" >}}
+
 We will be using the `git status` command a lot to **check the status** before running a Git command.
 
 ## git add
@@ -345,11 +350,13 @@ git status
 
 The "Untracked files" are now "Changes to be committed."
 
+{{< figure src="/images/git-for-vibe-coders/git-add.png#center" title="\"Staging\" the changes" caption="\"Changes\" are now \"Staged Changes.\"" link="/images/git-for-vibe-coders/git-add.png" target="_blank" class="align-center" >}}
+
 You can also **choose which files to stage** instead of staging all files. We will look into it more later.
 
 ## git commit
 
-Now that your files are staged—laid out neatly on your chef's prep table—it's time to cook. Committing files is like saying, "Git, lock in; I want to save this moment in time."
+Now that your files are staged—laid out neatly on your chef's prep table—_it's time to cook_. Committing files is saying, "Git, lock in; I want to save this moment in time."
 
 To commit the staged files, run:
 
@@ -360,6 +367,8 @@ git commit -m "initial commit"
 {{< codapi id="diagram-trigger-commit" depends-on="sequence-a-4" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
 
 The `-m` flag stands for "message." This is your short diary entry for the change. Write a message that makes sense when you look back in three months when your project is on fire (it is not fire 🔥, it is on fire 🧯). Since it is our first commit, "initial commit" works.
+
+{{< figure src="/images/git-for-vibe-coders/git-commit.png#center" title="\"Commiting\" the staged changes" caption="While I preach to write good commit messages, most of mine are just fixes. Of course, when things break in the future, I'm well and truly fu—" link="/images/git-for-vibe-coders/git-commit.png" target="_blank" class="align-center" >}}
 
 If your project ever breaks in the future, you can come back to this exact moment, this exact commit, and be like:
 
@@ -410,6 +419,10 @@ git checkout feature
 > ```
 >
 > Trust me, you don't want the carpal tunnel syndrome from typing that extra line.
+
+{{< figure src="/images/git-for-vibe-coders/git-branch-1.png#center" title="Click the \"main\" branch at the bottom-left of the window" caption="This is the current branch you're on." link="/images/git-for-vibe-coders/git-branch-1.png" target="_blank" class="align-center" >}}
+
+{{< figure src="/images/git-for-vibe-coders/git-branch-2.png#center" title="Create a new \"feature\" branch from the popup" caption="You can also use this to switch between different branches" link="/images/git-for-vibe-coders/git-branch-2.png" target="_blank" class="align-center" >}}
 
 Let's make a slight change in the code. For example, I will just update the `<h1>` header in the `src/App.jsx` file:
 
@@ -632,16 +645,13 @@ git commit -m "increase border radius"
 
 {{< codapi id="diagram-trigger-commit-feature-2" depends-on="sequence-a-10" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
 
-<!-- This is where the scrolling stops. -->
-{{< rawhtml >}}
-</div>
-{{< /rawhtml >}}
-
 You can make more changes and commit more times. Every commit is a checkpoint.
 
 ## git merge
 
-Once you are happy with the new features, switch back to the `main` branch:
+Once you're happy with your new features, it's time to bring them back into your app.
+
+First switch to the `main` branch:
 
 ```shell
 git checkout main
@@ -649,7 +659,12 @@ git checkout main
 
 {{< codapi id="sequence-a-11" depends-on="diagram-trigger-commit-feature-2" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
 
-Then, "merge" your `feature` branch into it:
+<!-- This is where the scrolling stops. -->
+{{< rawhtml >}}
+</div>
+{{< /rawhtml >}}
+
+Then, "merge" your `feature` branch into `main`:
 
 ```shell
 git merge feature
@@ -657,4 +672,6 @@ git merge feature
 
 {{< codapi id="diagram-trigger-merge" depends-on="sequence-a-11" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
 
-And just like that, the new and improved vibes are part of your main project.
+{{< figure src="/images/git-for-vibe-coders/git-merge.png#center" title="Switch back to \"main\" and find the \"Merge\" option from the dropdown" caption="Follow the same steps as before on the GUI to switch back to the `main` branch from the `feature` branch." link="/images/git-for-vibe-coders/git-merge.png" target="_blank" class="align-center" >}}
+
+And just like that, the new and improved vibes are part of your main project, and you are basically a Git wizard 🧙🏽‍♀️.
