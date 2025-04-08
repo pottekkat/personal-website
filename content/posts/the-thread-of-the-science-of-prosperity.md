@@ -1,7 +1,7 @@
 ---
 title: 'Timeless Lessons in Citizenship and Governance from "The Nitopadesha"—Part 2: The Thread of the Science of Prosperity'
 slug: the-thread-of-the-science-of-prosperity
-date: 2025-04-08T09:13:00+05:30
+date: 2025-04-08T08:13:00+05:30
 draft: false
 toc:
   show: true
