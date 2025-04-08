@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2025-04-07T00:22:03.717496",
+  "lastUpdated": "2025-04-08T00:21:01.890013",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Stargazing 4",
-      "postUrl": "https://xkcd.com/3072/",
-      "publishDate": "Fri, 04 Apr 2025 04:00:00 -0000"
+      "postTitle": "Tariffs",
+      "postUrl": "https://xkcd.com/3073/",
+      "publishDate": "Mon, 07 Apr 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Great AI Steals",
-      "postUrl": "https://world.hey.com/dhh/great-ai-steals-280615be",
-      "publishDate": "2025-03-31T10:27:27Z"
+      "postTitle": "Universal Basic Dead End",
+      "postUrl": "https://world.hey.com/dhh/universal-basic-dead-end-8b7178b9",
+      "publishDate": "2025-04-07T10:22:00Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Andriy Burkov",
-      "postUrl": "https://simonwillison.net/2025/Apr/6/andriy-burkov/#atom-everything",
-      "publishDate": "2025-04-06T20:47:35+00:00"
+      "postTitle": "llm-hacker-news",
+      "postUrl": "https://simonwillison.net/2025/Apr/8/llm-hacker-news/#atom-everything",
+      "publishDate": "2025-04-08T00:11:30+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -77,6 +77,13 @@
       "postTitle": "It's Just a Function",
       "postUrl": "https://blog.jfo.click/it-s-just-a-function",
       "publishDate": "Jan 08, 2023"
+    },
+    {
+      "blogTitle": "A Java geek",
+      "blogUrl": "https://blog.frankel.ch/",
+      "postTitle": "Even more OpenTelemetry - Kubernetes special",
+      "postUrl": "https://blog.frankel.ch/even-more-opentelemetry-kubernetes/",
+      "publishDate": "Sun, 06 Apr 2025 00:00:00 +0000"
     },
     {
       "blogTitle": "Julia Evans",
