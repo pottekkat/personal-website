@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-04-08T00:21:01.890013",
+  "lastUpdated": "2025-04-09T00:21:25.099564",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Universal Basic Dead End",
-      "postUrl": "https://world.hey.com/dhh/universal-basic-dead-end-8b7178b9",
-      "publishDate": "2025-04-07T10:22:00Z"
+      "postTitle": "Why we won't hire a junior with five years of experience",
+      "postUrl": "https://world.hey.com/dhh/why-we-won-t-hire-a-junior-with-five-years-of-experience-0a548994",
+      "publishDate": "2025-04-08T10:04:28Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "llm-hacker-news",
-      "postUrl": "https://simonwillison.net/2025/Apr/8/llm-hacker-news/#atom-everything",
-      "publishDate": "2025-04-08T00:11:30+00:00"
+      "postTitle": "Political Email Extraction Leaderboard",
+      "postUrl": "https://simonwillison.net/2025/Apr/8/political-email-extraction-leaderboard/#atom-everything",
+      "publishDate": "2025-04-08T23:22:41+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
