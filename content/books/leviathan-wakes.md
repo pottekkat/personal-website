@@ -21,4 +21,4 @@ bookMeta:
 fmContentType: books
 ---
 
-_**Leviathan Wakes**_ is a science fiction novel set in the solar system. Humans are interplanetary now. Unsurprisingly, this means we have the first Solar System War. Science fiction authors have thought more about how the next space race will play out than policy wonks.
+_**Leviathan Wakes**_ is a science fiction novel set in what seems like a not-so-distant future. Humans have been interplanetary for generations. They have colonized Mars and moons and asteroids. Unsurprisingly, this means we have the first Solar System War. Science fiction authors have thought more about how the next space race will play out than policy wonks.
