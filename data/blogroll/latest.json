@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-04-10T00:21:03.324222",
+  "lastUpdated": "2025-04-11T00:21:48.832789",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "An LLM Query Understanding Service",
-      "postUrl": "https://simonwillison.net/2025/Apr/9/an-llm-query-understanding-service/#atom-everything",
-      "publishDate": "2025-04-09T20:47:42+00:00"
+      "postTitle": "Quoting Drew Breunig",
+      "postUrl": "https://simonwillison.net/2025/Apr/10/drew-breunig/#atom-everything",
+      "publishDate": "2025-04-10T21:23:58+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -77,6 +77,13 @@
       "postTitle": "It's Just a Function",
       "postUrl": "https://blog.jfo.click/it-s-just-a-function",
       "publishDate": "Jan 08, 2023"
+    },
+    {
+      "blogTitle": "A Java geek",
+      "blogUrl": "https://blog.frankel.ch/",
+      "postTitle": "Even more OpenTelemetry - Kubernetes special",
+      "postUrl": "https://blog.frankel.ch/even-more-opentelemetry-kubernetes/",
+      "publishDate": "Sun, 06 Apr 2025 00:00:00 +0000"
     },
     {
       "blogTitle": "Julia Evans",
