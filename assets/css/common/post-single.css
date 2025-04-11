@@ -81,7 +81,7 @@
     font-size: 12px;
 }
 
-.post-content a,
+.post-content a:not(.lnlinks):not(.ln):not(.lnt),
 .toc a:hover {
     box-shadow: 0 1px 0;
     box-decoration-break: clone;
