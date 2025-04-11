@@ -1,7 +1,7 @@
 ---
 title: Git for Vibe Coders and Non-Programmers
 slug: git-for-vibe-coders
-date: 2025-04-14T09:28:09+05:30
+date: 2025-04-12T09:28:09+05:30
 draft: false
 toc:
   show: true
