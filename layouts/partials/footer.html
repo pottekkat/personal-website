@@ -101,7 +101,9 @@
 
         copybutton.addEventListener('click', (cb) => {
             if ('clipboard' in navigator) {
-                navigator.clipboard.writeText(codeblock.textContent);
+                const codeLines = Array.from(codeblock.querySelectorAll('.cl')).map(line => line.textContent);
+                const codeWithoutLineNumbers = codeLines.join('');
+                navigator.clipboard.writeText(codeWithoutLineNumbers);
                 copyingDone();
                 return;
             }
