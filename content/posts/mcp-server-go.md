@@ -28,7 +28,7 @@ fmContentType: Post (default)
 
 [Model Context Protocol (MCP)](https://modelcontextprotocol.io) [servers](https://modelcontextprotocol.io/quickstart/server) allow LLMs (MCP hosts/clients) to access prompts, resources, and tools in a standard way, allowing you to build agents and complex workflows on top of LLMs.
 
-[SDKs](https://github.com/modelcontextprotocol/python-sdk) make building and integrating MCP clients and servers easy. While there isn't an official SDK for Go _yet_, the community-built [mark3labs/mcp-go](https://github.com/mark3labs/mcp-go) has been gaining a lot of popularity among Go developers—including myself.
+[SDKs](https://github.com/modelcontextprotocol/python-sdk) make building and integrating MCP clients and servers easy. While there isn't an official SDK for Go _[yet](https://github.com/orgs/modelcontextprotocol/discussions/224)_, the community-built [mark3labs/mcp-go](https://github.com/mark3labs/mcp-go) has been gaining a lot of popularity among Go developers—including myself.
 
 I used this SDK today to make a real-world MCP for a real project, and it has been pretty neat so far. This article is a quick walkthrough of how [I set up an MCP server](https://github.com/pottekkat/dicedb-mcp) using the MCP Go SDK for [DiceDB](https://dicedb.io/), an in-memory key-value store like Redis.
 
