@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2025-04-11T00:21:48.832789",
+  "lastUpdated": "2025-04-12T00:20:58.413035",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Push Notifications",
-      "postUrl": "https://xkcd.com/3074/",
-      "publishDate": "Wed, 09 Apr 2025 04:00:00 -0000"
+      "postTitle": "Anachronym Challenge",
+      "postUrl": "https://xkcd.com/3075/",
+      "publishDate": "Fri, 11 Apr 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Why we won't hire a junior with five years of experience",
-      "postUrl": "https://world.hey.com/dhh/why-we-won-t-hire-a-junior-with-five-years-of-experience-0a548994",
-      "publishDate": "2025-04-08T10:04:28Z"
+      "postTitle": "Believe it's going to work even though it probably won't",
+      "postUrl": "https://world.hey.com/dhh/believe-it-s-going-to-work-even-though-it-probably-won-t-58fd9dc5",
+      "publishDate": "2025-04-11T06:48:21Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Drew Breunig",
-      "postUrl": "https://simonwillison.net/2025/Apr/10/drew-breunig/#atom-everything",
-      "publishDate": "2025-04-10T21:23:58+00:00"
+      "postTitle": "CaMeL offers a promising new direction for mitigating prompt injection attacks",
+      "postUrl": "https://simonwillison.net/2025/Apr/11/camel/#atom-everything",
+      "publishDate": "2025-04-11T20:50:00+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "MLIR Part 6 - Specializing Python with E-graphs",
-      "postUrl": "https://www.stephendiehl.com/posts/mlir_egraphs/",
-      "publishDate": "Mon, 17 Mar 2025 00:00:00 +0000"
+      "postTitle": "MLIR Part 7 - Transformers",
+      "postUrl": "https://www.stephendiehl.com/posts/mlir_transformers/",
+      "publishDate": "Fri, 11 Apr 2025 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -77,13 +77,6 @@
       "postTitle": "It's Just a Function",
       "postUrl": "https://blog.jfo.click/it-s-just-a-function",
       "publishDate": "Jan 08, 2023"
-    },
-    {
-      "blogTitle": "A Java geek",
-      "blogUrl": "https://blog.frankel.ch/",
-      "postTitle": "Even more OpenTelemetry - Kubernetes special",
-      "postUrl": "https://blog.frankel.ch/even-more-opentelemetry-kubernetes/",
-      "publishDate": "Sun, 06 Apr 2025 00:00:00 +0000"
     },
     {
       "blogTitle": "Julia Evans",
