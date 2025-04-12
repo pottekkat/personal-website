@@ -2,7 +2,7 @@
 title: Building a Model Context Protocol (MCP) Server in Go
 slug: mcp-server-go
 date: 2025-04-09T12:04:10+05:30
-draft: true
+draft: false
 toc:
   show: true
   open: true
