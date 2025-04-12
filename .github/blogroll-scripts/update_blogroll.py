@@ -91,26 +91,6 @@ def main():
             if "rachelbythebay.com" in feed_url:
                 feed_url = "https://rachelbythebay.com/w/atom.xml"
             
-            # Special handling for "A Java geek" blog which has issues in GitHub Actions
-            if "blog.frankel.ch" in feed_url:
-                print(f"Debug: Special handling for 'A Java geek' blog")
-                # Try with a more specific content type check
-                try:
-                    response = requests.get(feed_url, timeout=15, headers=CUSTOM_HEADERS)
-                    # Continue regardless of content type
-                    feed_data = feedparser.parse(response.text, sanitize_html=False)
-                    # Skip the normal content type check
-                    if hasattr(feed_data, 'entries') and len(feed_data.entries) > 0:
-                        content_type_valid = True
-                    else:
-                        content_type_valid = False
-                except Exception as e:
-                    print(f"Warning: Special handling for 'A Java geek' blog failed: {str(e)}")
-                    content_type_valid = False
-                
-                if not content_type_valid:
-                    print(format_feed_output(blog_title, feed_url, error="Invalid feed content type"))
-                    continue
             # Normal content type check for other feeds
             elif not is_valid_feed_content_type(feed_url):
                 print(format_feed_output(blog_title, feed_url, error="Invalid feed content type"))
