@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-04-12T00:20:58.413035",
+  "lastUpdated": "2025-04-13T00:47:01.710965",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "CaMeL offers a promising new direction for mitigating prompt injection attacks",
-      "postUrl": "https://simonwillison.net/2025/Apr/11/camel/#atom-everything",
-      "publishDate": "2025-04-11T20:50:00+00:00"
+      "postTitle": "Quoting Andrew Nesbitt",
+      "postUrl": "https://simonwillison.net/2025/Apr/12/andrew-nesbitt/#atom-everything",
+      "publishDate": "2025-04-12T16:30:07+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
