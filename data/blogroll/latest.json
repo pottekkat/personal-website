@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-04-13T00:47:01.710965",
+  "lastUpdated": "2025-04-14T00:23:00.348254",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Andrew Nesbitt",
-      "postUrl": "https://simonwillison.net/2025/Apr/12/andrew-nesbitt/#atom-everything",
-      "publishDate": "2025-04-12T16:30:07+00:00"
+      "postTitle": "Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs",
+      "postUrl": "https://simonwillison.net/2025/Apr/13/stevens/#atom-everything",
+      "publishDate": "2025-04-13T20:58:09+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "Book : Moby Dick by Herman Melville",
-      "postUrl": "https://sheep.horse/2023/2/book_-_moby_dick_by_herman_melville.html",
-      "publishDate": "Thu, 02 Feb 2023 19:59:48 +0000"
+      "postTitle": "Film : Dungeons & Dragons: Honor Among Thieves",
+      "postUrl": "https://sheep.horse/2023/4/film_-_dungeons__dragons-_honor_among_thieves.html",
+      "publishDate": "Sun, 02 Apr 2023 17:06:17 +0000"
     }
   ]
 }
