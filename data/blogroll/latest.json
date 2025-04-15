@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-04-14T00:23:00.348254",
+  "lastUpdated": "2025-04-15T00:22:00.913541",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs",
-      "postUrl": "https://simonwillison.net/2025/Apr/13/stevens/#atom-everything",
-      "publishDate": "2025-04-13T20:58:09+00:00"
+      "postTitle": "GPT-4.1: Three new million token input models from OpenAI, including their cheapest model yet",
+      "postUrl": "https://simonwillison.net/2025/Apr/14/gpt-4-1/#atom-everything",
+      "publishDate": "2025-04-14T18:12:12+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
