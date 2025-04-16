@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2025-04-15T00:22:00.913541",
+  "lastUpdated": "2025-04-16T00:21:50.528658",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Anachronym Challenge",
-      "postUrl": "https://xkcd.com/3075/",
-      "publishDate": "Fri, 11 Apr 2025 04:00:00 -0000"
+      "postTitle": "The Roads Both Taken",
+      "postUrl": "https://xkcd.com/3076/",
+      "publishDate": "Mon, 14 Apr 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Believe it's going to work even though it probably won't",
-      "postUrl": "https://world.hey.com/dhh/believe-it-s-going-to-work-even-though-it-probably-won-t-58fd9dc5",
-      "publishDate": "2025-04-11T06:48:21Z"
+      "postTitle": "Normal boyhood is ADHD",
+      "postUrl": "https://world.hey.com/dhh/normal-boyhood-is-adhd-a9593488",
+      "publishDate": "2025-04-15T09:16:16Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "GPT-4.1: Three new million token input models from OpenAI, including their cheapest model yet",
-      "postUrl": "https://simonwillison.net/2025/Apr/14/gpt-4-1/#atom-everything",
-      "publishDate": "2025-04-14T18:12:12+00:00"
+      "postTitle": "Quoting Hamel Husain",
+      "postUrl": "https://simonwillison.net/2025/Apr/15/hamel-husain/#atom-everything",
+      "publishDate": "2025-04-15T18:05:42+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
