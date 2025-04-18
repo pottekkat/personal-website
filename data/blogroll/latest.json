@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2025-04-17T00:21:32.544150",
+  "lastUpdated": "2025-04-18T00:21:20.981160",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "The Roads Both Taken",
-      "postUrl": "https://xkcd.com/3076/",
-      "publishDate": "Mon, 14 Apr 2025 04:00:00 -0000"
+      "postTitle": "de Sitter",
+      "postUrl": "https://xkcd.com/3077/",
+      "publishDate": "Wed, 16 Apr 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Normal boyhood is ADHD",
-      "postUrl": "https://world.hey.com/dhh/normal-boyhood-is-adhd-a9593488",
-      "publishDate": "2025-04-15T09:16:16Z"
+      "postTitle": "The new Framework 13 HX370",
+      "postUrl": "https://world.hey.com/dhh/the-new-framework-13-hx370-68675e0e",
+      "publishDate": "2025-04-17T09:49:18Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting James Betker",
-      "postUrl": "https://simonwillison.net/2025/Apr/16/james-betker/#atom-everything",
-      "publishDate": "2025-04-16T22:47:25+00:00"
+      "postTitle": "Start building with Gemini 2.5 Flash",
+      "postUrl": "https://simonwillison.net/2025/Apr/17/start-building-with-gemini-25-flash/#atom-everything",
+      "publishDate": "2025-04-17T20:56:16+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
