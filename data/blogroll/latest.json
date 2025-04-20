@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-04-19T00:20:29.488813",
+  "lastUpdated": "2025-04-20T00:23:47.705756",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "de Sitter",
-      "postUrl": "https://xkcd.com/3077/",
-      "publishDate": "Wed, 16 Apr 2025 04:00:00 -0000"
+      "postTitle": "Anchor Bolts",
+      "postUrl": "https://xkcd.com/3078/",
+      "publishDate": "Fri, 18 Apr 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Note on 18th April 2025",
-      "postUrl": "https://simonwillison.net/2025/Apr/18/link-to-things/#atom-everything",
-      "publishDate": "2025-04-18T23:59:01+00:00"
+      "postTitle": "Maybe Meta's Llama claims to be open source because of the EU AI act",
+      "postUrl": "https://simonwillison.net/2025/Apr/19/llama-eu-ai-act/#atom-everything",
+      "publishDate": "2025-04-19T23:58:18+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "MLIR Part 7 - Transformers",
-      "postUrl": "https://www.stephendiehl.com/posts/mlir_transformers/",
-      "publishDate": "Fri, 11 Apr 2025 01:00:00 +0000"
+      "postTitle": "MLIR Part 8 - GPU Compilation with MLIR",
+      "postUrl": "https://www.stephendiehl.com/posts/mlir_gpu/",
+      "publishDate": "Sat, 19 Apr 2025 02:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
