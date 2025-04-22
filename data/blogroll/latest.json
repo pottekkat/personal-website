@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-04-21T00:23:20.012413",
+  "lastUpdated": "2025-04-22T00:21:45.709640",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Anchor Bolts",
-      "postUrl": "https://xkcd.com/3078/",
-      "publishDate": "Fri, 18 Apr 2025 04:00:00 -0000"
+      "postTitle": "Air Fact",
+      "postUrl": "https://xkcd.com/3079/",
+      "publishDate": "Mon, 21 Apr 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Ethan Mollick",
-      "postUrl": "https://simonwillison.net/2025/Apr/20/ethan-mollick/#atom-everything",
-      "publishDate": "2025-04-20T16:35:15+00:00"
+      "postTitle": "OpenAI o3 and o4-mini System Card",
+      "postUrl": "https://simonwillison.net/2025/Apr/21/openai-o3-and-o4-mini-system-card/#atom-everything",
+      "publishDate": "2025-04-21T19:13:54+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Howto: Humble command-line assistant",
-      "postUrl": "https://antonz.org/howto/",
-      "publishDate": "Sat, 22 Feb 2025 12:00:00 +0000"
+      "postTitle": "Sandboxes",
+      "postUrl": "https://antonz.org/sandboxes/",
+      "publishDate": "Mon, 21 Apr 2025 14:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
