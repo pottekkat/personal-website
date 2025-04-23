@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-04-22T00:21:45.709640",
+  "lastUpdated": "2025-04-23T00:21:49.996885",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "OpenAI o3 and o4-mini System Card",
-      "postUrl": "https://simonwillison.net/2025/Apr/21/openai-o3-and-o4-mini-system-card/#atom-everything",
-      "publishDate": "2025-04-21T19:13:54+00:00"
+      "postTitle": "Quoting Ellie Huxtable",
+      "postUrl": "https://simonwillison.net/2025/Apr/22/ellie-huxtable/#atom-everything",
+      "publishDate": "2025-04-22T17:51:25+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,8 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "MLIR Part 8 - GPU Compilation with MLIR",
-      "postUrl": "https://www.stephendiehl.com/posts/mlir_gpu/",
-      "publishDate": "Sat, 19 Apr 2025 02:00:00 +0000"
+      "error": true,
+      "errorMessage": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
