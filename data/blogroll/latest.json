@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-04-23T00:21:49.996885",
+  "lastUpdated": "2025-04-24T00:21:50.073065",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Air Fact",
-      "postUrl": "https://xkcd.com/3079/",
-      "publishDate": "Mon, 21 Apr 2025 04:00:00 -0000"
+      "postTitle": "Tennis Balls",
+      "postUrl": "https://xkcd.com/3080/",
+      "publishDate": "Wed, 23 Apr 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Ellie Huxtable",
-      "postUrl": "https://simonwillison.net/2025/Apr/22/ellie-huxtable/#atom-everything",
-      "publishDate": "2025-04-22T17:51:25+00:00"
+      "postTitle": "Diane, I wrote a lecture by talking about it",
+      "postUrl": "https://simonwillison.net/2025/Apr/23/diane/#atom-everything",
+      "publishDate": "2025-04-23T19:58:14+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,8 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "error": true,
-      "errorMessage": "<urlopen error [Errno 101] Network is unreachable>"
+      "postTitle": "MLIR Part 8 - GPU Compilation with MLIR",
+      "postUrl": "https://www.stephendiehl.com/posts/mlir_gpu/",
+      "publishDate": "Sat, 19 Apr 2025 02:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
