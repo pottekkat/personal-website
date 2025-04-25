@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-04-24T00:21:50.073065",
+  "lastUpdated": "2025-04-25T00:22:03.228488",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "The new Framework 13 HX370",
-      "postUrl": "https://world.hey.com/dhh/the-new-framework-13-hx370-68675e0e",
-      "publishDate": "2025-04-17T09:49:18Z"
+      "postTitle": "We'll always need junior programmers",
+      "postUrl": "https://world.hey.com/dhh/we-ll-always-need-junior-programmers-69ddb4a1",
+      "publishDate": "2025-04-24T07:49:03Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Diane, I wrote a lecture by talking about it",
-      "postUrl": "https://simonwillison.net/2025/Apr/23/diane/#atom-everything",
-      "publishDate": "2025-04-23T19:58:14+00:00"
+      "postTitle": "Introducing Datasette for Newsrooms",
+      "postUrl": "https://simonwillison.net/2025/Apr/24/introducing-datasette-for-newsrooms/#atom-everything",
+      "publishDate": "2025-04-24T21:51:15+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,8 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "MLIR Part 8 - GPU Compilation with MLIR",
-      "postUrl": "https://www.stephendiehl.com/posts/mlir_gpu/",
-      "publishDate": "Sat, 19 Apr 2025 02:00:00 +0000"
+      "error": true,
+      "errorMessage": "<urlopen error [Errno -3] Temporary failure in name resolution>"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
