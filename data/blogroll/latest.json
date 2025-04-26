@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-04-25T00:22:03.228488",
+  "lastUpdated": "2025-04-26T00:21:05.883531",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Tennis Balls",
-      "postUrl": "https://xkcd.com/3080/",
-      "publishDate": "Wed, 23 Apr 2025 04:00:00 -0000"
+      "postTitle": "PhD Timeline",
+      "postUrl": "https://xkcd.com/3081/",
+      "publishDate": "Fri, 25 Apr 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Introducing Datasette for Newsrooms",
-      "postUrl": "https://simonwillison.net/2025/Apr/24/introducing-datasette-for-newsrooms/#atom-everything",
-      "publishDate": "2025-04-24T21:51:15+00:00"
+      "postTitle": "I wrote to the address in the GPLv2 license notice and received the GPLv3 license",
+      "postUrl": "https://simonwillison.net/2025/Apr/25/i-wrote-to-the-address/#atom-everything",
+      "publishDate": "2025-04-25T20:40:26+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,8 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "error": true,
-      "errorMessage": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+      "postTitle": "How Democrats Failed on Crypto",
+      "postUrl": "https://www.stephendiehl.com/posts/democrats_crypto_failure/",
+      "publishDate": "Fri, 25 Apr 2025 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
