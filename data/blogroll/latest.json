@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2025-04-28T00:23:02.475097",
+  "lastUpdated": "2025-04-29T00:21:56.158668",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "PhD Timeline",
-      "postUrl": "https://xkcd.com/3081/",
-      "publishDate": "Fri, 25 Apr 2025 04:00:00 -0000"
+      "postTitle": "Chess Position",
+      "postUrl": "https://xkcd.com/3082/",
+      "publishDate": "Mon, 28 Apr 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "We'll always need junior programmers",
-      "postUrl": "https://world.hey.com/dhh/we-ll-always-need-junior-programmers-69ddb4a1",
-      "publishDate": "2025-04-24T07:49:03Z"
+      "postTitle": "Don't make Google sell Chrome",
+      "postUrl": "https://world.hey.com/dhh/don-t-make-google-sell-chrome-93cefbc6",
+      "publishDate": "2025-04-28T06:00:37Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Unauthorized Experiment on CMV Involving AI-generated Comments",
-      "postUrl": "https://simonwillison.net/2025/Apr/26/unauthorized-experiment-on-cmv/#atom-everything",
-      "publishDate": "2025-04-26T22:34:24+00:00"
+      "postTitle": "Quoting Luis von Ahn",
+      "postUrl": "https://simonwillison.net/2025/Apr/28/luis-von-ahn/#atom-everything",
+      "publishDate": "2025-04-28T19:48:37+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -67,9 +67,9 @@
     {
       "blogTitle": "Austin Z. Henley's Blog",
       "blogUrl": "https://austinhenley.com/",
-      "postTitle": "My 25-year adventure in AI and ML",
-      "postUrl": "https://austinhenley.com/blog/25yearsofai.html",
-      "publishDate": "Tue, 31 Dec 2024 19:00:01 -0400"
+      "postTitle": "The design of software engineering course projects",
+      "postUrl": "https://austinhenley.com/blog/groupprojects.html",
+      "publishDate": "Mon, 28 Apr 2024 18:00:01 -0400"
     },
     {
       "blogTitle": "blog.jfo.click",
