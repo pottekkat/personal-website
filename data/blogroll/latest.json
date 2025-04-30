@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-04-29T00:21:56.158668",
+  "lastUpdated": "2025-04-30T00:22:04.607953",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Luis von Ahn",
-      "postUrl": "https://simonwillison.net/2025/Apr/28/luis-von-ahn/#atom-everything",
-      "publishDate": "2025-04-28T19:48:37+00:00"
+      "postTitle": "A cheat sheet for why using ChatGPT is not bad for the environment",
+      "postUrl": "https://simonwillison.net/2025/Apr/29/chatgpt-is-not-bad-for-the-environment/#atom-everything",
+      "publishDate": "2025-04-29T16:21:59+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "How Democrats Failed on Crypto",
-      "postUrl": "https://www.stephendiehl.com/posts/democrats_crypto_failure/",
-      "publishDate": "Fri, 25 Apr 2025 01:00:00 +0000"
+      "postTitle": "Attention Wasn't All We Needed",
+      "postUrl": "https://www.stephendiehl.com/posts/post_transformers/",
+      "publishDate": "Tue, 29 Apr 2025 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
