@@ -32,9 +32,12 @@ async function fetchCommitData(username, repo, page = 1) {
   const endDate = new Date(); // Today
   const startDate = new Date();
   startDate.setFullYear(endDate.getFullYear() - 1); // One year ago
+  // Filter commits by date range and exclude github-actions[bot]
   const filteredCommits = commits.filter((commit) => {
     const commitDate = new Date(commit.commit.author.date);
-    return commitDate >= startDate && commitDate <= endDate;
+    // Exclude commits by github-actions[bot]
+    const isBot = commit.author && commit.author.login === "github-actions[bot]";
+    return commitDate >= startDate && commitDate <= endDate && !isBot;
   });
 
   // If there's a next page, recursively fetch and concatenate results

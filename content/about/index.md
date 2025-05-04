@@ -109,7 +109,7 @@ const endDate = data[data.length - 1][0];
         },
       },
       visualMap: {
-        min: data[0] + 1,
+        min: data[0],
         max: 100,
         inRange: {
           color: chartColor,
