@@ -5,7 +5,7 @@ require('dotenv').config({ path: './.github/.env' })
 async function fetchCommitData(username, repo, page = 1) {
   const fetch = (await import("node-fetch")).default;
   const token = process.env.GITHUB_TOKEN;
-  const url = `https://api.github.com/repos/${username}/${repo}/commits?page=${page}&per_page=100`;
+  const url = `https://api.github.com/repos/${username}/${repo}/commits?page=${page}&per_page=100&author=pottekkat`;
   const response = await fetch(url, {
     headers: {
       Authorization: `Bearer ${token}`,
@@ -32,12 +32,9 @@ async function fetchCommitData(username, repo, page = 1) {
   const endDate = new Date(); // Today
   const startDate = new Date();
   startDate.setFullYear(endDate.getFullYear() - 1); // One year ago
-  // Filter commits by date range and exclude github-actions[bot]
   const filteredCommits = commits.filter((commit) => {
     const commitDate = new Date(commit.commit.author.date);
-    // Exclude commits by github-actions[bot]
-    const isBot = commit.author && commit.author.login === "github-actions[bot]";
-    return commitDate >= startDate && commitDate <= endDate && !isBot;
+    return commitDate >= startDate && commitDate <= endDate
   });
 
   // If there's a next page, recursively fetch and concatenate results
