@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-05-04T00:24:34.591154",
+  "lastUpdated": "2025-05-05T00:23:41.994384",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Qwen3-8B",
-      "postUrl": "https://simonwillison.net/2025/May/2/qwen3-8b/#atom-everything",
-      "publishDate": "2025-05-02T23:41:52+00:00"
+      "postTitle": "Dummy's Guide to Modern LLM Sampling",
+      "postUrl": "https://simonwillison.net/2025/May/4/llm-sampling/#atom-everything",
+      "publishDate": "2025-05-04T21:13:02+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -67,9 +67,9 @@
     {
       "blogTitle": "Austin Z. Henley's Blog",
       "blogUrl": "https://austinhenley.com/",
-      "postTitle": "The design of software engineering course projects",
-      "postUrl": "https://austinhenley.com/blog/groupprojects.html",
-      "publishDate": "Mon, 28 Apr 2024 18:00:01 -0400"
+      "postTitle": "Where are the proactive AI coding tools?",
+      "postUrl": "https://austinhenley.com/blog/proactiveai.html",
+      "publishDate": "Sun, 4 May 2025 21:00:01 -0400"
     },
     {
       "blogTitle": "blog.jfo.click",
