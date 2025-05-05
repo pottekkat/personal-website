@@ -213,7 +213,7 @@
 
 .post-content code {
     margin: auto 4px;
-    padding: 4px 6px;
+    padding: 2px 6px;
     font-size: 0.78em;
     line-height: 1.5;
     color: var(--inline-code-bg);
