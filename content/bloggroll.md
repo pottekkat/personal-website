@@ -5,6 +5,6 @@ layout: "about"
 description: "Some cool blogs I like."
 ---
 
-Here are some blogs I regularly follow.
+Here are some blogs I regularly follow, sorted alphabetically.
 
 {{< blogroll >}}
