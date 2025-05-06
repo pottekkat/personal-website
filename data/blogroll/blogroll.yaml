@@ -62,9 +62,6 @@ feeds:
   - title: AI Snake Oil
     xmlURL: https://www.aisnakeoil.com/feed
     htmlURL: https://www.aisnakeoil.com
-  - title: Anticipating the Unintended
-    htmlURL: https://publicpolicy.substack.com/
-    xmlURL: https://publicpolicy.substack.com/feed
   - title: The Elysian
     htmlURL: https://www.elysian.press/
     xmlURL: https://www.elysian.press/feed
