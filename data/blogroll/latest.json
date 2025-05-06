@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-05-06T00:22:27.676429",
+  "lastUpdated": "2025-05-06T09:30:27.436489",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Unstoppable Force and Immovable Object",
-      "postUrl": "https://xkcd.com/3084/",
-      "publishDate": "Fri, 02 May 2025 04:00:00 -0000"
+      "postTitle": "About 20 Pounds",
+      "postUrl": "https://xkcd.com/3085/",
+      "publishDate": "Mon, 05 May 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "The Kardashev-Marx Scale",
-      "postUrl": "https://www.stephendiehl.com/posts/kardeschev/",
-      "publishDate": "Mon, 05 May 2025 01:00:00 +0000"
+      "postTitle": "The Technofascist Mind: A Guide to Its Psychology and Philosophy",
+      "postUrl": "https://www.stephendiehl.com/posts/technofascist_mind/",
+      "publishDate": "Tue, 06 May 2025 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -140,6 +140,48 @@
       "postTitle": "Film : Dungeons & Dragons: Honor Among Thieves",
       "postUrl": "https://sheep.horse/2023/4/film_-_dungeons__dragons-_honor_among_thieves.html",
       "publishDate": "Sun, 02 Apr 2023 17:06:17 +0000"
+    },
+    {
+      "blogTitle": "AI Snake Oil",
+      "blogUrl": "https://www.aisnakeoil.com",
+      "postTitle": "AGI is not a milestone",
+      "postUrl": "https://www.aisnakeoil.com/p/agi-is-not-a-milestone",
+      "publishDate": "Thu, 01 May 2025 11:47:59 GMT"
+    },
+    {
+      "blogTitle": "The Elysian",
+      "blogUrl": "https://www.elysian.press/",
+      "postTitle": "We\u2019ve raised $50,000\u2014now I\u2019m writing a book!",
+      "postUrl": "https://www.elysian.press/p/weve-raised-50000-book-advance",
+      "publishDate": "Mon, 05 May 2025 21:01:37 GMT"
+    },
+    {
+      "blogTitle": "The Palladium Letter",
+      "blogUrl": "https://letter.palladiummag.com/",
+      "postTitle": "New Article: How I Learned to Stop Worrying and Love L.A.",
+      "postUrl": "https://letter.palladiummag.com/p/new-article-how-i-learned-to-stop",
+      "publishDate": "Fri, 02 May 2025 21:25:43 GMT"
+    },
+    {
+      "blogTitle": "Pathless by Paul Millerd",
+      "blogUrl": "https://newsletter.pathlesspath.com/",
+      "postTitle": "Reads & Riffs: public intelligence, miasma madness, indie protocols, elderly housing market, AGI fact/fiction, info commons | #295",
+      "postUrl": "https://newsletter.pathlesspath.com/p/links-and-riffs-public-intelligence",
+      "publishDate": "Sat, 03 May 2025 13:02:24 GMT"
+    },
+    {
+      "blogTitle": "SatPost by Trung Phan",
+      "blogUrl": "https://www.readtrung.com/",
+      "postTitle": "5 Thoughts on LEGO's (Ace) Manufacturing",
+      "postUrl": "https://www.readtrung.com/p/5-thoughts-on-legos-ace-manufacturing",
+      "publishDate": "Fri, 02 May 2025 03:25:16 GMT"
+    },
+    {
+      "blogTitle": "Uncharted Territories",
+      "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
+      "postTitle": "Why Is Canada\u2019s Population so Concentrated?",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/why-is-canadas-population-so-concentrated",
+      "publishDate": "Sun, 27 Apr 2025 12:01:19 GMT"
     }
   ]
 }
