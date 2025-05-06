@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-05-05T00:23:41.994384",
+  "lastUpdated": "2025-05-06T00:22:27.676429",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Dummy's Guide to Modern LLM Sampling",
-      "postUrl": "https://simonwillison.net/2025/May/4/llm-sampling/#atom-everything",
-      "publishDate": "2025-05-04T21:13:02+00:00"
+      "postTitle": "Request for more articles on prompting techniques",
+      "postUrl": "https://simonwillison.net/2025/May/5/prompting/#atom-everything",
+      "publishDate": "2025-05-05T18:54:30+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
