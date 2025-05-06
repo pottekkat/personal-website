@@ -7,7 +7,7 @@
     </tr>
   </thead>
   <tbody>
-    {{ range .Site.Data.blogroll.blogroll.feeds }}
+    {{ range sort .Site.Data.blogroll.blogroll.feeds "title" }}
       {{ $blogTitle := .title }}
       {{ $latestPost := "" }}
       
