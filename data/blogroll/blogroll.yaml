@@ -1,61 +1,82 @@
 feeds:
-  - title: "XKCD"
-    xmlURL: "https://xkcd.com/rss.xml"
-    htmlURL: "https://xkcd.com/"
-  - title: "David Heinemeier Hansson"
-    xmlURL: "https://world.hey.com/dhh/feed.atom"
-    htmlURL: "https://world.hey.com/dhh"
-  - title: "Simon Willison's Weblog"
-    xmlURL: "https://simonwillison.net/atom/everything/"
-    htmlURL: "https://simonwillison.net/"
-  - title: "Paul Graham: Essays"
-    xmlURL: "http://www.aaronsw.com/2002/feeds/pgessays.rss"
-    htmlURL: "https://www.paulgraham.com/articles.html"
-  - title: "Bartosz Ciechanowski"
-    xmlURL: "https://ciechanow.ski/atom.xml"
-    htmlURL: "https://ciechanow.ski/"
-  - title: "Melting Asphalt"
-    xmlURL: "http://feeds.feedburner.com/MeltingAsphalt"
-    htmlURL: "https://meltingasphalt.com/"
-  - title: "Tiny Projects"
-    xmlURL: "https://tinyprojects.dev/feed.xml"
-    htmlURL: "https://tinyprojects.dev/"
-  - title: "Kailash Nadh / Personal homepage"
-    xmlURL: "https://nadh.in/index.xml"
-    htmlURL: "https://nadh.in/"
-  - title: "Stephen Diehl"
-    xmlURL: "https://www.stephendiehl.com/feed.xml"
-    htmlURL: "https://www.stephendiehl.com/"
-  - title: "Austin Z. Henley's Blog"
-    xmlURL: "https://austinhenley.com/blog/feed.rss"
-    htmlURL: "https://austinhenley.com/"
-  - title: "blog.jfo.click"
-    xmlURL: "http://blog.jfo.click/feed.xml"
-    htmlURL: "http://blog.jfo.click/"
-  - title: "Julia Evans"
-    xmlURL: "https://jvns.ca/atom.xml"
-    htmlURL: "https://jvns.ca/"
-  - title: "Imposter!"
-    xmlURL: "https://mfrw.github.io/atom.xml"
-    htmlURL: "https://mfrw.github.io/"
-  - title: "Kaazhchakal"
-    xmlURL: "https://yezhuvath.com/feed/"
-    htmlURL: "https://yezhuvath.com/"
-  - title: "Tangled Bytes"
-    xmlURL: "https://tangledbytes.com/feed.xml"
-    htmlURL: "https://tangledbytes.com/"
-  - title: "Orhun's Blog"
-    xmlURL: "https://blog.orhun.dev/rss.xml"
-    htmlURL: "https://blog.orhun.dev/"
-  - title: "Derek Sivers"
-    xmlURL: "https://sive.rs/podcast.rss"
-    htmlURL: "https://sive.rs/"
-  - title: "Maggie Appleton"
-    xmlURL: "https://maggieappleton.com/rss.xml"
-    htmlURL: "https://maggieappleton.com/"
-  - title: "Anton Zhiyanov"
-    xmlURL: "https://antonz.org/index.xml"
-    htmlURL: "https://antonz.org/"
-  - title: "Andrew's Blog"
-    xmlURL: "https://sheep.horse/rss.xml"
-    htmlURL: "https://sheep.horse/"
+  - title: XKCD
+    xmlURL: https://xkcd.com/rss.xml
+    htmlURL: https://xkcd.com/
+  - title: David Heinemeier Hansson
+    xmlURL: https://world.hey.com/dhh/feed.atom
+    htmlURL: https://world.hey.com/dhh
+  - title: Simon Willison's Weblog
+    xmlURL: https://simonwillison.net/atom/everything/
+    htmlURL: https://simonwillison.net/
+  - title: 'Paul Graham: Essays'
+    xmlURL: http://www.aaronsw.com/2002/feeds/pgessays.rss
+    htmlURL: https://www.paulgraham.com/articles.html
+  - title: Bartosz Ciechanowski
+    xmlURL: https://ciechanow.ski/atom.xml
+    htmlURL: https://ciechanow.ski/
+  - title: Melting Asphalt
+    xmlURL: http://feeds.feedburner.com/MeltingAsphalt
+    htmlURL: https://meltingasphalt.com/
+  - title: Tiny Projects
+    xmlURL: https://tinyprojects.dev/feed.xml
+    htmlURL: https://tinyprojects.dev/
+  - title: Kailash Nadh / Personal homepage
+    xmlURL: https://nadh.in/index.xml
+    htmlURL: https://nadh.in/
+  - title: Stephen Diehl
+    xmlURL: https://www.stephendiehl.com/feed.xml
+    htmlURL: https://www.stephendiehl.com/
+  - title: Austin Z. Henley's Blog
+    xmlURL: https://austinhenley.com/blog/feed.rss
+    htmlURL: https://austinhenley.com/
+  - title: blog.jfo.click
+    xmlURL: http://blog.jfo.click/feed.xml
+    htmlURL: http://blog.jfo.click/
+  - title: Julia Evans
+    xmlURL: https://jvns.ca/atom.xml
+    htmlURL: https://jvns.ca/
+  - title: Imposter!
+    xmlURL: https://mfrw.github.io/atom.xml
+    htmlURL: https://mfrw.github.io/
+  - title: Kaazhchakal
+    xmlURL: https://yezhuvath.com/feed/
+    htmlURL: https://yezhuvath.com/
+  - title: Tangled Bytes
+    xmlURL: https://tangledbytes.com/feed.xml
+    htmlURL: https://tangledbytes.com/
+  - title: Orhun's Blog
+    xmlURL: https://blog.orhun.dev/rss.xml
+    htmlURL: https://blog.orhun.dev/
+  - title: Derek Sivers
+    xmlURL: https://sive.rs/podcast.rss
+    htmlURL: https://sive.rs/
+  - title: Maggie Appleton
+    xmlURL: https://maggieappleton.com/rss.xml
+    htmlURL: https://maggieappleton.com/
+  - title: Anton Zhiyanov
+    xmlURL: https://antonz.org/index.xml
+    htmlURL: https://antonz.org/
+  - title: Andrew's Blog
+    xmlURL: https://sheep.horse/rss.xml
+    htmlURL: https://sheep.horse/
+  - title: AI Snake Oil
+    xmlURL: https://www.aisnakeoil.com/feed
+    htmlURL: https://www.aisnakeoil.com
+  - title: Anticipating the Unintended
+    htmlURL: https://publicpolicy.substack.com/
+    xmlURL: https://publicpolicy.substack.com/feed
+  - title: The Elysian
+    htmlURL: https://www.elysian.press/
+    xmlURL: https://www.elysian.press/feed
+  - title: The Palladium Letter
+    htmlURL: https://letter.palladiummag.com/
+    xmlURL: https://letter.palladiummag.com/feed
+  - title: Pathless by Paul Millerd
+    htmlURL: https://newsletter.pathlesspath.com/
+    xmlURL: https://newsletter.pathlesspath.com/feed
+  - title: SatPost by Trung Phan
+    xmlURL: https://www.readtrung.com/feed
+    htmlURL: https://www.readtrung.com/
+  - htmlURL: https://unchartedterritories.tomaspueyo.com/
+    title: Uncharted Territories
+    xmlURL: https://unchartedterritories.tomaspueyo.com/feed
