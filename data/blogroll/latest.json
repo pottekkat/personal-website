@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-05-08T00:22:20.780794",
+  "lastUpdated": "2025-05-09T00:22:32.618553",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "About 20 Pounds",
-      "postUrl": "https://xkcd.com/3085/",
-      "publishDate": "Mon, 05 May 2025 04:00:00 -0000"
+      "postTitle": "Globe Safety",
+      "postUrl": "https://xkcd.com/3086/",
+      "publishDate": "Wed, 07 May 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Introducing web search on the Anthropic API",
-      "postUrl": "https://simonwillison.net/2025/May/7/anthropic-api-search/#atom-everything",
-      "publishDate": "2025-05-07T23:25:57+00:00"
+      "postTitle": "SQLite CREATE TABLE: The DEFAULT clause",
+      "postUrl": "https://simonwillison.net/2025/May/8/sqlite-create-table-default-timestamp/#atom-everything",
+      "publishDate": "2025-05-08T22:37:44+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "We\u2019ve raised $50,000\u2014now I\u2019m writing a book!",
-      "postUrl": "https://www.elysian.press/p/weve-raised-50000-book-advance",
-      "publishDate": "Mon, 05 May 2025 21:01:37 GMT"
+      "postTitle": "Let's read Moral Ambition together",
+      "postUrl": "https://www.elysian.press/p/lets-read-moral-ambition-together",
+      "publishDate": "Thu, 08 May 2025 21:19:06 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
