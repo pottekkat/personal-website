@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-05-09T00:22:32.618553",
+  "lastUpdated": "2025-05-10T00:21:16.519817",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Globe Safety",
-      "postUrl": "https://xkcd.com/3086/",
-      "publishDate": "Wed, 07 May 2025 04:00:00 -0000"
+      "postTitle": "Pascal's Law",
+      "postUrl": "https://xkcd.com/3087/",
+      "publishDate": "Fri, 09 May 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "SQLite CREATE TABLE: The DEFAULT clause",
-      "postUrl": "https://simonwillison.net/2025/May/8/sqlite-create-table-default-timestamp/#atom-everything",
-      "publishDate": "2025-05-08T22:37:44+00:00"
+      "postTitle": "llm -f issue:... -m echo --no-log",
+      "postUrl": "https://simonwillison.net/2025/May/9/private-issues/#atom-everything",
+      "publishDate": "2025-05-09T18:55:24+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "5 Thoughts on LEGO's (Ace) Manufacturing",
-      "postUrl": "https://www.readtrung.com/p/5-thoughts-on-legos-ace-manufacturing",
-      "publishDate": "Fri, 02 May 2025 03:25:16 GMT"
+      "postTitle": "Warren Buffett's $160B+ Apple Bet: A History",
+      "postUrl": "https://www.readtrung.com/p/warren-buffetts-160b-apple-bet-a",
+      "publishDate": "Fri, 09 May 2025 18:51:57 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
