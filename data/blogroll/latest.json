@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-05-12T00:23:41.065454",
+  "lastUpdated": "2025-05-13T00:22:38.901879",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Cursor: Security",
-      "postUrl": "https://simonwillison.net/2025/May/11/cursor-security/#atom-everything",
-      "publishDate": "2025-05-11T19:15:46+00:00"
+      "postTitle": "Quoting Contributing to Servo",
+      "postUrl": "https://simonwillison.net/2025/May/12/contributing-to-servo/#atom-everything",
+      "publishDate": "2025-05-12T22:14:30+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -109,9 +109,9 @@
     {
       "blogTitle": "Orhun's Blog",
       "blogUrl": "https://blog.orhun.dev/",
-      "postTitle": "How I set up this blog",
-      "postUrl": "https://blog.orhun.dev/setting-up-this-blog/",
-      "publishDate": "Mon, 23 Dec 2024 00:00:00 +0000"
+      "postTitle": "Am I a musician yet? - Superbooth 2025 Experience",
+      "postUrl": "https://blog.orhun.dev/am-i-a-musician-yet/",
+      "publishDate": "Mon, 12 May 2025 00:00:00 +0000"
     },
     {
       "blogTitle": "Derek Sivers",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Let's read Moral Ambition together",
-      "postUrl": "https://www.elysian.press/p/lets-read-moral-ambition-together",
-      "publishDate": "Thu, 08 May 2025 21:19:06 GMT"
+      "postTitle": "120 million employee-owners in one generation",
+      "postUrl": "https://www.elysian.press/p/120-million-employee-owners-in-one",
+      "publishDate": "Mon, 12 May 2025 23:01:01 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
