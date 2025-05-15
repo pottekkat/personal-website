@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-05-14T00:22:32.829266",
+  "lastUpdated": "2025-05-15T00:21:08.730695",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Deposition",
-      "postUrl": "https://xkcd.com/3088/",
-      "publishDate": "Mon, 12 May 2025 04:00:00 -0000"
+      "postTitle": "Modern",
+      "postUrl": "https://xkcd.com/3089/",
+      "publishDate": "Wed, 14 May 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Atlassian: \u201cWe\u2019re Not Going to Charge Most Customers Extra for AI Anymore\u201d. The Beginning of the End of the AI Upsell?",
-      "postUrl": "https://simonwillison.net/2025/May/13/end-of-ai-upsells/#atom-everything",
-      "publishDate": "2025-05-13T15:52:09+00:00"
+      "postTitle": "Quoting James Cowling",
+      "postUrl": "https://simonwillison.net/2025/May/14/james-cowling/#atom-everything",
+      "publishDate": "2025-05-14T03:49:37+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,16 +151,16 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "120 million employee-owners in one generation",
-      "postUrl": "https://www.elysian.press/p/120-million-employee-owners-in-one",
-      "publishDate": "Mon, 12 May 2025 23:01:01 GMT"
+      "postTitle": "CITY STATE: A discussion about autonomous governance",
+      "postUrl": "https://www.elysian.press/p/city-state-a-discussion-about-autonomous",
+      "publishDate": "Wed, 14 May 2025 21:01:19 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "New Article: How I Learned to Stop Worrying and Love L.A.",
-      "postUrl": "https://letter.palladiummag.com/p/new-article-how-i-learned-to-stop",
-      "publishDate": "Fri, 02 May 2025 21:25:43 GMT"
+      "postTitle": "New Article: Our Genetic Constitution",
+      "postUrl": "https://letter.palladiummag.com/p/new-article-our-genetic-constitution",
+      "publishDate": "Wed, 14 May 2025 01:31:28 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
