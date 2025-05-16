@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-05-15T00:21:08.730695",
+  "lastUpdated": "2025-05-16T00:22:37.786349",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting James Cowling",
-      "postUrl": "https://simonwillison.net/2025/May/14/james-cowling/#atom-everything",
-      "publishDate": "2025-05-14T03:49:37+00:00"
+      "postTitle": "Annotated Presentation Creator",
+      "postUrl": "https://simonwillison.net/2025/May/15/annotated-presentation-creator/#atom-everything",
+      "publishDate": "2025-05-15T14:41:55+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "The Technofascist Mind: A Guide to Its Psychology and Philosophy",
-      "postUrl": "https://www.stephendiehl.com/posts/technofascist_mind/",
-      "publishDate": "Tue, 06 May 2025 01:00:00 +0000"
+      "postTitle": "Using CUDA Deep Neural Network (cuDNN) in Python",
+      "postUrl": "https://www.stephendiehl.com/posts/using_cudnn/",
+      "publishDate": "Thu, 15 May 2025 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Sandboxes",
-      "postUrl": "https://antonz.org/sandboxes/",
-      "publishDate": "Mon, 21 Apr 2025 14:30:00 +0000"
+      "postTitle": "Am I online?",
+      "postUrl": "https://antonz.org/is-online/",
+      "publishDate": "Thu, 15 May 2025 05:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "How Ice Sculpted Canada",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-ice-sculpted-canada",
-      "publishDate": "Tue, 13 May 2025 12:03:04 GMT"
+      "postTitle": "Will Canada Thaw into Greatness?",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/will-canada-thaw-into-greatness",
+      "publishDate": "Thu, 15 May 2025 15:30:38 GMT"
     }
   ]
 }
