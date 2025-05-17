@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-05-16T00:22:37.786349",
+  "lastUpdated": "2025-05-17T00:22:01.194771",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Modern",
-      "postUrl": "https://xkcd.com/3089/",
-      "publishDate": "Wed, 14 May 2025 04:00:00 -0000"
+      "postTitle": "Sail Physics",
+      "postUrl": "https://xkcd.com/3090/",
+      "publishDate": "Fri, 16 May 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Annotated Presentation Creator",
-      "postUrl": "https://simonwillison.net/2025/May/15/annotated-presentation-creator/#atom-everything",
-      "publishDate": "2025-05-15T14:41:55+00:00"
+      "postTitle": "OpenAI Codex",
+      "postUrl": "https://simonwillison.net/2025/May/16/openai-codex/#atom-everything",
+      "publishDate": "2025-05-16T19:12:06+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -165,16 +165,16 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "You Want What You Actually Do | #296",
-      "postUrl": "https://newsletter.pathlesspath.com/p/you-want-what-you-actually-do-296",
-      "publishDate": "Sat, 10 May 2025 14:48:11 GMT"
+      "postTitle": "Nat Eliason on shifting to fiction, self-publishing vs. traditional publishing, writing as a long-game and writing things readers love",
+      "postUrl": "https://newsletter.pathlesspath.com/p/nat-eliason-on-shifting-to-fiction",
+      "publishDate": "Fri, 16 May 2025 08:22:29 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "Warren Buffett's $160B+ Apple Bet: A History",
-      "postUrl": "https://www.readtrung.com/p/warren-buffetts-160b-apple-bet-a",
-      "publishDate": "Fri, 09 May 2025 18:51:57 GMT"
+      "postTitle": "AI Killed The College Paper. So, What's Next?",
+      "postUrl": "https://www.readtrung.com/p/ai-killed-the-college-paper-so-whats",
+      "publishDate": "Fri, 16 May 2025 15:08:04 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
