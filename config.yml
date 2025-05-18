@@ -65,7 +65,8 @@ params:
     ShowLastMod: true
     ShowShareButtons: true
     ShowPostNavLinks: true
-    ShowBreadCrumbs: false
+    ShowBreadCrumbs: true
+    ShowBreadCrumbsInList: true
     ShowCodeCopyButtons: true
     ShowWordCount: false
     ShowRssButtonInSectionTermList: true
