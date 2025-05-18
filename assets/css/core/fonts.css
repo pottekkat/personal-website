@@ -1,0 +1,160 @@
+/* Font declarations using local font files */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Inter'),
+        url('/fonts/inter/subset-Inter-Regular.woff2') format('woff2'),
+        url('/fonts/inter/subset-Inter-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Inter'),
+        url('/fonts/inter/subset-Inter-Italic.woff2') format('woff2'),
+        url('/fonts/inter/subset-Inter-Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Inter'),
+        url('/fonts/inter/subset-Inter-Medium.woff2') format('woff2'),
+        url('/fonts/inter/subset-Inter-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Inter'),
+        url('/fonts/inter/subset-Inter-MediumItalic.woff2') format('woff2'),
+        url('/fonts/inter/subset-Inter-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Inter'),
+        url('/fonts/inter/subset-Inter-Bold.woff2') format('woff2'),
+        url('/fonts/inter/subset-Inter-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Inter'),
+        url('/fonts/inter/subset-Inter-BoldItalic.woff2') format('woff2'),
+        url('/fonts/inter/subset-Inter-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('JetBrains Mono'),
+        url('/fonts/jetbrainsmono/subset-JetBrainsMono-Regular.woff2') format('woff2'),
+        url('/fonts/jetbrainsmono/subset-JetBrainsMono-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('JetBrains Mono'),
+        url('/fonts/jetbrainsmono/subset-JetBrainsMono-Italic.woff2') format('woff2'),
+        url('/fonts/jetbrainsmono/subset-JetBrainsMono-Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('JetBrains Mono'),
+        url('/fonts/jetbrainsmono/subset-JetBrainsMono-Bold.woff2') format('woff2'),
+        url('/fonts/jetbrainsmono/subset-JetBrainsMono-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: local('JetBrains Mono'),
+        url('/fonts/jetbrainsmono/subset-JetBrainsMono-BoldItalic.woff2') format('woff2'),
+        url('/fonts/jetbrainsmono/subset-JetBrainsMono-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Schibsted Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Schibsted Grotesk'),
+        url('/fonts/schibstedgrotesk/subset-SchibstedGrotesk-Regular.woff2') format('woff2'),
+        url('/fonts/schibstedgrotesk/subset-SchibstedGrotesk-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Schibsted Grotesk';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Schibsted Grotesk'),
+        url('/fonts/schibstedgrotesk/subset-SchibstedGrotesk-Italic.woff2') format('woff2'),
+        url('/fonts/schibstedgrotesk/subset-SchibstedGrotesk-Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Schibsted Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Schibsted Grotesk'),
+        url('/fonts/schibstedgrotesk/subset-SchibstedGrotesk-Medium.woff2') format('woff2'),
+        url('/fonts/schibstedgrotesk/subset-SchibstedGrotesk-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Schibsted Grotesk';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Schibsted Grotesk'),
+        url('/fonts/schibstedgrotesk/subset-SchibstedGrotesk-MediumItalic.woff2') format('woff2'),
+        url('/fonts/schibstedgrotesk/subset-SchibstedGrotesk-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Schibsted Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Schibsted Grotesk'),
+        url('/fonts/schibstedgrotesk/subset-SchibstedGrotesk-Bold.woff2') format('woff2'),
+        url('/fonts/schibstedgrotesk/subset-SchibstedGrotesk-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Schibsted Grotesk';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Schibsted Grotesk'),
+        url('/fonts/schibstedgrotesk/subset-SchibstedGrotesk-BoldItalic.woff2') format('woff2'),
+        url('/fonts/schibstedgrotesk/subset-SchibstedGrotesk-BoldItalic.woff') format('woff');
+}
