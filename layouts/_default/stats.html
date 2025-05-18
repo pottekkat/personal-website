@@ -2,6 +2,7 @@
 
 <article class="post-single">
   <header class="post-header">
+    {{- partial "breadcrumbs.html" . }}
     <h1 class="post-title">{{ .Title }}</h1>
   </header>
   <div class="last-run">Auto updated at {{.Site.Data.stats.stats.runtime}}</div>

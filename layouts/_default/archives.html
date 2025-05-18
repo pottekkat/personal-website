@@ -1,6 +1,9 @@
 {{- define "main" }}
 
 <header class="page-header">
+  {{- if (.Param "ShowBreadCrumbsInList") -}}
+  {{- partial "breadcrumbs.html" . }}
+  {{- end -}}
   <h1>{{ .Title }}</h1>
 </header>
 
