@@ -6,7 +6,9 @@
 
 {{- if not .IsHome | and .Title }}
 <header class="page-header">
+  {{- if (.Param "ShowBreadCrumbsInList") -}}
   {{- partial "breadcrumbs.html" . }}
+  {{- end -}}
   <h1>
     {{ .Title }}
     <!-- Remove RSS button from newsletter sections -->

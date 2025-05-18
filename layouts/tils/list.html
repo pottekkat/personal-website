@@ -1,6 +1,9 @@
 {{- define "main" }}
 
 <header class="page-header">
+  {{- if (.Param "ShowBreadCrumbsInList") -}}
+  {{- partial "breadcrumbs.html" . }}
+  {{- end -}}
   <h1>
     {{ .Title }}
     <a href="index.xml" title="RSS" aria-label="RSS">
