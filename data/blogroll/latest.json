@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-05-17T00:22:01.194771",
+  "lastUpdated": "2025-05-18T00:24:38.345111",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "OpenAI Codex",
-      "postUrl": "https://simonwillison.net/2025/May/16/openai-codex/#atom-everything",
-      "publishDate": "2025-05-16T19:12:06+00:00"
+      "postTitle": "Datasette ecosystem poster for PyCon US",
+      "postUrl": "https://simonwillison.net/2025/May/17/pycon-poster/#atom-everything",
+      "publishDate": "2025-05-17T20:34:39+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
