@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-05-18T00:24:38.345111",
+  "lastUpdated": "2025-05-19T00:24:06.002808",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Coding should be a vibe!",
-      "postUrl": "https://world.hey.com/dhh/coding-should-be-a-vibe-50908f49",
-      "publishDate": "2025-05-13T07:32:48Z"
+      "postTitle": "Cheap mini PCs have gotten really good",
+      "postUrl": "https://world.hey.com/dhh/cheap-mini-pcs-have-gotten-really-good-c70ab40f",
+      "publishDate": "2025-05-18T08:32:35Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Datasette ecosystem poster for PyCon US",
-      "postUrl": "https://simonwillison.net/2025/May/17/pycon-poster/#atom-everything",
-      "publishDate": "2025-05-17T20:34:39+00:00"
+      "postTitle": "llm-pdf-to-images",
+      "postUrl": "https://simonwillison.net/2025/May/18/llm-pdf-to-images/#atom-everything",
+      "publishDate": "2025-05-18T20:48:41+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "Using CUDA Deep Neural Network (cuDNN) in Python",
-      "postUrl": "https://www.stephendiehl.com/posts/using_cudnn/",
-      "publishDate": "Thu, 15 May 2025 01:00:00 +0000"
+      "postTitle": "Adventures in Symbolic Algebra with Model Context Protocol",
+      "postUrl": "https://www.stephendiehl.com/posts/computer_algebra_mcp/",
+      "publishDate": "Sun, 18 May 2025 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "Film : Dungeons & Dragons: Honor Among Thieves",
-      "postUrl": "https://sheep.horse/2023/4/film_-_dungeons__dragons-_honor_among_thieves.html",
-      "publishDate": "Sun, 02 Apr 2023 17:06:17 +0000"
+      "postTitle": "A Joke",
+      "postUrl": "https://sheep.horse/2023/6/a_joke.html",
+      "publishDate": "Sat, 24 Jun 2023 18:10:56 +0000"
     },
     {
       "blogTitle": "AI Snake Oil",
