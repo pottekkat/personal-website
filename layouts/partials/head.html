@@ -82,9 +82,6 @@
 <link crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" rel="preload stylesheet" as="style">
 {{- end }}
 
-<!-- Import JQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
 {{- /* Search */}}
 {{- if or (eq .Layout `search`) (eq .Layout `archives`) (and (eq .Type `books`) .IsNode) (and (eq .Type `dailies`) .IsNode) (and (eq .Type `newsletters`) .IsNode) (and (eq .Type `tils`) .IsNode) -}}
 <link crossorigin="anonymous" rel="preload" as="fetch" href="../index.json">
