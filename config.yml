@@ -48,7 +48,8 @@ params:
 
     label:
       icon: "/logo.png"
-      iconHeight: "20px"
+      iconHeight: "20"
+      iconWidth: "164.7"
 
     mainSections: ['posts']
     dailySections: ['dailies']

@@ -31,6 +31,7 @@
 
 .logo {
     flex-wrap: inherit;
+    align-items: center;
 }
 
 .logo a {
@@ -39,10 +40,9 @@
 }
 
 .logo a img, .logo a svg {
-    display: inline;
-    vertical-align: middle;
+    /* This was changed to align the logo vertically to the middle */
+    display: block;
     pointer-events: none;
-    transform: translate(0, -10%);
     border-radius: 0;
     margin-inline-end: 8px;
 }
