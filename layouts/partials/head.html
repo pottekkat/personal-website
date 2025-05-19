@@ -39,6 +39,10 @@
 <!-- use Plausible for analytics -->
 {{ partial "plausible_head.html" . }}
 
+<!-- Preload fonts -->
+<link rel="preload" href="/fonts/inter/subset-Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/schibstedgrotesk/subset-SchibstedGrotesk-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
 {{- /* Styles */}}
 
 {{- /* includes */}}
