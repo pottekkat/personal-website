@@ -24,6 +24,87 @@ Unless mentioned otherwise, all material in this blog is licensed under [CC BY 4
 
 Here are [some other blogs I like](/blogroll/).
 
+### Colophon
+
+[navendu.me](https://navendu.me) has been [around since 2020](https://github.com/pottekkat/personal-website/tree/master) and has stayed more or less in its [current form](https://github.com/pottekkat/personal-website) since 2021. This section offers a high-level overview of how the site is built.
+
+{{< rawhtml >}}
+<table><thead>
+  <tr>
+    <th>What</th>
+    <th>How</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td>Content</td>
+    <td>Markdown, with HTML templates</td>
+  </tr>
+  <tr>
+    <td>Static Site Generator</td>
+    <td><a href="https://gohugo.io/">Hugo</a> v0.118.2</td>
+  </tr>
+  <tr>
+    <td>Content Management System</td>
+    <td><a href="https://frontmatter.codes/">Front Matter CMS</a> (runs inside Visual Studio Code)</td>
+  </tr>
+  <tr>
+    <td>Version Control</td>
+    <td>Git (GitHub)</td>
+  </tr>
+  <tr>
+    <td>Hosting</td>
+    <td>Netlify (also for deploy previews)</td>
+  </tr>
+  <tr>
+    <td>Analytics</td>
+    <td><a href="https://plausible.io/">Plausible Analytics</a></td>
+  </tr>
+  <tr>
+    <td>Fonts</td>
+    <td>
+      <span style="font-family: 'Schibsted Grotesk', sans-serif !important; font-weight: bold;">Headings: "Schibsted Grotesk"</span><br>
+      <span style="font-family: 'Inter', sans-serif !important;">Body: "Inter"</span><br>
+      <span style="font-family: 'JetBrains Mono', monospace !important;"><code>Code snippets: "JetBrains Mono"</code></span>
+    </td>
+  </tr>
+  <tr>
+    <td>Colors</td>
+    <td>
+      <span data-var="--theme" style="display: inline-block; width: 1em; height: 1em; background: var(--theme); vertical-align: middle; border: 1px solid var(--code-bg); margin-right: 0.5em;"></span>Theme<br>
+      <span data-var="--primary" style="display: inline-block; width: 1em; height: 1em; background: var(--primary); vertical-align: middle; border: 1px solid var(--code-bg); margin-right: 0.5em;"></span>Primary<br>
+      <span data-var="--secondary" style="display: inline-block; width: 1em; height: 1em; background: var(--secondary); vertical-align: middle; border: 1px solid var(--code-bg); margin-right: 0.5em;"></span>Secondary<br>
+      <span data-var="--tertiary" style="display: inline-block; width: 1em; height: 1em; background: var(--tertiary); vertical-align: middle; border: 1px solid var(--code-bg); margin-right: 0.5em;"></span>Tertiary<br>
+      <span data-var="--content" style="display: inline-block; width: 1em; height: 1em; background: var(--content); vertical-align: middle; border: 1px solid var(--code-bg); margin-right: 0.5em;"></span>Content<br>
+      <span data-var="--code-bg" style="display: inline-block; width: 1em; height: 1em; background: var(--code-bg); vertical-align: middle; border: 1px solid var(--primary); margin-right: 0.5em;"></span>Code Background<br>
+      <span data-var="--inline-code-bg" style="display: inline-block; width: 1em; height: 1em; background: var(--inline-code-bg); vertical-align: middle; border: 1px solid var(--code-bg); margin-right: 0.5em;"></span>Inline Code Background<br>
+      <span data-var="--border" style="display: inline-block; width: 1em; height: 1em; background: var(--border); vertical-align: middle; border: 1px solid var(--code-bg); margin-right: 0.5em;"></span>Border<br>
+      <span data-var="--background-color" style="display: inline-block; width: 1em; height: 1em; background: var(--background-color); vertical-align: middle; border: 1px solid var(--code-bg); margin-right: 0.5em;"></span>Background
+    </td>
+  </tr>
+</tbody>
+</table>
+<script>
+  function updateColorSwatchTooltips() {
+    var styleSource = document.body;
+    document.querySelectorAll('td > span[data-var]').forEach(function(el) {
+      var varName = el.getAttribute('data-var');
+      var value = getComputedStyle(styleSource).getPropertyValue(varName).trim();
+      el.title = value;
+    });
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+    updateColorSwatchTooltips();
+    var themeToggle = document.getElementById('theme-toggle');
+    if (themeToggle) {
+      themeToggle.addEventListener('click', function() {
+        // Wait for the theme class to be toggled before updating
+        setTimeout(updateColorSwatchTooltips, 10);
+      });
+    }
+  });
+</script>
+{{< /rawhtml >}}
+
 ### Ethics Statement
 
 I don't accept any form of payment to write about a product or a company. The products I write about are the ones I work on and/or believe in strongly.
@@ -48,7 +129,7 @@ Since this blog is called "The Open Source Absolutist," it wouldn't be surprisin
 
 I [actively maintain](https://github.com/pottekkat) open source projects, including projects hosted by the Apache Software Foundation and the Cloud Native Computing Foundation. At present, my primary focus is on sustainable open source.
 
-I'm also learning about economics and public policy and using my background in engineering to advocate for better policies, especially policies surrounding technology. I'm an amateur at best, and that's okay because the word "amateur" comes from the Latin amare, which means "to love."
+I'm also learning about economics and public policy and using my background in engineering to advocate for better policies, especially policies surrounding technology. I'm an amateur at best, and that's okay because the word "amateur" comes from the Latin _amare_, which means "to love."
 
 _The chart below shows how much I work on this blog. See more [/stats](/stats/)._
 
