@@ -288,7 +288,7 @@ codapi-snippet {
 }
 
 codapi-snippet codapi-toolbar {
-  font-family: monospace;
+  font-family: 'JetBrains Mono', monospace;
   font-size: 0.78em;
 }
 
