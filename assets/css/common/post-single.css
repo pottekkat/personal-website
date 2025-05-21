@@ -127,6 +127,12 @@
     margin-top: 5px;
 }
 
+/* This adds a margin to the top of the images in a list because the next line
+   shows that in a list the p tag does not have a margin-bottom */
+.post-content li figure {
+    margin-top: 1em;
+}
+
 .post-content li p {
     margin-bottom: 0;
 }
