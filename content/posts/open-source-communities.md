@@ -13,7 +13,7 @@ categories:
 cover:
   image: /images/open-source-communities/protest-banner.jpeg
   alt: A photo of a crowd protesting.
-  caption: Photo by [Amine M'siouri](https://www.pexels.com/photo/crowd-of-people-black-and-white-photo-2246258/)
+  caption: Photo by [Amine M\'siouri](https://www.pexels.com/photo/crowd-of-people-black-and-white-photo-2246258/)
   relative: false
 ---
 
