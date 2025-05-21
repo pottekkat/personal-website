@@ -130,12 +130,10 @@ This also prevents the person answering from going off on a tangent, explaining 
 
 Another way to prevent shooting off on a tangent is to ask questions that can be answered by a simple yes/no.
 
-> J: ~~Why are we using this gRPC middleware instead of directly calling the required service?~~ 
-
+> J: ~~Why are we using this gRPC middleware instead of directly calling the required service?~~
 >
-
 > J: Are we using this gRPC middleware to convert between two different configuration formats?
-
+>
 > N: Yes.
 
 The person usually goes to explain why yes/no after this, but these questions are easy to answer, and I almost always get quick responses.
