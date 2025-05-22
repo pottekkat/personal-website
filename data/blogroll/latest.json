@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-05-22T00:22:26.048246",
+  "lastUpdated": "2025-05-22T05:24:31.304320",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Devstral",
-      "postUrl": "https://simonwillison.net/2025/May/21/devstral/#atom-everything",
-      "publishDate": "2025-05-21T22:02:23+00:00"
+      "postTitle": "No docs, no bugs",
+      "postUrl": "https://simonwillison.net/2025/May/22/no-docs-no-bugs/#atom-everything",
+      "publishDate": "2025-05-22T01:55:31+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -182,6 +182,13 @@
       "postTitle": "Will Canada Thaw into Greatness?",
       "postUrl": "https://unchartedterritories.tomaspueyo.com/p/will-canada-thaw-into-greatness",
       "publishDate": "Thu, 15 May 2025 15:30:38 GMT"
+    },
+    {
+      "blogTitle": "Anil Dash",
+      "blogUrl": "https://www.anildash.com",
+      "postTitle": "How Oprah will screw up the AI story",
+      "postUrl": "https://anildash.com/2024/08/31/oprah-wrong-ai/",
+      "publishDate": "2024-08-31T00:00:00Z"
     }
   ]
 }
