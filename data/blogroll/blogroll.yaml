@@ -80,7 +80,4 @@ feeds:
   - xmlURL: https://www.anildash.com/feed.xml
     htmlURL: https://www.anildash.com
     title: Anil Dash
-  - xmlURL: https://kevquirk.com/feed
-    htmlURL: https://kevquirk.com/
-    title: Kevin Quirk
 
