@@ -77,3 +77,10 @@ feeds:
   - htmlURL: https://unchartedterritories.tomaspueyo.com/
     title: Uncharted Territories
     xmlURL: https://unchartedterritories.tomaspueyo.com/feed
+  - xmlURL: https://www.anildash.com/feed.xml
+    htmlURL: https://www.anildash.com
+    title: Anil Dash
+  - xmlURL: https://kevquirk.com/feed
+    htmlURL: https://kevquirk.com/
+    title: Kevin Quirk
+
