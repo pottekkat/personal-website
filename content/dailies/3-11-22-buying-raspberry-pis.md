@@ -16,7 +16,7 @@ I have been tinkering around with the CM4 module for the last two days, and I wi
 
 I found a couple of interesting blogs today:
 
-1. [Gwern Branwen's Essays](https://www.gwern.net/index)
+1. [Gwern Branwen\'s Essays](https://www.gwern.net/index)
 2. [Ribbonfarm](https://www.ribbonfarm.com/)
 3. [Melting Asphalt](https://meltingasphalt.com/)
 

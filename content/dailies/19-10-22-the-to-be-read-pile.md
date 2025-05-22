@@ -12,7 +12,7 @@ I have these many backlogs because I find stuff when I'm working on something im
 So, today, I will share what tabs I have open, limiting it to general content:
 
 - [The Graphing Calculator Story](https://www.pacifict.com/Story/)
-- [What I've Learned From Users](http://www.paulgraham.com/users.html)
+- [What I\'ve Learned From Users](http://www.paulgraham.com/users.html)
 - [Alien Truth](http://www.paulgraham.com/alien.html)
 - [Happy 10th Birthday, Sidekiq!](https://www.mikeperham.com/2022/01/17/happy-10th-birthday-sidekiq/)
 - [Hello, I am a Developer Advocate](https://medium.com/@joelmarcey/hello-i-am-a-developer-advocate-ff7db13058c7)

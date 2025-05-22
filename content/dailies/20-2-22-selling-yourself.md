@@ -5,15 +5,6 @@ draft: false
 summary: "Do you have an MBA?"
 ---
 
-How good was 2003?
-
-{{< rawhtml >}}
-
-<iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcYAgq4oLyJ4?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-{{< /rawhtml >}}
-
----
-
 My English vocabulary is very bad. I need to figure out a way to learn and _actually remember_ new words.
 
 Wordle 246 4/6

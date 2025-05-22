@@ -27,6 +27,6 @@ All of these happen automatically. I don't have to spend hours picking stocks an
 
 I don't have to worry about watching my portfolio closely or about market fluctuations. I index and chill.
 
-I stole this line from [Jack Raines' article today](https://www.youngmoney.co/p/diversification-dies), which reminded me of my experiences.
+I stole this line from [Jack Raines\' article today](https://www.youngmoney.co/p/diversification-dies), which reminded me of my experiences.
 
 **PS: This is not investment advice.**
