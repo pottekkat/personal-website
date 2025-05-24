@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-05-23T00:22:47.718727",
+  "lastUpdated": "2025-05-24T00:21:47.845821",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Baker's Units",
-      "postUrl": "https://xkcd.com/3092/",
-      "publishDate": "Wed, 21 May 2025 04:00:00 -0000"
+      "postTitle": "Drafting",
+      "postUrl": "https://xkcd.com/3093/",
+      "publishDate": "Fri, 23 May 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Agents are models using tools in a loop",
-      "postUrl": "https://simonwillison.net/2025/May/22/tools-in-a-loop/#atom-everything",
-      "publishDate": "2025-05-22T19:07:10+00:00"
+      "postTitle": "Honey badger",
+      "postUrl": "https://simonwillison.net/2025/May/23/honey-badger/#atom-everything",
+      "publishDate": "2025-05-23T18:22:12+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Early Article: Artificial Wombs Will Save Lives Not Birth Rates",
+      "postTitle": "New Article: Artificial Wombs Will Save Lives Not Birth Rates",
       "postUrl": "https://letter.palladiummag.com/p/early-article-artificial-wombs-will",
-      "publishDate": "Thu, 22 May 2025 22:34:49 GMT"
+      "publishDate": "Fri, 23 May 2025 16:34:00 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "AI Killed The College Paper. So, What's Next?",
-      "postUrl": "https://www.readtrung.com/p/ai-killed-the-college-paper-so-whats",
-      "publishDate": "Fri, 16 May 2025 15:08:04 GMT"
+      "postTitle": "Three Netflix What-Ifs: Bezos, Arnault and Blockbuster",
+      "postUrl": "https://www.readtrung.com/p/three-netflix-what-ifs-bezos-arnault",
+      "publishDate": "Fri, 23 May 2025 20:15:41 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
@@ -186,9 +186,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "How Oprah will screw up the AI story",
-      "postUrl": "https://anildash.com/2024/08/31/oprah-wrong-ai/",
-      "publishDate": "2024-08-31T00:00:00Z"
+      "postTitle": "23: What was 9/11?",
+      "postUrl": "https://anildash.com/2024/09/11/23-what-was-911/",
+      "publishDate": "2024-09-11T00:00:00Z"
     }
   ]
 }
