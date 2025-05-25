@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-05-24T00:21:47.845821",
+  "lastUpdated": "2025-05-25T00:25:10.911428",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Honey badger",
-      "postUrl": "https://simonwillison.net/2025/May/23/honey-badger/#atom-everything",
-      "publishDate": "2025-05-23T18:22:12+00:00"
+      "postTitle": "How I used o3 to find CVE-2025-37899, a remote zeroday vulnerability in the Linux kernel\u2019s SMB implementation",
+      "postUrl": "https://simonwillison.net/2025/May/24/sean-heelan/#atom-everything",
+      "publishDate": "2025-05-24T21:09:40+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Am I online?",
-      "postUrl": "https://antonz.org/is-online/",
-      "publishDate": "Thu, 15 May 2025 05:00:00 +0000"
+      "postTitle": "Sad story of http.DefaultTransport",
+      "postUrl": "https://antonz.org/default-transport/",
+      "publishDate": "Sat, 24 May 2025 05:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
