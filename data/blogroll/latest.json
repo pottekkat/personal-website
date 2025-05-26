@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-05-25T00:25:10.911428",
+  "lastUpdated": "2025-05-26T00:23:33.143570",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "How I used o3 to find CVE-2025-37899, a remote zeroday vulnerability in the Linux kernel\u2019s SMB implementation",
-      "postUrl": "https://simonwillison.net/2025/May/24/sean-heelan/#atom-everything",
-      "publishDate": "2025-05-24T21:09:40+00:00"
+      "postTitle": "AI Hallucination Cases",
+      "postUrl": "https://simonwillison.net/2025/May/25/ai-hallucination-cases/#atom-everything",
+      "publishDate": "2025-05-25T15:56:58+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "Adventures in Symbolic Algebra with Model Context Protocol",
-      "postUrl": "https://www.stephendiehl.com/posts/computer_algebra_mcp/",
-      "publishDate": "Sun, 18 May 2025 01:00:00 +0000"
+      "postTitle": "Remote MCP Servers",
+      "postUrl": "https://www.stephendiehl.com/posts/remote_mcp_servers/",
+      "publishDate": "Mon, 26 May 2025 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -123,9 +123,9 @@
     {
       "blogTitle": "Maggie Appleton",
       "blogUrl": "https://maggieappleton.com/",
-      "postTitle": "Statistically, When Will My Baby Be Born?",
-      "postUrl": "https://maggieappleton.com/birth-probability/",
-      "publishDate": "Mon, 24 Mar 2025 00:00:00 GMT"
+      "postTitle": "May 2025",
+      "postUrl": "https://maggieappleton.com/now-2025-05/",
+      "publishDate": "Sun, 25 May 2025 00:00:00 GMT"
     },
     {
       "blogTitle": "Anton Zhiyanov",
