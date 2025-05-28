@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-05-27T00:22:15.367310",
+  "lastUpdated": "2025-05-28T00:22:46.261926",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Drafting",
-      "postUrl": "https://xkcd.com/3093/",
-      "publishDate": "Fri, 23 May 2025 04:00:00 -0000"
+      "postTitle": "Mass Spec",
+      "postUrl": "https://xkcd.com/3094/",
+      "publishDate": "Mon, 26 May 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "CSS Minecraft",
-      "postUrl": "https://simonwillison.net/2025/May/26/css-minecraft/#atom-everything",
-      "publishDate": "2025-05-26T23:48:36+00:00"
+      "postTitle": "Large Language Models can run tools in your terminal with LLM 0.26",
+      "postUrl": "https://simonwillison.net/2025/May/27/llm-tools/#atom-everything",
+      "publishDate": "2025-05-27T20:35:20+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -186,9 +186,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "23: What was 9/11?",
-      "postUrl": "https://anildash.com/2024/09/11/23-what-was-911/",
-      "publishDate": "2024-09-11T00:00:00Z"
+      "postTitle": "How I got pitched by Anna Delvey",
+      "postUrl": "https://anildash.com/2024/09/15/anna-delvey-pitch/",
+      "publishDate": "2024-09-15T00:00:00Z"
     }
   ]
 }
