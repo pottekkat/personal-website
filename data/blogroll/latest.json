@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-05-28T00:22:46.261926",
+  "lastUpdated": "2025-05-29T00:22:41.745177",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Mass Spec",
-      "postUrl": "https://xkcd.com/3094/",
-      "publishDate": "Mon, 26 May 2025 04:00:00 -0000"
+      "postTitle": "Archaea",
+      "postUrl": "https://xkcd.com/3095/",
+      "publishDate": "Wed, 28 May 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Large Language Models can run tools in your terminal with LLM 0.26",
-      "postUrl": "https://simonwillison.net/2025/May/27/llm-tools/#atom-everything",
-      "publishDate": "2025-05-27T20:35:20+00:00"
+      "postTitle": "AI-assisted development needs automated tests",
+      "postUrl": "https://simonwillison.net/2025/May/28/automated-tests/#atom-everything",
+      "publishDate": "2025-05-28T21:16:32+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Who should control AI?",
-      "postUrl": "https://www.elysian.press/p/who-should-control-ai",
-      "publishDate": "Tue, 20 May 2025 16:02:42 GMT"
+      "postTitle": "How Silicon Valley got rich",
+      "postUrl": "https://www.elysian.press/p/how-silicon-valley-got-rich",
+      "publishDate": "Wed, 28 May 2025 15:32:47 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
