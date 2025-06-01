@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-05-31T00:22:10.874183",
+  "lastUpdated": "2025-06-01T00:28:30.445922",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Archaea",
-      "postUrl": "https://xkcd.com/3095/",
-      "publishDate": "Wed, 28 May 2025 04:00:00 -0000"
+      "postTitle": "Check Engine",
+      "postUrl": "https://xkcd.com/3096/",
+      "publishDate": "Fri, 30 May 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Talking AI and jobs with Natasha Zouves for News Nation",
-      "postUrl": "https://simonwillison.net/2025/May/30/ai-and-jobs-with-natasha-zouves/#atom-everything",
-      "publishDate": "2025-05-30T13:45:57+00:00"
+      "postTitle": "How often do LLMs snitch? Recreating Theo's SnitchBench with LLM",
+      "postUrl": "https://simonwillison.net/2025/May/31/snitchbench-with-llm/#atom-everything",
+      "publishDate": "2025-05-31T22:01:04+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "Unnecessary and Unstable: Why Stablecoins are Bad",
-      "postUrl": "https://www.stephendiehl.com/posts/stablecoins_bad/",
-      "publishDate": "Tue, 27 May 2025 01:00:00 +0000"
+      "postTitle": "The Trump Crypto Orgy of Corruption",
+      "postUrl": "https://www.stephendiehl.com/posts/trump_crypto_orgy_corruption/",
+      "publishDate": "Sat, 31 May 2025 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
