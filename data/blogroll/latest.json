@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-01T00:28:30.445922",
+  "lastUpdated": "2025-06-02T00:24:08.085721",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "How often do LLMs snitch? Recreating Theo's SnitchBench with LLM",
-      "postUrl": "https://simonwillison.net/2025/May/31/snitchbench-with-llm/#atom-everything",
-      "publishDate": "2025-05-31T22:01:04+00:00"
+      "postTitle": "May 2025 on GitHub",
+      "postUrl": "https://simonwillison.net/2025/Jun/1/may-on-github/#atom-everything",
+      "publishDate": "2025-06-01T05:34:14+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,7 +158,7 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Early Article: The Megaproject Economy",
+      "postTitle": "New Article: The Megaproject Economy",
       "postUrl": "https://letter.palladiummag.com/p/early-article-the-megaproject-economy",
       "publishDate": "Fri, 30 May 2025 22:14:16 GMT"
     },
