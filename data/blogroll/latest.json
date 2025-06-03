@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-02T00:24:08.085721",
+  "lastUpdated": "2025-06-03T00:23:11.950153",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "HEY is finally for sale on the iPhone!",
-      "postUrl": "https://world.hey.com/dhh/hey-is-finally-for-sale-on-the-iphone-a08cb218",
-      "publishDate": "2025-05-20T13:52:09Z"
+      "postTitle": "Omarchy: Bottling that inspiration before it spoils",
+      "postUrl": "https://world.hey.com/dhh/omarchy-bottling-that-inspiration-before-it-spoils-cd75e26b",
+      "publishDate": "2025-06-02T15:07:56Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "May 2025 on GitHub",
-      "postUrl": "https://simonwillison.net/2025/Jun/1/may-on-github/#atom-everything",
-      "publishDate": "2025-06-01T05:34:14+00:00"
+      "postTitle": "My AI Skeptic Friends Are All Nuts",
+      "postUrl": "https://simonwillison.net/2025/Jun/2/my-ai-skeptic-friends-are-all-nuts/#atom-everything",
+      "publishDate": "2025-06-02T23:56:49+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "The Trump Crypto Orgy of Corruption",
-      "postUrl": "https://www.stephendiehl.com/posts/trump_crypto_orgy_corruption/",
-      "publishDate": "Sat, 31 May 2025 01:00:00 +0000"
+      "postTitle": "Interfacing MCP with Combinatorial, Convex, and SMT Solvers",
+      "postUrl": "https://www.stephendiehl.com/posts/smt_and_mcp_solvers/",
+      "publishDate": "Mon, 02 Jun 2025 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "Expat Diaries | #298",
-      "postUrl": "https://newsletter.pathlesspath.com/p/expat-diaries-298",
-      "publishDate": "Mon, 26 May 2025 12:02:25 GMT"
+      "postTitle": "Eight Years Pathless & Money Reflections | #299",
+      "postUrl": "https://newsletter.pathlesspath.com/p/eight-years-pathless-and-money-reflections",
+      "publishDate": "Mon, 02 Jun 2025 13:12:32 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
