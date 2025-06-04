@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2025-06-03T00:23:11.950153",
+  "lastUpdated": "2025-06-04T00:23:04.624414",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Check Engine",
-      "postUrl": "https://xkcd.com/3096/",
-      "publishDate": "Fri, 30 May 2025 04:00:00 -0000"
+      "postTitle": "Bridge Types",
+      "postUrl": "https://xkcd.com/3097/",
+      "publishDate": "Mon, 02 Jun 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Omarchy: Bottling that inspiration before it spoils",
-      "postUrl": "https://world.hey.com/dhh/omarchy-bottling-that-inspiration-before-it-spoils-cd75e26b",
-      "publishDate": "2025-06-02T15:07:56Z"
+      "postTitle": "Gender and Sexuality Alliances in primary school at CIS?!",
+      "postUrl": "https://world.hey.com/dhh/gender-and-sexuality-alliances-in-primary-school-at-cis-97f66c06",
+      "publishDate": "2025-06-03T10:23:50Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "My AI Skeptic Friends Are All Nuts",
-      "postUrl": "https://simonwillison.net/2025/Jun/2/my-ai-skeptic-friends-are-all-nuts/#atom-everything",
-      "publishDate": "2025-06-02T23:56:49+00:00"
+      "postTitle": "PR #537: Fix Markdown in og descriptions",
+      "postUrl": "https://simonwillison.net/2025/Jun/3/openai-codex-pr/#atom-everything",
+      "publishDate": "2025-06-03T23:58:34+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -67,9 +67,9 @@
     {
       "blogTitle": "Austin Z. Henley's Blog",
       "blogUrl": "https://austinhenley.com/",
-      "postTitle": "Where are the proactive AI coding tools?",
-      "postUrl": "https://austinhenley.com/blog/proactiveai.html",
-      "publishDate": "Sun, 4 May 2025 21:00:01 -0400"
+      "postTitle": "Mapping latitude and longitude to country, state, or city",
+      "postUrl": "https://austinhenley.com/blog/coord2state.html",
+      "publishDate": "Tue, 3 Jun 2025 20:00:01 -0400"
     },
     {
       "blogTitle": "blog.jfo.click",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Our community round has opened\u2014let's fund this book!",
-      "postUrl": "https://www.elysian.press/p/our-community-round-has-openedlets",
-      "publishDate": "Thu, 29 May 2025 16:33:33 GMT"
+      "postTitle": "Creating a global safety net without nation-states",
+      "postUrl": "https://www.elysian.press/p/creating-a-global-safety-net-without",
+      "publishDate": "Tue, 03 Jun 2025 21:14:50 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Alberta\u2019s Independence from Canada",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/albertas-independence-from-canada",
-      "publishDate": "Thu, 29 May 2025 12:02:44 GMT"
+      "postTitle": "The Problem with Dating Apps",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/the-problem-with-dating-apps",
+      "publishDate": "Tue, 03 Jun 2025 18:01:12 GMT"
     },
     {
       "blogTitle": "Anil Dash",
