@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-06-04T00:23:04.624414",
+  "lastUpdated": "2025-06-05T00:22:58.028119",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Bridge Types",
-      "postUrl": "https://xkcd.com/3097/",
-      "publishDate": "Mon, 02 Jun 2025 04:00:00 -0000"
+      "postTitle": "Trojan Horse",
+      "postUrl": "https://xkcd.com/3098/",
+      "publishDate": "Wed, 04 Jun 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -139,7 +139,7 @@
       "blogUrl": "https://sheep.horse/",
       "postTitle": "A Joke",
       "postUrl": "https://sheep.horse/2023/6/a_joke.html",
-      "publishDate": "Sat, 24 Jun 2023 18:10:56 +0000"
+      "publishDate": "Sat, 24 Jun 2023 12:10:56 +0000"
     },
     {
       "blogTitle": "AI Snake Oil",
