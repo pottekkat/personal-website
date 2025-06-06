@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-05T00:22:58.028119",
+  "lastUpdated": "2025-06-06T00:22:40.937924",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "PR #537: Fix Markdown in og descriptions",
-      "postUrl": "https://simonwillison.net/2025/Jun/3/openai-codex-pr/#atom-everything",
-      "publishDate": "2025-06-03T23:58:34+00:00"
+      "postTitle": "gemini-2.5-pro-preview-06-05: Try the latest Gemini 2.5 Pro before general availability",
+      "postUrl": "https://simonwillison.net/2025/Jun/5/gemini-25-pro-preview-06-05/#atom-everything",
+      "publishDate": "2025-06-05T17:52:16+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "Interfacing MCP with Combinatorial, Convex, and SMT Solvers",
-      "postUrl": "https://www.stephendiehl.com/posts/smt_and_mcp_solvers/",
-      "publishDate": "Mon, 02 Jun 2025 01:00:00 +0000"
+      "postTitle": "Does the Star Trek Computer Run on COBOL?",
+      "postUrl": "https://www.stephendiehl.com/posts/software_far_future/",
+      "publishDate": "Thu, 05 Jun 2025 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "The Problem with Dating Apps",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/the-problem-with-dating-apps",
-      "publishDate": "Tue, 03 Jun 2025 18:01:12 GMT"
+      "postTitle": "A Better Solution for Dating in the 21st Century",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/a-better-solution-for-dating-in-the",
+      "publishDate": "Thu, 05 Jun 2025 18:00:25 GMT"
     },
     {
       "blogTitle": "Anil Dash",
