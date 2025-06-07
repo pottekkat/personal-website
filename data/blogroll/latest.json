@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-06T00:22:40.937924",
+  "lastUpdated": "2025-06-07T00:22:37.586024",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "gemini-2.5-pro-preview-06-05: Try the latest Gemini 2.5 Pro before general availability",
-      "postUrl": "https://simonwillison.net/2025/Jun/5/gemini-25-pro-preview-06-05/#atom-everything",
-      "publishDate": "2025-06-05T17:52:16+00:00"
+      "postTitle": "The last six months in LLMs, illustrated by pelicans on bicycles",
+      "postUrl": "https://simonwillison.net/2025/Jun/6/six-months-in-llms/#atom-everything",
+      "publishDate": "2025-06-06T20:42:26+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Creating a global safety net without nation-states",
-      "postUrl": "https://www.elysian.press/p/creating-a-global-safety-net-without",
-      "publishDate": "Tue, 03 Jun 2025 21:14:50 GMT"
+      "postTitle": "Newsletter bundles don't work",
+      "postUrl": "https://www.elysian.press/p/newsletter-bundles-dont-work",
+      "publishDate": "Fri, 06 Jun 2025 22:00:41 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "The Dyson Creep-Up",
-      "postUrl": "https://www.readtrung.com/p/the-dyson-creep-up",
-      "publishDate": "Fri, 30 May 2025 20:35:56 GMT"
+      "postTitle": "17 Takeaways from Mary Meeker's AI Deck",
+      "postUrl": "https://www.readtrung.com/p/17-takeaways-from-mary-meekers-ai",
+      "publishDate": "Fri, 06 Jun 2025 18:21:57 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
