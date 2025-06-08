@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-06-07T00:22:37.586024",
+  "lastUpdated": "2025-06-08T00:25:26.614002",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Trojan Horse",
-      "postUrl": "https://xkcd.com/3098/",
-      "publishDate": "Wed, 04 Jun 2025 04:00:00 -0000"
+      "postTitle": "Neighbor-Source Heat Pump",
+      "postUrl": "https://xkcd.com/3099/",
+      "publishDate": "Fri, 06 Jun 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "The last six months in LLMs, illustrated by pelicans on bicycles",
-      "postUrl": "https://simonwillison.net/2025/Jun/6/six-months-in-llms/#atom-everything",
-      "publishDate": "2025-06-06T20:42:26+00:00"
+      "postTitle": "Comma v0.1 1T and 2T - 7B LLMs trained on openly licensed text",
+      "postUrl": "https://simonwillison.net/2025/Jun/7/comma/#atom-everything",
+      "publishDate": "2025-06-07T23:59:27+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Sad story of http.DefaultTransport",
-      "postUrl": "https://antonz.org/default-transport/",
-      "publishDate": "Sat, 24 May 2025 05:00:00 +0000"
+      "postTitle": "AI-free writing",
+      "postUrl": "https://antonz.org/ai-free/",
+      "publishDate": "Sat, 07 Jun 2025 10:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -151,7 +151,7 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Newsletter bundles don't work",
+      "postTitle": "Are newsletter bundles really better?",
       "postUrl": "https://www.elysian.press/p/newsletter-bundles-dont-work",
       "publishDate": "Fri, 06 Jun 2025 22:00:41 GMT"
     },
