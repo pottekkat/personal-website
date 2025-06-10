@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-06-09T00:24:32.102802",
+  "lastUpdated": "2025-06-10T00:23:04.855397",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Neighbor-Source Heat Pump",
-      "postUrl": "https://xkcd.com/3099/",
-      "publishDate": "Fri, 06 Jun 2025 04:00:00 -0000"
+      "postTitle": "Alert Sound",
+      "postUrl": "https://xkcd.com/3100/",
+      "publishDate": "Mon, 09 Jun 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Qwen3 Embedding",
-      "postUrl": "https://simonwillison.net/2025/Jun/8/qwen3-embedding/#atom-everything",
-      "publishDate": "2025-06-08T04:22:29+00:00"
+      "postTitle": "WWDC: Apple supercharges its tools and technologies for developers",
+      "postUrl": "https://simonwillison.net/2025/Jun/9/apple-wwdc/#atom-everything",
+      "publishDate": "2025-06-09T19:42:10+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Newsletter bundles don\u2019t work",
-      "postUrl": "https://www.elysian.press/p/newsletter-bundles-dont-work",
-      "publishDate": "Fri, 06 Jun 2025 22:00:41 GMT"
+      "postTitle": "TERRAFORM: An essay collection about the future of our planet",
+      "postUrl": "https://www.elysian.press/p/terraform-an-essay-collection",
+      "publishDate": "Mon, 09 Jun 2025 19:01:17 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "Eight Years Pathless & Money Reflections | #299",
-      "postUrl": "https://newsletter.pathlesspath.com/p/eight-years-pathless-and-money-reflections",
-      "publishDate": "Mon, 02 Jun 2025 13:12:32 GMT"
+      "postTitle": "300 words for 300 posts",
+      "postUrl": "https://newsletter.pathlesspath.com/p/300-words-for-300-posts",
+      "publishDate": "Mon, 09 Jun 2025 11:30:32 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
