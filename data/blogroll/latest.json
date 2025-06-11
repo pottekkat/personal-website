@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-10T00:23:04.855397",
+  "lastUpdated": "2025-06-11T00:23:14.138080",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "WWDC: Apple supercharges its tools and technologies for developers",
-      "postUrl": "https://simonwillison.net/2025/Jun/9/apple-wwdc/#atom-everything",
-      "publishDate": "2025-06-09T19:42:10+00:00"
+      "postTitle": "Quoting Sam Altman",
+      "postUrl": "https://simonwillison.net/2025/Jun/10/sam-altman/#atom-everything",
+      "publishDate": "2025-06-10T22:31:01+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -81,9 +81,9 @@
     {
       "blogTitle": "Julia Evans",
       "blogUrl": "https://jvns.ca/",
-      "postTitle": "Standards for ANSI escape codes",
-      "postUrl": "https://jvns.ca/blog/2025/03/07/escape-code-standards/",
-      "publishDate": "2025-03-07T00:00:00+00:00"
+      "postTitle": "Using `make` to compile C programs (for non-C-programmers)",
+      "postUrl": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/",
+      "publishDate": "2025-06-10T00:00:00+00:00"
     },
     {
       "blogTitle": "Imposter!",
@@ -179,16 +179,16 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "A Better Solution for Dating in the 21st Century",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/a-better-solution-for-dating-in-the",
-      "publishDate": "Thu, 05 Jun 2025 18:00:25 GMT"
+      "postTitle": "Pax Mercatus",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/pax-mercatus",
+      "publishDate": "Tue, 10 Jun 2025 12:02:48 GMT"
     },
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "It feels like 2004 again.",
-      "postUrl": "https://anildash.com/2024/10/15/its-2004-again/",
-      "publishDate": "2024-10-15T00:00:00Z"
+      "postTitle": "Don't call it a Substack.",
+      "postUrl": "https://anildash.com/2024/11/19/dont-call-it-a-substack/",
+      "publishDate": "2024-11-19T00:00:00Z"
     }
   ]
 }
