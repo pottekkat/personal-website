@@ -14,11 +14,11 @@ bookMeta:
         - Fantasy
         - Fiction
         - Space
-    status: Reading
+    status: Read
     rating: 4
     coverImage: /images/books/covers/leviathan-wakes.jpg
     goodreadsUrl: https://www.goodreads.com/book/show/8855321-leviathan-wakes
-fmContentType: books
+fmContentType: Book Review
 ---
 
 _**Leviathan Wakes**_ is a science fiction novel set in what seems like a not-so-distant future. Humans have been interplanetary for generations. They have colonized Mars and moons and asteroids. Unsurprisingly, this means we have the first Solar System War. Science fiction authors have thought more about how the next space race will play out than policy wonks.
