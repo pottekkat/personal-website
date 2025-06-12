@@ -32,7 +32,7 @@
           <div class="book-status {{ replace (lower .status) " " "-" }}">{{ .status }}</div>
           
           <div class="book-rating">
-            {{- $rating := .rating }}
+            {{- $rating := or .rating 0 }}
             {{- range seq 5 }}
             {{- $currentStar := . }}
             {{- if ge $rating $currentStar }}

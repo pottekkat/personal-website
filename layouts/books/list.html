@@ -91,11 +91,9 @@
       <h2 class="book-title">{{ .Title }}</h2>
       <div class="book-meta">
         <p class="book-author">{{ .Params.bookMeta.author }}</p>
-        {{- if .Params.bookMeta.rating }}
         <div class="book-rating">
-          {{- template "star-rating" dict "rating" .Params.bookMeta.rating }}
+          {{- template "star-rating" dict "rating" (or .Params.bookMeta.rating 0) }}
         </div>
-        {{- end }}
         <span class="book-status {{ replace (lower .Params.bookMeta.status) " " "-" }}">{{ .Params.bookMeta.status }}</span>
       </div>
     </div>
@@ -129,9 +127,7 @@
         <td>{{ .Title }}</td>
         <td>{{ .Params.bookMeta.author }}</td>
         <td>
-          {{- if .Params.bookMeta.rating }}
-          {{- template "star-rating" dict "rating" .Params.bookMeta.rating }}
-          {{- end }}
+          {{- template "star-rating" dict "rating" (or .Params.bookMeta.rating 0) }}
         </td>
         <td>
           {{- if .Params.bookMeta.status }}
