@@ -71,16 +71,27 @@
     {
       "id": "genre",
       "options": [
+        "Astronomy",
+        "Autobiography",
+        "Chinese",
+        "Classics",
+        "Contemporary",
         "Economics",
         "Engineering",
         "Fable",
         "Fantasy",
         "Fiction",
+        "Japanese",
+        "Memoir",
+        "Music",
         "Non-Fiction",
         "Philosophy",
+        "Physics",
+        "Politics",
         "Public Policy",
         "Science",
         "Science Fiction",
+        "Sociology",
         "Space"
       ]
     }
@@ -387,7 +398,11 @@
               "title": "Reading Status",
               "name": "status",
               "type": "choice",
-              "choices": ["Reading", "Want to Read", "Read"]
+              "choices": [
+                "Reading",
+                "Want to Read",
+                "Read"
+              ]
             },
             {
               "title": "Rating (1-5)",
