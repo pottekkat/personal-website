@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-06-11T00:23:14.138080",
+  "lastUpdated": "2025-06-12T00:22:48.474268",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Alert Sound",
-      "postUrl": "https://xkcd.com/3100/",
-      "publishDate": "Mon, 09 Jun 2025 04:00:00 -0000"
+      "postTitle": "Good Science",
+      "postUrl": "https://xkcd.com/3101/",
+      "publishDate": "Wed, 11 Jun 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Sam Altman",
-      "postUrl": "https://simonwillison.net/2025/Jun/10/sam-altman/#atom-everything",
-      "publishDate": "2025-06-10T22:31:01+00:00"
+      "postTitle": "Breaking down \u2018EchoLeak\u2019, the First Zero-Click AI Vulnerability Enabling Data Exfiltration from Microsoft 365 Copilot",
+      "postUrl": "https://simonwillison.net/2025/Jun/11/echoleak/#atom-everything",
+      "publishDate": "2025-06-11T23:04:12+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "Does the Star Trek Computer Run on COBOL?",
-      "postUrl": "https://www.stephendiehl.com/posts/software_far_future/",
-      "publishDate": "Thu, 05 Jun 2025 01:00:00 +0000"
+      "postTitle": "The Future of Maths May Be Deeply Weird",
+      "postUrl": "https://www.stephendiehl.com/posts/future_math_weird/",
+      "publishDate": "Wed, 11 Jun 2025 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "TERRAFORM: An essay collection about the future of our planet",
-      "postUrl": "https://www.elysian.press/p/terraform-an-essay-collection",
-      "publishDate": "Mon, 09 Jun 2025 19:01:17 GMT"
+      "postTitle": "We can terraform the Earth\u2014not just Mars",
+      "postUrl": "https://www.elysian.press/p/we-can-terraform-the-earthnot-just",
+      "publishDate": "Wed, 11 Jun 2025 18:02:37 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -186,9 +186,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Don't call it a Substack.",
-      "postUrl": "https://anildash.com/2024/11/19/dont-call-it-a-substack/",
-      "publishDate": "2024-11-19T00:00:00Z"
+      "postTitle": "Lessons learned from burning things.",
+      "postUrl": "https://anildash.com/2024/11/30/making-fire/",
+      "publishDate": "2024-11-30T00:00:00Z"
     }
   ]
 }
