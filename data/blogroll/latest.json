@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-06-13T00:23:16.692160",
+  "lastUpdated": "2025-06-14T00:22:25.444587",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Good Science",
-      "postUrl": "https://xkcd.com/3101/",
-      "publishDate": "Wed, 11 Jun 2025 04:00:00 -0000"
+      "postTitle": "Reading a Big Number",
+      "postUrl": "https://xkcd.com/3102/",
+      "publishDate": "Fri, 13 Jun 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "It's this blog's 23rd birthday",
-      "postUrl": "https://simonwillison.net/2025/Jun/12/blog-birthday/#atom-everything",
-      "publishDate": "2025-06-12T21:31:14+00:00"
+      "postTitle": "The Wikimedia Research Newsletter",
+      "postUrl": "https://simonwillison.net/2025/Jun/13/wikimedia-research-newsletter/#atom-everything",
+      "publishDate": "2025-06-13T20:24:37+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -67,9 +67,9 @@
     {
       "blogTitle": "Austin Z. Henley's Blog",
       "blogUrl": "https://austinhenley.com/",
-      "postTitle": "Mapping latitude and longitude to country, state, or city",
-      "postUrl": "https://austinhenley.com/blog/coord2state.html",
-      "publishDate": "Tue, 3 Jun 2025 20:00:01 -0400"
+      "postTitle": "The fastest way to detect a vowel in a string",
+      "postUrl": "https://austinhenley.com/blog/vowels.html",
+      "publishDate": "Fri, 13 Jun 2025 15:00:01 -0400"
     },
     {
       "blogTitle": "blog.jfo.click",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "We can terraform the Earth\u2014not just Mars",
-      "postUrl": "https://www.elysian.press/p/we-can-terraform-the-earthnot-just",
-      "publishDate": "Wed, 11 Jun 2025 18:02:37 GMT"
+      "postTitle": "Democracy should happen online",
+      "postUrl": "https://www.elysian.press/p/democracy-should-happen-online",
+      "publishDate": "Fri, 13 Jun 2025 17:58:13 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
