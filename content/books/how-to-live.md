@@ -1,7 +1,7 @@
 ---
 title: How to Live
 date: 2025-06-12T19:11:09+05:30
-draft: true
+draft: false
 summary: Review of "How to Live" by Derek Sivers.
 bookMeta:
   author: Derek Sivers
@@ -19,4 +19,4 @@ bookMeta:
 fmContentType: Book Review
 ---
 
-_**How to Live**_ was an impulse buy after I binged Derek's blog for hours. I'm more wary of advice now than before, so I do not know if I should read it. Maybe I should give it a try and see how it goes.
+_**How to Live**_ was an impulse buy after I binged Derek's blog for hours. I'm more wary of advice now than I was before, so I'm unsure if I should read it. I could give it a try and see how it goes.
