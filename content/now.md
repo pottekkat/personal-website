@@ -24,7 +24,19 @@ I used to travel a lot. But now, I'm back home in Kerala for the foreseeable fut
 
 I recently left my job to pursue my more amateur interests. It's still novel, so I don't really know how to put labels on the things that I do now (or whether I should).
 
-But previously, I worked on open source projects in the cloud native space. I have traveled a lot to speak at conferences and meet customers.
+Broadly, this is what I've been doing:
+
+| Time               | Project                                                                   |
+|--------------------|---------------------------------------------------------------------------|
+| December - January | Helped organize a [film festival](https://www.instagram.com/panchajanyamorg/).                                          |
+| February           | Helped organize a [photo exhibition](https://www.instagram.com/youicouldnotsavewalkwithme/).                                       |
+| February - March   | Consultant with our local government to work on long-term projects.       |
+| March              | Experimented with [interactive articles](/tags/interactive/).                                   |
+| April              | Started working on MCP-related stuff and released [Sandbox MCP](https://github.com/pottekkat/sandbox-mcp).            |
+| May                | Joined as a maintainer of [MCP Go SDK](https://github.com/mark3labs/mcp-go).                                     |
+| June               | Fried my MacBook. On the verge of becoming a reclusive Arch Linux hermit. |
+
+Previously, I worked on open source projects in the cloud native space. I have traveled a lot to speak at conferences and meet customers.
 
 ## Blog and Newsletter
 
