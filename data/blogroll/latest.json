@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-14T00:22:25.444587",
+  "lastUpdated": "2025-06-15T00:25:50.193133",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "The Wikimedia Research Newsletter",
-      "postUrl": "https://simonwillison.net/2025/Jun/13/wikimedia-research-newsletter/#atom-everything",
-      "publishDate": "2025-06-13T20:24:37+00:00"
+      "postTitle": "Anthropic: How we built our multi-agent research system",
+      "postUrl": "https://simonwillison.net/2025/Jun/14/multi-agent-research-system/#atom-everything",
+      "publishDate": "2025-06-14T22:00:52+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
