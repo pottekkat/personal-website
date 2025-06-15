@@ -1,15 +1,15 @@
 direct_link_string: There is a lot of traffic from direct links. I should level up
   my link-tagging game.
-most_visitors_date: 23rd May 2025
-most_visitors_visitors: 101
-runtime: 9:21 PM, 14th June 2025
+most_visitors_date: 14th June 2025
+most_visitors_visitors: 102
+runtime: 9:22 PM, 15th June 2025
 top_countries:
 - India
 - United States of America
 - Russia
 - Germany
-top_page_link: /
-top_page_visitors: 14
+top_page_link: /posts/mcp-server-go/
+top_page_visitors: 16
 top_sources:
 - Google
 - Direct / None
