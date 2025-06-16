@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-15T00:25:50.193133",
+  "lastUpdated": "2025-06-16T00:24:23.317807",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Anthropic: How we built our multi-agent research system",
-      "postUrl": "https://simonwillison.net/2025/Jun/14/multi-agent-research-system/#atom-everything",
-      "publishDate": "2025-06-14T22:00:52+00:00"
+      "postTitle": "Quoting Joshua Barretto",
+      "postUrl": "https://simonwillison.net/2025/Jun/15/joshua-barretto/#atom-everything",
+      "publishDate": "2025-06-15T19:50:44+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -95,9 +95,9 @@
     {
       "blogTitle": "Kaazhchakal",
       "blogUrl": "https://yezhuvath.com/",
-      "postTitle": "Bakunin \u2013 Back from the grave!",
-      "postUrl": "https://yezhuvath.com/2025/06/13/bakunin-back-from-the-grave/",
-      "publishDate": "Thu, 12 Jun 2025 21:14:54 +0000"
+      "postTitle": "A Banksy Museum!",
+      "postUrl": "https://yezhuvath.com/2025/06/16/a-banksy-museum/",
+      "publishDate": "Sun, 15 Jun 2025 20:20:14 +0000"
     },
     {
       "blogTitle": "Tangled Bytes",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Gist of Go: Data races",
-      "postUrl": "https://antonz.org/go-concurrency/data-races/",
-      "publishDate": "Sun, 08 Jun 2025 17:00:00 +0000"
+      "postTitle": "Gist of Go: Race conditions",
+      "postUrl": "https://antonz.org/go-concurrency/race-conditions/",
+      "publishDate": "Sun, 15 Jun 2025 10:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Pax Mercatus",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/pax-mercatus",
-      "publishDate": "Tue, 10 Jun 2025 12:02:48 GMT"
+      "postTitle": "Why Were Germany and Italy the Last European Countries to Unify?",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/why-were-germany-and-italy-the-last",
+      "publishDate": "Sun, 15 Jun 2025 09:01:02 GMT"
     },
     {
       "blogTitle": "Anil Dash",
