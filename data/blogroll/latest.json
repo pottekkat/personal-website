@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-06-16T00:24:23.317807",
+  "lastUpdated": "2025-06-17T00:23:08.752874",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Reading a Big Number",
-      "postUrl": "https://xkcd.com/3102/",
-      "publishDate": "Fri, 13 Jun 2025 04:00:00 -0000"
+      "postTitle": "Exoplanet System",
+      "postUrl": "https://xkcd.com/3103/",
+      "publishDate": "Mon, 16 Jun 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Joshua Barretto",
-      "postUrl": "https://simonwillison.net/2025/Jun/15/joshua-barretto/#atom-everything",
-      "publishDate": "2025-06-15T19:50:44+00:00"
+      "postTitle": "100% effective",
+      "postUrl": "https://simonwillison.net/2025/Jun/16/100-percent/#atom-everything",
+      "publishDate": "2025-06-16T23:54:29+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -67,9 +67,9 @@
     {
       "blogTitle": "Austin Z. Henley's Blog",
       "blogUrl": "https://austinhenley.com/",
-      "postTitle": "The fastest way to detect a vowel in a string",
-      "postUrl": "https://austinhenley.com/blog/vowels.html",
-      "publishDate": "Fri, 13 Jun 2025 15:00:01 -0400"
+      "postTitle": "TWhat makes a good side project?",
+      "postUrl": "https://austinhenley.com/blog/goodproject.html",
+      "publishDate": "Mon, 16 Jun 2025 20:00:01 -0400"
     },
     {
       "blogTitle": "blog.jfo.click",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Democracy should happen online",
-      "postUrl": "https://www.elysian.press/p/democracy-should-happen-online",
-      "publishDate": "Fri, 13 Jun 2025 17:58:13 GMT"
+      "postTitle": "No, we shouldn't return to the climate of the 18th century",
+      "postUrl": "https://www.elysian.press/p/no-we-shouldnt-return-to-the-climate",
+      "publishDate": "Mon, 16 Jun 2025 19:01:41 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
