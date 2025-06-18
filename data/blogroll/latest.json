@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-17T00:23:08.752874",
+  "lastUpdated": "2025-06-18T00:23:10.079247",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "100% effective",
-      "postUrl": "https://simonwillison.net/2025/Jun/16/100-percent/#atom-everything",
-      "publishDate": "2025-06-16T23:54:29+00:00"
+      "postTitle": "Trying out the new Gemini 2.5 model family",
+      "postUrl": "https://simonwillison.net/2025/Jun/17/gemini-2-5/#atom-everything",
+      "publishDate": "2025-06-17T22:00:00+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -67,7 +67,7 @@
     {
       "blogTitle": "Austin Z. Henley's Blog",
       "blogUrl": "https://austinhenley.com/",
-      "postTitle": "TWhat makes a good side project?",
+      "postTitle": "What makes a good side project?",
       "postUrl": "https://austinhenley.com/blog/goodproject.html",
       "publishDate": "Mon, 16 Jun 2025 20:00:01 -0400"
     },
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Why Were Germany and Italy the Last European Countries to Unify?",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/why-were-germany-and-italy-the-last",
-      "publishDate": "Sun, 15 Jun 2025 09:01:02 GMT"
+      "postTitle": "Iran",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/iran",
+      "publishDate": "Tue, 17 Jun 2025 12:03:15 GMT"
     },
     {
       "blogTitle": "Anil Dash",
