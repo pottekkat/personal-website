@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-19T00:23:13.722279",
+  "lastUpdated": "2025-06-20T00:23:00.344324",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Workaccount2 on Hacker News",
-      "postUrl": "https://simonwillison.net/2025/Jun/18/context-rot/#atom-everything",
-      "publishDate": "2025-06-18T23:15:12+00:00"
+      "postTitle": "Cato CTRL\u2122 Threat Research: PoC Attack Targeting Atlassian\u2019s Model Context Protocol (MCP) Introduces New \u201cLiving off AI\u201d Risk",
+      "postUrl": "https://simonwillison.net/2025/Jun/19/atlassian-prompt-injection-mcp/#atom-everything",
+      "publishDate": "2025-06-19T22:53:54+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -67,9 +67,9 @@
     {
       "blogTitle": "Austin Z. Henley's Blog",
       "blogUrl": "https://austinhenley.com/",
-      "postTitle": "What makes a good side project?",
-      "postUrl": "https://austinhenley.com/blog/goodproject.html",
-      "publishDate": "Mon, 16 Jun 2025 20:00:01 -0400"
+      "postTitle": "100 blog posts, 6 years, 5 million views",
+      "postUrl": "https://austinhenley.com/blog/100.html",
+      "publishDate": "Thu, 19 Jun 2025 15:00:01 -0400"
     },
     {
       "blogTitle": "blog.jfo.click",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "A Joke",
-      "postUrl": "https://sheep.horse/2023/6/a_joke.html",
-      "publishDate": "Sat, 24 Jun 2023 12:10:56 +0000"
+      "postTitle": "C++ Pitfall : shared_future",
+      "postUrl": "https://sheep.horse/2023/11/c%2B%2B_pitfall_-_shared_future.html",
+      "publishDate": "Thu, 09 Nov 2023 23:57:32 +0000"
     },
     {
       "blogTitle": "AI Snake Oil",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Iran",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/iran",
-      "publishDate": "Tue, 17 Jun 2025 12:03:15 GMT"
+      "postTitle": "Why Did Israel Strike Iran Now?",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/why-did-israel-strike-iran-now",
+      "publishDate": "Thu, 19 Jun 2025 12:00:47 GMT"
     },
     {
       "blogTitle": "Anil Dash",
