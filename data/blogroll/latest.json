@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-06-20T00:23:00.344324",
+  "lastUpdated": "2025-06-21T00:22:55.615524",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Tukey",
-      "postUrl": "https://xkcd.com/3104/",
-      "publishDate": "Wed, 18 Jun 2025 04:00:00 -0000"
+      "postTitle": "Interoperability",
+      "postUrl": "https://xkcd.com/3105/",
+      "publishDate": "Fri, 20 Jun 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Cato CTRL\u2122 Threat Research: PoC Attack Targeting Atlassian\u2019s Model Context Protocol (MCP) Introduces New \u201cLiving off AI\u201d Risk",
-      "postUrl": "https://simonwillison.net/2025/Jun/19/atlassian-prompt-injection-mcp/#atom-everything",
-      "publishDate": "2025-06-19T22:53:54+00:00"
+      "postTitle": "AbsenceBench: Language Models Can't Tell What's Missing",
+      "postUrl": "https://simonwillison.net/2025/Jun/20/absencebench/#atom-everything",
+      "publishDate": "2025-06-20T23:15:04+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "No, we shouldn't return to the climate of the 18th century",
-      "postUrl": "https://www.elysian.press/p/no-we-shouldnt-return-to-the-climate",
-      "publishDate": "Mon, 16 Jun 2025 19:01:41 GMT"
+      "postTitle": "An online version of Da Vinci's journal?",
+      "postUrl": "https://www.elysian.press/p/marginalia",
+      "publishDate": "Fri, 20 Jun 2025 16:48:31 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "Star Wars, Veo 3 and Hollywood in the Age of AI Video",
-      "postUrl": "https://www.readtrung.com/p/star-wars-veo-3-and-hollywood-in",
-      "publishDate": "Thu, 12 Jun 2025 22:53:29 GMT"
+      "postTitle": "Booking: The $170B+ A/B Testing Machine",
+      "postUrl": "https://www.readtrung.com/p/booking-the-170b-ab-testing-machine",
+      "publishDate": "Fri, 20 Jun 2025 18:10:00 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
