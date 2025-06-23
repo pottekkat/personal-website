@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-22T00:25:41.450685",
+  "lastUpdated": "2025-06-23T00:25:04.110634",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "My First Open Source AI Generated Library",
-      "postUrl": "https://simonwillison.net/2025/Jun/21/my-first-open-source-ai-generated-library/#atom-everything",
-      "publishDate": "2025-06-21T23:22:45+00:00"
+      "postTitle": "Quoting Kent Beck",
+      "postUrl": "https://simonwillison.net/2025/Jun/22/kent-beck/#atom-everything",
+      "publishDate": "2025-06-22T15:28:46+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "The Asbestos Doctrine: Why Crypto Must Be Contained, Not Condoned",
-      "postUrl": "https://www.stephendiehl.com/posts/absethos_doctrine/",
-      "publishDate": "Sat, 21 Jun 2025 01:00:00 +0000"
+      "postTitle": "Program Synthesis: The \u03bb in the Machine",
+      "postUrl": "https://www.stephendiehl.com/posts/program_synthesis/",
+      "publishDate": "Sun, 22 Jun 2025 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Gist of Go: Race conditions",
-      "postUrl": "https://antonz.org/go-concurrency/race-conditions/",
-      "publishDate": "Sun, 15 Jun 2025 10:30:00 +0000"
+      "postTitle": "JSON evolution in Go: from v1 to v2",
+      "postUrl": "https://antonz.org/go-json-v2/",
+      "publishDate": "Sun, 22 Jun 2025 13:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Why Did Israel Strike Iran Now?",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/why-did-israel-strike-iran-now",
-      "publishDate": "Thu, 19 Jun 2025 12:00:47 GMT"
+      "postTitle": "Where Will the Israel \u2013 Iran War Go from Here?",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/where-will-the-israel-iran-war-go",
+      "publishDate": "Sun, 22 Jun 2025 10:15:05 GMT"
     },
     {
       "blogTitle": "Anil Dash",
