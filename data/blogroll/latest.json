@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-23T00:25:04.110634",
+  "lastUpdated": "2025-06-24T00:23:22.901659",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Kent Beck",
-      "postUrl": "https://simonwillison.net/2025/Jun/22/kent-beck/#atom-everything",
-      "publishDate": "2025-06-22T15:28:46+00:00"
+      "postTitle": "Phoenix.new is Fly's entry into the prompt-driven app development space",
+      "postUrl": "https://simonwillison.net/2025/Jun/23/phoenix-new/#atom-everything",
+      "publishDate": "2025-06-23T18:42:02+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "Program Synthesis: The \u03bb in the Machine",
-      "postUrl": "https://www.stephendiehl.com/posts/program_synthesis/",
-      "publishDate": "Sun, 22 Jun 2025 01:00:00 +0000"
+      "postTitle": "Fine-tuning With Tool Calling",
+      "postUrl": "https://www.stephendiehl.com/posts/fine_tuning_tools/",
+      "publishDate": "Mon, 23 Jun 2025 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "An online version of Da Vinci's journal?",
-      "postUrl": "https://www.elysian.press/p/marginalia",
-      "publishDate": "Fri, 20 Jun 2025 16:48:31 GMT"
+      "postTitle": "A self-governing forest",
+      "postUrl": "https://www.elysian.press/p/a-self-governing-forest-by-terra0",
+      "publishDate": "Mon, 23 Jun 2025 18:01:34 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "300 words for 300 posts",
-      "postUrl": "https://newsletter.pathlesspath.com/p/300-words-for-300-posts",
-      "publishDate": "Mon, 09 Jun 2025 11:30:32 GMT"
+      "postTitle": "Pathless Path: From Antimeme to Meme | #301",
+      "postUrl": "https://newsletter.pathlesspath.com/p/pathless-path-as-accidental-antimeme",
+      "publishDate": "Mon, 23 Jun 2025 11:30:42 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
