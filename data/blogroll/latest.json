@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-24T00:23:22.901659",
+  "lastUpdated": "2025-06-25T00:23:24.960583",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Phoenix.new is Fly's entry into the prompt-driven app development space",
-      "postUrl": "https://simonwillison.net/2025/Jun/23/phoenix-new/#atom-everything",
-      "publishDate": "2025-06-23T18:42:02+00:00"
+      "postTitle": "Anthropic wins a major fair use victory for AI \u2014 but it\u2019s still in trouble for stealing books",
+      "postUrl": "https://simonwillison.net/2025/Jun/24/anthropic-training/#atom-everything",
+      "publishDate": "2025-06-24T22:01:05+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "C++ Pitfall : shared_future",
-      "postUrl": "https://sheep.horse/2023/11/c%2B%2B_pitfall_-_shared_future.html",
-      "publishDate": "Thu, 09 Nov 2023 23:57:32 +0000"
+      "postTitle": "RSS is Not Dead",
+      "postUrl": "https://sheep.horse/2024/3/rss_is_not_dead.html",
+      "publishDate": "Sun, 03 Mar 2024 17:24:04 +0000"
     },
     {
       "blogTitle": "AI Snake Oil",
