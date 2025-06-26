@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-06-25T00:23:24.960583",
+  "lastUpdated": "2025-06-26T00:23:16.672798",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Interoperability",
-      "postUrl": "https://xkcd.com/3105/",
-      "publishDate": "Fri, 20 Jun 2025 04:00:00 -0000"
+      "postTitle": "Weather Balloons",
+      "postUrl": "https://xkcd.com/3107/",
+      "publishDate": "Wed, 25 Jun 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Anthropic wins a major fair use victory for AI \u2014 but it\u2019s still in trouble for stealing books",
-      "postUrl": "https://simonwillison.net/2025/Jun/24/anthropic-training/#atom-everything",
-      "publishDate": "2025-06-24T22:01:05+00:00"
+      "postTitle": "Build and share AI-powered apps with Claude",
+      "postUrl": "https://simonwillison.net/2025/Jun/25/ai-powered-apps-with-claude/#atom-everything",
+      "publishDate": "2025-06-25T21:47:35+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "A self-governing forest",
-      "postUrl": "https://www.elysian.press/p/a-self-governing-forest-by-terra0",
-      "publishDate": "Mon, 23 Jun 2025 18:01:34 GMT"
+      "postTitle": "The future used to be better",
+      "postUrl": "https://www.elysian.press/p/the-future-used-to-be-better",
+      "publishDate": "Wed, 25 Jun 2025 19:01:43 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
