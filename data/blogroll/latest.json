@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-26T00:23:16.672798",
+  "lastUpdated": "2025-06-27T00:23:43.620906",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Gender and Sexuality Alliances in primary school at CIS?!",
-      "postUrl": "https://world.hey.com/dhh/gender-and-sexuality-alliances-in-primary-school-at-cis-97f66c06",
-      "publishDate": "2025-06-03T10:23:50Z"
+      "postTitle": "Omarchy is out",
+      "postUrl": "https://world.hey.com/dhh/omarchy-is-out-4666dd31",
+      "publishDate": "2025-06-26T23:07:19Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Build and share AI-powered apps with Claude",
-      "postUrl": "https://simonwillison.net/2025/Jun/25/ai-powered-apps-with-claude/#atom-everything",
-      "publishDate": "2025-06-25T21:47:35+00:00"
+      "postTitle": "Introducing Gemma 3n: The developer guide",
+      "postUrl": "https://simonwillison.net/2025/Jun/26/gemma-3n/#atom-everything",
+      "publishDate": "2025-06-26T21:08:36+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -81,9 +81,9 @@
     {
       "blogTitle": "Julia Evans",
       "blogUrl": "https://jvns.ca/",
-      "postTitle": "Using `make` to compile C programs (for non-C-programmers)",
-      "postUrl": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/",
-      "publishDate": "2025-06-10T00:00:00+00:00"
+      "postTitle": "New zine: The Secret Rules of the Terminal",
+      "postUrl": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/",
+      "publishDate": "2025-06-26T00:00:00+00:00"
     },
     {
       "blogTitle": "Imposter!",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "JSON evolution in Go: from v1 to v2",
-      "postUrl": "https://antonz.org/go-json-v2/",
-      "publishDate": "Sun, 22 Jun 2025 13:30:00 +0000"
+      "postTitle": "Go 1.25 interactive tour",
+      "postUrl": "https://antonz.org/go-1-25/",
+      "publishDate": "Thu, 26 Jun 2025 11:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Where Will the Israel \u2013 Iran War Go from Here?",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/where-will-the-israel-iran-war-go",
-      "publishDate": "Sun, 22 Jun 2025 10:15:05 GMT"
+      "postTitle": "Will Iran Pursue the Nuclear Bomb?",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/will-iran-pursue-the-nuclear-bomb",
+      "publishDate": "Thu, 26 Jun 2025 12:02:27 GMT"
     },
     {
       "blogTitle": "Anil Dash",
