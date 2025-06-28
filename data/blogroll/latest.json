@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-27T00:23:43.620906",
+  "lastUpdated": "2025-06-28T00:22:25.903819",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Omarchy is out",
-      "postUrl": "https://world.hey.com/dhh/omarchy-is-out-4666dd31",
-      "publishDate": "2025-06-26T23:07:19Z"
+      "postTitle": "Self-driving is finally happening",
+      "postUrl": "https://world.hey.com/dhh/self-driving-is-finally-happening-1d973fdd",
+      "publishDate": "2025-06-27T15:21:37Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Introducing Gemma 3n: The developer guide",
-      "postUrl": "https://simonwillison.net/2025/Jun/26/gemma-3n/#atom-everything",
-      "publishDate": "2025-06-26T21:08:36+00:00"
+      "postTitle": "Context engineering",
+      "postUrl": "https://simonwillison.net/2025/Jun/27/context-engineering/#atom-everything",
+      "publishDate": "2025-06-27T23:42:43+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "The future used to be better",
-      "postUrl": "https://www.elysian.press/p/the-future-used-to-be-better",
-      "publishDate": "Wed, 25 Jun 2025 19:01:43 GMT"
+      "postTitle": "Democrats Need a Mamdani-Type to Win",
+      "postUrl": "https://www.elysian.press/p/democrats-need-a-mamdani-type-to",
+      "publishDate": "Fri, 27 Jun 2025 20:54:24 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "Booking: The $170B+ A/B Testing Machine",
-      "postUrl": "https://www.readtrung.com/p/booking-the-170b-ab-testing-machine",
-      "publishDate": "Fri, 20 Jun 2025 18:10:00 GMT"
+      "postTitle": "Best of SatPost (First Half of 2025)",
+      "postUrl": "https://www.readtrung.com/p/best-of-satpost-first-half-of-2025",
+      "publishDate": "Fri, 27 Jun 2025 16:52:32 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
