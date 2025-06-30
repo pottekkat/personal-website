@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-29T00:26:18.973349",
+  "lastUpdated": "2025-06-30T00:25:11.810471",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Self-driving is finally happening",
-      "postUrl": "https://world.hey.com/dhh/self-driving-is-finally-happening-1d973fdd",
-      "publishDate": "2025-06-27T15:21:37Z"
+      "postTitle": "The parental dead end of consent morality",
+      "postUrl": "https://world.hey.com/dhh/the-parental-dead-end-of-consent-morality-e4e8a8ee",
+      "publishDate": "2025-06-29T19:15:55Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Context engineering",
-      "postUrl": "https://simonwillison.net/2025/Jun/27/context-engineering/#atom-everything",
-      "publishDate": "2025-06-27T23:42:43+00:00"
+      "postTitle": "Agentic Coding: The Future of Software Development with Agents",
+      "postUrl": "https://simonwillison.net/2025/Jun/29/agentic-coding/#atom-everything",
+      "publishDate": "2025-06-29T23:59:31+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "Fine-tuning With Tool Calling",
-      "postUrl": "https://www.stephendiehl.com/posts/fine_tuning_tools/",
-      "publishDate": "Mon, 23 Jun 2025 01:00:00 +0000"
+      "postTitle": "Fast Tensor Canonicalization in Rust",
+      "postUrl": "https://www.stephendiehl.com/posts/tensor_canonicalization_rust/",
+      "publishDate": "Sun, 29 Jun 2025 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
