@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-01T00:26:47.713527",
+  "lastUpdated": "2025-07-02T00:23:17.290417",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "microsoft/vscode-copilot-chat",
-      "postUrl": "https://simonwillison.net/2025/Jun/30/vscode-copilot-chat/#atom-everything",
-      "publishDate": "2025-06-30T21:08:40+00:00"
+      "postTitle": "TIL: Using Playwright MCP with Claude Code",
+      "postUrl": "https://simonwillison.net/2025/Jul/1/using-playwright-mcp-with-claude-code/#atom-everything",
+      "publishDate": "2025-07-01T23:55:09+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Go 1.25 interactive tour",
-      "postUrl": "https://antonz.org/go-1-25/",
-      "publishDate": "Thu, 26 Jun 2025 11:30:00 +0000"
+      "postTitle": "Gist of Go: Semaphores",
+      "postUrl": "https://antonz.org/go-concurrency/semaphores/",
+      "publishDate": "Tue, 01 Jul 2025 15:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "New Article: Economic Nihilism",
-      "postUrl": "https://letter.palladiummag.com/p/new-article-economic-nihilism",
-      "publishDate": "Mon, 30 Jun 2025 16:38:51 GMT"
+      "postTitle": "Early Article: Why British Antarctica Should Be Settled and Developed",
+      "postUrl": "https://letter.palladiummag.com/p/early-article-why-british-antarctica",
+      "publishDate": "Tue, 01 Jul 2025 23:44:02 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
