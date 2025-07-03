@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-02T00:23:17.290417",
+  "lastUpdated": "2025-07-03T00:23:44.997588",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "TIL: Using Playwright MCP with Claude Code",
-      "postUrl": "https://simonwillison.net/2025/Jul/1/using-playwright-mcp-with-claude-code/#atom-everything",
-      "publishDate": "2025-07-01T23:55:09+00:00"
+      "postTitle": "Quoting Charles Babbage",
+      "postUrl": "https://simonwillison.net/2025/Jul/2/charles-babbage/#atom-everything",
+      "publishDate": "2025-07-02T15:04:05+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "How can we rewild the Earth at scale?",
-      "postUrl": "https://www.elysian.press/p/how-can-we-rewild-the-earth-at-scale",
-      "publishDate": "Mon, 30 Jun 2025 18:00:49 GMT"
+      "postTitle": "Maybe an exowomb is better than pregnancy",
+      "postUrl": "https://www.elysian.press/p/exowomb-vs-pregnancy-in-the-pod-generation",
+      "publishDate": "Wed, 02 Jul 2025 17:01:31 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
