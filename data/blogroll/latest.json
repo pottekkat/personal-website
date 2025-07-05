@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-07-04T00:23:12.187160",
+  "lastUpdated": "2025-07-05T00:22:13.626040",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Global Ranking",
-      "postUrl": "https://xkcd.com/3110/",
-      "publishDate": "Wed, 02 Jul 2025 04:00:00 -0000"
+      "postTitle": "Artificial Gravity",
+      "postUrl": "https://xkcd.com/3111/",
+      "publishDate": "Fri, 04 Jul 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Adam Gordon Bell",
-      "postUrl": "https://simonwillison.net/2025/Jul/3/adam-gordon-bell/#atom-everything",
-      "publishDate": "2025-07-03T21:58:02+00:00"
+      "postTitle": "Identify, solve, verify",
+      "postUrl": "https://simonwillison.net/2025/Jul/4/identify-solve-verify/#atom-everything",
+      "publishDate": "2025-07-04T19:08:54+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
