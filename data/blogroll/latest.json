@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-05T00:22:13.626040",
+  "lastUpdated": "2025-07-06T00:25:56.831970",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Identify, solve, verify",
-      "postUrl": "https://simonwillison.net/2025/Jul/4/identify-solve-verify/#atom-everything",
-      "publishDate": "2025-07-04T19:08:54+00:00"
+      "postTitle": "Serving 200 million requests per day with a cgi-bin",
+      "postUrl": "https://simonwillison.net/2025/Jul/5/cgi-bin-performance/#atom-everything",
+      "publishDate": "2025-07-05T23:28:31+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -95,9 +95,9 @@
     {
       "blogTitle": "Kaazhchakal",
       "blogUrl": "https://yezhuvath.com/",
-      "postTitle": "A Banksy Museum!",
-      "postUrl": "https://yezhuvath.com/2025/06/16/a-banksy-museum/",
-      "publishDate": "Sun, 15 Jun 2025 20:20:14 +0000"
+      "postTitle": "\u010cesk\u00fd Krumlov \u2013 A Gem!",
+      "postUrl": "https://yezhuvath.com/2025/07/05/cesky-krumlov-a-gem/",
+      "publishDate": "Sat, 05 Jul 2025 17:56:16 +0000"
     },
     {
       "blogTitle": "Tangled Bytes",
