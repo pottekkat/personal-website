@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-06T00:25:56.831970",
+  "lastUpdated": "2025-07-07T00:25:18.014571",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Serving 200 million requests per day with a cgi-bin",
-      "postUrl": "https://simonwillison.net/2025/Jul/5/cgi-bin-performance/#atom-everything",
-      "publishDate": "2025-07-05T23:28:31+00:00"
+      "postTitle": "I Shipped a macOS App Built Entirely by Claude Code",
+      "postUrl": "https://simonwillison.net/2025/Jul/6/macos-app-built-entirely-by-claude-code/#atom-everything",
+      "publishDate": "2025-07-06T22:47:51+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Will Iran\u2019s Regime Change?",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/will-irans-regime-change",
-      "publishDate": "Thu, 03 Jul 2025 12:01:53 GMT"
+      "postTitle": "Jeans, Suits, Athleisure, Saris: Four Examples of Why We Dress the Way We Dress",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/jeans-suits-athleisure-saris-four",
+      "publishDate": "Sun, 06 Jul 2025 09:00:18 GMT"
     },
     {
       "blogTitle": "Anil Dash",
