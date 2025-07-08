@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-07-07T00:25:18.014571",
+  "lastUpdated": "2025-07-08T00:23:17.535751",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Artificial Gravity",
-      "postUrl": "https://xkcd.com/3111/",
-      "publishDate": "Fri, 04 Jul 2025 04:00:00 -0000"
+      "postTitle": "Geology Murder",
+      "postUrl": "https://xkcd.com/3112/",
+      "publishDate": "Mon, 07 Jul 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "I Shipped a macOS App Built Entirely by Claude Code",
-      "postUrl": "https://simonwillison.net/2025/Jul/6/macos-app-built-entirely-by-claude-code/#atom-everything",
-      "publishDate": "2025-07-06T22:47:51+00:00"
+      "postTitle": "Quoting Aphyr",
+      "postUrl": "https://simonwillison.net/2025/Jul/7/aphyr/#atom-everything",
+      "publishDate": "2025-07-07T19:27:51+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -95,9 +95,9 @@
     {
       "blogTitle": "Kaazhchakal",
       "blogUrl": "https://yezhuvath.com/",
-      "postTitle": "\u010cesk\u00fd Krumlov \u2013 A Gem!",
-      "postUrl": "https://yezhuvath.com/2025/07/05/cesky-krumlov-a-gem/",
-      "publishDate": "Sat, 05 Jul 2025 17:56:16 +0000"
+      "postTitle": "The Hill of Crosses",
+      "postUrl": "https://yezhuvath.com/2025/07/07/the-hill-of-crosses/",
+      "publishDate": "Mon, 07 Jul 2025 17:21:19 +0000"
     },
     {
       "blogTitle": "Tangled Bytes",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Maybe an exowomb is better than pregnancy",
-      "postUrl": "https://www.elysian.press/p/exowomb-vs-pregnancy-in-the-pod-generation",
-      "publishDate": "Wed, 02 Jul 2025 17:01:31 GMT"
+      "postTitle": "We should all participate in scientific research",
+      "postUrl": "https://www.elysian.press/p/participatory-science-makes-everyone",
+      "publishDate": "Mon, 07 Jul 2025 17:00:47 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
