@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-08T00:23:17.535751",
+  "lastUpdated": "2025-07-09T00:24:04.088588",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Aphyr",
-      "postUrl": "https://simonwillison.net/2025/Jul/7/aphyr/#atom-everything",
-      "publishDate": "2025-07-07T19:27:51+00:00"
+      "postTitle": "uv cache prune",
+      "postUrl": "https://simonwillison.net/2025/Jul/8/uv-cache-prune/#atom-everything",
+      "publishDate": "2025-07-08T23:40:41+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Gist of Go: Semaphores",
-      "postUrl": "https://antonz.org/go-concurrency/semaphores/",
-      "publishDate": "Tue, 01 Jul 2025 15:30:00 +0000"
+      "postTitle": "Concise test assertions with Be",
+      "postUrl": "https://antonz.org/be/",
+      "publishDate": "Tue, 08 Jul 2025 08:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -179,15 +179,15 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Jeans, Suits, Athleisure, Saris: Four Examples of Why We Dress the Way We Dress",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/jeans-suits-athleisure-saris-four",
-      "publishDate": "Sun, 06 Jul 2025 09:00:18 GMT"
+      "postTitle": "Silk, Porcelain, Tea, Opium: 2000 Years of Trade Deficit with China",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/silk-porcelain-tea-opium-china-deficit",
+      "publishDate": "Tue, 08 Jul 2025 12:03:08 GMT"
     },
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
       "postTitle": "Lessons learned from burning things.",
-      "postUrl": "https://anildash.com/2024/11/30/making-fire/",
+      "postUrl": "https://anildash.com/2024/11/29/making-fire/",
       "publishDate": "2024-11-30T00:00:00Z"
     }
   ]
