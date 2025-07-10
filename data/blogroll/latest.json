@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-07-09T00:24:04.088588",
+  "lastUpdated": "2025-07-10T00:23:39.786457",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Geology Murder",
-      "postUrl": "https://xkcd.com/3112/",
-      "publishDate": "Mon, 07 Jul 2025 04:00:00 -0000"
+      "postTitle": "Fix This Sign",
+      "postUrl": "https://xkcd.com/3113/",
+      "publishDate": "Wed, 09 Jul 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "uv cache prune",
-      "postUrl": "https://simonwillison.net/2025/Jul/8/uv-cache-prune/#atom-everything",
-      "publishDate": "2025-07-08T23:40:41+00:00"
+      "postTitle": "Infinite Monkey",
+      "postUrl": "https://simonwillison.net/2025/Jul/9/infinite-monkey/#atom-everything",
+      "publishDate": "2025-07-09T19:07:45+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,16 +151,16 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "We should all participate in scientific research",
-      "postUrl": "https://www.elysian.press/p/participatory-science-makes-everyone",
-      "publishDate": "Mon, 07 Jul 2025 17:00:47 GMT"
+      "postTitle": "How much of the planet should we harm for our comfort?",
+      "postUrl": "https://www.elysian.press/p/how-much-of-the-planet-should-we",
+      "publishDate": "Wed, 09 Jul 2025 18:01:38 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "New Article: Why British Antarctica Should Be Settled and Developed",
-      "postUrl": "https://letter.palladiummag.com/p/early-article-why-british-antarctica",
-      "publishDate": "Tue, 01 Jul 2025 23:44:02 GMT"
+      "postTitle": "Early Article: Will Future Civilizations Bother to Excavate Our Remains?",
+      "postUrl": "https://letter.palladiummag.com/p/early-article-will-future-civilizations",
+      "publishDate": "Wed, 09 Jul 2025 01:56:29 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
