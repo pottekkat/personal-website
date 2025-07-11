@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-10T00:23:39.786457",
+  "lastUpdated": "2025-07-11T00:23:49.603184",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Infinite Monkey",
-      "postUrl": "https://simonwillison.net/2025/Jul/9/infinite-monkey/#atom-everything",
-      "publishDate": "2025-07-09T19:07:45+00:00"
+      "postTitle": "Grok: searching X for \"from:elonmusk (Israel OR Palestine OR Hamas OR Gaza)\"",
+      "postUrl": "https://simonwillison.net/2025/Jul/11/grok-musk/#atom-everything",
+      "publishDate": "2025-07-11T00:21:18+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "How much of the planet should we harm for our comfort?",
-      "postUrl": "https://www.elysian.press/p/how-much-of-the-planet-should-we",
-      "publishDate": "Wed, 09 Jul 2025 18:01:38 GMT"
+      "postTitle": "No, KKR is not \u201cequity washing\u201d",
+      "postUrl": "https://www.elysian.press/p/no-kkr-is-not-equity-washing",
+      "publishDate": "Thu, 10 Jul 2025 19:48:25 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -179,15 +179,15 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Silk, Porcelain, Tea, Opium: 2000 Years of Trade Deficit with China",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/silk-porcelain-tea-opium-china-deficit",
-      "publishDate": "Tue, 08 Jul 2025 12:03:08 GMT"
+      "postTitle": "How Silver Made Chinese Empires",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-silver-made-chinese-empires",
+      "publishDate": "Thu, 10 Jul 2025 19:10:52 GMT"
     },
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
       "postTitle": "Lessons learned from burning things.",
-      "postUrl": "https://anildash.com/2024/11/29/making-fire/",
+      "postUrl": "https://anildash.com/2024/11/30/making_fire/",
       "publishDate": "2024-11-30T00:00:00Z"
     }
   ]
