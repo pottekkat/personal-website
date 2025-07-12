@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-07-11T00:23:49.603184",
+  "lastUpdated": "2025-07-12T00:23:04.061651",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Fix This Sign",
-      "postUrl": "https://xkcd.com/3113/",
-      "publishDate": "Wed, 09 Jul 2025 04:00:00 -0000"
+      "postTitle": "Building a Fire",
+      "postUrl": "https://xkcd.com/3114/",
+      "publishDate": "Fri, 11 Jul 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -14,13 +14,6 @@
       "postTitle": "Get in losers, we're moving to Linux!",
       "postUrl": "https://world.hey.com/dhh/get-in-losers-we-re-moving-to-linux-5e1b93cd",
       "publishDate": "2025-07-03T22:26:17Z"
-    },
-    {
-      "blogTitle": "Simon Willison's Weblog",
-      "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Grok: searching X for \"from:elonmusk (Israel OR Palestine OR Hamas OR Gaza)\"",
-      "postUrl": "https://simonwillison.net/2025/Jul/11/grok-musk/#atom-everything",
-      "publishDate": "2025-07-11T00:21:18+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,7 +151,7 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Early Article: Will Future Civilizations Bother to Excavate Our Remains?",
+      "postTitle": "New Article: Will Future Civilizations Bother to Excavate Our Remains?",
       "postUrl": "https://letter.palladiummag.com/p/early-article-will-future-civilizations",
       "publishDate": "Wed, 09 Jul 2025 01:56:29 GMT"
     },
