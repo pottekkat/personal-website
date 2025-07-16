@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-07-15T00:24:40.805276",
+  "lastUpdated": "2025-07-16T00:24:18.111792",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Building a Fire",
-      "postUrl": "https://xkcd.com/3114/",
-      "publishDate": "Fri, 11 Jul 2025 04:00:00 -0000"
+      "postTitle": "Unsolved Physics Problems",
+      "postUrl": "https://xkcd.com/3115/",
+      "publishDate": "Mon, 14 Jul 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -14,6 +14,13 @@
       "postTitle": "The 6 Hours of Lex",
       "postUrl": "https://world.hey.com/dhh/the-6-hours-of-lex-888cbf16",
       "publishDate": "2025-07-14T18:30:00Z"
+    },
+    {
+      "blogTitle": "Simon Willison's Weblog",
+      "blogUrl": "https://simonwillison.net/",
+      "postTitle": "Reflections on OpenAI",
+      "postUrl": "https://simonwillison.net/2025/Jul/15/reflections-on-openai/#atom-everything",
+      "publishDate": "2025-07-15T18:02:41+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -123,16 +130,16 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Concise test assertions with Be",
-      "postUrl": "https://antonz.org/be/",
-      "publishDate": "Tue, 08 Jul 2025 08:00:00 +0000"
+      "postTitle": "Redka: Redis re-implemented with SQL",
+      "postUrl": "https://antonz.org/redka/",
+      "publishDate": "Tue, 15 Jul 2025 06:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "RSS is Not Dead",
-      "postUrl": "https://sheep.horse/2024/3/rss_is_not_dead.html",
-      "publishDate": "Sun, 03 Mar 2024 17:24:04 +0000"
+      "postTitle": "I Made a Game - Voyage of the Marigold",
+      "postUrl": "https://sheep.horse/2024/4/i_made_a_game_-_voyage_of_the_marigold.html",
+      "publishDate": "Tue, 02 Apr 2024 23:31:22 +0000"
     },
     {
       "blogTitle": "AI Snake Oil",
