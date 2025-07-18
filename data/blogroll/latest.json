@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-17T00:24:40.237346",
+  "lastUpdated": "2025-07-18T00:24:06.569468",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Linux crosses magic market share threshold in US",
-      "postUrl": "https://world.hey.com/dhh/linux-crosses-magic-market-share-threshold-in-us-1f914771",
-      "publishDate": "2025-07-16T17:31:52Z"
+      "postTitle": "American hype",
+      "postUrl": "https://world.hey.com/dhh/american-hype-6f7afd1b",
+      "publishDate": "2025-07-17T17:41:15Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Voxtral",
-      "postUrl": "https://simonwillison.net/2025/Jul/16/voxtral/#atom-everything",
-      "publishDate": "2025-07-16T21:11:56+00:00"
+      "postTitle": "Vibe scraping and vibe coding a schedule app for Open Sauce 2025 entirely on my phone",
+      "postUrl": "https://simonwillison.net/2025/Jul/17/vibe-scraping/#atom-everything",
+      "publishDate": "2025-07-17T19:38:50+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,8 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "error": true,
-      "errorMessage": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+      "postTitle": "Fast Tensor Canonicalization in Rust",
+      "postUrl": "https://www.stephendiehl.com/posts/tensor_canonicalization_rust/",
+      "publishDate": "Sun, 29 Jun 2025 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -129,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "You don't need testify/assert",
-      "postUrl": "https://antonz.org/do-not-testify/",
-      "publishDate": "Wed, 16 Jul 2025 06:00:00 +0000"
+      "postTitle": "On deep modules",
+      "postUrl": "https://antonz.org/deep-modules/",
+      "publishDate": "Thu, 17 Jul 2025 12:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -150,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Building an operating system for Earth",
-      "postUrl": "https://www.elysian.press/p/building-an-operating-system-for",
-      "publishDate": "Mon, 14 Jul 2025 18:00:12 GMT"
+      "postTitle": "We need a fourth branch of government",
+      "postUrl": "https://www.elysian.press/p/we-need-a-fourth-branch-of-government",
+      "publishDate": "Thu, 17 Jul 2025 17:29:23 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -164,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "Pathless Path: From Antimeme to Meme | #301",
-      "postUrl": "https://newsletter.pathlesspath.com/p/pathless-path-as-accidental-antimeme",
-      "publishDate": "Mon, 23 Jun 2025 11:30:42 GMT"
+      "postTitle": "Reinventing / Getting Unstuck On A Pathless Path | #302",
+      "postUrl": "https://newsletter.pathlesspath.com/p/reinventing-getting-unstuck-on-a",
+      "publishDate": "Thu, 17 Jul 2025 12:27:31 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
