@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-07-18T00:24:06.569468",
+  "lastUpdated": "2025-07-19T00:23:43.572615",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Echo Chamber",
-      "postUrl": "https://xkcd.com/3116/",
-      "publishDate": "Wed, 16 Jul 2025 04:00:00 -0000"
+      "postTitle": "Replication Crisis",
+      "postUrl": "https://xkcd.com/3117/",
+      "publishDate": "Fri, 18 Jul 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Vibe scraping and vibe coding a schedule app for Open Sauce 2025 entirely on my phone",
-      "postUrl": "https://simonwillison.net/2025/Jul/17/vibe-scraping/#atom-everything",
-      "publishDate": "2025-07-17T19:38:50+00:00"
+      "postTitle": "How to run an LLM on your laptop",
+      "postUrl": "https://simonwillison.net/2025/Jul/18/how-to-run-an-llm-on-your-laptop/#atom-everything",
+      "publishDate": "2025-07-18T15:33:27+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "Fast Tensor Canonicalization in Rust",
-      "postUrl": "https://www.stephendiehl.com/posts/tensor_canonicalization_rust/",
-      "publishDate": "Sun, 29 Jun 2025 01:00:00 +0000"
+      "postTitle": "It Would Be Good if the AI Bubble Burst",
+      "postUrl": "https://www.stephendiehl.com/posts/ai_bubble/",
+      "publishDate": "Fri, 18 Jul 2025 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -151,16 +151,16 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "We need a fourth branch of government",
-      "postUrl": "https://www.elysian.press/p/we-need-a-fourth-branch-of-government",
-      "publishDate": "Thu, 17 Jul 2025 17:29:23 GMT"
+      "postTitle": "An annotated reading of \"All Watched Over by Machines of Loving Grace\"",
+      "postUrl": "https://www.elysian.press/p/an-annotated-reading-of-all-watched",
+      "publishDate": "Fri, 18 Jul 2025 18:05:19 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "New Article: Will Future Civilizations Bother to Excavate Our Remains?",
-      "postUrl": "https://letter.palladiummag.com/p/early-article-will-future-civilizations",
-      "publishDate": "Wed, 09 Jul 2025 01:56:29 GMT"
+      "postTitle": "New Article: No Country Ever Got Rich From Tourism",
+      "postUrl": "https://letter.palladiummag.com/p/new-article-no-country-ever-got-rich",
+      "publishDate": "Fri, 18 Jul 2025 12:29:42 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
