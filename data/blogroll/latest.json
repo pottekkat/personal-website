@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-19T00:23:43.572615",
+  "lastUpdated": "2025-07-20T00:27:12.026077",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "How to run an LLM on your laptop",
-      "postUrl": "https://simonwillison.net/2025/Jul/18/how-to-run-an-llm-on-your-laptop/#atom-everything",
-      "publishDate": "2025-07-18T15:33:27+00:00"
+      "postTitle": "OpenAI's gold medal performance on the International Math Olympiad",
+      "postUrl": "https://simonwillison.net/2025/Jul/19/openai-gold-medal-math-olympiad/#atom-everything",
+      "publishDate": "2025-07-19T16:27:31+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
