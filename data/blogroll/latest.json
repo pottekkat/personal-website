@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-20T00:27:12.026077",
+  "lastUpdated": "2025-07-21T00:26:21.711669",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "OpenAI's gold medal performance on the International Math Olympiad",
-      "postUrl": "https://simonwillison.net/2025/Jul/19/openai-gold-medal-math-olympiad/#atom-everything",
-      "publishDate": "2025-07-19T16:27:31+00:00"
+      "postTitle": "Quoting Armin Ronacher",
+      "postUrl": "https://simonwillison.net/2025/Jul/20/armin-ronacher/#atom-everything",
+      "publishDate": "2025-07-20T10:54:45+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "On deep modules",
-      "postUrl": "https://antonz.org/deep-modules/",
-      "publishDate": "Thu, 17 Jul 2025 12:00:00 +0000"
+      "postTitle": "Gist of Go: Signaling",
+      "postUrl": "https://antonz.org/go-concurrency/signaling/",
+      "publishDate": "Sun, 20 Jul 2025 18:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
