@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-24T00:24:50.006542",
+  "lastUpdated": "2025-07-25T00:24:46.689067",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "It's a Beelink, baby",
-      "postUrl": "https://world.hey.com/dhh/it-s-a-beelink-baby-243fdaf1",
-      "publishDate": "2025-07-23T18:03:06Z"
+      "postTitle": "You expect principles but should wish for none",
+      "postUrl": "https://world.hey.com/dhh/you-expect-principles-but-should-wish-for-none-531988ec",
+      "publishDate": "2025-07-24T19:28:08Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Instagram Reel: Veo 3 paid preview",
-      "postUrl": "https://simonwillison.net/2025/Jul/23/instagram-reel-veo-3-paid-preview/#atom-everything",
-      "publishDate": "2025-07-23T19:08:32+00:00"
+      "postTitle": "Using GitHub Spark to reverse engineer GitHub Spark",
+      "postUrl": "https://simonwillison.net/2025/Jul/24/github-spark/#atom-everything",
+      "publishDate": "2025-07-24T15:21:30+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
