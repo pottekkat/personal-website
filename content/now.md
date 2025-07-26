@@ -24,7 +24,7 @@ I used to travel a lot. But now, I'm back home in Kerala for the foreseeable fut
 
 ~~I recently left my job to pursue my more amateur interests. It's still novel, so I don't really know how to put labels on the things that I do now (or whether I should).~~
 
-I now work at Eternis.ai where we are building the infrastructure for democratized, decentralized, and self-owned intelligence.
+I now work at [Eternis.ai](https://freysa.ai) where we are building the infrastructure for democratized, decentralized, and self-owned intelligence.
 
 Broadly, this is what I did during my otium:
 
