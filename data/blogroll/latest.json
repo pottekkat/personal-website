@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2025-07-25T00:24:46.689067",
+  "lastUpdated": "2025-07-26T00:23:39.999952",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Flettner Rotor",
-      "postUrl": "https://xkcd.com/3119/",
-      "publishDate": "Wed, 23 Jul 2025 04:00:00 -0000"
+      "postTitle": "Geologic Periods",
+      "postUrl": "https://xkcd.com/3120/",
+      "publishDate": "Fri, 25 Jul 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "You expect principles but should wish for none",
-      "postUrl": "https://world.hey.com/dhh/you-expect-principles-but-should-wish-for-none-531988ec",
-      "publishDate": "2025-07-24T19:28:08Z"
+      "postTitle": "Building competency is better than therapy",
+      "postUrl": "https://world.hey.com/dhh/building-competency-is-better-than-therapy-4622c6b7",
+      "publishDate": "2025-07-25T15:16:53Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Using GitHub Spark to reverse engineer GitHub Spark",
-      "postUrl": "https://simonwillison.net/2025/Jul/24/github-spark/#atom-everything",
-      "publishDate": "2025-07-24T15:21:30+00:00"
+      "postTitle": "Qwen3-235B-A22B-Thinking-2507",
+      "postUrl": "https://simonwillison.net/2025/Jul/25/qwen3-235b-a22b-thinking-2507/#atom-everything",
+      "publishDate": "2025-07-25T22:52:14+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
