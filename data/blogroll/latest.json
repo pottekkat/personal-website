@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-27T00:27:12.816464",
+  "lastUpdated": "2025-07-28T00:26:29.175567",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Official statement from Tea on their data leak",
-      "postUrl": "https://simonwillison.net/2025/Jul/26/official-statement-from-tea/#atom-everything",
-      "publishDate": "2025-07-26T16:20:12+00:00"
+      "postTitle": "The many, many, many JavaScript runtimes of the last decade",
+      "postUrl": "https://simonwillison.net/2025/Jul/27/javascript-runtimes-of-the-last-decade/#atom-everything",
+      "publishDate": "2025-07-27T23:56:57+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
