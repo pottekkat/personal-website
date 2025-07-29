@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2025-07-28T00:26:29.175567",
+  "lastUpdated": "2025-07-29T00:26:56.704518",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Geologic Periods",
-      "postUrl": "https://xkcd.com/3120/",
-      "publishDate": "Fri, 25 Jul 2025 04:00:00 -0000"
+      "postTitle": "Kite Incident",
+      "postUrl": "https://xkcd.com/3121/",
+      "publishDate": "Mon, 28 Jul 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Building competency is better than therapy",
-      "postUrl": "https://world.hey.com/dhh/building-competency-is-better-than-therapy-4622c6b7",
-      "publishDate": "2025-07-25T15:16:53Z"
+      "postTitle": "The beauty of ideals",
+      "postUrl": "https://world.hey.com/dhh/the-beauty-of-ideals-b3dccf72",
+      "publishDate": "2025-07-28T10:31:34Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "The many, many, many JavaScript runtimes of the last decade",
-      "postUrl": "https://simonwillison.net/2025/Jul/27/javascript-runtimes-of-the-last-decade/#atom-everything",
-      "publishDate": "2025-07-27T23:56:57+00:00"
+      "postTitle": "Quoting Anthropic",
+      "postUrl": "https://simonwillison.net/2025/Jul/28/anthropic/#atom-everything",
+      "publishDate": "2025-07-28T23:59:11+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "Thinking About Southeast Asia & Intellectual Work | #303",
-      "postUrl": "https://newsletter.pathlesspath.com/p/thinking-about-southeast-asia-and",
-      "publishDate": "Tue, 22 Jul 2025 13:03:21 GMT"
+      "postTitle": "Why is everyone in AI talking about the end of work? | #304",
+      "postUrl": "https://newsletter.pathlesspath.com/p/why-is-everyone-in-ai-talking-about",
+      "publishDate": "Mon, 28 Jul 2025 12:17:45 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Why Is Fertility Down, and How Much Should You Worry About It?",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/why-is-fertility-down-and-how-much",
-      "publishDate": "Mon, 21 Jul 2025 08:02:06 GMT"
+      "postTitle": "How Bread vs Rice Molded History",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-bread-vs-rice-molded-history",
+      "publishDate": "Mon, 28 Jul 2025 10:12:08 GMT"
     },
     {
       "blogTitle": "Anil Dash",
