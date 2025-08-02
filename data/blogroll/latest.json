@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-08-01T00:28:14.211877",
+  "lastUpdated": "2025-08-02T00:24:03.363745",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Bad Map Projection: Interrupted Spheres",
-      "postUrl": "https://xkcd.com/3122/",
-      "publishDate": "Wed, 30 Jul 2025 04:00:00 -0000"
+      "postTitle": "Canon",
+      "postUrl": "https://xkcd.com/3123/",
+      "publishDate": "Fri, 01 Aug 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Reverse engineering some updates to Claude",
-      "postUrl": "https://simonwillison.net/2025/Jul/31/updates-to-claude/#atom-everything",
-      "publishDate": "2025-07-31T23:45:48+00:00"
+      "postTitle": "Faster inference",
+      "postUrl": "https://simonwillison.net/2025/Aug/1/faster-inference/#atom-everything",
+      "publishDate": "2025-08-01T23:28:26+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
