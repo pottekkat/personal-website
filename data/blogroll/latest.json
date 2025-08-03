@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-02T00:24:03.363745",
+  "lastUpdated": "2025-08-03T00:27:45.685841",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Faster inference",
-      "postUrl": "https://simonwillison.net/2025/Aug/1/faster-inference/#atom-everything",
-      "publishDate": "2025-08-01T23:28:26+00:00"
+      "postTitle": "Re-label the \"Save\" button to be \"Publish\", to better indicate to users the outcomes of their action",
+      "postUrl": "https://simonwillison.net/2025/Aug/2/wikipedia-save-button/#atom-everything",
+      "publishDate": "2025-08-02T19:48:29+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -123,9 +123,9 @@
     {
       "blogTitle": "Maggie Appleton",
       "blogUrl": "https://maggieappleton.com/",
-      "postTitle": "May 2025",
-      "postUrl": "https://maggieappleton.com/now-2025-05/",
-      "publishDate": "Sun, 25 May 2025 00:00:00 GMT"
+      "postTitle": "Vibe Code is Legacy Code",
+      "postUrl": "https://maggieappleton.com/2025-08-vibe-legacy-code/",
+      "publishDate": "Sat, 02 Aug 2025 11:31:48 GMT"
     },
     {
       "blogTitle": "Anton Zhiyanov",
