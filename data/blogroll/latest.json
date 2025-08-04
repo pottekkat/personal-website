@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-03T00:27:45.685841",
+  "lastUpdated": "2025-08-04T00:27:10.602819",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Re-label the \"Save\" button to be \"Publish\", to better indicate to users the outcomes of their action",
-      "postUrl": "https://simonwillison.net/2025/Aug/2/wikipedia-save-button/#atom-everything",
-      "publishDate": "2025-08-02T19:48:29+00:00"
+      "postTitle": "The ChatGPT sharing dialog demonstrates how difficult it is to design privacy preferences",
+      "postUrl": "https://simonwillison.net/2025/Aug/3/privacy-design/#atom-everything",
+      "publishDate": "2025-08-03T23:26:15+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
