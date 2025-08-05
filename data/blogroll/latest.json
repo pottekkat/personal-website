@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-08-04T00:27:10.602819",
+  "lastUpdated": "2025-08-05T00:25:22.359928",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Canon",
-      "postUrl": "https://xkcd.com/3123/",
-      "publishDate": "Fri, 01 Aug 2025 04:00:00 -0000"
+      "postTitle": "Grounded",
+      "postUrl": "https://xkcd.com/3124/",
+      "publishDate": "Mon, 04 Aug 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "The ChatGPT sharing dialog demonstrates how difficult it is to design privacy preferences",
-      "postUrl": "https://simonwillison.net/2025/Aug/3/privacy-design/#atom-everything",
-      "publishDate": "2025-08-03T23:26:15+00:00"
+      "postTitle": "ChatGPT agent's user-agent",
+      "postUrl": "https://simonwillison.net/2025/Aug/4/chatgpt-agents-user-agent/#atom-everything",
+      "publishDate": "2025-08-04T22:49:25+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,16 +151,16 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "We could return three continents of land to the wild",
-      "postUrl": "https://www.elysian.press/p/we-could-return-three-continents",
-      "publishDate": "Wed, 30 Jul 2025 16:43:15 GMT"
+      "postTitle": "The TERRAFORM print pamphlet is now available\u2014here's what we earned",
+      "postUrl": "https://www.elysian.press/p/letters-print-pamphlets-and-a-sneak",
+      "publishDate": "Mon, 04 Aug 2025 15:03:22 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "New Article: No Country Ever Got Rich From Tourism",
-      "postUrl": "https://letter.palladiummag.com/p/new-article-no-country-ever-got-rich",
-      "publishDate": "Fri, 18 Jul 2025 12:29:42 GMT"
+      "postTitle": "PALLADIUM 18: Biological Inheritance",
+      "postUrl": "https://letter.palladiummag.com/p/palladium-18-biological-inheritance",
+      "publishDate": "Mon, 04 Aug 2025 15:04:06 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
