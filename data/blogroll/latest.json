@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-05T00:25:22.359928",
+  "lastUpdated": "2025-08-06T00:25:09.815413",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Executives should be the least busy people",
-      "postUrl": "https://world.hey.com/dhh/executives-should-be-the-least-busy-people-bb94fb18",
-      "publishDate": "2025-07-31T12:11:02Z"
+      "postTitle": "Omarchy is on the move",
+      "postUrl": "https://world.hey.com/dhh/omarchy-is-on-the-move-8f848fa4",
+      "publishDate": "2025-08-05T16:49:25Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "ChatGPT agent's user-agent",
-      "postUrl": "https://simonwillison.net/2025/Aug/4/chatgpt-agents-user-agent/#atom-everything",
-      "publishDate": "2025-08-04T22:49:25+00:00"
+      "postTitle": "No, AI is not Making Engineers 10x as Productive",
+      "postUrl": "https://simonwillison.net/2025/Aug/6/not-10x/#atom-everything",
+      "publishDate": "2025-08-06T00:11:56+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -123,9 +123,9 @@
     {
       "blogTitle": "Maggie Appleton",
       "blogUrl": "https://maggieappleton.com/",
-      "postTitle": "Vibe Code is Legacy Code",
-      "postUrl": "https://maggieappleton.com/2025-08-vibe-legacy-code/",
-      "publishDate": "Sat, 02 Aug 2025 11:31:48 GMT"
+      "postTitle": "A Treatise on AI Chatbots Undermining the Enlightenment",
+      "postUrl": "https://maggieappleton.com/ai-enlightenment/",
+      "publishDate": "Tue, 05 Aug 2025 00:00:00 GMT"
     },
     {
       "blogTitle": "Anton Zhiyanov",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "I Made a Game - Voyage of the Marigold",
-      "postUrl": "https://sheep.horse/2024/4/i_made_a_game_-_voyage_of_the_marigold.html",
-      "publishDate": "Tue, 02 Apr 2024 23:31:22 +0000"
+      "postTitle": "Save the Web by Being Nice",
+      "postUrl": "https://sheep.horse/2024/4/save_the_web_by_being_nice.html",
+      "publishDate": "Mon, 29 Apr 2024 23:47:47 +0000"
     },
     {
       "blogTitle": "AI Snake Oil",
