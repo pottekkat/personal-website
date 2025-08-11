@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-10T00:26:50.914326",
+  "lastUpdated": "2025-08-11T00:26:00.776800",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Ethan Mollick",
-      "postUrl": "https://simonwillison.net/2025/Aug/9/ethan-mollick/#atom-everything",
-      "publishDate": "2025-08-09T16:13:19+00:00"
+      "postTitle": "Qwen3-4B-Thinking: \"This is art - pelicans don't ride bikes!\"",
+      "postUrl": "https://simonwillison.net/2025/Aug/10/qwen3-4b/#atom-everything",
+      "publishDate": "2025-08-10T23:59:12+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -67,9 +67,9 @@
     {
       "blogTitle": "Austin Z. Henley's Blog",
       "blogUrl": "https://austinhenley.com/",
-      "postTitle": "100 blog posts, 6 years, 5 million views",
-      "postUrl": "https://austinhenley.com/blog/100.html",
-      "publishDate": "Thu, 19 Jun 2025 15:00:01 -0400"
+      "postTitle": "Assessing students in the era of AI",
+      "postUrl": "https://austinhenley.com/blog/aihomework.html",
+      "publishDate": "Sun, 10 Aug 2025 14:00:01 -0400"
     },
     {
       "blogTitle": "blog.jfo.click",
@@ -179,7 +179,7 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Fertility, Sex Relationships, Real Estate, and Diversity | Uncharted Territories Magazine | Summer 2025",
+      "postTitle": "Fertility, Sex, Relationships, Real Estate, and Diversity | Uncharted Territories Magazine | Summer 2025",
       "postUrl": "https://unchartedterritories.tomaspueyo.com/p/fertility-sex-relationships-real",
       "publishDate": "Fri, 08 Aug 2025 14:03:20 GMT"
     },
