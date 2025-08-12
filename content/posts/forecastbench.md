@@ -3,6 +3,7 @@ title: Notes on ForecastBench
 slug: forecastbench
 date: 2025-08-15T14:56:48+05:30
 draft: false
+math: true
 toc:
   show: false
 ShowRelatedContent: false
@@ -42,7 +43,7 @@ Instead, ForecastBench uses a **dynamic benchmark that is updated daily as marke
    1. Removes low liquidity data.
    2. Adds more context to each question using a small LLM.
    3. Uses templates to add questions based on the datasets.
-   4. Combines questions (NC2) to form more questions.
+   4. Combines questions ($\binom{N}{2}$ combinations) to form more questions.
 4. The actual questions are **sampled from the question bank every two weeks** and benchmarks are **run across multiple seven baselines**: **zero-shot prompting**, prompting **with scratchpad** instructions, prompting with scratchpad instructions and **retrieved news articles**, zero-shot prompting with **crowd forecasts**, scratchpad prompting with crowd forecasts, scratchpad prompting with retrieved news articles and crowd forecasts, aggregating predictions from multiple LLMs.
 5. In addition to these LLM baselines, they also use **two human baselines**: 500 human forecasters, 39 "superforecasters". They use a **200-question random subset** of the questions.
 6. The results are finalized using the **Brier score** as a metric. The current implementation utilizes a difficulty-adjusted Brier score to account for variability in question set difficulty.
