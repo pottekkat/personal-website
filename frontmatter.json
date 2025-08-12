@@ -583,5 +583,6 @@
         }
       ]
     }
-  }
+  },
+  "frontMatter.framework.startCommand": "hugo server -D --buildFuture"
 }
