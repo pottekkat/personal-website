@@ -118,6 +118,52 @@
     margin-bottom: var(--content-gap);
 }
 
+/* Remove margin-bottom from nested lists for proper visual hierarchy */
+.post-content ol ol,
+.post-content ol ul,
+.post-content ul ol,
+.post-content ul ul {
+    margin-bottom: 0;
+}
+
+/* Hierarchical styling for nested ordered lists */
+.post-content ol {
+    list-style-type: decimal; /* 1, 2, 3, ... */
+}
+
+.post-content ol ol {
+    list-style-type: lower-alpha; /* a, b, c, ... */
+}
+
+.post-content ol ol ol {
+    list-style-type: lower-roman; /* i, ii, iii, ... */
+}
+
+.post-content ol ol ol ol {
+    list-style-type: upper-alpha; /* A, B, C, ... */
+}
+
+.post-content ol ol ol ol ol {
+    list-style-type: upper-roman; /* I, II, III, ... */
+}
+
+/* Hierarchical styling for nested unordered lists */
+.post-content ul {
+    list-style-type: disc; /* • */
+}
+
+.post-content ul ul {
+    list-style-type: circle; /* ○ */
+}
+
+.post-content ul ul ul {
+    list-style-type: square; /* ■ */
+}
+
+.post-content ul ul ul ul {
+    list-style-type: disc; /* • (cycles back) */
+}
+
 .post-content ol,
 .post-content ul {
     padding-inline-start: 20px;
