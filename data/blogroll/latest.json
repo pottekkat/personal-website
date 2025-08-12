@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2025-08-11T00:26:00.776800",
+  "lastUpdated": "2025-08-12T00:23:03.861722",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Disclaimer",
-      "postUrl": "https://xkcd.com/3126/",
-      "publishDate": "Fri, 08 Aug 2025 04:00:00 -0000"
+      "postTitle": "Where Babies Come From",
+      "postUrl": "https://xkcd.com/3127/",
+      "publishDate": "Mon, 11 Aug 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "All-in on Omarchy at 37signals",
-      "postUrl": "https://world.hey.com/dhh/all-in-on-omarchy-at-37signals-68162450",
-      "publishDate": "2025-08-09T15:24:12Z"
+      "postTitle": "What do you do with a chance?",
+      "postUrl": "https://world.hey.com/dhh/what-do-you-do-with-a-chance-24c0714b",
+      "publishDate": "2025-08-11T07:24:54Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Qwen3-4B-Thinking: \"This is art - pelicans don't ride bikes!\"",
-      "postUrl": "https://simonwillison.net/2025/Aug/10/qwen3-4b/#atom-everything",
-      "publishDate": "2025-08-10T23:59:12+00:00"
+      "postTitle": "LLM 0.27, the annotated release notes: GPT-5 and improved tool calling",
+      "postUrl": "https://simonwillison.net/2025/Aug/11/llm-027/#atom-everything",
+      "publishDate": "2025-08-11T23:57:50+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Gist of Go: Signaling",
-      "postUrl": "https://antonz.org/go-concurrency/signaling/",
-      "publishDate": "Sun, 20 Jul 2025 18:00:00 +0000"
+      "postTitle": "Building blocks for idiomatic Go pipelines",
+      "postUrl": "https://antonz.org/chans/",
+      "publishDate": "Mon, 11 Aug 2025 12:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
