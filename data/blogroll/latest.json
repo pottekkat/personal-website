@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-12T00:23:03.861722",
+  "lastUpdated": "2025-08-13T00:23:43.968466",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "LLM 0.27, the annotated release notes: GPT-5 and improved tool calling",
-      "postUrl": "https://simonwillison.net/2025/Aug/11/llm-027/#atom-everything",
-      "publishDate": "2025-08-11T23:57:50+00:00"
+      "postTitle": "Claude Sonnet 4 now supports 1M tokens of context",
+      "postUrl": "https://simonwillison.net/2025/Aug/12/claude-sonnet-4-1m/#atom-everything",
+      "publishDate": "2025-08-12T18:14:30+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "It Would Be Good if the AI Bubble Burst",
-      "postUrl": "https://www.stephendiehl.com/posts/ai_bubble/",
-      "publishDate": "Fri, 18 Jul 2025 01:00:00 +0000"
+      "postTitle": "The Stochastic Code Monkey Theorem",
+      "postUrl": "https://www.stephendiehl.com/posts/ai_for_coding/",
+      "publishDate": "Tue, 12 Aug 2025 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "The TERRAFORM print pamphlet is now available\u2014here's what we earned",
-      "postUrl": "https://www.elysian.press/p/letters-print-pamphlets-and-a-sneak",
-      "publishDate": "Mon, 04 Aug 2025 15:03:22 GMT"
+      "postTitle": "By all means, let private equity save capitalism",
+      "postUrl": "https://www.elysian.press/p/let-private-equity-save-capitalism",
+      "publishDate": "Tue, 12 Aug 2025 14:03:36 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "Why is everyone in AI talking about the end of work? | #304",
-      "postUrl": "https://newsletter.pathlesspath.com/p/why-is-everyone-in-ai-talking-about",
-      "publishDate": "Mon, 28 Jul 2025 12:17:45 GMT"
+      "postTitle": "Permission to Travel | #305",
+      "postUrl": "https://newsletter.pathlesspath.com/p/permission-to-travel-305",
+      "publishDate": "Tue, 12 Aug 2025 12:03:28 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Fertility, Sex, Relationships, Real Estate, and Diversity | Uncharted Territories Magazine | Summer 2025",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/fertility-sex-relationships-real",
-      "publishDate": "Fri, 08 Aug 2025 14:03:20 GMT"
+      "postTitle": "Energy, Environment, Politics | Uncharted Territories Magazine | Summer 2025",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/energy-environment-politics-uncharted",
+      "publishDate": "Tue, 12 Aug 2025 12:02:55 GMT"
     },
     {
       "blogTitle": "Anil Dash",
