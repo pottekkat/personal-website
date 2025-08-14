@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-08-13T00:23:43.968466",
+  "lastUpdated": "2025-08-14T00:23:15.662386",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Where Babies Come From",
-      "postUrl": "https://xkcd.com/3127/",
-      "publishDate": "Mon, 11 Aug 2025 04:00:00 -0000"
+      "postTitle": "Thread Meeting",
+      "postUrl": "https://xkcd.com/3128/",
+      "publishDate": "Wed, 13 Aug 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Claude Sonnet 4 now supports 1M tokens of context",
-      "postUrl": "https://simonwillison.net/2025/Aug/12/claude-sonnet-4-1m/#atom-everything",
-      "publishDate": "2025-08-12T18:14:30+00:00"
+      "postTitle": "pyx: a Python-native package registry, now in Beta",
+      "postUrl": "https://simonwillison.net/2025/Aug/13/pyx/#atom-everything",
+      "publishDate": "2025-08-13T18:36:51+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -161,13 +161,6 @@
       "postTitle": "PALLADIUM 18: Biological Inheritance",
       "postUrl": "https://letter.palladiummag.com/p/palladium-18-biological-inheritance",
       "publishDate": "Mon, 04 Aug 2025 15:04:06 GMT"
-    },
-    {
-      "blogTitle": "Pathless by Paul Millerd",
-      "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "Permission to Travel | #305",
-      "postUrl": "https://newsletter.pathlesspath.com/p/permission-to-travel-305",
-      "publishDate": "Tue, 12 Aug 2025 12:03:28 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
