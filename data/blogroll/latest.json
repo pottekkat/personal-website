@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-14T00:23:15.662386",
+  "lastUpdated": "2025-08-15T00:24:19.396990",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "What do you do with a chance?",
-      "postUrl": "https://world.hey.com/dhh/what-do-you-do-with-a-chance-24c0714b",
-      "publishDate": "2025-08-11T07:24:54Z"
+      "postTitle": "Omarchy micro-forks Chromium",
+      "postUrl": "https://world.hey.com/dhh/omarchy-micro-forks-chromium-1287486d",
+      "publishDate": "2025-08-14T16:36:21Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "pyx: a Python-native package registry, now in Beta",
-      "postUrl": "https://simonwillison.net/2025/Aug/13/pyx/#atom-everything",
-      "publishDate": "2025-08-13T18:36:51+00:00"
+      "postTitle": "Quoting Cory Doctorow",
+      "postUrl": "https://simonwillison.net/2025/Aug/14/cory-doctorow/#atom-everything",
+      "publishDate": "2025-08-14T20:39:28+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -163,18 +163,25 @@
       "publishDate": "Mon, 04 Aug 2025 15:04:06 GMT"
     },
     {
+      "blogTitle": "Pathless by Paul Millerd",
+      "blogUrl": "https://newsletter.pathlesspath.com/",
+      "postTitle": "Permission to Travel | #305",
+      "postUrl": "https://newsletter.pathlesspath.com/p/permission-to-travel-305",
+      "publishDate": "Tue, 12 Aug 2025 12:03:28 GMT"
+    },
+    {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "Hayao Miyazaki: 9 Creative Lessons",
-      "postUrl": "https://www.readtrung.com/p/hayao-miyazaki-9-creative-lessons",
-      "publishDate": "Sat, 28 Jun 2025 19:19:03 GMT"
+      "postTitle": "South Park and The Greatest TV Contract Clause Ever",
+      "postUrl": "https://www.readtrung.com/p/south-park-and-the-greatest-tv-contract",
+      "publishDate": "Thu, 14 Aug 2025 22:51:28 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Energy, Environment, Politics | Uncharted Territories Magazine | Summer 2025",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/energy-environment-politics-uncharted",
-      "publishDate": "Tue, 12 Aug 2025 12:02:55 GMT"
+      "postTitle": "Why Is Moscow So Weird?",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/why-is-moscow-so-weird",
+      "publishDate": "Thu, 14 Aug 2025 14:51:30 GMT"
     },
     {
       "blogTitle": "Anil Dash",
