@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-08-15T00:24:19.396990",
+  "lastUpdated": "2025-08-16T00:22:11.167314",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Thread Meeting",
-      "postUrl": "https://xkcd.com/3128/",
-      "publishDate": "Wed, 13 Aug 2025 04:00:00 -0000"
+      "postTitle": "Archaeology Research",
+      "postUrl": "https://xkcd.com/3129/",
+      "publishDate": "Fri, 15 Aug 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Cory Doctorow",
-      "postUrl": "https://simonwillison.net/2025/Aug/14/cory-doctorow/#atom-everything",
-      "publishDate": "2025-08-14T20:39:28+00:00"
+      "postTitle": "GPT-5 has a hidden system prompt",
+      "postUrl": "https://simonwillison.net/2025/Aug/15/gpt-5-has-a-hidden-system-prompt/#atom-everything",
+      "publishDate": "2025-08-15T23:09:32+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "The Stochastic Code Monkey Theorem",
-      "postUrl": "https://www.stephendiehl.com/posts/ai_for_coding/",
-      "publishDate": "Tue, 12 Aug 2025 01:00:00 +0000"
+      "postTitle": "Typechecker Zoo",
+      "postUrl": "https://www.stephendiehl.com/posts/typechecker_zoo/",
+      "publishDate": "Fri, 15 Aug 2025 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "By all means, let private equity save capitalism",
-      "postUrl": "https://www.elysian.press/p/let-private-equity-save-capitalism",
-      "publishDate": "Tue, 12 Aug 2025 14:03:36 GMT"
+      "postTitle": "How I crowdfunded a $60,000+ book advance",
+      "postUrl": "https://www.elysian.press/p/how-i-crowdfunded-a-60000-book-advance",
+      "publishDate": "Fri, 15 Aug 2025 14:02:58 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
