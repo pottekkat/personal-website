@@ -51,6 +51,45 @@
 
 {{- /* Styles */}}
 
+<!-- Speculation Rules for instant navigation -->
+{{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+<script type="speculationrules">
+  {
+    "prerender": [{ "where": { "href_matches": "/*" }, "eagerness": "moderate" }],
+    "prefetch": [{ "where": { "href_matches": "/*" }, "eagerness": "moderate" }]
+  }
+  </script>
+<script>
+  if (!HTMLScriptElement.supports || !HTMLScriptElement.supports('speculationrules')) {
+    const preloadedUrls = {};
+
+    function pointerenterHandler() {
+      if (!this.href) return;
+      if (!this.href.startsWith(location.origin)) return;
+      if (preloadedUrls[this.href]) return;
+      preloadedUrls[this.href] = true;
+
+      const prefetcher = document.createElement('link');
+      const supportsPrefetch = prefetcher.relList && prefetcher.relList.supports && prefetcher.relList.supports('prefetch');
+      prefetcher.as = supportsPrefetch ? 'document' : 'fetch';
+      prefetcher.rel = supportsPrefetch ? 'prefetch' : 'preload';
+      prefetcher.href = this.href;
+      document.head.appendChild(prefetcher);
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+      const saveData = conn && conn.saveData;
+      const isVerySlow = conn && /(^|-)2g($|-)/.test(String(conn.effectiveType || ''));
+      if (saveData || isVerySlow) return;
+      document.querySelectorAll('a[href^="/"]').forEach(function (item) {
+        item.addEventListener('pointerenter', pointerenterHandler, { passive: true });
+      });
+    });
+  }
+</script>
+{{- end }}
+
 {{- /* includes */}}
 {{- $includes := slice }}
 {{- $includes = $includes | append (" " | resources.FromString "assets/css/includes-blank.css")}}
