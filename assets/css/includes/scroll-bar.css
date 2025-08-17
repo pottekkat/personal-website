@@ -1,11 +1,11 @@
 /* from reset */
 ::-webkit-scrollbar-track {
-    background: var(--entry);
+    background: var(--hljs-bg);
 }
 
 ::-webkit-scrollbar-thumb {
     background: var(--secondary);
-    border: 5px solid var(--code-bg);
+    border: 5px solid var(--hljs-bg);
     border-radius: var(--radius);
 }
 
@@ -14,7 +14,7 @@
 }
 
 ::-webkit-scrollbar:not(.highlighttable, .highlight table, .gist .highlight) {
-    background: var(--theme);
+    background: var(--hljs-bg);
 }
 
 /* from post-single */
@@ -24,24 +24,29 @@
 
 .post-content :not(table) ::-webkit-scrollbar-thumb {
     border: 2px solid var(--hljs-bg);
-    background: rgb(113, 113, 117);
+    background: var(--secondary);
 }
 
 .post-content :not(table) ::-webkit-scrollbar-thumb:hover {
-    background: rgb(163, 163, 165);
+    background: var(--primary);
 }
 
 .gist table::-webkit-scrollbar-thumb {
-    border: 2px solid rgb(255, 255, 255);
-    background: rgb(173, 173, 173);
+    border: 2px solid var(--hljs-bg);
+    background: var(--secondary);
 }
 
 .gist table::-webkit-scrollbar-thumb:hover {
-    background: rgb(112, 112, 112);
+    background: var(--primary);
 }
 
 .post-content table::-webkit-scrollbar-thumb {
-    border-width: 2px;
+    border: 2px solid var(--hljs-bg);
+    background: var(--secondary);
+}
+
+.post-content table::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
 }
 
 /* from zmedia */
