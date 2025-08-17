@@ -6,7 +6,7 @@ summary: '"Daily Logs?" More like "Monthly Teaser for My Newfound Interest."'
 fmContentType: Daily
 ---
 
-TL;DR: I joined [Eternis.ai](https://www.eternis.ai/) as an Engineer. We are building privacy-focused digital twins that understand you, make decisions on your behalf, and act in your interests.
+TL; DR: I joined [Eternis.ai](https://www.eternis.ai/) as an Engineer. We are building privacy-focused digital twins that understand you, make decisions on your behalf, and act in your interests.
 
 It has been almost two months since I joined [Eternis.ai](https://www.eternis.ai/). I was primarily helping maintain [mcp-go](https://github.com/mark3labs/mcp-go), a Go SDK for [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) (~7,000 stars on GitHub, BTW), when I got the offer. My work on mcp-go directly led to this job, and my first week was working exclusively on MCP-related projects.
 
