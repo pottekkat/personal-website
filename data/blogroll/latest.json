@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-17T00:25:38.399008",
+  "lastUpdated": "2025-08-18T00:25:39.566317",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Maintainers of Last Resort",
-      "postUrl": "https://simonwillison.net/2025/Aug/16/maintainers-of-last-resort/#atom-everything",
-      "publishDate": "2025-08-16T16:52:45+00:00"
+      "postTitle": "TIL: Running a gpt-oss eval suite against LM Studio on a Mac",
+      "postUrl": "https://simonwillison.net/2025/Aug/17/gpt-oss-eval-suite/#atom-everything",
+      "publishDate": "2025-08-17T03:46:21+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
