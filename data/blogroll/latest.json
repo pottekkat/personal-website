@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-08-18T00:25:39.566317",
+  "lastUpdated": "2025-08-19T00:22:59.561147",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Archaeology Research",
-      "postUrl": "https://xkcd.com/3129/",
-      "publishDate": "Fri, 15 Aug 2025 04:00:00 -0000"
+      "postTitle": "Predicament",
+      "postUrl": "https://xkcd.com/3130/",
+      "publishDate": "Mon, 18 Aug 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "TIL: Running a gpt-oss eval suite against LM Studio on a Mac",
-      "postUrl": "https://simonwillison.net/2025/Aug/17/gpt-oss-eval-suite/#atom-everything",
-      "publishDate": "2025-08-17T03:46:21+00:00"
+      "postTitle": "Google Gemini URL Context",
+      "postUrl": "https://simonwillison.net/2025/Aug/18/google-gemini-url-context/#atom-everything",
+      "publishDate": "2025-08-18T23:59:37+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "How I crowdfunded a $60,000+ book advance",
-      "postUrl": "https://www.elysian.press/p/how-i-crowdfunded-a-60000-book-advance",
-      "publishDate": "Fri, 15 Aug 2025 14:02:58 GMT"
+      "postTitle": "My master plan to create a modern media empire",
+      "postUrl": "https://www.elysian.press/p/my-master-plan-to-create-a-modern",
+      "publishDate": "Mon, 18 Aug 2025 14:02:30 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
