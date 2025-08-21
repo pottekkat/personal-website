@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-08-20T00:21:57.000282",
+  "lastUpdated": "2025-08-21T00:20:59.913548",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Predicament",
-      "postUrl": "https://xkcd.com/3130/",
-      "publishDate": "Mon, 18 Aug 2025 04:00:00 -0000"
+      "postTitle": "Cesium",
+      "postUrl": "https://xkcd.com/3131/",
+      "publishDate": "Wed, 20 Aug 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency",
-      "postUrl": "https://simonwillison.net/2025/Aug/19/qwen-image-edit/#atom-everything",
-      "publishDate": "2025-08-19T23:39:19+00:00"
+      "postTitle": "Quoting u/AssafMalkiIL",
+      "postUrl": "https://simonwillison.net/2025/Aug/20/bad-vibes/#atom-everything",
+      "publishDate": "2025-08-20T19:39:36+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,16 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "PALLADIUM 18: Biological Inheritance",
-      "postUrl": "https://letter.palladiummag.com/p/palladium-18-biological-inheritance",
-      "publishDate": "Mon, 04 Aug 2025 15:04:06 GMT"
+      "postTitle": "Early Article: The Case for Crazy Philanthropy",
+      "postUrl": "https://letter.palladiummag.com/p/early-article-the-case-for-crazy",
+      "publishDate": "Wed, 20 Aug 2025 16:03:00 GMT"
+    },
+    {
+      "blogTitle": "Pathless by Paul Millerd",
+      "blogUrl": "https://newsletter.pathlesspath.com/",
+      "postTitle": "Permission to Travel | #305",
+      "postUrl": "https://newsletter.pathlesspath.com/p/permission-to-travel-305",
+      "publishDate": "Tue, 12 Aug 2025 12:03:28 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
@@ -172,16 +179,16 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Why Is Moscow So Weird?",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/why-is-moscow-so-weird",
-      "publishDate": "Thu, 14 Aug 2025 14:51:30 GMT"
+      "postTitle": "6 Fascinating Facts about Moscow and Russia",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/6-fascinating-facts-about-moscow",
+      "publishDate": "Wed, 20 Aug 2025 12:02:59 GMT"
     },
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Understanding DOGE as Procurement Capture",
-      "postUrl": "https://anildash.com/2025/01/04/DOGE_procurement_capture/",
-      "publishDate": "2025-01-04T00:00:00Z"
+      "postTitle": "It's time for Dolly to record that long-lost Prince song.",
+      "postUrl": "https://anildash.com/2025/04/10/dolly_prince_rescue_me/",
+      "publishDate": "2025-04-10T00:00:00Z"
     }
   ]
 }
