@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-08-22T00:22:02.415269",
+  "lastUpdated": "2025-08-23T00:21:38.707025",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Cesium",
-      "postUrl": "https://xkcd.com/3131/",
-      "publishDate": "Wed, 20 Aug 2025 04:00:00 -0000"
+      "postTitle": "Coastline Similarity",
+      "postUrl": "https://xkcd.com/3132/",
+      "publishDate": "Fri, 22 Aug 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting potatolicious",
-      "postUrl": "https://simonwillison.net/2025/Aug/21/potatolicious/#atom-everything",
-      "publishDate": "2025-08-21T21:44:19+00:00"
+      "postTitle": "ChatGPT release notes: Project-only memory",
+      "postUrl": "https://simonwillison.net/2025/Aug/22/project-memory/#atom-everything",
+      "publishDate": "2025-08-22T22:24:54+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,14 +151,14 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "My master plan to create a modern media empire",
-      "postUrl": "https://www.elysian.press/p/my-master-plan-to-create-a-modern",
-      "publishDate": "Mon, 18 Aug 2025 14:02:30 GMT"
+      "postTitle": "Marginalia: How to run the world, the case against elections, unions championing WFH",
+      "postUrl": "https://www.elysian.press/p/marginalia-how-to-run-the-world-the",
+      "publishDate": "Fri, 22 Aug 2025 14:03:27 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Early Article: The Case for Crazy Philanthropy",
+      "postTitle": "New Article: The Case for Crazy Philanthropy",
       "postUrl": "https://letter.palladiummag.com/p/early-article-the-case-for-crazy",
       "publishDate": "Wed, 20 Aug 2025 16:03:00 GMT"
     },
@@ -172,16 +172,16 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "South Park and The Greatest TV Contract Clause Ever",
-      "postUrl": "https://www.readtrung.com/p/south-park-and-the-greatest-tv-contract",
-      "publishDate": "Thu, 14 Aug 2025 22:51:28 GMT"
+      "postTitle": "SharkNinja\u2019s $16B+ Product Machine",
+      "postUrl": "https://www.readtrung.com/p/sharkninjas-16b-product-machine",
+      "publishDate": "Fri, 22 Aug 2025 21:20:19 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "6 Fascinating Facts about Moscow and Russia",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/6-fascinating-facts-about-moscow",
-      "publishDate": "Wed, 20 Aug 2025 12:02:59 GMT"
+      "postTitle": "Putin\u2019s Mindset on Russia",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/putins-mindset-on-russia",
+      "publishDate": "Fri, 22 Aug 2025 12:03:14 GMT"
     },
     {
       "blogTitle": "Anil Dash",
