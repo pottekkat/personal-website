@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-23T00:21:38.707025",
+  "lastUpdated": "2025-08-24T00:24:38.086899",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "ChatGPT release notes: Project-only memory",
-      "postUrl": "https://simonwillison.net/2025/Aug/22/project-memory/#atom-everything",
-      "publishDate": "2025-08-22T22:24:54+00:00"
+      "postTitle": "Spatial Joins in DuckDB",
+      "postUrl": "https://simonwillison.net/2025/Aug/23/spatial-joins-in-duckdb/#atom-everything",
+      "publishDate": "2025-08-23T21:21:02+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
