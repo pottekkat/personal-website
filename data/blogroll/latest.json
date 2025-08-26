@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-25T00:23:27.275620",
+  "lastUpdated": "2025-08-26T00:22:07.878304",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Static Sites with Python, uv, Caddy, and Docker",
-      "postUrl": "https://simonwillison.net/2025/Aug/24/uv-caddy-and-docker/#atom-everything",
-      "publishDate": "2025-08-24T08:51:30+00:00"
+      "postTitle": "Agentic Browser Security: Indirect Prompt Injection in Perplexity Comet",
+      "postUrl": "https://simonwillison.net/2025/Aug/25/agentic-browser-security/#atom-everything",
+      "publishDate": "2025-08-25T09:39:15+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Marginalia: How to run the world, the case against elections, unions championing WFH",
-      "postUrl": "https://www.elysian.press/p/marginalia-how-to-run-the-world-the",
-      "publishDate": "Fri, 22 Aug 2025 14:03:27 GMT"
+      "postTitle": "Are we living in heaven or hell?",
+      "postUrl": "https://www.elysian.press/p/are-we-living-in-heaven-or-hell",
+      "publishDate": "Mon, 25 Aug 2025 15:19:22 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
