@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2025-08-26T00:22:07.878304",
+  "lastUpdated": "2025-08-27T00:22:06.533177",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Coastline Similarity",
-      "postUrl": "https://xkcd.com/3132/",
-      "publishDate": "Fri, 22 Aug 2025 04:00:00 -0000"
+      "postTitle": "Dual Roomba",
+      "postUrl": "https://xkcd.com/3133/",
+      "publishDate": "Mon, 25 Aug 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Omarchy micro-forks Chromium",
-      "postUrl": "https://world.hey.com/dhh/omarchy-micro-forks-chromium-1287486d",
-      "publishDate": "2025-08-14T16:36:21Z"
+      "postTitle": "Omarchy 2.0",
+      "postUrl": "https://world.hey.com/dhh/omarchy-2-0-16fefc15",
+      "publishDate": "2025-08-26T19:18:05Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Agentic Browser Security: Indirect Prompt Injection in Perplexity Comet",
-      "postUrl": "https://simonwillison.net/2025/Aug/25/agentic-browser-security/#atom-everything",
-      "publishDate": "2025-08-25T09:39:15+00:00"
+      "postTitle": "Piloting Claude for Chrome",
+      "postUrl": "https://simonwillison.net/2025/Aug/26/piloting-claude-for-chrome/#atom-everything",
+      "publishDate": "2025-08-26T22:43:25+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "New Article: The Case for Crazy Philanthropy",
-      "postUrl": "https://letter.palladiummag.com/p/early-article-the-case-for-crazy",
-      "publishDate": "Wed, 20 Aug 2025 16:03:00 GMT"
+      "postTitle": "Why Romania Excels in International Olympiads",
+      "postUrl": "https://letter.palladiummag.com/p/why-romania-excels-in-international",
+      "publishDate": "Tue, 26 Aug 2025 17:07:06 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Putin\u2019s Mindset on Russia",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/putins-mindset-on-russia",
-      "publishDate": "Fri, 22 Aug 2025 12:03:14 GMT"
+      "postTitle": "Climate Caused the US Civil War",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/climate-caused-the-us-civil-war",
+      "publishDate": "Tue, 26 Aug 2025 21:01:34 GMT"
     },
     {
       "blogTitle": "Anil Dash",
