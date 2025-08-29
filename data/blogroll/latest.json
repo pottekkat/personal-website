@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-08-28T00:22:02.675623",
+  "lastUpdated": "2025-08-29T00:22:15.565623",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Dual Roomba",
-      "postUrl": "https://xkcd.com/3133/",
-      "publishDate": "Mon, 25 Aug 2025 04:00:00 -0000"
+      "postTitle": "Wavefunction Collapse",
+      "postUrl": "https://xkcd.com/3134/",
+      "publishDate": "Wed, 27 Aug 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "V&A East Storehouse and Operation Mincemeat in London",
-      "postUrl": "https://simonwillison.net/2025/Aug/27/london-culture/#atom-everything",
-      "publishDate": "2025-08-27T18:51:28+00:00"
+      "postTitle": "Python: The Documentary",
+      "postUrl": "https://simonwillison.net/2025/Aug/28/python-the-documentary/#atom-everything",
+      "publishDate": "2025-08-28T19:49:51+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Are we living in heaven or hell?",
-      "postUrl": "https://www.elysian.press/p/are-we-living-in-heaven-or-hell",
-      "publishDate": "Mon, 25 Aug 2025 15:19:22 GMT"
+      "postTitle": "Office Hours",
+      "postUrl": "https://www.elysian.press/p/office-hours",
+      "publishDate": "Thu, 28 Aug 2025 12:03:36 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -161,6 +161,13 @@
       "postTitle": "Why Romania Excels in International Olympiads",
       "postUrl": "https://letter.palladiummag.com/p/why-romania-excels-in-international",
       "publishDate": "Tue, 26 Aug 2025 17:07:06 GMT"
+    },
+    {
+      "blogTitle": "Pathless by Paul Millerd",
+      "blogUrl": "https://newsletter.pathlesspath.com/",
+      "postTitle": "Permission to Travel | #305",
+      "postUrl": "https://newsletter.pathlesspath.com/p/permission-to-travel-305",
+      "publishDate": "Tue, 12 Aug 2025 12:03:28 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
@@ -172,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Climate Caused the US Civil War",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/climate-caused-the-us-civil-war",
-      "publishDate": "Tue, 26 Aug 2025 21:01:34 GMT"
+      "postTitle": "Climate Predetermined the Outcome of the US Civil War",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/climate-predetermined-the-outcome",
+      "publishDate": "Thu, 28 Aug 2025 21:00:41 GMT"
     },
     {
       "blogTitle": "Anil Dash",
