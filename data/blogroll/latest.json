@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-29T00:22:15.565623",
+  "lastUpdated": "2025-08-30T00:20:55.509943",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Python: The Documentary",
-      "postUrl": "https://simonwillison.net/2025/Aug/28/python-the-documentary/#atom-everything",
-      "publishDate": "2025-08-28T19:49:51+00:00"
+      "postTitle": "Talk Python: Celebrating Django's 20th Birthday With Its Creators",
+      "postUrl": "https://simonwillison.net/2025/Aug/29/talk-python/#atom-everything",
+      "publishDate": "2025-08-29T20:02:50+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,7 +158,7 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Why Romania Excels in International Olympiads",
+      "postTitle": "New Article: Why Romania Excels in International Olympiads",
       "postUrl": "https://letter.palladiummag.com/p/why-romania-excels-in-international",
       "publishDate": "Tue, 26 Aug 2025 17:07:06 GMT"
     },
@@ -172,9 +172,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "SharkNinja\u2019s $16B+ Product Machine",
-      "postUrl": "https://www.readtrung.com/p/sharkninjas-16b-product-machine",
-      "publishDate": "Fri, 22 Aug 2025 21:20:19 GMT"
+      "postTitle": "How Costco Won In Japan",
+      "postUrl": "https://www.readtrung.com/p/how-costco-won-in-japan",
+      "publishDate": "Fri, 29 Aug 2025 01:37:28 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
