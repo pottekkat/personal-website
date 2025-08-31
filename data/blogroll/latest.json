@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-08-30T00:20:55.509943",
+  "lastUpdated": "2025-08-31T00:24:10.042722",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Wavefunction Collapse",
-      "postUrl": "https://xkcd.com/3134/",
-      "publishDate": "Wed, 27 Aug 2025 04:00:00 -0000"
+      "postTitle": "Sea Level",
+      "postUrl": "https://xkcd.com/3135/",
+      "publishDate": "Fri, 29 Aug 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Talk Python: Celebrating Django's 20th Birthday With Its Creators",
-      "postUrl": "https://simonwillison.net/2025/Aug/29/talk-python/#atom-everything",
-      "publishDate": "2025-08-29T20:02:50+00:00"
+      "postTitle": "Claude Opus 4.1 and Opus 4 degraded quality",
+      "postUrl": "https://simonwillison.net/2025/Aug/30/claude-degraded-quality/#atom-everything",
+      "publishDate": "2025-08-30T21:04:13+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "Permission to Travel | #305",
-      "postUrl": "https://newsletter.pathlesspath.com/p/permission-to-travel-305",
-      "publishDate": "Tue, 12 Aug 2025 12:03:28 GMT"
+      "postTitle": "Announcing The Pathless Collective & First Zine Launch: Unwritten | #306",
+      "postUrl": "https://newsletter.pathlesspath.com/p/announcing-the-pathless-collective",
+      "publishDate": "Sat, 30 Aug 2025 13:02:12 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
