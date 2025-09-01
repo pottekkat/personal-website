@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-31T00:24:10.042722",
+  "lastUpdated": "2025-09-01T00:27:05.966885",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -67,9 +67,9 @@
     {
       "blogTitle": "Austin Z. Henley's Blog",
       "blogUrl": "https://austinhenley.com/",
-      "postTitle": "Assessing students in the era of AI",
-      "postUrl": "https://austinhenley.com/blog/aihomework.html",
-      "publishDate": "Sun, 10 Aug 2025 14:00:01 -0400"
+      "postTitle": "Baby's first type checker",
+      "postUrl": "https://austinhenley.com/blog/babytypechecker.html",
+      "publishDate": "Sun, 31 Aug 2025 14:00:01 -0400"
     },
     {
       "blogTitle": "blog.jfo.click",
