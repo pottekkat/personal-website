@@ -13,7 +13,7 @@ bookMeta:
     - Non-Fiction
     - Politics
     - Sociology
-  status: Reading
+  status: Read
   rating: 4
   coverImage: /images/books/covers/media-control.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/12615.Media_Control
