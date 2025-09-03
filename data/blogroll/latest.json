@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-09-02T00:21:59.413512",
+  "lastUpdated": "2025-09-03T00:20:40.910469",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Sea Level",
-      "postUrl": "https://xkcd.com/3135/",
-      "publishDate": "Fri, 29 Aug 2025 04:00:00 -0000"
+      "postTitle": "Pull",
+      "postUrl": "https://xkcd.com/3136/",
+      "publishDate": "Mon, 01 Sep 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "August 2025 newsletter",
-      "postUrl": "https://simonwillison.net/2025/Sep/1/august-2025/#atom-everything",
-      "publishDate": "2025-09-01T19:41:45+00:00"
+      "postTitle": "Making XML human-readable without XSLT",
+      "postUrl": "https://simonwillison.net/2025/Sep/2/making-xml-human-readable-without-xslt/#atom-everything",
+      "publishDate": "2025-09-02T19:32:57+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Office Hours",
-      "postUrl": "https://www.elysian.press/p/office-hours",
-      "publishDate": "Thu, 28 Aug 2025 12:03:36 GMT"
+      "postTitle": "I ranked every country from best to worst",
+      "postUrl": "https://www.elysian.press/p/a-report-card-for-the-whole-world",
+      "publishDate": "Tue, 02 Sep 2025 18:01:53 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
