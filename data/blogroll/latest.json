@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-09-03T00:20:40.910469",
+  "lastUpdated": "2025-09-04T00:20:41.484465",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Pull",
-      "postUrl": "https://xkcd.com/3136/",
-      "publishDate": "Mon, 01 Sep 2025 04:00:00 -0000"
+      "postTitle": "Cursed Number",
+      "postUrl": "https://xkcd.com/3137/",
+      "publishDate": "Wed, 03 Sep 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Making XML human-readable without XSLT",
-      "postUrl": "https://simonwillison.net/2025/Sep/2/making-xml-human-readable-without-xslt/#atom-everything",
-      "publishDate": "2025-09-02T19:32:57+00:00"
+      "postTitle": "Google antitrust remedies",
+      "postUrl": "https://simonwillison.net/2025/Sep/3/antitrust/#atom-everything",
+      "publishDate": "2025-09-03T08:56:30+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
