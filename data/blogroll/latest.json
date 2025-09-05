@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-04T00:20:41.484465",
+  "lastUpdated": "2025-09-05T00:21:42.899288",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Google antitrust remedies",
-      "postUrl": "https://simonwillison.net/2025/Sep/3/antitrust/#atom-everything",
-      "publishDate": "2025-09-03T08:56:30+00:00"
+      "postTitle": "Introducing EmbeddingGemma",
+      "postUrl": "https://simonwillison.net/2025/Sep/4/embedding-gemma/#atom-everything",
+      "publishDate": "2025-09-04T22:27:41+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,16 +151,16 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "I ranked every country from best to worst",
+      "postTitle": "Ranking every country in the world",
       "postUrl": "https://www.elysian.press/p/a-report-card-for-the-whole-world",
       "publishDate": "Tue, 02 Sep 2025 18:01:53 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "New Article: Why Romania Excels in International Olympiads",
-      "postUrl": "https://letter.palladiummag.com/p/why-romania-excels-in-international",
-      "publishDate": "Tue, 26 Aug 2025 17:07:06 GMT"
+      "postTitle": "Celebrating PALLADIUM 18",
+      "postUrl": "https://letter.palladiummag.com/p/celebrating-palladium-18",
+      "publishDate": "Thu, 04 Sep 2025 13:08:23 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Climate Predetermined the Outcome of the US Civil War",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/climate-predetermined-the-outcome",
-      "publishDate": "Thu, 28 Aug 2025 21:00:41 GMT"
+      "postTitle": "Never Bet Against America",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/never-bet-against-america",
+      "publishDate": "Thu, 04 Sep 2025 21:26:37 GMT"
     },
     {
       "blogTitle": "Anil Dash",
