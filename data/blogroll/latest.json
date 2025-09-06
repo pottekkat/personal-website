@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-05T00:21:42.899288",
+  "lastUpdated": "2025-09-06T00:20:31.048387",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Introducing EmbeddingGemma",
-      "postUrl": "https://simonwillison.net/2025/Sep/4/embedding-gemma/#atom-everything",
-      "publishDate": "2025-09-04T22:27:41+00:00"
+      "postTitle": "Quoting Kenton Varda",
+      "postUrl": "https://simonwillison.net/2025/Sep/5/kenton-varda/#atom-everything",
+      "publishDate": "2025-09-05T16:43:13+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,16 +144,15 @@
     {
       "blogTitle": "AI Snake Oil",
       "blogUrl": "https://www.aisnakeoil.com",
-      "postTitle": "Could AI slow science?",
-      "postUrl": "https://www.aisnakeoil.com/p/could-ai-slow-science",
-      "publishDate": "Wed, 16 Jul 2025 21:35:56 GMT"
+      "error": true,
+      "errorMessage": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)>"
     },
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Ranking every country in the world",
-      "postUrl": "https://www.elysian.press/p/a-report-card-for-the-whole-world",
-      "publishDate": "Tue, 02 Sep 2025 18:01:53 GMT"
+      "postTitle": "How to run a modern social club",
+      "postUrl": "https://www.elysian.press/p/operation-create-more-utopian-thinkers",
+      "publishDate": "Fri, 05 Sep 2025 16:02:43 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -172,9 +171,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "How Costco Won In Japan",
-      "postUrl": "https://www.readtrung.com/p/how-costco-won-in-japan",
-      "publishDate": "Fri, 29 Aug 2025 01:37:28 GMT"
+      "postTitle": "America\u2019s $37B Football Obsession",
+      "postUrl": "https://www.readtrung.com/p/americas-37b-football-obsession",
+      "publishDate": "Fri, 05 Sep 2025 20:22:08 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
@@ -186,9 +185,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "It's time for Dolly to record that long-lost Prince song.",
-      "postUrl": "https://anildash.com/2025/04/10/dolly_prince_rescue_me/",
-      "publishDate": "2025-04-10T00:00:00Z"
+      "postTitle": "\"AI-first\" is the new Return To Office",
+      "postUrl": "https://anildash.com/2025/04/30/ai-first-is-the-new-return-to-office/",
+      "publishDate": "2025-04-19T00:00:00Z"
     }
   ]
 }
