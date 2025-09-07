@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2025-09-06T00:20:31.048387",
+  "lastUpdated": "2025-09-07T00:23:25.071022",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Cursed Number",
-      "postUrl": "https://xkcd.com/3137/",
-      "publishDate": "Wed, 03 Sep 2025 04:00:00 -0000"
+      "postTitle": "Dimensional Lumber Tape Measure",
+      "postUrl": "https://xkcd.com/3138/",
+      "publishDate": "Fri, 05 Sep 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Omarchy 2.0",
-      "postUrl": "https://world.hey.com/dhh/omarchy-2-0-16fefc15",
-      "publishDate": "2025-08-26T19:18:05Z"
+      "postTitle": "Thrice charmed at Rails World",
+      "postUrl": "https://world.hey.com/dhh/thrice-charmed-at-rails-world-c4ed0006",
+      "publishDate": "2025-09-06T16:31:17Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Kenton Varda",
-      "postUrl": "https://simonwillison.net/2025/Sep/5/kenton-varda/#atom-everything",
-      "publishDate": "2025-09-05T16:43:13+00:00"
+      "postTitle": "GPT-5 Thinking in ChatGPT (aka Research Goblin) is shockingly good at search",
+      "postUrl": "https://simonwillison.net/2025/Sep/6/research-goblin/#atom-everything",
+      "publishDate": "2025-09-06T19:31:57+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -137,15 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "Save the Web by Being Nice",
-      "postUrl": "https://sheep.horse/2024/4/save_the_web_by_being_nice.html",
-      "publishDate": "Mon, 29 Apr 2024 23:47:47 +0000"
-    },
-    {
-      "blogTitle": "AI Snake Oil",
-      "blogUrl": "https://www.aisnakeoil.com",
-      "error": true,
-      "errorMessage": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)>"
+      "postTitle": "Golf",
+      "postUrl": "https://sheep.horse/2024/8/golf.html",
+      "publishDate": "Thu, 15 Aug 2024 07:59:36 +0000"
     },
     {
       "blogTitle": "The Elysian",
@@ -164,9 +158,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "Announcing The Pathless Collective & First Zine Launch: Unwritten | #306",
-      "postUrl": "https://newsletter.pathlesspath.com/p/announcing-the-pathless-collective",
-      "publishDate": "Sat, 30 Aug 2025 13:02:12 GMT"
+      "postTitle": "200 Podcast Episodes: Some of My Favorite Convos | #307",
+      "postUrl": "https://newsletter.pathlesspath.com/p/200-podcast-episodes-some-of-my-favorite",
+      "publishDate": "Sat, 06 Sep 2025 12:21:28 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
