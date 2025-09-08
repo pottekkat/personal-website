@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-07T00:23:25.071022",
+  "lastUpdated": "2025-09-08T00:22:44.753062",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "GPT-5 Thinking in ChatGPT (aka Research Goblin) is shockingly good at search",
-      "postUrl": "https://simonwillison.net/2025/Sep/6/research-goblin/#atom-everything",
-      "publishDate": "2025-09-06T19:31:57+00:00"
+      "postTitle": "Is the LLM response wrong, or have you just failed to iterate it?",
+      "postUrl": "https://simonwillison.net/2025/Sep/7/is-the-llm-response-wrong-or-have-you-just-failed-to-iterate-it/#atom-everything",
+      "publishDate": "2025-09-07T21:45:04+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
