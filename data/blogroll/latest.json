@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-09-08T00:22:44.753062",
+  "lastUpdated": "2025-09-09T00:21:37.835325",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Dimensional Lumber Tape Measure",
-      "postUrl": "https://xkcd.com/3138/",
-      "publishDate": "Fri, 05 Sep 2025 04:00:00 -0000"
+      "postTitle": "Chess Variant",
+      "postUrl": "https://xkcd.com/3139/",
+      "publishDate": "Mon, 08 Sep 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Is the LLM response wrong, or have you just failed to iterate it?",
-      "postUrl": "https://simonwillison.net/2025/Sep/7/is-the-llm-response-wrong-or-have-you-just-failed-to-iterate-it/#atom-everything",
-      "publishDate": "2025-09-07T21:45:04+00:00"
+      "postTitle": "Quoting TheSoftwareGuy",
+      "postUrl": "https://simonwillison.net/2025/Sep/8/thesoftwareguy/#atom-everything",
+      "publishDate": "2025-09-08T23:23:43+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
