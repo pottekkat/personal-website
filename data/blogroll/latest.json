@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-09T00:21:37.835325",
+  "lastUpdated": "2025-09-10T00:20:47.542596",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting TheSoftwareGuy",
-      "postUrl": "https://simonwillison.net/2025/Sep/8/thesoftwareguy/#atom-everything",
-      "publishDate": "2025-09-08T23:23:43+00:00"
+      "postTitle": "Quoting Apple Security Engineering and Architecture",
+      "postUrl": "https://simonwillison.net/2025/Sep/9/memory-integrity-enforcement/#atom-everything",
+      "publishDate": "2025-09-09T21:32:55+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "How to run a modern social club",
-      "postUrl": "https://www.elysian.press/p/operation-create-more-utopian-thinkers",
-      "publishDate": "Fri, 05 Sep 2025 16:02:43 GMT"
+      "postTitle": "So, America wants a dictator",
+      "postUrl": "https://www.elysian.press/p/so-america-wants-a-dictator",
+      "publishDate": "Tue, 09 Sep 2025 16:56:14 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "\"AI-first\" is the new Return To Office",
-      "postUrl": "https://anildash.com/2025/04/30/ai-first-is-the-new-return-to-office/",
-      "publishDate": "2025-04-19T00:00:00Z"
+      "postTitle": "What Would \u201cGood\u201d AI Look Like?",
+      "postUrl": "https://anildash.com/2025/05/02/what-would-good-ai-look-like/",
+      "publishDate": "2025-05-01T00:00:00Z"
     }
   ]
 }
