@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-09-10T00:20:47.542596",
+  "lastUpdated": "2025-09-11T00:21:29.185602",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Chess Variant",
-      "postUrl": "https://xkcd.com/3139/",
-      "publishDate": "Mon, 08 Sep 2025 04:00:00 -0000"
+      "postTitle": "Biology Department",
+      "postUrl": "https://xkcd.com/3140/",
+      "publishDate": "Wed, 10 Sep 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Apple Security Engineering and Architecture",
-      "postUrl": "https://simonwillison.net/2025/Sep/9/memory-integrity-enforcement/#atom-everything",
-      "publishDate": "2025-09-09T21:32:55+00:00"
+      "postTitle": "Claude API: Web fetch tool",
+      "postUrl": "https://simonwillison.net/2025/Sep/10/claude-web-fetch-tool/#atom-everything",
+      "publishDate": "2025-09-10T17:24:51+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Never Bet Against America",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/never-bet-against-america",
-      "publishDate": "Thu, 04 Sep 2025 21:26:37 GMT"
+      "postTitle": "China vs US: Which Geography Is Best?",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/china-vs-us-which-geography-is-best",
+      "publishDate": "Wed, 10 Sep 2025 10:31:03 GMT"
     },
     {
       "blogTitle": "Anil Dash",
