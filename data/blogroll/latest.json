@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-11T00:21:29.185602",
+  "lastUpdated": "2025-09-12T00:21:03.510695",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Thrice charmed at Rails World",
-      "postUrl": "https://world.hey.com/dhh/thrice-charmed-at-rails-world-c4ed0006",
-      "publishDate": "2025-09-06T16:31:17Z"
+      "postTitle": "Words are not violence",
+      "postUrl": "https://world.hey.com/dhh/words-are-not-violence-c751f14f",
+      "publishDate": "2025-09-11T16:05:13Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Claude API: Web fetch tool",
-      "postUrl": "https://simonwillison.net/2025/Sep/10/claude-web-fetch-tool/#atom-everything",
-      "publishDate": "2025-09-10T17:24:51+00:00"
+      "postTitle": "Defeating Nondeterminism in LLM Inference",
+      "postUrl": "https://simonwillison.net/2025/Sep/11/defeating-nondeterminism/#atom-everything",
+      "publishDate": "2025-09-11T06:53:42+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "America\u2019s $37B Football Obsession",
-      "postUrl": "https://www.readtrung.com/p/americas-37b-football-obsession",
-      "publishDate": "Fri, 05 Sep 2025 20:22:08 GMT"
+      "postTitle": "The iPhone 17 and iPhone Air Are New (Enough)",
+      "postUrl": "https://www.readtrung.com/p/the-iphone-17-and-iphone-air-are",
+      "publishDate": "Thu, 11 Sep 2025 21:38:19 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "What Would \u201cGood\u201d AI Look Like?",
-      "postUrl": "https://anildash.com/2025/05/02/what-would-good-ai-look-like/",
-      "publishDate": "2025-05-01T00:00:00Z"
+      "postTitle": "MCP is the coming of Web 2.0 2.0",
+      "postUrl": "https://anildash.com/2025/05/20/mcp-web20-20/",
+      "publishDate": "2025-05-20T00:00:00Z"
     }
   ]
 }
