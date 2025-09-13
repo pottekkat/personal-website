@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-09-12T00:21:03.510695",
+  "lastUpdated": "2025-09-13T00:19:51.801384",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Biology Department",
-      "postUrl": "https://xkcd.com/3140/",
-      "publishDate": "Wed, 10 Sep 2025 04:00:00 -0000"
+      "postTitle": "Mantle Model",
+      "postUrl": "https://xkcd.com/3141/",
+      "publishDate": "Fri, 12 Sep 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Defeating Nondeterminism in LLM Inference",
-      "postUrl": "https://simonwillison.net/2025/Sep/11/defeating-nondeterminism/#atom-everything",
-      "publishDate": "2025-09-11T06:53:42+00:00"
+      "postTitle": "gpt-5 and gpt-5-mini rate limit updates",
+      "postUrl": "https://simonwillison.net/2025/Sep/12/gpt-5-rate-limits/#atom-everything",
+      "publishDate": "2025-09-12T23:14:46+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "So, America wants a dictator",
-      "postUrl": "https://www.elysian.press/p/so-america-wants-a-dictator",
-      "publishDate": "Tue, 09 Sep 2025 16:56:14 GMT"
+      "postTitle": "Office Hours: Are we heading for revolution?",
+      "postUrl": "https://www.elysian.press/p/office-hours-are-we-heading-for-revolution",
+      "publishDate": "Fri, 12 Sep 2025 17:34:02 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "China vs US: Which Geography Is Best?",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/china-vs-us-which-geography-is-best",
-      "publishDate": "Wed, 10 Sep 2025 10:31:03 GMT"
+      "postTitle": "Why the US South Is Poorer than the North, and Why This Is Now Changing",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/why-the-us-south-is-poorer-vs-north",
+      "publishDate": "Fri, 12 Sep 2025 15:20:17 GMT"
     },
     {
       "blogTitle": "Anil Dash",
