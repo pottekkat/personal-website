@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-14T00:23:05.009245",
+  "lastUpdated": "2025-09-15T00:23:21.745108",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Words are not violence",
-      "postUrl": "https://world.hey.com/dhh/words-are-not-violence-c751f14f",
-      "publishDate": "2025-09-11T16:05:13Z"
+      "postTitle": "Apple has no one left who can say no",
+      "postUrl": "https://world.hey.com/dhh/apple-has-no-one-left-who-can-say-no-1a542329",
+      "publishDate": "2025-09-14T10:50:57Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "gpt-5 and gpt-5-mini rate limit updates",
-      "postUrl": "https://simonwillison.net/2025/Sep/12/gpt-5-rate-limits/#atom-everything",
-      "publishDate": "2025-09-12T23:14:46+00:00"
+      "postTitle": "Models can prompt now",
+      "postUrl": "https://simonwillison.net/2025/Sep/14/models-can-prompt/#atom-everything",
+      "publishDate": "2025-09-14T20:25:21+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
