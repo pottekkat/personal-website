@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2025-09-15T00:23:21.745108",
+  "lastUpdated": "2025-09-16T00:20:55.919227",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Mantle Model",
-      "postUrl": "https://xkcd.com/3141/",
-      "publishDate": "Fri, 12 Sep 2025 04:00:00 -0000"
+      "postTitle": "-Style Pizza",
+      "postUrl": "https://xkcd.com/3142/",
+      "publishDate": "Mon, 15 Sep 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Apple has no one left who can say no",
-      "postUrl": "https://world.hey.com/dhh/apple-has-no-one-left-who-can-say-no-1a542329",
-      "publishDate": "2025-09-14T10:50:57Z"
+      "postTitle": "As I remember London",
+      "postUrl": "https://world.hey.com/dhh/as-i-remember-london-e7d38e64",
+      "publishDate": "2025-09-15T08:19:00Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Models can prompt now",
-      "postUrl": "https://simonwillison.net/2025/Sep/14/models-can-prompt/#atom-everything",
-      "publishDate": "2025-09-14T20:25:21+00:00"
+      "postTitle": "Quoting Poul-Henning Kamp",
+      "postUrl": "https://simonwillison.net/2025/Sep/15/poul-henning-kamp/#atom-everything",
+      "publishDate": "2025-09-15T21:03:33+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -67,9 +67,9 @@
     {
       "blogTitle": "Austin Z. Henley's Blog",
       "blogUrl": "https://austinhenley.com/",
-      "postTitle": "Baby's first type checker",
-      "postUrl": "https://austinhenley.com/blog/babytypechecker.html",
-      "publishDate": "Sun, 31 Aug 2025 14:00:01 -0400"
+      "postTitle": "We are starting a company to rethink email",
+      "postUrl": "https://austinhenley.com/blog/startingacompany.html",
+      "publishDate": "Mon, 15 Sep 2025 14:00:01 -0400"
     },
     {
       "blogTitle": "blog.jfo.click",
