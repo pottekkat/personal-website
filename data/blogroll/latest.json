@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-17T00:21:33.664780",
+  "lastUpdated": "2025-09-18T00:20:40.941719",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Announcing the 2025 PSF Board Election Results!",
-      "postUrl": "https://simonwillison.net/2025/Sep/16/the-2025-psf-board-election-results/#atom-everything",
-      "publishDate": "2025-09-16T20:39:41+00:00"
+      "postTitle": "Anthropic: A postmortem of three recent issues",
+      "postUrl": "https://simonwillison.net/2025/Sep/17/anthropic-postmortem/#atom-everything",
+      "publishDate": "2025-09-17T23:53:38+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "MCP is the coming of Web 2.0 2.0",
-      "postUrl": "https://anildash.com/2025/05/20/mcp-web20-20/",
-      "publishDate": "2025-05-20T00:00:00Z"
+      "postTitle": "The Crafters of \u201cAndor\u201d",
+      "postUrl": "https://anildash.com/2025/05/23/the-crafters-of-andor/",
+      "publishDate": "2025-05-22T00:00:00Z"
     }
   ]
 }
