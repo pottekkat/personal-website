@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-09-18T00:20:40.941719",
+  "lastUpdated": "2025-09-19T00:21:23.380962",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "-Style Pizza",
-      "postUrl": "https://xkcd.com/3142/",
-      "publishDate": "Mon, 15 Sep 2025 04:00:00 -0000"
+      "postTitle": "Question Mark",
+      "postUrl": "https://xkcd.com/3143/",
+      "publishDate": "Wed, 17 Sep 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Anthropic: A postmortem of three recent issues",
-      "postUrl": "https://simonwillison.net/2025/Sep/17/anthropic-postmortem/#atom-everything",
-      "publishDate": "2025-09-17T23:53:38+00:00"
+      "postTitle": "Quoting Steve Jobs",
+      "postUrl": "https://simonwillison.net/2025/Sep/18/steve-jobs/#atom-everything",
+      "publishDate": "2025-09-18T21:47:56+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "The iPhone 17 and iPhone Air Are New (Enough)",
-      "postUrl": "https://www.readtrung.com/p/the-iphone-17-and-iphone-air-are",
-      "publishDate": "Thu, 11 Sep 2025 21:38:19 GMT"
+      "postTitle": "The Day Quentin Tarantino Became A Filmmaker",
+      "postUrl": "https://www.readtrung.com/p/the-day-quentin-tarantino-became",
+      "publishDate": "Thu, 18 Sep 2025 23:04:04 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "The Crafters of \u201cAndor\u201d",
-      "postUrl": "https://anildash.com/2025/05/23/the-crafters-of-andor/",
-      "publishDate": "2025-05-22T00:00:00Z"
+      "postTitle": "The Internet of Consent",
+      "postUrl": "https://anildash.com/2025/05/27/internet-of-consent/",
+      "publishDate": "2025-05-27T00:00:00Z"
     }
   ]
 }
