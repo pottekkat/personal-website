@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2025-09-22T00:23:42.718560",
+  "lastUpdated": "2025-09-23T00:21:39.045643",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Phase Changes",
-      "postUrl": "https://xkcd.com/3144/",
-      "publishDate": "Fri, 19 Sep 2025 04:00:00 -0000"
+      "postTitle": "Piercing",
+      "postUrl": "https://xkcd.com/3145/",
+      "publishDate": "Mon, 22 Sep 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "As I remember London",
-      "postUrl": "https://world.hey.com/dhh/as-i-remember-london-e7d38e64",
-      "publishDate": "2025-09-15T08:19:00Z"
+      "postTitle": "The great falls of Boeing, Intel, and Apple",
+      "postUrl": "https://world.hey.com/dhh/the-great-falls-of-boeing-intel-and-apple-4c18ca39",
+      "publishDate": "2025-09-22T12:13:11Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Locally AI",
-      "postUrl": "https://simonwillison.net/2025/Sep/21/locally-ai/#atom-everything",
-      "publishDate": "2025-09-21T23:56:14+00:00"
+      "postTitle": "Quoting Kate Niederhoffer, Gabriella Rosen Kellerman, Angela Lee, Alex Liebscher, Kristina Rapuano and Jeffrey T. Hancock",
+      "postUrl": "https://simonwillison.net/2025/Sep/22/workslop/#atom-everything",
+      "publishDate": "2025-09-22T23:21:49+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Building blocks for idiomatic Go pipelines",
-      "postUrl": "https://antonz.org/chans/",
-      "publishDate": "Mon, 11 Aug 2025 12:30:00 +0000"
+      "postTitle": "Native threading and multiprocessing in Go",
+      "postUrl": "https://antonz.org/multi/",
+      "publishDate": "Mon, 22 Sep 2025 17:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
