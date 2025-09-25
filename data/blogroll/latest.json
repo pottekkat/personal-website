@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2025-09-24T00:21:23.414150",
+  "lastUpdated": "2025-09-25T00:21:30.896154",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Piercing",
-      "postUrl": "https://xkcd.com/3145/",
-      "publishDate": "Mon, 22 Sep 2025 04:00:00 -0000"
+      "postTitle": "Fantastic Four",
+      "postUrl": "https://xkcd.com/3146/",
+      "publishDate": "Wed, 24 Sep 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "The great falls of Boeing, Intel, and Apple",
-      "postUrl": "https://world.hey.com/dhh/the-great-falls-of-boeing-intel-and-apple-4c18ca39",
-      "publishDate": "2025-09-22T12:13:11Z"
+      "postTitle": "Calling someone a \"nazi\" is a permission slip for violence",
+      "postUrl": "https://world.hey.com/dhh/calling-someone-a-nazi-is-a-permission-slip-for-violence-4bfbbb82",
+      "publishDate": "2025-09-24T23:27:33Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "GPT-5-Codex",
-      "postUrl": "https://simonwillison.net/2025/Sep/23/gpt-5-codex/#atom-everything",
-      "publishDate": "2025-09-23T23:59:20+00:00"
+      "postTitle": "Quoting Stanford CS221 Autumn 2025",
+      "postUrl": "https://simonwillison.net/2025/Sep/24/stanford/#atom-everything",
+      "publishDate": "2025-09-24T22:15:03+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Native threading and multiprocessing in Go",
-      "postUrl": "https://antonz.org/multi/",
-      "publishDate": "Mon, 22 Sep 2025 17:30:00 +0000"
+      "postTitle": "Go proposal: new(expr)",
+      "postUrl": "https://antonz.org/accepted/new-expr/",
+      "publishDate": "Wed, 24 Sep 2025 07:50:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "How Do Villages Grow into Cities?",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-do-villages-grow-into-cities",
-      "publishDate": "Fri, 19 Sep 2025 14:02:58 GMT"
+      "postTitle": "How to Design a Great City",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-to-design-a-great-city",
+      "publishDate": "Wed, 24 Sep 2025 12:02:52 GMT"
     },
     {
       "blogTitle": "Anil Dash",
