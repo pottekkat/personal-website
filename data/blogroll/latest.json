@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-25T00:21:30.896154",
+  "lastUpdated": "2025-09-26T00:21:25.943737",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Stanford CS221 Autumn 2025",
-      "postUrl": "https://simonwillison.net/2025/Sep/24/stanford/#atom-everything",
-      "publishDate": "2025-09-24T22:15:03+00:00"
+      "postTitle": "GitHub Copilot CLI is now in public preview",
+      "postUrl": "https://simonwillison.net/2025/Sep/25/github-copilot-cli/#atom-everything",
+      "publishDate": "2025-09-25T23:58:34+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Go proposal: new(expr)",
-      "postUrl": "https://antonz.org/accepted/new-expr/",
-      "publishDate": "Wed, 24 Sep 2025 07:50:00 +0000"
+      "postTitle": "Go is #2 among newer languages",
+      "postUrl": "https://antonz.org/lang-ranking/",
+      "publishDate": "Thu, 25 Sep 2025 09:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "How to Design a Great City",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-to-design-a-great-city",
-      "publishDate": "Wed, 24 Sep 2025 12:02:52 GMT"
+      "postTitle": "Why Warm Countries Are Poorer",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/mountains",
+      "publishDate": "Thu, 25 Sep 2025 09:23:33 GMT"
     },
     {
       "blogTitle": "Anil Dash",
