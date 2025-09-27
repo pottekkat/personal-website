@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2025-09-26T00:21:25.943737",
+  "lastUpdated": "2025-09-27T00:20:43.910704",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Fantastic Four",
-      "postUrl": "https://xkcd.com/3146/",
-      "publishDate": "Wed, 24 Sep 2025 04:00:00 -0000"
+      "postTitle": "Hiking",
+      "postUrl": "https://xkcd.com/3147/",
+      "publishDate": "Fri, 26 Sep 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Calling someone a \"nazi\" is a permission slip for violence",
-      "postUrl": "https://world.hey.com/dhh/calling-someone-a-nazi-is-a-permission-slip-for-violence-4bfbbb82",
-      "publishDate": "2025-09-24T23:27:33Z"
+      "postTitle": "We've all had enough of this nonsense",
+      "postUrl": "https://world.hey.com/dhh/we-ve-all-had-enough-of-this-nonsense-8545dd26",
+      "publishDate": "2025-09-26T07:27:27Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "GitHub Copilot CLI is now in public preview",
-      "postUrl": "https://simonwillison.net/2025/Sep/25/github-copilot-cli/#atom-everything",
-      "publishDate": "2025-09-25T23:58:34+00:00"
+      "postTitle": "ForcedLeak: AI Agent risks exposed in Salesforce AgentForce",
+      "postUrl": "https://simonwillison.net/2025/Sep/26/agentforce/#atom-everything",
+      "publishDate": "2025-09-26T23:26:10+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Go is #2 among newer languages",
-      "postUrl": "https://antonz.org/lang-ranking/",
-      "publishDate": "Thu, 25 Sep 2025 09:30:00 +0000"
+      "postTitle": "Write the damn code",
+      "postUrl": "https://antonz.org/write-code/",
+      "publishDate": "Fri, 26 Sep 2025 10:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Ancient Olympians wouldn\u2019t qualify for today\u2019s Games",
-      "postUrl": "https://www.elysian.press/p/ancient-olympians-wouldnt-qualify",
-      "publishDate": "Tue, 23 Sep 2025 15:03:02 GMT"
+      "postTitle": "Marginalia: How Victor Hugo handled the revolution, my favorite alien movie",
+      "postUrl": "https://www.elysian.press/p/marginalia-how-victor-hugo-handled",
+      "publishDate": "Fri, 26 Sep 2025 12:05:20 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "The Day Quentin Tarantino Became A Filmmaker",
-      "postUrl": "https://www.readtrung.com/p/the-day-quentin-tarantino-became",
-      "publishDate": "Thu, 18 Sep 2025 23:04:04 GMT"
+      "postTitle": "Lee Kuan Yew and the Making of Changi (The World's Best Airport)",
+      "postUrl": "https://www.readtrung.com/p/lee-kuan-yew-and-the-making-of-changi",
+      "publishDate": "Fri, 26 Sep 2025 22:09:57 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
