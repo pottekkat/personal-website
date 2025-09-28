@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-27T00:20:43.910704",
+  "lastUpdated": "2025-09-28T00:24:06.739925",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "ForcedLeak: AI Agent risks exposed in Salesforce AgentForce",
-      "postUrl": "https://simonwillison.net/2025/Sep/26/agentforce/#atom-everything",
-      "publishDate": "2025-09-26T23:26:10+00:00"
+      "postTitle": "Video models are zero-shot learners and reasoners",
+      "postUrl": "https://simonwillison.net/2025/Sep/27/video-models-are-zero-shot-learners-and-reasoners/#atom-everything",
+      "publishDate": "2025-09-27T23:59:30+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -139,7 +139,7 @@
       "blogUrl": "https://sheep.horse/",
       "postTitle": "Golf",
       "postUrl": "https://sheep.horse/2024/8/golf.html",
-      "publishDate": "Thu, 15 Aug 2024 07:59:36 +0000"
+      "publishDate": "Thu, 15 Aug 2024 06:59:36 +0000"
     },
     {
       "blogTitle": "The Elysian",
