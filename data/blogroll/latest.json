@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-28T00:24:06.739925",
+  "lastUpdated": "2025-09-29T00:22:50.704812",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Video models are zero-shot learners and reasoners",
-      "postUrl": "https://simonwillison.net/2025/Sep/27/video-models-are-zero-shot-learners-and-reasoners/#atom-everything",
-      "publishDate": "2025-09-27T23:59:30+00:00"
+      "postTitle": "Quoting Nick Turley",
+      "postUrl": "https://simonwillison.net/2025/Sep/28/nick-turley/#atom-everything",
+      "publishDate": "2025-09-28T18:24:13+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -95,9 +95,9 @@
     {
       "blogTitle": "Kaazhchakal",
       "blogUrl": "https://yezhuvath.com/",
-      "postTitle": "The Hill of Crosses",
-      "postUrl": "https://yezhuvath.com/2025/07/07/the-hill-of-crosses/",
-      "publishDate": "Mon, 07 Jul 2025 17:21:19 +0000"
+      "postTitle": "Footloose in Europe",
+      "postUrl": "https://yezhuvath.com/2025/09/28/footloose-in-europe/",
+      "publishDate": "Sun, 28 Sep 2025 06:19:53 +0000"
     },
     {
       "blogTitle": "Tangled Bytes",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Write the damn code",
-      "postUrl": "https://antonz.org/write-code/",
-      "publishDate": "Fri, 26 Sep 2025 10:00:00 +0000"
+      "postTitle": "Go proposal: Hashers",
+      "postUrl": "https://antonz.org/accepted/maphash-hasher/",
+      "publishDate": "Sun, 28 Sep 2025 12:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
