@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-29T00:22:50.704812",
+  "lastUpdated": "2025-09-30T00:22:06.917723",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Nick Turley",
-      "postUrl": "https://simonwillison.net/2025/Sep/28/nick-turley/#atom-everything",
-      "publishDate": "2025-09-28T18:24:13+00:00"
+      "postTitle": "Claude Sonnet 4.5 is probably the \"best coding model in the world\" (at least for now)",
+      "postUrl": "https://simonwillison.net/2025/Sep/29/claude-sonnet-4-5/#atom-everything",
+      "publishDate": "2025-09-29T18:11:39+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Marginalia: How Victor Hugo handled the revolution, my favorite alien movie",
-      "postUrl": "https://www.elysian.press/p/marginalia-how-victor-hugo-handled",
-      "publishDate": "Fri, 26 Sep 2025 12:05:20 GMT"
+      "postTitle": "Stop pretending billionaires built the future",
+      "postUrl": "https://www.elysian.press/p/billionaires-didnt-create-innovation",
+      "publishDate": "Mon, 29 Sep 2025 15:02:36 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "The Internet of Consent",
-      "postUrl": "https://anildash.com/2025/05/27/internet-of-consent/",
-      "publishDate": "2025-05-27T00:00:00Z"
+      "postTitle": "Who washes their hands?",
+      "postUrl": "https://anildash.com/2025/05/29/who-is-clean/",
+      "publishDate": "2025-05-29T00:00:00Z"
     }
   ]
 }
