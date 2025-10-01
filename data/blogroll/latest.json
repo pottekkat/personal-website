@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-09-30T00:22:06.917723",
+  "lastUpdated": "2025-10-01T00:25:08.960139",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Hiking",
-      "postUrl": "https://xkcd.com/3147/",
-      "publishDate": "Fri, 26 Sep 2025 04:00:00 -0000"
+      "postTitle": "100% All Achievements",
+      "postUrl": "https://xkcd.com/3148/",
+      "publishDate": "Mon, 29 Sep 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Claude Sonnet 4.5 is probably the \"best coding model in the world\" (at least for now)",
-      "postUrl": "https://simonwillison.net/2025/Sep/29/claude-sonnet-4-5/#atom-everything",
-      "publishDate": "2025-09-29T18:11:39+00:00"
+      "postTitle": "Sora 2",
+      "postUrl": "https://simonwillison.net/2025/Sep/30/sora-2/#atom-everything",
+      "publishDate": "2025-09-30T18:03:49+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Go proposal: Hashers",
-      "postUrl": "https://antonz.org/accepted/maphash-hasher/",
-      "publishDate": "Sun, 28 Sep 2025 12:30:00 +0000"
+      "postTitle": "Gist of Go: Atomics",
+      "postUrl": "https://antonz.org/go-concurrency/atomics/",
+      "publishDate": "Tue, 30 Sep 2025 11:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "Lee Kuan Yew and the Making of Changi (The World's Best Airport)",
-      "postUrl": "https://www.readtrung.com/p/lee-kuan-yew-and-the-making-of-changi",
-      "publishDate": "Fri, 26 Sep 2025 22:09:57 GMT"
+      "postTitle": "\"One Battle After Another\" Review",
+      "postUrl": "https://www.readtrung.com/p/one-battle-after-another-review",
+      "publishDate": "Tue, 30 Sep 2025 19:53:15 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
