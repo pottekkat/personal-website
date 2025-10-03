@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-10-02T00:21:04.205863",
+  "lastUpdated": "2025-10-03T00:21:04.797296",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "100% All Achievements",
-      "postUrl": "https://xkcd.com/3148/",
-      "publishDate": "Mon, 29 Sep 2025 04:00:00 -0000"
+      "postTitle": "Measure Twice, Cut Once",
+      "postUrl": "https://xkcd.com/3149/",
+      "publishDate": "Wed, 01 Oct 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "aavetis/PRarena",
-      "postUrl": "https://simonwillison.net/2025/Oct/1/prarena/#atom-everything",
-      "publishDate": "2025-10-01T23:59:40+00:00"
+      "postTitle": "Daniel Stenberg's note on AI assisted curl bug reports",
+      "postUrl": "https://simonwillison.net/2025/Oct/2/curl/#atom-everything",
+      "publishDate": "2025-10-02T15:00:09+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
