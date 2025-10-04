@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-10-03T00:21:04.797296",
+  "lastUpdated": "2025-10-04T00:20:12.855485",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Measure Twice, Cut Once",
-      "postUrl": "https://xkcd.com/3149/",
-      "publishDate": "Wed, 01 Oct 2025 04:00:00 -0000"
+      "postTitle": "Ping",
+      "postUrl": "https://xkcd.com/3150/",
+      "publishDate": "Fri, 03 Oct 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Daniel Stenberg's note on AI assisted curl bug reports",
-      "postUrl": "https://simonwillison.net/2025/Oct/2/curl/#atom-everything",
-      "publishDate": "2025-10-02T15:00:09+00:00"
+      "postTitle": "Litestream v0.5.0 is Here",
+      "postUrl": "https://simonwillison.net/2025/Oct/3/litestream/#atom-everything",
+      "publishDate": "2025-10-03T15:10:21+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,16 +144,16 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Hackathon: Let's build a profit-sharing platform for writers",
-      "postUrl": "https://www.elysian.press/p/hackathon-lets-build-a-profit-sharing",
-      "publishDate": "Wed, 01 Oct 2025 16:38:56 GMT"
+      "postTitle": "How much do you actually work?",
+      "postUrl": "https://www.elysian.press/p/how-much-do-you-actually-work",
+      "publishDate": "Fri, 03 Oct 2025 12:02:57 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Celebrating PALLADIUM 18",
-      "postUrl": "https://letter.palladiummag.com/p/celebrating-palladium-18",
-      "publishDate": "Thu, 04 Sep 2025 13:08:23 GMT"
+      "postTitle": "New Article: How GDP Hides Industrial Decline",
+      "postUrl": "https://letter.palladiummag.com/p/new-article-how-gdp-hides-industrial",
+      "publishDate": "Fri, 03 Oct 2025 12:20:12 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Warm Countries\u2019 Poverty & Mountains: Responses to Your Comments",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/comments-on-warm-countries-poverty-and-mountains",
-      "publishDate": "Wed, 01 Oct 2025 19:30:06 GMT"
+      "postTitle": "Final Comments on the Theory of Mountains & Warm Countries",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/final-comments-on-the-theory-of-mountains",
+      "publishDate": "Fri, 03 Oct 2025 11:02:47 GMT"
     },
     {
       "blogTitle": "Anil Dash",
