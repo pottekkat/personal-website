@@ -17,9 +17,9 @@ categories:
 series: []
 aliases: []
 cover:
-  image: /images/three-days-at-indiafoss/indiafoss-banner.jpg
-  alt: Photo showing the topics discussed during the day 0 Maintainer Summit Unconference.
-  caption: "Maintainer Summit: Unconference"
+  image: /images/three-days-at-indiafoss/cherry-blossom-banner.jpg
+  alt: Cherry, cherry, blossoms!
+  caption: My yearly pilgrimage.
   relative: false
 fmContentType: Post (default)
 ---
