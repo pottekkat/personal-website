@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-04T00:20:12.855485",
+  "lastUpdated": "2025-10-05T00:23:47.147471",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "We've all had enough of this nonsense",
-      "postUrl": "https://world.hey.com/dhh/we-ve-all-had-enough-of-this-nonsense-8545dd26",
-      "publishDate": "2025-09-26T07:27:27Z"
+      "postTitle": "Pay yourself first",
+      "postUrl": "https://world.hey.com/dhh/pay-yourself-first-e86f8147",
+      "publishDate": "2025-10-04T08:12:02Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Litestream v0.5.0 is Here",
-      "postUrl": "https://simonwillison.net/2025/Oct/3/litestream/#atom-everything",
-      "publishDate": "2025-10-03T15:10:21+00:00"
+      "postTitle": "Let the LLM Write the Prompts: An Intro to DSPy in Compound Al Pipelines",
+      "postUrl": "https://simonwillison.net/2025/Oct/4/drew-on-dspy/#atom-everything",
+      "publishDate": "2025-10-04T22:48:59+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
