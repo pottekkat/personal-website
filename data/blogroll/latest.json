@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-05T00:23:47.147471",
+  "lastUpdated": "2025-10-06T00:22:00.683890",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Let the LLM Write the Prompts: An Intro to DSPy in Compound Al Pipelines",
-      "postUrl": "https://simonwillison.net/2025/Oct/4/drew-on-dspy/#atom-everything",
-      "publishDate": "2025-10-04T22:48:59+00:00"
+      "postTitle": "Embracing the parallel coding agent lifestyle",
+      "postUrl": "https://simonwillison.net/2025/Oct/5/parallel-coding-agents/#atom-everything",
+      "publishDate": "2025-10-05T12:06:55+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "Golf",
-      "postUrl": "https://sheep.horse/2024/8/golf.html",
-      "publishDate": "Thu, 15 Aug 2024 06:59:36 +0000"
+      "postTitle": "Ponyhenge",
+      "postUrl": "https://sheep.horse/2024/10/ponyhenge.html",
+      "publishDate": "Wed, 02 Oct 2024 04:24:02 +0000"
     },
     {
       "blogTitle": "The Elysian",
