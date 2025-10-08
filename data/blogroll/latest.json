@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2025-10-07T00:21:46.807347",
+  "lastUpdated": "2025-10-08T00:21:35.478618",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Ping",
-      "postUrl": "https://xkcd.com/3150/",
-      "publishDate": "Fri, 03 Oct 2025 04:00:00 -0000"
+      "postTitle": "Window Screen",
+      "postUrl": "https://xkcd.com/3151/",
+      "publishDate": "Mon, 06 Oct 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Pay yourself first",
-      "postUrl": "https://world.hey.com/dhh/pay-yourself-first-e86f8147",
-      "publishDate": "2025-10-04T08:12:02Z"
+      "postTitle": "Give me AI slop over human sludge any day",
+      "postUrl": "https://world.hey.com/dhh/give-me-ai-slop-over-human-sludge-any-day-8c4b747d",
+      "publishDate": "2025-10-07T13:02:38Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Deloitte to pay money back to Albanese government after using AI in $440,000 report",
-      "postUrl": "https://simonwillison.net/2025/Oct/6/deloitte-to-pay-money-back/#atom-everything",
-      "publishDate": "2025-10-06T23:35:53+00:00"
+      "postTitle": "Retraction",
+      "postUrl": "https://simonwillison.net/2025/Oct/7/gemini-25-computer-use-captchas/#atom-everything",
+      "publishDate": "2025-10-07T22:00:28+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,8 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "Typechecker Zoo",
-      "postUrl": "https://www.stephendiehl.com/posts/typechecker_zoo/",
-      "publishDate": "Fri, 15 Aug 2025 01:00:00 +0000"
+      "error": true,
+      "errorMessage": "<urlopen error [Errno -3] Temporary failure in name resolution>"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -158,9 +157,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "Work as a Mundane Spiritual Practice | #308",
-      "postUrl": "https://newsletter.pathlesspath.com/p/work-as-a-mundane-spiritual-practice",
-      "publishDate": "Sat, 20 Sep 2025 12:31:23 GMT"
+      "postTitle": "Leap Capital: How Much Do You Need To Quit? | #309",
+      "postUrl": "https://newsletter.pathlesspath.com/p/leap-capital-how-much-do-you-need",
+      "publishDate": "Tue, 07 Oct 2025 05:25:56 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
@@ -172,16 +171,16 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Final Comments on the Theory of Mountains & Warm Countries",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/final-comments-on-the-theory-of-mountains",
-      "publishDate": "Fri, 03 Oct 2025 11:02:47 GMT"
+      "postTitle": "How Silver Flooded the World",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-silver-flooded-the-world",
+      "publishDate": "Tue, 07 Oct 2025 12:00:23 GMT"
     },
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Who washes their hands?",
-      "postUrl": "https://anildash.com/2025/05/29/who-is-clean/",
-      "publishDate": "2025-05-29T00:00:00Z"
+      "postTitle": "It's Time for Something New",
+      "postUrl": "https://anildash.com/2025/06/11/time-for-something-new/",
+      "publishDate": "2025-06-11T00:00:00Z"
     }
   ]
 }
