@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-08T00:21:35.478618",
+  "lastUpdated": "2025-10-09T00:21:26.398412",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Retraction",
-      "postUrl": "https://simonwillison.net/2025/Oct/7/gemini-25-computer-use-captchas/#atom-everything",
-      "publishDate": "2025-10-07T22:00:28+00:00"
+      "postTitle": "Claude can write complete Datasette plugins now",
+      "postUrl": "https://simonwillison.net/2025/Oct/8/claude-datasette-plugins/#atom-everything",
+      "publishDate": "2025-10-08T23:43:43+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,8 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "error": true,
-      "errorMessage": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+      "postTitle": "Typechecker Zoo",
+      "postUrl": "https://www.stephendiehl.com/posts/typechecker_zoo/",
+      "publishDate": "Fri, 15 Aug 2025 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -143,9 +144,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Mark Cuban\u2019s Right\u2014End Exorbitant CEO Pay",
-      "postUrl": "https://www.elysian.press/p/mark-cubans-rightend-exorbitant-ceo",
-      "publishDate": "Mon, 06 Oct 2025 18:02:10 GMT"
+      "postTitle": "How Seattle is taxing exorbitant CEO pay",
+      "postUrl": "https://www.elysian.press/p/how-seattle-is-taxing-exorbitant",
+      "publishDate": "Wed, 08 Oct 2025 13:03:23 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
