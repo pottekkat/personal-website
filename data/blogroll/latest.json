@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-10-09T00:21:26.398412",
+  "lastUpdated": "2025-10-10T00:21:52.824658",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Window Screen",
-      "postUrl": "https://xkcd.com/3151/",
-      "publishDate": "Mon, 06 Oct 2025 04:00:00 -0000"
+      "postTitle": "Skateboard",
+      "postUrl": "https://xkcd.com/3152/",
+      "publishDate": "Wed, 08 Oct 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Claude can write complete Datasette plugins now",
-      "postUrl": "https://simonwillison.net/2025/Oct/8/claude-datasette-plugins/#atom-everything",
-      "publishDate": "2025-10-08T23:43:43+00:00"
+      "postTitle": "Quoting Gergely Orosz",
+      "postUrl": "https://simonwillison.net/2025/Oct/9/gergely-orosz/#atom-everything",
+      "publishDate": "2025-10-09T13:56:12+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
