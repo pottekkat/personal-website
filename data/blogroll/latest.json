@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-10-10T00:21:52.824658",
+  "lastUpdated": "2025-10-11T00:20:30.339155",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Skateboard",
-      "postUrl": "https://xkcd.com/3152/",
-      "publishDate": "Wed, 08 Oct 2025 04:00:00 -0000"
+      "postTitle": "Hot Water Balloon",
+      "postUrl": "https://xkcd.com/3153/",
+      "publishDate": "Fri, 10 Oct 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Gergely Orosz",
-      "postUrl": "https://simonwillison.net/2025/Oct/9/gergely-orosz/#atom-everything",
-      "publishDate": "2025-10-09T13:56:12+00:00"
+      "postTitle": "simonw/claude-skills",
+      "postUrl": "https://simonwillison.net/2025/Oct/10/claude-skills/#atom-everything",
+      "publishDate": "2025-10-10T23:57:19+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -81,9 +81,9 @@
     {
       "blogTitle": "Julia Evans",
       "blogUrl": "https://jvns.ca/",
-      "postTitle": "New zine: The Secret Rules of the Terminal",
-      "postUrl": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/",
-      "publishDate": "2025-06-26T00:00:00+00:00"
+      "postTitle": "Notes on switching to Helix from vim",
+      "postUrl": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/",
+      "publishDate": "2025-10-10T00:00:00+00:00"
     },
     {
       "blogTitle": "Imposter!",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "New Article: How GDP Hides Industrial Decline",
-      "postUrl": "https://letter.palladiummag.com/p/new-article-how-gdp-hides-industrial",
-      "publishDate": "Fri, 03 Oct 2025 12:20:12 GMT"
+      "postTitle": "New Article: Mariners at the Dawn of History",
+      "postUrl": "https://letter.palladiummag.com/p/new-article-mariners-at-the-dawn",
+      "publishDate": "Fri, 10 Oct 2025 13:28:30 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "How Silver Flooded the World",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-silver-flooded-the-world",
-      "publishDate": "Tue, 07 Oct 2025 12:00:23 GMT"
+      "postTitle": "The Consequences of the Silver Flood",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/the-consequences-of-the-silver-flood",
+      "publishDate": "Fri, 10 Oct 2025 14:37:50 GMT"
     },
     {
       "blogTitle": "Anil Dash",
