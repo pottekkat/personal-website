@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-11T00:20:30.339155",
+  "lastUpdated": "2025-10-12T00:22:38.189430",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "simonw/claude-skills",
-      "postUrl": "https://simonwillison.net/2025/Oct/10/claude-skills/#atom-everything",
-      "publishDate": "2025-10-10T23:57:19+00:00"
+      "postTitle": "Claude Code sub-agents",
+      "postUrl": "https://simonwillison.net/2025/Oct/11/sub-agents/#atom-everything",
+      "publishDate": "2025-10-11T21:29:39+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
