@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-12T00:22:38.189430",
+  "lastUpdated": "2025-10-13T00:23:34.812060",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Claude Code sub-agents",
-      "postUrl": "https://simonwillison.net/2025/Oct/11/sub-agents/#atom-everything",
-      "publishDate": "2025-10-11T21:29:39+00:00"
+      "postTitle": "Quoting Slashdot",
+      "postUrl": "https://simonwillison.net/2025/Oct/12/slashdot/#atom-everything",
+      "publishDate": "2025-10-12T16:18:05+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -67,9 +67,9 @@
     {
       "blogTitle": "Austin Z. Henley's Blog",
       "blogUrl": "https://austinhenley.com/",
-      "postTitle": "We are starting a company to rethink email",
-      "postUrl": "https://austinhenley.com/blog/startingacompany.html",
-      "publishDate": "Mon, 15 Sep 2025 14:00:01 -0400"
+      "postTitle": "My startup diary: Techstars",
+      "postUrl": "https://austinhenley.com/blog/techstarsdiary.html",
+      "publishDate": "Sun, 12 Oct 2025 19:00:01 -0400"
     },
     {
       "blogTitle": "blog.jfo.click",
