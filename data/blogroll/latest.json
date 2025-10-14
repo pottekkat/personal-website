@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-10-13T00:23:34.812060",
+  "lastUpdated": "2025-10-14T00:21:21.442026",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Hot Water Balloon",
-      "postUrl": "https://xkcd.com/3153/",
-      "publishDate": "Fri, 10 Oct 2025 04:00:00 -0000"
+      "postTitle": "Physics Insight",
+      "postUrl": "https://xkcd.com/3154/",
+      "publishDate": "Mon, 13 Oct 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Slashdot",
-      "postUrl": "https://simonwillison.net/2025/Oct/12/slashdot/#atom-everything",
-      "publishDate": "2025-10-12T16:18:05+00:00"
+      "postTitle": "nanochat",
+      "postUrl": "https://simonwillison.net/2025/Oct/13/nanochat/#atom-everything",
+      "publishDate": "2025-10-13T20:29:58+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "Ponyhenge",
-      "postUrl": "https://sheep.horse/2024/10/ponyhenge.html",
-      "publishDate": "Wed, 02 Oct 2024 04:24:02 +0000"
+      "postTitle": "The Anty Boisjoly Mysteries by P.J. Fitzsimmons",
+      "postUrl": "https://sheep.horse/2024/11/the_anty_boisjoly_mysteries_by_p.j._fitzsimmons.html",
+      "publishDate": "Thu, 07 Nov 2024 03:09:51 +0000"
     },
     {
       "blogTitle": "The Elysian",
