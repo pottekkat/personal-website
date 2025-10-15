@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-14T00:21:21.442026",
+  "lastUpdated": "2025-10-15T00:22:11.495277",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "nanochat",
-      "postUrl": "https://simonwillison.net/2025/Oct/13/nanochat/#atom-everything",
-      "publishDate": "2025-10-13T20:29:58+00:00"
+      "postTitle": "NVIDIA DGX Spark: great hardware, early days for the ecosystem",
+      "postUrl": "https://simonwillison.net/2025/Oct/14/nvidia-dgx-spark/#atom-everything",
+      "publishDate": "2025-10-14T23:36:21+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "How Seattle is taxing exorbitant CEO pay",
-      "postUrl": "https://www.elysian.press/p/how-seattle-is-taxing-exorbitant",
-      "publishDate": "Wed, 08 Oct 2025 13:03:23 GMT"
+      "postTitle": "Democracy could be incredibly efficient",
+      "postUrl": "https://www.elysian.press/p/democracy-could-be-incredibly-efficient",
+      "publishDate": "Tue, 14 Oct 2025 12:43:28 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
