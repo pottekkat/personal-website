@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-10-15T00:22:11.495277",
+  "lastUpdated": "2025-10-16T00:23:10.564663",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Physics Insight",
-      "postUrl": "https://xkcd.com/3154/",
-      "publishDate": "Mon, 13 Oct 2025 04:00:00 -0000"
+      "postTitle": "Physics Paths",
+      "postUrl": "https://xkcd.com/3155/",
+      "publishDate": "Wed, 15 Oct 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "NVIDIA DGX Spark: great hardware, early days for the ecosystem",
-      "postUrl": "https://simonwillison.net/2025/Oct/14/nvidia-dgx-spark/#atom-everything",
-      "publishDate": "2025-10-14T23:36:21+00:00"
+      "postTitle": "Quoting Catherine Wu",
+      "postUrl": "https://simonwillison.net/2025/Oct/15/catherine-wu/#atom-everything",
+      "publishDate": "2025-10-15T20:34:09+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Gist of Go: Atomics",
-      "postUrl": "https://antonz.org/go-concurrency/atomics/",
-      "publishDate": "Tue, 30 Sep 2025 11:30:00 +0000"
+      "postTitle": "High-precision date/time in C",
+      "postUrl": "https://antonz.org/vaqt/",
+      "publishDate": "Wed, 15 Oct 2025 12:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "New Article: Mariners at the Dawn of History",
-      "postUrl": "https://letter.palladiummag.com/p/new-article-mariners-at-the-dawn",
-      "publishDate": "Fri, 10 Oct 2025 13:28:30 GMT"
+      "postTitle": "The Birth and Burial of Evolutionary Science in Australia",
+      "postUrl": "https://letter.palladiummag.com/p/the-birth-and-burial-of-evolutionary",
+      "publishDate": "Wed, 15 Oct 2025 18:43:10 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
