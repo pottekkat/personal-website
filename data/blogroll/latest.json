@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-10-17T00:22:08.529066",
+  "lastUpdated": "2025-10-18T00:20:36.884885",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Physics Paths",
-      "postUrl": "https://xkcd.com/3155/",
-      "publishDate": "Wed, 15 Oct 2025 04:00:00 -0000"
+      "postTitle": "Planetary Rings",
+      "postUrl": "https://xkcd.com/3156/",
+      "publishDate": "Fri, 17 Oct 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Barry Zhang",
-      "postUrl": "https://simonwillison.net/2025/Oct/16/barry-zhang/#atom-everything",
-      "publishDate": "2025-10-16T22:38:12+00:00"
+      "postTitle": "Quoting Alexander Fridriksson and Jay Miller",
+      "postUrl": "https://simonwillison.net/2025/Oct/17/uuid-v7/#atom-everything",
+      "publishDate": "2025-10-17T20:59:08+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "The Anty Boisjoly Mysteries by P.J. Fitzsimmons",
-      "postUrl": "https://sheep.horse/2024/11/the_anty_boisjoly_mysteries_by_p.j._fitzsimmons.html",
-      "publishDate": "Thu, 07 Nov 2024 03:09:51 +0000"
+      "postTitle": "On Micropayments",
+      "postUrl": "https://sheep.horse/2024/11/on_micropayments.html",
+      "publishDate": "Sat, 16 Nov 2024 23:41:25 +0000"
     },
     {
       "blogTitle": "The Elysian",
@@ -151,7 +151,7 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "The Birth and Burial of Evolutionary Science in Australia",
+      "postTitle": "New Article: The Birth and Burial of Evolutionary Science in Australia",
       "postUrl": "https://letter.palladiummag.com/p/the-birth-and-burial-of-evolutionary",
       "publishDate": "Wed, 15 Oct 2025 18:43:10 GMT"
     },
@@ -165,9 +165,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "\"One Battle After Another\" Review",
-      "postUrl": "https://www.readtrung.com/p/one-battle-after-another-review",
-      "publishDate": "Tue, 30 Sep 2025 19:53:15 GMT"
+      "postTitle": "J.R. Simplot Became A Billionaire Selling Potato Chips (and then Semiconductor Chips)",
+      "postUrl": "https://www.readtrung.com/p/jr-simplot-became-a-billionaire-selling",
+      "publishDate": "Fri, 17 Oct 2025 22:57:39 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "It's Time for Something New",
-      "postUrl": "https://anildash.com/2025/06/11/time-for-something-new/",
-      "publishDate": "2025-06-11T00:00:00Z"
+      "postTitle": "Exit the Wu",
+      "postUrl": "https://anildash.com/2025/07/16/exit-the-wu/",
+      "publishDate": "2025-07-16T00:00:00Z"
     }
   ]
 }
