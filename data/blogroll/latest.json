@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-18T00:20:36.884885",
+  "lastUpdated": "2025-10-19T00:24:48.141107",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Alexander Fridriksson and Jay Miller",
-      "postUrl": "https://simonwillison.net/2025/Oct/17/uuid-v7/#atom-everything",
-      "publishDate": "2025-10-17T20:59:08+00:00"
+      "postTitle": "TIL: Exploring OpenAI's deep research API model o4-mini-deep-research",
+      "postUrl": "https://simonwillison.net/2025/Oct/18/o4-mini-deep-research/#atom-everything",
+      "publishDate": "2025-10-18T19:21:30+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -67,9 +67,9 @@
     {
       "blogTitle": "Austin Z. Henley's Blog",
       "blogUrl": "https://austinhenley.com/",
-      "postTitle": "My startup diary: Techstars",
-      "postUrl": "https://austinhenley.com/blog/techstarsdiary.html",
-      "publishDate": "Sun, 12 Oct 2025 19:00:01 -0400"
+      "postTitle": "The design space of AI coding tools",
+      "postUrl": "https://austinhenley.com/blog/aidesignspace.html",
+      "publishDate": "Sat, 18 Oct 2025 16:00:01 -0400"
     },
     {
       "blogTitle": "blog.jfo.click",
