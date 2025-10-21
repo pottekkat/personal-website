@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-21T00:22:25.807512",
+  "lastUpdated": "2025-10-21T08:20:35.532666",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Claude Code for web - a new asynchronous coding agent from Anthropic",
-      "postUrl": "https://simonwillison.net/2025/Oct/20/claude-code-for-web/#atom-everything",
-      "publishDate": "2025-10-20T19:43:15+00:00"
+      "postTitle": "Quoting Phil Gyford",
+      "postUrl": "https://simonwillison.net/2025/Oct/21/phil-gyford/#atom-everything",
+      "publishDate": "2025-10-21T02:40:56+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -140,6 +140,13 @@
       "postTitle": "On Micropayments",
       "postUrl": "https://sheep.horse/2024/11/on_micropayments.html",
       "publishDate": "Sat, 16 Nov 2024 23:41:25 +0000"
+    },
+    {
+      "blogTitle": "AI as Normal Technology (formerly, AI Snake Oil)",
+      "blogUrl": "https://www.normaltech.ai",
+      "postTitle": "A guide to understanding AI as normal technology",
+      "postUrl": "https://www.normaltech.ai/p/a-guide-to-understanding-ai-as-normal",
+      "publishDate": "Tue, 09 Sep 2025 13:00:40 GMT"
     },
     {
       "blogTitle": "The Elysian",
