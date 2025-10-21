@@ -59,7 +59,7 @@ feeds:
   - title: Andrew's Blog
     xmlURL: https://sheep.horse/rss.xml
     htmlURL: https://sheep.horse/
-  - title: AI as Normal Technology (formerly, AI Snake Oil)
+  - title: AI as Normal Technology
     xmlURL: https://www.normaltech.ai/feed
     htmlURL: https://www.normaltech.ai
   - title: The Elysian
