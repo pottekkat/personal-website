@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-10-20T00:24:10.150927",
+  "lastUpdated": "2025-10-21T00:22:25.807512",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Planetary Rings",
-      "postUrl": "https://xkcd.com/3156/",
-      "publishDate": "Fri, 17 Oct 2025 04:00:00 -0000"
+      "postTitle": "Emperor Palpatine",
+      "postUrl": "https://xkcd.com/3157/",
+      "publishDate": "Mon, 20 Oct 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "TIL: Exploring OpenAI's deep research API model o4-mini-deep-research",
-      "postUrl": "https://simonwillison.net/2025/Oct/18/o4-mini-deep-research/#atom-everything",
-      "publishDate": "2025-10-18T19:21:30+00:00"
+      "postTitle": "Claude Code for web - a new asynchronous coding agent from Anthropic",
+      "postUrl": "https://simonwillison.net/2025/Oct/20/claude-code-for-web/#atom-everything",
+      "publishDate": "2025-10-20T19:43:15+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "High-precision date/time in C",
-      "postUrl": "https://antonz.org/vaqt/",
-      "publishDate": "Wed, 15 Oct 2025 12:00:00 +0000"
+      "postTitle": "Go proposal: Compare IP subnets",
+      "postUrl": "https://antonz.org/accepted/netip-prefix-compare/",
+      "publishDate": "Mon, 20 Oct 2025 08:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
