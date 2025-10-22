@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-21T08:26:06.885820",
+  "lastUpdated": "2025-10-22T00:22:49.091843",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Phil Gyford",
-      "postUrl": "https://simonwillison.net/2025/Oct/21/phil-gyford/#atom-everything",
-      "publishDate": "2025-10-21T02:40:56+00:00"
+      "postTitle": "Unseeable prompt injections in screenshots: more vulnerabilities in Comet and other AI browsers",
+      "postUrl": "https://simonwillison.net/2025/Oct/21/unseeable-prompt-injections/#atom-everything",
+      "publishDate": "2025-10-21T22:12:49+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Genomics Has Revealed An Age Undreamed Of",
-      "postUrl": "https://letter.palladiummag.com/p/genomics-has-revealed-an-age-undreamed",
-      "publishDate": "Sun, 19 Oct 2025 18:57:57 GMT"
+      "postTitle": "Early Article: Why the New Leisure Class Enjoys Activism and Philanthropy",
+      "postUrl": "https://letter.palladiummag.com/p/early-article-why-the-new-leisure",
+      "publishDate": "Tue, 21 Oct 2025 18:52:04 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
