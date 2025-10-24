@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-10-23T00:22:17.596793",
+  "lastUpdated": "2025-10-24T00:20:04.842643",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Emperor Palpatine",
-      "postUrl": "https://xkcd.com/3157/",
-      "publishDate": "Mon, 20 Oct 2025 04:00:00 -0000"
+      "postTitle": "Shielding Chart",
+      "postUrl": "https://xkcd.com/3158/",
+      "publishDate": "Wed, 22 Oct 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Dane Stuckey (OpenAI CISO) on prompt injection risks for ChatGPT Atlas",
-      "postUrl": "https://simonwillison.net/2025/Oct/22/openai-ciso-on-atlas/#atom-everything",
-      "publishDate": "2025-10-22T20:43:15+00:00"
+      "postTitle": "OpenAI no longer has to preserve all of its ChatGPT data, with some exceptions",
+      "postUrl": "https://simonwillison.net/2025/Oct/23/openai-no-longer-has-to-preserve/#atom-everything",
+      "publishDate": "2025-10-23T05:19:32+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Water Taxis Might Change Urbanism",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/water-taxis-might-change-urbanism",
-      "publishDate": "Wed, 22 Oct 2025 01:25:11 GMT"
+      "postTitle": "Argentina\u2019s Original Sin",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/argentinas-original-sin",
+      "publishDate": "Thu, 23 Oct 2025 09:20:34 GMT"
     },
     {
       "blogTitle": "Anil Dash",
