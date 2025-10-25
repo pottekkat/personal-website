@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-10-24T00:20:04.842643",
+  "lastUpdated": "2025-10-25T00:22:11.485838",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Shielding Chart",
-      "postUrl": "https://xkcd.com/3158/",
-      "publishDate": "Wed, 22 Oct 2025 04:00:00 -0000"
+      "postTitle": "Continents",
+      "postUrl": "https://xkcd.com/3159/",
+      "publishDate": "Fri, 24 Oct 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "OpenAI no longer has to preserve all of its ChatGPT data, with some exceptions",
-      "postUrl": "https://simonwillison.net/2025/Oct/23/openai-no-longer-has-to-preserve/#atom-everything",
-      "publishDate": "2025-10-23T05:19:32+00:00"
+      "postTitle": "claude_code_docs_map.md",
+      "postUrl": "https://simonwillison.net/2025/Oct/24/claude-code-docs-map/#atom-everything",
+      "publishDate": "2025-10-24T23:01:42+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Democracy could be incredibly efficient",
-      "postUrl": "https://www.elysian.press/p/democracy-could-be-incredibly-efficient",
-      "publishDate": "Tue, 14 Oct 2025 12:43:28 GMT"
+      "postTitle": "WE SHOULD OWN THE ECONOMY",
+      "postUrl": "https://www.elysian.press/p/own-the-economy-book",
+      "publishDate": "Fri, 24 Oct 2025 15:24:38 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -186,8 +186,8 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Zohran Mamdani is the leader NYC needs for innovation and entrepreneurship",
-      "postUrl": "https://anildash.com/2025/08/20/zohran-mamdani-is-the-nyc-innovation-leader/",
+      "postTitle": "Moguls Moving Money Isn\u2019t the Same as Building a Business",
+      "postUrl": "https://anildash.com/2025/08/20/moving-money-ain\u2019t-building-a-business/",
       "publishDate": "2025-08-20T00:00:00Z"
     }
   ]
