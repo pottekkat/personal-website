@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-25T00:22:11.485838",
+  "lastUpdated": "2025-10-26T00:24:08.403279",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "A petabyte worth of Omarchy in a month",
-      "postUrl": "https://world.hey.com/dhh/a-petabyte-worth-of-omarchy-in-a-month-a1fc538e",
-      "publishDate": "2025-10-16T14:43:41Z"
+      "postTitle": "Success always spawns haters",
+      "postUrl": "https://world.hey.com/dhh/success-always-spawns-haters-75edaede",
+      "publishDate": "2025-10-25T17:44:28Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "claude_code_docs_map.md",
-      "postUrl": "https://simonwillison.net/2025/Oct/24/claude-code-docs-map/#atom-everything",
-      "publishDate": "2025-10-24T23:01:42+00:00"
+      "postTitle": "Setting up a codebase for working with coding agents",
+      "postUrl": "https://simonwillison.net/2025/Oct/25/coding-agent-tips/#atom-everything",
+      "publishDate": "2025-10-25T18:42:24+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
