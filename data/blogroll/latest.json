@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-26T00:24:08.403279",
+  "lastUpdated": "2025-10-27T00:24:34.418260",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Setting up a codebase for working with coding agents",
-      "postUrl": "https://simonwillison.net/2025/Oct/25/coding-agent-tips/#atom-everything",
-      "publishDate": "2025-10-25T18:42:24+00:00"
+      "postTitle": "GenAI Image Editing Showdown",
+      "postUrl": "https://simonwillison.net/2025/Oct/26/genai-image-editing-showdown/#atom-everything",
+      "publishDate": "2025-10-26T23:59:25+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
