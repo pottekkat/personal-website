@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-10-27T00:24:34.418260",
+  "lastUpdated": "2025-10-28T00:21:44.562476",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Continents",
-      "postUrl": "https://xkcd.com/3159/",
-      "publishDate": "Fri, 24 Oct 2025 04:00:00 -0000"
+      "postTitle": "Document Forgery",
+      "postUrl": "https://xkcd.com/3160/",
+      "publishDate": "Mon, 27 Oct 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "GenAI Image Editing Showdown",
-      "postUrl": "https://simonwillison.net/2025/Oct/26/genai-image-editing-showdown/#atom-everything",
-      "publishDate": "2025-10-26T23:59:25+00:00"
+      "postTitle": "The PSF has withdrawn a $1.5 million proposal to US government grant program",
+      "postUrl": "https://simonwillison.net/2025/Oct/27/psf-withdrawn-proposal/#atom-everything",
+      "publishDate": "2025-10-27T20:32:07+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "WE SHOULD OWN THE ECONOMY",
-      "postUrl": "https://www.elysian.press/p/own-the-economy-book",
-      "publishDate": "Fri, 24 Oct 2025 15:24:38 GMT"
+      "postTitle": "We're reinventing the social club\u2014here's our Manifesto",
+      "postUrl": "https://www.elysian.press/p/were-reinventing-the-social-clubheres",
+      "publishDate": "Mon, 27 Oct 2025 14:18:50 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "Leap Capital: How Much Do You Need To Quit? | #309",
-      "postUrl": "https://newsletter.pathlesspath.com/p/leap-capital-how-much-do-you-need",
-      "publishDate": "Tue, 07 Oct 2025 05:25:56 GMT"
+      "postTitle": "Reclaim The Book | #310",
+      "postUrl": "https://newsletter.pathlesspath.com/p/reclaim-the-book-310",
+      "publishDate": "Mon, 27 Oct 2025 11:30:42 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
