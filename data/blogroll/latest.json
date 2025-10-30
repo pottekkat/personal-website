@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2025-10-29T00:23:22.373213",
+  "lastUpdated": "2025-10-30T00:23:09.243797",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Document Forgery",
-      "postUrl": "https://xkcd.com/3160/",
-      "publishDate": "Mon, 27 Oct 2025 04:00:00 -0000"
+      "postTitle": "Airspeed",
+      "postUrl": "https://xkcd.com/3161/",
+      "publishDate": "Wed, 29 Oct 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Success always spawns haters",
-      "postUrl": "https://world.hey.com/dhh/success-always-spawns-haters-75edaede",
-      "publishDate": "2025-10-25T17:44:28Z"
+      "postTitle": "Sabbaticals keep our attrition at bay",
+      "postUrl": "https://world.hey.com/dhh/sabbaticals-keep-our-attrition-at-bay-9ccba5c0",
+      "publishDate": "2025-10-29T09:23:31Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Hacking the WiFi-enabled color screen GitHub Universe conference badge",
-      "postUrl": "https://simonwillison.net/2025/Oct/28/github-universe-badge/#atom-everything",
-      "publishDate": "2025-10-28T17:17:44+00:00"
+      "postTitle": "Introducing SWE-1.5: Our Fast Agent Model",
+      "postUrl": "https://simonwillison.net/2025/Oct/29/swe-15/#atom-everything",
+      "publishDate": "2025-10-29T23:59:20+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "We're reinventing the social club\u2014here's our Manifesto",
-      "postUrl": "https://www.elysian.press/p/were-reinventing-the-social-clubheres",
-      "publishDate": "Mon, 27 Oct 2025 14:18:50 GMT"
+      "postTitle": "Salary jobs are how we get the 20-hour workweek",
+      "postUrl": "https://www.elysian.press/p/salary-jobs-are-how-we-get-the-20",
+      "publishDate": "Wed, 29 Oct 2025 15:52:34 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
