@@ -48,9 +48,7 @@ I don't plan to work on these full-time or scale and monetize them, at least for
 
 ## Reading
 
-I'm currently reading [Leviathan Wakes](https://www.goodreads.com/book/show/8855321-leviathan-wakes) by James S. A. Corey.
-
-I'm also reading [The Art of Doing Science and Engineering](https://www.goodreads.com/book/show/530415.The_Art_of_Doing_Science_and_Engineering) by Richard Hamming.
+{{< currently-reading >}}
 
 ## Side Projects and Hobbies
 
