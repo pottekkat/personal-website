@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-10-31T00:22:29.369230",
+  "lastUpdated": "2025-11-01T00:24:53.170565",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Airspeed",
-      "postUrl": "https://xkcd.com/3161/",
-      "publishDate": "Wed, 29 Oct 2025 04:00:00 -0000"
+      "postTitle": "Heart Mountain",
+      "postUrl": "https://xkcd.com/3162/",
+      "publishDate": "Fri, 31 Oct 2025 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Fran\u00e7ois Chollet",
-      "postUrl": "https://simonwillison.net/2025/Oct/30/francois-chollet/#atom-everything",
-      "publishDate": "2025-10-30T02:37:18+00:00"
+      "postTitle": "Curiosity-driven blogging",
+      "postUrl": "https://simonwillison.net/2025/Oct/31/curiosity-driven/#atom-everything",
+      "publishDate": "2025-10-31T17:09:56+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
