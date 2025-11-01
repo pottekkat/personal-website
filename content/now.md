@@ -9,7 +9,7 @@ Here's what I'm doing now.
 
 ## Travels
 
-I used to travel a lot. But now, I'm back home in Kerala for the foreseeable future.
+I used to travel a lot. But now, I'm back home in Kerala for the foreseeable future. See my [past travels](/about/#travel).
 
 ~~I will be at these events in the following months. Say hi!~~
 
@@ -52,6 +52,6 @@ I don't plan to work on these full-time or scale and monetize them, at least for
 
 ## Side Projects and Hobbies
 
-I'm exclusively working on my side projects now. Some are really side quests with the potential to become the main storyline.
+It's challenging to maintain hobbies right now due to the intensity of my work. But the work feels like play, and I end up spending most of my time on it anyway.
 
-A lot of my hobbies, like playing my bass guitar, have reduced significantly. I plan to spend more time on my hobbies after a few months.
+Many of my hobbies, like playing my bass guitar, have decreased significantly. I plan to spend more time on my hobbies after a few months.
