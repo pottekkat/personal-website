@@ -1,0 +1,15 @@
+{{- $bookPages := where .Site.RegularPages "Section" "books" -}}
+{{- $readingBooks := where $bookPages ".Params.bookMeta.status" "Reading" -}}
+{{- if gt (len $readingBooks) 0 -}}
+<p>I'm currently reading
+{{- range $index, $book := $readingBooks -}}
+{{- if eq $index 0 }} <a href="{{ $book.RelPermalink }}">{{ $book.Title }}</a> by {{ $book.Params.bookMeta.author }}
+{{- else if eq (add $index 1) (len $readingBooks) -}}
+, and <a href="{{ $book.RelPermalink }}">{{ $book.Title }}</a> by {{ $book.Params.bookMeta.author }}
+{{- else -}}
+, <a href="{{ $book.RelPermalink }}">{{ $book.Title }}</a> by {{ $book.Params.bookMeta.author }}
+{{- end -}}
+{{- end -}}
+.</p>
+<p>See more in <a href="/books/">The Bookshelf</a>.</p>
+{{- end -}}
