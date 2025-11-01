@@ -1,3 +1,23 @@
+{{- $randomBlog := index (shuffle .Site.Data.blogroll.blogroll.feeds) 0 -}}
+{{- $randomPost := "" -}}
+{{- if (fileExists "data/blogroll/latest.json") -}}
+  {{- range $.Site.Data.blogroll.latest.posts -}}
+    {{- if eq .blogTitle $randomBlog.title -}}
+      {{- $randomPost = . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $randomPost -}}
+  {{- if not (isset $randomPost "error") -}}
+<p><strong>Random pick</strong>: <a href="{{ $randomPost.postUrl }}" target="_blank" rel="noopener">{{ $randomPost.postTitle }}</a> by <a href="{{ $randomBlog.htmlURL }}" target="_blank" rel="noopener">{{ $randomBlog.title }}</a></p>
+  {{- else -}}
+<p><strong>Random pick</strong>: <a href="{{ $randomBlog.htmlURL }}" target="_blank" rel="noopener">{{ $randomBlog.title }}</a></p>
+  {{- end -}}
+{{- else -}}
+<p><strong>Random pick</strong>: <a href="{{ $randomBlog.htmlURL }}" target="_blank" rel="noopener">{{ $randomBlog.title }}</a></p>
+{{- end -}}
+
 <table>
   <thead>
     <tr>
@@ -10,7 +30,7 @@
     {{ range sort .Site.Data.blogroll.blogroll.feeds "title" }}
       {{ $blogTitle := .title }}
       {{ $latestPost := "" }}
-      
+
       {{ if (fileExists "data/blogroll/latest.json") }}
         {{ range $.Site.Data.blogroll.latest.posts }}
           {{ if eq .blogTitle $blogTitle }}
@@ -18,7 +38,7 @@
           {{ end }}
         {{ end }}
       {{ end }}
-      
+
       <tr>
         <td><a href="{{ .htmlURL }}" target="_blank" rel="noopener">{{ .title }}</a></td>
         <td><a href="{{ .xmlURL }}" target="_blank" rel="noopener">RSS</a></td>
