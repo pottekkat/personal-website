@@ -1,7 +1,7 @@
 ---
 title: "Blogroll"
 url: "/blogroll/"
-layout: "about"
+layout: "blogroll"
 description: "Some cool blogs I like."
 ---
 
