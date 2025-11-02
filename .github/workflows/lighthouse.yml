@@ -40,10 +40,8 @@ jobs:
       - name: Run Lighthouse CI
         run: |
           echo "Starting Lighthouse CI..."
-          lhci autorun
+          lhci collect --url=https://navendu.me/ --numberOfRuns=1
           echo "Lighthouse CI completed successfully"
-        env:
-          LHCI_BUILD_CONTEXT__CURRENT_HASH: ${{ github.sha }}
 
       - name: Verify Lighthouse reports
         run: |
