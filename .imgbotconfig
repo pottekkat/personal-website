@@ -2,7 +2,7 @@
     "ignoredFiles": [
         "static/images/vada-profitable/*",
         "static/images/stats/*",
-        "static/images/books/*"
+        "static/images/books/*",
         "*.png"
     ]
 }
