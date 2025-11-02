@@ -3,12 +3,12 @@
   "entries": [
     {
       "hash": "f10f8a8",
-      "date": "2025-11-02T16:46:51Z",
+      "date": "2025-11-02T22:16:51+05:30",
       "message": "Updated changelog workflow and reduced displayed entries on the about page."
     },
     {
       "hash": "b5a0aa9",
-      "date": "2025-11-02T16:36:21Z",
+      "date": "2025-11-02T22:06:21+05:30",
       "message": "Updated system prompt, shortcode formatting, and CSS styles."
     },
     {
