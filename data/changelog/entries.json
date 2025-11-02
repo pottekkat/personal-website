@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2025-11-02T16:49:26.569Z",
+  "lastUpdated": "2025-11-02T17:03:32.921Z",
   "entries": [
+    {
+      "hash": "afb2251",
+      "date": "2025-11-02T17:01:05Z",
+      "message": "Set timezone to Asia/Kolkata in workflows and changelog entries."
+    },
     {
       "hash": "f10f8a8",
       "date": "2025-11-02T22:16:51+05:30",
