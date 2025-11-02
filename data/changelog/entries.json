@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2025-11-02T17:03:32.921Z",
+  "lastUpdated": "2025-11-02T23:32:37+05:30",
   "entries": [
+    {
+      "hash": "691e954",
+      "date": "2025-11-02T23:31:56+05:30",
+      "message": "Updated changelog workflow to fetch full commit history for accurate logs."
+    },
+    {
+      "hash": "753d681",
+      "date": "2025-11-02T23:26:47+05:30",
+      "message": "Set timezone to IST in workflows and changelog for consistent timestamps."
+    },
     {
       "hash": "afb2251",
       "date": "2025-11-02T22:31:05+05:30",
