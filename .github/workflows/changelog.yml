@@ -27,11 +27,14 @@ jobs:
         uses: actions/github-script@v7
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TZ: Asia/Kolkata
         with:
           script: |
+            // Set timezone to IST for all Date operations
+            process.env.TZ = 'Asia/Kolkata';
+
             const fs = require('fs');
             const path = require('path');
+            const { execSync } = require('child_process');
 
             async function generateChangelog() {
               try {
@@ -186,9 +189,15 @@ jobs:
                       c.data.sha.startsWith(entry.hash)
                     );
                     if (commit) {
+                      // Get original commit timestamp with timezone using git
+                      const commitTimestamp = execSync(
+                        'git show -s --format=%cI ' + commit.data.sha,
+                        { encoding: 'utf8' }
+                      ).trim();
+
                       newEntries.push({
                         hash: commit.data.sha.substring(0, 7),
-                        date: commit.data.commit.author.date,
+                        date: commitTimestamp,
                         message: entry.explanation
                       });
                     } else {
@@ -207,8 +216,11 @@ jobs:
                   allEntries = [...newEntries, ...existingData.entries];
                 }
 
+                // Get current timestamp in IST with timezone offset
+                const lastUpdated = execSync('TZ=Asia/Kolkata date -Iseconds', { encoding: 'utf8' }).trim();
+
                 const changelog = {
-                  lastUpdated: new Date().toISOString(),
+                  lastUpdated: lastUpdated,
                   entries: allEntries
                 };
 
