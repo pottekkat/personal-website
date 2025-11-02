@@ -1,0 +1,93 @@
+name: Lighthouse CI
+
+on:
+  push:
+    branches:
+      - hugo
+  workflow_dispatch:
+
+jobs:
+  lighthouse:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          ref: hugo
+
+      - name: Wait for Netlify deployment
+        uses: jakepartusch/wait-for-netlify-action@v1.4
+        id: wait-for-netlify
+        with:
+          site_name: "navendu"
+          max_timeout: 600
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install Lighthouse CI
+        run: npm install -g @lhci/cli@0.12.x
+
+      - name: Run Lighthouse CI
+        run: |
+          lhci autorun --collect.url=https://navendu.me/ --collect.numberOfRuns=1
+        env:
+          LHCI_BUILD_CONTEXT__CURRENT_HASH: ${{ github.sha }}
+
+      - name: Extract and format scores
+        run: |
+          node << 'EOF'
+          const fs = require('fs');
+          const path = require('path');
+
+          // Find the latest Lighthouse report
+          const lhciDir = '.lighthouseci';
+          const files = fs.readdirSync(lhciDir).filter(f => f.startsWith('lhr-') && f.endsWith('.json'));
+
+          if (files.length === 0) {
+            console.error('No Lighthouse reports found');
+            process.exit(1);
+          }
+
+          // Read the first report
+          const reportPath = path.join(lhciDir, files[0]);
+          const results = JSON.parse(fs.readFileSync(reportPath, 'utf8'));
+
+          const scores = {
+            lastUpdated: new Date().toISOString(),
+            performance: Math.round(results.categories.performance.score * 100),
+            accessibility: Math.round(results.categories.accessibility.score * 100),
+            bestPractices: Math.round(results.categories['best-practices'].score * 100),
+            seo: Math.round(results.categories.seo.score * 100)
+          };
+
+          // Create directory if it doesn't exist
+          const dataDir = 'data/lighthouse';
+          if (!fs.existsSync(dataDir)) {
+            fs.mkdirSync(dataDir, { recursive: true });
+          }
+
+          // Write scores
+          fs.writeFileSync(
+            path.join(dataDir, 'scores.json'),
+            JSON.stringify(scores, null, 2) + '\n'
+          );
+
+          console.log('Lighthouse scores:', scores);
+          EOF
+
+      - name: Commit scores
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/lighthouse/scores.json
+          git diff-index --quiet HEAD || git commit -m "update lighthouse scores"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: hugo
