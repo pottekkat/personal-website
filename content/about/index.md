@@ -105,9 +105,11 @@ Here are [some other blogs I like](/blogroll/).
 </script>
 {{< /rawhtml >}}
 
-The site scores:
+Since this website is composed of pre-generated static HTML files, it loads quickly.
 
 {{< lighthouse-scores >}}
+
+It only produces [~0.02g of CO₂](https://www.websitecarbon.com/website/navendu-me/) every time someone visits a page, making it cleaner than 96% of all web pages.
 
 ### Ethics Statement
 
