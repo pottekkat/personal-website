@@ -1,1 +1,314 @@
-Performance {{ .Site.Data.lighthouse.scores.performance }}, Accessibility {{ .Site.Data.lighthouse.scores.accessibility }}, Best Practices {{ .Site.Data.lighthouse.scores.bestPractices }}, SEO {{ .Site.Data.lighthouse.scores.seo }}<br><small>Last updated: {{ dateFormat "January 2, 2006" (.Site.Data.lighthouse.scores.lastUpdated) }}</small>
+{{- $perf := .Site.Data.lighthouse.scores.performance -}}
+{{- $a11y := .Site.Data.lighthouse.scores.accessibility -}}
+{{- $bp := .Site.Data.lighthouse.scores.bestPractices -}}
+{{- $seo := .Site.Data.lighthouse.scores.seo -}}
+{{- $t := time .Site.Data.lighthouse.scores.lastUpdated -}}
+{{- $day := humanize $t.Day -}}
+{{- $monthYear := $t.Format "January 2006" -}}
+{{- $time := $t.Format "3:04 PM" -}}
+
+<div id="canvas-wrapper" style="overflow-x: auto;">
+  <div class="echarts-cont" style="display: flex; justify-content: space-between; margin: 0 auto 10px; min-width: 100%;">
+    <div id="perf-gauge" style="width: 145px; height: 145px; flex-shrink: 0;"></div>
+    <div id="a11y-gauge" style="width: 145px; height: 145px; flex-shrink: 0;"></div>
+    <div id="bp-gauge" style="width: 145px; height: 145px; flex-shrink: 0;"></div>
+    <div id="seo-gauge" style="width: 145px; height: 145px; flex-shrink: 0;"></div>
+  </div>
+</div>
+<div id="chart-caption">
+  Lighthouse scores<p>Last updated at {{ $time }}, {{ $day }} {{ $monthYear }}</p>
+</div>
+
+<script type="text/javascript">
+var perfChart = echarts.init(document.getElementById("perf-gauge"), 'pottekkat', {renderer: 'svg'});
+var a11yChart = echarts.init(document.getElementById("a11y-gauge"), 'pottekkat', {renderer: 'svg'});
+var bpChart = echarts.init(document.getElementById("bp-gauge"), 'pottekkat', {renderer: 'svg'});
+var seoChart = echarts.init(document.getElementById("seo-gauge"), 'pottekkat', {renderer: 'svg'});
+
+var chartColor = ["#c6e9e3", "#317f72"];
+if (!document.body.classList.contains("dark")) {
+  chartColor = ["#e8b98a", "#c34052"];
+}
+
+perfChart.setOption({
+  animation: false,
+  backgroundColor: 'transparent',
+  series: [{
+    type: 'gauge',
+    center: ['50%', '60%'],
+    startAngle: 200,
+    endAngle: -20,
+    min: 0,
+    max: 100,
+    itemStyle: {
+      color: chartColor[1]
+    },
+    progress: {
+      show: true,
+      width: 18
+    },
+    pointer: {
+      show: false
+    },
+    axisLine: {
+      lineStyle: {
+        width: 18,
+        color: [[1, chartColor[0]]]
+      }
+    },
+    axisTick: {
+      show: false
+    },
+    splitLine: {
+      show: false
+    },
+    axisLabel: {
+      show: false
+    },
+    anchor: {
+      show: false
+    },
+    title: {
+      show: true,
+      offsetCenter: [0, '80%'],
+      fontSize: 14,
+      color: 'currentColor'
+    },
+    detail: {
+      valueAnimation: false,
+      width: '60%',
+      lineHeight: 40,
+      borderRadius: 8,
+      offsetCenter: [0, '0%'],
+      fontSize: 26,
+      fontWeight: 'bolder',
+      formatter: '{value}',
+      color: 'currentColor'
+    },
+    data: [{
+      value: {{ $perf }},
+      name: 'Performance'
+    }]
+  }]
+});
+
+a11yChart.setOption({
+  animation: false,
+  backgroundColor: 'transparent',
+  series: [{
+    type: 'gauge',
+    center: ['50%', '60%'],
+    startAngle: 200,
+    endAngle: -20,
+    min: 0,
+    max: 100,
+    itemStyle: {
+      color: chartColor[1]
+    },
+    progress: {
+      show: true,
+      width: 18
+    },
+    pointer: {
+      show: false
+    },
+    axisLine: {
+      lineStyle: {
+        width: 18,
+        color: [[1, chartColor[0]]]
+      }
+    },
+    axisTick: {
+      show: false
+    },
+    splitLine: {
+      show: false
+    },
+    axisLabel: {
+      show: false
+    },
+    anchor: {
+      show: false
+    },
+    title: {
+      show: true,
+      offsetCenter: [0, '80%'],
+      fontSize: 14,
+      color: 'currentColor'
+    },
+    detail: {
+      valueAnimation: false,
+      width: '60%',
+      lineHeight: 40,
+      borderRadius: 8,
+      offsetCenter: [0, '0%'],
+      fontSize: 26,
+      fontWeight: 'bolder',
+      formatter: '{value}',
+      color: 'currentColor'
+    },
+    data: [{
+      value: {{ $a11y }},
+      name: 'Accessibility'
+    }]
+  }]
+});
+
+bpChart.setOption({
+  animation: false,
+  backgroundColor: 'transparent',
+  series: [{
+    type: 'gauge',
+    center: ['50%', '60%'],
+    startAngle: 200,
+    endAngle: -20,
+    min: 0,
+    max: 100,
+    itemStyle: {
+      color: chartColor[1]
+    },
+    progress: {
+      show: true,
+      width: 18
+    },
+    pointer: {
+      show: false
+    },
+    axisLine: {
+      lineStyle: {
+        width: 18,
+        color: [[1, chartColor[0]]]
+      }
+    },
+    axisTick: {
+      show: false
+    },
+    splitLine: {
+      show: false
+    },
+    axisLabel: {
+      show: false
+    },
+    anchor: {
+      show: false
+    },
+    title: {
+      show: true,
+      offsetCenter: [0, '80%'],
+      fontSize: 14,
+      color: 'currentColor'
+    },
+    detail: {
+      valueAnimation: false,
+      width: '60%',
+      lineHeight: 40,
+      borderRadius: 8,
+      offsetCenter: [0, '0%'],
+      fontSize: 26,
+      fontWeight: 'bolder',
+      formatter: '{value}',
+      color: 'currentColor'
+    },
+    data: [{
+      value: {{ $bp }},
+      name: 'Best Practices'
+    }]
+  }]
+});
+
+seoChart.setOption({
+  animation: false,
+  backgroundColor: 'transparent',
+  series: [{
+    type: 'gauge',
+    center: ['50%', '60%'],
+    startAngle: 200,
+    endAngle: -20,
+    min: 0,
+    max: 100,
+    itemStyle: {
+      color: chartColor[1]
+    },
+    progress: {
+      show: true,
+      width: 18
+    },
+    pointer: {
+      show: false
+    },
+    axisLine: {
+      lineStyle: {
+        width: 18,
+        color: [[1, chartColor[0]]]
+      }
+    },
+    axisTick: {
+      show: false
+    },
+    splitLine: {
+      show: false
+    },
+    axisLabel: {
+      show: false
+    },
+    anchor: {
+      show: false
+    },
+    title: {
+      show: true,
+      offsetCenter: [0, '80%'],
+      fontSize: 14,
+      color: 'currentColor'
+    },
+    detail: {
+      valueAnimation: false,
+      width: '60%',
+      lineHeight: 40,
+      borderRadius: 8,
+      offsetCenter: [0, '0%'],
+      fontSize: 26,
+      fontWeight: 'bolder',
+      formatter: '{value}',
+      color: 'currentColor'
+    },
+    data: [{
+      value: {{ $seo }},
+      name: 'SEO'
+    }]
+  }]
+});
+
+window.addEventListener('resize', function() {
+  perfChart.resize();
+  a11yChart.resize();
+  bpChart.resize();
+  seoChart.resize();
+});
+
+var themeToggle = document.getElementById('theme-toggle');
+if (themeToggle) {
+  themeToggle.addEventListener('click', function() {
+    setTimeout(function() {
+      var newChartColor = ["#c6e9e3", "#317f72"];
+      if (!document.body.classList.contains("dark")) {
+        newChartColor = ["#e8b98a", "#c34052"];
+      }
+
+      [perfChart, a11yChart, bpChart, seoChart].forEach(function(chart) {
+        chart.setOption({
+          series: [{
+            itemStyle: {
+              color: newChartColor[1]
+            },
+            axisLine: {
+              lineStyle: {
+                color: [[1, newChartColor[0]]]
+              }
+            }
+          }]
+        });
+      });
+    }, 10);
+  });
+}
+</script>
