@@ -17,11 +17,17 @@ jobs:
           ref: hugo
 
       - name: Wait for Netlify deployment
-        uses: jakepartusch/wait-for-netlify-action@v1.4
-        id: wait-for-netlify
-        with:
-          site_name: "navendu"
-          max_timeout: 600
+        run: |
+          echo "Waiting 5 minutes for Netlify to deploy..."
+          sleep 300
+          echo "Deployment should be complete, verifying site is accessible..."
+
+          # Verify the site is accessible
+          if curl -s -o /dev/null -w "%{http_code}" https://navendu.me/ | grep -q "200"; then
+            echo "Site is live and ready for Lighthouse!"
+          else
+            echo "Warning: Site may not be fully deployed yet, but proceeding anyway..."
+          fi
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
