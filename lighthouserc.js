@@ -2,7 +2,10 @@ module.exports = {
   ci: {
     collect: {
       staticDistDir: './public',
-      numberOfRuns: 3,
+      url: [
+        'http://localhost/index.html',
+      ],
+      numberOfRuns: 5,
     },
   },
 };
