@@ -12,7 +12,9 @@
       {{- if .Lastmod }}
       <time class="dt-updated" datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}" style="display: none;">{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}</time>
       {{- end }}
-      <a class="u-author" href="{{ site.BaseURL }}" style="display: none;">{{ site.Params.author }}</a>
+      <a class="u-author h-card" href="{{ site.BaseURL }}" style="display: none;">
+        <span class="p-name">{{ site.Params.author }}</span>
+      </a>
       <a class="u-url" href="{{ .Permalink }}" style="display: none;">{{ .Permalink }}</a>
       {{- partial "post_meta.html" . -}}
       {{- partial "translation_list.html" . -}}
