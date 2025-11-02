@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2025-11-02T16:39:43.045Z",
+  "lastUpdated": "2025-11-02T16:49:26.569Z",
   "entries": [
+    {
+      "hash": "f10f8a8",
+      "date": "2025-11-02T16:46:51Z",
+      "message": "Updated changelog workflow and reduced displayed entries on the about page."
+    },
     {
       "hash": "b5a0aa9",
       "date": "2025-11-02T16:36:21Z",
