@@ -105,6 +105,10 @@ Here are [some other blogs I like](/blogroll/).
 </script>
 {{< /rawhtml >}}
 
+The site scores:
+
+{{< lighthouse-scores >}}
+
 ### Ethics Statement
 
 I don't accept any form of payment to write about a product or a company. The products I write about are the ones I work on and/or believe in strongly.
