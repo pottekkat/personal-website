@@ -44,12 +44,11 @@ jobs:
           lhci collect
 
       - name: Extract and format scores
-        env:
-          TZ: Asia/Kolkata
         run: |
           node << 'EOF'
           const fs = require('fs');
           const path = require('path');
+          const { execSync } = require('child_process');
 
           try {
             const lhciDir = '.lighthouseci';
@@ -77,8 +76,11 @@ jobs:
               return sorted.length % 2 !== 0 ? sorted[mid] : Math.round((sorted[mid - 1] + sorted[mid]) / 2);
             };
 
+            // Get current timestamp in IST with timezone offset
+            const lastUpdated = execSync('TZ=Asia/Kolkata date -Iseconds', { encoding: 'utf8' }).trim();
+
             const scores = {
-              lastUpdated: new Date().toISOString(),
+              lastUpdated: lastUpdated,
               performance: median(allScores.map(s => s.performance)),
               accessibility: median(allScores.map(s => s.accessibility)),
               bestPractices: median(allScores.map(s => s.bestPractices)),
