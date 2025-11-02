@@ -217,6 +217,26 @@ const endDate = data[data.length - 1][0];
     };
     myChart.setOption(option);
 
+    var themeToggle = document.getElementById('theme-toggle');
+    if (themeToggle) {
+      themeToggle.addEventListener('click', function() {
+        setTimeout(function() {
+          var newChartColor = ["#c6e9e3", "#317f72"];
+          if (!document.body.classList.contains("dark")) {
+            newChartColor = ["#e8b98a", "#c34052"];
+          }
+
+          myChart.setOption({
+            visualMap: {
+              inRange: {
+                color: newChartColor
+              }
+            }
+          });
+        }, 10);
+      });
+    }
+
 })
 .catch((error) => console.error("Failed to load commit data:", error));
 {{< /echarts >}}

@@ -284,4 +284,31 @@ window.addEventListener('resize', function() {
   bpChart.resize();
   seoChart.resize();
 });
+
+var themeToggle = document.getElementById('theme-toggle');
+if (themeToggle) {
+  themeToggle.addEventListener('click', function() {
+    setTimeout(function() {
+      var newChartColor = ["#c6e9e3", "#317f72"];
+      if (!document.body.classList.contains("dark")) {
+        newChartColor = ["#e8b98a", "#c34052"];
+      }
+
+      [perfChart, a11yChart, bpChart, seoChart].forEach(function(chart) {
+        chart.setOption({
+          series: [{
+            itemStyle: {
+              color: newChartColor[1]
+            },
+            axisLine: {
+              lineStyle: {
+                color: [[1, newChartColor[0]]]
+              }
+            }
+          }]
+        });
+      });
+    }, 10);
+  });
+}
 </script>
