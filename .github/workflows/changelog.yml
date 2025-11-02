@@ -18,177 +18,211 @@ jobs:
         uses: actions/checkout@v5
         with:
           ref: hugo
-          fetch-depth: 0
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: 18.x
 
       - name: Generate changelog
+        uses: actions/github-script@v7
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          cat > generate-changelog.js << 'SCRIPT_EOF'
-          const fs = require('fs');
-          const path = require('path');
-          const { execSync } = require('child_process');
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
 
-          async function generateChangelog() {
-            try {
-              const dataDir = 'data/changelog';
-              const dataFile = path.join(dataDir, 'entries.json');
+            async function generateChangelog() {
+              try {
+                const dataDir = 'data/changelog';
+                const dataFile = path.join(dataDir, 'entries.json');
 
-              let existingData = null;
-              let lastCommitHash = null;
+                let existingData = null;
+                let lastCommitHash = null;
 
-              if (fs.existsSync(dataFile)) {
-                existingData = JSON.parse(fs.readFileSync(dataFile, 'utf8'));
-                if (existingData.entries && existingData.entries.length > 0) {
-                  lastCommitHash = existingData.entries[0].hash;
-                }
-              }
-
-              let gitLogCommand;
-              if (lastCommitHash) {
-                gitLogCommand = 'git log --author="pottekkat" ' + lastCommitHash + '..HEAD --pretty=format:"%H|%at|%s" --name-status';
-              } else {
-                gitLogCommand = 'git log --author="pottekkat" -5 --pretty=format:"%H|%at|%s" --name-status';
-              }
-
-              const gitLog = execSync(gitLogCommand, { encoding: 'utf8' });
-
-              if (!gitLog.trim()) {
-                console.log('No new commits to process');
-                return;
-              }
-
-              const commits = [];
-              const lines = gitLog.split('\n');
-              let currentCommit = null;
-
-              for (const line of lines) {
-                if (line.includes('|')) {
-                  if (currentCommit) commits.push(currentCommit);
-                  const parts = line.split('|');
-                  const hash = parts[0];
-                  const timestamp = parts[1];
-                  const subject = parts[2];
-                  currentCommit = {
-                    hash: hash,
-                    date: new Date(parseInt(timestamp) * 1000).toISOString().split('T')[0],
-                    subject: subject,
-                    files: []
-                  };
-                } else if (currentCommit && line.trim()) {
-                  const match = line.match(/^([AMD])\s+(.+)$/);
-                  if (match) {
-                    currentCommit.files.push({
-                      status: match[1],
-                      path: match[2]
-                    });
+                if (fs.existsSync(dataFile)) {
+                  existingData = JSON.parse(fs.readFileSync(dataFile, 'utf8'));
+                  if (existingData.entries && existingData.entries.length > 0) {
+                    lastCommitHash = existingData.entries[0].hash;
                   }
                 }
-              }
-              if (currentCommit) commits.push(currentCommit);
 
-              console.log('Processing ' + commits.length + ' new commits...');
+                // Fetch commits from GitHub API (only from pottekkat)
+                const allCommits = await github.rest.repos.listCommits({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  author: 'pottekkat',
+                  per_page: lastCommitHash ? 100 : 5
+                });
 
-              const batchSize = 10;
-              const newEntries = [];
+                let commits = allCommits.data;
 
-              for (let i = 0; i < commits.length; i += batchSize) {
-                const batch = commits.slice(i, i + batchSize);
+                // Filter to only new commits if we have existing data
+                if (lastCommitHash) {
+                  const lastIndex = commits.findIndex(c => c.sha.startsWith(lastCommitHash));
+                  if (lastIndex > 0) {
+                    commits = commits.slice(0, lastIndex);
+                  } else {
+                    commits = [];
+                  }
+                }
 
-                const commitList = batch.map(function(c) {
-                  return 'Hash: ' + c.hash.substring(0, 7) + '\nSubject: ' + c.subject + '\nFiles: ' + c.files.map(function(f) { return f.path; }).join(', ');
-                }).join('\n\n');
+                if (commits.length === 0) {
+                  console.log('No new commits to process');
+                  return;
+                }
 
-                const analysisPrompt = 'Generate a short, clear explanation (max 10-15 words) for each git commit below.\nBe concise and user-friendly. Focus on what changed, not technical details.\n\nCommits:\n' + commitList + '\n\nReturn a JSON array with one object per commit:\n[\n  {\n    "hash": "full_commit_hash",\n    "explanation": "Short explanation"\n  }\n]\n\nReturn ONLY valid JSON, no markdown or explanations.';
+                console.log('Processing ' + commits.length + ' new commits...');
 
-                const response = await fetch(
-                  'https://models.inference.ai.azure.com/chat/completions',
-                  {
-                    method: 'POST',
-                    headers: {
-                      'Content-Type': 'application/json',
-                      'Authorization': 'Bearer ' + process.env.GITHUB_TOKEN
-                    },
-                    body: JSON.stringify({
-                      messages: [
-                        {
-                          role: 'system',
-                          content: 'You are a helpful assistant that generates concise commit explanations. Always respond with valid JSON only.'
-                        },
-                        {
-                          role: 'user',
-                          content: analysisPrompt
+                const batchSize = 5;
+                const newEntries = [];
+
+                for (let i = 0; i < commits.length; i += batchSize) {
+                  const batch = commits.slice(i, i + batchSize);
+
+                  // Fetch full commit details with diffs
+                  const commitDetails = await Promise.all(
+                    batch.map(c =>
+                      github.rest.repos.getCommit({
+                        owner: context.repo.owner,
+                        repo: context.repo.repo,
+                        ref: c.sha
+                      })
+                    )
+                  );
+
+                  // Prepare commit data for AI
+                  const commitList = commitDetails.map(detail => {
+                    const commit = detail.data;
+                    return {
+                      hash: commit.sha.substring(0, 7),
+                      message: commit.commit.message.split('\n')[0],
+                      files: commit.files.map(f => ({
+                        filename: f.filename,
+                        status: f.status,
+                        additions: f.additions,
+                        deletions: f.deletions,
+                        patch: f.patch || ''
+                      }))
+                    };
+                  });
+
+                  const systemPrompt = 'You are a helpful assistant that generates concise commit explanations for a changelog. Always respond with valid JSON only.';
+
+                  const userPrompt = 'Generate a short, clear explanation (max 10-15 words) for each git commit below. Be concise and user-friendly. Focus on what changed, not technical details.\n\nCommits:\n' + JSON.stringify(commitList, null, 2) + '\n\nReturn response in this exact format.';
+
+                  const response = await fetch(
+                    'https://models.inference.ai.azure.com/chat/completions',
+                    {
+                      method: 'POST',
+                      headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer ' + process.env.GITHUB_TOKEN
+                      },
+                      body: JSON.stringify({
+                        messages: [
+                          {
+                            role: 'system',
+                            content: systemPrompt
+                          },
+                          {
+                            role: 'user',
+                            content: userPrompt
+                          }
+                        ],
+                        model: 'gpt-4o',
+                        temperature: 0.3,
+                        max_tokens: 1000,
+                        response_format: {
+                          type: 'json_schema',
+                          json_schema: {
+                            name: 'changelog_entries',
+                            strict: true,
+                            schema: {
+                              type: 'object',
+                              properties: {
+                                entries: {
+                                  type: 'array',
+                                  items: {
+                                    type: 'object',
+                                    properties: {
+                                      hash: {
+                                        type: 'string',
+                                        description: 'The commit hash (7 chars)'
+                                      },
+                                      explanation: {
+                                        type: 'string',
+                                        description: 'Short explanation of the commit'
+                                      }
+                                    },
+                                    required: ['hash', 'explanation'],
+                                    additionalProperties: false
+                                  }
+                                }
+                              },
+                              required: ['entries'],
+                              additionalProperties: false
+                            }
+                          }
                         }
-                      ],
-                      model: 'gpt-4o',
-                      temperature: 0.3,
-                      max_tokens: 1000
-                    })
+                      })
+                    }
+                  );
+
+                  if (!response.ok) {
+                    const errorText = await response.text();
+                    throw new Error('GitHub Models API failed: ' + response.status + ' ' + errorText);
                   }
+
+                  const result = await response.json();
+                  const aiResponse = JSON.parse(result.choices[0].message.content);
+
+                  for (const entry of aiResponse.entries) {
+                    const commit = commitDetails.find(c =>
+                      c.data.sha.startsWith(entry.hash)
+                    );
+                    if (commit) {
+                      const commitDate = new Date(commit.data.commit.author.date);
+                      newEntries.push({
+                        hash: commit.data.sha.substring(0, 7),
+                        date: commitDate.toISOString().split('T')[0],
+                        message: entry.explanation
+                      });
+                    } else {
+                      console.log('Warning: Could not match hash:', entry.hash);
+                    }
+                  }
+
+                  // Rate limit: wait 12 seconds between batches (5 requests per minute)
+                  if (i + batchSize < commits.length) {
+                    await new Promise(resolve => setTimeout(resolve, 12000));
+                  }
+                }
+
+                let allEntries = newEntries;
+                if (existingData && existingData.entries) {
+                  allEntries = [...newEntries, ...existingData.entries];
+                }
+
+                const changelog = {
+                  lastUpdated: new Date().toISOString(),
+                  entries: allEntries
+                };
+
+                if (!fs.existsSync(dataDir)) {
+                  fs.mkdirSync(dataDir, { recursive: true });
+                }
+
+                fs.writeFileSync(
+                  dataFile,
+                  JSON.stringify(changelog, null, 2) + '\n'
                 );
 
-                if (!response.ok) {
-                  const errorText = await response.text();
-                  throw new Error('GitHub Models API failed: ' + response.status + ' ' + errorText);
-                }
-
-                const result = await response.json();
-                const aiResponse = result.choices[0].message.content.trim();
-
-                let batchEntries;
-                const jsonMatch = aiResponse.match(/\[[\s\S]*\]/);
-                if (jsonMatch) {
-                  batchEntries = JSON.parse(jsonMatch[0]);
-                } else {
-                  batchEntries = JSON.parse(aiResponse);
-                }
-
-                for (const entry of batchEntries) {
-                  const commit = batch.find(function(c) { return c.hash === entry.hash; });
-                  if (commit) {
-                    newEntries.push({
-                      hash: entry.hash,
-                      date: commit.date,
-                      message: entry.explanation
-                    });
-                  }
-                }
+                console.log('Changelog updated: ' + newEntries.length + ' new entries, ' + allEntries.length + ' total');
+              } catch (error) {
+                console.error('Failed to generate changelog:', error.message);
+                console.error(error.stack);
+                core.setFailed(error.message);
               }
-
-              let allEntries = newEntries;
-              if (existingData && existingData.entries) {
-                allEntries = newEntries.concat(existingData.entries);
-              }
-
-              const changelog = {
-                lastUpdated: new Date().toISOString(),
-                entries: allEntries
-              };
-
-              if (!fs.existsSync(dataDir)) {
-                fs.mkdirSync(dataDir, { recursive: true });
-              }
-
-              fs.writeFileSync(
-                dataFile,
-                JSON.stringify(changelog, null, 2) + '\n'
-              );
-
-              console.log('Changelog updated: ' + newEntries.length + ' new entries, ' + allEntries.length + ' total');
-            } catch (error) {
-              console.error('Failed to generate changelog:', error.message);
-              process.exit(1);
             }
-          }
 
-          generateChangelog();
-          SCRIPT_EOF
-          node generate-changelog.js
+            await generateChangelog();
 
       - name: Commit changelog
         run: |
