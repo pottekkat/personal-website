@@ -49,9 +49,11 @@ jobs:
                 }
               }
 
-              let gitLogCommand = 'git log --author="pottekkat" --pretty=format:"%H|%at|%s" --name-status';
+              let gitLogCommand;
               if (lastCommitHash) {
                 gitLogCommand = 'git log --author="pottekkat" ' + lastCommitHash + '..HEAD --pretty=format:"%H|%at|%s" --name-status';
+              } else {
+                gitLogCommand = 'git log --author="pottekkat" -5 --pretty=format:"%H|%at|%s" --name-status';
               }
 
               const gitLog = execSync(gitLogCommand, { encoding: 'utf8' });
