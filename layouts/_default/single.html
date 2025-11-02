@@ -1,21 +1,29 @@
 {{- define "main" }}
 
-<article class="post-single">
+<article class="post-single h-entry">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
-    <h1 class="post-title">
+    <h1 class="post-title p-name">
       {{ .Title }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
       <!-- my changes here, no idea why, test and figure it out -->
       <!-- {{- if .Draft }}<div class="entry-isdraft"><sup>&nbsp;&nbsp;[draft]</sup></div>{{- end }} -->
     </h1>
     {{- if .Description }}
-    <div class="post-description">
+    <div class="post-description p-summary">
       {{ .Description }}
     </div>
     {{- end }}
     {{- if not (.Param "hideMeta") }}
     <div class="post-meta">
+      {{/* h-entry metadata */}}
+      <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" style="display: none;">{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}</time>
+      {{- if .Lastmod }}
+      <time class="dt-updated" datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}" style="display: none;">{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}</time>
+      {{- end }}
+      <a class="u-author" href="{{ site.BaseURL }}" style="display: none;">{{ site.Params.author }}</a>
+      <a class="u-url" href="{{ .Permalink }}" style="display: none;">{{ .Permalink }}</a>
+      {{/* /h-entry metadata */}}
       {{- partial "post_meta.html" . -}}
       {{- partial "translation_list.html" . -}}
       {{- partial "edit_post.html" . -}}
@@ -33,7 +41,7 @@
   {{- end }}
 
   {{- if .Content }}
-  <div class="post-content">
+  <div class="post-content e-content">
     {{ if .Param "series" }}
     {{ $currentPage := .Page.Permalink }}
     {{ $name := index .Params.series 0 }}
@@ -43,7 +51,7 @@
       {{ $series := index .Site.Taxonomies.series $name }}
       <ul class="series">
       {{ range sort $series.Pages "Date" }}
-      
+
         <li>
           {{ if ne $currentPage .Permalink }}
           <a href="{{.Permalink}}">{{.LinkTitle}}</a>
@@ -51,7 +59,7 @@
         </li>
       {{end}}
       </ul>
-    {{end}} 
+    {{end}}
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}{{ .Content }}{{ end }}
@@ -74,7 +82,7 @@
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     <ul class="post-tags">
       {{- range ($.GetTerms $tags) }}
-      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      <li><a class="p-category" href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
       {{- end }}
     </ul>
     {{- if (.Param "ShowPostNavLinks") }}

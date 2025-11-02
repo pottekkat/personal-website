@@ -3,7 +3,7 @@
     {{- if site.Copyright }}
     <span>{{ site.Copyright | markdownify }}</span>
     {{- end }}
-    <span>This work by <a href="{{ "" | absLangURL }}about/#about-me">{{ .Site.Params.Author }}</a></span>
+    <span class="h-card">This work by <a class="p-name u-url u-uid" rel="author" href="{{ site.BaseURL }}">{{ site.Params.Author }}</a></span>
     <span>
         is licensed under <a rel="license" href="http://creativecommons.org/licenses/by/4.0" target="_blank">CC BY 4.0</a>
     </span>

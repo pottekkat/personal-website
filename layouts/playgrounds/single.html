@@ -1,19 +1,25 @@
 {{- define "main" }}
 
-<article class="post-single">
+<article class="post-single h-entry">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
-    <h1 class="post-title">
+    <h1 class="post-title p-name">
       {{ .Title }}
       {{- if .Params.experimental }}<div class="entry-isexperimental"><sup>&nbsp;&nbsp;[experimental]</sup></div>{{- end }}
     </h1>
     {{- if .Description }}
-    <div class="post-description">
+    <div class="post-description p-summary">
       {{ .Description }}
     </div>
     {{- end }}
     {{- if not (.Param "hideMeta") }}
     <div class="post-meta">
+      <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" style="display: none;">{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}</time>
+      {{- if .Lastmod }}
+      <time class="dt-updated" datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}" style="display: none;">{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}</time>
+      {{- end }}
+      <a class="u-author" href="{{ site.BaseURL }}" style="display: none;">{{ site.Params.author }}</a>
+      <a class="u-url" href="{{ .Permalink }}" style="display: none;">{{ .Permalink }}</a>
       {{- partial "translation_list.html" . -}}
       {{- partial "post_canonical.html" . -}}
     </div>
@@ -21,7 +27,7 @@
   </header>
   {{- $isHidden := .Params.cover.hidden | default .Site.Params.cover.hiddenInSingle | default .Site.Params.cover.hidden }}
   {{- partial "cover.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
-  <div class="post-content">
+  <div class="post-content e-content">
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}{{ .Content }}{{ end }}
