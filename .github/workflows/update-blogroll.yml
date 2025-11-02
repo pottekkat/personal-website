@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: '0 0 * * *'  # Run daily at midnight UTC
 
+concurrency:
+  group: hugo-branch-updates
+  cancel-in-progress: false
+
 jobs:
   update-blogroll:
     permissions: write-all
