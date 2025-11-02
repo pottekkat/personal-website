@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-01T00:24:53.170565",
+  "lastUpdated": "2025-11-02T00:24:30.871150",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Curiosity-driven blogging",
-      "postUrl": "https://simonwillison.net/2025/Oct/31/curiosity-driven/#atom-everything",
-      "publishDate": "2025-10-31T17:09:56+00:00"
+      "postTitle": "Claude Code Can Debug Low-level Cryptography",
+      "postUrl": "https://simonwillison.net/2025/Nov/1/claude-code-cryptography/#atom-everything",
+      "publishDate": "2025-11-01T22:26:43+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "The Native Americans Before the Native Americans",
-      "postUrl": "https://letter.palladiummag.com/p/the-native-americans-before-the-native",
-      "publishDate": "Wed, 22 Oct 2025 23:53:12 GMT"
+      "postTitle": "New Article: Factory Farming is a Blight",
+      "postUrl": "https://letter.palladiummag.com/p/new-article-factory-farming-is-a",
+      "publishDate": "Sat, 01 Nov 2025 13:04:58 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Argentina\u2019s Original Sin",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/argentinas-original-sin",
-      "publishDate": "Thu, 23 Oct 2025 09:20:34 GMT"
+      "postTitle": "Why Is Argentina Poor?",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/why-is-argentina-poor",
+      "publishDate": "Sat, 01 Nov 2025 16:47:18 GMT"
     },
     {
       "blogTitle": "Anil Dash",
