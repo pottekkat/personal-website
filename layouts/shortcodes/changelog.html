@@ -1,0 +1,15 @@
+{{- $limit := .Get "limit" | default 10 -}}
+{{- $entries := .Site.Data.changelog.entries.entries -}}
+
+{{- if $entries -}}
+<ul>
+  {{- range first $limit $entries -}}
+  {{- $t := time .date -}}
+  <li>
+    <em>{{ $t.Format "Jan 2, 3:04 PM" }}</em> — <a href="https://github.com/pottekkat/personal-website/commit/{{ .hash }}" target="_blank" rel="noopener"><code>{{ substr .hash 0 7 }}</code></a> {{ .message }}
+  </li>
+  {{- end -}}
+</ul>
+{{- else -}}
+<p>No changelog entries available yet.</p>
+{{- end -}}
