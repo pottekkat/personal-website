@@ -44,6 +44,8 @@ jobs:
           lhci collect
 
       - name: Extract and format scores
+        env:
+          TZ: Asia/Kolkata
         run: |
           node << 'EOF'
           const fs = require('fs');
