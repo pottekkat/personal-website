@@ -19,7 +19,7 @@ jobs:
       - name: Wait for Netlify deployment
         run: |
           echo "Waiting 5 minutes for Netlify to deploy..."
-          sleep 300
+          sleep 1
           echo "Deployment should be complete, verifying site is accessible..."
 
           # Verify the site is accessible
@@ -45,45 +45,73 @@ jobs:
 
       - name: Extract and format scores
         run: |
+          echo "Checking for Lighthouse reports..."
+          ls -la .lighthouseci/ || echo "Directory doesn't exist"
+
+          echo "Running extraction script..."
           node << 'EOF'
           const fs = require('fs');
           const path = require('path');
 
-          // Find the latest Lighthouse report
-          const lhciDir = '.lighthouseci';
-          const files = fs.readdirSync(lhciDir).filter(f => f.startsWith('lhr-') && f.endsWith('.json'));
+          try {
+            console.log('Looking for Lighthouse reports...');
 
-          if (files.length === 0) {
-            console.error('No Lighthouse reports found');
+            // Find the latest Lighthouse report
+            const lhciDir = '.lighthouseci';
+
+            if (!fs.existsSync(lhciDir)) {
+              console.error('ERROR: .lighthouseci directory does not exist!');
+              process.exit(1);
+            }
+
+            const files = fs.readdirSync(lhciDir).filter(f => f.startsWith('lhr-') && f.endsWith('.json'));
+            console.log(`Found ${files.length} report file(s):`, files);
+
+            if (files.length === 0) {
+              console.error('ERROR: No Lighthouse reports found!');
+              process.exit(1);
+            }
+
+            // Read the first report
+            const reportPath = path.join(lhciDir, files[0]);
+            console.log('Reading report from:', reportPath);
+            const results = JSON.parse(fs.readFileSync(reportPath, 'utf8'));
+
+            const scores = {
+              lastUpdated: new Date().toISOString(),
+              performance: Math.round(results.categories.performance.score * 100),
+              accessibility: Math.round(results.categories.accessibility.score * 100),
+              bestPractices: Math.round(results.categories['best-practices'].score * 100),
+              seo: Math.round(results.categories.seo.score * 100)
+            };
+
+            console.log('Extracted scores:', scores);
+
+            // Create directory if it doesn't exist
+            const dataDir = 'data/lighthouse';
+            if (!fs.existsSync(dataDir)) {
+              console.log('Creating data directory:', dataDir);
+              fs.mkdirSync(dataDir, { recursive: true });
+            }
+
+            // Write scores
+            const outputPath = path.join(dataDir, 'scores.json');
+            fs.writeFileSync(
+              outputPath,
+              JSON.stringify(scores, null, 2) + '\n'
+            );
+
+            console.log('Successfully wrote scores to:', outputPath);
+            console.log('Final scores:', scores);
+          } catch (error) {
+            console.error('ERROR in extraction script:', error.message);
+            console.error(error.stack);
             process.exit(1);
           }
-
-          // Read the first report
-          const reportPath = path.join(lhciDir, files[0]);
-          const results = JSON.parse(fs.readFileSync(reportPath, 'utf8'));
-
-          const scores = {
-            lastUpdated: new Date().toISOString(),
-            performance: Math.round(results.categories.performance.score * 100),
-            accessibility: Math.round(results.categories.accessibility.score * 100),
-            bestPractices: Math.round(results.categories['best-practices'].score * 100),
-            seo: Math.round(results.categories.seo.score * 100)
-          };
-
-          // Create directory if it doesn't exist
-          const dataDir = 'data/lighthouse';
-          if (!fs.existsSync(dataDir)) {
-            fs.mkdirSync(dataDir, { recursive: true });
-          }
-
-          // Write scores
-          fs.writeFileSync(
-            path.join(dataDir, 'scores.json'),
-            JSON.stringify(scores, null, 2) + '\n'
-          );
-
-          console.log('Lighthouse scores:', scores);
           EOF
+
+          echo "Extraction complete, checking output..."
+          cat data/lighthouse/scores.json || echo "Failed to create scores file"
 
       - name: Commit scores
         run: |
