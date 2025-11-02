@@ -112,7 +112,7 @@ jobs:
 
                   const systemPrompt = 'You are a helpful assistant that generates concise commit explanations for a changelog. Always respond with valid JSON only.';
 
-                  const userPrompt = 'Generate a short, clear explanation (max 10-15 words) for each git commit below. Be concise and user-friendly. Focus on what changed, not technical details.\n\nCommits:\n' + JSON.stringify(commitList, null, 2) + '\n\nReturn response in this exact format.';
+                  const userPrompt = 'Generate a short, clear explanation (max 10-15 words) for each git commit below. Be concise and user-friendly. Focus on what changed, not technical details. You can use `code fences` if needed, no other Markdown formatting is allowed.\n\nCommits:\n' + JSON.stringify(commitList, null, 2) + '\n\nReturn response in this exact format.';
 
                   const response = await fetch(
                     'https://models.inference.ai.azure.com/chat/completions',
@@ -185,10 +185,9 @@ jobs:
                       c.data.sha.startsWith(entry.hash)
                     );
                     if (commit) {
-                      const commitDate = new Date(commit.data.commit.author.date);
                       newEntries.push({
                         hash: commit.data.sha.substring(0, 7),
-                        date: commitDate.toISOString().split('T')[0],
+                        date: commit.data.commit.author.date,
                         message: entry.explanation
                       });
                     } else {

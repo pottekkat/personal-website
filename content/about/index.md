@@ -24,6 +24,14 @@ Unless mentioned otherwise, all material in this blog is licensed under [CC BY 4
 
 Here are [some other blogs I like](/blogroll/).
 
+### Changelog
+
+Here are the latest changes to this website:
+
+{{< changelog limit="10" >}}
+
+Click on the commit hash to see exactly what changed.
+
 ### Colophon
 
 [navendu.me](https://navendu.me) has been [around since 2020](https://github.com/pottekkat/personal-website/tree/master) and has stayed more or less in its [current form](https://github.com/pottekkat/personal-website) since 2021. This section offers a high-level overview of how the site is built.
