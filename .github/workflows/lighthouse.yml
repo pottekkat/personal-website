@@ -35,15 +35,25 @@ jobs:
           node-version: '18'
 
       - name: Install Lighthouse CI
-        run: npm install -g @lhci/cli@0.12.x
+        run: npm install -g @lhci/cli@0.15.x
 
       - name: Run Lighthouse CI
         run: |
-          lhci autorun --collect.url=https://navendu.me/ --collect.numberOfRuns=1
+          echo "Starting Lighthouse CI..."
+          lhci autorun
+          echo "Lighthouse CI completed successfully"
         env:
           LHCI_BUILD_CONTEXT__CURRENT_HASH: ${{ github.sha }}
 
+      - name: Verify Lighthouse reports
+        run: |
+          echo "Contents of .lighthouseci directory:"
+          ls -la .lighthouseci/ || echo ".lighthouseci directory not found"
+          echo "Looking for report files:"
+          find .lighthouseci -name "*.json" -type f || echo "No JSON files found"
+
       - name: Extract and format scores
+        if: always()
         run: |
           echo "Checking for Lighthouse reports..."
           ls -la .lighthouseci/ || echo "Directory doesn't exist"
