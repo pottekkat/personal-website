@@ -105,9 +105,11 @@ Here are [some other blogs I like](/blogroll/).
 </script>
 {{< /rawhtml >}}
 
-The site scores:
+Since this website is composed of pre-generated static HTML files, it loads quickly.
 
 {{< lighthouse-scores >}}
+
+It only produces [~0.02g of CO₂](https://www.websitecarbon.com/website/navendu-me/) every time someone visits a page, making it cleaner than 96% of all web pages.
 
 ### Ethics Statement
 
@@ -214,6 +216,26 @@ const endDate = data[data.length - 1][0];
       },
     };
     myChart.setOption(option);
+
+    var themeToggle = document.getElementById('theme-toggle');
+    if (themeToggle) {
+      themeToggle.addEventListener('click', function() {
+        setTimeout(function() {
+          var newChartColor = ["#c6e9e3", "#317f72"];
+          if (!document.body.classList.contains("dark")) {
+            newChartColor = ["#e8b98a", "#c34052"];
+          }
+
+          myChart.setOption({
+            visualMap: {
+              inRange: {
+                color: newChartColor
+              }
+            }
+          });
+        }, 10);
+      });
+    }
 
 })
 .catch((error) => console.error("Failed to load commit data:", error));
