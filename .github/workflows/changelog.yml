@@ -151,11 +151,11 @@ jobs:
                                     properties: {
                                       hash: {
                                         type: 'string',
-                                        description: 'The commit hash (7 chars)'
+                                        description: 'The commit hash (7 chars), same as provided in the input.'
                                       },
                                       explanation: {
                                         type: 'string',
-                                        description: 'Short explanation of the commit'
+                                        description: 'Short explanation of the commit, do not copy the commit message, the commit message might be added lazily by the developer and might not reflect the actual changes, so generate a proper explanation based on the code changes.'
                                       }
                                     },
                                     required: ['hash', 'explanation'],

@@ -28,7 +28,7 @@ Here are [some other blogs I like](/blogroll/).
 
 Here are the latest changes to this website:
 
-{{< changelog limit="10" >}}
+{{< changelog limit="5" >}}
 
 Click on the commit hash to see exactly what changed.
 
