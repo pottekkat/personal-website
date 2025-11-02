@@ -6,6 +6,10 @@ on:
       - hugo
   workflow_dispatch:
 
+concurrency:
+  group: hugo-branch-updates
+  cancel-in-progress: false
+
 jobs:
   lhci:
     name: Lighthouse

@@ -6,6 +6,10 @@ on:
       - hugo
   workflow_dispatch:
 
+concurrency:
+  group: hugo-branch-updates
+  cancel-in-progress: false
+
 jobs:
   changelog:
     name: Generate Changelog
@@ -62,6 +66,9 @@ jobs:
                     commits = [];
                   }
                 }
+
+                // Exclude merge commits (commits with multiple parents)
+                commits = commits.filter(c => c.parents.length === 1);
 
                 if (commits.length === 0) {
                   console.log('No new commits to process');
