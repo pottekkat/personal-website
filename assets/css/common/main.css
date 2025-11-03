@@ -47,7 +47,7 @@
 }
 
 .social-icons a:not(:last-of-type) {
-    margin-inline-end: 7.5px;
+    margin-inline-end: 12px;
 }
 
 .social-icons a svg {
@@ -57,7 +57,7 @@
 }
 
 .social-icons span {
-    margin-right: 5px;
+    margin-right: 10px;
     font-size: 14px;
     color: var(--secondary);
 }
