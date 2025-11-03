@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-02T00:24:30.871150",
+  "lastUpdated": "2025-11-03T00:24:29.109562",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Claude Code Can Debug Low-level Cryptography",
-      "postUrl": "https://simonwillison.net/2025/Nov/1/claude-code-cryptography/#atom-everything",
-      "publishDate": "2025-11-01T22:26:43+00:00"
+      "postTitle": "New prompt injection papers: Agents Rule of Two and The Attacker Moves Second",
+      "postUrl": "https://simonwillison.net/2025/Nov/2/new-prompt-injection-papers/#atom-everything",
+      "publishDate": "2025-11-02T23:09:33+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
