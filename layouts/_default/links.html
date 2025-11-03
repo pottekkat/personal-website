@@ -1,0 +1,25 @@
+{{- define "main" }}
+
+{{ $lastUpdated := .Site.Data.links.readwise.last_updated }}
+{{ $t := time $lastUpdated }}
+{{ $day := humanize $t.Day }}
+{{ $monthYear := $t.Format "January 2006" }}
+{{ $time := $t.Format "3:04 PM" }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{- partial "breadcrumbs.html" . }}
+    <h1 class="post-title">
+      {{ .Title }} {{- if .Draft }}
+      <div class="entry-isdraft"><sup>&nbsp;&nbsp;[draft]</sup></div>
+      {{- end }}
+    </h1>
+  </header>
+  <div class="last-run">Last updated at {{ $time }}, {{ $day }} {{ $monthYear }} from my <a href="https://readwise.io/read" target="_blank">Readwise Reader</a> archive</div>
+  <div class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }} {{- partial
+    "anchored_headings.html" .Content -}} {{- else }}{{ .Content }}{{ end }}
+  </div>
+</article>
+
+{{- end }}{{/* end main */}}

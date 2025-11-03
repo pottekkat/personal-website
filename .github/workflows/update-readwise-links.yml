@@ -1,0 +1,56 @@
+name: Update Readwise Links
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'  # Run every 6 hours at minute 17
+  workflow_dispatch:
+
+concurrency:
+  group: hugo-branch-updates
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: hugo
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Fetch Readwise links
+        env:
+          READWISE_TOKEN: ${{ secrets.READWISE_TOKEN }}
+        run: python3 .github/links-scripts/fetch-readwise-links.py
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code data/links/readwise.json || echo "has_changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/links/readwise.json
+          git commit -m "update readwise links"
+          git push
+
+      - name: No changes
+        if: steps.git-check.outputs.has_changes != 'true'
+        run: echo "No new links to update"
