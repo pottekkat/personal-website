@@ -1,0 +1,28 @@
+{{- $limit := .Get "limit" | default 50 -}}
+{{- $category := .Get "category" -}}
+{{- $data := .Site.Data.links.readwise -}}
+
+{{- if $data -}}
+<div class="readwise-links">
+  <ul>
+    {{- $links := $data.links -}}
+    {{- if $category -}}
+      {{- $links = where $data.links "category" $category -}}
+    {{- end -}}
+    {{- range first (int $limit) $links -}}
+    {{- $t := time .saved_at -}}
+    <li>
+      <a href="{{ .source_url }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a>
+      {{- if .author }} by {{ .author }}{{ end }} [{{ .category }}]
+      {{- if .reading_time }} &middot; {{ .reading_time }}{{ end -}}
+      {{- if .published_date -}}
+        {{- $published := time .published_date }} &middot; Published {{ $published.Format "Jan 2, 2006" }}
+      {{- end -}}
+      {{- if .saved_at }} &middot; <em>Saved {{ $t.Format "Jan 2, 2006 3:04 PM" }}</em>{{ end -}}
+    </li>
+    {{- end -}}
+  </ul>
+</div>
+{{- else -}}
+<p><em>No links available yet. Check back soon!</em></p>
+{{- end -}}
