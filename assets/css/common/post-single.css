@@ -634,3 +634,14 @@ codapi-snippet codapi-toolbar button:after {
     border-radius: var(--radius) var(--radius) 0 0;
     margin-bottom: calc(var(--gap)/5);
   }
+
+.alert-title {
+    color: var(--secondary);
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.alert-title span {
+    margin-right: 3px;
+    vertical-align: middle;
+}
