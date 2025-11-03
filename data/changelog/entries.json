@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2025-11-03T00:47:55+05:30",
+  "lastUpdated": "2025-11-03T16:33:16+05:30",
   "entries": [
+    {
+      "hash": "01375d4",
+      "date": "2025-11-03T16:16:48+05:30",
+      "message": "Updated the about page to include a link to the links page."
+    },
+    {
+      "hash": "1422429",
+      "date": "2025-11-03T16:15:11+05:30",
+      "message": "Introduced a new 'Links' page with automated updates from Readwise."
+    },
     {
       "hash": "db66d02",
       "date": "2025-11-03T00:45:07+05:30",
