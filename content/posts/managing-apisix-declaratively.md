@@ -43,7 +43,8 @@ go install github.com/api7/adc@latest
 
 This will install the `adc` binary to your `$GOPATH/bin` directory.
 
-> **Note**: Make sure you add this to your `$PATH` environment variable:
+> [!NOTE]
+> Make sure you add this to your `$PATH` environment variable:
 > 
 > ```shell
 > export PATH=$PATH:$GOPATH/bin
@@ -84,7 +85,8 @@ ADC configured successfully!
 Connected to APISIX successfully!
 ```
 
-> **Tip**: You can use the `ping` subcommand to check the connectivity with APISIX anytime:
+> [!TIP]
+> You can use the `ping` subcommand to check the connectivity with APISIX anytime:
 > 
 > ```shell
 > adc ping

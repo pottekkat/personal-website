@@ -48,7 +48,8 @@ In the Raspberry Pi Imager, select the operating system. Choose "Emulation and g
 
 {{< figure src="/images/retropie-gpi-case-2-setup/retropie-os.png#center" title="Selecting the RetroPie OS" caption="Make sure to choose the RPI 4/400 version" link="/images/retropie-gpi-case-2-setup/retropie-os.png" target="_blank" class="align-center" >}}
 
-> **Note**: Make sure to choose the one for RPI 4/400 if there is a newer version than 4.8.
+> [!NOTE]
+> Make sure to choose the one for RPI 4/400 if there is a newer version than 4.8.
 
 Select your SD card from the "Storage" option and click on "Write". It will take some time to download and write the image to your SD card. _Grab a cup of coffee._
 
@@ -84,7 +85,8 @@ ssid="name of your WiFi (case sensitive)"
 psk="your WiFi password"
 ```
 
-> **Note**: If your Raspberry Pi does not have WiFi, you can see [this Reddit post](https://www.reddit.com/r/retroflag_gpi/comments/s7xpee/getting_internet_on_gpi_case_2_with_cm4_without/) for workarounds.
+> [!NOTE]
+> If your Raspberry Pi does not have WiFi, you can see [this Reddit post](https://www.reddit.com/r/retroflag_gpi/comments/s7xpee/getting_internet_on_gpi_case_2_with_cm4_without/) for workarounds.
 
 ## First Boot
 

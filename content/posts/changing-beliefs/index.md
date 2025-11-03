@@ -49,7 +49,8 @@ $$
 \text{False positive rate: } P(+ \mid \neg D) = 5\\% = \frac{5}{100}
 $$
 
-> **Note**: $P(D)$ is the probability of having the disease before knowing the test result.
+> [!NOTE]
+> $P(D)$ is the probability of having the disease before knowing the test result.
 
 What we need to find is the probability that a person actually has the disease given that they tested positive, i.e., $P(D \mid +)$.
 
