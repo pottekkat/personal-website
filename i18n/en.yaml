@@ -46,3 +46,6 @@
 
 - id: warning
   translation: "Warning"
+
+- id: disclaimer
+  translation: "Disclaimer"

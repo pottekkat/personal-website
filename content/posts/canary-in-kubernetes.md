@@ -100,7 +100,8 @@ http://127.0.0.1:56194
 ❗  Because you are using a Docker driver on darwin, the terminal needs to be open to run it.
 ```
 
-> **Note**: See the [previous tutorial](/posts/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/#deploying-apisix-ingress) to learn more.
+> [!NOTE]
+> See the [previous tutorial](/posts/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/#deploying-apisix-ingress) to learn more.
 
 ## Configuring Canary Release
 
@@ -146,7 +147,8 @@ This will route all traffic to the `bare-minimum-api-v1` service. You can test i
 curl http://127.0.0.1:56194/
 ```
 
-> **Note**: This address is the address of your APISIX Ingress obtained by running `minikube service apisix-gateway --url -n ingress-apisix` on the [installation step](#deploying-apisix-ingress).
+> [!NOTE]
+> This address is the address of your APISIX Ingress obtained by running `minikube service apisix-gateway --url -n ingress-apisix` on the [installation step](#deploying-apisix-ingress).
 
 If you keep sending multiple requests, you will see that the response is only from `bare-minimum-api-v1`:
 

@@ -108,7 +108,8 @@ You can change your site URL to anything unique. Once changed, this will be your
 
 3. Change the site name and save.
 
-> **Note**: If you use this URL, you might need to change the `baseURL` in your Hugo configuration file to ensure all the links work.
+> [!NOTE]
+> If you use this URL, you might need to change the `baseURL` in your Hugo configuration file to ensure all the links work.
 
 In my setup, I'm using Hostgator as my DNS service and not the Netlify DNS service.
 
@@ -137,7 +138,8 @@ The main reason to migrate was the deploy previews feature. And it is super easy
 
 That is it. You now have deploy previews!
 
-> **Note**: To ensure that the deploy previews show drafts, I updated my Netlify configuration file (`netlify.toml`) to change the build command for deploy previews.
+> [!NOTE]
+> To ensure that the deploy previews show drafts, I updated my Netlify configuration file (`netlify.toml`) to change the build command for deploy previews.
 >
 > ```toml title="netlify.toml"
 > [context.deploy-preview]

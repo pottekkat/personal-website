@@ -64,7 +64,8 @@ VERSION=v0.8.2
 go install github.com/jmooring/hvm@${VERSION}
 ```
 
-> **Note**: The latest version of `hvm` at the time of writing is `v0.8.2`. You can check the latest version on the [GitHub releases page](https://github.com/jmooring/hvm/releases).
+> [!NOTE]
+> The latest version of `hvm` at the time of writing is `v0.8.2`. You can check the latest version on the [GitHub releases page](https://github.com/jmooring/hvm/releases).
 
 To make sure `hvm` is installed correctly, run:
 
@@ -94,7 +95,8 @@ hvm gen alias powershell >> $PROFILE
 
 Running this will generate the alias and append it to your shell configuration file.
 
-> **Note**: You might need to restart your shell for the changes to take effect.
+> [!NOTE]
+> You might need to restart your shell for the changes to take effect.
 
 Now, when you run `which hugo`, you will get the following response indicating that the alias is working:
 
@@ -155,6 +157,7 @@ hvm install
 
 Now, if the `.hvm` file is not in the website repository, `hvm` will use the fallback version of Hugo, which it just installed. This is particularly useful to pin specific Hugo versions on your older websites while always using the latest version on your new websites.
 
-> **Tip**: You don't need to install the fallback version through `hvm` if you have already installed Hugo before installing `hvm`. In such scenarios, your already installed Hugo version will be used as the fallback.
+> [!TIP]
+> You don't need to install the fallback version through `hvm` if you have already installed Hugo before installing `hvm`. In such scenarios, your already installed Hugo version will be used as the fallback.
 
 A special thank you to [Joe Mooring](https://github.com/jmooring) for creating `hvm` and his endless contributions to the Hugo project!

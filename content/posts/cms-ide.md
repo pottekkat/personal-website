@@ -52,7 +52,8 @@ Front Matter can be installed directly from [Visual Studio Code Marketplace](htt
 
 The initial setup entirely depends on how you have structured your website's content. Even with a relatively large website, my initial setup was quite effortless.
 
-> **Tip**: You can change your Front Matter setup _after_ the initial setup. i.e., the initial setup is not permanent.
+> [!TIP]
+> You can change your Front Matter setup _after_ the initial setup. i.e., the initial setup is not permanent.
 
 Once this is done, you can open the _Front Matter Dashboard_.
 

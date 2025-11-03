@@ -35,7 +35,8 @@ Proxy Wasm is implemented in two parts:
 
 {{< figure src="/images/apisix-wasm-support/proxy-wasm-api.png#center" title="SDK and host ABI with Proxy Wasm" caption="This is explained more in the below sections." link="/images/apisix-wasm-support/proxy-wasm-api.png" target="_blank" class="align-center" >}}
 
-> **Note**: APISIX's support for the Proxy Wasm API is still evolving. See [this issue](https://github.com/api7/wasm-nginx-module/issues/25) for the current progress.
+> [!NOTE]
+> APISIX's support for the Proxy Wasm API is still evolving. See [this issue](https://github.com/api7/wasm-nginx-module/issues/25) for the current progress.
 
 As a plugin developer, you can write Wasm plugins for APISIX using any available SDKs and compile it to a Wasm binary. APISIX will execute this Wasm binary and interact with it through its ABI implementation.
 

@@ -326,7 +326,8 @@ To do this, use the `codapi-settings` element:
 <codapi-settings url="http://localhost:1313/v1"></codapi-settings>
 ```
 
-> **Tip**: When migrating to production, change this URL to that of your production Codapi server. `/v1` is the path used by the Codapi server to serve API requests.
+> [!TIP]
+> When migrating to production, change this URL to that of your production Codapi server. `/v1` is the path used by the Codapi server to serve API requests.
 
 With your local Codapi server running and the widget configured, you can try running a snippet and see it show up on the server logs:
 
@@ -439,7 +440,8 @@ and use it in all your snippets to add the boilerplate code:
 
 The snippets will replace the placeholder (`##CODE##`) in the template before they are executed.
 
-> **Tip**: Skip to the [building a custom Python sandbox](#building-a-custom-python-sandbox) section to learn how this sandbox is built.
+> [!TIP]
+> Skip to the [building a custom Python sandbox](#building-a-custom-python-sandbox) section to learn how this sandbox is built.
 
 #### Passing Additional Files
 
@@ -470,7 +472,8 @@ There could also be scenarios where you might need to pass in whole additional f
 
 Inside the sandbox, APISIX is first configured with the YAML configuration, and then the `curl` command is used to send a request to the configured APISIX instance.
 
-> **Tip**: Skip to the [creating complex sandboxes](#creating-complex-sandboxes) section to learn how this sandbox is built.
+> [!TIP]
+> Skip to the [creating complex sandboxes](#creating-complex-sandboxes) section to learn how this sandbox is built.
 
 In similar situations, Codapi can be configured to pass additional files with the snippet, which is quite useful. The APISIX snippet looks like this:
 

@@ -639,6 +639,7 @@ codapi-snippet codapi-toolbar button:after {
     color: var(--secondary);
     font-size: 14px;
     letter-spacing: 1px;
+    margin-bottom: 10px !important;
 }
 
 .alert-title span {

@@ -85,7 +85,8 @@ end
 return _M
 ```
 
-> **Tip**: A complete guide on writing custom Plugins is available on the [APISIX documentation](https://apisix.apache.org/docs/apisix/plugin-develop/).
+> [!TIP]
+> A complete guide on writing custom Plugins is available on the [APISIX documentation](https://apisix.apache.org/docs/apisix/plugin-develop/).
 
 We can now configure APISIX to use this Plugin and create Routes with this Plugin enabled.
 

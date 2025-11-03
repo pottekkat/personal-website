@@ -61,7 +61,8 @@ spec:
             pathType: Prefix
 ```
 
-> **Tip**: You can check out this [hands-on tutorial](/posts/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/) to learn more about setting up Ingress on Kubernetes with Apache APISIX Ingress controller.
+> [!TIP]
+> You can check out this [hands-on tutorial](/posts/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/) to learn more about setting up Ingress on Kubernetes with Apache APISIX Ingress controller.
 
 Since the Ingress API is not tied to any particular controller implementation, you can swap APISIX with any other Ingress controller, and it will work similarly.
 

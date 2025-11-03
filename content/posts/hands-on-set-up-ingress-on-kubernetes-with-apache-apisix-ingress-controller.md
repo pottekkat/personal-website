@@ -92,7 +92,8 @@ helm install apisix apisix/apisix \
 kubectl get pods --namespace ingress-apisix
 ```
 
-> **Note**: We are using `NodePort` as the Gateway service type. You can also set it to `LoadBalancer` if your cluster has one.
+> [!NOTE]
+> We are using `NodePort` as the Gateway service type. You can also set it to `LoadBalancer` if your cluster has one.
 
 Helm will create five resources in your cluster:
 

@@ -78,7 +78,8 @@ Once you have the `sandbox-mcp` binary and have at least the default sandboxes r
 }
 ```
 
-> **Note**: Replace `path/to/sandbox-mcp` with the actual path to the downloaded binary.
+> [!NOTE]
+> Replace `path/to/sandbox-mcp` with the actual path to the downloaded binary.
 
 If you reopen your MCP client, you will see that the Sandbox MCP is available with all the default sandbox tools.
 
