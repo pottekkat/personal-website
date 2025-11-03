@@ -34,7 +34,7 @@
     {
       "id": "01k93vq224e8pswvzwrqkssdtd",
       "title": "You Are How You Act",
-      "author": "webmaster@boz.com (Andrew Bosworth)",
+      "author": "Andrew Bosworth",
       "source_url": "https://boz.com/articles/you-are-how-you-act",
       "published_date": "2025-10-26",
       "saved_at": "2025-11-03T08:51:03.812000+05:30",
@@ -44,7 +44,7 @@
     {
       "id": "01k93vp54czzrct0mqb1x4v6cb",
       "title": "How to Keep Winning",
-      "author": "amasad.me",
+      "author": "Amjad Masad",
       "source_url": "https://amasad.me/keep-winning/",
       "published_date": "2025-10-23",
       "saved_at": "2025-11-03T08:50:34.187000+05:30",
@@ -192,16 +192,6 @@
       "category": "article"
     },
     {
-      "id": "01k7rgvnx1n6j6cwk1cxx7zwxj",
-      "title": "Free online paywall remover",
-      "author": "removepaywall.com",
-      "source_url": "https://www.removepaywall.com/search?url=https://indianexpress.com/article/opinion/columns/arattai-vs-whatsapp-the-answer-to-western-big-tech-10299424/",
-      "published_date": null,
-      "saved_at": "2025-10-17T12:53:59.113000+05:30",
-      "reading_time": "1 min",
-      "category": "article"
-    },
-    {
       "id": "01k7kmdgg3yb37h12g4p2wrkpt",
       "title": "Import AI 431: Technological Optimism and Appropriate Fear",
       "author": "Jack Clark",
@@ -254,7 +244,7 @@
     {
       "id": "01k6z5jj3ft0fczy91dks088as",
       "title": "Development gets better with Age",
-      "author": "Dr Werner Vogels - https://www.allthingsdistributed.com/",
+      "author": "Dr Werner Vogels",
       "source_url": "https://www.allthingsdistributed.com/2025/10/better-with-age.html?ref=dailydev",
       "published_date": "2025-10-01",
       "saved_at": "2025-10-07T16:35:46.351000+05:30",
@@ -304,7 +294,7 @@
     {
       "id": "01k6sdydwrqterhg1cq9dqwxt5",
       "title": "How to influence tech company politics as a staff software engineer",
-      "author": "seangoedecke.com",
+      "author": "Sean Goedecke",
       "source_url": "https://www.seangoedecke.com/how-to-influence-politics/",
       "published_date": "2025-10-04",
       "saved_at": "2025-10-05T11:06:37.271000+05:30",
@@ -344,7 +334,7 @@
     {
       "id": "01k6a7fws0pt1my0yghvwapx4e",
       "title": "Boring is good",
-      "author": "jenson.org",
+      "author": "Scott Jenson",
       "source_url": "https://jenson.org/boring/",
       "published_date": "2025-09-15",
       "saved_at": "2025-09-29T13:25:13.055000+05:30",
@@ -394,7 +384,7 @@
     {
       "id": "01k5tet5kqkyndac7nf7m2tsdc",
       "title": "Is Life a Form of Computation?",
-      "author": "The MIT Press Reader",
+      "author": "Blaise Agüera y Arcas",
       "source_url": "https://thereader.mitpress.mit.edu/is-life-a-form-of-computation/",
       "published_date": "2025-09-22",
       "saved_at": "2025-09-23T10:25:18.902000+05:30",
@@ -484,7 +474,7 @@
     {
       "id": "01k53thzzcdfa98ypphx6g0ps1",
       "title": "Magical systems thinking",
-      "author": "worksinprogress.co",
+      "author": "Ed Bradon",
       "source_url": "https://worksinprogress.co/issue/magical-systems-thinking/",
       "published_date": "2025-09-12",
       "saved_at": "2025-09-14T15:28:01.964000+05:30",
@@ -603,7 +593,7 @@
     },
     {
       "id": "01k4h9200v8zx6p3cm6yz0t4vr",
-      "title": "written on September 04, 2025",
+      "title": "996",
       "author": "Armin Ronacher",
       "source_url": "https://lucumr.pocoo.org/2025/9/4/996/?ref=dailydev",
       "published_date": "2025-09-04",
@@ -673,7 +663,7 @@
     },
     {
       "id": "01k41ntxfgqavvr20b9tfyp9p3",
-      "title": "A blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox\nA blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox",
+      "title": "A blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox",
       "author": "Henrik Karlsson",
       "source_url": "https://www.henrikkarlsson.xyz/p/search-query",
       "published_date": "2022-10-05",
@@ -724,7 +714,7 @@
     {
       "id": "01k3gp5tk1jxxw58vegc02a55f",
       "title": "The Complete LLM Evaluation Playbook: How To Run LLM Evals That Matter",
-      "author": "confident-ai.com",
+      "author": "Jeffrey Ip",
       "source_url": "https://www.confident-ai.com/blog/why-llm-as-a-judge-is-the-best-llm-evaluation-method#top-llm-as-a-judge-scoring-methods",
       "published_date": "2025-08-21",
       "saved_at": "2025-08-25T18:50:12.896000+05:30",
@@ -754,7 +744,7 @@
     {
       "id": "01k3frwffhtyafekzjxt8jgbfq",
       "title": "Everything I know about good system design",
-      "author": "seangoedecke.com",
+      "author": "Sean Goedecke",
       "source_url": "https://www.seangoedecke.com/good-system-design/",
       "published_date": "2025-06-21",
       "saved_at": "2025-08-25T10:18:17.905000+05:30",
@@ -783,8 +773,8 @@
     },
     {
       "id": "01k3857tfeqep2jv3xayembkgn",
-      "title": "ai-that-works/2025-08-05-advanced-context-engineering-for-coding-agents at main · ai-that-works/ai-that-works",
-      "author": "https://github.com/ai-that-works/",
+      "title": "ai that works: Advanced Context Engineering for Coding Agents",
+      "author": "github.com/ai-that-works",
       "source_url": "https://github.com/ai-that-works/ai-that-works/tree/main/2025-08-05-advanced-context-engineering-for-coding-agents",
       "published_date": "2025-07-29",
       "saved_at": "2025-08-22T11:20:17.069000+05:30",
@@ -793,8 +783,8 @@
     },
     {
       "id": "01k38526yc8nncvh0dpvsnxmts",
-      "title": "mcp/VIBE_CODING_TIPS_TRICKS.md at main · awslabs/mcp · GitHub",
-      "author": "GitHub",
+      "title": "Vibe Coding Tips and Tricks",
+      "author": "AWS Labs",
       "source_url": "https://github.com/awslabs/mcp/blob/main/VIBE_CODING_TIPS_TRICKS.md",
       "published_date": null,
       "saved_at": "2025-08-22T11:17:13.228000+05:30",
@@ -1802,16 +1792,6 @@
       "category": "article"
     },
     {
-      "id": "01jv43062jw8bsv2kctv42c6td",
-      "title": "Free online paywall remover",
-      "author": "removepaywall.com",
-      "source_url": "https://www.removepaywall.com/search?url=https://www.nytimes.com/2025/05/02/magazine/finland-happiest-country.html/",
-      "published_date": "2025-05-02",
-      "saved_at": "2025-05-13T11:18:37.330000+05:30",
-      "reading_time": "1 min",
-      "category": "article"
-    },
-    {
       "id": "01jv204hgqt7qzg905fg9tfkmp",
       "title": "A $70,000 Salary, No College Debt: High-School Shop Students Attract Skilled-Trades Job Offers",
       "author": "Te-Ping Chen",
@@ -1999,16 +1979,6 @@
       "published_date": "2025-04-25",
       "saved_at": "2025-04-29T19:18:29.506000+05:30",
       "reading_time": "2 mins",
-      "category": "article"
-    },
-    {
-      "id": "01jsxm7jmr7aptjgzkc27hfqgm",
-      "title": "Free online paywall remover",
-      "author": "removepaywall.com",
-      "source_url": "https://www.removepaywall.com/search?url=https://www.nytimes.com/2025/04/19/opinion/extinction-technology-culture.html/",
-      "published_date": "2025-04-19",
-      "saved_at": "2025-04-28T12:49:22.520000+05:30",
-      "reading_time": "1 min",
       "category": "article"
     },
     {
@@ -2439,16 +2409,6 @@
       "published_date": "2025-03-17",
       "saved_at": "2025-03-24T21:11:12.497000+05:30",
       "reading_time": "8 mins",
-      "category": "article"
-    },
-    {
-      "id": "01jq435ezwgvrv98qhw2164ctt",
-      "title": "Free online paywall remover",
-      "author": "removepaywall.com",
-      "source_url": "https://www.removepaywall.com/search?url=https://www.nytimes.com/2025/03/14/technology/why-im-feeling-the-agi.html/",
-      "published_date": "2025-03-14",
-      "saved_at": "2025-03-24T18:18:43.003000+05:30",
-      "reading_time": "1 min",
       "category": "article"
     },
     {
@@ -2979,16 +2939,6 @@
       "published_date": null,
       "saved_at": "2025-02-10T10:53:46.504000+05:30",
       "reading_time": "10 mins",
-      "category": "article"
-    },
-    {
-      "id": "01jkq3krrv0skcdsw169rs06mk",
-      "title": "Free online paywall remover",
-      "author": "removepaywall.com",
-      "source_url": "https://www.removepaywall.com/search?url=https://www.nytimes.com/2025/02/04/magazine/therapy-marriage-couples-counseling.html/",
-      "published_date": "2025-02-04",
-      "saved_at": "2025-02-10T10:29:18.683000+05:30",
-      "reading_time": "1 min",
       "category": "article"
     },
     {
@@ -5079,16 +5029,6 @@
       "published_date": "2022-08-18",
       "saved_at": "2024-07-28T11:18:21.655000+05:30",
       "reading_time": "3 mins",
-      "category": "article"
-    },
-    {
-      "id": "01j3pgnh0s2qzdbghk0mkk3804",
-      "title": "Five steps for India’s new government to get its data act together",
-      "author": "Narayan Ramachandran",
-      "source_url": "https://www.removepaywall.com/article/current",
-      "published_date": "2024-07-15",
-      "saved_at": "2024-07-26T08:47:04.153000+05:30",
-      "reading_time": "4 mins",
       "category": "article"
     },
     {

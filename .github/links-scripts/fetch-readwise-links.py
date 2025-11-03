@@ -94,6 +94,10 @@ def filter_and_format_document(doc):
     if doc.get('source_url', '').startswith('mailto:'):
         return None
 
+    # Skip removepaywall.com links
+    if 'removepaywall.com' in doc.get('source_url', ''):
+        return None
+
     # Convert saved_at from UTC to IST
     saved_at = doc['saved_at']
     if saved_at:
