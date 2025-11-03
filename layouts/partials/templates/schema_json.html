@@ -82,7 +82,7 @@
   {{- end -}}
   "datePublished": {{ .PublishDate }},
   "dateModified": {{ .Lastmod }},
-  {{- with (.Params.author | default site.Params.author) }}
+  {{- with (.Params.author | default site.Params.author.name) }}
   "author":
     {{- if (or (eq (printf "%T" .) "[]string") (eq (printf "%T" .) "[]interface {}")) -}}
   [{{- range $i, $v := . -}}
