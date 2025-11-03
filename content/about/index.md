@@ -22,7 +22,7 @@ This blog also contains [tutorials for open source projects](/tags/apache-apisix
 
 Unless mentioned otherwise, all material in this blog is licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0), and the [source code](https://github.com/pottekkat/personal-website) of this website is available under the [MIT license](https://github.com/pottekkat/personal-website/blob/hugo/LICENSE).
 
-Here are [some other blogs I like](/blogroll/).
+Here are [some other blogs I like](/blogroll/) and [lots of links](/links/).
 
 ### Changelog
 
