@@ -30,12 +30,12 @@
 {{- end }}
 
 <!-- Only show authors if they are explicitly mentioned in the post metadata -->
-{{- if or .Params.author }}
+{{- if .Params.author }}
 {{- with (partial "author.html" .) }}
 {{- $scratch.Add "meta" (slice .) }}
 {{- end }}
 {{- end }}
 
 {{- with ($scratch.Get "meta") }}
-{{- delimit . "&nbsp;·&nbsp;" -}}
+{{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
 {{- end -}}
