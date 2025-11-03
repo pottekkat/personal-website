@@ -37,6 +37,10 @@
     color: var(--secondary);
 }
 
+.rss-icon-link {
+    margin-left: 8px;
+}
+
 /* To add margin below each paragraph except the last one */
 .entry-content p:not(:last-of-type) {
     margin-bottom: 14px;
