@@ -55,7 +55,7 @@
                     {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
                     {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
                         {{- if site.Params.label.iconHeight }}
-                            {{- $img = $img.Resize (printf "x%d" site.Params.label.iconHeight) }}
+                            {{- $img = $img.Resize (printf "x%s" site.Params.label.iconHeight) }}
                         {{ else }}
                             {{- $img = $img.Resize "x30" }}
                         {{- end }}

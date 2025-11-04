@@ -4,6 +4,16 @@ title: "Navendu Pottekkat - The Open Source Absolutist"
 theme: ["PaperMod", "plausible-hugo"]
 # paginate: 200000 # removed pagination so this is redundant
 
+# Mount static directory to assets to enable image processing
+# Mount the default assets->assets mount, otherwise
+# it will be overridden by static->assets mount
+module:
+  mounts:
+    - source: assets
+      target: assets
+    - source: static
+      target: assets
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false

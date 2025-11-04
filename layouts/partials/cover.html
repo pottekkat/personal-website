@@ -1,40 +1,96 @@
 {{- with .cxt}} {{/* Apply proper context from dict */}}
 {{- if (and .Params.cover.image (not $.isHidden)) }}
 {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
-<figure class="entry-cover">
-    {{- $responsiveImages := (.Params.cover.responsiveImages | default site.Params.cover.responsiveImages) | default true }}
-    {{- $addLink := (and site.Params.cover.linkFullImages (not $.IsHome)) }}
-    {{- $cover := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
-    {{- if $cover -}}{{/* i.e it is present in page bundle */}}
-        {{- if $addLink }}<a href="{{ (path.Join .RelPermalink .Params.cover.image) | absURL }}" target="_blank"
-            rel="noopener noreferrer">{{ end -}}
-        {{- $sizes := (slice "360" "480" "720" "1080" "1500") }}
-        {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
-        {{- if hugo.IsExtended -}}
-            {{- $processableFormats = $processableFormats | append "webp" -}}
-        {{- end -}}
-        {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
-        {{- if (and (in $processableFormats $cover.MediaType.SubType) ($responsiveImages) (eq $prod true)) }}
-        <img loading="lazy" srcset="{{- range $size := $sizes -}}
-                        {{- if (ge $cover.Width $size) -}}
-                        {{ printf "%s %s" (($cover.Resize (printf "%sx" $size)).Permalink) (printf "%sw ," $size) -}}
-                        {{ end }}
-                    {{- end -}}{{$cover.Permalink }} {{printf "%dw" ($cover.Width)}}" 
-            sizes="(min-width: 768px) 720px, 100vw" src="{{ $cover.Permalink }}" alt="{{ $alt }}" 
-            width="{{ $cover.Width }}" height="{{ $cover.Height }}">
-        {{- else }}{{/* Unprocessable image or responsive images disabled */}}
-        <img loading="lazy" src="{{ (path.Join .RelPermalink .Params.cover.image) | absURL }}" alt="{{ $alt }}">
+{{- $responsiveImages := (.Params.cover.responsiveImages | default site.Params.cover.responsiveImages) | default true }}
+{{- $addLink := (and site.Params.cover.linkFullImages (not $.IsHome)) }}
+{{- $cover := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
+{{- $dominantColor := "" }}
+
+{{/* Try to get image from assets directory if not in page bundle */}}
+{{- if not $cover }}
+    {{- $imagePath := strings.TrimPrefix "/" .Params.cover.image }}
+    {{- $cover = resources.Get $imagePath }}
+{{- end }}
+
+{{- if $cover -}}{{/* Image found in page bundle or assets directory */}}
+    {{- $sizes := (slice "360" "480" "720" "1080" "1500") }}
+    {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
+    {{- if hugo.IsExtended -}}
+        {{- $processableFormats = $processableFormats | append "webp" -}}
+    {{- end -}}
+    {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
+
+    {{- if (and (in $processableFormats $cover.MediaType.SubType) ($responsiveImages) (eq $prod true)) }}
+        {{/* Extract dominant color from a small version for performance */}}
+        {{- $colorSample := $cover.Resize "100x" }}
+        {{- $colors := $colorSample.Colors }}
+        {{- if $colors }}
+            {{- $dominantColor = index $colors 0 }}
         {{- end }}
-    {{- else }}{{/* For absolute urls and external links, no img processing here */}}
-        {{- if $addLink }}<a href="{{ (.Params.cover.image) | absURL }}" target="_blank"
-            rel="noopener noreferrer">{{ end -}}
-            <img loading="lazy" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}">
+
+        <figure class="entry-cover">
+            {{- if $addLink }}<a href="{{ (path.Join .RelPermalink .Params.cover.image) | absURL }}" target="_blank" rel="noopener noreferrer">{{ end -}}
+
+            <picture{{- if $dominantColor }} style="display: block; background-color: {{ $dominantColor }}; background-size: cover; background-position: center;"{{- end }}>
+                {{/* WebP srcset for modern browsers */}}
+                <source type="image/webp" srcset="{{- range $size := $sizes -}}
+                    {{- if (ge $cover.Width $size) -}}
+                        {{- $resized := $cover.Resize (printf "%sx webp q85" $size) -}}
+                        {{ printf "%s %sw, " $resized.Permalink $size -}}
+                    {{- end -}}
+                {{- end -}}
+                {{- $coverWebP := $cover.Resize (printf "%dx%d webp q85" $cover.Width $cover.Height) -}}
+                {{ $coverWebP.Permalink }} {{ printf "%dw" $cover.Width }}"
+                sizes="(min-width: 768px) 720px, 100vw">
+
+                {{/* Original format fallback */}}
+                <source type="{{ $cover.MediaType }}" srcset="{{- range $size := $sizes -}}
+                    {{- if (ge $cover.Width $size) -}}
+                        {{- $resized := $cover.Resize (printf "%sx" $size) -}}
+                        {{ printf "%s %sw, " $resized.Permalink $size -}}
+                    {{- end -}}
+                {{- end -}}{{ $cover.Permalink }} {{ printf "%dw" $cover.Width }}"
+                sizes="(min-width: 768px) 720px, 100vw">
+
+                {{/* Fallback img for browsers that don't support picture */}}
+                <img loading="lazy"
+                     src="{{ $cover.Permalink }}"
+                     alt="{{ $alt }}"
+                     width="{{ $cover.Width }}"
+                     height="{{ $cover.Height }}"
+                     {{- if $dominantColor }} style="background-color: {{ $dominantColor }};"{{- end }}>
+            </picture>
+
+            {{- if $addLink }}</a>{{ end -}}
+
+            {{/*  Display Caption  */}}
+            {{- if not $.IsHome }}
+                {{ with .Params.cover.caption }}<p>{{ . | markdownify }}</p>{{- end }}
+            {{- end }}
+        </figure>
+
+    {{- else }}{{/* Unprocessable image or responsive images disabled or not in production */}}
+        <figure class="entry-cover">
+            {{- if $addLink }}<a href="{{ (path.Join .RelPermalink .Params.cover.image) | absURL }}" target="_blank" rel="noopener noreferrer">{{ end -}}
+            <img loading="lazy" src="{{ (path.Join .RelPermalink .Params.cover.image) | absURL }}" alt="{{ $alt }}">
+            {{- if $addLink }}</a>{{ end -}}
+            {{/*  Display Caption  */}}
+            {{- if not $.IsHome }}
+                {{ with .Params.cover.caption }}<p>{{ . | markdownify }}</p>{{- end }}
+            {{- end }}
+        </figure>
     {{- end }}
-    {{- if $addLink }}</a>{{ end -}}
-    {{/*  Display Caption  */}}
-    {{- if not $.IsHome }}
-        {{ with .Params.cover.caption }}<p>{{ . | markdownify }}</p>{{- end }}
-    {{- end }}
-</figure>
+
+{{- else }}{{/* For absolute urls and external links, no img processing here */}}
+    <figure class="entry-cover">
+        {{- if $addLink }}<a href="{{ (.Params.cover.image) | absURL }}" target="_blank" rel="noopener noreferrer">{{ end -}}
+        <img loading="lazy" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}">
+        {{- if $addLink }}</a>{{ end -}}
+        {{/*  Display Caption  */}}
+        {{- if not $.IsHome }}
+            {{ with .Params.cover.caption }}<p>{{ . | markdownify }}</p>{{- end }}
+        {{- end }}
+    </figure>
+{{- end }}
 {{- end }}{{/* End image */}}
 {{- end -}}{{/* End context */ -}}
