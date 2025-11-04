@@ -646,3 +646,48 @@ codapi-snippet codapi-toolbar button:after {
     margin-right: 3px;
     vertical-align: middle;
 }
+
+.qr-code-details {
+    margin-top: calc(var(--content-gap) * 1.5);
+    margin-bottom: var(--content-gap);
+}
+
+.qr-code-details summary {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--content);
+}
+
+.qr-code-details summary:hover {
+    color: var(--secondary);
+}
+
+.qr-code-details summary svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+}
+
+.qr-code-details summary .qr-hide {
+    display: none;
+}
+
+.qr-code-details[open] summary .qr-show {
+    display: none;
+}
+
+.qr-code-details[open] summary .qr-hide {
+    display: inline;
+}
+
+.qr-code-container {
+    margin-top: calc(var(--content-gap) * 0.8);
+}
+
+.qr-code-container img {
+    display: inline-block;
+    border: 10px solid var(--entry);
+    border-radius: 0;
+}

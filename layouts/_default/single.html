@@ -43,6 +43,7 @@
   {{- end }}
 
   {{- if .Content }}
+  {{- partial "qr_code_icon.html" . -}}
   <div class="post-content e-content">
     {{ if .Param "series" }}
     {{ $currentPage := .Page.Permalink }}

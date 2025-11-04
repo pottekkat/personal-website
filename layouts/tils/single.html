@@ -22,6 +22,7 @@
     </div>
     {{- end }}
   </header>
+  {{- partial "qr_code_icon.html" . -}}
   <div class="post-content e-content">
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}
