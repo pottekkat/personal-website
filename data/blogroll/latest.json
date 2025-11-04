@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-11-03T00:24:29.109562",
+  "lastUpdated": "2025-11-04T00:22:15.432989",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Heart Mountain",
-      "postUrl": "https://xkcd.com/3162/",
-      "publishDate": "Fri, 31 Oct 2025 04:00:00 -0000"
+      "postTitle": "Repair Video",
+      "postUrl": "https://xkcd.com/3163/",
+      "publishDate": "Mon, 03 Nov 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "New prompt injection papers: Agents Rule of Two and The Attacker Moves Second",
-      "postUrl": "https://simonwillison.net/2025/Nov/2/new-prompt-injection-papers/#atom-everything",
-      "publishDate": "2025-11-02T23:09:33+00:00"
+      "postTitle": "The fetch()ening",
+      "postUrl": "https://simonwillison.net/2025/Nov/3/htmx-the-fetchening/#atom-everything",
+      "publishDate": "2025-11-03T21:39:54+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Salary jobs are how we get the 20-hour workweek",
-      "postUrl": "https://www.elysian.press/p/salary-jobs-are-how-we-get-the-20",
-      "publishDate": "Wed, 29 Oct 2025 15:52:34 GMT"
+      "postTitle": "The internet is dead\u2014long live print media!",
+      "postUrl": "https://www.elysian.press/p/the-internet-is-deadlong-live-print",
+      "publishDate": "Mon, 03 Nov 2025 13:03:42 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "Reclaim The Book | #310",
-      "postUrl": "https://newsletter.pathlesspath.com/p/reclaim-the-book-310",
-      "publishDate": "Mon, 27 Oct 2025 11:30:42 GMT"
+      "postTitle": "How To Create A Sexy Hardcover Book | #311",
+      "postUrl": "https://newsletter.pathlesspath.com/p/how-to-make-a-book",
+      "publishDate": "Mon, 03 Nov 2025 12:57:49 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
