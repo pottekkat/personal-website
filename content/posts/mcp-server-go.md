@@ -214,7 +214,8 @@ Now you can prompt the LLM like:
 
 The LLM will detect the `ping` tool we registered, ask to run it, and show the result returned by the MCP server.
 
-> **Note**: Make sure you have DiceDB running. You can also apply this pattern to wrap other tools into MCP servers instead of DiceDB, as used in this example.
+> [!NOTE]
+> Make sure you have DiceDB running. You can also apply this pattern to wrap other tools into MCP servers instead of DiceDB, as used in this example.
 
 ## Learn More
 

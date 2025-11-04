@@ -22,7 +22,7 @@
       <time class="dt-updated" datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}" style="display: none;">{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}</time>
       {{- end }}
       <a class="u-author h-card" href="{{ site.BaseURL }}" style="display: none;">
-        <span class="p-name">{{ site.Params.author }}</span>
+        <span class="p-name">{{ site.Params.author.name }}</span>
       </a>
       <a class="u-url" href="{{ .Permalink }}" style="display: none;">{{ .Permalink }}</a>
       {{/* /h-entry metadata */}}
@@ -43,24 +43,26 @@
   {{- end }}
 
   {{- if .Content }}
+  {{- partial "qr_code_icon.html" . -}}
   <div class="post-content e-content">
     {{ if .Param "series" }}
     {{ $currentPage := .Page.Permalink }}
-    {{ $name := index .Params.series 0 }}
-    <p><i>This article is a part of the series "<a href='/series/{{$name | urlize }}'>{{$name}}</a>."</i></p>
-    <p>Other articles in the series:</p>
-    {{ $name := $name | urlize }}
-      {{ $series := index .Site.Taxonomies.series $name }}
-      <ul class="series">
-      {{ range sort $series.Pages "Date" }}
-
-        <li>
-          {{ if ne $currentPage .Permalink }}
-          <a href="{{.Permalink}}">{{.LinkTitle}}</a>
-          {{ else }}<b>{{.LinkTitle}}</b>{{ end }}
-        </li>
-      {{end}}
-      </ul>
+    {{ $seriesTerms := .GetTerms "series" }}
+    {{ if $seriesTerms }}
+      {{ range $seriesTerms }}
+        <p><i>This article is a part of the series "<a href='{{ .Permalink }}'>{{ .LinkTitle }}</a>."</i></p>
+        <p>Other articles in the series:</p>
+        <ul class="series">
+        {{ range sort .Pages "Date" }}
+          <li>
+            {{ if ne $currentPage .Permalink }}
+            <a href="{{.Permalink}}">{{.LinkTitle}}</a>
+            {{ else }}<b>{{.LinkTitle}}</b>{{ end }}
+          </li>
+        {{end}}
+        </ul>
+      {{ end }}
+    {{ end }}
     {{end}}
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}

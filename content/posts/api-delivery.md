@@ -156,7 +156,8 @@ Since we use APISIX as our API gateway, we can sync these changes to the running
   run: adc sync -f "${APISIX_CONFIG}"
 ```
 
-> **Tip**: Directly deploying these changes to production before testing them end-to-end is not a good idea. A better way is deploying these changes to a test/staging instance and running comprehensive tests, as discussed in the [next section](#testing-apis). You can check my article on [API deployment strategies](/posts/api-deployment-strategies/) for a more thorough guide.
+> [!TIP]
+> Directly deploying these changes to production before testing them end-to-end is not a good idea. A better way is deploying these changes to a test/staging instance and running comprehensive tests, as discussed in the [next section](#testing-apis). You can check my article on [API deployment strategies](/posts/api-deployment-strategies/) for a more thorough guide.
 
 ## Testing APIs
 

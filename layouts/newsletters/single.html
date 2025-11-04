@@ -19,7 +19,7 @@
       <time class="dt-updated" datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}" style="display: none;">{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}</time>
       {{- end }}
       <a class="u-author h-card" href="{{ site.BaseURL }}" style="display: none;">
-        <span class="p-name">{{ site.Params.author }}</span>
+        <span class="p-name">{{ site.Params.author.name }}</span>
       </a>
       <a class="u-url" href="{{ .Permalink }}" style="display: none;">{{ .Permalink }}</a>
       {{- partial "post_meta.html" . -}}
@@ -33,6 +33,7 @@
   {{- if (or (.Param "ShowToc") (.Param "toc.show")) }}
   {{- partial "toc.html" . }}
   {{- end }}
+  {{- partial "qr_code_icon.html" . -}}
   <div class="post-content e-content">
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}

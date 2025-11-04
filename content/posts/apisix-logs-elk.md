@@ -65,7 +65,8 @@ curl localhost:9180/apisix/admin/global_rules/log_all -X PUT -d '
 }'
 ```
 
-> **Note**: APISIX only supports ELK stack version 7.x. This article uses the version [v7.17.1](https://www.elastic.co/guide/en/elasticsearch/reference/7.17/explicit-mapping.html).
+> [!NOTE]
+> APISIX only supports ELK stack version 7.x. This article uses the version [v7.17.1](https://www.elastic.co/guide/en/elasticsearch/reference/7.17/explicit-mapping.html).
 
 With the above configuration, all logs will be forwarded to Elasticsearch in batches of five. If we send a request to Elasticsearch, we can see that it builds an index with the received logs:
 

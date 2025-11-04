@@ -14,7 +14,8 @@ cover:
     relative: false
 ---
 
-> **Disclaimer**: I am still learning about public policy and base this blog post on my current understanding of the topic. I will continue improving this post as I learn more. Any feedback and corrections are welcome.
+> [!DISCLAIMER]
+> I am still learning about public policy and base this blog post on my current understanding of the topic. I will continue improving this post as I learn more. Any feedback and corrections are welcome.
 
 Will we have safer roads in Kerala with the new AI traffic cameras?
 

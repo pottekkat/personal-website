@@ -67,7 +67,8 @@ You may not need to learn programming to vibe code your way to glory—or the ne
 
 Git is a better "restore checkpoint" button that you frantically try to find when Cursor gets too carried away with your ~~lazy prompts~~; I mean, vibes. Git can do a lot, but trying to learn it all or, god forbid, [read the documentation](https://git-scm.com/doc) is, as we both know, a futile exercise. Instead, I will get you to learn _enough_ Git through a ~~five~~ ~~ten~~ thirteen?-minute interactive guide before your TikTok brains can take over.
 
-> **Note**: It isn't unlikely that your IDE (the app where you vibe code) comes with a graphical interface (GUI) for Git. But it is worth your time to learn the basic Git commands before jumping to a GUI abstraction.
+> [!NOTE]
+> It isn't unlikely that your IDE (the app where you vibe code) comes with a graphical interface (GUI) for Git. But it is worth your time to learn the basic Git commands before jumping to a GUI abstraction.
 
 I don't really know if you would bother learning Git when you didn't bother to learn programming. But I do know learning Git prevents you from embarrassing yourself online:
 
@@ -93,7 +94,8 @@ git version
 
 If it shows you a version number like the one above, you already have Git installed and are ready to follow the rest of the guide.
 
-> **Note**: This guide is interactive, meaning you can click the "Run" button to run the Git command on a computer living in the cloud. {{< rawhtml >}}<a href="#" id="show-me-how"><i>Show me how!</i></a>{{< /rawhtml >}}
+> [!NOTE]
+> This guide is interactive, meaning you can click the "Run" button to run the Git command on a computer living in the cloud. {{< rawhtml >}}<a href="#" id="show-me-how"><i>Show me how!</i></a>{{< /rawhtml >}}
 
 {{< rawhtml >}}
 <script>
@@ -412,7 +414,8 @@ git checkout feature
 
 {{< codapi id="sequence-a-6" depends-on="diagram-trigger-branch" sandbox="git" editor="off" template="init.sh" output-tail=true >}}
 
-> **Tip**: You can create a new branch and switch to it in a single command:
+> [!TIP]
+> You can create a new branch and switch to it in a single command:
 >
 > ```shell
 > git checkout -b feature
@@ -692,7 +695,8 @@ modified: node_modules/json-stable-stringify-without-jsonify/
 ...
 ```
 
-> **Note**: If you followed along locally, you might have already seen something similar.
+> [!NOTE]
+> If you followed along locally, you might have already seen something similar.
 
 _Why is Git tracking 1000 files you never touched?_
 
@@ -768,7 +772,8 @@ git pull
 
 This **downloads any new commits from remote and merges them** into your local branch.
 
-> **Tip**: Always pull before you push.
+> [!TIP]
+> Always pull before you push.
 
 ## Next Steps
 

@@ -15,7 +15,8 @@ cover:
     relative: false
 ---
 
-> **Disclaimer**: I am still learning about public policy and base this blog post on my current understanding of the topic. I will continue improving this post as I learn more. Any feedback and corrections are welcome.
+> [!DISCLAIMER]
+> I am still learning about public policy and base this blog post on my current understanding of the topic. I will continue improving this post as I learn more. Any feedback and corrections are welcome.
 
 The Indian government funds more than 50% of all scientific research in the country [^1]. However, 65% of scientific articles published by Indian researchers are still behind the paywalls of “prestigious” journals [^2].
 

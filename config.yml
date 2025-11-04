@@ -4,6 +4,16 @@ title: "Navendu Pottekkat - The Open Source Absolutist"
 theme: ["PaperMod", "plausible-hugo"]
 # paginate: 200000 # removed pagination so this is redundant
 
+# Mount static directory to assets to enable image processing
+# Mount the default assets->assets mount, otherwise
+# it will be overridden by static->assets mount
+module:
+  mounts:
+    - source: assets
+      target: assets
+    - source: static
+      target: assets
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -39,7 +49,9 @@ params:
     title: "Navendu Pottekkat"
     description: "\"The Open Source Absolutist\" is Navendu Pottekkat's personal blog, where he mostly writes about his work and life as an open source contributor/maintainer and an amateur policy analyst."
     keywords: ["navendu pottekkat", "personal blog", "the open source absolutist"]
-    author: "Navendu Pottekkat"
+    author:
+        name: "Navendu Pottekkat"
+        email: "navendu@apache.org"
     DateFormat: "January 2, 2006"
     defaultTheme: "dark" # dark, light, auto
     disableThemeToggle: false
@@ -178,5 +190,8 @@ outputs:
         - JSON # is necessary
 
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     noClasses: false
