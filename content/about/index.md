@@ -49,7 +49,7 @@ Click on the commit hash to see exactly what changed.
   </tr>
   <tr>
     <td>Static Site Generator</td>
-    <td><a href="https://gohugo.io/">Hugo</a> v0.118.2</td>
+    <td><a href="https://gohugo.io/">Hugo</a> v0.152.2</td>
   </tr>
   <tr>
     <td>Content Management System</td>
@@ -88,6 +88,10 @@ Click on the commit hash to see exactly what changed.
       <span data-var="--border" style="display: inline-block; width: 1em; height: 1em; background: var(--border); vertical-align: middle; border: 1px solid var(--code-bg); margin-right: 0.5em;"></span>Border<br>
       <span data-var="--background-color" style="display: inline-block; width: 1em; height: 1em; background: var(--background-color); vertical-align: middle; border: 1px solid var(--code-bg); margin-right: 0.5em;"></span>Background
     </td>
+  </tr>
+  <tr>
+    <td>Icons</td>
+    <td><a href="https://fontawesome.com">Font Awesome</a> (mostly)</td>
   </tr>
 </tbody>
 </table>
