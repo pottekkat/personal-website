@@ -82,7 +82,7 @@ jobs:
 
                 console.log('Processing ' + commits.length + ' new commits...');
 
-                const batchSize = 5;
+                const batchSize = 3;
                 const newEntries = [];
 
                 for (let i = 0; i < commits.length; i += batchSize) {
@@ -105,13 +105,20 @@ jobs:
                     return {
                       hash: commit.sha.substring(0, 7),
                       message: commit.commit.message.split('\n')[0],
-                      files: commit.files.map(f => ({
-                        filename: f.filename,
-                        status: f.status,
-                        additions: f.additions,
-                        deletions: f.deletions,
-                        patch: f.patch || ''
-                      }))
+                      files: commit.files.map(f => {
+                        // Truncate patch to first 500 characters to avoid token limit
+                        let patch = f.patch || '';
+                        if (patch.length > 500) {
+                          patch = patch.substring(0, 500) + '\n... (truncated)';
+                        }
+                        return {
+                          filename: f.filename,
+                          status: f.status,
+                          additions: f.additions,
+                          deletions: f.deletions,
+                          patch: patch
+                        };
+                      })
                     };
                   });
 
