@@ -1,3 +1,6 @@
+[build]
+  ignore = "exit 0"
+
 [context.deploy-preview]
     command = "hugo --buildFuture --buildDrafts --gc --minify -b $DEPLOY_PRIME_URL"
 
