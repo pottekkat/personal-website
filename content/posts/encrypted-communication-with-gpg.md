@@ -72,7 +72,8 @@ It will prompt you several times to configure your keys:
 
 Once you complete all the prompts, `gpg` will generate a key pair.
 
-> **Tip**: As `gpg` uses entropy to generate the key pair, it will depend on how active your system is. To generate more entropy, you can use something like [rng-tools](https://www.devmanuals.net/install/ubuntu/ubuntu-12-04-lts-precise-pangolin/install-rng-tools.html).
+> [!TIP]
+> As `gpg` uses entropy to generate the key pair, it will depend on how active your system is. To generate more entropy, you can use something like [rng-tools](https://www.devmanuals.net/install/ubuntu/ubuntu-12-04-lts-precise-pangolin/install-rng-tools.html).
 
 To verify whether the key pair was created, you can run:
 
@@ -114,7 +115,8 @@ gpg --output ~/public.key --armor --export your-email@your-provider.com
 
 All of my projects and the projects I contribute to are on GitHub. If you are using other platforms like GitLab, you can follow their [official documentation](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/#add-a-gpg-key-to-your-account).
 
-> **Note**: The email associated with your GPG key should match a verified email configured in your GitHub account.
+> [!NOTE]
+> The email associated with your GPG key should match a verified email configured in your GitHub account.
 
 On GitHub, go to "Settings" > "Access" > "SSH and GPG keys" > "New GPG key".
 
@@ -149,7 +151,8 @@ Now, use this key ID to configure Git:
 git config --global user.signingkey 3AA5C34371567BD2
 ```
 
-> **Tip**: To sign all commits by default, run:
+> [!TIP]
+> To sign all commits by default, run:
 > ```shell
 > git config --global commit.gpgsign true
 > ```
@@ -174,7 +177,8 @@ You can also upload your key to a public key server like `pgp.mit.edu`:
 gpg --send-keys --keyserver pgp.mit.edu 3AA5C34371567BD2
 ```
 
-> **Note**: `3AA5C34371567BD2` is the key ID. Replace it with your key ID.
+> [!NOTE]
+> `3AA5C34371567BD2` is the key ID. Replace it with your key ID.
 
 Now, anyone will be able to request your public key from the key server with the command:
 

@@ -55,7 +55,8 @@ plugins:
 
 You can also enable the [public-api](https://apisix.apache.org/docs/apisix/plugins/public-api/) plugin to expose the route to external requests.
 
-> **Note**: You should add all plugins being used to this list, as it will replace the plugins enabled by default.
+> [!NOTE]
+> You should add all plugins being used to this list, as it will replace the plugins enabled by default.
 
 ## Configure Routes
 
@@ -82,7 +83,8 @@ spec:
           servicePort: 9180
 ```
 
-> **Note**: The ApisixRoute CRD always requires you to configure an upstream to a route. To work around this, you can use the Admin API as the upstream, as shown above, in scenarios where you don't have/need an upstream.
+> [!NOTE]
+> The ApisixRoute CRD always requires you to configure an upstream to a route. To work around this, you can use the Admin API as the upstream, as shown above, in scenarios where you don't have/need an upstream.
 
 The above route extracts the individual requests needed to be made by APISIX. To fulfill these requests using the upstream, we have to create another two routes:
 
@@ -138,7 +140,8 @@ spec:
 
 This may seem complicated, so here is the explanation. We are matching requests using a regular expression in the path. So regardless of the value of `{speakerId}` in `/speaker/{speakerId}/sessions` and `/speaker/{speakerId}/topics`, we will match the request and forward it to the upstream.
 
-> **Note**: If you are configuring APISIX through the Admin API, this is much simpler and reduces to `"uris": ["/speaker/*/topics","/speaker/*/sessions"]`. However, we must use regular expressions since the ApisixRoute CRD does not support [URI patterns](https://github.com/apache/apisix-ingress-controller/blob/c111c12272f58189de785feac256e6ce1193c172/samples/deploy/crd/v1/ApisixRoute.yaml#L107C35-L107C35) with `*` in the middle.
+> [!NOTE]
+> If you are configuring APISIX through the Admin API, this is much simpler and reduces to `"uris": ["/speaker/*/topics","/speaker/*/sessions"]`. However, we must use regular expressions since the ApisixRoute CRD does not support [URI patterns](https://github.com/apache/apisix-ingress-controller/blob/c111c12272f58189de785feac256e6ce1193c172/samples/deploy/crd/v1/ApisixRoute.yaml#L107C35-L107C35) with `*` in the middle.
 
 ## Test the Routes
 

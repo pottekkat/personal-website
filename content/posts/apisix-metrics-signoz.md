@@ -55,7 +55,8 @@ plugin_attr:
 
 This enables the `prometheus` and [public-api](https://apisix.apache.org/docs/apisix/plugins/public-api/) plugins and exports the metrics to the `/metrics` path in the data plane port.
 
-> **Note**: SigNoz's OpenTelemetry Collector always scrapes the `/metrics` endpoint, which cannot be overridden.
+> [!NOTE]
+> SigNoz's OpenTelemetry Collector always scrapes the `/metrics` endpoint, which cannot be overridden.
 
 You can also export the metrics to a separate server, as the [documentation](https://apisix.apache.org/docs/apisix/plugins/prometheus/#api) describes.
 

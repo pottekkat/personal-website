@@ -134,7 +134,8 @@ ls -lah *.wasm
 
 The change in size is small. However, using a leaky garbage collector can significantly improve the plugin's performance, which is good.
 
-> **Note**: If you are unsure if using a leaky garbage collector is okay, run a significant number of tests before using it in production. Or, just use the default garbage collector if the costs of running into potential memory issues don't tip the scales for the potential benefits.
+> [!NOTE]
+> If you are unsure if using a leaky garbage collector is okay, run a significant number of tests before using it in production. Or, just use the default garbage collector if the costs of running into potential memory issues don't tip the scales for the potential benefits.
 
 ## Disabling Goroutines
 

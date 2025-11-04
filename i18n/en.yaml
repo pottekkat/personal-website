@@ -1,0 +1,51 @@
+- id: prev_page
+  translation: "Prev"
+
+- id: next_page
+  translation: "Next"
+
+- id: read_time
+  translation:
+    one : "1 min"
+    other: "{{ .Count }} min"
+
+- id: words
+  translation:
+    one : "word"
+    other: "{{ .Count }} words"
+
+- id: toc
+  translation: "Table of Contents"
+
+- id: translations
+  translation: "Translations"
+
+- id: home
+  translation: "Home"
+
+- id: edit_post
+  translation: "Edit"
+
+- id: code_copy
+  translation: "copy"
+
+- id: code_copied
+  translation: "copied!"
+
+- id: caution
+  translation: "Caution"
+
+- id: important
+  translation: "Important"
+
+- id: note
+  translation: "Note"
+
+- id: tip
+  translation: "Tip"
+
+- id: warning
+  translation: "Warning"
+
+- id: disclaimer
+  translation: "Disclaimer"

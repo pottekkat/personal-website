@@ -78,7 +78,8 @@ echo '{"id": 1,"name":"Leanne Graham","website":"hildegard.org"}' | jq '.'
 
 Notice how jq pretty prints the JSON.
 
-> **Tip**: You can edit these commands. Try editing the above command to see the output without the jq filter.
+> [!TIP]
+> You can edit these commands. Try editing the above command to see the output without the jq filter.
 
 jq can also apply filters directly to a file (`user.json`):
 
@@ -140,7 +141,8 @@ curl 'https://jsonplaceholder.typicode.com/users' | jq '.[0]'
 
 The above example gets the first object from the array. Try changing the index to get the other objects.
 
-> **Note**: Similar to most programming languages, array indexes start at 0 in jq.
+> [!NOTE]
+> Similar to most programming languages, array indexes start at 0 in jq.
 
 #### Slice JSON Arrays
 
@@ -152,7 +154,8 @@ curl 'https://jsonplaceholder.typicode.com/users' | jq '.[3:6]'
 
 {{< codapi sandbox="jq" editor="basic" >}}
 
-> **Tip**: You can specify only the start or end of a slice:
+> [!TIP]
+> You can specify only the start or end of a slice:
 >
 > ```shell
 > curl 'https://jsonplaceholder.typicode.com/users' | jq '.[:4]'
@@ -187,7 +190,8 @@ curl 'https://jsonplaceholder.typicode.com/users' | jq '.[].name'
 
 {{< codapi sandbox="jq" editor="basic" >}}
 
-> **Tip**: The `-r` flag outputs raw strings without quotes.
+> [!TIP]
+> The `-r` flag outputs raw strings without quotes.
 
 ## Construct Objects and Arrays
 

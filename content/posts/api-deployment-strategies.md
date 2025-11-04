@@ -196,7 +196,8 @@ curl http://127.0.0.1:9180/apisix/admin/routes/1 -X PUT -d '
 }'
 ```
 
-> **Note**: Client applications need to be configured to follow redirects for this configuration to work.
+> [!NOTE]
+> Client applications need to be configured to follow redirects for this configuration to work.
 
 There could be more complex scenarios where the client-API interface changes. For instance, if the new API expects the key `fullName` instead of `firstName` and `lastName`, clients sending requests in the old API format would break. APISIX can handle such scenarios through the [body-transformer](https://apisix.apache.org/docs/apisix/plugins/body-transformer/) plugin.
 

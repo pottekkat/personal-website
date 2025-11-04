@@ -40,7 +40,8 @@ You can sign up using your email on any of the [available servers](https://joinm
 
 Once you fill in your details, you will receive a confirmation email with an activation link. Click on it, and you are ready to go.
 
-> **Note**: A Mastodon username would be in the form `@user@instance.name`. For example, my username is [realPottekkat@fosstodon.org](https://fosstodon.org/@realPottekkat).
+> [!NOTE]
+> A Mastodon username would be in the form `@user@instance.name`. For example, my username is [realPottekkat@fosstodon.org](https://fosstodon.org/@realPottekkat).
 
 ## Navigating the UI
 
