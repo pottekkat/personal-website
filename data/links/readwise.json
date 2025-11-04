@@ -1,6 +1,36 @@
 {
-  "last_updated": "2025-11-04T11:57:17.285790+05:30",
+  "last_updated": "2025-11-04T17:58:30.706668+05:30",
   "links": [
+    {
+      "id": "01k976yhhz75b4z4k9wfj1zysq",
+      "title": "Dad hats 🧢",
+      "author": "kwon.nyc",
+      "source_url": "https://kwon.nyc/dad-hats/",
+      "published_date": "2025-04-22",
+      "saved_at": "2025-11-04T16:05:06.687000+05:30",
+      "reading_time": "1 min",
+      "category": "article"
+    },
+    {
+      "id": "01k976a5da57d5yaam062p0129",
+      "title": "The Case Against pgvector",
+      "author": "Alex Jacobs",
+      "source_url": "https://alex-jacobs.com/posts/the-case-against-pgvector/",
+      "published_date": "2025-10-29",
+      "saved_at": "2025-11-04T15:53:58.889000+05:30",
+      "reading_time": "10 mins",
+      "category": "article"
+    },
+    {
+      "id": "01k9753b7dtgj0tn6bz5jd8nf5",
+      "title": "You can't cURL a Border",
+      "author": "Vadim Drobinin",
+      "source_url": "https://drobinin.com/posts/you-cant-curl-a-border/",
+      "published_date": "2025-11-03",
+      "saved_at": "2025-11-04T15:32:46.893000+05:30",
+      "reading_time": "8 mins",
+      "category": "article"
+    },
     {
       "id": "01k94160hwj987arqcq71watbb",
       "title": "How I Use Every Claude Code Feature",
