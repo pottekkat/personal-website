@@ -54,15 +54,28 @@
                     {{- end -}}
                     {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
                     {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
+                        {{/* Generate 1x and 2x versions for different pixel ratios */}}
+                        {{- $img1x := $img }}
+                        {{- $img2x := $img }}
                         {{- if site.Params.label.iconHeight }}
-                            {{- $img = $img.Resize (printf "x%s" site.Params.label.iconHeight) }}
+                            {{- $img1x = $img.Resize (printf "x%s" site.Params.label.iconHeight) }}
+                            {{- $targetHeight2x := mul (float site.Params.label.iconHeight) 2 }}
+                            {{- $img2x = $img.Resize (printf "x%.0f" $targetHeight2x) }}
                         {{ else }}
-                            {{- $img = $img.Resize "x30" }}
+                            {{- $img1x = $img.Resize "x30" }}
+                            {{- $img2x = $img.Resize "x60" }}
                         {{- end }}
+                        <img id="main-header-logo"
+                            srcset="{{ $img1x.Permalink }} 1x, {{ $img2x.Permalink }} 2x"
+                            src="{{ $img1x.Permalink }}"
+                            alt="Logo" aria-label="logo"
+                            width="{{- site.Params.label.iconWidth | default "164.7" -}}"
+                            height="{{- site.Params.label.iconHeight | default "20" -}}">
+                    {{- else }}
+                        <img id="main-header-logo" src="{{ $img.Permalink }}" alt="Logo" aria-label="logo"
+                            width="{{- site.Params.label.iconWidth | default "164.7" -}}"
+                            height="{{- site.Params.label.iconHeight | default "20" -}}">
                     {{- end }}
-                    <img id="main-header-logo" src="{{ $img.Permalink }}" alt="Logo" aria-label="logo"
-                        width="{{- site.Params.label.iconWidth | default "164.7" -}}"
-                        height="{{- site.Params.label.iconHeight | default "20" -}}">
                 {{- else }}
                 <img id="main-header-logo" src="{{- site.Params.label.icon | absURL -}}" alt="Logo" aria-label="logo"
                     width="{{- site.Params.label.iconWidth | default "164.7" -}}"
