@@ -1,6 +1,31 @@
 {
-  "lastUpdated": "2025-11-05T02:56:31+05:30",
+  "lastUpdated": "2025-11-05T14:00:57+05:30",
   "entries": [
+    {
+      "hash": "dbef77d",
+      "date": "2025-11-05T13:55:28+05:30",
+      "message": "Improved subscription form usability by preventing double submissions."
+    },
+    {
+      "hash": "a775055",
+      "date": "2025-11-05T11:50:57+05:30",
+      "message": "Disabled Plausible analytics in non-production environments for accurate statistics."
+    },
+    {
+      "hash": "506594b",
+      "date": "2025-11-05T11:30:11+05:30",
+      "message": "Added Plausible analytics script configuration for integration."
+    },
+    {
+      "hash": "4a85b22",
+      "date": "2025-11-05T11:20:58+05:30",
+      "message": "Replaced JQuery-based scripts with vanilla JavaScript for improved performance."
+    },
+    {
+      "hash": "1f6b38a",
+      "date": "2025-11-05T10:31:08+05:30",
+      "message": "Adjusted logo generation to include appropriate sizes for different resolutions."
+    },
     {
       "hash": "024b66f",
       "date": "2025-11-05T02:55:47+05:30",
