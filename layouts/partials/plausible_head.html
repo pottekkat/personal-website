@@ -1,0 +1,96 @@
+<!-- Check for config.toml in sync with the used variable in this version -->
+{{- partial "plausible_check.html" . }}
+
+<!-- Compute the DOMAIN name -->
+{{- $pio_http       := "https://" }}
+{{- $pio_js         := "/js/"}}
+{{- $pio_data_api   := ""}}
+{{- $pio_domain     := "plausible.io"}}
+{{- if site.Params.plausible.selfhosted_domain }}
+    {{- $pio_domain = site.Params.plausible.selfhosted_domain }}
+{{- else if site.Params.plausible.custom_js_domain }}
+    {{- $pio_domain = site.Params.plausible.custom_js_domain }}
+{{- end }}
+{{- $pio_domain_real := $pio_domain }}
+<!-- Compute the SCRIPT name -->
+{{- $pio_script := "script"}}
+{{- if site.Params.plausible.selfhosted_domain }}
+    {{- $pio_script = "script"}}
+{{- else if site.Params.plausible.custom_js_domain }}
+    {{- $pio_script = "index"}}
+{{- end }}
+<!-- manage FILE DOWNLOADS if set -->
+{{- $downloads := "" }}
+{{- if site.Params.plausible.file_downloads }}
+    {{- $downloads = ".file-downloads" }}
+{{- end }}
+<!-- manage OUTBOUND LINKS if set -->
+{{- $outbound := "" }}
+{{- if site.Params.plausible.outbound_link }}
+    {{- $outbound = ".outbound-links" }}
+{{- end }}
+<!-- manage hash-based routing if set -->
+{{- $hash := "" }}
+{{- if site.Params.plausible.hash_based_routing }}
+{{- $hash = ".hash" }}
+{{- end }}
+<!-- Manage proxing for Netlify -->
+{{- if site.Params.plausible.proxy_netlify }}
+    {{- $pio_http = "" }}
+    {{- $pio_domain = "" }}
+    {{- $pio_script = "script"}}
+    <!-- outboundlink are managed on the redirect. Not here. -->
+    {{- $outbound = "" }}
+    {{- $pio_js = "/misc/js/"}}
+    {{- $pio_data_api = "/misc/api/event"}}
+{{- end }}
+{{- $pio_script = printf "%s%s%s%s" $pio_script $downloads $outbound $hash }}
+
+<!-- Active plausible : if option is "on" and for allowed pages -->
+{{- if and (site.Params.plausible.enable) (not .Params.plausible_do_not_track) }}
+
+    <!-- Preconnect to required origins -->
+    {{- if $pio_domain }}
+        <link rel="preconnect" href="https://{{ $pio_domain | safeURL }}">
+    {{- end }}
+    <!-- Add SCRIPT DIRECTIVES -->
+    {{- if lt hugo.Version "0.120.0" }}
+        <!-- Old Hugo versions -->
+        {{- if and (site.IsServer) (not site.Params.plausible.debug) -}}
+            <!-- To avoid stats bloat when in dev/server & not debug mode -->
+            {{- printf "<!-- Dev mode : We do not load plausible script to avoid bloating your stats -->" | safeHTML }}
+        {{- else }}
+            <!-- In production or in debug mode, we need plausible to fully operate -->
+            <script defer {{if site.Params.plausible.file_downloads_types }}file-types="{{ site.Params.plausible.file_downloads_types }}"{{ end }} data-domain="{{ site.Params.plausible.domain }}" src="{{ $pio_http }}{{ $pio_domain | safeURL }}{{ $pio_js }}{{ $pio_script }}.js" {{if site.Params.plausible.proxy_netlify }}data-api="{{ $pio_data_api }}"{{ end }}></script>
+        {{- end }}
+    {{- else }}
+        <!-- Recent Hugo versions -->
+        {{- if and (hugo.IsServer) (not site.Params.plausible.debug) -}}
+            <!-- To avoid stats bloat when in dev/server & not debug mode -->
+            {{- printf "<!-- Dev mode : We do not load plausible script to avoid bloating your stats -->" | safeHTML }}
+        {{- else }}
+            <!-- In production or in debug mode, we need plausible to fully operate -->
+            <script defer {{if site.Params.plausible.file_downloads_types }}file-types="{{ site.Params.plausible.file_downloads_types }}"{{ end }} data-domain="{{ site.Params.plausible.domain }}" src="{{ $pio_http }}{{ $pio_domain | safeURL }}{{ $pio_js }}{{ $pio_script }}.js" {{if site.Params.plausible.proxy_netlify }}data-api="{{ $pio_data_api }}"{{ end }}></script>
+        {{- end }}
+    {{- end }}
+
+    {{- partialCached "plausible_head_csp.html" (dict "context" . "domain" $pio_domain "script" $pio_script ) }}
+    {{- partialCached "plausible_head_public_url.html" (dict "context" . "domain" $pio_domain_real "script" $pio_script ) }}
+
+    <!-- For custom goals/events -->
+    <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+    <script>
+        /* Create a unique script for all the onclick */
+        {{- partial "plausible_js.html" . | safeJS }}
+        /* Manage custom goals by entering a page */
+        /* if parameter "plausible_custom_goal" is set */
+        {{- with .Params.plausible_custom_goal }}
+            plausible('{{ . | safeJS }}');
+        {{- end }}
+    </script>
+
+    <!-- For 404 page -->
+    {{- if eq .Page.Kind "404" }}
+    <script>plausible("404",{ props: { path: document.location.pathname } });</script>
+    {{- end }}
+{{- end }}
