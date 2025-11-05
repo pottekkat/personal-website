@@ -46,7 +46,28 @@
 
 <!-- Preload background images -->
 <link rel="preload" href="/images/binding-dark.png" as="image" type="image/png">
-<link rel="preload" href="/logo.png" as="image" type="image/png">
+{{- /* Preload logo - match the processing in header.html */}}
+{{- if site.Params.label.icon }}
+{{- $img := resources.Get site.Params.label.icon }}
+{{- if $img }}
+    {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
+    {{- if hugo.IsExtended -}}
+        {{- $processableFormats = $processableFormats | append "webp" -}}
+    {{- end -}}
+    {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
+    {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
+        {{- $img1x := $img }}
+        {{- if site.Params.label.iconHeight }}
+            {{- $img1x = $img.Resize (printf "x%s" site.Params.label.iconHeight) }}
+        {{ else }}
+            {{- $img1x = $img.Resize "x30" }}
+        {{- end }}
+        <link rel="preload" href="{{ $img1x.Permalink }}" as="image" type="image/{{ $img.MediaType.SubType }}">
+    {{- else }}
+        <link rel="preload" href="{{ $img.Permalink }}" as="image" type="image/{{ $img.MediaType.SubType }}">
+    {{- end }}
+{{- end }}
+{{- end }}
 <link rel="preload" href="/images/white-wall.png" as="image" type="image/png">
 
 {{- /* Styles */}}
