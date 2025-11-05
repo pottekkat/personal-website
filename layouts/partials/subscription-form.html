@@ -27,44 +27,53 @@
   </div>
 </section>
 
-<!-- Handle form submission with JQuery and Ajax -->
+<!-- Handle form submission with vanilla JavaScript -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    $(".subscribe-form").submit(function (e) {
-        e.preventDefault();
-        var form = $(this);
-        var url = form.attr("action");
-        var method = form.attr("method");
+    const form = document.querySelector('.subscribe-form');
+    const subscribeButton = form.querySelector('.subscribe-button');
+    const subscribeMessage = document.querySelector('.subscribe-message');
 
-        $.ajax({
-            type: method,
-            url: url,
-            data: form.serialize(),
-            dataType: `jsonp`,
-            success: function (data) {
-                if (data.result === `success`) {
-                    form.find(".subscribe-button").attr("value", "Subscribed!");
-                    $(".subscribe-message").html(
-                        "Thank you for subscribing! Please check your inbox for a confirmation email and add me in your contacts to not miss an issue! <a target='_blank' href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fnavendu.me&text=I%20just%20subscribed%20to%20@realPottekkat%27s%20blog%21%20Check%20it%20out%21&hashtags=OpenSource%2CDevelopers%2CDEVCommunity'>Tweet about it</a>!"
-                    );
-                    $(".subscribe-form :input").prop("disabled", true);
-                } else {
-                    form
-                        .find(".subscribe-button")
-                        .attr("value", "Retry?");
-                    $(".subscribe-message").html(
-                        "There was an error subscribing you to my blog. " + data.msg + "."
-                    );
-                    form[0].reset();
-                }
-                console.log(data);
-            },
-            error: function (data) {
-                console.log("An error occurred.");
-                console.log(data);
-                form[0].reset();
-            },
-        });
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const url = form.getAttribute('action');
+        const formData = new FormData(form);
+        const params = new URLSearchParams(formData).toString();
+
+        window.mailchimpCallback = function(data) {
+            if (data.result === 'success') {
+                subscribeButton.value = 'Subscribed!';
+                subscribeMessage.innerHTML =
+                    "Thank you for subscribing! Please check your inbox for a confirmation email and add me in your contacts to not miss an issue! <a target='_blank' href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fnavendu.me&text=I%20just%20subscribed%20to%20@realPottekkat%27s%20blog%21%20Check%20it%20out%21&hashtags=OpenSource%2CDevelopers%2CDEVCommunity'>Tweet about it</a>!";
+                Array.from(form.elements).forEach(function(el) {
+                    el.disabled = true;
+                });
+            } else {
+                subscribeButton.value = 'Retry?';
+                subscribeMessage.innerHTML =
+                    "There was an error subscribing you to my blog. " + data.msg + ".";
+                form.reset();
+            }
+            console.log(data);
+
+            delete window.mailchimpCallback;
+            var scriptToRemove = document.querySelector('script[src*="list-manage.com"]');
+            if (scriptToRemove) {
+                scriptToRemove.remove();
+            }
+        };
+
+        const script = document.createElement('script');
+        script.src = url.replace(/c=\?/, 'c=mailchimpCallback') + '&' + params;
+        document.body.appendChild(script);
+
+        script.onerror = function() {
+            console.log('An error occurred.');
+            subscribeMessage.innerHTML = 'An error occurred. Please try again.';
+            form.reset();
+            delete window.mailchimpCallback;
+        };
     });
 });
 </script>
