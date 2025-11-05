@@ -1,6 +1,16 @@
 {
-  "last_updated": "2025-11-05T11:57:05.412438+05:30",
+  "last_updated": "2025-11-05T17:58:10.557850+05:30",
   "links": [
+    {
+      "id": "01k99sfpfxjaexmj3qtw0bp1h0",
+      "title": "Some software bloat is OK",
+      "author": "WaspDev Blog",
+      "source_url": "https://waspdev.com/articles/2025-11-04/some-software-bloat-is-ok?ref=dailydev",
+      "published_date": "2025-11-04",
+      "saved_at": "2025-11-05T16:07:32.029000+05:30",
+      "reading_time": "5 mins",
+      "category": "article"
+    },
     {
       "id": "01k976yhhz75b4z4k9wfj1zysq",
       "title": "Dad hats 🧢",
