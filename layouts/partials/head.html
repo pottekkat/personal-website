@@ -59,7 +59,7 @@
         {{- $img1x := $img }}
         {{- if site.Params.label.iconHeight }}
             {{- $img1x = $img.Resize (printf "x%s" site.Params.label.iconHeight) }}
-        {{ else }}
+        {{- else }}
             {{- $img1x = $img.Resize "x30" }}
         {{- end }}
         <link rel="preload" href="{{ $img1x.Permalink }}" as="image" type="image/{{ $img.MediaType.SubType }}">
