@@ -59,6 +59,9 @@
         {{- if and (site.IsServer) (not site.Params.plausible.debug) -}}
             <!-- To avoid stats bloat when in dev/server & not debug mode -->
             {{- printf "<!-- Dev mode : We do not load plausible script to avoid bloating your stats -->" | safeHTML }}
+        {{- else if ne hugo.Environment "production" -}}
+            <!-- Skip Plausible in non-production environments (dev, testing, Lighthouse CI) -->
+            {{- printf "<!-- Non-production environment: Skipping Plausible to avoid 404 errors -->" | safeHTML }}
         {{- else }}
             <!-- In production or in debug mode, we need plausible to fully operate -->
             <script defer {{if site.Params.plausible.file_downloads_types }}file-types="{{ site.Params.plausible.file_downloads_types }}"{{ end }} data-domain="{{ site.Params.plausible.domain }}" src="{{ $pio_http }}{{ $pio_domain | safeURL }}{{ $pio_js }}{{ $pio_script }}.js" {{if site.Params.plausible.proxy_netlify }}data-api="{{ $pio_data_api }}"{{ end }}></script>
@@ -68,6 +71,9 @@
         {{- if and (hugo.IsServer) (not site.Params.plausible.debug) -}}
             <!-- To avoid stats bloat when in dev/server & not debug mode -->
             {{- printf "<!-- Dev mode : We do not load plausible script to avoid bloating your stats -->" | safeHTML }}
+        {{- else if ne hugo.Environment "production" -}}
+            <!-- Skip Plausible in non-production environments (dev, testing, Lighthouse CI) -->
+            {{- printf "<!-- Non-production environment: Skipping Plausible to avoid 404 errors -->" | safeHTML }}
         {{- else }}
             <!-- In production or in debug mode, we need plausible to fully operate -->
             <script defer {{if site.Params.plausible.file_downloads_types }}file-types="{{ site.Params.plausible.file_downloads_types }}"{{ end }} data-domain="{{ site.Params.plausible.domain }}" src="{{ $pio_http }}{{ $pio_domain | safeURL }}{{ $pio_js }}{{ $pio_script }}.js" {{if site.Params.plausible.proxy_netlify }}data-api="{{ $pio_data_api }}"{{ end }}></script>
