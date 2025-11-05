@@ -2,7 +2,9 @@ baseURL: https://navendu.me/
 languageCode: en-us
 title: "Navendu Pottekkat - The Open Source Absolutist"
 theme: ["PaperMod", "plausible-hugo"]
-# paginate: 200000 # removed pagination so this is redundant
+
+pagination:
+  pagerSize: 20
 
 # Mount static directory to assets to enable image processing
 # Mount the default assets->assets mount, otherwise
@@ -57,6 +59,7 @@ params:
     disableThemeToggle: false
 
     showStupid: true
+    showPageNums: true
 
     label:
       icon: "/logo.png"
