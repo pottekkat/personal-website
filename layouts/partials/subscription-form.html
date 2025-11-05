@@ -37,11 +37,33 @@ document.addEventListener('DOMContentLoaded', function() {
     form.addEventListener('submit', function(e) {
         e.preventDefault();
 
+        // Prevent double submissions - disable button immediately
+        subscribeButton.disabled = true;
+        subscribeButton.setAttribute('aria-disabled', 'true');
+        subscribeButton.value = 'Subscribing...';
+
         const url = form.getAttribute('action');
         const formData = new FormData(form);
         const params = new URLSearchParams(formData).toString();
 
-        window.mailchimpCallback = function(data) {
+        // Generate unique callback name to prevent race conditions
+        const callbackName = 'mailchimpCallback_' + Date.now();
+        var timeoutId;
+        var scriptElement;
+
+        // Create unique callback function
+        window[callbackName] = function(data) {
+            // Clear timeout
+            if (timeoutId) {
+                clearTimeout(timeoutId);
+            }
+
+            // Clean up immediately
+            delete window[callbackName];
+            if (scriptElement && scriptElement.parentNode) {
+                scriptElement.parentNode.removeChild(scriptElement);
+            }
+
             if (data.result === 'success') {
                 subscribeButton.value = 'Subscribed!';
                 subscribeMessage.innerHTML =
@@ -51,28 +73,55 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
             } else {
                 subscribeButton.value = 'Retry?';
-                subscribeMessage.innerHTML =
-                    "There was an error subscribing you to my blog. " + data.msg + ".";
-                form.reset();
-            }
-            console.log(data);
+                subscribeButton.disabled = false;
+                subscribeButton.removeAttribute('aria-disabled');
 
-            delete window.mailchimpCallback;
-            var scriptToRemove = document.querySelector('script[src*="list-manage.com"]');
-            if (scriptToRemove) {
-                scriptToRemove.remove();
+                // Sanitize error message to prevent XSS while preserving formatting
+                // Mailchimp returns messages like "0 - Error description"
+                var errorMsg = data.msg || "Please try again.";
+                var tempDiv = document.createElement('div');
+                tempDiv.textContent = errorMsg;
+                var sanitizedMsg = tempDiv.textContent;
+
+                subscribeMessage.textContent = "There was an error subscribing you to my blog. " + sanitizedMsg + ".";
+
+                form.reset();
             }
         };
 
-        const script = document.createElement('script');
-        script.src = url.replace(/c=\?/, 'c=mailchimpCallback') + '&' + params;
-        document.body.appendChild(script);
+        scriptElement = document.createElement('script');
+        scriptElement.src = url.replace(/c=\?/, 'c=' + callbackName) + '&' + params;
+        document.body.appendChild(scriptElement);
 
-        script.onerror = function() {
-            console.log('An error occurred.');
-            subscribeMessage.innerHTML = 'An error occurred. Please try again.';
+        // Timeout after 10 seconds if no response
+        timeoutId = setTimeout(function() {
+            delete window[callbackName];
+            if (scriptElement && scriptElement.parentNode) {
+                scriptElement.parentNode.removeChild(scriptElement);
+            }
+
+            // Re-enable button and show error
+            subscribeButton.value = 'Retry?';
+            subscribeButton.disabled = false;
+            subscribeButton.removeAttribute('aria-disabled');
+            subscribeMessage.textContent = 'Request timed out. Please try again.';
+        }, 10000);
+
+        scriptElement.onerror = function() {
+            if (timeoutId) {
+                clearTimeout(timeoutId);
+            }
+
+            delete window[callbackName];
+            if (scriptElement && scriptElement.parentNode) {
+                scriptElement.parentNode.removeChild(scriptElement);
+            }
+
+            subscribeButton.value = 'Retry?';
+            subscribeButton.disabled = false;
+            subscribeButton.removeAttribute('aria-disabled');
+            subscribeMessage.textContent = 'Network error. Please check your connection and try again.';
             form.reset();
-            delete window.mailchimpCallback;
         };
     });
 });
