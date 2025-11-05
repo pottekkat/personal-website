@@ -285,6 +285,8 @@ jobs:
           extended: true
 
       - name: Build
+        env:
+          HUGO_ENV: development
         run: hugo --gc --minify
 
       - name: Use Node.js 18.x
