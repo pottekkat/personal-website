@@ -103,14 +103,20 @@ jobs:
                   // Prepare commit data for AI
                   const commitList = commitDetails.map(detail => {
                     const commit = detail.data;
-                    return {
-                      hash: commit.sha.substring(0, 7),
-                      message: commit.commit.message.split('\n')[0],
-                      files: commit.files.map(f => {
-                        // Truncate patch to first 500 characters to avoid token limit
+
+                    // Filter out very large files and truncate patches more aggressively
+                    const filteredFiles = commit.files
+                      .filter(f => {
+                        // Skip large binary files, generated files, and lock files
+                        const skipPatterns = ['.lock', '.sum', 'package-lock.json', 'yarn.lock', 'resources/_gen', 'static/images'];
+                        return !skipPatterns.some(pattern => f.filename.includes(pattern));
+                      })
+                      .slice(0, 10)  // Limit to first 10 files max
+                      .map(f => {
+                        // Truncate patch to first 200 characters to avoid token limit
                         let patch = f.patch || '';
-                        if (patch.length > 500) {
-                          patch = patch.substring(0, 500) + '\n... (truncated)';
+                        if (patch.length > 200) {
+                          patch = patch.substring(0, 200) + '\n... (truncated)';
                         }
                         return {
                           filename: f.filename,
@@ -119,7 +125,12 @@ jobs:
                           deletions: f.deletions,
                           patch: patch
                         };
-                      })
+                      });
+
+                    return {
+                      hash: commit.sha.substring(0, 7),
+                      message: commit.commit.message.split('\n')[0],
+                      files: filteredFiles
                     };
                   });
 
@@ -187,6 +198,12 @@ jobs:
 
                   if (!response.ok) {
                     const errorText = await response.text();
+                    console.error('GitHub Models API failed for batch:', response.status, errorText);
+                    // Skip this batch if token limit is reached, but continue with other batches
+                    if (response.status === 413) {
+                      console.log('Skipping batch due to token limit, continuing with remaining commits...');
+                      continue;
+                    }
                     throw new Error('GitHub Models API failed: ' + response.status + ' ' + errorText);
                   }
 
