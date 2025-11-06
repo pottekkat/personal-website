@@ -100,8 +100,18 @@ jobs:
                     )
                   );
 
-                  // Prepare commit data for AI
-                  const commitList = commitDetails.map(detail => {
+                  // Prepare commit data for AI, excluding changelog-only commits
+                  const commitList = commitDetails
+                    .filter(detail => {
+                      const files = detail.data.files || [];
+                      // Skip if only file changed is the changelog data file
+                      if (files.length === 1 && files[0].filename === 'data/changelog/entries.json') {
+                        console.log('Skipping changelog-only commit:', detail.data.sha.substring(0, 7));
+                        return false;
+                      }
+                      return true;
+                    })
+                    .map(detail => {
                     const commit = detail.data;
 
                     // Filter out very large files and truncate patches more aggressively
@@ -133,6 +143,12 @@ jobs:
                       files: filteredFiles
                     };
                   });
+
+                  // Skip this batch if all commits were changelog-only
+                  if (commitList.length === 0) {
+                    console.log('Batch contained only changelog-only commits, skipping...');
+                    continue;
+                  }
 
                   const systemPrompt = 'You are a helpful assistant that generates concise commit explanations for a changelog. Always respond with valid JSON only.';
 
