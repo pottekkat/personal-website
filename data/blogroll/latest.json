@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-11-05T00:23:13.740507",
+  "lastUpdated": "2025-11-06T00:22:49.084168",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Repair Video",
-      "postUrl": "https://xkcd.com/3163/",
-      "publishDate": "Mon, 03 Nov 2025 05:00:00 -0000"
+      "postTitle": "Metric Tip",
+      "postUrl": "https://xkcd.com/3164/",
+      "publishDate": "Wed, 05 Nov 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Code execution with MCP: Building more efficient agents",
-      "postUrl": "https://simonwillison.net/2025/Nov/4/code-execution-with-mcp/#atom-everything",
-      "publishDate": "2025-11-04T23:56:24+00:00"
+      "postTitle": "Open redirect endpoint in Datasette prior to 0.65.2 and 1.0a21",
+      "postUrl": "https://simonwillison.net/2025/Nov/5/open-redirect-datasette/#atom-everything",
+      "publishDate": "2025-11-05T23:11:17+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,16 +151,16 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "The internet is dead\u2014long live print media!",
-      "postUrl": "https://www.elysian.press/p/the-internet-is-deadlong-live-print",
-      "publishDate": "Mon, 03 Nov 2025 13:03:42 GMT"
+      "postTitle": "Help us choose our next projects and writers!",
+      "postUrl": "https://www.elysian.press/p/help-us-choose-our-next-media-projects",
+      "publishDate": "Wed, 05 Nov 2025 13:02:20 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "New Article: Factory Farming is a Blight",
-      "postUrl": "https://letter.palladiummag.com/p/new-article-factory-farming-is-a",
-      "publishDate": "Sat, 01 Nov 2025 13:04:58 GMT"
+      "postTitle": "Early Article: The Medici Method",
+      "postUrl": "https://letter.palladiummag.com/p/early-article-the-medici-method",
+      "publishDate": "Wed, 05 Nov 2025 17:03:09 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -186,9 +186,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Moguls Moving Money Isn\u2019t the Same as Building a Business",
-      "postUrl": "https://anildash.com/2025/08/20/moving-money-ain\u2019t-building-a-business/",
-      "publishDate": "2025-08-20T00:00:00Z"
+      "postTitle": "Five for 50",
+      "postUrl": "https://anildash.com/2025/09/05/five-for-fifty/",
+      "publishDate": "2025-09-05T00:00:00Z"
     }
   ]
 }
