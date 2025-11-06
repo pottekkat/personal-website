@@ -57,12 +57,15 @@
     {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
     {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
         {{- $img1x := $img }}
+        {{- $img2x := $img }}
         {{- if site.Params.label.iconHeight }}
             {{- $img1x = $img.Resize (printf "x%s" site.Params.label.iconHeight) }}
+            {{- $img2x = $img.Resize (printf "x%d" (mul (int site.Params.label.iconHeight) 2)) }}
         {{- else }}
             {{- $img1x = $img.Resize "x30" }}
+            {{- $img2x = $img.Resize "x60" }}
         {{- end }}
-        <link rel="preload" href="{{ $img1x.Permalink }}" as="image" type="image/{{ $img.MediaType.SubType }}">
+        <link rel="preload" href="{{ $img1x.Permalink }}" as="image" type="image/{{ $img.MediaType.SubType }}" imagesrcset="{{ $img1x.Permalink }} 1x, {{ $img2x.Permalink }} 2x">
     {{- else }}
         <link rel="preload" href="{{ $img.Permalink }}" as="image" type="image/{{ $img.MediaType.SubType }}">
     {{- end }}
