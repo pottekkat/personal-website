@@ -39,14 +39,6 @@
 <!-- use Plausible for analytics -->
 {{ partial "plausible_head.html" . }}
 
-<!-- Preload fonts -->
-<link rel="preload" href="/fonts/inter/subset-Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/inter/subset-Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/schibstedgrotesk/subset-SchibstedGrotesk-Bold.woff2" as="font" type="font/woff2" crossorigin>
-
-<!-- Preload background images -->
-<link rel="preload" href="/images/binding-dark.png" as="image" type="image/png">
-{{- /* Preload logo - match the processing in header.html */}}
 {{- if site.Params.label.icon }}
 {{- $img := resources.Get site.Params.label.icon }}
 {{- if $img }}
@@ -71,6 +63,14 @@
     {{- end }}
 {{- end }}
 {{- end }}
+
+<!-- Preload fonts -->
+<link rel="preload" href="/fonts/inter/subset-Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/inter/subset-Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/schibstedgrotesk/subset-SchibstedGrotesk-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- Preload background images -->
+<link rel="preload" href="/images/binding-dark.png" as="image" type="image/png">
 <link rel="preload" href="/images/white-wall.png" as="image" type="image/png">
 
 {{- /* Styles */}}
