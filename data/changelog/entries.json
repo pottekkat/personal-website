@@ -1,153 +1,153 @@
 {
-  "lastUpdated": "2025-11-05T21:40:52+05:30",
+  "lastUpdated": "2025-11-06T14:49:05+05:30",
   "entries": [
     {
-      "hash": "a015378",
+      "hash": "f667f2f",
       "date": "2025-11-05T21:40:16+05:30",
       "message": "Added dynamic logo preloading based on site parameters."
     },
     {
-      "hash": "3b7744e",
+      "hash": "cd6514c",
       "date": "2025-11-05T16:14:05+05:30",
       "message": "Implemented pagination functionality across the website for improved navigation."
     },
     {
-      "hash": "dbef77d",
+      "hash": "61fca62",
       "date": "2025-11-05T13:55:28+05:30",
       "message": "Improved subscription form usability by preventing double submissions."
     },
     {
-      "hash": "a775055",
+      "hash": "3e4a366",
       "date": "2025-11-05T11:50:57+05:30",
-      "message": "Disabled Plausible Analytics in non-production environments for accurate statistics."
+      "message": "Disabled Plausible analytics in non-production environments for accurate statistics."
     },
     {
-      "hash": "506594b",
+      "hash": "b3c1525",
       "date": "2025-11-05T11:30:11+05:30",
-      "message": "Added Plausible Analytics script configuration for integration."
+      "message": "Added Plausible analytics script configuration for integration."
     },
     {
-      "hash": "4a85b22",
+      "hash": "a3a586d",
       "date": "2025-11-05T11:20:58+05:30",
       "message": "Replaced JQuery-based scripts with vanilla JavaScript for improved performance."
     },
     {
-      "hash": "1f6b38a",
+      "hash": "ec02e6b",
       "date": "2025-11-05T10:31:08+05:30",
       "message": "Adjusted logo generation to include appropriate sizes for different resolutions."
     },
     {
-      "hash": "024b66f",
+      "hash": "aed3037",
       "date": "2025-11-05T02:55:47+05:30",
       "message": "Configured workflows to execute sequentially by adding dependency constraints."
     },
     {
-      "hash": "b81e178",
+      "hash": "b49a13b",
       "date": "2025-11-05T02:50:52+05:30",
       "message": "Updated CI workflows and configurations for improved build and deployment processes."
     },
     {
-      "hash": "144080d",
+      "hash": "c4708b5",
       "date": "2025-11-05T02:32:57+05:30",
       "message": "Reduced batch size for commit processing in changelog workflow."
     },
     {
-      "hash": "209277a",
+      "hash": "60a0cca",
       "date": "2025-11-05T02:12:48+05:30",
       "message": "Updated Hugo version and enabled extended features in Lighthouse workflow."
     },
     {
-      "hash": "be3720e",
+      "hash": "63b2aed",
       "date": "2025-11-05T02:10:05+05:30",
       "message": "Upgraded Hugo version reference in site content metadata."
     },
     {
-      "hash": "2e8a849",
+      "hash": "f4a9a0e",
       "date": "2025-11-04T21:26:39+05:30",
       "message": "Implemented WebP cover images with fallback and updated related configurations."
     },
     {
-      "hash": "d025216",
+      "hash": "e4d069b",
       "date": "2025-11-04T19:38:59+05:30",
       "message": "Added a copy of the cover layout for modifications."
     },
     {
-      "hash": "d4b1f11",
+      "hash": "a235db7",
       "date": "2025-11-04T17:22:30+05:30",
       "message": "Included pronunciation details in the About Me section."
     },
     {
-      "hash": "3d6b938",
+      "hash": "d71660d",
       "date": "2025-11-04T17:13:27+05:30",
       "message": "Updated URL generation to use relative language-specific paths."
     },
     {
-      "hash": "e71f009",
+      "hash": "e83d24f",
       "date": "2025-11-04T16:25:29+05:30",
       "message": "Adjusted URLs to relative paths and updated submodule reference."
     },
     {
-      "hash": "1f84441",
+      "hash": "a3faae1",
       "date": "2025-11-04T16:14:33+05:30",
       "message": "Corrected author information handling in RSS feed generation."
     },
     {
-      "hash": "2fbf948",
+      "hash": "c4a5745",
       "date": "2025-11-04T15:17:02+05:30",
       "message": "Corrected rendering logic for series taxonomy in single post layout."
     },
     {
-      "hash": "0e97e6a",
+      "hash": "b4cf414",
       "date": "2025-11-04T14:42:15+05:30",
       "message": "Added QR code functionality to various content layouts for easy sharing."
     },
     {
-      "hash": "0783930",
+      "hash": "6cf27af",
       "date": "2025-11-04T00:38:09+05:30",
       "message": "Fixed author name retrieval and removed unnecessary newline in layouts."
     },
     {
-      "hash": "f135cb4",
+      "hash": "d203717",
       "date": "2025-11-03T22:26:57+05:30",
       "message": "Adjusted inline width for improved layout rendering."
     },
     {
-      "hash": "f0ce780",
+      "hash": "365f499",
       "date": "2025-11-03T22:18:53+05:30",
       "message": "Updated styling and content for admonitions across multiple posts."
     },
     {
-      "hash": "4dc06a3",
+      "hash": "4628a5c",
       "date": "2025-11-03T21:50:10+05:30",
       "message": "Introduced support for admonitions with enhanced styling and localization."
     },
     {
-      "hash": "98c2228",
+      "hash": "1193c6a",
       "date": "2025-11-03T20:00:50+05:30",
       "message": "Updated feed configuration to include author details and improve RSS output."
     },
     {
-      "hash": "2f0905c",
+      "hash": "5241b02",
       "date": "2025-11-03T19:30:15+05:30",
       "message": "Simplified footer button markup for improved accessibility and maintainability."
     },
     {
-      "hash": "1a7b876",
+      "hash": "c1f6d8e",
       "date": "2025-11-03T19:28:19+05:30",
       "message": "Adjusted margins and RSS link styling across multiple list layouts."
     },
     {
-      "hash": "85a51b8",
+      "hash": "e740c7c",
       "date": "2025-11-03T19:24:30+05:30",
       "message": "Adjusted spacing for RSS icon for improved layout consistency."
     },
     {
-      "hash": "13894ed",
+      "hash": "c7949e7",
       "date": "2025-11-03T18:43:19+05:30",
       "message": "Refined spacing in CSS and optimized layout templates."
     },
     {
-      "hash": "9f757a1",
+      "hash": "2f2b4a4",
       "date": "2025-11-03T18:02:31+05:30",
       "message": "Updated Hugo version and resolved compatibility issues."
     },
