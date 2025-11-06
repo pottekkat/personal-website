@@ -19,12 +19,12 @@
     {
       "hash": "a775055",
       "date": "2025-11-05T11:50:57+05:30",
-      "message": "Disabled Plausible analytics in non-production environments for accurate statistics."
+      "message": "Disabled Plausible Analytics in non-production environments for accurate statistics."
     },
     {
       "hash": "506594b",
       "date": "2025-11-05T11:30:11+05:30",
-      "message": "Added Plausible analytics script configuration for integration."
+      "message": "Added Plausible Analytics script configuration for integration."
     },
     {
       "hash": "4a85b22",
