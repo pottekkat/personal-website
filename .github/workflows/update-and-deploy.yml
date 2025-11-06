@@ -23,6 +23,7 @@ jobs:
         with:
           ref: hugo
           fetch-depth: 0
+          lfs: true
 
       - name: Generate changelog
         uses: actions/github-script@v7
@@ -277,6 +278,7 @@ jobs:
           ref: hugo
           submodules: true
           fetch-depth: 0
+          lfs: true
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
