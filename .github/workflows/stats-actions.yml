@@ -65,7 +65,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "update stats" --allow-empty)
+          git diff-index --quiet HEAD || (git commit -a -m "update stats [skip ci]" --allow-empty)
           
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0

@@ -37,7 +37,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/blogroll/latest.json
-          git diff-index --quiet HEAD || (git commit -m "update blogroll latest posts" --allow-empty)
+          git diff-index --quiet HEAD || (git commit -m "update blogroll latest posts [skip ci]" --allow-empty)
           
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0

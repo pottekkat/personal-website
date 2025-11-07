@@ -290,7 +290,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/changelog/entries.json
-          git diff-index --quiet HEAD || git commit -m "update changelog"
+          git diff-index --quiet HEAD || git commit -m "update changelog [skip ci]"
 
       - name: Push changes
         uses: ad-m/github-push-action@v1.0.0
@@ -400,7 +400,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/lighthouse/scores.json
-          git diff-index --quiet HEAD || git commit -m "update lighthouse scores"
+          git diff-index --quiet HEAD || git commit -m "update lighthouse scores [skip ci]"
 
       - name: Push changes
         uses: ad-m/github-push-action@v1.0.0
