@@ -50,6 +50,7 @@
 
       {{- else -}}
         {{- /* Default: mention-of, in-reply-to */ -}}
+        <span class="webmention-icon">💬</span>
         {{- with $author -}}
         <a href="{{ .url }}" class="webmention-author" target="_blank" rel="noopener">{{ .name }}</a>
         {{- else -}}
