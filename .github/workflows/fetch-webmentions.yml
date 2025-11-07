@@ -2,18 +2,27 @@ name: Fetch Webmentions
 
 on:
   schedule:
-    - cron: '36 * * * *' # Run every hour at minute 36
+    - cron: '23 15 * * *' # Run daily at 3:23 PM UTC
   workflow_dispatch:
+
+concurrency:
+  group: hugo-branch-updates
+  cancel-in-progress: false
+
+permissions:
+  contents: write
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
-
+    outputs:
+      has_changes: ${{ steps.git-check.outputs.has_changes }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           ref: hugo
+          fetch-depth: 0
 
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
@@ -25,15 +34,30 @@ jobs:
           chmod +x scripts/fetch-webmentions.sh
           ./scripts/fetch-webmentions.sh
 
-      - name: Commit and push if changes
+      - name: Check for changes
+        id: git-check
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add data/webmentions/
+          git diff --exit-code data/webmentions/ || echo "has_changes=true" >> $GITHUB_OUTPUT
 
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update webmentions data"
-            git push
-          fi
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/webmentions/
+          git commit -m "Update webmentions data"
+          git push
+
+      - name: No changes
+        if: steps.git-check.outputs.has_changes != 'true'
+        run: echo "No new webmentions to update"
+
+  deploy:
+    name: Trigger Netlify Deploy
+    runs-on: ubuntu-latest
+    needs: fetch
+    if: needs.fetch.outputs.has_changes == 'true'
+    steps:
+      - name: Trigger Netlify Build
+        run: |
+          curl -X POST -d '{}' ${{ secrets.NETLIFY_BUILD_HOOK }}
