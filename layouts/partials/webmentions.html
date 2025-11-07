@@ -56,8 +56,8 @@
         Someone
         {{- end }}
         mentioned this:
-        {{- if $.url -}}
-        <a href="{{ $.url }}" class="webmention-link" target="_blank" rel="noopener">
+        {{- if .url -}}
+        <a href="{{ .url }}" class="webmention-link" target="_blank" rel="noopener">
           {{- with $content.text -}}
             {{ . | truncate 100 }}
           {{- else -}}
@@ -67,8 +67,8 @@
         {{- end -}}
       {{- end -}}
 
-      {{- if $.url -}}
-      <a href="{{ $.url }}" class="webmention-source-link" target="_blank" rel="noopener" aria-label="View source">↗</a>
+      {{- if .url -}}
+      <a href="{{ .url }}" class="webmention-source-link" target="_blank" rel="noopener" aria-label="View source">↗</a>
       {{- end -}}
     </li>
     {{- end -}}

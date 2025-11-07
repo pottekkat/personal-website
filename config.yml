@@ -63,6 +63,7 @@ params:
 
     # Webmentions
     ShowWebmentions: true
+    webmentionDomain: "navendu.me"
 
     label:
       icon: "/logo.png"
