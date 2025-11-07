@@ -7,18 +7,29 @@
 }
 
 .webmentions-title {
-    font-size: 14px;
     color: var(--secondary);
+    font-size: 14px;
     margin-bottom: 10px;
+}
+
+.webmentions-title span {
+    margin-right: 3px;
+    vertical-align: middle;
 }
 
 #webmentions-container ul {
     list-style: none;
     padding-left: 0;
+    margin-bottom: 0;
 }
 
 #webmentions-container li:not(:last-child) {
     margin-bottom: 1.2em;
+}
+
+#webmentions-container blockquote {
+    margin: 0;
+    width: 100%;
 }
 
 #webmentions-container blockquote p {
