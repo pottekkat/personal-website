@@ -1,6 +1,16 @@
 {
-  "last_updated": "2025-11-07T11:57:07.931189+05:30",
+  "last_updated": "2025-11-07T17:58:00.376021+05:30",
   "links": [
+    {
+      "id": "01k9eggq983yr8tdkfcc4yh93f",
+      "title": "Leaving Meta and PyTorch",
+      "author": "soumith.ch",
+      "source_url": "https://soumith.ch/blog/2025-11-06-leaving-meta-and-pytorch.md.html",
+      "published_date": "2025-11-05",
+      "saved_at": "2025-11-07T12:07:00.584000+05:30",
+      "reading_time": "6 mins",
+      "category": "article"
+    },
     {
       "id": "01k99sfpfxjaexmj3qtw0bp1h0",
       "title": "Some software bloat is OK",
