@@ -21,15 +21,18 @@
 
 {{- if gt (len $mentions) 0 -}}
 
+{{- $t := time.AsTime (site.Data.webmentions.last_fetch.timestamp) -}}
+{{- $day := humanize $t.Day -}}
+{{- $monthYear := $t.Format "January 2006" -}}
+{{- $time := $t.Format "3:04 PM" -}}
+
 <div id="webmentions-container">
   <p class="webmentions-title">
     <span>
       <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0.08 1.73 13.84 11.06" fill="currentcolor" height="14"><path d="m8.071 12.794-1.639-5.01h-.027l-1.611 5.01H2.641L.081 3.119h2.126l1.53 6.585h.027l1.679-5.011h1.991l1.652 5.092h.027l1.181-5.088-1.538-.003 3.188-2.963 1.978 2.967-1.566-.001-2.173 8.097z"/></svg>
     </span>
-    Webmentions • {{ len $mentions }}
+    Webmentions • {{ len $mentions }} • Last updated at {{ $time }}, {{ $day }} {{ $monthYear }}
   </p>
-  <p>This website supports <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener">Webmentions</a>.</p>
-
   <ul class="webmentions-list">
     {{- range $mentions -}}
     {{- $wmProperty := index . "wm-property" -}}
@@ -71,7 +74,7 @@
           {{- if ne $wmProperty "repost-of" -}}
             {{- if ne $wmProperty "bookmark-of" -}}
               {{- /* Default: mention-of, in-reply-to - show content */ -}}
-              {{- with $content.text -}}
+              {{- with $content.html | safeHTML -}}
         <p>{{ . | truncate 256 }}</p>
               {{- end -}}
             {{- end -}}
