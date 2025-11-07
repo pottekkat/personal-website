@@ -1,0 +1,3 @@
+{{- /* Webmention endpoint */ -}}
+{{- $domain := site.Params.webmentionDomain | default (urls.Parse site.BaseURL).Hostname -}}
+<link rel="webmention" href="https://webmention.io/{{ $domain }}/webmention" />
