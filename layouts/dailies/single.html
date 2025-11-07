@@ -38,16 +38,16 @@
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}{{ .Content }}{{ end }}
+    {{- if (.Param "ShowWebmentions") }}
+    {{- partial "webmentions.html" . }}
+    {{- end }}
   </div>
+
   <footer class="post-footer">
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "daily_nav_links.html" . }}
     {{- end }}
   </footer>
-
-  {{- if (.Param "ShowWebmentions") }}
-  {{- partial "webmentions.html" . }}
-  {{- end }}
 </article>
 
 {{- end }}{{/* end main */}}

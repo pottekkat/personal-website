@@ -1,0 +1,39 @@
+name: Fetch Webmentions
+
+on:
+  schedule:
+    - cron: '36 * * * *' # Run every hour at minute 36
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: hugo
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Fetch webmentions
+        env:
+          WEBMENTION_TOKEN: ${{ secrets.WEBMENTION_TOKEN }}
+        run: |
+          chmod +x scripts/fetch-webmentions.sh
+          ./scripts/fetch-webmentions.sh
+
+      - name: Commit and push if changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/webmentions/
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update webmentions data"
+            git push
+          fi

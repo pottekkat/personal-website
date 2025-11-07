@@ -78,6 +78,9 @@
     {{ if (.Params.CodapiURL) }}
     <codapi-settings url="https://{{ (.Params.CodapiURL) }}"></codapi-settings>
     {{ end }}
+    {{- if (.Param "ShowWebmentions") }}
+    {{- partial "webmentions.html" . }}
+    {{- end }}
     {{ partial "subscribe.html" . }}
   </div>
   {{- end }}
@@ -96,10 +99,6 @@
 
   {{- if (.Param "comments") }}
   {{- partial "comments.html" . }}
-  {{- end }}
-
-  {{- if (.Param "ShowWebmentions") }}
-  {{- partial "webmentions.html" . }}
   {{- end }}
 </article>
 

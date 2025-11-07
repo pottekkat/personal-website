@@ -38,8 +38,12 @@
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}{{ .Content }}{{ end }}
+    {{- if (.Param "ShowWebmentions") }}
+    {{- partial "webmentions.html" . }}
+    {{- end }}
     <!-- {{ partial "subscribe.html" . }} -->
   </div>
+
   <footer class="post-footer">
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "newsletter_nav_links.html" . }}
@@ -48,10 +52,6 @@
     {{- partial "share_icons.html" . -}}
   {{- end }}
   </footer>
-
-  {{- if (.Param "ShowWebmentions") }}
-  {{- partial "webmentions.html" . }}
-  {{- end }}
 </article>
 
 {{- end }}{{/* end main */}}
