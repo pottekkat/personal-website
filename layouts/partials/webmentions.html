@@ -38,46 +38,82 @@
     {{- end -}}
 
     <li class="webmention-item" data-type="{{ $wmProperty }}">
-      {{- if eq $wmProperty "like-of" -}}
-        <span>{{ with $author -}}
-        {{- if .url -}}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{- else -}}{{ .name }}{{- end -}}
-        {{- else -}}
-        Someone
-        {{- end }} liked this{{- if $dateFormatted }} on {{ $dateFormatted }}{{- end }}{{- if $sourceUrl }} (<a href="{{ $sourceUrl }}" target="_blank" rel="noopener">source</a>)
-        {{- end -}}</span>
-
-      {{- else if eq $wmProperty "repost-of" -}}
-        <span>{{ with $author -}}
-        {{- if .url -}}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{- else -}}{{ .name }}{{- end -}}
-        {{- else -}}
-        Someone
-        {{- end }} reposted this{{- if $dateFormatted }} on {{ $dateFormatted }}{{- end }}{{- if $sourceUrl }} (<a href="{{ $sourceUrl }}" target="_blank" rel="noopener">source</a>)
-        {{- end -}}</span>
-
-      {{- else if eq $wmProperty "bookmark-of" -}}
-        <span>{{ with $author -}}
-        {{- if .url -}}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{- else -}}{{ .name }}{{- end -}}
-        {{- else -}}
-        Someone
-        {{- end }} bookmarked this{{- if $dateFormatted }} on {{ $dateFormatted }}{{- end }}{{- if $sourceUrl }} (<a href="{{ $sourceUrl }}" target="_blank" rel="noopener">source</a>)
-        {{- end -}}</span>
-
-      {{- else -}}
-        {{- /* Default: mention-of, in-reply-to */ -}}
-        <span>{{ with $author -}}
-        {{- if .url -}}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{- else -}}{{ .name }}{{- end -}}
-        {{- else -}}
-        Someone
-        {{- end }}
-        mentioned this{{- if $dateFormatted }} on {{ $dateFormatted }}{{- end }}{{- if $sourceUrl }} (<a href="{{ $sourceUrl }}" target="_blank" rel="noopener">
-          {{- with $content.text -}}
-            {{ . | truncate 60 }}
+      <blockquote>
+        <p class="alert-title">
+          {{- if eq $wmProperty "like-of" -}}
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentcolor" viewBox="0 0 512 512" width="14" height="14"><path d="m241 87.1 15 20.7 15-20.7C296 52.5 336.2 32 378.9 32 452.4 32 512 91.6 512 165.1v2.6c0 112.2-139.9 242.5-212.9 298.2-12.4 9.4-27.6 14.1-43.1 14.1s-30.8-4.6-43.1-14.1C139.9 410.2 0 279.9 0 167.7v-2.6C0 91.6 59.6 32 133.1 32 175.8 32 216 52.5 241 87.1"/></svg>
+            </span>
+            LIKE
+          {{- else if eq $wmProperty "repost-of" -}}
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentcolor" viewBox="0 0 576 512" height="14"><path d="M118.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-64 64c-9.2 9.2-11.9 22.9-6.9 34.9S19.1 160 32 160h32v224c0 53 43 96 96 96h128c17.7 0 32-14.3 32-32s-14.3-32-32-32H160c-17.7 0-32-14.3-32-32V160h32c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-64-64zm338.8 429.2c12.5 12.5 32.8 12.5 45.3 0l64-64c9.2-9.2 11.9-22.9 6.9-34.9S556.9 352 544 352h-32V128c0-53-43-96-96-96H288c-17.7 0-32 14.3-32 32s14.3 32 32 32h128c17.7 0 32 14.3 32 32v224h-32c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l64 64z"/></svg>
+            </span>
+            REPOST
+          {{- else if eq $wmProperty "bookmark-of" -}}
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentcolor" viewBox="0 0 384 512" height="14"><path d="M64 0C28.7 0 0 28.7 0 64v416c0 11.5 6.2 22.2 16.2 27.8s22.3 5.5 32.2-.4L192 421.3l143.5 86.1c9.9 5.9 22.2 6.1 32.2.4S384 491.5 384 480V64c0-35.3-28.7-64-64-64z"/></svg>
+            </span>
+            BOOKMARK
           {{- else -}}
-            view
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentcolor" viewBox="0 0 512 512" width="14" height="14"><path d="M512 240c0 132.5-114.6 240-256 240-37.1 0-72.3-7.4-104.1-20.7L33.5 510.1c-9.4 4-20.2 1.7-27.1-5.8s-8.4-18.5-3.6-27.5l48.8-92.2C19.2 344.3 0 294.3 0 240 0 107.5 114.6 0 256 0s256 107.5 256 240"/></svg>
+            </span>
+            MENTION
           {{- end -}}
-        </a>)
-        {{- end -}}</span>
-      {{- end -}}
+        </p>
+        {{- if ne $wmProperty "like-of" -}}
+          {{- if ne $wmProperty "repost-of" -}}
+            {{- if ne $wmProperty "bookmark-of" -}}
+              {{- /* Default: mention-of, in-reply-to - show content */ -}}
+              {{- with $content.text -}}
+        <p>{{ . | truncate 256 }}</p>
+              {{- end -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+        <footer>
+          <strong>
+            {{- with $author -}}
+              {{- if .url -}}
+                <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+              {{- else -}}
+                {{ .name }}
+              {{- end -}}
+            {{- else -}}
+              Someone
+            {{- end -}}
+          </strong>
+          <cite>
+            {{- if eq $wmProperty "like-of" -}}
+              {{- if $sourceUrl -}}
+                <a href="{{ $sourceUrl }}" target="_blank" rel="noopener">liked this</a>
+              {{- else -}}
+                liked this
+              {{- end -}}
+            {{- else if eq $wmProperty "repost-of" -}}
+              {{- if $sourceUrl -}}
+                <a href="{{ $sourceUrl }}" target="_blank" rel="noopener">reposted this</a>
+              {{- else -}}
+                reposted this
+              {{- end -}}
+            {{- else if eq $wmProperty "bookmark-of" -}}
+              {{- if $sourceUrl -}}
+                <a href="{{ $sourceUrl }}" target="_blank" rel="noopener">bookmarked this</a>
+              {{- else -}}
+                bookmarked this
+              {{- end -}}
+            {{- else -}}
+              {{- if $sourceUrl -}}
+                <a href="{{ $sourceUrl }}" target="_blank" rel="noopener">mentioned this</a>
+              {{- else -}}
+                mentioned this
+              {{- end -}}
+            {{- end -}}
+            {{- if $dateFormatted }} on {{ $dateFormatted }}{{- end -}}
+          </cite>
+        </footer>
+      </blockquote>
     </li>
     {{- end -}}
   </ul>
