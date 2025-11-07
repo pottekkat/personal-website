@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2025-11-07T15:30:54+05:30",
+  "lastUpdated": "2025-11-07T15:47:24+05:30",
   "entries": [
+    {
+      "hash": "945deb2",
+      "date": "2025-11-07T15:45:55+05:30",
+      "message": "Updated CI workflow to adjust the schedule for fetching webmentions."
+    },
     {
       "hash": "44bfe07",
       "date": "2025-11-07T15:29:25+05:30",
