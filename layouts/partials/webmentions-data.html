@@ -5,7 +5,7 @@
   Returns: Map of URL -> mentions array
 */ -}}
 
-{{- $domain := site.Params.webmentionDomain | default (urls.Parse site.BaseURL).Host -}}
+{{- $domain := site.Params.webmentionDomain | default (urls.Parse site.BaseURL).Hostname -}}
 {{- $token := os.Getenv "WEBMENTION_TOKEN" | default site.Params.webmentionToken -}}
 {{- $byTarget := dict -}}
 
