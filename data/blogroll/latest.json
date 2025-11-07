@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-06T00:22:49.084168",
+  "lastUpdated": "2025-11-07T00:23:29.125960",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Open redirect endpoint in Datasette prior to 0.65.2 and 1.0a21",
-      "postUrl": "https://simonwillison.net/2025/Nov/5/open-redirect-datasette/#atom-everything",
-      "publishDate": "2025-11-05T23:11:17+00:00"
+      "postTitle": "Quoting Ben Stolovitz",
+      "postUrl": "https://simonwillison.net/2025/Nov/7/ben-stolovitz/#atom-everything",
+      "publishDate": "2025-11-07T00:15:55+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "How To Create A Sexy Hardcover Book | #311",
-      "postUrl": "https://newsletter.pathlesspath.com/p/how-to-make-a-book",
-      "publishDate": "Mon, 03 Nov 2025 12:57:49 GMT"
+      "postTitle": "Before The Launch, Self-Doubt | #311",
+      "postUrl": "https://newsletter.pathlesspath.com/p/before-the-launch-self-doubt-311",
+      "publishDate": "Thu, 06 Nov 2025 12:29:37 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
