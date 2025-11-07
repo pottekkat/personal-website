@@ -6,7 +6,7 @@
 */ -}}
 
 {{- $domain := "navendu.me" -}}
-{{- $token := getenv "WEBMENTION_TOKEN" | default site.Params.webmentionToken -}}
+{{- $token := os.Getenv "WEBMENTION_TOKEN" | default site.Params.webmentionToken -}}
 {{- $byTarget := dict -}}
 
 {{- if not $token -}}
