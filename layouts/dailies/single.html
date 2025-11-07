@@ -44,6 +44,10 @@
     {{- partial "daily_nav_links.html" . }}
     {{- end }}
   </footer>
+
+  {{- if (.Param "ShowWebmentions") }}
+  {{- partial "webmentions.html" . }}
+  {{- end }}
 </article>
 
 {{- end }}{{/* end main */}}

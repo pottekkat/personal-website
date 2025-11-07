@@ -1,0 +1,152 @@
+{{- /*
+  Display webmentions for the current page.
+  Fetches data once per build for entire domain, then filters for this page.
+*/ -}}
+
+{{- $pageUrl := .Permalink -}}
+{{- $allWebmentions := partialCached "webmentions-data.html" . -}}
+{{- $mentions := slice -}}
+
+{{- if reflect.IsMap $allWebmentions -}}
+  {{- $mentions = index $allWebmentions $pageUrl | default slice -}}
+{{- end -}}
+
+{{- if gt (len $mentions) 0 -}}
+
+<section class="webmentions">
+  <h3 id="webmentions">Webmentions</h3>
+  <p class="webmentions-count">This post has received {{ len $mentions }} webmention{{ if ne (len $mentions) 1 }}s{{ end }}.</p>
+
+  <ul class="webmentions-list">
+    {{- range $mentions -}}
+    {{- $wmProperty := index . "wm-property" -}}
+    {{- $author := .author -}}
+    {{- $content := .content -}}
+
+    <li class="webmention-item webmention-{{ $wmProperty }}">
+      {{- if eq $wmProperty "like-of" -}}
+        <span class="webmention-icon">❤️</span>
+        {{- with $author -}}
+        <a href="{{ .url }}" class="webmention-author" target="_blank" rel="noopener">{{ .name }}</a>
+        {{- else -}}
+        Someone
+        {{- end }} liked this
+
+      {{- else if eq $wmProperty "repost-of" -}}
+        <span class="webmention-icon">🔄</span>
+        {{- with $author -}}
+        <a href="{{ .url }}" class="webmention-author" target="_blank" rel="noopener">{{ .name }}</a>
+        {{- else -}}
+        Someone
+        {{- end }} reposted this
+
+      {{- else if eq $wmProperty "bookmark-of" -}}
+        <span class="webmention-icon">🔖</span>
+        {{- with $author -}}
+        <a href="{{ .url }}" class="webmention-author" target="_blank" rel="noopener">{{ .name }}</a>
+        {{- else -}}
+        Someone
+        {{- end }} bookmarked this
+
+      {{- else -}}
+        {{- /* Default: mention-of, in-reply-to */ -}}
+        {{- with $author -}}
+        <a href="{{ .url }}" class="webmention-author" target="_blank" rel="noopener">{{ .name }}</a>
+        {{- else -}}
+        Someone
+        {{- end }}
+        mentioned this:
+        {{- if $.url -}}
+        <a href="{{ $.url }}" class="webmention-link" target="_blank" rel="noopener">
+          {{- with $content.text -}}
+            {{ . | truncate 100 }}
+          {{- else -}}
+            View mention
+          {{- end -}}
+        </a>
+        {{- end -}}
+      {{- end -}}
+
+      {{- if $.url -}}
+      <a href="{{ $.url }}" class="webmention-source-link" target="_blank" rel="noopener" aria-label="View source">↗</a>
+      {{- end -}}
+    </li>
+    {{- end -}}
+  </ul>
+</section>
+
+<style>
+.webmentions {
+  margin-top: var(--gap);
+  padding-top: var(--gap);
+  border-top: 1px solid var(--border);
+}
+
+.webmentions h3 {
+  margin-bottom: calc(var(--gap) / 2);
+}
+
+.webmentions-count {
+  color: var(--secondary);
+  font-size: 14px;
+  margin-bottom: var(--gap);
+}
+
+.webmentions-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--gap) / 2);
+}
+
+.webmention-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: calc(var(--gap) / 2);
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 14px;
+}
+
+.webmention-icon {
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.webmention-author {
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.webmention-author:hover {
+  text-decoration: underline;
+}
+
+.webmention-link {
+  color: var(--secondary);
+  text-decoration: none;
+  margin-left: 0.5em;
+}
+
+.webmention-link:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.webmention-source-link {
+  margin-left: auto;
+  color: var(--secondary);
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.webmention-source-link:hover {
+  color: var(--primary);
+}
+</style>
+
+{{- end -}}

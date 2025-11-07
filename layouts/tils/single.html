@@ -28,6 +28,10 @@
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}{{ .Content }}{{ end }}
   </div>
+
+  {{- if (.Param "ShowWebmentions") }}
+  {{- partial "webmentions.html" . }}
+  {{- end }}
 </article>
 
 {{- end }}{{/* end main */}}

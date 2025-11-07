@@ -48,6 +48,10 @@
     {{- partial "share_icons.html" . -}}
   {{- end }}
   </footer>
+
+  {{- if (.Param "ShowWebmentions") }}
+  {{- partial "webmentions.html" . }}
+  {{- end }}
 </article>
 
 {{- end }}{{/* end main */}}

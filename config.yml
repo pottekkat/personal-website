@@ -61,6 +61,9 @@ params:
     showStupid: true
     showPageNums: true
 
+    # Webmentions
+    ShowWebmentions: true
+
     label:
       icon: "/logo.png"
       iconHeight: "20"
@@ -198,3 +201,16 @@ markup:
       unsafe: true
   highlight:
     noClasses: false
+
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^CI$
+      - ^WEBMENTION_TOKEN$
+  http:
+    methods:
+      - (?i)GET
+      - (?i)POST
+    urls:
+      - .*
