@@ -21,10 +21,11 @@
 
 {{- if gt (len $mentions) 0 -}}
 
-<h2 id="webmentions">Webmentions</h2>
-<p>This post has received {{ len $mentions }} webmention{{ if ne (len $mentions) 1 }}s{{ end }}.</p>
+<div id="webmentions-container">
+  <p class="webmentions-title">Webmentions • {{ len $mentions }}</p>
+  <p>This post has received {{ len $mentions }} webmention{{ if ne (len $mentions) 1 }}s{{ end }}.</p>
 
-<ul style="list-style: none; padding-left: 0;">
+  <ul class="webmentions-list">
     {{- range $mentions -}}
     {{- $wmProperty := index . "wm-property" -}}
     {{- $author := .author -}}
@@ -36,34 +37,34 @@
       {{- $dateFormatted = time.Format (default "January 2, 2006" site.Params.DateFormat) $date -}}
     {{- end -}}
 
-    <li>
+    <li class="webmention-item" data-type="{{ $wmProperty }}">
       {{- if eq $wmProperty "like-of" -}}
-        ❤️ {{ with $author -}}
+        <span>{{ with $author -}}
         {{- if .url -}}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{- else -}}{{ .name }}{{- end -}}
         {{- else -}}
         Someone
         {{- end }} liked this{{- if $dateFormatted }} on {{ $dateFormatted }}{{- end }}{{- if $sourceUrl }} (<a href="{{ $sourceUrl }}" target="_blank" rel="noopener">source</a>)
-        {{- end -}}
+        {{- end -}}</span>
 
       {{- else if eq $wmProperty "repost-of" -}}
-        🔄 {{ with $author -}}
+        <span>{{ with $author -}}
         {{- if .url -}}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{- else -}}{{ .name }}{{- end -}}
         {{- else -}}
         Someone
         {{- end }} reposted this{{- if $dateFormatted }} on {{ $dateFormatted }}{{- end }}{{- if $sourceUrl }} (<a href="{{ $sourceUrl }}" target="_blank" rel="noopener">source</a>)
-        {{- end -}}
+        {{- end -}}</span>
 
       {{- else if eq $wmProperty "bookmark-of" -}}
-        🔖 {{ with $author -}}
+        <span>{{ with $author -}}
         {{- if .url -}}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{- else -}}{{ .name }}{{- end -}}
         {{- else -}}
         Someone
         {{- end }} bookmarked this{{- if $dateFormatted }} on {{ $dateFormatted }}{{- end }}{{- if $sourceUrl }} (<a href="{{ $sourceUrl }}" target="_blank" rel="noopener">source</a>)
-        {{- end -}}
+        {{- end -}}</span>
 
       {{- else -}}
         {{- /* Default: mention-of, in-reply-to */ -}}
-        💬 {{ with $author -}}
+        <span>{{ with $author -}}
         {{- if .url -}}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{- else -}}{{ .name }}{{- end -}}
         {{- else -}}
         Someone
@@ -75,10 +76,11 @@
             view
           {{- end -}}
         </a>)
-        {{- end -}}
+        {{- end -}}</span>
       {{- end -}}
     </li>
     {{- end -}}
   </ul>
+</div>
 
 {{- end -}}
