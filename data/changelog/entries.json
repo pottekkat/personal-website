@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2025-11-06T15:41:28+05:30",
+  "lastUpdated": "2025-11-07T11:43:06+05:30",
   "entries": [
+    {
+      "hash": "b924f30",
+      "date": "2025-11-07T11:41:57+05:30",
+      "message": "Added support for webmentions, including configuration and layout updates."
+    },
     {
       "hash": "f40d863",
       "date": "2025-11-06T15:39:51+05:30",
