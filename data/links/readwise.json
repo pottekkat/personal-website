@@ -1,6 +1,26 @@
 {
-  "last_updated": "2025-11-08T11:56:41.357293+05:30",
+  "last_updated": "2025-11-08T17:57:38.470197+05:30",
   "links": [
+    {
+      "id": "01k9hncfdc1hy4szn122zmv5s6",
+      "title": "Why I uninstalled ublock origin, this is WAY better!",
+      "author": "Louis Rossmann",
+      "source_url": "https://www.youtube.com/watch?v=7GeCq1qwqjc",
+      "published_date": "2025-11-05",
+      "saved_at": "2025-11-08T17:29:47.628000+05:30",
+      "reading_time": null,
+      "category": "video"
+    },
+    {
+      "id": "01k9hn0rhdyth52epqn1pwjn1c",
+      "title": "Internet Of Stupid",
+      "author": "ThePrimeTime",
+      "source_url": "https://www.youtube.com/watch?v=Z3VlbKcE5nE",
+      "published_date": "2025-11-07",
+      "saved_at": "2025-11-08T17:23:23.757000+05:30",
+      "reading_time": null,
+      "category": "video"
+    },
     {
       "id": "01k9grnwtjwasj8sa30pgy41nz",
       "title": "Let's Design an RP2040 Devboard!",
