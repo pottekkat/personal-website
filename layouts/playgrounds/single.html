@@ -30,6 +30,7 @@
   {{- $isHidden := .Params.cover.hidden | default .Site.Params.cover.hiddenInSingle | default .Site.Params.cover.hidden }}
   {{- partial "cover.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
   {{- partial "qr_code_icon.html" . -}}
+  {{- partial "response-context.html" . -}}
   <div class="post-content e-content">
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}

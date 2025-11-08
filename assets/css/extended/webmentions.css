@@ -39,3 +39,10 @@
 #webmentions-container blockquote p:last-of-type:not(:has(+ footer)) {
     margin-bottom: 0;
 }
+
+.response-context-label {
+    color: var(--secondary);
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-right: 3px;
+}
