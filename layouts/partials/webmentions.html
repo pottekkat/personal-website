@@ -33,6 +33,38 @@
     </span>
     Webmentions • {{ len $mentions }} • Last updated at {{ $time }}, {{ $day }} {{ $monthYear }}
   </p>
+
+  {{- /* Webmention submission form */ -}}
+  <section class="webmention-submission-form">
+    <form
+      action="https://webmention.io/navendu.me/webmention"
+      method="post"
+      autocomplete="off"
+      class="webmention-form"
+    >
+      <div class="webmention-input">
+        <input
+          type="url"
+          name="source"
+          id="webmention-source"
+          required
+          placeholder="URL of your response"
+          title="URL of your response"
+        />
+        <input type="hidden" name="target" value="{{ $pageUrl }}" />
+      </div>
+      <input
+        value="Submit"
+        type="submit"
+        class="webmention-button"
+        title="Submit Webmention"
+      />
+    </form>
+    <div class="webmention-message">
+      Have you written a response to this? Send me a webmention by entering the URL.
+    </div>
+  </section>
+
   <ul class="webmentions-list">
     {{- range $mentions -}}
     {{- $wmProperty := index . "wm-property" -}}
@@ -126,5 +158,56 @@
     {{- end -}}
   </ul>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.querySelector('.webmention-form');
+    if (!form) return;
+
+    const submitButton = form.querySelector('.webmention-button');
+    const messageDiv = document.querySelector('.webmention-message');
+    const sourceInput = form.querySelector('#webmention-source');
+
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        submitButton.disabled = true;
+        submitButton.setAttribute('aria-disabled', 'true');
+        submitButton.value = 'Submitting...';
+
+        const formData = new FormData(form);
+
+        fetch(form.action, {
+            method: 'POST',
+            body: formData,
+        })
+        .then(response => {
+            if (response.status === 201 || response.status === 202) {
+                return response.json();
+            } else {
+                return response.json().then(data => {
+                    throw new Error(data.error || 'Submission failed');
+                });
+            }
+        })
+        .then(data => {
+            submitButton.value = 'Submitted!';
+            messageDiv.innerHTML = "Thank you! Your webmention has been submitted and will appear here once processed.";
+            sourceInput.value = '';
+
+            Array.from(form.elements).forEach(function(el) {
+                el.disabled = true;
+            });
+        })
+        .catch(error => {
+            submitButton.value = 'Retry?';
+            submitButton.disabled = false;
+            submitButton.removeAttribute('aria-disabled');
+
+            messageDiv.textContent = "There was an error submitting your webmention: " + error.message + ". Please try again.";
+        });
+    });
+});
+</script>
 
 {{- end -}}
