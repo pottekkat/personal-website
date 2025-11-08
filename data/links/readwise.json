@@ -1,6 +1,26 @@
 {
-  "last_updated": "2025-11-08T06:06:57.868837+05:30",
+  "last_updated": "2025-11-08T11:56:41.357293+05:30",
   "links": [
+    {
+      "id": "01k9grnwtjwasj8sa30pgy41nz",
+      "title": "Let's Design an RP2040 Devboard!",
+      "author": "kaipereira.com",
+      "source_url": "https://kaipereira.com/journal/build-a-devboard",
+      "published_date": null,
+      "saved_at": "2025-11-08T09:08:07.570000+05:30",
+      "reading_time": "33 mins",
+      "category": "article"
+    },
+    {
+      "id": "01k9grncfsxtmhex6ea22e94cs",
+      "title": "becoming a compiler engineer",
+      "author": "Rona Wang",
+      "source_url": "https://rona.substack.com/p/becoming-a-compiler-engineer?utm_campaign=post&utm_medium=web&triedRedirect=true",
+      "published_date": "2025-11-07",
+      "saved_at": "2025-11-08T09:07:50.757000+05:30",
+      "reading_time": "10 mins",
+      "category": "article"
+    },
     {
       "id": "01k9fsygcnhthj2w0mpqx6pxw5",
       "title": "Webmentions: Enabling Better Communication on the Internet",
