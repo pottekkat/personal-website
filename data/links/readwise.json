@@ -1,6 +1,16 @@
 {
-  "last_updated": "2025-11-07T23:56:49.685305+05:30",
+  "last_updated": "2025-11-08T06:06:57.868837+05:30",
   "links": [
+    {
+      "id": "01k9fsygcnhthj2w0mpqx6pxw5",
+      "title": "Webmentions: Enabling Better Communication on the Internet",
+      "author": "Chris Aldrich",
+      "source_url": "https://alistapart.com/article/webmentions-enabling-better-communication-on-the-internet/#comments",
+      "published_date": "2018-07-19",
+      "saved_at": "2025-11-08T00:11:03.892000+05:30",
+      "reading_time": "9 mins",
+      "category": "article"
+    },
     {
       "id": "01k9eggq983yr8tdkfcc4yh93f",
       "title": "Leaving Meta and PyTorch",
