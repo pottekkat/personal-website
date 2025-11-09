@@ -51,11 +51,11 @@
     {{ if (.Params.CodapiURL) }}
     <codapi-settings url="https://{{ (.Params.CodapiURL) }}"></codapi-settings>
     {{ end }}
-    {{- if (.Param "ShowWebmentions") }}
-    {{- partial "webmentions.html" . }}
-    {{- end }}
-    <!-- {{ partial "subscribe.html" . }} -->
   </div>
+  {{- if (.Param "ShowWebmentions") }}
+  {{- partial "webmentions.html" . }}
+  {{- end }}
+  <!-- {{ partial "subscribe.html" . }} -->
 
   <footer class="post-footer">
     {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true)) }}

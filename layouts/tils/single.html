@@ -3,7 +3,7 @@
 <article class="post-single h-entry">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
-    <h1 class="post-title p-name">
+    <h1 class="post-title{{- if not .Params.response }} p-name{{- end }}">
       {{ .Title }}
     </h1>
     {{- if not (.Param "hideMeta") }}

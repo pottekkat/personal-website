@@ -3,7 +3,7 @@
 <article class="post-single h-entry">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
-    <h1 class="post-title p-name">
+    <h1 class="post-title{{- if not .Params.response }} p-name{{- end }}">
       {{ .Title }}
       {{- if .Draft }}<div class="entry-isdraft"><sup>&nbsp;&nbsp;[draft]</sup></div>{{- end }}
     </h1>
@@ -39,10 +39,10 @@
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}{{ .Content }}{{ end }}
-    {{- if (.Param "ShowWebmentions") }}
-    {{- partial "webmentions.html" . }}
-    {{- end }}
   </div>
+  {{- if (.Param "ShowWebmentions") }}
+  {{- partial "webmentions.html" . }}
+  {{- end }}
 
   <footer class="post-footer">
     {{- if (.Param "ShowPostNavLinks") }}

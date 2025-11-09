@@ -3,7 +3,7 @@
 <article class="post-single h-entry">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
-    <h1 class="post-title p-name">
+    <h1 class="post-title{{- if not .Params.response }} p-name{{- end }}">
       {{ .Title }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
       <!-- my changes here, no idea why, test and figure it out -->
@@ -79,11 +79,11 @@
     {{ if (.Params.CodapiURL) }}
     <codapi-settings url="https://{{ (.Params.CodapiURL) }}"></codapi-settings>
     {{ end }}
-    {{- if (.Param "ShowWebmentions") }}
-    {{- partial "webmentions.html" . }}
-    {{- end }}
-    {{ partial "subscribe.html" . }}
   </div>
+  {{- if (.Param "ShowWebmentions") }}
+  {{- partial "webmentions.html" . }}
+  {{- end }}
+  {{ partial "subscribe.html" . }}
   {{- end }}
 
   <footer class="post-footer">
