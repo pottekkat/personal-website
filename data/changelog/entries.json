@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2025-11-09T09:19:05+05:30",
+  "lastUpdated": "2025-11-09T09:23:05+05:30",
   "entries": [
+    {
+      "hash": "1abfd17",
+      "date": "2025-11-09T09:20:34+05:30",
+      "message": "Added a new post to test Webmention functionality."
+    },
     {
       "hash": "5496fd4",
       "date": "2025-11-09T09:10:06+05:30",
