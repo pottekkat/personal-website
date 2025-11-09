@@ -24,7 +24,7 @@
 {{- $monthYear := $t.Format "January 2006" -}}
 {{- $time := $t.Format "3:04 PM" -}}
 
-<div id="webmentions-container">
+<div id="webmentions-container" class="post-content">
   <p class="webmentions-title">
     <span>
       <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0.08 1.73 13.84 11.06" fill="currentcolor" height="14"><path d="m8.071 12.794-1.639-5.01h-.027l-1.611 5.01H2.641L.081 3.119h2.126l1.53 6.585h.027l1.679-5.011h1.991l1.652 5.092h.027l1.181-5.088-1.538-.003 3.188-2.963 1.978 2.967-1.566-.001-2.173 8.097z"/></svg>
@@ -192,7 +192,12 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .then(data => {
             submitButton.value = 'Submitted!';
-            messageDiv.innerHTML = "Thank you! Your webmention has been submitted and will appear here once processed.";
+
+            const sourceUrl = encodeURIComponent(sourceInput.value);
+            const targetUrl = encodeURIComponent(formData.get('target'));
+            const statusUrl = 'https://webmention.io/api/status?source=' + sourceUrl + '&target=' + targetUrl;
+
+            messageDiv.innerHTML = 'Thank you! Your webmention has been submitted and will appear here once processed. <a href="' + statusUrl + '" target="_blank" rel="noopener">Check status</a>.';
             sourceInput.value = '';
 
             Array.from(form.elements).forEach(function(el) {
