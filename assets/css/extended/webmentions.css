@@ -90,7 +90,11 @@
     border: 1px solid var(--code-bg);
     background-color: var(--theme);
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 0;
+}
+
+.webmention-submission-form + .webmentions-list {
+    margin-top: 30px;
 }
 
 .dark .webmention-submission-form {
