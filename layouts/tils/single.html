@@ -23,6 +23,7 @@
     {{- end }}
   </header>
   {{- partial "qr_code_icon.html" . -}}
+  {{- partial "response-context.html" . -}}
   <div class="post-content e-content">
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}

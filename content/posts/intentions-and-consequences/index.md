@@ -42,9 +42,6 @@ Let's see if your instincts match reality.
     margin: 40px auto;
     padding: 14px;
     border: 1px solid var(--code-bg);
-}
-
-.dark #quiz-container {
     background-color: var(--hljs-bg);
 }
 

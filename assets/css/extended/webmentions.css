@@ -1,0 +1,135 @@
+#webmentions-container {
+    width: 100%;
+    margin: 20px auto;
+    padding: 14px;
+    border: 1px solid var(--code-bg);
+    background-color: var(--hljs-bg);
+}
+
+.webmentions-title {
+    color: var(--secondary);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.webmentions-title span {
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+#webmentions-container ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+#webmentions-container li:not(:last-child) {
+    margin-bottom: 1.2em;
+}
+
+#webmentions-container blockquote {
+    margin: 0;
+    width: 100%;
+}
+
+#webmentions-container blockquote p {
+    margin-bottom: 1.2em;
+}
+
+#webmentions-container blockquote p:last-of-type:not(:has(+ footer)) {
+    margin-bottom: 0;
+}
+
+.response-context-label {
+    color: var(--secondary);
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+.webmention-input input {
+    margin-top: 10px;
+    padding: 4px 10px;
+    color: var(--primary);
+    border: 2px solid var(--tertiary);
+    border-radius: var(--radius);
+    font-size: 14px;
+    width: 100%;
+}
+
+.webmention-input input:focus {
+    border-color: var(--secondary);
+}
+
+.webmention-button {
+    margin-top: 10px;
+    padding: 4px 10px;
+    border-radius: var(--radius);
+    background: var(--primary);
+    color: var(--code-bg);
+    font-size: 14px;
+}
+
+.webmention-button:hover {
+    background: var(--secondary);
+}
+
+.webmention-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.webmention-submission-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding-inline-start: 14px;
+    padding-inline-end: 14px;
+    border: 1px solid var(--code-bg);
+    background-color: var(--theme);
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.webmention-submission-form + .webmentions-list {
+    margin-top: 30px;
+}
+
+.dark .webmention-submission-form {
+    background-color: var(--hljs-bg);
+}
+
+.webmention-message {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--secondary);
+}
+
+@media (min-width: 768px) {
+    .webmention-form {
+        flex-direction: row;
+        width: auto;
+    }
+    .webmention-input input {
+        margin-bottom: 10px;
+        margin-right: 10px;
+        width: auto;
+    }
+
+    .webmention-button {
+        margin-bottom: 10px;
+    }
+
+    .webmention-submission-form {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .webmention-message {
+        text-align: left;
+    }
+}
