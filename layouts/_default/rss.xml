@@ -35,7 +35,7 @@
     {{ range $pages }}
     {{- if and (ne .Layout `search`) (ne .Layout `archives`) (ne .Layout `about`) (ne .Layout `blogroll`) (ne .Layout `links`) (ne .Layout `stats`) (ne .Layout `subscribe`) (ne .Type `books`) (ne .Type `dailies`) (ne .Type `newsletters`) (ne .Type `playgrounds`) (ne .Type `tils`) (ne .Type `notes`) }}
     <item>
-      <title>{{ .Title }}</title>
+      <title>{{ if .Title }}{{ .Title }}{{ else }}{{ .Content | plainify | htmlUnescape | truncate 60 }}{{ end }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Params.author.email }}<author>{{.}}{{ with $.Site.Params.author.name }} ({{.}}){{end}}</author>{{end}}
@@ -48,7 +48,7 @@
     {{- else if eq .Type `books` }}
       {{- if not $.IsHome }}
       <item>
-        <title>{{ .Title }}</title>
+        <title>{{ if .Title }}{{ .Title }}{{ else }}{{ .Content | plainify | htmlUnescape | truncate 60 }}{{ end }}</title>
         <link>{{ .Permalink }}</link>
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
         {{ with .Site.Params.author.email }}<author>{{.}}{{ with $.Site.Params.author.name }} ({{.}}){{end}}</author>{{end}}
@@ -62,7 +62,7 @@
     {{- else if eq .Type `dailies` }}
       {{- if not $.IsHome }}
       <item>
-        <title>{{ .Title }}</title>
+        <title>{{ if .Title }}{{ .Title }}{{ else }}{{ .Content | plainify | htmlUnescape | truncate 60 }}{{ end }}</title>
         <link>{{ .Permalink }}</link>
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
         {{ with .Site.Params.author.email }}<author>{{.}}{{ with $.Site.Params.author.name }} ({{.}}){{end}}</author>{{end}}
@@ -76,7 +76,7 @@
     {{- else if eq .Type `tils` }}
       {{- if not $.IsHome }}
       <item>
-        <title>{{ .Title }}</title>
+        <title>{{ if .Title }}{{ .Title }}{{ else }}{{ .Content | plainify | htmlUnescape | truncate 60 }}{{ end }}</title>
         <link>{{ .Permalink }}</link>
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
         {{ with .Site.Params.author.email }}<author>{{.}}{{ with $.Site.Params.author.name }} ({{.}}){{end}}</author>{{end}}
@@ -88,7 +88,7 @@
     {{- else if eq .Type `notes` }}
       {{- if not $.IsHome }}
       <item>
-        <title>{{ .Title }}</title>
+        <title>{{ if .Title }}{{ .Title }}{{ else }}{{ .Content | plainify | htmlUnescape | truncate 60 }}{{ end }}</title>
         <link>{{ .Permalink }}</link>
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
         {{ with .Site.Params.author.email }}<author>{{.}}{{ with $.Site.Params.author.name }} ({{.}}){{end}}</author>{{end}}
@@ -100,7 +100,7 @@
     {{- else if eq .Type `newsletters` }}
       {{- if not $.IsHome }}
       <item>
-        <title>{{ .Title }}</title>
+        <title>{{ if .Title }}{{ .Title }}{{ else }}{{ .Content | plainify | htmlUnescape | truncate 60 }}{{ end }}</title>
         <link>{{ .Permalink }}</link>
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
         {{ with .Site.Params.author.email }}<author>{{.}}{{ with $.Site.Params.author.name }} ({{.}}){{end}}</author>{{end}}

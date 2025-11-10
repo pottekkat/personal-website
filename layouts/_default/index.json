@@ -1,7 +1,11 @@
 {{- $.Scratch.Add "index" slice -}}
 {{- range .Site.RegularPages -}}
     {{- if and (not .Params.searchHidden) (ne .Layout `archives`) (ne .Layout `stats`) (ne .Layout `about`) (ne .Layout `blogroll`) (ne .Layout `links`) (ne .Layout `search`) (ne .Layout `subscribe`) }}
-    {{- $.Scratch.Add "index" (dict "title" .Title "content" .Plain "permalink" .Permalink "summary" .Summary "categories" .Params.categories "section" .Section) -}}
+    {{- $title := .Title -}}
+    {{- if not .Title -}}
+        {{- $title = .Content | plainify | htmlUnescape | truncate 60 -}}
+    {{- end -}}
+    {{- $.Scratch.Add "index" (dict "title" $title "content" .Plain "permalink" .Permalink "summary" .Summary "categories" .Params.categories "section" .Section) -}}
     {{- end }}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}

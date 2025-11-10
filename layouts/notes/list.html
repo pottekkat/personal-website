@@ -49,7 +49,7 @@
 
     {{- /* Timestamp */ -}}
     <div class="note-timestamp">
-      <a href="{{ .RelPermalink }}" aria-label="post link to {{ .Title | plainify }}">
+      <a href="{{ .RelPermalink }}" aria-label="note from {{ .Date.Format "3:04 PM, January 2, 2006" }}">
         {{ .Date.Format "3:04 PM, January 2, 2006" }}
       </a>
     </div>
