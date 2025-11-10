@@ -25,16 +25,19 @@
 
 {{- $pages := union .RegularPages .Sections }}
 {{- $paginator := .Paginate $pages }}
+
+<div class="h-feed">
+
 {{- range $index, $page := $paginator.Pages }}
 
-<article class="til-post-entry">
+<article class="til-post-entry h-entry">
   {{- /* Show response context if it's a reply/like/repost/bookmark */ -}}
   {{- if .Params.response }}
   <div class="til-entry-header">
     {{- partial "response-context.html" . -}}
   </div>
   {{- end }}
-  <div class="post-content">
+  <div class="post-content e-content">
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}{{ .Content }}{{ end }}
@@ -49,13 +52,15 @@
 
     {{- /* Timestamp */ -}}
     <div class="note-timestamp">
-      <a href="{{ .RelPermalink }}" aria-label="note from {{ .Date.Format "3:04 PM, January 2, 2006" }}">
+      <a href="{{ .RelPermalink }}" class="u-url dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" aria-label="note from {{ .Date.Format "3:04 PM, January 2, 2006" }}">
         {{ .Date.Format "3:04 PM, January 2, 2006" }}
       </a>
     </div>
   </div>
 </article>
 {{- end }}
+
+</div>{{- /* end h-feed */ -}}
 
 {{- if gt $paginator.TotalPages 1 }}
 <footer class="page-footer">
