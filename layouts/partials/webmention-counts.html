@@ -1,0 +1,37 @@
+{{- /*
+  Get webmention counts for current page (likes, reposts, bookmarks)
+  Returns: dict with likeCount, repostCount, bookmarkCount
+*/ -}}
+
+{{- $pageUrl := .Permalink -}}
+{{- $pagePath := (urls.Parse $pageUrl).Path -}}
+{{- $allMentions := site.Data.webmentions.mentions | default slice -}}
+{{- $mentions := slice -}}
+
+{{- /* Filter mentions for this page */ -}}
+{{- range $allMentions -}}
+  {{- $target := index . "wm-target" -}}
+  {{- if $target -}}
+    {{- $targetPath := (urls.Parse $target).Path -}}
+    {{- if eq $targetPath $pagePath -}}
+      {{- $mentions = $mentions | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Count by type */ -}}
+{{- $likeCount := 0 -}}
+{{- $repostCount := 0 -}}
+{{- $bookmarkCount := 0 -}}
+{{- range $mentions -}}
+  {{- $wmProperty := index . "wm-property" -}}
+  {{- if eq $wmProperty "like-of" -}}
+    {{- $likeCount = add $likeCount 1 -}}
+  {{- else if eq $wmProperty "repost-of" -}}
+    {{- $repostCount = add $repostCount 1 -}}
+  {{- else if eq $wmProperty "bookmark-of" -}}
+    {{- $bookmarkCount = add $bookmarkCount 1 -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return dict "likeCount" $likeCount "repostCount" $repostCount "bookmarkCount" $bookmarkCount -}}

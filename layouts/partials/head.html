@@ -152,7 +152,7 @@
 {{- end }}
 
 {{- /* Search */}}
-{{- if or (eq .Layout `search`) (eq .Layout `archives`) (and (eq .Type `books`) .IsNode) (and (eq .Type `dailies`) .IsNode) (and (eq .Type `newsletters`) .IsNode) (and (eq .Type `tils`) .IsNode) -}}
+{{- if or (eq .Layout `search`) (eq .Layout `archives`) (and (eq .Type `books`) .IsNode) (and (eq .Type `dailies`) .IsNode) (and (eq .Type `newsletters`) .IsNode) (and (eq .Type `tils`) .IsNode) (and (eq .Type `notes`) .IsNode) -}}
 <link crossorigin="anonymous" rel="preload" as="fetch" href="../index.json">
 {{- $fastsearch := resources.Get "js/fastsearch.js" | js.Build (dict "params" (dict "fuseOpts" site.Params.fuseOpts)) | resources.Minify }}
 {{- $fusejs := resources.Get "js/fuse.basic.min.js" }}
