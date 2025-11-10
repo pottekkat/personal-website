@@ -1,1 +1,40 @@
-[]
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Afthab E K",
+      "photo": "https://avatars.webmention.io/cdn.masto.host/1262318dcd93df93c8fd26ae45fdb7861369cc64623ea57c7f50bceb4d77934d.jpg",
+      "url": "https://mastodon.social/@afthabek"
+    },
+    "url": "https://floss.social/@pottekkat/113504290534562277#reblogged-by-113395243390673249",
+    "published": null,
+    "wm-received": "2025-11-09T16:53:52Z",
+    "wm-id": 1953111,
+    "wm-source": "https://brid.gy/repost/mastodon/@pottekkat@floss.social/113504290534562277/113395243390673249",
+    "wm-target": "https://navendu.me/posts/til-section-hugo/",
+    "wm-protocol": "webmention",
+    "repost-of": "https://navendu.me/posts/til-section-hugo/",
+    "wm-property": "repost-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Afthab E K",
+      "photo": "https://avatars.webmention.io/cdn.masto.host/1262318dcd93df93c8fd26ae45fdb7861369cc64623ea57c7f50bceb4d77934d.jpg",
+      "url": "https://mastodon.social/@afthabek"
+    },
+    "url": "https://floss.social/@pottekkat/113504290534562277#favorited-by-113395243390673249",
+    "published": null,
+    "wm-received": "2025-11-09T16:53:51Z",
+    "wm-id": 1953110,
+    "wm-source": "https://brid.gy/like/mastodon/@pottekkat@floss.social/113504290534562277/113395243390673249",
+    "wm-target": "https://navendu.me/posts/til-section-hugo/",
+    "wm-protocol": "webmention",
+    "like-of": "https://navendu.me/posts/til-section-hugo/",
+    "wm-property": "like-of",
+    "wm-private": false
+  }
+]
