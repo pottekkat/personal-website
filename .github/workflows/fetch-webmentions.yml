@@ -2,7 +2,7 @@ name: Fetch Webmentions
 
 on:
   schedule:
-    - cron: '23 15 * * *' # Run daily at 3:23 PM UTC
+    - cron: '49 */3 * * *' # Run every 3 hours at 49 minutes past the hour
   workflow_dispatch:
 
 concurrency:
@@ -53,11 +53,8 @@ jobs:
         run: echo "No new webmentions to update"
 
   deploy:
-    name: Trigger Netlify Deploy
-    runs-on: ubuntu-latest
+    name: Deploy to Netlify
     needs: fetch
     if: needs.fetch.outputs.has_changes == 'true'
-    steps:
-      - name: Trigger Netlify Build
-        run: |
-          curl -X POST -d '{}' ${{ secrets.NETLIFY_BUILD_HOOK }}
+    uses: ./.github/workflows/deploy-to-netlify.yml
+    secrets: inherit

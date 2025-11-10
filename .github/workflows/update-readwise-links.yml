@@ -58,11 +58,8 @@ jobs:
         run: echo "No new links to update"
 
   deploy:
-    name: Trigger Netlify Deploy
-    runs-on: ubuntu-latest
+    name: Deploy to Netlify
     needs: update-links
     if: needs.update-links.outputs.has_changes == 'true'
-    steps:
-      - name: Trigger Netlify Build
-        run: |
-          curl -X POST -d '{}' ${{ secrets.NETLIFY_BUILD_HOOK }}
+    uses: ./.github/workflows/deploy-to-netlify.yml
+    secrets: inherit

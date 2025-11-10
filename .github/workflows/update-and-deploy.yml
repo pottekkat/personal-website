@@ -407,11 +407,8 @@ jobs:
           branch: hugo
 
   deploy:
-    name: Trigger Netlify Deploy
-    runs-on: ubuntu-latest
+    name: Deploy to Netlify
     needs: [changelog, lighthouse]
     if: always()  # Run even if changelog or lighthouse fail
-    steps:
-      - name: Trigger Netlify Build
-        run: |
-          curl -X POST -d '{}' ${{ secrets.NETLIFY_BUILD_HOOK }}
+    uses: ./.github/workflows/deploy-to-netlify.yml
+    secrets: inherit
