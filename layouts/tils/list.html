@@ -24,7 +24,8 @@
 </div>
 
 {{- $pages := union .RegularPages .Sections }}
-{{- range $index, $page := $pages }}
+{{- $paginator := .Paginate $pages }}
+{{- range $index, $page := $paginator.Pages }}
 
 <article class="til-post-entry">
   <header class="til-entry-header">
@@ -43,6 +44,29 @@
     {{- else }}{{ .Content }}{{ end }}
   </div>
 </article>
+{{- end }}
+
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
+      <span class="pagination-title">« {{ i18n "prev_page" }}</span>
+      {{- if (.Param "ShowPageNums") }}
+      &nbsp;<span class="pagination-nums">{{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}</span>
+      {{- end }}
+    </a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">
+      {{- if (.Param "ShowPageNums") }}
+      <span class="pagination-nums">{{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}</span>&nbsp;
+      {{- end }}
+      <span class="pagination-title">{{ i18n "next_page" }} »</span>
+    </a>
+    {{- end }}
+  </nav>
+</footer>
 {{- end }}
 
 {{- end }}{{- /* end main */ -}}
