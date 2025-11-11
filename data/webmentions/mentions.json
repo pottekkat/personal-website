@@ -3,6 +3,25 @@
     "type": "entry",
     "author": {
       "type": "card",
+      "name": "Navendu Pottekkat",
+      "photo": "https://avatars.webmention.io/cdn.masto.host/51c20171ba55f475534aefe66f8147cd5ae13247d50cb2cfe377fd3b2048c29b.jpg",
+      "url": "https://floss.social/@pottekkat"
+    },
+    "url": "https://floss.social/@pottekkat/115531322102077406#favorited-by-113236196865901581",
+    "published": null,
+    "wm-received": "2025-11-11T13:37:51Z",
+    "wm-id": 1953433,
+    "wm-source": "https://brid.gy/like/mastodon/@pottekkat@floss.social/115531322102077406/113236196865901581",
+    "wm-target": "https://navendu.me/notes/20251111190027-hello-indieweb/",
+    "wm-protocol": "webmention",
+    "like-of": "https://navendu.me/notes/20251111190027-hello-indieweb/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
       "name": "Afthab E K",
       "photo": "https://avatars.webmention.io/cdn.masto.host/1262318dcd93df93c8fd26ae45fdb7861369cc64623ea57c7f50bceb4d77934d.jpg",
       "url": "https://mastodon.social/@afthabek"
