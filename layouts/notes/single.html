@@ -8,6 +8,8 @@
       <span class="p-name">{{ site.Params.author.name }}</span>
     </a>
     <a class="u-url" href="{{ .Permalink }}" style="display: none;">{{ .Permalink }}</a>
+    {{- /* Bridgy Publish for Mastodon cross-posting */ -}}
+    <a href="https://brid.gy/publish/mastodon" style="display: none;"></a>
   </header>
   {{- partial "qr_code_icon.html" . -}}
   {{- partial "response-context.html" . -}}

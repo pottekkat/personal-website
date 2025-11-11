@@ -1,0 +1,2 @@
+{{- /* Render hook for images in notes - adds u-photo microformat class */ -}}
+<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }} class="u-photo" loading="lazy">

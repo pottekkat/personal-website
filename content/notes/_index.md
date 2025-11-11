@@ -2,7 +2,7 @@
 title: Notes
 url: /notes/
 description: Short-form thoughts and updates.
-summary: Short-form posts, quick thoughts, and updates—like Twitter but without Elon Musk.
+summary: Short-form posts, quick thoughts, and updates.
 ---
 
-Short-form posts, quick thoughts, and updates—like Twitter but without Elon Musk.
+Short-form posts, quick thoughts, and updates.
