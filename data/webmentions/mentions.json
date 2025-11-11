@@ -7,6 +7,29 @@
       "photo": "https://avatars.webmention.io/cdn.masto.host/51c20171ba55f475534aefe66f8147cd5ae13247d50cb2cfe377fd3b2048c29b.jpg",
       "url": "https://floss.social/@pottekkat"
     },
+    "url": "https://floss.social/@pottekkat/115531334742977289",
+    "published": "2025-11-11T13:37:46+00:00",
+    "wm-received": "2025-11-11T14:02:45Z",
+    "wm-id": 1953436,
+    "wm-source": "https://brid.gy/comment/mastodon/@pottekkat@floss.social/115531322102077406/115531334742977289",
+    "wm-target": "https://navendu.me/notes/20251111190027-hello-indieweb/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>This was posted on my personal website and syndicated to Mastodon. I'll be following POSSE from now on (<a href=\"https://indieweb.org/POSSE\"><span>https://</span><span>indieweb.org/POSSE</span><span></span></a>).</p>\n<a href=\"https://indieweb.org/POSSE\">POSSE</a>",
+      "text": "This was posted on my personal website and syndicated to Mastodon. I'll be following POSSE from now on (https://indieweb.org/POSSE).\nPOSSE"
+    },
+    "in-reply-to": "https://navendu.me/notes/20251111190027-hello-indieweb/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Navendu Pottekkat",
+      "photo": "https://avatars.webmention.io/cdn.masto.host/51c20171ba55f475534aefe66f8147cd5ae13247d50cb2cfe377fd3b2048c29b.jpg",
+      "url": "https://floss.social/@pottekkat"
+    },
     "url": "https://floss.social/@pottekkat/115531322102077406#favorited-by-113236196865901581",
     "published": null,
     "wm-received": "2025-11-11T13:37:51Z",
