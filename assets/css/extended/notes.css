@@ -1,0 +1,31 @@
+.note-list-footer {
+  margin-top: var(--gap);
+  color: var(--secondary);
+  font-size: 13px;
+}
+
+.note-timestamp a {
+  color: var(--secondary);
+}
+
+.note-timestamp a:hover {
+  color: var(--primary);
+}
+
+.note-interactions {
+  display: flex;
+  gap: calc(var(--gap) * 0.75);
+  margin-bottom: calc(var(--gap) / 2);
+}
+
+.note-interaction-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.note-footer-meta {
+  margin-top: calc(var(--gap) * 0.75);
+  color: var(--secondary);
+  font-size: 14px;
+}

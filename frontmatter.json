@@ -330,6 +330,59 @@
       ]
     },
     {
+      "name": "Note",
+      "pageBundle": false,
+      "filePrefix": "{{date|yyyyMMddHHmmss}}",
+      "fields": [
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "dateFormat": "yyyy-MM-dd'T'HH:mm:ssXXX",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Draft?",
+          "name": "draft",
+          "type": "draft",
+          "default": false
+        },
+        {
+          "title": "Response (optional - for reply/like/repost/bookmark)",
+          "name": "response",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "Type",
+              "name": "type",
+              "type": "choice",
+              "choices": [
+                "",
+                "reply",
+                "like",
+                "repost",
+                "bookmark"
+              ],
+              "default": ""
+            },
+            {
+              "title": "URL",
+              "name": "url",
+              "type": "string",
+              "description": "URL you're responding to"
+            },
+            {
+              "title": "Name",
+              "name": "name",
+              "type": "string",
+              "description": "Title/name of the content"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Book Review",
       "pageBundle": false,
       "filePrefix": "",
@@ -475,6 +528,17 @@
       "previewPath": "books",
       "contentTypes": [
         "Book Review"
+      ],
+      "excludePaths": [
+        "_*.*"
+      ]
+    },
+    {
+      "title": "Notes",
+      "path": "[[workspace]]/content/notes",
+      "previewPath": "notes",
+      "contentTypes": [
+        "Note"
       ],
       "excludePaths": [
         "_*.*"

@@ -1,0 +1,88 @@
+{{- define "main" }}
+
+<header class="page-header">
+  {{- if (.Param "ShowBreadCrumbsInList") -}}
+  {{- partial "breadcrumbs.html" . }}
+  {{- end -}}
+  <h1>
+    {{ .Title }}<a href="index.xml" title="RSS" aria-label="RSS" class="rss-icon-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" height="23"><path d="M4 11a9 9 0 0 1 9 9" /><path d="M4 4a16 16 0 0 1 16 16" /><circle cx="5" cy="19" r="1" /></svg></a>
+  </h1>
+</header>
+
+{{- if .Content }}
+<div class="post-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+<div id="searchbox">
+  <input id="searchInput" placeholder="{{ .Params.placeholder | default (printf "Search") }}"
+      aria-label="search" type="search" autocomplete="off" data-show-only="notes">
+  <ul id="searchResults" aria-label="search results"></ul>
+</div>
+
+{{- $pages := union .RegularPages .Sections }}
+{{- $paginator := .Paginate $pages }}
+
+<div class="h-feed">
+
+{{- range $index, $page := $paginator.Pages }}
+
+<article class="til-post-entry h-entry">
+  {{- /* Show response context if it's a reply/like/repost/bookmark */ -}}
+  {{- if .Params.response }}
+  <div class="til-entry-header">
+    {{- partial "response-context.html" . -}}
+  </div>
+  {{- end }}
+  <div class="post-content e-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </div>
+
+  {{- /* Get webmention counts */ -}}
+  {{- $counts := partial "webmention-counts.html" . -}}
+
+  <div class="note-list-footer">
+    {{- /* Show interaction counts */ -}}
+    {{- partial "interaction-icons.html" (dict "counts" $counts) -}}
+
+    {{- /* Timestamp */ -}}
+    <div class="note-timestamp">
+      <a href="{{ .RelPermalink }}" class="u-url dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" aria-label="note from {{ .Date.Format "3:04 PM, January 2, 2006" }}">
+        {{ .Date.Format "3:04 PM, January 2, 2006" }}
+      </a>
+    </div>
+  </div>
+</article>
+{{- end }}
+
+</div>{{- /* end h-feed */ -}}
+
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
+      <span class="pagination-title">« {{ i18n "prev_page" }}</span>
+      {{- if (.Param "ShowPageNums") }}
+      &nbsp;<span class="pagination-nums">{{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}</span>
+      {{- end }}
+    </a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">
+      {{- if (.Param "ShowPageNums") }}
+      <span class="pagination-nums">{{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}</span>&nbsp;
+      {{- end }}
+      <span class="pagination-title">{{ i18n "next_page" }} »</span>
+    </a>
+    {{- end }}
+  </nav>
+</footer>
+{{- end }}
+
+{{- end }}{{- /* end main */ -}}
