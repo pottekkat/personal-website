@@ -422,12 +422,16 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: hugo
-          fetch-depth: 2
+          fetch-depth: 10
 
       - name: Detect changed notes
         id: detect-notes
         run: |
-          CHANGED_NOTES=$(git diff --name-only HEAD^..HEAD -- content/notes/ | grep '\.md$' | grep -v '_index.md' || echo "")
+          # Find the most recent non-bot commit (skipping changelog/lighthouse commits)
+          LAST_USER_COMMIT=$(git log --author="pottekkat" --format="%H" -1)
+          echo "Checking commit: $LAST_USER_COMMIT"
+
+          CHANGED_NOTES=$(git diff --name-only ${LAST_USER_COMMIT}^..${LAST_USER_COMMIT} -- content/notes/ | grep '\.md$' | grep -v '_index.md' || echo "")
 
           if [ -z "$CHANGED_NOTES" ]; then
             echo "has_notes=false" >> $GITHUB_OUTPUT
