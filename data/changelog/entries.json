@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2025-11-11T11:42:51+05:30",
+  "lastUpdated": "2025-11-11T11:52:32+05:30",
   "entries": [
+    {
+      "hash": "960e41f",
+      "date": "2025-11-11T11:50:24+05:30",
+      "message": "Added a new note introducing the IndieWeb concept."
+    },
     {
       "hash": "43b4d64",
       "date": "2025-11-11T11:30:10+05:30",
