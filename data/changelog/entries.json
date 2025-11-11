@@ -1,6 +1,26 @@
 {
-  "lastUpdated": "2025-11-10T12:54:02+05:30",
+  "lastUpdated": "2025-11-11T11:42:51+05:30",
   "entries": [
+    {
+      "hash": "43b4d64",
+      "date": "2025-11-11T11:30:10+05:30",
+      "message": "Added Mastodon syndication support and updated notes layout."
+    },
+    {
+      "hash": "17829df",
+      "date": "2025-11-10T22:21:52+05:30",
+      "message": "Implemented h-feed microformat for improved compatibility."
+    },
+    {
+      "hash": "6c073b3",
+      "date": "2025-11-10T20:22:46+05:30",
+      "message": "Refined frontmatter and layout templates for better structure and consistency."
+    },
+    {
+      "hash": "c095587",
+      "date": "2025-11-10T18:32:15+05:30",
+      "message": "Introduced a notes section with styling and layout templates."
+    },
     {
       "hash": "c1597c6",
       "date": "2025-11-10T11:15:38+05:30",
