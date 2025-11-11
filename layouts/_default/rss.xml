@@ -42,7 +42,7 @@
       <guid>{{ .Permalink }}</guid>
       <description>{{ with .Description | html }}{{ . }}{{ else }}{{ .Summary | html }}{{ end -}}</description>
       {{- if .Site.Params.ShowFullTextinRSS }}
-      <content:encoded>{{ (printf "<![CDATA[%s]]>" .Content) | safeHTML }}</content:encoded>
+      <content:encoded>{{ (printf "<![CDATA[%s%s]]>" (partial "response-context-rss.html" .) .Content) | safeHTML }}</content:encoded>
       {{- end }}
     </item>
     {{- else if eq .Type `books` }}
@@ -69,7 +69,7 @@
         <guid>{{ .Permalink }}</guid>
         <description>{{ with .Description | html }}{{ . }}{{ else }}{{ .Summary | html }}{{ end -}}</description>
         {{- if .Site.Params.ShowFullTextinRSS }}
-        <content:encoded>{{ (printf "<![CDATA[%s]]>" .Content) | safeHTML }}</content:encoded>
+        <content:encoded>{{ (printf "<![CDATA[%s%s]]>" (partial "response-context-rss.html" .) .Content) | safeHTML }}</content:encoded>
         {{- end }}
       </item>
       {{- end }}
@@ -82,7 +82,7 @@
         {{ with .Site.Params.author.email }}<author>{{.}}{{ with $.Site.Params.author.name }} ({{.}}){{end}}</author>{{end}}
         <guid>{{ .Permalink }}</guid>
         <description>{{ with .Description | html }}{{ . }}{{ else }}{{ .Summary | html }}{{ end -}}</description>
-        <content:encoded>{{ (printf "<![CDATA[%s]]>" .Content) | safeHTML }}</content:encoded>
+        <content:encoded>{{ (printf "<![CDATA[%s%s]]>" (partial "response-context-rss.html" .) .Content) | safeHTML }}</content:encoded>
       </item>
       {{- end }}
     {{- else if eq .Type `notes` }}
@@ -94,7 +94,7 @@
         {{ with .Site.Params.author.email }}<author>{{.}}{{ with $.Site.Params.author.name }} ({{.}}){{end}}</author>{{end}}
         <guid>{{ .Permalink }}</guid>
         <description>{{ with .Description | html }}{{ . }}{{ else }}{{ .Summary | html }}{{ end -}}</description>
-        <content:encoded>{{ (printf "<![CDATA[%s]]>" .Content) | safeHTML }}</content:encoded>
+        <content:encoded>{{ (printf "<![CDATA[%s%s]]>" (partial "response-context-rss.html" .) .Content) | safeHTML }}</content:encoded>
       </item>
       {{- end }}
     {{- else if eq .Type `newsletters` }}

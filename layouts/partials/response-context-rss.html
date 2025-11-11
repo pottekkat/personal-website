@@ -1,0 +1,19 @@
+{{- /*
+  RSS-friendly response context for webmention discovery
+  Includes the response URL (for replies/likes/reposts/bookmarks)
+  Note: Bridgy POSSE link is in HTML header, webmention.app will fetch the HTML page to discover it
+*/ -}}
+{{- if .Params.response -}}
+  {{- $responseType := .Params.response.type -}}
+  {{- $responseUrl := .Params.response.url -}}
+  {{- $responseName := .Params.response.name | default $responseUrl -}}
+  {{- if eq $responseType "reply" -}}
+<p>In reply to: <a href="{{ $responseUrl }}">{{ $responseName }}</a></p>
+  {{- else if eq $responseType "like" -}}
+<p>Liked: <a href="{{ $responseUrl }}">{{ $responseName }}</a></p>
+  {{- else if eq $responseType "repost" -}}
+<p>Reposted: <a href="{{ $responseUrl }}">{{ $responseName }}</a></p>
+  {{- else if eq $responseType "bookmark" -}}
+<p>Bookmarked: <a href="{{ $responseUrl }}">{{ $responseName }}</a></p>
+  {{- end -}}
+{{- end -}}
