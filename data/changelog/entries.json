@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2025-11-11T12:36:28+05:30",
+  "lastUpdated": "2025-11-11T18:03:46+05:30",
   "entries": [
+    {
+      "hash": "dfb5567",
+      "date": "2025-11-11T18:03:01+05:30",
+      "message": "Improved CI workflow and RSS templates for better webmention handling."
+    },
     {
       "hash": "47ea19e",
       "date": "2025-11-11T12:35:46+05:30",
