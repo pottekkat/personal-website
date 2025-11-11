@@ -412,3 +412,71 @@ jobs:
     if: always()  # Run even if changelog or lighthouse fail
     uses: ./.github/workflows/deploy-to-netlify.yml
     secrets: inherit
+
+  send-webmentions:
+    name: Send Webmentions to Bridgy
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: hugo
+          fetch-depth: 2  # Need at least 2 commits to compare
+
+      - name: Detect changed notes
+        id: detect-notes
+        run: |
+          # Get list of changed files in content/notes/ directory
+          CHANGED_NOTES=$(git diff --name-only HEAD^..HEAD -- 'content/notes/**/*.md' || echo "")
+
+          if [ -z "$CHANGED_NOTES" ]; then
+            echo "No notes changed in this push"
+            echo "has_notes=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changed notes:"
+            echo "$CHANGED_NOTES"
+            echo "has_notes=true" >> $GITHUB_OUTPUT
+
+            # Convert file paths to URLs and save
+            URLS=""
+            for file in $CHANGED_NOTES; do
+              # Extract the note filename without extension
+              # e.g., content/notes/20251111114318-hello-indieweb.md -> 20251111114318-hello-indieweb
+              NOTE_SLUG=$(basename "$file" .md)
+              NOTE_URL="https://navendu.me/notes/${NOTE_SLUG}/"
+              URLS="${URLS}${NOTE_URL}"$'\n'
+            done
+            echo "$URLS" > /tmp/note_urls.txt
+          fi
+
+      - name: Send webmentions to Bridgy
+        if: steps.detect-notes.outputs.has_notes == 'true'
+        run: |
+          # Read URLs and send webmention for each
+          while IFS= read -r NOTE_URL; do
+            if [ -n "$NOTE_URL" ]; then
+              echo "Sending webmention for: $NOTE_URL"
+              RESPONSE=$(curl -s -w "\n%{http_code}" -X POST https://brid.gy/publish/webmention \
+                -d "source=${NOTE_URL}" \
+                -d "target=https://brid.gy/publish/mastodon")
+
+              HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
+              BODY=$(echo "$RESPONSE" | sed '$d')
+
+              if [ "$HTTP_CODE" = "201" ] || [ "$HTTP_CODE" = "202" ]; then
+                echo "✓ Webmention sent successfully (HTTP $HTTP_CODE)"
+                echo "$BODY"
+              else
+                echo "⚠ Webmention failed (HTTP $HTTP_CODE)"
+                echo "$BODY"
+              fi
+
+              # Small delay between requests to be polite
+              sleep 2
+            fi
+          done < /tmp/note_urls.txt
+
+      - name: No notes to syndicate
+        if: steps.detect-notes.outputs.has_notes != 'true'
+        run: echo "No new or modified notes to syndicate"
