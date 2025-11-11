@@ -297,119 +297,10 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: hugo
 
-  lighthouse:
-    name: Run Lighthouse
-    runs-on: ubuntu-latest
-    needs: changelog
-    permissions:
-      contents: write
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v5
-        with:
-          ref: hugo
-          submodules: true
-          fetch-depth: 0
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: '0.152.2'
-          extended: true
-
-      - name: Build
-        env:
-          HUGO_ENV: development
-        run: hugo --gc --minify
-
-      - name: Use Node.js 18.x
-        uses: actions/setup-node@v6
-        with:
-          node-version: 18.x
-
-      - name: Run Lighthouse CI
-        run: |
-          npm install -g @lhci/cli@0.15.x
-          lhci collect
-
-      - name: Extract and format scores
-        run: |
-          node << 'EOF'
-          const fs = require('fs');
-          const path = require('path');
-          const { execSync } = require('child_process');
-
-          try {
-            const lhciDir = '.lighthouseci';
-            const files = fs.readdirSync(lhciDir).filter(f => f.startsWith('lhr-') && f.endsWith('.json'));
-
-            if (files.length === 0) {
-              throw new Error('No Lighthouse reports found');
-            }
-
-            // Read all reports and extract scores
-            const allScores = files.map(file => {
-              const results = JSON.parse(fs.readFileSync(path.join(lhciDir, file), 'utf8'));
-              return {
-                performance: Math.round(results.categories.performance.score * 100),
-                accessibility: Math.round(results.categories.accessibility.score * 100),
-                bestPractices: Math.round(results.categories['best-practices'].score * 100),
-                seo: Math.round(results.categories.seo.score * 100)
-              };
-            });
-
-            // Calculate median scores across all runs
-            const median = (arr) => {
-              const sorted = arr.sort((a, b) => a - b);
-              const mid = Math.floor(sorted.length / 2);
-              return sorted.length % 2 !== 0 ? sorted[mid] : Math.round((sorted[mid - 1] + sorted[mid]) / 2);
-            };
-
-            // Get current timestamp in IST with timezone offset
-            const lastUpdated = execSync('TZ=Asia/Kolkata date -Iseconds', { encoding: 'utf8' }).trim();
-
-            const scores = {
-              lastUpdated: lastUpdated,
-              performance: median(allScores.map(s => s.performance)),
-              accessibility: median(allScores.map(s => s.accessibility)),
-              bestPractices: median(allScores.map(s => s.bestPractices)),
-              seo: median(allScores.map(s => s.seo))
-            };
-
-            const dataDir = 'data/lighthouse';
-            if (!fs.existsSync(dataDir)) {
-              fs.mkdirSync(dataDir, { recursive: true });
-            }
-
-            fs.writeFileSync(
-              path.join(dataDir, 'scores.json'),
-              JSON.stringify(scores, null, 2) + '\n'
-            );
-
-            console.log('Lighthouse scores updated (median of', files.length, 'runs):', scores);
-          } catch (error) {
-            console.error('Failed to extract scores:', error.message);
-            process.exit(1);
-          }
-          EOF
-
-      - name: Commit scores
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add data/lighthouse/scores.json
-          git diff-index --quiet HEAD || git commit -m "update lighthouse scores"
-
-      - name: Push changes
-        uses: ad-m/github-push-action@v1.0.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: hugo
-
   deploy:
     name: Deploy to Netlify
-    needs: [changelog, lighthouse]
-    if: always()  # Run even if changelog or lighthouse fail
+    needs: changelog
+    if: always()  # Run even if changelog fails
     uses: ./.github/workflows/deploy-to-netlify.yml
     secrets: inherit
 
@@ -428,7 +319,14 @@ jobs:
         id: detect-notes
         run: |
           # Find the most recent non-bot commit (skipping changelog/lighthouse commits)
-          LAST_USER_COMMIT=$(git log --author="pottekkat" --format="%H" -1)
+          LAST_USER_COMMIT=$(git log --author="navendu@apache.org" --format="%H" -1 || echo "")
+
+          if [ -z "$LAST_USER_COMMIT" ]; then
+            echo "No user commits found in history"
+            echo "has_notes=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
           echo "Checking commit: $LAST_USER_COMMIT"
 
           CHANGED_NOTES=$(git diff --name-only ${LAST_USER_COMMIT}^..${LAST_USER_COMMIT} -- content/notes/ | grep '\.md$' | grep -v '_index.md' || echo "")
