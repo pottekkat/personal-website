@@ -1,6 +1,26 @@
 {
-  "last_updated": "2025-11-12T06:13:01.197834+05:30",
+  "last_updated": "2025-11-12T11:27:14.528604+05:30",
   "links": [
+    {
+      "id": "01k9v6ys0sfzt93yjr1frybkep",
+      "title": "Why Nietzsche Matters in the Age of Artificial Intelligence",
+      "author": "Shaoshan Liu, Nov 11 2025",
+      "source_url": "https://cacm.acm.org/blogcacm/why-nietzsche-matters-in-the-age-of-artificial-intelligence/",
+      "published_date": "2025-11-11",
+      "saved_at": "2025-11-12T10:30:02.969000+05:30",
+      "reading_time": "8 mins",
+      "category": "article"
+    },
+    {
+      "id": "01k9v2njc9ehd222zntv4ar9f5",
+      "title": "I didn't reverse-engineer the protocol for my blood pressure monitor in 24 hours",
+      "author": "https://james.belchamber.com",
+      "source_url": "https://james.belchamber.com/articles/blood-pressure-monitor-reverse-engineering/",
+      "published_date": "2025-11-11",
+      "saved_at": "2025-11-12T09:15:06.953000+05:30",
+      "reading_time": "6 mins",
+      "category": "article"
+    },
     {
       "id": "01k9sxfvt78gtxd9qpvnprat4e",
       "title": "Just use a button",
