@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2025-11-12T08:19:19+05:30",
+  "lastUpdated": "2025-11-12T10:15:31+05:30",
   "entries": [
+    {
+      "hash": "127618c",
+      "date": "2025-11-12T09:43:27+05:30",
+      "message": "Added Manjari font for Malayalam support in the project."
+    },
     {
       "hash": "9e74814",
       "date": "2025-11-12T08:18:32+05:30",
