@@ -1,0 +1,41 @@
+name: Scheduled Updates
+
+on:
+  schedule:
+    - cron: '33 10 * * *'  # 3:33 PM IST (10:03 UTC + 5:30 = 15:33 IST)
+  workflow_dispatch:
+
+concurrency:
+  group: scheduled-updates
+  cancel-in-progress: false
+
+jobs:
+  fetch-webmentions:
+    name: Fetch Webmentions
+    uses: ./.github/workflows/fetch-webmentions.yml
+    secrets: inherit
+
+  update-readwise-links:
+    name: Update Readwise Links
+    needs: fetch-webmentions
+    uses: ./.github/workflows/update-readwise-links.yml
+    secrets: inherit
+
+  update-blogroll:
+    name: Update Blogroll
+    needs: update-readwise-links
+    uses: ./.github/workflows/update-blogroll.yml
+    secrets: inherit
+
+  update-stats:
+    name: Update Stats
+    needs: update-blogroll
+    uses: ./.github/workflows/stats-actions.yml
+    secrets: inherit
+
+  deploy:
+    name: Deploy Changes
+    needs: update-stats
+    if: always()  # Run even if some updates fail
+    uses: ./.github/workflows/deploy-to-netlify.yml
+    secrets: inherit

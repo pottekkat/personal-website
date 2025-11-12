@@ -1,13 +1,8 @@
 name: Update Readwise Links
 
 on:
-  schedule:
-    - cron: '17 */6 * * *'  # Run every 6 hours at minute 17
+  workflow_call:
   workflow_dispatch:
-
-concurrency:
-  group: hugo-branch-updates
-  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -15,8 +10,6 @@ permissions:
 jobs:
   update-links:
     runs-on: ubuntu-latest
-    outputs:
-      has_changes: ${{ steps.git-check.outputs.has_changes }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4

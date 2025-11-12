@@ -1,13 +1,8 @@
 name: Fetch Webmentions
 
 on:
-  schedule:
-    - cron: '49 */3 * * *' # Run every 3 hours at 49 minutes past the hour
+  workflow_call:
   workflow_dispatch:
-
-concurrency:
-  group: hugo-branch-updates
-  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -15,8 +10,6 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    outputs:
-      has_changes: ${{ steps.git-check.outputs.has_changes }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -51,10 +44,3 @@ jobs:
       - name: No changes
         if: steps.git-check.outputs.has_changes != 'true'
         run: echo "No new webmentions to update"
-
-  deploy:
-    name: Deploy to Netlify
-    needs: fetch
-    if: needs.fetch.outputs.has_changes == 'true'
-    uses: ./.github/workflows/deploy-to-netlify.yml
-    secrets: inherit

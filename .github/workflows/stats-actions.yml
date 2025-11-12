@@ -1,13 +1,8 @@
 name: Update Stats
 
 on:
+  workflow_call:
   workflow_dispatch:
-  schedule:
-    - cron: '46 15 * * *'
-
-concurrency:
-  group: hugo-branch-updates
-  cancel-in-progress: false
 
 jobs:
   build:
