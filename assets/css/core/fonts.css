@@ -158,3 +158,37 @@
         url('/fonts/schibstedgrotesk/subset-SchibstedGrotesk-BoldItalic.woff2') format('woff2'),
         url('/fonts/schibstedgrotesk/subset-SchibstedGrotesk-BoldItalic.woff') format('woff');
 }
+
+@font-face {
+    font-family: 'Manjari';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: local('Manjari'),
+        url('/fonts/manjari/Manjari-Thin.woff2') format('woff2');
+    unicode-range: U+0D00-0D7F, U+200C-200D, U+25CC;
+}
+
+@font-face {
+    font-family: 'Manjari';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Manjari'),
+        url('/fonts/manjari/Manjari-Regular.woff2') format('woff2');
+    unicode-range: U+0D00-0D7F, U+200C-200D, U+25CC;
+}
+
+@font-face {
+    font-family: 'Manjari';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Manjari'),
+        url('/fonts/manjari/Manjari-Bold.woff2') format('woff2');
+    unicode-range: U+0D00-0D7F, U+200C-200D, U+25CC;
+}
+
+[lang="ml"] {
+    font-family: 'Manjari', 'Inter', sans-serif;
+}

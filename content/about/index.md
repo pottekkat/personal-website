@@ -72,7 +72,8 @@ Click on the commit hash to see exactly what changed.
     <td>
       <span style="font-family: 'Schibsted Grotesk', sans-serif !important; font-weight: bold;">Headings: "Schibsted Grotesk"</span><br>
       <span style="font-family: 'Inter', sans-serif !important;">Body: "Inter"</span><br>
-      <span style="font-family: 'JetBrains Mono', monospace !important;"><code>Code snippets: "JetBrains Mono"</code></span>
+      <span style="font-family: 'JetBrains Mono', monospace !important;"><code>Code snippets: "JetBrains Mono"</code></span><br>
+      <span style="font-family: 'Manjari', 'Inter', sans-serif !important;">Malayalam/മലയാളം: "Manjari/മഞ്ജരി"</span><br>
     </td>
   </tr>
   <tr>
@@ -139,7 +140,7 @@ The bottom line is everything you see here is still deeply personal. AI is only 
 
 ## About Me
 
-**Navendu** Pottekkat (_Nah-VAYN-doo_; **IPA**: [[nɑˈveɪn.dʊ]](https://ipa-reader.com/?text=n%C9%91%CB%88ve%C9%AAn.d%CA%8A&voice=Raveena); **Malayalam**: _നവേന്ദു_)
+**Navendu** Pottekkat (_Nah-VAYN-doo_; **IPA**: [[nɑˈveɪn.dʊ]](https://ipa-reader.com/?text=n%C9%91%CB%88ve%C9%AAn.d%CA%8A&voice=Raveena); **Malayalam**: <span lang="ml">നവേന്ദു</span>)
 
 Quick links: [featured posts](/categories/featured/), [talks](https://youtube.com/playlist?list=PLUVkO7d15olRgs1rU6scvszk0DB5HxKdu), [what am I doing now?](/now/)
 
