@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-11-11T00:23:36.414365",
+  "lastUpdated": "2025-11-12T00:22:54.871958",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Earthquake Prediction Flowchart",
-      "postUrl": "https://xkcd.com/3165/",
-      "publishDate": "Fri, 07 Nov 2025 05:00:00 -0000"
+      "postTitle": "Big and Little Spoons",
+      "postUrl": "https://xkcd.com/3166/",
+      "publishDate": "Mon, 10 Nov 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Netflix",
-      "postUrl": "https://simonwillison.net/2025/Nov/10/netflix/#atom-everything",
-      "publishDate": "2025-11-10T22:08:27+00:00"
+      "postTitle": "Scaling HNSWs",
+      "postUrl": "https://simonwillison.net/2025/Nov/11/scaling-hnsws/#atom-everything",
+      "publishDate": "2025-11-11T23:38:39+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "Before The Launch, Self-Doubt | #312",
-      "postUrl": "https://newsletter.pathlesspath.com/p/before-the-launch-self-doubt-311",
-      "publishDate": "Thu, 06 Nov 2025 12:29:37 GMT"
+      "postTitle": "Links & Riffs: Non-effort, Baumol vs. Jevon, Kids & Phones, Housing, Self-Help Incentives & Book Update | #312",
+      "postUrl": "https://newsletter.pathlesspath.com/p/a-lil-links-roundup-312",
+      "publishDate": "Tue, 11 Nov 2025 13:17:13 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Is There an AI Bubble?",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/is-there-an-ai-bubble",
-      "publishDate": "Tue, 04 Nov 2025 12:42:52 GMT"
+      "postTitle": "When Will We Make God?",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/when-will-we-make-god",
+      "publishDate": "Tue, 11 Nov 2025 13:02:44 GMT"
     },
     {
       "blogTitle": "Anil Dash",
