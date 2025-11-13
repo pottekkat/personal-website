@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-11-12T10:44:09.861514",
+  "lastUpdated": "2025-11-13T05:13:02.610111",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Big and Little Spoons",
-      "postUrl": "https://xkcd.com/3166/",
-      "publishDate": "Mon, 10 Nov 2025 05:00:00 -0000"
+      "postTitle": "Car Size",
+      "postUrl": "https://xkcd.com/3167/",
+      "publishDate": "Wed, 12 Nov 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Scaling HNSWs",
-      "postUrl": "https://simonwillison.net/2025/Nov/11/scaling-hnsws/#atom-everything",
-      "publishDate": "2025-11-11T23:38:39+00:00"
+      "postTitle": "Quoting Steve Krouse",
+      "postUrl": "https://simonwillison.net/2025/Nov/12/steve-krouse/#atom-everything",
+      "publishDate": "2025-11-12T17:21:19+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -140,48 +140,6 @@
       "postTitle": "On Micropayments",
       "postUrl": "https://sheep.horse/2024/11/on_micropayments.html",
       "publishDate": "Sat, 16 Nov 2024 23:41:25 +0000"
-    },
-    {
-      "blogTitle": "AI as Normal Technology",
-      "blogUrl": "https://www.normaltech.ai",
-      "postTitle": "A guide to understanding AI as normal technology",
-      "postUrl": "https://www.normaltech.ai/p/a-guide-to-understanding-ai-as-normal",
-      "publishDate": "Tue, 09 Sep 2025 13:00:40 GMT"
-    },
-    {
-      "blogTitle": "The Elysian",
-      "blogUrl": "https://www.elysian.press/",
-      "postTitle": "We need to get rid of weekends",
-      "postUrl": "https://www.elysian.press/p/we-need-to-get-rid-of-weekends",
-      "publishDate": "Mon, 10 Nov 2025 18:02:25 GMT"
-    },
-    {
-      "blogTitle": "The Palladium Letter",
-      "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "New Article: The Medici Method",
-      "postUrl": "https://letter.palladiummag.com/p/early-article-the-medici-method",
-      "publishDate": "Wed, 05 Nov 2025 17:03:09 GMT"
-    },
-    {
-      "blogTitle": "Pathless by Paul Millerd",
-      "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "Links & Riffs: Non-effort, Baumol vs. Jevon, Kids & Phones, Housing, Self-Help Incentives & Book Update | #312",
-      "postUrl": "https://newsletter.pathlesspath.com/p/a-lil-links-roundup-312",
-      "publishDate": "Tue, 11 Nov 2025 13:17:13 GMT"
-    },
-    {
-      "blogTitle": "SatPost by Trung Phan",
-      "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "Taylor Sheridan's New $1B Deal, Explained",
-      "postUrl": "https://www.readtrung.com/p/taylor-sheridans-new-1b-deal-explained",
-      "publishDate": "Thu, 30 Oct 2025 22:31:14 GMT"
-    },
-    {
-      "blogTitle": "Uncharted Territories",
-      "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "When Will We Make God?",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/when-will-we-make-god",
-      "publishDate": "Tue, 11 Nov 2025 13:02:44 GMT"
     },
     {
       "blogTitle": "Anil Dash",
