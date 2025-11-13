@@ -7,6 +7,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: hugo-branch-updates  # Shared concurrency to prevent race conditions
+  cancel-in-progress: false
+
 jobs:
   fetch:
     runs-on: ubuntu-latest

@@ -4,6 +4,10 @@ on:
   workflow_call:
   workflow_dispatch:
 
+concurrency:
+  group: hugo-branch-updates  # Shared concurrency to prevent race conditions
+  cancel-in-progress: false
+
 jobs:
   build:
     permissions: write-all

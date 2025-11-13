@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: scheduled-updates
+  group: hugo-branch-updates  # Shared with update-and-deploy to prevent race conditions
   cancel-in-progress: false
 
 jobs:
