@@ -1,6 +1,26 @@
 {
-  "last_updated": "2025-11-13T10:42:24.357519+05:30",
+  "last_updated": "2025-11-13T16:13:32.843809+05:30",
   "links": [
+    {
+      "id": "01k9y6nzf643jqf2wt2ypxwskp",
+      "title": "why everyone is mad at google (this time)",
+      "author": "Low Level",
+      "source_url": "https://www.youtube.com/watch?v=fxtnI407djY",
+      "published_date": "2025-11-12",
+      "saved_at": "2025-11-13T14:22:57.958000+05:30",
+      "reading_time": null,
+      "category": "video"
+    },
+    {
+      "id": "01k9xtv4gmprp1wzk4rb974br6",
+      "title": "Open source does not mean open to vulnerabilities",
+      "author": "Sai Rahul Poruri",
+      "source_url": "https://archive.is/EcdFA",
+      "published_date": "2025-11-13",
+      "saved_at": "2025-11-13T10:56:04.052000+05:30",
+      "reading_time": "6 mins",
+      "category": "article"
+    },
     {
       "id": "01k9v6ys0sfzt93yjr1frybkep",
       "title": "Why Nietzsche Matters in the Age of Artificial Intelligence",
