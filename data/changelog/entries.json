@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2025-11-13T09:46:35+05:30",
+  "lastUpdated": "2025-11-13T10:00:51+05:30",
   "entries": [
+    {
+      "hash": "89af6e6",
+      "date": "2025-11-13T10:00:08+05:30",
+      "message": "Added concurrency groups to workflows to prevent overlapping executions."
+    },
     {
       "hash": "6a1c793",
       "date": "2025-11-13T09:45:42+05:30",
