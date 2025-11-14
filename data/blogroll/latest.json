@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-13T10:44:04.847077",
+  "lastUpdated": "2025-11-14T10:42:44.679394",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Steve Krouse",
-      "postUrl": "https://simonwillison.net/2025/Nov/12/steve-krouse/#atom-everything",
-      "publishDate": "2025-11-12T17:21:19+00:00"
+      "postTitle": "Introducing GPT-5.1 for developers",
+      "postUrl": "https://simonwillison.net/2025/Nov/13/gpt-51/#atom-everything",
+      "publishDate": "2025-11-13T23:59:35+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Go proposal: Compare IP subnets",
-      "postUrl": "https://antonz.org/accepted/netip-prefix-compare/",
-      "publishDate": "Mon, 20 Oct 2025 08:30:00 +0000"
+      "postTitle": "Go proposal: Context-aware Dialer methods",
+      "postUrl": "https://antonz.org/accepted/net-dialer-context/",
+      "publishDate": "Thu, 13 Nov 2025 11:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
