@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-11-14T10:42:44.679394",
+  "lastUpdated": "2025-11-15T10:40:15.432913",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Car Size",
-      "postUrl": "https://xkcd.com/3167/",
-      "publishDate": "Wed, 12 Nov 2025 05:00:00 -0000"
+      "postTitle": "Beam Dump",
+      "postUrl": "https://xkcd.com/3168/",
+      "publishDate": "Fri, 14 Nov 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Introducing GPT-5.1 for developers",
-      "postUrl": "https://simonwillison.net/2025/Nov/13/gpt-51/#atom-everything",
-      "publishDate": "2025-11-13T23:59:35+00:00"
+      "postTitle": "parakeet-mlx",
+      "postUrl": "https://simonwillison.net/2025/Nov/14/parakeet-mlx/#atom-everything",
+      "publishDate": "2025-11-14T20:00:32+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Five for 50",
-      "postUrl": "https://anildash.com/2025/09/05/five-for-fifty/",
-      "publishDate": "2025-09-05T00:00:00Z"
+      "postTitle": "How Tim Cook sold out Steve Jobs",
+      "postUrl": "https://anildash.com/2025/09/09/how-tim-cook-sold-out-steve-jobs/",
+      "publishDate": "2025-09-09T00:00:00Z"
     }
   ]
 }
