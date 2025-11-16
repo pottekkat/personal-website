@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-15T10:40:15.432913",
+  "lastUpdated": "2025-11-16T10:40:39.041450",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "parakeet-mlx",
-      "postUrl": "https://simonwillison.net/2025/Nov/14/parakeet-mlx/#atom-everything",
-      "publishDate": "2025-11-14T20:00:32+00:00"
+      "postTitle": "llm-anthropic 0.22",
+      "postUrl": "https://simonwillison.net/2025/Nov/15/llm-anthropic-022/#atom-everything",
+      "publishDate": "2025-11-15T20:48:38+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
