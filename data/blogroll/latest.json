@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-16T10:40:39.041450",
+  "lastUpdated": "2025-11-17T10:44:02.039750",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "llm-anthropic 0.22",
-      "postUrl": "https://simonwillison.net/2025/Nov/15/llm-anthropic-022/#atom-everything",
-      "publishDate": "2025-11-15T20:48:38+00:00"
+      "postTitle": "Quoting Andrej Karpathy",
+      "postUrl": "https://simonwillison.net/2025/Nov/16/andrej-karpathy/#atom-everything",
+      "publishDate": "2025-11-16T18:29:57+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
