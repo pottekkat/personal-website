@@ -1,6 +1,26 @@
 {
-  "last_updated": "2025-11-17T16:13:33.578153+05:30",
+  "last_updated": "2025-11-18T16:13:21.581615+05:30",
   "links": [
+    {
+      "id": "01kab8rp7y4hh7c9gqvajgcjgp",
+      "title": "Under the microscope: NCAA Basketball Final Four 97 (PlayStation)",
+      "author": "Bo",
+      "source_url": "https://32bits.substack.com/p/under-the-microscope-ncaa-basketball",
+      "published_date": "2025-11-13",
+      "saved_at": "2025-11-18T16:09:31.582000+05:30",
+      "reading_time": "3 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kab8m46yt9jk1ptzx4wje4am",
+      "title": "The Bitter Lesson",
+      "author": "Rich Sutton",
+      "source_url": "https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf",
+      "published_date": "2022-02-04",
+      "saved_at": "2025-11-18T16:07:02.046000+05:30",
+      "reading_time": "5 mins",
+      "category": "pdf"
+    },
     {
       "id": "01ka7vx7ra4a9trrsejh92hrgd",
       "title": "What if you don't need MCP at all?",
