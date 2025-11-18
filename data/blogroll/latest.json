@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-11-17T10:44:02.039750",
+  "lastUpdated": "2025-11-18T10:43:52.541045",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Beam Dump",
-      "postUrl": "https://xkcd.com/3168/",
-      "publishDate": "Fri, 14 Nov 2025 05:00:00 -0000"
+      "postTitle": "EPIRBs",
+      "postUrl": "https://xkcd.com/3169/",
+      "publishDate": "Mon, 17 Nov 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Andrej Karpathy",
-      "postUrl": "https://simonwillison.net/2025/Nov/16/andrej-karpathy/#atom-everything",
-      "publishDate": "2025-11-16T18:29:57+00:00"
+      "postTitle": "The fate of \u201csmall\u201d open source",
+      "postUrl": "https://simonwillison.net/2025/Nov/17/the-fate-of-small-open-source/#atom-everything",
+      "publishDate": "2025-11-17T23:24:44+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
