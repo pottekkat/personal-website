@@ -1,6 +1,36 @@
 {
-  "last_updated": "2025-11-18T16:13:21.581615+05:30",
+  "last_updated": "2025-11-19T16:12:37.266559+05:30",
   "links": [
+    {
+      "id": "01kadggstn30vkvxda3g1bdbms",
+      "title": "Amazing Kitchen Engineering",
+      "author": "Masala Lab Shorts",
+      "source_url": "https://www.youtube.com/shorts/mNIfVzib30w",
+      "published_date": "2025-11-16",
+      "saved_at": "2025-11-19T13:03:30.581000+05:30",
+      "reading_time": null,
+      "category": "video"
+    },
+    {
+      "id": "01kad6v53t2m812mxk8ww18cah",
+      "title": "My next chapter with Mastodon",
+      "author": "Eugen Rochko",
+      "source_url": "https://blog.joinmastodon.org/2025/11/my-next-chapter-with-mastodon/",
+      "published_date": "2025-11-18",
+      "saved_at": "2025-11-19T10:14:24.057000+05:30",
+      "reading_time": "3 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kad345zer87r20aqkwakm8qg",
+      "title": "37. Taking Care, While Being Ambitious",
+      "author": "Sooraj Chandran",
+      "source_url": "https://www.memos.soorajchandran.com/p/37-taking-care-while-being-ambitious",
+      "published_date": "2025-11-18",
+      "saved_at": "2025-11-19T09:09:25.550000+05:30",
+      "reading_time": "5 mins",
+      "category": "article"
+    },
     {
       "id": "01kab8rp7y4hh7c9gqvajgcjgp",
       "title": "Under the microscope: NCAA Basketball Final Four 97 (PlayStation)",
