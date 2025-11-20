@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-11-19T10:43:08.029566",
+  "lastUpdated": "2025-11-20T10:43:00.537128",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "EPIRBs",
-      "postUrl": "https://xkcd.com/3169/",
-      "publishDate": "Mon, 17 Nov 2025 05:00:00 -0000"
+      "postTitle": "Service Outage",
+      "postUrl": "https://xkcd.com/3170/",
+      "publishDate": "Wed, 19 Nov 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Matthew Prince",
-      "postUrl": "https://simonwillison.net/2025/Nov/19/matthew-prince/#atom-everything",
-      "publishDate": "2025-11-19T08:02:36+00:00"
+      "postTitle": "Quoting Nicholas Carlini",
+      "postUrl": "https://simonwillison.net/2025/Nov/20/nicholas-carlini/#atom-everything",
+      "publishDate": "2025-11-20T01:01:44+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
