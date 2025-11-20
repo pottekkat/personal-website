@@ -1,6 +1,36 @@
 {
-  "last_updated": "2025-11-19T16:12:37.266559+05:30",
+  "last_updated": "2025-11-20T16:12:23.922315+05:30",
   "links": [
+    {
+      "id": "01kag9xfj91by6kw7sbsh64zzf",
+      "title": "Recursive Lanugage Models w: Alex Zhang",
+      "author": "alphaXiv",
+      "source_url": "https://www.youtube.com/watch?v=_TaIZLKhfLc",
+      "published_date": "2025-10-31",
+      "saved_at": "2025-11-20T15:05:49.321000+05:30",
+      "reading_time": null,
+      "category": "video"
+    },
+    {
+      "id": "01kafwar0rggdhvv63dzyws4bw",
+      "title": "987654321 / 123456789",
+      "author": "John",
+      "source_url": "https://www.johndcook.com/blog/2025/10/26/987654321/?ref=dailydev",
+      "published_date": "2025-10-26",
+      "saved_at": "2025-11-20T11:08:23.895000+05:30",
+      "reading_time": "2 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kafth2ef8sc7gtf1wvdqh50m",
+      "title": "Inside India’s Open-Source Revolution: FOSS, AI & The Digital Commons",
+      "author": "AIM Network",
+      "source_url": "https://www.youtube.com/watch?v=p9RHRrPWk-0",
+      "published_date": "2025-11-16",
+      "saved_at": "2025-11-20T10:36:54.030000+05:30",
+      "reading_time": null,
+      "category": "video"
+    },
     {
       "id": "01kadggstn30vkvxda3g1bdbms",
       "title": "Amazing Kitchen Engineering",
