@@ -1,6 +1,46 @@
 {
-  "last_updated": "2025-11-20T16:12:23.922315+05:30",
+  "last_updated": "2025-11-21T16:11:49.179960+05:30",
   "links": [
+    {
+      "id": "01kajct5f6j1hbhj90fyf4h91e",
+      "title": "I’m Building an Algorithm That Doesn’t Rot Your Brain",
+      "author": "New York Times Opinion",
+      "source_url": "https://www.youtube.com/watch?v=EO14wPQw89c",
+      "published_date": "2025-11-19",
+      "saved_at": "2025-11-21T10:34:55.269000+05:30",
+      "reading_time": null,
+      "category": "video"
+    },
+    {
+      "id": "01kaja3bckhsg4qaf2fg3j1d9j",
+      "title": "rabbit hole learning",
+      "author": "seated.ro",
+      "source_url": "https://seated.ro/posts/rabbit-hole-learning.html",
+      "published_date": "2025-03-08",
+      "saved_at": "2025-11-21T09:47:30.515000+05:30",
+      "reading_time": "3 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kaj9ye1atjcqcs4t0jwgjzd3",
+      "title": "AI's 70% Problem",
+      "author": "Franciska Dethlefsen",
+      "source_url": "https://zed.dev/blog/ai-70-problem-addy-osmani?ref=dailydev",
+      "published_date": "2025-11-06",
+      "saved_at": "2025-11-21T09:44:49.386000+05:30",
+      "reading_time": "4 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kags048jj93ntfnrzjpwpdww",
+      "title": "AI Safety is a Market Failure: Lessons from the Anthropic Disclosure",
+      "author": "takshashila.org.in",
+      "source_url": "https://takshashila.org.in/content/blogs/20251118-ai-safety-market-failure.html",
+      "published_date": "2025-11-17",
+      "saved_at": "2025-11-20T19:29:24.690000+05:30",
+      "reading_time": "3 mins",
+      "category": "article"
+    },
     {
       "id": "01kag9xfj91by6kw7sbsh64zzf",
       "title": "Recursive Lanugage Models w: Alex Zhang",
