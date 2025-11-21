@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2025-11-13T10:38:42+05:30",
+  "lastUpdated": "2025-11-21T12:52:01+05:30",
   "entries": [
+    {
+      "hash": "5355cfd",
+      "date": "2025-11-21T12:50:48+05:30",
+      "message": "Added blog post detailing migration from Hugo v0.118.2 to v0.152.2."
+    },
     {
       "hash": "3d17cc8",
       "date": "2025-11-13T10:36:49+05:30",
