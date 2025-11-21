@@ -322,6 +322,7 @@ body:not(.dark) {
   }
   /* GenericDeleted */
   .chroma .gd {
+    color: #f92672;
   }
   /* GenericEmph */
   .chroma .ge {
@@ -335,6 +336,7 @@ body:not(.dark) {
   }
   /* GenericInserted */
   .chroma .gi {
+    color: #75af00;
   }
   /* GenericOutput */
   .chroma .go {
