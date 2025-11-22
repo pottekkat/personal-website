@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-11-21T10:42:18.626293",
+  "lastUpdated": "2025-11-22T10:40:03.544358",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Service Outage",
-      "postUrl": "https://xkcd.com/3170/",
-      "publishDate": "Wed, 19 Nov 2025 05:00:00 -0000"
+      "postTitle": "Geologic Core Sample",
+      "postUrl": "https://xkcd.com/3171/",
+      "publishDate": "Fri, 21 Nov 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Nano Banana Pro aka gemini-3-pro-image-preview is the best available image generation model",
-      "postUrl": "https://simonwillison.net/2025/Nov/20/nano-banana-pro/#atom-everything",
-      "publishDate": "2025-11-20T16:32:25+00:00"
+      "postTitle": "We should all be using dependency cooldowns",
+      "postUrl": "https://simonwillison.net/2025/Nov/21/dependency-cooldowns/#atom-everything",
+      "publishDate": "2025-11-21T17:27:33+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
