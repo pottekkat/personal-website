@@ -51,7 +51,7 @@
     {{ $seriesTerms := .GetTerms "series" }}
     {{ if $seriesTerms }}
       {{ range $seriesTerms }}
-        <p><i>This article is a part of the series "<a href='{{ .Permalink }}'>{{ .LinkTitle }}</a>."</i></p>
+        <p><i>This article is a part of the series "<a href='{{ .Permalink }}'>{{ .Name }}</a>."</i></p>
         <p>Other articles in the series:</p>
         <ul class="series">
         {{ range sort .Pages "Date" }}
@@ -90,7 +90,7 @@
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     <ul class="post-tags">
       {{- range ($.GetTerms $tags) }}
-      <li><a class="p-category" href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      <li><a class="p-category" href="{{ .Permalink }}">{{ .Name }}</a></li>
       {{- end }}
     </ul>
     {{- if (.Param "ShowPostNavLinks") }}

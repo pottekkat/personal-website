@@ -17,7 +17,7 @@
     {{- end -}}
     {{- /* Don't show title for notes (IndieWeb pattern) */ -}}
     {{- if ne .Type "notes" -}}
-    {{- print "&nbsp;»&nbsp;" | safeHTML -}}<span>{{ .Title }}</span>
+    {{- print "&nbsp;»&nbsp;" | safeHTML -}}<span>{{ if eq .Kind "term" }}{{ .Name }}{{ else }}{{ .Title }}{{ end }}</span>
     {{- end -}}
 </div>
 {{- end -}}
