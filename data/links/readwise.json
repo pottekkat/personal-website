@@ -1,6 +1,26 @@
 {
-  "last_updated": "2025-11-22T16:09:32.666507+05:30",
+  "last_updated": "2025-11-23T16:10:07.394694+05:30",
   "links": [
+    {
+      "id": "01kaqz6e45t7q94fz2xa0cet1b",
+      "title": "Becoming a magician",
+      "author": "…",
+      "source_url": "https://autotranslucence.wordpress.com/2018/03/30/becoming-a-magician/",
+      "published_date": "2018-03-30",
+      "saved_at": "2025-11-23T14:32:23.877000+05:30",
+      "reading_time": "9 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kaqy1tpwn6zccstzv796d9d7",
+      "title": "CSS has become too POWERFUL",
+      "author": "nordcraft.com",
+      "source_url": "https://blog.nordcraft.com/css-has-become-too-powerful?ref=dailydev",
+      "published_date": "2025-11-19",
+      "saved_at": "2025-11-23T14:12:24.348000+05:30",
+      "reading_time": "5 mins",
+      "category": "article"
+    },
     {
       "id": "01kajct5f6j1hbhj90fyf4h91e",
       "title": "I’m Building an Algorithm That Doesn’t Rot Your Brain",
