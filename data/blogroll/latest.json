@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-22T10:40:03.544358",
+  "lastUpdated": "2025-11-23T10:40:36.275206",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "We should all be using dependency cooldowns",
-      "postUrl": "https://simonwillison.net/2025/Nov/21/dependency-cooldowns/#atom-everything",
-      "publishDate": "2025-11-21T17:27:33+00:00"
+      "postTitle": "Agent design is still hard",
+      "postUrl": "https://simonwillison.net/2025/Nov/23/agent-design-is-still-hard/#atom-everything",
+      "publishDate": "2025-11-23T00:49:39+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
