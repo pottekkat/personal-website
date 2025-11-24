@@ -1,6 +1,36 @@
 {
-  "last_updated": "2025-11-23T16:10:07.394694+05:30",
+  "last_updated": "2025-11-24T16:18:16.016094+05:30",
   "links": [
+    {
+      "id": "01karnkx45nqgzc08vc9n5cd0t",
+      "title": "Can ultrasound make you smell things that aren’t there?",
+      "author": "Lev Chizhov",
+      "source_url": "https://x.com/ennucore/status/1991949868773126361/?s=46&t=AF9-om6Pp6KlsdZxPaX82g&rw_tt_thread=True",
+      "published_date": "2025-11-21",
+      "saved_at": "2025-11-23T21:04:13.892000+05:30",
+      "reading_time": "2 mins",
+      "category": "tweet"
+    },
+    {
+      "id": "01karncg1chkjhe6mx7y8yjft3",
+      "title": "Agent Design Is Still Hard",
+      "author": "Armin Ronacher",
+      "source_url": "https://lucumr.pocoo.org/2025/11/21/agents-are-hard/",
+      "published_date": "2025-11-21",
+      "saved_at": "2025-11-23T21:00:11.116000+05:30",
+      "reading_time": "10 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kar8vr51ys2165gc9g0ahnnj",
+      "title": "The Last Question",
+      "author": "Isaac Asimov",
+      "source_url": "https://users.ece.cmu.edu/~gamvrosi/thelastq.html",
+      "published_date": null,
+      "saved_at": "2025-11-23T17:21:19.457000+05:30",
+      "reading_time": "18 mins",
+      "category": "article"
+    },
     {
       "id": "01kaqz6e45t7q94fz2xa0cet1b",
       "title": "Becoming a magician",
