@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-23T10:40:36.275206",
+  "lastUpdated": "2025-11-24T10:48:55.733218",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Sabbaticals keep our attrition at bay",
-      "postUrl": "https://world.hey.com/dhh/sabbaticals-keep-our-attrition-at-bay-9ccba5c0",
-      "publishDate": "2025-10-29T09:23:31Z"
+      "postTitle": "No backup, no cry",
+      "postUrl": "https://world.hey.com/dhh/no-backup-no-cry-274e0c31",
+      "publishDate": "2025-11-24T10:40:13Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Agent design is still hard",
-      "postUrl": "https://simonwillison.net/2025/Nov/23/agent-design-is-still-hard/#atom-everything",
-      "publishDate": "2025-11-23T00:49:39+00:00"
+      "postTitle": "\"Good engineering management\" is a fad",
+      "postUrl": "https://simonwillison.net/2025/Nov/23/good-engineering-management-is-a-fad/#atom-everything",
+      "publishDate": "2025-11-23T21:29:09+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
