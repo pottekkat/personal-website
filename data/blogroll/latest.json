@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2025-11-24T10:48:55.733218",
+  "lastUpdated": "2025-11-25T10:45:47.805711",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Geologic Core Sample",
-      "postUrl": "https://xkcd.com/3171/",
-      "publishDate": "Fri, 21 Nov 2025 05:00:00 -0000"
+      "postTitle": "Fifteen Years",
+      "postUrl": "https://xkcd.com/3172/",
+      "publishDate": "Mon, 24 Nov 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "No backup, no cry",
-      "postUrl": "https://world.hey.com/dhh/no-backup-no-cry-274e0c31",
-      "publishDate": "2025-11-24T10:40:13Z"
+      "postTitle": "Local LLMs are how nerds now justify a big computer they don't need",
+      "postUrl": "https://world.hey.com/dhh/local-llms-are-how-nerds-now-justify-a-big-computer-they-don-t-need-af2fcb7b",
+      "publishDate": "2025-11-25T08:29:01Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "\"Good engineering management\" is a fad",
-      "postUrl": "https://simonwillison.net/2025/Nov/23/good-engineering-management-is-a-fad/#atom-everything",
-      "publishDate": "2025-11-23T21:29:09+00:00"
+      "postTitle": "llm-anthropic 0.23",
+      "postUrl": "https://simonwillison.net/2025/Nov/25/llm-anthropic/#atom-everything",
+      "publishDate": "2025-11-25T05:26:34+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Go proposal: Context-aware Dialer methods",
-      "postUrl": "https://antonz.org/accepted/net-dialer-context/",
-      "publishDate": "Thu, 13 Nov 2025 11:30:00 +0000"
+      "postTitle": "Gist of Go: Concurrency testing",
+      "postUrl": "https://antonz.org/go-concurrency/testing/",
+      "publishDate": "Mon, 24 Nov 2025 13:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
