@@ -1,6 +1,36 @@
 {
-  "last_updated": "2025-11-25T16:15:14.649792+05:30",
+  "last_updated": "2025-11-26T16:13:31.995960+05:30",
   "links": [
+    {
+      "id": "01kazamm7ecwhhxx8e8rz0tpej",
+      "title": "This plant will die if I'm on my phone too much",
+      "author": "Simone Giertz",
+      "source_url": "https://www.youtube.com/watch?v=0rXpncpkLcw",
+      "published_date": "2025-11-25",
+      "saved_at": "2025-11-26T11:07:04.238000+05:30",
+      "reading_time": null,
+      "category": "video"
+    },
+    {
+      "id": "01kay1swwghfe0ba7fx7adrhem",
+      "title": "Needy Programs",
+      "author": "Nikita Prokopov",
+      "source_url": "https://tonsky.me/blog/needy-programs/?ref=dailydev",
+      "published_date": "2025-11-13",
+      "saved_at": "2025-11-25T23:13:25.328000+05:30",
+      "reading_time": "4 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kaxyj1ww2fysk2155nyg8tn8",
+      "title": "Today I turn 55",
+      "author": "Kevin Dahlstrom",
+      "source_url": "https://x.com/Camp4/status/1992958445885198805/?rw_tt_thread=True",
+      "published_date": "2025-11-24",
+      "saved_at": "2025-11-25T22:16:42.588000+05:30",
+      "reading_time": "8 mins",
+      "category": "tweet"
+    },
     {
       "id": "01karnkx45nqgzc08vc9n5cd0t",
       "title": "Can ultrasound make you smell things that aren’t there?",
