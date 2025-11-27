@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-11-26T10:44:02.970569",
+  "lastUpdated": "2025-11-27T10:43:42.746535",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Fifteen Years",
-      "postUrl": "https://xkcd.com/3172/",
-      "publishDate": "Mon, 24 Nov 2025 05:00:00 -0000"
+      "postTitle": "Satellite Imagery",
+      "postUrl": "https://xkcd.com/3173/",
+      "publishDate": "Wed, 26 Nov 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Gist of Go: Concurrency testing",
-      "postUrl": "https://antonz.org/go-concurrency/testing/",
-      "publishDate": "Mon, 24 Nov 2025 13:30:00 +0000"
+      "postTitle": "Go proposal: Goroutine metrics",
+      "postUrl": "https://antonz.org/accepted/goroutine-metrics/",
+      "publishDate": "Wed, 26 Nov 2025 12:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
