@@ -1,6 +1,26 @@
 {
-  "last_updated": "2025-11-28T16:12:16.179038+05:30",
+  "last_updated": "2025-11-29T16:10:27.044503+05:30",
   "links": [
+    {
+      "id": "01kb6zhkk9hfe2mb3nawk8xz3y",
+      "title": "Boredom is the New Luxury",
+      "author": "Simon Späti",
+      "source_url": "https://www.ssp.sh/blog/owning-things-attention/?ref=dailydev",
+      "published_date": "2025-11-18",
+      "saved_at": "2025-11-29T10:27:06.408000+05:30",
+      "reading_time": "4 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kb6prcr5vsd9v4pcmq7a1b5h",
+      "title": "Confessions of a Software Developer: No More Self-Censorship",
+      "author": "Kerrick Long",
+      "source_url": "https://kerrick.blog/articles/2025/confessions-of-a-software-developer-no-more-self-censorship/",
+      "published_date": "2025-11-28",
+      "saved_at": "2025-11-29T07:53:31.589000+05:30",
+      "reading_time": "9 mins",
+      "category": "article"
+    },
     {
       "id": "01kb1sa4d6xf894g1f2k3j2696",
       "title": "This is the kind of cool shit we do with...",
