@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-11-28T10:42:47.754049",
+  "lastUpdated": "2025-11-29T10:40:58.397201",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Satellite Imagery",
-      "postUrl": "https://xkcd.com/3173/",
-      "publishDate": "Wed, 26 Nov 2025 05:00:00 -0000"
+      "postTitle": "Bridge Clearance",
+      "postUrl": "https://xkcd.com/3174/",
+      "publishDate": "Fri, 28 Nov 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Qwen3-VL Technical Report",
-      "postUrl": "https://simonwillison.net/2025/Nov/27/qwen3-vl-technical-report/#atom-everything",
-      "publishDate": "2025-11-27T17:01:11+00:00"
+      "postTitle": "A ChatGPT prompt equals about 5.1 seconds of Netflix",
+      "postUrl": "https://simonwillison.net/2025/Nov/29/chatgpt-netflix/#atom-everything",
+      "publishDate": "2025-11-29T02:13:36+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -67,9 +67,9 @@
     {
       "blogTitle": "Austin Z. Henley's Blog",
       "blogUrl": "https://austinhenley.com/",
-      "postTitle": "The design space of AI coding tools",
-      "postUrl": "https://austinhenley.com/blog/aidesignspace.html",
-      "publishDate": "Sat, 18 Oct 2025 16:00:01 -0400"
+      "postTitle": "Langjam Gamejam: Build a programming language and then use it to make a game in 7 days",
+      "postUrl": "https://austinhenley.com/blog/langjamgamejam.html",
+      "publishDate": "Fri, 28 Nov 2025 16:00:01 -0400"
     },
     {
       "blogTitle": "blog.jfo.click",
