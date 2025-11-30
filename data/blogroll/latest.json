@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-29T10:40:58.397201",
+  "lastUpdated": "2025-11-30T10:40:43.245464",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "A ChatGPT prompt equals about 5.1 seconds of Netflix",
-      "postUrl": "https://simonwillison.net/2025/Nov/29/chatgpt-netflix/#atom-everything",
-      "publishDate": "2025-11-29T02:13:36+00:00"
+      "postTitle": "Context plumbing",
+      "postUrl": "https://simonwillison.net/2025/Nov/29/context-plumbing/#atom-everything",
+      "publishDate": "2025-11-29T11:26:24+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -139,7 +139,7 @@
       "blogUrl": "https://sheep.horse/",
       "postTitle": "On Micropayments",
       "postUrl": "https://sheep.horse/2024/11/on_micropayments.html",
-      "publishDate": "Sat, 16 Nov 2024 23:41:25 +0000"
+      "publishDate": "Sat, 16 Nov 2024 10:11:25 +0000"
     },
     {
       "blogTitle": "Anil Dash",
