@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-12-01T10:45:38.123975",
+  "lastUpdated": "2025-12-02T10:44:51.861439",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Bridge Clearance",
-      "postUrl": "https://xkcd.com/3174/",
-      "publishDate": "Fri, 28 Nov 2025 05:00:00 -0000"
+      "postTitle": "Website Task Flowchart",
+      "postUrl": "https://xkcd.com/3175/",
+      "publishDate": "Mon, 01 Dec 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "YouTube embeds fail with a 153 error",
-      "postUrl": "https://simonwillison.net/2025/Dec/1/youtube-embed-153-error/#atom-everything",
-      "publishDate": "2025-12-01T05:26:23+00:00"
+      "postTitle": "Claude 4.5 Opus' Soul Document",
+      "postUrl": "https://simonwillison.net/2025/Dec/2/claude-soul-document/#atom-everything",
+      "publishDate": "2025-12-02T00:35:02+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Go proposal: Goroutine metrics",
-      "postUrl": "https://antonz.org/accepted/goroutine-metrics/",
-      "publishDate": "Wed, 26 Nov 2025 12:00:00 +0000"
+      "postTitle": "Go proposal: Type-safe error checking",
+      "postUrl": "https://antonz.org/accepted/errors-astype/",
+      "publishDate": "Tue, 02 Dec 2025 09:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
