@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-02T10:44:51.861439",
+  "lastUpdated": "2025-12-03T10:46:55.847808",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Six billion reasons to cheer for Shopify",
-      "postUrl": "https://world.hey.com/dhh/six-billion-reasons-to-cheer-for-shopify-55720846",
-      "publishDate": "2025-12-01T08:32:41Z"
+      "postTitle": "Fizzy is our fun, modern take on Kanban (and we made it open source!)",
+      "postUrl": "https://world.hey.com/dhh/fizzy-is-our-fun-modern-take-on-kanban-and-we-made-it-open-source-54ac41b6",
+      "publishDate": "2025-12-03T08:50:09Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Claude 4.5 Opus' Soul Document",
-      "postUrl": "https://simonwillison.net/2025/Dec/2/claude-soul-document/#atom-everything",
-      "publishDate": "2025-12-02T00:35:02+00:00"
+      "postTitle": "TIL: Dependency groups and uv run",
+      "postUrl": "https://simonwillison.net/2025/Dec/3/til-dependency-groups-and-uv-run/#atom-everything",
+      "publishDate": "2025-12-03T05:55:23+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "How Tim Cook sold out Steve Jobs",
-      "postUrl": "https://anildash.com/2025/09/09/how-tim-cook-sold-out-steve-jobs/",
-      "publishDate": "2025-09-09T00:00:00Z"
+      "postTitle": "24 is After the Fall",
+      "postUrl": "https://anildash.com/2025/09/11/24-is-after-the-fall/",
+      "publishDate": "2025-09-11T00:00:00Z"
     }
   ]
 }
