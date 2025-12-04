@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-12-03T10:46:55.847808",
+  "lastUpdated": "2025-12-04T10:44:59.996817",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Website Task Flowchart",
-      "postUrl": "https://xkcd.com/3175/",
-      "publishDate": "Mon, 01 Dec 2025 05:00:00 -0000"
+      "postTitle": "Inverted Catenaries",
+      "postUrl": "https://xkcd.com/3176/",
+      "publishDate": "Wed, 03 Dec 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "TIL: Dependency groups and uv run",
-      "postUrl": "https://simonwillison.net/2025/Dec/3/til-dependency-groups-and-uv-run/#atom-everything",
-      "publishDate": "2025-12-03T05:55:23+00:00"
+      "postTitle": "Quoting Mitchell Hashimoto",
+      "postUrl": "https://simonwillison.net/2025/Dec/3/mitchell-hashimoto/#atom-everything",
+      "publishDate": "2025-12-03T19:18:49+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
