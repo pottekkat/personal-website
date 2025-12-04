@@ -1,6 +1,26 @@
 {
-  "last_updated": "2025-12-03T16:16:22.449850+05:30",
+  "last_updated": "2025-12-04T16:14:27.565608+05:30",
   "links": [
+    {
+      "id": "01kbmazmm9ggy81339ackc28xs",
+      "title": "Outcome-based Reinforcement Learning to Predict the Future",
+      "author": "Benjamin Turtel, Danny Franklin, Kris Skotheim, Luke Hewitt, Philipp Schoenegger",
+      "source_url": "https://arxiv.org/pdf/2505.17989",
+      "published_date": "2025-05-23",
+      "saved_at": "2025-12-04T14:57:08.169000+05:30",
+      "reading_time": "20 mins",
+      "category": "pdf"
+    },
+    {
+      "id": "01kbkt7mxam80myq2cs8ytsvef",
+      "title": "Galaxy brain resistance",
+      "author": "Vitalik Buterin",
+      "source_url": "https://vitalik.eth.limo/general/2025/11/07/galaxybrain.html",
+      "published_date": "2025-11-07",
+      "saved_at": "2025-12-04T10:04:24.810000+05:30",
+      "reading_time": "18 mins",
+      "category": "article"
+    },
     {
       "id": "01kbf3vtk2ph8rkk7e6fa083mj",
       "title": "I ran out of money a year ago, spent the last of my savings on a prostitute in Hong Kong, and became a commie.",
