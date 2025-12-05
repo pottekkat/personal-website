@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-04T10:44:59.996817",
+  "lastUpdated": "2025-12-05T10:45:10.570831",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Mitchell Hashimoto",
-      "postUrl": "https://simonwillison.net/2025/Dec/3/mitchell-hashimoto/#atom-everything",
-      "publishDate": "2025-12-03T19:18:49+00:00"
+      "postTitle": "TIL: Subtests in pytest 9.0.0+",
+      "postUrl": "https://simonwillison.net/2025/Dec/5/til-pytest-subtests/#atom-everything",
+      "publishDate": "2025-12-05T06:03:29+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Go proposal: Type-safe error checking",
-      "postUrl": "https://antonz.org/accepted/errors-astype/",
-      "publishDate": "Tue, 02 Dec 2025 09:30:00 +0000"
+      "postTitle": "Gist of Go: Concurrency internals",
+      "postUrl": "https://antonz.org/go-concurrency/internals/",
+      "publishDate": "Fri, 05 Dec 2025 10:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
