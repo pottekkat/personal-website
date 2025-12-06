@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-12-05T10:45:10.570831",
+  "lastUpdated": "2025-12-06T10:40:47.325097",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Inverted Catenaries",
-      "postUrl": "https://xkcd.com/3176/",
-      "publishDate": "Wed, 03 Dec 2025 05:00:00 -0000"
+      "postTitle": "Chessboard Alignment",
+      "postUrl": "https://xkcd.com/3177/",
+      "publishDate": "Fri, 05 Dec 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "24 is After the Fall",
-      "postUrl": "https://anildash.com/2025/09/11/24-is-after-the-fall/",
-      "publishDate": "2025-09-11T00:00:00Z"
+      "postTitle": "A Way We Were",
+      "postUrl": "https://anildash.com/2025/09/17/a-way-we-were/",
+      "publishDate": "2025-09-17T00:00:00Z"
     }
   ]
 }
