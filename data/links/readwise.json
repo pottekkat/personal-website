@@ -1,6 +1,16 @@
 {
-  "last_updated": "2025-12-06T16:10:14.917992+05:30",
+  "last_updated": "2025-12-07T16:09:43.919687+05:30",
   "links": [
+    {
+      "id": "01kbswfd1t7symwg3hkbb0kahq",
+      "title": "You're 25-35 years old? You're running out of time!",
+      "author": "Hyde",
+      "source_url": "https://breatheless.substack.com/p/youre-25-35-years-old-youre-running?utm_source=share&utm_medium=android&r=84v4u&triedRedirect=true",
+      "published_date": "2025-12-05",
+      "saved_at": "2025-12-06T18:39:02.650000+05:30",
+      "reading_time": "8 mins",
+      "category": "article"
+    },
     {
       "id": "01kbq56gzkswqtxxypp9ke5seb",
       "title": "Thoughts on Go vs. Rust vs. Zig",
