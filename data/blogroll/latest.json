@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-06T10:40:47.325097",
+  "lastUpdated": "2025-12-07T10:40:20.052712",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "TIL: Subtests in pytest 9.0.0+",
-      "postUrl": "https://simonwillison.net/2025/Dec/5/til-pytest-subtests/#atom-everything",
-      "publishDate": "2025-12-05T06:03:29+00:00"
+      "postTitle": "The Unexpected Effectiveness of One-Shot Decompilation with Claude",
+      "postUrl": "https://simonwillison.net/2025/Dec/6/one-shot-decompilation/#atom-everything",
+      "publishDate": "2025-12-06T18:30:56+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
