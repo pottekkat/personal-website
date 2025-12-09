@@ -1,6 +1,46 @@
 {
-  "last_updated": "2025-12-08T16:14:25.428691+05:30",
+  "last_updated": "2025-12-09T16:14:39.328742+05:30",
   "links": [
+    {
+      "id": "01kc1623drt20vk4ydg0vxg1xd",
+      "title": "Something Weird Happens When E=−mc²",
+      "author": "Veritasium",
+      "source_url": "https://www.youtube.com/watch?v=Y-W-w8yNiKU",
+      "published_date": "2025-12-05",
+      "saved_at": "2025-12-09T14:41:13.592000+05:30",
+      "reading_time": null,
+      "category": "video"
+    },
+    {
+      "id": "01kbyzx2n8f9pyxsgs3bfpa2gd",
+      "title": "Better than JSON",
+      "author": "Oya Studio",
+      "source_url": "https://aloisdeniel.com/blog/better-than-json?ref=dailydev",
+      "published_date": "2025-12-01",
+      "saved_at": "2025-12-08T18:15:08.648000+05:30",
+      "reading_time": "6 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kbw25kpy1a0ede62nptexe5t",
+      "title": "Modernizing a Vintage Car",
+      "author": "Ronald Finger",
+      "source_url": "https://www.youtube.com/watch?v=jZ38C-M3tyk",
+      "published_date": "2025-11-30",
+      "saved_at": "2025-12-07T14:57:02.110000+05:30",
+      "reading_time": null,
+      "category": "video"
+    },
+    {
+      "id": "01kbq3st89pmqrnfqq8radfzys",
+      "title": "AIA Forecaster: Technical Report",
+      "author": "Rohan Alur; Bradly C. Stadie; Daniel Kang; Ryan Chen; Matt McManus; Michael Rickert; Tyler Lee; Michael Federici; Richard Zhu; Dennis Fogerty; Hayley Williamson; Nina Lozinski; Aaron Linsky; Jasjeet S. Sekhon",
+      "source_url": "https://arxiv.org/pdf/2511.07678",
+      "published_date": null,
+      "saved_at": "2025-12-05T16:49:20.585000+05:30",
+      "reading_time": "1 hr 0 mins",
+      "category": "pdf"
+    },
     {
       "id": "01kbswfd1t7symwg3hkbb0kahq",
       "title": "You're 25-35 years old? You're running out of time!",
