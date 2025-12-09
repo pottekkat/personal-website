@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-12-08T10:44:55.837279",
+  "lastUpdated": "2025-12-09T10:45:11.099795",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Chessboard Alignment",
-      "postUrl": "https://xkcd.com/3177/",
-      "publishDate": "Fri, 05 Dec 2025 05:00:00 -0000"
+      "postTitle": "Hyperacute Interdynamics",
+      "postUrl": "https://xkcd.com/3178/",
+      "publishDate": "Mon, 08 Dec 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Niche Museums: The Museum of Jurassic Technology",
-      "postUrl": "https://simonwillison.net/2025/Dec/8/the-museum-of-jurassic-technology/#atom-everything",
-      "publishDate": "2025-12-08T03:16:41+00:00"
+      "postTitle": "Prediction: AI will make formal verification go mainstream",
+      "postUrl": "https://simonwillison.net/2025/Dec/9/formal-verification/#atom-everything",
+      "publishDate": "2025-12-09T03:11:19+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Gist of Go: Concurrency internals",
-      "postUrl": "https://antonz.org/go-concurrency/internals/",
-      "publishDate": "Fri, 05 Dec 2025 10:00:00 +0000"
+      "postTitle": "Go proposal: Secret mode",
+      "postUrl": "https://antonz.org/accepted/runtime-secret/",
+      "publishDate": "Tue, 09 Dec 2025 10:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "A Way We Were",
-      "postUrl": "https://anildash.com/2025/09/17/a-way-we-were/",
-      "publishDate": "2025-09-17T00:00:00Z"
+      "postTitle": "The \"Taylor's Version\" generation is not gonna let Big AI steal her stuff",
+      "postUrl": "https://anildash.com/2025/09/18/the-taylors-version-generation/",
+      "publishDate": "2025-09-18T00:00:00Z"
     }
   ]
 }
