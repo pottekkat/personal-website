@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-09T10:45:11.099795",
+  "lastUpdated": "2025-12-10T10:45:36.101939",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Fizzy is our fun, modern take on Kanban (and we made it open source!)",
-      "postUrl": "https://world.hey.com/dhh/fizzy-is-our-fun-modern-take-on-kanban-and-we-made-it-open-source-54ac41b6",
-      "publishDate": "2025-12-03T08:50:09Z"
+      "postTitle": "Europe is weak and delusional (but not doomed)",
+      "postUrl": "https://world.hey.com/dhh/europe-is-weak-and-delusional-but-not-doomed-8b10e7cb",
+      "publishDate": "2025-12-09T12:49:21Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Prediction: AI will make formal verification go mainstream",
-      "postUrl": "https://simonwillison.net/2025/Dec/9/formal-verification/#atom-everything",
-      "publishDate": "2025-12-09T03:11:19+00:00"
+      "postTitle": "10 Years of Let's Encrypt",
+      "postUrl": "https://simonwillison.net/2025/Dec/10/lets-encrypt/#atom-everything",
+      "publishDate": "2025-12-10T00:34:15+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
