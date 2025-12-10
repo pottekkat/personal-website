@@ -1,6 +1,76 @@
 {
-  "last_updated": "2025-12-09T16:14:39.328742+05:30",
+  "last_updated": "2025-12-10T16:14:58.147648+05:30",
   "links": [
+    {
+      "id": "01kc3ayfgdmj4dh1mwzqwvpjyb",
+      "title": "Energy Predictions 2025",
+      "author": "Casey Handmer's blog",
+      "source_url": "https://caseyhandmer.wordpress.com/2025/12/08/energy-predictions-2025/",
+      "published_date": "2025-12-08",
+      "saved_at": "2025-12-10T10:45:06.637000+05:30",
+      "reading_time": "8 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kc37j38ye65ve9xbc39rqx73",
+      "title": "ARK’s Expected Value For SpaceX In 2030: ~$2.5 Trillion Enterprise Value",
+      "author": "Daniel Maguire",
+      "source_url": "https://www.ark-invest.com/articles/valuation-models/ark-expected-value-spacex-2030",
+      "published_date": "2025-06-10",
+      "saved_at": "2025-12-10T09:45:55.166000+05:30",
+      "reading_time": "6 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kc37481kg56ffr7ryb4j1sex",
+      "title": "🚨 PENTAGON ORDERED TO PREPARE FOR AGI",
+      "author": "Ask Perplexity",
+      "source_url": "https://x.com/askperplexity/status/1998462409158308114/?s=46&t=AF9-om6Pp6KlsdZxPaX82g&rw_tt_thread=True",
+      "published_date": "2025-12-09",
+      "saved_at": "2025-12-10T09:38:21.299000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet"
+    },
+    {
+      "id": "01kc1p4vavvtg62jtwjhk8vrq6",
+      "title": "DHH & Open Source",
+      "author": "December 8",
+      "source_url": "https://ma.tt/2025/12/dhh-open-source/",
+      "published_date": "2025-12-09",
+      "saved_at": "2025-12-09T19:22:20.826000+05:30",
+      "reading_time": "3 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kc1nt85eezbdy3bs8gwtb88a",
+      "title": "Your clothes are literally changing your brain (Here’s the Science)",
+      "author": "Ellie Richards",
+      "source_url": "https://www.youtube.com/watch?v=psdqZ429mjM",
+      "published_date": "2025-11-23",
+      "saved_at": "2025-12-09T19:16:33.517000+05:30",
+      "reading_time": null,
+      "category": "video"
+    },
+    {
+      "id": "01kc1n1nk1qahxvep4qw37g1pf",
+      "title": "The Real Story of Calculus - Numberphile",
+      "author": "Numberphile",
+      "source_url": "https://www.youtube.com/watch?v=G23Jx0kPCSI&list=WL&index=5&t=45s",
+      "published_date": "2025-11-10",
+      "saved_at": "2025-12-09T19:03:08.065000+05:30",
+      "reading_time": null,
+      "category": "video"
+    },
+    {
+      "id": "01kc1f406r8mg828cj9wn4fr08",
+      "title": "Why Fighter Jets Ban 90% of C++ Features",
+      "author": "LaurieWired",
+      "source_url": "https://www.youtube.com/watch?v=Gv4sDL9Ljww",
+      "published_date": "2025-12-03",
+      "saved_at": "2025-12-09T17:19:33.016000+05:30",
+      "reading_time": null,
+      "category": "video"
+    },
     {
       "id": "01kc1623drt20vk4ydg0vxg1xd",
       "title": "Something Weird Happens When E=−mc²",
