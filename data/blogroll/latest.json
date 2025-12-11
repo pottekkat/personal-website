@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-12-10T10:45:36.101939",
+  "lastUpdated": "2025-12-11T10:45:29.724143",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Hyperacute Interdynamics",
-      "postUrl": "https://xkcd.com/3178/",
-      "publishDate": "Mon, 08 Dec 2025 05:00:00 -0000"
+      "postTitle": "Fishing",
+      "postUrl": "https://xkcd.com/3179/",
+      "publishDate": "Wed, 10 Dec 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "10 Years of Let's Encrypt",
-      "postUrl": "https://simonwillison.net/2025/Dec/10/lets-encrypt/#atom-everything",
-      "publishDate": "2025-12-10T00:34:15+00:00"
+      "postTitle": "Useful patterns for building HTML tools",
+      "postUrl": "https://simonwillison.net/2025/Dec/10/html-tools/#atom-everything",
+      "publishDate": "2025-12-10T21:00:59+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
