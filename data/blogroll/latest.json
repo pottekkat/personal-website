@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-12-12T10:44:48.885303",
+  "lastUpdated": "2025-12-13T10:41:12.099640",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Fishing",
-      "postUrl": "https://xkcd.com/3179/",
-      "publishDate": "Wed, 10 Dec 2025 05:00:00 -0000"
+      "postTitle": "Apples",
+      "postUrl": "https://xkcd.com/3180/",
+      "publishDate": "Fri, 12 Dec 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "GPT-5.2",
-      "postUrl": "https://simonwillison.net/2025/Dec/11/gpt-52/#atom-everything",
-      "publishDate": "2025-12-11T23:58:04+00:00"
+      "postTitle": "Quoting OpenAI Codex CLI",
+      "postUrl": "https://simonwillison.net/2025/Dec/13/openai-codex-cli/#atom-everything",
+      "publishDate": "2025-12-13T03:47:43+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Go proposal: Secret mode",
-      "postUrl": "https://antonz.org/accepted/runtime-secret/",
-      "publishDate": "Tue, 09 Dec 2025 10:00:00 +0000"
+      "postTitle": "Gist of Go: Concurrency is out!",
+      "postUrl": "https://antonz.org/go-concurrency-released/",
+      "publishDate": "Fri, 12 Dec 2025 10:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
