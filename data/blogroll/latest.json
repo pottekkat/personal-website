@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-14T10:41:32.545727",
+  "lastUpdated": "2025-12-15T10:48:50.518393",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Copywriters reveal how AI has decimated their industry",
-      "postUrl": "https://simonwillison.net/2025/Dec/14/copywriters-reveal-how-ai-has-decimated-their-industry/#atom-everything",
-      "publishDate": "2025-12-14T05:06:19+00:00"
+      "postTitle": "JustHTML is a fascinating example of vibe engineering in action",
+      "postUrl": "https://simonwillison.net/2025/Dec/14/justhtml/#atom-everything",
+      "publishDate": "2025-12-14T15:59:23+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Gist of Go: Concurrency is out!",
-      "postUrl": "https://antonz.org/go-concurrency-released/",
-      "publishDate": "Fri, 12 Dec 2025 10:30:00 +0000"
+      "postTitle": "Timing 'Hello, world'",
+      "postUrl": "https://antonz.org/timing-hello-world/",
+      "publishDate": "Mon, 15 Dec 2025 10:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
