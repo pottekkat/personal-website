@@ -14,10 +14,12 @@ bookMeta:
         - Science
         - Engineering
         - Philosophy
-    status: Reading
+    status: Read
     rating: 4
     coverImage: /images/books/covers/the-art-of-doing-science-and-engineering.jpg
     goodreadsUrl: https://www.goodreads.com/book/show/53349431-the-art-of-doing-science-and-engineering
 ---
 
 _**The Art of Doing Science and Engineering**_ is a textbook on thinking like an engineer from one of the greats. While this was taught initially 30-40 years ago, the lessons still resonate in a timeless/evergreen way.
+
+I skipped the middle chapters of the book and went straight to the final chapters on _Creativity_, _Experts_, and the most famous, _You and your research_.
