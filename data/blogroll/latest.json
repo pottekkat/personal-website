@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-12-15T10:48:50.518393",
+  "lastUpdated": "2025-12-16T10:45:39.264664",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Apples",
-      "postUrl": "https://xkcd.com/3180/",
-      "publishDate": "Fri, 12 Dec 2025 05:00:00 -0000"
+      "postTitle": "Jumping Frog Radius",
+      "postUrl": "https://xkcd.com/3181/",
+      "publishDate": "Mon, 15 Dec 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "JustHTML is a fascinating example of vibe engineering in action",
-      "postUrl": "https://simonwillison.net/2025/Dec/14/justhtml/#atom-everything",
-      "publishDate": "2025-12-14T15:59:23+00:00"
+      "postTitle": "Quoting Gemini thinking trace",
+      "postUrl": "https://simonwillison.net/2025/Dec/16/gemini-thinking-trace/#atom-everything",
+      "publishDate": "2025-12-16T04:09:51+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
