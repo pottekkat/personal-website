@@ -1,6 +1,16 @@
 {
-  "last_updated": "2025-12-16T16:15:05.164174+05:30",
+  "last_updated": "2025-12-17T16:15:05.292065+05:30",
   "links": [
+    {
+      "id": "01kcnfz1wgezanq37n11ws0yyy",
+      "title": "Red Bull Racing’s secret weapon? An engineer who treats workflows like lap times",
+      "author": "Connie Loizos",
+      "source_url": "https://techcrunch.com/2025/11/11/red-bull-racings-secret-weapon-an-engineer-who-treats-workflows-like-lap-times/?ref=dailydev",
+      "published_date": "2025-11-12",
+      "saved_at": "2025-12-17T11:59:08.112000+05:30",
+      "reading_time": "7 mins",
+      "category": "article"
+    },
     {
       "id": "01kchb0cnkegvh22v28x8jz6dj",
       "title": "CORE-Bench is solved (using Opus 4.5 with Claude Code)",
