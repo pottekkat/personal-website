@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-16T10:45:39.264664",
+  "lastUpdated": "2025-12-17T10:45:36.848123",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Europe is weak and delusional (but not doomed)",
-      "postUrl": "https://world.hey.com/dhh/europe-is-weak-and-delusional-but-not-doomed-8b10e7cb",
-      "publishDate": "2025-12-09T12:49:21Z"
+      "postTitle": "The O'Saasy License",
+      "postUrl": "https://world.hey.com/dhh/the-o-saasy-license-336c5c8f",
+      "publishDate": "2025-12-16T19:59:04Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Gemini thinking trace",
-      "postUrl": "https://simonwillison.net/2025/Dec/16/gemini-thinking-trace/#atom-everything",
-      "publishDate": "2025-12-16T04:09:51+00:00"
+      "postTitle": "firefox parser/html/java/README.txt",
+      "postUrl": "https://simonwillison.net/2025/Dec/17/firefox-parser/#atom-everything",
+      "publishDate": "2025-12-17T01:48:54+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
