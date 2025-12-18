@@ -1,6 +1,36 @@
 {
-  "last_updated": "2025-12-17T16:15:05.292065+05:30",
+  "last_updated": "2025-12-18T16:14:07.007891+05:30",
   "links": [
+    {
+      "id": "01kcqzbrsx13anzdysn67dq1y6",
+      "title": "How, and why, I invented OnlyFans. In 2004.",
+      "author": "Samuel Agboøla",
+      "source_url": "https://themosthandsomemanintheworld.com/how-and-why-i-invented-onlyfans-in-2004/",
+      "published_date": "2025-12-05",
+      "saved_at": "2025-12-18T11:06:42.300000+05:30",
+      "reading_time": "26 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kcpsb23gtpbawec4ecy2j7yx",
+      "title": "Vibe coding is boring",
+      "author": "cassidoo.co",
+      "source_url": "https://cassidoo.co/post/vibe-coding-yawn/?ref=dailydev",
+      "published_date": "2025-12-13",
+      "saved_at": "2025-12-18T00:02:13.168000+05:30",
+      "reading_time": "2 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kcpnj20yfnhxvwkftqd8e4wq",
+      "title": "DHH & Open Source",
+      "author": "Matt",
+      "source_url": "https://ma.tt/2025/12/dhh-open-source/?ref=dailydev",
+      "published_date": "2025-12-09",
+      "saved_at": "2025-12-17T22:56:08.158000+05:30",
+      "reading_time": "3 mins",
+      "category": "article"
+    },
     {
       "id": "01kcnfz1wgezanq37n11ws0yyy",
       "title": "Red Bull Racing’s secret weapon? An engineer who treats workflows like lap times",
