@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-12-17T10:45:36.848123",
+  "lastUpdated": "2025-12-18T10:44:41.368931",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Jumping Frog Radius",
-      "postUrl": "https://xkcd.com/3181/",
-      "publishDate": "Mon, 15 Dec 2025 05:00:00 -0000"
+      "postTitle": "Telescope Types",
+      "postUrl": "https://xkcd.com/3182/",
+      "publishDate": "Wed, 17 Dec 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "firefox parser/html/java/README.txt",
-      "postUrl": "https://simonwillison.net/2025/Dec/17/firefox-parser/#atom-everything",
-      "publishDate": "2025-12-17T01:48:54+00:00"
+      "postTitle": "Inside PostHog: How SSRF, a ClickHouse SQL Escaping 0day, and Default PostgreSQL Credentials Formed an RCE Chain",
+      "postUrl": "https://simonwillison.net/2025/Dec/18/ssrf-clickhouse-postgresql/#atom-everything",
+      "publishDate": "2025-12-18T01:42:22+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
