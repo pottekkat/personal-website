@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-18T10:44:41.368931",
+  "lastUpdated": "2025-12-19T10:44:08.199976",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Inside PostHog: How SSRF, a ClickHouse SQL Escaping 0day, and Default PostgreSQL Credentials Formed an RCE Chain",
-      "postUrl": "https://simonwillison.net/2025/Dec/18/ssrf-clickhouse-postgresql/#atom-everything",
-      "publishDate": "2025-12-18T01:42:22+00:00"
+      "postTitle": "Introducing GPT-5.2-Codex",
+      "postUrl": "https://simonwillison.net/2025/Dec/19/introducing-gpt-52-codex/#atom-everything",
+      "publishDate": "2025-12-19T05:21:17+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Timing 'Hello, world'",
-      "postUrl": "https://antonz.org/timing-hello-world/",
-      "publishDate": "Mon, 15 Dec 2025 10:00:00 +0000"
+      "postTitle": "Detecting goroutine leaks in modern Go",
+      "postUrl": "https://antonz.org/detecting-goroutine-leaks/",
+      "publishDate": "Thu, 18 Dec 2025 14:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
