@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-12-19T10:44:08.199976",
+  "lastUpdated": "2025-12-20T10:41:22.011927",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Telescope Types",
-      "postUrl": "https://xkcd.com/3182/",
-      "publishDate": "Wed, 17 Dec 2025 05:00:00 -0000"
+      "postTitle": "Pole Vault Pole",
+      "postUrl": "https://xkcd.com/3183/",
+      "publishDate": "Fri, 19 Dec 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Introducing GPT-5.2-Codex",
-      "postUrl": "https://simonwillison.net/2025/Dec/19/introducing-gpt-52-codex/#atom-everything",
-      "publishDate": "2025-12-19T05:21:17+00:00"
+      "postTitle": "Quoting Andrej Karpathy",
+      "postUrl": "https://simonwillison.net/2025/Dec/19/andrej-karpathy/#atom-everything",
+      "publishDate": "2025-12-19T23:07:52+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,7 +130,7 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Detecting goroutine leaks in modern Go",
+      "postTitle": "Detecting goroutine leaks with synctest/pprof",
       "postUrl": "https://antonz.org/detecting-goroutine-leaks/",
       "publishDate": "Thu, 18 Dec 2025 14:30:00 +0000"
     },
