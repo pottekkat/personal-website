@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-20T10:41:22.011927",
+  "lastUpdated": "2025-12-21T10:41:41.137129",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Andrej Karpathy",
-      "postUrl": "https://simonwillison.net/2025/Dec/19/andrej-karpathy/#atom-everything",
-      "publishDate": "2025-12-19T23:07:52+00:00"
+      "postTitle": "Quoting Shriram Krishnamurthi",
+      "postUrl": "https://simonwillison.net/2025/Dec/21/shriram-krishnamurthi/#atom-everything",
+      "publishDate": "2025-12-21T05:26:09+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Detecting goroutine leaks with synctest/pprof",
-      "postUrl": "https://antonz.org/detecting-goroutine-leaks/",
-      "publishDate": "Thu, 18 Dec 2025 14:30:00 +0000"
+      "postTitle": "Go feature: Modernized go fix",
+      "postUrl": "https://antonz.org/accepted/modernized-go-fix/",
+      "publishDate": "Sat, 20 Dec 2025 16:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
