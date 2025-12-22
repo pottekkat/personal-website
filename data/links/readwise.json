@@ -1,6 +1,36 @@
 {
-  "last_updated": "2025-12-21T16:11:09.541409+05:30",
+  "last_updated": "2025-12-22T16:13:33.963920+05:30",
   "links": [
+    {
+      "id": "01kd2g4xj2k1nrbr3a3pv698c3",
+      "title": "AI agents are starting to eat SaaS",
+      "author": "Martin Alderson",
+      "source_url": "https://martinalderson.com/posts/ai-agents-are-starting-to-eat-saas/",
+      "published_date": "2025-12-15",
+      "saved_at": "2025-12-22T13:12:27.906000+05:30",
+      "reading_time": "7 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kd2cxa1apqqzj52vxw2wyq9t",
+      "title": "The 26 Most Important Ideas For 2026",
+      "author": "Derek Thompson",
+      "source_url": "https://www.derekthompson.org/p/the-26-most-important-ideas-for-2026",
+      "published_date": "2025-12-10",
+      "saved_at": "2025-12-22T12:15:52.810000+05:30",
+      "reading_time": "22 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kd2ckfwqffx99n8ek7afgjey",
+      "title": "Thin Desires Are Eating Your Life",
+      "author": "Westenberg.",
+      "source_url": "https://www.joanwestenberg.com/thin-desires-are-eating-your-life/",
+      "published_date": "2025-12-15",
+      "saved_at": "2025-12-22T12:10:31.126000+05:30",
+      "reading_time": "4 mins",
+      "category": "article"
+    },
     {
       "id": "01kcrs8yt98bev76c6sg3t6ywz",
       "title": "The Firefox Situation",
