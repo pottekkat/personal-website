@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-12-22T10:44:05.109872",
+  "lastUpdated": "2025-12-23T10:45:01.125773",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Pole Vault Pole",
-      "postUrl": "https://xkcd.com/3183/",
-      "publishDate": "Fri, 19 Dec 2025 05:00:00 -0000"
+      "postTitle": "Funny Numbers",
+      "postUrl": "https://xkcd.com/3184/",
+      "publishDate": "Mon, 22 Dec 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Shriram Krishnamurthi",
-      "postUrl": "https://simonwillison.net/2025/Dec/21/shriram-krishnamurthi/#atom-everything",
-      "publishDate": "2025-12-21T05:26:09+00:00"
+      "postTitle": "Cooking with Claude",
+      "postUrl": "https://simonwillison.net/2025/Dec/23/cooking-with-claude/#atom-everything",
+      "publishDate": "2025-12-23T05:01:34+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
