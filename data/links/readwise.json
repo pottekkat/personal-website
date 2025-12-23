@@ -1,6 +1,26 @@
 {
-  "last_updated": "2025-12-22T16:13:33.963920+05:30",
+  "last_updated": "2025-12-23T16:14:27.144840+05:30",
   "links": [
+    {
+      "id": "01kd4sk2ze72kvfj6jbkt0bytm",
+      "title": "Teach Your Kids To Pirate. Now.",
+      "author": "Reptarus On Ice",
+      "source_url": "https://www.youtube.com/watch?v=CBFlWUnjkRc",
+      "published_date": "2025-12-06",
+      "saved_at": "2025-12-23T10:35:58.254000+05:30",
+      "reading_time": null,
+      "category": "video"
+    },
+    {
+      "id": "01kd39vc2sqz1e357mdgy0twyy",
+      "title": "Ad Blockers helped kill the open web",
+      "author": "christianheilmann.com",
+      "source_url": "https://christianheilmann.com/2025/12/17/ad-blockers-helped-kill-the-open-web/?ref=dailydev",
+      "published_date": "2025-12-17",
+      "saved_at": "2025-12-22T20:41:38.073000+05:30",
+      "reading_time": "6 mins",
+      "category": "article"
+    },
     {
       "id": "01kd2g4xj2k1nrbr3a3pv698c3",
       "title": "AI agents are starting to eat SaaS",
