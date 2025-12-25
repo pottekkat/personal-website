@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-12-24T10:43:24.851447",
+  "lastUpdated": "2025-12-25T10:43:31.971590",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Funny Numbers",
-      "postUrl": "https://xkcd.com/3184/",
-      "publishDate": "Mon, 22 Dec 2025 05:00:00 -0000"
+      "postTitle": "Sauropods",
+      "postUrl": "https://xkcd.com/3185/",
+      "publishDate": "Wed, 24 Dec 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Salvatore Sanfilippo",
-      "postUrl": "https://simonwillison.net/2025/Dec/23/salvatore-sanfilippo/#atom-everything",
-      "publishDate": "2025-12-23T23:03:00+00:00"
+      "postTitle": "uv-init-demos",
+      "postUrl": "https://simonwillison.net/2025/Dec/24/uv-init-demos/#atom-everything",
+      "publishDate": "2025-12-24T22:05:23+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
