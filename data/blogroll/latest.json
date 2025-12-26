@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-25T10:43:31.971590",
+  "lastUpdated": "2025-12-26T10:43:29.512545",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "uv-init-demos",
-      "postUrl": "https://simonwillison.net/2025/Dec/24/uv-init-demos/#atom-everything",
-      "publishDate": "2025-12-24T22:05:23+00:00"
+      "postTitle": "A new way to extract detailed transcripts from Claude Code",
+      "postUrl": "https://simonwillison.net/2025/Dec/25/claude-code-transcripts/#atom-everything",
+      "publishDate": "2025-12-25T23:52:17+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
