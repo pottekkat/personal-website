@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-12-26T10:43:29.512545",
+  "lastUpdated": "2025-12-27T10:41:47.181268",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Sauropods",
-      "postUrl": "https://xkcd.com/3185/",
-      "publishDate": "Wed, 24 Dec 2025 05:00:00 -0000"
+      "postTitle": "Truly Universal Outlet",
+      "postUrl": "https://xkcd.com/3186/",
+      "publishDate": "Fri, 26 Dec 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "A new way to extract detailed transcripts from Claude Code",
-      "postUrl": "https://simonwillison.net/2025/Dec/25/claude-code-transcripts/#atom-everything",
-      "publishDate": "2025-12-25T23:52:17+00:00"
+      "postTitle": "textarea.my on GitHub",
+      "postUrl": "https://simonwillison.net/2025/Dec/27/textarea-my/#atom-everything",
+      "publishDate": "2025-12-27T03:23:34+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Go feature: Modernized go fix",
-      "postUrl": "https://antonz.org/accepted/modernized-go-fix/",
-      "publishDate": "Sat, 20 Dec 2025 16:00:00 +0000"
+      "postTitle": "'Better C' playgrounds",
+      "postUrl": "https://antonz.org/better-c/",
+      "publishDate": "Fri, 26 Dec 2025 19:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
