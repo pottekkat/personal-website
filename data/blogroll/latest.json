@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-28T10:42:31.611488",
+  "lastUpdated": "2025-12-29T10:45:02.341476",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Substack Network error = security content they don't allow to be sent",
-      "postUrl": "https://simonwillison.net/2025/Dec/28/substack-network-error/#atom-everything",
-      "publishDate": "2025-12-28T04:16:27+00:00"
+      "postTitle": "Quoting Aaron Levie",
+      "postUrl": "https://simonwillison.net/2025/Dec/29/aaron-levie/#atom-everything",
+      "publishDate": "2025-12-29T03:32:24+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
