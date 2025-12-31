@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-30T10:44:29.228716",
+  "lastUpdated": "2025-12-31T10:43:22.392153",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "shot-scraper 1.9",
-      "postUrl": "https://simonwillison.net/2025/Dec/29/shot-scraper/#atom-everything",
-      "publishDate": "2025-12-29T22:33:13+00:00"
+      "postTitle": "Quoting Armin Ronacher",
+      "postUrl": "https://simonwillison.net/2025/Dec/30/armin-ronacher/#atom-everything",
+      "publishDate": "2025-12-30T23:54:58+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -109,9 +109,9 @@
     {
       "blogTitle": "Orhun's Blog",
       "blogUrl": "https://blog.orhun.dev/",
-      "postTitle": "Am I a musician yet? - Superbooth 2025 Experience",
-      "postUrl": "https://blog.orhun.dev/am-i-a-musician-yet/",
-      "publishDate": "Mon, 12 May 2025 00:00:00 +0000"
+      "postTitle": "Looking back on 2025",
+      "postUrl": "https://blog.orhun.dev/2025-wrapped/",
+      "publishDate": "Wed, 31 Dec 2025 00:00:00 +0000"
     },
     {
       "blogTitle": "Derek Sivers",
