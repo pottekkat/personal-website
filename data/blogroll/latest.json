@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-12-31T10:43:22.392153",
+  "lastUpdated": "2026-01-01T10:43:49.324808",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "High Altitude Cooking Instructions",
-      "postUrl": "https://xkcd.com/3187/",
-      "publishDate": "Mon, 29 Dec 2025 05:00:00 -0000"
+      "postTitle": "Anyone Else Here",
+      "postUrl": "https://xkcd.com/3188/",
+      "publishDate": "Wed, 31 Dec 2025 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Armin Ronacher",
-      "postUrl": "https://simonwillison.net/2025/Dec/30/armin-ronacher/#atom-everything",
-      "publishDate": "2025-12-30T23:54:58+00:00"
+      "postTitle": "2025: The year in LLMs",
+      "postUrl": "https://simonwillison.net/2025/Dec/31/the-year-in-llms/#atom-everything",
+      "publishDate": "2025-12-31T23:50:40+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -67,9 +67,9 @@
     {
       "blogTitle": "Austin Z. Henley's Blog",
       "blogUrl": "https://austinhenley.com/",
-      "postTitle": "Langjam Gamejam: Build a programming language and then use it to make a game in 7 days",
-      "postUrl": "https://austinhenley.com/blog/langjamgamejam.html",
-      "publishDate": "Fri, 28 Nov 2025 16:00:01 -0400"
+      "postTitle": "I canceled my book deal",
+      "postUrl": "https://austinhenley.com/blog/canceledbookdeal.html",
+      "publishDate": "Wed, 31 Dec 2025 16:00:01 -0400"
     },
     {
       "blogTitle": "blog.jfo.click",
