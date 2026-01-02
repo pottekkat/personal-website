@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-01-01T16:13:16.163914+05:30",
+  "last_updated": "2026-01-02T16:12:25.247955+05:30",
   "links": [
+    {
+      "id": "01kdyv03d69kvy9w2vrnqv2jd2",
+      "title": "躺平 – Tang ping",
+      "author": "bugs",
+      "source_url": "https://chi.st/bugs/tang-ping",
+      "published_date": "2021-11-13",
+      "saved_at": "2026-01-02T13:20:48.485000+05:30",
+      "reading_time": "3 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kdyt82cf2qzwv2rpfwdzx5e7",
+      "title": "127 Responses to “ChatGPT and the Meaning of Life: Guest Post by Harvey Lederman”",
+      "author": "Scott Aaronson",
+      "source_url": "https://scottaaronson.blog/?p=9030",
+      "published_date": "2025-08-05",
+      "saved_at": "2026-01-02T13:07:41.007000+05:30",
+      "reading_time": "21 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kdyrbdhakwxdh3zrdxexsy32",
+      "title": "Recursive Language Models: the paradigm of 2026",
+      "author": "primeintellect.ai",
+      "source_url": "https://www.primeintellect.ai/blog/rlm",
+      "published_date": "2026-01-01",
+      "saved_at": "2026-01-02T12:34:33.577000+05:30",
+      "reading_time": "25 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kdyr4zec3pn0emjk87epja2v",
+      "title": "Today is a big day",
+      "author": "Kristine Willis",
+      "source_url": "https://x.com/kristine_willis/status/2001761573862334513/?s=46&t=AF9-om6Pp6KlsdZxPaX82g&rw_tt_thread=True",
+      "published_date": "2025-12-18",
+      "saved_at": "2026-01-02T12:31:02.540000+05:30",
+      "reading_time": "3 mins",
+      "category": "tweet"
+    },
+    {
+      "id": "01kdwq9626f3j68pked7kf5qa8",
+      "title": "I made auto-aim for mini golf",
+      "author": "Stuff Made Here",
+      "source_url": "https://www.youtube.com/watch?v=JQB8aNKyeao",
+      "published_date": "2025-12-31",
+      "saved_at": "2026-01-01T17:37:22.950000+05:30",
+      "reading_time": null,
+      "category": "video"
+    },
+    {
+      "id": "01kdwjqkfdk459rxgem1sqp774",
+      "title": "Unnamed video",
+      "author": "Unknown",
+      "source_url": "https://www.youtube.com/watch?v=MiUHjLxm3V0",
+      "published_date": null,
+      "saved_at": "2026-01-01T16:17:52.556000+05:30",
+      "reading_time": null,
+      "category": "video"
+    },
     {
       "id": "01kdwhjg358yx9xd0xgatmy7mj",
       "title": "#36: Conversations with Tyler Cowen",
