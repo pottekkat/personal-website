@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-01-02T16:12:25.247955+05:30",
+  "last_updated": "2026-01-03T16:11:44.619261+05:30",
   "links": [
+    {
+      "id": "01ke1pks9pftp6rcxygc8m966f",
+      "title": "The April Cools' Club Manifesto",
+      "author": "April Cools' Club",
+      "source_url": "https://www.aprilcools.club/",
+      "published_date": "2025-04-05",
+      "saved_at": "2026-01-03T16:01:53.910000+05:30",
+      "reading_time": "2 mins",
+      "category": "article"
+    },
+    {
+      "id": "01ke1ph9ss2r5n5h1y9vt8cfac",
+      "title": "The Wi-Fi only works when it's raining",
+      "author": "predr.ag",
+      "source_url": "https://predr.ag/blog/wifi-only-works-when-its-raining/",
+      "published_date": "2024-04-01",
+      "saved_at": "2026-01-03T16:00:32.504000+05:30",
+      "reading_time": "7 mins",
+      "category": "article"
+    },
+    {
+      "id": "01ke1ahyrh9jvjwv43jpww2y0n",
+      "title": "The rest of the world: \"AI agents are getting dangerous...",
+      "author": "Shane Gu",
+      "source_url": "https://x.com/shaneguml/status/2007213587585188341/?s=46&t=AF9-om6Pp6KlsdZxPaX82g&rw_tt_thread=True",
+      "published_date": "2026-01-02",
+      "saved_at": "2026-01-03T12:31:11.057000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet"
+    },
+    {
+      "id": "01ke03ve46vxv1a3z6b39tt7q6",
+      "title": "Musings from Murica’ - Generational Quests and Shovel Building",
+      "author": "Pranav Hari",
+      "source_url": "https://www.pranavhari.com/",
+      "published_date": "2026-01-01",
+      "saved_at": "2026-01-03T01:14:47.238000+05:30",
+      "reading_time": "3 mins",
+      "category": "article"
+    },
     {
       "id": "01kdyv03d69kvy9w2vrnqv2jd2",
       "title": "躺平 – Tang ping",
