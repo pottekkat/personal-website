@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-01-02T10:42:54.448215",
+  "lastUpdated": "2026-01-03T10:42:15.083739",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Anyone Else Here",
-      "postUrl": "https://xkcd.com/3188/",
-      "publishDate": "Wed, 31 Dec 2025 05:00:00 -0000"
+      "postTitle": "Conic Sections",
+      "postUrl": "https://xkcd.com/3189/",
+      "publishDate": "Fri, 02 Jan 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "December 2025 sponsors-only newsletter",
-      "postUrl": "https://simonwillison.net/2026/Jan/2/december/#atom-everything",
-      "publishDate": "2026-01-02T04:33:47+00:00"
+      "postTitle": "Was Daft Punk Having a Laugh When They Chose the Tempo of Harder, Better, Faster, Stronger?",
+      "postUrl": "https://simonwillison.net/2026/Jan/3/daft-punk/#atom-everything",
+      "publishDate": "2026-01-03T05:57:07+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -123,9 +123,9 @@
     {
       "blogTitle": "Maggie Appleton",
       "blogUrl": "https://maggieappleton.com/",
-      "postTitle": "A Treatise on AI Chatbots Undermining the Enlightenment",
-      "postUrl": "https://maggieappleton.com/ai-enlightenment/",
-      "publishDate": "Tue, 05 Aug 2025 00:00:00 GMT"
+      "postTitle": "January 2026",
+      "postUrl": "https://maggieappleton.com/now-2026-01/",
+      "publishDate": "Fri, 02 Jan 2026 00:00:00 GMT"
     },
     {
       "blogTitle": "Anton Zhiyanov",
