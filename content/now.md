@@ -44,6 +44,12 @@ Previously, I worked on open source projects in the cloud native space. I have t
 
 I write on this blog about my work and my other projects. I also send [occasional newsletters](/subscribe/) to a couple of hundred people.
 
+There are also posts that I want to write, but I have been procrastinating (for years, at this point). 2026 feels like a good year to start respecting my resolutions. I have concrete ideas about some of these posts and very vague one-line prompts that I gave myself years ago for most:
+
+1. Interactive technical deep dives on rarely covered topics around LLMs, agents, and AI, and on public policy/economics (maybe society?).
+2. Thoughts on Kerala, its culture, history, politics, and economy (I'm reading a lot for this now), and why I decided to vote with my feet this year and emigrate.
+3. Finding meaning and purpose in a world where my most meaningful and purposeful pursuits are being increasingly delegated to AI agents, ironically by myself.
+
 I don't plan to work on these full-time or scale and monetize them, at least for now.
 
 ## Reading
