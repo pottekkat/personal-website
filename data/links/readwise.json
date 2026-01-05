@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-01-04T16:12:01.184582+05:30",
+  "last_updated": "2026-01-05T16:16:09.316280+05:30",
   "links": [
+    {
+      "id": "01ke5q9ft3089ryaqp2ttfe8rw",
+      "title": "Web development is fun again",
+      "author": "Mattias Geniar",
+      "source_url": "https://ma.ttias.be/web-development-is-fun-again/",
+      "published_date": "2026-01-03",
+      "saved_at": "2026-01-05T05:30:42.819000+05:30",
+      "reading_time": "3 mins",
+      "category": "article"
+    },
+    {
+      "id": "01ke5pfa2qry1068vk49p200ct",
+      "title": "The Unbearable Joy of Sitting Alone in A Café",
+      "author": "candost.blog",
+      "source_url": "https://candost.blog/the-unbearable-joy-of-sitting-alone-in-a-cafe/",
+      "published_date": "2025-12-15",
+      "saved_at": "2026-01-05T05:16:24.983000+05:30",
+      "reading_time": "6 mins",
+      "category": "article"
+    },
+    {
+      "id": "01ke4v089wsje4s3cy3sbm0p47",
+      "title": "11:59 PM",
+      "author": "Atharva Raykar",
+      "source_url": "https://atharvaraykar.com/reinforce/",
+      "published_date": "2026-01-04",
+      "saved_at": "2026-01-04T21:16:20.092000+05:30",
+      "reading_time": "6 mins",
+      "category": "article"
+    },
+    {
+      "id": "01ke1scbs2g4qwm1e2zja7car9",
+      "title": "I’m a former CTO. Here is the 15 sec coding test I used to instantly filter out 50% of unqualified applicants.",
+      "author": "josezarazua.com",
+      "source_url": "https://josezarazua.com/im-a-former-cto-here-is-the-15-sec-coding-test-i-used-to-instantly-filter-out-50-of-unqualified-applicants/?ref=dailydev",
+      "published_date": "2025-12-17",
+      "saved_at": "2026-01-03T16:50:16.418000+05:30",
+      "reading_time": "2 mins",
+      "category": "article"
+    },
     {
       "id": "01ke1pks9pftp6rcxygc8m966f",
       "title": "The April Cools' Club Manifesto",
