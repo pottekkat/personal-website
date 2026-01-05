@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-04T10:42:33.459594",
+  "lastUpdated": "2026-01-05T10:46:43.502233",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Jaana Dogan",
-      "postUrl": "https://simonwillison.net/2026/Jan/4/jaana-dogan/#atom-everything",
-      "publishDate": "2026-01-04T03:03:20+00:00"
+      "postTitle": "The November 2025 inflection point",
+      "postUrl": "https://simonwillison.net/2026/Jan/4/inflection/#atom-everything",
+      "publishDate": "2026-01-04T23:21:42+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "2026",
-      "postUrl": "https://antonz.org/2026/",
-      "publishDate": "Thu, 01 Jan 2026 00:00:00 +0000"
+      "postTitle": "Fear is not advocacy",
+      "postUrl": "https://antonz.org/ai-advocacy/",
+      "publishDate": "Sun, 04 Jan 2026 12:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
