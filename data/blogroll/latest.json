@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-01-05T10:46:43.502233",
+  "lastUpdated": "2026-01-06T10:45:25.021655",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Conic Sections",
-      "postUrl": "https://xkcd.com/3189/",
-      "publishDate": "Fri, 02 Jan 2026 05:00:00 -0000"
+      "postTitle": "Tensegrity",
+      "postUrl": "https://xkcd.com/3190/",
+      "publishDate": "Mon, 05 Jan 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "The November 2025 inflection point",
-      "postUrl": "https://simonwillison.net/2026/Jan/4/inflection/#atom-everything",
-      "publishDate": "2026-01-04T23:21:42+00:00"
+      "postTitle": "It\u2019s hard to justify Tahoe icons",
+      "postUrl": "https://simonwillison.net/2026/Jan/5/its-hard-to-justify-tahoe-icons/#atom-everything",
+      "publishDate": "2026-01-05T19:30:24+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Fear is not advocacy",
-      "postUrl": "https://antonz.org/ai-advocacy/",
-      "publishDate": "Sun, 04 Jan 2026 12:00:00 +0000"
+      "postTitle": "Go 1.26 interactive tour",
+      "postUrl": "https://antonz.org/go-1-26/",
+      "publishDate": "Mon, 05 Jan 2026 13:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "The \"Taylor's Version\" generation is not gonna let Big AI steal her stuff",
-      "postUrl": "https://anildash.com/2025/09/18/the-taylors-version-generation/",
-      "publishDate": "2025-09-18T00:00:00Z"
+      "postTitle": "The Emancipation of the Chris Gaines of Mimi",
+      "postUrl": "https://anildash.com/2025/09/29/mariah-chick-chris-gaines/",
+      "publishDate": "2025-09-29T00:00:00Z"
     }
   ]
 }
