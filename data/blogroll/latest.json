@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-06T10:45:25.021655",
+  "lastUpdated": "2026-01-07T10:45:35.040704",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "The O'Saasy License",
-      "postUrl": "https://world.hey.com/dhh/the-o-saasy-license-336c5c8f",
-      "publishDate": "2025-12-16T19:59:04Z"
+      "postTitle": "Promoting AI agents",
+      "postUrl": "https://world.hey.com/dhh/promoting-ai-agents-3ee04945",
+      "publishDate": "2026-01-07T09:03:58Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "It\u2019s hard to justify Tahoe icons",
-      "postUrl": "https://simonwillison.net/2026/Jan/5/its-hard-to-justify-tahoe-icons/#atom-everything",
-      "publishDate": "2026-01-05T19:30:24+00:00"
+      "postTitle": "Quoting Robin Sloan",
+      "postUrl": "https://simonwillison.net/2026/Jan/7/robin-sloan/#atom-everything",
+      "publishDate": "2026-01-07T00:54:41+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "The Emancipation of the Chris Gaines of Mimi",
-      "postUrl": "https://anildash.com/2025/09/29/mariah-chick-chris-gaines/",
-      "publishDate": "2025-09-29T00:00:00Z"
+      "postTitle": "The Unexpected New Threat to Video Creators",
+      "postUrl": "https://anildash.com/2025/10/06/the-threat-to-video-creators/",
+      "publishDate": "2025-10-07T00:00:00Z"
     }
   ]
 }
