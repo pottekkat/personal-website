@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-01-07T10:45:35.040704",
+  "lastUpdated": "2026-01-08T10:45:51.372470",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Tensegrity",
-      "postUrl": "https://xkcd.com/3190/",
-      "publishDate": "Mon, 05 Jan 2026 05:00:00 -0000"
+      "postTitle": "Superstition",
+      "postUrl": "https://xkcd.com/3191/",
+      "publishDate": "Wed, 07 Jan 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Robin Sloan",
-      "postUrl": "https://simonwillison.net/2026/Jan/7/robin-sloan/#atom-everything",
-      "publishDate": "2026-01-07T00:54:41+00:00"
+      "postTitle": "Quoting Adam Wathan",
+      "postUrl": "https://simonwillison.net/2026/Jan/7/adam-wathan/#atom-everything",
+      "publishDate": "2026-01-07T17:29:29+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
