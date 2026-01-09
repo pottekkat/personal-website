@@ -1,6 +1,16 @@
 {
-  "last_updated": "2026-01-08T16:15:21.959478+05:30",
+  "last_updated": "2026-01-09T16:15:20.216444+05:30",
   "links": [
+    {
+      "id": "01keejt8xqm5fcn2ne7jr2cc3y",
+      "title": "Earning $10K with 161 Lines of JavaScript",
+      "author": "mirat.dev",
+      "source_url": "https://mirat.dev/articles/161-satir-javascript-ile-10k-dolar-yapmak/?ref=dailydev",
+      "published_date": null,
+      "saved_at": "2026-01-08T16:05:39.831000+05:30",
+      "reading_time": "2 mins",
+      "category": "article"
+    },
     {
       "id": "01ke9p99spaz59dbmgrnz6a9ry",
       "title": "The Internet Used to Be a Place",
