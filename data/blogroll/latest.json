@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-01-09T10:45:55.148353",
+  "lastUpdated": "2026-01-10T10:42:00.652757",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Superstition",
-      "postUrl": "https://xkcd.com/3191/",
-      "publishDate": "Wed, 07 Jan 2026 05:00:00 -0000"
+      "postTitle": "Planetary Alignment",
+      "postUrl": "https://xkcd.com/3192/",
+      "publishDate": "Fri, 09 Jan 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "LLM predictions for 2026, shared with Oxide and Friends",
-      "postUrl": "https://simonwillison.net/2026/Jan/8/llm-predictions-for-2026/#atom-everything",
-      "publishDate": "2026-01-08T19:42:13+00:00"
+      "postTitle": "Fly's new Sprites.dev addresses both developer sandboxes and API sandboxes at the same time",
+      "postUrl": "https://simonwillison.net/2026/Jan/9/sprites-dev/#atom-everything",
+      "publishDate": "2026-01-09T23:57:12+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
