@@ -1,6 +1,16 @@
 {
-  "last_updated": "2026-01-09T16:15:20.216444+05:30",
+  "last_updated": "2026-01-10T16:11:29.665403+05:30",
   "links": [
+    {
+      "id": "01kek1hqkkvy7pet5rc235c19s",
+      "title": "How Markdown took over the world",
+      "author": "Anil Dash",
+      "source_url": "https://www.anildash.com/2026/01/09/how-markdown-took-over-the-world/",
+      "published_date": "2026-01-09",
+      "saved_at": "2026-01-10T09:40:06.323000+05:30",
+      "reading_time": "18 mins",
+      "category": "article"
+    },
     {
       "id": "01keejt8xqm5fcn2ne7jr2cc3y",
       "title": "Earning $10K with 161 Lines of JavaScript",
