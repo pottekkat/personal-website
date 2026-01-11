@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-10T10:42:00.652757",
+  "lastUpdated": "2026-01-11T10:42:47.290530",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Fly's new Sprites.dev addresses both developer sandboxes and API sandboxes at the same time",
-      "postUrl": "https://simonwillison.net/2026/Jan/9/sprites-dev/#atom-everything",
-      "publishDate": "2026-01-09T23:57:12+00:00"
+      "postTitle": "Quoting Linus Torvalds",
+      "postUrl": "https://simonwillison.net/2026/Jan/11/linus-torvalds/#atom-everything",
+      "publishDate": "2026-01-11T02:29:58+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
