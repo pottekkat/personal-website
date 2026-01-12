@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-01-03T17:08:54+05:30",
+  "lastUpdated": "2026-01-12T12:57:16+05:30",
   "entries": [
+    {
+      "hash": "334ed29",
+      "date": "2026-01-12T12:54:09+05:30",
+      "message": "Corrected a minor text issue in a Markdown file."
+    },
+    {
+      "hash": "2f60427",
+      "date": "2026-01-12T12:53:43+05:30",
+      "message": "Added a new TIL entry about Markdown and its naming origin."
+    },
     {
       "hash": "aa75292",
       "date": "2026-01-03T17:05:44+05:30",
