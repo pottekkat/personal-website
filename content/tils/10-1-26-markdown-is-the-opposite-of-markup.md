@@ -5,7 +5,7 @@ description: "A play on words."
 fmContentType: TILs
 ---
 
-The ubiquitous format for writing text on the internet, Mark*down*, gets its name from Mark*up*—as in Hyper Text **Markup** Language (HTML).
+The [ubiquitous format for writing text on the internet](https://www.anildash.com/2026/01/09/how-markdown-took-over-the-world/), Mark*down*, gets its name from Mark*up*—as in Hyper Text **Markup** Language (HTML).
 
 The idea was that in the early days of blogs, writing HTML Mark*up* was complicated and the opposite of that complexity must be named Mark*down*.
 
