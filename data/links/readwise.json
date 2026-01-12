@@ -1,6 +1,76 @@
 {
-  "last_updated": "2026-01-11T16:12:15.282371+05:30",
+  "last_updated": "2026-01-12T16:16:06.851377+05:30",
   "links": [
+    {
+      "id": "01kermpahzj6xg68m0jtmn1xmv",
+      "title": "How Github monopoly is destroying the open source ecosystem",
+      "author": "ploum.net",
+      "source_url": "https://ploum.net/2026-01-05-unteaching_github.html?ref=dailydev",
+      "published_date": "2026-01-05",
+      "saved_at": "2026-01-12T13:50:51.902000+05:30",
+      "reading_time": "5 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kerbnegzhvd3swpat17yabks",
+      "title": "Which programming languages are most token-efficient?",
+      "author": "Martin Alderson",
+      "source_url": "https://martinalderson.com/posts/which-programming-languages-are-most-token-efficient/",
+      "published_date": "2026-01-08",
+      "saved_at": "2026-01-12T11:13:06.015000+05:30",
+      "reading_time": "3 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kerbe0nbhahajshdcabq1b9c",
+      "title": "2026 is the Year of Self-hosting",
+      "author": "Jordan Fulghum",
+      "source_url": "https://fulghum.io/self-hosting",
+      "published_date": "2026-01-05",
+      "saved_at": "2026-01-12T11:09:02.443000+05:30",
+      "reading_time": "5 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kera53dtsgvsd32bv494xpsr",
+      "title": "Don't fall into the anti-AI hype",
+      "author": "antirez.com",
+      "source_url": "https://antirez.com/news/158",
+      "published_date": "2026-01-11",
+      "saved_at": "2026-01-12T10:46:41.785000+05:30",
+      "reading_time": "5 mins",
+      "category": "article"
+    },
+    {
+      "id": "01kera0zn2w3s78tjed7cp5k72",
+      "title": "What Happened To WebAssembly",
+      "author": "EmNudge",
+      "source_url": "https://emnudge.dev/blog/what-happened-to-webassembly/?ref=dailydev",
+      "published_date": "2025-12-31",
+      "saved_at": "2026-01-12T10:44:26.849000+05:30",
+      "reading_time": "8 mins",
+      "category": "article"
+    },
+    {
+      "id": "01keqmpbr0s5dptz896a8w7st4",
+      "title": "My answers to the questions I posed about porting open source code with LLMs",
+      "author": "Simon Willison's Weblog",
+      "source_url": "https://simonwillison.net/2026/Jan/11/answers/#atom-everything",
+      "published_date": "2026-01-11",
+      "saved_at": "2026-01-12T04:31:35.688000+05:30",
+      "reading_time": "4 mins",
+      "category": "rss"
+    },
+    {
+      "id": "01keqk0rd38h948rgftdaq7sky",
+      "title": "Goodbye 2025",
+      "author": "blog.jfo.click",
+      "source_url": "https://blog.jfo.click/goodbye-2025",
+      "published_date": "2026-01-10",
+      "saved_at": "2026-01-12T04:02:19.180000+05:30",
+      "reading_time": "3 mins",
+      "category": "rss"
+    },
     {
       "id": "01kek1hqkkvy7pet5rc235c19s",
       "title": "How Markdown took over the world",
