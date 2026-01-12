@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-11T10:42:47.290530",
+  "lastUpdated": "2026-01-12T10:46:39.168814",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Linus Torvalds",
-      "postUrl": "https://simonwillison.net/2026/Jan/11/linus-torvalds/#atom-everything",
-      "publishDate": "2026-01-11T02:29:58+00:00"
+      "postTitle": "Don't fall into the anti-AI hype",
+      "postUrl": "https://simonwillison.net/2026/Jan/11/dont-fall-into-the-anti-ai-hype/#atom-everything",
+      "publishDate": "2026-01-11T23:58:43+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -74,9 +74,9 @@
     {
       "blogTitle": "blog.jfo.click",
       "blogUrl": "http://blog.jfo.click/",
-      "postTitle": "It's Just a Function",
-      "postUrl": "https://blog.jfo.click/it-s-just-a-function",
-      "publishDate": "Jan 08, 2023"
+      "postTitle": "Goodbye 2025",
+      "postUrl": "https://blog.jfo.click/goodbye-2025",
+      "publishDate": "Jan 11, 2026"
     },
     {
       "blogTitle": "Julia Evans",
