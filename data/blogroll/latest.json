@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-01-12T10:46:39.168814",
+  "lastUpdated": "2026-01-13T10:46:17.341255",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Planetary Alignment",
-      "postUrl": "https://xkcd.com/3192/",
-      "publishDate": "Fri, 09 Jan 2026 05:00:00 -0000"
+      "postTitle": "Sailing Rigs",
+      "postUrl": "https://xkcd.com/3193/",
+      "publishDate": "Mon, 12 Jan 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Don't fall into the anti-AI hype",
-      "postUrl": "https://simonwillison.net/2026/Jan/11/dont-fall-into-the-anti-ai-hype/#atom-everything",
-      "publishDate": "2026-01-11T23:58:43+00:00"
+      "postTitle": "Superhuman AI Exfiltrates Emails",
+      "postUrl": "https://simonwillison.net/2026/Jan/12/superhuman-ai-exfiltrates-emails/#atom-everything",
+      "publishDate": "2026-01-12T22:24:54+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "The \u201cDon\u2019t Ask, Don\u2019t Tell\u201d Era of DEI",
-      "postUrl": "https://anildash.com/2025/10/07/dadt-dei/",
-      "publishDate": "2025-10-07T00:00:00Z"
+      "postTitle": "ChatGPT's Atlas: The Browser That's Anti-Web",
+      "postUrl": "https://anildash.com/2025/10/22/atlas-anti-web-browser/",
+      "publishDate": "2025-10-22T00:00:00Z"
     }
   ]
 }
