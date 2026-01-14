@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-13T10:46:17.341255",
+  "lastUpdated": "2026-01-14T10:46:28.190074",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Superhuman AI Exfiltrates Emails",
-      "postUrl": "https://simonwillison.net/2026/Jan/12/superhuman-ai-exfiltrates-emails/#atom-everything",
-      "publishDate": "2026-01-12T22:24:54+00:00"
+      "postTitle": "Anthropic invests $1.5 million in the Python Software Foundation and open source security",
+      "postUrl": "https://simonwillison.net/2026/Jan/13/anthropic-invests-15-million-in-the-python-software-foundation-a/#atom-everything",
+      "publishDate": "2026-01-13T23:58:17+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "ChatGPT's Atlas: The Browser That's Anti-Web",
-      "postUrl": "https://anildash.com/2025/10/22/atlas-anti-web-browser/",
-      "publishDate": "2025-10-22T00:00:00Z"
+      "postTitle": "The Majority AI View",
+      "postUrl": "https://anildash.com/2025/10/17/the-majority-ai-view/",
+      "publishDate": "2025-10-17T00:00:00Z"
     }
   ]
 }
