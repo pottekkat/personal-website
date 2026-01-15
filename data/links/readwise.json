@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-01-14T16:15:59.540994+05:30",
+  "last_updated": "2026-01-15T16:15:22.331837+05:30",
   "links": [
+    {
+      "id": "01kf0gzdd89j6wtrdwpcxcentg",
+      "title": "the most unhinged (recent!) computer science discoveries",
+      "author": "LaurieWired",
+      "source_url": "https://www.youtube.com/watch?v=wgJojeXcuc4",
+      "published_date": "2026-01-14",
+      "saved_at": "2026-01-15T15:19:50.887000+05:30",
+      "reading_time": null,
+      "category": "video"
+    },
+    {
+      "id": "01keynwdbj3p01v8hv15zxrqt1",
+      "title": "I charged $18,000 for a Static HTML Page",
+      "author": "Ibrahim Diallo",
+      "source_url": "https://idiallo.com/blog/18000-dollars-static-web-page?ref=dailydev",
+      "published_date": "2019-05-05",
+      "saved_at": "2026-01-14T22:07:06.546000+05:30",
+      "reading_time": "7 mins",
+      "category": "article"
+    },
     {
       "id": "01kermpahzj6xg68m0jtmn1xmv",
       "title": "How Github monopoly is destroying the open source ecosystem",
