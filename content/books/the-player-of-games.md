@@ -15,7 +15,7 @@ bookMeta:
     - Space
     - Fiction
   status: Read
-  rating: 0
+  rating: 4
   coverImage: /images/books/covers/the-player-of-games.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/200779195-the-player-of-games
 fmContentType: Book Review
