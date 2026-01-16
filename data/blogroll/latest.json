@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-15T10:45:55.183877",
+  "lastUpdated": "2026-01-16T10:47:58.145051",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Boaz Barak, Gabriel Wu, Jeremy Chen and Manas Joglekar",
-      "postUrl": "https://simonwillison.net/2026/Jan/15/boaz-barak-gabriel-wu-jeremy-chen-and-manas-joglekar/#atom-everything",
-      "publishDate": "2026-01-15T00:56:27+00:00"
+      "postTitle": "Open Responses",
+      "postUrl": "https://simonwillison.net/2026/Jan/15/open-responses/#atom-everything",
+      "publishDate": "2026-01-15T23:56:56+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "The Majority AI View",
-      "postUrl": "https://anildash.com/2025/10/17/the-majority-ai-view/",
-      "publishDate": "2025-10-17T00:00:00Z"
+      "postTitle": "ChatGPT's Atlas: The Browser That's Anti-Web",
+      "postUrl": "https://anildash.com/2025/10/22/atlas-anti-web-browser/",
+      "publishDate": "2025-10-22T00:00:00Z"
     }
   ]
 }
