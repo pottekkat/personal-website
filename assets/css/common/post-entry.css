@@ -107,6 +107,13 @@
     font-size: 13px;
 }
 
+.featured-badge svg {
+    height: 10px;
+    width: 10px;
+    vertical-align: baseline;
+    margin: auto 4px;
+}
+
 .til-entry-footer {
     color: var(--secondary);
     font-size: 13px;

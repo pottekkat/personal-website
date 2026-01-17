@@ -33,6 +33,13 @@
     margin: auto 4px;
 }
 
+.featured-badge svg {
+    height: 10px;
+    width: 10px;
+    vertical-align: baseline;
+    margin: auto 4px;
+}
+
 .post-meta .i18n_list li {
     display: inline-flex;
     list-style: none;

@@ -39,3 +39,4 @@
 {{- with ($scratch.Get "meta") }}
 {{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
 {{- end -}}
+{{- if in .Params.categories "Featured" }}&nbsp;·&nbsp;<span class="featured-badge"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0.3 -0.75 12.9 12.32" fill="currentColor"><path d="M7.254-.443a.565.565 0 0 0-1.004 0l-1.725 3.38-3.748.595a.563.563 0 0 0-.312.954L3.146 7.17l-.591 3.748a.564.564 0 0 0 .811.591l3.384-1.72 3.384 1.719a.563.563 0 0 0 .811-.591l-.593-3.748 2.681-2.684c.15-.15.202-.37.136-.572s-.237-.349-.448-.382l-3.744-.594z"></path></svg></span>Featured{{- end -}}
