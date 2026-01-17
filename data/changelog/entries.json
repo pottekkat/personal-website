@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-01-16T21:44:21+05:30",
+  "lastUpdated": "2026-01-17T16:23:07+05:30",
   "entries": [
+    {
+      "hash": "4d8f7a3",
+      "date": "2026-01-17T16:18:55+05:30",
+      "message": "Added a featured icon to highlight specific posts."
+    },
+    {
+      "hash": "24912dd",
+      "date": "2026-01-17T16:18:55+05:30",
+      "message": "Enabled displaying notes alongside links in the linkroll feature."
+    },
     {
       "hash": "e83afb4",
       "date": "2026-01-16T21:42:25+05:30",
