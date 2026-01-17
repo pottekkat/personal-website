@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-01-16T10:47:58.145051",
+  "lastUpdated": "2026-01-17T10:41:51.201519",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "16-Part Epoxy",
-      "postUrl": "https://xkcd.com/3194/",
-      "publishDate": "Wed, 14 Jan 2026 05:00:00 -0000"
+      "postTitle": "International Station",
+      "postUrl": "https://xkcd.com/3195/",
+      "publishDate": "Fri, 16 Jan 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Open Responses",
-      "postUrl": "https://simonwillison.net/2026/Jan/15/open-responses/#atom-everything",
-      "publishDate": "2026-01-15T23:56:56+00:00"
+      "postTitle": "Our approach to advertising and expanding access to ChatGPT",
+      "postUrl": "https://simonwillison.net/2026/Jan/16/chatgpt-ads/#atom-everything",
+      "publishDate": "2026-01-16T21:28:26+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
