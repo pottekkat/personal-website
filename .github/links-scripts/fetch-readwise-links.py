@@ -113,7 +113,8 @@ def filter_and_format_document(doc):
         'published_date': doc.get('published_date'),
         'saved_at': saved_at,
         'reading_time': doc.get('reading_time'),
-        'category': doc['category']
+        'category': doc['category'],
+        'notes': doc.get('notes')
     }
 
 def main():
