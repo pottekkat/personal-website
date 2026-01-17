@@ -71,7 +71,7 @@
   {{- end }}
   {{- if not (.Param "hideMeta") }}
   <footer class="entry-footer">
-    {{- partial "post_meta.html" . -}}
+    {{- partial "post_meta.html" (dict "page" . "hideFeatured" (or $.IsHome (eq $term "Featured"))) -}}
   </footer>
   {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
