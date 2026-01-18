@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-17T16:11:16.928968+05:30",
+  "last_updated": "2026-01-18T16:12:00.685081+05:30",
   "links": [
+    {
+      "id": "01kf7q06vp581x1t1618ndt3ev",
+      "title": "Simulating the ladybug clock puzzle",
+      "author": "Austin Z. Henley",
+      "source_url": "https://austinhenley.com/blog/ladybugclock.html?__readwiseLocation=",
+      "published_date": "2026-01-17",
+      "saved_at": "2026-01-18T10:19:49.429000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kf6s7phrccm2zwmyzc1hxbgr",
+      "title": "Simulating the ladybug clock puzzle",
+      "author": "azhenley@cmu.edu (Austin Z. Henley)",
+      "source_url": "https://austinhenley.com/blog/ladybugclock.html",
+      "published_date": "2026-01-17",
+      "saved_at": "2026-01-18T01:39:34.593000+05:30",
+      "reading_time": "2 mins",
+      "category": "rss",
+      "notes": ""
+    },
     {
       "id": "01kf0gzdd89j6wtrdwpcxcentg",
       "title": "the most unhinged (recent!) computer science discoveries",
