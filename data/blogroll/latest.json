@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-17T10:41:51.201519",
+  "lastUpdated": "2026-01-18T10:42:37.778594",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Our approach to advertising and expanding access to ChatGPT",
-      "postUrl": "https://simonwillison.net/2026/Jan/16/chatgpt-ads/#atom-everything",
-      "publishDate": "2026-01-16T21:28:26+00:00"
+      "postTitle": "Quoting Jeremy Daer",
+      "postUrl": "https://simonwillison.net/2026/Jan/17/jeremy-daer/#atom-everything",
+      "publishDate": "2026-01-17T17:06:41+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -67,9 +67,9 @@
     {
       "blogTitle": "Austin Z. Henley's Blog",
       "blogUrl": "https://austinhenley.com/",
-      "postTitle": "I canceled my book deal",
-      "postUrl": "https://austinhenley.com/blog/canceledbookdeal.html",
-      "publishDate": "Wed, 31 Dec 2025 16:00:01 -0400"
+      "postTitle": "Simulating the ladybug clock puzzle",
+      "postUrl": "https://austinhenley.com/blog/ladybugclock.html",
+      "publishDate": "Sat, 17 Jan 2026 16:00:01 -0400"
     },
     {
       "blogTitle": "blog.jfo.click",
