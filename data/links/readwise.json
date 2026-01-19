@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-01-18T16:12:00.685081+05:30",
+  "last_updated": "2026-01-19T16:17:44.622527+05:30",
   "links": [
+    {
+      "id": "01kfandj1zes756rm7gsyvfqyq",
+      "title": "according to psychology people who often talk to themselves build...",
+      "author": "blue",
+      "source_url": "https://x.com/bluewmist/status/2012888988411969726/?rw_tt_thread=True",
+      "published_date": "2026-01-18",
+      "saved_at": "2026-01-19T13:49:53.023000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kfaf73xbgz22y2mckny03pwz",
+      "title": "Meta Jury Markets",
+      "author": "Robin Hanson",
+      "source_url": "https://www.overcomingbias.com/p/meta-jury-markets",
+      "published_date": "2024-06-13",
+      "saved_at": "2026-01-19T12:01:30.475000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kfaew5v40k037sz853v1k6ef",
+      "title": "The Most Important Scarce Resource is Legitimacy",
+      "author": "eth.limo",
+      "source_url": "https://vitalik.eth.limo/general/2021/03/23/legitimacy.html",
+      "published_date": "2024-03-23",
+      "saved_at": "2026-01-19T11:55:32.004000+05:30",
+      "reading_time": "16 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kfaehwjphen5076accnnf361",
+      "title": "Futarchy: Vote Values, But Bet Beliefs",
+      "author": "Robin Hanson",
+      "source_url": "https://mason.gmu.edu/~rhanson/futarchy.html",
+      "published_date": "2008-12-21",
+      "saved_at": "2026-01-19T11:49:54.838000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kfa9bm6tbtj8x95gye3kh0m9",
+      "title": "The tools I love are made by awful people",
+      "author": "ankursethi.com",
+      "source_url": "https://ankursethi.com/blog/the-tools-i-love-are-made-by-awful-people/",
+      "published_date": "2025-04-23",
+      "saved_at": "2026-01-19T10:19:06.778000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": "I pick my battles when it comes to similar things. My MacBook is objectively better at getting things done than my ThinkPad running Linux Mint. But I get to make free and open source software on my Mac, which is a win and a net positive."
+    },
+    {
+      "id": "01kfa637439ty448bcfcn1ygtc",
+      "title": "Dead Internet Theory",
+      "author": "Dmitry Kudryavtsev",
+      "source_url": "https://kudmitry.com/articles/dead-internet-theory/",
+      "published_date": "2026-01-18",
+      "saved_at": "2026-01-19T09:22:05.507000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": "I've been hanging out with IndieWebClub in Bangalore and it is a nice breakaway from the dead Internet. 30 people, on their laptops, writing on their personal websites—the Internet has never been more alive (yes, I did type an em-dash there)."
+    },
+    {
+      "id": "01kfa5b0m61ygxpk1crwz4er5k",
+      "title": "Agent Psychosis: Are We Going Insane?",
+      "author": "Armin Ronacher",
+      "source_url": "https://lucumr.pocoo.org/2026/1/18/agent-psychosis/",
+      "published_date": "2026-01-18",
+      "saved_at": "2026-01-19T09:08:52.421000+05:30",
+      "reading_time": "8 mins",
+      "category": "article",
+      "notes": "2026 might just be the year where we understand how coding workflows would look like in the future."
+    },
+    {
+      "id": "01kfa3z1k9dfpav1wwftxnnqdc",
+      "title": "Matt Damon and Ben Affleck on Rogan taking about how...",
+      "author": "cinesthetic.",
+      "source_url": "https://x.com/TheCinesthetic/status/2012455520968356265/?rw_tt_thread=True",
+      "published_date": "2026-01-17",
+      "saved_at": "2026-01-19T08:44:51.625000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": "I see this trend in Malayalam cinema as well where movies are optimized for streaming platforms. Fortunately, the good filmmakers outnumber these glorified Instagram Reels directors."
+    },
+    {
+      "id": "01kf8ftjx1y62r5z5zr6kph2ar",
+      "title": "Use the Bloody Shift Key!",
+      "author": "Kev Quirk",
+      "source_url": "https://kevquirk.com/blog/use-the-bloody-shift-key/",
+      "published_date": "2026-01-18",
+      "saved_at": "2026-01-18T17:33:36.554000+05:30",
+      "reading_time": "2 mins",
+      "category": "rss",
+      "notes": "It's a pet peeve for me too. I'm annoyed when people write all lowercase on Twitter even."
+    },
     {
       "id": "01kf7q06vp581x1t1618ndt3ev",
       "title": "Simulating the ladybug clock puzzle",
