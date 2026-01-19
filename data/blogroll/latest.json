@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-18T10:42:37.778594",
+  "lastUpdated": "2026-01-19T10:48:17.414509",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Jeremy Daer",
-      "postUrl": "https://simonwillison.net/2026/Jan/17/jeremy-daer/#atom-everything",
-      "publishDate": "2026-01-17T17:06:41+00:00"
+      "postTitle": "Scaling long-running autonomous coding",
+      "postUrl": "https://simonwillison.net/2026/Jan/19/scaling-long-running-autonomous-coding/#atom-everything",
+      "publishDate": "2026-01-19T05:12:51+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
