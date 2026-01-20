@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-19T16:17:44.622527+05:30",
+  "last_updated": "2026-01-20T16:18:59.468710+05:30",
   "links": [
+    {
+      "id": "01kfdbmdh5y48d31tq3fr64nk1",
+      "title": "how you play games is how you do everything.",
+      "author": "doozy",
+      "source_url": "https://www.youtube.com/watch?v=6Ke2vQsjh8I",
+      "published_date": "2024-05-11",
+      "saved_at": "2026-01-20T14:56:35.301000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kfcvj41dc65b4djrq9d5h0cr",
+      "title": "What are my intentions with you?",
+      "author": "itihas.review",
+      "source_url": "https://itihas.review/20260103163715-what_are_my_intentions_with_you.html#ID-287149a0-943c-4391-8712-c6e0c325b283",
+      "published_date": null,
+      "saved_at": "2026-01-20T10:15:42.829000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kfcqgwvy3snf5ftz6j4hjegd",
+      "title": "6,000 curl stickers",
+      "author": "Daniel Stenberg",
+      "source_url": "https://daniel.haxx.se/blog/2026/01/06/6000-curl-stickers/?ref=dailydev",
+      "published_date": "2026-01-06",
+      "saved_at": "2026-01-20T09:05:08.413000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kfb0vqgzm59kfdezcp7ethm7",
+      "title": "An Introduction to Futarchy",
+      "author": "Vitalik Buterin",
+      "source_url": "https://blog.ethereum.org/2014/08/21/introduction-futarchy",
+      "published_date": "2014-08-21",
+      "saved_at": "2026-01-19T17:09:51.711000+05:30",
+      "reading_time": "18 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kfa9kmp2mhrgacdgj5p8rf71",
+      "title": "Deadlines have carried me for years, but may no longer be enough (or, do I have ADHD?)",
+      "author": "anikthink.com",
+      "source_url": "https://blog.anikthink.com/blog/blog-2-do-i-have-adhd/",
+      "published_date": "2026-01-18",
+      "saved_at": "2026-01-19T10:23:29.409000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kfandj1zes756rm7gsyvfqyq",
       "title": "according to psychology people who often talk to themselves build...",
