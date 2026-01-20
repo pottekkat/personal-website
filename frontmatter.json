@@ -454,7 +454,9 @@
               "choices": [
                 "Reading",
                 "Want to Read",
-                "Read"
+                "Read",
+                "Paused",
+                "Abandoned"
               ]
             },
             {

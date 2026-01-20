@@ -15,7 +15,7 @@ bookMeta:
     - Physics
     - Science
     - Space
-  status: Reading
+  status: Paused
   rating: 0
   coverImage: /images/books/covers/astrophysics-for-people-in-a-hurry.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/32191710-astrophysics-for-people-in-a-hurry

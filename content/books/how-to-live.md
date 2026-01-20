@@ -12,7 +12,7 @@ bookMeta:
   genre:
     - Philosophy
     - Non-Fiction
-  status: Want to Read
+  status: Abandoned
   coverImage: /images/books/covers/how-to-live.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/61351606-how-to-live
   rating: 0

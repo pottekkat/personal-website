@@ -276,9 +276,11 @@ body:not(.grid-active):not(.list-active) #list { display: inline-block; }
   color: var(--content);
 }
 
-/* These are the only status variations we need */
+/* Status variations */
 .book-status.reading { font-style: italic; }
 .book-status.read { font-weight: 600; }
+.book-status.paused { color: var(--secondary); }
+.book-status.abandoned { color: var(--secondary); font-style: italic; }
 
 /* Table view styles */
 .books-table {
