@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-01-19T10:48:17.414509",
+  "lastUpdated": "2026-01-20T10:49:30.344987",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "International Station",
-      "postUrl": "https://xkcd.com/3195/",
-      "publishDate": "Fri, 16 Jan 2026 05:00:00 -0000"
+      "postTitle": "Aurora Coolness",
+      "postUrl": "https://xkcd.com/3196/",
+      "publishDate": "Mon, 19 Jan 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Scaling long-running autonomous coding",
-      "postUrl": "https://simonwillison.net/2026/Jan/19/scaling-long-running-autonomous-coding/#atom-everything",
-      "publishDate": "2026-01-19T05:12:51+00:00"
+      "postTitle": "jordanhubbard/nanolang",
+      "postUrl": "https://simonwillison.net/2026/Jan/19/nanolang/#atom-everything",
+      "publishDate": "2026-01-19T23:58:56+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
