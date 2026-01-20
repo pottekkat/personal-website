@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-01-20T17:40:39+05:30",
+  "lastUpdated": "2026-01-20T21:34:03+05:30",
   "entries": [
+    {
+      "hash": "0e570bc",
+      "date": "2026-01-20T21:30:39+05:30",
+      "message": "Updated book statuses and added new status options in metadata and layouts."
+    },
     {
       "hash": "5c45111",
       "date": "2026-01-20T17:39:51+05:30",
