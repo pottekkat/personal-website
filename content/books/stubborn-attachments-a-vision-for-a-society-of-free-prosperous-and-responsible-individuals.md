@@ -14,7 +14,7 @@ bookMeta:
     - Non-Fiction
     - Philosophy
     - Politics
-  status: Want to Read
+  status: Reading
   rating: 0
   coverImage: /images/books/covers/stubborn-attachments.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/41076657-stubborn-attachments
