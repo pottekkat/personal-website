@@ -1,15 +1,15 @@
 direct_link_string: There is a lot of traffic from direct links. I should level up
   my link-tagging game.
-most_visitors_date: 2nd January 2026
-most_visitors_visitors: 89
-runtime: 4:24 PM, 19th January 2026
+most_visitors_date: 19th January 2026
+most_visitors_visitors: 474
+runtime: 4:29 PM, 20th January 2026
 top_countries:
-- China
 - United States of America
+- China
 - India
-- Vietnam
-top_page_link: /posts/recursive-language-models/
-top_page_visitors: 6
+- Germany
+top_page_link: /posts/ladybug-clock-puzzle/
+top_page_visitors: 401
 top_sources:
 - Direct / None
 - Google
