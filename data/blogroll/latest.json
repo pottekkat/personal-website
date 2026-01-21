@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-20T10:49:30.344987",
+  "lastUpdated": "2026-01-21T10:48:51.876402",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "jordanhubbard/nanolang",
-      "postUrl": "https://simonwillison.net/2026/Jan/19/nanolang/#atom-everything",
-      "publishDate": "2026-01-19T23:58:56+00:00"
+      "postTitle": "Electricity use of AI coding agents",
+      "postUrl": "https://simonwillison.net/2026/Jan/20/electricity-use-of-ai-coding-agents/#atom-everything",
+      "publishDate": "2026-01-20T23:11:57+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,9 +144,8 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "ChatGPT's Atlas: The Browser That's Anti-Web",
-      "postUrl": "https://anildash.com/2025/10/22/atlas-anti-web-browser/",
-      "publishDate": "2025-10-22T00:00:00Z"
+      "error": true,
+      "errorMessage": "<urlopen error [Errno 101] Network is unreachable>"
     }
   ]
 }
