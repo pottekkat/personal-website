@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-20T16:18:59.468710+05:30",
+  "last_updated": "2026-01-21T16:18:19.536224+05:30",
   "links": [
+    {
+      "id": "01kffgvfph9mhfbwpd9w7cszta",
+      "title": "The infamous JoJo thought experiment - Michael Vazquez and Sarah Stroud",
+      "author": "TED-Ed",
+      "source_url": "https://www.youtube.com/watch?v=BT93bRX2t68",
+      "published_date": "2026-01-20",
+      "saved_at": "2026-01-21T11:06:18.641000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kffakg7mv7gjz4m2f0xvrw1s",
+      "title": "I'm addicted to being useful",
+      "author": "seangoedecke.com",
+      "source_url": "https://www.seangoedecke.com/addicted-to-being-useful/",
+      "published_date": "2026-01-20",
+      "saved_at": "2026-01-21T09:17:05.588000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kfdnhc1sg9h4xpvztcrc4m86",
+      "title": "Future-as-Label: Scalable Supervision from Real-World Outcomes",
+      "author": "Benjamin Turtel; Paul Wilczewski; Danny Franklin; Kris Skothiem",
+      "source_url": "https://arxiv.org/pdf/2601.06336",
+      "published_date": null,
+      "saved_at": "2026-01-20T17:49:41.241000+05:30",
+      "reading_time": "13 mins",
+      "category": "pdf",
+      "notes": ""
+    },
     {
       "id": "01kfdbmdh5y48d31tq3fr64nk1",
       "title": "how you play games is how you do everything.",
