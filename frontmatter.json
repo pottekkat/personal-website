@@ -469,7 +469,8 @@
             {
               "title": "Book Cover",
               "name": "coverImage",
-              "type": "image"
+              "type": "image",
+              "isPreviewImage": true
             },
             {
               "title": "Goodreads URL",
