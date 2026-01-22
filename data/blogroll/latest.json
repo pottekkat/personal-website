@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-01-21T10:48:51.876402",
+  "lastUpdated": "2026-01-22T10:48:06.813565",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Aurora Coolness",
-      "postUrl": "https://xkcd.com/3196/",
-      "publishDate": "Mon, 19 Jan 2026 05:00:00 -0000"
+      "postTitle": "Cost Savings",
+      "postUrl": "https://xkcd.com/3197/",
+      "publishDate": "Wed, 21 Jan 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Electricity use of AI coding agents",
-      "postUrl": "https://simonwillison.net/2026/Jan/20/electricity-use-of-ai-coding-agents/#atom-everything",
-      "publishDate": "2026-01-20T23:11:57+00:00"
+      "postTitle": "Claude's new constitution",
+      "postUrl": "https://simonwillison.net/2026/Jan/21/claudes-new-constitution/#atom-everything",
+      "publishDate": "2026-01-21T23:39:49+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,8 +144,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "error": true,
-      "errorMessage": "<urlopen error [Errno 101] Network is unreachable>"
+      "postTitle": "Founders Over Funders. Inventors Over Investors.",
+      "postUrl": "https://anildash.com/2025/10/24/founders-over-funders/",
+      "publishDate": "2025-10-24T00:00:00Z"
     }
   ]
 }
