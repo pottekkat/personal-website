@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-01-20T21:34:03+05:30",
+  "lastUpdated": "2026-01-22T06:51:31+05:30",
   "entries": [
+    {
+      "hash": "6a99543",
+      "date": "2026-01-22T06:50:45+05:30",
+      "message": "Added a new book review to the reading list."
+    },
+    {
+      "hash": "f8edb93",
+      "date": "2026-01-22T06:50:33+05:30",
+      "message": "Updated Hugo version in configuration files and added a new category."
+    },
     {
       "hash": "0e570bc",
       "date": "2026-01-20T21:30:39+05:30",
