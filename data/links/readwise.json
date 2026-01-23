@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-22T16:17:35.446367+05:30",
+  "last_updated": "2026-01-23T16:16:10.139443+05:30",
   "links": [
+    {
+      "id": "01kfmx6zs456g805zskgfcgqtt",
+      "title": "I built a light that can see radio waves",
+      "author": "Rootkid",
+      "source_url": "https://www.youtube.com/watch?v=moBCOEiqiPs",
+      "published_date": "2026-01-22",
+      "saved_at": "2026-01-23T13:18:30.627000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kfmegjs9bnmgr223rz28d1k9",
+      "title": "Why medieval city-builder video games are historically inaccurate",
+      "author": "leidenmedievalistsblog.nl",
+      "source_url": "https://www.leidenmedievalistsblog.nl/articles/why-medieval-city-builder-video-games-are-historically-inaccurate",
+      "published_date": "2020-04-30",
+      "saved_at": "2026-01-23T09:01:36.361000+05:30",
+      "reading_time": "10 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kfmed43xf1sv0t51hx00emjd",
+      "title": "GPTZero finds 100 new hallucinations in NeurIPS 2025 accepted papers",
+      "author": "gptzero.me",
+      "source_url": "https://gptzero.me/news/neurips/",
+      "published_date": "2026-01-21",
+      "saved_at": "2026-01-23T08:59:43.037000+05:30",
+      "reading_time": "25 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kfggrpzeybtcd6d5rmm6rk8c",
       "title": "if you are a polymath, robotics is the perfect field for you. here is why. ",
