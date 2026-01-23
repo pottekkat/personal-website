@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-22T10:48:06.813565",
+  "lastUpdated": "2026-01-23T10:46:41.784033",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Claude's new constitution",
-      "postUrl": "https://simonwillison.net/2026/Jan/21/claudes-new-constitution/#atom-everything",
-      "publishDate": "2026-01-21T23:39:49+00:00"
+      "postTitle": "Quoting Theia Vogel",
+      "postUrl": "https://simonwillison.net/2026/Jan/23/theia-vogel/#atom-everything",
+      "publishDate": "2026-01-23T09:13:54+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Go 1.26 interactive tour",
-      "postUrl": "https://antonz.org/go-1-26/",
-      "publishDate": "Mon, 05 Jan 2026 13:00:00 +0000"
+      "postTitle": "Interfaces and traits in C",
+      "postUrl": "https://antonz.org/interfaces-in-c/",
+      "publishDate": "Thu, 22 Jan 2026 12:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
