@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-01-23T10:46:41.784033",
+  "lastUpdated": "2026-01-24T10:42:56.565052",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Cost Savings",
-      "postUrl": "https://xkcd.com/3197/",
-      "publishDate": "Wed, 21 Jan 2026 05:00:00 -0000"
+      "postTitle": "Double-Pronged Extension Cord",
+      "postUrl": "https://xkcd.com/3198/",
+      "publishDate": "Fri, 23 Jan 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Theia Vogel",
-      "postUrl": "https://simonwillison.net/2026/Jan/23/theia-vogel/#atom-everything",
-      "publishDate": "2026-01-23T09:13:54+00:00"
+      "postTitle": "Wilson Lin on FastRender: a browser built by thousands of parallel agents",
+      "postUrl": "https://simonwillison.net/2026/Jan/23/fastrender/#atom-everything",
+      "publishDate": "2026-01-23T21:26:10+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -123,9 +123,9 @@
     {
       "blogTitle": "Maggie Appleton",
       "blogUrl": "https://maggieappleton.com/",
-      "postTitle": "January 2026",
-      "postUrl": "https://maggieappleton.com/now-2026-01/",
-      "publishDate": "Fri, 02 Jan 2026 00:00:00 GMT"
+      "postTitle": "Gas Town\u2019s Agent Patterns, Design Bottlenecks, and Vibecoding at Scale",
+      "postUrl": "https://maggieappleton.com/gastown/",
+      "publishDate": "Fri, 23 Jan 2026 00:00:00 GMT"
     },
     {
       "blogTitle": "Anton Zhiyanov",
