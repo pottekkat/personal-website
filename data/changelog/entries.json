@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-01-22T09:36:09+05:30",
+  "lastUpdated": "2026-01-26T15:33:35+05:30",
   "entries": [
+    {
+      "hash": "c4ee919",
+      "date": "2026-01-26T15:32:47+05:30",
+      "message": "Updated blogroll script for user agent handling and added a new blog."
+    },
     {
       "hash": "b908dfb",
       "date": "2026-01-22T09:35:15+05:30",
