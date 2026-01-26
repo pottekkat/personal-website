@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-01-25T16:13:12.814949+05:30",
+  "last_updated": "2026-01-26T16:16:44.450004+05:30",
   "links": [
+    {
+      "id": "01kfwv7fwe50v5vs6y7h21hw5r",
+      "title": "The Human in the Loop",
+      "author": "Adventures in Nodeland",
+      "source_url": "https://adventures.nodeland.dev/archive/the-human-in-the-loop/?ref=dailydev",
+      "published_date": "2026-01-18",
+      "saved_at": "2026-01-26T15:17:45.421000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kfwjbf0wvrc653c92qjak4st",
+      "title": "What Drew Me To Software Development And Open Source",
+      "author": "dylan.gr",
+      "source_url": "https://dylan.gr/1768802916",
+      "published_date": "2026-01-19",
+      "saved_at": "2026-01-26T12:42:38.428000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kfwhz7xsahdzpdf9w0v12krj",
+      "title": "Have Taken Up Farming",
+      "author": "dylan.gr",
+      "source_url": "https://dylan.gr/1768295794?ref=dailydev",
+      "published_date": "2026-01-13",
+      "saved_at": "2026-01-26T12:35:57.944000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kfw8ajwfh60c74shehm0d62q",
+      "title": "The secret to being happy in 2026? It’s far, far simpler than you think …",
+      "author": "Oliver Burkeman",
+      "source_url": "https://www.theguardian.com/lifeandstyle/2026/jan/03/secret-being-happy-2026-simpler-than-you-think",
+      "published_date": "2026-01-03",
+      "saved_at": "2026-01-26T09:47:23.855000+05:30",
+      "reading_time": "8 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kfw647htp1hb3r7gg9twgnrk",
+      "title": "Your life is not a ladder.",
+      "author": "Nadia Meli",
+      "source_url": "https://nadiameli.substack.com/p/your-life-is-not-a-ladder",
+      "published_date": "2025-07-06",
+      "saved_at": "2026-01-26T09:08:58.490000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kfw5r3vj9amtc5yr9m7enmga",
+      "title": "First, Make Me Care",
+      "author": "Gwern",
+      "source_url": "https://gwern.net/blog/2026/make-me-care",
+      "published_date": "2025-11-08",
+      "saved_at": "2026-01-26T09:02:21.490000+05:30",
+      "reading_time": "7 mins",
+      "category": "article",
+      "notes": "Great writing, for centuries, hook a reader. \"The hook\" isn't a new phenomenon limited to short-form videos but a ubiquitous hack of the human psychology."
+    },
+    {
+      "id": "01kftt8gv1yggpyp6t7z85eamg",
+      "title": "The Insecure Evangelism of LLM Maximalists",
+      "author": "lewiscampbell.tech",
+      "source_url": "https://lewiscampbell.tech/blog/260114.html?ref=dailydev",
+      "published_date": "2026-01-14",
+      "saved_at": "2026-01-25T20:22:21.729000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kfq36bzgrxype6rvkyzgk2w4",
       "title": "Do not give up your brain",
