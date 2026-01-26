@@ -1,12 +1,11 @@
 {
-  "lastUpdated": "2026-01-26T15:23:41.323310",
+  "lastUpdated": "2026-01-26T10:04:26.457760",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Double-Pronged Extension Cord",
-      "postUrl": "https://xkcd.com/3198/",
-      "publishDate": "Fri, 23 Jan 2026 05:00:00 -0000"
+      "error": true,
+      "errorMessage": "<unknown>:2:0: not well-formed (invalid token)"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +17,8 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "the browser is the sandbox",
-      "postUrl": "https://simonwillison.net/2026/Jan/25/the-browser-is-the-sandbox/#atom-everything",
-      "publishDate": "2026-01-25T23:51:32+00:00"
+      "error": true,
+      "errorMessage": "<unknown>:2:0: not well-formed (invalid token)"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -46,9 +44,8 @@
     {
       "blogTitle": "Tiny Projects",
       "blogUrl": "https://tinyprojects.dev/",
-      "postTitle": "Tiny Website | Tiny Projects",
-      "postUrl": "https://tinyprojects.dev/projects/tiny_website",
-      "publishDate": "Mon, 18 May 2020"
+      "error": true,
+      "errorMessage": "<unknown>:2:0: not well-formed (invalid token)"
     },
     {
       "blogTitle": "Kailash Nadh / Personal homepage",
@@ -81,9 +78,8 @@
     {
       "blogTitle": "Julia Evans",
       "blogUrl": "https://jvns.ca/",
-      "postTitle": "A data model for Git (and other docs updates)",
-      "postUrl": "https://jvns.ca/blog/2026/01/08/a-data-model-for-git/",
-      "publishDate": "2026-01-08T00:00:00+00:00"
+      "error": true,
+      "errorMessage": "<unknown>:2:0: not well-formed (invalid token)"
     },
     {
       "blogTitle": "Imposter!",
@@ -95,16 +91,14 @@
     {
       "blogTitle": "Kaazhchakal",
       "blogUrl": "https://yezhuvath.com/",
-      "postTitle": "Footloose in Europe",
-      "postUrl": "https://yezhuvath.com/2025/09/28/footloose-in-europe/",
-      "publishDate": "Sun, 28 Sep 2025 06:19:53 +0000"
+      "error": true,
+      "errorMessage": "<unknown>:2:1: not well-formed (invalid token)"
     },
     {
       "blogTitle": "Tangled Bytes",
       "blogUrl": "https://tangledbytes.com/",
-      "postTitle": "USC CSE 138 Distributed Systems",
-      "postUrl": "https://tangledbytes.com/notes/usc-cse-138-distributed-systems/",
-      "publishDate": "Thu, 31 Aug 2023 16:46:37 +0530"
+      "error": true,
+      "errorMessage": "<unknown>:2:0: not well-formed (invalid token)"
     },
     {
       "blogTitle": "Orhun's Blog",
@@ -123,9 +117,8 @@
     {
       "blogTitle": "Maggie Appleton",
       "blogUrl": "https://maggieappleton.com/",
-      "postTitle": "Gas Town\u2019s Agent Patterns, Design Bottlenecks, and Vibecoding at Scale",
-      "postUrl": "https://maggieappleton.com/gastown/",
-      "publishDate": "Fri, 23 Jan 2026 00:00:00 GMT"
+      "error": true,
+      "errorMessage": "<unknown>:2:0: not well-formed (invalid token)"
     },
     {
       "blogTitle": "Anton Zhiyanov",
@@ -144,51 +137,44 @@
     {
       "blogTitle": "AI as Normal Technology",
       "blogUrl": "https://www.normaltech.ai",
-      "postTitle": "A guide to understanding AI as normal technology",
-      "postUrl": "https://www.normaltech.ai/p/a-guide-to-understanding-ai-as-normal",
-      "publishDate": "Tue, 09 Sep 2025 13:00:40 GMT"
+      "error": true,
+      "errorMessage": "403 Client Error: Forbidden for url: https://www.normaltech.ai/feed"
     },
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Office Hours\u2014join our January sessions!",
-      "postUrl": "https://www.elysian.press/p/office-hourssign-up-for-our-january",
-      "publishDate": "Tue, 06 Jan 2026 17:02:34 GMT"
+      "error": true,
+      "errorMessage": "403 Client Error: Forbidden for url: https://www.elysian.press/feed"
     },
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "The Triumph of German Industrial Modernism",
-      "postUrl": "https://letter.palladiummag.com/p/the-triumph-of-german-industrial-051",
-      "publishDate": "Fri, 23 Jan 2026 19:46:40 GMT"
+      "error": true,
+      "errorMessage": "403 Client Error: Forbidden for url: https://letter.palladiummag.com/feed"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "Mailbag: 25 year old \"winner\" on the default path: should I quit?",
-      "postUrl": "https://newsletter.pathlesspath.com/p/mailbag-25-year-old-winner-on-the",
-      "publishDate": "Mon, 19 Jan 2026 15:30:46 GMT"
+      "error": true,
+      "errorMessage": "403 Client Error: Forbidden for url: https://newsletter.pathlesspath.com/feed"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "How Tech Metrics Change Your Values and Behaviour",
-      "postUrl": "https://www.readtrung.com/p/how-tech-metrics-change-your-values",
-      "publishDate": "Sat, 24 Jan 2026 00:35:07 GMT"
+      "error": true,
+      "errorMessage": "403 Client Error: Forbidden for url: https://www.readtrung.com/feed"
     },
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "AI in 2026",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/ai-in-2026",
-      "publishDate": "Sat, 24 Jan 2026 13:02:15 GMT"
+      "error": true,
+      "errorMessage": "403 Client Error: Forbidden for url: https://unchartedterritories.tomaspueyo.com/feed"
     },
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Founders Over Funders. Inventors Over Investors.",
-      "postUrl": "https://anildash.com/2025/10/24/founders-over-funders/",
-      "publishDate": "2025-10-24T00:00:00Z"
+      "error": true,
+      "errorMessage": "<unknown>:2:0: not well-formed (invalid token)"
     },
     {
       "blogTitle": "Dylan Araps",
