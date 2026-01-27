@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-01-26T16:32:17+05:30",
+  "lastUpdated": "2026-01-27T16:43:22+05:30",
   "entries": [
+    {
+      "hash": "455a116",
+      "date": "2026-01-27T16:42:45+05:30",
+      "message": "Added support for custom-styled horizontal rules in post content."
+    },
     {
       "hash": "721638a",
       "date": "2026-01-26T16:21:20+05:30",
