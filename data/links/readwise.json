@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-27T16:18:28.500292+05:30",
+  "last_updated": "2026-01-28T16:18:41.667952+05:30",
   "links": [
+    {
+      "id": "01kfzrvgej67e9yeh5m912w0qw",
+      "title": "ElevenLabs just got nuked by open source",
+      "author": "Jeff Geerling",
+      "source_url": "https://www.youtube.com/watch?v=dQ841Pd6YvQ",
+      "published_date": "2026-01-23",
+      "saved_at": "2026-01-27T18:33:58.930000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01kfwv7fwe50v5vs6y7h21hw5r",
       "title": "The Human in the Loop",
