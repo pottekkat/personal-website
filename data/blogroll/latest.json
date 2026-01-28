@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-27T10:49:10.237510",
+  "lastUpdated": "2026-01-28T10:49:12.793529",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Tips for getting coding agents to write good Python tests",
-      "postUrl": "https://simonwillison.net/2026/Jan/26/tests/#atom-everything",
-      "publishDate": "2026-01-26T23:55:29+00:00"
+      "postTitle": "One Human + One Agent = One Browser From Scratch",
+      "postUrl": "https://simonwillison.net/2026/Jan/27/one-human-one-agent-one-browser/#atom-everything",
+      "publishDate": "2026-01-27T16:58:08+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -81,9 +81,9 @@
     {
       "blogTitle": "Julia Evans",
       "blogUrl": "https://jvns.ca/",
-      "postTitle": "A data model for Git (and other docs updates)",
-      "postUrl": "https://jvns.ca/blog/2026/01/08/a-data-model-for-git/",
-      "publishDate": "2026-01-08T00:00:00+00:00"
+      "postTitle": "Some notes on starting to use Django",
+      "postUrl": "https://jvns.ca/blog/2026/01/27/some-notes-on-starting-to-use-django/",
+      "publishDate": "2026-01-27T00:00:00+00:00"
     },
     {
       "blogTitle": "Imposter!",
@@ -179,16 +179,16 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "AI in 2026",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/ai-in-2026",
-      "publishDate": "Sat, 24 Jan 2026 13:02:15 GMT"
+      "postTitle": "Not Sustainable \u27a1\ufe0f Abundant",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/not-sustainable-abundant",
+      "publishDate": "Tue, 27 Jan 2026 14:05:29 GMT"
     },
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Turn the volume up.",
-      "postUrl": "https://anildash.com/2025/11/05/turn-the-volume-up/",
-      "publishDate": "2025-11-05T00:00:00Z"
+      "postTitle": "I know you don\u2019t want them to want AI, but\u2026",
+      "postUrl": "https://anildash.com/2025/11/14/wanting-not-to-want-ai/",
+      "publishDate": "2025-11-14T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
