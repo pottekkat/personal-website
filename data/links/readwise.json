@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-28T16:18:41.667952+05:30",
+  "last_updated": "2026-01-29T16:21:21.700258+05:30",
   "links": [
+    {
+      "id": "01kg4nb285rj775wj0y0ecsbd7",
+      "title": "How I became a Linux Kernel Contributor",
+      "author": "Lewboski",
+      "source_url": "https://www.youtube.com/watch?v=7UOdYxKW8pE",
+      "published_date": "2026-01-28",
+      "saved_at": "2026-01-29T16:08:46.530000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kg3zjz64vwm91bd9016cs6rb",
+      "title": "The creator of Clawd: \"I ship code I don't read\"",
+      "author": "The Pragmatic Engineer",
+      "source_url": "https://www.youtube.com/watch?v=8lF7HmQ_RgY",
+      "published_date": "2026-01-28",
+      "saved_at": "2026-01-29T09:48:36.868000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kg3am3w67bvrryctzxsvgya0",
+      "title": "Adding dynamic features to an aggressively cached website",
+      "author": "Simon Willison's Weblog",
+      "source_url": "https://simonwillison.net/2026/Jan/28/dynamic-features-static-site/#atom-everything",
+      "published_date": "2026-01-28",
+      "saved_at": "2026-01-29T03:42:11.343000+05:30",
+      "reading_time": "4 mins",
+      "category": "rss",
+      "notes": ""
+    },
+    {
+      "id": "01kg39fqqbb7hzrhjhqvpqqgsx",
+      "title": "The Five Levels: from Spicy Autocomplete to the Dark Factory",
+      "author": "Simon Willison's Weblog",
+      "source_url": "https://simonwillison.net/2026/Jan/28/the-five-levels/#atom-everything",
+      "published_date": "2026-01-28",
+      "saved_at": "2026-01-29T03:22:19.252000+05:30",
+      "reading_time": "2 mins",
+      "category": "rss",
+      "notes": ""
+    },
     {
       "id": "01kfzrvgej67e9yeh5m912w0qw",
       "title": "ElevenLabs just got nuked by open source",
