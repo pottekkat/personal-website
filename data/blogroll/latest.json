@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-01-28T10:49:12.793529",
+  "lastUpdated": "2026-01-29T10:51:53.365457",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Early Arthropods",
-      "postUrl": "https://xkcd.com/3199/",
-      "publishDate": "Mon, 26 Jan 2026 05:00:00 -0000"
+      "postTitle": "Chemical Formula",
+      "postUrl": "https://xkcd.com/3200/",
+      "publishDate": "Wed, 28 Jan 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "One Human + One Agent = One Browser From Scratch",
-      "postUrl": "https://simonwillison.net/2026/Jan/27/one-human-one-agent-one-browser/#atom-everything",
-      "publishDate": "2026-01-27T16:58:08+00:00"
+      "postTitle": "Adding dynamic features to an aggressively cached website",
+      "postUrl": "https://simonwillison.net/2026/Jan/28/dynamic-features-static-site/#atom-everything",
+      "publishDate": "2026-01-28T22:10:08+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
