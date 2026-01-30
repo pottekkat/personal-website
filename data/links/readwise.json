@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-29T16:21:21.700258+05:30",
+  "last_updated": "2026-01-30T16:29:30.441169+05:30",
   "links": [
+    {
+      "id": "01kg6vpxxssrqsv9g62py0atnp",
+      "title": "My first 20,000 curl commits",
+      "author": "Daniel Stenberg",
+      "source_url": "https://daniel.haxx.se/blog/2026/01/17/my-first-20000-curl-commits/?ref=dailydev",
+      "published_date": "2026-01-17",
+      "saved_at": "2026-01-30T12:38:35.641000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kg6jzmx9jcnggqzcaxkjaamf",
+      "title": "We gotta talk about AI as a programming tool for the arts",
+      "author": "Simon Willison's Weblog",
+      "source_url": "https://simonwillison.net/2026/Jan/30/a-programming-tool-for-the-arts/#atom-everything",
+      "published_date": "2026-01-30",
+      "saved_at": "2026-01-30T10:06:01.138000+05:30",
+      "reading_time": "3 mins",
+      "category": "rss",
+      "notes": ""
+    },
+    {
+      "id": "01kg5317vfmsctsn3vp5k1kfyt",
+      "title": "I've Gone To Great Lengths For This Silence",
+      "author": "iam@dylan.gr (Dylan Araps)",
+      "source_url": "https://dylan.gr/1769667413",
+      "published_date": "2026-01-29",
+      "saved_at": "2026-01-29T20:08:01.656000+05:30",
+      "reading_time": "3 mins",
+      "category": "rss",
+      "notes": ""
+    },
     {
       "id": "01kg4nb285rj775wj0y0ecsbd7",
       "title": "How I became a Linux Kernel Contributor",
