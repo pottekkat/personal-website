@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-29T10:51:53.365457",
+  "lastUpdated": "2026-01-30T11:00:07.056058",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Adding dynamic features to an aggressively cached website",
-      "postUrl": "https://simonwillison.net/2026/Jan/28/dynamic-features-static-site/#atom-everything",
-      "publishDate": "2026-01-28T22:10:08+00:00"
+      "postTitle": "We gotta talk about AI as a programming tool for the arts",
+      "postUrl": "https://simonwillison.net/2026/Jan/30/a-programming-tool-for-the-arts/#atom-everything",
+      "publishDate": "2026-01-30T03:51:53+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "AI as Normal Technology",
       "blogUrl": "https://www.normaltech.ai",
-      "postTitle": "A guide to understanding AI as normal technology",
-      "postUrl": "https://www.normaltech.ai/p/a-guide-to-understanding-ai-as-normal",
-      "publishDate": "Tue, 09 Sep 2025 13:00:40 GMT"
+      "postTitle": "Fact checking Moravec's paradox",
+      "postUrl": "https://www.normaltech.ai/p/fact-checking-moravecs-paradox",
+      "publishDate": "Thu, 29 Jan 2026 22:35:47 GMT"
     },
     {
       "blogTitle": "The Elysian",
@@ -172,16 +172,16 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "How Tech Metrics Change Your Values and Behaviour",
-      "postUrl": "https://www.readtrung.com/p/how-tech-metrics-change-your-values",
-      "publishDate": "Sat, 24 Jan 2026 00:35:07 GMT"
+      "postTitle": "NFL & Fox: The $1.6B Deal That Changed Everything",
+      "postUrl": "https://www.readtrung.com/p/nfl-and-fox-the-16b-deal-that-changed",
+      "publishDate": "Fri, 30 Jan 2026 00:22:49 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Not Sustainable \u27a1\ufe0f Abundant",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/not-sustainable-abundant",
-      "publishDate": "Tue, 27 Jan 2026 14:05:29 GMT"
+      "postTitle": "The $100M Worker",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/ai-algorithms",
+      "publishDate": "Fri, 30 Jan 2026 08:01:48 GMT"
     },
     {
       "blogTitle": "Anil Dash",
@@ -195,7 +195,7 @@
       "blogUrl": "https://dylan.gr",
       "postTitle": "Welcome To My Blog",
       "postUrl": "https://dylan.gr/1768216263",
-      "publishDate": "Mon, 12 Jan 2026 13:11:03 +0200"
+      "publishDate": "*Mon, 12 Jan 2026 13:11:03 +0200*"
     }
   ]
 }
