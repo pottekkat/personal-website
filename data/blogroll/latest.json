@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-01-30T11:00:07.056058",
+  "lastUpdated": "2026-01-31T10:46:06.293938",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Chemical Formula",
-      "postUrl": "https://xkcd.com/3200/",
-      "publishDate": "Wed, 28 Jan 2026 05:00:00 -0000"
+      "postTitle": "Proof Without Content",
+      "postUrl": "https://xkcd.com/3201/",
+      "publishDate": "Fri, 30 Jan 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "We gotta talk about AI as a programming tool for the arts",
-      "postUrl": "https://simonwillison.net/2026/Jan/30/a-programming-tool-for-the-arts/#atom-everything",
-      "publishDate": "2026-01-30T03:51:53+00:00"
+      "postTitle": "Singing the gospel of collective efficacy",
+      "postUrl": "https://simonwillison.net/2026/Jan/31/collective-efficacy/#atom-everything",
+      "publishDate": "2026-01-31T01:22:15+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -53,9 +53,9 @@
     {
       "blogTitle": "Kailash Nadh / Personal homepage",
       "blogUrl": "https://nadh.in/",
-      "postTitle": "MCP seems viral",
-      "postUrl": "https://nadh.in/blog/mcp-seems-viral/",
-      "publishDate": "Mon, 19 May 2025 00:00:00 +0000"
+      "postTitle": "Code is cheap. Show me the talk.",
+      "postUrl": "https://nadh.in/blog/code-is-cheap/",
+      "publishDate": "Fri, 30 Jan 2026 00:00:00 +0000"
     },
     {
       "blogTitle": "Stephen Diehl",
