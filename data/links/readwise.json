@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-30T16:29:30.441169+05:30",
+  "last_updated": "2026-01-31T16:15:34.917935+05:30",
   "links": [
+    {
+      "id": "01kg7t738axmabc0h7fb25dpwf",
+      "title": "Code is cheap. Show me the talk.",
+      "author": "nadh.in",
+      "source_url": "https://nadh.in/blog/code-is-cheap/",
+      "published_date": "2026-01-29",
+      "saved_at": "2026-01-30T21:31:42.666000+05:30",
+      "reading_time": "14 mins",
+      "category": "article",
+      "notes": "\"For the first time ever, good talk is exponentially more valuable than good code. The ramifications of this are significant and disruptive. This time, it is different.\""
+    },
+    {
+      "id": "01kg7kgjfw2af2ycpzyhxmngsr",
+      "title": "Code is cheap. Show me the talk.",
+      "author": "Kailash Nadh / Personal homepage",
+      "source_url": "https://nadh.in/blog/code-is-cheap/",
+      "published_date": "2026-01-30",
+      "saved_at": "2026-01-30T19:34:30.148000+05:30",
+      "reading_time": "14 mins",
+      "category": "rss",
+      "notes": ""
+    },
     {
       "id": "01kg6vpxxssrqsv9g62py0atnp",
       "title": "My first 20,000 curl commits",
