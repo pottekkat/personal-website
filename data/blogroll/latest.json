@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-01T10:47:20.929287",
+  "lastUpdated": "2026-02-02T10:52:55.454277",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Andrej Karpathy",
-      "postUrl": "https://simonwillison.net/2026/Jan/31/andrej-karpathy/#atom-everything",
-      "publishDate": "2026-01-31T21:44:02+00:00"
+      "postTitle": "TIL: Running OpenClaw in Docker",
+      "postUrl": "https://simonwillison.net/2026/Feb/1/openclaw-in-docker/#atom-everything",
+      "publishDate": "2026-02-01T23:59:13+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
