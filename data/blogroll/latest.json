@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-02T10:52:55.454277",
+  "lastUpdated": "2026-02-03T10:52:40.428163",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Proof Without Content",
-      "postUrl": "https://xkcd.com/3201/",
-      "publishDate": "Fri, 30 Jan 2026 05:00:00 -0000"
+      "postTitle": "Groundhog Day Meaning",
+      "postUrl": "https://xkcd.com/3202/",
+      "publishDate": "Mon, 02 Feb 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "TIL: Running OpenClaw in Docker",
-      "postUrl": "https://simonwillison.net/2026/Feb/1/openclaw-in-docker/#atom-everything",
-      "publishDate": "2026-02-01T23:59:13+00:00"
+      "postTitle": "January sponsors-only newsletter is out",
+      "postUrl": "https://simonwillison.net/2026/Feb/3/january/#atom-everything",
+      "publishDate": "2026-02-03T06:36:10+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
