@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-03T10:52:40.428163",
+  "lastUpdated": "2026-02-04T10:52:37.826595",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Promoting AI agents",
-      "postUrl": "https://world.hey.com/dhh/promoting-ai-agents-3ee04945",
-      "publishDate": "2026-01-07T09:03:58Z"
+      "postTitle": "Cloud gaming is kinda amazing",
+      "postUrl": "https://world.hey.com/dhh/cloud-gaming-is-kinda-amazing-b8a19c57",
+      "publishDate": "2026-02-03T14:01:29Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "January sponsors-only newsletter is out",
-      "postUrl": "https://simonwillison.net/2026/Feb/3/january/#atom-everything",
-      "publishDate": "2026-02-03T06:36:10+00:00"
+      "postTitle": "Introducing Deno Sandbox",
+      "postUrl": "https://simonwillison.net/2026/Feb/3/introducing-deno-sandbox/#atom-everything",
+      "publishDate": "2026-02-03T22:44:50+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -179,16 +179,16 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "The $100M Worker",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/ai-algorithms",
-      "publishDate": "Fri, 30 Jan 2026 08:01:48 GMT"
+      "postTitle": "Peak Oil Is Coming",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/peak-oil-is-coming",
+      "publishDate": "Tue, 03 Feb 2026 13:02:43 GMT"
     },
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "I know you don\u2019t want them to want AI, but\u2026",
-      "postUrl": "https://anildash.com/2025/11/14/wanting-not-to-want-ai/",
-      "publishDate": "2025-11-14T00:00:00Z"
+      "postTitle": "Vibe Coding: Empowering and Imprisoning",
+      "postUrl": "https://anildash.com/2025/12/02/vibe-coding-empowering-and-imprisoning/",
+      "publishDate": "2025-12-02T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
