@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-04T10:52:37.826595",
+  "lastUpdated": "2026-02-05T10:52:43.177655",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Groundhog Day Meaning",
-      "postUrl": "https://xkcd.com/3202/",
-      "publishDate": "Mon, 02 Feb 2026 05:00:00 -0000"
+      "postTitle": "Binary Star",
+      "postUrl": "https://xkcd.com/3203/",
+      "publishDate": "Wed, 04 Feb 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Introducing Deno Sandbox",
-      "postUrl": "https://simonwillison.net/2026/Feb/3/introducing-deno-sandbox/#atom-everything",
-      "publishDate": "2026-02-03T22:44:50+00:00"
+      "postTitle": "Spotlighting The World Factbook as We Bid a Fond Farewell",
+      "postUrl": "https://simonwillison.net/2026/Feb/5/the-world-factbook/#atom-everything",
+      "publishDate": "2026-02-05T00:23:38+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
