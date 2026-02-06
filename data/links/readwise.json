@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-02-05T16:22:07.375400+05:30",
+  "last_updated": "2026-02-06T16:22:03.812219+05:30",
   "links": [
+    {
+      "id": "01kgrpte5ajk3t26r43myvt1p3",
+      "title": "My AI Adoption Journey",
+      "author": "Mitchell Hashimoto",
+      "source_url": "https://mitchellh.com/writing/my-ai-adoption-journey#step-6-always-have-an-agent-running",
+      "published_date": "2026-02-05",
+      "saved_at": "2026-02-06T10:59:27.466000+05:30",
+      "reading_time": "9 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kgrmvmmfxth5jp47x2q7seyp",
+      "title": "My ESP32S3 Thinks It's a WebCam!",
+      "author": "atomic14",
+      "source_url": "https://www.atomic14.com/2026/02/01/pong-cam",
+      "published_date": "2026-02-01",
+      "saved_at": "2026-02-06T10:25:09.711000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kgp0wm7sybffkfmbk56g3n20",
       "title": "Why child prodigies rarely become elite performers",
