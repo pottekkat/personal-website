@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-05T10:52:43.177655",
+  "lastUpdated": "2026-02-06T10:52:34.530214",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Cloud gaming is kinda amazing",
-      "postUrl": "https://world.hey.com/dhh/cloud-gaming-is-kinda-amazing-b8a19c57",
-      "publishDate": "2026-02-03T14:01:29Z"
+      "postTitle": "Clankers with claws",
+      "postUrl": "https://world.hey.com/dhh/clankers-with-claws-9f86fa71",
+      "publishDate": "2026-02-05T15:30:07Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Spotlighting The World Factbook as We Bid a Fond Farewell",
-      "postUrl": "https://simonwillison.net/2026/Feb/5/the-world-factbook/#atom-everything",
-      "publishDate": "2026-02-05T00:23:38+00:00"
+      "postTitle": "Quoting Karel D'Oosterlinck",
+      "postUrl": "https://simonwillison.net/2026/Feb/6/karel-doosterlinck/#atom-everything",
+      "publishDate": "2026-02-06T00:42:22+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Interfaces and traits in C",
-      "postUrl": "https://antonz.org/interfaces-in-c/",
-      "publishDate": "Thu, 22 Jan 2026 12:00:00 +0000"
+      "postTitle": "(Un)portable defer in C",
+      "postUrl": "https://antonz.org/defer-in-c/",
+      "publishDate": "Thu, 05 Feb 2026 12:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
