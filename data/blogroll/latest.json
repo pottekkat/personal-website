@@ -1,26 +1,25 @@
 {
-  "lastUpdated": "2026-02-09T10:54:29.695473",
+  "lastUpdated": "2026-02-10T10:54:16.791984",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Dinosaurs And Non-Dinosaurs",
-      "postUrl": "https://xkcd.com/3204/",
-      "publishDate": "Fri, 06 Feb 2026 05:00:00 -0000"
+      "postTitle": "Carbon Dating",
+      "postUrl": "https://xkcd.com/3205/",
+      "publishDate": "Mon, 09 Feb 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Clankers with claws",
-      "postUrl": "https://world.hey.com/dhh/clankers-with-claws-9f86fa71",
-      "publishDate": "2026-02-05T15:30:07Z"
+      "error": true,
+      "errorMessage": "403 Forbidden (feedparser)"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "K\u0101k\u0101p\u014d mug by Karen James",
-      "postUrl": "https://simonwillison.net/2026/Feb/8/kakapo-mug/#atom-everything",
-      "publishDate": "2026-02-08T17:25:07+00:00"
+      "postTitle": "Structured Context Engineering for File-Native Agentic Systems",
+      "postUrl": "https://simonwillison.net/2026/Feb/9/structured-context-engineering-for-file-native-agentic-systems/#atom-everything",
+      "publishDate": "2026-02-09T23:56:51+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
