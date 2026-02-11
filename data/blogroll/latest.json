@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-10T10:54:16.791984",
+  "lastUpdated": "2026-02-11T10:53:39.708512",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,15 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "error": true,
-      "errorMessage": "403 Forbidden (feedparser)"
+      "postTitle": "Clankers with claws",
+      "postUrl": "https://world.hey.com/dhh/clankers-with-claws-9f86fa71",
+      "publishDate": "2026-02-05T15:30:07Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Structured Context Engineering for File-Native Agentic Systems",
-      "postUrl": "https://simonwillison.net/2026/Feb/9/structured-context-engineering-for-file-native-agentic-systems/#atom-everything",
-      "publishDate": "2026-02-09T23:56:51+00:00"
+      "postTitle": "Introducing Showboat and Rodney, so agents can demo what they\u2019ve built",
+      "postUrl": "https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#atom-everything",
+      "publishDate": "2026-02-10T17:45:29+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -150,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Office Hours\u2014join our January sessions!",
-      "postUrl": "https://www.elysian.press/p/office-hourssign-up-for-our-january",
-      "publishDate": "Tue, 06 Jan 2026 17:02:34 GMT"
+      "postTitle": "Let Cities Build Utopia\u2014new drop!",
+      "postUrl": "https://www.elysian.press/p/let-cities-build-utopianew-drop-618",
+      "publishDate": "Tue, 10 Feb 2026 13:34:38 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -178,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Dubai",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/dubai",
-      "publishDate": "Fri, 06 Feb 2026 13:04:21 GMT"
+      "postTitle": "The Resource Cliff",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/the-resource-cliff",
+      "publishDate": "Tue, 10 Feb 2026 14:00:57 GMT"
     },
     {
       "blogTitle": "Anil Dash",
