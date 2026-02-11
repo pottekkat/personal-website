@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-02-10T16:23:42.397147+05:30",
+  "last_updated": "2026-02-11T16:23:06.455497+05:30",
   "links": [
+    {
+      "id": "01kh54wm0g3zd4j258hptx1ftf",
+      "title": "Decoding the secrets of the Antikythera mechanism - Max G. Levy",
+      "author": "TED-Ed",
+      "source_url": "https://www.youtube.com/watch?v=XNEHP6qFeCs",
+      "published_date": null,
+      "saved_at": "2026-02-11T06:56:12.240000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kh3nyr70hxzd7yacx4d77hte",
+      "title": "A Language For Agents",
+      "author": "Armin Ronacher",
+      "source_url": "https://lucumr.pocoo.org/2026/2/9/a-language-for-agents/",
+      "published_date": "2026-02-09",
+      "saved_at": "2026-02-10T17:15:59.008000+05:30",
+      "reading_time": "11 mins",
+      "category": "article",
+      "notes": "\"What’s really nice about Go is that you mostly cannot import symbols from another package into scope without every use being prefixed with the package name. Eg: context.Context instead of Context. That dramatically helps an agent understand what it’s looking at. In general, making code findable through the most basic tools is great.\""
+    },
     {
       "id": "01kh3ameg51xj31y9f4x1mdgpj",
       "title": "Why Epstein emails have so many ='s",
