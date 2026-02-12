@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-02-11T16:23:06.455497+05:30",
+  "last_updated": "2026-02-12T16:22:38.663807+05:30",
   "links": [
+    {
+      "id": "01kh87s46e8nv358qnfrmcwwvh",
+      "title": "Kanchipuram Saris & Thinking Machines",
+      "author": "Alter Magazine",
+      "source_url": "https://altermag.com/articles/kanchipuram-saris-and-thinking-machines",
+      "published_date": "2026-02-07",
+      "saved_at": "2026-02-12T11:44:26.766000+05:30",
+      "reading_time": "21 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kh85mr4s7xxbpftambra5tmf",
+      "title": "Using an engineering notebook",
+      "author": "ntietz.com",
+      "source_url": "https://ntietz.com/blog/using-an-engineering-notebook/",
+      "published_date": "2026-02-09",
+      "saved_at": "2026-02-12T11:07:06.201000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kh83rdwk0egks6s9hra46dse",
+      "title": "When the Internet Cooks, It Serves Slop",
+      "author": "New York Times Opinion",
+      "source_url": "https://www.youtube.com/shorts/yNqlQsQ3hD0",
+      "published_date": null,
+      "saved_at": "2026-02-12T10:34:09.619000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kh7z7rqh4j6pn0qcgkf2g29h",
+      "title": "Tool Shaped Objects",
+      "author": "Will Manidis",
+      "source_url": "https://x.com/WillManidis/status/2021655191901155534/?s=20&rw_tt_thread=True",
+      "published_date": "2026-02-11",
+      "saved_at": "2026-02-12T09:15:09.361000+05:30",
+      "reading_time": "5 mins",
+      "category": "tweet",
+      "notes": "\"The market for feeling productive is orders of magnitude larger than the market for being productive. Most people, most of the time, want to click and watch the number go up. They do not want to be told the number is fake. They will pay— in time, in attention, in actual money— to keep the number going up.\""
+    },
+    {
+      "id": "01kh7xz5z7vk962jqvjj65bx01",
+      "title": "Something Big Is Happening",
+      "author": "Matt Shumer",
+      "source_url": "https://x.com/mattshumer_/status/2021256989876109403/?rw_tt_thread=True",
+      "published_date": "2026-02-10",
+      "saved_at": "2026-02-12T08:52:59.431000+05:30",
+      "reading_time": "19 mins",
+      "category": "tweet",
+      "notes": ""
+    },
     {
       "id": "01kh54wm0g3zd4j258hptx1ftf",
       "title": "Decoding the secrets of the Antikythera mechanism - Max G. Levy",
