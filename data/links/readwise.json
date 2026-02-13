@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-02-12T16:22:38.663807+05:30",
+  "last_updated": "2026-02-13T16:22:08.229315+05:30",
   "links": [
+    {
+      "id": "01khb6d1w67d68vfjd5yqkadgc",
+      "title": "Chris Hemsworth Is an L9 at Amazon, and I Have Questions",
+      "author": "Corey Quinn",
+      "source_url": "https://www.lastweekinaws.com/blog/chris-hemsworth-is-an-l9-at-amazon-and-i-have-questions/?ref=dailydev",
+      "published_date": "2026-02-05",
+      "saved_at": "2026-02-13T15:18:05.894000+05:30",
+      "reading_time": "7 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01khayds73rsnx1ccnyaqy4z5e",
+      "title": "Searching for Birds",
+      "author": "Nadieh Bremer",
+      "source_url": "https://searchingforbirds.visualcinnamon.com/",
+      "published_date": "2026-02-13",
+      "saved_at": "2026-02-13T12:58:41.186000+05:30",
+      "reading_time": "16 mins",
+      "category": "article",
+      "notes": "The interactivity is so smooth in this page."
+    },
+    {
+      "id": "01khag7a5yxdehhm5gy3zrs3tn",
+      "title": "An OpenClaw bot pressuring a matplotlib maintainer to accept a...",
+      "author": "calle",
+      "source_url": "https://x.com/callebtc/status/2022046669710491991/?rw_tt_thread=True",
+      "published_date": "2026-02-12",
+      "saved_at": "2026-02-13T08:50:29.117000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kh95c5x3r3n05ehp4b02r3t0",
+      "title": "The Internet is a Hamster Wheel",
+      "author": "Kev Quirk",
+      "source_url": "https://kevquirk.com/the-internet-is-a-hamster-wheel",
+      "published_date": "2026-02-12",
+      "saved_at": "2026-02-12T20:21:36.811000+05:30",
+      "reading_time": "1 min",
+      "category": "rss",
+      "notes": ""
+    },
+    {
+      "id": "01kh8sbaeqh3jb6wsa05r26e40",
+      "title": "Be Careful w/ Skills",
+      "author": "The PrimeTime",
+      "source_url": "https://www.youtube.com/watch?v=Y2otN_NY75Y",
+      "published_date": null,
+      "saved_at": "2026-02-12T16:51:28.791000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01kh87s46e8nv358qnfrmcwwvh",
       "title": "Kanchipuram Saris & Thinking Machines",
