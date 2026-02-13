@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-12T10:53:10.799498",
+  "lastUpdated": "2026-02-13T10:52:40.792651",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Andrew Deck for Niemen Lab",
-      "postUrl": "https://simonwillison.net/2026/Feb/11/manosphere-report/#atom-everything",
-      "publishDate": "2026-02-11T20:59:03+00:00"
+      "postTitle": "Introducing GPT\u20115.3\u2011Codex\u2011Spark",
+      "postUrl": "https://simonwillison.net/2026/Feb/12/codex-spark/#atom-everything",
+      "publishDate": "2026-02-12T21:16:07+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "(Un)portable defer in C",
-      "postUrl": "https://antonz.org/defer-in-c/",
-      "publishDate": "Thu, 05 Feb 2026 12:00:00 +0000"
+      "postTitle": "Allocators from C to Zig",
+      "postUrl": "https://antonz.org/allocators/",
+      "publishDate": "Thu, 12 Feb 2026 12:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -144,16 +144,16 @@
     {
       "blogTitle": "AI as Normal Technology",
       "blogUrl": "https://www.normaltech.ai",
-      "postTitle": "Fact checking Moravec's paradox",
-      "postUrl": "https://www.normaltech.ai/p/fact-checking-moravecs-paradox",
-      "publishDate": "Thu, 29 Jan 2026 22:35:47 GMT"
+      "postTitle": "AI Won\u2019t Automatically Make Legal Services Cheaper",
+      "postUrl": "https://www.normaltech.ai/p/ai-wont-automatically-make-legal",
+      "publishDate": "Thu, 12 Feb 2026 19:26:05 GMT"
     },
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Land should be a public good\u2014not just private property",
-      "postUrl": "https://www.elysian.press/p/land-should-be-a-public-good",
-      "publishDate": "Wed, 11 Feb 2026 13:00:38 GMT"
+      "postTitle": "The Scottish island that bought itself",
+      "postUrl": "https://www.elysian.press/p/the-scottish-island-that-bought-itself",
+      "publishDate": "Thu, 12 Feb 2026 13:01:16 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "The Resource Cliff",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/the-resource-cliff",
-      "publishDate": "Tue, 10 Feb 2026 14:00:57 GMT"
+      "postTitle": "SpaceX + xAI Merger, IPO, Data Centers and Moon Base",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/spacex-xai",
+      "publishDate": "Thu, 12 Feb 2026 13:18:16 GMT"
     },
     {
       "blogTitle": "Anil Dash",
