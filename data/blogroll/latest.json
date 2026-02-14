@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-13T10:52:40.792651",
+  "lastUpdated": "2026-02-14T10:47:24.442134",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Installation",
-      "postUrl": "https://xkcd.com/3206/",
-      "publishDate": "Wed, 11 Feb 2026 05:00:00 -0000"
+      "postTitle": "Bad Map Projection: Zero Declination",
+      "postUrl": "https://xkcd.com/3207/",
+      "publishDate": "Fri, 13 Feb 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Introducing GPT\u20115.3\u2011Codex\u2011Spark",
-      "postUrl": "https://simonwillison.net/2026/Feb/12/codex-spark/#atom-everything",
-      "publishDate": "2026-02-12T21:16:07+00:00"
+      "postTitle": "Quoting Thoughtworks",
+      "postUrl": "https://simonwillison.net/2026/Feb/14/thoughtworks/#atom-everything",
+      "publishDate": "2026-02-14T04:54:41+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "The Scottish island that bought itself",
-      "postUrl": "https://www.elysian.press/p/the-scottish-island-that-bought-itself",
-      "publishDate": "Thu, 12 Feb 2026 13:01:16 GMT"
+      "postTitle": "Office hours\u2014register now for February dates",
+      "postUrl": "https://www.elysian.press/p/office-hoursregister-now-for-february",
+      "publishDate": "Fri, 13 Feb 2026 13:02:52 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "NFL & Fox: The $1.6B Deal That Changed Everything",
-      "postUrl": "https://www.readtrung.com/p/nfl-and-fox-the-16b-deal-that-changed",
-      "publishDate": "Fri, 30 Jan 2026 00:22:49 GMT"
+      "postTitle": "How does Docusign have 7,000 employees?",
+      "postUrl": "https://www.readtrung.com/p/how-does-docusign-have-7000-employees",
+      "publishDate": "Fri, 13 Feb 2026 19:13:01 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
@@ -186,9 +186,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "What about \u201cNothing about us without us?\u201d",
-      "postUrl": "https://anildash.com/2025/12/08/what-about-nothing-about-us/",
-      "publishDate": "2025-12-08T00:00:00Z"
+      "postTitle": "How the hell are you supposed to have a career in tech in 2026?",
+      "postUrl": "https://anildash.com/2026/01/05/a-tech-career-in-2026/",
+      "publishDate": "2026-01-05T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
