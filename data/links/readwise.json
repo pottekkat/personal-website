@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-02-14T16:16:53.727436+05:30",
+  "last_updated": "2026-02-15T16:17:21.327025+05:30",
   "links": [
+    {
+      "id": "01khfzks2garnctyx8aqtbtjqp",
+      "title": "I love the work of the ArchWiki maintainers",
+      "author": "Matthias Kirschner",
+      "source_url": "https://k7r.eu/i-love-the-work-of-the-archwiki-maintainers/",
+      "published_date": "2026-02-14",
+      "saved_at": "2026-02-15T11:55:38.384000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01khfy2e0zkn4fg5w55dc3ehrr",
+      "title": "How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt",
+      "author": "on 09 Feb 2026",
+      "source_url": "https://margaretstorey.com/blog/2026/02/09/cognitive-debt/",
+      "published_date": "2026-02-09",
+      "saved_at": "2026-02-15T11:28:41.439000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01khfxdydqs1q6zjkavhypjnpj",
+      "title": "Token Anxiety",
+      "author": "Nikunj Kothari",
+      "source_url": "https://x.com/nikunj/status/2022438070092759281/?rw_tt_thread=True",
+      "published_date": "2026-02-13",
+      "saved_at": "2026-02-15T11:17:30.103000+05:30",
+      "reading_time": "3 mins",
+      "category": "tweet",
+      "notes": "\"This voice in my head that says 'something could be running right now' just doesn't shut off.\""
+    },
     {
       "id": "01khdq5j3hz1n50wmdg4encm3r",
       "title": "Sam Altman said what???",
