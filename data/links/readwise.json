@@ -1,6 +1,149 @@
 {
-  "last_updated": "2026-02-15T16:17:21.327025+05:30",
+  "last_updated": "2026-02-16T16:23:10.301226+05:30",
   "links": [
+    {
+      "id": "01khjvwwqakrs4gd2k2b90ncj9",
+      "title": "Who will acquire OpenClaw? - OpenAI and Meta make big offers | Peter Steinberger and Lex Fridman",
+      "author": "Lex Clips",
+      "source_url": "https://www.youtube.com/watch?v=NMBoNFDOr_o",
+      "published_date": null,
+      "saved_at": "2026-02-16T14:48:26.026000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01khjrd87bxbgw7cf6bdp4w06k",
+      "title": "How to code with AI agents - Advice from OpenClaw creator | Peter Steinberger and Lex Fridman",
+      "author": "Lex Clips",
+      "source_url": "https://www.youtube.com/watch?v=wKy1_KLcxcs",
+      "published_date": null,
+      "saved_at": "2026-02-16T13:47:27.787000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": "Constant memento. Poor agents."
+    },
+    {
+      "id": "01khjr0kgm18nnpt6gzbc1qftt",
+      "title": "@knowmadd@mastodon.world",
+      "author": "Mastodon",
+      "source_url": "https://mastodon.world/@knowmadd/116072773118828295",
+      "published_date": "2026-02-15",
+      "saved_at": "2026-02-16T13:40:33.364000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01khjk45yq7exn7t0qd7y0mrv3",
+      "title": "What Is It That I Am Not Seeing?",
+      "author": "Elif Shafak",
+      "source_url": "https://elifshafak.substack.com/p/what-is-it-that-i-am-not-seeing",
+      "published_date": "2026-02-01",
+      "saved_at": "2026-02-16T12:15:07.671000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01khjjwp45ynphxn868n9hr88d",
+      "title": "Eric A. Meyer",
+      "author": "Eric A. Meyer",
+      "source_url": "https://mastodon.social/@Meyerweb/116065151451468199",
+      "published_date": "2026-02-13",
+      "saved_at": "2026-02-16T12:11:02.085000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01khjhg5dfvds517nyp9j3ktww",
+      "title": "tiny Linux tools I rely on every day",
+      "author": "Bread on Penguins",
+      "source_url": "https://www.youtube.com/watch?v=mRT31iYaWOw",
+      "published_date": null,
+      "saved_at": "2026-02-16T11:46:43.183000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01khjgze0grw2deb0kam2smjs0",
+      "title": "MacOS vs Linux vs Windows: Best OS for programming with AI agents | Peter Steinberger",
+      "author": "Lex Clips",
+      "source_url": "https://www.youtube.com/watch?v=4wjWhwBOSZk",
+      "published_date": null,
+      "saved_at": "2026-02-16T11:37:34.928000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01khjgh1e0mch61er47778dfn8",
+      "title": "AI agents will replace 80% of apps - OpenClaw creator explains | Peter Steinberger and Lex Fridman",
+      "author": "Lex Clips",
+      "source_url": "https://www.youtube.com/watch?v=rRzWzvgNSfc",
+      "published_date": null,
+      "saved_at": "2026-02-16T11:29:43.296000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01khjg5pqca12x8wwyg12nvvsf",
+      "title": "It’s Official: The World Order Has Broken Down",
+      "author": "Ray Dalio",
+      "source_url": "https://x.com/RayDalio/status/2022788750388998543/?rw_tt_thread=True",
+      "published_date": "2026-02-14",
+      "saved_at": "2026-02-16T11:23:31.883000+05:30",
+      "reading_time": "28 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01khjas3c0ggsvmw85qh4trbdd",
+      "title": "crazy fumble by Anthropic",
+      "author": "Andrew Hart",
+      "source_url": "https://x.com/andrewhart/status/2023101088111718697/?s=12&rw_tt_thread=True",
+      "published_date": "2026-02-15",
+      "saved_at": "2026-02-16T09:49:15.968000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01khj9skxymms4f3ebcapxjfp8",
+      "title": "OpenClaw, OpenAI and the future",
+      "author": "Peter Steinberger",
+      "source_url": "https://steipete.me/posts/2026/openclaw",
+      "published_date": "2026-02-15",
+      "saved_at": "2026-02-16T09:32:04.350000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": "\"The claw is the law.\""
+    },
+    {
+      "id": "01khhjhnn1a4tjg6jk33gtq14x",
+      "title": "Deep Blue",
+      "author": "Simon Willison's Weblog",
+      "source_url": "https://simonwillison.net/2026/Feb/15/deep-blue/#atom-everything",
+      "published_date": "2026-02-15",
+      "saved_at": "2026-02-16T02:45:43.721000+05:30",
+      "reading_time": "4 mins",
+      "category": "rss",
+      "notes": "Software engineers can probably learn a lot from chess/Go players who were made \"obsolete\" by computers decades before they came for us."
+    },
+    {
+      "id": "01khh10q7w4e7pf3fxhdcavvnh",
+      "title": "Anthropic is now getting punished by the Pentagon for asking...",
+      "author": "Aakash Gupta",
+      "source_url": "https://x.com/aakashgupta/status/2022539493765714165/?s=20&rw_tt_thread=True",
+      "published_date": "2026-02-14",
+      "saved_at": "2026-02-15T21:39:25.500000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
     {
       "id": "01khfzks2garnctyx8aqtbtjqp",
       "title": "I love the work of the ArchWiki maintainers",
