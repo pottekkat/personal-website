@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-02-16T16:23:10.301226+05:30",
+  "last_updated": "2026-02-17T16:22:24.057099+05:30",
   "links": [
+    {
+      "id": "01khnh8qwxbxs5admwgsnpq8rn",
+      "title": "anxiety",
+      "author": "Bread on Penguins",
+      "source_url": "https://www.youtube.com/watch?v=_PeLVECCVl4&list=WL&index=9",
+      "published_date": null,
+      "saved_at": "2026-02-17T15:40:23.261000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01khnggwyp8dv051jy1gz5e3h5",
+      "title": "The Art of Recreational Programming",
+      "author": "bigboxSWE",
+      "source_url": "https://www.youtube.com/watch?v=JDoDWBpz7E8&list=WL&index=3&t=10s",
+      "published_date": null,
+      "saved_at": "2026-02-17T15:27:22.006000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01khnfce1ysfmetrpe9hetqc02",
+      "title": "AI is destroying open source, and it's not even good yet - YouTube",
+      "author": "",
+      "source_url": "https://www.youtube.com/watch?v=bZJ7A1QoUEI",
+      "published_date": null,
+      "saved_at": "2026-02-17T15:07:27.102000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01khmzc4mk828vny90asgk7gnw",
+      "title": "Nano Banana Pro diff to webcomic",
+      "author": "Simon Willison's Weblog",
+      "source_url": "https://simonwillison.net/2026/Feb/17/release-notes-webcomic/#atom-everything",
+      "published_date": "2026-02-17",
+      "saved_at": "2026-02-17T10:27:37.244000+05:30",
+      "reading_time": "1 min",
+      "category": "rss",
+      "notes": ""
+    },
+    {
+      "id": "01khkykschsggrpx5cctdmz7cc",
+      "title": "The Problem with Coruscant (Planet Cities Explained)",
+      "author": "DamiLee",
+      "source_url": "https://www.youtube.com/watch?v=ndTtiggfVsA",
+      "published_date": null,
+      "saved_at": "2026-02-17T00:55:07.857000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01khjvwwqakrs4gd2k2b90ncj9",
       "title": "Who will acquire OpenClaw? - OpenAI and Meta make big offers | Peter Steinberger and Lex Fridman",
