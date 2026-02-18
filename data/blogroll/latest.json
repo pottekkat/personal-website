@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-17T10:52:57.632496",
+  "lastUpdated": "2026-02-18T10:53:03.017935",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Nano Banana Pro diff to webcomic",
-      "postUrl": "https://simonwillison.net/2026/Feb/17/release-notes-webcomic/#atom-everything",
-      "publishDate": "2026-02-17T04:51:58+00:00"
+      "postTitle": "Introducing Claude Sonnet 4.6",
+      "postUrl": "https://simonwillison.net/2026/Feb/17/claude-sonnet-46/#atom-everything",
+      "publishDate": "2026-02-17T23:58:58+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
