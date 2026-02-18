@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-02-17T16:22:24.057099+05:30",
+  "last_updated": "2026-02-18T16:22:32.410045+05:30",
   "links": [
+    {
+      "id": "01khr5j34r7rz05skjadrjr3hk",
+      "title": "Likejunkies",
+      "author": "atharva's internet place",
+      "source_url": "https://atharvaraykar.com/likejunkies/?ref=atharvas-internet-place-newsletter",
+      "published_date": "2026-02-17",
+      "saved_at": "2026-02-18T16:13:30.072000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01khqks819kdjsb2hbndch2a6k",
+      "title": "(1) John McBride on X: \"The open source incentive model completely broke. And it wasn't because of AI. Up until about 2021, hyperscalers like AWS, VMware, Redhat, Microsoft, Google, etc. had been pouring massive engineering resources into open source and supporting their internal open source program\" / X",
+      "author": "",
+      "source_url": "https://x.com/johncodes/status/2023758229159702758/?rw_tt_thread=True",
+      "published_date": null,
+      "saved_at": "2026-02-18T11:02:50.089000+05:30",
+      "reading_time": null,
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01khqkhqw2kfkfgndtdsn05jjf",
+      "title": "Using go fix to modernize Go code",
+      "author": "Alan Donovan",
+      "source_url": "https://go.dev/blog/gofix",
+      "published_date": "2026-02-17",
+      "saved_at": "2026-02-18T10:58:44.162000+05:30",
+      "reading_time": "15 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01khqjnv1evhmgjkrn3k0wm1x4",
+      "title": "Assistant to the Regional Manager",
+      "author": "Paul Bloom",
+      "source_url": "https://smallpotatoes.paulbloom.net/p/assistant-to-the-regional-manager",
+      "published_date": "2026-02-09",
+      "saved_at": "2026-02-18T10:43:29.902000+05:30",
+      "reading_time": "11 mins",
+      "category": "article",
+      "notes": "\"Scarcity generates pleasure, anxiety, and purpose. But a world that is post-scarcity in the sense that there is more than enough material resources for everyone will still have another form of scarcity—people’s respect, admiration, attention, desire, and love.\""
+    },
+    {
+      "id": "01khqj7ntdwffrn7e5m38x10rf",
+      "title": "Do not apologize for replying late to my email",
+      "author": "ploum.net",
+      "source_url": "https://ploum.net/2026-02-11-do_not_apologize_for_replying_to_my_email.html?ref=dailydev",
+      "published_date": "2026-02-11",
+      "saved_at": "2026-02-18T10:35:45.804000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01khqj10rpjet76t8yy7a7nc3f",
+      "title": "TV’s Best Drama You’ve Probably Never Heard Of",
+      "author": "Sarah Aie",
+      "source_url": "https://www.sceneandheardnu.com/content/halt-and-catch-fire",
+      "published_date": "2021-04-05",
+      "saved_at": "2026-02-18T10:32:07.638000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01khpd8qfej57731ch73k2143g",
+      "title": "Our ancestors terrified animals of the Savannah",
+      "author": "Ian Slalander",
+      "source_url": "https://www.youtube.com/shorts/EqGxxWvDXsM",
+      "published_date": null,
+      "saved_at": "2026-02-17T23:49:42.958000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01khnh8qwxbxs5admwgsnpq8rn",
       "title": "anxiety",
