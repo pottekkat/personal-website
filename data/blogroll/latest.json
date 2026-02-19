@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2026-02-18T10:53:03.017935",
+  "lastUpdated": "2026-02-19T10:53:20.933810",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "SNEWS",
-      "postUrl": "https://xkcd.com/3208/",
-      "publishDate": "Mon, 16 Feb 2026 05:00:00 -0000"
+      "postTitle": "Plums",
+      "postUrl": "https://xkcd.com/3209/",
+      "publishDate": "Wed, 18 Feb 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Clankers with claws",
-      "postUrl": "https://world.hey.com/dhh/clankers-with-claws-9f86fa71",
-      "publishDate": "2026-02-05T15:30:07Z"
+      "postTitle": "Omacon comes to New York",
+      "postUrl": "https://world.hey.com/dhh/omacon-comes-to-new-york-e6ee93cb",
+      "publishDate": "2026-02-18T16:23:03Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Introducing Claude Sonnet 4.6",
-      "postUrl": "https://simonwillison.net/2026/Feb/17/claude-sonnet-46/#atom-everything",
-      "publishDate": "2026-02-17T23:58:58+00:00"
+      "postTitle": "Experimenting with sponsorship for my blog and newsletter",
+      "postUrl": "https://simonwillison.net/2026/Feb/19/sponsorship/#atom-everything",
+      "publishDate": "2026-02-19T05:44:29+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -81,9 +81,9 @@
     {
       "blogTitle": "Julia Evans",
       "blogUrl": "https://jvns.ca/",
-      "postTitle": "Some notes on starting to use Django",
-      "postUrl": "https://jvns.ca/blog/2026/01/27/some-notes-on-starting-to-use-django/",
-      "publishDate": "2026-01-27T00:00:00+00:00"
+      "postTitle": "Notes on clarifying man pages",
+      "postUrl": "https://jvns.ca/blog/2026/02/18/man-pages/",
+      "publishDate": "2026-02-18T00:00:00+00:00"
     },
     {
       "blogTitle": "Imposter!",
@@ -179,16 +179,16 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "SpaceX + xAI Merger, IPO, Data Centers and Moon Base",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/spacex-xai",
-      "publishDate": "Thu, 12 Feb 2026 13:18:16 GMT"
+      "postTitle": "Can We Build AI in Space?",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/can-we-build-ai-in-space",
+      "publishDate": "Wed, 18 Feb 2026 11:25:00 GMT"
     },
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "How the hell are you supposed to have a career in tech in 2026?",
-      "postUrl": "https://anildash.com/2026/01/05/a-tech-career-in-2026/",
-      "publishDate": "2026-01-05T00:00:00Z"
+      "postTitle": "500,000 tech workers have been laid off since ChatGPT was released",
+      "postUrl": "https://anildash.com/2026/01/06/500k-tech-workers-laid-off/",
+      "publishDate": "2026-01-06T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
