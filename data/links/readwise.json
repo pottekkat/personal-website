@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-02-18T16:22:32.410045+05:30",
+  "last_updated": "2026-02-19T16:22:42.361474+05:30",
   "links": [
+    {
+      "id": "01kht2p8dvy0ywwzjvd8z28j80",
+      "title": "Your RAM Is Fake. The Moon Broke Timezones. And Your Compiler Is Guessing.",
+      "author": "LaurieWired",
+      "source_url": "https://www.youtube.com/watch?v=cnX5zJ_qGz0",
+      "published_date": "2026-02-18",
+      "saved_at": "2026-02-19T10:01:49.691000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01khs753yc92ftcwsh1arah1xd",
+      "title": "Notes on clarifying man pages",
+      "author": "Julia Evans",
+      "source_url": "https://jvns.ca/blog/2026/02/18/man-pages/",
+      "published_date": "2026-02-18",
+      "saved_at": "2026-02-19T02:00:33.492000+05:30",
+      "reading_time": "5 mins",
+      "category": "rss",
+      "notes": ""
+    },
+    {
+      "id": "01khs08jhbvfadas8436e3rzbx",
+      "title": "A Brief History of the Creator of C++",
+      "author": "CultRepo",
+      "source_url": "https://www.youtube.com/watch?v=uDtvEsv730Y",
+      "published_date": "2026-02-18",
+      "saved_at": "2026-02-19T00:00:09.707000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01khrzgdsf2d95d3bde45t0k8n",
+      "title": "OpenClaw creator's programming setup | Peter Steinberger and Lex Fridman",
+      "author": "Lex Clips",
+      "source_url": "https://www.youtube.com/watch?v=m_l9pUKLiXo",
+      "published_date": "2026-02-18",
+      "saved_at": "2026-02-18T23:46:58.415000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01khr5j34r7rz05skjadrjr3hk",
       "title": "Likejunkies",
