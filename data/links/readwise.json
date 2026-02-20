@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-02-19T16:22:42.361474+05:30",
+  "last_updated": "2026-02-20T16:21:24.882303+05:30",
   "links": [
+    {
+      "id": "01khx3mw7fjwjeqsf6ttksxkcj",
+      "title": "A Web Revival: the Internet didn't die, you're just not on it",
+      "author": "onionboots",
+      "source_url": "https://www.youtube.com/watch?v=tkUgOT22F5s",
+      "published_date": "2026-02-19",
+      "saved_at": "2026-02-20T14:16:16.303000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01khwpmcc4sc445qkbnrr94v3c",
+      "title": "A Beginner’s Guide to Split Keyboards",
+      "author": "justinmklam",
+      "source_url": "https://www.justinmklam.com/posts/2026/02/beginners-guide-split-keyboards/",
+      "published_date": "2026-02-15",
+      "saved_at": "2026-02-20T10:28:48.579000+05:30",
+      "reading_time": "14 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kht53rvj2x2vr09bmc7xr4jd",
+      "title": "Expert Generalists",
+      "author": "Martin Fowler",
+      "source_url": "https://martinfowler.com/articles/expert-generalist.html",
+      "published_date": "2025-07-02",
+      "saved_at": "2026-02-19T10:44:09.650000+05:30",
+      "reading_time": "24 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kht4ht1g1vmz914qegs7stky",
+      "title": "Notes on clarifying man pages",
+      "author": "Julia Evans",
+      "source_url": "https://jvns.ca/blog/2026/02/18/man-pages/?__readwiseLocation=",
+      "published_date": "2026-02-18",
+      "saved_at": "2026-02-19T10:34:21.040000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kht2p8dvy0ywwzjvd8z28j80",
       "title": "Your RAM Is Fake. The Moon Broke Timezones. And Your Compiler Is Guessing.",
