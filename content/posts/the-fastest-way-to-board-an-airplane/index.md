@@ -386,7 +386,7 @@ _We aren't neat little yellow dots._
 
 If you'd like to explore this further, I highly recommend the original works that inspired this article:
 
-1. CGP Grey's video - [The Airplane Boarding Method That's Too Perfect To Use](https://www.youtube.com/watch?v=oAHbLRjF0vo)
+1. CGP Grey's video - [The Airplane Boarding Method That's Too Perfect To Use](https://www.youtube.com/watch?v=oAHbLRjF0vo) (This article borrows heavily from CGP Grey’s excellent explanation—sometimes paraphrased, occasionally quoted—because it’s simply that good)
 2. Jason Steffen's original paper - [Optimal boarding method for airline passengers](https://arxiv.org/abs/0802.0733)
 3. His follow up study - [Experimental test of airplane boarding methods](https://arxiv.org/abs/1108.5211)
 
