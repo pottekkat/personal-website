@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-02-20T16:21:24.882303+05:30",
+  "last_updated": "2026-02-21T16:16:06.924526+05:30",
   "links": [
+    {
+      "id": "01khz8g7rxz0bnsrd6fs57xsqd",
+      "title": "Code Mode: the better way to use MCP",
+      "author": "The Cloudflare Blog",
+      "source_url": "https://blog.cloudflare.com/code-mode/",
+      "published_date": "2025-09-26",
+      "saved_at": "2026-02-21T10:19:36.029000+05:30",
+      "reading_time": "11 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01khz8g0dg6wn93x52a799dksw",
+      "title": "Code Mode: give agents an entire API in 1,000 tokens",
+      "author": "The Cloudflare Blog",
+      "source_url": "https://blog.cloudflare.com/code-mode-mcp/?utm_campaign=cf_blog&utm_content=20260220&utm_medium=organic_social&utm_source=twitter/",
+      "published_date": "2026-02-20",
+      "saved_at": "2026-02-21T10:19:28.496000+05:30",
+      "reading_time": "7 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01khx3mw7fjwjeqsf6ttksxkcj",
       "title": "A Web Revival: the Internet didn't die, you're just not on it",
