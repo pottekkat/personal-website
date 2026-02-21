@@ -2,7 +2,7 @@
 title: The Fastest Way to Board an Airplane
 slug: airlines-hate-this-trick
 date: 2026-02-21T10:29:50+05:30
-draft: true
+draft: false
 toc:
   show: false
 ShowRelatedContent: false
