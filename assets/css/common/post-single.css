@@ -327,6 +327,33 @@
     border: 0;
 }
 
+.post-content .hr-icon {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    gap: 0.75em;
+}
+
+.hr-icon-line {
+    flex: 1;
+    height: 2px;
+    background: var(--tertiary);
+}
+
+.hr-icon-svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    gap: 0.6em;
+}
+
+.hr-icon-svg svg {
+    width: 1.2em;
+    height: 1.2em;
+    fill: var(--tertiary);
+}
+
 .post-content iframe {
     max-width: 100%;
 }
