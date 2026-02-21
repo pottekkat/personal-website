@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-20T10:51:59.748680",
+  "lastUpdated": "2026-02-21T10:46:36.174671",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Plums",
-      "postUrl": "https://xkcd.com/3209/",
-      "publishDate": "Wed, 18 Feb 2026 05:00:00 -0000"
+      "postTitle": "Eliminating the Impossible",
+      "postUrl": "https://xkcd.com/3210/",
+      "publishDate": "Fri, 20 Feb 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Thariq Shihipar",
-      "postUrl": "https://simonwillison.net/2026/Feb/20/thariq-shihipar/#atom-everything",
-      "publishDate": "2026-02-20T07:13:19+00:00"
+      "postTitle": "Quoting Thibault Sottiaux",
+      "postUrl": "https://simonwillison.net/2026/Feb/21/thibault-sottiaux/#atom-everything",
+      "publishDate": "2026-02-21T01:30:21+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "Can Opus 4.6 do Category Theory in Lean?",
-      "postUrl": "https://www.stephendiehl.com/posts/lean-opus-blog/",
-      "publishDate": "Mon, 16 Feb 2026 00:00:00 +0000"
+      "postTitle": "Optimal Caverna Gameplay via Formal Methods",
+      "postUrl": "https://www.stephendiehl.com/posts/caverna/",
+      "publishDate": "Sat, 21 Feb 2026 00:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -139,7 +139,7 @@
       "blogUrl": "https://sheep.horse/",
       "postTitle": "The Act of Creation",
       "postUrl": "https://sheep.horse/2025/1/the_act_of_creation.html",
-      "publishDate": "Thu, 30 Jan 2025 11:56:20 +0000"
+      "publishDate": "Thu, 30 Jan 2025 16:56:20 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
