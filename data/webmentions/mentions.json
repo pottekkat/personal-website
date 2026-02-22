@@ -3,6 +3,74 @@
     "type": "entry",
     "author": {
       "type": "card",
+      "name": "",
+      "photo": "",
+      "url": ""
+    },
+    "url": "https://bsky.app/profile/did:plc:ilrtjpvy5hghcejdgrwguyla/post/3mfevesf4xu2c",
+    "published": "2026-02-21T15:03:01+00:00",
+    "wm-received": "2026-02-21T15:03:08Z",
+    "wm-id": 1977744,
+    "wm-source": "https://bsky.brid.gy/convert/web/at://did:plc:ilrtjpvy5hghcejdgrwguyla/app.bsky.feed.post/3mfevesf4xu2c%23bridgy-fed-create-2026-02-21T15:03:05.517766+00:00",
+    "wm-target": "https://navendu.me/posts/airlines-hate-this-trick/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "I love the little animations in this article. They really illustrate the point the author made very neatly. \n\nThe Fastest Way to Board an Airplane\n<a href=\"https://navendu.me/posts/airlines-hate-this-trick/\">navendu.me/posts/airlin...</a>",
+      "text": "I love the little animations in this article. They really illustrate the point the author made very neatly. \n\nThe Fastest Way to Board an Airplane\nnavendu.me/posts/airlin..."
+    },
+    "mention-of": "https://navendu.me/posts/airlines-hate-this-trick/",
+    "wm-property": "mention-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Lobsters",
+      "photo": "https://avatars.webmention.io/fantastic.earth/75b607a88feeb6ec3898821ad765b1f17490c8dabed4f38061b94ee0574f5f74.png",
+      "url": "https://mastodon.social/@lobsters"
+    },
+    "url": "https://mastodon.social/@lobsters/116108742787334560",
+    "published": "2026-02-21T13:00:14+00:00",
+    "wm-received": "2026-02-21T13:32:28Z",
+    "wm-id": 1977721,
+    "wm-source": "https://brid.gy/post/mastodon/@abnv@fantastic.earth/116108742835501372",
+    "wm-target": "https://navendu.me/posts/airlines-hate-this-trick/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "<p>The Fastest Way to Board an Airplane via <span class=\"h-card\"><a href=\"https://fantastic.earth/@abnv\" class=\"u-url\">@<span>abnv</span></a></span> <a href=\"https://lobste.rs/s/l0gv3h\"><span>https://</span><span>lobste.rs/s/l0gv3h</span><span></span></a> <a href=\"https://mastodon.social/tags/visualization\">#<span>visualization</span></a><br /><a href=\"https://navendu.me/posts/airlines-hate-this-trick/\"><span>https://</span><span>navendu.me/posts/airlines-hate</span><span>-this-trick/</span></a></p>\n<a class=\"p-category\" href=\"https://fantastic.earth/tags/visualization\">visualization</a>\n<a class=\"u-mention\" href=\"https://navendu.me/posts/airlines-hate-this-trick/\"></a>\n<a href=\"https://lobste.rs/s/l0gv3h\">The Fastest Way to Board an Airplane</a>",
+      "text": "The Fastest Way to Board an Airplane via @abnv https://lobste.rs/s/l0gv3h #visualization\nhttps://navendu.me/posts/airlines-hate-this-trick/\nvisualization\n\nThe Fastest Way to Board an Airplane"
+    },
+    "mention-of": "https://navendu.me/posts/airlines-hate-this-trick/",
+    "wm-property": "mention-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "",
+      "photo": "",
+      "url": ""
+    },
+    "url": "https://lemmy.bestiver.se/post/942323",
+    "published": null,
+    "wm-received": "2026-02-21T13:00:09Z",
+    "wm-id": 1977713,
+    "wm-source": "https://lemmy.bestiver.se/post/942323",
+    "wm-target": "https://navendu.me/posts/airlines-hate-this-trick/",
+    "wm-protocol": "webmention",
+    "mention-of": "https://navendu.me/posts/airlines-hate-this-trick/",
+    "wm-property": "mention-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://lemmy.bestiver.se/post/942323"
+    }
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
       "name": "Navendu Pottekkat",
       "photo": "https://avatars.webmention.io/cdn.masto.host/51c20171ba55f475534aefe66f8147cd5ae13247d50cb2cfe377fd3b2048c29b.jpg",
       "url": "https://floss.social/@pottekkat"
