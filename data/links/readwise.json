@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-02-21T16:16:06.924526+05:30",
+  "last_updated": "2026-02-22T16:16:03.937330+05:30",
   "links": [
+    {
+      "id": "01kj29awqe5wp8js81jncsfy7p",
+      "title": "Cloning any random piece of SaaS is something that could...",
+      "author": "François Chollet",
+      "source_url": "https://x.com/fchollet/status/2025283590972756284/?s=12&rw_tt_thread=True",
+      "published_date": "2026-02-21",
+      "saved_at": "2026-02-22T14:31:52.749000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kj22kwkrjs1p0cwyq36mz7xn",
+      "title": "Very interested in what the coming era of highly bespoke...",
+      "author": "Andrej Karpathy",
+      "source_url": "https://x.com/kepano/status/2024947427401498733/?s=12&rw_tt_thread=True",
+      "published_date": "2026-02-19",
+      "saved_at": "2026-02-22T12:34:27.512000+05:30",
+      "reading_time": "4 mins",
+      "category": "tweet",
+      "notes": ""
+    },
     {
       "id": "01khz8g7rxz0bnsrd6fs57xsqd",
       "title": "Code Mode: the better way to use MCP",
