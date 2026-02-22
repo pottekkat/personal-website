@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-02-22T20:54:28+05:30",
+  "lastUpdated": "2026-02-22T21:26:28+05:30",
   "entries": [
+    {
+      "hash": "89b74ab",
+      "date": "2026-02-22T21:25:07+05:30",
+      "message": "Added fallback to 'someone' for missing author information in webmentions."
+    },
     {
       "hash": "7440b6a",
       "date": "2026-02-22T20:53:42+05:30",
