@@ -114,10 +114,14 @@
         <footer>
           <strong>
             {{- with $author -}}
-              {{- if .url -}}
-                <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+              {{- if .name -}}
+                {{- if .url -}}
+                  <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+                {{- else -}}
+                  {{ .name }}
+                {{- end -}}
               {{- else -}}
-                {{ .name }}
+                Someone
               {{- end -}}
             {{- else -}}
               Someone
