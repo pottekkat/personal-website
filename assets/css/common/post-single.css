@@ -354,6 +354,15 @@
     fill: var(--tertiary);
 }
 
+.inline-icon {
+    height: 0.75em;
+    width: auto;
+    fill: currentColor;
+    vertical-align: baseline;
+    position: relative;
+    top: 0.05em;
+}
+
 .post-content iframe {
     max-width: 100%;
 }
