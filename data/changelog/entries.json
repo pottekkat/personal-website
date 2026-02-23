@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-02-22T21:26:28+05:30",
+  "lastUpdated": "2026-02-23T14:32:32+05:30",
   "entries": [
+    {
+      "hash": "62a2fce",
+      "date": "2026-02-23T14:31:37+05:30",
+      "message": "Corrected simulation logic and updated related site content."
+    },
+    {
+      "hash": "c735b01",
+      "date": "2026-02-23T14:16:09+05:30",
+      "message": "Enhanced boarding simulation with new animation and content updates."
+    },
     {
       "hash": "89b74ab",
       "date": "2026-02-22T21:25:07+05:30",
