@@ -26,11 +26,11 @@ fmContentType: Post (default)
 
 _There must be a better way to do this, surely._
 
-I'm hardly the first person to think this while stuck behind a seemingly endless line of people waiting to board an airplane. If this question hasn't crossed your mind yet, wait till the next time you are cut off from the world as you enter the narrow metal tube between the boarding gate and the airplane—unless yours has glass windows, in which case, _enjoy the view!_
+I'm hardly the first person to think this while stuck behind a seemingly endless line of people waiting to board an airplane. If this question hasn't crossed your mind yet, wait till the next time you are cut off from the world as you enter the narrow metal tube between the boarding gate and the airplane (unless yours has glass windows, in which case, _enjoy the view!_).
 
-When you finally board the plane, you and seven others ahead of you in the aisle remain stuck waiting for the guy in 16A—who took “you can bring personal items” too liberally—to finish stowing his luggage. i.e., one person blocks the _entire_ aisle, inside _and_ outside the plane.
+When you finally board the plane, you and seven others ahead of you in the aisle remain stuck waiting for the guy in 16A (who took “you can bring personal items” too liberally) to finish stowing his luggage. i.e., one person blocks the _entire_ aisle, inside _and_ outside the plane.
 
-There _surely_ must be a better way. After all, throwing the gates open and making it a free-for-all wouldn't work (?), and the _back-to-front_ boarding-group strategy airlines use doesn't seem much better either.
+There _surely_ must be a better way. Allowing passengers to board at will would create chaos (?), and the _back-to-front_ boarding-group strategy airlines use doesn't seem much better either.
 
 {{< rawhtml >}}
 <style>
@@ -258,7 +258,7 @@ There _surely_ must be a better way. After all, throwing the gates open and maki
 >
 > Hit {{< rawhtml >}}<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width: 0.6em; height: 0.6em; fill: currentColor; vertical-align: baseline;"><path d="M91.2 36.9c-12.4-6.8-27.4-6.5-39.6 .7S32 57.9 32 72l0 368c0 14.1 7.5 27.2 19.6 34.4s27.2 7.5 39.6 .7l336-184c12.8-7 20.8-20.5 20.8-35.1s-8-28.1-20.8-35.1l-336-184z"/></svg>{{< /rawhtml >}}&nbsp;**Play** and watch.
 
-Airlines typically group rows into _zones_. Boarding the zones _**back-to-front**_ seems like a perfectly sensible and intuitive way to prevent people from blocking anyone behind them. _Doesn't it?_
+Airlines typically group rows into _zones_. Boarding the zones _**back-to-front**_ seems like a perfectly sensible and logical way to prevent people from blocking anyone behind them. _Doesn't it?_
 
 Let's see this in action. _Watch the aisle_.
 
@@ -284,7 +284,7 @@ Boarding is slow when queues form behind a single person. When the first (out of
 
 This feels inevitable. If you group people by adjacent rows, you _guarantee_ congestion. Everyone needs to stow their bags and sit roughly in the same rows. When they cannot pass each other or stow in parallel, they just wait.
 
-Boarding back-to-front is so inefficient that having people board at **_random_** whenever they arrive at the gate is faster.
+Boarding back-to-front is so inefficient that having people board at **_random_** is faster.
 
 {{< rawhtml >}}
 <div id="sim-random" class="bsim-wrapper">
@@ -312,7 +312,7 @@ When passengers are scattered across the plane, multiple people can stow bags at
 
 _But we can do better._
 
-Three groups: window, middle, aisle. In that order. The **_window-middle-aisle (WilMA)_** method is essentially the same idea as random, but applied three times, once for each column of seats.
+Instead of random boarding, the **_window-middle-aisle (WilMA)_** method creates minimal structure: passengers are grouped by seat type, with windows boarding first, followed by middle seats, then aisles.
 
 {{< rawhtml >}}
 <div id="sim-wilma" class="bsim-wrapper">
@@ -332,15 +332,13 @@ Three groups: window, middle, aisle. In that order. The **_window-middle-aisle (
 </div>
 {{< /rawhtml >}}
 
-In reality, this is _slightly_ faster than random, as it eliminates seat shuffles (you know, the awkward choreography where a seated passenger has to stand up and squeeze into the crowded aisle so you can reach your window seat). This isn't modeled in the simulation, but it contributes less to boarding frustrations than bag stowage anyway.
+In reality, this is _slightly_ faster than random without rules, as it eliminates the need for seated passengers to stand up and squeeze into the crowded aisle to let someone reach the window seat. This isn’t modeled in the simulation, but it contributes less to boarding frustrations than bag stowage anyway.
 
 I was surprised to learn that some airlines use this over back-to-front boarding, although I've never witnessed it in the wild. _I will believe it when I see it._
 
-Now, _ladies and gentlemen_, if you could leave your mortal souls for a moment and ascend to the realm of theory, where passengers are perfectly obedient biological automata, executing instructions without hesitation or complaint.
+Astrophysicist Jason **_Steffen's_** work discards the idea of boarding groups and treats this as a pure _optimization_ problem. He used a Monte Carlo optimization algorithm to search for the passenger ordering that minimizes total time.
 
-In Jason **_Steffen's_** method, there are no boarding groups. Every passenger stands in an exact order: back-to-front, alternating rows, alternating sides, windows first.
-
-When two consecutive passengers enter the aisle, they are going to rows that are at least two apart. They will _never_ block each other. They stow bags at the exact same time. The entire aisle becomes a neat, parallel-processing pipeline.
+The solution that emerged is elegant.
 
 {{< rawhtml >}}
 <div id="sim-steffen" class="bsim-wrapper">
@@ -362,11 +360,36 @@ When two consecutive passengers enter the aisle, they are going to rows that are
 
 Look at all those simultaneous yellow dots. _Beautiful._
 
-Of course, this version exists only in theory. Any time saved in the aisle would inevitably be lost trying to herd people into that exact order at the gate.
+Each passenger in line is seated two rows apart from the one before them, on alternating sides, filling the window seats first. i.e., two consecutive passengers are always in rows at least two apart. They will _never_ block each other. They stow bags at the exact same time.
 
-So let's descend back to Earth. _Fasten your seatbelts._
+Of course, this version exists only in theory. Any time saved in the aisle would inevitably be lost trying to herd people into that exact order at the gate (also, no airline will hand out 120 passengers 120 unique boarding positions).
 
-A practical variant uses four boarding groups instead of individual seat numbers: one side of the plane in every other row, then the other side, then back again. Within each group, the windows board first, then middle, then aisle. This isn't the logically perfect version, but at least parents can board with their kids now.
+A practical variant compresses the individual sequence into four boarding groups:
+
+1. **Right** side, **even** rows.
+2. **Left** side, **even** rows.
+3. **Right** side, **odd** rows.
+4. **Left** side, **odd** rows.
+
+Within each group, windows board first, then middle, then aisle. This isn’t the logically perfect version, but at least parents can board with their kids now.
+
+{{< rawhtml >}}
+<div id="sim-steffen-mod" class="bsim-wrapper">
+  <div class="bsim-canvas boarding-sketch-container"></div>
+  <div class="bsim-controls">
+    <div class="bsim-slider-container">
+      <label>Simulation Speed <span class="bsim-slider-value bsim-speed-value">15 steps/sec</span></label>
+      <div class="bsim-slider-row"><input type="range" class="bsim-speed-slider" min="1" max="30" value="15" step="1"></div>
+    </div>
+    <div class="bsim-button-row">
+      <button class="boarding-btn primary bsim-play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M91.2 36.9c-12.4-6.8-27.4-6.5-39.6 .7S32 57.9 32 72l0 368c0 14.1 7.5 27.2 19.6 34.4s27.2 7.5 39.6 .7l336-184c12.8-7 20.8-20.5 20.8-35.1s-8-28.1-20.8-35.1l-336-184z"/></svg>Play</button>
+      <button class="boarding-btn bsim-reset"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M65.9 228.5c13.3-93 93.4-164.5 190.1-164.5 53 0 101 21.5 135.8 56.2 .2 .2 .4 .4 .6 .6l7.6 7.2-47.9 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l128 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 53.4-11.3-10.7C390.5 28.6 326.5 0 256 0 127 0 20.3 95.4 2.6 219.5 .1 237 12.2 253.2 29.7 255.7s33.7-9.7 36.2-27.1zm443.5 64c2.5-17.5-9.7-33.7-27.1-36.2s-33.7 9.7-36.2 27.1c-13.3 93-93.4 164.5-190.1 164.5-53 0-101-21.5-135.8-56.2-.2-.2-.4-.4-.6-.6l-7.6-7.2 47.9 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 320c-8.5 0-16.7 3.4-22.7 9.5S-.1 343.7 0 352.3l1 127c.1 17.7 14.6 31.9 32.3 31.7S65.2 496.4 65 478.7l-.4-51.5 10.7 10.1c46.3 46.1 110.2 74.7 180.7 74.7 129 0 235.7-95.4 253.4-219.5z"/></svg>Reset</button>
+      <button class="boarding-btn bsim-skip"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M19.8 477.6c12 5 25.7 2.2 34.9-6.9L224 301.3 224 448c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9L448 301.3 448 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-384c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 146.7-169.4-169.4c-9.2-9.2-22.9-11.9-34.9-6.9S224 51.1 224 64L224 210.7 54.6 41.4c-9.2-9.2-22.9-11.9-34.9-6.9S0 51.1 0 64L0 448c0 12.9 7.8 24.6 19.8 29.6z"/></svg>Skip</button>
+      <span class="bsim-stats"><strong class="bsim-seated">0</strong>/120 seated &nbsp;&nbsp; <strong class="bsim-steps">0</strong> steps</span>
+    </div>
+  </div>
+</div>
+{{< /rawhtml >}}
 
 I ran each simulation 200 times and averaged the results.
 
@@ -386,7 +409,7 @@ _We aren't neat little yellow dots._
 
 If you'd like to explore this further, I highly recommend the original works that inspired this article:
 
-1. CGP Grey's video - [The Airplane Boarding Method That's Too Perfect To Use](https://www.youtube.com/watch?v=oAHbLRjF0vo) (This article borrows heavily from CGP Grey’s excellent explanation—sometimes paraphrased, occasionally quoted—because it’s that good)
+1. CGP Grey's video - [The Airplane Boarding Method That's Too Perfect To Use](https://www.youtube.com/watch?v=oAHbLRjF0vo) (This article borrows heavily from CGP Grey’s excellent explanation)
 2. Jason Steffen's original paper - [Optimal boarding method for airline passengers](https://arxiv.org/abs/0802.0733)
 3. His follow up study - [Experimental test of airplane boarding methods](https://arxiv.org/abs/1108.5211)
 
@@ -680,6 +703,7 @@ document.addEventListener('DOMContentLoaded', function () {
   createBoardingViz('sim-random', 'random');
   createBoardingViz('sim-wilma', 'wilma');
   createBoardingViz('sim-steffen', 'steffen');
+  createBoardingViz('sim-steffen-mod', 'steffen-modified');
   renderComparisonChart();
 });
 </script>

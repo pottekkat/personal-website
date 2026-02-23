@@ -287,7 +287,7 @@ class BoardingSimulation {
     const groups = [[], [], [], []];
 
     for (const p of list) {
-      const isEvenRow = p.assignedRow % 2 === 0;
+      const isEvenRow = (p.assignedRow + 1) % 2 === 0;
       const isRight = p.assignedCol >= 3;
 
       if (isEvenRow && isRight) groups[0].push(p);
