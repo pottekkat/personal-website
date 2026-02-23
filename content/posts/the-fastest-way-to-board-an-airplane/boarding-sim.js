@@ -279,11 +279,10 @@ class BoardingSimulation {
 
   _steffenModified(list) {
     // 4 groups: alternating rows x alternating sides
-    // Group 1: even rows, right side (cols 3-5), back to front
-    // Group 2: even rows, left side (cols 0-2), back to front
-    // Group 3: odd rows, right side (cols 3-5), back to front
-    // Group 4: odd rows, left side (cols 0-2), back to front
-    // Within each group: window -> middle -> aisle
+    // Group 1: even rows, right side (cols 3-5)
+    // Group 2: even rows, left side (cols 0-2)
+    // Group 3: odd rows, right side (cols 3-5)
+    // Group 4: odd rows, left side (cols 0-2)
     const groups = [[], [], [], []];
 
     for (const p of list) {
@@ -296,15 +295,10 @@ class BoardingSimulation {
       else groups[3].push(p);
     }
 
-    // Sort within each group: by column priority (window first), then back to front
-    const colPriority = { 0: 0, 5: 0, 1: 1, 4: 1, 2: 2, 3: 2 };
-
+    // Shuffle within each group. The group structure (alternating rows + one side)
+    // provides spacing; within a group, passengers line up in random order.
     groups.forEach((group, gi) => {
-      group.sort((a, b) => {
-        const colDiff = colPriority[a.assignedCol] - colPriority[b.assignedCol];
-        if (colDiff !== 0) return colDiff;
-        return b.assignedRow - a.assignedRow; // back to front
-      });
+      this._shuffleArray(group);
       group.forEach(p => p.boardingGroup = gi + 1);
     });
 

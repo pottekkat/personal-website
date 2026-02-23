@@ -371,7 +371,7 @@ A practical variant compresses the individual sequence into four boarding groups
 3. **Right** side, **odd** rows.
 4. **Left** side, **odd** rows.
 
-Within each group, windows board first, then middle, then aisle. This isn’t the logically perfect version, but at least parents can board with their kids now.
+Within each group, passengers line up freely. This isn’t the logically perfect version, but at least parents can board with their kids now.
 
 {{< rawhtml >}}
 <div id="sim-steffen-mod" class="bsim-wrapper">
