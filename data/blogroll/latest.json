@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-22T10:46:35.465871",
+  "lastUpdated": "2026-02-23T10:53:29.473248",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Thibault Sottiaux",
-      "postUrl": "https://simonwillison.net/2026/Feb/21/thibault-sottiaux/#atom-everything",
-      "publishDate": "2026-02-21T01:30:21+00:00"
+      "postTitle": "Red/green TDD",
+      "postUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/#atom-everything",
+      "publishDate": "2026-02-23T07:12:28+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -67,9 +67,9 @@
     {
       "blogTitle": "Austin Z. Henley's Blog",
       "blogUrl": "https://austinhenley.com/",
-      "postTitle": "Simulating the ladybug clock puzzle",
-      "postUrl": "https://austinhenley.com/blog/ladybugclock.html",
-      "publishDate": "Sat, 17 Jan 2026 16:00:01 -0400"
+      "postTitle": "Dear researchers: Is AI all you've got?",
+      "postUrl": "https://austinhenley.com/blog/dearresearchers.html",
+      "publishDate": "Sun, 22 Feb 2026 14:00:01 -0400"
     },
     {
       "blogTitle": "blog.jfo.click",
