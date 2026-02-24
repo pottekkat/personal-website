@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-23T10:53:29.473248",
+  "lastUpdated": "2026-02-24T10:53:22.337195",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Eliminating the Impossible",
-      "postUrl": "https://xkcd.com/3210/",
-      "publishDate": "Fri, 20 Feb 2026 05:00:00 -0000"
+      "postTitle": "Amperage",
+      "postUrl": "https://xkcd.com/3211/",
+      "publishDate": "Mon, 23 Feb 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Red/green TDD",
-      "postUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/#atom-everything",
-      "publishDate": "2026-02-23T07:12:28+00:00"
+      "postTitle": "Ladybird adopts Rust, with help from AI",
+      "postUrl": "https://simonwillison.net/2026/Feb/23/ladybird-adopts-rust/#atom-everything",
+      "publishDate": "2026-02-23T18:52:53+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -186,9 +186,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "500,000 tech workers have been laid off since ChatGPT was released",
-      "postUrl": "https://anildash.com/2026/01/06/500k-tech-workers-laid-off/",
-      "publishDate": "2026-01-06T00:00:00Z"
+      "postTitle": "How Markdown took over the world",
+      "postUrl": "https://anildash.com/2026/01/09/how-markdown-took-over-the-world/",
+      "publishDate": "2026-01-09T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
