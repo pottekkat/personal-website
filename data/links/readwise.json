@@ -1,6 +1,138 @@
 {
-  "last_updated": "2026-02-23T16:22:58.524784+05:30",
+  "last_updated": "2026-02-24T16:22:51.076837+05:30",
   "links": [
+    {
+      "id": "01kj7ehyf2g5g37fznk0rc2bbt",
+      "title": "You Can't Beat Linux",
+      "author": "bigboxSWE",
+      "source_url": "https://www.youtube.com/watch?v=Hcykm4QXF8M",
+      "published_date": "2026-02-22",
+      "saved_at": "2026-02-24T14:39:18.945000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kj7ags9gt8gjym7mpkm00a0f",
+      "title": "Context Management and MCP",
+      "author": "cra.mr",
+      "source_url": "https://cra.mr/context-management-and-mcp",
+      "published_date": "2026-02-02",
+      "saved_at": "2026-02-24T13:28:46.576000+05:30",
+      "reading_time": "8 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kj79yandxs3qdtyx9gka0tta",
+      "title": "Tool Search now in Claude Code",
+      "author": "Thariq",
+      "source_url": "https://x.com/trq212/status/2011523109871108570/?rw_tt_thread=True",
+      "published_date": "2026-01-14",
+      "saved_at": "2026-02-24T13:18:41.773000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kj785b3pyffy8kzmpz8t8rkk",
+      "title": "Beyond permission prompts: making Claude Code more secure and autonomous",
+      "author": "anthropic.com",
+      "source_url": "https://www.anthropic.com/engineering/claude-code-sandboxing",
+      "published_date": "2025-10-20",
+      "saved_at": "2026-02-24T12:47:34.453000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kj7853ag1256fe7fbaehmcp1",
+      "title": "building more efficient AI agents \\ Anthropic",
+      "author": "anthropic.com",
+      "source_url": "https://www.anthropic.com/engineering/code-execution-with-mcp",
+      "published_date": null,
+      "saved_at": "2026-02-24T12:47:26.480000+05:30",
+      "reading_time": "8 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kj743jqyc9wg6vymr8ymz5mc",
+      "title": "Red/green TDD - Agentic Engineering Patterns - Simon Willison's Weblog",
+      "author": "Simon Willison",
+      "source_url": "https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/",
+      "published_date": null,
+      "saved_at": "2026-02-24T11:36:42.430000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kj5spxamh7z1r6ypk8j6jnze",
+      "title": "Writing about Agentic Engineering Patterns",
+      "author": "Simon Willison's Weblog",
+      "source_url": "https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/#atom-everything",
+      "published_date": "2026-02-23",
+      "saved_at": "2026-02-23T23:15:44.092000+05:30",
+      "reading_time": "2 mins",
+      "category": "rss",
+      "notes": ""
+    },
+    {
+      "id": "01kj5mwe1j061mt74gebgkgx1r",
+      "title": "Writing code is cheap now",
+      "author": "Simon Willison's Weblog",
+      "source_url": "https://simonwillison.net/guides/agentic-engineering-patterns/code-is-cheap/#atom-everything",
+      "published_date": "2026-02-23",
+      "saved_at": "2026-02-23T21:51:22.171000+05:30",
+      "reading_time": "3 mins",
+      "category": "rss",
+      "notes": "\"For now I think the best we can do is to second guess ourselves: any time our instinct says \"don't build that, it's not worth the time\" fire off a prompt anyway, in an asynchronous agent session where the worst that can happen is you check ten minutes later and find that it wasn't worth the tokens.\""
+    },
+    {
+      "id": "01kj5g3p4zrk1p17mgxfq46xd4",
+      "title": "Why I’m not worried about AI job loss",
+      "author": "David Oks",
+      "source_url": "https://davidoks.blog/p/why-im-not-worried-about-ai-job-loss",
+      "published_date": "2026-02-12",
+      "saved_at": "2026-02-23T20:27:59.966000+05:30",
+      "reading_time": "14 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kj54pmq8tk09qgdxbf89xyzc",
+      "title": "Attention Media ≠ Social Networks",
+      "author": "susam.net",
+      "source_url": "https://susam.net/attention-media-vs-social-networks.html",
+      "published_date": "2026-01-20",
+      "saved_at": "2026-02-23T17:08:38.183000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kj3a92t7d3snpxb7g432m1m7",
+      "title": "Dear researchers: Is AI all you've got?",
+      "author": "azhenley@cmu.edu (Austin Z. Henley)",
+      "source_url": "https://austinhenley.com/blog/dearresearchers.html",
+      "published_date": "2026-02-22",
+      "saved_at": "2026-02-23T00:07:33.456000+05:30",
+      "reading_time": "7 mins",
+      "category": "rss",
+      "notes": ""
+    },
+    {
+      "id": "01kj0hkvshnh6p0f3e4me7rn17",
+      "title": "I Am Experimenting with Blocking HTTP1.1",
+      "author": "Andrew's Blog",
+      "source_url": "https://sheep.horse/2026/2/i_am_experimenting_with_blocking_http1.1.html",
+      "published_date": "2026-02-21",
+      "saved_at": "2026-02-21T22:18:03.450000+05:30",
+      "reading_time": "2 mins",
+      "category": "rss",
+      "notes": ""
+    },
     {
       "id": "01kj4t1m51rnwb1j3m38e2wv5n",
       "title": "Did not expect a question that starts out 'Do you...",
