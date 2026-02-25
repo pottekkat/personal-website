@@ -1,6 +1,94 @@
 {
-  "last_updated": "2026-02-24T16:22:51.076837+05:30",
+  "last_updated": "2026-02-25T16:23:22.799174+05:30",
   "links": [
+    {
+      "id": "01kj9sh8w4cc24rsr62tnsyasv",
+      "title": "Twitter: Last Week Tonight with John Oliver (HBO)",
+      "author": "LastWeekTonight",
+      "source_url": "https://www.youtube.com/watch?v=p7ZG_xWYLzI",
+      "published_date": "2026-02-22",
+      "saved_at": "2026-02-25T12:29:40.036000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kj9s4psf2z072j31r3qsq056",
+      "title": "I build a machine that turns you into a criminal",
+      "author": "Rootkid",
+      "source_url": "https://www.youtube.com/watch?v=1bBVQaAD_jI",
+      "published_date": "2025-09-24",
+      "saved_at": "2026-02-25T12:22:48.303000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kj9nyqw4mvfb47y6ds3tn1ya",
+      "title": "Does hypnosis ever actually work? - Devin Terhune",
+      "author": "TED-Ed",
+      "source_url": "https://www.youtube.com/watch?v=JJdoAMiaLZo",
+      "published_date": "2026-02-24",
+      "saved_at": "2026-02-25T11:27:07.076000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kj9k26q2wm1qhvm1bgd3j618",
+      "title": "Code has _always_ been the easy part",
+      "author": "Kellan Elliott-McCrea",
+      "source_url": "https://laughingmeme.org/2026/02/09/code-has-always-been-the-easy-part.html",
+      "published_date": "2026-02-09",
+      "saved_at": "2026-02-25T10:36:34.850000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kj95ff11qhtwsp5e1qbnkyzh",
+      "title": "Linear walkthroughs",
+      "author": "Simon Willison's Weblog",
+      "source_url": "https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything",
+      "published_date": "2026-02-25",
+      "saved_at": "2026-02-25T06:39:06.282000+05:30",
+      "reading_time": "3 mins",
+      "category": "rss",
+      "notes": ""
+    },
+    {
+      "id": "01kj88n1apx7gn8j3p9s0qynzy",
+      "title": "The Intent Layer",
+      "author": "Tyler Brandt",
+      "source_url": "https://intent-systems.com/blog/intent-layer#is-this-just-agentsmd-files",
+      "published_date": "2025-12-01",
+      "saved_at": "2026-02-24T22:15:23.157000+05:30",
+      "reading_time": "11 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kj83k78np4rvz3p5tdpyrnt9",
+      "title": "Exploring the Future of MCP Transports",
+      "author": "Kurtis Van Gent",
+      "source_url": "https://blog.modelcontextprotocol.io/posts/2025-12-19-mcp-transport-future/",
+      "published_date": "2025-12-19",
+      "saved_at": "2026-02-24T20:47:00.821000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kj82x8km28t8ek5p2dmdhvxs",
+      "title": "Your MCP Doesn’t Need 30 Tools: It Needs Code",
+      "author": "Armin Ronacher",
+      "source_url": "https://lucumr.pocoo.org/2025/8/18/code-mcps/",
+      "published_date": "2025-08-18",
+      "saved_at": "2026-02-24T20:35:01.300000+05:30",
+      "reading_time": "14 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kj7ehyf2g5g37fznk0rc2bbt",
       "title": "You Can't Beat Linux",
