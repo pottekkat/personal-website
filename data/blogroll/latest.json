@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-24T10:53:22.337195",
+  "lastUpdated": "2026-02-25T10:53:56.921322",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Ladybird adopts Rust, with help from AI",
-      "postUrl": "https://simonwillison.net/2026/Feb/23/ladybird-adopts-rust/#atom-everything",
-      "publishDate": "2026-02-23T18:52:53+00:00"
+      "postTitle": "Quoting Kellan Elliott-McCrea",
+      "postUrl": "https://simonwillison.net/2026/Feb/25/kellan-elliott-mccrea/#atom-everything",
+      "publishDate": "2026-02-25T03:30:32+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,16 +144,16 @@
     {
       "blogTitle": "AI as Normal Technology",
       "blogUrl": "https://www.normaltech.ai",
-      "postTitle": "AI Won\u2019t Automatically Make Legal Services Cheaper",
-      "postUrl": "https://www.normaltech.ai/p/ai-wont-automatically-make-legal",
-      "publishDate": "Thu, 12 Feb 2026 19:26:05 GMT"
+      "postTitle": "New Paper: Towards a science of AI agent reliability",
+      "postUrl": "https://www.normaltech.ai/p/new-paper-towards-a-science-of-ai",
+      "publishDate": "Tue, 24 Feb 2026 13:07:19 GMT"
     },
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Ebenezer Howard built a better city than the government",
-      "postUrl": "https://www.elysian.press/p/ebenezer-howards-garden-cities-letchworth",
-      "publishDate": "Thu, 19 Feb 2026 13:02:46 GMT"
+      "postTitle": "San Francisco should be profitable\u2014instead property owners are",
+      "postUrl": "https://www.elysian.press/p/cities-should-be-profitable-with-georgism",
+      "publishDate": "Tue, 24 Feb 2026 13:01:42 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "I'm taking a mini-sabbatical and Unhinged Habits made me do it | #322",
-      "postUrl": "https://newsletter.pathlesspath.com/p/im-taking-a-mini-sabbatical-and-unhinged",
-      "publishDate": "Mon, 26 Jan 2026 16:03:05 GMT"
+      "postTitle": "Going all in on becoming a Hyrox Athlete (Guest Post by Holly Gabrielle) | #323",
+      "postUrl": "https://newsletter.pathlesspath.com/p/going-all-in-on-becoming-a-hyrox",
+      "publishDate": "Tue, 24 Feb 2026 12:29:25 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
