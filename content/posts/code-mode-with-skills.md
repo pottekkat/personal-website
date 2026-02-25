@@ -99,7 +99,7 @@ An alternate version of Code Mode that works well is with skills. Now I don’t 
    ```
    ````
 
-2. Agents are given access to this skill, and they execute code to load and search the spec and then make API calls. Agents today, like Claude Code and Codex, have their own filesystem and network-isolated sandboxed execution environments.
+2. Agents are given access to this skill, and they execute code to load and search the spec and then make API calls. Agents today, like Claude Code and Codex, have their own filesystem and network-isolated [sandboxed execution environments](https://github.com/anthropic-experimental/sandbox-runtime).
 
 3. Agents optionally help themselves by documenting common flows in new skills without ever having read the whole specification.
 
