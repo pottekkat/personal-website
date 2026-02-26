@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-02-25T16:23:22.799174+05:30",
+  "last_updated": "2026-02-26T16:22:47.560487+05:30",
   "links": [
+    {
+      "id": "01kjc91416b6qcgd4wxbhrt5d0",
+      "title": "Alright interns, we need to have some real talk here",
+      "author": "ThePrimeagen",
+      "source_url": "https://x.com/ThePrimeagen/status/2026771192191824108/?rw_tt_thread=True",
+      "published_date": "2026-02-25",
+      "saved_at": "2026-02-26T11:38:56.870000+05:30",
+      "reading_time": "2 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kjc6hxc8aaf9572x1xdn5m1y",
+      "title": "An experienced programmer told me he's now using AI to...",
+      "author": "Paul Graham",
+      "source_url": "https://x.com/paulg/status/2026739899936944495/?rw_tt_thread=True",
+      "published_date": "2026-02-25",
+      "saved_at": "2026-02-26T10:55:41.384000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kjc3pfnrw1f48ny1xj3w8ej4",
+      "title": "It is hard to communicate how much programming has changed...",
+      "author": "Andrej Karpathy",
+      "source_url": "https://x.com/karpathy/status/2026731645169185220/?rw_tt_thread=True",
+      "published_date": "2026-02-25",
+      "saved_at": "2026-02-26T10:05:45.464000+05:30",
+      "reading_time": "2 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kja8bqp2r4afx1pmeg5j8nh4",
+      "title": "Facebook is absolutely cooked",
+      "author": "PILK",
+      "source_url": "https://pilk.website/3/facebook-is-absolutely-cooked?ref=dailydev",
+      "published_date": "2020-02-03",
+      "saved_at": "2026-02-25T16:48:47.234000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kj9sh8w4cc24rsr62tnsyasv",
       "title": "Twitter: Last Week Tonight with John Oliver (HBO)",
