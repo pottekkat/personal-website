@@ -1,6 +1,6 @@
 {{- $.Scratch.Add "index" slice -}}
 {{- range .Site.RegularPages -}}
-    {{- if and (not .Params.searchHidden) (ne .Layout `archives`) (ne .Layout `stats`) (ne .Layout `about`) (ne .Layout `blogroll`) (ne .Layout `links`) (ne .Layout `search`) (ne .Layout `subscribe`) }}
+    {{- if and (not .Params.searchHidden) (ne .Layout `archives`) (ne .Layout `stats`) (ne .Layout `about`) (ne .Layout `blogroll`) (ne .Layout `search`) (ne .Layout `subscribe`) }}
     {{- $title := .Title -}}
     {{- if not .Title -}}
         {{- $title = .Content | plainify | htmlUnescape | truncate 60 -}}

@@ -1,0 +1,20 @@
+{{- $data := site.Data.links.readwise -}}
+{{- range $data.links -}}
+  {{- $.AddPage (dict
+    "kind" "page"
+    "path" .id
+    "title" .title
+    "content" (dict "mediaType" "text/markdown" "value" "")
+    "dates" (dict "date" (time .saved_at))
+    "params" (dict
+      "source_url" .source_url
+      "author" .author
+      "reading_time" .reading_time
+      "published_date" .published_date
+      "category" .category
+      "notes" .notes
+      "saved_at" .saved_at
+      "searchHidden" true
+    )
+  ) -}}
+{{- end -}}

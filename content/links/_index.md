@@ -1,10 +1,15 @@
 ---
 title: "Links"
-url: "/links/"
-layout: "links"
 description: "Automatically updated list of links I find interesting enough to save."
+outputs:
+  - HTML
+build:
+  render: always
+  list: always
+cascade:
+  build:
+    render: never
+    list: always
 ---
 
 A continuously evolving collection of articles, research papers, tweets, and videos I find interesting.
-
-{{< readwise-links limit="100" >}}
