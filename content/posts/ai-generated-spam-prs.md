@@ -17,7 +17,7 @@ cover:
   relative: false
 ---
 
-> _See the discussion on [Hacker News](https://news.ycombinator.com/item?id=35357933)._
+See the discussion on [{{< icon hn >}} Hacker News](https://news.ycombinator.com/item?id=35357933).
 
 Recently, a person has been using AI tools to generate code and open pull requests to open source projects I contribute to.
 
@@ -91,4 +91,4 @@ It is fairly easy to understand when the code doesn't work that an AI generated 
 
 Please don't turn this into a “let’s spam open source projects” fest.
 
-_See the discussion on [Hacker News](https://news.ycombinator.com/item?id=35357933)._
+See the discussion on [{{< icon hn >}} Hacker News](https://news.ycombinator.com/item?id=35357933).

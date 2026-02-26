@@ -139,4 +139,4 @@ Nginx, its vast ecosystem, large community, and battle-tested stability can easi
 
 In other words, Nginx is probably fine.
 
-_See the discussion on [Reddit](https://www.reddit.com/r/programming/comments/18f6su8/nginx_is_probably_fine/)._
+See the discussion on [{{< icon reddit >}} Reddit](https://www.reddit.com/r/programming/comments/18f6su8/nginx_is_probably_fine/).
