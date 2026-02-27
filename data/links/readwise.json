@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-02-26T16:22:47.560487+05:30",
+  "last_updated": "2026-02-27T16:21:32.670805+05:30",
   "links": [
+    {
+      "id": "01kjfa2ykhzr0gcy0ycyhymm2q",
+      "title": "Only extreme programmers will survive",
+      "author": "bigboxSWE",
+      "source_url": "https://www.youtube.com/watch?v=Iu80Io2cNYw",
+      "published_date": "2026-02-26",
+      "saved_at": "2026-02-27T15:55:08.721000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kjf90th2g6qb5kh862ax6nwt",
+      "title": "When open-sourcing your code goes wrong...",
+      "author": "Fireship",
+      "source_url": "https://www.youtube.com/watch?v=wzzh7Not8XE",
+      "published_date": "2026-02-26",
+      "saved_at": "2026-02-27T15:36:30.434000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kjenr04h9x9p6307wj5n5rnr",
+      "title": "we're making @blocks smaller today",
+      "author": "jack",
+      "source_url": "https://x.com/jack/status/2027129697092731343/?rw_tt_thread=True",
+      "published_date": "2026-02-26",
+      "saved_at": "2026-02-27T09:59:38.321000+05:30",
+      "reading_time": "3 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kjdc15crt02019sbz84z7pzf",
+      "title": "Fueling Open Source with Vibes & Money",
+      "author": "openpath.quest",
+      "source_url": "https://openpath.quest/2026/fueling-open-source-with-vibes-and-money/",
+      "published_date": "2026-02-26",
+      "saved_at": "2026-02-26T21:50:38.424000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kjdabmpsdd5pmwqbk8wmqm3h",
+      "title": "i kept wasting my weekends doing nothing so i built...",
+      "author": "Pankaj",
+      "source_url": "https://x.com/the2ndfloorguy/status/2027013558106767487/?rw_tt_thread=True",
+      "published_date": "2026-02-26",
+      "saved_at": "2026-02-26T21:21:24.632000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kjda8t8phz4re1dfw2at11z1",
+      "title": "\"Please fix Markdown tables, but make it family friendly!\"",
+      "author": "kmdr",
+      "source_url": "https://x.com/kmdrfx/status/2026989704080424976/?rw_tt_thread=True",
+      "published_date": "2026-02-26",
+      "saved_at": "2026-02-26T21:19:52.022000+05:30",
+      "reading_time": "2 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kjd9ymahypwt4ypnhkzfbpa0",
+      "title": "Jimi Hendrix Was a Systems Engineer",
+      "author": "Rohan S. Puranik",
+      "source_url": "https://spectrum.ieee.org/jimi-hendrix-systems-engineer",
+      "published_date": "2026-02-25",
+      "saved_at": "2026-02-26T21:14:18.257000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kjc91416b6qcgd4wxbhrt5d0",
       "title": "Alright interns, we need to have some real talk here",
@@ -219,7 +296,8 @@
       "saved_at": "2026-02-23T21:51:22.171000+05:30",
       "reading_time": "3 mins",
       "category": "rss",
-      "notes": "'For now I think the best we can do is to second guess ourselves: any time our instinct says \"don't build that, it's not worth the time\" fire off a prompt anyway, in an asynchronous agent session where the worst that can happen is you check ten minutes later and find that it wasn't worth the tokens.'"    },
+      "notes": "'For now I think the best we can do is to second guess ourselves: any time our instinct says \"don't build that, it's not worth the time\" fire off a prompt anyway, in an asynchronous agent session where the worst that can happen is you check ten minutes later and find that it wasn't worth the tokens.'"
+    },
     {
       "id": "01kj5g3p4zrk1p17mgxfq46xd4",
       "title": "Why I’m not worried about AI job loss",
