@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-26T10:53:20.587294",
+  "lastUpdated": "2026-02-27T10:52:04.148888",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules.",
-      "postUrl": "https://simonwillison.net/2026/Feb/26/google-api-keys/#atom-everything",
-      "publishDate": "2026-02-26T04:28:55+00:00"
+      "postTitle": "Hoard things you know how to do",
+      "postUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/hoard-things-you-know-how-to-do/#atom-everything",
+      "publishDate": "2026-02-26T20:33:27+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "San Francisco should be profitable\u2014instead property owners are",
-      "postUrl": "https://www.elysian.press/p/cities-should-be-profitable-with-georgism",
-      "publishDate": "Tue, 24 Feb 2026 13:01:42 GMT"
+      "postTitle": "Disney World has more autonomy than any US city",
+      "postUrl": "https://www.elysian.press/p/disney-world-has-more-autonomy-than-cities",
+      "publishDate": "Thu, 26 Feb 2026 13:01:30 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "The Slack AGI Test",
-      "postUrl": "https://www.readtrung.com/p/the-slack-agi-test",
-      "publishDate": "Fri, 20 Feb 2026 00:26:44 GMT"
+      "postTitle": "6 Takeaways From Citrini's Viral AI Doomer Article (and a Bunch of Rebuttals)",
+      "postUrl": "https://www.readtrung.com/p/6-takeaways-from-citrinis-viral-ai",
+      "publishDate": "Fri, 27 Feb 2026 02:28:18 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
