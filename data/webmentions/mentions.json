@@ -7,6 +7,28 @@
       "photo": "",
       "url": ""
     },
+    "url": "https://www.camilleroux.com/veille-45-lactu-de-la-semaine/",
+    "published": null,
+    "wm-received": "2026-02-27T10:03:51Z",
+    "wm-id": 1979250,
+    "wm-source": "https://www.camilleroux.com/veille-45-lactu-de-la-semaine/",
+    "wm-target": "https://navendu.me/posts/airlines-hate-this-trick/?utm_source=camilleroux&utm_medium=email&utm_campaign=veille-45",
+    "wm-protocol": "webmention",
+    "mention-of": "https://navendu.me/posts/airlines-hate-this-trick/?utm_source=camilleroux&utm_medium=email&utm_campaign=veille-45",
+    "wm-property": "mention-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://www.camilleroux.com/veille-45-lactu-de-la-semaine/"
+    }
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "",
+      "photo": "",
+      "url": ""
+    },
     "url": "https://bsky.app/profile/did:plc:ilrtjpvy5hghcejdgrwguyla/post/3mfevesf4xu2c",
     "published": "2026-02-21T15:03:01+00:00",
     "wm-received": "2026-02-21T15:03:08Z",
