@@ -203,7 +203,7 @@ Here's what's happening:
 
 1. The `entrypoint` is the file where the input from the LLM is stored to be executed as described by `command`.
 2. The `timeout` is the execution time limit. This can be useful to prevent the sandbox from running indefinitely.
-3. The `parameters` property allows you to configure additional parameters for the sandbox tool. Here, we set `additionalFiles` to `true`, which allows the LLMs to pass additional files. Another valid value is `files`, which let's you configure any required files which should be passed along with the `entrypoint`. See the [go sandbox](./go/config.json) for an example.
+3. The `parameters` property allows you to configure additional parameters for the sandbox tool. Here, we set `additionalFiles` to `true`, which allows the LLMs to pass additional files. Another valid value is `files`, which let's you configure any required files which should be passed along with the `entrypoint`. See the [go sandbox](https://github.com/pottekkat/sandbox-mcp/blob/main/sandboxes/go/config.json) for an example.
 4. The `security`, `resources`, and `mount` properties directly translate to Docker container configurations.
 
 Once you have configured the sandbox, you can reload the MCP host/client application to apply the changes. You will see `my-sandbox` in the list of available tools.

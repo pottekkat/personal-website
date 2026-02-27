@@ -17,7 +17,7 @@ I would probably write a detailed travel article about this but here are some ph
 
 {{< figure src="/images/25-3-23-from-bahrain/goat-alonso.jpeg#center" title="The GOAT." caption="Bahrain International Circuit - 3rd March 2023" link="/images/25-3-23-from-bahrain/goat-alonso.jpeg" target="_blank" class="align-center" >}}
 
-{{< figure src="/images/25-3-23-from-bahrain/drivers-trophy.jpeg#center" title="Drivers trophy" caption="Bahrain International Circuit - 3rd March 2023" link="/images/25-3-23-from-bahrain/drivers-trophy." target="_blank" class="align-center" >}}
+{{< figure src="/images/25-3-23-from-bahrain/drivers-trophy.jpeg#center" title="Drivers trophy" caption="Bahrain International Circuit - 3rd March 2023" link="/images/25-3-23-from-bahrain/drivers-trophy.jpeg" target="_blank" class="align-center" >}}
 
 {{< figure src="/images/25-3-23-from-bahrain/grandstand.jpeg#center" title="Turn 1 Grandstand" caption="Bahrain International Circuit - 3rd March 2023" link="/images/25-3-23-from-bahrain/grandstand.jpeg" target="_blank" class="align-center" >}}
 

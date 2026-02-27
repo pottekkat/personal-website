@@ -26,7 +26,7 @@ This is the first time anything I have written has been published on a print med
 
 I do have a secret copy with me but I can't publish it now. Sorry!
 
-But [there is an article](/posts/building-your-career-in-open-source/) that covers the key takeaways from my talk at OSI Summit.
+But [there is an article](/posts/how-the-lfx-mentorship-program-helped-me-level-up-my-career/) that covers the key takeaways from my talk at OSI Summit.
 
 Me and my roommate started playing [Wordle Cup](https://wordlecup.io/)—a competitive version of Wordle—yesterday. Cool game.
 

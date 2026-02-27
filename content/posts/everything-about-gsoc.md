@@ -47,7 +47,7 @@ Participating in [programs like GSoC](../open-source-internship-programs) helps 
 - Boost your career
 - Get a stable stipend
 
-The goal of GSoC is to enable mentees to be good open source stewards. Completing GSoC can open doors for you and could even lead to a [career in open source](../building-your-career-in-open-source).
+The goal of GSoC is to enable mentees to be good open source stewards. Completing GSoC can open doors for you and could even lead to a [career in open source](/posts/how-the-lfx-mentorship-program-helped-me-level-up-my-career/).
 
 ## Am I Eligible to Participate?
 
