@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-02-27T16:21:32.670805+05:30",
+  "last_updated": "2026-02-28T16:13:51.259458+05:30",
   "links": [
+    {
+      "id": "01kjh88rvysd6cxntafb4ba8jk",
+      "title": "We Will Not Be Divided",
+      "author": "notdivided.org",
+      "source_url": "https://notdivided.org/",
+      "published_date": null,
+      "saved_at": "2026-02-28T10:01:51.166000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kjgsn9h5zq65b4yrhhvr6mef",
+      "title": "A Cookie for Dario? — Anthropic and selling death",
+      "author": "Anil Dash",
+      "source_url": "https://anildash.com/2026/02/27/a-cookie-for-dario/",
+      "published_date": "2026-02-28",
+      "saved_at": "2026-02-28T05:46:29.805000+05:30",
+      "reading_time": "5 mins",
+      "category": "rss",
+      "notes": ""
+    },
+    {
+      "id": "01kjfx1sd6grnpt142ba8ay3ky",
+      "title": "Cloudflare’s Lavalamp Obsession",
+      "author": "The PrimeTime",
+      "source_url": "https://www.youtube.com/watch?v=hxY6DewNpao",
+      "published_date": "2026-02-27",
+      "saved_at": "2026-02-27T21:26:33.573000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kjdthq8bhznm5s6f5c6x43h1",
+      "title": "Hoard things you know how to do",
+      "author": "Simon Willison's Weblog",
+      "source_url": "https://simonwillison.net/guides/agentic-engineering-patterns/hoard-things-you-know-how-to-do/#atom-everything",
+      "published_date": "2026-02-26",
+      "saved_at": "2026-02-27T02:04:18.067000+05:30",
+      "reading_time": "6 mins",
+      "category": "rss",
+      "notes": ""
+    },
     {
       "id": "01kjfa2ykhzr0gcy0ycyhymm2q",
       "title": "Only extreme programmers will survive",
