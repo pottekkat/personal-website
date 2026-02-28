@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-27T10:52:04.148888",
+  "lastUpdated": "2026-02-28T10:44:20.026999",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Little Red Dots",
-      "postUrl": "https://xkcd.com/3212/",
-      "publishDate": "Wed, 25 Feb 2026 05:00:00 -0000"
+      "postTitle": "Dental Formulas",
+      "postUrl": "https://xkcd.com/3213/",
+      "publishDate": "Fri, 27 Feb 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Hoard things you know how to do",
-      "postUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/hoard-things-you-know-how-to-do/#atom-everything",
-      "publishDate": "2026-02-26T20:33:27+00:00"
+      "postTitle": "Please, please, please stop using passkeys for encrypting user data",
+      "postUrl": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
+      "publishDate": "2026-02-27T22:49:32+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -186,9 +186,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "How to know if that job will crush your soul",
-      "postUrl": "https://anildash.com/2026/01/12/will-that-job-crush-your-soul/",
-      "publishDate": "2026-01-12T00:00:00Z"
+      "postTitle": "Wikipedia at 25: What the web can be",
+      "postUrl": "https://anildash.com/2026/01/15/wikipedia-at-25/",
+      "publishDate": "2026-01-15T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
