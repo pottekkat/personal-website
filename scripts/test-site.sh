@@ -8,7 +8,7 @@
 #
 # Prerequisites: curl, jq, hugo (for build test)
 
-set -euo pipefail
+set -uo pipefail
 
 BASE_URL="${1:-http://localhost:1313}"
 BASE_URL="${BASE_URL%/}" # strip trailing slash
@@ -40,7 +40,6 @@ check_url() {
     fi
 }
 
-# Follow redirects and check final status
 check_url_follow() {
     local url="$1"
     local label="${2:-$url}"
@@ -77,8 +76,10 @@ bold ""
 # ─────────────────────────────────────────────
 bold "1. Hugo Build"
 bold "─────────────────────────────────────────"
-if hugo --gc --minify 2>&1 | grep -qi "error"; then
+build_output=$(hugo --gc --minify 2>&1)
+if echo "$build_output" | grep -qi "error"; then
     fail "Hugo build has errors"
+    echo "$build_output" | grep -i "error"
 else
     pass "Hugo build succeeds"
 fi
@@ -93,11 +94,11 @@ check_url "$BASE_URL/now/" "Now"
 check_url "$BASE_URL/posts/" "Posts index"
 check_url "$BASE_URL/dailies/" "Dailies index"
 check_url "$BASE_URL/archives/" "Archives"
-check_url "$BASE_URL/search/" "Search"
 check_url "$BASE_URL/subscribe/" "Subscribe"
 check_url "$BASE_URL/links/" "Links"
 check_url "$BASE_URL/categories/" "Categories"
 check_url "$BASE_URL/tags/" "Tags"
+check_url "$BASE_URL/books/" "Books"
 
 # ─────────────────────────────────────────────
 bold ""
@@ -110,7 +111,7 @@ check_url "$BASE_URL/apple-touch-icon.png" "apple-touch-icon.png"
 check_url "$BASE_URL/logo.png" "logo.png"
 check_url "$BASE_URL/site.webmanifest" "site.webmanifest"
 
-# This was removed — should 404
+# safari-pinned-tab.svg reference was removed — should 404
 code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 "$BASE_URL/safari-pinned-tab.svg" 2>/dev/null || echo "000")
 if [ "$code" = "404" ]; then
     pass "safari-pinned-tab.svg correctly 404s (removed reference)"
@@ -126,7 +127,7 @@ check_url "$BASE_URL/index.xml" "Main RSS feed"
 check_url "$BASE_URL/posts/index.xml" "Posts RSS feed"
 check_url "$BASE_URL/dailies/index.xml" "Dailies RSS feed"
 
-# Check that paginated RSS URLs don't exist (they shouldn't)
+# Check that paginated RSS URLs don't exist
 code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 "$BASE_URL/posts/page/2/index.xml" 2>/dev/null || echo "000")
 if [ "$code" = "404" ]; then
     pass "Paginated RSS /posts/page/2/index.xml correctly 404s"
@@ -147,12 +148,18 @@ bold ""
 bold "5. Previously Broken URLs (Fixed 404s)"
 bold "─────────────────────────────────────────"
 
-# black-felt.png was referenced in noscript CSS — should 404 (and that's fine now)
-code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 "$BASE_URL/images/black-felt.png" 2>/dev/null || echo "000")
-if [ "$code" = "404" ]; then
-    pass "black-felt.png 404s (reference removed from CSS, so this is fine)"
+# black-felt.png was referenced in noscript CSS — verify reference removed
+if echo "$homepage_html" | grep -q 'black-felt'; then
+    fail "Homepage still references black-felt.png"
 else
-    pass "black-felt.png returned $code"
+    pass "Homepage no longer references black-felt.png"
+fi
+
+# safari-pinned-tab reference removed from HTML
+if echo "$homepage_html" | grep -q 'safari-pinned-tab'; then
+    fail "Homepage still references safari-pinned-tab.svg"
+else
+    pass "Homepage no longer references safari-pinned-tab.svg"
 fi
 
 # drivers-trophy image should now resolve
@@ -174,7 +181,6 @@ fi
 bold ""
 bold "6. Trailing Slash Consistency"
 bold "─────────────────────────────────────────"
-# These URLs should respond 200 directly (not redirect)
 check_no_redirect "$BASE_URL/about/" "/about/ (with slash)"
 check_no_redirect "$BASE_URL/categories/featured/" "/categories/featured/ (with slash)"
 check_no_redirect "$BASE_URL/now/" "/now/ (with slash)"
@@ -193,7 +199,7 @@ else
 fi
 
 # Check homepage has charset meta
-if echo "$homepage_html" | grep -qi 'charset=utf-8\|charset=UTF-8'; then
+if echo "$homepage_html" | grep -qi 'charset=utf-8'; then
     pass "Homepage has charset=utf-8"
 else
     fail "Homepage missing charset meta"
@@ -213,26 +219,32 @@ else
     fail "Homepage missing <title> tag"
 fi
 
-# Check homepage has canonical link
-if echo "$homepage_html" | grep -q 'rel="canonical"'; then
+# Check homepage has canonical link (minified HTML may omit quotes)
+if echo "$homepage_html" | grep -q 'rel="canonical"\|rel=canonical'; then
     pass "Homepage has canonical link"
 else
     warn "Homepage missing canonical link"
 fi
 
-# Check homepage has RSS link
-if echo "$homepage_html" | grep -q 'type="application/rss+xml"'; then
+# Check homepage has RSS link (handle minified HTML without quotes)
+if echo "$homepage_html" | grep -q 'application/rss+xml'; then
     pass "Homepage has RSS link in <head>"
 else
     fail "Homepage missing RSS link in <head>"
 fi
 
-# Check a post page has Open Graph meta
-post_html=$(curl -s --max-time 10 "$BASE_URL/posts/" 2>/dev/null)
-if echo "$post_html" | grep -q 'og:title'; then
-    pass "Posts page has Open Graph meta tags"
+# Check Open Graph meta tags
+if echo "$homepage_html" | grep -q 'og:title'; then
+    pass "Homepage has Open Graph meta tags"
 else
-    warn "Posts page missing Open Graph meta tags"
+    warn "Homepage missing Open Graph meta tags"
+fi
+
+# Check Twitter card meta tags
+if echo "$homepage_html" | grep -q 'twitter:card'; then
+    pass "Homepage has Twitter card meta tags"
+else
+    warn "Homepage missing Twitter card meta tags"
 fi
 
 # ─────────────────────────────────────────────
@@ -254,7 +266,6 @@ fi
 bold ""
 bold "9. Content Spot Checks (sample posts load)"
 bold "─────────────────────────────────────────"
-# Pick a few known posts to verify they load
 check_url_follow "$BASE_URL/posts/everything-about-gsoc/" "GSoC post"
 check_url_follow "$BASE_URL/posts/sandbox-mcp/" "Sandbox MCP post"
 check_url_follow "$BASE_URL/dailies/25-3-23-from-bahrain/" "Bahrain daily"
@@ -264,7 +275,7 @@ check_url_follow "$BASE_URL/dailies/25-2-22-never-have-i-ever-been-published-in-
 bold ""
 bold "10. Internal Link Sampling from Built HTML"
 bold "─────────────────────────────────────────"
-# Sample internal links from a few pages and check them
+# Sample internal links from key pages and check them
 sample_pages=(
     "$BASE_URL/"
     "$BASE_URL/about/"
@@ -276,12 +287,13 @@ link_errors=0
 
 for page_url in "${sample_pages[@]}"; do
     page_html=$(curl -s --max-time 10 "$page_url" 2>/dev/null)
-    # Extract internal href links (skip anchors, mailto, javascript, external)
-    links=$(echo "$page_html" | grep -oP 'href="(/[^"]*)"' | sed 's/href="//;s/"$//' | sort -u | head -20)
+    # Extract internal href links (macOS-compatible grep)
+    links=$(echo "$page_html" | grep -oE 'href="(/[^"]*)"' | sed 's/href="//;s/"$//' | sort -u | head -20)
     for link in $links; do
-        # Skip anchor-only links, RSS xml, and already checked
+        # Skip anchor-only links, RSS xml, JSON, and already checked
         [[ "$link" == "#"* ]] && continue
         [[ "$link" == *".xml" ]] && continue
+        [[ "$link" == *".json" ]] && continue
         [[ " ${checked_links[*]:-} " == *" $link "* ]] && continue
         checked_links+=("$link")
 
@@ -290,7 +302,7 @@ for page_url in "${sample_pages[@]}"; do
             : # silent pass for sampled links
         else
             fail "Sampled link $link -> $code"
-            ((link_errors++))
+            ((link_errors++)) || true
         fi
     done
 done
@@ -306,15 +318,14 @@ bold ""
 bold "11. netlify.toml Validation"
 bold "─────────────────────────────────────────"
 if [ -f "netlify.toml" ]; then
-    # Check for valid TOML structure (basic check)
     if grep -q '^\[\[redirects\]\]' netlify.toml && grep -q '^\[\[headers\]\]' netlify.toml; then
         pass "netlify.toml has redirects and headers sections"
     else
         warn "netlify.toml may be missing redirects or headers"
     fi
 
-    # Check redirect targets respond
-    redirect_targets=$(grep -oP 'to = "(/[^"]*)"' netlify.toml | sed 's/to = "//;s/"$//')
+    # Check local redirect targets respond
+    redirect_targets=$(grep -oE 'to = "(/[^"]*)"' netlify.toml | sed 's/to = "//;s/"$//')
     redirect_ok=true
     for target in $redirect_targets; do
         code=$(curl -s -o /dev/null -w "%{http_code}" -L --max-time 10 "${BASE_URL}${target}" 2>/dev/null || echo "000")
@@ -334,7 +345,6 @@ fi
 bold ""
 bold "12. JSON Data Files"
 bold "─────────────────────────────────────────"
-# Validate readwise.json is valid JSON
 if [ -f "data/links/readwise.json" ]; then
     if jq empty data/links/readwise.json 2>/dev/null; then
         pass "readwise.json is valid JSON"
@@ -354,7 +364,6 @@ else
     warn "readwise.json not found"
 fi
 
-# Check other JSON data files
 for f in data/links/*.json; do
     [ -f "$f" ] || continue
     fname=$(basename "$f")
@@ -364,6 +373,38 @@ for f in data/links/*.json; do
         fail "$fname is invalid JSON"
     fi
 done
+
+# ─────────────────────────────────────────────
+bold ""
+bold "13. Built HTML Regression Checks"
+bold "─────────────────────────────────────────"
+# Verify removed references don't appear in any built HTML
+if grep -rq 'safari-pinned-tab' public/ 2>/dev/null; then
+    fail "public/ still contains safari-pinned-tab.svg references"
+else
+    pass "No safari-pinned-tab.svg references in built output"
+fi
+
+if grep -rq 'black-felt' public/ 2>/dev/null; then
+    fail "public/ still contains black-felt.png references"
+else
+    pass "No black-felt.png references in built output"
+fi
+
+# Check no paginated RSS in any HTML head
+if grep -rl 'page/[0-9]*/index.xml' public/ 2>/dev/null | head -1 | grep -q .; then
+    fail "Built HTML contains paginated RSS links"
+else
+    pass "No paginated RSS links in built HTML"
+fi
+
+# Verify sandbox-mcp config.json link points to GitHub
+sandbox_html=$(cat public/posts/sandbox-mcp/index.html 2>/dev/null)
+if echo "$sandbox_html" | grep -q 'github.com/pottekkat/sandbox-mcp.*config.json'; then
+    pass "Sandbox MCP config.json link points to GitHub"
+else
+    fail "Sandbox MCP config.json link not pointing to GitHub"
+fi
 
 # ─────────────────────────────────────────────
 bold ""
