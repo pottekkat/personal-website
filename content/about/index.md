@@ -276,7 +276,7 @@ You can reach out to me at [navendu@apache.org](mailto:navendu@apache.org)
 
 ### GPG Key
 
-To encrypt messages, please use my public key:
+To encrypt messages, please use my public key ([plaintext file](/publickey.txt)):
 
 ```text
 -----BEGIN PGP PUBLIC KEY BLOCK-----
