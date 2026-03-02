@@ -6,6 +6,10 @@ module.exports = {
         'http://localhost/index.html',
       ],
       numberOfRuns: 5,
+      settings: {
+        emulatedUserAgent: false,
+        chromeFlags: '--force-prefers-color-scheme-dark',
+      },
     },
   },
 };
