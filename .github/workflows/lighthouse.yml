@@ -28,7 +28,9 @@ jobs:
       - name: Build
         env:
           HUGO_ENV: development
-        run: hugo --gc --minify
+        run: |
+          sed -i 's/defaultTheme: "auto"/defaultTheme: "dark"/' config.yml
+          hugo --gc --minify
 
       - name: Use Node.js 18.x
         uses: actions/setup-node@v6
