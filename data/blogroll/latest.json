@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-01T10:45:34.318007",
+  "lastUpdated": "2026-03-02T10:54:21.749355",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Interactive explanations",
-      "postUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything",
-      "publishDate": "2026-02-28T23:09:39+00:00"
+      "postTitle": "Quoting claude.com/import-memory",
+      "postUrl": "https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything",
+      "publishDate": "2026-03-01T11:21:45+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
