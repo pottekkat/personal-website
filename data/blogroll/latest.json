@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-03-02T10:54:21.749355",
+  "lastUpdated": "2026-03-03T10:57:11.761522",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Dental Formulas",
-      "postUrl": "https://xkcd.com/3213/",
-      "publishDate": "Fri, 27 Feb 2026 05:00:00 -0000"
+      "postTitle": "Electric Vehicles",
+      "postUrl": "https://xkcd.com/3214/",
+      "publishDate": "Mon, 02 Mar 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting claude.com/import-memory",
-      "postUrl": "https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything",
-      "publishDate": "2026-03-01T11:21:45+00:00"
+      "postTitle": "GIF optimization tool using WebAssembly and Gifsicle",
+      "postUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything",
+      "publishDate": "2026-03-02T16:35:10+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Disney World has more autonomy than any US city",
-      "postUrl": "https://www.elysian.press/p/disney-world-has-more-autonomy-than-cities",
-      "publishDate": "Thu, 26 Feb 2026 13:01:30 GMT"
+      "postTitle": "Cities should own their land\u2014like Vienna and Amsterdam",
+      "postUrl": "https://www.elysian.press/p/cities-should-own-their-land",
+      "publishDate": "Mon, 02 Mar 2026 13:02:47 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
