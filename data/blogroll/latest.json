@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-03T10:57:11.761522",
+  "lastUpdated": "2026-03-04T10:51:31.516551",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "GIF optimization tool using WebAssembly and Gifsicle",
-      "postUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything",
-      "publishDate": "2026-03-02T16:35:10+00:00"
+      "postTitle": "Quoting Donald Knuth",
+      "postUrl": "https://simonwillison.net/2026/Mar/3/donald-knuth/#atom-everything",
+      "publishDate": "2026-03-03T23:59:04+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Saudi Arabia\u2019s Ordeal",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/saudi-arabias-ordeal",
-      "publishDate": "Wed, 25 Feb 2026 21:09:19 GMT"
+      "postTitle": "Iran: The Day After",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/iran-the-day-after",
+      "publishDate": "Tue, 03 Mar 2026 15:25:17 GMT"
     },
     {
       "blogTitle": "Anil Dash",
