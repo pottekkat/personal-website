@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-03-04T16:20:59.408866+05:30",
+  "last_updated": "2026-03-05T16:22:20.345892+05:30",
   "links": [
+    {
+      "id": "01kjy4h8tq3jnpyjc2dqv9fqtc",
+      "title": "The View From RSS",
+      "author": "Caroline Crampton",
+      "source_url": "https://www.carolinecrampton.com/the-view-from-rss/",
+      "published_date": "2026-03-03",
+      "saved_at": "2026-03-05T10:06:42.967000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kjx2nmwz8fdag74mnbzngdmr",
+      "title": "I have been thinking about this a lot",
+      "author": "ThePrimeagen",
+      "source_url": "https://x.com/ThePrimeagen/status/2029210343688253510/?rw_tt_thread=True",
+      "published_date": "2026-03-04",
+      "saved_at": "2026-03-05T00:14:54.815000+05:30",
+      "reading_time": "3 mins",
+      "category": "tweet",
+      "notes": ""
+    },
     {
       "id": "01kjvksyvj33ph14p5bq6a6mnr",
       "title": "Today, we're introducing Spectre I, the first smart device to...",
