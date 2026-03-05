@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-03-04T10:51:31.516551",
+  "lastUpdated": "2026-03-05T10:52:54.607977",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Electric Vehicles",
-      "postUrl": "https://xkcd.com/3214/",
-      "publishDate": "Mon, 02 Mar 2026 05:00:00 -0000"
+      "postTitle": "Solar Warning",
+      "postUrl": "https://xkcd.com/3215/",
+      "publishDate": "Wed, 04 Mar 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Donald Knuth",
-      "postUrl": "https://simonwillison.net/2026/Mar/3/donald-knuth/#atom-everything",
-      "publishDate": "2026-03-03T23:59:04+00:00"
+      "postTitle": "Anti-patterns: things to avoid",
+      "postUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything",
+      "publishDate": "2026-03-04T17:34:42+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
