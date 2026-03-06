@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-05T10:52:54.607977",
+  "lastUpdated": "2026-03-06T10:51:30.015362",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Anti-patterns: things to avoid",
-      "postUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything",
-      "publishDate": "2026-03-04T17:34:42+00:00"
+      "postTitle": "Agentic manual testing",
+      "postUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/#atom-everything",
+      "publishDate": "2026-03-06T05:43:54+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Cities should own their land\u2014like Vienna and Amsterdam",
-      "postUrl": "https://www.elysian.press/p/cities-should-own-their-land",
-      "publishDate": "Mon, 02 Mar 2026 13:02:47 GMT"
+      "postTitle": "Singapore: Where your home loses value & everyone's better off",
+      "postUrl": "https://www.elysian.press/p/singapore-real-estate-goes-down-in-value",
+      "publishDate": "Thu, 05 Mar 2026 13:03:05 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -172,16 +172,16 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "6 Takeaways From Citrini's Viral AI Doomer Article (and a Bunch of Rebuttals)",
-      "postUrl": "https://www.readtrung.com/p/6-takeaways-from-citrinis-viral-ai",
-      "publishDate": "Fri, 27 Feb 2026 02:28:18 GMT"
+      "postTitle": "The Sphere's $4B Business, explained",
+      "postUrl": "https://www.readtrung.com/p/the-spheres-4b-business-explained",
+      "publishDate": "Fri, 06 Mar 2026 02:16:10 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Iran: The Day After",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/iran-the-day-after",
-      "publishDate": "Tue, 03 Mar 2026 15:25:17 GMT"
+      "postTitle": "The Future of Petrostates After Oil",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/the-future-of-petrostates-after-oil",
+      "publishDate": "Thu, 05 Mar 2026 13:03:38 GMT"
     },
     {
       "blogTitle": "Anil Dash",
