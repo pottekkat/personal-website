@@ -24,6 +24,8 @@ Unless mentioned otherwise, all material in this blog is licensed under [CC BY 4
 
 Here are [some other blogs I like](/blogroll/) and [lots of links](/links/).
 
+This website is part of the [IndieWebClub Bangalore](https://blr.indiewebclub.org/) Webring <span class="webring"><a href="https://blr.indiewebclub.org/webring/previous.html">&laquo;</a> <a href="https://blr.indiewebclub.org/"><svg xmlns="http://www.w3.org/2000/svg" width="33.702" height="12" viewBox="0 0 33.702 12" fill="currentColor"><path d="M1.158 1.333h8.918v2.494H1.158zm0 3.39h8.918v5.426H1.158z"/><path d="m11.033 1.333 4.418 9.518 1.446-3.003-3.074-6.515zm3.868 0 4.418 9.518 4.459-9.518z"/><path d="M27.972 1.007a4.79 4.79 0 0 1 4.751 4.316h-4.751a.46.46 0 0 0-.458.458c.012.24.172.421.411.456l.047.002h4.751c-.233 2.462-2.301 4.285-4.751 4.316a4.774 4.774 0 0 1 0-9.548"/></svg></a> <a href="https://blr.indiewebclub.org/webring/next.html">&raquo;</a></span>
+
 ### Changelog
 
 Here are the latest changes to this website:

@@ -1,6 +1,6 @@
-.footer .webring a,
-.footer .webring a:hover {
-    border-bottom: none;
+.webring a {
+    border-bottom: none !important;
+    box-shadow: none !important;
 }
 
 .webring svg {
