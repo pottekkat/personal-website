@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-03-07T23:45:30+05:30",
+  "lastUpdated": "2026-03-07T23:58:24+05:30",
   "entries": [
+    {
+      "hash": "a946cee",
+      "date": "2026-03-07T23:57:40+05:30",
+      "message": "Updated `/about` page to mention Webring and set default theme to dark."
+    },
     {
       "hash": "18ca007",
       "date": "2026-03-07T23:44:42+05:30",
