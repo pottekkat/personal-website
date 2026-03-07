@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-03-06T10:51:30.015362",
+  "lastUpdated": "2026-03-07T10:44:48.646661",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Solar Warning",
-      "postUrl": "https://xkcd.com/3215/",
-      "publishDate": "Wed, 04 Mar 2026 05:00:00 -0000"
+      "postTitle": "Bazookasaurus",
+      "postUrl": "https://xkcd.com/3216/",
+      "publishDate": "Fri, 06 Mar 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Agentic manual testing",
-      "postUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/#atom-everything",
-      "publishDate": "2026-03-06T05:43:54+00:00"
+      "postTitle": "Quoting Ally Piechowski",
+      "postUrl": "https://simonwillison.net/2026/Mar/6/ally-piechowski/#atom-everything",
+      "publishDate": "2026-03-06T21:58:33+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
