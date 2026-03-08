@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-07T10:44:48.646661",
+  "lastUpdated": "2026-03-08T10:45:35.861971",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Ally Piechowski",
-      "postUrl": "https://simonwillison.net/2026/Mar/6/ally-piechowski/#atom-everything",
-      "publishDate": "2026-03-06T21:58:33+00:00"
+      "postTitle": "Codex for Open Source",
+      "postUrl": "https://simonwillison.net/2026/Mar/7/codex-for-open-source/#atom-everything",
+      "publishDate": "2026-03-07T18:13:39+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "Section 230 and Internet Freedom, a Proposal",
-      "postUrl": "https://sheep.horse/2025/3/section_230_and_internet_freedom%2C_a_proposal.html",
-      "publishDate": "Sun, 23 Mar 2025 08:01:55 +0000"
+      "postTitle": "A Cassette Audio Control for the Web",
+      "postUrl": "https://sheep.horse/2025/3/a_cassette_audio_control_for_the_web.html",
+      "publishDate": "Sun, 23 Mar 2025 14:06:52 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Singapore: Where your home loses value & everyone's better off",
-      "postUrl": "https://www.elysian.press/p/singapore-real-estate-goes-down-in-value",
-      "publishDate": "Thu, 05 Mar 2026 13:03:05 GMT"
+      "postTitle": "Office Hours\u2014register for March sessions",
+      "postUrl": "https://www.elysian.press/p/office-hoursregister-for-march-sessions",
+      "publishDate": "Sat, 07 Mar 2026 13:02:33 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
