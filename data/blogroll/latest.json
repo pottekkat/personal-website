@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-08T10:45:35.861971",
+  "lastUpdated": "2026-03-09T10:53:16.729806",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Codex for Open Source",
-      "postUrl": "https://simonwillison.net/2026/Mar/7/codex-for-open-source/#atom-everything",
-      "publishDate": "2026-03-07T18:13:39+00:00"
+      "postTitle": "Quoting Joseph Weizenbaum",
+      "postUrl": "https://simonwillison.net/2026/Mar/8/joseph-weizenbaum/#atom-everything",
+      "publishDate": "2026-03-08T14:59:48+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -186,9 +186,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Codeless: From idea to software",
-      "postUrl": "https://anildash.com/2026/01/22/codeless/",
-      "publishDate": "2026-01-22T00:00:00Z"
+      "postTitle": "Why We Speak",
+      "postUrl": "https://anildash.com/2026/01/26/why-we-speak/",
+      "publishDate": "2026-01-26T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
