@@ -127,7 +127,7 @@ body:not(.dark) #sun {
     color: var(--secondary);
 }
 
-/* Hide the navbar links on small screens */
+/* Responsive hamburger menu */
 @media (max-width: 625px) {
     .menulinks {
         display: none;
@@ -136,9 +136,9 @@ body:not(.dark) #sun {
     .menu-toggle {
         display: flex;
     }
-}
 
-/* Show the navbar links when the toggle button is active */
-#menu.active {
-    display: flex;
+    #menu.active {
+        display: flex;
+        width: 100%;
+    }
 }
