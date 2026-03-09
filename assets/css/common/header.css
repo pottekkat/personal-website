@@ -115,9 +115,12 @@ body:not(.dark) #sun {
 
 .menu-toggle {
     position: absolute;
+    top: 0;
+    right: calc(var(--gap) * 2);
     display: none;
     cursor: pointer;
-    right: calc(var(--gap) * 2);
+    height: var(--header-height);
+    align-items: center;
 }
 
 .menu-toggle:hover {
