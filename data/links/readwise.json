@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-03-08T16:15:00.391722+05:30",
+  "last_updated": "2026-03-09T16:22:11.337181+05:30",
   "links": [
+    {
+      "id": "01kk8mevgn07ry9007d76xckv4",
+      "title": "ㅤ",
+      "author": "Bread on Penguins",
+      "source_url": "https://www.youtube.com/watch?v=0DLSwrm8Ja0",
+      "published_date": "2026-03-08",
+      "saved_at": "2026-03-09T11:57:25.333000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kk8j5mzsezkj8v6hnm995heh",
+      "title": "Claude is an Electron App because we’ve lost native",
+      "author": "Nikita Prokopov",
+      "source_url": "https://tonsky.me/blog/fall-of-native/?ref=dailydev",
+      "published_date": "2026-03-03",
+      "saved_at": "2026-03-09T11:17:26.585000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kk520xtzc2r7ybyqf7p0ed5f",
       "title": "Notepad Exploit Explained",
