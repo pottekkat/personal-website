@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-03-09T10:53:16.729806",
+  "lastUpdated": "2026-03-10T10:52:26.459413",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Bazookasaurus",
-      "postUrl": "https://xkcd.com/3216/",
-      "publishDate": "Fri, 06 Mar 2026 05:00:00 -0000"
+      "postTitle": "Home Remedies",
+      "postUrl": "https://xkcd.com/3217/",
+      "publishDate": "Mon, 09 Mar 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Joseph Weizenbaum",
-      "postUrl": "https://simonwillison.net/2026/Mar/8/joseph-weizenbaum/#atom-everything",
-      "publishDate": "2026-03-08T14:59:48+00:00"
+      "postTitle": "Production query plans without production data",
+      "postUrl": "https://simonwillison.net/2026/Mar/9/production-query-plans-without-production-data/#atom-everything",
+      "publishDate": "2026-03-09T15:05:15+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
