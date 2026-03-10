@@ -1,4 +1,5 @@
 .nav {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -33,7 +34,14 @@
 .logo,
 .menulinks {
     display: flex;
-    margin: auto calc(var(--gap) * 2);
+    margin: auto var(--gap);
+}
+
+@media (min-width: 768px) {
+    .logo,
+    .menulinks {
+        margin: auto calc(var(--gap) * 2);
+    }
 }
 
 .logo {
@@ -123,7 +131,7 @@ body:not(.dark) #sun {
 .menu-toggle {
     position: absolute;
     top: 0;
-    right: calc(var(--gap) * 2);
+    right: var(--gap);
     display: none;
     cursor: pointer;
     height: var(--header-height);
