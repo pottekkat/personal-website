@@ -147,5 +147,7 @@ body:not(.dark) #sun {
     #menu.active {
         display: flex;
         width: 100%;
+        line-height: normal;
+        padding-bottom: 14px;
     }
 }
