@@ -5,16 +5,18 @@
 }
 
 .footer {
-    max-width: calc(var(--main-width) + var(--gap));
-    margin: auto;
+    max-width: min(calc(var(--main-width) + var(--gap)), calc(100% - 16px));
+    margin: 0 auto;
     padding: calc((var(--footer-height) - var(--gap)) / 2) var(--gap);
     text-align: center;
     line-height: 24px;
     background: left var(--entry-image), var(--entry);
+    clip-path: polygon(0 6px, 38% 10px, 64% 12px, 100% 14px, 100% calc(100% - 6px), 0 calc(100% - 10px));
 }
 
 @media (min-width: 768px) {
     .footer {
+        max-width: calc(var(--main-width) + var(--gap));
         clip-path: polygon(0 12%, 38% 15%, 64% 18%, 100% 20%, 100% 90%, 0 80%);
     }
 }

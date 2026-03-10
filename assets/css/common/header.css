@@ -9,8 +9,15 @@
     background: var(--entry-image), var(--entry);
 }
 
+.header {
+    max-width: calc(100% - 16px);
+    margin: 0 auto;
+    clip-path: polygon(0 6px, 55% 10px, 100% 14px, 100% calc(100% - 10px), 50% calc(100% - 6px), 0 calc(100% - 12px));
+}
+
 @media (min-width: 768px) {
     .header {
+        max-width: none;
         clip-path: polygon(0 10%, 55% 15%, 100% 20%, 100% 84%, 50% 90%, 0 86%);
     }
 }
