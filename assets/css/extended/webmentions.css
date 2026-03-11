@@ -70,8 +70,10 @@
     font-size: 14px;
 }
 
-.webmention-button:hover {
-    background: var(--secondary);
+@media (hover: hover) {
+    .webmention-button:hover {
+        background: var(--secondary);
+    }
 }
 
 .webmention-form {

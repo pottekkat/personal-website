@@ -22,8 +22,10 @@
     flex-wrap: wrap;
 }
 
-.post-meta a:hover {
-    color: var(--secondary);
+@media (hover: hover) {
+    .post-meta a:hover {
+        color: var(--secondary);
+    }
 }
 
 .post-meta a svg {
@@ -55,8 +57,10 @@
     color: var(--secondary);
 }
 
-.breadcrumbs a:hover {
-    color: var(--primary);
+@media (hover: hover) {
+    .breadcrumbs a:hover {
+        color: var(--primary);
+    }
 }
 
 .post-content {
@@ -96,15 +100,24 @@
     font-size: 12px;
 }
 
-.post-content a:not(.lnlinks):not(.ln):not(.lnt),
-.toc a:hover {
+.post-content a:not(.lnlinks):not(.ln):not(.lnt) {
     box-shadow: 0 1px 0;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
 }
 
-.post-content a:hover {
-    color: var(--secondary);
+@media (hover: hover) {
+    .toc a:hover {
+        box-shadow: 0 1px 0;
+        box-decoration-break: clone;
+        -webkit-box-decoration-break: clone;
+    }
+}
+
+@media (hover: hover) {
+    .post-content a:hover {
+        color: var(--secondary);
+    }
 }
 
 .post-content a code {
@@ -468,9 +481,11 @@ body:not(.dark) .post-content figure .invert-diagram-colors {
     background: var(--code-bg);
 }
 
-.post-tags a:hover,
-.paginav a:hover {
-    background: var(--border);
+@media (hover: hover) {
+    .post-tags a:hover,
+    .paginav a:hover {
+        background: var(--border);
+    }
 }
 
 .share-buttons {
@@ -497,21 +512,25 @@ body:not(.dark) .post-content figure .invert-diagram-colors {
     padding: 4px;
 }
 
-.share-buttons svg:hover {
-    background-color: var(--secondary);
+@media (hover: hover) {
+    .share-buttons svg:hover {
+        background-color: var(--secondary);
+    }
 }
 
-h1:hover .anchor,
-h2:hover .anchor,
-h3:hover .anchor,
-h4:hover .anchor,
-h5:hover .anchor,
-h6:hover .anchor {
-    display: inline-flex;
-    color: var(--secondary);
-    margin-inline-start: 8px;
-    font-weight: 500;
-    user-select: none;
+@media (hover: hover) {
+    h1:hover .anchor,
+    h2:hover .anchor,
+    h3:hover .anchor,
+    h4:hover .anchor,
+    h5:hover .anchor,
+    h6:hover .anchor {
+        display: inline-flex;
+        color: var(--secondary);
+        margin-inline-start: 8px;
+        font-weight: 500;
+        user-select: none;
+    }
 }
 
 .paginav {
@@ -540,8 +559,10 @@ h6:hover .anchor {
     width: 50%;
 }
 
-.paginav span:hover:not(.title) {
-    box-shadow: 0 1px 0;
+@media (hover: hover) {
+    .paginav span:hover:not(.title) {
+        box-shadow: 0 1px 0;
+    }
 }
 
 .paginav .next {
@@ -594,8 +615,10 @@ codapi-snippet codapi-toolbar button {
     /* Removes the default button border */
 }
 
-codapi-snippet codapi-toolbar button:hover {
-    background: var(--secondary);
+@media (hover: hover) {
+    codapi-snippet codapi-toolbar button:hover {
+        background: var(--secondary);
+    }
 }
 
 codapi-snippet codapi-toolbar button:after {
@@ -703,8 +726,10 @@ codapi-snippet codapi-toolbar button:after {
     color: var(--content);
 }
 
-.qr-code-details summary:hover {
-    color: var(--secondary);
+@media (hover: hover) {
+    .qr-code-details summary:hover {
+        color: var(--secondary);
+    }
 }
 
 .qr-code-details summary svg {

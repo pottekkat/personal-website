@@ -27,8 +27,10 @@
     display: block;
 }
 
-.nav a:hover {
-    color: var(--secondary);
+@media (hover: hover) {
+    .nav a:hover {
+        color: var(--secondary);
+    }
 }
 
 .logo,
@@ -73,8 +75,10 @@ button#theme-toggle {
     margin: auto 4px;
 }
 
-button#theme-toggle:hover {
-    color: var(--secondary);
+@media (hover: hover) {
+    button#theme-toggle:hover {
+        color: var(--secondary);
+    }
 }
 
 body.dark #moon {
@@ -138,8 +142,10 @@ body:not(.dark) #sun {
     align-items: center;
 }
 
-.menu-toggle:hover {
-    color: var(--secondary);
+@media (hover: hover) {
+    .menu-toggle:hover {
+        color: var(--secondary);
+    }
 }
 
 /* Responsive hamburger menu */

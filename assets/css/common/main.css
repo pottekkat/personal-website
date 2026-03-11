@@ -21,8 +21,10 @@
     font-size: 30px;
 }
 
-.page-header a:hover {
-    color: var(--secondary);
+@media (hover: hover) {
+    .page-header a:hover {
+        color: var(--secondary);
+    }
 }
 
 .pagination {
@@ -37,8 +39,10 @@
     border: 1px solid var(--border);
 }
 
-.pagination a:hover {
-    background: var(--border);
+@media (hover: hover) {
+    .pagination a:hover {
+        background: var(--border);
+    }
 }
 
 .pagination .pagination-title {
@@ -100,9 +104,11 @@ pre {
     user-select: none;
 }
 
-div.highlight:hover .copy-code,
-pre:hover .copy-code {
-    display: block;
+@media (hover: hover) {
+    div.highlight:hover .copy-code,
+    pre:hover .copy-code {
+        display: block;
+    }
 }
 
 .section-links-archive {
@@ -123,8 +129,10 @@ pre:hover .copy-code {
     margin-right: 12px;
 }
 
-.section-links-archive a:hover {
-    color: var(--secondary);
+@media (hover: hover) {
+    .section-links-archive a:hover {
+        color: var(--secondary);
+    }
 }
 
 .section-links-archive svg {

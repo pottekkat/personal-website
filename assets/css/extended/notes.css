@@ -8,8 +8,10 @@
   color: var(--secondary);
 }
 
-.note-timestamp a:hover {
-  color: var(--primary);
+@media (hover: hover) {
+  .note-timestamp a:hover {
+    color: var(--primary);
+  }
 }
 
 .note-interactions {

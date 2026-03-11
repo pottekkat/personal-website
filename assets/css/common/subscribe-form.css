@@ -22,8 +22,10 @@
     font-size: 14px;
 }
 
-.subscribe-button:hover {
-    background: var(--secondary);
+@media (hover: hover) {
+    .subscribe-button:hover {
+        background: var(--secondary);
+    }
 }
 
 .subscribe-form {

@@ -33,8 +33,10 @@
     -webkit-line-clamp: unset;
 }
 
-.home-info a:hover {
-    color: var(--secondary);
+@media (hover: hover) {
+    .home-info a:hover {
+        color: var(--secondary);
+    }
 }
 
 .rss-icon-link {
