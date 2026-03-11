@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-03-10T16:21:54.237787+05:30",
+  "last_updated": "2026-03-11T16:21:47.015249+05:30",
   "links": [
+    {
+      "id": "01kke7k2tfcn6hh52yvzyscpr7",
+      "title": "Ralph Wiggum as a \"software engineer\"",
+      "author": "Geoffrey Huntley",
+      "source_url": "https://ghuntley.com/ralph/",
+      "published_date": "2025-07-14",
+      "saved_at": "2026-03-11T16:07:58.991000+05:30",
+      "reading_time": "18 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kke01r9qhj8zan34rxysr0fk",
+      "title": "Having fun with @karpathy’s autoresearch",
+      "author": "Yuchen Jin",
+      "source_url": "https://x.com/yuchenj_uw/status/2031423349071687878/?s=46&t=AF9-om6Pp6KlsdZxPaX82g&rw_tt_thread=True",
+      "published_date": "2026-03-10",
+      "saved_at": "2026-03-11T13:56:11.127000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kkccbtp6rexvssd77ze0kh1g",
+      "title": "Tony Hoare (1934-2026)",
+      "author": "Lance Fortnow",
+      "source_url": "https://blog.computationalcomplexity.org/2026/03/tony-hoare-1934-2026.html",
+      "published_date": "2026-03-10",
+      "saved_at": "2026-03-10T22:52:55.302000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kkcabjks0zm72z543zww9329",
+      "title": "Amazon is holding a mandatory meeting about AI breaking its...",
+      "author": "Lukasz Olejnik",
+      "source_url": "https://x.com/lukOlejnik/status/2031257644724342957/?s=20&rw_tt_thread=True",
+      "published_date": "2026-03-10",
+      "saved_at": "2026-03-10T22:17:49.881000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kkcaa39cnrpp5mzj0wejmd6y",
+      "title": "sent this to the team today",
+      "author": "dax",
+      "source_url": "https://x.com/thdxr/status/2031377117007454421/?rw_tt_thread=True",
+      "published_date": "2026-03-10",
+      "saved_at": "2026-03-10T22:17:01.420000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
     {
       "id": "01kka393z4vk2xsf2zcm2364nd",
       "title": "This Paradox Splits Smart People 50/50",
