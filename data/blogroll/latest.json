@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T10:52:26.459413",
+  "lastUpdated": "2026-03-11T10:52:20.994219",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Production query plans without production data",
-      "postUrl": "https://simonwillison.net/2026/Mar/9/production-query-plans-without-production-data/#atom-everything",
-      "publishDate": "2026-03-09T15:05:15+00:00"
+      "postTitle": "AI should help us produce better code",
+      "postUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/better-code/#atom-everything",
+      "publishDate": "2026-03-10T22:25:09+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -81,9 +81,9 @@
     {
       "blogTitle": "Julia Evans",
       "blogUrl": "https://jvns.ca/",
-      "postTitle": "Notes on clarifying man pages",
-      "postUrl": "https://jvns.ca/blog/2026/02/18/man-pages/",
-      "publishDate": "2026-02-18T00:00:00+00:00"
+      "postTitle": "Examples for the tcpdump and dig man pages",
+      "postUrl": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/",
+      "publishDate": "2026-03-10T00:00:00+00:00"
     },
     {
       "blogTitle": "Imposter!",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Office Hours\u2014register for March sessions",
-      "postUrl": "https://www.elysian.press/p/office-hoursregister-for-march-sessions",
-      "publishDate": "Sat, 07 Mar 2026 13:02:33 GMT"
+      "postTitle": "Stop idolizing Hong Kong, Shenzhen, and Pr\u00f3spera",
+      "postUrl": "https://www.elysian.press/p/stop-idolizing-hong-kong-shenzhen",
+      "publishDate": "Tue, 10 Mar 2026 12:02:26 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
