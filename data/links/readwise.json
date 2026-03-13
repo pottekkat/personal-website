@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-03-12T16:21:55.516808+05:30",
+  "last_updated": "2026-03-13T16:21:18.281037+05:30",
   "links": [
+    {
+      "id": "01kkk5qx2pdbcw0gqxfg5rg7nh",
+      "title": "In this Kerala town, ponds, farms and commons shaped its plans for the future",
+      "author": "Himanshu Nitnaware",
+      "source_url": "https://www.downtoearth.org.in/agriculture/in-this-kerala-town-ponds-farms-and-commons-shaped-its-plans-for-the-future",
+      "published_date": "2026-03-10",
+      "saved_at": "2026-03-13T14:11:51.958000+05:30",
+      "reading_time": "8 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kkk5mdw5fmsy9m5mhx6gc1s6",
+      "title": "You Learned the Solar System Wrong",
+      "author": "CGP Grey",
+      "source_url": "https://www.youtube.com/watch?v=SumDHcnCRuU",
+      "published_date": "2019-10-30",
+      "saved_at": "2026-03-13T14:09:58.085000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kkjyn6h4e7y971pkvswz0n29",
+      "title": "Willingness to look stupid is a genuine moat in creative work",
+      "author": "sharif.io",
+      "source_url": "https://sharif.io/looking-stupid",
+      "published_date": "2026-03-08",
+      "saved_at": "2026-03-13T12:08:03.300000+05:30",
+      "reading_time": "7 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kkjxmbq0538wvmj861tmwt6n",
+      "title": "Why Great Leaders Raise Terrible Sons - Ada Palmer",
+      "author": "Dwarkesh Patel",
+      "source_url": "https://www.youtube.com/shorts/aHxQjuSoYkY",
+      "published_date": "2026-03-12",
+      "saved_at": "2026-03-13T11:50:07.263000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kkjra9yv5k3n8r8mxt9mnw9g",
+      "title": "Can language models learn useful priors without ever seeing language?",
+      "author": "Seungwook Han",
+      "source_url": "https://x.com/seungwookh/status/2032101025776042441/?s=46&t=AF9-om6Pp6KlsdZxPaX82g&rw_tt_thread=True",
+      "published_date": "2026-03-12",
+      "saved_at": "2026-03-13T10:17:14.907000+05:30",
+      "reading_time": "2 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kkha2df4hvgkt2wyqk12g0ec",
+      "title": "Idea Futures",
+      "author": "gmu.edu",
+      "source_url": "https://mason.gmu.edu/~rhanson/ideafutures.html",
+      "published_date": "1996-06-12",
+      "saved_at": "2026-03-12T20:49:01.860000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kkh569v748s8wk3y6ttwpatt",
+      "title": "Markets for Telling CEOs to Step Down",
+      "author": "gmu.edu",
+      "source_url": "https://mason.gmu.edu/~rhanson/dumpceo.html",
+      "published_date": "1996-04-26",
+      "saved_at": "2026-03-12T19:23:46.342000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kkh55czhfw3h8awd1rf7ydtk",
+      "title": "Policy Markets",
+      "author": "gmu.edu",
+      "source_url": "https://mason.gmu.edu/~rhanson/policymarkets.html",
+      "published_date": "1996-04-25",
+      "saved_at": "2026-03-12T19:23:16.785000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kkgw92hy9bb55pz8tk01brbr",
+      "title": "Full interview: Anthropic CEO responds to Trump order, Pentagon clash",
+      "author": "CBS News",
+      "source_url": "https://www.youtube.com/watch?v=MPTNHrq_4LU&t=295s",
+      "published_date": "2026-02-28",
+      "saved_at": "2026-03-12T16:47:59.998000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01kke7k2tfcn6hh52yvzyscpr7",
       "title": "Ralph Wiggum as a \"software engineer\"",
