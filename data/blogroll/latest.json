@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T10:52:28.345367",
+  "lastUpdated": "2026-03-13T10:51:54.245022",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Sorting algorithms",
-      "postUrl": "https://simonwillison.net/2026/Mar/11/sorting-algorithms/#atom-everything",
-      "publishDate": "2026-03-11T22:58:06+00:00"
+      "postTitle": "Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations",
+      "postUrl": "https://simonwillison.net/2026/Mar/13/liquid/#atom-everything",
+      "publishDate": "2026-03-13T03:44:34+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Stop idolizing Hong Kong, Shenzhen, and Pr\u00f3spera",
-      "postUrl": "https://www.elysian.press/p/stop-idolizing-hong-kong-shenzhen",
-      "publishDate": "Tue, 10 Mar 2026 12:02:26 GMT"
+      "postTitle": "An indigenous nation just built a better city than California Forever",
+      "postUrl": "https://www.elysian.press/p/senakw-builds-better-city-than-california-forever",
+      "publishDate": "Thu, 12 Mar 2026 12:01:37 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "Going all in on becoming a Hyrox Athlete (Guest Post by Holly Gabrielle) | #323",
-      "postUrl": "https://newsletter.pathlesspath.com/p/going-all-in-on-becoming-a-hyrox",
-      "publishDate": "Tue, 24 Feb 2026 12:29:25 GMT"
+      "postTitle": "A lil' reflection on my mini-break | #324",
+      "postUrl": "https://newsletter.pathlesspath.com/p/a-lil-reflection-on-my-mini-break",
+      "publishDate": "Thu, 12 Mar 2026 14:41:32 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
@@ -186,9 +186,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Why We Speak",
-      "postUrl": "https://anildash.com/2026/01/26/why-we-speak/",
-      "publishDate": "2026-01-26T00:00:00Z"
+      "postTitle": "A Codeless Ecosystem, or hacking beyond vibe coding",
+      "postUrl": "https://anildash.com/2026/01/27/codeless-ecosystem/",
+      "publishDate": "2026-01-27T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
