@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-03-13T10:51:54.245022",
+  "lastUpdated": "2026-03-14T10:47:49.446399",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Subduction Retrieval",
-      "postUrl": "https://xkcd.com/3218/",
-      "publishDate": "Wed, 11 Mar 2026 04:00:00 -0000"
+      "postTitle": "Planets and Bright Stars",
+      "postUrl": "https://xkcd.com/3219/",
+      "publishDate": "Fri, 13 Mar 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations",
-      "postUrl": "https://simonwillison.net/2026/Mar/13/liquid/#atom-everything",
-      "publishDate": "2026-03-13T03:44:34+00:00"
+      "postTitle": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
+      "postUrl": "https://simonwillison.net/2026/Mar/13/1m-context/#atom-everything",
+      "publishDate": "2026-03-13T18:29:13+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "How Geography Determines Architecture",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-geography-determines-architecture",
-      "publishDate": "Wed, 11 Mar 2026 21:57:02 GMT"
+      "postTitle": "How Geography Determines Architecture | Asia",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-geography-determines-architecture-b9f",
+      "publishDate": "Fri, 13 Mar 2026 16:52:43 GMT"
     },
     {
       "blogTitle": "Anil Dash",
