@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-14T10:47:49.446399",
+  "lastUpdated": "2026-03-15T10:49:13.859390",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
-      "postUrl": "https://simonwillison.net/2026/Mar/13/1m-context/#atom-everything",
-      "publishDate": "2026-03-13T18:29:13+00:00"
+      "postTitle": "Quoting Jannis Leidel",
+      "postUrl": "https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything",
+      "publishDate": "2026-03-14T18:41:25+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -139,7 +139,7 @@
       "blogUrl": "https://sheep.horse/",
       "postTitle": "A Cassette Audio Control for the Web",
       "postUrl": "https://sheep.horse/2025/3/a_cassette_audio_control_for_the_web.html",
-      "publishDate": "Sun, 23 Mar 2025 14:06:52 +0000"
+      "publishDate": "Sun, 23 Mar 2025 18:06:52 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
