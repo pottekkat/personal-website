@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2026-03-16T10:53:56.342333",
+  "lastUpdated": "2026-03-17T10:53:42.614618",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Planets and Bright Stars",
-      "postUrl": "https://xkcd.com/3219/",
-      "publishDate": "Fri, 13 Mar 2026 04:00:00 -0000"
+      "postTitle": "Rotational Gravity",
+      "postUrl": "https://xkcd.com/3220/",
+      "publishDate": "Mon, 16 Mar 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Omacon comes to New York",
-      "postUrl": "https://world.hey.com/dhh/omacon-comes-to-new-york-e6ee93cb",
-      "publishDate": "2026-02-18T16:23:03Z"
+      "postTitle": "ONCE (Again)",
+      "postUrl": "https://world.hey.com/dhh/once-again-3e99f755",
+      "publishDate": "2026-03-16T18:03:01Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "What is agentic engineering?",
-      "postUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/#atom-everything",
-      "publishDate": "2026-03-15T22:41:57+00:00"
+      "postTitle": "Introducing Mistral Small 4",
+      "postUrl": "https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything",
+      "publishDate": "2026-03-16T23:41:17+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "Yo Google, Thanks For The AI Overview But Your Search Sucks Now",
-      "postUrl": "https://sheep.horse/2025/4/yo_google%2C_thanks_for_the_ai_overview_but_your_sea.html",
-      "publishDate": "Thu, 03 Apr 2025 18:44:44 +0000"
+      "postTitle": "You Should Be Stripping EXIF Data out of Your Image Files Before Posting",
+      "postUrl": "https://sheep.horse/2025/4/you_should_be_stripping_exif_data_out_of_your_imag.html",
+      "publishDate": "Sun, 13 Apr 2025 15:45:27 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
