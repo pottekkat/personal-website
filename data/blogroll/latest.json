@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-03-18T10:53:53.202161",
+  "lastUpdated": "2026-03-19T10:52:17.286689",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Rotational Gravity",
-      "postUrl": "https://xkcd.com/3220/",
-      "publishDate": "Mon, 16 Mar 2026 04:00:00 -0000"
+      "postTitle": "Landscape Features",
+      "postUrl": "https://xkcd.com/3221/",
+      "publishDate": "Wed, 18 Mar 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Ken Jin",
-      "postUrl": "https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything",
-      "publishDate": "2026-03-17T21:48:26+00:00"
+      "postTitle": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally",
+      "postUrl": "https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything",
+      "publishDate": "2026-03-18T23:56:46+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
