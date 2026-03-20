@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-19T10:52:17.286689",
+  "lastUpdated": "2026-03-20T10:52:01.785423",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally",
-      "postUrl": "https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything",
-      "publishDate": "2026-03-18T23:56:46+00:00"
+      "postTitle": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
+      "postUrl": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything",
+      "publishDate": "2026-03-19T16:45:15+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Decentralize America: The case for cities that don't need Washington",
-      "postUrl": "https://www.elysian.press/p/decentralize-america-city-autonomy",
-      "publishDate": "Tue, 17 Mar 2026 12:01:51 GMT"
+      "postTitle": "LET CITIES BUILD UTOPIA",
+      "postUrl": "https://www.elysian.press/p/let-cities-build-utopia",
+      "publishDate": "Thu, 19 Mar 2026 12:40:01 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "How Roman Technology Drove Its Architecture",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-roman-technology-drove-its-architecture",
-      "publishDate": "Tue, 17 Mar 2026 13:05:25 GMT"
+      "postTitle": "How Western Religion Drove Its Architectural Evolution",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-western-religion-drove-its-architectural",
+      "publishDate": "Thu, 19 Mar 2026 17:17:42 GMT"
     },
     {
       "blogTitle": "Anil Dash",
