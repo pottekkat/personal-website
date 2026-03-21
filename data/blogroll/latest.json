@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-03-20T10:52:01.785423",
+  "lastUpdated": "2026-03-21T10:46:58.124225",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Landscape Features",
-      "postUrl": "https://xkcd.com/3221/",
-      "publishDate": "Wed, 18 Mar 2026 04:00:00 -0000"
+      "postTitle": "Star Formation",
+      "postUrl": "https://xkcd.com/3222/",
+      "publishDate": "Fri, 20 Mar 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
-      "postUrl": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything",
-      "publishDate": "2026-03-19T16:45:15+00:00"
+      "postTitle": "Turbo Pascal 3.02A, deconstructed",
+      "postUrl": "https://simonwillison.net/2026/Mar/20/turbo-pascal/#atom-everything",
+      "publishDate": "2026-03-20T23:59:14+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "LET CITIES BUILD UTOPIA",
-      "postUrl": "https://www.elysian.press/p/let-cities-build-utopia",
-      "publishDate": "Thu, 19 Mar 2026 12:40:01 GMT"
+      "postTitle": "Saltaire\u2014and other deleted scenes from \"Let Cities Build Utopia\"",
+      "postUrl": "https://www.elysian.press/p/saltaireand-other-deleted-scenes",
+      "publishDate": "Fri, 20 Mar 2026 12:04:33 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
