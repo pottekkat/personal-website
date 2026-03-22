@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-21T10:46:58.124225",
+  "lastUpdated": "2026-03-22T10:47:47.027562",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Turbo Pascal 3.02A, deconstructed",
-      "postUrl": "https://simonwillison.net/2026/Mar/20/turbo-pascal/#atom-everything",
-      "publishDate": "2026-03-20T23:59:14+00:00"
+      "postTitle": "Profiling Hacker News users based on their comments",
+      "postUrl": "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/#atom-everything",
+      "publishDate": "2026-03-21T23:59:47+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Allocators from C to Zig",
-      "postUrl": "https://antonz.org/allocators/",
-      "publishDate": "Thu, 12 Feb 2026 12:00:00 +0000"
+      "postTitle": "Solod: Go can be a better C",
+      "postUrl": "https://antonz.org/solod/",
+      "publishDate": "Sat, 21 Mar 2026 14:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
