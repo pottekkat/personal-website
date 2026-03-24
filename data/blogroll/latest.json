@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2026-03-23T10:53:35.578616",
+  "lastUpdated": "2026-03-24T10:53:47.677811",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Star Formation",
-      "postUrl": "https://xkcd.com/3222/",
-      "publishDate": "Fri, 20 Mar 2026 04:00:00 -0000"
+      "postTitle": "Inflation Timeline",
+      "postUrl": "https://xkcd.com/3223/",
+      "publishDate": "Mon, 23 Mar 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "ONCE (Again)",
-      "postUrl": "https://world.hey.com/dhh/once-again-3e99f755",
-      "publishDate": "2026-03-16T18:03:01Z"
+      "postTitle": "Denmark desperately needs more inequality",
+      "postUrl": "https://world.hey.com/dhh/denmark-desperately-needs-more-inequality-8e84a8d0",
+      "publishDate": "2026-03-23T17:35:04Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Beats now have notes",
-      "postUrl": "https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything",
-      "publishDate": "2026-03-23T02:13:13+00:00"
+      "postTitle": "Streaming experts",
+      "postUrl": "https://simonwillison.net/2026/Mar/24/streaming-experts/#atom-everything",
+      "publishDate": "2026-03-24T05:09:03+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
