@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2026-03-25T10:53:25.895458",
+  "lastUpdated": "2026-03-26T10:53:26.991730",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Inflation Timeline",
-      "postUrl": "https://xkcd.com/3223/",
-      "publishDate": "Mon, 23 Mar 2026 04:00:00 -0000"
+      "postTitle": "Centimeter Wavelengths",
+      "postUrl": "https://xkcd.com/3224/",
+      "publishDate": "Wed, 25 Mar 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Denmark desperately needs more inequality",
-      "postUrl": "https://world.hey.com/dhh/denmark-desperately-needs-more-inequality-8e84a8d0",
-      "publishDate": "2026-03-23T17:35:04Z"
+      "postTitle": "Basecamp becomes agent accessible",
+      "postUrl": "https://world.hey.com/dhh/basecamp-becomes-agent-accessible-3ae6b949",
+      "publishDate": "2026-03-25T17:37:25Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Auto mode for Claude Code",
-      "postUrl": "https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything",
-      "publishDate": "2026-03-24T23:57:33+00:00"
+      "postTitle": "datasette-files-s3 0.1a1",
+      "postUrl": "https://simonwillison.net/2026/Mar/25/datasette-files-s3/#atom-everything",
+      "publishDate": "2026-03-25T21:57:05+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Solod: Go can be a better C",
-      "postUrl": "https://antonz.org/solod/",
-      "publishDate": "Sat, 21 Mar 2026 14:00:00 +0000"
+      "postTitle": "Porting Go's io package to C",
+      "postUrl": "https://antonz.org/porting-go-io/",
+      "publishDate": "Wed, 25 Mar 2026 14:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "How Western Religion Drove Its Architectural Evolution",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-western-religion-drove-its-architectural",
-      "publishDate": "Thu, 19 Mar 2026 17:17:42 GMT"
+      "postTitle": "Why Florence Started the Renaissance",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/why-florence-started-the-renaissance",
+      "publishDate": "Wed, 25 Mar 2026 22:55:57 GMT"
     },
     {
       "blogTitle": "Anil Dash",
