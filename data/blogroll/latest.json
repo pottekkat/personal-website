@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-26T10:53:26.991730",
+  "lastUpdated": "2026-03-27T10:53:14.353411",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "datasette-files-s3 0.1a1",
-      "postUrl": "https://simonwillison.net/2026/Mar/25/datasette-files-s3/#atom-everything",
-      "publishDate": "2026-03-25T21:57:05+00:00"
+      "postTitle": "We Rewrote JSONata with AI in a Day, Saved $500K/Year",
+      "postUrl": "https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything",
+      "publishDate": "2026-03-27T00:35:01+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "New Article: The World Needs Your Great Work",
-      "postUrl": "https://letter.palladiummag.com/p/new-article-the-world-needs-your",
-      "publishDate": "Wed, 18 Mar 2026 00:21:42 GMT"
+      "postTitle": "New Article: Permanent Games For Progress",
+      "postUrl": "https://letter.palladiummag.com/p/new-article-permanent-games-for-progress",
+      "publishDate": "Thu, 26 Mar 2026 14:50:10 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "The Sphere's $4B Business, explained",
-      "postUrl": "https://www.readtrung.com/p/the-spheres-4b-business-explained",
-      "publishDate": "Fri, 06 Mar 2026 02:16:10 GMT"
+      "postTitle": "Jensen Manifesting The Future",
+      "postUrl": "https://www.readtrung.com/p/how-jensen-manifests-the-future",
+      "publishDate": "Thu, 26 Mar 2026 21:44:30 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
