@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-28T10:49:33.193394",
+  "lastUpdated": "2026-03-29T10:50:23.714717",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "datasette-showboat 0.1a2",
-      "postUrl": "https://simonwillison.net/2026/Mar/27/datasette-showboat/#atom-everything",
-      "publishDate": "2026-03-27T23:42:47+00:00"
+      "postTitle": "Quoting Matt Webb",
+      "postUrl": "https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything",
+      "publishDate": "2026-03-28T12:04:26+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -116,9 +116,8 @@
     {
       "blogTitle": "Derek Sivers",
       "blogUrl": "https://sive.rs/",
-      "postTitle": "Why did I move to New Zealand?",
-      "postUrl": "https://sive.rs/nz0",
-      "publishDate": "Tue, 25 Feb 2025 00:00:00 +0000"
+      "error": true,
+      "errorMessage": "HTTPSConnectionPool(host='sive.rs', port=443): Max retries exceeded with url: /podcast.rss (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)')))"
     },
     {
       "blogTitle": "Maggie Appleton",
@@ -158,9 +157,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "New Article: Permanent Games For Progress",
-      "postUrl": "https://letter.palladiummag.com/p/new-article-permanent-games-for-progress",
-      "publishDate": "Thu, 26 Mar 2026 14:50:10 GMT"
+      "postTitle": "New Article: How the Kurdish Offensive in Iran Unraveled",
+      "postUrl": "https://letter.palladiummag.com/p/new-article-how-the-kurdish-offensive",
+      "publishDate": "Sat, 28 Mar 2026 12:40:33 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
