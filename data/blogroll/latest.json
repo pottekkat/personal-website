@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T10:50:23.714717",
+  "lastUpdated": "2026-03-30T10:55:23.129574",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Matt Webb",
-      "postUrl": "https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything",
-      "publishDate": "2026-03-28T12:04:26+00:00"
+      "postTitle": "Pretext",
+      "postUrl": "https://simonwillison.net/2026/Mar/29/pretext/#atom-everything",
+      "publishDate": "2026-03-29T20:08:45+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -116,8 +116,9 @@
     {
       "blogTitle": "Derek Sivers",
       "blogUrl": "https://sive.rs/",
-      "error": true,
-      "errorMessage": "HTTPSConnectionPool(host='sive.rs', port=443): Max retries exceeded with url: /podcast.rss (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)')))"
+      "postTitle": "Why did I move to New Zealand?",
+      "postUrl": "https://sive.rs/nz0",
+      "publishDate": "Tue, 25 Feb 2025 00:00:00 +0000"
     },
     {
       "blogTitle": "Maggie Appleton",
@@ -164,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "A lil' reflection on my mini-break | #324",
-      "postUrl": "https://newsletter.pathlesspath.com/p/a-lil-reflection-on-my-mini-break",
-      "publishDate": "Thu, 12 Mar 2026 14:41:32 GMT"
+      "postTitle": "How To Be Dirtbag Rich (Guest Post by Blake Boles)",
+      "postUrl": "https://newsletter.pathlesspath.com/p/you-cannot-eat-purpose-but-it-will",
+      "publishDate": "Sun, 29 Mar 2026 14:03:38 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
