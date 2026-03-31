@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-03-30T10:55:23.129574",
+  "lastUpdated": "2026-03-31T10:53:39.369575",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Satellite Pollution",
-      "postUrl": "https://xkcd.com/3225/",
-      "publishDate": "Fri, 27 Mar 2026 04:00:00 -0000"
+      "postTitle": "Home Solar",
+      "postUrl": "https://xkcd.com/3226/",
+      "publishDate": "Mon, 30 Mar 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Pretext",
-      "postUrl": "https://simonwillison.net/2026/Mar/29/pretext/#atom-everything",
-      "publishDate": "2026-03-29T20:08:45+00:00"
+      "postTitle": "datasette-files 0.1a3",
+      "postUrl": "https://simonwillison.net/2026/Mar/30/datasette-files/#atom-everything",
+      "publishDate": "2026-03-30T23:58:49+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
