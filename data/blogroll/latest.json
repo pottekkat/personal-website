@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T10:53:39.369575",
+  "lastUpdated": "2026-04-01T10:54:10.343064",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "datasette-files 0.1a3",
-      "postUrl": "https://simonwillison.net/2026/Mar/30/datasette-files/#atom-everything",
-      "publishDate": "2026-03-30T23:58:49+00:00"
+      "postTitle": "datasette-extract 0.3a0",
+      "postUrl": "https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything",
+      "publishDate": "2026-04-01T03:32:16+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,8 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "Optimal Caverna Gameplay via Formal Methods",
-      "postUrl": "https://www.stephendiehl.com/posts/caverna/",
-      "publishDate": "Sat, 21 Feb 2026 00:00:00 +0000"
+      "error": true,
+      "errorMessage": "HTTPSConnectionPool(host='www.stephendiehl.com', port=443): Max retries exceeded with url: /feed.xml (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa187783bb0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -151,9 +150,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "How researching the future of cities becomes building the future of cities",
-      "postUrl": "https://www.elysian.press/p/how-researching-the-future-of-cities",
-      "publishDate": "Tue, 24 Mar 2026 12:03:42 GMT"
+      "postTitle": "Internet Sovereignty\u2014our next pamphlet drop is here!",
+      "postUrl": "https://www.elysian.press/p/internet-sovereigntyour-next-pamphlet-db6",
+      "publishDate": "Tue, 31 Mar 2026 16:54:04 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -186,9 +185,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "New York Tech at 30: the Crossroads",
-      "postUrl": "https://anildash.com/2026/02/03/nye-tech-30/",
-      "publishDate": "2026-02-04T00:00:00Z"
+      "postTitle": "There's no such thing as \"tech\" (Ten years later)",
+      "postUrl": "https://anildash.com/2026/02/06/no-such-thing-as-tech/",
+      "publishDate": "2026-02-06T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
