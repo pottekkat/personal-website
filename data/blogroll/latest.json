@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T10:53:41.782588",
+  "lastUpdated": "2026-04-03T10:52:30.577208",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "March 2026 sponsors-only newsletter",
-      "postUrl": "https://simonwillison.net/2026/Apr/2/march-newsletter/#atom-everything",
-      "publishDate": "2026-04-02T05:15:04+00:00"
+      "postTitle": "Highlights from my conversation about agentic engineering on Lenny's Podcast",
+      "postUrl": "https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-everything",
+      "publishDate": "2026-04-02T20:40:47+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -109,9 +109,9 @@
     {
       "blogTitle": "Orhun's Blog",
       "blogUrl": "https://blog.orhun.dev/",
-      "postTitle": "Building a guitar trainer with embedded Rust",
-      "postUrl": "https://blog.orhun.dev/introducing-tuitar/",
-      "publishDate": "Sat, 28 Mar 2026 00:00:00 +0000"
+      "postTitle": "800 Rust terminal projects in 3 years",
+      "postUrl": "https://blog.orhun.dev/800-rust-projects/",
+      "publishDate": "Fri, 03 Apr 2026 00:00:00 +0000"
     },
     {
       "blogTitle": "Derek Sivers",
@@ -158,7 +158,7 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Early Article: Think Tanks Have Defeated Democracy",
+      "postTitle": "New Article: Think Tanks Have Defeated Democracy",
       "postUrl": "https://letter.palladiummag.com/p/early-article-think-tanks-have-defeated",
       "publishDate": "Wed, 01 Apr 2026 23:18:48 GMT"
     },
@@ -172,9 +172,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "Jensen Manifesting The Future",
-      "postUrl": "https://www.readtrung.com/p/how-jensen-manifests-the-future",
-      "publishDate": "Thu, 26 Mar 2026 21:44:30 GMT"
+      "postTitle": "The Disneyland Dilemma",
+      "postUrl": "https://www.readtrung.com/p/the-disneyland-dilemma",
+      "publishDate": "Thu, 02 Apr 2026 23:34:47 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
