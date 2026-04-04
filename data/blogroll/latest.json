@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-03T10:52:30.577208",
+  "lastUpdated": "2026-04-04T10:50:04.497882",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Creation",
-      "postUrl": "https://xkcd.com/3227/",
-      "publishDate": "Wed, 01 Apr 2026 04:00:00 -0000"
+      "postTitle": "Day Counter",
+      "postUrl": "https://xkcd.com/3228/",
+      "publishDate": "Fri, 03 Apr 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Highlights from my conversation about agentic engineering on Lenny's Podcast",
-      "postUrl": "https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-everything",
-      "publishDate": "2026-04-02T20:40:47+00:00"
+      "postTitle": "Quoting Kyle Daigle",
+      "postUrl": "https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything",
+      "publishDate": "2026-04-04T02:20:17+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Porting Go's io package to C",
-      "postUrl": "https://antonz.org/porting-go-io/",
-      "publishDate": "Wed, 25 Mar 2026 14:00:00 +0000"
+      "postTitle": "Porting Go's strings package to C",
+      "postUrl": "https://antonz.org/porting-go-strings/",
+      "publishDate": "Fri, 03 Apr 2026 13:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "It's obvious why we hate social media",
-      "postUrl": "https://www.elysian.press/p/its-obvious-why-we-hate-social-media",
-      "publishDate": "Wed, 01 Apr 2026 12:02:24 GMT"
+      "postTitle": "The case for taxing AI slop",
+      "postUrl": "https://www.elysian.press/p/the-case-for-taxing-ai-slop",
+      "publishDate": "Fri, 03 Apr 2026 12:02:43 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Why Florence Started the Renaissance",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/why-florence-started-the-renaissance",
-      "publishDate": "Wed, 25 Mar 2026 22:55:57 GMT"
+      "postTitle": "Work with Me to Change the World of Media with AI",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-ai-will-change-media",
+      "publishDate": "Fri, 03 Apr 2026 11:06:28 GMT"
     },
     {
       "blogTitle": "Anil Dash",
