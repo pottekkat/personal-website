@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T10:50:04.497882",
+  "lastUpdated": "2026-04-05T10:50:59.204238",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Kyle Daigle",
-      "postUrl": "https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything",
-      "publishDate": "2026-04-04T02:20:17+00:00"
+      "postTitle": "scan-for-secrets 0.2",
+      "postUrl": "https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything",
+      "publishDate": "2026-04-05T04:07:13+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "Optimal Caverna Gameplay via Formal Methods",
-      "postUrl": "https://www.stephendiehl.com/posts/caverna/",
-      "publishDate": "Sat, 21 Feb 2026 00:00:00 +0000"
+      "postTitle": "Book Review: There Is No Antimemetics Division",
+      "postUrl": "https://www.stephendiehl.com/posts/no_antimimetics/",
+      "publishDate": "Sun, 05 Apr 2026 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
