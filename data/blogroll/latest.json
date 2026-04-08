@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-07T10:53:50.084360",
+  "lastUpdated": "2026-04-08T10:54:36.620861",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Google AI Edge Gallery",
-      "postUrl": "https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything",
-      "publishDate": "2026-04-06T05:18:26+00:00"
+      "postTitle": "GLM-5.1: Towards Long-Horizon Tasks",
+      "postUrl": "https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything",
+      "publishDate": "2026-04-07T21:25:14+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -116,8 +116,9 @@
     {
       "blogTitle": "Derek Sivers",
       "blogUrl": "https://sive.rs/",
-      "error": true,
-      "errorMessage": "404 Client Error: Not Found for url: https://sive.rs/podcast.rss"
+      "postTitle": "Why did I move to New Zealand?",
+      "postUrl": "https://sive.rs/nz0",
+      "publishDate": "Tue, 25 Feb 2025 00:00:00 +0000"
     },
     {
       "blogTitle": "Maggie Appleton",
@@ -150,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "I quit Spotify\u2014now I buy albums like it's the 90s",
-      "postUrl": "https://www.elysian.press/p/i-quit-spotifynow-i-buy-albums-like",
-      "publishDate": "Mon, 06 Apr 2026 12:02:41 GMT"
+      "postTitle": "We built the next Kindle app\u2014join our demo tomorrow!",
+      "postUrl": "https://www.elysian.press/p/we-built-the-next-kindle-appjoin",
+      "publishDate": "Tue, 07 Apr 2026 12:02:23 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -178,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Work with Me to Change the World of Media with AI",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-ai-will-change-media",
-      "publishDate": "Fri, 03 Apr 2026 11:06:28 GMT"
+      "postTitle": "What Products Should We Build?",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/what-products-should-we-build",
+      "publishDate": "Tue, 07 Apr 2026 11:21:17 GMT"
     },
     {
       "blogTitle": "Anil Dash",
