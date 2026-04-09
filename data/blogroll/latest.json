@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-08T10:54:36.620861",
+  "lastUpdated": "2026-04-09T10:54:57.006965",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Grammar",
-      "postUrl": "https://xkcd.com/3229/",
-      "publishDate": "Mon, 06 Apr 2026 04:00:00 -0000"
+      "postTitle": "Overton",
+      "postUrl": "https://xkcd.com/3230/",
+      "publishDate": "Wed, 08 Apr 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "GLM-5.1: Towards Long-Horizon Tasks",
-      "postUrl": "https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything",
-      "publishDate": "2026-04-07T21:25:14+00:00"
+      "postTitle": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
+      "postUrl": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything",
+      "publishDate": "2026-04-08T23:07:44+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Think Tanks Have Defeated Democracy",
-      "postUrl": "https://letter.palladiummag.com/p/think-tanks-have-defeated-democracy",
-      "publishDate": "Tue, 07 Apr 2026 00:37:02 GMT"
+      "postTitle": "New Article: The Total Art of Flat Design",
+      "postUrl": "https://letter.palladiummag.com/p/new-article-the-total-art-of-flat",
+      "publishDate": "Wed, 08 Apr 2026 16:43:08 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -186,9 +186,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Launch it 3 times",
-      "postUrl": "https://anildash.com/2026/02/13/launch-it-three-times/",
-      "publishDate": "2026-02-14T00:00:00Z"
+      "postTitle": "How did we end up threatening our kids\u2019 lives with AI?",
+      "postUrl": "https://anildash.com/2026/02/18/threatening-kids-with-AI/",
+      "publishDate": "2026-02-18T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
