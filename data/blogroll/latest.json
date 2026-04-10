@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T10:54:57.006965",
+  "lastUpdated": "2026-04-10T10:54:17.845678",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
-      "postUrl": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything",
-      "publishDate": "2026-04-08T23:07:44+00:00"
+      "postTitle": "GitHub Repo Size",
+      "postUrl": "https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything",
+      "publishDate": "2026-04-09T21:31:50+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "We built the next Kindle app\u2014join our demo tomorrow!",
-      "postUrl": "https://www.elysian.press/p/we-built-the-next-kindle-appjoin",
-      "publishDate": "Tue, 07 Apr 2026 12:02:23 GMT"
+      "postTitle": "Our publishing app is live\u2014come meet Mea!",
+      "postUrl": "https://www.elysian.press/p/our-publishing-app-is-livecome-meet",
+      "publishDate": "Thu, 09 Apr 2026 14:07:22 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -179,16 +179,16 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "What Products Should We Build?",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/what-products-should-we-build",
-      "publishDate": "Tue, 07 Apr 2026 11:21:17 GMT"
+      "postTitle": "The Cold Start Problem of New Cities & States",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/the-cold-start-problem-of-new-cities",
+      "publishDate": "Thu, 09 Apr 2026 14:46:07 GMT"
     },
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "How did we end up threatening our kids\u2019 lives with AI?",
-      "postUrl": "https://anildash.com/2026/02/18/threatening-kids-with-AI/",
-      "publishDate": "2026-02-18T00:00:00Z"
+      "postTitle": "Taking action against AI harms",
+      "postUrl": "https://anildash.com/2026/02/23/taking-action-ai-harms/",
+      "publishDate": "2026-02-24T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
