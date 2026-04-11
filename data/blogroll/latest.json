@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-10T10:54:17.845678",
+  "lastUpdated": "2026-04-11T10:51:11.794181",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Overton",
-      "postUrl": "https://xkcd.com/3230/",
-      "publishDate": "Wed, 08 Apr 2026 04:00:00 -0000"
+      "postTitle": "Lightning",
+      "postUrl": "https://xkcd.com/3231/",
+      "publishDate": "Fri, 10 Apr 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "GitHub Repo Size",
-      "postUrl": "https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything",
-      "publishDate": "2026-04-09T21:31:50+00:00"
+      "postTitle": "K\u0101k\u0101p\u014d parrots",
+      "postUrl": "https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything",
+      "publishDate": "2026-04-10T19:07:02+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -109,9 +109,9 @@
     {
       "blogTitle": "Orhun's Blog",
       "blogUrl": "https://blog.orhun.dev/",
-      "postTitle": "800 Rust terminal projects in 3 years",
-      "postUrl": "https://blog.orhun.dev/800-rust-projects/",
-      "publishDate": "Fri, 03 Apr 2026 00:00:00 +0000"
+      "postTitle": "Write less code, be more responsible",
+      "postUrl": "https://blog.orhun.dev/code-responsibly/",
+      "publishDate": "Sat, 11 Apr 2026 00:00:00 +0000"
     },
     {
       "blogTitle": "Derek Sivers",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "New Article: The Total Art of Flat Design",
-      "postUrl": "https://letter.palladiummag.com/p/new-article-the-total-art-of-flat",
-      "publishDate": "Wed, 08 Apr 2026 16:43:08 GMT"
+      "postTitle": "Early Article: The Dostoevskian Moment",
+      "postUrl": "https://letter.palladiummag.com/p/early-article-the-dostoevskian-moment",
+      "publishDate": "Fri, 10 Apr 2026 22:54:29 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "The Disneyland Dilemma",
-      "postUrl": "https://www.readtrung.com/p/the-disneyland-dilemma",
-      "publishDate": "Thu, 02 Apr 2026 23:34:47 GMT"
+      "postTitle": "Shohei Ohtani: The $125m Ad Man",
+      "postUrl": "https://www.readtrung.com/p/shohei-ohtani-the-125m-ad-man",
+      "publishDate": "Fri, 10 Apr 2026 22:12:01 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
