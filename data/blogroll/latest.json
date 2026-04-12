@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T10:51:11.794181",
+  "lastUpdated": "2026-04-12T10:52:06.942352",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "K\u0101k\u0101p\u014d parrots",
-      "postUrl": "https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything",
-      "publishDate": "2026-04-10T19:07:02+00:00"
+      "postTitle": "SQLite 3.53.0",
+      "postUrl": "https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything",
+      "publishDate": "2026-04-11T19:56:53+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -116,9 +116,9 @@
     {
       "blogTitle": "Derek Sivers",
       "blogUrl": "https://sive.rs/",
-      "postTitle": "Why did I move to New Zealand?",
-      "postUrl": "https://sive.rs/nz0",
-      "publishDate": "Tue, 25 Feb 2025 00:00:00 +0000"
+      "postTitle": "What next?",
+      "postUrl": "https://sive.rs/u60",
+      "publishDate": "Mon, 09 Feb 2026 05:00:00 GMT"
     },
     {
       "blogTitle": "Maggie Appleton",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Early Article: The Dostoevskian Moment",
-      "postUrl": "https://letter.palladiummag.com/p/early-article-the-dostoevskian-moment",
-      "publishDate": "Fri, 10 Apr 2026 22:54:29 GMT"
+      "postTitle": "New Article: The Dostoevskian Moment",
+      "postUrl": "https://letter.palladiummag.com/p/new-article-the-dostoevskian-moment",
+      "publishDate": "Sat, 11 Apr 2026 20:49:10 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -172,7 +172,7 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "Shohei Ohtani: The $125m Ad Man",
+      "postTitle": "Shohei Ohtani $125m Sponsorship Bag",
       "postUrl": "https://www.readtrung.com/p/shohei-ohtani-the-125m-ad-man",
       "publishDate": "Fri, 10 Apr 2026 22:12:01 GMT"
     },
