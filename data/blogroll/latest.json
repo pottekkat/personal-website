@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T10:52:06.942352",
+  "lastUpdated": "2026-04-13T11:05:22.069312",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "SQLite 3.53.0",
-      "postUrl": "https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything",
-      "publishDate": "2026-04-11T19:56:53+00:00"
+      "postTitle": "Quoting Bryan Cantrill",
+      "postUrl": "https://simonwillison.net/2026/Apr/13/bryan-cantrill/#atom-everything",
+      "publishDate": "2026-04-13T02:44:24+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
