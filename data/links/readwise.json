@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-04-13T16:34:48.450998+05:30",
+  "last_updated": "2026-04-14T16:25:22.729499+05:30",
   "links": [
+    {
+      "id": "01kp4as61dstadn7nrrgkkk0m9",
+      "title": "How I run multiple $10K MRR companies on a $20/month tech stack",
+      "author": "Steve Hanov's Blog",
+      "source_url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack?ref=dailydev",
+      "published_date": "2026-04-12",
+      "saved_at": "2026-04-14T02:38:25.773000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01knsnxke50y45r7acjyebrcar",
       "title": "The Cold Start Problem of New Cities & States",
