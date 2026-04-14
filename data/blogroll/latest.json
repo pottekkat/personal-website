@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-13T11:05:22.069312",
+  "lastUpdated": "2026-04-14T10:55:58.906122",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Lightning",
-      "postUrl": "https://xkcd.com/3231/",
-      "publishDate": "Fri, 10 Apr 2026 04:00:00 -0000"
+      "postTitle": "Countdown Standard",
+      "postUrl": "https://xkcd.com/3232/",
+      "publishDate": "Mon, 13 Apr 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Bryan Cantrill",
-      "postUrl": "https://simonwillison.net/2026/Apr/13/bryan-cantrill/#atom-everything",
-      "publishDate": "2026-04-13T02:44:24+00:00"
+      "postTitle": "Steve Yegge",
+      "postUrl": "https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything",
+      "publishDate": "2026-04-13T20:59:00+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Our publishing app is live\u2014come meet Mea!",
-      "postUrl": "https://www.elysian.press/p/our-publishing-app-is-livecome-meet",
-      "publishDate": "Thu, 09 Apr 2026 14:07:22 GMT"
+      "postTitle": "Airbnb, Uber, & Meetup wanted better exit options",
+      "postUrl": "https://www.elysian.press/p/airbnb-uber-and-meetup-wanted-better",
+      "publishDate": "Mon, 13 Apr 2026 12:01:38 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "The Cold Start Problem of New Cities & States",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/the-cold-start-problem-of-new-cities",
-      "publishDate": "Thu, 09 Apr 2026 14:46:07 GMT"
+      "postTitle": "The Future of Fertility",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/the-future-of-fertility",
+      "publishDate": "Tue, 14 Apr 2026 08:57:57 GMT"
     },
     {
       "blogTitle": "Anil Dash",
