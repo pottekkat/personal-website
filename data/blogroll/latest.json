@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T10:55:58.906122",
+  "lastUpdated": "2026-04-15T10:55:19.809045",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Steve Yegge",
-      "postUrl": "https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything",
-      "publishDate": "2026-04-13T20:59:00+00:00"
+      "postTitle": "Zig 0.16.0 release notes: \"Juicy Main\"",
+      "postUrl": "https://simonwillison.net/2026/Apr/15/juicy-main/#atom-everything",
+      "publishDate": "2026-04-15T01:59:21+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -123,9 +123,9 @@
     {
       "blogTitle": "Maggie Appleton",
       "blogUrl": "https://maggieappleton.com/",
-      "postTitle": "Gas Town\u2019s Agent Patterns, Design Bottlenecks, and Vibecoding at Scale",
-      "postUrl": "https://maggieappleton.com/gastown/",
-      "publishDate": "Fri, 23 Jan 2026 00:00:00 GMT"
+      "postTitle": "One Developer, Two Dozen Agents, Zero Alignment",
+      "postUrl": "https://maggieappleton.com/zero-alignment/",
+      "publishDate": "Mon, 13 Apr 2026 00:00:00 GMT"
     },
     {
       "blogTitle": "Anton Zhiyanov",
