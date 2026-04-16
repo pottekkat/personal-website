@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2026-04-15T10:55:19.809045",
+  "lastUpdated": "2026-04-16T10:55:34.169889",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Countdown Standard",
-      "postUrl": "https://xkcd.com/3232/",
-      "publishDate": "Mon, 13 Apr 2026 04:00:00 -0000"
+      "postTitle": "Make It Myself",
+      "postUrl": "https://xkcd.com/3233/",
+      "publishDate": "Wed, 15 Apr 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Panther Lake is the real deal",
-      "postUrl": "https://world.hey.com/dhh/panther-lake-is-the-real-deal-4bd731f1",
-      "publishDate": "2026-04-06T12:39:21Z"
+      "postTitle": "The malleable computer",
+      "postUrl": "https://world.hey.com/dhh/the-malleable-computer-7c187a9b",
+      "publishDate": "2026-04-15T15:06:27Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Zig 0.16.0 release notes: \"Juicy Main\"",
-      "postUrl": "https://simonwillison.net/2026/Apr/15/juicy-main/#atom-everything",
-      "publishDate": "2026-04-15T01:59:21+00:00"
+      "postTitle": "datasette.io news preview",
+      "postUrl": "https://simonwillison.net/2026/Apr/16/datasette-io-preview/#atom-everything",
+      "publishDate": "2026-04-16T00:18:03+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Airbnb, Uber, & Meetup wanted better exit options",
-      "postUrl": "https://www.elysian.press/p/airbnb-uber-and-meetup-wanted-better",
-      "publishDate": "Mon, 13 Apr 2026 12:01:38 GMT"
+      "postTitle": "Last chance to invest in my book\u2014and earn a share of the profits!",
+      "postUrl": "https://www.elysian.press/p/last-chance-to-invest-in-my-bookand",
+      "publishDate": "Wed, 15 Apr 2026 13:31:19 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
