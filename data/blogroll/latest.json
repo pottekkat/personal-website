@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T10:55:34.169889",
+  "lastUpdated": "2026-04-17T10:54:22.682197",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "datasette.io news preview",
-      "postUrl": "https://simonwillison.net/2026/Apr/16/datasette-io-preview/#atom-everything",
-      "publishDate": "2026-04-16T00:18:03+00:00"
+      "postTitle": "datasette 1.0a28",
+      "postUrl": "https://simonwillison.net/2026/Apr/17/datasette/#atom-everything",
+      "publishDate": "2026-04-17T04:01:56+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,23 +144,23 @@
     {
       "blogTitle": "AI as Normal Technology",
       "blogUrl": "https://www.normaltech.ai",
-      "postTitle": "New Paper: Towards a science of AI agent reliability",
-      "postUrl": "https://www.normaltech.ai/p/new-paper-towards-a-science-of-ai",
-      "publishDate": "Tue, 24 Feb 2026 13:07:19 GMT"
+      "postTitle": "Open-world evaluations for measuring frontier AI capabilities",
+      "postUrl": "https://www.normaltech.ai/p/open-world-evaluations-for-measuring",
+      "publishDate": "Thu, 16 Apr 2026 17:47:29 GMT"
     },
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Last chance to invest in my book\u2014and earn a share of the profits!",
-      "postUrl": "https://www.elysian.press/p/last-chance-to-invest-in-my-bookand",
-      "publishDate": "Wed, 15 Apr 2026 13:31:19 GMT"
+      "postTitle": "The hidden labour of the internet",
+      "postUrl": "https://www.elysian.press/p/the-hidden-labour-of-the-internet",
+      "publishDate": "Thu, 16 Apr 2026 12:01:15 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "New Article: The Dostoevskian Moment",
-      "postUrl": "https://letter.palladiummag.com/p/new-article-the-dostoevskian-moment",
-      "publishDate": "Sat, 11 Apr 2026 20:49:10 GMT"
+      "postTitle": "New Article: The Peoples of America",
+      "postUrl": "https://letter.palladiummag.com/p/new-article-the-peoples-of-america-707",
+      "publishDate": "Thu, 16 Apr 2026 14:07:17 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -186,9 +186,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Taking action against AI harms",
-      "postUrl": "https://anildash.com/2026/02/23/taking-action-ai-harms/",
-      "publishDate": "2026-02-24T00:00:00Z"
+      "postTitle": "Talking through the tech reckoning",
+      "postUrl": "https://anildash.com/2026/02/25/talking-through-the-tech-reckoning/",
+      "publishDate": "2026-02-26T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
