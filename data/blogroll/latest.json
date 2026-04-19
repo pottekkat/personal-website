@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T10:52:03.175345",
+  "lastUpdated": "2026-04-19T10:52:15.148627",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Adding a new content type to my blog-to-newsletter tool",
-      "postUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything",
-      "publishDate": "2026-04-18T03:15:36+00:00"
+      "postTitle": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+      "postUrl": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything",
+      "publishDate": "2026-04-18T23:59:40+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
