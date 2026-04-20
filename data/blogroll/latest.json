@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T10:52:15.148627",
+  "lastUpdated": "2026-04-20T11:07:18.735999",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
-      "postUrl": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything",
-      "publishDate": "2026-04-18T23:59:40+00:00"
+      "postTitle": "SQL functions in Google Sheets to fetch data from Datasette",
+      "postUrl": "https://simonwillison.net/2026/Apr/20/datasette-sql/#atom-everything",
+      "publishDate": "2026-04-20T02:33:58+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "Book Review: What We Can Know",
-      "postUrl": "https://www.stephendiehl.com/posts/what_we_can_know/",
-      "publishDate": "Thu, 02 Apr 2026 01:00:00 +0000"
+      "postTitle": "A Field Guide to Bugs",
+      "postUrl": "https://www.stephendiehl.com/posts/field_guide_to_bugs/",
+      "publishDate": "Sun, 19 Apr 2026 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -186,9 +186,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Talking through the tech reckoning",
-      "postUrl": "https://anildash.com/2026/02/25/talking-through-the-tech-reckoning/",
-      "publishDate": "2026-02-26T00:00:00Z"
+      "postTitle": "A Cookie for Dario? \u2014 Anthropic and selling death",
+      "postUrl": "https://anildash.com/2026/02/27/a-cookie-for-dario/",
+      "publishDate": "2026-02-28T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
