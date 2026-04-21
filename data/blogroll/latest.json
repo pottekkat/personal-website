@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-04-20T11:07:18.735999",
+  "lastUpdated": "2026-04-21T10:56:56.877769",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Europa Missions",
-      "postUrl": "https://xkcd.com/3234/",
-      "publishDate": "Fri, 17 Apr 2026 04:00:00 -0000"
+      "postTitle": "Types of Board Game",
+      "postUrl": "https://xkcd.com/3235/",
+      "publishDate": "Mon, 20 Apr 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "The malleable computer",
-      "postUrl": "https://world.hey.com/dhh/the-malleable-computer-7c187a9b",
-      "publishDate": "2026-04-15T15:06:27Z"
+      "postTitle": "Celebrating computers at Omacon",
+      "postUrl": "https://world.hey.com/dhh/celebrating-computers-at-omacon-163eb568",
+      "publishDate": "2026-04-21T10:56:33Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "The hidden labour of the internet",
-      "postUrl": "https://www.elysian.press/p/the-hidden-labour-of-the-internet",
-      "publishDate": "Thu, 16 Apr 2026 12:01:15 GMT"
+      "postTitle": "The algorithm doesn't have to destroy us",
+      "postUrl": "https://www.elysian.press/p/the-algorithm-doesnt-have-to-destroy",
+      "publishDate": "Mon, 20 Apr 2026 12:00:59 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
