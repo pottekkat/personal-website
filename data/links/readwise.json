@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-04-20T16:36:48.056159+05:30",
+  "last_updated": "2026-04-21T16:26:25.260863+05:30",
   "links": [
+    {
+      "id": "01kppnt7dhm13td93rg28bbwzz",
+      "title": "Sam Altman",
+      "author": "samaltman.com",
+      "source_url": "https://blog.samaltman.com/2279512/",
+      "published_date": "2026-04-10",
+      "saved_at": "2026-04-21T05:37:34.065000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kpp9hqb7wnatt9fgtxm63dje",
+      "title": "Absurd Workflows: Durable Execution With Just Postgres",
+      "author": "Armin Ronacher",
+      "source_url": "https://lucumr.pocoo.org/2025/11/3/absurd-workflows/",
+      "published_date": "2025-11-03",
+      "saved_at": "2026-04-21T02:03:12.293000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kpns0j1v6he6rqecy5xjk6tj",
+      "title": "If DSPy is So Great, Why Isn't Anyone Using It?",
+      "author": "Skylar Payne",
+      "source_url": "https://skylarbpayne.com/posts/dspy-engineering-patterns/",
+      "published_date": "2026-03-21",
+      "saved_at": "2026-04-20T21:14:12.859000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kpj28xqpe09z40zhyenyh4p1",
+      "title": "What Did Ancient Humans Do at Night?",
+      "author": "Zenn",
+      "source_url": "https://www.youtube.com/watch?v=st_Ah6Ykbh4",
+      "published_date": "2026-04-05",
+      "saved_at": "2026-04-19T10:39:06.422000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01kpefn5kr9sn7fmbb473px9tr",
       "title": "To Save Democracy, Look to the Arctic Woolly Bear Moth",
