@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-22T10:56:09.043579",
+  "lastUpdated": "2026-04-23T10:59:14.666110",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Types of Board Game",
-      "postUrl": "https://xkcd.com/3235/",
-      "publishDate": "Mon, 20 Apr 2026 04:00:00 -0000"
+      "postTitle": "Border Message",
+      "postUrl": "https://xkcd.com/3236/",
+      "publishDate": "Wed, 22 Apr 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Bobby Holley",
-      "postUrl": "https://simonwillison.net/2026/Apr/22/bobby-holley/#atom-everything",
-      "publishDate": "2026-04-22T05:40:56+00:00"
+      "postTitle": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
+      "postUrl": "https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything",
+      "publishDate": "2026-04-22T16:45:23+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "New Article: The Peoples of America",
-      "postUrl": "https://letter.palladiummag.com/p/new-article-the-peoples-of-america-707",
-      "publishDate": "Thu, 16 Apr 2026 14:07:17 GMT"
+      "postTitle": "New Article: The Lifecycle of an Apocalypse",
+      "postUrl": "https://letter.palladiummag.com/p/new-article-the-lifecycle-of-an-apocalypse",
+      "publishDate": "Wed, 22 Apr 2026 14:56:17 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
