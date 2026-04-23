@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-04-22T16:25:34.976520+05:30",
+  "last_updated": "2026-04-23T16:28:44.017124+05:30",
   "links": [
+    {
+      "id": "01kpvwchn5fp7sk0kv9xtfjxyd",
+      "title": "Why and How Kerala is Different",
+      "author": "Fahad Hasin",
+      "source_url": "https://keralagrowth.substack.com/p/why-and-how-kerala-is-different?utm_source=substack&utm_medium=email",
+      "published_date": "2026-02-01",
+      "saved_at": "2026-04-23T06:08:37.989000+05:30",
+      "reading_time": "11 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kpvcnd2ness5fddfxckdqb04",
+      "title": "The Broken Token: Tokenization for Malayalam Language Models",
+      "author": "Santhosh Thottingal",
+      "source_url": "https://thottingal.in/blog/2026/02/27/malayalam-tokenizer-llm/",
+      "published_date": "2026-02-27",
+      "saved_at": "2026-04-23T01:33:50.996000+05:30",
+      "reading_time": "29 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kpq2msz3v6qh18hd9b50teay",
       "title": "Types of Board Game",
