@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-04-24T16:26:52.256155+05:30",
+  "last_updated": "2026-04-25T16:21:48.442484+05:30",
   "links": [
+    {
+      "id": "01kq0r2aqbpv03w4zhbvf8pwyv",
+      "title": "The Stanford Freshmen Who Want to Rule the World",
+      "author": "Theo Baker",
+      "source_url": "https://www.theatlantic.com/ideas/2026/04/stanford-students-power/686920/?gift=o_0RIxHKOYK2SLe0kAstR2us692nqpBtsfxR6ITlMsM&utm_source=copy-link&utm_medium=social&utm_campaign=share",
+      "published_date": "2026-04-24",
+      "saved_at": "2026-04-25T03:29:21.067000+05:30",
+      "reading_time": "17 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kq0jhmw6cwfx7vdf4phx2zbg",
+      "title": "RollerCoaster Tycoon Optimizations are Insane",
+      "author": "The PrimeTime",
+      "source_url": "https://www.youtube.com/watch?v=ZANFhJ9HYsM",
+      "published_date": "2026-04-24",
+      "saved_at": "2026-04-25T01:52:51.526000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kq0hpb3g0sg2jh7a1tv0gx2c",
+      "title": "how to be anti-social",
+      "author": "leaflet.pub",
+      "source_url": "https://nate.leaflet.pub/3mk4xkaxobc2p",
+      "published_date": "2026-04-22",
+      "saved_at": "2026-04-25T01:37:56.784000+05:30",
+      "reading_time": "1 min",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kq0hk3f0tjasv5jtt8t0cxq6",
+      "title": "The Classic American Diner",
+      "author": "Melissa Lindberg",
+      "source_url": "https://blogs.loc.gov/picturethis/2026/04/the-classic-american-diner/",
+      "published_date": "2026-04-24",
+      "saved_at": "2026-04-25T01:36:10.655000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kq0fb3qrdjyqhxrwwkhhvgs9",
+      "title": "Software engineering may no longer be a lifetime career",
+      "author": "seangoedecke.com",
+      "source_url": "https://www.seangoedecke.com/software-engineering-may-no-longer-be-a-lifetime-career/?ref=dailydev",
+      "published_date": "2026-04-24",
+      "saved_at": "2026-04-25T00:56:51.640000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kq0apvkx21vcx955287pwfvc",
+      "title": "The Two Sleeps",
+      "author": "iam@dylan.gr (Dylan Araps)",
+      "source_url": "https://dylan.gr/1775146616",
+      "published_date": "2026-04-02",
+      "saved_at": "2026-04-24T23:35:50.662000+05:30",
+      "reading_time": "2 mins",
+      "category": "rss",
+      "notes": ""
+    },
     {
       "id": "01kpykzcnygvs3b9wa7xwkmnzx",
       "title": "Here in brief is the method I’ve honed to optimize...",
