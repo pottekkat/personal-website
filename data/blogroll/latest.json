@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-27T11:18:13.411843",
+  "lastUpdated": "2026-04-28T11:17:28.612925",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Husband and Wife",
-      "postUrl": "https://xkcd.com/3237/",
-      "publishDate": "Fri, 24 Apr 2026 04:00:00 -0000"
+      "postTitle": "Soniferous Aether",
+      "postUrl": "https://xkcd.com/3238/",
+      "publishDate": "Mon, 27 Apr 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "WHY ARE YOU LIKE THIS",
-      "postUrl": "https://simonwillison.net/2026/Apr/25/why-are-you-like-this/#atom-everything",
-      "publishDate": "2026-04-25T16:44:01+00:00"
+      "postTitle": "What's new in pip 26.1 - lockfiles and dependency cooldowns!",
+      "postUrl": "https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything",
+      "publishDate": "2026-04-28T05:23:05+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "You Should Be Stripping EXIF Data out of Your Image Files Before Posting",
-      "postUrl": "https://sheep.horse/2025/4/you_should_be_stripping_exif_data_out_of_your_imag.html",
-      "publishDate": "Sun, 13 Apr 2025 17:45:27 +0000"
+      "postTitle": "Hacked!",
+      "postUrl": "https://sheep.horse/2025/5/hacked%21.html",
+      "publishDate": "Sun, 18 May 2025 14:17:10 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
