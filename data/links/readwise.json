@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-04-28T16:46:54.046026+05:30",
+  "last_updated": "2026-04-29T16:41:50.716198+05:30",
   "links": [
+    {
+      "id": "01kqb74pvx5jcg8jp62cazrq3m",
+      "title": "6 months ago, I moved to San Francisco",
+      "author": "Clara Gold",
+      "source_url": "https://x.com/Clara_Gold/status/2049204609122709982/?rw_tt_thread=True",
+      "published_date": "2026-04-28",
+      "saved_at": "2026-04-29T05:05:11.997000+05:30",
+      "reading_time": "3 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kqb5zkq4rc2szygyxh7ja6er",
+      "title": "Context Engineering in Manus",
+      "author": "rlancemartin.github.io",
+      "source_url": "https://rlancemartin.github.io/2025/10/15/manus/",
+      "published_date": "2025-10-14",
+      "saved_at": "2026-04-29T04:44:56.356000+05:30",
+      "reading_time": "7 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kqb2gahpz4qwc5086t89184a",
+      "title": "Ghostty Is Leaving GitHub",
+      "author": "Mitchell Hashimoto",
+      "source_url": "https://mitchellh.com/writing/ghostty-leaving-github",
+      "published_date": "2026-04-28",
+      "saved_at": "2026-04-29T03:44:09.717000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kq89vh233z9ymbdtjeg38p60",
       "title": "What I Learned About Billionaires at Jeff Bezos’s Private Retreat",
