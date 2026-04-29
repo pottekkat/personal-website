@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T11:17:28.612925",
+  "lastUpdated": "2026-04-29T11:12:30.547989",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "What's new in pip 26.1 - lockfiles and dependency cooldowns!",
-      "postUrl": "https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything",
-      "publishDate": "2026-04-28T05:23:05+00:00"
+      "postTitle": "Quoting OpenAI Codex base_instructions",
+      "postUrl": "https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything",
+      "publishDate": "2026-04-28T22:02:53+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "The algorithm doesn't have to destroy us",
-      "postUrl": "https://www.elysian.press/p/the-algorithm-doesnt-have-to-destroy",
-      "publishDate": "Mon, 20 Apr 2026 12:00:59 GMT"
+      "postTitle": "The Internet has no benches",
+      "postUrl": "https://www.elysian.press/p/the-internet-has-no-benches",
+      "publishDate": "Tue, 28 Apr 2026 12:00:43 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -186,8 +186,8 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "A Cookie for Dario? \u2014 Anthropic and selling death",
-      "postUrl": "https://anildash.com/2026/02/27/a-cookie-for-dario/",
+      "postTitle": "Why Apple\u2019s move to video could endanger podcasting's greatest power",
+      "postUrl": "https://anildash.com/2026/02/28/apple-video-podcast-power/",
       "publishDate": "2026-02-28T00:00:00Z"
     },
     {
