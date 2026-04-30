@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-29T11:12:30.547989",
+  "lastUpdated": "2026-04-30T11:12:25.388211",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Soniferous Aether",
-      "postUrl": "https://xkcd.com/3238/",
-      "publishDate": "Mon, 27 Apr 2026 04:00:00 -0000"
+      "postTitle": "Simple Machines",
+      "postUrl": "https://xkcd.com/3239/",
+      "publishDate": "Wed, 29 Apr 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting OpenAI Codex base_instructions",
-      "postUrl": "https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything",
-      "publishDate": "2026-04-28T22:02:53+00:00"
+      "postTitle": "The Zig project's rationale for their firm anti-AI contribution policy",
+      "postUrl": "https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything",
+      "publishDate": "2026-04-30T01:24:23+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -186,9 +186,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Why Apple\u2019s move to video could endanger podcasting's greatest power",
-      "postUrl": "https://anildash.com/2026/02/28/apple-video-podcast-power/",
-      "publishDate": "2026-02-28T00:00:00Z"
+      "postTitle": "The Neo solves Apple\u2019s embarrassment",
+      "postUrl": "https://anildash.com/2026/03/08/neo-apple-embarassment/",
+      "publishDate": "2026-03-08T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
