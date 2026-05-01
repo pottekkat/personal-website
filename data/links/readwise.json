@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-04-30T16:41:51.232375+05:30",
+  "last_updated": "2026-05-01T16:28:44.370417+05:30",
   "links": [
+    {
+      "id": "01kqgbwwg4kk8z9brjwax61kst",
+      "title": "The Adolescence of Technology",
+      "author": "darioamodei.com",
+      "source_url": "https://www.darioamodei.com/essay/the-adolescence-of-technology",
+      "published_date": "2026-01-30",
+      "saved_at": "2026-05-01T05:04:30.659000+05:30",
+      "reading_time": "1 hr 22 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kqfxryrrh5p9dd277k3p3fyv",
+      "title": "Silicon Valley Is Bracing for a Permanent Underclass",
+      "author": "Jasmine Sun",
+      "source_url": "https://www.nytimes.com/2026/04/30/opinion/ai-labor-work-force-silicon-valley.html?unlocked_article_code=1.e1A.zFGe.sWGP3oHShI4x&smid=url-share",
+      "published_date": "2026-04-30",
+      "saved_at": "2026-05-01T00:57:41.848000+05:30",
+      "reading_time": "18 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kqe06dtrjaec6654r4mb43pv",
+      "title": "The Zig project's rationale for their firm anti-AI contribution policy",
+      "author": "Simon Willison's Weblog",
+      "source_url": "https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything",
+      "published_date": "2026-04-30",
+      "saved_at": "2026-04-30T07:01:28.545000+05:30",
+      "reading_time": "2 mins",
+      "category": "rss",
+      "notes": ""
+    },
     {
       "id": "01kqdy3x1mncqa2kpar40nd9hd",
       "title": "Before GitHub",
