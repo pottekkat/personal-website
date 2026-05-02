@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-01T10:59:22.989202",
+  "lastUpdated": "2026-05-02T10:53:38.555378",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Simple Machines",
-      "postUrl": "https://xkcd.com/3239/",
-      "publishDate": "Wed, 29 Apr 2026 04:00:00 -0000"
+      "postTitle": "Bottle",
+      "postUrl": "https://xkcd.com/3240/",
+      "publishDate": "Fri, 01 May 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Codex CLI 0.128.0 adds /goal",
-      "postUrl": "https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything",
-      "publishDate": "2026-04-30T23:23:17+00:00"
+      "postTitle": "iNaturalist Sightings",
+      "postUrl": "https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything",
+      "publishDate": "2026-05-01T19:35:41+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
