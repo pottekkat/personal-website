@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T10:53:38.555378",
+  "lastUpdated": "2026-05-03T10:54:15.448748",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "iNaturalist Sightings",
-      "postUrl": "https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything",
-      "publishDate": "2026-05-01T19:35:41+00:00"
+      "postTitle": "Sightings",
+      "postUrl": "https://simonwillison.net/2026/May/2/sightings/#atom-everything",
+      "publishDate": "2026-05-02T17:26:40+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -81,9 +81,9 @@
     {
       "blogTitle": "Julia Evans",
       "blogUrl": "https://jvns.ca/",
-      "postTitle": "Examples for the tcpdump and dig man pages",
-      "postUrl": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/",
-      "publishDate": "2026-03-10T00:00:00+00:00"
+      "postTitle": "Testing Vue components in the browser",
+      "postUrl": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/",
+      "publishDate": "2026-05-02T00:00:00+00:00"
     },
     {
       "blogTitle": "Imposter!",
