@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T11:17:59.963911",
+  "lastUpdated": "2026-05-05T11:05:57.518280",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Anthropic",
-      "postUrl": "https://simonwillison.net/2026/May/3/anthropic/#atom-everything",
-      "publishDate": "2026-05-03T15:13:23+00:00"
+      "postTitle": "Quoting John Gruber",
+      "postUrl": "https://simonwillison.net/2026/May/5/john-gruber/#atom-everything",
+      "publishDate": "2026-05-05T00:46:29+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -81,9 +81,9 @@
     {
       "blogTitle": "Julia Evans",
       "blogUrl": "https://jvns.ca/",
-      "postTitle": "Testing Vue components in the browser",
-      "postUrl": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/",
-      "publishDate": "2026-05-02T00:00:00+00:00"
+      "postTitle": "Links to CSS colour palettes",
+      "postUrl": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/",
+      "publishDate": "2026-05-04T00:00:00+00:00"
     },
     {
       "blogTitle": "Imposter!",
