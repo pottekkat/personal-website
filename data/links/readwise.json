@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-05-05T16:35:23.481004+05:30",
+  "last_updated": "2026-05-06T16:48:07.029357+05:30",
   "links": [
+    {
+      "id": "01kqxh187vq61wf4vhzynr8g17",
+      "title": "Who Will Monetize Truth?",
+      "author": "Francesco Marconi",
+      "source_url": "https://readwise-assets.s3.amazonaws.com/media/wisereads/articles/who-will-monetize-truth/who-will-monetize-truth-pdf.pdf",
+      "published_date": "2026-03-18",
+      "saved_at": "2026-05-06T07:44:24.251000+05:30",
+      "reading_time": "38 mins",
+      "category": "pdf",
+      "notes": ""
+    },
+    {
+      "id": "01kqxfcfa4vgva3j2ggqn4bzzg",
+      "title": "Three Inverse Laws of AI",
+      "author": "susam.net",
+      "source_url": "https://susam.net/inverse-laws-of-robotics.html",
+      "published_date": "2026-01-12",
+      "saved_at": "2026-05-06T07:15:34.787000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kqx3j9v9cqess0wefk4v17w7",
+      "title": "Our AI started a cafe in Stockholm",
+      "author": "Simon Willison's Weblog",
+      "source_url": "https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/#atom-everything",
+      "published_date": "2026-05-05",
+      "saved_at": "2026-05-06T03:48:59.890000+05:30",
+      "reading_time": "2 mins",
+      "category": "rss",
+      "notes": ""
+    },
+    {
+      "id": "01kqwrm863kx1vd98h50pjn6g3",
+      "title": "GERMANY IS OVER",
+      "author": "Kurzgesagt – In a Nutshell",
+      "source_url": "https://www.youtube.com/watch?v=n-gYFcVx-8Y",
+      "published_date": "2026-05-05",
+      "saved_at": "2026-05-06T00:37:52.387000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01kqgbwwg4kk8z9brjwax61kst",
       "title": "The Adolescence of Technology",
