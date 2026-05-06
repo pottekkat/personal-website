@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-05T11:05:57.518280",
+  "lastUpdated": "2026-05-06T11:18:52.608844",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Bottle",
-      "postUrl": "https://xkcd.com/3240/",
-      "publishDate": "Fri, 01 May 2026 04:00:00 -0000"
+      "postTitle": "Horizontal Stabilizers",
+      "postUrl": "https://xkcd.com/3241/",
+      "publishDate": "Mon, 04 May 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting John Gruber",
-      "postUrl": "https://simonwillison.net/2026/May/5/john-gruber/#atom-everything",
-      "publishDate": "2026-05-05T00:46:29+00:00"
+      "postTitle": "datasette-referrer-policy 0.1",
+      "postUrl": "https://simonwillison.net/2026/May/5/datasette-referrer-policy/#atom-everything",
+      "publishDate": "2026-05-05T23:44:27+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Porting Go's strings package to C",
-      "postUrl": "https://antonz.org/porting-go-strings/",
-      "publishDate": "Fri, 03 Apr 2026 13:00:00 +0000"
+      "postTitle": "Solod v0.1: Go ergonomics, practical stdlib, native C interop",
+      "postUrl": "https://antonz.org/solod-v0-1/",
+      "publishDate": "Wed, 06 May 2026 11:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
