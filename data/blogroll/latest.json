@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-06T11:18:52.608844",
+  "lastUpdated": "2026-05-07T11:18:58.030685",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Horizontal Stabilizers",
-      "postUrl": "https://xkcd.com/3241/",
-      "publishDate": "Mon, 04 May 2026 04:00:00 -0000"
+      "postTitle": "Aperiodic Table",
+      "postUrl": "https://xkcd.com/3242/",
+      "publishDate": "Wed, 06 May 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "datasette-referrer-policy 0.1",
-      "postUrl": "https://simonwillison.net/2026/May/5/datasette-referrer-policy/#atom-everything",
-      "publishDate": "2026-05-05T23:44:27+00:00"
+      "postTitle": "Live blog: Code w/ Claude 2026",
+      "postUrl": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything",
+      "publishDate": "2026-05-06T15:58:27+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "The internet needs ecologists",
-      "postUrl": "https://www.elysian.press/p/the-internet-needs-ecologists",
-      "publishDate": "Thu, 30 Apr 2026 12:01:10 GMT"
+      "postTitle": "INTERNET SOVEREIGNTY",
+      "postUrl": "https://www.elysian.press/p/internet-sovereignty",
+      "publishDate": "Wed, 06 May 2026 13:11:03 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Do Women Reproduce More than Men?",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/do-women-reproduce-more-than-men",
-      "publishDate": "Thu, 30 Apr 2026 12:03:21 GMT"
+      "postTitle": "The Ruthless Liquidity of Modern Love",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/the-ruthless-liquidity-of-modern",
+      "publishDate": "Wed, 06 May 2026 12:02:59 GMT"
     },
     {
       "blogTitle": "Anil Dash",
