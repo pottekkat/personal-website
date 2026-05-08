@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T11:18:58.030685",
+  "lastUpdated": "2026-05-08T10:59:35.728564",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Live blog: Code w/ Claude 2026",
-      "postUrl": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything",
-      "publishDate": "2026-05-06T15:58:27+00:00"
+      "postTitle": "llm-gemini 0.31",
+      "postUrl": "https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything",
+      "publishDate": "2026-05-07T19:57:06+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
