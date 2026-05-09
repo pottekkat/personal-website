@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-08T10:59:35.728564",
+  "lastUpdated": "2026-05-09T10:54:45.620995",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Aperiodic Table",
-      "postUrl": "https://xkcd.com/3242/",
-      "publishDate": "Wed, 06 May 2026 04:00:00 -0000"
+      "postTitle": "Crystal Gazing",
+      "postUrl": "https://xkcd.com/3243/",
+      "publishDate": "Fri, 08 May 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "llm-gemini 0.31",
-      "postUrl": "https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything",
-      "publishDate": "2026-05-07T19:57:06+00:00"
+      "postTitle": "Quoting Luke Curley",
+      "postUrl": "https://simonwillison.net/2026/May/9/luke-curley/#atom-everything",
+      "publishDate": "2026-05-09T01:03:58+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -74,9 +74,9 @@
     {
       "blogTitle": "blog.jfo.click",
       "blogUrl": "http://blog.jfo.click/",
-      "postTitle": "Goodbye 2025",
-      "postUrl": "https://blog.jfo.click/goodbye-2025",
-      "publishDate": "Jan 11, 2026"
+      "postTitle": "Twelve years",
+      "postUrl": "https://blog.jfo.click/twelve-years",
+      "publishDate": "May 08, 2026"
     },
     {
       "blogTitle": "Julia Evans",
@@ -116,9 +116,8 @@
     {
       "blogTitle": "Derek Sivers",
       "blogUrl": "https://sive.rs/",
-      "postTitle": "What next?",
-      "postUrl": "https://sive.rs/u60",
-      "publishDate": "Mon, 09 Feb 2026 05:00:00 GMT"
+      "error": true,
+      "errorMessage": "HTTPSConnectionPool(host='sive.rs', port=443): Max retries exceeded with url: /podcast.rss (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f830da11b10>: Failed to establish a new connection: [Errno 111] Connection refused'))"
     },
     {
       "blogTitle": "Maggie Appleton",
@@ -172,9 +171,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "Sabastian Sawe, Adidas and the Sub-2 Hour Marathon",
-      "postUrl": "https://www.readtrung.com/p/sabastian-sawe-adidas-and-the-sub",
-      "publishDate": "Fri, 01 May 2026 02:17:23 GMT"
+      "postTitle": "Spirit Airlines & The Airplane Boneyard",
+      "postUrl": "https://www.readtrung.com/p/spirit-airlines-and-the-airplane",
+      "publishDate": "Fri, 08 May 2026 20:30:00 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
