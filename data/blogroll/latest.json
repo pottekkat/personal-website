@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T10:54:45.620995",
+  "lastUpdated": "2026-05-10T10:55:21.985529",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -116,8 +116,9 @@
     {
       "blogTitle": "Derek Sivers",
       "blogUrl": "https://sive.rs/",
-      "error": true,
-      "errorMessage": "HTTPSConnectionPool(host='sive.rs', port=443): Max retries exceeded with url: /podcast.rss (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f830da11b10>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+      "postTitle": "What next?",
+      "postUrl": "https://sive.rs/u60",
+      "publishDate": "Mon, 09 Feb 2026 05:00:00 GMT"
     },
     {
       "blogTitle": "Maggie Appleton",
