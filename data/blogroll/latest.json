@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-11T11:41:08.757271",
+  "lastUpdated": "2026-05-12T11:23:38.228056",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Crystal Gazing",
-      "postUrl": "https://xkcd.com/3243/",
-      "publishDate": "Fri, 08 May 2026 04:00:00 -0000"
+      "postTitle": "Pullback Drive",
+      "postUrl": "https://xkcd.com/3244/",
+      "publishDate": "Mon, 11 May 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting New York Times Editors\u2019 Note",
-      "postUrl": "https://simonwillison.net/2026/May/10/new-york-times-editors-note/#atom-everything",
-      "publishDate": "2026-05-10T23:58:49+00:00"
+      "postTitle": "Thoughts on GitLab's workforce reduction\" and \"structural and strategic decisions\"",
+      "postUrl": "https://simonwillison.net/2026/May/11/gitlab-act-2/#atom-everything",
+      "publishDate": "2026-05-11T23:58:55+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
