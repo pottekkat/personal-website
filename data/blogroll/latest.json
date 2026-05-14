@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-13T11:26:01.560852",
+  "lastUpdated": "2026-05-14T11:22:01.586264",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Pullback Drive",
-      "postUrl": "https://xkcd.com/3244/",
-      "publishDate": "Mon, 11 May 2026 04:00:00 -0000"
+      "postTitle": "Results Age",
+      "postUrl": "https://xkcd.com/3245/",
+      "publishDate": "Wed, 13 May 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "CSP Allow-list Experiment",
-      "postUrl": "https://simonwillison.net/2026/May/13/csp-allow/#atom-everything",
-      "publishDate": "2026-05-13T04:50:45+00:00"
+      "postTitle": "Welcome to the Datasette blog",
+      "postUrl": "https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything",
+      "publishDate": "2026-05-13T23:59:39+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
