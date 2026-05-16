@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-05-15T16:52:55.080603+05:30",
+  "last_updated": "2026-05-16T16:25:12.722516+05:30",
   "links": [
+    {
+      "id": "01krqmzk7jxqp0rsedp30sr4r3",
+      "title": "how to make chai correctly",
+      "author": "mataroa.blog",
+      "source_url": "https://dmart.mataroa.blog/blog/chai/",
+      "published_date": "2026-05-15",
+      "saved_at": "2026-05-16T11:13:39.506000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01krqg6tcfqkp00jz18sej2gmk",
+      "title": "Billionaires Build",
+      "author": "Paul Graham",
+      "source_url": "https://paulgraham.com/ace.html",
+      "published_date": "2020-12-14",
+      "saved_at": "2026-05-16T09:50:13.327000+05:30",
+      "reading_time": "13 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01krqdhcnp66c0aj63432gmbyz",
+      "title": "I strongly believe there are entire companies right now under...",
+      "author": "Mitchell Hashimoto",
+      "source_url": "https://x.com/mitchellh/status/2055380239711457578/?rw_tt_thread=True",
+      "published_date": "2026-05-15",
+      "saved_at": "2026-05-16T09:03:34.006000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01krqdcn6m3v10n0d30q50dx65",
+      "title": "The Peace Of Letting People Come and Go",
+      "author": "Substack",
+      "source_url": "https://thediaryofanadultteenager.substack.com/p/the-peace-of-letting-people-come",
+      "published_date": null,
+      "saved_at": "2026-05-16T09:00:58.900000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01krqcy37m1pnpwxewy56g568r",
+      "title": "Tendencies and Toolkits",
+      "author": "Behzod",
+      "source_url": "https://x.com/beh_zod/status/2052413848607736280/?rw_tt_thread=True",
+      "published_date": "2026-05-07",
+      "saved_at": "2026-05-16T08:53:01.748000+05:30",
+      "reading_time": "3 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01krqc04p5mjdmx86tvmhtvkab",
+      "title": "Why Intellectuals Become Leftists",
+      "author": "Logan Lamont",
+      "source_url": "https://quadrant.org.au/news-opinions/society/why-intellectuals-become-leftists/",
+      "published_date": "2026-05-01",
+      "saved_at": "2026-05-16T08:36:40.197000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01krq9kgh9wff4217bfgaahk72",
+      "title": "The Fast Lane to Mediocrity",
+      "author": "Aditya Agarwal",
+      "source_url": "https://x.com/adityaag/status/2054976557702066520/?rw_tt_thread=True",
+      "published_date": "2026-05-14",
+      "saved_at": "2026-05-16T07:54:49.192000+05:30",
+      "reading_time": "4 mins",
+      "category": "tweet",
+      "notes": ""
+    },
     {
       "id": "01krdbent9aq4q318cnq5yn6n2",
       "title": "Making A Giant Zipper To Explain How They Work",
