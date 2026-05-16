@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-15T11:23:26.629030",
+  "lastUpdated": "2026-05-16T10:55:45.364728",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Results Age",
-      "postUrl": "https://xkcd.com/3245/",
-      "publishDate": "Wed, 13 May 2026 04:00:00 -0000"
+      "postTitle": "Speedrun",
+      "postUrl": "https://xkcd.com/3246/",
+      "publishDate": "Fri, 15 May 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Not so locked in any more",
-      "postUrl": "https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything",
-      "publishDate": "2026-05-14T22:53:49+00:00"
+      "postTitle": "inaturalist-clumper 0.1",
+      "postUrl": "https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything",
+      "publishDate": "2026-05-15T23:53:11+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -81,9 +81,9 @@
     {
       "blogTitle": "Julia Evans",
       "blogUrl": "https://jvns.ca/",
-      "postTitle": "Links to CSS colour palettes",
-      "postUrl": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/",
-      "publishDate": "2026-05-04T00:00:00+00:00"
+      "postTitle": "Moving away from Tailwind, and learning to structure my CSS",
+      "postUrl": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+      "publishDate": "2026-05-15T00:00:00+00:00"
     },
     {
       "blogTitle": "Imposter!",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "I had Claude analyze my writing business\u2014here\u2019s what it said",
-      "postUrl": "https://www.elysian.press/p/i-had-claude-analyze-my-writing-businessheres",
-      "publishDate": "Tue, 12 May 2026 13:03:15 GMT"
+      "postTitle": "Office Hours\u2014register for May & June sessions!",
+      "postUrl": "https://www.elysian.press/p/office-hoursregister-for-april-sessions",
+      "publishDate": "Fri, 15 May 2026 16:37:52 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "Spirit Airlines & The Airplane Boneyard",
-      "postUrl": "https://www.readtrung.com/p/spirit-airlines-and-the-airplane",
-      "publishDate": "Fri, 08 May 2026 20:30:00 GMT"
+      "postTitle": "Swatch, Audemars Piguet and The Dream Equation",
+      "postUrl": "https://www.readtrung.com/p/swatch-audemars-piguet-and-the-dream",
+      "publishDate": "Fri, 15 May 2026 20:47:22 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
