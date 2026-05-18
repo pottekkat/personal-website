@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T10:58:23.951907",
+  "lastUpdated": "2026-05-18T11:52:24.382507",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Warelay -> OpenClaw",
-      "postUrl": "https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything",
-      "publishDate": "2026-05-16T20:23:30+00:00"
+      "postTitle": "GDS weighs in on the NHS's decision to retreat from Open Source",
+      "postUrl": "https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything",
+      "publishDate": "2026-05-17T15:59:41+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -67,9 +67,9 @@
     {
       "blogTitle": "Austin Z. Henley's Blog",
       "blogUrl": "https://austinhenley.com/",
-      "postTitle": "Dear researchers: Is AI all you've got?",
-      "postUrl": "https://austinhenley.com/blog/dearresearchers.html",
-      "publishDate": "Sun, 22 Feb 2026 14:00:01 -0400"
+      "postTitle": "Academia, startups, big tech, and back again",
+      "postUrl": "https://austinhenley.com/blog/academiastartupsbigtech.html",
+      "publishDate": "Sun, 17 May 2026 17:00:01 -0400"
     },
     {
       "blogTitle": "blog.jfo.click",
