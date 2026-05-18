@@ -16,6 +16,7 @@
 {{- range first 1 $pages.ByLastmod.Reverse }}
   {{- $lastMod = .Lastmod }}
 {{- end }}
+{{- $paginator := .Paginate $pages.ByDate.Reverse (site.Params.booksPagerSize | default 8) }}
 
 <header class="page-header">
   {{- if (.Param "ShowBreadCrumbsInList") -}}
@@ -61,7 +62,7 @@
 </div>
 
 <div id="books-container" class="books-container grid-view">
-  {{- range $pages.ByDate.Reverse }}
+  {{- range $paginator.Pages }}
   <a href="{{ .Permalink }}" class="book-card">
     <div class="book-cover">
       {{- if .Params.bookMeta.coverImage }}
@@ -96,7 +97,7 @@
       </tr>
     </thead>
     <tbody>
-      {{- range $pages.ByDate.Reverse }}
+      {{- range $paginator.Pages }}
       <tr class="book-row" data-href="{{ .Permalink }}">
         <td>
           <div class="td-icon">
@@ -386,6 +387,29 @@ body:not(.grid-active):not(.list-active) #list { display: inline-block; }
   });
 })();
 </script>
+
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
+      <span class="pagination-title">« {{ i18n "prev_page" }}</span>
+      {{- if (.Param "ShowPageNums") }}
+      &nbsp;<span class="pagination-nums">{{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}</span>
+      {{- end }}
+    </a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">
+      {{- if (.Param "ShowPageNums") }}
+      <span class="pagination-nums">{{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}</span>&nbsp;
+      {{- end }}
+      <span class="pagination-title">{{ i18n "next_page" }} »</span>
+    </a>
+    {{- end }}
+  </nav>
+</footer>
+{{- end }}
 
 {{- end }}{{/* end main */}}
 
