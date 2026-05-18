@@ -13,8 +13,8 @@ bookMeta:
     - Fiction
     - Mystery
     - Thriller
-  status: Reading
-  rating: 0
+  status: Read
+  rating: 4
   coverImage: /images/books/covers/drive-your-plow-over-the-bones-of-the-dead.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/36609308-drive-your-plow-over-the-bones-of-the-dead
 fmContentType: Book Review
