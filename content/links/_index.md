@@ -3,6 +3,7 @@ title: "Links"
 description: "Automatically updated list of links I find interesting enough to save."
 outputs:
   - HTML
+  - RSS
 build:
   render: always
   list: always

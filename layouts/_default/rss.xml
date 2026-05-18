@@ -97,6 +97,18 @@
         <content:encoded>{{ (printf "<![CDATA[%s%s]]>" (partial "response-context-rss.html" .) .Content) | safeHTML }}</content:encoded>
       </item>
       {{- end }}
+    {{- else if eq .Type `links` }}
+      {{- if not $.IsHome }}
+      <item>
+        <title>{{ .Title }}</title>
+        <link>{{ .Params.source_url }}</link>
+        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+        {{ with .Params.author }}<author>{{ . }}</author>{{ end }}
+        <guid isPermaLink="false">{{ .Params.source_url }}</guid>
+        {{ with .Params.category }}<category>{{ . }}</category>{{ end }}
+        <description>{{ with .Params.notes }}{{ . | html }}{{ end -}}</description>
+      </item>
+      {{- end }}
     {{- else if eq .Type `newsletters` }}
       {{- if not $.IsHome }}
       <item>
