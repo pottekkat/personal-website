@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-05-18T12:11:32+05:30",
+  "lastUpdated": "2026-05-18T12:33:09+05:30",
   "entries": [
+    {
+      "hash": "472d140",
+      "date": "2026-05-18T12:32:22+05:30",
+      "message": "Added RSS feed support for the /links section."
+    },
     {
       "hash": "0d764da",
       "date": "2026-05-18T12:10:41+05:30",
