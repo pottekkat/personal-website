@@ -655,5 +655,5 @@
       ]
     }
   },
-  "frontMatter.framework.startCommand": "hugo server -D --buildFuture --baseURL=http://localhost:1313/"
+  "frontMatter.framework.startCommand": "hugo server -D --buildFuture"
 }
