@@ -17,7 +17,7 @@ categories:
 series: []
 aliases: []
 cover:
-  image: /images/for-the-old-people/old-people-banner.png
+  image: /images/for-the-old-people/old-people-banner.jpg
   alt: For the (old) people. By the (old) people.
   caption: For the (old) people. By the (old) people.
   relative: false
