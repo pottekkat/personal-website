@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-18T11:52:24.382507",
+  "lastUpdated": "2026-05-19T11:39:23.026505",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Speedrun",
-      "postUrl": "https://xkcd.com/3246/",
-      "publishDate": "Fri, 15 May 2026 04:00:00 -0000"
+      "postTitle": "Particle Census",
+      "postUrl": "https://xkcd.com/3247/",
+      "publishDate": "Mon, 18 May 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "GDS weighs in on the NHS's decision to retreat from Open Source",
-      "postUrl": "https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything",
-      "publishDate": "2026-05-17T15:59:41+00:00"
+      "postTitle": "The last six months in LLMs in five minutes",
+      "postUrl": "https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything",
+      "publishDate": "2026-05-19T01:09:44+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
