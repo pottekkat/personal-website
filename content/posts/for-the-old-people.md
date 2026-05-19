@@ -37,3 +37,5 @@ The policy was announced not as a means to an end, say, reducing transportation 
 A better alternative would be to keep the fares for women and reinvest that money to build better public transport networks. Connecting Kochi Airport, metro stations, ferries, and buses to make it easy to switch between them would be much better than giving away unsustainable freebies in a state with high incomes. I would rather live in this Kochi than endure the cold winters of Toronto.
 
 There’s still a ray of hope, at least for me, in that the UDF government seems to be welcoming feedback and criticisms. But the window to reverse youth migration and turn back the demographic clock is small. This should be the government's highest priority.
+
+See the discussions on [{{< icon reddit >}} Reddit](https://www.reddit.com/r/Kerala/comments/1the2qe/the_new_udf_government_has_set_the_policy/) and [{{< icon twitter >}} Twitter](https://x.com/realPottekkat/status/2056360098449285151).
