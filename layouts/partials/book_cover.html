@@ -1,0 +1,77 @@
+{{- /*
+  Renders a book cover through Hugo's image pipeline (WebP + srcset +
+  dominant-color background + explicit dimensions). Mirrors the
+  prod-only processing gate used by partials/cover.html.
+
+  Resolves the image via resources.Get; static/ files are visible to
+  the resource pipeline through the static->assets module mount in
+  config.yml. If the resource is missing the partial falls back to a
+  plain <img> pointing at the original path so the page still renders.
+
+  ctx (dict):
+    image  - path from frontmatter (e.g. /images/books/covers/foo.jpg)
+    title  - book title (used for alt text)
+    class  - class applied to the rendered <img>
+    sizes  - sizes attribute for srcset
+*/ -}}
+{{- $image := .image -}}
+{{- $title := .title -}}
+{{- $class := .class -}}
+{{- $sizes := .sizes | default "(min-width: 768px) 250px, 50vw" -}}
+
+{{- $cover := "" -}}
+{{- with $image -}}
+  {{- $cover = resources.Get (strings.TrimPrefix "/" .) -}}
+{{- end -}}
+
+{{- if $cover -}}
+  {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) -}}
+  {{- $processable := in (slice "jpeg" "jpg" "png" "tif" "bmp" "gif" "webp") $cover.MediaType.SubType -}}
+  {{- if and $prod $processable -}}
+    {{- $widths := slice 160 240 360 480 720 -}}
+    {{- $dominant := "" -}}
+    {{- with ($cover.Resize "60x").Colors -}}{{- $dominant = index . 0 -}}{{- end -}}
+    {{- $fallback := $cover.Resize "360x q85" -}}
+    <picture style="display:contents">
+      <source type="image/webp" srcset="
+        {{- $first := true -}}
+        {{- range $w := $widths -}}
+          {{- if ge $cover.Width $w -}}
+            {{- if not $first }}, {{ end -}}
+            {{- $r := $cover.Resize (printf "%dx webp q85" $w) -}}
+            {{- printf "%s %dw" $r.RelPermalink $w -}}
+            {{- $first = false -}}
+          {{- end -}}
+        {{- end -}}" sizes="{{ $sizes }}">
+      <source type="{{ $cover.MediaType }}" srcset="
+        {{- $first := true -}}
+        {{- range $w := $widths -}}
+          {{- if ge $cover.Width $w -}}
+            {{- if not $first }}, {{ end -}}
+            {{- $r := $cover.Resize (printf "%dx q85" $w) -}}
+            {{- printf "%s %dw" $r.RelPermalink $w -}}
+            {{- $first = false -}}
+          {{- end -}}
+        {{- end -}}" sizes="{{ $sizes }}">
+      <img src="{{ $fallback.RelPermalink }}"
+           alt="Cover of {{ $title }}"
+           class="{{ $class }}"
+           width="{{ $cover.Width }}"
+           height="{{ $cover.Height }}"
+           loading="lazy" decoding="async"
+           {{- with $dominant }} style="background-color: {{ . }};"{{ end }}>
+    </picture>
+  {{- else -}}
+    <img src="{{ $cover.RelPermalink }}"
+         alt="Cover of {{ $title }}"
+         class="{{ $class }}"
+         width="{{ $cover.Width }}"
+         height="{{ $cover.Height }}"
+         loading="lazy" decoding="async">
+  {{- end -}}
+{{- else -}}
+  <img src="{{ $image | absURL }}"
+       alt="Cover of {{ $title }}"
+       class="{{ $class }}"
+       loading="lazy" decoding="async">
+{{- end -}}
