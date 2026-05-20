@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T11:39:23.026505",
+  "lastUpdated": "2026-05-20T11:33:55.461181",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "The last six months in LLMs in five minutes",
-      "postUrl": "https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything",
-      "publishDate": "2026-05-19T01:09:44+00:00"
+      "postTitle": "llm-gemini 0.32",
+      "postUrl": "https://simonwillison.net/2026/May/19/llm-gemini-2/#atom-everything",
+      "publishDate": "2026-05-19T23:46:27+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "A Field Guide to Bugs",
-      "postUrl": "https://www.stephendiehl.com/posts/field_guide_to_bugs/",
-      "publishDate": "Sun, 19 Apr 2026 01:00:00 +0000"
+      "postTitle": "Book Review: On the Calculation of Volume",
+      "postUrl": "https://www.stephendiehl.com/posts/calculation_of_volume/",
+      "publishDate": "Wed, 20 May 2026 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Office Hours\u2014register for May & June sessions!",
-      "postUrl": "https://www.elysian.press/p/office-hoursregister-for-april-sessions",
-      "publishDate": "Fri, 15 May 2026 16:37:52 GMT"
+      "postTitle": "Post Nation\u2014our next pamphlet drop is here!",
+      "postUrl": "https://www.elysian.press/p/post-nationour-next-pamphlet-drop",
+      "publishDate": "Tue, 19 May 2026 17:31:44 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
