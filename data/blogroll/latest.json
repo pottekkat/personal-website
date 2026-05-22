@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T11:41:55.158855",
+  "lastUpdated": "2026-05-22T11:32:25.051425",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting SpaceX S-1",
-      "postUrl": "https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything",
-      "publishDate": "2026-05-20T22:26:36+00:00"
+      "postTitle": "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About \u201cActive Listening\u201d AI-Powered Marketing Service",
+      "postUrl": "https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything",
+      "publishDate": "2026-05-22T04:48:32+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -139,21 +139,21 @@
       "blogUrl": "https://sheep.horse/",
       "postTitle": "Hacked!",
       "postUrl": "https://sheep.horse/2025/5/hacked%21.html",
-      "publishDate": "Sun, 18 May 2025 14:17:10 +0000"
+      "publishDate": "Sun, 18 May 2025 20:17:10 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
       "blogUrl": "https://www.normaltech.ai",
-      "postTitle": "Open-world evaluations for measuring frontier AI capabilities",
-      "postUrl": "https://www.normaltech.ai/p/open-world-evaluations-for-measuring",
-      "publishDate": "Thu, 16 Apr 2026 17:47:29 GMT"
+      "postTitle": "Do AI Risks Require Extraordinary Government Intervention?",
+      "postUrl": "https://www.normaltech.ai/p/do-ai-risks-require-extraordinary",
+      "publishDate": "Thu, 21 May 2026 13:19:41 GMT"
     },
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Post Nation\u2014our next pamphlet drop is here!",
-      "postUrl": "https://www.elysian.press/p/post-nationour-next-pamphlet-drop",
-      "publishDate": "Tue, 19 May 2026 17:31:44 GMT"
+      "postTitle": "What comes after the nation-state?",
+      "postUrl": "https://www.elysian.press/p/what-comes-after-the-nation-state",
+      "publishDate": "Thu, 21 May 2026 13:02:30 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
