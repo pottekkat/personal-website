@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-05-19T19:05:18+05:30",
+  "lastUpdated": "2026-05-23T13:06:58+05:30",
   "entries": [
+    {
+      "hash": "8ae0869",
+      "date": "2026-05-23T13:06:09+05:30",
+      "message": "Removed unused logo prefetch logic from header and head partials."
+    },
     {
       "hash": "49c3b7c",
       "date": "2026-05-19T19:04:24+05:30",
