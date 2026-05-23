@@ -69,15 +69,18 @@
                             srcset="{{ $img1x.Permalink }} 1x, {{ $img2x.Permalink }} 2x"
                             src="{{ $img1x.Permalink }}"
                             alt="Logo" aria-label="logo"
+                            fetchpriority="high"
                             width="{{- site.Params.label.iconWidth | default "164.7" -}}"
                             height="{{- site.Params.label.iconHeight | default "20" -}}">
                     {{- else }}
                         <img id="main-header-logo" src="{{ $img.Permalink }}" alt="Logo" aria-label="logo"
+                            fetchpriority="high"
                             width="{{- site.Params.label.iconWidth | default "164.7" -}}"
                             height="{{- site.Params.label.iconHeight | default "20" -}}">
                     {{- end }}
                 {{- else }}
                 <img id="main-header-logo" src="{{- site.Params.label.icon | absURL -}}" alt="Logo" aria-label="logo"
+                    fetchpriority="high"
                     width="{{- site.Params.label.iconWidth | default "164.7" -}}"
                     height="{{- site.Params.label.iconHeight | default "20" -}}">
                 {{- end -}}
