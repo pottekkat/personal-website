@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-22T11:32:25.051425",
+  "lastUpdated": "2026-05-24T11:02:56.835535",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "182.8 Meters",
-      "postUrl": "https://xkcd.com/3248/",
-      "publishDate": "Wed, 20 May 2026 04:00:00 -0000"
+      "postTitle": "Neutrino Project",
+      "postUrl": "https://xkcd.com/3249/",
+      "publishDate": "Fri, 22 May 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About \u201cActive Listening\u201d AI-Powered Marketing Service",
-      "postUrl": "https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything",
-      "publishDate": "2026-05-22T04:48:32+00:00"
+      "postTitle": "On the <dl>",
+      "postUrl": "https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything",
+      "publishDate": "2026-05-23T20:24:48+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "AI as Normal Technology",
       "blogUrl": "https://www.normaltech.ai",
-      "postTitle": "Do AI Risks Require Extraordinary Government Intervention?",
-      "postUrl": "https://www.normaltech.ai/p/do-ai-risks-require-extraordinary",
-      "publishDate": "Thu, 21 May 2026 13:19:41 GMT"
+      "postTitle": "Did Google\u2019s AI agents really build an operating system for $916?",
+      "postUrl": "https://www.normaltech.ai/p/did-googles-ai-agents-really-build",
+      "publishDate": "Fri, 22 May 2026 22:24:18 GMT"
     },
     {
       "blogTitle": "The Elysian",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "New Article: The Lifecycle of an Apocalypse",
-      "postUrl": "https://letter.palladiummag.com/p/new-article-the-lifecycle-of-an-apocalypse",
-      "publishDate": "Wed, 22 Apr 2026 14:56:17 GMT"
+      "postTitle": "New Article: The Burden of Discernment",
+      "postUrl": "https://letter.palladiummag.com/p/the-burden-of-discernment",
+      "publishDate": "Sat, 23 May 2026 22:31:55 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "Swatch, Audemars Piguet and The Dream Equation",
-      "postUrl": "https://www.readtrung.com/p/swatch-audemars-piguet-and-the-dream",
-      "publishDate": "Fri, 15 May 2026 20:47:22 GMT"
+      "postTitle": "SpaceX: The AI IPO",
+      "postUrl": "https://www.readtrung.com/p/spacex-the-ai-ipo",
+      "publishDate": "Sat, 23 May 2026 02:25:19 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
