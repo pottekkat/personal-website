@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T11:02:56.835535",
+  "lastUpdated": "2026-05-25T11:53:49.658464",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "On the <dl>",
-      "postUrl": "https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything",
-      "publishDate": "2026-05-23T20:24:48+00:00"
+      "postTitle": "datasette 1.0a30",
+      "postUrl": "https://simonwillison.net/2026/May/24/datasette/#atom-everything",
+      "publishDate": "2026-05-24T23:52:37+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
