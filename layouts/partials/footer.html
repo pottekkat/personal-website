@@ -23,7 +23,7 @@
 
 {{- partial "extend_footer.html" . }}
 
-<script>
+<script type="module">
     let menu = document.getElementById('menu')
     if (menu) {
         menu.scrollLeft = localStorage.getItem("menu-scroll-position");
@@ -54,7 +54,7 @@
 </script>
 
 {{- if (not site.Params.disableScrollToTop) }}
-<script>
+<script type="module">
     var mybutton = document.getElementById("top-link");
     window.onscroll = function () {
         if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
@@ -70,7 +70,7 @@
 {{- end }}
 
 {{- if (not site.Params.disableThemeToggle) }}
-<script>
+<script type="module">
     document.getElementById("theme-toggle").addEventListener("click", () => {
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
