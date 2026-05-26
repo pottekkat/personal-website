@@ -66,14 +66,14 @@
                             {{- $img2x = $img.Resize "x60" }}
                         {{- end }}
                         <img id="main-header-logo"
-                            srcset="{{ $img1x.Permalink }} 1x, {{ $img2x.Permalink }} 2x"
-                            src="{{ $img1x.Permalink }}"
+                            srcset="{{ $img1x.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+                            src="{{ $img1x.RelPermalink }}"
                             alt="Logo" aria-label="logo"
                             fetchpriority="high"
                             width="{{- site.Params.label.iconWidth | default "164.7" -}}"
                             height="{{- site.Params.label.iconHeight | default "20" -}}">
                     {{- else }}
-                        <img id="main-header-logo" src="{{ $img.Permalink }}" alt="Logo" aria-label="logo"
+                        <img id="main-header-logo" src="{{ $img.RelPermalink }}" alt="Logo" aria-label="logo"
                             fetchpriority="high"
                             width="{{- site.Params.label.iconWidth | default "164.7" -}}"
                             height="{{- site.Params.label.iconHeight | default "20" -}}">
