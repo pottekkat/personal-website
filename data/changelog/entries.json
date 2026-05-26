@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-05-26T13:28:35+05:30",
+  "lastUpdated": "2026-05-26T13:34:44+05:30",
   "entries": [
+    {
+      "hash": "6ee6103",
+      "date": "2026-05-26T13:33:54+05:30",
+      "message": "Updated favicon URLs to use relative paths for consistency."
+    },
     {
       "hash": "3aed58a",
       "date": "2026-05-26T13:27:50+05:30",
