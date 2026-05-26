@@ -39,33 +39,6 @@
 <!-- use Plausible for analytics -->
 {{ partial "plausible_head.html" . }}
 
-<!-- Preload logo -->
-{{- if site.Params.label.icon }}
-{{- $img := resources.Get site.Params.label.icon }}
-{{- if $img }}
-    {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
-    {{- if hugo.IsExtended -}}
-        {{- $processableFormats = $processableFormats | append "webp" -}}
-    {{- end -}}
-    {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
-    {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
-        {{- $img1x := $img }}
-        {{- $img2x := $img }}
-        {{- if site.Params.label.iconHeight }}
-            {{- $img1x = $img.Resize (printf "x%s" site.Params.label.iconHeight) }}
-            {{- $targetHeight2x := mul (float site.Params.label.iconHeight) 2 }}
-            {{- $img2x = $img.Resize (printf "x%.0f" $targetHeight2x) }}
-        {{- else }}
-            {{- $img1x = $img.Resize "x30" }}
-            {{- $img2x = $img.Resize "x60" }}
-        {{- end }}
-        <link rel="preload" href="{{ $img1x.RelPermalink }}" as="image" type="image/{{ $img.MediaType.SubType }}" imagesrcset="{{ $img1x.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x" fetchpriority="high">
-    {{- else }}
-        <link rel="preload" href="{{ $img.RelPermalink }}" as="image" type="image/{{ $img.MediaType.SubType }}" fetchpriority="high">
-    {{- end }}
-{{- end }}
-{{- end }}
-
 <!-- Preload fonts -->
 <link rel="preload" href="/fonts/inter/subset-Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/inter/subset-Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
