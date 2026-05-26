@@ -98,30 +98,41 @@ jobs:
 
             console.log('Lighthouse scores updated (median of', files.length, 'runs):', scores);
 
-            // Log failing accessibility audits for debugging
+            // Log failing audits across categories for debugging
             const firstReport = JSON.parse(fs.readFileSync(path.join(lhciDir, files[0]), 'utf8'));
-            const a11yRefs = firstReport.categories.accessibility.auditRefs.filter(r => r.weight > 0);
-            const failingA11y = a11yRefs.filter(ref => {
-              const audit = firstReport.audits[ref.id];
-              return audit && audit.score !== null && audit.score < 1;
-            });
-            if (failingA11y.length > 0) {
-              console.log('\nFailing accessibility audits:');
-              failingA11y.forEach(ref => {
+            ['accessibility', 'best-practices', 'performance', 'seo'].forEach(catId => {
+              const refs = firstReport.categories[catId].auditRefs.filter(r => r.weight > 0);
+              const failing = refs.filter(ref => {
                 const audit = firstReport.audits[ref.id];
-                console.log(`  - ${ref.id} (weight: ${ref.weight}, score: ${audit.score}): ${audit.title}`);
-                if (audit.details && audit.details.items) {
-                  audit.details.items.slice(0, 5).forEach(item => {
-                    console.log(`    Element: ${item.node ? item.node.snippet : JSON.stringify(item).slice(0, 200)}`);
-                  });
-                }
+                return audit && audit.score !== null && audit.score < 1;
               });
-            }
+              if (failing.length > 0) {
+                console.log(`\nFailing ${catId} audits:`);
+                failing.forEach(ref => {
+                  const audit = firstReport.audits[ref.id];
+                  console.log(`  - ${ref.id} (weight: ${ref.weight}, score: ${audit.score}): ${audit.title}`);
+                  if (audit.displayValue) console.log(`    ${audit.displayValue}`);
+                  if (audit.details && audit.details.items) {
+                    audit.details.items.slice(0, 5).forEach(item => {
+                      console.log(`    Item: ${item.node ? item.node.snippet : JSON.stringify(item).slice(0, 300)}`);
+                    });
+                  }
+                });
+              }
+            });
           } catch (error) {
             console.error('Failed to extract scores:', error.message);
             process.exit(1);
           }
           EOF
+
+      - name: Upload Lighthouse reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-reports
+          path: .lighthouseci/
+          retention-days: 14
 
       - name: Commit scores
         run: |
