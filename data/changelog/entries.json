@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-05-26T13:20:34+05:30",
+  "lastUpdated": "2026-05-26T13:28:35+05:30",
   "entries": [
+    {
+      "hash": "3aed58a",
+      "date": "2026-05-26T13:27:50+05:30",
+      "message": "Updated logo image to use relative permalink for better URL handling."
+    },
     {
       "hash": "55e3ced",
       "date": "2026-05-26T13:19:47+05:30",
