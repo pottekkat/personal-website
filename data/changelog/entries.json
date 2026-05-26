@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-05-26T15:12:16+05:30",
+  "lastUpdated": "2026-05-26T15:43:11+05:30",
   "entries": [
+    {
+      "hash": "a3f9106",
+      "date": "2026-05-26T15:42:17+05:30",
+      "message": "Optimized script loading by deferring non-critical scripts using type=module."
+    },
+    {
+      "hash": "81b4414",
+      "date": "2026-05-26T15:31:03+05:30",
+      "message": "Reverted a previous change related to logo preloading for optimization."
+    },
     {
       "hash": "22f3580",
       "date": "2026-05-26T15:11:28+05:30",
