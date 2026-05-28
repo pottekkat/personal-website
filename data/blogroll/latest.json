@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2026-05-25T11:53:49.658464",
+  "lastUpdated": "2026-05-28T11:49:54.960892",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Neutrino Project",
-      "postUrl": "https://xkcd.com/3249/",
-      "publishDate": "Fri, 22 May 2026 04:00:00 -0000"
+      "postTitle": "Time Machine Conversation",
+      "postUrl": "https://xkcd.com/3251/",
+      "publishDate": "Wed, 27 May 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Celebrating computers at Omacon",
-      "postUrl": "https://world.hey.com/dhh/celebrating-computers-at-omacon-163eb568",
-      "publishDate": "2026-04-21T10:56:33Z"
+      "postTitle": "Basecamp Five",
+      "postUrl": "https://world.hey.com/dhh/basecamp-five-8fcfd2ef",
+      "publishDate": "2026-05-26T10:52:29Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "datasette 1.0a30",
-      "postUrl": "https://simonwillison.net/2026/May/24/datasette/#atom-everything",
-      "publishDate": "2026-05-24T23:52:37+00:00"
+      "postTitle": "sqlite AGENTS.md",
+      "postUrl": "https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything",
+      "publishDate": "2026-05-27T23:44:37+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "Hacked!",
-      "postUrl": "https://sheep.horse/2025/5/hacked%21.html",
-      "publishDate": "Sun, 18 May 2025 20:17:10 +0000"
+      "postTitle": "Voyage of the Marigold Author's Notes",
+      "postUrl": "https://sheep.horse/2025/6/voyage_of_the_marigold_author%27s_notes.html",
+      "publishDate": "Thu, 19 Jun 2025 18:04:05 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "What comes after the nation-state?",
-      "postUrl": "https://www.elysian.press/p/what-comes-after-the-nation-state",
-      "publishDate": "Thu, 21 May 2026 13:02:30 GMT"
+      "postTitle": "America created the world order\u2014what happens when it leaves?",
+      "postUrl": "https://www.elysian.press/p/america-created-the-world-orderwhat",
+      "publishDate": "Tue, 26 May 2026 13:02:02 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "Toward Full-Stack Weirdness | #325",
-      "postUrl": "https://newsletter.pathlesspath.com/p/toward-full-stack-weirdness-325",
-      "publishDate": "Sat, 16 May 2026 14:49:35 GMT"
+      "postTitle": "Thoughts on being nomadic for 1.5 years | #326",
+      "postUrl": "https://newsletter.pathlesspath.com/p/thoughts-on-being-nomadic-for-15",
+      "publishDate": "Mon, 25 May 2026 14:34:17 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "What Immigrants Should the West Accept?",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/what-immigrants-should-the-west-accept",
-      "publishDate": "Wed, 20 May 2026 12:02:00 GMT"
+      "postTitle": "The Criminal, Social, and Economic Cost of Immigrants in the EU",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/the-criminal-socialm-and-economic",
+      "publishDate": "Tue, 26 May 2026 12:03:01 GMT"
     },
     {
       "blogTitle": "Anil Dash",
