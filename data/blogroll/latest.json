@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T11:49:54.960892",
+  "lastUpdated": "2026-05-29T11:43:40.968791",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "sqlite AGENTS.md",
-      "postUrl": "https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything",
-      "publishDate": "2026-05-27T23:44:37+00:00"
+      "postTitle": "datasette 1.0a31",
+      "postUrl": "https://simonwillison.net/2026/May/29/datasette/#atom-everything",
+      "publishDate": "2026-05-29T03:32:02+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "America created the world order\u2014what happens when it leaves?",
-      "postUrl": "https://www.elysian.press/p/america-created-the-world-orderwhat",
-      "publishDate": "Tue, 26 May 2026 13:02:02 GMT"
+      "postTitle": "You should own stock in your city",
+      "postUrl": "https://www.elysian.press/p/you-should-own-stock-in-your-city",
+      "publishDate": "Thu, 28 May 2026 13:01:58 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
