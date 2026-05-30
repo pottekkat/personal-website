@@ -48,6 +48,33 @@
 <link rel="preload" href="/images/binding-dark.png" as="image" type="image/png">
 <link rel="preload" href="/images/white-wall.png" as="image" type="image/png">
 
+{{- /* Preload header logo so it paints with the rest of the above-the-fold UI. Light mode applies a CSS invert filter, so a late logo fetch shows as a visible blank before the filter kicks in. fetchpriority alone is not enough — the parser only discovers the <img> after <head>, and by then fonts/bg images/CSS have already claimed the preload queue. */ -}}
+{{- if site.Params.label.icon }}
+{{- $img := resources.Get site.Params.label.icon }}
+{{- if $img }}
+    {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
+    {{- if hugo.IsExtended -}}
+        {{- $processableFormats = $processableFormats | append "webp" -}}
+    {{- end -}}
+    {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
+    {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true) }}
+        {{- $img1x := $img }}
+        {{- $img2x := $img }}
+        {{- if site.Params.label.iconHeight }}
+            {{- $img1x = $img.Resize (printf "x%s" site.Params.label.iconHeight) }}
+            {{- $targetHeight2x := mul (float site.Params.label.iconHeight) 2 }}
+            {{- $img2x = $img.Resize (printf "x%.0f" $targetHeight2x) }}
+        {{- else }}
+            {{- $img1x = $img.Resize "x30" }}
+            {{- $img2x = $img.Resize "x60" }}
+        {{- end }}
+<link rel="preload" as="image" type="image/{{ $img.MediaType.SubType }}" href="{{ $img1x.RelPermalink }}" imagesrcset="{{ $img1x.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x" fetchpriority="high">
+    {{- else }}
+<link rel="preload" as="image" type="image/{{ $img.MediaType.SubType }}" href="{{ $img.RelPermalink }}" fetchpriority="high">
+    {{- end }}
+{{- end }}
+{{- end }}
+
 {{- /* Styles */}}
 
 <!-- Speculation Rules for instant navigation -->
