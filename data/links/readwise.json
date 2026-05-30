@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-05-29T17:13:06.885441+05:30",
+  "last_updated": "2026-05-30T16:34:17.789666+05:30",
   "links": [
+    {
+      "id": "01ksvnvf14cx3g770yj8fcz9gw",
+      "title": "Viruses Of The Mind",
+      "author": "Richard Dawkins",
+      "source_url": "https://www.inf.fu-berlin.de/lehre/pmo/eng/Dawkins-MindViruses.pdf",
+      "published_date": "2006-05-03",
+      "saved_at": "2026-05-30T11:01:32.260000+05:30",
+      "reading_time": "30 mins",
+      "category": "pdf",
+      "notes": ""
+    },
     {
       "id": "01ksprm7zntatpkdmnja6gfamy",
       "title": "I’m tired of talking to AI",
