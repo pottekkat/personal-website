@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-06-01T12:27:28.335816",
+  "lastUpdated": "2026-06-02T11:56:13.714619",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Ancestral Genomes",
-      "postUrl": "https://xkcd.com/3252/",
-      "publishDate": "Fri, 29 May 2026 04:00:00 -0000"
+      "postTitle": "Sunbeam",
+      "postUrl": "https://xkcd.com/3253/",
+      "publishDate": "Mon, 01 Jun 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "May 2026 newsletter",
-      "postUrl": "https://simonwillison.net/2026/Jun/1/may-newsletter/#atom-everything",
-      "publishDate": "2026-06-01T04:45:00+00:00"
+      "postTitle": "Pasted File Editor",
+      "postUrl": "https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything",
+      "publishDate": "2026-06-02T04:13:36+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "Thoughts on being nomadic for 1.5 years | #326",
-      "postUrl": "https://newsletter.pathlesspath.com/p/thoughts-on-being-nomadic-for-15",
-      "publishDate": "Mon, 25 May 2026 14:34:17 GMT"
+      "postTitle": "Is The Boomer Blockade Over? | #327",
+      "postUrl": "https://newsletter.pathlesspath.com/p/is-the-boomer-blockade-over-327",
+      "publishDate": "Mon, 01 Jun 2026 12:55:44 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
