@@ -6,10 +6,14 @@ date: 2025-03-01T11:21:51+05:30
 readingTime: 1
 experimental: true
 cover:
-  image: "/images/pl-guilty/guilty-logo-banner.jpg"
+  image: "images/guilty-logo-banner.jpg"
   alt: "Guilty logo."
-  relative: false
+  relative: true
   hidden: true
+_build:
+  render: never
+  list: never
+  publishResources: false
 ---
 
 {{< rawhtml >}}
