@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-06-03T12:14:57.838801",
+  "lastUpdated": "2026-06-04T11:36:32.153257",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Sunbeam",
-      "postUrl": "https://xkcd.com/3253/",
-      "publishDate": "Mon, 01 Jun 2026 04:00:00 -0000"
+      "postTitle": "Detector",
+      "postUrl": "https://xkcd.com/3254/",
+      "publishDate": "Wed, 03 Jun 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "Voyage of the Marigold Author's Notes",
-      "postUrl": "https://sheep.horse/2025/6/voyage_of_the_marigold_author%27s_notes.html",
-      "publishDate": "Thu, 19 Jun 2025 18:04:05 +0000"
+      "postTitle": "A Fix for High CPU Usage in Apple Pages",
+      "postUrl": "https://sheep.horse/2025/6/a_fix_for_high_cpu_usage_in_apple_pages.html",
+      "publishDate": "Tue, 24 Jun 2025 19:29:49 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
