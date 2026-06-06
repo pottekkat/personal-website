@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-06-05T11:41:05.482453",
+  "lastUpdated": "2026-06-06T11:06:46.937821",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Detector",
-      "postUrl": "https://xkcd.com/3254/",
-      "publishDate": "Wed, 03 Jun 2026 04:00:00 -0000"
+      "postTitle": "Planetary Science",
+      "postUrl": "https://xkcd.com/3255/",
+      "publishDate": "Fri, 05 Jun 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Andreas Kling",
-      "postUrl": "https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything",
-      "publishDate": "2026-06-05T11:10:05+00:00"
+      "postTitle": "micropython-wasm 0.1a2",
+      "postUrl": "https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything",
+      "publishDate": "2026-06-06T04:26:06+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "The Ferrari Luce's EV Gamble",
-      "postUrl": "https://www.readtrung.com/p/the-ferrari-luces-ev-gamble",
-      "publishDate": "Sat, 30 May 2026 05:02:43 GMT"
+      "postTitle": "Blumhouse: How Jason Blum Created A Hollywood Horror Hit Machine",
+      "postUrl": "https://www.readtrung.com/p/blumhouse-how-jason-blum-created",
+      "publishDate": "Fri, 05 Jun 2026 17:55:13 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
