@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-06-05T17:10:30.314772+05:30",
+  "last_updated": "2026-06-06T16:36:09.767932+05:30",
   "links": [
+    {
+      "id": "01ktdkje073spgbg868848p45k",
+      "title": "Changing How We Develop Ladybird",
+      "author": "Andreas Kling",
+      "source_url": "https://ladybird.org/posts/changing-how-we-develop-ladybird/",
+      "published_date": "2026-06-05",
+      "saved_at": "2026-06-06T10:07:58.918000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01ktc0b0qfyxr3rt0ad72x0h3z",
+      "title": "is DHH wrong?",
+      "author": "The PrimeTime",
+      "source_url": "https://www.youtube.com/watch?v=pkndFYSTr0Y",
+      "published_date": "2026-06-05",
+      "saved_at": "2026-06-05T19:12:38.575000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01ktbxeznez0b4svvgq0ahbdw2",
+      "title": "Something is jamming GPS over Europe. Here's what we found",
+      "author": "Veritasium",
+      "source_url": "https://www.youtube.com/watch?v=tz23G_UXCGA",
+      "published_date": "2026-06-05",
+      "saved_at": "2026-06-05T18:22:22.829000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01kt8xvp7dpabmh439qsyhmv4j",
       "title": "The Eternal Sloptember",
