@@ -632,7 +632,7 @@ Run the simulation a few times and see how she reaches the last number. It looks
 > [!TIP]
 > Spam the **Run 10000x** button.
 
-The probability that $6$ is the last number colored is converging to **$\sim 9.09\%$** or **$1/11$**. So is the probability for _every_ number!
+The probability that $6$ is the last number colored is converging to **$\sim 9.09\\%$** or **$1/11$**. So is the probability for _every_ number!
 
 _Why?_
 
@@ -662,7 +662,7 @@ Our ladybug is doing the exact same thing: moving randomly with equal probabilit
 
 **Step 1**: The ladybug must first reach either $5$ or $7$ (without visiting $6$).
 
-By symmetry (the clock is symmetric around the $12$-$6$ axis), there's a $50\%$ chance she reaches $5$ first and $50\%$ chance she reaches $7$ first.
+By symmetry (the clock is symmetric around the $12$-$6$ axis), there's a $50\\%$ chance she reaches $5$ first and a $50\\%$ chance she reaches $7$ first.
 
 **Step 2**: Say she reaches $5$ first (having visited $12, 1, 2, 3, 4$ along the way). For $6$ to be last, she must now go _all the way around_ the clock ($5 \to 4 \to 3 \to 2 \to 1 \to 12 \to 11 \to 10 \to 9 \to 8 \to 7$), before stepping onto $6$.
 
