@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-06-07T16:46:36.647156+05:30",
+  "last_updated": "2026-06-08T17:42:04.531343+05:30",
   "links": [
+    {
+      "id": "01ktkg2q67jnf5gnx1jqyc6qcf",
+      "title": "When AI builds itself",
+      "author": "anthropic.com",
+      "source_url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "published_date": null,
+      "saved_at": "2026-06-08T17:02:24.903000+05:30",
+      "reading_time": "20 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01ktk0tew6j1nq4fwyy7622m7p",
+      "title": "\"To my students\"",
+      "author": "hendrix.edu",
+      "source_url": "http://ozark.hendrix.edu/~yorgey/forest/00FD/index.xml",
+      "published_date": "2026-05-03",
+      "saved_at": "2026-06-08T12:35:45.606000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01ktjy7nbjbfex5y1nmrfnagp4",
+      "title": "Dopamine Fracking",
+      "author": "german s.",
+      "source_url": "https://igerman.cc/blog/dopamine-fracking/",
+      "published_date": "2026-04-13",
+      "saved_at": "2026-06-08T11:50:32.498000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01ktjtrrfcegf8kwr8drscdpgf",
+      "title": "I don't know anyone who doesn't have the utmost respect...",
+      "author": "Chubby♨️",
+      "source_url": "https://x.com/kimmonismus/status/2063389025180815446/?rw_tt_thread=True",
+      "published_date": "2026-06-06",
+      "saved_at": "2026-06-08T10:49:58.444000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
     {
       "id": "01ktdkje073spgbg868848p45k",
       "title": "Changing How We Develop Ladybird",
