@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-06-08T12:12:39.052531",
+  "lastUpdated": "2026-06-09T11:39:29.264706",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Planetary Science",
-      "postUrl": "https://xkcd.com/3255/",
-      "publishDate": "Fri, 05 Jun 2026 04:00:00 -0000"
+      "postTitle": "Nostalgia Content",
+      "postUrl": "https://xkcd.com/3256/",
+      "publishDate": "Mon, 08 Jun 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "datasette-agent-edit 0.1a0",
-      "postUrl": "https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything",
-      "publishDate": "2026-06-07T23:56:38+00:00"
+      "postTitle": "Siri AI at WWDC 2026",
+      "postUrl": "https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything",
+      "publishDate": "2026-06-08T23:58:04+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "Is The Boomer Blockade Over? | #327",
-      "postUrl": "https://newsletter.pathlesspath.com/p/is-the-boomer-blockade-over-327",
-      "publishDate": "Mon, 01 Jun 2026 12:55:44 GMT"
+      "postTitle": "Rolling my own community | #328",
+      "postUrl": "https://newsletter.pathlesspath.com/p/rolling-my-own-community-328",
+      "publishDate": "Tue, 09 Jun 2026 05:50:01 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
