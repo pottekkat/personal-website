@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-06-08T17:42:04.531343+05:30",
+  "last_updated": "2026-06-09T17:08:56.333693+05:30",
   "links": [
+    {
+      "id": "01ktnx1yd33eacy4kn191drbxf",
+      "title": "Kubernetes and retiring at the top with Kelsey Hightower",
+      "author": "The Pragmatic Engineer",
+      "source_url": "https://www.youtube.com/watch?v=UlXpOGIpITM",
+      "published_date": "2026-06-03",
+      "saved_at": "2026-06-09T15:27:39.875000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01ktm2rw6a4595b6w3xax5pbdt",
+      "title": "Of Termites & Tokens",
+      "author": "tomcritchlow.com",
+      "source_url": "https://tomcritchlow.com/2026/06/08/termites-tokens/",
+      "published_date": "2026-06-08",
+      "saved_at": "2026-06-08T22:29:02.290000+05:30",
+      "reading_time": "6 mins",
+      "category": "rss",
+      "notes": ""
+    },
+    {
+      "id": "01ktkw5e6c1cdjch644tjkr276",
+      "title": "Go’s Big Mistake",
+      "author": "The PrimeTime",
+      "source_url": "https://www.youtube.com/watch?v=WqSWZuGS9pc",
+      "published_date": "2026-06-08",
+      "saved_at": "2026-06-08T20:33:36.908000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01ktkg2q67jnf5gnx1jqyc6qcf",
       "title": "When AI builds itself",
