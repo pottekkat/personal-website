@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-06-09T17:08:56.333693+05:30",
+  "last_updated": "2026-06-10T17:17:41.096110+05:30",
   "links": [
+    {
+      "id": "01ktrbd23ecadf6w8k5ge3k3yw",
+      "title": "Polymarket Asked To Work With Us. We Exposed Their Scam Instead.",
+      "author": "More Perfect Union",
+      "source_url": "https://www.youtube.com/watch?v=A654vzQTGbQ",
+      "published_date": "2026-04-15",
+      "saved_at": "2026-06-10T14:16:53.038000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01ktqyyybe0py97bvhnsjq56xp",
+      "title": "Rich Sutton on \"AI creativity & discovery\"",
+      "author": "Rich Sutton",
+      "source_url": "https://www.youtube.com/watch?v=K5LAFEjTlBA",
+      "published_date": "2026-05-30",
+      "saved_at": "2026-06-10T10:39:27.533000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01ktqwp4rww6kwe8zkbkxnpz0p",
+      "title": "More molly guards",
+      "author": "Marcin Wichary",
+      "source_url": "https://unsung.aresluna.org/more-molly-guards/",
+      "published_date": "2026-06-05",
+      "saved_at": "2026-06-10T09:59:42.044000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01ktqwhd96nts30mthntdjehq9",
+      "title": "This is a super exciting release - Claude Fable 5...",
+      "author": "Andrej Karpathy",
+      "source_url": "https://x.com/karpathy/status/2064409694761054332/?rw_tt_thread=True",
+      "published_date": "2026-06-09",
+      "saved_at": "2026-06-10T09:57:06.917000+05:30",
+      "reading_time": "2 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01ktqwdh57pnjw3dagmayb2f0b",
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "author": "jonready.com",
+      "source_url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+      "published_date": "2026-06-09",
+      "saved_at": "2026-06-10T09:54:59.814000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01ktpw2mrwywysw64c7pbas12f",
+      "title": "The Riskiest Moment of the AI Bubble",
+      "author": "Hank Green",
+      "source_url": "https://www.youtube.com/watch?v=AcjnLc4TH4M",
+      "published_date": "2026-06-09",
+      "saved_at": "2026-06-10T00:29:48.636000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01ktpd1cz893ert9bey1znc476",
+      "title": "Cleaning up after AI rockstar developers",
+      "author": "Jesse Skinner",
+      "source_url": "https://www.codingwithjesse.com/blog/rockstar-developers/",
+      "published_date": "2026-06-09",
+      "saved_at": "2026-06-09T20:06:59.239000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01ktpasp9tpgxrvwz4b6vn6t9s",
+      "title": "Why fun tech jobs went extinct",
+      "author": "Good Work",
+      "source_url": "https://www.youtube.com/watch?v=0tLEszJs7hc",
+      "published_date": "2026-03-27",
+      "saved_at": "2026-06-09T19:27:49.497000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01ktp6mnfpaajnrcm3564xvpjh",
+      "title": "I Try to Profit From Flight Delays Using Data",
+      "author": "Right of the Bell",
+      "source_url": "https://www.youtube.com/watch?v=S1J8rx2Jw98",
+      "published_date": "2026-03-20",
+      "saved_at": "2026-06-09T18:15:10.518000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01ktnx1yd33eacy4kn191drbxf",
       "title": "Kubernetes and retiring at the top with Kelsey Hightower",
