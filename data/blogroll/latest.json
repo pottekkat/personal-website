@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-06-10T11:48:13.165008",
+  "lastUpdated": "2026-06-11T12:01:00.394925",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Nostalgia Content",
-      "postUrl": "https://xkcd.com/3256/",
-      "publishDate": "Mon, 08 Jun 2026 04:00:00 -0000"
+      "postTitle": "Beam Pipe",
+      "postUrl": "https://xkcd.com/3257/",
+      "publishDate": "Wed, 10 Jun 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "If Claude Fable stops helping you, you'll never know",
-      "postUrl": "https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything",
-      "publishDate": "2026-06-10T00:37:25+00:00"
+      "postTitle": "Anthropic Walks Back Policy That Could Have \u2018Sabotaged\u2019 AI Researchers Using Claude",
+      "postUrl": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
+      "publishDate": "2026-06-11T03:45:49+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "AI as Normal Technology",
       "blogUrl": "https://www.normaltech.ai",
-      "postTitle": "Did Google\u2019s AI agents really build an operating system for $916?",
-      "postUrl": "https://www.normaltech.ai/p/did-googles-ai-agents-really-build",
-      "publishDate": "Fri, 22 May 2026 22:24:18 GMT"
+      "postTitle": "Why AI hasn\u2019t replaced software engineers, and won\u2019t",
+      "postUrl": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
+      "publishDate": "Thu, 11 Jun 2026 02:29:51 GMT"
     },
     {
       "blogTitle": "The Elysian",
