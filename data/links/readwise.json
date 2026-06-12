@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-06-11T17:30:22.120472+05:30",
+  "last_updated": "2026-06-12T17:20:52.828888+05:30",
   "links": [
+    {
+      "id": "01ktxjvge4mpqmhe6a48ycz3fv",
+      "title": "It Only Takes Two Weeks",
+      "author": "The Math Sorcerer",
+      "source_url": "https://www.youtube.com/watch?v=sZ60bY2pJfo",
+      "published_date": "2024-01-16",
+      "saved_at": "2026-06-12T15:03:18.660000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01ktx7zre09rrz098qmrrrsf2c",
+      "title": "If You are Asking for Human Attention, Demonstrate Human Effort",
+      "author": "tombedor.dev",
+      "source_url": "https://tombedor.dev/human-attention-and-human-effort/",
+      "published_date": "2026-06-11",
+      "saved_at": "2026-06-12T11:53:23.584000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01ktx78ynpa8sga5wmvrfqrxxp",
+      "title": "Thoughts on AI and its impact on maths",
+      "author": "iisc.ac.in",
+      "source_url": "https://math.iisc.ac.in/~vamsipingali/ThoughtsonAI.html",
+      "published_date": "2026-05-08",
+      "saved_at": "2026-06-12T11:40:56.310000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01ktvzn0gn0hm7x0zc6qqsefem",
+      "title": "Inside Anthropic, the $965 Billion AI Juggernaut | The Circuit",
+      "author": "Bloomberg Originals",
+      "source_url": "https://www.youtube.com/watch?v=v1wZwxY3CMg",
+      "published_date": "2026-06-10",
+      "saved_at": "2026-06-12T00:08:28.372000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01ktv18mrda5apwchmw29thapr",
       "title": "Unfortunately, I Was Right",
