@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-06-12T17:20:52.828888+05:30",
+  "last_updated": "2026-06-13T16:51:28.396359+05:30",
   "links": [
+    {
+      "id": "01kv08y0bhps0eky612vj5apzm",
+      "title": "How I made a 60fps Eink Monitor, the Modos Flow",
+      "author": "Wenting Channel",
+      "source_url": "https://www.youtube.com/watch?v=nHbA2-_qzH4",
+      "published_date": "2026-06-11",
+      "saved_at": "2026-06-13T16:07:38.033000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01ktzss0757zm2jvrdgvjcjzby",
+      "title": "What problem should you be working on now?",
+      "author": "Henrik Karlsson",
+      "source_url": "https://www.henrikkarlsson.xyz/p/problem-selection",
+      "published_date": "2025-05-12",
+      "saved_at": "2026-06-13T11:42:45.412000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01ktzsfwz1k3kq3y271n12mem1",
+      "title": "Hugging the X-Axis",
+      "author": "David Perell",
+      "source_url": "https://perell.com/essay/hugging-the-x-axis/",
+      "published_date": "2021-12-17",
+      "saved_at": "2026-06-13T11:37:47.168000+05:30",
+      "reading_time": "14 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01ktzrknf7fbeyafnaxf07j2mq",
+      "title": "School Is Not Enough",
+      "author": "Simon Sarris",
+      "source_url": "https://www.palladiummag.com/2023/06/06/school-is-not-enough",
+      "published_date": "2023-06-06",
+      "saved_at": "2026-06-13T11:22:21.991000+05:30",
+      "reading_time": "11 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01ktzqnjy3yaq794nkvqc686rg",
+      "title": "Life is a Picture, But You Live in a Pixel",
+      "author": "Tim Urban",
+      "source_url": "https://waitbutwhy.com/2013/11/life-is-picture-but-you-live-in-pixel.html",
+      "published_date": "2013-11-20",
+      "saved_at": "2026-06-13T11:05:56.355000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01ktzq7vr1r700ybbx9qxenm62",
+      "title": "Career Decisions - by Elad Gil - Elad Blog\nCareer Decisions",
+      "author": "Elad Gil",
+      "source_url": "https://blog.eladgil.com/p/career-decisions",
+      "published_date": "2015-03-26",
+      "saved_at": "2026-06-13T10:58:26.625000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01ktzppd7y4dgftazh8f9h70eb",
+      "title": "imagine if they banned all models and we all went...",
+      "author": "Dillon Mulroy",
+      "source_url": "https://x.com/dillon_mulroy/status/2065618000217043330/?rw_tt_thread=True",
+      "published_date": "2026-06-13",
+      "saved_at": "2026-06-13T10:48:54.718000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01ktzmjpvm5mxq9z1vabdned4s",
+      "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+      "author": "anthropic.com",
+      "source_url": "https://www.anthropic.com/news/fable-mythos-access",
+      "published_date": "2026-06-12",
+      "saved_at": "2026-06-13T10:11:56.340000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01ktxtv1kwg0yse7ddsqr5z92a",
+      "title": "\"...",
+      "author": "Paul Graham",
+      "source_url": "https://x.com/paulg/status/2065364911379640327/?rw_tt_thread=True",
+      "published_date": "2026-06-12",
+      "saved_at": "2026-06-12T17:22:52.092000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
     {
       "id": "01ktxjvge4mpqmhe6a48ycz3fv",
       "title": "It Only Takes Two Weeks",
