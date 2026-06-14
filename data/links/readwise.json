@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-06-13T16:51:28.396359+05:30",
+  "last_updated": "2026-06-14T16:54:42.501124+05:30",
   "links": [
+    {
+      "id": "01kv2xfw06ey1sj03afmgp35gp",
+      "title": "How I Learned to Read Way, Way More",
+      "author": "John Paul Brammer",
+      "source_url": "https://johnpaulbrammer.substack.com/p/how-i-learned-to-read-way-way-more",
+      "published_date": "2026-06-09",
+      "saved_at": "2026-06-14T16:45:23.782000+05:30",
+      "reading_time": "10 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kv08y0bhps0eky612vj5apzm",
       "title": "How I made a 60fps Eink Monitor, the Modos Flow",

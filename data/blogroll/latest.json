@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T11:21:57.761242",
+  "lastUpdated": "2026-06-14T11:25:14.994122",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
-      "postUrl": "https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/#atom-everything",
-      "publishDate": "2026-06-13T01:01:50+00:00"
+      "postTitle": "Publishing WASM wheels to PyPI for use with Pyodide",
+      "postUrl": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything",
+      "publishDate": "2026-06-13T23:55:18+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Islamismophobia",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/islamismophobia",
-      "publishDate": "Tue, 09 Jun 2026 13:03:03 GMT"
+      "postTitle": "Design for Uncharted Territories",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/design-for-uncharted-territories",
+      "publishDate": "Sun, 14 Jun 2026 07:42:03 GMT"
     },
     {
       "blogTitle": "Anil Dash",
