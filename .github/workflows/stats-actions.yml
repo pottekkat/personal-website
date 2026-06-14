@@ -23,11 +23,15 @@ jobs:
       - name: install gdal
         # Pin GDAL to 3.13.1 via a specific homebrew-core commit to prevent
         # version drift. The pip GDAL binding below must match this version.
-        # Modern Homebrew no longer accepts a URL argument, so download the
-        # pinned formula file and install from it (still pours the bottle).
+        # Modern Homebrew requires formulae to live in a tap, so drop the
+        # pinned formula into a local tap and install it from there (still
+        # pours the prebuilt bottle via the formula's root_url).
         run: |
-          curl -fsSL https://raw.githubusercontent.com/Homebrew/homebrew-core/9d61e684c68e7b93fc477aa0f391de697adae249/Formula/g/gdal.rb -o /tmp/gdal.rb
-          brew install --force --overwrite /tmp/gdal.rb
+          brew tap-new local/pinned 2>/dev/null || true
+          TAP_DIR="$(brew --repository)/Library/Taps/local/homebrew-pinned/Formula"
+          mkdir -p "$TAP_DIR"
+          curl -fsSL https://raw.githubusercontent.com/Homebrew/homebrew-core/9d61e684c68e7b93fc477aa0f391de697adae249/Formula/g/gdal.rb -o "$TAP_DIR/gdal.rb"
+          brew install --force --overwrite local/pinned/gdal
 
       - name: get current date and time
         run: echo "RUN=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
