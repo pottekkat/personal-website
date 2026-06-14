@@ -67,9 +67,9 @@ params:
     webmentionDomain: "navendu.me"
 
     label:
-      icon: "/logo.png"
-      iconHeight: "20"
-      iconWidth: "164.7"
+      # Rendered as text styled in the Reenie Beanie font (see header.css)
+      # instead of a PNG; the subset font is preloaded like the other fonts.
+      text: "Navendu Pottekkat"
 
     mainSections: ['posts']
     dailySections: ['dailies']

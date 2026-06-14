@@ -189,6 +189,17 @@
     unicode-range: U+0D00-0D7F, U+200C-200D, U+25CC;
 }
 
+/* Subset to only the glyphs used by the site logo ("Navendu Pottekkat") */
+@font-face {
+    font-family: 'Reenie Beanie';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Reenie Beanie'),
+        url('/fonts/reeniebeanie/subset-ReenieBeanie-Regular.woff2') format('woff2'),
+        url('/fonts/reeniebeanie/subset-ReenieBeanie-Regular.woff') format('woff');
+}
+
 [lang="ml"] {
     font-family: 'Manjari', 'Inter', sans-serif;
 }

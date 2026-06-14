@@ -52,8 +52,21 @@
 }
 
 .logo a {
-    font-size: 24px;
-    font-weight: 700;
+    /* Wordmark rendered in the Reenie Beanie handwriting font (subset to
+       the logo glyphs and preloaded in head.html) instead of a PNG. */
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: 400;
+    /* Sized to render at ~164px wide, matching the footprint of the PNG
+       logo it replaces (original was 164.7 x 20). */
+    font-size: 26px;
+    line-height: 1;
+    color: var(--primary);
+    white-space: nowrap;
+    /* Match the 8px trailing gap the PNG logo had before the theme toggle */
+    margin-inline-end: 8px;
+    /* Render the strokes lighter, matching the thin look of the old PNG */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .logo a img, .logo a svg {
@@ -62,12 +75,6 @@
     pointer-events: none;
     border-radius: 0;
     margin-inline-end: 8px;
-}
-
-/* add a filter to invert the png in light more, i.e., not in dark more */
-
-body:not(.dark) #main-header-logo {
-    filter: invert(75%);
 }
 
 button#theme-toggle {

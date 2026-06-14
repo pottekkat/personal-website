@@ -108,5 +108,5 @@ Thank you for reading. I am generally not an “open book”. I don’t know why
 _May the source be with you,_
 
 {{< rawhtml >}}
-<img src="/logo.png" height="20px" alt="logo/signature">
+<span style="font-family: 'Reenie Beanie', cursive; font-weight: 400; font-size: 26px; line-height: 1; color: var(--primary); white-space: nowrap; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;">Navendu Pottekkat</span>
 {{< /rawhtml >}}
