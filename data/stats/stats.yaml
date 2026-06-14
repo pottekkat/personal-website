@@ -1,16 +1,16 @@
 direct_link_string: There is a lot of traffic from direct links. I should level up
   my link-tagging game.
-most_visitors_date: 20th May 2026
-most_visitors_visitors: 99
-runtime: 5:09 PM, 22nd May 2026
+most_visitors_date: 2nd June 2026
+most_visitors_visitors: 368
+runtime: 12:40 AM, 15th June 2026
 top_countries:
 - United States of America
 - Vietnam
 - India
 - China
-top_page_link: /posts/open-source-internship-programs/
-top_page_visitors: 28
+top_page_link: /posts/hugo-version-manager/
+top_page_visitors: 306
 top_sources:
 - Direct / None
 - Google
-- Reddit
+- hs_email
