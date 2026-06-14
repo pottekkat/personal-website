@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-06-15T00:35:21+05:30",
+  "lastUpdated": "2026-06-15T00:40:26+05:30",
   "entries": [
+    {
+      "hash": "a50de73",
+      "date": "2026-06-15T00:37:26+05:30",
+      "message": "Pinned GDAL installation version in workflow to ensure consistency."
+    },
+    {
+      "hash": "04dd6f1",
+      "date": "2026-06-15T00:35:47+05:30",
+      "message": "Updated GDAL installation to use a local file for version control."
+    },
     {
       "hash": "c7d2535",
       "date": "2026-06-15T00:34:29+05:30",
