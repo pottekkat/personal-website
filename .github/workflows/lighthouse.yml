@@ -13,7 +13,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ref: hugo
           submodules: true
@@ -128,7 +128,7 @@ jobs:
 
       - name: Upload Lighthouse reports
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: lighthouse-reports
           path: .lighthouseci/
@@ -142,7 +142,7 @@ jobs:
           git diff-index --quiet HEAD || git commit -m "update lighthouse scores"
 
       - name: Push changes
-        uses: ad-m/github-push-action@v1.0.0
+        uses: ad-m/github-push-action@v1.3.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: hugo

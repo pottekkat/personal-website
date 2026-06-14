@@ -19,13 +19,13 @@ jobs:
       models: read
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ref: hugo
           fetch-depth: 0
 
       - name: Generate changelog
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -292,7 +292,7 @@ jobs:
           git diff-index --quiet HEAD || git commit -m "update changelog"
 
       - name: Push changes
-        uses: ad-m/github-push-action@v1.0.0
+        uses: ad-m/github-push-action@v1.3.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: hugo
@@ -310,7 +310,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: hugo
           fetch-depth: 10
