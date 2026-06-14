@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-06-14T22:18:39+05:30",
+  "lastUpdated": "2026-06-15T00:35:21+05:30",
   "entries": [
+    {
+      "hash": "c7d2535",
+      "date": "2026-06-15T00:34:29+05:30",
+      "message": "Updated GDAL version to 3.13.1 to resolve workflow issues."
+    },
     {
       "hash": "4a6c4bb",
       "date": "2026-06-14T22:17:46+05:30",
