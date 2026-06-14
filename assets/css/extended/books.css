@@ -1,0 +1,220 @@
+/* Styles for the /books/ list page (layouts/books/list.html).
+
+   This lives in css/extended/ so it is concatenated into the render-blocking
+   stylesheet loaded in <head> (see partials/head.html). Keeping it here — not
+   in an inline <style> at the end of <body> — means the cover boxes are sized
+   on the first paint, so a cover never briefly renders at its intrinsic image
+   size showing only its dominant-colour background. This mirrors how post
+   covers (.entry-cover in common/post-entry.css) avoid the same flash. */
+
+:root {
+  --book-font-size: 14px;
+  --star-size: 14px;
+}
+
+/* View toggle */
+.view-toggle-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0 20px;
+  font-size: var(--book-font-size);
+  color: var(--secondary);
+}
+
+.toggle-button {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  padding: 6px 12px;
+  margin-left: 20px;
+  color: var(--secondary);
+  font-size: var(--book-font-size);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.toggle-button:hover {
+  color: var(--primary);
+}
+
+.toggle-button svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Toggle icon state: show the icon for the view you can switch to. */
+body:not(.grid-active):not(.list-active) #grid { display: none; }
+body:not(.grid-active):not(.list-active) #list { display: inline-block; }
+.grid-active #view-toggle #grid,
+.list-active #view-toggle #list { display: none; }
+.grid-active #view-toggle #list,
+.list-active #view-toggle #grid { display: inline-block; }
+
+/* Views: default to grid so the page paints correctly before the view
+   script runs (and when JS is unavailable). JS swaps in list-active. */
+.books-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 24px;
+}
+
+.list-active .books-container { display: none; }
+
+.book-card {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Book cover */
+.book-cover,
+.td-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--entry);
+  overflow: hidden;
+}
+
+.book-cover {
+  aspect-ratio: 2/3;
+}
+
+.book-cover svg,
+.book-placeholder {
+  width: 48px;
+  height: 48px;
+  color: var(--secondary);
+  opacity: 0.6;
+}
+
+.book-cover-img,
+.book-cover-img-small {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.book-cover-img-small {
+  width: 32px;
+  height: 48px;
+}
+
+/* Book info */
+.book-info {
+  background: var(--entry);
+  padding: var(--gap);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.book-title {
+  font-size: 20px;
+}
+
+.book-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: var(--secondary);
+}
+
+.book-author {
+  font-size: var(--book-font-size);
+}
+
+/* Star rating */
+.book-rating,
+.td-rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--primary);
+}
+
+.star {
+  display: inline-flex;
+  width: var(--star-size);
+  height: var(--star-size);
+}
+
+.star svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+
+/* Book status */
+.book-status {
+  display: inline;
+  padding: 0;
+  font-size: 13px;
+  color: var(--content);
+}
+
+.book-status.reading { font-style: italic; }
+.book-status.read { font-weight: 600; }
+.book-status.paused { color: var(--secondary); }
+.book-status.abandoned { color: var(--secondary); font-style: italic; }
+
+/* Table (list) view */
+.books-table {
+  display: none;
+  margin-bottom: 24px;
+}
+
+.list-active .books-table { display: block; }
+
+.books-table tbody tr {
+  cursor: pointer;
+}
+
+/* Column widths */
+.books-table td:first-child {
+  width: 48px;
+  padding: 8px;
+}
+
+.books-table td:nth-child(4) {
+  min-width: 120px; /* Rating column */
+  white-space: nowrap;
+}
+
+.books-table td:nth-child(4) .star {
+  margin-right: 5px;
+}
+
+.books-table td:nth-child(4) .star:last-child {
+  margin-right: 0;
+}
+
+.books-table td:last-child {
+  min-width: 100px; /* Status column */
+  white-space: nowrap;
+}
+
+.td-icon {
+  display: flex;
+  width: 32px;
+  height: 48px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background: var(--entry);
+}
+
+/* Match the list-view placeholder SVG size to the grid view */
+.td-icon .book-placeholder {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (max-width: 500px) {
+  .toggle-button .toggle-text { display: none; }
+  .toggle-button { padding: 6px; }
+}
