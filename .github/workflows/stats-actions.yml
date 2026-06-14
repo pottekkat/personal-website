@@ -21,7 +21,9 @@ jobs:
           brew link --overwrite pkgconf
 
       - name: install gdal
-        run: brew install gdal --force --overwrite
+        # Pin GDAL to 3.13.1 via a specific homebrew-core commit to prevent
+        # version drift. The pip GDAL binding below must match this version.
+        run: brew install --force --overwrite https://raw.githubusercontent.com/Homebrew/homebrew-core/9d61e684c68e7b93fc477aa0f391de697adae249/Formula/g/gdal.rb
 
       - name: get current date and time
         run: echo "RUN=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
@@ -42,7 +44,7 @@ jobs:
       - name: install python packages
         run: |
           python -m pip install --upgrade pip
-          pip install gdal==3.6.4
+          pip install gdal==3.13.1
           pip install -r ./.github/requirements.txt
           
       - name: execute python script
