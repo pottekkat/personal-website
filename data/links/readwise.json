@@ -1,6 +1,127 @@
 {
-  "last_updated": "2026-06-14T16:54:42.501124+05:30",
+  "last_updated": "2026-06-15T18:14:16.121217+05:30",
   "links": [
+    {
+      "id": "01kv5ke2sw5cw08nryjztw23xa",
+      "title": "Anthropic’s Safety Superpower",
+      "author": "Ben Thompson",
+      "source_url": "https://stratechery.com/2026/anthropics-safety-superpower/",
+      "published_date": "2026-06-15",
+      "saved_at": "2026-06-15T17:47:22.748000+05:30",
+      "reading_time": "12 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kv5eq13d4pktj54cyp9x1v36",
+      "title": "the resistance to this - the inability to endure the...",
+      "author": "scott 🌞",
+      "source_url": "https://x.com/scottdomes/status/2066338612380422190/?rw_tt_thread=True",
+      "published_date": "2026-06-15",
+      "saved_at": "2026-06-15T16:24:53.036000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kv53gbvg2cm0vg41y8g0dvd7",
+      "title": "WTF Is a Loop? Peter Steinberger vs. Boris Cherny",
+      "author": "Matt Van Horn",
+      "source_url": "https://x.com/mvanhorn/status/2063865685558903149/?rw_tt_thread=True",
+      "published_date": "2026-06-08",
+      "saved_at": "2026-06-15T13:09:00.335000+05:30",
+      "reading_time": "10 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kv52843rsht75q5mnqpm4p0r",
+      "title": "★ wizard zines ★",
+      "author": "wizard zines",
+      "source_url": "https://wizardzines.com/comics/write-for-one-person/",
+      "published_date": null,
+      "saved_at": "2026-06-15T12:47:01.687000+05:30",
+      "reading_time": "1 min",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kv5269jxd9az605phjqx7njv",
+      "title": "Friedman On India",
+      "author": "Deepak Lal, Parth J. Shah",
+      "source_url": "https://ccs.in/sites/default/files/2022-08/friedman-on-india.pdf",
+      "published_date": "2012-07-28",
+      "saved_at": "2026-06-15T12:46:01.757000+05:30",
+      "reading_time": "58 mins",
+      "category": "pdf",
+      "notes": ""
+    },
+    {
+      "id": "01kv51cg4rp8vetjd01k3mr06s",
+      "title": "The Millennial Midlife Crisis is Going to be a Barbell",
+      "author": "priyanka🍦",
+      "source_url": "https://x.com/pridesai/status/2066299897003778500/?rw_tt_thread=True",
+      "published_date": "2026-06-14",
+      "saved_at": "2026-06-15T12:31:56.504000+05:30",
+      "reading_time": "18 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kv3fcadtghw7ydg8dx6j6bcm",
+      "title": "Tax cuts as price controls",
+      "author": "nihalsahu.net",
+      "source_url": "https://nihalsahu.net/antiprofiteering/",
+      "published_date": "2025-08-26",
+      "saved_at": "2026-06-14T21:58:01.850000+05:30",
+      "reading_time": "8 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kv3f8wvz0brky701n1aa0kr0",
+      "title": "Liberalism is gentleness",
+      "author": "nihalsahu.net",
+      "source_url": "https://nihalsahu.net/lig/",
+      "published_date": "2025-04-19",
+      "saved_at": "2026-06-14T21:56:09.663000+05:30",
+      "reading_time": "1 min",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kv3f2zk9q5se6jjnc2nrg0cn",
+      "title": "Practice",
+      "author": "nihalsahu.net",
+      "source_url": "https://nihalsahu.net/practice/",
+      "published_date": "2026-03-13",
+      "saved_at": "2026-06-14T21:52:55.849000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kv3b8mwe132h0d1a8g185799",
+      "title": "How to Earn a Billion Dollars",
+      "author": "Paul Graham",
+      "source_url": "https://paulgraham.com/earn.html",
+      "published_date": "2026-06-14",
+      "saved_at": "2026-06-14T20:46:07.182000+05:30",
+      "reading_time": "9 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kv3b2rdyx5kwdjhyswz4bt2x",
+      "title": "\"Tu Karke Dikha\": On India's Risk Taking and Ambition",
+      "author": "Aviral Bhatnagar",
+      "source_url": "https://x.com/aviralbhat/status/2066115998428905921/?rw_tt_thread=True",
+      "published_date": "2026-06-14",
+      "saved_at": "2026-06-14T20:42:54.206000+05:30",
+      "reading_time": "4 mins",
+      "category": "tweet",
+      "notes": ""
+    },
     {
       "id": "01kv2xfw06ey1sj03afmgp35gp",
       "title": "How I Learned to Read Way, Way More",
