@@ -11,7 +11,7 @@ Here's what I'm doing now.
 
 ~~I will be traveling to San Francisco towards the end of March/early April.~~
 
-I'm in SF! [Hit me up](mailto:navendu@apache.org) if you want to hang out!
+~~I'm in SF! [Hit me up](mailto:navendu@apache.org) if you want to hang out!~~
 
 ## Full-Time Job
 
