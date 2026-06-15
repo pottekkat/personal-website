@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-06-15T12:44:48.267112",
+  "lastUpdated": "2026-06-15T17:32:31.353943",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Plate Flip",
-      "postUrl": "https://xkcd.com/3258/",
-      "publishDate": "Fri, 12 Jun 2026 04:00:00 -0000"
+      "postTitle": "Tethys",
+      "postUrl": "https://xkcd.com/3259/",
+      "publishDate": "Mon, 15 Jun 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Julia Evans",
-      "postUrl": "https://simonwillison.net/2026/Jun/15/julia-evans/#atom-everything",
-      "publishDate": "2026-06-15T02:05:19+00:00"
+      "postTitle": "\"They screwed us\": Personality clashes sent Anthropic's models offline",
+      "postUrl": "https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything",
+      "publishDate": "2026-06-15T14:57:33+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
