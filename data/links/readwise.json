@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-06-15T18:14:16.121217+05:30",
+  "last_updated": "2026-06-15T23:01:33.219618+05:30",
   "links": [
+    {
+      "id": "01kv5wc4qmsdtcngx1p0jtvx8e",
+      "title": "What the Fuck Happened to Nerds",
+      "author": "Mr. Market",
+      "source_url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds/",
+      "published_date": "2026-06-12",
+      "saved_at": "2026-06-15T20:23:36.371000+05:30",
+      "reading_time": "9 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kv5q2hmsbgngk7xq5ys2hh51",
+      "title": "curl summer of bliss",
+      "author": "Daniel Stenberg",
+      "source_url": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
+      "published_date": "2026-06-15",
+      "saved_at": "2026-06-15T18:50:59.034000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kv5pc9eceddwqbdhy02w6rce",
+      "title": "The better AI gets, the smaller its share of the economy might get – Alex Imas and Phil Trammell",
+      "author": "Dwarkesh Patel",
+      "source_url": "https://www.youtube.com/watch?v=Jj-kBHzUohs",
+      "published_date": "2026-06-04",
+      "saved_at": "2026-06-15T18:38:49.739000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01kv5ke2sw5cw08nryjztw23xa",
       "title": "Anthropic’s Safety Superpower",
