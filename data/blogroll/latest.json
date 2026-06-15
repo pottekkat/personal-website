@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T11:25:14.994122",
+  "lastUpdated": "2026-06-15T12:44:48.267112",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Publishing WASM wheels to PyPI for use with Pyodide",
-      "postUrl": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything",
-      "publishDate": "2026-06-13T23:55:18+00:00"
+      "postTitle": "Quoting Julia Evans",
+      "postUrl": "https://simonwillison.net/2026/Jun/15/julia-evans/#atom-everything",
+      "publishDate": "2026-06-15T02:05:19+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
