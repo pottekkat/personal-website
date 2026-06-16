@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T17:32:31.353943",
+  "lastUpdated": "2026-06-16T07:33:43.880103",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "\"They screwed us\": Personality clashes sent Anthropic's models offline",
-      "postUrl": "https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything",
-      "publishDate": "2026-06-15T14:57:33+00:00"
+      "postTitle": "The Fable 5 Export Controls Harm US Cyber Defense",
+      "postUrl": "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything",
+      "publishDate": "2026-06-16T05:20:29+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -186,9 +186,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "The Neo solves Apple\u2019s embarrassment",
-      "postUrl": "https://anildash.com/2026/03/08/neo-apple-embarassment/",
-      "publishDate": "2026-03-08T00:00:00Z"
+      "postTitle": "What do coders do after AI?",
+      "postUrl": "https://anildash.com/2026/03/13/coders-after-ai/",
+      "publishDate": "2026-03-13T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
