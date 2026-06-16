@@ -38,9 +38,13 @@ jobs:
           git diff-index --quiet HEAD || (git commit -m "update blogroll latest posts" --allow-empty)
           
       - name: Push changes
-        uses: ad-m/github-push-action@v1.3.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: hugo
+        run: |
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin hugo && git push origin hugo && exit 0
+            echo "Push attempt $i failed (remote moved), retrying..."
+            sleep 5
+          done
+          echo "::error::Failed to push to hugo after 5 attempts"
+          exit 1
 
   # Deploy job removed - parent workflow (scheduled-updates) handles deployment
