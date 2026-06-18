@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2026-06-17T12:07:23.363457",
+  "lastUpdated": "2026-06-18T11:52:53.082690",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Tethys",
-      "postUrl": "https://xkcd.com/3259/",
-      "publishDate": "Mon, 15 Jun 2026 04:00:00 -0000"
+      "postTitle": "Messi",
+      "postUrl": "https://xkcd.com/3260/",
+      "publishDate": "Wed, 17 Jun 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "A pond of interesting problems",
-      "postUrl": "https://world.hey.com/dhh/a-pond-of-interesting-problems-5f697567",
-      "publishDate": "2026-06-03T07:10:51Z"
+      "postTitle": "The Rape of Britain",
+      "postUrl": "https://world.hey.com/dhh/the-rape-of-britain-610412f8",
+      "publishDate": "2026-06-17T14:19:34Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "<click-to-play> \u2014 a still that plays",
-      "postUrl": "https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything",
-      "publishDate": "2026-06-17T03:56:10+00:00"
+      "postTitle": "GLM-5.2 is probably the most powerful text-only open weights LLM",
+      "postUrl": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
+      "publishDate": "2026-06-17T23:58:39+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
