@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T11:52:53.082690",
+  "lastUpdated": "2026-06-19T11:57:02.066141",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "The Rape of Britain",
-      "postUrl": "https://world.hey.com/dhh/the-rape-of-britain-610412f8",
-      "publishDate": "2026-06-17T14:19:34Z"
+      "postTitle": "European Delusions & Danish Drones",
+      "postUrl": "https://world.hey.com/dhh/european-delusions-danish-drones-a3da0d27",
+      "publishDate": "2026-06-19T11:03:21Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "GLM-5.2 is probably the most powerful text-only open weights LLM",
-      "postUrl": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
-      "publishDate": "2026-06-17T23:58:39+00:00"
+      "postTitle": "Datasette Apps: Host custom HTML applications inside Datasette",
+      "postUrl": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything",
+      "publishDate": "2026-06-18T23:58:38+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "How should we tax internet countries?",
-      "postUrl": "https://www.elysian.press/p/how-should-we-tax-internet-countries",
-      "publishDate": "Tue, 16 Jun 2026 13:01:48 GMT"
+      "postTitle": "Yes, let\u2019s abolish federal governments",
+      "postUrl": "https://www.elysian.press/p/let-states-choose-federal-governments-a-la-carte",
+      "publishDate": "Thu, 18 Jun 2026 12:01:42 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
