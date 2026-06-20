@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-06-19T11:57:02.066141",
+  "lastUpdated": "2026-06-20T11:22:49.314962",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Messi",
-      "postUrl": "https://xkcd.com/3260/",
-      "publishDate": "Wed, 17 Jun 2026 04:00:00 -0000"
+      "postTitle": "Side Effect",
+      "postUrl": "https://xkcd.com/3261/",
+      "publishDate": "Fri, 19 Jun 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Datasette Apps: Host custom HTML applications inside Datasette",
-      "postUrl": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything",
-      "publishDate": "2026-06-18T23:58:38+00:00"
+      "postTitle": "Quoting Sean Lynch",
+      "postUrl": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
+      "publishDate": "2026-06-19T22:45:49+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "FIFA's World Cup Ticketing Fiasco, explained",
-      "postUrl": "https://www.readtrung.com/p/fifas-world-cup-ticketing-fiasco",
-      "publishDate": "Fri, 12 Jun 2026 21:59:15 GMT"
+      "postTitle": "Pixar's $6 Billion Lunch",
+      "postUrl": "https://www.readtrung.com/p/pixars-6-billion-lunch",
+      "publishDate": "Fri, 19 Jun 2026 16:39:02 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
