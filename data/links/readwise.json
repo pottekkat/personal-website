@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-06-19T17:26:27.016903+05:30",
+  "last_updated": "2026-06-20T16:52:15.080856+05:30",
   "links": [
+    {
+      "id": "01kvhhqzg963kfdcwswj1zdnw4",
+      "title": "We're 99.9% sure this pattern is true, but no one can prove it",
+      "author": "Veritasium",
+      "source_url": "https://www.youtube.com/watch?v=8HBDE-msUjw",
+      "published_date": "2026-06-14",
+      "saved_at": "2026-06-20T09:08:43.079000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kvhfx47473bp8fh18q8enyzn",
+      "title": "‘A man of great appetites’: what’s it like to be a dictator’s personal chef?",
+      "author": "Andrew Lawrence",
+      "source_url": "https://www.theguardian.com/film/2026/jun/09/how-to-feed-a-dictator-film",
+      "published_date": "2026-06-09",
+      "saved_at": "2026-06-20T08:36:34.596000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kvgk48zvc4scks20cybjy4q5",
+      "title": "The data black hole at the center of AI",
+      "author": "Dwarkesh Patel",
+      "source_url": "https://www.youtube.com/watch?v=4pG3SJQPAwk",
+      "published_date": "2026-06-19",
+      "saved_at": "2026-06-20T00:13:40.155000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kvgdy5xcd69jsgm1pg7xcb1q",
+      "title": "Friedman Insights Summary",
+      "author": "ChatGPT",
+      "source_url": "https://chatgpt.com/c/6a2fa663-8f40-8324-b51c-4ecefa097f65",
+      "published_date": null,
+      "saved_at": "2026-06-19T22:42:57.516000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kvfy1frtamjb5m5ah7293tds",
+      "title": "AI GPUs probably live longer than three years",
+      "author": "seangoedecke.com",
+      "source_url": "https://www.seangoedecke.com/ai-gpus-live-longer-than-three-years/?ref=dailydev",
+      "published_date": "2026-06-15",
+      "saved_at": "2026-06-19T18:05:08.697000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kvfv54sxcwfcg3q0cc2qa95t",
       "title": "The Japanese Way",
