@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T11:22:49.314962",
+  "lastUpdated": "2026-06-21T11:35:00.347885",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "Book Review: On the Calculation of Volume",
-      "postUrl": "https://www.stephendiehl.com/posts/calculation_of_volume/",
-      "publishDate": "Wed, 20 May 2026 01:00:00 +0000"
+      "postTitle": "Prism: An Impure Functional Language With Typed Effects",
+      "postUrl": "https://www.stephendiehl.com/posts/prism/",
+      "publishDate": "Sat, 20 Jun 2026 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -116,9 +116,8 @@
     {
       "blogTitle": "Derek Sivers",
       "blogUrl": "https://sive.rs/",
-      "postTitle": "What next?",
-      "postUrl": "https://sive.rs/u60",
-      "publishDate": "Mon, 09 Feb 2026 05:00:00 GMT"
+      "error": true,
+      "errorMessage": "404 Client Error: Not Found for url: https://sive.rs/podcast.rss"
     },
     {
       "blogTitle": "Maggie Appleton",
