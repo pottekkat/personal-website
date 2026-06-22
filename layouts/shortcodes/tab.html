@@ -10,7 +10,7 @@
   gets its own group of ids — multiple independent groups just work.
 */ -}}
 {{- $name := or (.Get "title") (.Get 0) "Tab" -}}
-{{- if not .Parent -}}
+{{- if or (not .Parent) (ne .Parent.Name "tabs") -}}
 {{- errorf "the \"tab\" shortcode must be used inside a \"tabs\" shortcode (%s)" .Position -}}
 {{- else -}}
 {{- $gid := printf "tabs-%d" .Parent.Ordinal -}}

@@ -28,7 +28,8 @@
   title labels and codapi. Tabs with the same label sync across the page.
 
   Keep tab labels unique within a block, and do not nest a tabs block inside a
-  tab (panel ids are namespaced per group, so nesting would collide).
+  tab: the tab-switching script scopes its selectors to the whole [data-tabs]
+  container, so an outer group would also capture the inner group's tabs.
 */ -}}
 {{- $inner := .Inner -}}{{/* evaluate children first so they populate the scratch */}}
 {{- $tabs := .Scratch.Get "tabs" -}}
