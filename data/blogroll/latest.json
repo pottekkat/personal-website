@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T11:35:00.347885",
+  "lastUpdated": "2026-06-22T12:36:44.968506",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Sean Lynch",
-      "postUrl": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
-      "publishDate": "2026-06-19T22:45:49+00:00"
+      "postTitle": "sqlite-utils 4.0rc1 adds migrations and nested transactions",
+      "postUrl": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything",
+      "publishDate": "2026-06-21T23:35:47+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -116,8 +116,9 @@
     {
       "blogTitle": "Derek Sivers",
       "blogUrl": "https://sive.rs/",
-      "error": true,
-      "errorMessage": "404 Client Error: Not Found for url: https://sive.rs/podcast.rss"
+      "postTitle": "What next?",
+      "postUrl": "https://sive.rs/u60",
+      "publishDate": "Mon, 09 Feb 2026 05:00:00 GMT"
     },
     {
       "blogTitle": "Maggie Appleton",
