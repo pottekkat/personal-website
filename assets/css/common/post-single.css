@@ -701,6 +701,56 @@ codapi-snippet codapi-toolbar button:after {
     margin-bottom: calc(var(--gap)/5);
   }
 
+/* Tabs — {{< tabs >}} / {{% tab %}} shortcodes. Panels hold arbitrary content
+   (prose, images, code); tabs with the same label sync across the page.
+   Styling mirrors the site's nav active-item convention (header.css #menu .active):
+   a label-width 2px currentColor underline and --primary text when active, muted
+   --secondary when inactive, 14px in the body font, items spaced by var(--gap).
+   Weight stays constant across states so toggling a tab never shifts layout. */
+.tabs {
+    margin: 10px auto;
+}
+
+.tabs__nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+    margin-bottom: calc(var(--gap)/2);
+}
+
+.tabs__tab {
+    padding: 0 0 2px;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1;
+    color: var(--secondary);
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    user-select: none;
+}
+
+@media (hover: hover) {
+    .tabs__tab:hover {
+        color: var(--primary);
+    }
+}
+
+.tabs__tab.is-active {
+    color: var(--primary);
+    border-bottom-color: currentColor;
+}
+
+.tabs__panel[hidden] {
+    display: none;
+}
+
+/* Sit a leading code block flush under the tab bar */
+.tabs__panel>.highlight:first-child,
+.tabs__panel>pre:first-child {
+    margin-top: 0;
+}
+
 .alert-title {
     color: var(--secondary);
     font-size: 14px;
