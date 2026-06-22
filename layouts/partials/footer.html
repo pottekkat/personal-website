@@ -152,6 +152,78 @@
 </script>
 {{- end }}
 
+{{- if (and (eq .Kind "page") (ne .Layout "archives") (ne .Layout "search")) }}
+<script>
+(function () {
+    var STORE_KEY = "tab-selection";
+
+    function label(btn) { return btn.textContent.trim(); }
+
+    function containers() {
+        return Array.prototype.slice.call(document.querySelectorAll("[data-tabs]"));
+    }
+
+    // Switch a single tab group to the given button (no propagation).
+    function activate(container, btn) {
+        var id = btn.getAttribute("data-target");
+        container.querySelectorAll(".tabs__tab").forEach(function (t) {
+            var on = t === btn;
+            t.classList.toggle("is-active", on);
+            t.setAttribute("aria-selected", on ? "true" : "false");
+            t.tabIndex = on ? 0 : -1;
+        });
+        container.querySelectorAll(".tabs__panel").forEach(function (p) {
+            var on = p.id === id;
+            p.classList.toggle("is-active", on);
+            p.hidden = !on;
+        });
+    }
+
+    // Sync every other group that has a tab with the same label, and remember it.
+    function syncLabel(selected, source) {
+        try { localStorage.setItem(STORE_KEY, selected); } catch (e) { }
+        containers().forEach(function (c) {
+            if (c === source) return;
+            var match = Array.prototype.slice.call(c.querySelectorAll(".tabs__tab"))
+                .filter(function (t) { return label(t) === selected; })[0];
+            if (match && !match.classList.contains("is-active")) activate(c, match);
+        });
+    }
+
+    var saved = null;
+    try { saved = localStorage.getItem(STORE_KEY); } catch (e) { }
+
+    containers().forEach(function (container) {
+        var tabs = Array.prototype.slice.call(container.querySelectorAll(".tabs__tab"));
+        tabs.forEach(function (btn, i) {
+            btn.addEventListener("click", function () {
+                activate(container, btn);
+                syncLabel(label(btn), container);
+            });
+            btn.addEventListener("keydown", function (e) {
+                var next;
+                if (e.key === "ArrowRight" || e.key === "ArrowDown") next = tabs[(i + 1) % tabs.length];
+                else if (e.key === "ArrowLeft" || e.key === "ArrowUp") next = tabs[(i - 1 + tabs.length) % tabs.length];
+                else if (e.key === "Home") next = tabs[0];
+                else if (e.key === "End") next = tabs[tabs.length - 1];
+                if (next) {
+                    e.preventDefault();
+                    activate(container, next);
+                    syncLabel(label(next), container);
+                    next.focus();
+                }
+            });
+        });
+        // Restore the reader's previously chosen tab for this group.
+        if (saved) {
+            var match = tabs.filter(function (t) { return label(t) === saved; })[0];
+            if (match && !match.classList.contains("is-active")) activate(container, match);
+        }
+    });
+})();
+</script>
+{{- end }}
+
 {{- if (and (eq .Kind "page") (ne .Layout "archives") (ne .Layout "search") (.Param "EnableCodapi")) }}
 
 {{- $snippet := slice (resources.Get "js/codapi/snippet.js") | resources.Concat "assets/js/codapi/snippet.js" | fingerprint }}

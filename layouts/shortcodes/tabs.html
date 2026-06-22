@@ -1,0 +1,43 @@
+{{- /*
+  tabs - a tabbed container for switching between several panels of content
+  (e.g. the same example in Python, Go and TypeScript, or per-OS instructions).
+
+  Call this with ANGLE brackets and nest one or more tab children using PERCENT
+  delimiters, so each panel's body is rendered through the normal markdown
+  pipeline. A panel may hold anything: prose, images, lists and one or more
+  fenced code blocks. In markdown:
+
+    [tabs]
+      [tab "Python"]
+        Install with `pip install absurd`.
+
+        ```python
+        print("hello")
+        ```
+      [/tab]
+      [tab "Go"]
+        ```go
+        fmt.Println("hello")
+        ```
+      [/tab]
+    [/tabs]
+
+  ...where [tabs] uses angle delimiters and [tab] uses percent delimiters.
+  Because each panel is rendered through the standard markdown/Chroma pipeline,
+  every code-block feature keeps working: syntax highlighting, copy buttons,
+  title labels and codapi. Tabs with the same label sync across the page.
+
+  Keep tab labels unique within a block, and do not nest a tabs block inside a
+  tab: the tab-switching script scopes its selectors to the whole [data-tabs]
+  container, so an outer group would also capture the inner group's tabs.
+*/ -}}
+{{- $inner := .Inner -}}{{/* evaluate children first so they populate the scratch */}}
+{{- $tabs := .Scratch.Get "tabs" -}}
+<div class="tabs" data-tabs>
+  <div class="tabs__nav" role="tablist" aria-orientation="horizontal" aria-label="Tabs">
+    {{- range $i, $t := $tabs -}}
+    <button type="button" id="{{ $t.id }}-tab" class="tabs__tab{{ if eq $i 0 }} is-active{{ end }}" role="tab" aria-controls="{{ $t.id }}" aria-selected="{{ if eq $i 0 }}true{{ else }}false{{ end }}"{{ if ne $i 0 }} tabindex="-1"{{ end }} data-target="{{ $t.id }}">{{ $t.name }}</button>
+    {{- end -}}
+  </div>
+  <div class="tabs__panels">{{ $inner }}</div>
+</div>

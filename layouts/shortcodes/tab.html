@@ -1,0 +1,26 @@
+{{- /*
+  tab - a single tab/panel inside a tabs block.
+
+  Call it with PERCENT delimiters so its body is rendered through the normal
+  markdown/Chroma pipeline (prose, images and one or more fenced code blocks).
+  The tab label is the first positional argument (or the "title" named
+  argument). See the tabs shortcode for a full usage example.
+
+  The panel id is derived from .Parent.Ordinal, so every tabs block on the page
+  gets its own group of ids — multiple independent groups just work.
+*/ -}}
+{{- $name := or (.Get "title") (.Get 0) "Tab" -}}
+{{- if or (not .Parent) (ne .Parent.Name "tabs") -}}
+{{- errorf "the \"tab\" shortcode must be used inside a \"tabs\" shortcode (%s)" .Position -}}
+{{- else -}}
+{{- $gid := printf "tabs-%d" .Parent.Ordinal -}}
+{{- $i := int (.Parent.Scratch.Get "count" | default 0) -}}
+{{- $id := printf "%s-%d" $gid $i -}}
+{{- .Parent.Scratch.Add "tabs" (slice (dict "name" $name "id" $id)) -}}
+{{- .Parent.Scratch.Set "count" (add $i 1) -}}
+<div id="{{ $id }}" class="tabs__panel{{ if eq $i 0 }} is-active{{ end }}" role="tabpanel" aria-labelledby="{{ $id }}-tab"{{ if ne $i 0 }} hidden{{ end }}>
+
+{{ .Inner }}
+
+</div>
+{{- end -}}
