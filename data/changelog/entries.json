@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-06-16T12:56:49+05:30",
+  "lastUpdated": "2026-06-22T21:29:03+05:30",
   "entries": [
+    {
+      "hash": "0614c5b",
+      "date": "2026-06-22T21:28:18+05:30",
+      "message": "Added tabbed content support with new shortcodes and related styling."
+    },
     {
       "hash": "1823b83",
       "date": "2026-06-16T12:55:56+05:30",
