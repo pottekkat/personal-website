@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-06-22T12:36:44.968506",
+  "lastUpdated": "2026-06-23T11:39:17.020514",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Side Effect",
-      "postUrl": "https://xkcd.com/3261/",
-      "publishDate": "Fri, 19 Jun 2026 04:00:00 -0000"
+      "postTitle": "Sports Commentary",
+      "postUrl": "https://xkcd.com/3262/",
+      "publishDate": "Mon, 22 Jun 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "sqlite-utils 4.0rc1 adds migrations and nested transactions",
-      "postUrl": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything",
-      "publishDate": "2026-06-21T23:35:47+00:00"
+      "postTitle": "Prompt Injection as Role Confusion",
+      "postUrl": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything",
+      "publishDate": "2026-06-22T23:59:53+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "A Fix for High CPU Usage in Apple Pages",
-      "postUrl": "https://sheep.horse/2025/6/a_fix_for_high_cpu_usage_in_apple_pages.html",
-      "publishDate": "Tue, 24 Jun 2025 19:29:49 +0000"
+      "postTitle": "You Can Now Access sheep.horse With IPv6",
+      "postUrl": "https://sheep.horse/2025/7/you_can_now_access_sheep.horse_with_ipv6.html",
+      "publishDate": "Tue, 15 Jul 2025 18:00:01 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Most Intelligence Is Search",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/most-intelligence-is-search",
-      "publishDate": "Tue, 16 Jun 2026 12:01:30 GMT"
+      "postTitle": "Design for Uncharted Territories",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/design-for-uncharted-territories",
+      "publishDate": "Sun, 14 Jun 2026 07:42:03 GMT"
     },
     {
       "blogTitle": "Anil Dash",
