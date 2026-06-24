@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T11:39:17.020514",
+  "lastUpdated": "2026-06-24T11:30:44.875053",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Prompt Injection as Role Confusion",
-      "postUrl": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything",
-      "publishDate": "2026-06-22T23:59:53+00:00"
+      "postTitle": "datasette 1.0a35",
+      "postUrl": "https://simonwillison.net/2026/Jun/23/datasette/#atom-everything",
+      "publishDate": "2026-06-23T21:34:37+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,16 +151,16 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Yes, let\u2019s abolish federal governments",
-      "postUrl": "https://www.elysian.press/p/let-states-choose-federal-governments-a-la-carte",
-      "publishDate": "Thu, 18 Jun 2026 12:01:42 GMT"
+      "postTitle": "Post Nation is complete\u2014collect the pamphlet!",
+      "postUrl": "https://www.elysian.press/p/post-nation-is-completecollect-the",
+      "publishDate": "Tue, 23 Jun 2026 15:01:20 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "The Rival Theologies of Artificial Intelligence",
-      "postUrl": "https://letter.palladiummag.com/p/the-rival-theologies-of-artificial",
-      "publishDate": "Sat, 06 Jun 2026 20:17:59 GMT"
+      "postTitle": "War by Other Means",
+      "postUrl": "https://letter.palladiummag.com/p/war-by-other-means",
+      "publishDate": "Tue, 23 Jun 2026 23:29:26 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -179,16 +179,16 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Design for Uncharted Territories",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/design-for-uncharted-territories",
-      "publishDate": "Sun, 14 Jun 2026 07:42:03 GMT"
+      "postTitle": "How Christianity Went Viral",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-christianity-went-viral",
+      "publishDate": "Tue, 23 Jun 2026 13:41:33 GMT"
     },
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "What do coders do after AI?",
-      "postUrl": "https://anildash.com/2026/03/13/coders-after-ai/",
-      "publishDate": "2026-03-13T00:00:00Z"
+      "postTitle": "Endgame for the Open Web",
+      "postUrl": "https://anildash.com/2026/03/27/endgame-open-web/",
+      "publishDate": "2026-03-27T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
