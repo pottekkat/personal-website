@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-06-24T17:00:10.820965+05:30",
+  "last_updated": "2026-06-25T16:58:58.478758+05:30",
   "links": [
+    {
+      "id": "01kvygzp3zmt5npcy4g393zre1",
+      "title": "The Cloud Has Sound: The Unrelenting and Unseen Cost of A.I. Data Centers - The New York Times",
+      "author": "archive.ph",
+      "source_url": "https://archive.ph/20260625020800/https://www.nytimes.com/2026/06/17/us/data-centers-noise-pollution.html",
+      "published_date": "2026-06-25",
+      "saved_at": "2026-06-25T10:05:34.655000+05:30",
+      "reading_time": "7 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kvygh86g6gp1vbvhdaz9n0rw",
+      "title": "Please keep code descriptions simple",
+      "author": "Akseli Lahtinen",
+      "source_url": "https://akselmo.dev/posts/please-keep-code-descriptions-simple/?ref=dailydev",
+      "published_date": "2026-06-23",
+      "saved_at": "2026-06-25T09:57:41.648000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kvw4f9e153g5aa3kajqs3jj8",
       "title": "You get what you hire",
