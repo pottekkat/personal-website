@@ -1,26 +1,25 @@
 {
-  "lastUpdated": "2026-06-24T11:30:44.875053",
+  "lastUpdated": "2026-06-25T11:29:33.431472",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Sports Commentary",
-      "postUrl": "https://xkcd.com/3262/",
-      "publishDate": "Mon, 22 Jun 2026 04:00:00 -0000"
+      "postTitle": "Baryon Asymmetry",
+      "postUrl": "https://xkcd.com/3263/",
+      "publishDate": "Wed, 24 Jun 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "European Delusions & Danish Drones",
-      "postUrl": "https://world.hey.com/dhh/european-delusions-danish-drones-a3da0d27",
-      "publishDate": "2026-06-19T11:03:21Z"
+      "error": true,
+      "errorMessage": "403 Forbidden (feedparser)"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "datasette 1.0a35",
-      "postUrl": "https://simonwillison.net/2026/Jun/23/datasette/#atom-everything",
-      "publishDate": "2026-06-23T21:34:37+00:00"
+      "postTitle": "simonw/browser-compat-db",
+      "postUrl": "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
+      "publishDate": "2026-06-24T23:59:03+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
