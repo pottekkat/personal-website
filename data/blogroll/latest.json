@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T11:29:33.431472",
+  "lastUpdated": "2026-06-26T11:32:10.356924",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,15 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "error": true,
-      "errorMessage": "403 Forbidden (feedparser)"
+      "postTitle": "European Delusions & Danish Drones",
+      "postUrl": "https://world.hey.com/dhh/european-delusions-danish-drones-a3da0d27",
+      "publishDate": "2026-06-19T11:03:21Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "simonw/browser-compat-db",
-      "postUrl": "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
-      "publishDate": "2026-06-24T23:59:03+00:00"
+      "postTitle": "AI and Liability",
+      "postUrl": "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything",
+      "publishDate": "2026-06-25T22:28:46+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -150,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Post Nation is complete\u2014collect the pamphlet!",
-      "postUrl": "https://www.elysian.press/p/post-nation-is-completecollect-the",
-      "publishDate": "Tue, 23 Jun 2026 15:01:20 GMT"
+      "postTitle": "Office Hours\u2014register for July dates",
+      "postUrl": "https://www.elysian.press/p/office-hoursregister-for-july-dates",
+      "publishDate": "Thu, 25 Jun 2026 12:01:44 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
