@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-06-26T11:32:10.356924",
+  "lastUpdated": "2026-06-27T11:10:18.428662",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Baryon Asymmetry",
-      "postUrl": "https://xkcd.com/3263/",
-      "publishDate": "Wed, 24 Jun 2026 04:00:00 -0000"
+      "postTitle": "720 Ollie",
+      "postUrl": "https://xkcd.com/3264/",
+      "publishDate": "Fri, 26 Jun 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "AI and Liability",
-      "postUrl": "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything",
-      "publishDate": "2026-06-25T22:28:46+00:00"
+      "postTitle": "Quoting Dean W. Ball",
+      "postUrl": "https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything",
+      "publishDate": "2026-06-26T22:25:46+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Solod v0.1: Go ergonomics, practical stdlib, native C interop",
-      "postUrl": "https://antonz.org/solod-v0-1/",
-      "publishDate": "Wed, 06 May 2026 11:00:00 +0000"
+      "postTitle": "Solod v0.2: Networking, new targets, friendlier interop",
+      "postUrl": "https://antonz.org/solod-v0-2/",
+      "publishDate": "Fri, 26 Jun 2026 12:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "Pixar's $6 Billion Lunch",
-      "postUrl": "https://www.readtrung.com/p/pixars-6-billion-lunch",
-      "publishDate": "Fri, 19 Jun 2026 16:39:02 GMT"
+      "postTitle": "Kirkland Signature: Jim Sinegal and the Making of Costco's $90B Private-Label Empire",
+      "postUrl": "https://www.readtrung.com/p/kirkland-signature-how-costco-created",
+      "publishDate": "Fri, 26 Jun 2026 20:43:45 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
