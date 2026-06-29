@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-06-28T16:46:28.689114+05:30",
+  "last_updated": "2026-06-29T17:42:58.685493+05:30",
   "links": [
+    {
+      "id": "01kw8txqzx2vya6rcd8fqpcwqy",
+      "title": "Relentlessly Resourceful",
+      "author": "Paul Graham",
+      "source_url": "https://www.paulgraham.com/relres.html",
+      "published_date": null,
+      "saved_at": "2026-06-29T10:11:41.116000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kw8mpm200jtqt24xzgs6n7d6",
+      "title": "The Coming Loop",
+      "author": "Armin Ronacher",
+      "source_url": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
+      "published_date": "2026-06-23",
+      "saved_at": "2026-06-29T08:22:56.255000+05:30",
+      "reading_time": "11 mins",
+      "category": "article",
+      "notes": "\"If a codebase is produced by loops, reviewed by loops, patched by loops, and kept alive by loops, what happens when you no longer have access to the same class of systems? What happens when some trade restrictions take away access to the most powerful models? What if just the cost becomes unbearable? What if you and your team just lose the last remaining ability to understand the code without using the machine?\""
+    },
+    {
+      "id": "01kw7ehknsqbb7f42cjtf4gjhv",
+      "title": "Designing Math ft. Grant Sanderson (3Blue1Brown) I Config 2026",
+      "author": "Figma",
+      "source_url": "https://www.youtube.com/watch?v=bLSLN96Gn-w",
+      "published_date": "2026-06-26",
+      "saved_at": "2026-06-28T21:16:06.136000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01kw3qvb37mzf0newsfkjpwtyf",
       "title": "Defining Taste",
