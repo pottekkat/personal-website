@@ -1,7 +1,7 @@
 ---
 title: The Death of Ivan Ilyich
 date: 2026-07-01T13:44:46Z
-draft: true
+draft: false
 summary: Review of "The Death of Ivan Ilyich" by Leo Tolstoy.
 bookMeta:
   author: Leo Tolstoy
