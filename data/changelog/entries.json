@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-06-22T21:29:03+05:30",
+  "lastUpdated": "2026-07-01T19:32:45+05:30",
   "entries": [
+    {
+      "hash": "069346a",
+      "date": "2026-07-01T19:27:22+05:30",
+      "message": "Updated the draft status of the book review to published."
+    },
+    {
+      "hash": "bbc850c",
+      "date": "2026-07-01T19:27:03+05:30",
+      "message": "Added a new book entry and updated associated metadata."
+    },
     {
       "hash": "0614c5b",
       "date": "2026-06-22T21:28:18+05:30",
