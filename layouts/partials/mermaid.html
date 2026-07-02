@@ -3,13 +3,52 @@
   src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"
 ></script>
 <script>
-  var isDark = document.body.classList.contains('dark');
-  var theme = isDark ? 'dark' : 'default';
-  var config = {
-    startOnLoad: true,
-    theme: theme,
-    align:'{{ if site.Params.mermaid.align }}{{ site.Params.mermaid.align }}{{ else }}center{{ end }}',
-    securityLevel:'{{ if site.Params.mermaid.securityLevel }}{{ site.Params.mermaid.securityLevel }}{{ else }}loose{{ end }}',
-  };
-  mermaid.initialize(config);
+  (function () {
+    var align = '{{ if site.Params.mermaid.align }}{{ site.Params.mermaid.align }}{{ else }}center{{ end }}';
+    var securityLevel = '{{ if site.Params.mermaid.securityLevel }}{{ site.Params.mermaid.securityLevel }}{{ else }}loose{{ end }}';
+
+    function currentTheme() {
+      return document.body.classList.contains('dark') ? 'dark' : 'default';
+    }
+
+    // Snapshot each diagram's original markup before mermaid replaces it with an
+    // SVG. Mermaid reads the definition from innerHTML (not textContent), so we
+    // capture and restore innerHTML to stay faithful to labels like <br/>.
+    var nodes = document.querySelectorAll('.mermaid');
+    var sources = Array.prototype.map.call(nodes, function (node) {
+      return node.innerHTML;
+    });
+
+    // Serialize renders so a rapid theme toggle can't overlap the async run.
+    var pending = Promise.resolve();
+    function render() {
+      pending = pending.then(function () {
+        nodes.forEach(function (node, i) {
+          node.innerHTML = sources[i];
+          node.removeAttribute('data-processed');
+        });
+        mermaid.initialize({
+          startOnLoad: false,
+          theme: currentTheme(),
+          align: align,
+          securityLevel: securityLevel,
+        });
+        return mermaid.run({ nodes: nodes });
+      }).catch(function () {});
+      return pending;
+    }
+
+    render();
+
+    // Re-render diagrams whenever the `dark` class on <body> is toggled, so
+    // switching themes updates them without a page reload.
+    var lastTheme = currentTheme();
+    new MutationObserver(function () {
+      var theme = currentTheme();
+      if (theme !== lastTheme) {
+        lastTheme = theme;
+        render();
+      }
+    }).observe(document.body, { attributes: true, attributeFilter: ['class'] });
+  })();
 </script>
