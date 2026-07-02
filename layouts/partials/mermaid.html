@@ -11,43 +11,74 @@
       return document.body.classList.contains('dark') ? 'dark' : 'default';
     }
 
+    // Mermaid measures label sizes with getBBox(), which returns 0 inside a
+    // display:none container (e.g. an inactive tab), collapsing the diagram. So
+    // we only ever render diagrams that are currently laid out, and (re)render
+    // the rest when they become visible.
+    function isVisible(node) {
+      return node.getClientRects().length > 0;
+    }
+
     // Snapshot each diagram's original markup before mermaid replaces it with an
     // SVG. Mermaid reads the definition from innerHTML (not textContent), so we
     // capture and restore innerHTML to stay faithful to labels like <br/>.
-    var nodes = document.querySelectorAll('.mermaid');
-    var sources = Array.prototype.map.call(nodes, function (node) {
-      return node.innerHTML;
-    });
+    var nodes = Array.prototype.slice.call(document.querySelectorAll('.mermaid'));
+    var sources = nodes.map(function (node) { return node.innerHTML; });
 
-    // Serialize renders so a rapid theme toggle can't overlap the async run.
+    // Serialize renders so a rapid theme toggle or tab reveal can't overlap the
+    // async run.
     var pending = Promise.resolve();
-    function render() {
+    function render(list) {
+      list = list.filter(isVisible);
+      if (!list.length) return pending;
       pending = pending.then(function () {
-        nodes.forEach(function (node, i) {
-          node.innerHTML = sources[i];
+        var theme = currentTheme();
+        list.forEach(function (node) {
+          node.innerHTML = sources[nodes.indexOf(node)];
           node.removeAttribute('data-processed');
+          node.setAttribute('data-rendered-theme', theme);
         });
         mermaid.initialize({
           startOnLoad: false,
-          theme: currentTheme(),
+          theme: theme,
           align: align,
           securityLevel: securityLevel,
         });
-        return mermaid.run({ nodes: nodes });
+        return mermaid.run({ nodes: list });
       }).catch(function () {});
       return pending;
     }
 
-    render();
+    // Render the visible diagrams that aren't already drawn for the current
+    // theme. Hidden diagrams (inactive tabs) are skipped and picked up later.
+    function renderStale(list) {
+      var theme = currentTheme();
+      var todo = list.filter(function (node) {
+        return isVisible(node) && node.getAttribute('data-rendered-theme') !== theme;
+      });
+      if (todo.length) render(todo);
+    }
 
-    // Re-render diagrams whenever the `dark` class on <body> is toggled, so
-    // switching themes updates them without a page reload.
+    // ResizeObserver fires when a diagram first gets a box on load and when an
+    // inactive tab reveals it (content size 0 -> N) -- independent of scroll
+    // position, which is why we don't use IntersectionObserver (it only fires on
+    // viewport crossings, so it misses tabs toggled while scrolled off-screen).
+    // This drives both the initial render and re-theming of diagrams revealed
+    // inside tabs.
+    var ro = new ResizeObserver(function (entries) {
+      renderStale(entries.map(function (e) { return e.target; }));
+    });
+    nodes.forEach(function (node) { ro.observe(node); });
+
+    // On theme toggle, re-render the currently-visible diagrams now; hidden ones
+    // keep a stale data-rendered-theme and re-render (via the ResizeObserver
+    // above) when their tab is next revealed.
     var lastTheme = currentTheme();
     new MutationObserver(function () {
       var theme = currentTheme();
       if (theme !== lastTheme) {
         lastTheme = theme;
-        render();
+        renderStale(nodes);
       }
     }).observe(document.body, { attributes: true, attributeFilter: ['class'] });
   })();
