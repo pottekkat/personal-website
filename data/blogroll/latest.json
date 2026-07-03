@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T11:25:48.164887",
+  "lastUpdated": "2026-07-03T12:29:50.202795",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Anthropic",
-      "postUrl": "https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything",
-      "publishDate": "2026-06-30T23:58:15+00:00"
+      "postTitle": "llm-coding-agent 0.1a0",
+      "postUrl": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
+      "publishDate": "2026-07-02T19:33:12+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "When Architecture Became Self-Conscious",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/when-architecture-became-self-conscious",
-      "publishDate": "Mon, 29 Jun 2026 14:57:08 GMT"
+      "postTitle": "How the Industrial Revolution Changed Architecture",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-the-industrial-revolution-changed",
+      "publishDate": "Thu, 02 Jul 2026 14:32:34 GMT"
     },
     {
       "blogTitle": "Anil Dash",
