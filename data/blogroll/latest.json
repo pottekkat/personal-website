@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-03T12:29:50.202795",
+  "lastUpdated": "2026-07-04T11:54:51.248619",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Holes",
-      "postUrl": "https://xkcd.com/3266/",
-      "publishDate": "Wed, 01 Jul 2026 04:00:00 -0000"
+      "postTitle": "Types of Tornado Alert",
+      "postUrl": "https://xkcd.com/3267/",
+      "publishDate": "Fri, 03 Jul 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "llm-coding-agent 0.1a0",
-      "postUrl": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
-      "publishDate": "2026-07-02T19:33:12+00:00"
+      "postTitle": "Open Source AI Gap Map",
+      "postUrl": "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything",
+      "publishDate": "2026-07-03T22:04:31+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
