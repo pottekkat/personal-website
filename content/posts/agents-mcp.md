@@ -76,7 +76,7 @@ Let's write a function that defines our "DiceDB MCP" agent. The agent takes a pr
 # run function runs the DiceDB MCP agent
 async def run(mcp_server: MCPServer, prompt: str, server_url: str):
     agent = Agent(name="DiceDB MCP", # Name of the agent
-		  # Make sure the LLM passes the server_url to the MCP server
+                  # Make sure the LLM passes the server_url to the MCP server
                   instructions=f"""You can interact with a DiceDB
                                 database running at {server_url},
                                 USE THIS FOR URL.""",

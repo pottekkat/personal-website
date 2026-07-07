@@ -255,6 +255,7 @@
     margin: 10px auto;
     background: var(--theme) !important;
     border-radius: var(--radius);
+    tab-size: 4;
 }
 
 .dark .post-content .highlight:not(table),
