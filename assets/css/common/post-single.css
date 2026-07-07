@@ -318,6 +318,12 @@
     word-break: break-all;
 }
 
+/* Grid so every line stretches to the widest line, letting a highlighted line's
+   background span the full scroll width instead of stopping at the viewport edge. */
+.post-content pre.chroma code {
+    display: grid;
+}
+
 .post-content pre code:focus-within {
     outline: 0;
 }
