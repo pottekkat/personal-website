@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-07-07T18:32:11.928115+05:30",
+  "last_updated": "2026-07-08T17:36:20.789942+05:30",
   "links": [
+    {
+      "id": "01kx0jqm51grvbryqv6n51qd2g",
+      "title": "Four books that I gift and recommend the most",
+      "author": "anikthink.com",
+      "source_url": "https://blog.anikthink.com/blog/list-7-books-i-recommend?ref=blr.indiewebclub.org",
+      "published_date": "2026-07-04",
+      "saved_at": "2026-07-08T15:30:18.337000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kx07ze2wjmxfa1ppekqyadtk",
+      "title": "You Owe Him",
+      "author": "The PrimeTime",
+      "source_url": "https://www.youtube.com/watch?v=UHJgQVmIajY",
+      "published_date": "2026-07-07",
+      "saved_at": "2026-07-08T12:22:19.929000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kx07ey471xk74q400qdkatj4",
+      "title": "GTA: Vice City Is a Masterpiece | A Retrospective",
+      "author": "MrHammers",
+      "source_url": "https://www.youtube.com/watch?v=VZV-T7Qt4jc",
+      "published_date": "2024-04-27",
+      "saved_at": "2026-07-08T12:13:19.302000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kwzzv1528598ghx8amy8b1xr",
+      "title": "KRIS SHAMLOO",
+      "author": "krisshamloo.com",
+      "source_url": "https://krisshamloo.com/blog/007",
+      "published_date": "2026-05-03",
+      "saved_at": "2026-07-08T10:00:07.010000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kwzxxr5vfwhgmg3q3vze2dc2",
+      "title": "We used artificial intelligence to test the accuracy of our forecasts",
+      "author": "The Economist",
+      "source_url": "https://archive.is/20260707153313/https://www.economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong",
+      "published_date": "2026-07-07",
+      "saved_at": "2026-07-08T09:26:38.971000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kwzvb2c2p56ncmbhksnrp8hd",
+      "title": "China official who received $325m worth of bribes sentenced to death",
+      "author": "Kelly Ng",
+      "source_url": "https://www.bbc.com/news/articles/c33y0n1v1xjo",
+      "published_date": "2026-07-07",
+      "saved_at": "2026-07-08T08:41:29.664000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kwzv401bp231q1hmfttrtmmx",
+      "title": "Friction is a Feature",
+      "author": "mallegolhansen.com",
+      "source_url": "https://philip.mallegolhansen.com/blog/2026-07-04-friction-is-a-feature.html",
+      "published_date": "2026-07-04",
+      "saved_at": "2026-07-08T08:37:37.899000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kwy1vdycmj2nnsjjpcatps5n",
       "title": "New Anthropic research: A global workspace in language models",
