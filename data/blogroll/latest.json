@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T13:02:46.972473",
+  "lastUpdated": "2026-07-08T12:06:53.950759",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "tencent/Hy3",
-      "postUrl": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
-      "publishDate": "2026-07-06T23:57:35+00:00"
+      "postTitle": "sqlite-utils 4.0, now with database schema migrations",
+      "postUrl": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything",
+      "publishDate": "2026-07-07T19:32:57+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
