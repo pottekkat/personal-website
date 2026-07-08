@@ -921,6 +921,9 @@ You will see a similar answer from the agent as before. You can open the Tempora
 
 You can try building more complex, multi-step agents with more tools that could have ephemeral issues to see how Temporal helps with durability.
 
+> [!HIRING]
+> I'm hiring software engineers and researchers to join our team at [Eternis](https://www.eternis.ai). [Get in touch](mailto:navendu@eternis.ai) if you'd like to work with us.
+
 For my team and me, all of our agent loops are, by default, in Temporal. We self-host the open source version of Temporal, and it seems to meet all our needs.
 
 Temporal also translates well to multi-agent architectures. For example, Temporal has the concept of [_child workflows_](https://docs.temporal.io/child-workflows), which can correspond to child agents spawned by a main agent. Once you get used to Temporal, you will start to think about your agent architecture in terms of these familiar building blocks.
