@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-07-07T16:56:32+05:30",
+  "lastUpdated": "2026-07-08T12:29:54+05:30",
   "entries": [
+    {
+      "hash": "6679398",
+      "date": "2026-07-08T12:29:06+05:30",
+      "message": "Added a new blog post on building durable agents."
+    },
     {
       "hash": "5c88d60",
       "date": "2026-07-07T16:55:43+05:30",
