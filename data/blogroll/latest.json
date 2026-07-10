@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T13:35:17.890326",
+  "lastUpdated": "2026-07-10T12:42:51.313662",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Rewriting Bun in Rust",
-      "postUrl": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
-      "publishDate": "2026-07-08T23:57:21+00:00"
+      "postTitle": "Quoting OpenAI",
+      "postUrl": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
+      "publishDate": "2026-07-10T01:05:57+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Solod v0.2: Networking, new targets, friendlier interop",
-      "postUrl": "https://antonz.org/solod-v0-2/",
-      "publishDate": "Fri, 26 Jun 2026 12:30:00 +0000"
+      "postTitle": "Go-flavored concurrency in C",
+      "postUrl": "https://antonz.org/concurrency-in-c/",
+      "publishDate": "Fri, 10 Jul 2026 12:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "AI as Normal Technology",
       "blogUrl": "https://www.normaltech.ai",
-      "postTitle": "Why AI hasn\u2019t replaced software engineers, and won\u2019t",
-      "postUrl": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
-      "publishDate": "Thu, 11 Jun 2026 02:29:51 GMT"
+      "postTitle": "Up the Stack: How AI\u2019s Escape From the Commodity Trap Risks Enterprise Lock-in",
+      "postUrl": "https://www.normaltech.ai/p/up-the-stack-how-ais-escape-from",
+      "publishDate": "Thu, 09 Jul 2026 22:29:33 GMT"
     },
     {
       "blogTitle": "The Elysian",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "How Islam Overtakes Christianity",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-islam-overtakes-christianity",
-      "publishDate": "Wed, 08 Jul 2026 23:53:28 GMT"
+      "postTitle": "Religion as Software Business",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/religion-as-software-business",
+      "publishDate": "Fri, 10 Jul 2026 10:01:57 GMT"
     },
     {
       "blogTitle": "Anil Dash",
