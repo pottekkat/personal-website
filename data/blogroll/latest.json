@@ -1,26 +1,25 @@
 {
-  "lastUpdated": "2026-07-10T12:42:51.313662",
+  "lastUpdated": "2026-07-11T11:33:51.436733",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Airport Meeting",
-      "postUrl": "https://xkcd.com/3269/",
-      "publishDate": "Wed, 08 Jul 2026 04:00:00 -0000"
+      "postTitle": "Toasting Marshmallows",
+      "postUrl": "https://xkcd.com/3270/",
+      "publishDate": "Fri, 10 Jul 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "European Delusions & Danish Drones",
-      "postUrl": "https://world.hey.com/dhh/european-delusions-danish-drones-a3da0d27",
-      "publishDate": "2026-06-19T11:03:21Z"
+      "error": true,
+      "errorMessage": "403 Forbidden (feedparser)"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting OpenAI",
-      "postUrl": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
-      "publishDate": "2026-07-10T01:05:57+00:00"
+      "postTitle": "Quoting Nilay Patel",
+      "postUrl": "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything",
+      "publishDate": "2026-07-10T17:05:26+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
