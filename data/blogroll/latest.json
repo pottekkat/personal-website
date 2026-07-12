@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T11:33:51.436733",
+  "lastUpdated": "2026-07-12T11:42:33.359169",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,15 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "error": true,
-      "errorMessage": "403 Forbidden (feedparser)"
+      "postTitle": "But Y",
+      "postUrl": "https://world.hey.com/dhh/but-y-2c04e16a",
+      "publishDate": "2026-07-11T23:41:48Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Nilay Patel",
-      "postUrl": "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything",
-      "publishDate": "2026-07-10T17:05:26+00:00"
+      "postTitle": "sqlite-utils 4.1",
+      "postUrl": "https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything",
+      "publishDate": "2026-07-11T23:50:20+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -129,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Go-flavored concurrency in C",
-      "postUrl": "https://antonz.org/concurrency-in-c/",
-      "publishDate": "Fri, 10 Jul 2026 12:00:00 +0000"
+      "postTitle": "On interactive Go tours",
+      "postUrl": "https://antonz.org/on-go-tours/",
+      "publishDate": "Sat, 11 Jul 2026 12:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
