@@ -22,21 +22,54 @@
 {{- $bc_list := (split $lang_url "/")}}
 
 {{- $scratch := newScratch }}
+
+{{- /* Notes are titleless (IndieWeb pattern), so fall back to truncated content the
+       way head.html does for the <title> tag. Assigned in stages rather than piped
+       through `default`, because `default` evaluates its argument eagerly and would
+       render .Content on every page even when a title exists.
+       htmlUnescape must run after truncate: truncate re-escapes entities, and unlike
+       head.html this value lands in a JSON string, where "&amp;" would be literal. */ -}}
+{{- $page_name := .Name -}}
+{{- if not $page_name -}}
+  {{- $page_name = .Content | plainify | truncate 60 | htmlUnescape | strings.TrimSpace -}}
+{{- end -}}
+{{- if and (not $page_name) (not .Date.IsZero) -}}
+  {{- $page_name = .Date.Format "2 Jan 2006" -}}
+{{- end -}}
+
+{{- /* Mirror breadcrumbs.html: individual notes show no self crumb, so don't claim one
+       in the structured data either. Google requires the markup to match what the page
+       shows, and every itemListElement needs a non-empty name. The length guard keeps
+       the list from emptying out on a page that is typed "notes" but has no parent. */ -}}
+{{- $show_self_crumb := or (ne .Type "notes") (eq .Kind "section") (lt (len $bc_list) 2) -}}
+
+{{- /* Without a self crumb the trail would be a single item, below the two-ListItem
+       minimum Google needs to show a breadcrumb. Lead with Home instead, which is what
+       the page's visible breadcrumb ("Home » Notes") already renders. */ -}}
+{{- $offset := cond $show_self_crumb 0 1 -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
+  {{- if not $show_self_crumb }}
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": {{ i18n "home" | default "Home" }},
+      "item": {{ "" | absLangURL }}
+    }
+  {{- end }}
   {{- range $index, $element := $bc_list }}
 
     {{- $scratch.Add "path" (printf "%s/" $element ) | safeJS }}
     {{- $bc_pg := site.GetPage ($scratch.Get "path") -}}
 
     {{- if (and ($bc_pg) (gt (len . ) 0))}}
-    {{- if (and $index)}}, {{end }}
+    {{- if (or $index $offset)}}, {{end }}
     {
       "@type": "ListItem",
-      "position": {{ add 1 $index  }},
+      "position": {{ add (add 1 $index) $offset }},
       "name": {{ $bc_pg.Name }},
       "item": {{ $bc_pg.Permalink | safeHTML }}
     }
@@ -44,13 +77,15 @@
 
   {{- end }}
   {{- /*  self-page addition  */ -}}
+  {{- if $show_self_crumb }}
   {{- if (ge (len $bc_list) 2) }}, {{end }}
     {
       "@type": "ListItem",
       "position": {{len $bc_list}},
-      "name": {{ .Name }},
+      "name": {{ $page_name }},
       "item": {{ .Permalink | safeHTML }}
     }
+  {{- end }}
   ]
 }
 </script>
@@ -59,8 +94,10 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": {{ .Title | plainify}},
-  "name": "{{ .Title | plainify }}",
+  {{ with $page_name -}}
+  "headline": {{ . }},
+  "name": {{ . }},
+  {{ end -}}
   "description": {{ with .Description | plainify }}{{ . }}{{ else }}{{ .Summary | plainify  }}{{ end -}},
   "keywords": [
     {{- if .Params.keywords }}
