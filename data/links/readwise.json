@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-07-12T17:11:59.899428+05:30",
+  "last_updated": "2026-07-13T18:31:48.861483+05:30",
   "links": [
+    {
+      "id": "01kxdecdb110qk9f4tq7zkdhm7",
+      "title": "Career advice in the age of AI ",
+      "author": "Phil Chen",
+      "source_url": "https://x.com/philhchen/status/2072793818945167475/?rw_tt_thread=True",
+      "published_date": "2026-07-02",
+      "saved_at": "2026-07-13T15:24:24.224000+05:30",
+      "reading_time": "6 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kxddwk5g8qkjhqfavsykx179",
+      "title": "The End of Reading Is Here - The Atlantic",
+      "author": "archive.is",
+      "source_url": "https://archive.is/55kTO",
+      "published_date": "2026-07-12",
+      "saved_at": "2026-07-13T15:15:45.903000+05:30",
+      "reading_time": "35 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kxd27q2tyx1qpp15r3xr06hj",
+      "title": "Stop ignoring the signs of burnout",
+      "author": "bashbunni",
+      "source_url": "https://www.youtube.com/watch?v=294bntqkApE",
+      "published_date": "2026-07-12",
+      "saved_at": "2026-07-13T11:52:07.450000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kxd01rnb3fevtvybeg59cvcg",
+      "title": "Invisible Companies",
+      "author": "Colossus",
+      "source_url": "https://colossus.com/article/invisible-companies/",
+      "published_date": "2026-07-13",
+      "saved_at": "2026-07-13T11:13:55.306000+05:30",
+      "reading_time": "14 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kxcwxnh1zj35r0xatgwyvmcq",
+      "title": "Why I Stopped Arguing With People",
+      "author": "Cong Wang",
+      "source_url": "https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html",
+      "published_date": "2026-06-30",
+      "saved_at": "2026-07-13T10:19:15.297000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kxctsn4j6ayv8qe92nzd5q9m",
+      "title": "Immortality Sounds Pretty Good, Actually",
+      "author": "Paul Bloom",
+      "source_url": "https://smallpotatoes.paulbloom.net/p/immortality-sounds-pretty-good-actually",
+      "published_date": "2026-06-16",
+      "saved_at": "2026-07-13T09:42:06.674000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kxaae2sjrxw3rnnmra44ckk9",
       "title": "In defense of not understanding your codebase",
