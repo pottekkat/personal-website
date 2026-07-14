@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-13T13:02:20.793141",
+  "lastUpdated": "2026-07-14T11:59:07.943331",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Toasting Marshmallows",
-      "postUrl": "https://xkcd.com/3270/",
-      "publishDate": "Fri, 10 Jul 2026 04:00:00 -0000"
+      "postTitle": "The Princess and the Pea",
+      "postUrl": "https://xkcd.com/3271/",
+      "publishDate": "Mon, 13 Jul 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Directly Responsible Individuals (DRI)",
-      "postUrl": "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything",
-      "publishDate": "2026-07-12T23:57:14+00:00"
+      "postTitle": "Using uvx in GitHub Actions in a cache-friendly way",
+      "postUrl": "https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything",
+      "publishDate": "2026-07-14T00:56:20+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "AI as Normal Technology",
       "blogUrl": "https://www.normaltech.ai",
-      "postTitle": "Up the Stack: How AI\u2019s Escape From the Commodity Trap Risks Enterprise Lock-in",
-      "postUrl": "https://www.normaltech.ai/p/up-the-stack-how-ais-escape-from",
-      "publishDate": "Thu, 09 Jul 2026 22:29:33 GMT"
+      "postTitle": "What will be left for us to work on?",
+      "postUrl": "https://www.normaltech.ai/p/what-will-be-left-for-us-to-work",
+      "publishDate": "Mon, 13 Jul 2026 18:47:06 GMT"
     },
     {
       "blogTitle": "The Elysian",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "People Love Work | #329",
-      "postUrl": "https://newsletter.pathlesspath.com/p/people-love-work-329",
-      "publishDate": "Mon, 29 Jun 2026 14:39:19 GMT"
+      "postTitle": "Will you train the models for pay? | #330",
+      "postUrl": "https://newsletter.pathlesspath.com/p/will-you-train-the-models-for-pay",
+      "publishDate": "Mon, 13 Jul 2026 14:12:51 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
