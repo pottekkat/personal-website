@@ -1,26 +1,25 @@
 {
-  "lastUpdated": "2026-07-15T12:04:06.153526",
+  "lastUpdated": "2026-07-16T12:05:05.915738",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "The Princess and the Pea",
-      "postUrl": "https://xkcd.com/3271/",
-      "publishDate": "Mon, 13 Jul 2026 04:00:00 -0000"
+      "postTitle": "Time Change",
+      "postUrl": "https://xkcd.com/3272/",
+      "publishDate": "Wed, 15 Jul 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Dell is on a roll with the XPS",
-      "postUrl": "https://world.hey.com/dhh/dell-is-on-a-roll-with-the-xps-5a09a84e",
-      "publishDate": "2026-07-14T22:04:28Z"
+      "error": true,
+      "errorMessage": "403 Forbidden (feedparser)"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting GitHub Changelog",
-      "postUrl": "https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything",
-      "publishDate": "2026-07-14T22:43:35+00:00"
+      "postTitle": "Mermaid to Unicode box art (grok-mermaid)",
+      "postUrl": "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything",
+      "publishDate": "2026-07-16T00:33:18+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
