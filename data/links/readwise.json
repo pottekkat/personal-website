@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-07-15T17:33:32.659538+05:30",
+  "last_updated": "2026-07-16T17:34:27.749361+05:30",
   "links": [
+    {
+      "id": "01kxn7qardgsq1e4k6r7r0ad68",
+      "title": "How to catch an arsonist",
+      "author": "Howtown",
+      "source_url": "https://www.youtube.com/watch?v=pTDKkOy2KcA",
+      "published_date": "2026-06-30",
+      "saved_at": "2026-07-16T16:01:57.452000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kxmpjg1sv2kx2dxktdq33e17",
+      "title": "Are we offloading too much of our thinking to AI?",
+      "author": "Yennie Jun",
+      "source_url": "https://www.artfish.ai/p/offloading-thinking-to-ai",
+      "published_date": "2026-07-14",
+      "saved_at": "2026-07-16T11:02:13.241000+05:30",
+      "reading_time": "7 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kxmnwzs9b1amng8r0e4yavfp",
+      "title": "The Tower Keeps Rising",
+      "author": "Armin Ronacher",
+      "source_url": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
+      "published_date": "2026-07-13",
+      "saved_at": "2026-07-16T10:50:28.457000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kxmnfqt9n66rg1b8hkjjmyw1",
+      "title": "What's the most popular number in Hacker News titles?",
+      "author": "Max Glenister",
+      "source_url": "https://blog.omgmog.net/post/most-popular-numbers-in-hn-post-titles/",
+      "published_date": "2026-07-15",
+      "saved_at": "2026-07-16T10:43:14.313000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kxgqgy6bqb3kcvdv34zb0gc4",
       "title": "I'm a USB-C Maximalist",
