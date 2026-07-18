@@ -71,6 +71,7 @@
     {
       "id": "genre",
       "options": [
+        "American",
         "Astronomy",
         "Autobiography",
         "Chinese",
@@ -97,7 +98,8 @@
         "Science Fiction",
         "Sociology",
         "Space",
-        "Thriller"
+        "Thriller",
+        "Travel"
       ]
     }
   ],
