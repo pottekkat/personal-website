@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-07-18T13:16:42+05:30",
+  "lastUpdated": "2026-07-18T13:58:20+05:30",
   "entries": [
+    {
+      "hash": "af10bd8",
+      "date": "2026-07-18T13:57:28+05:30",
+      "message": "Added a new book review and updated genre options in metadata."
+    },
     {
       "hash": "5bda45c",
       "date": "2026-07-18T13:15:55+05:30",
