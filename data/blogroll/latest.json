@@ -1,25 +1,26 @@
 {
-  "lastUpdated": "2026-07-17T11:55:32.933470",
+  "lastUpdated": "2026-07-18T11:33:41.090553",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Time Change",
-      "postUrl": "https://xkcd.com/3272/",
-      "publishDate": "Wed, 15 Jul 2026 04:00:00 -0000"
+      "postTitle": "Latitude and Longitude",
+      "postUrl": "https://xkcd.com/3273/",
+      "publishDate": "Fri, 17 Jul 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "error": true,
-      "errorMessage": "403 Forbidden (feedparser)"
+      "postTitle": "Three sacred cows that must die so Europe can live",
+      "postUrl": "https://world.hey.com/dhh/three-sacred-cows-that-must-die-so-europe-can-live-1afb203d",
+      "publishDate": "2026-07-16T19:15:59Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Spot birds not golf",
-      "postUrl": "https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-everything",
-      "publishDate": "2026-07-17T02:58:07+00:00"
+      "postTitle": "Claude make Fable 5 permanent",
+      "postUrl": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
+      "publishDate": "2026-07-18T06:00:13+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -80,9 +81,9 @@
     {
       "blogTitle": "Julia Evans",
       "blogUrl": "https://jvns.ca/",
-      "postTitle": "Moving away from Tailwind, and learning to structure my CSS",
-      "postUrl": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
-      "publishDate": "2026-05-15T00:00:00+00:00"
+      "postTitle": "Learning a few things about running SQLite",
+      "postUrl": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
+      "publishDate": "2026-07-17T00:00:00+00:00"
     },
     {
       "blogTitle": "Imposter!",
@@ -157,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "War by Other Means",
-      "postUrl": "https://letter.palladiummag.com/p/war-by-other-means",
-      "publishDate": "Tue, 23 Jun 2026 23:29:26 GMT"
+      "postTitle": "New Article: Mesa-Optimization is Destroying Education",
+      "postUrl": "https://letter.palladiummag.com/p/new-article-mesa-optimization-is",
+      "publishDate": "Fri, 17 Jul 2026 13:56:20 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
