@@ -1,7 +1,7 @@
 ---
 title: Septology
 date: 2026-07-19T15:11:13Z
-draft: true
+draft: false
 summary: Review of "Septology" by Jon Fosse.
 bookMeta:
   author: Jon Fosse
