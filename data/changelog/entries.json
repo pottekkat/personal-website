@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-07-18T19:41:55+05:30",
+  "lastUpdated": "2026-07-19T21:15:29+05:30",
   "entries": [
+    {
+      "hash": "cb1df17",
+      "date": "2026-07-19T21:11:11+05:30",
+      "message": "Marked the 'Septology' book entry as published."
+    },
+    {
+      "hash": "0112224",
+      "date": "2026-07-19T21:10:33+05:30",
+      "message": "Added new book entry for 'Septology' and updated frontmatter categories."
+    },
     {
       "hash": "0017594",
       "date": "2026-07-18T19:41:05+05:30",
