@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-20T12:35:44.438740",
+  "lastUpdated": "2026-07-21T12:10:58.587504",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Latitude and Longitude",
-      "postUrl": "https://xkcd.com/3273/",
-      "publishDate": "Fri, 17 Jul 2026 04:00:00 -0000"
+      "postTitle": "Arthurian Connector",
+      "postUrl": "https://xkcd.com/3274/",
+      "publishDate": "Mon, 20 Jul 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Sam Altman",
-      "postUrl": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
-      "publishDate": "2026-07-20T03:47:59+00:00"
+      "postTitle": "Reverse-engineering is cheap now",
+      "postUrl": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything",
+      "publishDate": "2026-07-20T19:24:05+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "New Article: Mesa-Optimization is Destroying Education",
-      "postUrl": "https://letter.palladiummag.com/p/new-article-mesa-optimization-is",
-      "publishDate": "Fri, 17 Jul 2026 13:56:20 GMT"
+      "postTitle": "New Article: Wiring Capital to Compute",
+      "postUrl": "https://letter.palladiummag.com/p/new-article-wiring-capital-to-compute",
+      "publishDate": "Mon, 20 Jul 2026 19:23:59 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "GeoHistory Dispatch",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/geohistory-dispatch",
-      "publishDate": "Sun, 19 Jul 2026 04:38:19 GMT"
+      "postTitle": "Dispatch on the Craziness of Wealth Taxes",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/dispatch-on-the-craziness-of-wealth",
+      "publishDate": "Tue, 21 Jul 2026 06:40:14 GMT"
     },
     {
       "blogTitle": "Anil Dash",
