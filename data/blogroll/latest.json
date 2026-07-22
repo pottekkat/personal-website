@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T12:10:58.587504",
+  "lastUpdated": "2026-07-22T12:14:43.815886",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Three sacred cows that must die so Europe can live",
-      "postUrl": "https://world.hey.com/dhh/three-sacred-cows-that-must-die-so-europe-can-live-1afb203d",
-      "publishDate": "2026-07-16T19:15:59Z"
+      "postTitle": "Wolves, sheep, and gypsies",
+      "postUrl": "https://world.hey.com/dhh/wolves-sheep-and-gypsies-ba44af6a",
+      "publishDate": "2026-07-21T20:02:31Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Reverse-engineering is cheap now",
-      "postUrl": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything",
-      "publishDate": "2026-07-20T19:24:05+00:00"
+      "postTitle": "Nativ: Run AI models locally on your Mac",
+      "postUrl": "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything",
+      "publishDate": "2026-07-21T14:22:27+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -81,9 +81,9 @@
     {
       "blogTitle": "Julia Evans",
       "blogUrl": "https://jvns.ca/",
-      "postTitle": "Learning a few things about running SQLite",
-      "postUrl": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
-      "publishDate": "2026-07-17T00:00:00+00:00"
+      "postTitle": "Some more things about Django I've been enjoying",
+      "postUrl": "https://jvns.ca/blog/2026/07/21/more-nice-django-things/",
+      "publishDate": "2026-07-21T00:00:00+00:00"
     },
     {
       "blogTitle": "Imposter!",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Another step toward becoming reader-owned media",
-      "postUrl": "https://www.elysian.press/p/another-step-toward-becoming-reader",
-      "publishDate": "Tue, 07 Jul 2026 12:02:00 GMT"
+      "postTitle": "Must I still have anxiety from 20 years ago?",
+      "postUrl": "https://www.elysian.press/p/must-i-still-have-anxiety",
+      "publishDate": "Wed, 22 Jul 2026 11:05:11 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
