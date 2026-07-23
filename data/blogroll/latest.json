@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-22T12:14:43.815886",
+  "lastUpdated": "2026-07-23T12:12:41.008739",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Arthurian Connector",
-      "postUrl": "https://xkcd.com/3274/",
-      "publishDate": "Mon, 20 Jul 2026 04:00:00 -0000"
+      "postTitle": "Calibration Nobel",
+      "postUrl": "https://xkcd.com/3275/",
+      "publishDate": "Wed, 22 Jul 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Nativ: Run AI models locally on your Mac",
-      "postUrl": "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything",
-      "publishDate": "2026-07-21T14:22:27+00:00"
+      "postTitle": "Quoting Seth Larson",
+      "postUrl": "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything",
+      "publishDate": "2026-07-23T04:50:36+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
