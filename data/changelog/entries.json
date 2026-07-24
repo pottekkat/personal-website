@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-07-19T21:15:29+05:30",
+  "lastUpdated": "2026-07-24T16:50:34+05:30",
   "entries": [
+    {
+      "hash": "2ba4caa",
+      "date": "2026-07-24T16:49:41+05:30",
+      "message": "Updated the reading status and metadata for a specific book review."
+    },
     {
       "hash": "cb1df17",
       "date": "2026-07-19T21:11:11+05:30",
