@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-07-24T17:34:26.297784+05:30",
+  "last_updated": "2026-07-25T17:17:26.654001+05:30",
   "links": [
+    {
+      "id": "01kyc7nxf6tzgwnnktdwz48x5b",
+      "title": "Why does this movie look like a bunch of time travelers made it?￼",
+      "author": "CinemaStix",
+      "source_url": "https://www.youtube.com/watch?v=mOrljLeKLVs",
+      "published_date": "2026-07-24",
+      "saved_at": "2026-07-25T14:23:43.013000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kyaanrhh653cdqgcwq73hxtn",
+      "title": "For my first post, I’m sharing a letter @NVIDIA signed...",
+      "author": "Jensen Huang",
+      "source_url": "https://x.com/JensenHuang/status/2080643682408321103/?rw_tt_thread=True",
+      "published_date": "2026-07-24",
+      "saved_at": "2026-07-24T20:37:34.832000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kya0h7rpy6601a3j67z80t4k",
+      "title": "The day Steve Jobs dissed me in a keynote",
+      "author": "Derek Sivers",
+      "source_url": "https://sive.rs/itunes",
+      "published_date": "2010-11-10",
+      "saved_at": "2026-07-24T17:40:20.821000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01ky9zzxyaps417vnvpezc0f3j",
       "title": "Nothing Works and Everyone Is Euphoric",
