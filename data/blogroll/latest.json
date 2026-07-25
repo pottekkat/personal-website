@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-24T12:05:05.262320",
+  "lastUpdated": "2026-07-25T11:48:08.320640",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Calibration Nobel",
-      "postUrl": "https://xkcd.com/3275/",
-      "publishDate": "Wed, 22 Jul 2026 04:00:00 -0000"
+      "postTitle": "Recursive Trucker's Hitch",
+      "postUrl": "https://xkcd.com/3276/",
+      "publishDate": "Fri, 24 Jul 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "The first known runaway AI agent - or a very bad marketing stunt?",
-      "postUrl": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
-      "publishDate": "2026-07-23T22:53:08+00:00"
+      "postTitle": "Quoting Boris Cherny",
+      "postUrl": "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
+      "publishDate": "2026-07-25T00:42:59+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "I Like Laundromats",
-      "postUrl": "https://sheep.horse/2025/8/i_like_laundromats.html",
-      "publishDate": "Tue, 05 Aug 2025 16:35:31 +0000"
+      "postTitle": "Checking Off Boxes in London",
+      "postUrl": "https://sheep.horse/2025/9/checking_off_boxes_in_london.html",
+      "publishDate": "Thu, 04 Sep 2025 18:58:27 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
@@ -179,16 +179,16 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Dispatch on the Craziness of Wealth Taxes",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/dispatch-on-the-craziness-of-wealth",
-      "publishDate": "Tue, 21 Jul 2026 06:40:14 GMT"
+      "postTitle": "Energy & Environment Dispatch",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/energy-and-environment-dispatch",
+      "publishDate": "Sat, 25 Jul 2026 10:01:48 GMT"
     },
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Endgame for the Open Web",
-      "postUrl": "https://anildash.com/2026/03/27/endgame-open-web/",
-      "publishDate": "2026-03-27T00:00:00Z"
+      "postTitle": "Defending Privacy, Daily",
+      "postUrl": "https://anildash.com/2026/03/31/defending-privacy-daily/",
+      "publishDate": "2026-03-31T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
