@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-07-24T17:23:15+05:30",
+  "lastUpdated": "2026-07-26T17:10:55+05:30",
   "entries": [
+    {
+      "hash": "0fb3011",
+      "date": "2026-07-26T17:09:35+05:30",
+      "message": "Updated book frontmatter to include a 'status' field for tracking progress."
+    },
     {
       "hash": "bb8cdda",
       "date": "2026-07-24T17:21:36+05:30",
