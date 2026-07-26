@@ -3,6 +3,7 @@ title: Stubborn Attachments
 date: 2025-12-16T13:08:12+05:30
 draft: false
 summary: Review of "Stubborn Attachments" by Tyler Cowen.
+status: Read
 bookMeta:
   author: Tyler Cowen
   published: 2018
@@ -14,7 +15,6 @@ bookMeta:
     - Non-Fiction
     - Philosophy
     - Politics
-  status: Read
   rating: 5
   coverImage: /images/books/covers/stubborn-attachments.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/41076657-stubborn-attachments

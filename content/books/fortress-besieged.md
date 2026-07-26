@@ -3,6 +3,7 @@ title: Fortress Besieged
 date: 2025-06-12T19:23:32+05:30
 draft: false
 summary: Review of "Fortress Besieged" by Qian Zhongshu.
+status: Want to Read
 bookMeta:
   author: Qian Zhongshu
   published: 1947
@@ -13,7 +14,6 @@ bookMeta:
     - Chinese
     - Fiction
     - Classics
-  status: Want to Read
   rating: 0
   coverImage: /images/books/covers/fortress-besieged.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/43569610-fortress-besieged

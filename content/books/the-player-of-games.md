@@ -3,6 +3,7 @@ title: The Player of Games
 date: 2025-12-11T10:22:18+05:30
 draft: false
 summary: Review of "The Player of Games" by Ian M Banks.
+status: Read
 bookMeta:
   author: Ian M Banks
   published: 1988
@@ -14,7 +15,6 @@ bookMeta:
     - Science Fiction
     - Space
     - Fiction
-  status: Read
   rating: 4
   coverImage: /images/books/covers/the-player-of-games.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/200779195-the-player-of-games

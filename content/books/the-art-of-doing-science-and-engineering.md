@@ -3,6 +3,7 @@ title: The Art of Doing Science and Engineering
 date: 2025-03-25T13:21:17+05:30
 draft: false
 summary: Review of "The Art of Doing Science and Engineering" by Richard W Hamming.
+status: Read
 bookMeta:
     author: Richard W Hamming
     published: 1996
@@ -14,7 +15,6 @@ bookMeta:
         - Science
         - Engineering
         - Philosophy
-    status: Read
     rating: 4
     coverImage: /images/books/covers/the-art-of-doing-science-and-engineering.jpg
     goodreadsUrl: https://www.goodreads.com/book/show/53349431-the-art-of-doing-science-and-engineering

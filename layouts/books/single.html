@@ -41,7 +41,7 @@
         </div>
         
         <div class="book-status-section">
-          <div class="book-status {{ replace (lower .status) " " "-" }}">{{ .status }}</div>
+          <div class="book-status {{ replace (lower $.Params.status) " " "-" }}">{{ $.Params.status }}</div>
           
           <div class="book-rating">
             {{- $rating := or .rating 0 }}

@@ -3,6 +3,7 @@ title: "The Lost Continent: Travels in Small-Town America"
 date: 2026-07-18T07:50:30Z
 draft: false
 summary: 'Review of "The Lost Continent: Travels in Small-Town America" by Bill Bryson.'
+status: Reading
 bookMeta:
   author: Bill Bryson
   published: 1989
@@ -15,7 +16,6 @@ bookMeta:
     - Non-Fiction
     - Travel
     - American
-  status: Reading
   rating: 0
   coverImage: /images/books/covers/the-lost-continent.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/10539.The_Lost_Continent

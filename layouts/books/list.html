@@ -82,7 +82,7 @@
         <div class="book-rating">
           {{- template "star-rating" dict "rating" (or .Params.bookMeta.rating 0) }}
         </div>
-        <span class="book-status {{ replace (lower .Params.bookMeta.status) " " "-" }}">{{ .Params.bookMeta.status }}</span>
+        <span class="book-status {{ replace (lower .Params.status) " " "-" }}">{{ .Params.status }}</span>
       </div>
     </div>
   </a>
@@ -122,8 +122,8 @@
           {{- template "star-rating" dict "rating" (or .Params.bookMeta.rating 0) }}
         </td>
         <td>
-          {{- if .Params.bookMeta.status }}
-          <span class="book-status {{ replace (lower .Params.bookMeta.status) " " "-" }}">{{ .Params.bookMeta.status }}</span>
+          {{- if .Params.status }}
+          <span class="book-status {{ replace (lower .Params.status) " " "-" }}">{{ .Params.status }}</span>
           {{- else }}
           <span class="book-status want-to-read">Want to Read</span>
           {{- end }}

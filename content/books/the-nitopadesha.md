@@ -3,6 +3,7 @@ title: The Nitopadesha
 date: 2024-12-15T10:31:53+05:30
 draft: false
 summary: Review of "The Nitopadesha" by Nitin Pai.
+status: Read
 bookMeta:
     author: Nitin Pai
     published: 2023
@@ -14,7 +15,6 @@ bookMeta:
         - Public Policy
         - Economics
         - Fable
-    status: Read
     rating: 5
     coverImage: /images/books/covers/the-nitopadesha.jpg
     goodreadsUrl: https://www.goodreads.com/book/show/75515336-the-nitopadesha

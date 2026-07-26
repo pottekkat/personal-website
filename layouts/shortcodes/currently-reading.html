@@ -1,5 +1,5 @@
 {{- $bookPages := where .Site.RegularPages "Section" "books" -}}
-{{- $readingBooks := where $bookPages ".Params.bookMeta.status" "Reading" -}}
+{{- $readingBooks := where $bookPages ".Params.status" "Reading" -}}
 {{- if gt (len $readingBooks) 0 -}}
 <p>I'm currently reading
 {{- range $index, $book := $readingBooks -}}

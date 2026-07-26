@@ -3,6 +3,7 @@ title: "The Storyteller: Tales of Life and Music"
 date: 2025-06-10T09:52:58+05:30
 draft: false
 summary: 'Review of "The Storyteller: Tales of Life and Music" by Dave Grohl.'
+status: Read
 bookMeta:
   author: Dave Grohl
   published: 2021
@@ -14,7 +15,6 @@ bookMeta:
     - Music
     - Non-Fiction
     - Memoir
-  status: Read
   rating: 5
   coverImage: /images/books/covers/the-storyteller-tales-of-life-and-music.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/57648017-the-storyteller

@@ -421,6 +421,18 @@
           "type": "string"
         },
         {
+          "title": "Reading Status",
+          "name": "status",
+          "type": "choice",
+          "choices": [
+            "Reading",
+            "Want to Read",
+            "Read",
+            "Paused",
+            "Abandoned"
+          ]
+        },
+        {
           "title": "Book Metadata",
           "name": "bookMeta",
           "type": "fields",
@@ -455,18 +467,6 @@
               "name": "genre",
               "type": "taxonomy",
               "taxonomyId": "genre"
-            },
-            {
-              "title": "Reading Status",
-              "name": "status",
-              "type": "choice",
-              "choices": [
-                "Reading",
-                "Want to Read",
-                "Read",
-                "Paused",
-                "Abandoned"
-              ]
             },
             {
               "title": "Rating (1-5)",
@@ -555,6 +555,15 @@
       "excludePaths": [
         "_*.*"
       ]
+    }
+  ],
+  "frontMatter.content.filters": [
+    "contentFolders",
+    "tags",
+    "categories",
+    {
+      "title": "Reading status",
+      "name": "status"
     }
   ],
   "frontMatter.dashboard.content.card.fields.description": "summary",

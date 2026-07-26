@@ -3,6 +3,7 @@ title: The Death of Ivan Ilyich
 date: 2026-07-01T13:44:46Z
 draft: false
 summary: Review of "The Death of Ivan Ilyich" by Leo Tolstoy.
+status: Read
 bookMeta:
   author: Leo Tolstoy
   published: 1886
@@ -14,7 +15,6 @@ bookMeta:
     - Fiction
     - Russian
     - Philosophy
-  status: Read
   rating: 5
   coverImage: /images/books/covers/the-death-of-ivan-ilyich.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/29410489-the-death-of-ivan-ilyich

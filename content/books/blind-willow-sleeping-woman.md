@@ -3,6 +3,7 @@ title: Blind Willow, Sleeping Woman
 date: 2025-08-31T11:15:15+05:30
 draft: false
 summary: Review of "Blind Willow, Sleeping Woman" by Haruki Murakami.
+status: Read
 bookMeta:
   author: Haruki Murakami
   published: 2006
@@ -13,7 +14,6 @@ bookMeta:
     - Fiction
     - Japanese
     - Contemporary
-  status: Read
   rating: 5
   coverImage: /images/books/covers/blind-willow-sleeping-woman.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/9833.Blind_Willow_Sleeping_Woman

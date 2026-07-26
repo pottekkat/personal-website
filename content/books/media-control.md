@@ -3,6 +3,7 @@ title: Media Control
 date: 2025-06-03T19:01:53+05:30
 draft: false
 summary: Review of "Media Control" by Noam Chomsky.
+status: Read
 bookMeta:
   author: Noam Chomsky
   published: 1994
@@ -13,7 +14,6 @@ bookMeta:
     - Non-Fiction
     - Politics
     - Sociology
-  status: Read
   rating: 4
   coverImage: /images/books/covers/media-control.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/12615.Media_Control

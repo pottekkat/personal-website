@@ -3,6 +3,7 @@ title: How to Live
 date: 2025-06-12T19:11:09+05:30
 draft: false
 summary: Review of "How to Live" by Derek Sivers.
+status: Abandoned
 bookMeta:
   author: Derek Sivers
   published: 2021
@@ -12,7 +13,6 @@ bookMeta:
   genre:
     - Philosophy
     - Non-Fiction
-  status: Abandoned
   coverImage: /images/books/covers/how-to-live.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/61351606-how-to-live
   rating: 0

@@ -3,6 +3,7 @@ title: Hyperbole and a Half
 date: 2026-05-10T11:37:01+05:30
 draft: false
 summary: Review of "Hyperbole and a Half" by Allie Brosh.
+status: Read
 bookMeta:
   author: Allie Brosh
   published: 2013
@@ -13,7 +14,6 @@ bookMeta:
     - Humor
     - Non-Fiction
     - Comic
-  status: Read
   rating: 4
   coverImage: /images/books/covers/hyperbole-and-a-half.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/17571564-hyperbole-and-a-half

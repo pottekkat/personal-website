@@ -3,6 +3,7 @@ title: Drive Your Plow Over the Bones of the Dead
 date: 2026-01-21T22:19:41+05:30
 draft: false
 summary: Review of "Drive Your Plow Over the Bones of the Dead" by Olga Tokarczuk.
+status: Read
 bookMeta:
   author: Olga Tokarczuk
   published: 2009
@@ -13,7 +14,6 @@ bookMeta:
     - Fiction
     - Mystery
     - Thriller
-  status: Read
   rating: 4
   coverImage: /images/books/covers/drive-your-plow-over-the-bones-of-the-dead.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/36609308-drive-your-plow-over-the-bones-of-the-dead

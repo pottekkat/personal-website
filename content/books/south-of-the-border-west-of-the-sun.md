@@ -3,6 +3,7 @@ title: South of the Border, West of the Sun
 date: 2025-06-08T18:20:42+05:30
 draft: false
 summary: Review of "South of the Border, West of the Sun" by Haruki Murakami.
+status: Read
 bookMeta:
   author: Haruki Murakami
   published: 1992
@@ -13,7 +14,6 @@ bookMeta:
     - Contemporary
     - Fiction
     - Japanese
-  status: Read
   rating: 4
   coverImage: /images/books/covers/south-of-the-border-west-of-the-sun.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/17799.South_of_the_Border_West_of_the_Sun

@@ -3,6 +3,7 @@ title: Septology
 date: 2026-07-19T15:11:13Z
 draft: false
 summary: Review of "Septology" by Jon Fosse.
+status: Want to Read
 bookMeta:
   author: Jon Fosse
   published: 2016
@@ -13,7 +14,6 @@ bookMeta:
     - Contemporary
     - Fiction
     - Scandinavian
-  status: Want to Read
   rating: 0
   coverImage: /images/books/covers/septology.png
   goodreadsUrl: https://www.goodreads.com/book/show/60246552-septology

@@ -3,6 +3,7 @@ title: Leviathan Wakes
 date: 2025-04-03T08:13:11+05:30
 draft: false
 summary: Review of "Leviathan Wakes" by James S A Corey.
+status: Read
 bookMeta:
     author: James S A Corey
     published: 2011
@@ -14,7 +15,6 @@ bookMeta:
         - Fantasy
         - Fiction
         - Space
-    status: Read
     rating: 4
     coverImage: /images/books/covers/leviathan-wakes.jpg
     goodreadsUrl: https://www.goodreads.com/book/show/8855321-leviathan-wakes
