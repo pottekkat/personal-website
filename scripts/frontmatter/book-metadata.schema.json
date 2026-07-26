@@ -1,0 +1,55 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["summary", "bookMeta", "notes"],
+  "properties": {
+    "summary": {
+      "type": "string",
+      "description": "Exactly: Review of \"<Title>\" by <Author>."
+    },
+    "bookMeta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "author",
+        "published",
+        "isbn",
+        "publisher",
+        "pageCount",
+        "genre",
+        "coverImage",
+        "goodreadsUrl"
+      ],
+      "properties": {
+        "author": { "type": "string" },
+        "published": {
+          "type": "integer",
+          "description": "Year the work was first published, not the reprint. 0 if unknown."
+        },
+        "isbn": {
+          "type": "string",
+          "description": "ISBN-13 of the chosen edition, 13 digits, no hyphens. Empty string if unverified."
+        },
+        "publisher": { "type": "string" },
+        "pageCount": { "type": "integer" },
+        "genre": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "3-5 values from the genre taxonomy in frontmatter.json."
+        },
+        "coverImage": {
+          "type": "string",
+          "description": "Site-absolute path of the downloaded cover, e.g. /images/books/covers/<slug>.jpg. Empty string if no cover was saved."
+        },
+        "goodreadsUrl": {
+          "type": "string",
+          "description": "Canonical Goodreads book URL. Empty string if it could not be verified."
+        }
+      }
+    },
+    "notes": {
+      "type": "string",
+      "description": "Uncertainties, conflicts between sources, and the LibraryThing work id used. For the human, not the file."
+    }
+  }
+}

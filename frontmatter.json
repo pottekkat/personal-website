@@ -572,6 +572,14 @@
       "id": "create-image-folder",
       "title": "Create image folder",
       "script": "./scripts/frontmatter/create-image-folder.js"
+    },
+    {
+      "id": "book-metadata",
+      "title": "Fetch book metadata",
+      "script": "./scripts/frontmatter/book-metadata.js",
+      "command": "node",
+      "type": "content",
+      "contentTypes": ["Book Review"]
     }
   ],
   "frontMatter.extensibility.scripts": [
