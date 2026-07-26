@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T11:48:08.320640",
+  "lastUpdated": "2026-07-26T11:47:15.849731",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Boris Cherny",
-      "postUrl": "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
-      "publishDate": "2026-07-25T00:42:59+00:00"
+      "postTitle": "Ruff v0.16.0",
+      "postUrl": "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything",
+      "publishDate": "2026-07-25T22:44:05+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "On interactive Go tours",
-      "postUrl": "https://antonz.org/on-go-tours/",
-      "publishDate": "Sat, 11 Jul 2026 12:30:00 +0000"
+      "postTitle": "Solod 0.3: Concurrency, JSON, more safety",
+      "postUrl": "https://antonz.org/solod-0.3/",
+      "publishDate": "Sat, 25 Jul 2026 11:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
