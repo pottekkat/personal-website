@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-07-24T16:50:34+05:30",
+  "lastUpdated": "2026-07-24T17:23:15+05:30",
   "entries": [
+    {
+      "hash": "bb8cdda",
+      "date": "2026-07-24T17:21:36+05:30",
+      "message": "Added a new book review and updated frontmatter categories."
+    },
     {
       "hash": "2ba4caa",
       "date": "2026-07-24T16:49:41+05:30",
