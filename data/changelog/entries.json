@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-07-26T17:10:55+05:30",
+  "lastUpdated": "2026-07-26T18:27:26+05:30",
   "entries": [
+    {
+      "hash": "d90616e",
+      "date": "2026-07-26T18:26:38+05:30",
+      "message": "Added a skill for handling book metadata and cover retrieval."
+    },
     {
       "hash": "0fb3011",
       "date": "2026-07-26T17:09:35+05:30",
