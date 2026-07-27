@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26T11:47:15.849731",
+  "lastUpdated": "2026-07-27T13:31:55.489937",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Wolves, sheep, and gypsies",
-      "postUrl": "https://world.hey.com/dhh/wolves-sheep-and-gypsies-ba44af6a",
-      "publishDate": "2026-07-21T20:02:31Z"
+      "postTitle": "Sitting down with Senra",
+      "postUrl": "https://world.hey.com/dhh/sitting-down-with-senra-69f5e368",
+      "publishDate": "2026-07-26T17:22:08Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Ruff v0.16.0",
-      "postUrl": "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything",
-      "publishDate": "2026-07-25T22:44:05+00:00"
+      "postTitle": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
+      "postUrl": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
+      "publishDate": "2026-07-26T19:30:54+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
