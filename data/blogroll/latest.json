@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2026-07-27T13:31:55.489937",
+  "lastUpdated": "2026-07-28T12:24:20.189610",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Recursive Trucker's Hitch",
-      "postUrl": "https://xkcd.com/3276/",
-      "publishDate": "Fri, 24 Jul 2026 04:00:00 -0000"
+      "postTitle": "Forth",
+      "postUrl": "https://xkcd.com/3277/",
+      "publishDate": "Mon, 27 Jul 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Sitting down with Senra",
-      "postUrl": "https://world.hey.com/dhh/sitting-down-with-senra-69f5e368",
-      "publishDate": "2026-07-26T17:22:08Z"
+      "postTitle": "I'm sorry, Dave",
+      "postUrl": "https://world.hey.com/dhh/i-m-sorry-dave-380ec27d",
+      "publishDate": "2026-07-27T15:26:47Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
-      "postUrl": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
-      "publishDate": "2026-07-26T19:30:54+00:00"
+      "postTitle": "moonshotai/Kimi-K3",
+      "postUrl": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
+      "publishDate": "2026-07-27T23:39:04+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Energy & Environment Dispatch",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/energy-and-environment-dispatch",
-      "publishDate": "Sat, 25 Jul 2026 10:01:48 GMT"
+      "postTitle": "The UK, Europe, and Canada Are Losing Freedom of Speech",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/the-uk-europe-and-canada-are-losing",
+      "publishDate": "Tue, 28 Jul 2026 11:03:38 GMT"
     },
     {
       "blogTitle": "Anil Dash",
