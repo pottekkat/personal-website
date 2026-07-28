@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-07-27T18:59:57.432892+05:30",
+  "last_updated": "2026-07-28T17:53:43.522047+05:30",
   "links": [
+    {
+      "id": "01kym67rkzdae4fv6qag29rgkg",
+      "title": "Make Tiny Games.",
+      "author": "Juniper Dev",
+      "source_url": "https://www.youtube.com/watch?v=YtylfQq2JII",
+      "published_date": "2025-06-13",
+      "saved_at": "2026-07-28T16:32:26.175000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kyktg09atpjgqdvfeab5s609",
+      "title": "Care Anyways",
+      "author": "Rachit Nigam",
+      "source_url": "https://people.csail.mit.edu/rachit/post/care/",
+      "published_date": "2026-07-26",
+      "saved_at": "2026-07-28T13:07:13.258000+05:30",
+      "reading_time": "1 min",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kykjybf49mr286ehxba4a1yx",
+      "title": "Astronauts returning from six-month missions describe a persistent 'observer' sensation — the feeling of watching their own lives from a half-step outside the frame, weeks after they're back on the ground",
+      "author": "Space Daily",
+      "source_url": "https://spacedaily.com/sd-v-astronauts-returning-from-six-month-missions-describe-a-persistent-observer-sensation-the-feeling-of-watching-their-own-lives-from-a-half-step-outside-the-frame-weeks-after-theyr/",
+      "published_date": "2026-06-24",
+      "saved_at": "2026-07-28T10:55:14.852000+05:30",
+      "reading_time": "7 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kykj28ez7xwc1b8c2wrbq87a",
+      "title": "A programming language for humans.",
+      "author": "Peter Saxton",
+      "source_url": "https://crowdhailer.me/2026-06-08/a-programming-language-for-humans/",
+      "published_date": null,
+      "saved_at": "2026-07-28T10:39:54.271000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kyjb2n4s7paw1dscgc2m2dqy",
+      "title": "The \"Number Go Up\" Addiction",
+      "author": "Juniper Dev",
+      "source_url": "https://www.youtube.com/watch?v=pdwAoYzJLhI",
+      "published_date": "2026-02-13",
+      "saved_at": "2026-07-27T23:18:32.793000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kyj997hd5rew03afwve4s7ye",
+      "title": "Open Source Must Be Fun (Or It Will Die)",
+      "author": "Mike McQuaid",
+      "source_url": "https://mikemcquaid.com/open-source-must-be-fun-or-it-will-die/",
+      "published_date": "2026-07-26",
+      "saved_at": "2026-07-27T22:47:11.084000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kyj30pzm8m9jsg2cv31asmb2",
+      "title": "I'm sorry, Dave",
+      "author": "David Heinemeier Hansson (dhh@hey.com)",
+      "source_url": "https://world.hey.com/dhh/i-m-sorry-dave-380ec27d",
+      "published_date": "2026-07-27",
+      "saved_at": "2026-07-27T20:57:37.532000+05:30",
+      "reading_time": "4 mins",
+      "category": "rss",
+      "notes": ""
+    },
+    {
+      "id": "01kyhzp40q2988dyrd70enpp69",
+      "title": "Wordpress Situation is Absolutely Insane",
+      "author": "Low Level",
+      "source_url": "https://www.youtube.com/watch?v=SKuJ60kD8wg",
+      "published_date": "2026-07-27",
+      "saved_at": "2026-07-27T19:59:27.703000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kyhzc032q9vkxnep4ta5s760",
+      "title": "Why does every book come from the same country?",
+      "author": "Chris Spargo",
+      "source_url": "https://www.youtube.com/watch?v=68vS8CTBL3k",
+      "published_date": "2025-03-03",
+      "saved_at": "2026-07-27T19:53:56.002000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01kyhsyawqgkyt396ev8348f77",
       "title": "@HedgieMarkets",
