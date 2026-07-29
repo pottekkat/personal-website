@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T12:24:20.189610",
+  "lastUpdated": "2026-07-29T12:33:26.902545",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "moonshotai/Kimi-K3",
-      "postUrl": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
-      "publishDate": "2026-07-27T23:39:04+00:00"
+      "postTitle": "Discovering cryptographic weaknesses with Claude",
+      "postUrl": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
+      "publishDate": "2026-07-28T22:45:37+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Must I still have anxiety from 20 years ago?",
-      "postUrl": "https://www.elysian.press/p/must-i-still-have-anxiety",
-      "publishDate": "Wed, 22 Jul 2026 11:05:11 GMT"
+      "postTitle": "This sewing machine powers AI\u2014my next pamphlet drop is here",
+      "postUrl": "https://www.elysian.press/p/analog-ai-essay-collection",
+      "publishDate": "Tue, 28 Jul 2026 13:24:06 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
