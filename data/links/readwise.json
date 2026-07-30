@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-07-29T18:02:43.814699+05:30",
+  "last_updated": "2026-07-30T17:43:39.237922+05:30",
   "links": [
+    {
+      "id": "01kyrf6gagv0tbvdnhh9y9y77e",
+      "title": "The Rise (and Fall?) of Palantir",
+      "author": "Tom Nicholas",
+      "source_url": "https://www.youtube.com/watch?v=SfGUzSYEqY0&list=WL&index=4&t=1s",
+      "published_date": "2026-07-20",
+      "saved_at": "2026-07-30T08:25:59.823000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kyra39b5v7e01csgbg19ee41",
+      "title": "Boomers Can’t Stop Gifting Their Grandkids AI-Generated Slop Books",
+      "author": "Miles Klee",
+      "source_url": "https://www.wired.com/story/boomers-cant-stop-gifting-their-grandkids-ai-generated-slop-books/",
+      "published_date": "2026-07-29",
+      "saved_at": "2026-07-30T06:56:51.493000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kyq8ktw9m9qdpghcxvhkg3b1",
+      "title": "After the AI Crash",
+      "author": "Doug Dawson",
+      "source_url": "https://potsandpansbyccg.com/2026/07/29/after-the-ai-crash/",
+      "published_date": "2026-07-29",
+      "saved_at": "2026-07-29T21:11:42.153000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kypzkwqb4r0mh2ry81pyq071",
+      "title": "are you climbing this mountain for the world to see...",
+      "author": "EsDeeKid",
+      "source_url": "https://x.com/esdeekidd/status/2082087854617018767/?rw_tt_thread=True",
+      "published_date": "2026-07-28",
+      "saved_at": "2026-07-29T18:34:26.859000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kypzdy5568s7edwzwrfj4g2j",
+      "title": "Pacing the Frontier",
+      "author": "pacingthefrontier.com",
+      "source_url": "https://www.pacingthefrontier.com/",
+      "published_date": null,
+      "saved_at": "2026-07-29T18:31:11.716000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kypra4xzaqygaxaak074g2vs",
       "title": "Sovereignty is a substrate",
