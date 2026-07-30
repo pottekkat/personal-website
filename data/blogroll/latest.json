@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-29T12:33:26.902545",
+  "lastUpdated": "2026-07-30T12:14:15.928449",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Forth",
-      "postUrl": "https://xkcd.com/3277/",
-      "publishDate": "Mon, 27 Jul 2026 04:00:00 -0000"
+      "postTitle": "Vera Rubin Observatory",
+      "postUrl": "https://xkcd.com/3278/",
+      "publishDate": "Wed, 29 Jul 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Discovering cryptographic weaknesses with Claude",
-      "postUrl": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
-      "publishDate": "2026-07-28T22:45:37+00:00"
+      "postTitle": "Quoting D. Richard Hipp",
+      "postUrl": "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything",
+      "publishDate": "2026-07-29T21:15:21+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
