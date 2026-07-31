@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-07-30T17:43:39.237922+05:30",
+  "last_updated": "2026-07-31T18:00:49.475162+05:30",
   "links": [
+    {
+      "id": "01kyvwrj8awbae1c9tg1s3wbc0",
+      "title": "Talked with several CTO / Head of Engineering type folks...",
+      "author": "Gergely Orosz",
+      "source_url": "https://x.com/GergelyOrosz/status/2083079806334181730/?rw_tt_thread=True",
+      "published_date": "2026-07-31",
+      "saved_at": "2026-07-31T16:20:46.409000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kyvt7wf8n03ydqw1x2t2pzbj",
+      "title": "New Media is Insider Media",
+      "author": "Anu",
+      "source_url": "https://www.workingtheorys.com/p/insider-media",
+      "published_date": "2026-06-10",
+      "saved_at": "2026-07-31T15:36:42.664000+05:30",
+      "reading_time": "9 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kyvds8h7wys15rj013fb6m4a",
+      "title": "The Session You Cannot Take With You",
+      "author": "Earendil",
+      "source_url": "https://earendil.com/posts/session-portability/",
+      "published_date": "2026-07-30",
+      "saved_at": "2026-07-31T11:59:00.583000+05:30",
+      "reading_time": "11 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kyrf6gagv0tbvdnhh9y9y77e",
       "title": "The Rise (and Fall?) of Palantir",
