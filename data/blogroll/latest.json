@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-31T12:31:28.223436",
+  "lastUpdated": "2026-08-01T11:46:16.919555",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Vera Rubin Observatory",
-      "postUrl": "https://xkcd.com/3278/",
-      "publishDate": "Wed, 29 Jul 2026 04:00:00 -0000"
+      "postTitle": "Main Span",
+      "postUrl": "https://xkcd.com/3279/",
+      "publishDate": "Fri, 31 Jul 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Advancing the price-performance frontier with GPT\u20115.6",
-      "postUrl": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything",
-      "publishDate": "2026-07-30T23:58:42+00:00"
+      "postTitle": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "postUrl": "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything",
+      "publishDate": "2026-07-31T23:59:44+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Frontier Panic",
-      "postUrl": "https://letter.palladiummag.com/p/frontier-panic",
-      "publishDate": "Thu, 30 Jul 2026 20:33:25 GMT"
+      "postTitle": "Post-Scarcity Leads to Technological Stagnation",
+      "postUrl": "https://letter.palladiummag.com/p/post-scarcity-leads-to-technological",
+      "publishDate": "Fri, 31 Jul 2026 20:13:31 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
