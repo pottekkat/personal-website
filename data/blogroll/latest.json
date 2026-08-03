@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T11:44:55.203249",
+  "lastUpdated": "2026-08-03T13:40:47.866593",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Open letters about AI development",
-      "postUrl": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
-      "publishDate": "2026-08-02T04:16:52+00:00"
+      "postTitle": "condense-json 1.0",
+      "postUrl": "https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything",
+      "publishDate": "2026-08-02T22:19:59+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Solod 0.3: Concurrency, JSON, more safety",
-      "postUrl": "https://antonz.org/solod-0.3/",
-      "publishDate": "Sat, 25 Jul 2026 11:30:00 +0000"
+      "postTitle": "Going Backward",
+      "postUrl": "https://antonz.org/going-backward/",
+      "publishDate": "Mon, 03 Aug 2026 12:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
