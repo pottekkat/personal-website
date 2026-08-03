@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-08-02T17:14:17.817854+05:30",
+  "last_updated": "2026-08-03T19:10:01.566532+05:30",
   "links": [
+    {
+      "id": "01kz3sd4mx2y4n15yd6g27hcwf",
+      "title": "Loops You Can Trust",
+      "author": "lauren",
+      "source_url": "https://x.com/poteto/status/2069824386283319343/?rw_tt_thread=True",
+      "published_date": "2026-06-24",
+      "saved_at": "2026-08-03T17:56:01.757000+05:30",
+      "reading_time": "12 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kz3k0a95ye1ymf64zg40pe69",
+      "title": "Don't be a meat proxy",
+      "author": "gruhn.me",
+      "source_url": "https://gruhn.me/blog/2026-08-03/",
+      "published_date": "2026-08-02",
+      "saved_at": "2026-08-03T16:04:10.085000+05:30",
+      "reading_time": "1 min",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kz325s8a7108900y2gjgkb09",
+      "title": "Why does everything feel so joyless? Welcome to the age of decadence without pleasure | Society | The Guardian",
+      "author": "archive.is",
+      "source_url": "https://archive.is/mqCRm",
+      "published_date": "2026-07-26",
+      "saved_at": "2026-08-03T11:10:03.466000+05:30",
+      "reading_time": "15 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kz1g0m9fb1gk27x1rjaj9n1h",
+      "title": "Prevent cognitive debt by manually retyping LLM-generated code",
+      "author": "Ankur Sethi",
+      "source_url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
+      "published_date": "2026-08-02",
+      "saved_at": "2026-08-02T20:33:25.743000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kyxtzywyd7847m1kxzzr4xre",
       "title": "Big Food vs. The People",
