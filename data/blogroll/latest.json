@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-03T13:40:47.866593",
+  "lastUpdated": "2026-08-04T12:28:26.870955",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Main Span",
-      "postUrl": "https://xkcd.com/3279/",
-      "publishDate": "Fri, 31 Jul 2026 04:00:00 -0000"
+      "postTitle": "Maze",
+      "postUrl": "https://xkcd.com/3280/",
+      "publishDate": "Mon, 03 Aug 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "condense-json 1.0",
-      "postUrl": "https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything",
-      "publishDate": "2026-08-02T22:19:59+00:00"
+      "postTitle": "Quoting Steve Yegge",
+      "postUrl": "https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything",
+      "publishDate": "2026-08-04T00:42:45+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,16 +151,16 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "This sewing machine powers AI\u2014my next pamphlet drop is here",
-      "postUrl": "https://www.elysian.press/p/analog-ai-essay-collection",
-      "publishDate": "Tue, 28 Jul 2026 13:24:06 GMT"
+      "postTitle": "Even Christopher Nolan prefers 70mm film",
+      "postUrl": "https://www.elysian.press/p/even-christopher-nolan-prefers-70mm",
+      "publishDate": "Tue, 04 Aug 2026 12:02:28 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Post-Scarcity Leads to Technological Stagnation",
-      "postUrl": "https://letter.palladiummag.com/p/post-scarcity-leads-to-technological",
-      "publishDate": "Fri, 31 Jul 2026 20:13:31 GMT"
+      "postTitle": "\"The Only Reason to Explore Space\" With Marko Jukic",
+      "postUrl": "https://letter.palladiummag.com/p/the-only-reason-to-explore-space-cf0",
+      "publishDate": "Mon, 03 Aug 2026 19:56:46 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "The Dress Rehearsal of AI Killing Us All",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/the-dress-rehearsal-of-ai-killing",
-      "publishDate": "Thu, 30 Jul 2026 13:17:09 GMT"
+      "postTitle": "Where Will AI Stocks Go from Here?",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/where-will-ai-stocks-go-from-here",
+      "publishDate": "Mon, 03 Aug 2026 19:20:56 GMT"
     },
     {
       "blogTitle": "Anil Dash",
