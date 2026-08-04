@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-08-03T19:10:01.566532+05:30",
+  "last_updated": "2026-08-04T17:57:50.838972+05:30",
   "links": [
+    {
+      "id": "01kz5g310sbda0tszyx6kx2zqb",
+      "title": "#355 Fables, Exits, and Aspirations",
+      "author": "Pranay Kotasthane",
+      "source_url": "https://publicpolicy.substack.com/p/355-fables-exits-and-aspirations?utm_campaign=email-half-post&r=1g8n2&utm_source=substack&utm_medium=email",
+      "published_date": "2026-08-03",
+      "saved_at": "2026-08-04T09:51:42.041000+05:30",
+      "reading_time": "17 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kz5c348txd9z93523tpxhkj8",
+      "title": "Devtools must be open source",
+      "author": "David Crawshaw",
+      "source_url": "https://blog.exe.dev/devtools-must-be-open-source",
+      "published_date": "2026-08-02",
+      "saved_at": "2026-08-04T08:41:51.066000+05:30",
+      "reading_time": "7 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kz3sd4mx2y4n15yd6g27hcwf",
       "title": "Loops You Can Trust",
