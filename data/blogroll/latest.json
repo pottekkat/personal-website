@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T12:28:26.870955",
+  "lastUpdated": "2026-08-05T12:26:07.596770",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Steve Yegge",
-      "postUrl": "https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything",
-      "publishDate": "2026-08-04T00:42:45+00:00"
+      "postTitle": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
+      "postUrl": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
+      "publishDate": "2026-08-04T23:58:24+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "\"The Only Reason to Explore Space\" With Marko Jukic",
-      "postUrl": "https://letter.palladiummag.com/p/the-only-reason-to-explore-space-cf0",
-      "publishDate": "Mon, 03 Aug 2026 19:56:46 GMT"
+      "postTitle": "China is Building a Blue Granary",
+      "postUrl": "https://letter.palladiummag.com/p/china-is-building-a-blue-granary",
+      "publishDate": "Tue, 04 Aug 2026 21:09:40 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
