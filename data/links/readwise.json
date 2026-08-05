@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-08-04T17:57:50.838972+05:30",
+  "last_updated": "2026-08-05T17:55:33.719735+05:30",
   "links": [
+    {
+      "id": "01kz8y4jkvenx0xp7a2vnqb7t7",
+      "title": "I’m Begging You: Never Write With A.I.",
+      "author": "Bret Stephens",
+      "source_url": "https://www.nytimes.com/2026/08/04/opinion/artificial-intelligence-ai-writing.html?unlocked_article_code=1.3FA.9DmY.auqY2yQ_GPH2&smid=nytcore-android-share",
+      "published_date": "2026-08-04",
+      "saved_at": "2026-08-05T17:54:56.187000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kz6ypazxaa9xeagkcahr4kdg",
+      "title": "The Lua community needs to learn to move on",
+      "author": "hisham.hm",
+      "source_url": "https://hisham.hm/2026/08/04/the-lua-community-needs-to-learn-to-move-on/",
+      "published_date": "2026-08-04",
+      "saved_at": "2026-08-04T23:26:09.341000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kz6sme51s9j65k80mvveyra1",
+      "title": "There Will Come Soft Rains",
+      "author": "Short Stories",
+      "source_url": "https://short-stories.co/@raybradbury/there-will-come-soft-rains-6k8vr4xxlnmj",
+      "published_date": "2026-08-04",
+      "saved_at": "2026-08-04T21:57:44.161000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kz5g310sbda0tszyx6kx2zqb",
       "title": "#355 Fables, Exits, and Aspirations",
