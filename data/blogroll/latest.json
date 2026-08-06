@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-05T12:26:07.596770",
+  "lastUpdated": "2026-08-06T12:34:16.692989",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Maze",
-      "postUrl": "https://xkcd.com/3280/",
-      "publishDate": "Mon, 03 Aug 2026 04:00:00 -0000"
+      "postTitle": "Antiques Roadshow",
+      "postUrl": "https://xkcd.com/3281/",
+      "publishDate": "Wed, 05 Aug 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
-      "postUrl": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
-      "publishDate": "2026-08-04T23:58:24+00:00"
+      "postTitle": "An AI model from Meta also hacked another company during testing",
+      "postUrl": "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything",
+      "publishDate": "2026-08-06T00:25:27+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "AI as Normal Technology",
       "blogUrl": "https://www.normaltech.ai",
-      "postTitle": "What will be left for us to work on?",
-      "postUrl": "https://www.normaltech.ai/p/what-will-be-left-for-us-to-work",
-      "publishDate": "Mon, 13 Jul 2026 18:47:06 GMT"
+      "postTitle": "AI agents can't yet do open-ended AI research",
+      "postUrl": "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended",
+      "publishDate": "Wed, 05 Aug 2026 13:49:19 GMT"
     },
     {
       "blogTitle": "The Elysian",
