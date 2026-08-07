@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-08-06T18:03:41.662946+05:30",
+  "last_updated": "2026-08-07T16:56:30.328102+05:30",
   "links": [
+    {
+      "id": "01kzd64bat7dgxv424xjy6w3qj",
+      "title": "Herdr is joining Y Combinator. The runtime stays open.",
+      "author": "Herdr",
+      "source_url": "https://herdr.dev/blog/herdr-is-joining-y-combinator/",
+      "published_date": "2026-08-06",
+      "saved_at": "2026-08-07T09:31:35.066000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kzbxkx52zdk7qhxswv00pf2q",
+      "title": "Degrees of wealth",
+      "author": "Jaap Grolleman",
+      "source_url": "https://jaapgrolleman.com/degrees-of-wealth/",
+      "published_date": "2026-07-11",
+      "saved_at": "2026-08-06T21:43:33.218000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kzbag01djwk6b62p518g4j3x",
       "title": "I made an apple peel itself",
