@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T12:34:16.692989",
+  "lastUpdated": "2026-08-07T11:27:05.995740",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "An AI model from Meta also hacked another company during testing",
-      "postUrl": "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything",
-      "publishDate": "2026-08-06T00:25:27+00:00"
+      "postTitle": "datasette 1.0a38",
+      "postUrl": "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything",
+      "publishDate": "2026-08-06T18:24:34+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
