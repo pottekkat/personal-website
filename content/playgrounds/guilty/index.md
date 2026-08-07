@@ -10,7 +10,7 @@ cover:
   alt: "Guilty logo."
   relative: true
   hidden: true
-_build:
+build:
   render: never
   list: never
   publishResources: false
