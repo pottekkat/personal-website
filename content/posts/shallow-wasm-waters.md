@@ -5,7 +5,7 @@ draft: false
 ShowToc: false
 ShowRelatedContent: false
 summary: "Notes as I learn about WebAssembly by building an open source project."
-tags: ["wasm", "notes", "soek"]
+tags: ["wasm", "notes", "soek", "tinygo"]
 categories: ["WebAssembly"]
 cover:
   image: "/images/shallow-wasm-waters/birds-on-shallow-water-banner.jpg"

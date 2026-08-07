@@ -6,7 +6,7 @@ ShowToc: true
 TocOpen: true
 ShowRelatedContent: false
 summary: 'Converting the "tiny" APISIX plugin to a "tinier" APISIX plugin.'
-tags: ["apache apisix", "api gateway", "wasm", "tutorials"]
+tags: ["apache apisix", "api gateway", "wasm", "tutorials", "tinygo"]
 categories: ["API Gateway"]
 cover:
   image: "/images/tinier-apisix-plugin/tiny-gopher-banner.jpg"
