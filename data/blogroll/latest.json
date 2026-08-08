@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-07T11:27:05.995740",
+  "lastUpdated": "2026-08-08T11:03:51.370010",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Antiques Roadshow",
-      "postUrl": "https://xkcd.com/3281/",
-      "publishDate": "Wed, 05 Aug 2026 04:00:00 -0000"
+      "postTitle": "Trick Play",
+      "postUrl": "https://xkcd.com/3282/",
+      "publishDate": "Fri, 07 Aug 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "datasette 1.0a38",
-      "postUrl": "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything",
-      "publishDate": "2026-08-06T18:24:34+00:00"
+      "postTitle": "Quoting John Gruber",
+      "postUrl": "https://simonwillison.net/2026/Aug/8/john-gruber/#atom-everything",
+      "publishDate": "2026-08-08T00:10:40+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "Checking Off Boxes in London",
-      "postUrl": "https://sheep.horse/2025/9/checking_off_boxes_in_london.html",
-      "publishDate": "Thu, 04 Sep 2025 18:58:27 +0000"
+      "postTitle": "Dot Battle - a Javascript Physics Toy",
+      "postUrl": "https://sheep.horse/2025/10/dot_battle_-_a_javascript_physics_toy.html",
+      "publishDate": "Sun, 05 Oct 2025 18:06:28 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "China is Building a Blue Granary",
-      "postUrl": "https://letter.palladiummag.com/p/china-is-building-a-blue-granary",
-      "publishDate": "Tue, 04 Aug 2026 21:09:40 GMT"
+      "postTitle": "How to Deal With Iran",
+      "postUrl": "https://letter.palladiummag.com/p/how-to-deal-with-iran",
+      "publishDate": "Fri, 07 Aug 2026 22:07:35 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
