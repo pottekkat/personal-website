@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-08-08T16:33:17.721492+05:30",
+  "last_updated": "2026-08-09T16:35:10.763751+05:30",
   "links": [
+    {
+      "id": "01kzjasss2axd9nhnpwjt56y9e",
+      "title": "“Code was never the hard part” is an insult to all programmers",
+      "author": "Senko Rašić",
+      "source_url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+      "published_date": "2026-08-08",
+      "saved_at": "2026-08-09T09:29:24.450000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kzd64bat7dgxv424xjy6w3qj",
       "title": "Herdr is joining Y Combinator. The runtime stays open.",
