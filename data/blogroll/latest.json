@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T11:03:51.370010",
+  "lastUpdated": "2026-08-09T11:05:45.931469",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting John Gruber",
-      "postUrl": "https://simonwillison.net/2026/Aug/8/john-gruber/#atom-everything",
-      "publishDate": "2026-08-08T00:10:40+00:00"
+      "postTitle": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "postUrl": "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
+      "publishDate": "2026-08-08T22:36:03+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
