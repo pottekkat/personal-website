@@ -55,29 +55,29 @@ package main
 
 // Import ALL required modules
 import (
-    "context"
-    "fmt"
-    "net"
-    "strconv"
-    "strings"
+	"context"
+	"fmt"
+	"net"
+	"strconv"
+	"strings"
 
-    "github.com/dicedb/dicedb-go"
-    "github.com/dicedb/dicedb-go/wire"
-    "github.com/mark3labs/mcp-go/mcp"
-    "github.com/mark3labs/mcp-go/server"
+	"github.com/dicedb/dicedb-go"
+	"github.com/dicedb/dicedb-go/wire"
+	"github.com/mark3labs/mcp-go/mcp"
+	"github.com/mark3labs/mcp-go/server"
 )
 
 func main() {
-    // Create a new MCP server
-    s := server.NewMCPServer(
-        "DiceDB MCP", // Name of the server
-        "0.1.0", // Version
-        // Set listChanged to false as this example
-        // server does not emit notifications
-        // when the list of available tool changes
-        // https://modelcontextprotocol.io/specification/2024-11-05/server/tools#capabilities
-        server.WithToolCapabilities(false),
-    )
+	// Create a new MCP server
+	s := server.NewMCPServer(
+		"DiceDB MCP", // Name of the server
+		"0.1.0", // Version
+		// Set listChanged to false as this example
+		// server does not emit notifications
+		// when the list of available tool changes
+		// https://modelcontextprotocol.io/specification/2024-11-05/server/tools#capabilities
+		server.WithToolCapabilities(false),
+	)
 ```
 
 Here's what's happening here:
@@ -93,19 +93,19 @@ Here's what's happening here:
 Now, let's add a tool. This one just pings the DiceDB server to check if it's reachable:
 
 ```go {title="main.go" linenos="inline" lineNoStart=29 anchorLineNos=true lineAnchors="new-tool"}
-    pingTool := mcp.NewTool("ping", // Tool name
-        // Short description of what the tool does
-        mcp.WithDescription("Ping the DiceDB server to check connectivity"),
-        // Add a string property to the tool schema
-        // to accept the URL of the DiceDB server
-        mcp.WithString("url",
-            // Description of the property
-            mcp.Description("The URL of the DiceDB server in format 'host:port'"),
-            // Default value that compliant clients
-            // can use if the value isn't explicitly set
-            mcp.DefaultString("localhost:7379"),
-        ),
-    )
+	pingTool := mcp.NewTool("ping", // Tool name
+		// Short description of what the tool does
+		mcp.WithDescription("Ping the DiceDB server to check connectivity"),
+		// Add a string property to the tool schema
+		// to accept the URL of the DiceDB server
+		mcp.WithString("url",
+			// Description of the property
+			mcp.Description("The URL of the DiceDB server in format 'host:port'"),
+			// Default value that compliant clients
+			// can use if the value isn't explicitly set
+			mcp.DefaultString("localhost:7379"),
+		),
+	)
 ```
 
 Under the hood, these definitions get translated to a JSON schema following the [JSON-RPC 2.0 specification](https://www.jsonrpc.org/specification). MCP clients use this schema to discover and call the tool.
@@ -124,33 +124,33 @@ Next, we wire in the actual logic.
 Now that we've defined the tool let's add what happens when it's invoked. In our case, we want to ping the DiceDB server to check if it's reachable:
 
 ```go {title="main.go" linenos="inline" lineNoStart=43 anchorLineNos=true lineAnchors="handler-function"}
-    s.AddTool(pingTool, func(ctx context.Context, request mcp.CallToolRequest) (*mcp.CallToolResult, error) {
-        // Extract the URL argument from the client request
-        url := request.Params.Arguments["url"].(string)
+	s.AddTool(pingTool, func(ctx context.Context, request mcp.CallToolRequest) (*mcp.CallToolResult, error) {
+		// Extract the URL argument from the client request
+		url := request.Params.Arguments["url"].(string)
 
-        // Parse host and port from URL
-        parts := strings.Split(url, ":")
-        host := parts[0]
-        port := 7379 // Default to 7379 if no port is provided
+		// Parse host and port from URL
+		parts := strings.Split(url, ":")
+		host := parts[0]
+		port := 7379 // Default to 7379 if no port is provided
 
-        if len(parts) > 1 {
-          if p, err := strconv.Atoi(parts[1]); err == nil {
-            port = p
-          }
-        }
+		if len(parts) > 1 {
+			if p, err := strconv.Atoi(parts[1]); err == nil {
+				port = p
+			}
+		}
 
-        // Create a new DiceDB client
-        client, err := dicedb.NewClient(host, port)
-        if err != nil {
-            return mcp.NewToolResultText(fmt.Sprintf("Error connecting to DiceDB: %v", err)), nil
-        }
+		// Create a new DiceDB client
+		client, err := dicedb.NewClient(host, port)
+		if err != nil {
+			return mcp.NewToolResultText(fmt.Sprintf("Error connecting to DiceDB: %v", err)), nil
+		}
 
-        // Send the PING command to DiceDB
-        resp := client.Fire(&wire.Command{Cmd: "PING"})
+		// Send the PING command to DiceDB
+		resp := client.Fire(&wire.Command{Cmd: "PING"})
 
-        // Return the result to the MCP client
-        return mcp.NewToolResultText(fmt.Sprintf("Response from DiceDB: %v", resp)), nil
-    })
+		// Return the result to the MCP client
+		return mcp.NewToolResultText(fmt.Sprintf("Response from DiceDB: %v", resp)), nil
+	})
 ```
 
 Here, we define a handler function that runs when the MCP client calls the tool. This is what it does:
@@ -168,9 +168,9 @@ See how the SDK provides neat wrappers like `NewToolResultText` to structure res
 All that's left is to start the server:
 
 ```go {title="main.go" linenos="inline" lineNoStart=71 anchorLineNos=true lineAnchors="start-server"}
-    if err := server.ServeStdio(s); err != nil {
-        fmt.Printf("Error starting server: %v\n", err)
-    }
+	if err := server.ServeStdio(s); err != nil {
+		fmt.Printf("Error starting server: %v\n", err)
+	}
 }
 ```
 
