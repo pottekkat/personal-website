@@ -4,6 +4,7 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 import matplotlib.colors as colors
 
+import json
 import os
 import requests
 import yaml
@@ -154,7 +155,11 @@ response = requests.get(url, headers=headers, params=params)
 
 data = response.json()['results']
 
-world = gpd.read_file("./.github/world_admin_boundary.geojson")
+# Read the GeoJSON directly instead of gpd.read_file() so we don't need
+# fiona/GDAL (and the fragile Homebrew GDAL install) on the runner.
+with open("./.github/world_admin_boundary.geojson") as geojson_file:
+    world = gpd.GeoDataFrame.from_features(
+        json.load(geojson_file)["features"], crs="EPSG:4326")
 world = world[world.ADMIN != "Antarctica"]
 
 df = pd.DataFrame(data)
