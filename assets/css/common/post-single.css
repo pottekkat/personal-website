@@ -242,6 +242,12 @@
     text-align: start;
 }
 
+/* Split a table into groups by wrapping rows in more than one <tbody>; the
+   seam between groups gets a heavier rule than the usual row divider. */
+.post-content table:not(.highlighttable, .highlight table, .gist .highlight) tbody + tbody tr:first-child td {
+    border-top: 2px solid var(--secondary);
+}
+
 .post-content table:not(.highlighttable) td code:only-child {
     margin: auto 0;
 }
