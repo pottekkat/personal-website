@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-08-10T17:02:20.153021+05:30",
+  "last_updated": "2026-08-11T16:54:47.249265+05:30",
   "links": [
+    {
+      "id": "01kzr4ptcv3k2t0tyq06qbttce",
+      "title": "Living a long life",
+      "author": "Sooraj Chandran",
+      "source_url": "https://x.com/soorajchandran_/status/2087107273042591787/?rw_tt_thread=True",
+      "published_date": "2026-08-11",
+      "saved_at": "2026-08-11T15:38:21.915000+05:30",
+      "reading_time": "2 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01kzqtmsn014gsm7cz2aqv3nc1",
+      "title": "Half of Europe’s towns and villages have fewer residents than 60 years ago",
+      "author": "Lilith Grull, Ada Homolova, Frida Thurm",
+      "source_url": "https://correctiv.org/en/europe/2026/04/21/half-of-europes-towns-and-villages-have-fewer-residents-than-60-years-ago/",
+      "published_date": "2026-04-21",
+      "saved_at": "2026-08-11T12:42:29.856000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kzqjr4n3ms8ctjd622g4xv8y",
+      "title": "Why My Father Is Wrong: A Defense Of Guitar Hero",
+      "author": "Athena Scalzi",
+      "source_url": "https://whatever.scalzi.com/2026/08/10/why-my-father-is-wrong-a-defense-of-guitar-hero/",
+      "published_date": "2026-08-11",
+      "saved_at": "2026-08-11T10:24:30.819000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kzqjqxc4z7kc53jgsf1h0vc4",
+      "title": "Generative “AI”: The Guitar Hero of Creativity",
+      "author": "John Scalzi",
+      "source_url": "https://whatever.scalzi.com/2026/08/06/generative-ai-the-guitar-hero-of-creativity/",
+      "published_date": "2026-08-06",
+      "saved_at": "2026-08-11T10:24:23.364000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kzqeezhcm1dr6kpq38tvz2bm",
+      "title": "Making Need for Speed 2015 using GameMaker",
+      "author": "GamingEngineer",
+      "source_url": "https://www.youtube.com/watch?v=ffGqjOBowIc",
+      "published_date": "2026-08-10",
+      "saved_at": "2026-08-11T09:09:36.364000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01kzpagb97y0yj6p957h78m13r",
+      "title": "I think ambitious people should treat life in “seasons” rather...",
+      "author": "Aporia",
+      "source_url": "https://x.com/aporia9n/status/2086213665573704091/?rw_tt_thread=True",
+      "published_date": "2026-08-08",
+      "saved_at": "2026-08-10T22:41:12.423000+05:30",
+      "reading_time": "2 mins",
+      "category": "tweet",
+      "notes": ""
+    },
     {
       "id": "01kzmx92zm0rd1hjbaa5z3bzbx",
       "title": "Meta CTO says employees should use AI productivity gains to do more work, calls request for extra days off \"very dumb\"",
