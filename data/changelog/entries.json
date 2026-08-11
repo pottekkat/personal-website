@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-07-29T21:55:52+05:30",
+  "lastUpdated": "2026-08-11T10:17:52+05:30",
   "entries": [
+    {
+      "hash": "8f402e4",
+      "date": "2026-08-11T10:16:56+05:30",
+      "message": "Updated workflow to use OpenRouter for changelog generation."
+    },
+    {
+      "hash": "1f39d51",
+      "date": "2026-08-11T10:08:12+05:30",
+      "message": "Added a blog post about TinyGo and updated related CSS."
+    },
+    {
+      "hash": "0a92bea",
+      "date": "2026-08-10T15:09:04+05:30",
+      "message": "Improved formatting in Markdown files and added configuration."
+    },
+    {
+      "hash": "95ca714",
+      "date": "2026-08-10T09:18:46+05:30",
+      "message": "Removed GDAL dependency from the stats workflow."
+    },
+    {
+      "hash": "7e493fd",
+      "date": "2026-08-07T20:19:27+05:30",
+      "message": "Added 'tinygo' tag to multiple posts and taxonomy."
+    },
+    {
+      "hash": "19fa480",
+      "date": "2026-08-07T19:44:05+05:30",
+      "message": "Fixed build configuration in guilty playground."
+    },
     {
       "hash": "8151a42",
       "date": "2026-07-29T21:54:50+05:30",
