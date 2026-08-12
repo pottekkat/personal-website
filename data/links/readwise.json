@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-08-11T16:54:47.249265+05:30",
+  "last_updated": "2026-08-12T16:54:42.986251+05:30",
   "links": [
+    {
+      "id": "01kztk10jk57ync1e3a4x4c6rv",
+      "title": "Why Go is an Ideal Language for AI-Assisted Software Engineering",
+      "author": "Richard Seroter",
+      "source_url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
+      "published_date": "2026-08-11",
+      "saved_at": "2026-08-12T14:27:04.851000+05:30",
+      "reading_time": "9 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kzt1xat054qrv5khgbjewkra",
+      "title": "Why Is Everyone In Tech So Sad?",
+      "author": "Aaron Horwath",
+      "source_url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "published_date": "2026-08-06",
+      "saved_at": "2026-08-12T09:27:58.464000+05:30",
+      "reading_time": "15 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kzszfm58jt9k9pa63qaa19st",
+      "title": "On comments - Blog",
+      "author": "",
+      "source_url": "https://blog.helsing.ai/posts/on-comments/",
+      "published_date": null,
+      "saved_at": "2026-08-12T08:45:32.136000+05:30",
+      "reading_time": null,
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01kzsyy3stsyrxbadwmayvefeh",
+      "title": "There are no lossless transformations of natural-language text",
+      "author": "Sophie Alpert",
+      "source_url": "https://sophiebits.com/2026/06/25/there-are-no-lossless-transformations-of-natural-language-text",
+      "published_date": "2026-06-25",
+      "saved_at": "2026-08-12T08:35:58.330000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kzr4ptcv3k2t0tyq06qbttce",
       "title": "Living a long life",
