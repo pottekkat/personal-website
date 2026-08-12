@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T11:25:21.842042",
+  "lastUpdated": "2026-08-12T11:25:15.620640",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Introducing Muse Glimmer",
-      "postUrl": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
-      "publishDate": "2026-08-10T23:56:03+00:00"
+      "postTitle": "There are no lossless transformations of natural-language text",
+      "postUrl": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything",
+      "publishDate": "2026-08-11T23:48:35+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Even Christopher Nolan prefers 70mm film",
-      "postUrl": "https://www.elysian.press/p/even-christopher-nolan-prefers-70mm",
-      "publishDate": "Tue, 04 Aug 2026 12:02:28 GMT"
+      "postTitle": "This sewing machine powers AI",
+      "postUrl": "https://www.elysian.press/p/this-sewing-machine-powers-ai",
+      "publishDate": "Tue, 11 Aug 2026 12:00:59 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
