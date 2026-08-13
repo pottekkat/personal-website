@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-12T11:25:15.620640",
+  "lastUpdated": "2026-08-13T11:24:26.343105",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Size and Lifespan",
-      "postUrl": "https://xkcd.com/3283/",
-      "publishDate": "Mon, 10 Aug 2026 04:00:00 -0000"
+      "postTitle": "Geology Building",
+      "postUrl": "https://xkcd.com/3284/",
+      "publishDate": "Wed, 12 Aug 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "There are no lossless transformations of natural-language text",
-      "postUrl": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything",
-      "publishDate": "2026-08-11T23:48:35+00:00"
+      "postTitle": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+      "postUrl": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+      "publishDate": "2026-08-12T23:59:23+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "Dot Battle - a Javascript Physics Toy",
-      "postUrl": "https://sheep.horse/2025/10/dot_battle_-_a_javascript_physics_toy.html",
-      "publishDate": "Sun, 05 Oct 2025 18:06:28 +0000"
+      "postTitle": "It Is A War Out There - Take Control of Your Supply Lines with HtDTY",
+      "postUrl": "https://sheep.horse/2025/10/it_is_a_war_out_there_-_take_control_of_your_suppl.html",
+      "publishDate": "Sun, 12 Oct 2025 21:42:00 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
