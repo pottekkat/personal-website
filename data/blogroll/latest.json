@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-14T11:23:04.039164",
+  "lastUpdated": "2026-08-15T10:51:43.026394",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Geology Building",
-      "postUrl": "https://xkcd.com/3284/",
-      "publishDate": "Wed, 12 Aug 2026 04:00:00 -0000"
+      "postTitle": "Accretionary Arc",
+      "postUrl": "https://xkcd.com/3285/",
+      "publishDate": "Fri, 14 Aug 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "sqlite-utils 4.2.1",
-      "postUrl": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
-      "publishDate": "2026-08-13T23:53:47+00:00"
+      "postTitle": "Northern Gannet",
+      "postUrl": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
+      "publishDate": "2026-08-15T03:22:00+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Humanity, Space, and Industrial Civilization",
-      "postUrl": "https://letter.palladiummag.com/p/humanity-space-and-industrial-civilization",
-      "publishDate": "Fri, 14 Aug 2026 01:51:35 GMT"
+      "postTitle": "Technological Determinism and Human Freedom",
+      "postUrl": "https://letter.palladiummag.com/p/technological-determinism-and-human",
+      "publishDate": "Fri, 14 Aug 2026 17:40:35 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
