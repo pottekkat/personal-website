@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-08-14T16:52:26.781342+05:30",
+  "last_updated": "2026-08-15T16:21:02.460043+05:30",
   "links": [
+    {
+      "id": "01m01x948t17nwgg4fd4x8b0d4",
+      "title": "the task isn't the job",
+      "author": "Sunil Pai",
+      "source_url": "https://sunilpai.dev/posts/the-task-isnt-the-job/",
+      "published_date": "2026-08-14",
+      "saved_at": "2026-08-15T10:40:57.562000+05:30",
+      "reading_time": "7 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m01q7h4bemwssbgrtgbqafnv",
+      "title": "Mind boggling to me that I can make a thing...",
+      "author": "Mitchell Hashimoto",
+      "source_url": "https://x.com/mitchellh/status/2074225453217505494/?rw_tt_thread=True",
+      "published_date": "2026-07-06",
+      "saved_at": "2026-08-15T08:55:13.739000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m00ah3b5vm617x19rdrvavdy",
+      "title": "Ordinary Abundance",
+      "author": "ordinaryabundance.com",
+      "source_url": "https://ordinaryabundance.com/",
+      "published_date": null,
+      "saved_at": "2026-08-14T19:54:01.381000+05:30",
+      "reading_time": "7 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m002xzgjefc7xjbja6wb2d5s",
+      "title": "Blogust #8",
+      "author": "neocities.org",
+      "source_url": "https://aeish-world.neocities.org/blog_pages/blog-blogust-8",
+      "published_date": "2026-08-13",
+      "saved_at": "2026-08-14T17:41:14.833000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01kztk10jk57ync1e3a4x4c6rv",
       "title": "Why Go is an Ideal Language for AI-Assisted Software Engineering",
