@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T10:52:37.654114",
+  "lastUpdated": "2026-08-17T11:00:07.098813",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "CORS Chat",
-      "postUrl": "https://simonwillison.net/2026/Aug/15/cors-chat/",
-      "publishDate": "2026-08-15T14:49:54+00:00"
+      "postTitle": "Markdown SVG upgrades",
+      "postUrl": "https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/",
+      "publishDate": "2026-08-16T23:59:37+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
