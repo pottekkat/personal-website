@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-08-17T16:29:30.905573+05:30",
+  "last_updated": "2026-08-18T16:30:34.363168+05:30",
   "links": [
+    {
+      "id": "01m08641ab6ejk1v6xpt2sd33d",
+      "title": "Is the #1 fiction bestseller AI slop?",
+      "author": "Below the Fray",
+      "source_url": "https://www.youtube.com/watch?v=0DDuG6b7aw8",
+      "published_date": "2026-08-17",
+      "saved_at": "2026-08-17T21:10:54.475000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m0810j49g7v076b33bktmg3v",
+      "title": "Some thoughts on Dario’s post:",
+      "author": "David Sacks",
+      "source_url": "https://x.com/DavidSacks/status/2089227290769080656/?rw_tt_thread=True",
+      "published_date": "2026-08-17",
+      "saved_at": "2026-08-17T19:41:37.737000+05:30",
+      "reading_time": "6 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m07prft3a3kvq0p648g608me",
+      "title": "HackEurope 2026: A short rant on AI and hackathons",
+      "author": "Insomniac's Log",
+      "source_url": "https://duti.dev/blog/2026/spr/",
+      "published_date": "2026-02-23",
+      "saved_at": "2026-08-17T16:42:27.459000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01m06zdc81h3n0zdpy2mbhc3q8",
       "title": "If Meta loses this trial, Instagram and Facebook could change forever",
