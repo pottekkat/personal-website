@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T11:00:07.098813",
+  "lastUpdated": "2026-08-18T11:02:56.328125",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Markdown SVG upgrades",
-      "postUrl": "https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/",
-      "publishDate": "2026-08-16T23:59:37+00:00"
+      "postTitle": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+      "postUrl": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+      "publishDate": "2026-08-17T23:58:14+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "It Is A War Out There - Take Control of Your Supply Lines with HtDTY",
-      "postUrl": "https://sheep.horse/2025/10/it_is_a_war_out_there_-_take_control_of_your_suppl.html",
-      "publishDate": "Sun, 12 Oct 2025 21:42:00 +0000"
+      "postTitle": "C++ Threads - There is a Right Way and a Wrong Way but the Wrong Way is Probably Fine",
+      "postUrl": "https://sheep.horse/2025/10/c%2B%2B_threads_-_there_is_a_right_way_and_a_wrong_way.html",
+      "publishDate": "Fri, 17 Oct 2025 19:02:26 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
