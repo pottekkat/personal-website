@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-18T11:02:56.328125",
+  "lastUpdated": "2026-08-19T10:58:47.370551",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Accretionary Arc",
-      "postUrl": "https://xkcd.com/3285/",
-      "publishDate": "Fri, 14 Aug 2026 04:00:00 -0000"
+      "postTitle": "Particle Physics Equipment",
+      "postUrl": "https://xkcd.com/3286/",
+      "publishDate": "Mon, 17 Aug 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
-      "postUrl": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
-      "publishDate": "2026-08-17T23:58:14+00:00"
+      "postTitle": "Mojo\ud83d\udd25 is now open source",
+      "postUrl": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
+      "publishDate": "2026-08-18T21:39:20+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -123,9 +123,9 @@
     {
       "blogTitle": "Maggie Appleton",
       "blogUrl": "https://maggieappleton.com/",
-      "postTitle": "In Memoriam, Encountering World War I, and Thinkable Horrors",
-      "postUrl": "https://maggieappleton.com/in-memoriam/",
-      "publishDate": "Sat, 18 Jul 2026 00:00:00 GMT"
+      "postTitle": "August 2026",
+      "postUrl": "https://maggieappleton.com/now-2026-08/",
+      "publishDate": "Tue, 18 Aug 2026 00:00:00 GMT"
     },
     {
       "blogTitle": "Anton Zhiyanov",
@@ -151,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "This sewing machine powers AI",
-      "postUrl": "https://www.elysian.press/p/this-sewing-machine-powers-ai",
-      "publishDate": "Tue, 11 Aug 2026 12:00:59 GMT"
+      "postTitle": "Why do I romanticize 18th-century chores?",
+      "postUrl": "https://www.elysian.press/p/romanticize-18th-century-chores",
+      "publishDate": "Tue, 18 Aug 2026 12:01:57 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
