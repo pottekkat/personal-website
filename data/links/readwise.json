@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-08-19T16:28:14.076865+05:30",
+  "last_updated": "2026-08-20T16:30:15.650386+05:30",
   "links": [
+    {
+      "id": "01m0ev3rwxxwh3xxjgma9xqkv1",
+      "title": "The best general advice on earth",
+      "author": "James Somers",
+      "source_url": "https://jsomers.net/blog/william-james-advice",
+      "published_date": "2012-07-25",
+      "saved_at": "2026-08-20T11:13:12.540000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m0etzc0v9dnbdvckxecddwbe",
+      "title": "Psychokinetics",
+      "author": "ponnekanti.net",
+      "source_url": "https://ponnekanti.net/psychokinetics/",
+      "published_date": "2024-10-11",
+      "saved_at": "2026-08-20T11:10:48.283000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m0etw9jp21q4bd9htxxjpche",
+      "title": "33 Rules of Good Social Skills",
+      "author": "liamrosen.com",
+      "source_url": "https://liamrosen.com/2025/07/24/33-rules-of-good-social-skills/",
+      "published_date": "2025-07-24",
+      "saved_at": "2026-08-20T11:09:07.478000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m0et66me97tckytwc2bt2f58",
+      "title": "Why the World’s Largest Megaproject Collapsed | WSJ",
+      "author": "The Wall Street Journal",
+      "source_url": "https://www.youtube.com/watch?v=GbB3vFfiaVU",
+      "published_date": "2026-08-19",
+      "saved_at": "2026-08-20T10:57:03.565000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m0d6s4z6vcf4czevgm9jqpzb",
+      "title": "Why I still hand write my commit messages",
+      "author": "Jamie Tanna | Software Engineer",
+      "source_url": "https://www.jvt.me/posts/2026/08/17/hand-write-commits/",
+      "published_date": "2026-08-17",
+      "saved_at": "2026-08-19T19:58:38.501000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m0cv5jejzmp8rm0jgn9vvrbc",
+      "title": "GopherCon 2025: An Operating System in Go - Patricio Whittingslow",
+      "author": "Gopher Academy",
+      "source_url": "https://www.youtube.com/watch?v=SvsdVe1kgSU",
+      "published_date": "2025-12-10",
+      "saved_at": "2026-08-19T16:35:42.609000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01m0c4bfsgnhppvh51wyw4h60h",
       "title": "August 2026 | Maggie Appleton",
