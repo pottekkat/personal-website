@@ -3,7 +3,7 @@ title: Invisible Cities
 date: 2026-07-27T06:25:44Z
 draft: false
 summary: Review of "Invisible Cities" by Italo Calvino.
-status: Want to Read
+status: Reading
 bookMeta:
   author: Italo Calvino
   published: 1972
