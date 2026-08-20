@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-19T10:58:47.370551",
+  "lastUpdated": "2026-08-20T11:00:50.429954",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Particle Physics Equipment",
-      "postUrl": "https://xkcd.com/3286/",
-      "publishDate": "Mon, 17 Aug 2026 04:00:00 -0000"
+      "postTitle": "Perseids",
+      "postUrl": "https://xkcd.com/3287/",
+      "publishDate": "Wed, 19 Aug 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Mojo\ud83d\udd25 is now open source",
-      "postUrl": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
-      "publishDate": "2026-08-18T21:39:20+00:00"
+      "postTitle": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+      "postUrl": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
+      "publishDate": "2026-08-19T23:16:00+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Technological Determinism and Human Freedom",
-      "postUrl": "https://letter.palladiummag.com/p/technological-determinism-and-human",
-      "publishDate": "Fri, 14 Aug 2026 17:40:35 GMT"
+      "postTitle": "American AI May Not Survive Chinese Open-Source",
+      "postUrl": "https://letter.palladiummag.com/p/american-ai-may-not-survive-chinese",
+      "publishDate": "Wed, 19 Aug 2026 17:36:36 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
