@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T11:00:50.429954",
+  "lastUpdated": "2026-08-21T11:01:37.831540",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
-      "postUrl": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
-      "publishDate": "2026-08-19T23:16:00+00:00"
+      "postTitle": "ChatGPT search now uses the site:operator at scale",
+      "postUrl": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+      "publishDate": "2026-08-20T23:57:32+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Relying on Go",
-      "postUrl": "https://antonz.org/relying-on-go/",
-      "publishDate": "Sun, 09 Aug 2026 12:00:00 +0000"
+      "postTitle": "Going freestanding",
+      "postUrl": "https://antonz.org/going-freestanding/",
+      "publishDate": "Thu, 20 Aug 2026 12:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
@@ -179,16 +179,16 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Space Dispatch",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/space-dispatch",
-      "publishDate": "Sun, 09 Aug 2026 12:03:20 GMT"
+      "postTitle": "How Households Drive History",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-households-drive-history",
+      "publishDate": "Thu, 20 Aug 2026 13:23:53 GMT"
     },
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Defending Privacy, Daily",
-      "postUrl": "https://anildash.com/2026/03/31/defending-privacy-daily/",
-      "publishDate": "2026-03-31T00:00:00Z"
+      "postTitle": "On the Vergecast, On Video",
+      "postUrl": "https://anildash.com/2026/04/01/vergecast-video/",
+      "publishDate": "2026-04-01T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
