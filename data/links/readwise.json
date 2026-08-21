@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-08-20T16:30:15.650386+05:30",
+  "last_updated": "2026-08-21T16:31:01.878741+05:30",
   "links": [
+    {
+      "id": "01m0h5tk7eww2v54n2fmb6mhc9",
+      "title": "There's no such thing as a small software team anymore",
+      "author": "Jake Gold",
+      "source_url": "https://jacob.gold/posts/theres-no-such-thing-as-a-small-software-team/",
+      "published_date": "2026-08-19",
+      "saved_at": "2026-08-21T08:58:55.022000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m0g2j9bka67s5z64dvtb1s5h",
+      "title": "I Am Morally Opposed to Updating My CLAUDE.md",
+      "author": "Alex Jacobs",
+      "source_url": "https://alex-jacobs.com/posts/claudemd/",
+      "published_date": "2026-08-19",
+      "saved_at": "2026-08-20T22:42:42.611000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": "\"So every line I add to CLAUDE.md is a blasphemy.\""
+    },
+    {
+      "id": "01m0fj3kv7y4g9hqf493wmdeta",
+      "title": "there’s a post I keep hesitating to write, but have...",
+      "author": "sunil pai",
+      "source_url": "https://x.com/threepointone/status/2090397096176177397/?rw_tt_thread=True",
+      "published_date": "2026-08-20",
+      "saved_at": "2026-08-20T17:55:04.615000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
     {
       "id": "01m0ev3rwxxwh3xxjgma9xqkv1",
       "title": "The best general advice on earth",
