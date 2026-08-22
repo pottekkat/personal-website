@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-08-21T16:31:01.878741+05:30",
+  "last_updated": "2026-08-22T16:22:42.529642+05:30",
   "links": [
+    {
+      "id": "01m0mexp28y0j4rwkq87qnppzt",
+      "title": "IndieWeb is Punk",
+      "author": "indiewebispunk.net",
+      "source_url": "https://indiewebispunk.net/",
+      "published_date": "2026-08-21",
+      "saved_at": "2026-08-22T15:35:36.712000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m0jk1jk6d6x96wc9k7a7r6j2",
+      "title": "Omacom Foundation launches with $8 million",
+      "author": "DHH",
+      "source_url": "https://omarchy.org/news/2026/08/omacom-foundation-launches-with-8-million/",
+      "published_date": "2026-08-21",
+      "saved_at": "2026-08-21T22:09:09.670000+05:30",
+      "reading_time": "1 min",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m0jh0fya28kavq0efyy92phv",
+      "title": "I Just Want to Search",
+      "author": "Sid's Blog",
+      "source_url": "https://0xsid.com/blog/just-want-to-search",
+      "published_date": "2026-08-21",
+      "saved_at": "2026-08-21T21:33:34.034000+05:30",
+      "reading_time": "3 mins",
+      "category": "rss",
+      "notes": ""
+    },
+    {
+      "id": "01m0jg6gjfe0btr867efhs5jyf",
+      "title": "From the archives: Barack Obama's 2004 DNC speech",
+      "author": "CBS News",
+      "source_url": "https://www.youtube.com/watch?v=FgGO7ARzU9U",
+      "published_date": "2024-08-20",
+      "saved_at": "2026-08-21T21:19:25.711000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01m0h5tk7eww2v54n2fmb6mhc9",
       "title": "There's no such thing as a small software team anymore",
