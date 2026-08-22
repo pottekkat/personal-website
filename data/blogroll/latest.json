@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-21T11:01:37.831540",
+  "lastUpdated": "2026-08-22T10:53:26.102474",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Perseids",
-      "postUrl": "https://xkcd.com/3287/",
-      "publishDate": "Wed, 19 Aug 2026 04:00:00 -0000"
+      "postTitle": "xkcd store reopening",
+      "postUrl": "https://store.xkcd.com/",
+      "publishDate": "Fri, 21 Aug 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "ChatGPT search now uses the site:operator at scale",
-      "postUrl": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
-      "publishDate": "2026-08-20T23:57:32+00:00"
+      "postTitle": "llm 0.32.1",
+      "postUrl": "https://simonwillison.net/2026/Aug/21/llm/",
+      "publishDate": "2026-08-21T17:16:13+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -186,9 +186,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "On the Vergecast, On Video",
-      "postUrl": "https://anildash.com/2026/04/01/vergecast-video/",
-      "publishDate": "2026-04-01T00:00:00Z"
+      "postTitle": "Actually, people love to work hard",
+      "postUrl": "https://anildash.com/2026/04/06/people-love-to-work-hard/",
+      "publishDate": "2026-04-07T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
