@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T10:53:35.255605",
+  "lastUpdated": "2026-08-24T11:09:19.642747",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Linus Torvalds",
-      "postUrl": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
-      "publishDate": "2026-08-22T21:04:26+00:00"
+      "postTitle": "Anthropic\u2019s best AI model struggles to attract users as cheaper tools thrive",
+      "postUrl": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+      "publishDate": "2026-08-23T20:24:52+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -67,9 +67,9 @@
     {
       "blogTitle": "Austin Z. Henley's Blog",
       "blogUrl": "https://austinhenley.com/",
-      "postTitle": "Automating my job away",
-      "postUrl": "https://austinhenley.com/blog/automatingmyjob.html",
-      "publishDate": "Sun, 7 Jun 2026 10:00:01 -0400"
+      "postTitle": "You probably use AI because your colleagues use AI",
+      "postUrl": "https://austinhenley.com/blog/aiadoption.html",
+      "publishDate": "Sun, 23 Aug 2026 16:00:01 -0400"
     },
     {
       "blogTitle": "blog.jfo.click",
