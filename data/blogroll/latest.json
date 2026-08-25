@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T11:09:19.642747",
+  "lastUpdated": "2026-08-25T11:02:46.667690",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Anthropic\u2019s best AI model struggles to attract users as cheaper tools thrive",
-      "postUrl": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
-      "publishDate": "2026-08-23T20:24:52+00:00"
+      "postTitle": "llm-anthropic 0.27",
+      "postUrl": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
+      "publishDate": "2026-08-24T16:27:04+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "American AI May Not Survive Chinese Open-Source",
-      "postUrl": "https://letter.palladiummag.com/p/american-ai-may-not-survive-chinese",
-      "publishDate": "Wed, 19 Aug 2026 17:36:36 GMT"
+      "postTitle": "\"Our Dostoevskian Moment\" With James Poulos",
+      "postUrl": "https://letter.palladiummag.com/p/our-dostoevskian-moment-with-james",
+      "publishDate": "Mon, 24 Aug 2026 19:31:54 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
