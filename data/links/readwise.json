@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-08-24T16:38:41.435635+05:30",
+  "last_updated": "2026-08-25T16:32:15.485743+05:30",
   "links": [
+    {
+      "id": "01m0vfczzpqeckbm15ajydh29k",
+      "title": "Was Modern Art Really a CIA Psy-Op?",
+      "author": "Lucie Levine",
+      "source_url": "https://daily.jstor.org/was-modern-art-really-a-cia-psy-op/",
+      "published_date": "2020-04-01",
+      "saved_at": "2026-08-25T08:58:39.414000+05:30",
+      "reading_time": "7 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m0veszckrxhxkpz41d69d0ks",
+      "title": "Anger, Anxiety and Agency",
+      "author": "Armin Ronacher",
+      "source_url": "https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency/",
+      "published_date": "2026-08-24",
+      "saved_at": "2026-08-25T08:48:16.211000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m0tfraj7eqsc8v42hksy6wz0",
+      "title": "Can a blog post be handwritten?",
+      "author": "diggingforfire.blog",
+      "source_url": "https://diggingforfire.blog/posts/can-a-blog-post-be-handwritten/",
+      "published_date": "2026-08-20",
+      "saved_at": "2026-08-24T23:45:36.262000+05:30",
+      "reading_time": "1 min",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01m0raha6j2k56xam4q29m79pm",
       "title": "You probably use AI because your colleagues use AI",
