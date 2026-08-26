@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T11:02:46.667690",
+  "lastUpdated": "2026-08-26T11:09:47.961430",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "llm-anthropic 0.27",
-      "postUrl": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
-      "publishDate": "2026-08-24T16:27:04+00:00"
+      "postTitle": "Quoting Paul Dix",
+      "postUrl": "https://simonwillison.net/2026/Aug/26/paul-dix/",
+      "publishDate": "2026-08-26T08:07:55+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "C++ Threads - There is a Right Way and a Wrong Way but the Wrong Way is Probably Fine",
-      "postUrl": "https://sheep.horse/2025/10/c%2B%2B_threads_-_there_is_a_right_way_and_a_wrong_way.html",
-      "publishDate": "Fri, 17 Oct 2025 19:02:26 +0000"
+      "postTitle": "Two Non-fiction Books Touching on Evolutionary Biology",
+      "postUrl": "https://sheep.horse/2026/2/two_non-fiction_books_touching_on_evolutionary_bio.html",
+      "publishDate": "Thu, 12 Feb 2026 03:57:53 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
@@ -151,16 +151,16 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Why do I romanticize 18th-century chores?",
-      "postUrl": "https://www.elysian.press/p/romanticize-18th-century-chores",
-      "publishDate": "Tue, 18 Aug 2026 12:01:57 GMT"
+      "postTitle": "On the desire to live in a cabin in the woods",
+      "postUrl": "https://www.elysian.press/p/desire-to-fuck-off-to-the-woods",
+      "publishDate": "Tue, 25 Aug 2026 12:01:20 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "\"Our Dostoevskian Moment\" With James Poulos",
-      "postUrl": "https://letter.palladiummag.com/p/our-dostoevskian-moment-with-james",
-      "publishDate": "Mon, 24 Aug 2026 19:31:54 GMT"
+      "postTitle": "Civilization Before History",
+      "postUrl": "https://letter.palladiummag.com/p/civilization-before-history",
+      "publishDate": "Tue, 25 Aug 2026 18:14:15 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
