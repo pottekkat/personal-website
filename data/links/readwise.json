@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-08-26T16:39:13.782260+05:30",
+  "last_updated": "2026-08-28T02:13:37.745340+05:30",
   "links": [
+    {
+      "id": "01m10st8kq437kxfw6thwzejre",
+      "title": "Excessive nil pointer checks in Go",
+      "author": "Konrad Reiche",
+      "source_url": "https://konradreiche.com/blog/excessive-nil-pointer-checks-in-go/",
+      "published_date": "2026-06-16",
+      "saved_at": "2026-08-27T10:36:52.151000+05:30",
+      "reading_time": "7 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m10sh696e6kek6najnxa9bt9",
+      "title": "Daughters Who Will Never Be Mothers",
+      "author": "Susan Pickard",
+      "source_url": "https://www.compactmag.com/article/daughters-who-will-never-be-mothers/",
+      "published_date": "2026-08-26",
+      "saved_at": "2026-08-27T10:31:54.853000+05:30",
+      "reading_time": "9 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m0zm39572xsjg95jg6w8rhpp",
+      "title": "You could have invented PageRank",
+      "author": "admin",
+      "source_url": "https://praveshkoirala.com/2026/08/26/you-could-have-invented-pagerank/",
+      "published_date": "2026-08-26",
+      "saved_at": "2026-08-26T23:37:41.734000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01m0wc4gsj180ew5ksr0xnn0e7",
       "title": "How Universities Should Prepare Founders",
