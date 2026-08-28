@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-27T20:44:15.436190",
+  "lastUpdated": "2026-08-28T21:26:08.896114",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "xkcd store reopening",
-      "postUrl": "https://store.xkcd.com/",
-      "publishDate": "Fri, 21 Aug 2026 04:00:00 -0000"
+      "postTitle": "Launchpad",
+      "postUrl": "https://xkcd.com/3291/",
+      "publishDate": "Fri, 28 Aug 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Qwen3.8-Flash-Next",
-      "postUrl": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
-      "publishDate": "2026-08-26T23:52:58+00:00"
+      "postTitle": "Breaking Claude Code Opus 5 Auto Mode",
+      "postUrl": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+      "publishDate": "2026-08-27T22:50:25+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Shallow Intent: Why People Don\u2019t Like AI Content, and How to Make It Great",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/shallow-intent-why-people-dont-like",
-      "publishDate": "Wed, 26 Aug 2026 15:18:04 GMT"
+      "postTitle": "What Is Happening in Ceuta?",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/what-is-happening-in-ceuta",
+      "publishDate": "Fri, 28 Aug 2026 15:45:08 GMT"
     },
     {
       "blogTitle": "Anil Dash",
