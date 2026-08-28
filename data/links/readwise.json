@@ -1,6 +1,94 @@
 {
-  "last_updated": "2026-08-28T02:13:37.745340+05:30",
+  "last_updated": "2026-08-29T02:55:38.091281+05:30",
   "links": [
+    {
+      "id": "01m14btgytesbjd2mc7eay48x2",
+      "title": "My Friend Aaron",
+      "author": "Rory McMeekin",
+      "source_url": "https://rorz.io/writing/my-friend-aaron",
+      "published_date": "2026-08-21",
+      "saved_at": "2026-08-28T19:49:18.361000+05:30",
+      "reading_time": "19 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m149w6x79134egexqq7987t0",
+      "title": "The perfect technology for creeps?",
+      "author": "Good Work",
+      "source_url": "https://www.youtube.com/watch?v=PuoGqbLbRhc",
+      "published_date": "2026-08-28",
+      "saved_at": "2026-08-28T19:15:16.455000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m14924s3tbckh62bnb5wv78t",
+      "title": "We will need more (not fewer) scientists",
+      "author": "https://blog.valency.io/authors/josh-bloom/",
+      "source_url": "https://blog.valency.io/posts/we-need-more-scientists",
+      "published_date": "2026-08-26",
+      "saved_at": "2026-08-28T19:01:02.303000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m13p93e5bpk9pkg8jegcxh16",
+      "title": "Please stop flooding our projects with AI slop to furnish your CV",
+      "author": "Neil",
+      "source_url": "https://neilalexander.dev/2026/06/30/flooding-contributions",
+      "published_date": "2026-06-30",
+      "saved_at": "2026-08-28T13:32:47.365000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m139wh7tvy9cnp0b8znczr8m",
+      "title": "With the backlash to data centers, Flock and AI glasses, a mass opposition to big tech is underway. Silicon Valley is in denial.",
+      "author": "Brian Merchant",
+      "source_url": "https://www.bloodinthemachine.com/p/with-the-backlash-to-data-centers",
+      "published_date": "2026-08-27",
+      "saved_at": "2026-08-28T09:56:12.601000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m138ydqkbja5c9289k38gbm7",
+      "title": "How India Learnt To Hate Competence",
+      "author": "Shinjani Agnihotri",
+      "source_url": "https://shinjaniagno3.substack.com/p/how-india-learnt-to-hate-competence",
+      "published_date": "2026-08-10",
+      "saved_at": "2026-08-28T09:39:45.969000+05:30",
+      "reading_time": "18 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m1377d86tnajejpfxz07jmgw",
+      "title": "Incentives are for losers",
+      "author": "Adam Mastroianni",
+      "source_url": "https://www.experimental-history.com/p/incentives-are-for-losers",
+      "published_date": "2026-08-05",
+      "saved_at": "2026-08-28T09:09:43.238000+05:30",
+      "reading_time": "14 mins",
+      "category": "article",
+      "notes": "\"In the eternal game of cat and mouse between the goodhearted people trying to fix the incentives and the Goodhart’d people trying to exploit the incentives, I am rooting for the cats.\""
+    },
+    {
+      "id": "01m12whzc2gd9qrhtvafd1jkfs",
+      "title": "How Equality Screwed Gen Z",
+      "author": "Manu Joseph",
+      "source_url": "https://manujoseph.substack.com/p/the-real-reason-modi-is-losing-the",
+      "published_date": "2026-07-31",
+      "saved_at": "2026-08-28T06:03:15.138000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01m10st8kq437kxfw6thwzejre",
       "title": "Excessive nil pointer checks in Go",
