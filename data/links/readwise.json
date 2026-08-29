@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-08-29T02:55:38.091281+05:30",
+  "last_updated": "2026-08-29T20:46:49.147215+05:30",
   "links": [
+    {
+      "id": "01m15vzkg2qmn0f4w4fkp8np45",
+      "title": "Cursor's Github Replacement",
+      "author": "The PrimeTime",
+      "source_url": "https://www.youtube.com/watch?v=AFQW-b2WaRU",
+      "published_date": "2026-08-28",
+      "saved_at": "2026-08-29T09:50:56.449000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m15769qzghxb93strxdr9rgb",
+      "title": "Just a rumour of a bug is enough to find a security exploit these days",
+      "author": "Simon Willison's Weblog",
+      "source_url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+      "published_date": "2026-08-28",
+      "saved_at": "2026-08-29T03:47:32.743000+05:30",
+      "reading_time": "2 mins",
+      "category": "rss",
+      "notes": ""
+    },
     {
       "id": "01m14btgytesbjd2mc7eay48x2",
       "title": "My Friend Aaron",
