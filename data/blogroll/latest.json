@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T21:26:08.896114",
+  "lastUpdated": "2026-08-29T15:17:22.342617",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Breaking Claude Code Opus 5 Auto Mode",
-      "postUrl": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
-      "publishDate": "2026-08-27T22:50:25+00:00"
+      "postTitle": "Just a rumour of a bug is enough to find a security exploit these days",
+      "postUrl": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+      "publishDate": "2026-08-28T22:12:02+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "Prism: An Impure Functional Language With Typed Effects",
-      "postUrl": "https://www.stephendiehl.com/posts/prism/",
-      "publishDate": "Sat, 20 Jun 2026 01:00:00 +0000"
+      "postTitle": "The Internet Is Kind of a Predatory Cesspit Now",
+      "postUrl": "https://www.stephendiehl.com/posts/internet_predatory_cesspit/",
+      "publishDate": "Sat, 29 Aug 2026 01:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
