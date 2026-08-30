@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T15:17:22.342617",
+  "lastUpdated": "2026-08-30T14:57:47.418217",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Just a rumour of a bug is enough to find a security exploit these days",
-      "postUrl": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
-      "publishDate": "2026-08-28T22:12:02+00:00"
+      "postTitle": "Introducing Hy4 Preview",
+      "postUrl": "https://simonwillison.net/2026/Aug/29/hy4/",
+      "publishDate": "2026-08-29T23:53:13+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
