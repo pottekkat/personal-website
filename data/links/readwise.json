@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-08-29T20:46:49.147215+05:30",
+  "last_updated": "2026-08-30T20:27:15.781105+05:30",
   "links": [
+    {
+      "id": "01m193z2c1dh9w1kkd0pav0sdr",
+      "title": "If we live in a simulation, and it’s modeling a...",
+      "author": "Mattie Fairchild",
+      "source_url": "https://x.com/scav/status/2093767694541811907/?s=12&rw_tt_thread=True",
+      "published_date": "2026-08-29",
+      "saved_at": "2026-08-30T16:08:10.817000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m18hfzntnavwrz90n4y42x02",
+      "title": "Terrible advice for software engineers",
+      "author": "Steve Ruiz",
+      "source_url": "https://x.com/steveruizok/status/2093748670617256098/?rw_tt_thread=True",
+      "published_date": "2026-08-29",
+      "saved_at": "2026-08-30T10:45:22.170000+05:30",
+      "reading_time": "9 mins",
+      "category": "tweet",
+      "notes": ""
+    },
     {
       "id": "01m15vzkg2qmn0f4w4fkp8np45",
       "title": "Cursor's Github Replacement",
