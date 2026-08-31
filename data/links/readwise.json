@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-08-30T20:27:15.781105+05:30",
+  "last_updated": "2026-08-31T23:12:17.051177+05:30",
   "links": [
+    {
+      "id": "01m1c3nrqzy57ry0n3ckd4rrx2",
+      "title": "The line between Genius and Insanity",
+      "author": "The PrimeTime",
+      "source_url": "https://www.youtube.com/watch?v=NuktXEikxU8",
+      "published_date": "2026-08-31",
+      "saved_at": "2026-08-31T20:00:49.343000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m1c01683tdyt2venwm8ge6he",
+      "title": "AI-Written Code Is Still Your Code. Are You OK With That?",
+      "author": "Marty Lamb",
+      "source_url": "https://martiansoftware.com/articles/ai-written-code-is-still-yours",
+      "published_date": "2026-08-25",
+      "saved_at": "2026-08-31T18:57:09.315000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m1b5e5k5knzc5agw4mpzm0j9",
+      "title": "Why do I lose my passion and want to do nothing?",
+      "author": "hanstyle",
+      "source_url": "https://news.ycombinator.com/item?id=49505014",
+      "published_date": "2026-08-31",
+      "saved_at": "2026-08-31T11:12:23.077000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m1b00aq9sr2qpzch640qcta7",
+      "title": "A lot of people are asking about GPT Astra’s new...",
+      "author": "Token Gremlin",
+      "source_url": "https://x.com/tokengremlin/status/2093937082376814717/?s=46&t=AF9-om6Pp6KlsdZxPaX82g&rw_tt_thread=True",
+      "published_date": "2026-08-30",
+      "saved_at": "2026-08-31T09:37:26.697000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m19kgh51w7j4ah2k0ftybjn2",
+      "title": "The Rise and Fall of Agent Civilizations",
+      "author": "Dwarkesh Patel",
+      "source_url": "https://www.dwarkesh.com/p/openai-huggingface",
+      "published_date": "2026-08-29",
+      "saved_at": "2026-08-30T20:39:51.649000+05:30",
+      "reading_time": "15 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01m193z2c1dh9w1kkd0pav0sdr",
       "title": "If we live in a simulation, and it’s modeling a...",
