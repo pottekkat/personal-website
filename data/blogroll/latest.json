@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-31T17:42:51.052861",
+  "lastUpdated": "2026-09-01T15:08:29.634835",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Launchpad",
-      "postUrl": "https://xkcd.com/3291/",
-      "publishDate": "Fri, 28 Aug 2026 04:00:00 -0000"
+      "postTitle": "Geology Class",
+      "postUrl": "https://xkcd.com/3292/",
+      "publishDate": "Mon, 31 Aug 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Understanding ChatGPT Work",
-      "postUrl": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
-      "publishDate": "2026-08-30T23:59:47+00:00"
+      "postTitle": "Python 3.15.0 candidate 2 is here!",
+      "postUrl": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
+      "publishDate": "2026-09-01T14:59:18+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "Will you train the models for pay? | #330",
-      "postUrl": "https://newsletter.pathlesspath.com/p/will-you-train-the-models-for-pay",
-      "publishDate": "Mon, 13 Jul 2026 14:12:51 GMT"
+      "postTitle": "New Fatherhood, Young Money, Audiobook Deal, Asia Books, Boomers | #331",
+      "postUrl": "https://newsletter.pathlesspath.com/p/new-fatherhood-young-money-audiobook",
+      "publishDate": "Tue, 01 Sep 2026 10:38:12 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "What Is Happening in Ceuta?",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/what-is-happening-in-ceuta",
-      "publishDate": "Fri, 28 Aug 2026 15:45:08 GMT"
+      "postTitle": "Should We Eradicate Mosquitoes?",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/should-we-eradicate-mosquitoes",
+      "publishDate": "Tue, 01 Sep 2026 12:07:44 GMT"
     },
     {
       "blogTitle": "Anil Dash",
