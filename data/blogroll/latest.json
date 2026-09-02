@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T15:08:29.634835",
+  "lastUpdated": "2026-09-02T14:40:47.999488",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Python 3.15.0 candidate 2 is here!",
-      "postUrl": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
-      "publishDate": "2026-09-01T14:59:18+00:00"
+      "postTitle": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+      "postUrl": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+      "publishDate": "2026-09-02T14:16:42+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
