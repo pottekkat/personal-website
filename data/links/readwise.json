@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-09-02T20:09:59.197875+05:30",
+  "last_updated": "2026-09-03T20:13:12.166187+05:30",
   "links": [
+    {
+      "id": "01m1kk8knzs0cc0hsabhyxs9w4",
+      "title": "DEF CON 34 - ESP32 as counter-surveillance platform - Cybertiger, Colonel Panic, The Wrew",
+      "author": "DEFCONConference",
+      "source_url": "https://www.youtube.com/watch?v=PcK-TDmzshc",
+      "published_date": "2026-08-31",
+      "saved_at": "2026-09-03T17:47:56.414000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m1jvve20pcckhpg14dbc9qcn",
+      "title": "Maybe We Shouldn't Be Reviewing All This Code",
+      "author": "Rachel Laycock",
+      "source_url": "https://martinfowler.com/rachels-ramblings/code-review.html",
+      "published_date": "2026-09-02",
+      "saved_at": "2026-09-03T10:58:47.423000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m1jv8hzs5yrhpep5k0c4c13r",
+      "title": "i wanna live an npc life",
+      "author": "signalundefied",
+      "source_url": "https://signalundefied.bearblog.dev/i-wanna-live-an-npc-life/",
+      "published_date": "2026-09-01",
+      "saved_at": "2026-09-03T10:48:28.857000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m1j158ze67z4kkef3r4m2edz",
+      "title": "VC isn’t VC anymore — understanding the rise of Cancer Capital",
+      "author": "Anil Dash",
+      "source_url": "https://anildash.com/2026/09/02/cancer-capital/",
+      "published_date": "2026-09-02",
+      "saved_at": "2026-09-03T03:12:15.351000+05:30",
+      "reading_time": "6 mins",
+      "category": "rss",
+      "notes": ""
+    },
+    {
+      "id": "01m1hdbjcnzfq8xkzr0ha0w6jv",
+      "title": "I am not always very attached to being alive",
+      "author": "Anna Borges",
+      "source_url": "https://theoutline.com/post/7267/living-with-passive-suicidal-ideation",
+      "published_date": "2019-04-02",
+      "saved_at": "2026-09-02T21:26:13.076000+05:30",
+      "reading_time": "9 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01m1dqvkp7x9edx86qyhqgr7bv",
       "title": "An argument for logging off",
