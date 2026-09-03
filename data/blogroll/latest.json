@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-09-02T14:40:47.999488",
+  "lastUpdated": "2026-09-03T14:44:15.567447",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Geology Class",
-      "postUrl": "https://xkcd.com/3292/",
-      "publishDate": "Mon, 31 Aug 2026 04:00:00 -0000"
+      "postTitle": "Handedness",
+      "postUrl": "https://xkcd.com/3293/",
+      "publishDate": "Wed, 02 Sep 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Claude's new system prompt really doesn't want to reproduce song lyrics",
-      "postUrl": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
-      "publishDate": "2026-09-02T14:16:42+00:00"
+      "postTitle": "llm-gemini 0.34",
+      "postUrl": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+      "publishDate": "2026-09-02T16:39:38+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Battling All the Way Home",
-      "postUrl": "https://letter.palladiummag.com/p/battling-all-the-way-home",
-      "publishDate": "Thu, 27 Aug 2026 15:45:39 GMT"
+      "postTitle": "\"The Native Americans Before the Native Americans\" With Razib Khan",
+      "postUrl": "https://letter.palladiummag.com/p/the-native-americans-before-the-native-a9c",
+      "publishDate": "Wed, 02 Sep 2026 19:37:15 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -179,16 +179,16 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Should We Eradicate Mosquitoes?",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/should-we-eradicate-mosquitoes",
-      "publishDate": "Tue, 01 Sep 2026 12:07:44 GMT"
+      "postTitle": "Weapons of Mosquito Destruction",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/weapons-of-mosquito-destruction",
+      "publishDate": "Thu, 03 Sep 2026 12:04:22 GMT"
     },
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Actually, people love to work hard",
-      "postUrl": "https://anildash.com/2026/04/06/people-love-to-work-hard/",
-      "publishDate": "2026-04-07T00:00:00Z"
+      "postTitle": "When the crisis comes",
+      "postUrl": "https://anildash.com/2026/04/08/when-the-crisis-comes/",
+      "publishDate": "2026-04-08T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
