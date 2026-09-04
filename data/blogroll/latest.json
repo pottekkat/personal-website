@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T14:44:15.567447",
+  "lastUpdated": "2026-09-04T14:32:03.399637",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "llm-gemini 0.34",
-      "postUrl": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
-      "publishDate": "2026-09-02T16:39:38+00:00"
+      "postTitle": "August newsletter is out",
+      "postUrl": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
+      "publishDate": "2026-09-04T05:54:40+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "Two Non-fiction Books Touching on Evolutionary Biology",
-      "postUrl": "https://sheep.horse/2026/2/two_non-fiction_books_touching_on_evolutionary_bio.html",
-      "publishDate": "Thu, 12 Feb 2026 03:57:53 +0000"
+      "postTitle": "I Am Experimenting with Blocking HTTP1.1",
+      "postUrl": "https://sheep.horse/2026/2/i_am_experimenting_with_blocking_http1.1.html",
+      "publishDate": "Sat, 21 Feb 2026 15:42:42 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
