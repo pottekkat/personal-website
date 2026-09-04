@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-09-03T20:13:12.166187+05:30",
+  "last_updated": "2026-09-04T20:01:24.790481+05:30",
   "links": [
+    {
+      "id": "01m1p9yawb3ejrwt3daxpqc8wt",
+      "title": "One of the world's greatest mathematicians explains 6 essential concepts of math | Terence Tao",
+      "author": "Big Think",
+      "source_url": "https://www.youtube.com/watch?v=OOMx2BHHWtE&list=WL&index=3",
+      "published_date": "2026-08-28",
+      "saved_at": "2026-09-04T19:02:45.835000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m1nx8pvb8xz58cvc3f6hvdry",
+      "title": "If you know how to live you have nowhere to live in India",
+      "author": "Manu Joseph",
+      "source_url": "https://manujoseph.substack.com/p/if-you-know-how-to-live-you-have",
+      "published_date": "2026-09-04",
+      "saved_at": "2026-09-04T15:21:14.282000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m1nf1s8pdqepbf3byf0bdc92",
+      "title": "Vibe Coding vs Agentic Engineering vs Programming | DHH and Lex Fridman",
+      "author": "Lex Clips",
+      "source_url": "https://www.youtube.com/watch?v=hO-i1l8BecM",
+      "published_date": "2026-09-02",
+      "saved_at": "2026-09-04T11:12:47.317000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m1ncrkvvf1wjmrx5f5cj4q6r",
+      "title": "How Delhi Built a World-Class Metro for a Bargain",
+      "author": "Karan Deep Singh",
+      "source_url": "https://www.nytimes.com/2026/09/02/headway/india-delhi-metro-public-transit.html?unlocked_article_code=1.-FA.o6RP.LbNUPftZplql&smid=url-share",
+      "published_date": "2026-09-02",
+      "saved_at": "2026-09-04T10:32:49.722000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m1m9n8caqbfby1rjb3h1wyrg",
+      "title": "NEWS: Sanders, Casar to Introduce Legislation to Ban Artificial Superintelligence and Temporarily Pause Advanced AI Development",
+      "author": "Senator Bernie Sanders",
+      "source_url": "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/",
+      "published_date": "2026-09-03",
+      "saved_at": "2026-09-04T00:19:19.497000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01m1kk8knzs0cc0hsabhyxs9w4",
       "title": "DEF CON 34 - ESP32 as counter-surveillance platform - Cybertiger, Colonel Panic, The Wrew",
