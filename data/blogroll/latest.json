@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-09-04T14:32:03.399637",
+  "lastUpdated": "2026-09-05T13:32:12.795881",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Handedness",
-      "postUrl": "https://xkcd.com/3293/",
-      "publishDate": "Wed, 02 Sep 2026 04:00:00 -0000"
+      "postTitle": "Asteroid Mission",
+      "postUrl": "https://xkcd.com/3294/",
+      "publishDate": "Fri, 04 Sep 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "August newsletter is out",
-      "postUrl": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
-      "publishDate": "2026-09-04T05:54:40+00:00"
+      "postTitle": "The Pelican comparison grid for Astra is pretty interesting",
+      "postUrl": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+      "publishDate": "2026-09-04T23:59:05+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -186,9 +186,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "When the crisis comes",
-      "postUrl": "https://anildash.com/2026/04/08/when-the-crisis-comes/",
-      "publishDate": "2026-04-08T00:00:00Z"
+      "postTitle": "Y2K 2.0: The AI security reckoning",
+      "postUrl": "https://anildash.com/2026/04/10/y2k-2.0-ai-security/",
+      "publishDate": "2026-04-10T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
