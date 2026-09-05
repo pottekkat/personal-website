@@ -1,3 +1,10 @@
+{{- /* Alt text: an explicit alt wins, otherwise fall back to the title, as before. */ -}}
+{{- $alt := .Get "alt" -}}
+{{- if not $alt }}{{ with .Get "title" }}{{ $alt = . | markdownify | plainify }}{{ end }}{{ end -}}
+{{- $class := "" -}}
+{{- if .Get "invert" }}{{ $class = "invert-diagram-colors" }}{{ end -}}
+{{- $src := .Get "src" -}}
+{{- if eq (.Get "align") "center" }}{{ $src = printf "%s#center" $src }}{{ end -}}
 <figure{{ if or (.Get "class") (eq (.Get "align") "center") }} class="
            {{- if eq (.Get "align") "center" }}align-center {{ end }}
            {{- with .Get "class" }}{{ . }}{{- end }}"
@@ -6,14 +13,13 @@
     {{- if .Get "link" -}}
         <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
     {{- end }}
-    <img loading="lazy" src="{{ .Get "src" }}{{- if eq (.Get "align") "center" }}#center{{- end }}"
-         {{- if or (.Get "alt") (.Get "title") }}
-         alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "title" | markdownify| plainify }}{{ end }}"
-         {{- end -}}
-         {{- with .Get "width" }} width="{{ . }}"{{ end -}}
-         {{- with .Get "height" }} height="{{ . }}"{{ end -}}
-         {{- if .Get "invert" }} class="invert-diagram-colors"{{ end -}}
-    /> <!-- Closing img tag -->
+    {{- partial "responsive-image.html" (dict
+        "src" $src
+        "alt" $alt
+        "width" (.Get "width")
+        "height" (.Get "height")
+        "class" $class
+    ) }} <!-- Closing img tag -->
     </div>
     {{- if .Get "link" }}</a>{{ end -}}
     {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}

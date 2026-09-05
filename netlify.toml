@@ -1,3 +1,12 @@
+# Hugo re-encodes every content image to WebP on a cold cache, which is several
+# minutes of build time. resources/ is gitignored, so without this every deploy
+# starts from zero; the plugin restores it between builds and `hugo --gc` prunes
+# variants that are no longer referenced.
+[[plugins]]
+  package = "netlify-plugin-cache"
+  [plugins.inputs]
+    paths = ["resources"]
+
 [context.deploy-preview]
     command = "hugo --buildFuture --buildDrafts --gc --minify -b $DEPLOY_PRIME_URL"
 

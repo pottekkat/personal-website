@@ -17,7 +17,11 @@
       </p>
       <figure class="align-center">
         <div class="image-border">
-          <img class="invert-diagram-colors" loading="lazy" src="/images/stats/visitors-by-country.png#center" alt="Chart showing the source of visitors over last one month.">
+          {{ partial "responsive-image.html" (dict
+            "src" "/images/stats/visitors-by-country.png#center"
+            "alt" "Chart showing the source of visitors over last one month."
+            "class" "invert-diagram-colors"
+          ) }}
         </div>        
         <figcaption>
           Stats from the last 30 days<p>Last updated at {{.Site.Data.stats.stats.runtime}}</p>
@@ -38,7 +42,11 @@
 
       <figure class="align-center">
         <div class="image-border">
-          <img class="invert-diagram-colors" loading="lazy" src="/images/stats/monthly-visitors.png#center" alt="Chart showing visitors over last one month.">
+          {{ partial "responsive-image.html" (dict
+            "src" "/images/stats/monthly-visitors.png#center"
+            "alt" "Chart showing visitors over last one month."
+            "class" "invert-diagram-colors"
+          ) }}
         </div>
         <figcaption>
           Stats from the last 30 days<p>Last updated at {{.Site.Data.stats.stats.runtime}}</p>
@@ -51,7 +59,11 @@
     <p>{{.Site.Data.stats.stats.direct_link_string}}</p>
     <figure class="align-center">
       <div class="image-border">
-        <img class="invert-diagram-colors" loading="lazy" src="/images/stats/monthly-sources.png#center" alt="Chart showing the source of visitors over last one month.">
+        {{ partial "responsive-image.html" (dict
+            "src" "/images/stats/monthly-sources.png#center"
+            "alt" "Chart showing the source of visitors over last one month."
+            "class" "invert-diagram-colors"
+          ) }}
       </div>
         <figcaption>
         Stats from the last 30 days<p>Last updated at {{.Site.Data.stats.stats.runtime}}</p>

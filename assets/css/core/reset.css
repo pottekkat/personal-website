@@ -118,6 +118,10 @@ textarea:-webkit-autofill {
 img {
     display: block;
     max-width: 100%;
+    /* Images carry intrinsic width/height attributes so the browser can reserve
+       their box before they load; height: auto keeps max-width from squashing
+       them out of aspect ratio. */
+    height: auto;
 }
 
 pre, code {

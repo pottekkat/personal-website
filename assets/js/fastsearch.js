@@ -8,8 +8,15 @@ let first,
   current_elem = null;
 let resultsAvailable = false;
 
-// load our search index
-window.onload = function () {
+// Load our search index. It is ~1.3 MB of post text, which is far too much to
+// pull on every page that merely has a search box. Nobody can search without
+// first focusing the input, so we fetch it then (and on hover, which usually
+// comes a moment earlier). Anything typed before it lands is re-run once it is
+// ready, so the behaviour is the same, just without the up-front download.
+let indexRequested = false;
+function loadSearchIndex() {
+  if (indexRequested) return;
+  indexRequested = true;
   let xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4) {
@@ -64,6 +71,8 @@ window.onload = function () {
             };
           }
           fuse = new Fuse(data, options); // build the index from the json file
+          // Someone may have typed while the index was still downloading.
+          if (sInput.value.trim()) sInput.onkeyup.call(sInput);
         }
       } else {
         console.log(xhr.responseText);
@@ -72,7 +81,17 @@ window.onload = function () {
   };
   xhr.open("GET", "/index.json");
   xhr.send();
-};
+}
+
+// Deliberately not `focus`: several list pages autofocus the box on load, which
+// would fetch the index on every visit again. The first keystroke or the mouse
+// arriving over the box are the real signals that someone means to search, and
+// both land well before a query is complete.
+sInput.addEventListener("keydown", loadSearchIndex);
+sInput.addEventListener("pointerenter", loadSearchIndex);
+sInput.addEventListener("pointerdown", loadSearchIndex);
+// A query restored by the browser on back/forward navigation must not wait.
+if (sInput.value) loadSearchIndex();
 
 function activeToggle(ae) {
   document.querySelectorAll(".focus").forEach(function (element) {

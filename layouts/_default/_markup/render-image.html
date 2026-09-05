@@ -1,0 +1,8 @@
+{{- /* Markdown images go through the same WebP + srcset pipeline as the figure
+       shortcode. Remote images and formats Hugo cannot re-encode pass through
+       unchanged. */ -}}
+{{- partial "responsive-image.html" (dict
+    "src" (.Destination | safeURL)
+    "alt" .Text
+    "title" .Title
+) -}}
