@@ -89,6 +89,18 @@ async function capture(label) {
         });
         await page.evaluate(() => document.fonts && document.fonts.ready);
         await page.waitForLoadState('networkidle', { timeout: 30000 }).catch(() => {});
+        // `decoding=async` lets the browser paint a frame before an image is
+        // decoded, so a screenshot can catch a loaded image as a blank box.
+        // Decode what has already been fetched -- calling decode() on an image
+        // that never started loading would force the fetch and stall here.
+        await page.evaluate(() =>
+          Promise.race([
+            Promise.all(
+              [...document.images].filter((i) => i.complete).map((i) => i.decode().catch(() => {}))
+            ),
+            new Promise((r) => setTimeout(r, 10000)),
+          ])
+        );
         await page.waitForTimeout(300);
 
         const dom = await page.evaluate(() => {

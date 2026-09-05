@@ -94,6 +94,10 @@ function loadSearchIndex() {
     indexRequested = false;
   };
   xhr.onabort = xhr.onerror;
+  // A request that stalls without failing would otherwise leave the guard set
+  // for the life of the page.
+  xhr.timeout = 30000;
+  xhr.ontimeout = xhr.onerror;
   xhr.open("GET", "/index.json");
   xhr.send();
 }
@@ -105,6 +109,9 @@ function loadSearchIndex() {
 sInput.addEventListener("keydown", loadSearchIndex);
 sInput.addEventListener("pointerenter", loadSearchIndex);
 sInput.addEventListener("pointerdown", loadSearchIndex);
+// Autofill, speech input and some IME flows change the value without ever
+// producing a key event.
+sInput.addEventListener("input", loadSearchIndex);
 // A query restored by the browser on back/forward navigation must not wait.
 if (sInput.value) loadSearchIndex();
 

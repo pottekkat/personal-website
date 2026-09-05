@@ -26,6 +26,7 @@
 {{- $loading := .loading | default "lazy" -}}
 {{- $decoding := .decoding | default "async" -}}
 {{- $class := .class -}}
+{{- $id := .id -}}
 {{- $alt := .alt -}}
 {{- $title := .title -}}
 {{- $fetchpriority := .fetchpriority -}}
@@ -51,6 +52,7 @@
 {{- $encodable := slice "jpg" "jpeg" "png" "webp" "tif" "tiff" "bmp" -}}
 
 {{- $srcset := "" -}}
+{{- $ratio := "" -}}
 {{- $sizes := .sizes | default "(max-width: 768px) calc(100vw - 48px), 696px" -}}
 
 {{- if and $res (in $encodable $res.MediaType.SubType) -}}
@@ -101,8 +103,25 @@
   {{- if gt (len $set) 1 -}}{{- $srcset = delimit $set ", " -}}{{- end -}}
 
   {{- $src = printf "%s%s" $full.RelPermalink $frag -}}
-  {{- if not $width -}}{{- $width = $full.Width -}}{{- end -}}
-  {{- if not $height -}}{{- $height = $full.Height -}}{{- end -}}
+  {{- /* A caller that passes only one dimension must not get its partner from
+         the processed file: the two would describe different boxes. Derive the
+         missing one from the source ratio instead. */ -}}
+  {{- if and $width (not $height) -}}
+    {{- $height = math.Round (mul (float $width) (div (float $res.Height) (float $res.Width))) -}}
+  {{- else if and $height (not $width) -}}
+    {{- $width = math.Round (mul (float $height) (div (float $res.Width) (float $res.Height))) -}}
+  {{- else if not $width -}}
+    {{- $width = $full.Width -}}
+    {{- $height = $full.Height -}}
+  {{- end -}}
+
+  {{- /* With `height: auto`, the browser derives the laid-out height from the
+         aspect ratio of the file it actually loaded -- and a resize rung
+         rounds to whole pixels (873x492 -> 700x395, not 700x394.5), so the
+         box could end up a pixel off the original and shift everything below
+         it. Pin the ratio to the source image so the layout is identical to
+         the unprocessed original and does not depend on which rung wins. */ -}}
+  {{- $ratio = printf "%d / %d" $res.Width $res.Height -}}
 {{- end -}}
 
 <img src="{{ $src }}"
@@ -112,6 +131,8 @@
   {{- with $srcset }} srcset="{{ . }}" sizes="{{ $sizes }}"{{ end }} alt="{{ $alt }}"
   {{- with $title }} title="{{ . }}"{{ end -}}
   {{- with $class }} class="{{ . }}"{{ end -}}
+  {{- with $id }} id="{{ . }}"{{ end -}}
   {{- with $width }} width="{{ . }}"{{ end -}}
   {{- with $height }} height="{{ . }}"{{ end -}}
+  {{- with $ratio }} style="{{ printf "aspect-ratio: %s" . | safeCSS }}"{{ end -}}
   {{- with $fetchpriority }} fetchpriority="{{ . }}"{{ end }} loading="{{ $loading }}" decoding="{{ $decoding }}">

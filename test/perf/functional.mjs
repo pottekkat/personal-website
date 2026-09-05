@@ -86,6 +86,57 @@ const fetchedIndex = (page) =>
   await page.close();
 }
 
+// --- Mermaid: a diagram hidden mid-load (reader switches tab while the CDN
+//     request is in flight) must not be rendered into a display:none box.
+//     getBBox() returns 0 there, which collapses the diagram permanently. ---
+{
+  const page = await ctx.newPage();
+  // Hold the CDN response so the tab switch reliably lands mid-load.
+  await page.route('**/mermaid*.js', async (route) => {
+    await new Promise((r) => setTimeout(r, 2500));
+    await route.continue();
+  });
+  await page.goto(ORIGIN + '/posts/durable-agents/', { waitUntil: 'load' });
+  const tabbed = await page.evaluate(() => {
+    const n = [...document.querySelectorAll('.mermaid')].find((x) => x.closest('[data-tabs]'));
+    if (!n) return false;
+    window.__raced = n;
+    n.scrollIntoView();
+    return true;
+  });
+  if (!tabbed) {
+    record('mermaid survives a tab switch mid-load', false, 'no tabbed diagram on the fixture page');
+  } else {
+    await page.waitForTimeout(300);
+    const tabs = () =>
+      page.evaluate((i) => {
+        const g = window.__raced.closest('[data-tabs]');
+        [...g.querySelectorAll('.tabs__tab')][i].click();
+      }, 0);
+    await page.evaluate(() => {
+      const g = window.__raced.closest('[data-tabs]');
+      const other = [...g.querySelectorAll('.tabs__tab')].find((t) => !t.classList.contains('is-active'));
+      if (other) other.click();
+    });
+    await page.waitForTimeout(4000);
+    await tabs();
+    await page.waitForTimeout(2500);
+    const box = await page.evaluate(() => {
+      const svg = window.__raced.querySelector('svg');
+      if (!svg) return null;
+      const r = svg.getBoundingClientRect();
+      return { w: Math.round(r.width), h: Math.round(r.height) };
+    });
+    // A collapsed mermaid render is mermaid's 300x64 fallback box.
+    record(
+      'mermaid survives a tab switch mid-load',
+      !!box && box.h > 120,
+      box ? `${box.w}x${box.h}` : 'no svg'
+    );
+  }
+  await page.close();
+}
+
 // --- ECharts: the head scripts are deferred, so every chart must still be
 //     initialised by the time the page has loaded. ---
 {

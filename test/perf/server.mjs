@@ -6,6 +6,7 @@ import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
 import zlib from 'node:zlib';
+import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 
 // SITE_DIR lets the harness serve a build that is not ./public. The repo has a
@@ -51,7 +52,10 @@ function cacheControl(urlPath) {
 
 const cache = new Map();
 function compressed(buf, enc) {
-  const key = enc + ':' + buf.length + ':' + buf.subarray(0, 32).toString('hex');
+  // Full content hash: length + a 32-byte prefix collides constantly here --
+  // every page starts with the same doctype and head, so same-length list
+  // pages served each other's bodies.
+  const key = enc + ':' + crypto.createHash('sha256').update(buf).digest('hex');
   if (cache.has(key)) return cache.get(key);
   const out = enc === 'br'
     ? zlib.brotliCompressSync(buf, {

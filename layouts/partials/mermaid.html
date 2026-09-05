@@ -65,8 +65,14 @@
       list = list.filter(isVisible);
       if (!list.length) return pending;
       pending = pending.then(loadMermaid).then(function () {
+        // Re-check visibility after the download: a reader who switched tabs
+        // while mermaid loaded would otherwise get the now-hidden diagram
+        // rendered at getBBox() == 0 -- collapsed, and marked as rendered for
+        // this theme, so revealing the tab never repaired it.
+        var live = list.filter(isVisible);
+        if (!live.length) return;
         var theme = currentTheme();
-        list.forEach(function (node) {
+        live.forEach(function (node) {
           node.innerHTML = sources[nodes.indexOf(node)];
           node.removeAttribute('data-processed');
           node.setAttribute('data-rendered-theme', theme);
@@ -77,7 +83,7 @@
           align: align,
           securityLevel: securityLevel,
         });
-        return mermaid.run({ nodes: list });
+        return mermaid.run({ nodes: live });
       }).catch(function () {});
       return pending;
     }
@@ -89,7 +95,7 @@
       var todo = list.filter(function (node) {
         return isVisible(node) && node.getAttribute('data-rendered-theme') !== theme;
       });
-      if (todo.length) render(todo);
+      return todo.length ? render(todo) : pending;
     }
 
     // Once the page is loaded, pull mermaid in during idle time whether or not a
@@ -108,9 +114,14 @@
       var io = new IntersectionObserver(function (entries) {
         entries.forEach(function (e) {
           if (e.isIntersecting) {
-            io.unobserve(e.target);
+            var target = e.target;
             loadMermaid();
-            renderStale([e.target]);
+            // Only stop observing once the diagram is actually drawn. If the
+            // CDN request failed, the node keeps its observer so scrolling
+            // back re-triggers the (now retryable) load.
+            renderStale([target]).then(function () {
+              if (target.querySelector('svg')) io.unobserve(target);
+            });
           }
         });
       }, { rootMargin: '800px 0px' });
