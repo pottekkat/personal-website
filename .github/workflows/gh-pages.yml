@@ -34,8 +34,8 @@ jobs:
           # Hugo re-encodes every content image to WebP on a cold cache, which
           # takes several minutes. resources/ is gitignored, so without this
           # every run starts from zero. The key changes when an image or the
-          # template that processes it changes; `hugo --gc` prunes variants
-          # that are no longer referenced.
+          # template that processes it changes. (This build has no `--gc`, so
+          # stale variants are pruned only when the key rotates.)
           path: resources
           key: hugo-resources-${{ runner.os }}-0.154.5-${{ hashFiles('static/images/**', 'assets/images/**', 'layouts/partials/responsive-image.html') }}
           restore-keys: |
