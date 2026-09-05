@@ -1,2 +1,9 @@
-{{- /* Render hook for images in notes - adds u-photo microformat class */ -}}
-<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }} class="u-photo" loading="lazy">
+{{- /* Render hook for images in notes - adds u-photo microformat class.
+       The shared partial re-encodes site-local images to WebP and gives them a
+       srcset; remote images pass through untouched. */ -}}
+{{- partial "responsive-image.html" (dict
+    "src" (.Destination | safeURL)
+    "alt" .Text
+    "title" .Title
+    "class" "u-photo"
+) -}}

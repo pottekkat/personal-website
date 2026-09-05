@@ -1,0 +1,138 @@
+{{- /*
+  responsive-image.html — emits an <img> for a site-local raster image, resized
+  and re-encoded to WebP by Hugo's image pipeline, with a srcset so the browser
+  downloads only what it needs.
+
+  Content images are shot on phones and cameras and land in static/images at
+  their original size (4000px+ wide, 1-2MB each) while the post column is only
+  ~700px, so the original bytes are almost entirely wasted. static/ is mounted
+  into assets/ in config.yml, which is what lets resources.Get reach them.
+
+  Anything it cannot process — remote URLs, SVG, animated GIF, a path with no
+  matching resource — falls through to the original src unchanged, so a page
+  never loses an image.
+
+  dict keys:
+    src       (required) e.g. "/images/foo/bar.jpeg#center"
+    alt, title, class, id
+    loading   default "lazy"
+    decoding  default "async"
+    fetchpriority
+    sizes     default covers the ~696px post column
+    width/height  explicit overrides; otherwise taken from the processed image
+*/ -}}
+
+{{- $src := .src -}}
+{{- $loading := .loading | default "lazy" -}}
+{{- $decoding := .decoding | default "async" -}}
+{{- $class := .class -}}
+{{- $id := .id -}}
+{{- $alt := .alt -}}
+{{- $title := .title -}}
+{{- $fetchpriority := .fetchpriority -}}
+{{- $width := .width -}}
+{{- $height := .height -}}
+
+{{- /* Keep any URL fragment: `#center` is a CSS hook (img[src*="#center"]). */ -}}
+{{- $path := $src -}}
+{{- $frag := "" -}}
+{{- if strings.Contains $src "#" -}}
+  {{- $parts := split $src "#" -}}
+  {{- $path = index $parts 0 -}}
+  {{- $frag = printf "#%s" (index $parts 1) -}}
+{{- end -}}
+
+{{- $res := "" -}}
+{{- if and (hasPrefix $path "/") (not (hasPrefix $path "//")) -}}
+  {{- $res = resources.Get (strings.TrimPrefix "/" $path) -}}
+{{- end -}}
+
+{{- /* Formats Hugo can decode and that are worth re-encoding. GIFs are skipped:
+       Hugo flattens an animated GIF to a single frame. */ -}}
+{{- $encodable := slice "jpg" "jpeg" "png" "webp" "tif" "tiff" "bmp" -}}
+
+{{- $srcset := "" -}}
+{{- $ratio := "" -}}
+{{- $sizes := .sizes | default "(max-width: 768px) calc(100vw - 48px), 696px" -}}
+
+{{- if and $res (in $encodable $res.MediaType.SubType) -}}
+  {{- /* Browsers rotate a JPEG according to its EXIF orientation tag, but
+         Hugo's image processing does not: re-encoding a phone photo without
+         this leaves it lying on its side. Only pay for the extra decode on
+         the images that actually claim a rotation. */ -}}
+  {{- $orientation := 1 -}}
+  {{- with $res.Exif -}}
+    {{- with index .Tags "Orientation" -}}{{- $orientation = . -}}{{- end -}}
+  {{- end -}}
+  {{- if gt $orientation 1 -}}
+    {{- $res = $res.Filter images.AutoOrient -}}
+  {{- end -}}
+  {{- /* The post column is ~696px CSS wide, so 1400px covers a 2x display.
+         Never upscale: an image narrower than a candidate keeps its own width. */ -}}
+  {{- /* Photographs tolerate lossy WebP; PNGs are usually screenshots or line
+         diagrams, where compression artifacts around text are visible, so they
+         get a much higher quality and still shrink dramatically. */ -}}
+  {{- $q := cond (eq $res.MediaType.SubType "png") 92 82 -}}
+  {{- /* The content column is 696px, so 700w covers 1x displays and 1400w
+         covers 2x. More rungs than that would buy a few KB per image at the
+         cost of another WebP encode each, and Netlify re-encodes everything
+         from scratch on every deploy. */ -}}
+  {{- $targets := slice 700 1400 -}}
+  {{- $variants := slice -}}
+  {{- range $targets -}}
+    {{- if lt . $res.Width -}}
+      {{- $variants = $variants | append ($res.Process (printf "resize %dx webp q%d" . $q)) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $full := "" -}}
+  {{- if le $res.Width 1400 -}}
+    {{- $full = $res.Process (printf "webp q%d" $q) -}}
+    {{- $variants = $variants | append $full -}}
+  {{- else -}}
+    {{- $full = index (last 1 $variants) 0 -}}
+  {{- end -}}
+
+  {{- $set := slice -}}
+  {{- $seen := slice -}}
+  {{- range $variants -}}
+    {{- if not (in $seen .Width) -}}
+      {{- $seen = $seen | append .Width -}}
+      {{- $set = $set | append (printf "%s %dw" .RelPermalink .Width) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if gt (len $set) 1 -}}{{- $srcset = delimit $set ", " -}}{{- end -}}
+
+  {{- $src = printf "%s%s" $full.RelPermalink $frag -}}
+  {{- /* A caller that passes only one dimension must not get its partner from
+         the processed file: the two would describe different boxes. Derive the
+         missing one from the source ratio instead. */ -}}
+  {{- if and $width (not $height) -}}
+    {{- $height = math.Round (mul (float $width) (div (float $res.Height) (float $res.Width))) -}}
+  {{- else if and $height (not $width) -}}
+    {{- $width = math.Round (mul (float $height) (div (float $res.Width) (float $res.Height))) -}}
+  {{- else if not $width -}}
+    {{- $width = $full.Width -}}
+    {{- $height = $full.Height -}}
+  {{- end -}}
+
+  {{- /* With `height: auto`, the browser derives the laid-out height from the
+         aspect ratio of the file it actually loaded -- and a resize rung
+         rounds to whole pixels (873x492 -> 700x395, not 700x394.5), so the
+         box could end up a pixel off the original and shift everything below
+         it. Pin the ratio to the source image so the layout is identical to
+         the unprocessed original and does not depend on which rung wins. */ -}}
+  {{- $ratio = printf "%d / %d" $res.Width $res.Height -}}
+{{- end -}}
+
+<img src="{{ $src }}"
+  {{- /* alt is always emitted: an empty alt is the decorative-image contract;
+         omitting the attribute makes a screen reader announce the filename.
+         Note the plain `{{ end }}` below -- the attribute needs the space. */ -}}
+  {{- with $srcset }} srcset="{{ . }}" sizes="{{ $sizes }}"{{ end }} alt="{{ $alt }}"
+  {{- with $title }} title="{{ . }}"{{ end -}}
+  {{- with $class }} class="{{ . }}"{{ end -}}
+  {{- with $id }} id="{{ . }}"{{ end -}}
+  {{- with $width }} width="{{ . }}"{{ end -}}
+  {{- with $height }} height="{{ . }}"{{ end -}}
+  {{- with $ratio }} style="{{ printf "aspect-ratio: %s" . | safeCSS }}"{{ end -}}
+  {{- with $fetchpriority }} fetchpriority="{{ . }}"{{ end }} loading="{{ $loading }}" decoding="{{ $decoding }}">

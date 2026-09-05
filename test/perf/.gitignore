@@ -1,0 +1,5 @@
+node_modules/
+snapshots/
+results/
+package-lock.json
+build*/

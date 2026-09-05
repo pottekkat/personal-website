@@ -1,11 +1,43 @@
-<script
-  type="application/javascript"
-  src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"
-></script>
 <script>
   (function () {
     var align = '{{ if site.Params.mermaid.align }}{{ site.Params.mermaid.align }}{{ else }}center{{ end }}';
     var securityLevel = '{{ if site.Params.mermaid.securityLevel }}{{ site.Params.mermaid.securityLevel }}{{ else }}loose{{ end }}';
+
+    // mermaid.min.js is ~900 KB. Loading it with a plain <script> tag made it
+    // block the parser on every post that has a diagram. We load it after the
+    // page has finished loading instead; everything below is unchanged apart
+    // from waiting on that load.
+    var MERMAID_SRC = 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js';
+
+    // Never start the fetch before `load`: a diagram near the top of the page
+    // would otherwise put 900 KB of CDN JavaScript in competition with the
+    // images and fonts that decide LCP.
+    function whenLoaded(fn) {
+      if (document.readyState === 'complete') fn();
+      else window.addEventListener('load', fn, { once: true });
+    }
+
+    var loading = null;
+    function loadMermaid() {
+      if (loading) return loading;
+      loading = new Promise(function (resolve, reject) {
+        whenLoaded(function () {
+          var s = document.createElement('script');
+          s.src = MERMAID_SRC;
+          s.async = true;
+          s.onload = resolve;
+          s.onerror = function (e) {
+            // Drop the failed attempt so a later trigger (scroll, theme toggle)
+            // can try the CDN again instead of reusing a rejected promise.
+            loading = null;
+            if (s.parentNode) s.parentNode.removeChild(s);
+            reject(e);
+          };
+          document.head.appendChild(s);
+        });
+      });
+      return loading;
+    }
 
     function currentTheme() {
       return document.body.classList.contains('dark') ? 'dark' : 'default';
@@ -24,6 +56,7 @@
     // capture and restore innerHTML to stay faithful to labels like <br/>.
     var nodes = Array.prototype.slice.call(document.querySelectorAll('.mermaid'));
     var sources = nodes.map(function (node) { return node.innerHTML; });
+    if (!nodes.length) return;
 
     // Serialize renders so a rapid theme toggle or tab reveal can't overlap the
     // async run.
@@ -31,9 +64,15 @@
     function render(list) {
       list = list.filter(isVisible);
       if (!list.length) return pending;
-      pending = pending.then(function () {
+      pending = pending.then(loadMermaid).then(function () {
+        // Re-check visibility after the download: a reader who switched tabs
+        // while mermaid loaded would otherwise get the now-hidden diagram
+        // rendered at getBBox() == 0 -- collapsed, and marked as rendered for
+        // this theme, so revealing the tab never repaired it.
+        var live = list.filter(isVisible);
+        if (!live.length) return;
         var theme = currentTheme();
-        list.forEach(function (node) {
+        live.forEach(function (node) {
           node.innerHTML = sources[nodes.indexOf(node)];
           node.removeAttribute('data-processed');
           node.setAttribute('data-rendered-theme', theme);
@@ -44,7 +83,7 @@
           align: align,
           securityLevel: securityLevel,
         });
-        return mermaid.run({ nodes: list });
+        return mermaid.run({ nodes: live });
       }).catch(function () {});
       return pending;
     }
@@ -56,15 +95,46 @@
       var todo = list.filter(function (node) {
         return isVisible(node) && node.getAttribute('data-rendered-theme') !== theme;
       });
-      if (todo.length) render(todo);
+      return todo.length ? render(todo) : pending;
+    }
+
+    // Once the page is loaded, pull mermaid in during idle time whether or not a
+    // diagram is on screen. A reader who scrolls fast would otherwise sit in
+    // front of the raw diagram source while 900 KB downloads. This costs
+    // nothing on the critical path, and every page carrying this partial has
+    // `mermaid: true` set precisely because it has a diagram to show.
+    whenLoaded(function () {
+      if (window.requestIdleCallback) requestIdleCallback(loadMermaid, { timeout: 3000 });
+      else setTimeout(loadMermaid, 1000);
+    });
+
+    // Still observe: a reader already parked at a diagram should not wait for
+    // the idle callback, and this is what triggers the first render.
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            var target = e.target;
+            loadMermaid();
+            // Only stop observing once the diagram is actually drawn. If the
+            // CDN request failed, the node keeps its observer so scrolling
+            // back re-triggers the (now retryable) load.
+            renderStale([target]).then(function () {
+              if (target.querySelector('svg')) io.unobserve(target);
+            });
+          }
+        });
+      }, { rootMargin: '800px 0px' });
+      nodes.forEach(function (node) { io.observe(node); });
+    } else {
+      loadMermaid();
     }
 
     // ResizeObserver fires when a diagram first gets a box on load and when an
     // inactive tab reveals it (content size 0 -> N) -- independent of scroll
-    // position, which is why we don't use IntersectionObserver (it only fires on
-    // viewport crossings, so it misses tabs toggled while scrolled off-screen).
-    // This drives both the initial render and re-theming of diagrams revealed
-    // inside tabs.
+    // position, which is why we don't use IntersectionObserver alone (it only
+    // fires on viewport crossings, so it misses tabs toggled while scrolled
+    // off-screen). This drives re-theming of diagrams revealed inside tabs.
     var ro = new ResizeObserver(function (entries) {
       renderStale(entries.map(function (e) { return e.target; }));
     });

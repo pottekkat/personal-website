@@ -6,6 +6,11 @@ theme: ["PaperMod", "plausible-hugo"]
 pagination:
   pagerSize: 20
 
+# Re-encoding every content image to WebP happens inside page rendering, and a
+# post with many images can exceed Hugo's 30s default on a cold cache (Netlify
+# does not persist resources/, so every deploy is cold).
+timeout: 300s
+
 # Mount static directory to assets to enable image processing
 # Mount the default assets->assets mount, otherwise
 # it will be overridden by static->assets mount

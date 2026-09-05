@@ -8,13 +8,28 @@ let first,
   current_elem = null;
 let resultsAvailable = false;
 
-// load our search index
-window.onload = function () {
+// Load our search index. It is ~1.3 MB of post text, which is far too much to
+// pull on every page that merely has a search box. Nobody can search without
+// first focusing the input, so we fetch it then (and on hover, which usually
+// comes a moment earlier). Anything typed before it lands is re-run once it is
+// ready, so the behaviour is the same, just without the up-front download.
+let indexRequested = false;
+function loadSearchIndex() {
+  if (indexRequested) return;
+  indexRequested = true;
   let xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4) {
       if (xhr.status === 200) {
-        let data = JSON.parse(xhr.responseText);
+        let data;
+        try {
+          data = JSON.parse(xhr.responseText);
+        } catch (e) {
+          // Clear the guard so the next keystroke or hover can retry.
+          indexRequested = false;
+          console.error(e);
+          return;
+        }
         let searchBox = document.querySelector("#searchInput");
         let showOnly = searchBox.dataset.showOnly;
         let omit = searchBox.dataset.omit;
@@ -64,15 +79,41 @@ window.onload = function () {
             };
           }
           fuse = new Fuse(data, options); // build the index from the json file
+          // Someone may have typed while the index was still downloading.
+          if (sInput.value.trim()) sInput.onkeyup.call(sInput);
         }
       } else {
+        indexRequested = false;
         console.log(xhr.responseText);
       }
     }
   };
+  // A dropped connection never reaches readyState 4 with a status, so the guard
+  // has to be cleared here too, or search stays permanently broken for the tab.
+  xhr.onerror = function () {
+    indexRequested = false;
+  };
+  xhr.onabort = xhr.onerror;
+  // A request that stalls without failing would otherwise leave the guard set
+  // for the life of the page.
+  xhr.timeout = 30000;
+  xhr.ontimeout = xhr.onerror;
   xhr.open("GET", "/index.json");
   xhr.send();
-};
+}
+
+// Deliberately not `focus`: several list pages autofocus the box on load, which
+// would fetch the index on every visit again. The first keystroke or the mouse
+// arriving over the box are the real signals that someone means to search, and
+// both land well before a query is complete.
+sInput.addEventListener("keydown", loadSearchIndex);
+sInput.addEventListener("pointerenter", loadSearchIndex);
+sInput.addEventListener("pointerdown", loadSearchIndex);
+// Autofill, speech input and some IME flows change the value without ever
+// producing a key event.
+sInput.addEventListener("input", loadSearchIndex);
+// A query restored by the browser on back/forward navigation must not wait.
+if (sInput.value) loadSearchIndex();
 
 function activeToggle(ae) {
   document.querySelectorAll(".focus").forEach(function (element) {

@@ -1,6 +1,10 @@
 <div id="canvas-wrapper" style="{{ if .Get "overflow" }}overflow-x: {{ .Get "overflow" }};{{ end }}">
 <div id="{{ default "main" (.Get "id") }}" class="{{ default "echarts-cont" (.Get "class") }}" style="width: {{ default "100%" (.Get "width") }}; height: {{ default "400px" (.Get "height") }};"></div>
 <script type="text/javascript">
+  // echarts.js is deferred in <head>, so it is not defined while the parser is
+  // still in the body. DOMContentLoaded fires after every deferred script has
+  // run, which is the earliest point this can safely initialise.
+  document.addEventListener("DOMContentLoaded", function () {
   var myChart = echarts.init(document.getElementById("{{ default "main" (.Get "id") }}"), '{{ default "pottekkat" (.Get "theme") }}', {renderer: '{{ default "svg" (.Get "renderer") }}'});
   window.addEventListener('resize', function() {
     myChart.resize();
@@ -11,6 +15,7 @@
   {{ if .Get "setOption" }}
   myChart.setOption(option);
   {{ end }}
+  });
 </script>
 </div>
 <div id="chart-caption">

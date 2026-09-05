@@ -1,0 +1,13 @@
+{
+  "name": "perf-harness",
+  "private": true,
+  "type": "module",
+  "description": "Local performance + visual-parity harness for navendu.me",
+  "dependencies": {
+    "chrome-launcher": "^1.2.1",
+    "lighthouse": "^12.8.2",
+    "pixelmatch": "^6.0.0",
+    "playwright-core": "^1.62.1",
+    "pngjs": "^7.0.0"
+  }
+}
