@@ -106,10 +106,10 @@
 {{- end -}}
 
 <img src="{{ $src }}"
-  {{- with $srcset }} srcset="{{ . }}" sizes="{{ $sizes }}"{{ end -}}
-  {{- /* Always emitted: an empty alt is the decorative-image contract; omitting
-         the attribute makes a screen reader announce the filename instead. */ -}}
-  alt="{{ $alt }}"
+  {{- /* alt is always emitted: an empty alt is the decorative-image contract;
+         omitting the attribute makes a screen reader announce the filename.
+         Note the plain `{{ end }}` below -- the attribute needs the space. */ -}}
+  {{- with $srcset }} srcset="{{ . }}" sizes="{{ $sizes }}"{{ end }} alt="{{ $alt }}"
   {{- with $title }} title="{{ . }}"{{ end -}}
   {{- with $class }} class="{{ . }}"{{ end -}}
   {{- with $width }} width="{{ . }}"{{ end -}}
