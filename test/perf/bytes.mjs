@@ -25,7 +25,9 @@ for (const p of PAGES) {
   });
   const page = await ctx.newPage();
   const reqs = [];
-  page.on('response', async (res) => {
+  const pending = [];
+  page.on('response', (res) => {
+    pending.push((async () => {
     try {
       const sizes = await res.request().sizes();
       reqs.push({
@@ -35,9 +37,11 @@ for (const p of PAGES) {
         bytes: sizes.responseBodySize + sizes.responseHeadersSize,
       });
     } catch {}
+    })());
   });
   await page.goto(ORIGIN + p.url, { waitUntil: 'load', timeout: 60000 });
   await page.waitForTimeout(1200); // let lazy/idle work settle
+  await Promise.all(pending); // sizes() is async; totals are wrong without this
 
   const byType = {};
   let total = 0;

@@ -21,7 +21,15 @@ function loadSearchIndex() {
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4) {
       if (xhr.status === 200) {
-        let data = JSON.parse(xhr.responseText);
+        let data;
+        try {
+          data = JSON.parse(xhr.responseText);
+        } catch (e) {
+          // Clear the guard so the next keystroke or hover can retry.
+          indexRequested = false;
+          console.error(e);
+          return;
+        }
         let searchBox = document.querySelector("#searchInput");
         let showOnly = searchBox.dataset.showOnly;
         let omit = searchBox.dataset.omit;
@@ -75,10 +83,17 @@ function loadSearchIndex() {
           if (sInput.value.trim()) sInput.onkeyup.call(sInput);
         }
       } else {
+        indexRequested = false;
         console.log(xhr.responseText);
       }
     }
   };
+  // A dropped connection never reaches readyState 4 with a status, so the guard
+  // has to be cleared here too, or search stays permanently broken for the tab.
+  xhr.onerror = function () {
+    indexRequested = false;
+  };
+  xhr.onabort = xhr.onerror;
   xhr.open("GET", "/index.json");
   xhr.send();
 }

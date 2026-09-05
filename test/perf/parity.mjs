@@ -166,7 +166,8 @@ function diff(a, b) {
     // A randomised page also links somewhere different each build, so its link
     // list carries no signal either.
     if (!volatilePage && j(pa.dom.links) !== j(pb.dom.links)) issues.push('links differ');
-    if (j(pa.dom.headings) !== j(pb.dom.headings)) issues.push('headings differ');
+    if (!volatilePage && j(pa.dom.headings) !== j(pb.dom.headings))
+      issues.push('headings differ');
     if (pa.dom.images.length !== pb.dom.images.length) issues.push('image count differs');
     else {
       pb.dom.images.forEach((img, i) => {

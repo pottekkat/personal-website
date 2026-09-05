@@ -107,7 +107,9 @@
 
 <img src="{{ $src }}"
   {{- with $srcset }} srcset="{{ . }}" sizes="{{ $sizes }}"{{ end -}}
-  {{- with $alt }} alt="{{ . }}"{{ end -}}
+  {{- /* Always emitted: an empty alt is the decorative-image contract; omitting
+         the attribute makes a screen reader announce the filename instead. */ -}}
+  alt="{{ $alt }}"
   {{- with $title }} title="{{ . }}"{{ end -}}
   {{- with $class }} class="{{ . }}"{{ end -}}
   {{- with $width }} width="{{ . }}"{{ end -}}

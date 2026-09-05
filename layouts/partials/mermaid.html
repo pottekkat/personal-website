@@ -26,7 +26,13 @@
           s.src = MERMAID_SRC;
           s.async = true;
           s.onload = resolve;
-          s.onerror = reject;
+          s.onerror = function (e) {
+            // Drop the failed attempt so a later trigger (scroll, theme toggle)
+            // can try the CDN again instead of reusing a rejected promise.
+            loading = null;
+            if (s.parentNode) s.parentNode.removeChild(s);
+            reject(e);
+          };
           document.head.appendChild(s);
         });
       });

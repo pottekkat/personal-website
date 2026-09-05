@@ -63,10 +63,16 @@ function compressed(buf, enc) {
 }
 
 function resolveFile(urlPath) {
-  let p = decodeURIComponent(urlPath.split('?')[0]);
+  let p;
+  try {
+    p = decodeURIComponent(urlPath.split('?')[0]);
+  } catch {
+    return null; // `/%` and friends throw URIError, which would kill the server
+  }
   if (p.endsWith('/')) p += 'index.html';
   const abs = path.join(ROOT, p);
-  if (!abs.startsWith(ROOT)) return null;
+  // Separator-aware: a plain prefix test would accept a sibling like <ROOT>-evil.
+  if (abs !== ROOT && !abs.startsWith(ROOT + path.sep)) return null;
   if (fs.existsSync(abs) && fs.statSync(abs).isFile()) return abs;
   const asDir = path.join(abs, 'index.html');
   if (fs.existsSync(asDir)) return asDir;
