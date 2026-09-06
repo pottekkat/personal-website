@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-09-05T19:01:33.685181+05:30",
+  "last_updated": "2026-09-06T19:17:24.303765+05:30",
   "links": [
+    {
+      "id": "01m1ty58vq0wy9qpn0bh5v8r22",
+      "title": "mathstodon.xyz:",
+      "author": "Mathstodon",
+      "source_url": "https://mathstodon.xyz/@tao/117207856734787448",
+      "published_date": "2026-09-03",
+      "saved_at": "2026-09-06T14:13:02.391000+05:30",
+      "reading_time": "9 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m1ty41bmtwxq183jqgn97sth",
+      "title": "Rob Weychert",
+      "author": "Rob Weychert",
+      "source_url": "https://v7.robweychert.com/",
+      "published_date": null,
+      "saved_at": "2026-09-06T14:12:21.940000+05:30",
+      "reading_time": "1 min",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m1tgzgm3pf7vpnz64ta4thza",
+      "title": "The revolt of the reader",
+      "author": "The Observation Deck",
+      "source_url": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/",
+      "published_date": "2026-09-05",
+      "saved_at": "2026-09-06T10:22:42.243000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m1tfscprhn9zrqmn1se3p860",
+      "title": "America’s Two Largest School Districts Impose AI Moratoriums",
+      "author": "Chris Mills Rodrigo",
+      "source_url": "https://www.techpolicy.press/americas-two-largest-school-districts-impose-ai-moratoriums/",
+      "published_date": "2026-09-05",
+      "saved_at": "2026-09-06T10:01:53.048000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m1sf5vrvq1ss63ba470j4few",
+      "title": "The Real Luxuries In Life",
+      "author": "Brad Feld",
+      "source_url": "https://feld.com/archives/2026/09/the-real-luxuries-in-life/",
+      "published_date": "2026-09-05",
+      "saved_at": "2026-09-06T00:31:58.682000+05:30",
+      "reading_time": "1 min",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01m1r5t7dw16nrfmn4y9h61e86",
       "title": "A nightwatchman on every probe: Superintelligent surveillance to prevent galactic anarchy",
