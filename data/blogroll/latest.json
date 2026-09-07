@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T13:47:59.934761",
+  "lastUpdated": "2026-09-07T16:02:11.569217",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Zach Kehs",
-      "postUrl": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
-      "publishDate": "2026-09-06T08:42:49+00:00"
+      "postTitle": "Research acceleration: The view inside OpenAI",
+      "postUrl": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+      "publishDate": "2026-09-06T23:57:40+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -67,9 +67,9 @@
     {
       "blogTitle": "Austin Z. Henley's Blog",
       "blogUrl": "https://austinhenley.com/",
-      "postTitle": "You probably use AI because your colleagues use AI",
-      "postUrl": "https://austinhenley.com/blog/aiadoption.html",
-      "publishDate": "Sun, 23 Aug 2026 16:00:01 -0400"
+      "postTitle": "Making a Python interpreter in 1024 bytes",
+      "postUrl": "https://austinhenley.com/blog/python1024.html",
+      "publishDate": "Sun, 6 Sep 2026 19:00:01 -0400"
     },
     {
       "blogTitle": "blog.jfo.click",
