@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-09-06T19:17:24.303765+05:30",
+  "last_updated": "2026-09-07T21:31:38.729871+05:30",
   "links": [
+    {
+      "id": "01m1y8yj39zyct2nbrt8he7bwk",
+      "title": "Running a Software Factory Efficiently at Uber Scale",
+      "author": "Uber Engineering",
+      "source_url": "https://x.com/ubereng/status/2093444169037762840/?rw_tt_thread=True",
+      "published_date": "2026-08-28",
+      "saved_at": "2026-09-07T21:19:20.104000+05:30",
+      "reading_time": "11 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m1y6gj9gjk7s90wpjnc758j1",
+      "title": "De-Brainrot Vacations",
+      "author": "devz.cl",
+      "source_url": "https://devz.cl/posts/i-spent-my-vacations-de-brainrotting/",
+      "published_date": "2026-09-07",
+      "saved_at": "2026-09-07T20:36:44.400000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m1y66afhq04r8qknf0pctwr8",
+      "title": "How 1 Person Solved A $1,000,000 Puzzle!",
+      "author": "MrBeast 2",
+      "source_url": "https://www.youtube.com/watch?v=82CX6WULNA0",
+      "published_date": "2026-09-02",
+      "saved_at": "2026-09-07T20:31:08.720000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m1y5jak01xdb0nn7n92471q6",
+      "title": "“Twenty years of brand building simply froze in time”: How coding agents select their tools of choice",
+      "author": "Adrian Bridgwater",
+      "source_url": "https://thenewstack.io/coding-agents-tool-choice/",
+      "published_date": "2026-09-07",
+      "saved_at": "2026-09-07T20:20:13.472000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m1xb1znk5y4hwrsqy7fb280q",
+      "title": "I Study Successful People. They Have One Habit in Common.",
+      "author": "archive.is",
+      "source_url": "https://archive.is/T5oAq",
+      "published_date": "2026-09-06",
+      "saved_at": "2026-09-07T12:36:55.027000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m1xar95cvx2t2v71r590aec8",
+      "title": "Kids These Days",
+      "author": "Paul Bloom",
+      "source_url": "https://smallpotatoes.paulbloom.net/p/kids-these-days",
+      "published_date": "2026-08-31",
+      "saved_at": "2026-09-07T12:31:37.068000+05:30",
+      "reading_time": "13 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m1xaehxjbfykc1jvnm9v0yee",
+      "title": "Conquering Entropy: Cultivating Trust",
+      "author": "Andrés Villarreal",
+      "source_url": "https://kaeruct.github.io/posts/2026/09/06/conquering-entropy-cultivating-trust/",
+      "published_date": null,
+      "saved_at": "2026-09-07T12:26:18.354000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01m1ty58vq0wy9qpn0bh5v8r22",
       "title": "mathstodon.xyz:",
