@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-09-07T16:02:11.569217",
+  "lastUpdated": "2026-09-08T14:58:53.212493",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Asteroid Mission",
-      "postUrl": "https://xkcd.com/3294/",
-      "publishDate": "Fri, 04 Sep 2026 04:00:00 -0000"
+      "postTitle": "Semaphore",
+      "postUrl": "https://xkcd.com/3295/",
+      "publishDate": "Mon, 07 Sep 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Research acceleration: The view inside OpenAI",
-      "postUrl": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
-      "publishDate": "2026-09-06T23:57:40+00:00"
+      "postTitle": "llm 0.35",
+      "postUrl": "https://simonwillison.net/2026/Sep/7/llm/",
+      "publishDate": "2026-09-07T23:54:54+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -95,9 +95,8 @@
     {
       "blogTitle": "Kaazhchakal",
       "blogUrl": "https://yezhuvath.com/",
-      "postTitle": "Footloose in Europe",
-      "postUrl": "https://yezhuvath.com/2025/09/28/footloose-in-europe/",
-      "publishDate": "Sun, 28 Sep 2025 06:19:53 +0000"
+      "error": true,
+      "errorMessage": "403 Forbidden (feedparser)"
     },
     {
       "blogTitle": "Tangled Bytes",
@@ -158,9 +157,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "\"The Native Americans Before the Native Americans\" With Razib Khan",
-      "postUrl": "https://letter.palladiummag.com/p/the-native-americans-before-the-native-a9c",
-      "publishDate": "Wed, 02 Sep 2026 19:37:15 GMT"
+      "postTitle": "\"The Universe Wants Us To Take Her Clothes Off\" With Grimes",
+      "postUrl": "https://letter.palladiummag.com/p/the-universe-wants-us-to-take-her-c4b",
+      "publishDate": "Mon, 07 Sep 2026 17:45:23 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
