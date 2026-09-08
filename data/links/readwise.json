@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-09-07T21:31:38.729871+05:30",
+  "last_updated": "2026-09-08T20:28:14.755567+05:30",
   "links": [
+    {
+      "id": "01m2003bgtag78yvydex5matwv",
+      "title": "The Story of VS Code | Official Documentary",
+      "author": "Visual Studio Code",
+      "source_url": "https://www.youtube.com/watch?v=kHL3XzjpT5w",
+      "published_date": "2026-09-04",
+      "saved_at": "2026-09-08T13:23:08.890000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m1zqvwwqtvwfbmkabgsfj8y2",
+      "title": "Home Hardware, Part 1: My Control4 Revenge Arc",
+      "author": "Ramblings from Jessie",
+      "source_url": "https://blog.jessfraz.com/post/home-hardware-part-one?v=2",
+      "published_date": "2026-09-07",
+      "saved_at": "2026-09-08T10:59:15.926000+05:30",
+      "reading_time": "7 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m1zk6e901akf5554w1rtzxft",
+      "title": "Am I Alone",
+      "author": "The PrimeTime",
+      "source_url": "https://www.youtube.com/watch?v=pVMM23kUVH8",
+      "published_date": "2026-09-07",
+      "saved_at": "2026-09-08T09:37:38.528000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01m1y8yj39zyct2nbrt8he7bwk",
       "title": "Running a Software Factory Efficiently at Uber Scale",
