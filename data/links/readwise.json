@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-09-08T20:28:14.755567+05:30",
+  "last_updated": "2026-09-09T20:18:42.422928+05:30",
   "links": [
+    {
+      "id": "01m22rjhs66xkpcwvwfqgrnhv2",
+      "title": "The Discovery Problem",
+      "author": "Miguel Acevedo",
+      "source_url": "https://mhacevedo.com/posts/the-discovery-problem",
+      "published_date": "2026-09-03",
+      "saved_at": "2026-09-09T15:09:21.507000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m2273hz80rhqq0xr44mve7hk",
+      "title": "How to build a f**king printer",
+      "author": "Nishant Joshi",
+      "source_url": "https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/",
+      "published_date": "2026-09-07",
+      "saved_at": "2026-09-09T10:04:04.392000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m226aj0q2z5290q51qf4c0k3",
+      "title": "Jacob is correct here—we really do earnestly believe AI could...",
+      "author": "Evan Hubinger",
+      "source_url": "https://x.com/EvanHub/status/2097497037956891126/?rw_tt_thread=True",
+      "published_date": "2026-09-09",
+      "saved_at": "2026-09-09T09:50:25.239000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m2262xqmqr8yfzrt1hrtc8e3",
+      "title": "I resigned from Anthropic today",
+      "author": "Jacob Coxon",
+      "source_url": "https://x.com/hilbertspaess/status/2097476196791709843/?rw_tt_thread=True",
+      "published_date": "2026-09-09",
+      "saved_at": "2026-09-09T09:46:15.091000+05:30",
+      "reading_time": "2 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m21pxjpyssvs80767t71hvfg",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "author": "Simon Willison's Weblog",
+      "source_url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+      "published_date": "2026-09-08",
+      "saved_at": "2026-09-09T05:21:08.327000+05:30",
+      "reading_time": "4 mins",
+      "category": "rss",
+      "notes": ""
+    },
+    {
+      "id": "01m20zqr72v75qxf47bedgdzg0",
+      "title": "This reality show is a game design masterpiece",
+      "author": "Ellie Rasmussen",
+      "source_url": "https://www.youtube.com/watch?v=qpFSeq4zxGY",
+      "published_date": "2024-11-07",
+      "saved_at": "2026-09-08T22:36:03.106000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01m2003bgtag78yvydex5matwv",
       "title": "The Story of VS Code | Official Documentary",
