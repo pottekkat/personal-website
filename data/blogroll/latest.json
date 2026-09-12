@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-09-11T14:38:03.451308",
+  "lastUpdated": "2026-09-12T13:43:48.763669",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Fault Taunting",
-      "postUrl": "https://xkcd.com/3296/",
-      "publishDate": "Wed, 09 Sep 2026 04:00:00 -0000"
+      "postTitle": "OH Scale",
+      "postUrl": "https://xkcd.com/3297/",
+      "publishDate": "Fri, 11 Sep 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Don't sleep on wrapture",
-      "postUrl": "https://simonwillison.net/2026/Sep/11/wrapture/",
-      "publishDate": "2026-09-11T13:51:32+00:00"
+      "postTitle": "OpenAI agents attacked RubyGems back in May",
+      "postUrl": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
+      "publishDate": "2026-09-12T00:42:25+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "The Organization That Remade India",
-      "postUrl": "https://letter.palladiummag.com/p/the-organization-that-remade-india",
-      "publishDate": "Thu, 10 Sep 2026 20:36:06 GMT"
+      "postTitle": "\u201cThe Problem of Humanity\" With Wolf Tivy",
+      "postUrl": "https://letter.palladiummag.com/p/the-problem-of-humanity-with-wolf",
+      "publishDate": "Fri, 11 Sep 2026 19:19:44 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -186,9 +186,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "The Power of Possibility",
-      "postUrl": "https://anildash.com/2026/04/16/girls-club-gala/",
-      "publishDate": "2026-04-16T00:00:00Z"
+      "postTitle": "Discovering Prince, Ten Years Later",
+      "postUrl": "https://anildash.com/2026/04/20/prince-ten-years/",
+      "publishDate": "2026-04-20T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
