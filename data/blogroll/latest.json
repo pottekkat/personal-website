@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T13:43:48.763669",
+  "lastUpdated": "2026-09-13T14:38:19.493227",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "OpenAI agents attacked RubyGems back in May",
-      "postUrl": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
-      "publishDate": "2026-09-12T00:42:25+00:00"
+      "postTitle": "Generating running routes with GPT-6 Astra and ChatGPT Work",
+      "postUrl": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+      "publishDate": "2026-09-12T23:56:42+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Going freestanding",
-      "postUrl": "https://antonz.org/going-freestanding/",
-      "publishDate": "Thu, 20 Aug 2026 12:00:00 +0000"
+      "postTitle": "Solod 0.4: Better C interop",
+      "postUrl": "https://antonz.org/solod-0.4/",
+      "publishDate": "Sat, 12 Sep 2026 13:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
