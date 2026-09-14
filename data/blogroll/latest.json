@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T14:38:19.493227",
+  "lastUpdated": "2026-09-14T16:37:29.030888",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Generating running routes with GPT-6 Astra and ChatGPT Work",
-      "postUrl": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
-      "publishDate": "2026-09-12T23:56:42+00:00"
+      "postTitle": "Quoting Laurie Voss",
+      "postUrl": "https://simonwillison.net/2026/Sep/14/laurie-voss/",
+      "publishDate": "2026-09-14T14:34:29+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "AI as Normal Technology",
       "blogUrl": "https://www.normaltech.ai",
-      "postTitle": "AI agents can't yet do open-ended AI research",
-      "postUrl": "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended",
-      "publishDate": "Wed, 05 Aug 2026 13:49:19 GMT"
+      "postTitle": "The AI-as-Normal-Technology view of loss-of-control incidents",
+      "postUrl": "https://www.normaltech.ai/p/the-ai-as-normal-technology-view",
+      "publishDate": "Mon, 14 Sep 2026 10:30:14 GMT"
     },
     {
       "blogTitle": "The Elysian",
