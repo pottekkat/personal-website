@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-09-13T20:07:45.543533+05:30",
+  "last_updated": "2026-09-14T22:06:55.703826+05:30",
   "links": [
+    {
+      "id": "01m2fw30v9ypgq6j1cgwqdqcfb",
+      "title": "SANJAY VERMA",
+      "author": "Hrex",
+      "source_url": "https://www.youtube.com/watch?v=jvczxxUUqNs&t=29s",
+      "published_date": "2026-08-14",
+      "saved_at": "2026-09-14T17:20:54.569000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m2fjradexwbmhqkhhz3f568d",
+      "title": "This PCB is brought to you by Fable 5",
+      "author": "a6mzero.com",
+      "source_url": "https://a6mzero.com/posts/this-pcb-is-brought-to-you-by-fable-5/",
+      "published_date": "2026-09-04",
+      "saved_at": "2026-09-14T14:37:46.733000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m2f2dj5mz510p0ddkymx2awp",
+      "title": "An Alien Mind | OpenAI",
+      "author": "OpenAI",
+      "source_url": "https://openai.com/index/an-alien-mind/",
+      "published_date": "2026-09-06",
+      "saved_at": "2026-09-14T09:52:17.012000+05:30",
+      "reading_time": "12 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m2f1z0fjvz27dcv92pefqc80",
+      "title": "The contagion of fear",
+      "author": "The Observation Deck",
+      "source_url": "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/",
+      "published_date": "2026-09-13",
+      "saved_at": "2026-09-14T09:44:20.145000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m2f0y056g9wb6xf7ajywjy7x",
+      "title": "Prediction: AI will collapse",
+      "author": "wordgrammer",
+      "source_url": "https://x.com/wordgrammer/status/2095263188153401712/?rw_tt_thread=True",
+      "published_date": "2026-09-02",
+      "saved_at": "2026-09-14T09:26:18.470000+05:30",
+      "reading_time": "4 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m2e2jv5bjy86p7q0tm1f0m13",
+      "title": "EA AI safetyism increasingly looks like Marxism-Leninism for the algorithmic...",
+      "author": "Shyam Sankar",
+      "source_url": "https://x.com/ssankar/status/2098838592563052849/?s=12&rw_tt_thread=True",
+      "published_date": "2026-09-12",
+      "saved_at": "2026-09-14T00:35:55.615000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
     {
       "id": "01m28t8nvph1j61cdvy5pd8mas",
       "title": "Feeling sad about AI",
