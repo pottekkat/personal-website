@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-09-16T15:18:53.927220",
+  "lastUpdated": "2026-09-17T15:17:41.205577",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Aerospace Flowchart",
-      "postUrl": "https://xkcd.com/3298/",
-      "publishDate": "Mon, 14 Sep 2026 04:00:00 -0000"
+      "postTitle": "Summer",
+      "postUrl": "https://xkcd.com/3299/",
+      "publishDate": "Wed, 16 Sep 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Gemini Live audio",
-      "postUrl": "https://simonwillison.net/2026/Sep/15/gemini-live/",
-      "publishDate": "2026-09-15T22:47:07+00:00"
+      "postTitle": "datasette 1.0a40",
+      "postUrl": "https://simonwillison.net/2026/Sep/16/datasette/",
+      "publishDate": "2026-09-16T23:51:43+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "I Am Experimenting with Blocking HTTP1.1",
-      "postUrl": "https://sheep.horse/2026/2/i_am_experimenting_with_blocking_http1.1.html",
-      "publishDate": "Sat, 21 Feb 2026 15:42:42 +0000"
+      "postTitle": "Blocking HTTP1.1 - Some Results",
+      "postUrl": "https://sheep.horse/2026/3/blocking_http1.1_-_some_results.html",
+      "publishDate": "Sun, 08 Mar 2026 07:46:10 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
