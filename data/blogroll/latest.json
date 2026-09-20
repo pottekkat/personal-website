@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T14:00:08.215198",
+  "lastUpdated": "2026-09-20T14:21:24.043020",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Gemini Hacked Three Companies in First Known Breakout by Google\u2019s AI",
-      "postUrl": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
-      "publishDate": "2026-09-18T23:57:57+00:00"
+      "postTitle": "datasette-auth-github 1.0",
+      "postUrl": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+      "publishDate": "2026-09-19T19:52:02+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -95,9 +95,8 @@
     {
       "blogTitle": "Kaazhchakal",
       "blogUrl": "https://yezhuvath.com/",
-      "postTitle": "Footloose in Europe",
-      "postUrl": "https://yezhuvath.com/2025/09/28/footloose-in-europe/",
-      "publishDate": "Sun, 28 Sep 2025 06:19:53 +0000"
+      "error": true,
+      "errorMessage": "403 Forbidden (feedparser)"
     },
     {
       "blogTitle": "Tangled Bytes",
@@ -124,7 +123,7 @@
       "blogTitle": "Maggie Appleton",
       "blogUrl": "https://maggieappleton.com/",
       "postTitle": "Planning with Agents: Divided Worlds, Boundary Objects, and Thicker Interfaces",
-      "postUrl": "https://maggieappleton.com/planning-agents/",
+      "postUrl": "https://maggieappleton.com/planning-agents",
       "publishDate": "Mon, 14 Sep 2026 00:00:00 GMT"
     },
     {
@@ -179,9 +178,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "\u00bfPor qu\u00e9 Jap\u00f3n est\u00e1 tan poblado a pesar de tener tan poco territorio?",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/por-que-japon-esta-tan-poblado-a",
-      "publishDate": "Fri, 18 Sep 2026 23:11:12 GMT"
+      "postTitle": "\u00bfQu\u00e9 est\u00e1 pasando en Ceuta?",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/que-esta-pasando-en-ceuta",
+      "publishDate": "Sun, 20 Sep 2026 01:01:45 GMT"
     },
     {
       "blogTitle": "Anil Dash",
