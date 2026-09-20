@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-09-19T19:29:26.272385+05:30",
+  "last_updated": "2026-09-20T19:50:48.046459+05:30",
   "links": [
+    {
+      "id": "01m2z9f7zn82mshw6c5jbtytj6",
+      "title": "How to Unclench",
+      "author": "Jonny Miller",
+      "source_url": "https://howtounclench.com/",
+      "published_date": "2010-09-25",
+      "saved_at": "2026-09-20T17:03:23.060000+05:30",
+      "reading_time": "33 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m2z63dqygazwkr5jhpsdv2vn",
+      "title": "Your brain is wired to add, and it's making you worse at everything | David Epstein",
+      "author": "Big Think Clips",
+      "source_url": "https://www.youtube.com/watch?v=2ReZt1bjfz8",
+      "published_date": "2026-09-17",
+      "saved_at": "2026-09-20T16:04:30.014000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m2z4ftrcry6rsxt89qqnh18n",
+      "title": "The people who know the most often sound the least certain",
+      "author": "Vrash",
+      "source_url": "https://vrash.substack.com/p/the-people-who-know-the-most-often",
+      "published_date": "2026-09-19",
+      "saved_at": "2026-09-20T15:36:19.404000+05:30",
+      "reading_time": "7 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m2z38p25vnezm031s6ma1hbm",
+      "title": "the senior engineer death spiral",
+      "author": "Sunil Pai",
+      "source_url": "https://sunilpai.dev/posts/the-senior-engineer-death-spiral/",
+      "published_date": "2026-09-19",
+      "saved_at": "2026-09-20T15:14:56.645000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01m2vzp7abyha9vy7jcf9xtspq",
       "title": "A day is short, a life is long",
