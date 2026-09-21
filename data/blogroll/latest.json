@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T14:21:24.043020",
+  "lastUpdated": "2026-09-21T16:39:42.958000",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "datasette-auth-github 1.0",
-      "postUrl": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
-      "publishDate": "2026-09-19T19:52:02+00:00"
+      "postTitle": "Quoting voxium",
+      "postUrl": "https://simonwillison.net/2026/Sep/20/voxium/",
+      "publishDate": "2026-09-20T21:06:43+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -95,8 +95,9 @@
     {
       "blogTitle": "Kaazhchakal",
       "blogUrl": "https://yezhuvath.com/",
-      "error": true,
-      "errorMessage": "403 Forbidden (feedparser)"
+      "postTitle": "Footloose in Europe",
+      "postUrl": "https://yezhuvath.com/2025/09/28/footloose-in-europe/",
+      "publishDate": "Sun, 28 Sep 2025 06:19:53 +0000"
     },
     {
       "blogTitle": "Tangled Bytes",
@@ -164,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "New Fatherhood, Young Money, Audiobook Deal, Asia Books, Boomers | #331",
-      "postUrl": "https://newsletter.pathlesspath.com/p/new-fatherhood-young-money-audiobook",
-      "publishDate": "Tue, 01 Sep 2026 10:38:12 GMT"
+      "postTitle": "I did a publishing deal with Authors Equity and I\u2019m relaunching The Pathless Path for the 5th Anniversary",
+      "postUrl": "https://newsletter.pathlesspath.com/p/i-did-a-publishing-deal-with-authors",
+      "publishDate": "Mon, 21 Sep 2026 14:41:10 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
@@ -178,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "\u00bfQu\u00e9 est\u00e1 pasando en Ceuta?",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/que-esta-pasando-en-ceuta",
-      "publishDate": "Sun, 20 Sep 2026 01:01:45 GMT"
+      "postTitle": "Why Is Japan So Populated Despite So Little Land?",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/japan-geography",
+      "publishDate": "Wed, 16 Sep 2026 12:01:54 GMT"
     },
     {
       "blogTitle": "Anil Dash",
