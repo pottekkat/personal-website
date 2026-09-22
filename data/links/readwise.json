@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-09-21T22:09:03.883771+05:30",
+  "last_updated": "2026-09-22T20:46:10.348464+05:30",
   "links": [
+    {
+      "id": "01m33vna1agpmm36j28z866v6d",
+      "title": "The Most Important Decryption Machine Ever Built",
+      "author": "Veritasium",
+      "source_url": "https://www.youtube.com/watch?v=JsBZOcqZerk",
+      "published_date": "2026-09-21",
+      "saved_at": "2026-09-22T11:38:13.865000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m32f6nyny9x2j0tb86yca6g0",
+      "title": "Good people refuse to do bad things",
+      "author": "A journey into a wild pointer",
+      "source_url": "https://carette.xyz/posts/good_people_refuse_to_do_bad_things/",
+      "published_date": "2026-09-20",
+      "saved_at": "2026-09-21T22:41:17.205000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m32eegbgght13tnxgepak6gd",
+      "title": "JEE, CGPA, GATE, Codeforces: india’s rank fetish is killing technical talent",
+      "author": "nisarga adhikary",
+      "source_url": "https://ni5arga.github.io/notes/indias-rank-fetish-is-killing-technical-talent/",
+      "published_date": null,
+      "saved_at": "2026-09-21T22:28:05.040000+05:30",
+      "reading_time": "9 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m329s9q4cqyp4hgqyyyp57ew",
+      "title": "White Collar PEDs",
+      "author": "Blake Smith",
+      "source_url": "https://colossus.com/article/mark-zuckerberg-profile/",
+      "published_date": null,
+      "saved_at": "2026-09-21T21:06:35.812000+05:30",
+      "reading_time": "57 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01m31pc409mxeecn6w0a03k4k7",
       "title": "How High-Speed Traders Made Billions in India",
