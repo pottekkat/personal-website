@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-09-21T16:39:42.958000",
+  "lastUpdated": "2026-09-22T15:16:58.791386",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Tyrannosaurus",
-      "postUrl": "https://xkcd.com/3300/",
-      "publishDate": "Fri, 18 Sep 2026 04:00:00 -0000"
+      "postTitle": "Stargazing 5",
+      "postUrl": "https://xkcd.com/3301/",
+      "publishDate": "Mon, 21 Sep 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting voxium",
-      "postUrl": "https://simonwillison.net/2026/Sep/20/voxium/",
-      "publishDate": "2026-09-20T21:06:43+00:00"
+      "postTitle": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+      "postUrl": "https://simonwillison.net/2026/Sep/21/jev/",
+      "publishDate": "2026-09-21T23:09:20+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -151,16 +151,16 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "On the desire to live in a cabin in the woods",
-      "postUrl": "https://www.elysian.press/p/desire-to-fuck-off-to-the-woods",
-      "publishDate": "Tue, 25 Aug 2026 12:01:20 GMT"
+      "postTitle": "If we fix the phone, we fix society",
+      "postUrl": "https://www.elysian.press/p/if-we-fix-the-phone-we-fix-society",
+      "publishDate": "Tue, 22 Sep 2026 12:04:21 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Don\u2019t Count Out the Country House",
-      "postUrl": "https://letter.palladiummag.com/p/dont-count-out-the-country-house",
-      "publishDate": "Fri, 18 Sep 2026 19:50:15 GMT"
+      "postTitle": "Wealth Taxes Could Kill Privately-Owned Companies",
+      "postUrl": "https://letter.palladiummag.com/p/wealth-taxes-could-kill-privately",
+      "publishDate": "Tue, 22 Sep 2026 15:14:30 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
