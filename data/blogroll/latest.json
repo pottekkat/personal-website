@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-09-23T15:17:25.535557",
+  "lastUpdated": "2026-09-24T15:32:30.832445",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Stargazing 5",
-      "postUrl": "https://xkcd.com/3301/",
-      "publishDate": "Mon, 21 Sep 2026 04:00:00 -0000"
+      "postTitle": "Voyager Instruments",
+      "postUrl": "https://xkcd.com/3302/",
+      "publishDate": "Wed, 23 Sep 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
-      "postUrl": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
-      "publishDate": "2026-09-23T02:53:19+00:00"
+      "postTitle": "Gemini 3.8 TTS Playground",
+      "postUrl": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+      "publishDate": "2026-09-23T17:12:27+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -60,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "The Internet Is Kind of a Predatory Cesspit Now",
-      "postUrl": "https://www.stephendiehl.com/posts/internet_predatory_cesspit/",
-      "publishDate": "Sat, 29 Aug 2026 01:00:00 +0000"
+      "postTitle": "No, Transformers Won't End the Human Race lol",
+      "postUrl": "https://www.stephendiehl.com/posts/transformers_wont_end_human_race/",
+      "publishDate": "Thu, 24 Sep 2026 08:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
