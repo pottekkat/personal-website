@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-09-23T20:45:01.333540+05:30",
+  "last_updated": "2026-09-24T21:01:45.753734+05:30",
   "links": [
+    {
+      "id": "01m3a056p9469bb5yga36jsm6c",
+      "title": "here's how i shipped 2,500 PRs last month to production",
+      "author": "lauren",
+      "source_url": "https://x.com/poteto/status/2102050467505430555/?rw_tt_thread=True",
+      "published_date": "2026-09-21",
+      "saved_at": "2026-09-24T20:52:15.625000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m39pn8tz8kjafbpnyyq0wp47",
+      "title": "She left Waterloo without graduating",
+      "author": "Julia Fedorin",
+      "source_url": "https://x.com/juliafedorin/status/2097363988086755667/?t=1772&rw_tt_thread=True",
+      "published_date": "2026-09-08",
+      "saved_at": "2026-09-24T18:06:16.351000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m39hvcdnq30p0z233jexc0cm",
+      "title": "The Most Disgusting Influencer Campaign of 2026",
+      "author": "fern",
+      "source_url": "https://www.youtube.com/watch?v=WOOwVvYoq5I",
+      "published_date": "2026-09-23",
+      "saved_at": "2026-09-24T16:42:13.748000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m37maxg4c12k8zw6669t5kyf",
+      "title": "Design Engineering with Maggie Appleton",
+      "author": "The Pragmatic Engineer",
+      "source_url": "https://www.youtube.com/watch?v=KZSzF0KEFRg",
+      "published_date": "2026-09-23",
+      "saved_at": "2026-09-23T22:47:11.043000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01m33vna1agpmm36j28z866v6d",
       "title": "The Most Important Decryption Machine Ever Built",
