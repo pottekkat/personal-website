@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-09-24T21:01:45.753734+05:30",
+  "last_updated": "2026-09-25T20:59:43.351380+05:30",
   "links": [
+    {
+      "id": "01m3a94kvqx4rvhp82qp7fy3at",
+      "title": "Is India's workforce feminising?",
+      "author": "Data For India",
+      "source_url": "https://www.dataforindia.com/is-indias-workforce-feminising/",
+      "published_date": "2026-08-31",
+      "saved_at": "2026-09-24T23:29:13.526000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m3a1a53z4tcn6d7tv7ahtvb4",
+      "title": "At some point in evolutionary history, matter learned to feel",
+      "author": "François Chollet",
+      "source_url": "https://x.com/fchollet/status/2103126209597256076/?rw_tt_thread=True",
+      "published_date": "2026-09-24",
+      "saved_at": "2026-09-24T21:12:26.431000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
     {
       "id": "01m3a056p9469bb5yga36jsm6c",
       "title": "here's how i shipped 2,500 PRs last month to production",
