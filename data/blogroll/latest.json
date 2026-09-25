@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T15:32:30.832445",
+  "lastUpdated": "2026-09-25T15:30:17.665680",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Gemini 3.8 TTS Playground",
-      "postUrl": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
-      "publishDate": "2026-09-23T17:12:27+00:00"
+      "postTitle": "commit-rewriter 0.2",
+      "postUrl": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
+      "publishDate": "2026-09-24T20:06:53+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
