@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-09-25T15:30:17.665680",
+  "lastUpdated": "2026-09-26T14:42:59.814310",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Voyager Instruments",
-      "postUrl": "https://xkcd.com/3302/",
-      "publishDate": "Wed, 23 Sep 2026 04:00:00 -0000"
+      "postTitle": "Slab Graveyard",
+      "postUrl": "https://xkcd.com/3303/",
+      "publishDate": "Fri, 25 Sep 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "commit-rewriter 0.2",
-      "postUrl": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
-      "publishDate": "2026-09-24T20:06:53+00:00"
+      "postTitle": "Quoting John Gruber",
+      "postUrl": "https://simonwillison.net/2026/Sep/25/john-gruber/",
+      "publishDate": "2026-09-25T17:22:01+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Solod 0.4: Better C interop",
-      "postUrl": "https://antonz.org/solod-0.4/",
-      "publishDate": "Sat, 12 Sep 2026 13:00:00 +0000"
+      "postTitle": "Go concurrency distilled",
+      "postUrl": "https://antonz.org/go-concurrency-distilled/",
+      "publishDate": "Sat, 26 Sep 2026 11:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
