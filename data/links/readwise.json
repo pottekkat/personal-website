@@ -1,6 +1,127 @@
 {
-  "last_updated": "2026-09-27T20:46:09.811137+05:30",
+  "last_updated": "2026-09-28T23:45:24.855625+05:30",
   "links": [
+    {
+      "id": "01m3m2k4y56pkwq7a2kkhda86v",
+      "title": "Cultivate Good Taste, Please",
+      "author": "Sean deLone",
+      "source_url": "https://dearheadofmine.substack.com/p/cultivate-good-taste-please",
+      "published_date": "2026-08-23",
+      "saved_at": "2026-09-28T18:47:14.053000+05:30",
+      "reading_time": "9 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m3kzgmjydp5x2bwmqape8j3x",
+      "title": "Policy Mistakes We Can't Unsee | Episode 9 | Watching the Wheels",
+      "author": "Watching the Wheels",
+      "source_url": "https://www.youtube.com/watch?v=EsOSZgWW2So",
+      "published_date": "2026-09-24",
+      "saved_at": "2026-09-28T17:53:26.045000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m3ksdvcb0a6ft7z4jbe1q8mt",
+      "title": "“AI Will kill us all” , they say",
+      "author": "parm🔬",
+      "source_url": "https://x.com/parmita/status/2104514517661303097/?rw_tt_thread=True",
+      "published_date": "2026-09-28",
+      "saved_at": "2026-09-28T16:07:03.243000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m3kqpn38f96d69wsgs7xswzb",
+      "title": "Headed for the Exit: the Great Engineering Leader Career Break",
+      "author": "Gergely Orosz",
+      "source_url": "https://newsletter.pragmaticengineer.com/p/the-great-engineering-leader-career-break",
+      "published_date": "2026-08-18",
+      "saved_at": "2026-09-28T15:36:54.568000+05:30",
+      "reading_time": "13 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m3kf27x660bwv3685rqd8hqe",
+      "title": "The Zig Journey",
+      "author": "kristoff.it",
+      "source_url": "https://kristoff.it/blog/the-zig-journey/",
+      "published_date": "2026-09-22",
+      "saved_at": "2026-09-28T13:05:57.094000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m3kevwtv2qmykgdemsxa42rf",
+      "title": "Allow Babywearing Carriers on Planes",
+      "author": "Jeff Kaufman",
+      "source_url": "https://www.jefftk.com/p/allow-babywearing-carriers-on-planes",
+      "published_date": "2026-09-08",
+      "saved_at": "2026-09-28T13:02:29.147000+05:30",
+      "reading_time": "5 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m3kdm4k3fdw9y2xf6tjpxkqj",
+      "title": "How Silicon Valley Knows Its People",
+      "author": "anu",
+      "source_url": "https://x.com/anuatluru/status/2103496422175703486/?rw_tt_thread=True",
+      "published_date": "2026-09-25",
+      "saved_at": "2026-09-28T12:40:46.371000+05:30",
+      "reading_time": "7 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m3kd81vygc782n6vmzdspp08",
+      "title": "“Everyday tastes from high-brow to low-brow”",
+      "author": "anu",
+      "source_url": "https://x.com/anuatluru/status/2103831350037958791/?rw_tt_thread=True",
+      "published_date": "2026-09-26",
+      "saved_at": "2026-09-28T12:34:10.366000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m3kd1fkv2xtptq9rb4k4dz0h",
+      "title": "Computer Use is Solved?",
+      "author": "The PrimeTime",
+      "source_url": "https://www.youtube.com/watch?v=BHPDsGVciDk",
+      "published_date": "2026-09-25",
+      "saved_at": "2026-09-28T12:30:35.066000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m3kcr734y11fsnwd4s62nrmg",
+      "title": "Tweet by sebkrier",
+      "author": "Séb Krier",
+      "source_url": "https://x.com/sebkrier/status/2104286780304617912/?rw_tt_thread=True",
+      "published_date": "2026-09-27",
+      "saved_at": "2026-09-28T12:25:31.428000+05:30",
+      "reading_time": null,
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m3kajazs54smp7vs1x928c17",
+      "title": "The collie and the pug | HackMIT keynote 2026",
+      "author": "Grant Sanderson",
+      "source_url": "https://www.youtube.com/watch?v=0Ge3jKLDJaA",
+      "published_date": "2026-09-24",
+      "saved_at": "2026-09-28T11:47:21.657000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01m3a94kvqx4rvhp82qp7fy3at",
       "title": "Is India's workforce feminising?",
