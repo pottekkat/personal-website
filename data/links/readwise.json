@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-09-28T23:45:24.855625+05:30",
+  "last_updated": "2026-09-29T22:19:29.556342+05:30",
   "links": [
+    {
+      "id": "01m3pvpmej37v1ynk6sjkjrv7q",
+      "title": "macOS Golden Gate Is a Buggy Mess",
+      "author": "squareorbits.com",
+      "source_url": "https://www.squareorbits.com/blog/2026/09/macos-golden-gate-is-a-buggy-mess/",
+      "published_date": "2026-09-29",
+      "saved_at": "2026-09-29T20:44:31.506000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m3pfj7qz5g7psh9prg4fdeqp",
+      "title": "Everything But That #1 | David Khachaturov | Everything But Software",
+      "author": "erin meryl mcgurk",
+      "source_url": "https://www.youtube.com/watch?v=V9f2h6CjVfw",
+      "published_date": "2026-06-25",
+      "saved_at": "2026-09-29T17:12:24.510000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m3p9jg4k7kpz3hjcwh059shz",
+      "title": "We asked Max Verstappen what F1 fans REALLY want to know",
+      "author": "P1 with Matt & Tommy",
+      "source_url": "https://www.youtube.com/watch?v=2STbBGT1nZ8",
+      "published_date": "2026-09-28",
+      "saved_at": "2026-09-29T15:27:41.651000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m3ny5scywp4bsrb50pvwp7ym",
+      "title": "What now for Mathematics (with 3Blue1Brown) - Numberphile",
+      "author": "Numberphile",
+      "source_url": "https://www.youtube.com/watch?v=9HlIuxnuTKQ",
+      "published_date": "2026-09-28",
+      "saved_at": "2026-09-29T12:08:30.814000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m3nwe7f0wrang650qpt1bsqp",
+      "title": "DHH has gone completely off the rails...",
+      "author": "Fireship",
+      "source_url": "https://www.youtube.com/watch?v=OuNKBjuV7A4",
+      "published_date": "2026-09-28",
+      "saved_at": "2026-09-29T11:38:10.208000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m3nt5jv18jrq7wn9bk86kwk7",
+      "title": "On the Value of Doing a PhD in the Age of AI",
+      "author": "mit.edu",
+      "source_url": "https://web.mit.edu/phillipi/www/writing/PhD-in-age-of-AI.html",
+      "published_date": "2026-09-28",
+      "saved_at": "2026-09-29T10:58:29.793000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01m3m2k4y56pkwq7a2kkhda86v",
       "title": "Cultivate Good Taste, Please",
