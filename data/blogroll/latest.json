@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-09-28T18:16:00.072990",
+  "lastUpdated": "2026-09-29T16:50:06.042306",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Slab Graveyard",
-      "postUrl": "https://xkcd.com/3303/",
-      "publishDate": "Fri, 25 Sep 2026 04:00:00 -0000"
+      "postTitle": "Jupiter Icy Moons Explorer",
+      "postUrl": "https://xkcd.com/3304/",
+      "publishDate": "Mon, 28 Sep 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Muse AI Agent",
-      "postUrl": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/",
-      "publishDate": "2026-09-28T04:01:30+00:00"
+      "postTitle": "Claude Sonnet 5.5",
+      "postUrl": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+      "publishDate": "2026-09-28T22:07:38+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "New Video: The Native Americans Before the Native Americans",
-      "postUrl": "https://letter.palladiummag.com/p/new-video-the-native-americans-before",
-      "publishDate": "Mon, 28 Sep 2026 00:57:20 GMT"
+      "postTitle": "The Mirror and the Gap",
+      "postUrl": "https://letter.palladiummag.com/p/the-mirror-and-the-gap",
+      "publishDate": "Tue, 29 Sep 2026 15:11:42 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -179,16 +179,16 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Japan\u2019s 4 Priorities",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/japans-priorities",
-      "publishDate": "Sun, 27 Sep 2026 01:42:20 GMT"
+      "postTitle": "How Japan\u2019s Geography Determined Its History",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-japans-geography-determined-its",
+      "publishDate": "Tue, 29 Sep 2026 12:03:43 GMT"
     },
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Discovering Prince, Ten Years Later",
-      "postUrl": "https://anildash.com/2026/04/20/prince-ten-years/",
-      "publishDate": "2026-04-20T00:00:00Z"
+      "postTitle": "(One) Good AI Is Here",
+      "postUrl": "https://anildash.com/2026/04/28/one-good-ai-is-here/",
+      "publishDate": "2026-04-28T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
