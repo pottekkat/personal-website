@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-09-30T16:44:07.550644",
+  "lastUpdated": "2026-10-01T17:08:42.210039",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Jupiter Icy Moons Explorer",
-      "postUrl": "https://xkcd.com/3304/",
-      "publishDate": "Mon, 28 Sep 2026 04:00:00 -0000"
+      "postTitle": "Ground Effect",
+      "postUrl": "https://xkcd.com/3305/",
+      "publishDate": "Wed, 30 Sep 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,15 +18,15 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Anthropic Frontier Red Team",
-      "postUrl": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
-      "publishDate": "2026-09-29T22:20:28+00:00"
+      "postTitle": "Quoting Matthew Green",
+      "postUrl": "https://simonwillison.net/2026/Oct/1/matthew-green/",
+      "publishDate": "2026-10-01T06:29:01+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
       "blogUrl": "https://www.paulgraham.com/articles.html",
       "error": true,
-      "errorMessage": "HTTPConnectionPool(host='www.aaronsw.com', port=80): Max retries exceeded with url: /2002/feeds/pgessays.rss (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f064247d0c0>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
+      "errorMessage": "HTTPConnectionPool(host='www.aaronsw.com', port=80): Max retries exceeded with url: /2002/feeds/pgessays.rss (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff0bdddd0c0>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
     },
     {
       "blogTitle": "Bartosz Ciechanowski",
@@ -143,16 +143,16 @@
     {
       "blogTitle": "AI as Normal Technology",
       "blogUrl": "https://www.normaltech.ai",
-      "postTitle": "AI existential risk probabilities are (still) too unreliable to inform policy",
-      "postUrl": "https://www.normaltech.ai/p/p-doom",
-      "publishDate": "Mon, 28 Sep 2026 11:13:47 GMT"
+      "postTitle": "A big-tent or small-tent AI safety movement?",
+      "postUrl": "https://www.normaltech.ai/p/a-big-tent-or-small-tent-ai-safety",
+      "publishDate": "Thu, 01 Oct 2026 16:34:51 GMT"
     },
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "If we fix the phone, we fix society",
-      "postUrl": "https://www.elysian.press/p/if-we-fix-the-phone-we-fix-society",
-      "publishDate": "Tue, 22 Sep 2026 12:04:21 GMT"
+      "postTitle": "MacKenzie Scott should have gotten Kindle in the divorce",
+      "postUrl": "https://www.elysian.press/p/mackenzie-scott-e-book-library",
+      "publishDate": "Thu, 01 Oct 2026 15:13:34 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
@@ -178,9 +178,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "How Japan\u2019s Geography Determined Its History",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-japans-geography-determined-its",
-      "publishDate": "Tue, 29 Sep 2026 12:03:43 GMT"
+      "postTitle": "How Japan Redrew Asia",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-japan-redrew-asia",
+      "publishDate": "Thu, 01 Oct 2026 12:02:01 GMT"
     },
     {
       "blogTitle": "Anil Dash",
