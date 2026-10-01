@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-08-20T14:39:21+05:30",
+  "lastUpdated": "2026-09-28T10:54:35+05:30",
   "entries": [
+    {
+      "hash": "993c7ba",
+      "date": "2026-09-28T10:53:38+05:30",
+      "message": "Added an alias for the blogroll page."
+    },
+    {
+      "hash": "a5ab471",
+      "date": "2026-09-05T23:35:54+05:30",
+      "message": "Improved performance by serving WebP images and optimizing JS loading."
+    },
+    {
+      "hash": "28ee3b2",
+      "date": "2026-09-03T12:56:35+05:30",
+      "message": "Updated book review status to 'Read' for Invisible Cities."
+    },
     {
       "hash": "742b4cd",
       "date": "2026-08-20T14:36:55+05:30",

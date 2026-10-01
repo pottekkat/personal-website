@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-09-27T15:16:47.132299",
+  "lastUpdated": "2026-09-30T16:44:07.550644",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Slab Graveyard",
-      "postUrl": "https://xkcd.com/3303/",
-      "publishDate": "Fri, 25 Sep 2026 04:00:00 -0000"
+      "postTitle": "Jupiter Icy Moons Explorer",
+      "postUrl": "https://xkcd.com/3304/",
+      "publishDate": "Mon, 28 Sep 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,16 +18,15 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "K\u0101k\u0101p\u014d Party",
-      "postUrl": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
-      "publishDate": "2026-09-26T23:39:06+00:00"
+      "postTitle": "Quoting Anthropic Frontier Red Team",
+      "postUrl": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+      "publishDate": "2026-09-29T22:20:28+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
       "blogUrl": "https://www.paulgraham.com/articles.html",
-      "postTitle": "Superlinear Returns",
-      "postUrl": "http://www.paulgraham.com/superlinear.html",
-      "publishDate": null
+      "error": true,
+      "errorMessage": "HTTPConnectionPool(host='www.aaronsw.com', port=80): Max retries exceeded with url: /2002/feeds/pgessays.rss (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f064247d0c0>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
     },
     {
       "blogTitle": "Bartosz Ciechanowski",
@@ -144,9 +143,9 @@
     {
       "blogTitle": "AI as Normal Technology",
       "blogUrl": "https://www.normaltech.ai",
-      "postTitle": "The AI-as-Normal-Technology view of loss-of-control incidents",
-      "postUrl": "https://www.normaltech.ai/p/the-ai-as-normal-technology-view",
-      "publishDate": "Mon, 14 Sep 2026 10:30:14 GMT"
+      "postTitle": "AI existential risk probabilities are (still) too unreliable to inform policy",
+      "postUrl": "https://www.normaltech.ai/p/p-doom",
+      "publishDate": "Mon, 28 Sep 2026 11:13:47 GMT"
     },
     {
       "blogTitle": "The Elysian",
@@ -158,9 +157,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Wealth Taxes Could Kill Privately-Owned Companies",
-      "postUrl": "https://letter.palladiummag.com/p/wealth-taxes-could-kill-privately",
-      "publishDate": "Tue, 22 Sep 2026 15:14:30 GMT"
+      "postTitle": "The Mirror and the Gap",
+      "postUrl": "https://letter.palladiummag.com/p/the-mirror-and-the-gap",
+      "publishDate": "Tue, 29 Sep 2026 15:11:42 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -179,16 +178,16 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Japan\u2019s 4 Priorities",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/japans-priorities",
-      "publishDate": "Sun, 27 Sep 2026 01:42:20 GMT"
+      "postTitle": "How Japan\u2019s Geography Determined Its History",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-japans-geography-determined-its",
+      "publishDate": "Tue, 29 Sep 2026 12:03:43 GMT"
     },
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Discovering Prince, Ten Years Later",
-      "postUrl": "https://anildash.com/2026/04/20/prince-ten-years/",
-      "publishDate": "2026-04-20T00:00:00Z"
+      "postTitle": "(One) Good AI Is Here",
+      "postUrl": "https://anildash.com/2026/04/28/one-good-ai-is-here/",
+      "publishDate": "2026-04-28T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
