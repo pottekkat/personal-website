@@ -589,14 +589,14 @@
   "frontMatter.content.snippets": {
     "Figure": {
       "description": "Figure with title, caption, and link.",
-      "body": "{{< figure src=\"[[&mediaUrl]]#center\" title=\"[[title]]\" caption=\"[[caption]]\" link=\"[[&mediaUrl]]\" target=\"_blank\" class=\"align-center\" >}}",
+      "body": "{{< figure src=\"[[&mediaUrl]]#center\" title=\"[[&title]]\" caption=\"[[&caption]]\" link=\"[[&mediaUrl]]\" target=\"_blank\" class=\"align-center\" >}}",
       "isMediaSnippet": true
     },
     "Quote": {
       "description": "Quote with the author, link, and title.",
       "body": [
-        "{{< blockquote author=\"[[author]]\" link=\"[[&link]]\" title=\"[[title]]\" >}}",
-        "[[selection]]",
+        "{{< blockquote author=\"[[&author]]\" link=\"[[&link]]\" title=\"[[&title]]\" >}}",
+        "[[&selection]]",
         "{{< /blockquote >}}"
       ],
       "fields": [
