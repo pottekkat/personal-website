@@ -3,7 +3,7 @@ title: Septology
 date: 2026-07-19T15:11:13Z
 draft: false
 summary: Review of "Septology" by Jon Fosse.
-status: Want to Read
+status: Reading
 bookMeta:
   author: Jon Fosse
   published: 2016
