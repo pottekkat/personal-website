@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T17:08:42.210039",
+  "lastUpdated": "2026-10-02T16:25:49.036927",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -26,7 +26,7 @@
       "blogTitle": "Paul Graham: Essays",
       "blogUrl": "https://www.paulgraham.com/articles.html",
       "error": true,
-      "errorMessage": "HTTPConnectionPool(host='www.aaronsw.com', port=80): Max retries exceeded with url: /2002/feeds/pgessays.rss (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff0bdddd0c0>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
+      "errorMessage": "HTTPConnectionPool(host='www.aaronsw.com', port=80): Max retries exceeded with url: /2002/feeds/pgessays.rss (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa424f590c0>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
     },
     {
       "blogTitle": "Bartosz Ciechanowski",
