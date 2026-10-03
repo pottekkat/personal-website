@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-02T16:25:49.036927",
+  "lastUpdated": "2026-10-03T14:51:01.504588",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Ground Effect",
-      "postUrl": "https://xkcd.com/3305/",
-      "publishDate": "Wed, 30 Sep 2026 04:00:00 -0000"
+      "postTitle": "Accelerator Energies",
+      "postUrl": "https://xkcd.com/3306/",
+      "publishDate": "Fri, 02 Oct 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -26,7 +26,7 @@
       "blogTitle": "Paul Graham: Essays",
       "blogUrl": "https://www.paulgraham.com/articles.html",
       "error": true,
-      "errorMessage": "HTTPConnectionPool(host='www.aaronsw.com', port=80): Max retries exceeded with url: /2002/feeds/pgessays.rss (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa424f590c0>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
+      "errorMessage": "No posts found in feed"
     },
     {
       "blogTitle": "Bartosz Ciechanowski",
@@ -178,9 +178,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "How Japan Redrew Asia",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-japan-redrew-asia",
-      "publishDate": "Thu, 01 Oct 2026 12:02:01 GMT"
+      "postTitle": "Why Is Japan\u2019s Population Shrinking So Much?",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/why-is-japans-population-shrinking",
+      "publishDate": "Sat, 03 Oct 2026 12:00:53 GMT"
     },
     {
       "blogTitle": "Anil Dash",
