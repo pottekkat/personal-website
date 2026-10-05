@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T15:29:49.791501",
+  "lastUpdated": "2026-10-05T19:34:43.999576",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -11,16 +11,16 @@
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Endless execution",
-      "postUrl": "https://world.hey.com/dhh/endless-execution-4157e065",
-      "publishDate": "2026-08-09T20:27:38Z"
+      "postTitle": "What on earth are you dooming about?",
+      "postUrl": "https://world.hey.com/dhh/what-on-earth-are-you-dooming-about-386cc1da",
+      "publishDate": "2026-10-05T13:30:45Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "We're going to need default hard budget caps on pretty much everything",
-      "postUrl": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-      "publishDate": "2026-10-03T23:34:02+00:00"
+      "postTitle": "Qwen3.8 27B addition in words",
+      "postUrl": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+      "publishDate": "2026-10-04T23:34:00+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -136,9 +136,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "Blocking HTTP1.1 - Some Results",
-      "postUrl": "https://sheep.horse/2026/3/blocking_http1.1_-_some_results.html",
-      "publishDate": "Sun, 08 Mar 2026 07:46:10 +0000"
+      "postTitle": "Small Website Update - Dark Mode",
+      "postUrl": "https://sheep.horse/2026/3/small_website_update_-_dark_mode.html",
+      "publishDate": "Sun, 15 Mar 2026 14:53:46 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
