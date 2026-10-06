@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2026-10-05T19:34:43.999576",
+  "lastUpdated": "2026-10-06T16:55:47.279914",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Accelerator Energies",
-      "postUrl": "https://xkcd.com/3306/",
-      "publishDate": "Fri, 02 Oct 2026 04:00:00 -0000"
+      "postTitle": "Spectrum Allocation",
+      "postUrl": "https://xkcd.com/3307/",
+      "publishDate": "Mon, 05 Oct 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "What on earth are you dooming about?",
-      "postUrl": "https://world.hey.com/dhh/what-on-earth-are-you-dooming-about-386cc1da",
-      "publishDate": "2026-10-05T13:30:45Z"
+      "postTitle": "Over my dead pencil",
+      "postUrl": "https://world.hey.com/dhh/over-my-dead-pencil-fb0f3647",
+      "publishDate": "2026-10-06T07:28:30Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Qwen3.8 27B addition in words",
-      "postUrl": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
-      "publishDate": "2026-10-04T23:34:00+00:00"
+      "postTitle": "Scrimshaw Jukebox",
+      "postUrl": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
+      "publishDate": "2026-10-06T15:17:39+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -94,9 +94,8 @@
     {
       "blogTitle": "Kaazhchakal",
       "blogUrl": "https://yezhuvath.com/",
-      "postTitle": "Footloose in Europe",
-      "postUrl": "https://yezhuvath.com/2025/09/28/footloose-in-europe/",
-      "publishDate": "Sun, 28 Sep 2025 06:19:53 +0000"
+      "error": true,
+      "errorMessage": "403 Forbidden (feedparser)"
     },
     {
       "blogTitle": "Tangled Bytes",
@@ -157,9 +156,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "The Mirror and the Gap",
-      "postUrl": "https://letter.palladiummag.com/p/the-mirror-and-the-gap",
-      "publishDate": "Tue, 29 Sep 2026 15:11:42 GMT"
+      "postTitle": "Rationalism and Divergent Sinomodernity",
+      "postUrl": "https://letter.palladiummag.com/p/rationalism-and-divergent-sinomodernity",
+      "publishDate": "Tue, 06 Oct 2026 15:15:55 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -178,16 +177,16 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Why Is Japan\u2019s Population Shrinking So Much?",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/why-is-japans-population-shrinking",
-      "publishDate": "Sat, 03 Oct 2026 12:00:53 GMT"
+      "postTitle": "Why Was Kyoto Japan\u2019s Capital?",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/why-was-kyoto-japans-capital",
+      "publishDate": "Tue, 06 Oct 2026 13:47:18 GMT"
     },
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "(One) Good AI Is Here",
-      "postUrl": "https://anildash.com/2026/04/28/one-good-ai-is-here/",
-      "publishDate": "2026-04-28T00:00:00Z"
+      "postTitle": "Why are the Artemis II photos on Flickr?",
+      "postUrl": "https://anildash.com/2026/04/30/artemis-photos-flickr/",
+      "publishDate": "2026-04-30T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
