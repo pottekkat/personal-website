@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2026-10-06T16:55:47.279914",
+  "lastUpdated": "2026-10-07T17:51:10.773001",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Spectrum Allocation",
-      "postUrl": "https://xkcd.com/3307/",
-      "publishDate": "Mon, 05 Oct 2026 04:00:00 -0000"
+      "postTitle": "Juice",
+      "postUrl": "https://xkcd.com/3308/",
+      "publishDate": "Wed, 07 Oct 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
       "blogUrl": "https://world.hey.com/dhh",
-      "postTitle": "Over my dead pencil",
-      "postUrl": "https://world.hey.com/dhh/over-my-dead-pencil-fb0f3647",
-      "publishDate": "2026-10-06T07:28:30Z"
+      "postTitle": "Redundancy is the engine of progress",
+      "postUrl": "https://world.hey.com/dhh/redundancy-is-the-engine-of-progress-76499402",
+      "publishDate": "2026-10-07T08:01:15Z"
     },
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Scrimshaw Jukebox",
-      "postUrl": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
-      "publishDate": "2026-10-06T15:17:39+00:00"
+      "postTitle": "Anti-Patterns in Software Blogging",
+      "postUrl": "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/",
+      "publishDate": "2026-10-07T14:53:51+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -94,8 +94,9 @@
     {
       "blogTitle": "Kaazhchakal",
       "blogUrl": "https://yezhuvath.com/",
-      "error": true,
-      "errorMessage": "403 Forbidden (feedparser)"
+      "postTitle": "Footloose in Europe",
+      "postUrl": "https://yezhuvath.com/2025/09/28/footloose-in-europe/",
+      "publishDate": "Sun, 28 Sep 2025 06:19:53 +0000"
     },
     {
       "blogTitle": "Tangled Bytes",
@@ -135,9 +136,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "Small Website Update - Dark Mode",
-      "postUrl": "https://sheep.horse/2026/3/small_website_update_-_dark_mode.html",
-      "publishDate": "Sun, 15 Mar 2026 14:53:46 +0000"
+      "postTitle": "I have Thoughts on the Dungeon Crawler Carl Series",
+      "postUrl": "https://sheep.horse/2026/3/i_have_thoughts_on_the_dungeon_crawler_carl_series.html",
+      "publishDate": "Tue, 17 Mar 2026 11:13:25 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
