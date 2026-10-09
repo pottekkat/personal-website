@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-10-08T23:03:59.218421+05:30",
+  "last_updated": "2026-10-09T22:40:42.501043+05:30",
   "links": [
+    {
+      "id": "01m4gbaxdwghgz938ftrw7mwjy",
+      "title": "Collecting favours",
+      "author": "Sunil Pai",
+      "source_url": "https://sunilpai.dev/posts/collecting-favours/",
+      "published_date": "2026-10-08",
+      "saved_at": "2026-10-09T18:18:45.500000+05:30",
+      "reading_time": "7 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m4g8gres97q99qnyy5s9pfxb",
+      "title": "\"abusive and cruel behavior to our models\"",
+      "author": "Dileep George",
+      "source_url": "https://x.com/dileeplearning/status/2108337177864417591/?rw_tt_thread=True",
+      "published_date": "2026-10-08",
+      "saved_at": "2026-10-09T17:29:31.289000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m4g4kdy1v4dspvrxz9cnvpd0",
+      "title": "Programming Isn’t Special",
+      "author": "Glyph Lefkowitz",
+      "source_url": "https://blog.glyph.im/2026/10/programming-isnt-special.html",
+      "published_date": "2026-10-09",
+      "saved_at": "2026-10-09T16:21:04.512000+05:30",
+      "reading_time": "7 mins",
+      "category": "article",
+      "notes": "This is an interesting way to look at things. But I'm unsure how many of us have the privilege to slow down and be artists. Unlike other art, the demand for functional code will increase and the demand on each individual \"code poets\" would also increase, forcing us to go all-in on AI. It was fun while it lasted."
+    },
     {
       "id": "01m4dpj31t405sn5gsv96v13f0",
       "title": "The seven vices of highly effective Victorians",
