@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-10-09T22:40:42.501043+05:30",
+  "last_updated": "2026-10-10T21:27:07.263061+05:30",
   "links": [
+    {
+      "id": "01m4j63nt1nc8e0j66dqbzncs1",
+      "title": "No Man Is an Island",
+      "author": "Fernando Borretti",
+      "source_url": "https://borretti.me/article/no-man-is-an-island",
+      "published_date": "2026-10-09",
+      "saved_at": "2026-10-10T11:25:54.305000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m4j4z3sn5beb0kcnjdpr9knj",
+      "title": "Lobbying",
+      "author": "the singularity is nearer",
+      "source_url": "https://geohot.github.io//blog/jekyll/update/2026/10/10/lobbying.html",
+      "published_date": "2026-10-10",
+      "saved_at": "2026-10-10T11:05:56.213000+05:30",
+      "reading_time": "1 min",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01m4gbaxdwghgz938ftrw7mwjy",
       "title": "Collecting favours",
