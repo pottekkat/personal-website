@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-09T17:11:16.714625",
+  "lastUpdated": "2026-10-10T15:57:38.069863",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Juice",
-      "postUrl": "https://xkcd.com/3308/",
-      "publishDate": "Wed, 07 Oct 2026 04:00:00 -0000"
+      "postTitle": "Dogcatcher",
+      "postUrl": "https://xkcd.com/3309/",
+      "publishDate": "Fri, 09 Oct 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Matthew Green",
-      "postUrl": "https://simonwillison.net/2026/Oct/9/matthew-green/",
-      "publishDate": "2026-10-09T15:02:29+00:00"
+      "postTitle": "Quoting The New York Times",
+      "postUrl": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
+      "publishDate": "2026-10-10T02:04:12+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -157,9 +157,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Rationalism and Divergent Sinomodernity",
-      "postUrl": "https://letter.palladiummag.com/p/rationalism-and-divergent-sinomodernity",
-      "publishDate": "Tue, 06 Oct 2026 15:15:55 GMT"
+      "postTitle": "\"Why Civilizations Collapse\" With Samo Burja",
+      "postUrl": "https://letter.palladiummag.com/p/why-civilizations-collapse-with-samo",
+      "publishDate": "Sat, 10 Oct 2026 15:01:17 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
