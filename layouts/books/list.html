@@ -16,7 +16,11 @@
 {{- range first 1 $pages.ByLastmod.Reverse }}
   {{- $lastMod = .Lastmod }}
 {{- end }}
-{{- $paginator := .Paginate $pages.ByDate.Reverse (site.Params.booksPagerSize | default 8) }}
+{{- /* Books I'm currently reading stay on top, the rest follow newest first. */}}
+{{- $reading := where $pages "Params.status" "Reading" }}
+{{- $others := where $pages "Params.status" "!=" "Reading" }}
+{{- $sorted := $reading.ByDate.Reverse | append $others.ByDate.Reverse }}
+{{- $paginator := .Paginate $sorted (site.Params.booksPagerSize | default 8) }}
 
 <header class="page-header">
   {{- if (.Param "ShowBreadCrumbsInList") -}}
