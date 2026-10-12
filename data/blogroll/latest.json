@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-11T16:25:30.003274",
+  "lastUpdated": "2026-10-12T19:59:40.181899",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Dogcatcher",
-      "postUrl": "https://xkcd.com/3309/",
-      "publishDate": "Fri, 09 Oct 2026 04:00:00 -0000"
+      "postTitle": "Rejected Space Mission Profiles",
+      "postUrl": "https://xkcd.com/3310/",
+      "publishDate": "Mon, 12 Oct 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,15 +18,16 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Dwarf Fortress uses version control now",
-      "postUrl": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
-      "publishDate": "2026-10-11T00:52:37+00:00"
+      "postTitle": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "postUrl": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+      "publishDate": "2026-10-12T18:15:38+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
       "blogUrl": "https://www.paulgraham.com/articles.html",
-      "error": true,
-      "errorMessage": "No posts found in feed"
+      "postTitle": "Superlinear Returns",
+      "postUrl": "http://www.paulgraham.com/superlinear.html",
+      "publishDate": null
     },
     {
       "blogTitle": "Bartosz Ciechanowski",
@@ -59,9 +60,9 @@
     {
       "blogTitle": "Stephen Diehl",
       "blogUrl": "https://www.stephendiehl.com/",
-      "postTitle": "We Live in the Dependently Typed Future Now",
-      "postUrl": "https://www.stephendiehl.com/posts/dependently_typed_future/",
-      "publishDate": "Thu, 08 Oct 2026 08:00:00 +0000"
+      "postTitle": "MLIR Part 14 - GPT-2 on the GPU",
+      "postUrl": "https://www.stephendiehl.com/posts/mlir_gpu_target/",
+      "publishDate": "Sun, 11 Oct 2026 08:00:00 +0000"
     },
     {
       "blogTitle": "Austin Z. Henley's Blog",
@@ -94,9 +95,8 @@
     {
       "blogTitle": "Kaazhchakal",
       "blogUrl": "https://yezhuvath.com/",
-      "postTitle": "Footloose in Europe",
-      "postUrl": "https://yezhuvath.com/2025/09/28/footloose-in-europe/",
-      "publishDate": "Sun, 28 Sep 2025 06:19:53 +0000"
+      "error": true,
+      "errorMessage": "403 Forbidden (feedparser)"
     },
     {
       "blogTitle": "Tangled Bytes",
