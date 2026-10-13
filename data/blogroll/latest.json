@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T19:59:40.181899",
+  "lastUpdated": "2026-10-13T17:47:05.381186",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
-      "postUrl": "https://simonwillison.net/2026/Oct/12/python-3-15/",
-      "publishDate": "2026-10-12T18:15:38+00:00"
+      "postTitle": "Quoting Geoffrey Huntley",
+      "postUrl": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+      "publishDate": "2026-10-13T13:32:00+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -95,8 +95,9 @@
     {
       "blogTitle": "Kaazhchakal",
       "blogUrl": "https://yezhuvath.com/",
-      "error": true,
-      "errorMessage": "403 Forbidden (feedparser)"
+      "postTitle": "Footloose in Europe",
+      "postUrl": "https://yezhuvath.com/2025/09/28/footloose-in-europe/",
+      "publishDate": "Sun, 28 Sep 2025 06:19:53 +0000"
     },
     {
       "blogTitle": "Tangled Bytes",
