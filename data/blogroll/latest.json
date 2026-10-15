@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-14T15:25:19.605955",
+  "lastUpdated": "2026-10-15T15:19:29.130165",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Rejected Space Mission Profiles",
-      "postUrl": "https://xkcd.com/3310/",
-      "publishDate": "Mon, 12 Oct 2026 04:00:00 -0000"
+      "postTitle": "Planet Database",
+      "postUrl": "https://xkcd.com/3311/",
+      "publishDate": "Wed, 14 Oct 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Redesigning source control at Anthropic",
-      "postUrl": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-      "publishDate": "2026-10-13T23:00:06+00:00"
+      "postTitle": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+      "postUrl": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+      "publishDate": "2026-10-15T13:04:03+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "AI as Normal Technology",
       "blogUrl": "https://www.normaltech.ai",
-      "postTitle": "A big-tent or small-tent AI safety movement?",
-      "postUrl": "https://www.normaltech.ai/p/a-big-tent-or-small-tent-ai-safety",
-      "publishDate": "Thu, 01 Oct 2026 16:34:51 GMT"
+      "postTitle": "Steering AI Beyond Automation",
+      "postUrl": "https://www.normaltech.ai/p/steering-ai-beyond-automation",
+      "publishDate": "Wed, 14 Oct 2026 19:56:44 GMT"
     },
     {
       "blogTitle": "The Elysian",
