@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-15T15:19:29.130165",
+  "lastUpdated": "2026-10-16T15:00:22.093634",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Planet Database",
-      "postUrl": "https://xkcd.com/3311/",
-      "publishDate": "Wed, 14 Oct 2026 04:00:00 -0000"
+      "postTitle": "Momentum Demonstration",
+      "postUrl": "https://xkcd.com/3312/",
+      "publishDate": "Fri, 16 Oct 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
-      "postUrl": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
-      "publishDate": "2026-10-15T13:04:03+00:00"
+      "postTitle": "Chirp Pong",
+      "postUrl": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+      "publishDate": "2026-10-15T19:47:52+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -179,9 +179,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Bitcoin Is Gold, Stablecoins Are Silver",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/bitcoin-is-gold-stablecoins-are-silver",
-      "publishDate": "Wed, 14 Oct 2026 12:03:57 GMT"
+      "postTitle": "The Future of Cryptocurrencies",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/the-future-of-cryptocurrencies",
+      "publishDate": "Fri, 16 Oct 2026 12:03:10 GMT"
     },
     {
       "blogTitle": "Anil Dash",
