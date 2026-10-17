@@ -7,6 +7,14 @@ description: "What Navendu is doing now."
 
 Here's what I'm doing now.
 
+## 17th Panchajanyam International Film Festival
+
+I'm helping organize the Panchajanyam International Film Festival, 22-28 January 2027. It's an annual film festival in my hometown of Chittur, Palakkad.
+
+I'm currently leading the design for all social media and print content. I also work on our website. If you are reading this, you will enjoy the website; it has a lot of little easter eggs and "nobody but me cares" design elements.
+
+See it here: [panchajanyam.org](https://panchajanyam.org)
+
 ## Travels
 
 ~~I will be traveling to San Francisco towards the end of March/early April.~~
