@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-10-17T19:23:32.986821+05:30",
+  "last_updated": "2026-10-18T19:37:47.921034+05:30",
   "links": [
+    {
+      "id": "01m572z51nqzbd628zq4424xv6",
+      "title": "Re: Linking Patchwork with Sashiko?",
+      "author": "kernel.org",
+      "source_url": "https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/",
+      "published_date": "2026-05-30",
+      "saved_at": "2026-10-18T14:15:03.412000+05:30",
+      "reading_time": "3 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01m4qwbpx0b10vbbvpege0yjkc",
       "title": "Linus Torvalds Working On A Hefty Linux Kernel Improvement With Claude Code",
