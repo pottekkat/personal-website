@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T13:54:03.056898",
+  "lastUpdated": "2026-10-18T14:08:14.944067",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
-      "postUrl": "https://simonwillison.net/2026/Oct/16/code-review/",
-      "publishDate": "2026-10-16T22:06:37+00:00"
+      "postTitle": "Inline rendering with document\u200b.currentScript",
+      "postUrl": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+      "publishDate": "2026-10-17T21:11:12+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -95,9 +95,8 @@
     {
       "blogTitle": "Kaazhchakal",
       "blogUrl": "https://yezhuvath.com/",
-      "postTitle": "Footloose in Europe",
-      "postUrl": "https://yezhuvath.com/2025/09/28/footloose-in-europe/",
-      "publishDate": "Sun, 28 Sep 2025 06:19:53 +0000"
+      "error": true,
+      "errorMessage": "403 Forbidden (feedparser)"
     },
     {
       "blogTitle": "Tangled Bytes",
@@ -137,9 +136,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "I have Thoughts on the Dungeon Crawler Carl Series",
-      "postUrl": "https://sheep.horse/2026/3/i_have_thoughts_on_the_dungeon_crawler_carl_series.html",
-      "publishDate": "Tue, 17 Mar 2026 11:13:25 +0000"
+      "postTitle": "Who Is That Knocking At My (SSH) Door?",
+      "postUrl": "https://sheep.horse/2026/4/who_is_that_knocking_at_my_%28ssh%29_door.html",
+      "publishDate": "Mon, 27 Apr 2026 23:15:56 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
