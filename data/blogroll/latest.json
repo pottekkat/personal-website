@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-18T14:08:14.944067",
+  "lastUpdated": "2026-10-19T17:09:15.705866",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Momentum Demonstration",
-      "postUrl": "https://xkcd.com/3312/",
-      "publishDate": "Fri, 16 Oct 2026 04:00:00 -0000"
+      "postTitle": "Fusion Device",
+      "postUrl": "https://xkcd.com/3313/",
+      "publishDate": "Mon, 19 Oct 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Inline rendering with document\u200b.currentScript",
-      "postUrl": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
-      "publishDate": "2026-10-17T21:11:12+00:00"
+      "postTitle": "llm-tools-datasette 0.1.1",
+      "postUrl": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+      "publishDate": "2026-10-18T23:43:09+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -95,8 +95,9 @@
     {
       "blogTitle": "Kaazhchakal",
       "blogUrl": "https://yezhuvath.com/",
-      "error": true,
-      "errorMessage": "403 Forbidden (feedparser)"
+      "postTitle": "Footloose in Europe",
+      "postUrl": "https://yezhuvath.com/2025/09/28/footloose-in-europe/",
+      "publishDate": "Sun, 28 Sep 2025 06:19:53 +0000"
     },
     {
       "blogTitle": "Tangled Bytes",
@@ -171,9 +172,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "Kirkland Signature: Jim Sinegal and the Making of Costco's $90B Private-Label Empire",
-      "postUrl": "https://www.readtrung.com/p/kirkland-signature-how-costco-created",
-      "publishDate": "Fri, 26 Jun 2026 20:43:45 GMT"
+      "postTitle": "Nathan Fielder and the Most Meta Documentary Ever",
+      "postUrl": "https://www.readtrung.com/p/nathan-fielder-and-the-most-meta",
+      "publishDate": "Mon, 19 Oct 2026 01:24:53 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
