@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T17:09:15.705866",
+  "lastUpdated": "2026-10-20T15:21:57.149764",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "llm-tools-datasette 0.1.1",
-      "postUrl": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
-      "publishDate": "2026-10-18T23:43:09+00:00"
+      "postTitle": "My obituary for programming",
+      "postUrl": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+      "publishDate": "2026-10-19T23:58:25+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -144,9 +144,9 @@
     {
       "blogTitle": "AI as Normal Technology",
       "blogUrl": "https://www.normaltech.ai",
-      "postTitle": "Steering AI Beyond Automation",
-      "postUrl": "https://www.normaltech.ai/p/steering-ai-beyond-automation",
-      "publishDate": "Wed, 14 Oct 2026 19:56:44 GMT"
+      "postTitle": "New paper: Emerging trends in AI agent evaluation",
+      "postUrl": "https://www.normaltech.ai/p/new-paper-emerging-trends-in-ai-agent",
+      "publishDate": "Mon, 19 Oct 2026 20:11:55 GMT"
     },
     {
       "blogTitle": "The Elysian",
@@ -172,16 +172,16 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "Nathan Fielder and the Most Meta Documentary Ever",
+      "postTitle": "Nathan Fielder is Going to Win Best Picture",
       "postUrl": "https://www.readtrung.com/p/nathan-fielder-and-the-most-meta",
       "publishDate": "Mon, 19 Oct 2026 01:24:53 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "The Future of Cryptocurrencies",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/the-future-of-cryptocurrencies",
-      "publishDate": "Fri, 16 Oct 2026 12:03:10 GMT"
+      "postTitle": "Most Intelligence Is Search",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/most-intelligence-is-search-6a0",
+      "publishDate": "Tue, 20 Oct 2026 12:40:15 GMT"
     },
     {
       "blogTitle": "Anil Dash",
