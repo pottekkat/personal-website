@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-20T15:21:57.149764",
+  "lastUpdated": "2026-10-21T15:33:00.142882",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Fusion Device",
-      "postUrl": "https://xkcd.com/3313/",
-      "publishDate": "Mon, 19 Oct 2026 04:00:00 -0000"
+      "postTitle": "Vulnerability",
+      "postUrl": "https://xkcd.com/3314/",
+      "publishDate": "Wed, 21 Oct 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "My obituary for programming",
-      "postUrl": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
-      "publishDate": "2026-10-19T23:58:25+00:00"
+      "postTitle": "eMudhra Intermediate CA Compromise",
+      "postUrl": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
+      "publishDate": "2026-10-20T23:50:25+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Lose, and Lose, and Lose, and Win",
-      "postUrl": "https://letter.palladiummag.com/p/lose-and-lose-and-lose-and-win",
-      "publishDate": "Fri, 16 Oct 2026 20:29:33 GMT"
+      "postTitle": "Measuring the Swarm Economy",
+      "postUrl": "https://letter.palladiummag.com/p/measuring-the-swarm-economy",
+      "publishDate": "Tue, 20 Oct 2026 19:46:44 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -186,9 +186,9 @@
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Why are the Artemis II photos on Flickr?",
-      "postUrl": "https://anildash.com/2026/04/30/artemis-photos-flickr/",
-      "publishDate": "2026-04-30T00:00:00Z"
+      "postTitle": "Maybe it's time for lots of little indie AIs to take over",
+      "postUrl": "https://anildash.com/2026/06/15/indie-AI-takeover/",
+      "publishDate": "2026-06-15T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
