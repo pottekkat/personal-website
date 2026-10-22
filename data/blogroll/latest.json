@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T15:33:00.142882",
+  "lastUpdated": "2026-10-22T15:33:39.456044",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "eMudhra Intermediate CA Compromise",
-      "postUrl": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
-      "publishDate": "2026-10-20T23:50:25+00:00"
+      "postTitle": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+      "postUrl": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+      "publishDate": "2026-10-21T18:41:53+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
