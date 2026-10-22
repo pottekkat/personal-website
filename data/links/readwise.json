@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-10-21T21:02:29.633327+05:30",
+  "last_updated": "2026-10-22T21:03:04.900930+05:30",
   "links": [
+    {
+      "id": "01m5f7tggvpy4tg7s9e4crh6y5",
+      "title": "Vulnerability",
+      "author": "xkcd.com",
+      "source_url": "https://xkcd.com/3314/",
+      "published_date": "2026-10-21",
+      "saved_at": "2026-10-21T18:13:46.660000+05:30",
+      "reading_time": "1 min",
+      "category": "rss",
+      "notes": ""
+    },
     {
       "id": "01m599c6devfb3r4p3sj7swca8",
       "title": "Assorted things I've been mulling over regarding agents in the...",
