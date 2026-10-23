@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T15:33:39.456044",
+  "lastUpdated": "2026-10-23T15:25:24.244641",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Today's PHP Security Release, and How We're Strengthening PHP Security",
-      "postUrl": "https://simonwillison.net/2026/Oct/21/php-security-release/",
-      "publishDate": "2026-10-21T18:41:53+00:00"
+      "postTitle": "DE STAAT - FREEDOM (Official Music Video)",
+      "postUrl": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+      "publishDate": "2026-10-22T19:42:26+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -53,9 +53,8 @@
     {
       "blogTitle": "Kailash Nadh / Personal homepage",
       "blogUrl": "https://nadh.in/",
-      "postTitle": "Code is cheap. Show me the talk.",
-      "postUrl": "https://nadh.in/blog/code-is-cheap/",
-      "publishDate": "Fri, 30 Jan 2026 00:00:00 +0000"
+      "error": true,
+      "errorMessage": "HTTPSConnectionPool(host='nadh.in', port=443): Read timed out. (read timeout=30)"
     },
     {
       "blogTitle": "Stephen Diehl",
@@ -95,9 +94,8 @@
     {
       "blogTitle": "Kaazhchakal",
       "blogUrl": "https://yezhuvath.com/",
-      "postTitle": "Footloose in Europe",
-      "postUrl": "https://yezhuvath.com/2025/09/28/footloose-in-europe/",
-      "publishDate": "Sun, 28 Sep 2025 06:19:53 +0000"
+      "error": true,
+      "errorMessage": "403 Forbidden (feedparser)"
     },
     {
       "blogTitle": "Tangled Bytes",
@@ -179,9 +177,9 @@
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "Most Intelligence Is Search",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/most-intelligence-is-search-6a0",
-      "publishDate": "Tue, 20 Oct 2026 12:40:15 GMT"
+      "postTitle": "Why Is France in Chaos?",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/why-is-france-in-chaos",
+      "publishDate": "Fri, 23 Oct 2026 13:52:23 GMT"
     },
     {
       "blogTitle": "Anil Dash",
