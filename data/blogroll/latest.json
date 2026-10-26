@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T14:33:22.697345",
+  "lastUpdated": "2026-10-26T16:56:16.809256",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "battledrones v14: Compass Rose, a four player map",
-      "postUrl": "https://simonwillison.net/2026/Oct/24/battledrones/",
-      "publishDate": "2026-10-24T03:59:57+00:00"
+      "postTitle": "Seam Cutter",
+      "postUrl": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+      "publishDate": "2026-10-25T15:10:19+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -95,9 +95,8 @@
     {
       "blogTitle": "Kaazhchakal",
       "blogUrl": "https://yezhuvath.com/",
-      "postTitle": "Footloose in Europe",
-      "postUrl": "https://yezhuvath.com/2025/09/28/footloose-in-europe/",
-      "publishDate": "Sun, 28 Sep 2025 06:19:53 +0000"
+      "error": true,
+      "errorMessage": "403 Forbidden (feedparser)"
     },
     {
       "blogTitle": "Tangled Bytes",
