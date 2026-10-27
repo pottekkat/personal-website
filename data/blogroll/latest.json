@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-26T16:56:16.809256",
+  "lastUpdated": "2026-10-27T16:01:13.108730",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Forms of Water",
-      "postUrl": "https://xkcd.com/3315/",
-      "publishDate": "Fri, 23 Oct 2026 04:00:00 -0000"
+      "postTitle": "Siege Engine",
+      "postUrl": "https://xkcd.com/3316/",
+      "publishDate": "Mon, 26 Oct 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Seam Cutter",
-      "postUrl": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
-      "publishDate": "2026-10-25T15:10:19+00:00"
+      "postTitle": "GPT-6.1 Terra",
+      "postUrl": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+      "publishDate": "2026-10-26T23:53:07+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -95,8 +95,9 @@
     {
       "blogTitle": "Kaazhchakal",
       "blogUrl": "https://yezhuvath.com/",
-      "error": true,
-      "errorMessage": "403 Forbidden (feedparser)"
+      "postTitle": "Footloose in Europe",
+      "postUrl": "https://yezhuvath.com/2025/09/28/footloose-in-europe/",
+      "publishDate": "Sun, 28 Sep 2025 06:19:53 +0000"
     },
     {
       "blogTitle": "Tangled Bytes",
@@ -150,9 +151,9 @@
     {
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
-      "postTitle": "Utopian worldbuilding in Chinese fantasy series",
-      "postUrl": "https://www.elysian.press/p/utopian-worldbuilding-in-chinese-fantasy",
-      "publishDate": "Wed, 14 Oct 2026 12:02:54 GMT"
+      "postTitle": "Let's not moralize Botox",
+      "postUrl": "https://www.elysian.press/p/lets-not-moralize-botox",
+      "publishDate": "Tue, 27 Oct 2026 12:01:41 GMT"
     },
     {
       "blogTitle": "The Palladium Letter",
