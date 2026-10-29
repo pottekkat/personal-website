@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-28T17:01:51.109481",
+  "lastUpdated": "2026-10-29T17:06:01.930218",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Siege Engine",
-      "postUrl": "https://xkcd.com/3316/",
-      "publishDate": "Mon, 26 Oct 2026 04:00:00 -0000"
+      "postTitle": "Gravitational Square Wave",
+      "postUrl": "https://xkcd.com/3317/",
+      "publishDate": "Wed, 28 Oct 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "GitHub Octoverse 2026",
-      "postUrl": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
-      "publishDate": "2026-10-28T16:45:23+00:00"
+      "postTitle": "Quoting Ben Hylak",
+      "postUrl": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+      "publishDate": "2026-10-29T14:06:27+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -152,8 +152,8 @@
       "blogTitle": "The Elysian",
       "blogUrl": "https://www.elysian.press/",
       "postTitle": "Let's not moralize Botox",
-      "postUrl": "https://www.elysian.press/p/lets-not-moralize-botox",
-      "publishDate": "Tue, 27 Oct 2026 12:01:41 GMT"
+      "postUrl": "https://elysian.press/essays/lets-not-moralize-botox",
+      "publishDate": "Tue, 27 Oct 2026 12:00:00 +0000"
     },
     {
       "blogTitle": "The Palladium Letter",
