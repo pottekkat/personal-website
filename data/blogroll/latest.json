@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-30T16:48:56.759482",
+  "lastUpdated": "2026-10-31T15:51:27.137803",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Gravitational Square Wave",
-      "postUrl": "https://xkcd.com/3317/",
-      "publishDate": "Wed, 28 Oct 2026 04:00:00 -0000"
+      "postTitle": "Earth Sized Planets",
+      "postUrl": "https://xkcd.com/3318/",
+      "publishDate": "Fri, 30 Oct 2026 04:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "API credits benefit for eligible ChatGPT subscriptions",
-      "postUrl": "https://simonwillison.net/2026/Oct/29/api-credits/",
-      "publishDate": "2026-10-29T22:48:29+00:00"
+      "postTitle": "dbreunig/nesformer",
+      "postUrl": "https://simonwillison.net/2026/Oct/30/nesformer/",
+      "publishDate": "2026-10-30T21:59:22+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Measuring the Swarm Economy",
-      "postUrl": "https://letter.palladiummag.com/p/measuring-the-swarm-economy",
-      "publishDate": "Tue, 20 Oct 2026 19:46:44 GMT"
+      "postTitle": "The Limits of AI as an Economic Weapon",
+      "postUrl": "https://letter.palladiummag.com/p/the-limits-of-ai-as-an-economic-weapon",
+      "publishDate": "Fri, 30 Oct 2026 19:26:34 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -172,9 +172,9 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "Nathan Fielder is Going to Win Best Picture",
-      "postUrl": "https://www.readtrung.com/p/nathan-fielder-and-the-most-meta",
-      "publishDate": "Mon, 19 Oct 2026 01:24:53 GMT"
+      "postTitle": "Anthropic S-1, the Claude Loop and Economics of Frontier AI",
+      "postUrl": "https://www.readtrung.com/p/anthropic-s-1-the-claude-loop-and",
+      "publishDate": "Sat, 31 Oct 2026 04:52:46 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
