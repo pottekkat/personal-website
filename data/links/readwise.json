@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-10-31T21:20:57.922835+05:30",
+  "last_updated": "2026-11-01T22:24:56.960691+05:30",
   "links": [
+    {
+      "id": "01m6bckmq2cmc0bvd2sm7951ds",
+      "title": "Neuralink’s Newest Brain Chip Isn’t What You Think",
+      "author": "Cleo Abram",
+      "source_url": "https://www.youtube.com/watch?v=Vna0hkq7U1g",
+      "published_date": "2026-10-30",
+      "saved_at": "2026-11-01T16:36:11.554000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m6az44kc2fab7mr7dz31tshv",
+      "title": "Can’t Afford a Home. Can’t Afford a Baby. Can’t Afford Life. This Is 30.",
+      "author": "Unknown",
+      "source_url": "https://archive.is/GVwlL",
+      "published_date": "2026-10-29",
+      "saved_at": "2026-11-01T12:40:32.044000+05:30",
+      "reading_time": "7 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m6axx0qpk9yfw62exdr5fmpq",
+      "title": "Agentic AI and Code Reviews",
+      "author": "Zach Davis, Michelle Gill, Elisabeth Hendrickson, Angie Jones, Sha Ma, Randy Shoup, James Wickett",
+      "source_url": "https://readwise-assets.s3.amazonaws.com/media/wisereads/articles/agentic-ai-and-code-reviews/1439.pdf",
+      "published_date": "2026-09-14",
+      "saved_at": "2026-11-01T12:19:10.134000+05:30",
+      "reading_time": "43 mins",
+      "category": "pdf",
+      "notes": ""
+    },
+    {
+      "id": "01m6axk6cyj0ywcwg075y9zf79",
+      "title": "How the Claude Code team does code review",
+      "author": "Addy Osmani",
+      "source_url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "published_date": "2026-10-15",
+      "saved_at": "2026-11-01T12:13:48.253000+05:30",
+      "reading_time": "12 mins",
+      "category": "article",
+      "notes": "Long before reading this, we came to a similar workflow. I think this is the default workflow for sufficiently competent teams. This is a natural evolution of the workflows that most early-stage startups adopt. I was hoping for some novel ideas, but we are already ahead of most teams I guess."
+    },
+    {
+      "id": "01m6avwtsx10j7e4b27d49pnyv",
+      "title": "1/ Today we’re unveiling Bombadil, @electricplantco's  foundation model that...",
+      "author": "Justin Mast",
+      "source_url": "https://x.com/justinmast/status/2112583500008403437/?s=20&rw_tt_thread=True",
+      "published_date": "2026-10-20",
+      "saved_at": "2026-11-01T11:44:06.909000+05:30",
+      "reading_time": "3 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m6avrpzpgfq4scn2jsmxpp70",
+      "title": "🚨New paper (possibly the most important one I have written...",
+      "author": "Cas (Stephen Casper)",
+      "source_url": "https://x.com/stephenlcasper/status/2112555723813003647/?s=46&t=AF9-om6Pp6KlsdZxPaX82g&rw_tt_thread=True",
+      "published_date": "2026-10-20",
+      "saved_at": "2026-11-01T11:41:51.925000+05:30",
+      "reading_time": "2 mins",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m6av3gw91pxctr6rj1fgxz8n",
+      "title": "Better procrastination through planning",
+      "author": "Me",
+      "source_url": "https://joodaloop.com/riffs/better-procrastination/",
+      "published_date": "2026-10-19",
+      "saved_at": "2026-11-01T11:30:17.545000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m6at6dy9gnjrp40g1s7jce1d",
+      "title": "What Robert Caro’s books taught me about power",
+      "author": "Dwarkesh Patel",
+      "source_url": "https://www.youtube.com/watch?v=kX_WmQK_tt0",
+      "published_date": "2026-10-29",
+      "saved_at": "2026-11-01T11:14:24.264000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m6apmdk81k9d5e8nq9wjj467",
+      "title": "Jack of All Trades, Master of None",
+      "author": "Swetha Sreevalsan, Visit profile",
+      "source_url": "https://swethasreevalsan.blogspot.com/2026/08/jack-of-all-trades-master-of-none.html#more",
+      "published_date": "2026-08-08",
+      "saved_at": "2026-11-01T10:12:08.359000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01m60dgbyb2krnxn3qxr7953bd",
       "title": "When I watched Her, it really bothered me that they...",
