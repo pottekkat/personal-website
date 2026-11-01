@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T15:51:27.137803",
+  "lastUpdated": "2026-11-01T16:55:29.106668",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "dbreunig/nesformer",
-      "postUrl": "https://simonwillison.net/2026/Oct/30/nesformer/",
-      "publishDate": "2026-10-30T21:59:22+00:00"
+      "postTitle": "How We Took Over ChatGPT Accounts",
+      "postUrl": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "publishDate": "2026-10-31T23:15:22+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "Who Is That Knocking At My (SSH) Door?",
-      "postUrl": "https://sheep.horse/2026/4/who_is_that_knocking_at_my_%28ssh%29_door.html",
-      "publishDate": "Mon, 27 Apr 2026 23:15:56 +0000"
+      "postTitle": "Hoba Meteorite, Namibia",
+      "postUrl": "https://sheep.horse/2026/5/hoba_meteorite%2C_namibia.html",
+      "publishDate": "Tue, 26 May 2026 03:53:28 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
