@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-11-02T20:30:49.147375",
+  "lastUpdated": "2026-11-03T19:02:16.995138",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Earth Sized Planets",
-      "postUrl": "https://xkcd.com/3318/",
-      "publishDate": "Fri, 30 Oct 2026 04:00:00 -0000"
+      "postTitle": "Elevators",
+      "postUrl": "https://xkcd.com/3319/",
+      "publishDate": "Mon, 02 Nov 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "The U.S. Census Bureau and \u201cSuper Intelligence\u201d",
-      "postUrl": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
-      "publishDate": "2026-11-02T13:31:26+00:00"
+      "postTitle": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "postUrl": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "publishDate": "2026-11-03T16:29:48+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "The Limits of AI as an Economic Weapon",
-      "postUrl": "https://letter.palladiummag.com/p/the-limits-of-ai-as-an-economic-weapon",
-      "publishDate": "Fri, 30 Oct 2026 19:26:34 GMT"
+      "postTitle": "Do Not Tread Lightly",
+      "postUrl": "https://letter.palladiummag.com/p/do-not-tread-lightly",
+      "publishDate": "Mon, 02 Nov 2026 21:57:07 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
