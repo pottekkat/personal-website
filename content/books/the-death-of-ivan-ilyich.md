@@ -17,7 +17,7 @@ bookMeta:
     - Philosophy
   rating: 5
   coverImage: /images/books/covers/the-death-of-ivan-ilyich.jpg
-  goodreadsUrl: https://www.goodreads.com/book/show/29410489-the-death-of-ivan-ilyich
+  goodreadsUrl: https://www.goodreads.com/book/show/18386.The_Death_of_Ivan_Ilych
 fmContentType: Book Review
 ---
 

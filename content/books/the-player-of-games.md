@@ -17,7 +17,7 @@ bookMeta:
     - Fiction
   rating: 4
   coverImage: /images/books/covers/the-player-of-games.jpg
-  goodreadsUrl: https://www.goodreads.com/book/show/200779195-the-player-of-games
+  goodreadsUrl: https://www.goodreads.com/book/show/18630.The_Player_of_Games
 fmContentType: Book Review
 ---
 

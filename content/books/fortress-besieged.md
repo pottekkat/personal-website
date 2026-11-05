@@ -16,7 +16,7 @@ bookMeta:
     - Classics
   rating: 0
   coverImage: /images/books/covers/fortress-besieged.jpg
-  goodreadsUrl: https://www.goodreads.com/book/show/43569610-fortress-besieged
+  goodreadsUrl: https://www.goodreads.com/book/show/595108.Fortress_Besieged
 fmContentType: Book Review
 ---
 

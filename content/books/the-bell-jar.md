@@ -13,10 +13,9 @@ bookMeta:
   genre:
     - Classics
     - Fiction
-    - American
   rating: 4
   coverImage: /images/books/covers/the-bell-jar.jpg
-  goodreadsUrl: https://www.goodreads.com/book/show/6514.The_Bell_Jar
+  goodreadsUrl: https://www.goodreads.com/book/show/56616095-the-bell-jar
 fmContentType: Book Review
 ---
 

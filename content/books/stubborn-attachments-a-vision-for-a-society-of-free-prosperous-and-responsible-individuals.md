@@ -17,7 +17,7 @@ bookMeta:
     - Politics
   rating: 5
   coverImage: /images/books/covers/stubborn-attachments.jpg
-  goodreadsUrl: https://www.goodreads.com/book/show/41076657-stubborn-attachments
+  goodreadsUrl: https://www.goodreads.com/book/show/31283667-stubborn-attachments
 fmContentType: Book Review
 ---
 

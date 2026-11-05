@@ -14,7 +14,7 @@ bookMeta:
     - Philosophy
     - Non-Fiction
   coverImage: /images/books/covers/how-to-live.jpg
-  goodreadsUrl: https://www.goodreads.com/book/show/61351606-how-to-live
+  goodreadsUrl: https://www.goodreads.com/book/show/58188742-how-to-live
   rating: 0
 fmContentType: Book Review
 ---

@@ -17,7 +17,7 @@ bookMeta:
     - Sociology
   rating: 0
   coverImage: /images/books/covers/why-men-rebel.jpg
-  goodreadsUrl: https://www.goodreads.com/book/show/12745270-why-men-rebel
+  goodreadsUrl: https://www.goodreads.com/book/show/985701.Why_Men_Rebel
 fmContentType: Book Review
 ---
 

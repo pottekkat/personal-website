@@ -18,7 +18,7 @@ bookMeta:
     - American
   rating: 0
   coverImage: /images/books/covers/the-lost-continent.jpg
-  goodreadsUrl: https://www.goodreads.com/book/show/10539.The_Lost_Continent
+  goodreadsUrl: https://www.goodreads.com/book/show/26.The_Lost_Continent
 fmContentType: Book Review
 ---
 

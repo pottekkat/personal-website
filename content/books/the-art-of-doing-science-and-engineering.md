@@ -17,7 +17,7 @@ bookMeta:
         - Philosophy
     rating: 4
     coverImage: /images/books/covers/the-art-of-doing-science-and-engineering.jpg
-    goodreadsUrl: https://www.goodreads.com/book/show/53349431-the-art-of-doing-science-and-engineering
+    goodreadsUrl: https://www.goodreads.com/book/show/530415.The_Art_of_Doing_Science_and_Engineering
 ---
 
 _**The Art of Doing Science and Engineering**_ is a textbook on thinking like an engineer from one of the greats. While this was taught initially 30-40 years ago, the lessons still resonate in a timeless/evergreen way.

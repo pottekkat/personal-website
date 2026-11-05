@@ -14,9 +14,10 @@ bookMeta:
     - Fiction
     - Mystery
     - Thriller
+    - Polish
   rating: 4
   coverImage: /images/books/covers/drive-your-plow-over-the-bones-of-the-dead.jpg
-  goodreadsUrl: https://www.goodreads.com/book/show/36609308-drive-your-plow-over-the-bones-of-the-dead
+  goodreadsUrl: https://www.goodreads.com/book/show/54614429-drive-your-plow-over-the-bones-of-the-dead
 fmContentType: Book Review
 ---
 

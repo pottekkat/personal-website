@@ -15,6 +15,7 @@ bookMeta:
     - Fable
     - Fiction
     - Philosophy
+    - Italian
   rating: 4.5
   coverImage: /images/books/covers/invisible-cities.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/9809.Invisible_Cities

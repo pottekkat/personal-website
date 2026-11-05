@@ -17,7 +17,7 @@ bookMeta:
     - Czech
   rating: 4.5
   coverImage: /images/books/covers/the-unbearable-lightness-of-being.jpg
-  goodreadsUrl: https://www.goodreads.com/book/show/395003.The_Unbearable_Lightness_of_Being
+  goodreadsUrl: https://www.goodreads.com/book/show/9717.The_Unbearable_Lightness_of_Being
 fmContentType: Book Review
 ---
 
