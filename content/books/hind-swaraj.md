@@ -1,6 +1,6 @@
 ---
 title: Hind Swaraj
-date: 2026-09-25T06:08:32Z
+date: 2026-10-03T12:27:57Z
 draft: false
 summary: Review of "Hind Swaraj" by M. K. Gandhi.
 status: Want to Read
