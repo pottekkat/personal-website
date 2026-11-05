@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-11-04T18:14:53.647847",
+  "lastUpdated": "2026-11-05T18:13:52.894031",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Elevators",
-      "postUrl": "https://xkcd.com/3319/",
-      "publishDate": "Mon, 02 Nov 2026 05:00:00 -0000"
+      "postTitle": "House Majority",
+      "postUrl": "https://xkcd.com/3320/",
+      "publishDate": "Wed, 04 Nov 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Qwen 3.8 27B on my laptop can interpret model weights, too",
-      "postUrl": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-      "publishDate": "2026-11-03T16:29:48+00:00"
+      "postTitle": "Quoting Paul Ford",
+      "postUrl": "https://simonwillison.net/2026/Nov/5/paul-ford/",
+      "publishDate": "2026-11-05T17:34:03+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
