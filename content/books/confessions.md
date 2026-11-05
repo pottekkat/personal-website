@@ -25,5 +25,5 @@ fmContentType: Book Review
 _**Confessions**_ was mentioned in two videos by Catherine K., [this one](https://www.youtube.com/watch?v=N4eTH435w28) and ["life is for reading."](https://www.youtube.com/watch?v=1SS7xrLDV-o), where she says Augustine changed her life. What she takes from it is the hope that people can really change.
 
 {{< blockquote author="Catherine K." link="https://www.youtube.com/watch?v=N4eTH435w28" title="This book came to me in a dream" >}}
-Even if you don't believe in any religion or a god, confessions teaches us a lot about the whole idea of being human.
+Even if you don't believe in any religion or a god, Confessions teaches us a lot about the whole idea of being human.
 {{< /blockquote >}}
