@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T16:37:01.036805",
+  "lastUpdated": "2026-11-08T16:47:05.354925",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Nilay Patel",
-      "postUrl": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
-      "publishDate": "2026-11-06T17:13:12+00:00"
+      "postTitle": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+      "postUrl": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+      "publishDate": "2026-11-07T23:57:46+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -95,9 +95,9 @@
     {
       "blogTitle": "Kaazhchakal",
       "blogUrl": "https://yezhuvath.com/",
-      "postTitle": "A surprise in Fes",
-      "postUrl": "https://yezhuvath.com/2026/11/07/a-surprise-in-fes/",
-      "publishDate": "Fri, 06 Nov 2026 21:14:28 +0000"
+      "postTitle": "Rossio, Occupied",
+      "postUrl": "https://yezhuvath.com/2026/11/08/rossio-occupied/",
+      "publishDate": "Sun, 08 Nov 2026 09:18:33 +0000"
     },
     {
       "blogTitle": "Tangled Bytes",
@@ -137,9 +137,9 @@
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "Hoba Meteorite, Namibia",
-      "postUrl": "https://sheep.horse/2026/5/hoba_meteorite%2C_namibia.html",
-      "publishDate": "Tue, 26 May 2026 03:53:28 +0000"
+      "postTitle": "Parsing XML EXIF from .avif files (plus a rant)",
+      "postUrl": "https://sheep.horse/2026/6/parsing_xml_exif_from_.avif_files_%28plus_a_rant%29.html",
+      "publishDate": "Wed, 03 Jun 2026 16:11:37 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "Join us in NYC and DC",
-      "postUrl": "https://letter.palladiummag.com/p/join-us-in-nyc-and-dc",
-      "publishDate": "Tue, 03 Nov 2026 19:28:28 GMT"
+      "postTitle": "\"The Rationality of Economic Nationalism\" With Ian Fletcher",
+      "postUrl": "https://letter.palladiummag.com/p/the-rationality-of-economic-nationalism",
+      "publishDate": "Sat, 07 Nov 2026 18:27:07 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
