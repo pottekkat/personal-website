@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-11-08T22:16:37.243620+05:30",
+  "last_updated": "2026-11-10T02:30:57.479858+05:30",
   "links": [
+    {
+      "id": "01m6zbsc17rchsj8a138pjwj2f",
+      "title": "I'm Not Convinced The AI Bubble Exists",
+      "author": "Matteo Raso",
+      "source_url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+      "published_date": "2026-11-08",
+      "saved_at": "2026-11-09T10:46:39.334000+05:30",
+      "reading_time": "11 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m6z837tpb2j32bh656ms1b5m",
+      "title": "does money buy happiness?",
+      "author": "tuesday's child",
+      "source_url": "https://tuesdaynight.blog/does-money-buy-happiness/",
+      "published_date": "2026-11-07",
+      "saved_at": "2026-11-09T09:42:08.406000+05:30",
+      "reading_time": "2 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m6y96yfkxcvr5xa24sjdm7hz",
+      "title": "Digital minimalism",
+      "author": "eth.limo",
+      "source_url": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html/",
+      "published_date": "2026-10-31",
+      "saved_at": "2026-11-09T00:42:24.049000+05:30",
+      "reading_time": "12 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m6y6h2dr2maggpd9pjdsnjcc",
+      "title": "Ilya Sutskever texts Greg Brockman",
+      "author": "Internal Tech Emails",
+      "source_url": "https://x.com/TechEmails/status/2119470631913976236/?rw_tt_thread=True",
+      "published_date": "2026-11-08",
+      "saved_at": "2026-11-08T23:55:30.040000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m6y6bamq7qnt1dfat2k0388e",
+      "title": "What Men Live By by Tolstoy | Full Text & Analysis",
+      "author": "americanliterature.com",
+      "source_url": "https://americanliterature.com/author/leo-tolstoy/short-story/what-men-live-by",
+      "published_date": null,
+      "saved_at": "2026-11-08T23:52:21.846000+05:30",
+      "reading_time": "37 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m6rpat8er79e08rs22e9qwng",
+      "title": "The Lessons of History | Episode 15 | Watching the Wheels",
+      "author": "Watching the Wheels",
+      "source_url": "https://www.youtube.com/watch?v=7e43qu1vMTs",
+      "published_date": "2026-11-05",
+      "saved_at": "2026-11-06T20:36:15.693000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01m6xy5788ah6wm5kwqqq8hgk3",
       "title": "Models have become so good at one-shotting side project level...",
