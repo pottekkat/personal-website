@@ -2,9 +2,9 @@
   {{- $rating := .rating }}
   {{- range seq 5 }}
   {{- $currentStar := . }}
-  {{- if ge $rating $currentStar }}<span class="star"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0.57 0 12.37 12" width="14" height="14"><path d="M7.427.422a.752.752 0 0 0-1.35 0L4.57 3.523l-3.365.497c-.281.042-.516.239-.602.509s-.016.567.185.766L3.23 7.711l-.577 3.415a.753.753 0 0 0 1.094.788l3.007-1.605 3.007 1.605c.253.134.56.115.792-.054s.349-.452.302-.734l-.578-3.415 2.442-2.416c.202-.199.274-.497.185-.766s-.321-.466-.602-.509l-3.368-.497z"></path></svg></span>
-  {{- else if and (gt $rating (sub $currentStar 1)) (lt $rating $currentStar) }}<span class="star"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0.57 0 12.38 12" width="14" height="14"><path d="m6.75 8.822.002-.002.619.33 1.997 1.066-.387-2.287-.112-.673.485-.48 1.643-1.624-2.252-.333-.687-.101-.302-.623-1.003-2.058-.002.007zm4.104 2.304a.753.753 0 0 1-1.094.788l-3.007-1.605-3.007 1.605a.752.752 0 0 1-1.094-.788l.578-3.415L.788 5.295c-.202-.199-.274-.497-.185-.766s.321-.466.602-.509l3.365-.497L6.08.422a.752.752 0 0 1 1.35 0l1.507 3.101 3.366.497c.281.042.516.239.602.509s.016.567-.185.766l-2.443 2.416z"></path></svg></span>
-  {{- else }}<span class="star"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0.56 0 12.37 12" width="14" height="14"><path d="M6.748 0a.56.56 0 0 1 .506.316l1.608 3.312 3.591.53c.211.03.387.178.452.382s.012.424-.138.574l-2.604 2.583.614 3.647c.035.211-.052.424-.227.551s-.405.141-.593.04l-3.211-1.716-3.207 1.713c-.19.101-.42.087-.593-.04s-.262-.34-.227-.551l.614-3.647-2.604-2.58a.56.56 0 0 1 .314-.956l3.591-.53L6.242.316A.56.56 0 0 1 6.748 0m0 1.852-1.23 2.536a.57.57 0 0 1-.424.312l-2.774.407 2.013 1.995c.129.129.19.312.159.492l-.476 2.805 2.466-1.317a.56.56 0 0 1 .53 0l2.466 1.317-.473-2.803a.56.56 0 0 1 .159-.492l2.013-1.995-2.773-.41a.56.56 0 0 1-.424-.312z"></path></svg></span>
+  {{- if ge $rating $currentStar }}<span class="star"><svg width="14" height="14" aria-hidden="true"><use href="#star-full"></use></svg></span>
+  {{- else if and (gt $rating (sub $currentStar 1)) (lt $rating $currentStar) }}<span class="star"><svg width="14" height="14" aria-hidden="true"><use href="#star-half"></use></svg></span>
+  {{- else }}<span class="star"><svg width="14" height="14" aria-hidden="true"><use href="#star-empty"></use></svg></span>
   {{- end }}
   {{- end }}
 {{- end }}
@@ -20,7 +20,14 @@
 {{- $reading := where $pages "Params.status" "Reading" }}
 {{- $others := where $pages "Params.status" "!=" "Reading" }}
 {{- $sorted := $reading.ByDate.Reverse | append $others.ByDate.Reverse }}
-{{- $paginator := .Paginate $sorted (site.Params.booksPagerSize | default 8) }}
+
+{{- /* Star shapes are defined once and referenced by every rating, which keeps
+   the page small now that all books render on one page. */}}
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+  <symbol id="star-full" viewBox="0.57 0 12.37 12"><path d="M7.427.422a.752.752 0 0 0-1.35 0L4.57 3.523l-3.365.497c-.281.042-.516.239-.602.509s-.016.567.185.766L3.23 7.711l-.577 3.415a.753.753 0 0 0 1.094.788l3.007-1.605 3.007 1.605c.253.134.56.115.792-.054s.349-.452.302-.734l-.578-3.415 2.442-2.416c.202-.199.274-.497.185-.766s-.321-.466-.602-.509l-3.368-.497z"></path></symbol>
+  <symbol id="star-half" viewBox="0.57 0 12.38 12"><path d="m6.75 8.822.002-.002.619.33 1.997 1.066-.387-2.287-.112-.673.485-.48 1.643-1.624-2.252-.333-.687-.101-.302-.623-1.003-2.058-.002.007zm4.104 2.304a.753.753 0 0 1-1.094.788l-3.007-1.605-3.007 1.605a.752.752 0 0 1-1.094-.788l.578-3.415L.788 5.295c-.202-.199-.274-.497-.185-.766s.321-.466.602-.509l3.365-.497L6.08.422a.752.752 0 0 1 1.35 0l1.507 3.101 3.366.497c.281.042.516.239.602.509s.016.567-.185.766l-2.443 2.416z"></path></symbol>
+  <symbol id="star-empty" viewBox="0.56 0 12.37 12"><path d="M6.748 0a.56.56 0 0 1 .506.316l1.608 3.312 3.591.53c.211.03.387.178.452.382s.012.424-.138.574l-2.604 2.583.614 3.647c.035.211-.052.424-.227.551s-.405.141-.593.04l-3.211-1.716-3.207 1.713c-.19.101-.42.087-.593-.04s-.262-.34-.227-.551l.614-3.647-2.604-2.58a.56.56 0 0 1 .314-.956l3.591-.53L6.242.316A.56.56 0 0 1 6.748 0m0 1.852-1.23 2.536a.57.57 0 0 1-.424.312l-2.774.407 2.013 1.995c.129.129.19.312.159.492l-.476 2.805 2.466-1.317a.56.56 0 0 1 .53 0l2.466 1.317-.473-2.803a.56.56 0 0 1 .159-.492l2.013-1.995-2.773-.41a.56.56 0 0 1-.424-.312z"></path></symbol>
+</svg>
 
 <header class="page-header">
   {{- if (.Param "ShowBreadCrumbsInList") -}}
@@ -52,29 +59,38 @@
       Last updated {{ $lastMod.Format "at 3:04 PM, January 2, 2006" }}
     {{- end }}
   </span>
-  <button id="view-toggle" accesskey="v" class="toggle-button">
-    <svg id="grid" xmlns="http://www.w3.org/2000/svg" viewBox="0 1.5 15 21" height="14"
-      fill="currentColor">
-      <path d="M1.875 16.5h2.25C5.161 16.5 6 17.339 6 18.375v2.25A1.874 1.874 0 0 1 4.125 22.5h-2.25A1.874 1.874 0 0 1 0 20.625v-2.25C0 17.339.839 16.5 1.875 16.5m9 0h2.25c1.036 0 1.875.839 1.875 1.875v2.25a1.874 1.874 0 0 1-1.875 1.875h-2.25A1.874 1.874 0 0 1 9 20.625v-2.25c0-1.036.839-1.875 1.875-1.875m-9-1.5A1.874 1.874 0 0 1 0 13.125v-2.25C0 9.839.839 9 1.875 9h2.25C5.161 9 6 9.839 6 10.875v2.25A1.874 1.874 0 0 1 4.125 15zm9-6h2.25C14.161 9 15 9.839 15 10.875v2.25A1.874 1.874 0 0 1 13.125 15h-2.25A1.874 1.874 0 0 1 9 13.125v-2.25C9 9.839 9.839 9 10.875 9m-9-1.5A1.874 1.874 0 0 1 0 5.625v-2.25C0 2.339.839 1.5 1.875 1.5h2.25C5.161 1.5 6 2.339 6 3.375v2.25A1.874 1.874 0 0 1 4.125 7.5zm9-6h2.25C14.161 1.5 15 2.339 15 3.375v2.25A1.874 1.874 0 0 1 13.125 7.5h-2.25A1.874 1.874 0 0 1 9 5.625v-2.25C9 2.339 9.839 1.5 10.875 1.5"></path>
-    </svg>
-    <svg id="list" xmlns="http://www.w3.org/2000/svg" viewBox="0.75 2.25 23.25 19.5" height="14"
-      fill="currentColor">
-      <path d="M1.875 2.25C1.252 2.25.75 2.752.75 3.375v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125zM9 3c-.83 0-1.5.67-1.5 1.5S8.17 6 9 6h13.5c.83 0 1.5-.67 1.5-1.5S23.33 3 22.5 3zm0 7.5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5h13.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5zM9 18c-.83 0-1.5.67-1.5 1.5S8.17 21 9 21h13.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5zM.75 10.875v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125h-2.25c-.623 0-1.125.502-1.125 1.125m1.125 6.375c-.623 0-1.125.502-1.125 1.125v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125z"></path>
-    </svg>
-    <span class="toggle-text">list view</span>
-  </button>
+  <div class="view-controls">
+    <button id="read-filter" class="toggle-button" aria-pressed="false" aria-label="Show only books I'm reading or have read" title="Show only books I'm reading or have read">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 24" height="14" fill="currentColor" aria-hidden="true"><path d="M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9"></path></svg>
+      <span class="filter-text">read</span>
+    </button>
+    <button id="view-toggle" accesskey="v" class="toggle-button" aria-label="Switch to list view" title="Switch to list view">
+      <svg id="grid" xmlns="http://www.w3.org/2000/svg" viewBox="0 1.5 15 21" height="14" aria-hidden="true"
+        fill="currentColor">
+        <path d="M1.875 16.5h2.25C5.161 16.5 6 17.339 6 18.375v2.25A1.874 1.874 0 0 1 4.125 22.5h-2.25A1.874 1.874 0 0 1 0 20.625v-2.25C0 17.339.839 16.5 1.875 16.5m9 0h2.25c1.036 0 1.875.839 1.875 1.875v2.25a1.874 1.874 0 0 1-1.875 1.875h-2.25A1.874 1.874 0 0 1 9 20.625v-2.25c0-1.036.839-1.875 1.875-1.875m-9-1.5A1.874 1.874 0 0 1 0 13.125v-2.25C0 9.839.839 9 1.875 9h2.25C5.161 9 6 9.839 6 10.875v2.25A1.874 1.874 0 0 1 4.125 15zm9-6h2.25C14.161 9 15 9.839 15 10.875v2.25A1.874 1.874 0 0 1 13.125 15h-2.25A1.874 1.874 0 0 1 9 13.125v-2.25C9 9.839 9.839 9 10.875 9m-9-1.5A1.874 1.874 0 0 1 0 5.625v-2.25C0 2.339.839 1.5 1.875 1.5h2.25C5.161 1.5 6 2.339 6 3.375v2.25A1.874 1.874 0 0 1 4.125 7.5zm9-6h2.25C14.161 1.5 15 2.339 15 3.375v2.25A1.874 1.874 0 0 1 13.125 7.5h-2.25A1.874 1.874 0 0 1 9 5.625v-2.25C9 2.339 9.839 1.5 10.875 1.5"></path>
+      </svg>
+      <svg id="list" xmlns="http://www.w3.org/2000/svg" viewBox="0.75 2.25 23.25 19.5" height="14" aria-hidden="true"
+        fill="currentColor">
+        <path d="M1.875 2.25C1.252 2.25.75 2.752.75 3.375v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125zM9 3c-.83 0-1.5.67-1.5 1.5S8.17 6 9 6h13.5c.83 0 1.5-.67 1.5-1.5S23.33 3 22.5 3zm0 7.5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5h13.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5zM9 18c-.83 0-1.5.67-1.5 1.5S8.17 21 9 21h13.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5zM.75 10.875v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125h-2.25c-.623 0-1.125.502-1.125 1.125m1.125 6.375c-.623 0-1.125.502-1.125 1.125v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125z"></path>
+      </svg>
+      <span class="toggle-text">list view</span>
+    </button>
+  </div>
 </div>
 
 <div id="books-container" class="books-container grid-view">
-  {{- range $paginator.Pages }}
-  <a href="{{ .Permalink }}" class="book-card">
+  {{- range $i, $_ := $sorted }}
+  {{- $unread := not (in (slice "Read" "Reading") .Params.status) }}
+  <a href="{{ .Permalink }}" class="book-card{{ if $unread }} book-unread{{ end }}">
     <div class="book-cover">
       {{- if .Params.bookMeta.coverImage }}
       {{- partial "book_cover.html" (dict
         "image" .Params.bookMeta.coverImage
         "title" .Title
         "class" "book-cover-img"
-        "sizes" "(min-width: 768px) 250px, 50vw") }}
+        "sizes" "(min-width: 768px) 310px, (min-width: 590px) calc(50vw - 45px), calc(100vw - 60px)"
+        "loading" (cond (eq $i 0) "eager" "lazy")
+        "fetchpriority" (cond (eq $i 0) "high" "")) }}
       {{- else }}
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 24" fill="currentColor"><path d="M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9"></path></svg>
       {{- end }}
@@ -105,8 +121,9 @@
       </tr>
     </thead>
     <tbody>
-      {{- range $paginator.Pages }}
-      <tr class="book-row" data-href="{{ .Permalink }}">
+      {{- range $sorted }}
+      {{- $unread := not (in (slice "Read" "Reading") .Params.status) }}
+      <tr class="book-row{{ if $unread }} book-unread{{ end }}" data-href="{{ .Permalink }}">
         <td>
           <div class="td-icon">
             {{- if .Params.bookMeta.coverImage }}
@@ -114,7 +131,8 @@
               "image" .Params.bookMeta.coverImage
               "title" .Title
               "class" "book-cover-img-small"
-              "sizes" "32px") }}
+              "sizes" "32px"
+              "widths" (slice 160)) }}
             {{- else }}
             <svg class="book-placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 24" fill="currentColor"><path d="M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9"></path></svg>
             {{- end }}
@@ -149,11 +167,15 @@
 
   const setView = (view) => {
     const body = document.body;
-    const toggleText = document.querySelector('.toggle-text');
+    const viewToggle = document.getElementById('view-toggle');
+    const toggleText = viewToggle.querySelector('.toggle-text');
 
     body.classList.remove(`${VIEWS.GRID}-active`, `${VIEWS.LIST}-active`);
     body.classList.add(`${view}-active`);
-    toggleText.textContent = `${view === VIEWS.GRID ? VIEWS.LIST : VIEWS.GRID} view`;
+    const label = `${view === VIEWS.GRID ? VIEWS.LIST : VIEWS.GRID} view`;
+    toggleText.textContent = label;
+    viewToggle.setAttribute('aria-label', `Switch to ${label}`);
+    viewToggle.setAttribute('title', `Switch to ${label}`);
     localStorage.setItem(STORAGE_KEY, view);
   };
 
@@ -169,6 +191,13 @@
       setView(newView);
     });
 
+    // Read-only filter: off on every load, not persisted.
+    const readFilter = document.getElementById('read-filter');
+    readFilter.addEventListener('click', () => {
+      const on = document.body.classList.toggle('read-only-active');
+      readFilter.setAttribute('aria-pressed', on);
+    });
+
     // Make table rows clickable
     const bookRows = document.querySelectorAll('.book-row');
     bookRows.forEach(row => {
@@ -179,29 +208,6 @@
   });
 })();
 </script>
-
-{{- if gt $paginator.TotalPages 1 }}
-<footer class="page-footer">
-  <nav class="pagination">
-    {{- if $paginator.HasPrev }}
-    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
-      <span class="pagination-title">« {{ i18n "prev_page" }}</span>
-      {{- if (.Param "ShowPageNums") }}
-      &nbsp;<span class="pagination-nums">{{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}</span>
-      {{- end }}
-    </a>
-    {{- end }}
-    {{- if $paginator.HasNext }}
-    <a class="next" href="{{ $paginator.Next.URL | absURL }}">
-      {{- if (.Param "ShowPageNums") }}
-      <span class="pagination-nums">{{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}</span>&nbsp;
-      {{- end }}
-      <span class="pagination-title">{{ i18n "next_page" }} »</span>
-    </a>
-    {{- end }}
-  </nav>
-</footer>
-{{- end }}
 
 {{- end }}{{/* end main */}}
 

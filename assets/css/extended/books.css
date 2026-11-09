@@ -22,12 +22,18 @@
   color: var(--secondary);
 }
 
+.view-controls {
+  display: flex;
+  gap: 8px;
+  margin-left: 20px;
+}
+
 .toggle-button {
   background: var(--code-bg);
   border: 1px solid var(--border);
   cursor: pointer;
   padding: 6px 12px;
-  margin-left: 20px;
+  white-space: nowrap;
   color: var(--secondary);
   font-size: var(--book-font-size);
   display: flex;
@@ -38,6 +44,25 @@
 .toggle-button:hover {
   color: var(--primary);
 }
+
+/* Read-only filter: the pressed state follows the site's active-item
+   convention (header.css #menu .active, post-single.css .tabs__tab.is-active):
+   --primary text with a label-width 2px currentColor underline. The underline
+   is reserved as transparent so toggling never shifts the layout. */
+.filter-text {
+  padding-top: 2px; /* balances the underline so the label stays centred on the icon */
+  border-bottom: 2px solid transparent;
+}
+
+.toggle-button[aria-pressed="true"] {
+  color: var(--primary);
+}
+
+.toggle-button[aria-pressed="true"] .filter-text {
+  border-bottom-color: currentColor;
+}
+
+.read-only-active .book-unread { display: none; }
 
 .toggle-button svg {
   width: 16px;
@@ -215,6 +240,8 @@ body:not(.grid-active):not(.list-active) #list { display: inline-block; }
 }
 
 @media screen and (max-width: 500px) {
-  .toggle-button .toggle-text { display: none; }
+  /* Icon-only buttons on phones; aria-label keeps the accessible name. */
+  .toggle-button .toggle-text,
+  .toggle-button .filter-text { display: none; }
   .toggle-button { padding: 6px; }
 }

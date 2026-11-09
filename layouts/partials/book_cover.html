@@ -13,11 +13,18 @@
     title  - book title (used for alt text)
     class  - class applied to the rendered <img>
     sizes  - sizes attribute for srcset
+    loading       default "lazy"; pass "eager" for the likely LCP cover
+    fetchpriority optional, e.g. "high" alongside loading "eager"
+    widths        srcset widths, default 160–720; small thumbnails pass a
+                  shorter list so the page does not carry unused URLs
 */ -}}
 {{- $image := .image -}}
 {{- $title := .title -}}
 {{- $class := .class -}}
 {{- $sizes := .sizes | default "(min-width: 768px) 250px, 50vw" -}}
+{{- $loading := .loading | default "lazy" -}}
+{{- $fetchpriority := .fetchpriority -}}
+{{- $widths := .widths | default (slice 160 240 360 480 720) -}}
 
 {{- $cover := "" -}}
 {{- with $image -}}
@@ -28,10 +35,10 @@
   {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) -}}
   {{- $processable := in (slice "jpeg" "jpg" "png" "tif" "bmp" "gif" "webp") $cover.MediaType.SubType -}}
   {{- if and $prod $processable -}}
-    {{- $widths := slice 160 240 360 480 720 -}}
     {{- $dominant := "" -}}
     {{- with ($cover.Resize "60x").Colors -}}{{- $dominant = index . 0 -}}{{- end -}}
-    {{- $fallback := $cover.Resize "360x q85" -}}
+    {{- $fallbackW := math.Min 360 (index $widths (sub (len $widths) 1)) -}}
+    {{- $fallback := $cover.Resize (printf "%dx q85" (int $fallbackW)) -}}
     <picture style="display:contents">
       <source type="image/webp" srcset="
         {{- $first := true -}}
@@ -58,7 +65,7 @@
            class="{{ $class }}"
            width="{{ $cover.Width }}"
            height="{{ $cover.Height }}"
-           loading="lazy" decoding="async"
+           loading="{{ $loading }}" decoding="async"{{ with $fetchpriority }} fetchpriority="{{ . }}"{{ end }}
            {{- with $dominant }} style="background-color: {{ . }};"{{ end }}>
     </picture>
   {{- else -}}
@@ -67,11 +74,11 @@
          class="{{ $class }}"
          width="{{ $cover.Width }}"
          height="{{ $cover.Height }}"
-         loading="lazy" decoding="async">
+         loading="{{ $loading }}" decoding="async"{{ with $fetchpriority }} fetchpriority="{{ . }}"{{ end }}>
   {{- end -}}
 {{- else -}}
   <img src="{{ $image | absURL }}"
        alt="Cover of {{ $title }}"
        class="{{ $class }}"
-       loading="lazy" decoding="async">
+       loading="{{ $loading }}" decoding="async"{{ with $fetchpriority }} fetchpriority="{{ . }}"{{ end }}>
 {{- end -}}

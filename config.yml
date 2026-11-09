@@ -65,7 +65,6 @@ params:
 
     showStupid: true
     showPageNums: true
-    booksPagerSize: 8
 
     # Webmentions
     ShowWebmentions: true

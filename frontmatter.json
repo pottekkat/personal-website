@@ -2,7 +2,7 @@
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
-  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.preview.host": "http://localhost:1314",
   "frontMatter.preview.trailingSlash": true,
   "frontMatter.website.host": "https://navendu.me",
   "frontMatter.taxonomy.alignFilename": true,
@@ -692,5 +692,5 @@
       ]
     }
   },
-  "frontMatter.framework.startCommand": "hugo server -D --buildFuture"
+  "frontMatter.framework.startCommand": "hugo server -D --buildFuture --port 1314"
 }
