@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-11-08T16:47:05.354925",
+  "lastUpdated": "2026-11-09T21:01:28.990781",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Simulation",
-      "postUrl": "https://xkcd.com/3321/",
-      "publishDate": "Fri, 06 Nov 2026 05:00:00 -0000"
+      "postTitle": "Dragonfly",
+      "postUrl": "https://xkcd.com/3322/",
+      "publishDate": "Mon, 09 Nov 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
-      "postUrl": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
-      "publishDate": "2026-11-07T23:57:46+00:00"
+      "postTitle": "The Web Is More Than Enough, by Paul Ford",
+      "postUrl": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+      "publishDate": "2026-11-09T04:32:33+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -165,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "I did a publishing deal with Authors Equity and I\u2019m relaunching The Pathless Path for the 5th Anniversary",
-      "postUrl": "https://newsletter.pathlesspath.com/p/i-did-a-publishing-deal-with-authors",
-      "publishDate": "Mon, 21 Sep 2026 14:41:10 GMT"
+      "postTitle": "How I\u2019m using AI without losing my mind | #333",
+      "postUrl": "https://newsletter.pathlesspath.com/p/how-im-using-ai-without-losing-my",
+      "publishDate": "Mon, 09 Nov 2026 04:49:40 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
