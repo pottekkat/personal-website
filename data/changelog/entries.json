@@ -1,6 +1,46 @@
 {
-  "lastUpdated": "2026-11-09T18:34:50+05:30",
+  "lastUpdated": "2026-11-09T19:56:30+05:30",
   "entries": [
+    {
+      "hash": "e9e04ac",
+      "date": "2026-11-09T19:55:40+05:30",
+      "message": "Updated book layout to display all books on a single page."
+    },
+    {
+      "hash": "e9e04ac",
+      "date": "2026-11-09T19:55:40+05:30",
+      "message": "Removed pagination setting from configuration."
+    },
+    {
+      "hash": "e9e04ac",
+      "date": "2026-11-09T19:55:40+05:30",
+      "message": "Changed local development URL port from 1313 to 1314."
+    },
+    {
+      "hash": "e9e04ac",
+      "date": "2026-11-09T19:55:40+05:30",
+      "message": "Modified frontmatter configuration for better compatibility."
+    },
+    {
+      "hash": "e9e04ac",
+      "date": "2026-11-09T19:55:40+05:30",
+      "message": "Enhanced book list layout with additional features and styling."
+    },
+    {
+      "hash": "e9e04ac",
+      "date": "2026-11-09T19:55:40+05:30",
+      "message": "Updated single book layout for improved presentation."
+    },
+    {
+      "hash": "e9e04ac",
+      "date": "2026-11-09T19:55:40+05:30",
+      "message": "Added loading attribute to book cover images for optimization."
+    },
+    {
+      "hash": "e9e04ac",
+      "date": "2026-11-09T19:55:40+05:30",
+      "message": "Adjusted cache settings in Netlify configuration for CSS files."
+    },
     {
       "hash": "9a5d712",
       "date": "2026-11-09T18:33:55+05:30",
