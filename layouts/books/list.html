@@ -38,6 +38,9 @@
   </h1>
   <div class="post-description">{{ .Description }}</div>
 </header>
+{{- with $lastMod }}
+<div class="last-run">Last updated at {{ .Format "3:04 PM" }}, {{ humanize .Day }} {{ .Format "January 2006" }}</div>
+{{- end }}
 
 <article class="post-single">
   <div class="post-content">
@@ -54,28 +57,21 @@
 </div>
 
 <div class="view-toggle-wrapper">
-  <span class="last-updated">
-    {{- if $lastMod }}
-      Last updated {{ $lastMod.Format "at 3:04 PM, January 2, 2006" }}
-    {{- end }}
-  </span>
-  <div class="view-controls">
-    <button id="read-filter" class="toggle-button" aria-pressed="false" aria-label="Show only books I'm reading or have read" title="Show only books I'm reading or have read">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 24" height="14" fill="currentColor" aria-hidden="true"><path d="M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9"></path></svg>
-      <span class="filter-text">read</span>
-    </button>
-    <button id="view-toggle" accesskey="v" class="toggle-button" aria-label="Switch to list view" title="Switch to list view">
-      <svg id="grid" xmlns="http://www.w3.org/2000/svg" viewBox="0 1.5 15 21" height="14" aria-hidden="true"
-        fill="currentColor">
-        <path d="M1.875 16.5h2.25C5.161 16.5 6 17.339 6 18.375v2.25A1.874 1.874 0 0 1 4.125 22.5h-2.25A1.874 1.874 0 0 1 0 20.625v-2.25C0 17.339.839 16.5 1.875 16.5m9 0h2.25c1.036 0 1.875.839 1.875 1.875v2.25a1.874 1.874 0 0 1-1.875 1.875h-2.25A1.874 1.874 0 0 1 9 20.625v-2.25c0-1.036.839-1.875 1.875-1.875m-9-1.5A1.874 1.874 0 0 1 0 13.125v-2.25C0 9.839.839 9 1.875 9h2.25C5.161 9 6 9.839 6 10.875v2.25A1.874 1.874 0 0 1 4.125 15zm9-6h2.25C14.161 9 15 9.839 15 10.875v2.25A1.874 1.874 0 0 1 13.125 15h-2.25A1.874 1.874 0 0 1 9 13.125v-2.25C9 9.839 9.839 9 10.875 9m-9-1.5A1.874 1.874 0 0 1 0 5.625v-2.25C0 2.339.839 1.5 1.875 1.5h2.25C5.161 1.5 6 2.339 6 3.375v2.25A1.874 1.874 0 0 1 4.125 7.5zm9-6h2.25C14.161 1.5 15 2.339 15 3.375v2.25A1.874 1.874 0 0 1 13.125 7.5h-2.25A1.874 1.874 0 0 1 9 5.625v-2.25C9 2.339 9.839 1.5 10.875 1.5"></path>
-      </svg>
-      <svg id="list" xmlns="http://www.w3.org/2000/svg" viewBox="0.75 2.25 23.25 19.5" height="14" aria-hidden="true"
-        fill="currentColor">
-        <path d="M1.875 2.25C1.252 2.25.75 2.752.75 3.375v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125zM9 3c-.83 0-1.5.67-1.5 1.5S8.17 6 9 6h13.5c.83 0 1.5-.67 1.5-1.5S23.33 3 22.5 3zm0 7.5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5h13.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5zM9 18c-.83 0-1.5.67-1.5 1.5S8.17 21 9 21h13.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5zM.75 10.875v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125h-2.25c-.623 0-1.125.502-1.125 1.125m1.125 6.375c-.623 0-1.125.502-1.125 1.125v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125z"></path>
-      </svg>
-      <span class="toggle-text">list view</span>
-    </button>
-  </div>
+  <button id="read-filter" class="toggle-button" aria-pressed="false" aria-label="Show only books I'm reading or have read" title="Show only books I'm reading or have read">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 24" height="14" fill="currentColor" aria-hidden="true"><path d="M4.5 0A4.5 4.5 0 0 0 0 4.5v15C0 21.984 2.016 24 4.5 24h15c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5v-3c.83 0 1.5-.67 1.5-1.5v-15c0-.83-.67-1.5-1.5-1.5zm0 18h12v3h-12c-.83 0-1.5-.67-1.5-1.5S3.67 18 4.5 18M6 6.75c0-.413.338-.75.75-.75h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9A.75.75 0 0 1 6 6.75M6.75 9h9c.413 0 .75.338.75.75s-.338.75-.75.75h-9c-.413 0-.75-.338-.75-.75S6.338 9 6.75 9"></path></svg>
+    <span class="filter-text">read</span>
+  </button>
+  <button id="view-toggle" accesskey="v" class="toggle-button" aria-label="Switch to list view" title="Switch to list view">
+    <svg id="grid" xmlns="http://www.w3.org/2000/svg" viewBox="0 1.5 15 21" height="14" aria-hidden="true"
+      fill="currentColor">
+      <path d="M1.875 16.5h2.25C5.161 16.5 6 17.339 6 18.375v2.25A1.874 1.874 0 0 1 4.125 22.5h-2.25A1.874 1.874 0 0 1 0 20.625v-2.25C0 17.339.839 16.5 1.875 16.5m9 0h2.25c1.036 0 1.875.839 1.875 1.875v2.25a1.874 1.874 0 0 1-1.875 1.875h-2.25A1.874 1.874 0 0 1 9 20.625v-2.25c0-1.036.839-1.875 1.875-1.875m-9-1.5A1.874 1.874 0 0 1 0 13.125v-2.25C0 9.839.839 9 1.875 9h2.25C5.161 9 6 9.839 6 10.875v2.25A1.874 1.874 0 0 1 4.125 15zm9-6h2.25C14.161 9 15 9.839 15 10.875v2.25A1.874 1.874 0 0 1 13.125 15h-2.25A1.874 1.874 0 0 1 9 13.125v-2.25C9 9.839 9.839 9 10.875 9m-9-1.5A1.874 1.874 0 0 1 0 5.625v-2.25C0 2.339.839 1.5 1.875 1.5h2.25C5.161 1.5 6 2.339 6 3.375v2.25A1.874 1.874 0 0 1 4.125 7.5zm9-6h2.25C14.161 1.5 15 2.339 15 3.375v2.25A1.874 1.874 0 0 1 13.125 7.5h-2.25A1.874 1.874 0 0 1 9 5.625v-2.25C9 2.339 9.839 1.5 10.875 1.5"></path>
+    </svg>
+    <svg id="list" xmlns="http://www.w3.org/2000/svg" viewBox="0.75 2.25 23.25 19.5" height="14" aria-hidden="true"
+      fill="currentColor">
+      <path d="M1.875 2.25C1.252 2.25.75 2.752.75 3.375v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125zM9 3c-.83 0-1.5.67-1.5 1.5S8.17 6 9 6h13.5c.83 0 1.5-.67 1.5-1.5S23.33 3 22.5 3zm0 7.5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5h13.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5zM9 18c-.83 0-1.5.67-1.5 1.5S8.17 21 9 21h13.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5zM.75 10.875v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125h-2.25c-.623 0-1.125.502-1.125 1.125m1.125 6.375c-.623 0-1.125.502-1.125 1.125v2.25c0 .623.502 1.125 1.125 1.125h2.25c.623 0 1.125-.502 1.125-1.125v-2.25c0-.623-.502-1.125-1.125-1.125z"></path>
+    </svg>
+    <span class="toggle-text">list view</span>
+  </button>
 </div>
 
 <div id="books-container" class="books-container grid-view">

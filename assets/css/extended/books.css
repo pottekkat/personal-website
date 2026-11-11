@@ -15,17 +15,9 @@
 /* View toggle */
 .view-toggle-wrapper {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 30px 0 20px;
-  font-size: var(--book-font-size);
-  color: var(--secondary);
-}
-
-.view-controls {
-  display: flex;
+  justify-content: flex-end;
   gap: 8px;
-  margin-left: 20px;
+  margin: 30px 0 20px;
 }
 
 .toggle-button {
