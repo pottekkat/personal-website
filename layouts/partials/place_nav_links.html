@@ -1,0 +1,20 @@
+{{- /* Previous and next place, in the same A to Z order as the /places/ list. */ -}}
+{{- $pages := (site.GetPage "/places").Pages.ByTitle }}
+{{- if and (gt (len $pages) 1) (in $pages . ) }}
+<nav class="paginav">
+  {{- with $pages.Next . }}
+  <a class="prev" href="{{ .Permalink }}">
+    <span class="title">« {{ i18n "prev_page" }}</span>
+    <br>
+    <span>{{ partial "place-emoji.html" . }} {{ .Title }}</span>
+  </a>
+  {{- end }}
+  {{- with $pages.Prev . }}
+  <a class="next" href="{{ .Permalink }}">
+    <span class="title">{{ i18n "next_page" }} »</span>
+    <br>
+    <span>{{ partial "place-emoji.html" . }} {{ .Title }}</span>
+  </a>
+  {{- end }}
+</nav>
+{{- end }}

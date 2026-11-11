@@ -17,7 +17,7 @@
     {{- end -}}
     {{- /* Don't show title for individual notes (IndieWeb pattern), but show it for notes list page */ -}}
     {{- if or (ne .Type "notes") (eq .Kind "section") -}}
-    {{- print "&nbsp;»&nbsp;" | safeHTML -}}<span>{{ if eq .Kind "term" }}{{ .Name }}{{ else }}{{ .Title }}{{ end }}</span>
+    {{- print "&nbsp;»&nbsp;" | safeHTML -}}<span>{{ if and (eq .Kind "term") (ne .Type "places") }}{{ .Name }}{{ else }}{{ .Title }}{{ end }}</span>
     {{- end -}}
 </div>
 {{- end -}}

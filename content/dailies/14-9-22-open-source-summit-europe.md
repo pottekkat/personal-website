@@ -3,6 +3,8 @@ title: "#207 Open Source Summit Europe"
 date: 2022-09-14T10:40:52+01:00
 draft: false
 summary: "A bit last moment, but I made it here!"
+places:
+  - "ireland"
 ---
 
 I managed to make it to Open Source Summit Europe in Dublin!

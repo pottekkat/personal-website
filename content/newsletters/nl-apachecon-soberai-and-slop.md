@@ -5,6 +5,8 @@ draft: false
 ShowToc: true
 TocOpen: true
 summary: "Hello from ApacheCon EU!"
+places:
+  - "slovakia"
 ---
 
 Hello from Abu Dhabi!

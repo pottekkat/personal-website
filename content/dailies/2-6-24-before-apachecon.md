@@ -3,6 +3,10 @@ title: "#282 Before ApacheCon"
 date: 2024-06-02T19:23:12+02:00
 draft: false
 summary: "I'm in Europe for ApacheCon!"
+places:
+  - "austria"
+  - "slovakia"
+  - "united-arab-emirates"
 ---
 
 I'm in Bratislava, Slovakia, for ~~ApacheCon~~ [Community Over Code Europe](https://eu.communityovercode.org/).

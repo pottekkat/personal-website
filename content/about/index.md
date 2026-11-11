@@ -270,6 +270,8 @@ My European, American, and Singaporean friends have relentlessly heard me rant a
 
 Still, I have traveled to all these countries, and I plan to keep traveling: 🇸🇬 🇨🇳 🇦🇪 🇱🇰 🇮🇪 🇧🇭 🇲🇾 🇹🇼 🇮🇩 🇲🇻 🇻🇳 🇦🇹 🇸🇰 🇭🇺 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🇬🇧 🇺🇸
 
+See them on [a map](/places/), with the cities and the posts from each trip.
+
 I have yet to go to a lot of places in India (next year 🤞). And I have traveled to all districts in Kerala.
 
 ## Contact

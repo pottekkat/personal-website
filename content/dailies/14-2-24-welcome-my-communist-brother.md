@@ -3,6 +3,8 @@ title: '#276 "Welcome My Communist Brother!"'
 date: 2024-02-14T08:38:40+05:30
 draft: false
 summary: "Hello from Vietnam! Kind of."
+places:
+  - "vietnam"
 ---
 
 I am back from a short vacation in Vietnam. The highlight of the trip was visiting the War Remnants Museum and Cu Chi Tunnels, which gave new perspectives on the Vietnam War.

@@ -1,0 +1,16 @@
+{{- /* The flag emoji for a place page: its `emoji` param if set (for flags with
+       no two-letter code, like 🏴󠁧󠁢󠁥󠁮󠁧󠁿), else built from its ISO 3166-1 `code`.
+       A flag is the code's two letters written as regional indicator symbols,
+       and Hugo has no function to turn a letter into one, so they are listed. */ -}}
+{{- $ri := dict
+  "A" "🇦" "B" "🇧" "C" "🇨" "D" "🇩" "E" "🇪" "F" "🇫" "G" "🇬" "H" "🇭" "I" "🇮"
+  "J" "🇯" "K" "🇰" "L" "🇱" "M" "🇲" "N" "🇳" "O" "🇴" "P" "🇵" "Q" "🇶" "R" "🇷"
+  "S" "🇸" "T" "🇹" "U" "🇺" "V" "🇻" "W" "🇼" "X" "🇽" "Y" "🇾" "Z" "🇿" -}}
+{{- with .Params.emoji -}}
+{{- . -}}
+{{- else -}}
+{{- $code := upper (.Params.code | default "") -}}
+{{- if eq (len $code) 2 -}}
+{{- index $ri (substr $code 0 1) -}}{{- index $ri (substr $code 1 1) -}}
+{{- end -}}
+{{- end -}}

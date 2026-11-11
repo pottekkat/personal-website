@@ -3,6 +3,8 @@ title: "#242 Singapore Day 2"
 date: 2023-02-10T23:05:33+08:00
 draft: false
 summary: "I went to the dentist today."
+places:
+  - "singapore"
 ---
 
 My filling fell out after dinner yesterday, and I was in a lot of pain. I went to the dentist, and all is well today.

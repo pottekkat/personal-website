@@ -3,6 +3,8 @@ title: '#243 "Garden City" Is an Accurate Description'
 date: 2023-02-12T14:04:49+08:00
 draft: false
 summary: "It feels greener than Kerala."
+places:
+  - "singapore"
 ---
 
 Yesterday I got to meet APISIX PMC member Lien Li over dinner. It was a fun meeting.
