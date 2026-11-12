@@ -1,25 +1,35 @@
 #!/usr/bin/env node
-// Draws the city map that sits at the top of a place page, from OpenStreetMap
-// data, into map.svg next to the page:
+// Draws the map that sits at the top of a place page, from OpenStreetMap
+// data, into map.svg next to the page, plus cover.jpg for link previews:
 //
-//   node scripts/places/city-map.mjs content/places/singapore
-//   node scripts/places/city-map.mjs --all
-//   node scripts/places/city-map.mjs content/places/singapore --fetch
+//   node scripts/places/city-map.mjs content/places/vienna
+//   node scripts/places/city-map.mjs content/places/austria --near "Vienna" --km 4
+//   node scripts/places/city-map.mjs content/places/austria --city "Vienna"
+//   node scripts/places/city-map.mjs --all     (redraws the maps that exist)
+//   node scripts/places/city-map.mjs content/places/vienna --fetch
 //
-// The map is centred on the page's `lat` and `lon` and is `mapWidth` km wide
-// (3.2 if unset), 3:2. Without `lat`/`lon` the `city` is looked up on
-// Nominatim first; a page with no `city` gets no map. For a single page, stdout
-// is {"lat": …, "lon": …} as JSON, which the Front Matter "Draw city map"
-// button writes back into the page.
+// The first time, the map is centred on the page's title as Nominatim finds
+// it, or on --near, and is --km wide (3.2 if unset). The centre and width are
+// saved on map.svg's <svg> as data-lat, data-lon and data-km, and later runs
+// reuse them, so the page's front matter needs nothing but `map: "map.svg"`.
+// Pass --near or --km again to move or resize a map.
 //
-// The SVG has no colours of its own: everything is drawn in currentColor at
-// set opacities, so it follows the page's text colour in light and dark mode.
+// The city the map shows is saved the same way, as data-city, and the place
+// page puts it in the caption under the map. It is the city Nominatim gives
+// for the centre, or --city to name it by hand.
+//
+// Each layer is painted with a CSS variable (--map-water, --map-park, …) that
+// assets/css/extended/places.css sets for light and dark mode. Custom
+// properties inherit into <use> copies, which plain CSS selectors do not
+// reach, so the list page's covers follow the theme too. The fallbacks are the
+// light colours, for the file opened on its own.
 // OSM data is cached in ~/.cache/navendu-places/. Map data © OpenStreetMap
 // contributors, ODbL; the page credits it under the map.
 
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
-import { existsSync } from "node:fs";
-import { homedir } from "node:os";
+import { existsSync, rmSync } from "node:fs";
+import { execFileSync } from "node:child_process";
+import { homedir, tmpdir } from "node:os";
 import { basename, dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -33,13 +43,20 @@ const H = 325;
 const TOL = 0.35; // Douglas–Peucker tolerance, viewBox units
 const MIN_AREA = 6; // smallest pond or park drawn, square units
 
-// Layers, bottom to top. `w` is the stroke width, `o` the opacity.
-const ROADS = {
-  minor: { w: 0.6, o: 0.22 },
-  road: { w: 1, o: 0.38 },
-  major: { w: 1.8, o: 0.6 },
+const MIN_BUILDING = 1.5; // smallest building drawn, square units
+
+// Fills and strokes, as var(--map-…) with the light colour as fallback.
+const C = {
+  land: "#f3efe8", urban: "#ebe6dd", park: "#d6e3c6", water: "#b9d1df", building: "#ddd6ca",
+  casing: "#d2cabd", road: "#fffdf9", major: "#f6dfa6", rail: "#a39a8c",
 };
+const paint = (k) => `var(--map-${k},${C[k]})`;
+
+// Road widths, bottom to top, in viewBox units.
+const ROADS = { minor: 0.9, road: 1.5, major: 2.6 };
 const log = (...a) => console.error(...a);
+// For text going into map.svg's markup.
+const escape = (t) => t.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
 
 // ---------------------------------------------------------------- front matter
 
@@ -50,17 +67,20 @@ function frontMatter(text) {
     const r = m[1].match(new RegExp(`^${k}:[ \\t]*(.*)$`, "m"));
     return r ? r[1].trim().replace(/^["']|["']$/g, "") : undefined;
   };
-  const num = (k) => (get(k) ? Number(get(k)) : undefined);
-  return { title: get("title"), city: get("city"), lat: num("lat"), lon: num("lon"), km: num("mapWidth") };
+  return { title: get("title") };
 }
 
 async function geocode(q) {
-  const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&q=${encodeURIComponent(q)}`;
+  const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&addressdetails=1&accept-language=en&q=${encodeURIComponent(q)}`;
   const res = await fetch(url, { headers: UA, signal: AbortSignal.timeout(30000) });
   const [hit] = await res.json();
   if (!hit) throw new Error(`Nominatim found nothing for "${q}"`);
   log(`geocoded "${q}" to ${hit.display_name}`);
-  return { lat: Number(Number(hit.lat).toFixed(4)), lon: Number(Number(hit.lon).toFixed(4)) };
+  const a = hit.address || {};
+  return {
+    lat: Number(Number(hit.lat).toFixed(4)), lon: Number(Number(hit.lon).toFixed(4)),
+    city: a.city || a.town || a.village || a.municipality,
+  };
 }
 
 // ---------------------------------------------------------------- data
@@ -77,7 +97,10 @@ async function overpass(bb, file, refetch) {
     relation[natural=water]${box};relation[waterway=riverbank]${box};
     way[natural=coastline]${box};
     way[leisure~"^(park|garden)$"]${box};relation[leisure=park]${box};
-    way[landuse~"^(forest|grass|recreation_ground|cemetery)$"]${box};way[natural=wood]${box};
+    way[landuse~"^(forest|grass|meadow|village_green|recreation_ground|cemetery)$"]${box};way[natural=wood]${box};
+    way[leisure~"^(pitch|playground|golf_course|nature_reserve)$"]${box};
+    way[landuse~"^(residential|commercial|retail|industrial|railway|construction)$"]${box};
+    way[building]${box};relation[building]${box};
   );out geom;`;
   for (let attempt = 0; attempt < 6; attempt++) {
     const url = OVERPASS[attempt % OVERPASS.length];
@@ -326,15 +349,19 @@ function path(lines, closed) {
 async function draw(dir, refetch) {
   const index = join(dir, "_index.md");
   const fm = frontMatter(await readFile(index, "utf8"));
-  // A page with no city gets no map: looking up the country alone would
-  // centre the map on some arbitrary point in it.
-  if (!fm.city) {
-    log(`${index.replace(ROOT + "/", "")}: no city, no map`);
-    return undefined;
+  // The centre and width the map was last drawn with, from map.svg itself.
+  const old = existsSync(join(dir, "map.svg")) ? await readFile(join(dir, "map.svg"), "utf8") : "";
+  const attr = (k) => { const m = old.match(new RegExp(`data-${k}="([-0-9.]+)"`)); return m ? Number(m[1]) : undefined; };
+  let lat = attr("lat"), lon = attr("lon");
+  let city = old.match(/data-city="([^"]*)"/)?.[1];
+  if (opt.near || lat === undefined || lon === undefined) {
+    let found;
+    ({ lat, lon, city: found } = await geocode(opt.near || fm.title));
+    city = found && escape(found);
   }
-  let { lat, lon } = fm;
-  if (lat === undefined || lon === undefined) ({ lat, lon } = await geocode(`${fm.city}, ${fm.title}`));
-  const km = fm.km || 3.2;
+  if (opt.city) city = escape(opt.city);
+  if (!city) log(`no city for ${basename(dir)}: pass --city to name it`);
+  const km = opt.km || attr("km") || 3.2;
 
   // Local equirectangular projection: at this scale the earth is flat.
   const kx = Math.cos((lat * Math.PI) / 180);
@@ -349,10 +376,10 @@ async function draw(dir, refetch) {
     w: lon - (halfW + pad) / (111.32 * kx), e: lon + (halfW + pad) / (111.32 * kx),
   };
   for (const k in bb) bb[k] = Number(bb[k].toFixed(5));
-  const file = join(CACHE, `osm-${basename(dir)}-${lat}-${lon}-${km}.json`);
+  const file = join(CACHE, `osm2-${basename(dir)}-${lat}-${lon}-${km}.json`);
   const osm = (await overpass(bb, file, refetch)).elements;
 
-  const layer = { coast: [], water: [], river: [], park: [], minor: [], road: [], major: [], rail: [] };
+  const layer = { coast: [], water: [], river: [], urban: [], park: [], building: [], minor: [], road: [], major: [], rail: [] };
   const polys = (e) => {
     if (e.type === "way") return e.geometry ? [orient(e.geometry.map(project), true)] : [];
     const members = (role) => (e.members || [])
@@ -365,6 +392,10 @@ async function draw(dir, refetch) {
     const t = e.tags || {};
     if (t.natural === "coastline") { if (e.geometry) layer.coast.push(e.geometry.map(project)); continue; }
     if (t.natural === "water" || t.waterway === "riverbank") { layer.water.push(...polys(e)); continue; }
+    if (t.building) { layer.building.push(...polys(e)); continue; }
+    if (/^(residential|commercial|retail|industrial|railway|construction)$/.test(t.landuse)) {
+      layer.urban.push(...polys(e)); continue;
+    }
     if (t.leisure || t.landuse || t.natural === "wood") { layer.park.push(...polys(e)); continue; }
     if (!e.geometry) continue;
     const pts = e.geometry.map(project);
@@ -375,53 +406,79 @@ async function draw(dir, refetch) {
     layer[k].push(pts);
   }
 
-  const areas = (list) => list
+  const areas = (list, min = MIN_AREA) => list
     .map((r) => clipPolygon(simplifyRing(r, TOL), 1))
-    .filter((r) => r.length > 2 && area(r) >= MIN_AREA);
+    .filter((r) => r.length > 2 && area(r) >= min);
   const lines = (list) => list.flatMap((l) => clipLine(l, 4)).map((l) => simplify(l, TOL));
 
   const seaD = path(sea(layer.coast).map((r) => simplifyRing(r, TOL)), true);
   const svg = [
-    `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" role="img" fill="none" stroke-linecap="round" stroke-linejoin="round">`,
-    `<title>Map of ${fm.city || fm.title}</title>`,
+    `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" role="img" data-lat="${lat}" data-lon="${lon}" data-km="${km}"${city ? ` data-city="${city}"` : ""}>`,
+    `<title>Map of ${city || escape(fm.title)}</title>`,
+    // The list page draws this file with <use href="map.svg#map">, which needs
+    // an id to point at.
+    `<g id="map" fill="none" stroke-linecap="round" stroke-linejoin="round">`,
   ];
-  const park = path(areas(layer.park), true);
-  if (park) svg.push(`<path fill="currentColor" opacity=".06" d="${park}"/>`);
-  // Water areas and river lines share one group so where they overlap the
-  // tint does not double up.
+  const fill = (k, d, extra = "") => d && svg.push(`<path style="fill:${paint(k)}"${extra} d="${d}"/>`);
+  const stroke = (k, w, d) => d && svg.push(`<path style="stroke:${paint(k)}" stroke-width="${w}" d="${d}"/>`);
+  fill("urban", path(areas(layer.urban), true));
+  fill("park", path(areas(layer.park), true));
   // The sea's islands are holes in it (evenodd); lakes and river areas carry
   // their own holes by winding (nonzero).
-  const w = path(areas(layer.water), true), rv = path(lines(layer.river), false);
-  if (seaD || w || rv) {
-    svg.push(`<g fill="currentColor" opacity=".14">` +
-      (seaD ? `<path fill-rule="evenodd" d="${seaD}"/>` : "") + (w ? `<path d="${w}"/>` : "") +
-      (rv ? `<path fill="none" stroke="currentColor" stroke-width="2.5" d="${rv}"/>` : "") + `</g>`);
-  }
-  for (const k of ["minor", "road", "major"]) {
-    const d = path(lines(layer[k]), false);
-    if (d) svg.push(`<path stroke="currentColor" stroke-width="${ROADS[k].w}" opacity="${ROADS[k].o}" d="${d}"/>`);
-  }
+  fill("water", seaD, ` fill-rule="evenodd"`);
+  fill("water", path(areas(layer.water), true));
+  stroke("water", 2.5, path(lines(layer.river), false));
+  fill("building", path(areas(layer.building, MIN_BUILDING), true));
+  // Each road is drawn twice, a darker edge under a lighter middle, the way a
+  // printed street map draws them, so white roads still show on pale land.
+  const roads = Object.fromEntries(Object.keys(ROADS).map((k) => [k, path(lines(layer[k]), false)]));
+  for (const k in ROADS) stroke("casing", ROADS[k] + 0.7, roads[k]);
+  for (const k in ROADS) stroke(k === "major" ? "major" : "road", ROADS[k], roads[k]);
   const rail = path(lines(layer.rail), false);
   if (rail) {
-    svg.push(`<g stroke="currentColor" opacity=".5" stroke-linecap="butt"><path stroke-width=".8" d="${rail}"/>` +
-      `<path stroke-width="3.5" stroke-dasharray=".8 5" d="${rail}"/></g>`);
+    svg.push(`<g style="stroke:${paint("rail")}" stroke-linecap="butt"><path stroke-width=".8" d="${rail}"/>` +
+      `<path stroke-width="3" stroke-dasharray=".8 4" d="${rail}"/></g>`);
   }
-  svg.push("</svg>");
+  svg.push("</g>", "</svg>");
   const out = svg.join("\n") + "\n";
   await writeFile(join(dir, "map.svg"), out);
+  shareImage(out, join(dir, "cover.jpg"));
   log(`${join(dir, "map.svg").replace(ROOT + "/", "")}: ${(out.length / 1024).toFixed(1)} KB` +
     ` (${osm.length} OSM objects, ${km} km wide)`);
-  return { lat, lon };
+  return { map: "map.svg" };
+}
+
+// Link previews (Open Graph, Twitter cards) take no SVG, so each map is also
+// saved as cover.jpg at the 1280×650 cover size, in the light colours. The
+// share meta tags in layouts/partials/templates/ pick up a bundle file named
+// *cover*. Needs rsvg-convert and ImageMagick (brew install librsvg imagemagick).
+function shareImage(svg, file) {
+  const flat = svg
+    .replace(/var\(--map-[a-z]+,(#[0-9a-f]+)\)/g, "$1")
+    .replace(/(<g id="map"[^>]*>)/, `$1<rect x="-10" y="-10" width="${W + 20}" height="${H + 20}" fill="${C.land}"/>`);
+  try {
+    // Through a file: ImageMagick waits forever on a PNG piped to its stdin.
+    const png = join(tmpdir(), `city-map-${process.pid}.png`);
+    execFileSync("rsvg-convert", ["-w", String(W * 2), "-h", String(H * 2), "-o", png], { input: flat });
+    execFileSync("magick", [png, "-strip", "-quality", "82", file]);
+    rmSync(png);
+  } catch (e) {
+    log(`${file.replace(ROOT + "/", "")}: not written (${e.message.split("\n")[0]})`);
+  }
 }
 
 const args = process.argv.slice(2);
 const refetch = args.includes("--fetch");
+const flag = (k) => { const i = args.indexOf(`--${k}`); return i < 0 ? undefined : args.splice(i, 2)[1]; };
+const opt = { near: flag("near"), km: Number(flag("km")) || undefined, city: flag("city") };
 const targets = args.includes("--all")
   ? (await readdir(join(ROOT, "content", "places"), { withFileTypes: true }))
       .filter((d) => d.isDirectory()).map((d) => join(ROOT, "content", "places", d.name))
+      // Only redraw: a page gets its first map when the script is run on it.
+      .filter((d) => existsSync(join(d, "map.svg")))
   : args.filter((a) => !a.startsWith("--")).map((a) => resolve(a));
 if (!targets.length) {
-  log("usage: city-map.mjs <content/places/slug> [--fetch] | --all");
+  log("usage: city-map.mjs <content/places/slug> [--near place] [--km width] [--city name] [--fetch] | --all");
   process.exit(1);
 }
 let last, failed = 0;

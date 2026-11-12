@@ -1,12 +1,12 @@
-{{- /* A link to a place page with its flag in front:
+{{- /* A link to a place page:
 
-         {{< place "singapore" >}}            🇸🇬 Singapore
-         {{< place "singapore" "Changi" >}}   🇸🇬 Changi
+         {{< place "singapore" >}}            Singapore
+         {{< place "singapore" "Changi" >}}   Changi
 
        The first argument is the page's folder under content/places/. */ -}}
 {{- $slug := .Get 0 -}}
 {{- with site.GetPage (printf "/places/%s" $slug) -}}
-<a href="{{ .RelPermalink }}">{{ partial "place-emoji.html" . }} {{ $.Get 1 | default .Title }}</a>
+<a href="{{ .RelPermalink }}">{{ $.Get 1 | default .Title }}</a>
 {{- else -}}
 {{- errorf "place shortcode: no page at content/places/%s (used in %s)" $slug .Page.File.Path -}}
 {{- end -}}

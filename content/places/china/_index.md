@@ -1,8 +1,6 @@
 ---
 title: "China"
 date: 2026-11-11T00:00:00+05:30
-code: "CN"
-city: ""
-visits: []
+map: "map.svg"
 summary: "My visits to China."
 ---

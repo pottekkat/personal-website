@@ -6,14 +6,14 @@
   <a class="prev" href="{{ .Permalink }}">
     <span class="title">« {{ i18n "prev_page" }}</span>
     <br>
-    <span>{{ partial "place-emoji.html" . }} {{ .Title }}</span>
+    <span>{{ .Title }}</span>
   </a>
   {{- end }}
   {{- with $pages.Prev . }}
   <a class="next" href="{{ .Permalink }}">
     <span class="title">{{ i18n "next_page" }} »</span>
     <br>
-    <span>{{ partial "place-emoji.html" . }} {{ .Title }}</span>
+    <span>{{ .Title }}</span>
   </a>
   {{- end }}
 </nav>

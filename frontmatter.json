@@ -555,12 +555,12 @@
       "slugTemplate": "{{title}}",
       "fields": [
         {
-          "title": "Country",
+          "title": "Place",
           "name": "title",
           "type": "string"
         },
         {
-          "title": "Publishing date",
+          "title": "Date (when I was there)",
           "name": "date",
           "type": "datetime",
           "dateFormat": "yyyy-MM-dd'T'HH:mm:ssXXX",
@@ -568,49 +568,10 @@
           "isPublishDate": true
         },
         {
-          "title": "Country code (ISO 3166-1, like SG)",
-          "name": "code",
-          "type": "string"
-        },
-        {
-          "title": "City on the map",
-          "name": "city",
-          "type": "string"
-        },
-        {
-          "title": "Map centre latitude",
-          "name": "lat",
-          "type": "number",
-          "numberOptions": {
-            "isDecimal": true,
-            "min": -90,
-            "max": 90
-          }
-        },
-        {
-          "title": "Map centre longitude",
-          "name": "lon",
-          "type": "number",
-          "numberOptions": {
-            "isDecimal": true,
-            "min": -180,
-            "max": 180
-          }
-        },
-        {
-          "title": "Map width in km (default 3.2)",
-          "name": "mapWidth",
-          "type": "number",
-          "numberOptions": {
-            "isDecimal": true,
-            "min": 0.5,
-            "max": 20
-          }
-        },
-        {
-          "title": "Visits (YYYY-MM)",
-          "name": "visits",
-          "type": "list"
+          "title": "Map (drawn by the Draw map button)",
+          "name": "map",
+          "type": "image",
+          "isPreviewImage": true
         },
         {
           "title": "Summary",
@@ -725,7 +686,7 @@
     },
     {
       "id": "place-map",
-      "title": "Draw city map",
+      "title": "Draw map",
       "script": "./scripts/frontmatter/place-map.js",
       "command": "node",
       "type": "content",

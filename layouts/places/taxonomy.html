@@ -3,30 +3,16 @@
 {{- /* Each place is a term page of the `places` taxonomy, so .Pages here
    lists the places, not the posts. */}}
 {{- $pages := .Pages.ByTitle }}
-{{- $lastMod := "" }}
-{{- range first 1 $pages.ByLastmod.Reverse }}
-  {{- $lastMod = .Lastmod }}
-{{- end }}
 
-{{- /* Country outlines come from scripts/places/world-map.mjs, keyed by the
-   same ISO code a place page carries in `code`. */}}
-{{- $world := resources.Get "places/world.json" | transform.Unmarshal }}
-{{- $byCode := dict }}
-{{- range $pages }}
-  {{- $byCode = merge $byCode (dict (upper .Params.code) .) }}
-{{- end }}
-{{- $home := .Params.home | default dict }}
-{{- $homeCode := upper ($home.code | default "") }}
-
-{{- /* All the land, for cutting it out of the sea, and the countries I have
-   not been to, drawn as borders only. */}}
-{{- $all := "" }}
-{{- $land := "" }}
-{{- range $world.countries }}
-  {{- $all = add $all .d }}
-  {{- if not (or (index $byCode .c) (eq .c $homeCode)) }}
-    {{- $land = add $land .d }}
-  {{- end }}
+{{- /* Last updated is the newest change to a place or to a post that lists
+   one, like the bookshelf's, so tagging a new post moves it too. */}}
+{{- $all := $pages }}
+{{- range $pages }}{{ $all = $all | append .Pages }}{{ end }}
+{{- $updated := "" }}
+{{- range first 1 $all.ByLastmod.Reverse }}
+  {{- with .Lastmod }}{{ if not .IsZero }}
+  {{- $updated = printf "Last updated at %s, %s %s" (.Format "3:04 PM") (humanize .Day) (.Format "January 2006") }}
+  {{- end }}{{ end }}
 {{- end }}
 
 <header class="page-header">
@@ -38,66 +24,37 @@
   <div class="post-description">{{ . }}</div>
   {{- end }}
 </header>
-{{- with $lastMod }}
-<div class="last-run">Last updated at {{ .Format "3:04 PM" }}, {{ humanize .Day }} {{ .Format "January 2006" }}</div>
+{{- with $updated }}
+<div class="last-run">{{ . }}</div>
 {{- end }}
-
-{{- /* Drawn like the city maps on the place pages: the sea tinted, the land
-   left as paper, borders as thin lines, and the places I have been filled. */}}
-<figure class="entry-cover">
-  <div class="places-map">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {{ $world.w }} {{ $world.h }}" role="group" aria-label="World map of the {{ len $pages }} countries I have been to">
-      <defs>
-        <pattern id="places-home" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-          <path d="M0 0v5" stroke="currentColor" stroke-width="2"/>
-        </pattern>
-      </defs>
-      <path fill="currentColor" fill-opacity=".14" fill-rule="evenodd" d="M0 0h{{ $world.w }}v{{ $world.h }}h-{{ $world.w }}z{{ $all }}"/>
-      <g class="places-land" stroke="currentColor" stroke-width=".6" stroke-linejoin="round">
-        <path fill="none" stroke-opacity=".3" d="{{ $land }}"/>
-        {{- range $world.countries }}
-        {{- $country := . }}
-        {{- if eq .c $homeCode }}
-        <path fill="url(#places-home)" fill-opacity=".45" stroke-opacity=".3" d="{{ .d }}"><title>{{ $home.name | default .c }}, home</title></path>
-        {{- end }}
-        {{- with index $byCode .c }}
-        <a href="{{ .RelPermalink }}">
-          <title>{{ .Title }}</title>
-          {{- with $country.d }}
-          <path fill="currentColor" fill-opacity=".55" stroke-opacity=".6" d="{{ . }}"/>
-          {{- end }}
-          {{- if $country.tiny }}
-          <circle cx="{{ $country.x }}" cy="{{ $country.y }}" r="5" fill="currentColor" fill-opacity=".55" stroke="none"/>
-          <circle cx="{{ $country.x }}" cy="{{ $country.y }}" r="12" fill="currentColor" fill-opacity="0" stroke="none"/>
-          {{- end }}
-        </a>
-        {{- end }}
-        {{- end }}
-      </g>
-    </svg>
-  </div>
-  <p class="places-key">
-    <span><svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><rect width="12" height="12" fill="currentColor" fill-opacity=".55"/></svg>{{ len $pages }} countries</span>
-    {{- if $homeCode }}
-    <span><svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><rect width="12" height="12" fill="url(#places-home)" fill-opacity=".45"/></svg>Home</span>
-    {{- end }}
-  </p>
-</figure>
-
-<ul class="terms-tags places-list">
-  {{- range $pages }}
-  <li>
-    <a href="{{ .RelPermalink }}">{{ partial "place-emoji.html" . }} {{ .Title }}</a>
-  </li>
-  {{- end }}
-</ul>
 
 {{- with .Content }}
-<article class="post-single">
-  <div class="post-content">
-    {{- . }}
-  </div>
-</article>
+<div class="post-content">
+  {{- . }}
+</div>
 {{- end }}
+
+{{- /* A grid of map tiles, two across, one on phones. The title and post
+   count sit on the map, outlined in the map's land colour so they read over
+   roads and water. A place without a map yet shows a plain tile. */}}
+<div class="places-grid">
+  {{- range $pages }}
+  <article class="place-map place-tile">
+    {{- /* <use> draws the published map.svg instead of inlining it, so the
+       page stays small, and the map still takes its colour from the theme.
+       `slice` crops the wide map to fill the 4:3 tile. */}}
+    {{- with .Resources.Get "map.svg" }}
+    <svg viewBox="0 0 640 325" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="{{ .RelPermalink }}#map"/></svg>
+    {{- end }}
+    <div class="place-tile-text">
+      <h2>{{ .Title }}</h2>
+      {{- with len .Pages }}
+      <footer class="entry-footer">{{ . }} post{{ if gt . 1 }}s{{ end }}</footer>
+      {{- end }}
+    </div>
+    <a class="entry-link" aria-label="place link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  </article>
+  {{- end }}
+</div>
 
 {{- end }}{{/* end main */}}

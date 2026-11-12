@@ -4,7 +4,7 @@
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
     <h1 class="post-title">
-      {{- with partial "place-emoji.html" . }}{{ . }} {{ end }}{{ .Title }}
+      {{- .Title }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
     </h1>
     {{- with .Params.summary }}
@@ -14,40 +14,21 @@
     {{- end }}
   </header>
 
-  {{- /* The city map from scripts/places/city-map.mjs, drawn in currentColor
-     so it follows the light and dark theme. */}}
+  {{- /* The map from scripts/places/city-map.mjs, coloured by the --map-…
+     variables in css/extended/places.css so it follows the theme. */}}
   {{- with .Resources.Get "map.svg" }}
+  {{- /* The map script saves the city it shows on the <svg> as data-city. */}}
+  {{- $city := "" }}
+  {{- with findRESubmatch `data-city="([^"]+)"` .Content 1 }}
+  {{- $city = index . 0 1 | htmlUnescape }}
+  {{- end }}
   <figure class="entry-cover">
     <div class="place-map">
       {{- .Content | safeHTML }}
-      {{- /* The map is centred on lat/lon, so the city's name sits in the middle. */}}
-      {{- with $.Params.city }}
-      <span class="place-pin" aria-hidden="true">{{ . }}</span>
-      {{- end }}
     </div>
-    <p>
-      {{- with $.Params.lat }}{{ printf "%.4f° %s" (math.Abs .) (cond (lt . 0) "S" "N") }}{{ end }}
-      {{- with $.Params.lon }}, {{ printf "%.4f° %s" (math.Abs .) (cond (lt . 0) "W" "E") }}{{ end }}
-      · Map data © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a>
+    <p>{{ with $city }}{{ . }} {{ end }}© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a>
     </p>
   </figure>
-  {{- end }}
-
-  {{- if or .Params.city .Params.visits }}
-  <div class="post-content">
-    <dl>
-      {{- with .Params.city }}
-      <dt>City</dt>
-      <dd>{{ . }}</dd>
-      {{- end }}
-      {{- with .Params.visits }}
-      <dt>{{ cond (gt (len .) 1) "Visits" "Visit" }}</dt>
-      <dd>
-        {{- range $i, $v := . }}{{ if $i }}, {{ end }}{{ (time.AsTime (printf "%s-01" $v)).Format "January 2006" }}{{ end -}}
-      </dd>
-      {{- end }}
-    </dl>
-  </div>
   {{- end }}
 
   {{- with .Content }}
