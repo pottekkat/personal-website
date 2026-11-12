@@ -22,9 +22,11 @@
   {{- with findRESubmatch `data-city="([^"]+)"` .Content 1 }}
   {{- $city = index . 0 1 | htmlUnescape }}
   {{- end }}
+  {{- /* <use> instead of inlining the map keeps the page small, and the
+     browser already has map.svg cached if it came from /places/. */}}
   <figure class="entry-cover">
     <div class="place-map">
-      {{- .Content | safeHTML }}
+      <svg viewBox="0 0 640 325" role="img" aria-label="Map of {{ $city | default $.Title }}"><use href="{{ .RelPermalink }}#map"/></svg>
     </div>
     <p>{{ with $city }}{{ . }} {{ end }}© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a>
     </p>

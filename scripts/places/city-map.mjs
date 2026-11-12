@@ -9,7 +9,8 @@
 //   node scripts/places/city-map.mjs content/places/vienna --fetch
 //
 // The first time, the map is centred on the page's title as Nominatim finds
-// it, or on --near, and is --km wide (3.2 if unset). The centre and width are
+// it (on its capital, if the title is a country), or on --near, and is --km
+// wide (3.2 if unset). The centre and width are
 // saved on map.svg's <svg> as data-lat, data-lon and data-km, and later runs
 // reuse them, so the page's front matter needs nothing but `map: "map.svg"`.
 // Pass --near or --km again to move or resize a map.
@@ -70,12 +71,38 @@ function frontMatter(text) {
   return { title: get("title") };
 }
 
-async function geocode(q) {
-  const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&addressdetails=1&accept-language=en&q=${encodeURIComponent(q)}`;
+const getJSON = async (url) => {
   const res = await fetch(url, { headers: UA, signal: AbortSignal.timeout(30000) });
-  const [hit] = await res.json();
+  if (!res.ok) throw new Error(`${url}: ${res.status}`);
+  return res.json();
+};
+
+// A country's capital, from Wikidata: the preferred "capital" claim, or else
+// one that has not ended.
+async function capital(country, wikidata) {
+  const api = "https://www.wikidata.org/w/api.php?format=json";
+  const { claims } = await getJSON(`${api}&action=wbgetclaims&entity=${wikidata}&property=P36`);
+  const list = (claims?.P36 || []).filter((c) => c.rank !== "deprecated");
+  const best = list.find((c) => c.rank === "preferred") || list.find((c) => !c.qualifiers?.P582);
+  const id = best?.mainsnak?.datavalue?.value?.id;
+  if (!id) throw new Error(`no capital for ${country} on Wikidata: pass --near`);
+  const { entities } = await getJSON(`${api}&action=wbgetentities&ids=${id}&props=labels&languages=en`);
+  const name = entities[id]?.labels?.en?.value;
+  if (!name) throw new Error(`no English name for ${id}: pass --near`);
+  return name;
+}
+
+async function geocode(q) {
+  const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&addressdetails=1&extratags=1&accept-language=en&q=${encodeURIComponent(q)}`;
+  const [hit] = await getJSON(url);
   if (!hit) throw new Error(`Nominatim found nothing for "${q}"`);
   log(`geocoded "${q}" to ${hit.display_name}`);
+  // A country's middle is often empty land or sea, so a country page gets a
+  // map of its capital.
+  if (hit.addresstype === "country" && hit.extratags?.wikidata) {
+    const name = await capital(q, hit.extratags.wikidata);
+    return { ...(await geocode(`${name}, ${hit.address?.country || q}`)), city: name };
+  }
   const a = hit.address || {};
   return {
     lat: Number(Number(hit.lat).toFixed(4)), lon: Number(Number(hit.lon).toFixed(4)),
