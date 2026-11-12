@@ -272,7 +272,7 @@ Still, I have traveled to all these countries, and I plan to keep traveling: ðŸ‡
 
 I have yet to go to a lot of places in India (next year ðŸ¤ž). And I have traveled to all districts in Kerala.
 
-See more on [places](/places/).
+See more on [/places](/places/).
 
 ## Contact
 
