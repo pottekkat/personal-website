@@ -38,13 +38,24 @@
    count sit on the map, outlined in the map's land colour so they read over
    roads and water. A place without a map yet shows a plain tile. */}}
 <div class="places-grid">
-  {{- range $pages }}
+  {{- range $i, $_ := $pages }}
   <article class="place-map place-tile">
     {{- /* <use> draws the published map.svg instead of inlining it, so the
        page stays small, and the map still takes its colour from the theme.
-       `slice` crops the wide map to fill the 4:3 tile. */}}
+       `slice` crops the wide map to fill the 4:3 tile.
+
+       Browsers fetch every <use> file at once and have no loading="lazy" for
+       it, so like the bookshelf's covers only the first row loads up front.
+       The rest wait in data-href for the script below; <noscript> keeps them
+       showing without JavaScript. */}}
     {{- with .Resources.Get "map.svg" }}
-    <svg viewBox="0 0 640 325" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="{{ .RelPermalink }}#map"/></svg>
+    {{- $svg := `<svg viewBox="0 0 640 325" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use %s="%s#map"/></svg>` }}
+    {{- if lt $i 2 }}
+    {{ printf $svg "href" .RelPermalink | safeHTML }}
+    {{- else }}
+    {{ printf $svg "data-href" .RelPermalink | safeHTML }}
+    <noscript>{{ printf $svg "href" .RelPermalink | safeHTML }}</noscript>
+    {{- end }}
     {{- end }}
     <div class="place-tile-text">
       <h2>{{ .Title }}</h2>
@@ -56,5 +67,22 @@
   </article>
   {{- end }}
 </div>
+
+<script>
+(() => {
+  const load = (use) => use.setAttribute('href', use.dataset.href);
+  const waiting = document.querySelectorAll('.places-grid use[data-href]');
+  if (!('IntersectionObserver' in window)) return waiting.forEach(load);
+  // A few hundred pixels early, so the map is there by the time it scrolls in.
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (!e.isIntersecting) return;
+      io.unobserve(e.target);
+      load(e.target.querySelector('use'));
+    });
+  }, { rootMargin: '400px 0px' });
+  waiting.forEach((use) => io.observe(use.parentNode));
+})();
+</script>
 
 {{- end }}{{/* end main */}}

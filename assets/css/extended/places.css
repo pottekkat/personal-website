@@ -54,6 +54,13 @@
     border: 1px solid var(--border);
 }
 
+/* Over the whole tile, so a map from <noscript> lands in the same place. */
+.place-tile svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .place-tile:active {
     transform: scale(0.96);
 }
