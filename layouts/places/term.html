@@ -42,8 +42,8 @@
   {{- end }}
 
   {{- /* Posts, dailies, newsletters and book reviews that list this place in
-     their `places` front matter, oldest first. */}}
-  {{- $posts := .Pages.ByDate }}
+     their `places` front matter, newest first, like the archives. */}}
+  {{- $posts := .Pages.ByDate.Reverse }}
   {{- with $posts }}
   <div class="archive-year">
     <h2 class="archive-year-header">Posts<sup class="archive-count">&nbsp;&nbsp;{{ len . }}</sup></h2>
