@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-11-13T00:02:53.970337+05:30",
+  "last_updated": "2026-11-13T23:30:07.716866+05:30",
   "links": [
+    {
+      "id": "01m7aq1dqc5wv5zedn0xffyrk3",
+      "title": "Why is pepper such a popular spice? - Carolyn Beans",
+      "author": "TED-Ed",
+      "source_url": "https://www.youtube.com/watch?v=aDblEBU41nA",
+      "published_date": "2026-11-12",
+      "saved_at": "2026-11-13T20:34:56.300000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m7a8bycrktfm7wm9v0xpf79a",
+      "title": "Claude reverse engineered my 32-year-old Jeep. Then it started controlling it.",
+      "author": "Muhammad Zulali",
+      "source_url": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
+      "published_date": "2026-11-10",
+      "saved_at": "2026-11-13T16:18:32.407000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": "I have been slowly getting back into hardware and was thinking about doing stuff like this. A peripheral that can convert real-world data into a computer-friendly format would instantly unlock the ability to debug and fix it with coding agents."
+    },
+    {
+      "id": "01m79t3rr7vdn82n4d3f9v05zp",
+      "title": "There Is No Moat",
+      "author": "Substack",
+      "source_url": "https://unchartedterritories.tomaspueyo.com/p/there-is-no-moat?utm_source=email",
+      "published_date": null,
+      "saved_at": "2026-11-13T12:09:24.423000+05:30",
+      "reading_time": "20 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01m789pxr2w1qzmttcks52111y",
       "title": "Truth-seekers take feedback from nature (planes have to fly), free...",
