@@ -3,7 +3,7 @@ title: Confessions of an Economic Hit Man
 date: 2026-11-09T08:59:11Z
 draft: false
 summary: Review of "Confessions of an Economic Hit Man" by John Perkins.
-status: Want to Read
+status: Reading
 bookMeta:
   author: John Perkins
   published: 2004
