@@ -2,5 +2,9 @@
 title: "Indonesia"
 date: 2026-11-11T00:00:00+05:30
 map: "map.svg"
-summary: "My visits to Indonesia."
+summary: "Indonesia looks like India."
 ---
+
+I was in Surakarta, and on my way from the airport, I remember thinking this looks just like Coimbatore. The people looked a bit different, but the roads, the flora, the buildings—everything was Tamil Nadu-coded.
+
+I was the only person in Surakarta without a scooter. I'm not kidding, and people were staring while I walked to places. Everyone else was glued to their scooters even at storefronts. I know they weren't staring because of my looks; some people I met told me I looked Indonesian.
