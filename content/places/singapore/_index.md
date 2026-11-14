@@ -1,6 +1,6 @@
 ---
 title: "Singapore"
-date: 2023-02-02T00:00:00+05:30
+date: 2023-02-02T16:49:39+08:00
 map: "map.svg"
 summary: "I want to live here."
 ---

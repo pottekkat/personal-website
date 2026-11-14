@@ -1,6 +1,6 @@
 ---
 title: "United Kingdom"
-date: 2024-09-16T00:00:00+05:30
+date: 2024-09-16T19:39:39+01:00
 map: "map.svg"
 summary: "Expensive."
 ---

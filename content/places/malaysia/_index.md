@@ -1,6 +1,6 @@
 ---
 title: "Malaysia"
-date: 2023-07-01T00:00:00+05:30
+date: 2023-07-01T08:26:42+08:00
 map: "map.svg"
 summary: "Malaysianized Indian food."
 ---

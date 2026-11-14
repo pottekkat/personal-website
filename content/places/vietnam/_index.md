@@ -1,6 +1,6 @@
 ---
 title: Vietnam
-date: 2024-02-05T18:30:00Z
+date: 2024-02-06T12:21:37+07:00
 map: map.svg
 summary: Vietnam surprised me.
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Austria"
-date: 2024-06-02T00:00:00+05:30
+date: 2024-06-02T08:27:13+02:00
 map: "map.svg"
 summary: "People just live here?"
 ---

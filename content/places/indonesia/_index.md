@@ -1,6 +1,6 @@
 ---
 title: "Indonesia"
-date: 2023-10-07T00:00:00+05:30
+date: 2023-10-07T11:50:39+07:00
 map: "map.svg"
 summary: "Indonesia looks like India."
 ---

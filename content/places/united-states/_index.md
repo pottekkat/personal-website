@@ -1,6 +1,6 @@
 ---
 title: "United States"
-date: 2026-03-21T00:00:00+05:30
+date: 2026-03-21T15:28:22-07:00
 map: "map.svg"
 summary: "America!"
 ---

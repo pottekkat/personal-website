@@ -1,6 +1,6 @@
 ---
 title: "Sri Lanka"
-date: 2014-12-21T00:00:00+05:30
+date: 2014-12-21T10:41:59+05:30
 map: "map.svg"
 summary: "A better Kerala?"
 ---

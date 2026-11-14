@@ -1,6 +1,6 @@
 ---
 title: "Bahrain"
-date: 2023-03-05T00:00:00+05:30
+date: 2023-03-05T13:56:10+03:00
 map: "map.svg"
 summary: "I like cars going fast."
 ---
