@@ -1,0 +1,101 @@
+/* Styles for /places/ (layouts/places/). In css/extended/ for the same reason
+   as books.css: the maps are sized on the first paint.
+
+   The city maps (scripts/places/city-map.mjs) paint each layer with one of
+   the --map-… colours below, so they switch with the light and dark theme.
+   A map sits in .entry-cover like a post's cover image: the same 1280×650
+   rectangle, on a flat land colour. */
+.place-map {
+    --map-land: rgb(243, 239, 232);
+    --map-urban: rgb(235, 230, 221);
+    --map-park: rgb(214, 227, 198);
+    --map-water: rgb(185, 209, 223);
+    --map-building: rgb(221, 214, 202);
+    --map-casing: rgb(210, 202, 189);
+    --map-road: rgb(255, 253, 249);
+    --map-major: rgb(246, 223, 166);
+    --map-rail: rgb(163, 154, 140);
+    aspect-ratio: 1280 / 650;
+    background: var(--map-land);
+}
+
+.dark .place-map {
+    --map-land: rgb(26, 26, 26);
+    --map-urban: rgb(31, 31, 31);
+    --map-park: rgb(30, 42, 29);
+    --map-water: rgb(23, 38, 51);
+    --map-building: rgb(42, 42, 42);
+    --map-casing: rgb(17, 17, 17);
+    --map-road: rgb(72, 72, 72);
+    --map-major: rgb(118, 99, 62);
+    --map-rail: rgb(85, 85, 85);
+}
+
+.place-map svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* The list: a grid of 4:3 map tiles. The text sits on the map, 16px in,
+   and each letter is outlined in the land colour (the stroke is painted
+   under the fill) so it reads over busy roads and water in both themes. */
+.places-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: var(--gap);
+}
+
+.place-tile {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    transition: transform 0.1s;
+    border: 1px solid var(--border);
+}
+
+/* Over the whole tile, so a map from <noscript> lands in the same place. */
+.place-tile svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.place-tile:active {
+    transform: scale(0.96);
+}
+
+.place-tile-text {
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    bottom: 14px;
+}
+
+.place-tile-text h2,
+.place-tile-text .entry-footer {
+    -webkit-text-stroke: 5px var(--map-land);
+    paint-order: stroke fill;
+}
+
+.place-tile-text h2 {
+    font-size: 20px;
+    line-height: 1.2;
+    color: rgb(43, 43, 43);
+    -webkit-text-stroke-width: 7px;
+}
+
+.dark .place-tile-text h2 {
+    color: var(--primary);
+}
+
+.place-tile-text .entry-footer {
+    margin-top: 2px;
+    color: var(--content);
+}
+
+@media screen and (max-width: 500px) {
+    .places-grid {
+        grid-template-columns: 1fr;
+    }
+}

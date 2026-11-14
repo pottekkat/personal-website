@@ -23,6 +23,8 @@ cover:
   caption: I took this photo.
   relative: false
 fmContentType: Post (default)
+places:
+  - "united-states"
 ---
 
 I spent a month and a half in San Francisco. Here are some observations from my time here.

@@ -118,6 +118,27 @@
         "Thriller",
         "Travel"
       ]
+    },
+    {
+      "id": "places",
+      "options": [
+        "austria",
+        "bahrain",
+        "china",
+        "hungary",
+        "indonesia",
+        "ireland",
+        "malaysia",
+        "maldives",
+        "singapore",
+        "slovakia",
+        "sri-lanka",
+        "taiwan",
+        "united-arab-emirates",
+        "united-kingdom",
+        "united-states",
+        "vietnam"
+      ]
     }
   ],
   "frontMatter.taxonomy.contentTypes": [
@@ -208,6 +229,12 @@
           "taxonomyId": "series"
         },
         {
+          "title": "Places",
+          "name": "places",
+          "type": "taxonomy",
+          "taxonomyId": "places"
+        },
+        {
           "title": "Aliases",
           "name": "aliases",
           "type": "list"
@@ -279,6 +306,12 @@
           "title": "Summary",
           "name": "summary",
           "type": "string"
+        },
+        {
+          "title": "Places",
+          "name": "places",
+          "type": "taxonomy",
+          "taxonomyId": "places"
         }
       ]
     },
@@ -324,6 +357,12 @@
           "title": "Summary",
           "name": "summary",
           "type": "string"
+        },
+        {
+          "title": "Places",
+          "name": "places",
+          "type": "taxonomy",
+          "taxonomyId": "places"
         }
       ]
     },
@@ -436,6 +475,12 @@
           "type": "string"
         },
         {
+          "title": "Places",
+          "name": "places",
+          "type": "taxonomy",
+          "taxonomyId": "places"
+        },
+        {
           "title": "Reading Status",
           "name": "status",
           "type": "choice",
@@ -502,6 +547,39 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Place",
+      "pageBundle": true,
+      "filePrefix": "",
+      "slugTemplate": "{{title}}",
+      "fields": [
+        {
+          "title": "Place",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Date (when I was there)",
+          "name": "date",
+          "type": "datetime",
+          "dateFormat": "yyyy-MM-dd'T'HH:mm:ssXXX",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Map (drawn by the Draw map button)",
+          "name": "map",
+          "type": "image",
+          "isPreviewImage": true
+        },
+        {
+          "title": "Summary",
+          "name": "summary",
+          "type": "string"
+        }
+      ],
+      "defaultFileName": "_index"
     }
   ],
   "frontMatter.content.pageFolders": [
@@ -570,6 +648,14 @@
       "excludePaths": [
         "_*.*"
       ]
+    },
+    {
+      "title": "Places",
+      "path": "[[workspace]]/content/places",
+      "previewPath": "places",
+      "contentTypes": [
+        "Place"
+      ]
     }
   ],
   "frontMatter.content.filters": [
@@ -594,7 +680,19 @@
       "script": "./scripts/frontmatter/book-metadata.js",
       "command": "node",
       "type": "content",
-      "contentTypes": ["Book Review"]
+      "contentTypes": [
+        "Book Review"
+      ]
+    },
+    {
+      "id": "place-map",
+      "title": "Draw map",
+      "script": "./scripts/frontmatter/place-map.js",
+      "command": "node",
+      "type": "content",
+      "contentTypes": [
+        "Place"
+      ]
     }
   ],
   "frontMatter.extensibility.scripts": [
@@ -670,6 +768,18 @@
           "title": "HTML",
           "type": "string",
           "default": "FM_SELECTED_TEXT"
+        }
+      ]
+    },
+    "Place": {
+      "description": "Link to a place page with its flag.",
+      "body": "{{< place \"[[&slug]]\" >}}",
+      "fields": [
+        {
+          "name": "slug",
+          "title": "Place folder (like singapore)",
+          "type": "string",
+          "single": true
         }
       ]
     },

@@ -23,6 +23,8 @@ cover:
   caption: I never realized just how much I use my hands while speaking until I watched my talk recordings.
   relative: false
 fmContentType: Post (default)
+places:
+  - "taiwan"
 ---
 
 There's no shortage of advice on how to give a great talk. You'll find videos, Twitter threads, ChatGPT prompts, and even entire books. Most of it is solid. But in this post, I'm skipping the usual tips to focus on stuff nobody talks about. The things that only become obvious after you've given—and, more importantly, _sat through_—enough talks.

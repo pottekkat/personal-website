@@ -5,6 +5,8 @@ draft: false
 ShowToc: true
 TocOpen: true
 summary: "Greetings from Hanoi!"
+places:
+  - "vietnam"
 ---
 
 Hello from Hanoi!

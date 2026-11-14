@@ -1,0 +1,88 @@
+{{- define "main" }}
+
+{{- /* Each place is a term page of the `places` taxonomy, so .Pages here
+   lists the places, not the posts. */}}
+{{- $pages := .Pages.ByTitle }}
+
+{{- /* Last updated is the newest change to a place or to a post that lists
+   one, like the bookshelf's, so tagging a new post moves it too. */}}
+{{- $all := $pages }}
+{{- range $pages }}{{ $all = $all | append .Pages }}{{ end }}
+{{- $updated := "" }}
+{{- range first 1 $all.ByLastmod.Reverse }}
+  {{- with .Lastmod }}{{ if not .IsZero }}
+  {{- $updated = printf "Last updated at %s, %s %s" (.Format "3:04 PM") (humanize .Day) (.Format "January 2006") }}
+  {{- end }}{{ end }}
+{{- end }}
+
+<header class="page-header">
+  {{- if (.Param "ShowBreadCrumbsInList") -}}
+  {{- partial "breadcrumbs.html" . }}
+  {{- end -}}
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}
+  <div class="post-description">{{ . }}</div>
+  {{- end }}
+</header>
+{{- with $updated }}
+<div class="last-run">{{ . }}</div>
+{{- end }}
+
+{{- with .Content }}
+<div class="post-content">
+  {{- . }}
+</div>
+{{- end }}
+
+{{- /* A grid of map tiles, two across, one on phones. The title and post
+   count sit on the map, outlined in the map's land colour so they read over
+   roads and water. A place without a map yet shows a plain tile. */}}
+<div class="places-grid">
+  {{- range $i, $_ := $pages }}
+  <article class="place-map place-tile">
+    {{- /* <use> draws the published map.svg instead of inlining it, so the
+       page stays small, and the map still takes its colour from the theme.
+       `slice` crops the wide map to fill the 4:3 tile.
+
+       Browsers fetch every <use> file at once and have no loading="lazy" for
+       it, so like the bookshelf's covers only the first row loads up front.
+       The rest wait in data-href for the script below; <noscript> keeps them
+       showing without JavaScript. */}}
+    {{- with .Resources.Get "map.svg" }}
+    {{- $svg := `<svg viewBox="0 0 640 325" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use %s="%s#map"/></svg>` }}
+    {{- if lt $i 2 }}
+    {{ printf $svg "href" .RelPermalink | safeHTML }}
+    {{- else }}
+    {{ printf $svg "data-href" .RelPermalink | safeHTML }}
+    <noscript>{{ printf $svg "href" .RelPermalink | safeHTML }}</noscript>
+    {{- end }}
+    {{- end }}
+    <div class="place-tile-text">
+      <h2>{{ .Title }}</h2>
+      {{- with len .Pages }}
+      <footer class="entry-footer">{{ . }} post{{ if gt . 1 }}s{{ end }}</footer>
+      {{- end }}
+    </div>
+    <a class="entry-link" aria-label="place link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  </article>
+  {{- end }}
+</div>
+
+<script>
+(() => {
+  const load = (use) => use.setAttribute('href', use.dataset.href);
+  const waiting = document.querySelectorAll('.places-grid use[data-href]');
+  if (!('IntersectionObserver' in window)) return waiting.forEach(load);
+  // A few hundred pixels early, so the map is there by the time it scrolls in.
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (!e.isIntersecting) return;
+      io.unobserve(e.target);
+      load(e.target.querySelector('use'));
+    });
+  }, { rootMargin: '400px 0px' });
+  waiting.forEach((use) => io.observe(use.parentNode));
+})();
+</script>
+
+{{- end }}{{/* end main */}}

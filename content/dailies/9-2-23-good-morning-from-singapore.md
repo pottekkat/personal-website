@@ -3,6 +3,8 @@ title: "#241 Good Morning From Singapore!"
 date: 2023-02-09T07:27:17+08:00
 draft: false
 summary: "I'm in Singapore for a week!"
+places:
+  - "singapore"
 ---
 
 Good morning from Singapore!

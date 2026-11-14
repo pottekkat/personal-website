@@ -1,0 +1,71 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title">
+      {{- .Title }}
+      {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+    </h1>
+    {{- with .Params.summary }}
+    <div class="post-description">
+      {{ . }}
+    </div>
+    {{- end }}
+  </header>
+
+  {{- /* The map from scripts/places/city-map.mjs, coloured by the --map-…
+     variables in css/extended/places.css so it follows the theme. */}}
+  {{- with .Resources.Get "map.svg" }}
+  {{- /* The map script saves the city it shows on the <svg> as data-city. */}}
+  {{- $city := "" }}
+  {{- with findRESubmatch `data-city="([^"]+)"` .Content 1 }}
+  {{- $city = index . 0 1 | htmlUnescape }}
+  {{- end }}
+  {{- /* <use> instead of inlining the map keeps the page small, and the
+     browser already has map.svg cached if it came from /places/. */}}
+  <figure class="entry-cover">
+    <div class="place-map">
+      <svg viewBox="0 0 640 325" role="img" aria-label="Map of {{ $city | default $.Title }}"><use href="{{ .RelPermalink }}#map"/></svg>
+    </div>
+    <p>{{ with $city }}{{ . }} {{ end }}© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a>
+    </p>
+  </figure>
+  {{- end }}
+
+  {{- with .Content }}
+  <div class="post-content">
+    {{- if not ($.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" . -}}
+    {{- else }}{{ . }}{{ end }}
+  </div>
+  {{- end }}
+
+  {{- /* Posts, dailies, newsletters and book reviews that list this place in
+     their `places` front matter, newest first, like the archives. */}}
+  {{- $posts := .Pages.ByDate.Reverse }}
+  {{- with $posts }}
+  <div class="archive-year">
+    <h2 class="archive-year-header">Posts<sup class="archive-count">&nbsp;&nbsp;{{ len . }}</sup></h2>
+    <div class="archive-posts">
+      {{- range . }}
+      <div class="archive-entry">
+        <h3 class="archive-entry-title">{{ .Title | markdownify }}</h3>
+        <div class="archive-meta">
+          {{- partial "post_meta.html" . -}}
+        </div>
+        <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+      </div>
+      {{- end }}
+    </div>
+  </div>
+  {{- end }}
+
+  <footer class="post-footer">
+    {{- if (.Param "ShowPostNavLinks") }}
+    {{- partial "place_nav_links.html" . }}
+    {{- end }}
+  </footer>
+</article>
+
+{{- end }}{{/* end main */}}

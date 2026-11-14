@@ -22,6 +22,8 @@ cover:
   caption: Autonomous driving is ubiquitous in SF. It feels criminal to see people take it for granted.
   relative: false
 fmContentType: Post (default)
+places:
+  - "united-states"
 ---
 
 We’re in San Francisco visiting my colleagues at our lovely office that overlooks the city. On Sunday, we took a Waymo for the first time.
