@@ -1,6 +1,6 @@
 ---
 title: "Taiwan"
-date: 2026-11-11T00:00:00+05:30
+date: 2023-08-01T00:00:00+05:30
 map: "map.svg"
 summary: "As close to ideal as you can be."
 ---

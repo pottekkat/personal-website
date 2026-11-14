@@ -1,6 +1,6 @@
 ---
 title: "United Arab Emirates"
-date: 2026-11-11T00:00:00+05:30
+date: 2024-06-01T00:00:00+05:30
 map: "map.svg"
 summary: "I understand the appeal."
 ---

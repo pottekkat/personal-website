@@ -1,6 +1,6 @@
 ---
 title: "Slovakia"
-date: 2026-11-11T00:00:00+05:30
+date: 2024-06-03T00:00:00+05:30
 map: "map.svg"
 summary: "A village masquerading as a city."
 ---

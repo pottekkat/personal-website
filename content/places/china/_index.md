@@ -1,6 +1,6 @@
 ---
 title: "China"
-date: 2026-11-11T00:00:00+05:30
+date: 2010-05-11T00:00:00+05:30
 map: "map.svg"
 summary: "I was very young."
 ---

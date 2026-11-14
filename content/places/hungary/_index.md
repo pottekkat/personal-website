@@ -1,6 +1,6 @@
 ---
 title: "Hungary"
-date: 2026-11-11T00:00:00+05:30
+date: 2024-06-05T00:00:00+05:30
 map: "map.svg"
 summary: "A day in Budapest."
 ---
