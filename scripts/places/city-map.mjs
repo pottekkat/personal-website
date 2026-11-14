@@ -62,7 +62,7 @@ const escape = (t) => t.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/
 // ---------------------------------------------------------------- front matter
 
 function frontMatter(text) {
-  const m = text.match(/^---\n([\s\S]*?)\n---/);
+  const m = text.match(/^---\r?\n([\s\S]*?)\r?\n---/);
   if (!m) throw new Error("no YAML front matter");
   const get = (k) => {
     const r = m[1].match(new RegExp(`^${k}:[ \\t]*(.*)$`, "m"));
@@ -112,8 +112,17 @@ async function geocode(q) {
 
 // ---------------------------------------------------------------- data
 
+// Overpass answers a query that ran out of time or memory with a 200 and a
+// `remark`, and whatever it had found so far. That is not a map to keep.
+const failure = (json) =>
+  !Array.isArray(json?.elements) ? "no elements" : /error/i.test(json.remark || "") ? json.remark : "";
+
 async function overpass(bb, file, refetch) {
-  if (!refetch && existsSync(file)) return JSON.parse(await readFile(file, "utf8"));
+  if (!refetch && existsSync(file)) {
+    const json = JSON.parse(await readFile(file, "utf8"));
+    if (!failure(json)) return json;
+    log(`cached data is from a failed query; fetching again`);
+  }
   const box = `(${bb.s},${bb.w},${bb.n},${bb.e})`;
   const notTunnel = `[tunnel!~"^(yes|building_passage|culvert)$"]`;
   const q = `[out:json][timeout:180];(
@@ -138,6 +147,8 @@ async function overpass(bb, file, refetch) {
       });
       if (!res.ok) throw new Error(`${res.status}`);
       const json = await res.json();
+      const why = failure(json);
+      if (why) throw new Error(why);
       await mkdir(dirname(file), { recursive: true });
       await writeFile(file, JSON.stringify(json));
       return json;
@@ -469,7 +480,8 @@ async function draw(dir, refetch) {
   svg.push("</g>", "</svg>");
   const out = svg.join("\n") + "\n";
   await writeFile(join(dir, "map.svg"), out);
-  shareImage(out, join(dir, "cover.jpg"));
+  // Without the cover, the map is fine but link previews are missing or stale.
+  if (!shareImage(out, join(dir, "cover.jpg"))) process.exitCode = 1;
   log(`${join(dir, "map.svg").replace(ROOT + "/", "")}: ${(out.length / 1024).toFixed(1)} KB` +
     ` (${osm.length} OSM objects, ${km} km wide)`);
   return { map: "map.svg" };
@@ -489,8 +501,10 @@ function shareImage(svg, file) {
     execFileSync("rsvg-convert", ["-w", String(W * 2), "-h", String(H * 2), "-o", png], { input: flat });
     execFileSync("magick", [png, "-strip", "-quality", "82", file]);
     rmSync(png);
+    return true;
   } catch (e) {
     log(`${file.replace(ROOT + "/", "")}: not written (${e.message.split("\n")[0]})`);
+    return false;
   }
 }
 

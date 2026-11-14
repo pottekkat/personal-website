@@ -30,7 +30,14 @@ try {
     { cwd: workspacePath, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] },
   );
 } catch (e) {
-  fail(`Could not draw the map: ${(e.stderr || e.message || "").toString().trim()}`);
+  const err = (e.stderr || e.message || "").toString().trim();
+  // The map script exits non-zero when map.svg was drawn but cover.jpg, the
+  // link preview, could not be made.
+  const cover = err.split("\n").find((l) => l.includes("cover.jpg: not written"));
+  if (cover) {
+    fail(`The map is drawn, but ${cover.trim()}. Install rsvg-convert and ImageMagick (brew install librsvg imagemagick), then press Draw map again.`);
+  }
+  fail(`Could not draw the map: ${err}`);
 }
 
 ContentScript.updateFrontMatter({ map: "map.svg" });
