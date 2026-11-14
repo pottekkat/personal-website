@@ -119,9 +119,13 @@ const failure = (json) =>
 
 async function overpass(bb, file, refetch) {
   if (!refetch && existsSync(file)) {
-    const json = JSON.parse(await readFile(file, "utf8"));
-    if (!failure(json)) return json;
-    log(`cached data is from a failed query; fetching again`);
+    // A run stopped mid-write leaves a truncated file; fetch again then too.
+    let json;
+    try {
+      json = JSON.parse(await readFile(file, "utf8"));
+    } catch {}
+    if (json && !failure(json)) return json;
+    log(`cached data is ${json ? "from a failed query" : "unreadable"}; fetching again`);
   }
   const box = `(${bb.s},${bb.w},${bb.n},${bb.e})`;
   const notTunnel = `[tunnel!~"^(yes|building_passage|culvert)$"]`;
