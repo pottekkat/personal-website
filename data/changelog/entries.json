@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-11-13T23:16:46+05:30",
+  "lastUpdated": "2026-11-14T17:51:59+05:30",
   "entries": [
+    {
+      "hash": "6ed02b1",
+      "date": "2026-11-14T17:16:35+05:30",
+      "message": "Refetch map data if cached OSM data is unreadable."
+    },
+    {
+      "hash": "f970837",
+      "date": "2026-11-14T16:43:38+05:30",
+      "message": "Handle CRLF, refetch failed results, and report missing cover."
+    },
+    {
+      "hash": "1c90748",
+      "date": "2026-11-14T16:34:26+05:30",
+      "message": "Corrected spelling of Sri Lanka in the content."
+    },
+    {
+      "hash": "c2ffe1c",
+      "date": "2026-11-14T16:25:43+05:30",
+      "message": "Updated dates for various country entries."
+    },
+    {
+      "hash": "0fab2c5",
+      "date": "2026-11-14T15:52:23+05:30",
+      "message": "Revised dates for multiple locations."
+    },
+    {
+      "hash": "d1b78b3",
+      "date": "2026-11-14T15:35:22+05:30",
+      "message": "Added detailed summaries for several countries."
+    },
     {
       "hash": "9635b73",
       "date": "2026-11-13T23:14:47+05:30",
