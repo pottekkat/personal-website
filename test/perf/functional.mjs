@@ -19,10 +19,8 @@ function record(name, ok, detail = '') {
 const browser = await chromium.launch({ channel: 'chrome', headless: true });
 const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
 
-// Plausible is proxied by a Netlify redirect that the local static server does
-// not implement, so this one 404 is an artefact of the harness, not the site.
-const EXPECTED_MISSING = '/misc/js/script.js';
-
+// Plausible loads only on the production host (partials/analytics.html), so a
+// local server requests nothing from /misc/ and every 4xx here is real.
 async function open(url) {
   const page = await ctx.newPage();
   const errors = [];
@@ -30,10 +28,10 @@ async function open(url) {
   page.on('pageerror', (e) => errors.push(String(e)));
   page.on('console', (m) => m.type() === 'error' && errors.push(m.text()));
   page.on('response', (r) => {
-    if (r.status() >= 400 && !r.url().endsWith(EXPECTED_MISSING)) missing.push(r.status() + ' ' + r.url());
+    if (r.status() >= 400) missing.push(r.status() + ' ' + r.url());
   });
   await page.goto(ORIGIN + url, { waitUntil: 'load' });
-  // Drop the console noise the expected 404 itself produces.
+  // A failed request is reported once, through `missing`, not twice.
   const realErrors = () => errors.filter((e) => !/Failed to load resource/.test(e)).concat(missing);
   return { page, errors: realErrors };
 }

@@ -161,6 +161,8 @@ sInput.onkeyup = function (e) {
       resultsAvailable = false;
       resList.innerHTML = "";
     }
+    // For assets/js/analytics.js: only the count, never the query.
+    sInput.dispatchEvent(new CustomEvent("searchresults", { detail: { count: results.length } }));
   }
 };
 

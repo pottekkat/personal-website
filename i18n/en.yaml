@@ -52,6 +52,3 @@
 
 - id: hiring
   translation: "Hiring"
-
-- id: plausible_gitstar
-  translation: "*** Please, consider leaving a star on Github if you like this plausible-hugo module.\n Remove this warning by adding 'gitstar = false' in your plausible config"

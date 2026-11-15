@@ -34,6 +34,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const subscribeButton = form.querySelector('.subscribe-button');
     const subscribeMessage = document.querySelector('.subscribe-message');
 
+    // Plausible event with the outcome, see docs/analytics.md. Never send
+    // data.msg: Mailchimp puts the email address in it.
+    function track(result) {
+        if (window.plausible) plausible('Newsletter Signup', { props: { result: result } });
+    }
+
     form.addEventListener('submit', function(e) {
         e.preventDefault();
 
@@ -65,6 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             if (data.result === 'success') {
+                track('success');
                 subscribeButton.value = 'Subscribed!';
                 subscribeMessage.innerHTML =
                     "Thank you for subscribing! Please check your inbox for a confirmation email and add me in your contacts to not miss an issue! <a target='_blank' href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fnavendu.me&text=I%20just%20subscribed%20to%20@realPottekkat%27s%20blog%21%20Check%20it%20out%21&hashtags=OpenSource%2CDevelopers%2CDEVCommunity'>Tweet about it</a>!";
@@ -72,6 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     el.disabled = true;
                 });
             } else {
+                track(/already subscribed/i.test(data.msg || '') ? 'already subscribed' : 'error');
                 subscribeButton.value = 'Retry?';
                 subscribeButton.disabled = false;
                 subscribeButton.removeAttribute('aria-disabled');
@@ -101,6 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             // Re-enable button and show error
+            track('timeout');
             subscribeButton.value = 'Retry?';
             subscribeButton.disabled = false;
             subscribeButton.removeAttribute('aria-disabled');
@@ -117,6 +126,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 scriptElement.parentNode.removeChild(scriptElement);
             }
 
+            track('network error');
             subscribeButton.value = 'Retry?';
             subscribeButton.disabled = false;
             subscribeButton.removeAttribute('aria-disabled');
