@@ -3,7 +3,7 @@ title: Accelerando
 date: 2026-10-28T11:32:41Z
 draft: false
 summary: Review of "Accelerando" by Charles Stross.
-status: Want to Read
+status: Reading
 bookMeta:
   author: Charles Stross
   published: 2005
