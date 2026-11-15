@@ -1,0 +1,39 @@
+{{- /* Plausible Analytics. Cookie-free and collects no personal data, so there
+       is no consent banner (see content/stats.md).
+
+       It runs only when params.plausible.enable is set, only in production
+       builds, and only on params.plausible.host (not Netlify deploy previews,
+       the gh-pages mirror or localhost). The host is set in config, not taken
+       from baseURL, because deploy previews are built with their own baseURL. The script and its events go through
+       this site (/misc/, proxied by Netlify in netlify.toml), so ad blockers
+       that block plausible.io still count visits. The site's domain is baked
+       into the script, so a new script ID only needs netlify.toml changed.
+
+       Recorded by the Plausible script itself:
+       - pageviews, scroll depth and time on page, with "section" and "theme"
+         properties on every event
+       - clicks on links to other sites (Outbound Link: Click)
+       - clicks on links to downloadable files (File Download)
+       - form submissions (Form: Submission)
+       - missing pages (404)
+       Everything else (newsletter, search, copy code and so on) is sent from
+       assets/js/analytics.js and the form scripts; the full list is in
+       docs/analytics.md.
+
+       To keep your own visits out, run localStorage.plausible_ignore="true"
+       in the browser console on any navendu.me page. */ -}}
+{{- with site.Params.plausible }}{{ if and .enable hugo.IsProduction }}
+{{- $events := resources.Get "js/analytics.js" | minify | fingerprint }}
+{{- $section := $.Section | default $.Kind }}
+{{- /* The theme property mirrors the logic in partials/header.html: a saved
+       choice wins, otherwise the site default. */ -}}
+{{- /* transformRequest drops clicks on the webmention "Check status" link
+       (partials/webmentions.html), since its URL identifies one submission.
+       It also strips the fragment and every query parameter except the
+       campaign ones Plausible reads (utm_*, ref, source) from the page URL,
+       and the whole query from the referrer, so a link carrying someone's
+       data in its query string never leaves the browser. */ -}}
+<script>if(location.hostname==={{ .host }}){[{{ .script }},{{ $events.RelPermalink }}].forEach(function(u){var s=document.createElement("script");s.async=!0;s.src=u;document.head.appendChild(s)});window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init({endpoint:{{ .endpoint }},outboundLinks:!0,fileDownloads:!0,formSubmissions:!0,transformRequest:function(r){if(r.p&&/^https:\/\/webmention\.io\//.test(r.p.url))return null;function c(u,k){try{var x=new URL(u),q=new URLSearchParams;if(k)x.searchParams.forEach(function(v,n){if(/^(utm_[a-z]+|ref|source)$/.test(n))q.append(n,v)});x.search=q.toString();x.hash="";return x.href}catch(e){return u}}r.u=c(r.u,1);if(r.r)r.r=c(r.r);return r},customProperties:function(){var t;try{t=localStorage.getItem("pref-theme")}catch(e){}if(t!=="dark"&&t!=="light")t={{ if eq site.Params.defaultTheme "light" }}"light"{{ else if eq site.Params.defaultTheme "dark" }}"dark"{{ else }}matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"{{ end }};return{section:{{ $section }},theme:t}}});
+{{- if eq $.Kind "404" }}plausible("404");{{ end -}}
+}</script>
+{{- end }}{{ end -}}

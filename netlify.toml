@@ -43,9 +43,13 @@
   from = "/tfjs-object-detection"
   to = "https://github.com/pottekkat/tfjs-object-detection"
 
+# Plausible Analytics, proxied through this site so ad blockers that block
+# plausible.io still count visits (layouts/partials/analytics.html). The
+# script ID comes from the site's installation page in Plausible and has the
+# domain baked in.
 [[redirects]]
-  from = "/misc/js/script.js"
-  to = "https://plausible.io/js/script.js"
+  from = "/misc/js/pa.js"
+  to = "https://plausible.io/js/pa-Et2zqzH2rEieB1YY3eieK.js"
   status = 200
 
 [[redirects]]

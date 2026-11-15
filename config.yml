@@ -79,15 +79,14 @@ params:
     dailySections: ['dailies']
     newsletterSections: ['newsletters']
 
+    # Plausible Analytics, see layouts/partials/analytics.html. Both paths are
+    # proxied to plausible.io by netlify.toml. Analytics runs only on `host`, not
+    # on deploy previews, which are built with their own baseURL.
     plausible:
       enable: true
-      domain: "navendu.me"
-      proxy_netlify: true
-      outbound_link: true
-      gitstar: false
-    # Was set by the plausible-hugo theme config before it was vendored.
-    plausible_version:
-      id: "1.22.0"
+      host: "navendu.me"
+      script: "/misc/js/pa.js"
+      endpoint: "/misc/api/event"
 
     ShowReadingTime: true
     ShowLastMod: true

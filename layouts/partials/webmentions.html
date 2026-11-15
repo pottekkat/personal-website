@@ -172,6 +172,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const messageDiv = document.querySelector('.webmention-message');
     const sourceInput = form.querySelector('#webmention-source');
 
+    // Plausible event with the outcome, see docs/analytics.md.
+    function track(result) {
+        if (window.plausible) plausible('Webmention', { props: { result: result } });
+    }
+
     form.addEventListener('submit', function(e) {
         e.preventDefault();
 
@@ -195,6 +200,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         })
         .then(data => {
+            track('success');
             submitButton.value = 'Submitted!';
 
             let statusLink = '';
@@ -210,6 +216,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         })
         .catch(error => {
+            track('error');
             submitButton.value = 'Retry?';
             submitButton.disabled = false;
             submitButton.removeAttribute('aria-disabled');

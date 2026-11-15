@@ -158,6 +158,11 @@
     var STORE_KEY = "tab-selection";
 
     function label(btn) { return btn.textContent.trim(); }
+    // A reader picked a tab, by mouse or keyboard (not a restore or a synced
+    // group). assets/js/analytics.js listens for this.
+    function chosen(btn) {
+        btn.dispatchEvent(new CustomEvent("tabchosen", { bubbles: true, detail: { tab: label(btn) } }));
+    }
 
     function containers() {
         return Array.prototype.slice.call(document.querySelectorAll("[data-tabs]"));
@@ -199,6 +204,7 @@
             btn.addEventListener("click", function () {
                 activate(container, btn);
                 syncLabel(label(btn), container);
+                chosen(btn);
             });
             btn.addEventListener("keydown", function (e) {
                 var next;
@@ -211,6 +217,7 @@
                     activate(container, next);
                     syncLabel(label(next), container);
                     next.focus();
+                    chosen(next);
                 }
             });
         });

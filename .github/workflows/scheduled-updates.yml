@@ -30,6 +30,7 @@ jobs:
   update-stats:
     name: Update Stats
     needs: update-blogroll
+    if: always()  # Stats do not depend on the blogroll; run even if it fails
     uses: ./.github/workflows/stats-actions.yml
     secrets: inherit
 

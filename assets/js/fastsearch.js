@@ -80,7 +80,7 @@ function loadSearchIndex() {
           }
           fuse = new Fuse(data, options); // build the index from the json file
           // Someone may have typed while the index was still downloading.
-          if (sInput.value.trim()) sInput.onkeyup.call(sInput);
+          if (sInput.value.trim()) runSearch();
         }
       } else {
         indexRequested = false;
@@ -135,12 +135,12 @@ function reset() {
   sInput.focus(); // shift focus to input box
 }
 
-// execute search as each character is typed
-sInput.onkeyup = function (e) {
-  // run a search query (for "term") every time a letter is typed
-  // in the search box
+// Run the search whenever the text changes. "input" rather than keyup, so a
+// paste from the context menu, autofill, drag and drop or speech input also
+// searches, and keys that change nothing (arrows, Shift) do not re-run it.
+function runSearch() {
   if (fuse) {
-    const results = fuse.search(this.value.trim(), {
+    const results = fuse.search(sInput.value.trim(), {
       limit: params.fuseOpts.limit,
     }); // the actual query being run using fuse.js
     if (results.length !== 0) {
@@ -161,8 +161,11 @@ sInput.onkeyup = function (e) {
       resultsAvailable = false;
       resList.innerHTML = "";
     }
+    // For assets/js/analytics.js: only the count, never the query.
+    sInput.dispatchEvent(new CustomEvent("searchresults", { detail: { count: results.length } }));
   }
-};
+}
+sInput.addEventListener("input", runSearch);
 
 sInput.addEventListener("search", function (e) {
   // clicked on x
