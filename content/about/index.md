@@ -268,7 +268,7 @@ The only reason I haven't traveled more in the last few years is because my pass
 
 My European, American, and Singaporean friends have relentlessly heard me rant about this. I don't plan to stop because it is the most limiting thing in the modern world and probably one of the only reasons I envy people in rich countries with better passports.
 
-Still, I have traveled to all these countries, and I plan to keep traveling: {{< place "singapore" "🇸🇬" >}} {{< place "china" "🇨🇳" >}} {{< place "united-arab-emirates" "🇦🇪" >}} {{< place "sri-lanka" "🇱🇰" >}} {{< place "ireland" "🇮🇪" >}} {{< place "bahrain" "🇧🇭" >}} {{< place "malaysia" "🇲🇾" >}} {{< place "taiwan" "🇹🇼" >}} {{< place "indonesia" "🇮🇩" >}} {{< place "maldives" "🇲🇻" >}} {{< place "vietnam" "🇻🇳" >}} {{< place "austria" "🇦🇹" >}} {{< place "slovakia" "🇸🇰" >}} {{< place "hungary" "🇭🇺" >}} {{< place "united-kingdom" "🏴󠁧󠁢󠁥󠁮󠁧󠁿" >}} {{< place "united-kingdom" "🇬🇧" >}} {{< place "united-states" "🇺🇸" >}}
+Still, I have traveled to all these countries, and I plan to keep traveling: <span class="place-flags">{{< place "singapore" "🇸🇬" >}} {{< place "china" "🇨🇳" >}} {{< place "united-arab-emirates" "🇦🇪" >}} {{< place "sri-lanka" "🇱🇰" >}} {{< place "ireland" "🇮🇪" >}} {{< place "bahrain" "🇧🇭" >}} {{< place "malaysia" "🇲🇾" >}} {{< place "taiwan" "🇹🇼" >}} {{< place "indonesia" "🇮🇩" >}} {{< place "maldives" "🇲🇻" >}} {{< place "vietnam" "🇻🇳" >}} {{< place "austria" "🇦🇹" >}} {{< place "slovakia" "🇸🇰" >}} {{< place "hungary" "🇭🇺" >}} {{< place "united-kingdom" "🏴󠁧󠁢󠁥󠁮󠁧󠁿" >}} {{< place "united-kingdom" "🇬🇧" >}} {{< place "united-states" "🇺🇸" >}}</span>
 
 I have yet to go to a lot of places in India (next year 🤞). And I have traveled to all districts in Kerala.
 
