@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-11-15T18:44:43+05:30",
+  "lastUpdated": "2026-11-15T19:30:36+05:30",
   "entries": [
+    {
+      "hash": "f61cf3f",
+      "date": "2026-11-15T19:22:01+05:30",
+      "message": "Updated /about page to link flags to their respective places."
+    },
     {
       "hash": "100edc3",
       "date": "2026-11-15T18:34:07+05:30",
