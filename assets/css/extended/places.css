@@ -99,3 +99,9 @@
         grid-template-columns: 1fr;
     }
 }
+
+/* The flags on /about link to their places; a line under each flag reads as
+   clutter, not as a link. */
+.place-flags a {
+    box-shadow: none !important;
+}
