@@ -1,0 +1,8 @@
+<!-- script-src security for plausible.io script domain -->
+{{- $domain := "" -}}
+{{- if site.Params.plausible.custom_js_domain -}}
+   {{- $domain = site.Params.plausible.custom_js_domain -}}
+{{- else -}}
+   {{- $domain = default "plausible.io" site.Params.plausible.selfhosted_domain -}}
+{{- end -}}
+{{- printf "'unsafe-inline' https://%s" $domain | safeHTML -}}
