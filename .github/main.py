@@ -35,7 +35,7 @@ output_tz = pytz.timezone('Asia/Kolkata')
 
 input_tz_format = '%Y-%m-%dT%H:%M:%S'
 
-if runtime == "":
+if not runtime:
     runtime = datetime.now().strftime(input_tz_format)
     input_tz = pytz.timezone('Asia/Kolkata')
 
@@ -48,26 +48,25 @@ output_tz_format = f'%-I:%M %p, %-d{get_suffix(output_time)} %B %Y'
 
 output_time_str = output_time.strftime(output_tz_format)
 
-url = 'https://plausible.io/api/v1/stats/timeseries'
+# Plausible Stats API v2: https://plausible.io/docs/stats-api
+def query(**body):
+    response = requests.post(
+        'https://plausible.io/api/v2/query',
+        headers={'Authorization': f'Bearer {token}'},
+        json={'site_id': site, 'metrics': ['visitors'], **body},
+        timeout=60,
+    )
+    response.raise_for_status()
+    return response.json()
 
-params = {
-    'site_id': site,
-    'period': period,
-}
 
-headers = {
-    'Authorization': f'Bearer {token}',
-}
-
-response = requests.get(url, headers=headers, params=params)
-data = response.json()['results']
-
-data_mod = {}
-
-for item in data:
-    date = item['date']
-    visitors = item['visitors']
-    data_mod[date] = visitors
+# Visitors per day. Days without visitors are left out of the results, so
+# fill them in from the time labels to keep a point for every day.
+timeseries = query(date_range=period, dimensions=['time:day'],
+                   include={'time_labels': True})
+data_mod = {day: 0 for day in timeseries['meta']['time_labels']}
+for row in timeseries['results']:
+    data_mod[row['dimensions'][0]] = row['metrics'][0]
 
 dates, visitors = zip(*sorted(data_mod.items()))
 
@@ -77,22 +76,11 @@ dates = dates.astype('datetime64[D]')
 most_visitors_date, most_visitors_visitors = max(
     data_mod.items(), key=lambda x: x[1])
 
-url = 'https://plausible.io/api/v1/stats/breakdown'
+top_page = query(date_range=[most_visitors_date, most_visitors_date],
+                 dimensions=['event:page'], pagination={'limit': 1})['results'][0]
 
-params = {
-    'site_id': site,
-    'period': 'custom',
-    'date': f'{most_visitors_date},{most_visitors_date}',
-    'property': 'event:page',
-    'limit': '1'
-}
-
-response = requests.get(url, headers=headers, params=params)
-
-data = response.json()['results'][0]
-
-top_page_link = data['page']
-top_page_visitors = data['visitors']
+top_page_link = top_page['dimensions'][0]
+top_page_visitors = top_page['metrics'][0]
 
 plt.style.use('dark_background')
 plt.rcParams.update({'font.size': 12})
@@ -111,18 +99,9 @@ ax.xaxis.set_major_locator(plt.MaxNLocator(5))
 fig.savefig('./static/images/stats/monthly-visitors.png',
             dpi=300, bbox_inches='tight', transparent=False, facecolor="#161616e6")
 
-url = 'https://plausible.io/api/v1/stats/breakdown'
-
-params = {
-    'site_id': site,
-    'period': period,
-    'property': 'visit:source',
-    'limit': '5'
-}
-
-response = requests.get(url, headers=headers, params=params)
-
-data = response.json()['results']
+data = [{'source': row['dimensions'][0], 'visitors': row['metrics'][0]}
+        for row in query(date_range=period, dimensions=['visit:source'],
+                         pagination={'limit': 5})['results']]
 
 data_sorted = sorted(data, key=lambda x: x['visitors'], reverse=False)
 
@@ -143,17 +122,8 @@ ax.barh(sources, visitors)
 fig.savefig('./static/images/stats/monthly-sources.png',
             dpi=300, bbox_inches='tight', transparent=False, facecolor="#161616e6")
 
-url = 'https://plausible.io/api/v1/stats/breakdown'
-params = {
-    'site_id': site,
-    "period": period,
-    'property': 'visit:country',
-    'metrics': 'visitors'
-}
-
-response = requests.get(url, headers=headers, params=params)
-
-data = response.json()['results']
+data = [{'country': row['dimensions'][0], 'visitors': row['metrics'][0]}
+        for row in query(date_range=period, dimensions=['visit:country'])['results']]
 
 # Read the GeoJSON directly instead of gpd.read_file() so we don't need
 # fiona/GDAL (and the fragile Homebrew GDAL install) on the runner.
