@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-11-10T18:10:25.653977",
+  "lastUpdated": "2026-11-15T13:17:42.890711",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Dragonfly",
-      "postUrl": "https://xkcd.com/3322/",
-      "publishDate": "Mon, 09 Nov 2026 05:00:00 -0000"
+      "postTitle": "Ultimate Movie Series",
+      "postUrl": "https://xkcd.com/3324/",
+      "publishDate": "Fri, 13 Nov 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
-      "postUrl": "https://simonwillison.net/2026/Nov/10/muse-ember/",
-      "publishDate": "2026-11-10T07:28:21+00:00"
+      "postTitle": "datasette-llm 0.1a11",
+      "postUrl": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+      "publishDate": "2026-11-14T23:59:28+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,23 +130,23 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Go concurrency distilled",
-      "postUrl": "https://antonz.org/go-concurrency-distilled/",
-      "publishDate": "Sat, 26 Sep 2026 11:30:00 +0000"
+      "postTitle": "Probabilistic data structures in Go",
+      "postUrl": "https://antonz.org/probabilistic-data-structures/",
+      "publishDate": "Fri, 13 Nov 2026 15:00:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
       "blogUrl": "https://sheep.horse/",
-      "postTitle": "Parsing XML EXIF from .avif files (plus a rant)",
-      "postUrl": "https://sheep.horse/2026/6/parsing_xml_exif_from_.avif_files_%28plus_a_rant%29.html",
-      "publishDate": "Wed, 03 Jun 2026 16:11:37 +0000"
+      "postTitle": "Sossusvlei and Surroundings, Namibia",
+      "postUrl": "https://sheep.horse/2026/6/sossusvlei_and_surroundings%2C_namibia.html",
+      "publishDate": "Mon, 22 Jun 2026 20:29:55 +0000"
     },
     {
       "blogTitle": "AI as Normal Technology",
       "blogUrl": "https://www.normaltech.ai",
-      "postTitle": "New paper: Emerging trends in AI agent evaluation",
-      "postUrl": "https://www.normaltech.ai/p/new-paper-emerging-trends-in-ai-agent",
-      "publishDate": "Mon, 19 Oct 2026 20:11:55 GMT"
+      "postTitle": "The missing quadrant in responses to AI",
+      "postUrl": "https://www.normaltech.ai/p/the-missing-quadrant-in-responses",
+      "publishDate": "Tue, 10 Nov 2026 18:37:42 GMT"
     },
     {
       "blogTitle": "The Elysian",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "\"The Rationality of Economic Nationalism\" With Ian Fletcher",
-      "postUrl": "https://letter.palladiummag.com/p/the-rationality-of-economic-nationalism",
-      "publishDate": "Sat, 07 Nov 2026 18:27:07 GMT"
+      "postTitle": "A Movement Is Not Enough",
+      "postUrl": "https://letter.palladiummag.com/p/a-movement-is-not-enough",
+      "publishDate": "Fri, 13 Nov 2026 18:42:48 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
@@ -172,23 +172,23 @@
     {
       "blogTitle": "SatPost by Trung Phan",
       "blogUrl": "https://www.readtrung.com/",
-      "postTitle": "Anthropic S-1, the Claude Loop and Economics of Frontier AI",
-      "postUrl": "https://www.readtrung.com/p/anthropic-s-1-the-claude-loop-and",
-      "publishDate": "Sat, 31 Oct 2026 04:52:46 GMT"
+      "postTitle": "The $5B+ Cash Cow That Let Rockstar Take Its Time With GTA VI",
+      "postUrl": "https://www.readtrung.com/p/the-5b-cash-cow-that-let-rockstar",
+      "publishDate": "Fri, 13 Nov 2026 21:02:05 GMT"
     },
     {
       "blogTitle": "Uncharted Territories",
       "blogUrl": "https://unchartedterritories.tomaspueyo.com/",
-      "postTitle": "How I Use AI",
-      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/how-i-use-ai",
-      "publishDate": "Tue, 10 Nov 2026 15:29:39 GMT"
+      "postTitle": "There Is No Moat",
+      "postUrl": "https://unchartedterritories.tomaspueyo.com/p/there-is-no-moat",
+      "publishDate": "Thu, 12 Nov 2026 14:40:35 GMT"
     },
     {
       "blogTitle": "Anil Dash",
       "blogUrl": "https://www.anildash.com",
-      "postTitle": "Maybe it's time for lots of little indie AIs to take over",
-      "postUrl": "https://anildash.com/2026/06/15/indie-AI-takeover/",
-      "publishDate": "2026-06-15T00:00:00Z"
+      "postTitle": "How we\u2019ll fight the platform war against Big AI",
+      "postUrl": "https://anildash.com/2026/06/23/fight-ai-platform-war/",
+      "publishDate": "2026-06-23T00:00:00Z"
     },
     {
       "blogTitle": "Dylan Araps",
