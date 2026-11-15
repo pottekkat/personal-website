@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-11-15T19:30:36+05:30",
+  "lastUpdated": "2026-11-15T19:32:36+05:30",
   "entries": [
+    {
+      "hash": "81308cd",
+      "date": "2026-11-15T19:31:12+05:30",
+      "message": "Removed underline from links in flags on the about page."
+    },
     {
       "hash": "f61cf3f",
       "date": "2026-11-15T19:22:01+05:30",
