@@ -9,3 +9,5 @@ This is meant to be read-only, mostly.
 Still, if you like to use this style, I recommend using [Hugo PaperMod](https://github.com/adityatelange/hugo-PaperMod). My website uses a heavily personalized version of PaperMod that might translate poorly for others.
 
 **License**: [MIT License](https://github.com/pottekkat/personal-website/blob/hugo/LICENSE)
+
+Some files come from other projects and keep their own licenses. See [licenses/](licenses/README.md).

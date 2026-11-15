@@ -133,7 +133,20 @@
 {{- $reset := (resources.Get "css/core/reset.css") }}
 {{- $media := (resources.Get "css/core/zmedia.css") }}
 {{- $license_css := (resources.Get "css/core/license.css") }}
-{{- $common := (resources.Match "css/common/*.css") | resources.Concat "assets/css/common.css" }}
+{{- /* These four came from the PaperMod theme. resources.Match lists the
+     project's own files before a theme's, so they were concatenated last;
+     keep them last so the cascade order stays the same. */}}
+{{- $commonLast := slice "404.css" "archive.css" "profile-mode.css" "search.css" }}
+{{- $commonFiles := slice }}
+{{- range sort (resources.Match "css/common/*.css") "Name" }}
+    {{- if not (in $commonLast (path.Base .Name)) }}
+        {{- $commonFiles = $commonFiles | append . }}
+    {{- end }}
+{{- end }}
+{{- range $commonLast }}
+    {{- $commonFiles = $commonFiles | append (resources.Get (printf "css/common/%s" .)) }}
+{{- end }}
+{{- $common := $commonFiles | resources.Concat "assets/css/common.css" }}
 
 {{- /* include `an-old-hope` if hljs is on */}}
 {{- $isHLJSdisabled := (site.Params.assets.disableHLJS | default false) }}

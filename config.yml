@@ -1,7 +1,6 @@
 baseURL: https://navendu.me/
 languageCode: en-us
 title: "Navendu Pottekkat - The Open Source Absolutist"
-theme: ["PaperMod", "plausible-hugo"]
 
 pagination:
   pagerSize: 20
@@ -86,6 +85,9 @@ params:
       proxy_netlify: true
       outbound_link: true
       gitstar: false
+    # Was set by the plausible-hugo theme config before it was vendored.
+    plausible_version:
+      id: "1.22.0"
 
     ShowReadingTime: true
     ShowLastMod: true

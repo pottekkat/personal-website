@@ -12,7 +12,6 @@ jobs:
         uses: actions/checkout@v6
         with:
           ref: hugo
-          submodules: true
           fetch-depth: 0
 
       - name: Setup Hugo
