@@ -21,9 +21,9 @@ bookMeta:
 fmContentType: Book Review
 ---
 
-_**Collected Fictions**_ is every short story Borges wrote, in one book. I came across it in [a review of Invisible Cities](https://www.youtube.com/watch?v=OFylXgPDTas), a book I [loved](/books/invisible-cities/). The reviewer says his first review on the channel was of Borges, and that it should be your desert island book:
+_**Collected Fictions**_ is a collection of short stories by Borges. I came across it in [a review of Invisible Cities](https://www.youtube.com/watch?v=OFylXgPDTas), a book I [loved](/books/invisible-cities/). The reviewer says his first review on the channel was of Borges, and that it should be your desert island book:
 
-{{< blockquote author="Better Than Food" link="https://www.youtube.com/watch?v=OFylXgPDTas" title="Italo Calvino - Invisible Cities BOOK REVIEW" >}}
+{{< blockquote author="Better Than Food" link="<https://www.youtube.com/watch?v=OFylXgPDTas>" title="Italo Calvino - Invisible Cities BOOK REVIEW" >}}
 If you just have one desert island book, one book for the rest of your life, that's the one.
 {{< /blockquote >}}
 
