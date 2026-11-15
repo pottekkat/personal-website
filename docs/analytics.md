@@ -31,7 +31,8 @@ Every event carries two custom properties:
 - `section`: the Hugo section (`posts`, `books`, `dailies`, …; taxonomy
   pages give `categories` or `tags`), or the page kind outside sections
   (`home`, `page` for top-level pages like /stats/, `404`)
-- `theme`: `dark` or `light`, as the visitor sees the page
+- `theme`: `dark` or `light`, as the visitor sees the page when the event
+  is sent (`engagement` repeats the value from its pageview)
 
 Sent by the Plausible script:
 
@@ -51,7 +52,7 @@ Sent by this site:
 | `Newsletter Signup` | `result`: `success`, `already subscribed`, `error`, `timeout`, `network error` | Mailchimp answers |
 | `Webmention` | `result`: `success`, `error` | webmention.io answers |
 | `Search` | `results`: `found`, `none` | once per page, 1.5s after typing stops (2+ characters) |
-| `Search Result Click` | | a search result is clicked |
+| `Search Result Click` | | a search result is clicked (also middle-click) |
 | `Copy Code` | `language` | copy button on a code block |
 | `Code Run` | `result`: `ok`, `failed`; `sandbox` | runnable snippet (codapi) finishes |
 | `Tab Switch` | `tab` (its label) | tabs shortcode, by mouse or keyboard |
@@ -64,8 +65,9 @@ Sent by this site:
 Never sent: search text, email addresses, Mailchimp messages, webmention URLs
 (including the "Check status" link, dropped by `transformRequest` in the
 snippet), or anything else a visitor typed. Keep it that way when adding
-events. The script does send the full page URL and referrer, as every
-Plausible setup does; Plausible keeps only the path and UTM tags.
+events. Page URLs are sent without their fragment or any query parameter
+other than `utm_*`, `ref` and `source`, and referrers without their query
+(`transformRequest` in the snippet).
 
 ## Dashboard setup
 

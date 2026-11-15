@@ -86,6 +86,14 @@
     }
   });
 
+  // A search result opened in a new tab with the middle button fires
+  // auxclick, not click.
+  document.addEventListener("auxclick", function (e) {
+    if (e.button === 1 && e.target instanceof Element && e.target.closest("#searchResults a")) {
+      track("Search Result Click");
+    }
+  });
+
   // Tabs shortcode (partials/footer.html): mouse and keyboard.
   document.addEventListener("tabchosen", function (e) {
     track("Tab Switch", { tab: e.detail.tab });

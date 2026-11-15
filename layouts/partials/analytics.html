@@ -28,8 +28,12 @@
 {{- /* The theme property mirrors the logic in partials/header.html: a saved
        choice wins, otherwise the site default. */ -}}
 {{- /* transformRequest drops clicks on the webmention "Check status" link
-       (partials/webmentions.html): its URL identifies one submission. */ -}}
-<script>if(location.hostname==={{ .host }}){[{{ .script }},{{ $events.RelPermalink }}].forEach(function(u){var s=document.createElement("script");s.async=!0;s.src=u;document.head.appendChild(s)});window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init({endpoint:{{ .endpoint }},outboundLinks:!0,fileDownloads:!0,formSubmissions:!0,transformRequest:function(r){return r.p&&/^https:\/\/webmention\.io\//.test(r.p.url)?null:r},customProperties:function(){var t;try{t=localStorage.getItem("pref-theme")}catch(e){}if(t!=="dark"&&t!=="light")t={{ if eq site.Params.defaultTheme "light" }}"light"{{ else if eq site.Params.defaultTheme "dark" }}"dark"{{ else }}matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"{{ end }};return{section:{{ $section }},theme:t}}});
+       (partials/webmentions.html), since its URL identifies one submission.
+       It also strips the fragment and every query parameter except the
+       campaign ones Plausible reads (utm_*, ref, source) from the page URL,
+       and the whole query from the referrer, so a link carrying someone's
+       data in its query string never leaves the browser. */ -}}
+<script>if(location.hostname==={{ .host }}){[{{ .script }},{{ $events.RelPermalink }}].forEach(function(u){var s=document.createElement("script");s.async=!0;s.src=u;document.head.appendChild(s)});window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init({endpoint:{{ .endpoint }},outboundLinks:!0,fileDownloads:!0,formSubmissions:!0,transformRequest:function(r){if(r.p&&/^https:\/\/webmention\.io\//.test(r.p.url))return null;function c(u,k){try{var x=new URL(u),q=new URLSearchParams;if(k)x.searchParams.forEach(function(v,n){if(/^(utm_[a-z]+|ref|source)$/.test(n))q.append(n,v)});x.search=q.toString();x.hash="";return x.href}catch(e){return u}}r.u=c(r.u,1);if(r.r)r.r=c(r.r);return r},customProperties:function(){var t;try{t=localStorage.getItem("pref-theme")}catch(e){}if(t!=="dark"&&t!=="light")t={{ if eq site.Params.defaultTheme "light" }}"light"{{ else if eq site.Params.defaultTheme "dark" }}"dark"{{ else }}matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"{{ end }};return{section:{{ $section }},theme:t}}});
 {{- if eq $.Kind "404" }}plausible("404");{{ end -}}
 }</script>
 {{- end }}{{ end -}}
