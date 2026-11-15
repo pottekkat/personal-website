@@ -16,7 +16,7 @@ bookMeta:
     - Non-Fiction
     - Travel
     - American
-  rating: 0
+  rating: 4
   coverImage: /images/books/covers/the-lost-continent.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/26.The_Lost_Continent
 fmContentType: Book Review
