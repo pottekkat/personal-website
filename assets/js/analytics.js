@@ -43,24 +43,29 @@
     if (!input) return;
     var timer;
     var sent = false;
-    var settled = false;
+    // fastsearch.js also searches on "input", and either listener may run
+    // first, so nothing is cleared per keystroke. Instead the count and the
+    // pause are each tied to the text they were for, and the event goes out
+    // only when both match what is in the box now.
     var count = null;
+    var countFor = null;
+    var settledOn = null;
     function maybeSend() {
-      if (sent || !settled || count === null || input.value.trim().length < 2) return;
+      var value = input.value;
+      if (sent || settledOn !== value || countFor !== value || value.trim().length < 2) return;
       sent = true;
       track("Search", { results: count ? "found" : "none" });
     }
     input.addEventListener("input", function () {
       clearTimeout(timer);
-      settled = false;
-      count = null;
       timer = setTimeout(function () {
-        settled = true;
+        settledOn = input.value;
         maybeSend();
       }, 1500);
     });
     input.addEventListener("searchresults", function (e) {
       count = e.detail.count;
+      countFor = input.value;
       maybeSend();
     });
   }
