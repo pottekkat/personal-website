@@ -79,15 +79,19 @@
 <script>
     // A click or tap focuses the button it hits. A key pressed after that,
     // an arrow to scroll or "t", makes the browser ring the button as if it
-    // had been tabbed to. The ring stays off until focus moves by keyboard
-    // (reset.css).
+    // had been tabbed to. Focus that moves within a second of a press, the
+    // press itself or what the click does (closing the image viewer hands
+    // focus back to the image), is the pointer's; the ring stays off for it
+    // (reset.css). Any other move, by key or by a screen reader, shows it.
     (function () {
         var root = document.documentElement;
-        var pointer = false;
-        document.addEventListener("pointerdown", function () { pointer = true; }, true);
-        document.addEventListener("keydown", function () { pointer = false; }, true);
-        document.addEventListener("focusin", function () {
-            root.classList.toggle("focus-by-pointer", pointer);
+        var pressed = -Infinity;
+        var press = function (e) { pressed = e.timeStamp; };
+        document.addEventListener("pointerdown", press, true);
+        document.addEventListener("pointerup", press, true);
+        document.addEventListener("keydown", function () { pressed = -Infinity; }, true);
+        document.addEventListener("focusin", function (e) {
+            root.classList.toggle("focus-by-pointer", e.timeStamp - pressed < 1000);
         }, true);
     })();
 </script>
