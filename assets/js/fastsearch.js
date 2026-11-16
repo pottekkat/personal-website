@@ -174,10 +174,16 @@ sInput.addEventListener("search", function (e) {
 
 // kb bindings
 document.onkeydown = function (e) {
+  // Keys typed into an IME, or already handled (Esc in the keyboard
+  // shortcuts list closes that list only).
+  if (e.defaultPrevented || e.isComposing || e.keyCode === 229 ||
+    document.querySelector("dialog[open]")) return;
   let key = e.key;
   let ae = document.activeElement;
 
   let inbox = document.getElementById("searchbox").contains(ae);
+  // Esc elsewhere on the page is not the search's to handle.
+  if (!inbox) return;
 
   if (ae === sInput) {
     let elements = document.getElementsByClassName("focus");
@@ -187,8 +193,11 @@ document.onkeydown = function (e) {
   } else if (current_elem) ae = current_elem;
 
   if (key === "Escape") {
-    reset();
-  } else if (!resultsAvailable || !inbox) {
+    // A second Esc in an empty box leaves it, so the page's keyboard
+    // shortcuts (assets/js/shortcuts.js) work on pages that autofocus search.
+    if (document.activeElement === sInput && !sInput.value) sInput.blur();
+    else reset();
+  } else if (!resultsAvailable) {
     return;
   } else if (key === "ArrowDown") {
     e.preventDefault();

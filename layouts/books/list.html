@@ -134,7 +134,7 @@
             {{- end }}
           </div>
         </td>
-        <td>{{ .Title }}</td>
+        <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
         <td>{{ .Params.bookMeta.author }}</td>
         <td>
           {{- template "star-rating" dict "rating" (or .Params.bookMeta.rating 0) }}
@@ -197,7 +197,8 @@
     // Make table rows clickable
     const bookRows = document.querySelectorAll('.book-row');
     bookRows.forEach(row => {
-      row.addEventListener('click', () => {
+      row.addEventListener('click', (e) => {
+        if (e.target.closest('a')) return; // the title link navigates itself
         window.location.href = row.dataset.href;
       });
     });
