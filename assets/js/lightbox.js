@@ -134,12 +134,13 @@
         var loader = new Image();
         if (srcset) { loader.sizes = sizes; loader.srcset = srcset; }
         loader.src = src;
+        var isOriginal = src.split("#")[0] === item.original;
         var swap = function () {
             if (mine !== token) return;
-            // Once the original is up, a fitted file that finishes later is
+            // Once the original is up, a resized file that finishes later is
             // smaller and must not replace it.
-            if (!(srcset && sharp)) img.src = loader.currentSrc || loader.src;
-            if (!srcset) sharp = true;
+            if (isOriginal || !sharp) img.src = loader.currentSrc || loader.src;
+            if (isOriginal) sharp = true;
             img.classList.remove("is-loading");
             if (done) done(loader);
         };
