@@ -13,14 +13,13 @@
 .header {
     max-width: calc(100% - 16px);
     margin: 0 auto;
-    /* Torn edges a few pixels deep, set in px so the shape stays the same
-       when the header grows to two rows on phones. */
-    clip-path: polygon(0 3px, 22% 0, 48% 4px, 74% 1px, 100% 5px, 100% calc(100% - 4px), 81% 100%, 57% calc(100% - 5px), 30% calc(100% - 1px), 0 calc(100% - 6px));
+    clip-path: polygon(0 6px, 55% 10px, 100% 14px, 100% calc(100% - 10px), 50% calc(100% - 6px), 0 calc(100% - 12px));
 }
 
 @media (min-width: 768px) {
     .header {
         max-width: none;
+        clip-path: polygon(0 10%, 55% 15%, 100% 20%, 100% 84%, 50% 90%, 0 86%);
     }
 }
 
@@ -105,18 +104,8 @@ body:not(.dark) #sun {
     white-space: nowrap;
 }
 
-#menu li {
-    display: flex;
-    align-items: center;
-}
-
-/* Slashes between the links, like jvns.ca. The second value is the
-   alt text, so screen readers skip the slash. */
-#menu li + li::before {
-    content: "/";
-    content: "/" / "";
-    padding: 0 10px;
-    color: var(--secondary);
+#menu li + li {
+    margin-inline-start: var(--gap);
 }
 
 #menu a {
@@ -151,11 +140,11 @@ body:not(.dark) #sun {
 }
 
 /* Phones: the name and theme toggle on the first row, every link on the
-   second. Nothing is hidden behind a menu. */
+   second, aligned right. Nothing is hidden behind a menu. */
 @media (max-width: 625px) {
     .nav {
         line-height: normal;
-        padding: 16px 0 12px;
+        padding: 16px 0 14px;
     }
 
     .logo,
@@ -169,13 +158,11 @@ body:not(.dark) #sun {
 
     #menu {
         margin-top: 6px;
+        margin-inline-start: auto;
+        justify-content: flex-end;
         flex-wrap: wrap;
         white-space: normal;
         overflow-x: visible;
-    }
-
-    #menu li + li::before {
-        padding: 0 8px;
     }
 
     #menu a {
