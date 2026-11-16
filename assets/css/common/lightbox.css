@@ -174,11 +174,32 @@ body:not(.dark) .lightbox-img.invert-diagram-colors {
     right: 16px;
 }
 
-/* A finger swipes between images; arrows would only sit on the photo. */
+/* On a touch screen the arrows join the bar, beside the count, rather than
+   sit on the photo; swiping also works. */
 @media (hover: none) and (pointer: coarse) {
     .lightbox-prev,
     .lightbox-next {
-        display: none;
+        position: static;
+        width: 32px;
+        height: 32px;
+        margin-top: 0;
+        background: none;
+        border: 0;
+    }
+
+    /* Read as a pager, "‹ 2 / 20 ›", with the rest pushed right. */
+    .lightbox-count {
+        flex: none;
+        order: 1;
+    }
+
+    .lightbox-next {
+        order: 2;
+        margin-right: auto;
+    }
+
+    .lightbox-bar > :not(.lightbox-prev, .lightbox-count, .lightbox-next) {
+        order: 3;
     }
 }
 

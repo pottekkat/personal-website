@@ -30,6 +30,7 @@
     var index = 0;
     var item = null; // what is known about the image on screen
     var zoomed = false;
+    var sharp = false; // the original file is on screen
     var token = 0; // bumped on every change, so a late load can't land on the wrong image
 
     // A link that shows a picture of the file it points to. Links from an
@@ -76,8 +77,9 @@
 
     function open(set, i) {
         links = set;
-        show(i);
+        // Open first: a closed dialog has no size to fit the image to.
         dialog.showModal();
+        show(i);
         // A swipe or wheel over the viewer must not scroll the page under it.
         document.documentElement.classList.add("lightbox-open");
     }
@@ -86,6 +88,7 @@
         index = (i + links.length) % links.length;
         item = describe(links[index]);
         zoomed = false;
+        sharp = false;
         var mine = ++token;
 
         img.alt = item.thumb.alt;
@@ -133,7 +136,10 @@
         loader.src = src;
         var swap = function () {
             if (mine !== token) return;
-            img.src = loader.currentSrc || loader.src;
+            // Once the original is up, a fitted file that finishes later is
+            // smaller and must not replace it.
+            if (!(srcset && sharp)) img.src = loader.currentSrc || loader.src;
+            if (!srcset) sharp = true;
             img.classList.remove("is-loading");
             if (done) done(loader);
         };
@@ -190,11 +196,12 @@
     }
 
     function layout() {
+        // Settle the zoom first: a wider window can leave nothing to zoom.
+        var can = zoomable();
+        if (!can) zoomed = false;
         var size = zoomed ? zoomSize(item) : fit(item);
         img.style.width = size.w + "px";
         img.style.height = size.h + "px";
-        var can = zoomable();
-        if (!can) zoomed = false;
         zoomButton.hidden = !can;
         zoomButton.setAttribute("aria-pressed", zoomed ? "true" : "false");
         dialog.classList.toggle("is-zoomable", can);

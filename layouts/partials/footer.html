@@ -55,6 +55,8 @@
 {{- if eq .Kind "page" }}
 <dialog id="lightbox" class="lightbox" aria-label="Image viewer">
     <div class="lightbox-bar">
+        <button type="button" class="lightbox-prev" aria-label="Previous image" title="Previous (←)" hidden><svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 3 5 8l5 5"/></svg></button>
+        <button type="button" class="lightbox-next" aria-label="Next image" title="Next (→)" hidden><svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m6 3 5 5-5 5"/></svg></button>
         <span class="lightbox-count" aria-hidden="true"></span>
         <span class="lightbox-status" aria-live="polite"></span>
         <button type="button" class="lightbox-zoom" aria-pressed="false" aria-label="Zoom" title="Zoom (Z)" hidden><svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="6.8" cy="6.8" r="4.8"/><path d="m10.4 10.4 4 4M4.6 6.8h4.4"/><path class="lightbox-zoom-plus" d="M6.8 4.6v4.4"/></svg></button>
@@ -67,8 +69,6 @@
         <div class="lightbox-stage" tabindex="-1" autofocus><img class="lightbox-img" alt=""></div>
         <figcaption class="lightbox-caption" hidden></figcaption>
     </figure>
-    <button type="button" class="lightbox-prev" aria-label="Previous image" title="Previous (←)" hidden><svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 3 5 8l5 5"/></svg></button>
-    <button type="button" class="lightbox-next" aria-label="Next image" title="Next (→)" hidden><svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m6 3 5 5-5 5"/></svg></button>
 </dialog>
 {{- $lightbox := resources.Get "js/lightbox.js" | minify | fingerprint }}
 <script defer crossorigin="anonymous" src="{{ $lightbox.RelPermalink }}" integrity="{{ $lightbox.Data.Integrity }}"></script>
