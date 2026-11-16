@@ -174,3 +174,34 @@ body:not(.dark) #sun {
         padding-bottom: 14px;
     }
 }
+
+/* Phones: the menu as a popup card (see the script in header.html) */
+#menu:popover-open {
+    position: absolute;
+    inset: auto;
+    display: flex;
+    flex-direction: column;
+    min-width: 180px;
+    margin: 0;
+    padding: 14px 0 16px;
+    border: 0;
+    overflow: visible;
+    line-height: normal;
+    color: var(--primary);
+    background: var(--entry-image), var(--entry);
+    clip-path: polygon(0 5px, 58% 0, 100% 4px, 100% calc(100% - 6px), 44% 100%, 0 calc(100% - 3px));
+}
+
+#menu:popover-open::backdrop {
+    background: rgba(0, 0, 0, .2);
+}
+
+#menu:popover-open li + li {
+    margin-inline-start: 0;
+}
+
+#menu:popover-open a {
+    padding: 10px 24px;
+    font-size: 16px;
+}
+

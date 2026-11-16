@@ -167,14 +167,50 @@
 </header>
 
 <script type="module">
-    document.addEventListener('DOMContentLoaded', function() {
-    const menuToggleButton = document.getElementById('menu-toggle');
-    const menuLinks = document.getElementById('menu');
+    // Phones: the menu opens as a popup card in the top layer, so the
+    // clipped header strip never grows. Desktop never gets the attribute.
+    const button = document.getElementById('menu-toggle');
+    const menu = document.getElementById('menu');
+    const header = document.querySelector('.header');
 
-    menuToggleButton.addEventListener('click', function() {
-        const isExpanded = menuToggleButton.getAttribute('aria-expanded') === 'true';
-        menuToggleButton.setAttribute('aria-expanded', !isExpanded);
-        menuLinks.classList.toggle('active');
-    });
-});
+    if (button && menu) {
+        if (!HTMLElement.prototype.hasOwnProperty('popover')) {
+            button.addEventListener('click', function () {
+                const open = menu.classList.toggle('active');
+                button.setAttribute('aria-expanded', open);
+            });
+        } else {
+            // Tapping the button outside an open popup light-dismisses it
+            // first; remember when, so the same tap doesn't reopen it.
+            let closedAt = 0;
+
+            // beforetoggle fires synchronously, before the button's click.
+            menu.addEventListener('beforetoggle', function (e) {
+                if (e.newState === 'closed') closedAt = performance.now();
+            });
+
+            menu.addEventListener('toggle', function (e) {
+                const open = e.newState === 'open';
+                button.setAttribute('aria-expanded', open);
+                if (!open) menu.removeAttribute('popover');
+            });
+
+            button.addEventListener('click', function () {
+                if (menu.matches(':popover-open')) {
+                    menu.hidePopover();
+                    return;
+                }
+                if (performance.now() - closedAt < 400) return;
+                const strip = header.getBoundingClientRect();
+                menu.popover = 'auto';
+                menu.style.top = (strip.bottom + window.scrollY - 10) + 'px';
+                menu.style.right = (document.documentElement.clientWidth - strip.right) + 'px';
+                menu.showPopover();
+            });
+
+            window.addEventListener('resize', function () {
+                if (menu.matches(':popover-open')) menu.hidePopover();
+            });
+        }
+    }
 </script>
