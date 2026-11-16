@@ -13,7 +13,9 @@
 .header {
     max-width: calc(100% - 16px);
     margin: 0 auto;
-    clip-path: polygon(0 6px, 55% 10px, 100% 14px, 100% calc(100% - 10px), 50% calc(100% - 6px), 0 calc(100% - 12px));
+    /* The tear deepens with the screen width, so phones get the same gentle
+       slope as desktop instead of a steep one. */
+    clip-path: polygon(0 6px, 55% calc(6px + .55vw), 100% calc(6px + 1vw), 100% calc(100% - 6px - .6vw), 50% calc(100% - 6px), 0 calc(100% - 6px - .4vw));
 }
 
 @media (min-width: 768px) {
