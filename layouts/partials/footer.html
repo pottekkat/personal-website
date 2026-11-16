@@ -76,6 +76,22 @@
 {{- $shortcuts := resources.Get "js/shortcuts.js" | minify | fingerprint }}
 <script defer crossorigin="anonymous" src="{{ $shortcuts.RelPermalink }}" integrity="{{ $shortcuts.Data.Integrity }}"></script>
 
+<script>
+    // A click or tap focuses the button it hits. A key pressed after that,
+    // an arrow to scroll or "t", makes the browser ring the button as if it
+    // had been tabbed to. The ring stays off until focus moves by keyboard
+    // (reset.css).
+    (function () {
+        var root = document.documentElement;
+        var pointer = false;
+        document.addEventListener("pointerdown", function () { pointer = true; }, true);
+        document.addEventListener("keydown", function () { pointer = false; }, true);
+        document.addEventListener("focusin", function () {
+            root.classList.toggle("focus-by-pointer", pointer);
+        }, true);
+    })();
+</script>
+
 {{- partial "extend_footer.html" . }}
 
 <script type="module">

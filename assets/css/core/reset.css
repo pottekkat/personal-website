@@ -112,6 +112,8 @@ textarea {
     outline: 2px solid var(--secondary);
 }
 
+/* Focus a click put there; a later key press doesn't ring it (footer.html). */
+.focus-by-pointer :focus-visible,
 #searchbox input:focus-visible,
 .subscribe-input input:focus-visible,
 .webmention-input input:focus-visible {
