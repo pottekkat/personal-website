@@ -40,16 +40,61 @@
             <tr><td><kbd>G</kbd></td><td>Go to the bottom</td></tr>
             <tr><td><kbd>n</kbd> <kbd>p</kbd></td><td>Next or previous page</td></tr>
             <tr><td><kbd>/</kbd></td><td>Search, where there is a search box</td></tr>
+            <tr><td><kbd>t</kbd></td><td>Switch between light and dark</td></tr>
             <tr><td><kbd>g</kbd> <kbd>h</kbd></td><td>Go home</td></tr>
             <tr><td><kbd>g</kbd> <kbd>p</kbd></td><td>Go to posts</td></tr>
             <tr><td><kbd>g</kbd> <kbd>b</kbd></td><td>Go to books</td></tr>
             <tr><td><kbd>g</kbd> <kbd>a</kbd></td><td>Go to archives</td></tr>
+            <tr><td><kbd>←</kbd> <kbd>→</kbd></td><td>Previous or next image, in the image viewer (<kbd>z</kbd> zooms, <kbd>Esc</kbd> closes)</td></tr>
             <tr><td><kbd>?</kbd></td><td>Show this list, even when disabled</td></tr>
         </tbody>
     </table>
 </dialog>
+{{- /* Image viewer for the images in a post; see assets/js/lightbox.js.
+   Only pages have post content, and this partial is cached per .Kind. */}}
+{{- if eq .Kind "page" }}
+<dialog id="lightbox" class="lightbox" aria-label="Image viewer">
+    <div class="lightbox-bar">
+        <button type="button" class="lightbox-prev" aria-label="Previous image" title="Previous (←)" hidden><svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 3 5 8l5 5"/></svg></button>
+        <button type="button" class="lightbox-next" aria-label="Next image" title="Next (→)" hidden><svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m6 3 5 5-5 5"/></svg></button>
+        <span class="lightbox-count" aria-hidden="true"></span>
+        <span class="lightbox-status" aria-live="polite"></span>
+        <button type="button" class="lightbox-zoom" aria-pressed="false" aria-label="Zoom" title="Zoom (Z)" hidden><svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="6.8" cy="6.8" r="4.8"/><path d="m10.4 10.4 4 4M4.6 6.8h4.4"/><path class="lightbox-zoom-plus" d="M6.8 4.6v4.4"/></svg></button>
+        <a class="lightbox-original" href="" target="_blank" rel="noopener">Original</a>
+        <form method="dialog">
+            <button type="submit" aria-label="Close" title="Close (Esc)"><svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M3.3 2 8 6.7 12.7 2 14 3.3 9.3 8l4.7 4.7-1.3 1.3L8 9.3 3.3 14 2 12.7 6.7 8 2 3.3z"/></svg></button>
+        </form>
+    </div>
+    <figure class="lightbox-figure">
+        <div class="lightbox-stage" tabindex="-1" autofocus><img class="lightbox-img" alt=""></div>
+        <figcaption class="lightbox-caption" hidden></figcaption>
+    </figure>
+</dialog>
+{{- $lightbox := resources.Get "js/lightbox.js" | minify | fingerprint }}
+<script defer crossorigin="anonymous" src="{{ $lightbox.RelPermalink }}" integrity="{{ $lightbox.Data.Integrity }}"></script>
+{{- end }}
 {{- $shortcuts := resources.Get "js/shortcuts.js" | minify | fingerprint }}
 <script defer crossorigin="anonymous" src="{{ $shortcuts.RelPermalink }}" integrity="{{ $shortcuts.Data.Integrity }}"></script>
+
+<script>
+    // A click or tap focuses the button it hits. A key pressed after that,
+    // an arrow to scroll or "t", makes the browser ring the button as if it
+    // had been tabbed to. Focus that moves within a second of a press, the
+    // press itself or what the click does (closing the image viewer hands
+    // focus back to the image), is the pointer's; the ring stays off for it
+    // (reset.css). Any other move, by key or by a screen reader, shows it.
+    (function () {
+        var root = document.documentElement;
+        var pressed = -Infinity;
+        var press = function (e) { pressed = e.timeStamp; };
+        document.addEventListener("pointerdown", press, true);
+        document.addEventListener("pointerup", press, true);
+        document.addEventListener("keydown", function () { pressed = -Infinity; }, true);
+        document.addEventListener("focusin", function (e) {
+            root.classList.toggle("focus-by-pointer", e.timeStamp - pressed < 1000);
+        }, true);
+    })();
+</script>
 
 {{- partial "extend_footer.html" . }}
 

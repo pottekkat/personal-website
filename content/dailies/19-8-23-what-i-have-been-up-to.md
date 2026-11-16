@@ -26,7 +26,7 @@ Pictures speak louder, so here they are:
 
 {{< figure src="/images/19-8-23-what-i-have-been-up-to/authentic-malay-breakfast.jpeg#center" title="Bryan took me out to get some authentic Malay breakfast" caption="Kuala Lumpur, Malaysia - 1st July 2023" link="/images/19-8-23-what-i-have-been-up-to/authentic-malay-breakfast.jpeg" target="_blank" class="align-center" >}}
 
-{{< figure src="/images/19-8-23-what-i-have-been-up-to/daniel.jpeg#center" title="Daniel was the first to join me" caption="Kuala Lumpur, Malaysia - 1st July 2023" link="/images/19-8-23-what-i-have-been-up-to/authentic-malay-breakfast.jpeg" target="_blank" class="align-center" >}}
+{{< figure src="/images/19-8-23-what-i-have-been-up-to/daniel.jpeg#center" title="Daniel was the first to join me" caption="Kuala Lumpur, Malaysia - 1st July 2023" link="/images/19-8-23-what-i-have-been-up-to/daniel.jpeg" target="_blank" class="align-center" >}}
 
 {{< figure src="/images/19-8-23-what-i-have-been-up-to/the-boys.jpeg#center" title="The boys" caption="Kuala Lumpur, Malaysia - 1st July 2023" link="/images/19-8-23-what-i-have-been-up-to/the-boys.jpeg" target="_blank" class="align-center" >}}
 

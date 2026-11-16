@@ -5,23 +5,26 @@
 {{- if .Get "invert" }}{{ $class = "invert-diagram-colors" }}{{ end -}}
 {{- $src := .Get "src" -}}
 {{- if eq (.Get "align") "center" }}{{ $src = printf "%s#center" $src }}{{ end -}}
+{{- /* Every figure links to a full-size image, which assets/js/lightbox.js
+       opens in place; without JS the link still opens the file. With no
+       `link`, it is the image's own original, without the #center hook. */ -}}
+{{- $link := trim (.Get "link") " " -}}
+{{- if not $link }}{{ $link = index (split $src "#") 0 }}{{ end -}}
 <figure{{ if or (.Get "class") (eq (.Get "align") "center") }} class="
            {{- if eq (.Get "align") "center" }}align-center {{ end }}
            {{- with .Get "class" }}{{ . }}{{- end }}"
 {{- end -}}>
     <div class="image-border">
-    {{- if .Get "link" -}}
-        <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
-    {{- end }}
+        <a href="{{ $link }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
     {{- partial "responsive-image.html" (dict
         "src" $src
         "alt" $alt
         "width" (.Get "width")
         "height" (.Get "height")
         "class" $class
-    ) }} <!-- Closing img tag -->
+    ) -}}
+        </a>
     </div>
-    {{- if .Get "link" }}</a>{{ end -}}
     {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
         <figcaption>
             {{ with (.Get "title") -}}

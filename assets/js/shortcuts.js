@@ -195,6 +195,13 @@
                 search.focus();
                 return true;
             }
+            case "t": {
+                // The header button's own handler saves the choice.
+                var theme = document.getElementById("theme-toggle");
+                if (!theme) return false;
+                theme.click();
+                return true;
+            }
             case "g":
                 pending = true;
                 timer = setTimeout(cancel, SEQUENCE_TIMEOUT);

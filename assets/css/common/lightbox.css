@@ -1,0 +1,208 @@
+/* Image viewer for post images (assets/js/lightbox.js). It fills the window
+   in the page's own colour, so a photo sits on the same paper as the post,
+   and the controls are the bare buttons of the "?" list (footer.css). */
+.lightbox {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    height: 100dvh;
+    max-height: none;
+    margin: 0;
+    /* Clear of a phone's notch and home bar. */
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    color: var(--primary);
+    background: var(--theme);
+    border: 0;
+    overscroll-behavior: contain;
+}
+
+.lightbox[open] {
+    display: flex;
+    flex-direction: column;
+}
+
+.lightbox::backdrop {
+    background: var(--theme);
+}
+
+/* The page under the viewer stays put; the gutter keeps the scrollbar's
+   space so nothing shifts sideways. */
+html.lightbox-open {
+    overflow: hidden;
+    scrollbar-gutter: stable;
+}
+
+.lightbox:focus,
+.lightbox-stage:focus {
+    outline: 0;
+}
+
+.lightbox-bar {
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+    padding: 0 16px;
+    min-height: 48px;
+    font-size: 14px;
+}
+
+/* Empty for a single image, but still the spacer that keeps the controls
+   on the right. */
+.lightbox-count {
+    flex: 1;
+    font-variant-numeric: tabular-nums;
+}
+
+.lightbox-bar button,
+.lightbox-original {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    min-height: 32px;
+}
+
+/* Spoken, not shown: "Image 3 of 8" for screen readers. */
+.lightbox-status {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
+.lightbox-zoom[aria-pressed="true"] .lightbox-zoom-plus {
+    display: none;
+}
+
+@media (hover: hover) {
+    .lightbox-bar button:hover,
+    .lightbox-original:hover,
+    .lightbox-caption a:hover {
+        color: var(--secondary);
+    }
+}
+
+.lightbox-figure {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-height: 0;
+}
+
+/* The image's size is set by the script: fitted, or zoomed with the stage
+   scrolling. margin: auto centres it without cutting off an edge once it is
+   larger than the stage. */
+.lightbox-stage {
+    display: flex;
+    flex: 1;
+    min-height: 0;
+    padding: 0 16px 16px;
+    overflow: auto;
+    overscroll-behavior: contain;
+}
+
+.lightbox-img {
+    max-width: none;
+    margin: auto;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* Diagrams drawn for a dark page, as in the post (post-single.css). */
+body:not(.dark) .lightbox-img.invert-diagram-colors {
+    filter: invert(100%) brightness(100%) contrast(120%);
+}
+
+.lightbox-img.is-loading {
+    background: var(--code-bg);
+}
+
+.is-zoomable .lightbox-img {
+    cursor: zoom-in;
+}
+
+.is-zoomed .lightbox-img {
+    cursor: zoom-out;
+}
+
+.is-zoomed.is-dragging .lightbox-img {
+    cursor: grabbing;
+}
+
+/* The figure caption from the post, styled as there (post-single.css),
+   links and all. */
+.lightbox-caption {
+    max-height: 30vh;
+    padding: 0 16px 16px;
+    overflow-y: auto;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lightbox-caption p {
+    color: var(--secondary);
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.lightbox-caption a {
+    box-shadow: 0 1px 0;
+}
+
+.lightbox-prev,
+.lightbox-next {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    margin-top: -22px;
+    background: var(--entry);
+    border: 1px solid var(--border);
+}
+
+.lightbox-prev {
+    left: 16px;
+}
+
+.lightbox-next {
+    right: 16px;
+}
+
+/* On a touch screen the arrows join the bar, beside the count, rather than
+   sit on the photo; swiping also works. */
+@media (hover: none) and (pointer: coarse) {
+    .lightbox-prev,
+    .lightbox-next {
+        position: static;
+        width: 32px;
+        height: 32px;
+        margin-top: 0;
+        background: none;
+        border: 0;
+    }
+
+    /* Read as a pager, "‹ 2 / 20 ›", with the rest pushed right. */
+    .lightbox-count {
+        flex: none;
+        order: 1;
+    }
+
+    .lightbox-next {
+        order: 2;
+        margin-right: auto;
+    }
+
+    .lightbox-bar > :not(.lightbox-prev, .lightbox-count, .lightbox-next) {
+        order: 3;
+    }
+}
+
+.lightbox [hidden] {
+    display: none;
+}
