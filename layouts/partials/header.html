@@ -191,6 +191,17 @@
             });
             phone.addEventListener('change', sync);
             sync();
+
+            // Back/forward cache can restore the page with the menu open.
+            window.addEventListener('pageshow', function (e) {
+                if (!e.persisted) return;
+                sync();
+                if (menu.matches(':popover-open')) menu.hidePopover();
+            });
+
+            // iOS 17 to 18.2 only light-dismisses on touch when the page
+            // has a pointer listener (WebKit bug 267688).
+            document.body.addEventListener('pointerdown', function () {}, { passive: true });
         } else {
             button.addEventListener('click', function () {
                 const open = menu.classList.toggle('active');

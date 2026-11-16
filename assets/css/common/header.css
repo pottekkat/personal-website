@@ -183,6 +183,7 @@ body:not(.dark) #sun {
     display: flex;
     flex-direction: column;
     width: max-content;
+    max-width: calc(100% - 16px);
     margin: 0;
     padding: 14px 0 16px;
     border: 0;
@@ -195,6 +196,11 @@ body:not(.dark) #sun {
 
 #menu:popover-open::backdrop {
     background: rgba(0, 0, 0, .2);
+}
+
+#menu:popover-open,
+#menu:popover-open a {
+    white-space: normal;
 }
 
 #menu:popover-open li + li {
