@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T17:22:57.467191",
+  "lastUpdated": "2026-11-16T20:39:59.082519",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "datasette-llm 0.1a11",
-      "postUrl": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
-      "publishDate": "2026-11-14T23:59:28+00:00"
+      "postTitle": "datasette-maplibre 0.1a0",
+      "postUrl": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+      "publishDate": "2026-11-15T23:58:36+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -95,9 +95,9 @@
     {
       "blogTitle": "Kaazhchakal",
       "blogUrl": "https://yezhuvath.com/",
-      "postTitle": "Rossio, Occupied",
-      "postUrl": "https://yezhuvath.com/2026/11/08/rossio-occupied/",
-      "publishDate": "Sun, 08 Nov 2026 09:18:33 +0000"
+      "postTitle": "Visit to San Marino",
+      "postUrl": "https://yezhuvath.com/2026/11/17/visit-to-san-marino/",
+      "publishDate": "Mon, 16 Nov 2026 20:11:51 +0000"
     },
     {
       "blogTitle": "Tangled Bytes",
