@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-11-15T22:52:35.511064+05:30",
+  "last_updated": "2026-11-17T02:09:32.758649+05:30",
   "links": [
+    {
+      "id": "01m7j6frd3b3xj19tn9wx33nn0",
+      "title": "Bumbition",
+      "author": "Noah Smith",
+      "source_url": "https://www.noahpinion.blog/p/bumbition",
+      "published_date": "2026-11-16",
+      "saved_at": "2026-11-16T18:19:35.651000+05:30",
+      "reading_time": "9 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m7j4mdwvnmmr5a1nrb5wkyrb",
+      "title": "One of my longstanding philosophical struggles with the world, dating...",
+      "author": "Tina",
+      "source_url": "https://x.com/TinaRSH/status/2121926769313804399/?rw_tt_thread=True",
+      "published_date": "2026-11-15",
+      "saved_at": "2026-11-16T17:47:11.579000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m7hbwnmd60fscqqcea66r4xg",
+      "title": "The Making of Anthropic’s C.E.O.",
+      "author": "Ryan Mac, Kalley Huang, Cade Metz, Georgia Gee",
+      "source_url": "https://www.nytimes.com/2026/11/05/technology/dario-amodei-anthropic-ai.html/",
+      "published_date": "2026-11-05",
+      "saved_at": "2026-11-16T10:34:47.245000+05:30",
+      "reading_time": "11 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01m7dxhhbe1fjwnyqt35qcmz2j",
       "title": "A short history of the honey trap",
