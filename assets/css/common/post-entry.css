@@ -39,8 +39,16 @@
     }
 }
 
+/* The icon must never wrap onto a line of its own. The word joiner
+   stops a break between the title and the link, and nowrap stops
+   Chrome breaking between the joiner and the SVG. */
 .rss-icon-link {
     margin-left: 8px;
+    white-space: nowrap;
+}
+
+.rss-icon-link::before {
+    content: "\2060";
 }
 
 /* To add margin below each paragraph except the last one */
