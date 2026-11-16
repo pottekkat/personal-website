@@ -79,8 +79,7 @@ html.lightbox-open {
 @media (hover: hover) {
     .lightbox-bar button:hover,
     .lightbox-original:hover,
-    .lightbox-prev:hover,
-    .lightbox-next:hover {
+    .lightbox-caption a:hover {
         color: var(--secondary);
     }
 }
@@ -132,7 +131,8 @@ body:not(.dark) .lightbox-img.invert-diagram-colors {
     cursor: grabbing;
 }
 
-/* The figure caption from the post, styled as there (post-single.css). */
+/* The figure caption from the post, styled as there (post-single.css),
+   links and all. */
 .lightbox-caption {
     max-height: 30vh;
     padding: 0 16px 16px;
@@ -149,7 +149,7 @@ body:not(.dark) .lightbox-img.invert-diagram-colors {
 }
 
 .lightbox-caption a {
-    box-shadow: 0 1px 0 var(--primary);
+    box-shadow: 0 1px 0;
 }
 
 .lightbox-prev,
