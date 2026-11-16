@@ -168,49 +168,33 @@
 
 <script type="module">
     // Phones: the menu opens as a popup card in the top layer, so the
-    // clipped header strip never grows. Desktop never gets the attribute.
+    // clipped header strip never grows. The button becomes the popup's
+    // invoker only below the breakpoint, so desktop keeps the plain list.
     const button = document.getElementById('menu-toggle');
     const menu = document.getElementById('menu');
-    const header = document.querySelector('.header');
 
     if (button && menu) {
-        if (!('popover' in HTMLElement.prototype)) {
+        if ('popover' in HTMLElement.prototype) {
+            const phone = window.matchMedia('(max-width: 625px)');
+            const sync = function () {
+                if (phone.matches) {
+                    menu.popover = 'auto';
+                    button.popoverTargetElement = menu;
+                } else {
+                    button.popoverTargetElement = null;
+                    menu.removeAttribute('popover');
+                }
+            };
+
+            menu.addEventListener('toggle', function (e) {
+                button.setAttribute('aria-expanded', e.newState === 'open');
+            });
+            phone.addEventListener('change', sync);
+            sync();
+        } else {
             button.addEventListener('click', function () {
                 const open = menu.classList.toggle('active');
                 button.setAttribute('aria-expanded', open);
-            });
-        } else {
-            // Tapping the button outside an open popup light-dismisses it
-            // first; remember when, so the same tap doesn't reopen it.
-            let closedAt = 0;
-
-            // beforetoggle fires synchronously, before the button's click.
-            menu.addEventListener('beforetoggle', function (e) {
-                if (e.newState === 'closed') closedAt = performance.now();
-            });
-
-            menu.addEventListener('toggle', function (e) {
-                const open = e.newState === 'open';
-                button.setAttribute('aria-expanded', open);
-                if (!open) menu.removeAttribute('popover');
-            });
-
-            button.addEventListener('click', function () {
-                if (menu.matches(':popover-open')) {
-                    menu.hidePopover();
-                    return;
-                }
-                if (performance.now() - closedAt < 400) return;
-                const strip = header.getBoundingClientRect();
-                menu.popover = 'auto';
-                // Tuck the card's top edge under the strip's torn bottom edge.
-                menu.style.top = (strip.bottom + window.scrollY - 10) + 'px';
-                menu.style.right = (document.documentElement.clientWidth - strip.right) + 'px';
-                menu.showPopover();
-            });
-
-            window.addEventListener('resize', function () {
-                if (menu.matches(':popover-open')) menu.hidePopover();
             });
         }
     }

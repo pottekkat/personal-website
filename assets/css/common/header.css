@@ -175,10 +175,11 @@ body:not(.dark) #sun {
     }
 }
 
-/* Phones: the menu as a popup card (see the script in header.html) */
+/* Phones: the menu as a popup card (see the script in header.html). It
+   hangs from the strip's right edge, tucked under its torn bottom edge. */
 #menu:popover-open {
     position: absolute;
-    inset: auto;
+    inset: calc(var(--header-height) - 10px) 8px auto auto;
     display: flex;
     flex-direction: column;
     width: max-content;
