@@ -48,12 +48,13 @@
     bottom: 60px;
     right: 30px;
     z-index: 99;
-    background: var(--tertiary);
+    /* Inverted so it stands out on cards and paper in both themes */
+    color: var(--theme);
+    background: var(--primary);
     width: 42px;
     height: 42px;
     padding: 12px;
     border-radius: 0;
-    transition: visibility 0.5s, opacity 0.8s linear;
 }
 
 .top-link,
@@ -62,9 +63,12 @@
 }
 
 @media (hover: hover) {
-    .footer a:hover,
-    .top-link:hover {
+    .footer a:hover {
         color: var(--primary);
+    }
+
+    .top-link:hover {
+        background: var(--secondary);
     }
 }
 
