@@ -1,0 +1,44 @@
+<div class="nl-bar-tool" role="toolbar" aria-label="Navbar lab">
+    <span class="nl-tag">nav lab</span>
+    <span class="nl-opts">
+        <button type="button" data-set="today" title="The live site">Today</button>
+        <button type="button" data-set="sheet" title="A. Written on the page">A</button>
+        <button type="button" data-set="masthead" title="B. Signature masthead">B</button>
+        <button type="button" data-set="tabs" title="C. Paper tabs">C</button>
+        <button type="button" data-set="band" title="D. Ink band">D</button>
+    </span>
+    <button type="button" class="nl-min" title="Hide or show ( \ )" aria-label="Collapse toolbar">&minus;</button>
+</div>
+<script>
+    (function () {
+        var root = document.documentElement;
+        var bar = document.querySelector('.nl-bar-tool');
+        var opts = Array.prototype.slice.call(bar.querySelectorAll('[data-set]'));
+        var names = opts.map(function (b) { return b.dataset.set; });
+        function show(v) {
+            root.dataset.nav = v;
+            try { localStorage.setItem('navlab', v); } catch (e) {}
+            opts.forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.set === v); });
+            var u = new URL(location.href);
+            if (u.searchParams.has('nav')) { u.searchParams.delete('nav'); history.replaceState(null, '', u); }
+        }
+        function minimise(on) {
+            bar.classList.toggle('is-min', on);
+            try { localStorage.setItem('navlab-min', on ? '1' : ''); } catch (e) {}
+        }
+        opts.forEach(function (b) { b.addEventListener('click', function () { show(b.dataset.set); }); });
+        bar.querySelector('.nl-min').addEventListener('click', function () { minimise(!bar.classList.contains('is-min')); });
+        document.addEventListener('keydown', function (e) {
+            if (e.metaKey || e.ctrlKey || e.altKey || /input|textarea|select/i.test(e.target.tagName)) return;
+            var i = names.indexOf(root.dataset.nav);
+            if (e.key === ']') show(names[(i + 1) % names.length]);
+            if (e.key === '[') show(names[(i - 1 + names.length) % names.length]);
+            if (e.key === '\\') minimise(!bar.classList.contains('is-min'));
+        });
+        document.querySelectorAll('.nl-toggle').forEach(function (t) {
+            t.addEventListener('click', function () { document.getElementById('theme-toggle').click(); });
+        });
+        try { minimise(localStorage.getItem('navlab-min') === '1'); } catch (e) {}
+        show(root.dataset.nav);
+    })();
+</script>

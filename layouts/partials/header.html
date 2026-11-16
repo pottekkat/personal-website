@@ -39,6 +39,7 @@
 </script>
 {{- end }}
 
+{{- if hugo.IsServer }}{{ partial "navlab/boot.html" . }}{{ end }}
 <header class="header">
     <nav class="nav">
         <div class="logo">
@@ -165,6 +166,7 @@
         </ul>
     </nav>
 </header>
+{{- if hugo.IsServer }}{{ partial "navlab/headers.html" . }}{{ end }}
 
 <script type="module">
     document.addEventListener('DOMContentLoaded', function() {

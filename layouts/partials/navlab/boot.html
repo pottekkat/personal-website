@@ -1,0 +1,15 @@
+{{- /* Navbar lab: local `hugo server` only. Picks the design before the
+   header paints, from ?nav= or the last choice, so nothing flashes. */ -}}
+{{- $css := resources.Get "navlab/navlab.css" }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+<script>
+    (function () {
+        var v = new URLSearchParams(location.search).get('nav');
+        try {
+            if (v) localStorage.setItem('navlab', v);
+            v = v || localStorage.getItem('navlab');
+        } catch (e) {}
+        if (['today', 'sheet', 'masthead', 'tabs', 'band'].indexOf(v) < 0) v = 'today';
+        document.documentElement.dataset.nav = v;
+    })();
+</script>

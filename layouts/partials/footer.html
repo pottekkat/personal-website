@@ -13,7 +13,9 @@
         <a href="https://blr.indiewebclub.org/webring/navendu-me/next.html">&raquo;</a>
     </span>
 </footer>
+{{- if hugo.IsServer }}{{ partial "navlab/footers.html" . }}{{ end }}
 {{- end }}
+{{- if hugo.IsServer }}{{ partial "navlab/toolbar.html" . }}{{ end }}
 
 {{- if (not .Site.Params.disableScrollToTop) }}
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">

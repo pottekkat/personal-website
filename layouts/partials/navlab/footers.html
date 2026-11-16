@@ -1,0 +1,25 @@
+{{- $name := site.Params.label.text | default site.Title }}
+
+<footer class="nl-footer nl-sheet-foot" data-v="sheet">
+    <div class="nl-rule" aria-hidden="true"></div>
+    <div class="nl-foot-row">
+        <a class="nl-name" href="{{ site.BaseURL }}">{{ $name }}</a>
+        <div class="nl-foot-text">{{ partial "navlab/license.html" . }}</div>
+    </div>
+</footer>
+
+<footer class="nl-footer nl-mast-foot" data-v="masthead">
+    <nav aria-label="More">{{ partial "navlab/more.html" . }}</nav>
+    <div class="nl-foot-text">{{ partial "navlab/license.html" . }}</div>
+</footer>
+
+<footer class="nl-footer nl-tabs-foot" data-v="tabs">
+    <div class="nl-foot-text">{{ partial "navlab/license.html" . }}</div>
+</footer>
+
+<footer class="nl-footer nl-band-foot" data-v="band">
+    <div class="nl-band-in">
+        <nav aria-label="More">{{ partial "navlab/more.html" . }}</nav>
+        <div class="nl-foot-text">{{ partial "navlab/license.html" . }}</div>
+    </div>
+</footer>

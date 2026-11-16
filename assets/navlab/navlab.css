@@ -1,0 +1,677 @@
+/* Navbar lab. Loaded only by `hugo server` (see layouts/partials/navlab/).
+   html[data-nav] picks one design; "today" shows the live site untouched. */
+
+:root {
+    --nl-swash: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 10' preserveAspectRatio='none'%3E%3Cpath d='M0.0 5.99 L5.0 5.83 L10.0 5.50 L15.0 5.45 L20.0 5.20 L25.0 4.54 L30.0 4.02 L35.0 4.18 L40.0 4.09 L45.0 4.14 L50.0 3.77 L55.0 3.55 L60.0 3.05 L65.0 3.12 L70.0 3.05 L75.0 2.95 L80.0 2.85 L85.0 2.76 L90.0 3.08 L95.0 3.42 L100.0 3.36 L105.0 3.09 L110.0 3.06 L115.0 3.18 L120.0 3.42 L120.0 4.36 L115.0 4.35 L110.0 4.79 L105.0 4.97 L100.0 5.34 L95.0 5.64 L90.0 5.48 L85.0 5.44 L80.0 5.60 L75.0 6.25 L70.0 6.48 L65.0 6.38 L60.0 6.53 L55.0 6.42 L50.0 6.98 L45.0 7.17 L40.0 7.34 L35.0 6.81 L30.0 6.90 L25.0 7.29 L20.0 7.27 L15.0 7.28 L10.0 7.35 L5.0 7.00 L0.0 6.80Z'/%3E%3C/svg%3E");
+    --nl-rule: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 6' preserveAspectRatio='none'%3E%3Cpath d='M0.0 2.71 L10.0 2.88 L20.0 2.91 L30.0 2.81 L40.0 2.67 L50.0 2.63 L60.0 2.55 L70.0 2.62 L80.0 2.72 L90.0 2.71 L100.0 2.45 L110.0 2.28 L120.0 2.35 L130.0 2.61 L140.0 2.60 L150.0 2.40 L160.0 2.75 L170.0 2.90 L180.0 2.70 L190.0 2.47 L200.0 2.27 L210.0 2.19 L220.0 2.24 L230.0 2.14 L240.0 2.16 L250.0 2.12 L260.0 2.04 L270.0 2.16 L280.0 2.38 L290.0 2.47 L300.0 2.45 L310.0 2.46 L320.0 2.48 L330.0 2.47 L340.0 2.21 L350.0 2.27 L360.0 2.50 L370.0 2.79 L380.0 2.57 L390.0 2.41 L400.0 2.13 L410.0 2.09 L420.0 1.92 L430.0 2.16 L440.0 2.25 L450.0 2.30 L460.0 2.28 L470.0 2.33 L480.0 2.46 L490.0 2.33 L500.0 1.94 L510.0 2.11 L520.0 2.30 L530.0 2.33 L540.0 2.34 L550.0 2.21 L560.0 1.98 L570.0 2.17 L580.0 2.31 L590.0 2.06 L600.0 1.97 L610.0 2.14 L620.0 2.43 L630.0 2.44 L640.0 2.02 L650.0 1.84 L660.0 1.81 L670.0 1.96 L680.0 2.21 L690.0 2.12 L700.0 2.16 L710.0 2.17 L720.0 2.07 L730.0 2.28 L740.0 2.12 L750.0 2.24 L760.0 2.08 L770.0 2.08 L780.0 2.12 L790.0 2.17 L800.0 2.50 L810.0 2.46 L820.0 2.28 L830.0 2.40 L840.0 2.32 L850.0 2.31 L860.0 2.45 L870.0 2.43 L880.0 2.35 L890.0 2.33 L900.0 2.24 L910.0 2.25 L920.0 2.33 L930.0 2.34 L940.0 2.13 L950.0 2.11 L960.0 2.15 L970.0 2.25 L980.0 2.28 L990.0 2.33 L1000.0 2.41 L1010.0 2.50 L1020.0 2.68 L1030.0 2.64 L1040.0 2.60 L1050.0 2.57 L1060.0 2.34 L1070.0 2.37 L1080.0 2.67 L1090.0 2.77 L1100.0 2.50 L1110.0 2.46 L1120.0 2.77 L1130.0 2.84 L1140.0 2.72 L1150.0 2.88 L1160.0 2.98 L1170.0 2.83 L1180.0 2.60 L1190.0 2.42 L1200.0 2.36 L1200.0 2.81 L1190.0 2.98 L1180.0 3.19 L1170.0 3.39 L1160.0 3.61 L1150.0 3.57 L1140.0 3.41 L1130.0 3.53 L1120.0 3.50 L1110.0 3.26 L1100.0 3.27 L1090.0 3.59 L1080.0 3.68 L1070.0 3.36 L1060.0 3.39 L1050.0 3.65 L1040.0 3.62 L1030.0 3.58 L1020.0 3.70 L1010.0 3.61 L1000.0 3.50 L990.0 3.58 L980.0 3.57 L970.0 3.52 L960.0 3.33 L950.0 3.23 L940.0 3.42 L930.0 3.54 L920.0 3.73 L910.0 3.53 L900.0 3.61 L890.0 3.80 L880.0 3.58 L870.0 3.68 L860.0 3.89 L850.0 3.63 L840.0 3.55 L830.0 3.73 L820.0 3.86 L810.0 3.94 L800.0 3.95 L790.0 3.71 L780.0 3.49 L770.0 3.55 L760.0 3.61 L750.0 3.55 L740.0 3.72 L730.0 3.63 L720.0 3.73 L710.0 3.67 L700.0 3.72 L690.0 3.75 L680.0 3.71 L670.0 3.60 L660.0 3.51 L650.0 3.58 L640.0 3.63 L630.0 3.83 L620.0 4.03 L610.0 3.73 L600.0 3.48 L590.0 3.67 L580.0 3.90 L570.0 3.88 L560.0 3.65 L550.0 3.73 L540.0 4.04 L530.0 4.04 L520.0 3.92 L510.0 3.59 L500.0 3.64 L490.0 3.97 L480.0 4.06 L470.0 3.93 L460.0 3.94 L450.0 3.89 L440.0 3.75 L430.0 3.48 L420.0 3.58 L410.0 3.49 L400.0 3.67 L390.0 3.85 L380.0 4.05 L370.0 4.03 L360.0 4.07 L350.0 3.73 L340.0 3.73 L330.0 3.66 L320.0 3.66 L310.0 3.67 L300.0 3.79 L290.0 3.82 L280.0 3.71 L270.0 3.57 L260.0 3.41 L250.0 3.30 L240.0 3.25 L230.0 3.34 L220.0 3.36 L210.0 3.23 L200.0 3.26 L190.0 3.55 L180.0 3.70 L170.0 3.81 L160.0 3.69 L150.0 3.49 L140.0 3.51 L130.0 3.57 L120.0 3.33 L110.0 3.17 L100.0 3.23 L90.0 3.43 L80.0 3.54 L70.0 3.30 L60.0 3.21 L50.0 3.31 L40.0 3.36 L30.0 3.36 L20.0 3.48 L10.0 3.34 L0.0 3.21Z'/%3E%3C/svg%3E");
+}
+
+.nl-header,
+.nl-footer {
+    display: none;
+}
+
+html[data-nav="sheet"] .nl-header[data-v="sheet"],
+html[data-nav="sheet"] .nl-footer[data-v="sheet"],
+html[data-nav="masthead"] .nl-header[data-v="masthead"],
+html[data-nav="masthead"] .nl-footer[data-v="masthead"],
+html[data-nav="tabs"] .nl-header[data-v="tabs"],
+html[data-nav="tabs"] .nl-footer[data-v="tabs"],
+html[data-nav="band"] .nl-header[data-v="band"],
+html[data-nav="band"] .nl-footer[data-v="band"] {
+    display: block;
+}
+
+html:not([data-nav="today"]) .header,
+html:not([data-nav="today"]) .footer {
+    display: none;
+}
+
+/* ---------- shared pieces ---------- */
+
+.nl-header a,
+.nl-footer a {
+    color: inherit;
+}
+
+.nl-name {
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: 400;
+    line-height: 1;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nl-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nl-toggle {
+    display: inline-flex;
+    padding: 4px;
+    color: inherit;
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.nl-toggle svg {
+    width: 18px;
+    height: 18px;
+}
+
+body.dark .nl-moon,
+body:not(.dark) .nl-sun {
+    display: none;
+}
+
+.nl-links,
+.nl-more {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nl-foot-text {
+    font-size: 12px;
+    line-height: 22px;
+    color: var(--secondary);
+}
+
+.nl-foot-text a {
+    border-bottom: 1px solid var(--secondary);
+}
+
+.nl-license {
+    margin-inline-end: 6px;
+}
+
+.nl-ring {
+    white-space: nowrap;
+}
+
+.nl-ring a {
+    border-bottom: 0;
+}
+
+.nl-ring svg {
+    vertical-align: -1px;
+}
+
+@media (hover: hover) {
+    .nl-header a:hover,
+    .nl-footer a:hover,
+    .nl-toggle:hover {
+        color: var(--secondary);
+    }
+}
+
+/* ---------- A. Written on the page ---------- */
+
+html[data-nav="sheet"] .main {
+    clip-path: none;
+}
+
+.nl-sheet,
+.nl-sheet-foot {
+    max-width: min(calc(var(--main-width) + var(--gap)), calc(100% - 16px));
+    margin: 0 auto;
+    background: var(--content-background), var(--content-background-color);
+}
+
+.nl-sheet {
+    margin-top: 16px;
+    padding: 30px var(--gap) 0;
+    clip-path: polygon(0 7px, 22% 3px, 61% 8px, 100% 2px, 100% 100%, 0 100%);
+}
+
+.nl-sheet .nl-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    row-gap: 6px;
+}
+
+.nl-sheet .nl-name {
+    font-size: 40px;
+}
+
+.nl-sheet .nl-brand {
+    align-self: center;
+}
+
+.nl-sheet nav {
+    margin-inline-start: auto;
+}
+
+.nl-sheet .nl-links {
+    justify-content: flex-end;
+    column-gap: 20px;
+    font-size: 15px;
+}
+
+.nl-sheet .nl-links a,
+.nl-tabs .nl-links a {
+    display: block;
+    position: relative;
+}
+
+.nl-sheet .nl-links a.is-active::after {
+    content: "";
+    position: absolute;
+    left: -3px;
+    right: -3px;
+    bottom: -5px;
+    height: 7px;
+    background-color: currentColor;
+    -webkit-mask-image: var(--nl-swash);
+    -webkit-mask-size: 100% 100%;
+    mask-image: var(--nl-swash);
+    mask-size: 100% 100%;
+}
+
+.nl-rule {
+    height: 5px;
+    margin-top: 18px;
+    background-color: var(--primary);
+    opacity: .7;
+    -webkit-mask-image: var(--nl-rule);
+    -webkit-mask-size: 100% 100%;
+    mask-image: var(--nl-rule);
+    mask-size: 100% 100%;
+}
+
+.nl-sheet-foot {
+    margin-bottom: 16px;
+    padding: 0 var(--gap) 34px;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 9px), 70% calc(100% - 3px), 33% calc(100% - 8px), 0 calc(100% - 2px));
+}
+
+.nl-sheet-foot .nl-rule {
+    margin: 0 0 16px;
+}
+
+.nl-sheet-foot .nl-foot-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 4px 16px;
+}
+
+.nl-sheet-foot .nl-name {
+    font-size: 26px;
+}
+
+@media (min-width: 768px) {
+    .nl-sheet,
+    .nl-sheet-foot {
+        max-width: calc(var(--main-width) + var(--gap));
+        padding-left: calc(var(--gap) * 2);
+        padding-right: calc(var(--gap) * 2);
+    }
+
+    .nl-sheet {
+        margin-top: 32px;
+        padding-top: 40px;
+        clip-path: polygon(0 10px, 22% 4px, 61% 11px, 100% 3px, 100% 100%, 0 100%);
+    }
+
+    .nl-sheet .nl-bar {
+        flex-wrap: nowrap;
+    }
+
+    .nl-sheet .nl-name {
+        font-size: 44px;
+    }
+
+    .nl-sheet .nl-links {
+        column-gap: 22px;
+    }
+
+    .nl-sheet-foot {
+        margin-bottom: 32px;
+        padding-bottom: 40px;
+    }
+
+    .nl-sheet-foot .nl-foot-text {
+        text-align: right;
+    }
+}
+
+/* ---------- B. Signature masthead ---------- */
+
+.nl-mast {
+    position: relative;
+    padding: 44px 16px 26px;
+    text-align: center;
+    color: var(--primary);
+}
+
+.nl-mast .nl-name {
+    display: inline-block;
+    font-size: clamp(40px, 14vw, 56px);
+}
+
+.nl-mast nav {
+    margin-top: 14px;
+}
+
+.nl-mast .nl-links,
+.nl-mast-foot .nl-more {
+    justify-content: center;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+}
+
+.nl-mast .nl-links li + li::before,
+.nl-mast-foot .nl-more li + li::before {
+    content: "\00b7";
+    padding: 0 7px;
+    opacity: .6;
+}
+
+@media (max-width: 400px) {
+    .nl-mast .nl-links {
+        column-gap: 14px;
+        font-size: 11px;
+        letter-spacing: .1em;
+    }
+
+    .nl-mast .nl-links li + li::before {
+        content: none;
+    }
+}
+
+.nl-mast .nl-links a.is-active {
+    border-bottom: 1px solid currentColor;
+}
+
+.nl-mast .nl-toggle {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
+
+.nl-mast-foot {
+    padding: 30px 16px 40px;
+    text-align: center;
+    color: var(--primary);
+}
+
+.nl-mast-foot .nl-more {
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
+.nl-mast-foot .nl-foot-text {
+    color: var(--primary);
+    opacity: .75;
+}
+
+.nl-mast-foot .nl-foot-text a {
+    border-bottom-color: currentColor;
+}
+
+@media (min-width: 768px) {
+    .nl-mast {
+        padding-top: 64px;
+        padding-bottom: 34px;
+    }
+
+    .nl-mast .nl-name {
+        font-size: 76px;
+    }
+
+    .nl-mast .nl-links li + li::before,
+    .nl-mast-foot .nl-more li + li::before {
+        padding: 0 10px;
+    }
+
+    .nl-mast .nl-toggle {
+        top: 22px;
+        right: 26px;
+    }
+}
+
+/* ---------- C. Paper tabs ---------- */
+
+html[data-nav="tabs"] .main {
+    clip-path: none;
+}
+
+.nl-tabs {
+    max-width: min(calc(var(--main-width) + var(--gap)), calc(100% - 16px));
+    margin: 0 auto;
+    padding-top: 22px;
+}
+
+.nl-tabs .nl-brand {
+    padding: 0 4px 14px;
+    color: var(--primary);
+}
+
+.nl-tabs .nl-name {
+    font-size: 38px;
+}
+
+.nl-tabs .nl-links {
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 3px;
+    font-size: 13px;
+}
+
+.nl-tabs .nl-links a {
+    padding: 8px 11px 6px;
+    white-space: nowrap;
+    color: var(--secondary);
+    background: var(--entry-image), var(--entry);
+    clip-path: polygon(0 3px, 60% 0, 100% 2px, 100% 100%, 0 100%);
+}
+
+.nl-tabs .nl-links a.is-active {
+    padding-top: 11px;
+    font-weight: 500;
+    color: var(--primary);
+    background: var(--content-background), var(--content-background-color);
+}
+
+.nl-tabs-foot {
+    max-width: min(calc(var(--main-width) + var(--gap)), calc(100% - 16px));
+    margin: 0 auto 24px;
+}
+
+html[data-nav="tabs"] .nl-tabs-foot {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nl-tabs-foot .nl-foot-text {
+    padding: 12px 16px 14px;
+    background: var(--entry-image), var(--entry);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 4px), 55% 100%, 0 calc(100% - 3px));
+    text-align: right;
+}
+
+@media (min-width: 768px) {
+    html[data-nav="tabs"] .nl-tabs {
+        display: flex;
+    }
+
+    .nl-tabs {
+        align-items: flex-end;
+        justify-content: space-between;
+        max-width: calc(var(--main-width) + var(--gap));
+        padding-top: 40px;
+    }
+
+    .nl-tabs .nl-brand {
+        padding: 0 0 12px;
+    }
+
+    .nl-tabs .nl-name {
+        font-size: 44px;
+    }
+
+    .nl-tabs .nl-links {
+        gap: 4px;
+        font-size: 14px;
+    }
+
+    .nl-tabs .nl-links a {
+        padding: 9px 16px 7px;
+    }
+
+    .nl-tabs .nl-links a.is-active {
+        padding-top: 13px;
+    }
+
+    .nl-tabs-foot {
+        max-width: calc(var(--main-width) + var(--gap));
+        margin-bottom: 40px;
+    }
+
+    .nl-tabs-foot .nl-foot-text {
+        padding: 12px 24px 16px;
+    }
+}
+
+/* ---------- D. Ink band ---------- */
+
+.nl-band,
+.nl-band-foot {
+    --nl-ink: rgb(28, 28, 28);
+    --nl-paper: rgb(244, 241, 236);
+    color: var(--nl-paper);
+    background: var(--entry-image), var(--nl-ink);
+}
+
+body.dark .nl-band,
+body.dark .nl-band-foot {
+    --nl-ink: rgb(236, 232, 226);
+    --nl-paper: rgb(24, 24, 24);
+}
+
+.nl-band {
+    margin-bottom: 22px;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 9px), 68% calc(100% - 3px), 30% calc(100% - 8px), 0 100%);
+}
+
+.nl-band-in {
+    max-width: calc(var(--main-width) + var(--gap));
+    margin: 0 auto;
+    padding: 18px var(--gap) 24px;
+}
+
+.nl-band .nl-band-in {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 8px;
+}
+
+.nl-band .nl-name {
+    font-size: 38px;
+}
+
+.nl-band nav {
+    margin-inline-start: auto;
+}
+
+.nl-band .nl-links,
+.nl-band-foot .nl-more {
+    justify-content: flex-end;
+    column-gap: 18px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.nl-band .nl-links a.is-active {
+    border-bottom: 2px solid currentColor;
+}
+
+.nl-band-foot {
+    margin-top: 22px;
+    clip-path: polygon(0 9px, 34% 3px, 70% 8px, 100% 0, 100% 100%, 0 100%);
+}
+
+.nl-band-foot .nl-band-in {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.nl-band-foot .nl-more {
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.nl-band-foot .nl-foot-text {
+    color: var(--nl-paper);
+    opacity: .7;
+}
+
+.nl-band-foot .nl-foot-text a {
+    border-bottom-color: currentColor;
+}
+
+@media (hover: hover) {
+    .nl-band a:hover,
+    .nl-band-foot a:hover,
+    .nl-band .nl-toggle:hover {
+        color: inherit;
+        opacity: .65;
+    }
+}
+
+@media (min-width: 768px) {
+    .nl-band-in {
+        padding: 26px calc(var(--gap) * 2) 32px;
+    }
+
+    .nl-band .nl-band-in {
+        flex-wrap: nowrap;
+    }
+
+    .nl-band .nl-name {
+        font-size: 44px;
+    }
+
+    .nl-band .nl-links {
+        column-gap: 22px;
+    }
+
+    .nl-band {
+        margin-bottom: 32px;
+    }
+
+    .nl-band-foot {
+        margin-top: 32px;
+    }
+}
+
+/* ---------- narrow phones ---------- */
+
+@media (max-width: 360px) {
+    .nl-sheet .nl-links,
+    .nl-band .nl-links,
+    .nl-band-foot .nl-more {
+        column-gap: 13px;
+        font-size: 14px;
+    }
+
+    .nl-tabs .nl-links {
+        font-size: 12px;
+        gap: 2px;
+    }
+
+    .nl-tabs .nl-links a {
+        padding: 7px 7px 5px;
+    }
+
+    .nl-tabs .nl-links a.is-active {
+        padding-top: 9px;
+    }
+}
+
+@media (max-width: 300px) {
+    .nl-sheet .nl-name,
+    .nl-tabs .nl-name,
+    .nl-band .nl-name {
+        font-size: 32px;
+    }
+
+    .nl-sheet .nl-links,
+    .nl-band .nl-links {
+        column-gap: 10px;
+    }
+
+    .nl-tabs .nl-links {
+        font-size: 11px;
+    }
+
+    .nl-tabs .nl-links a {
+        padding: 7px 5px 5px;
+    }
+}
+
+/* ---------- lab toolbar ---------- */
+
+.nl-bar-tool {
+    position: fixed;
+    left: 12px;
+    bottom: 12px;
+    z-index: 1000;
+    display: flex;
+    align-items: stretch;
+    font: 500 12px/1 'Inter', sans-serif;
+    color: rgb(240, 240, 240);
+    background: rgb(18, 18, 18);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .35);
+}
+
+.nl-bar-tool button {
+    padding: 9px 11px;
+    color: inherit;
+    font: inherit;
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.nl-bar-tool button[aria-pressed="true"] {
+    color: rgb(18, 18, 18);
+    background: rgb(240, 240, 240);
+}
+
+.nl-bar-tool .nl-tag {
+    padding: 9px 10px;
+    color: rgb(150, 150, 150);
+    border-right: 1px solid rgb(60, 60, 60);
+}
+
+.nl-bar-tool .nl-opts {
+    display: flex;
+}
+
+.nl-bar-tool.is-min .nl-opts {
+    display: none;
+}
+
+.nl-bar-tool .nl-min {
+    color: rgb(150, 150, 150);
+    border-left: 1px solid rgb(60, 60, 60);
+}
+
+@media (max-width: 480px) {
+    .nl-bar-tool {
+        left: 6px;
+        right: 6px;
+        bottom: 6px;
+    }
+
+    .nl-bar-tool .nl-opts {
+        flex: 1;
+    }
+
+    .nl-bar-tool .nl-opts button {
+        flex: 1;
+        padding: 10px 4px;
+    }
+
+    .nl-bar-tool.is-min {
+        right: auto;
+    }
+}

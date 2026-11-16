@@ -1,0 +1,28 @@
+{{- $name := site.Params.label.text | default site.Title }}
+{{- $home := "" | relLangURL }}
+
+<header class="nl-header nl-sheet" data-v="sheet">
+    <div class="nl-bar">
+        <span class="nl-brand"><a class="nl-name" href="{{ $home }}">{{ $name }}</a>{{ partial "navlab/toggle.html" . }}</span>
+        <nav aria-label="Main">{{ partial "navlab/links.html" . }}</nav>
+    </div>
+    <div class="nl-rule" aria-hidden="true"></div>
+</header>
+
+<header class="nl-header nl-mast" data-v="masthead">
+    <a class="nl-name" href="{{ $home }}">{{ $name }}</a>
+    <nav aria-label="Main">{{ partial "navlab/links.html" . }}</nav>
+    {{ partial "navlab/toggle.html" . }}
+</header>
+
+<header class="nl-header nl-tabs" data-v="tabs">
+    <span class="nl-brand"><a class="nl-name" href="{{ $home }}">{{ $name }}</a>{{ partial "navlab/toggle.html" . }}</span>
+    <nav aria-label="Main">{{ partial "navlab/links.html" . }}</nav>
+</header>
+
+<header class="nl-header nl-band" data-v="band">
+    <div class="nl-band-in">
+        <span class="nl-brand"><a class="nl-name" href="{{ $home }}">{{ $name }}</a>{{ partial "navlab/toggle.html" . }}</span>
+        <nav aria-label="Main">{{ partial "navlab/links.html" . }}</nav>
+    </div>
+</header>
