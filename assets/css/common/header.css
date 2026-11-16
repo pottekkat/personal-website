@@ -13,13 +13,14 @@
 .header {
     max-width: calc(100% - 16px);
     margin: 0 auto;
-    clip-path: polygon(0 6px, 55% 10px, 100% 14px, 100% calc(100% - 10px), 50% calc(100% - 6px), 0 calc(100% - 12px));
+    /* Torn edges a few pixels deep, set in px so the shape stays the same
+       when the header grows to two rows on phones. */
+    clip-path: polygon(0 3px, 22% 0, 48% 4px, 74% 1px, 100% 5px, 100% calc(100% - 4px), 81% 100%, 57% calc(100% - 5px), 30% calc(100% - 1px), 0 calc(100% - 6px));
 }
 
 @media (min-width: 768px) {
     .header {
         max-width: none;
-        clip-path: polygon(0 10%, 55% 15%, 100% 20%, 100% 84%, 50% 90%, 0 86%);
     }
 }
 
@@ -104,8 +105,18 @@ body:not(.dark) #sun {
     white-space: nowrap;
 }
 
-#menu li + li {
-    margin-inline-start: var(--gap);
+#menu li {
+    display: flex;
+    align-items: center;
+}
+
+/* Slashes between the links, like jvns.ca. The second value is the
+   alt text, so screen readers skip the slash. */
+#menu li + li::before {
+    content: "/";
+    content: "/" / "";
+    padding: 0 10px;
+    color: var(--secondary);
 }
 
 #menu a {
@@ -139,36 +150,36 @@ body:not(.dark) #sun {
     flex-wrap: inherit;
 }
 
-.menu-toggle {
-    position: absolute;
-    top: 0;
-    right: var(--gap);
-    display: none;
-    cursor: pointer;
-    height: var(--header-height);
-    align-items: center;
-}
-
-@media (hover: hover) {
-    .menu-toggle:hover {
-        color: var(--secondary);
-    }
-}
-
-/* Responsive hamburger menu */
+/* Phones: the name and theme toggle on the first row, every link on the
+   second. Nothing is hidden behind a menu. */
 @media (max-width: 625px) {
-    .menulinks {
-        display: none;
-    }
-
-    .menu-toggle {
-        display: flex;
-    }
-
-    #menu.active {
-        display: flex;
-        width: 100%;
+    .nav {
         line-height: normal;
-        padding-bottom: 14px;
+        padding: 16px 0 12px;
+    }
+
+    .logo,
+    .menulinks {
+        margin: 0 var(--gap);
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    #menu {
+        margin-top: 6px;
+        flex-wrap: wrap;
+        white-space: normal;
+        overflow-x: visible;
+    }
+
+    #menu li + li::before {
+        padding: 0 8px;
+    }
+
+    #menu a {
+        /* 24px tall tap targets (WCAG 2.2 target size) */
+        padding-block: 4px;
     }
 }

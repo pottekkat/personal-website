@@ -11,13 +11,13 @@
     text-align: center;
     line-height: 24px;
     background: left var(--entry-image), var(--entry);
-    clip-path: polygon(0 6px, 38% 10px, 64% 12px, 100% 14px, 100% calc(100% - 6px), 0 calc(100% - 10px));
+    /* Same px-deep torn edges as the header (header.css). */
+    clip-path: polygon(0 5px, 27% 1px, 52% 4px, 79% 0, 100% 3px, 100% calc(100% - 4px), 66% 100%, 35% calc(100% - 5px), 0 calc(100% - 1px));
 }
 
 @media (min-width: 768px) {
     .footer {
         max-width: calc(var(--main-width) + var(--gap));
-        clip-path: polygon(0 12%, 38% 15%, 64% 18%, 100% 20%, 100% 90%, 0 80%);
     }
 }
 
@@ -27,6 +27,15 @@
 }
 
 .footer span:last-child {
+    white-space: nowrap;
+}
+
+/* The webring gets its own line, and the licence name never splits. */
+.footer .webring {
+    display: block;
+}
+
+.footer a[rel="license"] {
     white-space: nowrap;
 }
 
