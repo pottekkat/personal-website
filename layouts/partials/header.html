@@ -174,7 +174,7 @@
     const header = document.querySelector('.header');
 
     if (button && menu) {
-        if (!HTMLElement.prototype.hasOwnProperty('popover')) {
+        if (!('popover' in HTMLElement.prototype)) {
             button.addEventListener('click', function () {
                 const open = menu.classList.toggle('active');
                 button.setAttribute('aria-expanded', open);
@@ -203,6 +203,7 @@
                 if (performance.now() - closedAt < 400) return;
                 const strip = header.getBoundingClientRect();
                 menu.popover = 'auto';
+                // Tuck the card's top edge under the strip's torn bottom edge.
                 menu.style.top = (strip.bottom + window.scrollY - 10) + 'px';
                 menu.style.right = (document.documentElement.clientWidth - strip.right) + 'px';
                 menu.showPopover();
