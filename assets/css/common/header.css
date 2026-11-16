@@ -181,7 +181,7 @@ body:not(.dark) #sun {
     inset: auto;
     display: flex;
     flex-direction: column;
-    min-width: 180px;
+    width: max-content;
     margin: 0;
     padding: 14px 0 16px;
     border: 0;
@@ -189,7 +189,7 @@ body:not(.dark) #sun {
     line-height: normal;
     color: var(--primary);
     background: var(--entry-image), var(--entry);
-    clip-path: polygon(0 5px, 58% 0, 100% 4px, 100% calc(100% - 6px), 44% 100%, 0 calc(100% - 3px));
+    clip-path: polygon(0 1px, 58% 0, 100% 1px, 100% calc(100% - 2px), 44% 100%, 0 calc(100% - 1px));
 }
 
 #menu:popover-open::backdrop {
@@ -201,7 +201,7 @@ body:not(.dark) #sun {
 }
 
 #menu:popover-open a {
-    padding: 10px 24px;
+    padding: 10px 20px;
     font-size: 16px;
 }
 
