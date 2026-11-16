@@ -43,6 +43,12 @@
     margin-left: 8px;
 }
 
+/* A word joiner, so the icon never wraps onto a line of its own and
+   always stays with the last word of the title. */
+.rss-icon-link::before {
+    content: "\2060";
+}
+
 /* To add margin below each paragraph except the last one */
 .entry-content p:not(:last-of-type) {
     margin-bottom: 14px;
