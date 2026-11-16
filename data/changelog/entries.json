@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-11-16T20:59:59+05:30",
+  "lastUpdated": "2026-11-17T01:27:17+05:30",
   "entries": [
+    {
+      "hash": "19696cf",
+      "date": "2026-11-17T01:24:24+05:30",
+      "message": "Retained footer h-card's uid by nesting as previously done."
+    },
+    {
+      "hash": "00de8bb",
+      "date": "2026-11-17T01:22:29+05:30",
+      "message": "Updated footer license text to 'Licensed under CC BY 4.0'."
+    },
+    {
+      "hash": "990ee00",
+      "date": "2026-11-17T01:22:28+05:30",
+      "message": "Improved iOS phone menu popup for better navigation and long labels."
+    },
+    {
+      "hash": "00fc71a",
+      "date": "2026-11-17T01:14:25+05:30",
+      "message": "Updated phone menu to use popover and adjusted CSS positioning."
+    },
+    {
+      "hash": "600a624",
+      "date": "2026-11-17T01:08:37+05:30",
+      "message": "Aligned phone menu popup font size with desktop navigation."
+    },
+    {
+      "hash": "acea3f1",
+      "date": "2026-11-17T01:06:32+05:30",
+      "message": "Adjusted phone menu popup to be narrower and more rectangular."
+    },
+    {
+      "hash": "7cee03d",
+      "date": "2026-11-17T00:35:39+05:30",
+      "message": "Changed phone menu to open as a popup instead of expanding header."
+    },
+    {
+      "hash": "5540a98",
+      "date": "2026-11-17T00:09:25+05:30",
+      "message": "Smoothed out torn edges of header and footer on mobile devices."
+    },
+    {
+      "hash": "64ce2fb",
+      "date": "2026-11-17T00:07:55+05:30",
+      "message": "Replaced menu icon with a standard three-line design for phones."
+    },
     {
       "hash": "f339b5a",
       "date": "2026-11-16T20:59:06+05:30",
