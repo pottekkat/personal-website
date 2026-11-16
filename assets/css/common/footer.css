@@ -11,7 +11,8 @@
     text-align: center;
     line-height: 24px;
     background: left var(--entry-image), var(--entry);
-    clip-path: polygon(0 6px, 38% 10px, 64% 12px, 100% 14px, 100% calc(100% - 6px), 0 calc(100% - 10px));
+    /* Scales with the screen width, like the header's tear. */
+    clip-path: polygon(0 6px, 38% calc(6px + .5vw), 64% calc(6px + .9vw), 100% calc(6px + 1.2vw), 100% calc(100% - 6px), 0 calc(100% - 6px - 1.4vw));
 }
 
 @media (min-width: 768px) {

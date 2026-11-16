@@ -13,7 +13,9 @@
 .header {
     max-width: calc(100% - 16px);
     margin: 0 auto;
-    clip-path: polygon(0 6px, 55% 10px, 100% 14px, 100% calc(100% - 10px), 50% calc(100% - 6px), 0 calc(100% - 12px));
+    /* The tear deepens with the screen width, so phones get the same gentle
+       slope as desktop instead of a steep one. */
+    clip-path: polygon(0 6px, 55% calc(6px + .55vw), 100% calc(6px + 1vw), 100% calc(100% - 6px - .6vw), 50% calc(100% - 6px), 0 calc(100% - 6px - .4vw));
 }
 
 @media (min-width: 768px) {
@@ -172,3 +174,40 @@ body:not(.dark) #sun {
         padding-bottom: 14px;
     }
 }
+
+/* Phones: the menu as a popup card (see the script in header.html). It
+   hangs from the strip's right edge, tucked under its torn bottom edge. */
+#menu:popover-open {
+    position: absolute;
+    inset: calc(var(--header-height) - 10px) 8px auto auto;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    max-width: calc(100% - 16px);
+    margin: 0;
+    padding: 14px 0 16px;
+    border: 0;
+    overflow: visible;
+    line-height: normal;
+    color: var(--primary);
+    background: var(--entry-image), var(--entry);
+    clip-path: polygon(0 1px, 58% 0, 100% 1px, 100% calc(100% - 2px), 44% 100%, 0 calc(100% - 1px));
+}
+
+#menu:popover-open::backdrop {
+    background: rgba(0, 0, 0, .2);
+}
+
+#menu:popover-open,
+#menu:popover-open a {
+    white-space: normal;
+}
+
+#menu:popover-open li + li {
+    margin-inline-start: 0;
+}
+
+#menu:popover-open a {
+    padding: 10px 20px;
+}
+

@@ -3,9 +3,10 @@
     {{- if site.Copyright }}
     <span>{{ site.Copyright | markdownify }}</span>
     {{- end }}
-    <span class="h-card">This work by <a class="p-name u-url u-uid" rel="author" href="{{ site.BaseURL }}">{{ site.Params.author.name }}</a></span>
+    {{- /* The site's representative h-card, kept for IndieWeb parsers. */}}
+    <span class="h-card" style="display: none;"><a class="p-name u-url u-uid" rel="author" href="{{ site.BaseURL }}">{{ site.Params.author.name }}</a></span>
     <span>
-        is licensed under <a rel="license" href="http://creativecommons.org/licenses/by/4.0" target="_blank">CC BY 4.0</a>
+        Licensed under <a rel="license" href="http://creativecommons.org/licenses/by/4.0" target="_blank">CC BY 4.0</a>
     </span>
     <span class="webring">
         <a href="https://blr.indiewebclub.org/webring/navendu-me/previous.html">&laquo;</a>

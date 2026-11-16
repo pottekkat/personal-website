@@ -143,7 +143,7 @@
         </div>
         {{- $currentPage := . }}
         <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="menu">
-            <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="1.6 2.4 12.8 11.2" fill="currentColor"><path d="M2.8 11.2c-.22 0-.4.18-.4.4a2 2 0 0 0 2 2h7.2a2 2 0 0 0 2-2c0-.22-.18-.4-.4-.4zm-.4-4.55c0 .305.248.55.55.55h10.1a.55.55 0 0 0 .55-.55c0-.43-.065-.86-.27-1.238C12.775 4.393 11.273 2.4 8 2.4S3.225 4.39 2.67 5.413c-.205.377-.27.807-.27 1.237M1.6 9.2a.8.8 0 0 0 .8.8h11.2a.8.8 0 1 0 0-1.6H2.4a.8.8 0 0 0-.8.8M8 3.4a.6.6 0 1 1 .002 1.202A.6.6 0 0 1 8 3.4M4.6 4.8a.6.6 0 1 1 1.202-.002A.6.6 0 0 1 4.6 4.8m6.2-.6a.6.6 0 1 1 .002 1.202A.6.6 0 0 1 10.8 4.2"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M1 2.6h14v1.8H1zm0 4.5h14v1.8H1zm0 4.5h14v1.8H1z"></path></svg>
         </button>
         <ul id="menu" class="menulinks">
             {{- range site.Menus.main }}
@@ -167,14 +167,46 @@
 </header>
 
 <script type="module">
-    document.addEventListener('DOMContentLoaded', function() {
-    const menuToggleButton = document.getElementById('menu-toggle');
-    const menuLinks = document.getElementById('menu');
+    // Phones: the menu opens as a popup card in the top layer, so the
+    // clipped header strip never grows. The button becomes the popup's
+    // invoker only below the breakpoint, so desktop keeps the plain list.
+    const button = document.getElementById('menu-toggle');
+    const menu = document.getElementById('menu');
 
-    menuToggleButton.addEventListener('click', function() {
-        const isExpanded = menuToggleButton.getAttribute('aria-expanded') === 'true';
-        menuToggleButton.setAttribute('aria-expanded', !isExpanded);
-        menuLinks.classList.toggle('active');
-    });
-});
+    if (button && menu) {
+        if ('popover' in HTMLElement.prototype) {
+            const phone = window.matchMedia('(max-width: 625px)');
+            const sync = function () {
+                if (phone.matches) {
+                    menu.popover = 'auto';
+                    button.popoverTargetElement = menu;
+                } else {
+                    button.popoverTargetElement = null;
+                    menu.removeAttribute('popover');
+                }
+            };
+
+            menu.addEventListener('toggle', function (e) {
+                button.setAttribute('aria-expanded', e.newState === 'open');
+            });
+            phone.addEventListener('change', sync);
+            sync();
+
+            // Back/forward cache can restore the page with the menu open.
+            window.addEventListener('pageshow', function (e) {
+                if (!e.persisted) return;
+                sync();
+                if (menu.matches(':popover-open')) menu.hidePopover();
+            });
+
+            // iOS 17 to 18.2 only light-dismisses on touch when the page
+            // has a pointer listener (WebKit bug 267688).
+            document.body.addEventListener('pointerdown', function () {}, { passive: true });
+        } else {
+            button.addEventListener('click', function () {
+                const open = menu.classList.toggle('active');
+                button.setAttribute('aria-expanded', open);
+            });
+        }
+    }
 </script>
