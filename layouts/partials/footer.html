@@ -4,7 +4,7 @@
     <span>{{ site.Copyright | markdownify }}</span>
     {{- end }}
     {{- /* The site's representative h-card, kept for IndieWeb parsers. */}}
-    <a class="h-card p-name u-url u-uid" rel="author" href="{{ site.BaseURL }}" style="display: none;">{{ site.Params.author.name }}</a>
+    <span class="h-card" style="display: none;"><a class="p-name u-url u-uid" rel="author" href="{{ site.BaseURL }}">{{ site.Params.author.name }}</a></span>
     <span>
         Licensed under <a rel="license" href="http://creativecommons.org/licenses/by/4.0" target="_blank">CC BY 4.0</a>
     </span>
