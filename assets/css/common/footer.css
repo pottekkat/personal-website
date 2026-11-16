@@ -72,7 +72,79 @@
     }
 }
 
-.top-link:focus,
-#theme-toggle:focus {
+/* Keyboard shortcuts list, opened with "?" (assets/js/shortcuts.js). */
+.shortcuts {
+    max-width: calc(100% - 16px);
+    padding: var(--gap);
+    color: var(--primary);
+    /* The same plain card as a post entry (post-entry.css). */
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+
+.shortcuts::backdrop {
+    background: rgba(0, 0, 0, .2);
+}
+
+.shortcuts-head {
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+    margin-bottom: 12px;
+}
+
+.shortcuts h2 {
+    flex: 1;
+    font-size: 16px;
+}
+
+/* Disable/Enable and Close: bare controls like the phone menu's toggle
+   (header.css). */
+.shortcuts-head button {
+    display: flex;
+    font-size: 14px;
+}
+
+@media (hover: hover) {
+    .shortcuts-head button:hover {
+        color: var(--secondary);
+    }
+}
+
+/* The dialog and its heading take focus when it opens or is clicked, so a
+   screen reader starts at the top; neither shows a ring for that. */
+.shortcuts:focus,
+.shortcuts h2:focus {
     outline: 0;
+}
+
+/* Disabled: the list fades, like the books page's placeholder covers
+   (books.css). It describes keys that are off, so it is not text the
+   reader needs at full contrast. */
+.shortcuts.is-off table {
+    opacity: 0.6;
+}
+
+.shortcuts table {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.shortcuts td {
+    padding: 6px 8px;
+}
+
+.shortcuts td:first-child {
+    padding-inline-start: 0;
+    white-space: nowrap;
+}
+
+.shortcuts kbd {
+    padding: 2px 6px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78em;
+    color: var(--primary);
+    background: var(--theme);
+    border: 1px solid var(--border);
 }

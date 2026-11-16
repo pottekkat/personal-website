@@ -95,6 +95,12 @@
     font-size: 20px;
 }
 
+/* The link wraps a block heading; as an inline box its focus ring has
+   nothing to draw around. */
+.til-entry-header > a {
+    display: inline-block;
+}
+
 .entry-content {
     margin: 8px 0;
     color: var(--secondary);

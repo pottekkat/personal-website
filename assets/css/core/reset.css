@@ -104,6 +104,20 @@ textarea {
     outline: 0;
 }
 
+/* Keyboard focus in the theme's colour, square like everything else, in
+   place of the browser's rounded ring. :focus-visible keeps it off mouse
+   clicks. The text fields show focus with their border instead
+   (search.css, subscribe-form.css, webmentions.css). */
+:focus-visible {
+    outline: 2px solid var(--secondary);
+}
+
+#searchbox input:focus-visible,
+.subscribe-input input:focus-visible,
+.webmention-input input:focus-visible {
+    outline: 0;
+}
+
 button,
 input[type=button],
 input[type=submit] {

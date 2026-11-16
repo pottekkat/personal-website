@@ -22,6 +22,35 @@
 </a>
 {{- end }}
 
+{{- /* Opened with "?", which works even while the keys are off, so they
+   can be turned back on here; see assets/js/shortcuts.js. */}}
+<dialog id="shortcuts" class="shortcuts" aria-labelledby="shortcuts-title" closedby="any">
+    <div class="shortcuts-head">
+        <h2 id="shortcuts-title" tabindex="-1" autofocus>Keyboard shortcuts</h2>
+        {{- /* The label is the action: "Disable", or "Enable" once off. */}}
+        <button type="button" id="shortcuts-enabled">Disable</button>
+        <form method="dialog">
+            <button type="submit" aria-label="Close" title="Close (Esc)"><svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M3.3 2 8 6.7 12.7 2 14 3.3 9.3 8l4.7 4.7-1.3 1.3L8 9.3 3.3 14 2 12.7 6.7 8 2 3.3z"/></svg></button>
+        </form>
+    </div>
+    <table>
+        <tbody>
+            <tr><td><kbd>j</kbd> <kbd>k</kbd></td><td>Next or previous item in a list; scroll elsewhere</td></tr>
+            <tr><td><kbd>g</kbd> <kbd>g</kbd></td><td>Go to the top</td></tr>
+            <tr><td><kbd>G</kbd></td><td>Go to the bottom</td></tr>
+            <tr><td><kbd>n</kbd> <kbd>p</kbd></td><td>Next or previous page</td></tr>
+            <tr><td><kbd>/</kbd></td><td>Search, where there is a search box</td></tr>
+            <tr><td><kbd>g</kbd> <kbd>h</kbd></td><td>Go home</td></tr>
+            <tr><td><kbd>g</kbd> <kbd>p</kbd></td><td>Go to posts</td></tr>
+            <tr><td><kbd>g</kbd> <kbd>b</kbd></td><td>Go to books</td></tr>
+            <tr><td><kbd>g</kbd> <kbd>a</kbd></td><td>Go to archives</td></tr>
+            <tr><td><kbd>?</kbd></td><td>Show this list, even when disabled</td></tr>
+        </tbody>
+    </table>
+</dialog>
+{{- $shortcuts := resources.Get "js/shortcuts.js" | minify | fingerprint }}
+<script defer crossorigin="anonymous" src="{{ $shortcuts.RelPermalink }}" integrity="{{ $shortcuts.Data.Integrity }}"></script>
+
 {{- partial "extend_footer.html" . }}
 
 <script type="module">

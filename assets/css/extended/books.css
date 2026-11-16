@@ -233,7 +233,27 @@ body:not(.grid-active):not(.list-active) #list { display: inline-block; }
 
 @media screen and (max-width: 500px) {
   /* Icon-only buttons on phones; aria-label keeps the accessible name. */
-  .toggle-button .toggle-text,
-  .toggle-button .filter-text { display: none; }
-  .toggle-button { padding: 6px; }
+  .view-toggle-wrapper .toggle-button .toggle-text,
+  .view-toggle-wrapper .toggle-button .filter-text { display: none; }
+  .view-toggle-wrapper .toggle-button { padding: 6px; }
+}
+
+/* The title is the row's link, for keyboard and j/k; the whole row is
+   already clickable, so a line under it reads as clutter. */
+.books-table a {
+  box-shadow: none !important;
+}
+
+/* Ring the whole row, not the wrapped title. Drawn inside the row, since
+   the table's overflow clips anything outside it. Browsers without :has()
+   keep the ring on the title. */
+@supports selector(:has(*)) {
+  .books-table a:focus-visible {
+    outline: 0;
+  }
+
+  .book-row:has(a:focus-visible) {
+    outline: 2px solid var(--secondary);
+    outline-offset: -2px;
+  }
 }

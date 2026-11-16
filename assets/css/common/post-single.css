@@ -462,10 +462,6 @@ body:not(.dark) .post-content figure .invert-diagram-colors {
     margin-inline-start: var(--gap);
 }
 
-.toc summary:focus {
-    outline: 0;
-}
-
 .post-footer {
     margin-top: 56px;
 }
@@ -685,7 +681,7 @@ codapi-snippet codapi-toolbar button:after {
 /* Handle */
 .katex-display::-webkit-scrollbar-thumb {
     background: var(--border);
-    border-radius: 4px;
+    border-radius: 0;
 }
 
 /* Handle on hover */
