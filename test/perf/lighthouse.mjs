@@ -45,10 +45,11 @@ try {
       );
       // Lighthouse won't measure a page served with an error status (the
       // 404 page is one): it sets runtimeError and leaves every metric empty.
-      // Any other runtime error, or one after a good run, is a real failure.
+      // That is expected only for the 404 page itself; any other runtime
+      // error, on any page or after a good run, is a real failure.
       if (res.lhr.runtimeError) {
         const code = res.lhr.runtimeError.code;
-        if (i > 0 || code !== 'ERRORED_DOCUMENT_REQUEST') {
+        if (page.id !== '404' || i > 0 || code !== 'ERRORED_DOCUMENT_REQUEST') {
           throw new Error(`${page.id}: Lighthouse runtime error ${code} on run ${i + 1}`);
         }
         console.log(`${page.id.padEnd(14)} skipped: ${code}`);
