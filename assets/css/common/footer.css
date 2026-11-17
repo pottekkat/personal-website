@@ -43,7 +43,6 @@
 }
 
 .top-link {
-    visibility: hidden;
     display: block;
     position: fixed;
     bottom: 60px;

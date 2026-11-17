@@ -132,17 +132,9 @@
 
 {{- if (not site.Params.disableScrollToTop) }}
 <script type="module">
-    var mybutton = document.getElementById("top-link");
+    var topNav = document.getElementById("top-link").parentElement;
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.parentElement.hidden = false;
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.parentElement.hidden = true;
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
+        topNav.hidden = document.documentElement.scrollTop <= 800 && document.body.scrollTop <= 800;
     };
 
 </script>
