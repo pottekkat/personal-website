@@ -1,0 +1,44 @@
+{{- /* The image a page shares as, for Open Graph and X cards: a dict of url, plus
+       width, height, type and alt when they are known. url is empty when there
+       is none. The source is the page's cover, then its `images` list, then a
+       feature, cover or thumbnail image in its bundle, then the site default.
+       Width and height come from the file itself (static/ is mounted into
+       assets), so they stay right when an image is replaced. */ -}}
+{{- $url := "" }}
+{{- $res := false }}
+{{- $alt := "" }}
+{{- with .Params.cover.image }}
+  {{- /* A root path wins over `relative`: one post sets relative: "true" (a
+         string) on a /images/... cover. */}}
+  {{- if and $.Params.cover.relative (not (strings.HasPrefix . "/")) }}
+    {{- $url = path.Join $.RelPermalink . | absURL }}
+    {{- $res = $.Resources.GetMatch . }}
+  {{- else }}
+    {{- $url = absURL . }}
+    {{- if not (strings.HasPrefix . "http") }}
+      {{- $res = resources.Get (strings.TrimPrefix "/" .) }}
+    {{- end }}
+  {{- end }}
+  {{- $alt = $.Params.cover.alt | default $.Params.cover.caption }}
+{{- else with .Params.images }}
+  {{- $url = index . 0 | absURL }}
+{{- else }}
+  {{- $images := .Resources.ByType "image" }}
+  {{- $res = $images.GetMatch "*feature*" | default ($images.GetMatch "{*cover*,*thumbnail*}") }}
+  {{- with $res }}
+    {{- $url = .Permalink }}
+  {{- else }}
+    {{- with site.Params.images }}
+      {{- $url = index . 0 | absURL }}
+      {{- $res = resources.Get (index . 0) }}
+      {{- $alt = site.Params.imagesAlt }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- $img := dict "url" $url "alt" ($alt | plainify | htmlUnescape | strings.TrimSpace) }}
+{{- with $res }}
+  {{- if in (slice "jpeg" "png" "gif" "webp") .MediaType.SubType }}
+    {{- $img = merge $img (dict "width" .Width "height" .Height "type" .MediaType.Type) }}
+  {{- end }}
+{{- end }}
+{{- return $img }}
