@@ -17,7 +17,7 @@ cover:
 > [!DISCLAIMER]
 > I am still learning about public policy and base this blog post on my current understanding of the topic. I will continue improving this post as I learn more. Any feedback and corrections are welcome.
 
-I'm still trying to figure out what to make of the new [Digital Personal Data Protection Bill](https://www.meity.gov.in/writereaddata/files/The%20Digital%20Personal%20Data%20Potection%20Bill%2C%202022_0.pdf) (DPDPB).
+I'm still trying to figure out what to make of the new [Digital Personal Data Protection Bill](https://web.archive.org/web/20230501212037/https://www.meity.gov.in/writereaddata/files/The%20Digital%20Personal%20Data%20Potection%20Bill%2C%202022_0.pdf) (DPDPB).
 
 I thought it was a great idea when I was introduced to the bill last year. I was familiar with [GDPR](https://gdpr-info.eu/) and considered the bill an Indian version of the GDPR (Desi-DPR™?). Users in the EU have generally responded to the GDPR positively, and I believed the bill would just be like that.
 

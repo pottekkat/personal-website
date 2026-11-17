@@ -9,8 +9,8 @@
     // from waiting on that load.
     // Pinned, so a new major version can't restyle every diagram unseen.
     // A new version is a deliberate update, with a new hash.
-    var MERMAID_SRC = 'https://cdn.jsdelivr.net/npm/mermaid@12.3.0/dist/mermaid.min.js';
-    var MERMAID_SRI = 'sha384-HHW54r639fK42Ip0coGF3mz8oSiGn0eEoWNTLs75X7H63pLSDBa0Tqs0RwGmLlXE';
+    var MERMAID_SRC = 'https://cdn.jsdelivr.net/npm/mermaid@11.17.2/dist/mermaid.min.js';
+    var MERMAID_SRI = 'sha384-EOXBFmc3gx5mb+vn0vPvvGqACToJD24hhacX5Yx+8NUUQrHIle/Qi5Bg9o3zKwW2';
 
     // Never start the fetch before `load`: a diagram near the top of the page
     // would otherwise put 900 KB of CDN JavaScript in competition with the
@@ -88,9 +88,10 @@
         mermaid.initialize({
           startOnLoad: false,
           theme: theme,
-          // Mermaid 12 lays diagrams out with ELK, draws a glow around each
-          // shape, wraps labels at 120px and stretches small boxes to 120px;
-          // these keep the look the posts were written with (mermaid 11).
+          // The look the posts were drawn with. Mermaid 12 changes it (ELK
+          // layout, a glow on shapes, 120px label wrap, 120px minimum box);
+          // these keep it. minNodeWidth isn't a mermaid 11 option and is
+          // ignored until then.
           layout: 'dagre',
           look: 'classic',
           flowchart: { wrappingWidth: 200, minNodeWidth: 0 },

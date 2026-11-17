@@ -7,6 +7,6 @@ summary: "This might be a theme here."
 
 I'm writing this again from an airport. I guess this is a thing now, considering I have written at least four daily logs in airports over the past months.
 
-I'm off to [speak at FOSSASIA Summit](https://eventyay.com/e/7cfe0771/session/8122). This is going to be a busy (but enjoyable) week.
+I'm off to [speak at FOSSASIA Summit](https://web.archive.org/web/20230329045152/https://eventyay.com/e/7cfe0771/session/8122). This is going to be a busy (but enjoyable) week.
 
 I'm excited to be back in Singapore. Morning runs have great views, there's always a park around the corner, and tons of great food.

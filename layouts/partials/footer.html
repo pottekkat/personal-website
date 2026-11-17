@@ -17,9 +17,11 @@
 {{- end }}
 
 {{- if (not .Site.Params.disableScrollToTop) }}
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
-    <button class="top-link" id="top-link" type="button" accesskey="g"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z" /></svg></button>
-</a>
+{{- /* Hidden until the page is scrolled, so an empty landmark isn't
+   announced at the top of the page or without JavaScript. */}}
+<nav class="top-link-nav" aria-label="Back to top" hidden>
+    <a href="#top" class="top-link" id="top-link" accesskey="g" aria-label="Go to top" title="Go to Top (Alt + G)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z" /></svg></a>
+</nav>
 {{- end }}
 
 {{- /* Opened with "?", which works even while the keys are off, so they
@@ -130,15 +132,9 @@
 
 {{- if (not site.Params.disableScrollToTop) }}
 <script type="module">
-    var mybutton = document.getElementById("top-link");
+    var topNav = document.getElementById("top-link").parentElement;
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
+        topNav.hidden = document.documentElement.scrollTop <= 800 && document.body.scrollTop <= 800;
     };
 
 </script>

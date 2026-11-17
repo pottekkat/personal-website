@@ -1,6 +1,6 @@
 {{- $pages := where site.RegularPages "Type" "in" "dailies" }}
 {{- if and (gt (len $pages) 1) (in $pages . ) }}
-<nav class="paginav">
+<nav class="paginav" aria-label="Previous and next">
   {{- with $pages.Next . }}
   <a class="prev" href="{{ .Permalink }}">
     <span class="title">« {{ i18n "prev_page" }}</span>

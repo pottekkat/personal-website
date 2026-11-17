@@ -43,7 +43,7 @@
 }
 
 .top-link {
-    visibility: hidden;
+    display: block;
     position: fixed;
     bottom: 60px;
     right: 30px;
@@ -55,6 +55,11 @@
     height: 42px;
     padding: 12px;
     border-radius: 0;
+}
+
+/* reset.css gives nav display: block, which beats the browser's [hidden] */
+.top-link-nav[hidden] {
+    display: none;
 }
 
 .top-link,

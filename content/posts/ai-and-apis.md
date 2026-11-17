@@ -34,7 +34,7 @@ AI models, while used extensively, are limited. By design, [large language model
 
 ChatGPT [released plugins](https://openai.com/blog/chatgpt-plugins) to do precisely this by leveraging third-party services through APIs. For example, the [OpenTable plugin](https://www.opentable.com/blog/chatgpt/) lets you use ChatGPT to get restaurant recommendations and book a table.
 
-Under the hood, OpenTable exposes an API to ChatGPT through an [OpenAPI specification](https://swagger.io/specification/) and a [manifest file](https://platform.openai.com/docs/plugins/getting-started/plugin-manifest) containing the plugin metadata.
+Under the hood, OpenTable exposes an API to ChatGPT through an [OpenAPI specification](https://swagger.io/specification/) and a [manifest file](https://web.archive.org/web/20230525144907/https://platform.openai.com/docs/plugins/getting-started/plugin-manifest) containing the plugin metadata.
 
 The OpenAPI spec is a standard way of defining HTTP APIs. In this context, the spec is a wrapper around the third-party API, which tells ChatGPT how to use the API.
 

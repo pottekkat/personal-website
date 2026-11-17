@@ -13,9 +13,9 @@ I was looking forward to some of the talks today, and I also got to meet many pe
 
 I liked these two talks the best:
 
-1. [How Grafana Labs builds and sustains communities](https://eventyay.com/e/7cfe0771/session/8058) by Richard Hartmann: Particularly insightful as I have first-hand experience in building open source communities. I also got to meet and talk to Richard afterward about prioritizing community even when you want to monetize with your paid products.
+1. [How Grafana Labs builds and sustains communities](https://web.archive.org/web/20230512030833/https://eventyay.com/e/7cfe0771/session/8058) by Richard Hartmann: Particularly insightful as I have first-hand experience in building open source communities. I also got to meet and talk to Richard afterward about prioritizing community even when you want to monetize with your paid products.
 
-2. [What the AI revolution means for Open Source, Open Tech and Open Societies](https://eventyay.com/e/7cfe0771/session/8196) by Frank Karlitschek: The talk presented an interesting way to evaluate AI models by their "open source-ness." The talk also showed examples of AI models open to different levels.
+2. [What the AI revolution means for Open Source, Open Tech and Open Societies](https://web.archive.org/web/20230327104800/https://eventyay.com/e/7cfe0771/session/8196) by Frank Karlitschek: The talk presented an interesting way to evaluate AI models by their "open source-ness." The talk also showed examples of AI models open to different levels.
 
 {{< figure src="/images/13-4-23-fossasia-day-1/group-photo.webp#center" title="FOSSASIA!" caption="Lifelong Learning Institute, Singapore - 13th April 2023" link="/images/13-4-23-fossasia-day-1/group-photo.webp" target="_blank" class="align-center" >}}
 

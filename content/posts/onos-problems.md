@@ -56,13 +56,13 @@ This is evident in Plan S’s suggestion to cap APCs and eventually offer waiver
 
 Blatantly criticizing the status quo without offering sustainable alternatives is easy. But arriving at such an alternative is non-trivial. Still, less intervening policies that can provide results in the long run are a good place to start. Workshopping such policies requires understanding the root cause of the problem—researchers choosing to publish in subscription-based, “prestigious” journals—instead of curbing its symptoms.
 
-[^1]: "Indian Science Reports." Anna University. Accessed on August 9, 2023. https://indianscience.net/index.php.
-[^2]: Vasudevan Mukunth. "The open access movement, to make academic papers accessible for all." The Hindu, January 10, 2023. https://www.thehindu.com/sci-tech/science/the-open-access-movement-to-make-academic-papers-accessible-for- all/article66358199.ece.
+[^1]: "Indian Science Reports." Anna University. Accessed on August 9, 2023. https://web.archive.org/web/20230410115320/http://www.indianscience.net/index.php.
+[^2]: Vasudevan Mukunth. "The open access movement, to make academic papers accessible for all." The Hindu, January 10, 2023. https://www.thehindu.com/sci-tech/science/the-open-access-movement-to-make-academic-papers-accessible-for-all/article66358199.ece.
 [^3]: Joel P Joseph. "What Is the Status of India’s ‘One Nation, One Subscription’ Plan?" The Wire - Science, September 9, 2022. https://science.thewire.in/the-sciences/india-onos-journal-subscriptions/.
 [^4]: "Paywalls and Information Costs." Duke University. Accessed on August 9, 2023. https://sites.duke.edu/library101_instructors/2018/09/05/paywalls-and-information-costs/.
-[^5]: Usha Munshi, Jagdish Arora. "One Nation One Subscription." https://aws-static.iicdelhi.in/s3fs-public/2022-09/OP- 111_Final_13.09.2022.pdf.
-[^6]: "Indian scientists burdened by cost of research published in open access journals." Firstpost, November 14, 2016. https://www.firstpost.com/tech/news-analysis/indian-scientists-burdened-by-cost-of-research-published-in-open-access- journals-3692197.html.
+[^5]: Usha Munshi, Jagdish Arora. "One Nation One Subscription." https://aws-static.iicdelhi.in/s3fs-public/2022-09/OP-111_Final_13.09.2022.pdf.
+[^6]: "Indian scientists burdened by cost of research published in open access journals." Firstpost, November 14, 2016. https://www.firstpost.com/tech/news-analysis/indian-scientists-burdened-by-cost-of-research-published-in-open-access-journals-3692197.html.
 [^7]: Brian Resnick, Julia Belluz. "The war to free science". Vox, July 10, 2019. https://www.vox.com/the-highlight/2019/6/3/18271538/open-access-elsevier-california-sci-hub-academic-paywalls.
-[^8]: "Guidance on the implementation of Plan S." Accessed on August 9th, 2023. https://www.coalition-s.org/guidance-on-the- implementation-of-plan-s/.
-[^9]: Christopher Marcum, Ryan Donohue. "Breakthroughs for All: Delivering Equitable Access to America’s Research." August 25, 2022. https://www.whitehouse.gov/ostp/news-updates/2022/08/25/breakthroughs-for-alldelivering-equitable-access-to- americas-research/.
-[^10]: "OASPA Feedback on Plan S Implementation Guidance." February 8, 2019. https://oaspa.org/oaspa-feedback-on-plan-s- implementation-guidance/.
+[^8]: "Guidance on the implementation of Plan S." Accessed on August 9th, 2023. https://www.coalition-s.org/guidance-on-the-implementation-of-plan-s/.
+[^9]: Christopher Marcum, Ryan Donohue. "Breakthroughs for All: Delivering Equitable Access to America’s Research." August 25, 2022. https://web.archive.org/web/20230919185059/https://www.whitehouse.gov/ostp/news-updates/2022/08/25/breakthroughs-for-alldelivering-equitable-access-to-americas-research/.
+[^10]: "OASPA Feedback on Plan S Implementation Guidance." February 8, 2019. https://oaspa.org/oaspa-feedback-on-plan-s-implementation-guidance/.

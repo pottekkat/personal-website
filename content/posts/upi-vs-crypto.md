@@ -77,6 +77,6 @@ Relying on a central authority and democratizing the system seems the best and p
 
 [^11]: Barthe, Blanca, and Samuel Murrant. 2022. “Prime Time for Real-Time Global Payments Report.” ACI Worldwide. April 2022. https://www.aciworldwide.com/real-time-payments-report.
 
-[^12]: Jain, Sourabh. 2022. “You Will Soon Be Able to Use UPI in France in Addition to UAE, Singapore.” Business Insider. June 16, 2022. https://www.businessinsider.in/finance/news/upi-and-rupay-cards-will-soon-be-accepted-in-france/articleshow/92247190.cms.
+[^12]: Jain, Sourabh. 2022. “You Will Soon Be Able to Use UPI in France in Addition to UAE, Singapore.” Business Insider. June 16, 2022. https://web.archive.org/web/20221112171148/https://www.businessinsider.in/finance/news/upi-and-rupay-cards-will-soon-be-accepted-in-france/articleshow/92247190.cms.
 
 [^13]: “Federal Reserve Updates FedNow Service Timing to Mid-2023, Marks Beginning of Full-Scale Pilot Testing.” 2022. Board of Governors of the Federal Reserve System. August 29, 2022. https://www.federalreserve.gov/newsevents/pressreleases/other20220829a.htm.

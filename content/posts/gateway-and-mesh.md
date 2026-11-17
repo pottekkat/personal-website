@@ -254,7 +254,7 @@ There are a lot of service meshes available. Some of the popular ones are:
 
 New service mesh offerings like [Cilium](https://isovalent.com/blog/post/introducing-cilium-mesh/) offer alternatives to sidecar-based service meshes by using networking capabilities directly from the kernel through [eBPF](https://ebpf.io/).
 
-{{< figure src="/images/gateway-and-mesh/cilium-mesh.png#center" title="Sidecar-less service mesh" caption="A typical service mesh requires 8 proxies for 8 services whereas eBPF-based service meshes like Cilium don't. Adapted from [Cilium Service Mesh – Everything You Need to Know](https://isovalent.com/blog/post/cilium-service-)" link="/images/gateway-and-mesh/cilium-mesh.png" target="_blank" class="align-center" >}}
+{{< figure src="/images/gateway-and-mesh/cilium-mesh.png#center" title="Sidecar-less service mesh" caption="A typical service mesh requires 8 proxies for 8 services whereas eBPF-based service meshes like Cilium don't. Adapted from [Cilium Service Mesh – Everything You Need to Know](https://isovalent.com/blog/post/cilium-service-mesh/)" link="/images/gateway-and-mesh/cilium-mesh.png" target="_blank" class="align-center" >}}
 
 Service meshes also have basic ingress/egress gateways to handle north-south traffic to and from the services. Ingress gateways are the entry points of external traffic to a service mesh, and egress gateways allow services inside a mesh to access external services.
 
@@ -318,7 +318,7 @@ The [GAMMA (Gateway API for Mesh Management and Administration) initiative](http
 
 Gateway API is a natural next step to the Ingress API, but we must wait to see how it will work for service meshes. Istio [has announced](https://istio.io/latest/blog/2022/gateway-api-beta/) its intention to use the Gateway API as its default API for all traffic management and continues to drive the project forward.
 
-The example below shows [configuring a canary deployment in Istio with the Gateway API](https://istio.io/latest/docs/tasks/traffic-management/traffic-shifting/). The underlying idea is using [parentRefs](https://gateway-api.sigs.k8s.io/v1alpha2/references/spec/#gateway.networking.k8s.io%2fv1beta1.ParentReference) to attach to other services instead of the gateway:
+The example below shows [configuring a canary deployment in Istio with the Gateway API](https://istio.io/latest/docs/tasks/traffic-management/traffic-shifting/). The underlying idea is using [parentRefs](https://web.archive.org/web/20230525000920/https://gateway-api.sigs.k8s.io/v1alpha2/references/spec/#gateway.networking.k8s.io%2fv1beta1.ParentReference) to attach to other services instead of the gateway:
 
 ```yaml {title="canary-gateway-mesh.yaml"}
 apiVersion: gateway.networking.k8s.io/v1beta1

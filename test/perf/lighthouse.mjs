@@ -43,6 +43,18 @@ try {
           settings: { formFactor: 'mobile', onlyCategories: ['performance'] },
         },
       );
+      // Lighthouse won't measure a page served with an error status (the
+      // 404 page is one): it sets runtimeError and leaves every metric empty.
+      // That is expected only for the 404 page itself; any other runtime
+      // error, on any page or after a good run, is a real failure.
+      if (res.lhr.runtimeError) {
+        const code = res.lhr.runtimeError.code;
+        if (page.id !== '404' || i > 0 || code !== 'ERRORED_DOCUMENT_REQUEST') {
+          throw new Error(`${page.id}: Lighthouse runtime error ${code} on run ${i + 1}`);
+        }
+        console.log(`${page.id.padEnd(14)} skipped: ${code}`);
+        break;
+      }
       const a = res.lhr.audits;
       samples.push({
         perf: Math.round(res.lhr.categories.performance.score * 100),
@@ -55,6 +67,7 @@ try {
         requests: a['network-requests'].details.items.length,
       });
     }
+    if (!samples.length) continue;
     const keys = Object.keys(samples[0]);
     const agg = {};
     for (const k of keys) agg[k] = median(samples.map((s) => s[k]));
@@ -70,9 +83,14 @@ try {
   await chrome.kill();
 }
 
+const ids = Object.keys(out.pages);
+// Exit before writing, so an existing report under this label survives.
+if (!ids.length) {
+  console.log('no pages measured');
+  process.exit(1);
+}
 fs.mkdirSync(RESULTS, { recursive: true });
 fs.writeFileSync(path.join(RESULTS, `lh-${label}.json`), JSON.stringify(out, null, 2));
-const ids = Object.keys(out.pages);
 const avg = (k) => ids.reduce((s, id) => s + out.pages[id][k], 0) / ids.length;
 console.log(
   `\nMEAN over ${ids.length} pages: perf=${avg('perf').toFixed(1)} ` +

@@ -55,7 +55,7 @@ With this configuration and proper templates, Hugo will automatically generate a
 
 ## Updating the Template
 
-Our goal is to mention the series the post is a part of and list other posts in the same series in order. To do this, we have to update the [single page template](https://gohugo.io/templates/single-page-templates/). Mine is at [layouts/\_default/single.html](https://github.com/pottekkat/personal-website/blob/hugo/layouts/_default/single.html).
+Our goal is to mention the series the post is a part of and list other posts in the same series in order. To do this, we have to update the [single page template](https://gohugo.io/templates/types/#single). Mine is at [layouts/\_default/single.html](https://github.com/pottekkat/personal-website/blob/hugo/layouts/_default/single.html).
 
 The logic for doing this is trivial:
 
