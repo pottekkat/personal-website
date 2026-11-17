@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-11-17T02:09:32.758649+05:30",
+  "last_updated": "2026-11-18T00:48:18.336879+05:30",
   "links": [
+    {
+      "id": "01m7mctesb73g7vgav9mtz59wq",
+      "title": "Let's Open Source the World — Brandon Thomas, ArtCraft",
+      "author": "AI Engineer",
+      "source_url": "https://www.youtube.com/watch?v=UCL4K36SHp0",
+      "published_date": "2026-11-16",
+      "saved_at": "2026-11-17T14:48:46.571000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": "Do you know what my blog is called?"
+    },
+    {
+      "id": "01m7mcg2tas304me0yb0b8qxaj",
+      "title": "Recursive self-improvement has started",
+      "author": "Dwarkesh Patel",
+      "source_url": "https://www.youtube.com/watch?v=1NHPDzpfR6Y",
+      "published_date": "2026-11-13",
+      "saved_at": "2026-11-17T14:43:06.633000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m7m6k5pw8dxymgrsntdm8zhg",
+      "title": "What's worth building when AI can build anything?",
+      "author": "GitHub",
+      "source_url": "https://www.youtube.com/watch?v=VY4jwwNF9No",
+      "published_date": "2026-11-11",
+      "saved_at": "2026-11-17T12:59:56.443000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": "I was looking for some insight in this discussion. But it is just 30 minutes of slop. It will not add any value to your life. Do not watch this."
+    },
+    {
+      "id": "01m7kzywz465a245agp1yfvwxt",
+      "title": "Visit to San Marino",
+      "author": "Kaazhchakal",
+      "source_url": "https://yezhuvath.com/2026/11/17/visit-to-san-marino/",
+      "published_date": "2026-11-16",
+      "saved_at": "2026-11-17T11:04:00.675000+05:30",
+      "reading_time": "7 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m7k8w5k83df6aznrkbtfjcte",
+      "title": "Playing Batman and James Bond is crazy",
+      "author": "COCO",
+      "source_url": "https://x.com/TWOTIMESABITCH/status/2122413065522069726/?rw_tt_thread=True",
+      "published_date": "2026-11-16",
+      "saved_at": "2026-11-17T04:20:33.959000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m7k43e8tahfr1phfhe83v97q",
+      "title": "For me, open source software has kinda lost the beauty of it",
+      "author": "NatSpaghettiAgency",
+      "source_url": "https://www.reddit.com/r/opensource/comments/1xxiek3/for_me_open_source_software_has_kinda_lost_the/",
+      "published_date": "2026-11-16",
+      "saved_at": "2026-11-17T02:57:09.338000+05:30",
+      "reading_time": "43 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01m7j6frd3b3xj19tn9wx33nn0",
       "title": "Bumbition",
