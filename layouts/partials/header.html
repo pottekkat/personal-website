@@ -3,7 +3,8 @@
 {{- /* theme is light */}}
 {{- if (eq site.Params.defaultTheme "light") }}
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
+    try { var pref = localStorage.getItem("pref-theme"); } catch (e) { }
+    if (pref === "dark") {
         document.body.classList.add('dark');
     }
 
@@ -11,7 +12,8 @@
 {{- /* theme is dark */}}
 {{- else if (eq site.Params.defaultTheme "dark") }}
 <script>
-    if (localStorage.getItem("pref-theme") === "light") {
+    try { var pref = localStorage.getItem("pref-theme"); } catch (e) { }
+    if (pref === "light") {
         document.body.classList.remove('dark')
     }
 
@@ -19,9 +21,12 @@
 {{- else }}
 {{- /* theme is auto */}}
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
+    // Storage throws where site data is blocked; the theme then follows
+    // the system.
+    try { var pref = localStorage.getItem("pref-theme"); } catch (e) { }
+    if (pref === "dark") {
         document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
+    } else if (pref === "light") {
         document.body.classList.remove('dark')
     } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
