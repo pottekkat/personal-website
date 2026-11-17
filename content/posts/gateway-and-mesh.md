@@ -254,7 +254,7 @@ There are a lot of service meshes available. Some of the popular ones are:
 
 New service mesh offerings like [Cilium](https://isovalent.com/blog/post/introducing-cilium-mesh/) offer alternatives to sidecar-based service meshes by using networking capabilities directly from the kernel through [eBPF](https://ebpf.io/).
 
-{{< figure src="/images/gateway-and-mesh/cilium-mesh.png#center" title="Sidecar-less service mesh" caption="A typical service mesh requires 8 proxies for 8 services whereas eBPF-based service meshes like Cilium don't. Adapted from [Cilium Service Mesh – Everything You Need to Know](https://isovalent.com/blog/post/cilium-service-)" link="/images/gateway-and-mesh/cilium-mesh.png" target="_blank" class="align-center" >}}
+{{< figure src="/images/gateway-and-mesh/cilium-mesh.png#center" title="Sidecar-less service mesh" caption="A typical service mesh requires 8 proxies for 8 services whereas eBPF-based service meshes like Cilium don't. Adapted from [Cilium Service Mesh – Everything You Need to Know](https://isovalent.com/blog/post/cilium-service-mesh/)" link="/images/gateway-and-mesh/cilium-mesh.png" target="_blank" class="align-center" >}}
 
 Service meshes also have basic ingress/egress gateways to handle north-south traffic to and from the services. Ingress gateways are the entry points of external traffic to a service mesh, and egress gateways allow services inside a mesh to access external services.
 

@@ -1,2 +1,14 @@
-{{ $url := .Destination | safeURL }}{{ if strings.HasPrefix .Destination "http" }}{{ $url = printf "%s?utm_source=navendu_blog&utm_medium=referral&utm_campaign=%s" $url (.Page.Title | urlize) }}{{ end }}<a href="{{ $url }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank"{{ end }}>{{ .Text }}</a>
+{{- $dest := .Destination }}
+{{- $external := strings.HasPrefix $dest "http" }}
+{{- if and $external (not (strings.HasPrefix $dest "https://web.archive.org/")) (not (strings.Contains $dest "utm_source=")) }}
+  {{- /* Tag outbound links for the other site's analytics. The tag joins any
+         query the link already has, and goes before the #fragment. An
+         archive.org copy is left alone: the tag would change which page it
+         looks up. A link that already has a utm_source keeps its own. */}}
+  {{- $base := index (split $dest "#") 0 }}
+  {{- $frag := strings.TrimPrefix $base $dest }}
+  {{- $sep := cond (strings.Contains $base "?") "&" "?" }}
+  {{- $dest = printf "%s%sutm_source=navendu_blog&utm_medium=referral&utm_campaign=%s%s" $base $sep (.Page.Title | urlize) $frag }}
+{{- end -}}
+<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $external }} target="_blank"{{ end }}>{{ .Text }}</a>
 {{- /* This comment removes trailing newlines. */ -}}
