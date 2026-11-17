@@ -82,7 +82,7 @@ routes:
 
 ## Configuring SigNoz
 
-You can instruct SigNoz (the OpenTelemetry Collector used by SigNoz) to scrape the endpoint exposed by APISIX for Prometheus metrics. To do this, you can modify the [default Collector configuration file](https://github.com/SigNoz/signoz/blob/develop/deploy/docker/clickhouse-setup/otel-collector-metrics-config.yaml) and add a new job to the `receivers.prometheus.config.scrape_configs` section:
+You can instruct SigNoz (the OpenTelemetry Collector used by SigNoz) to scrape the endpoint exposed by APISIX for Prometheus metrics. To do this, you can modify the [default Collector configuration file](https://web.archive.org/web/20231209012009/https://github.com/SigNoz/signoz/blob/develop/deploy/docker/clickhouse-setup/otel-collector-metrics-config.yaml) and add a new job to the `receivers.prometheus.config.scrape_configs` section:
 
 ```yaml {title="otel-collector-metrics-config.yaml"}
 receivers:

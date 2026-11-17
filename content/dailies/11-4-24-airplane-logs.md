@@ -71,6 +71,6 @@ We had planned a trip to Ha Long Bay before, but because I was alone on this tri
 
 {{< figure src="/images/11-4-24-airplane-logs/graduation.jpeg#center" title="Graduating students" caption="Temple of Literature, Hanoi - 7th April 2024" link="/images/11-4-24-airplane-logs/graduation.jpeg" target="_blank" class="align-center" >}}
 
-A friend from Thailand also [showed me some photos](https://poom.dev/reflecting-on-2023) from his sabbatical spent in rural Thailand, which sowed a new seed in my brain about backpacking across Southeast Asia with a backpack full of clothes and a laptop. Doing this in 2024 seems highly unlikely unless I'm there for work.
+A friend from Thailand also [showed me some photos](https://web.archive.org/web/20240521094311/https://poom.dev/reflecting-on-2023) from his sabbatical spent in rural Thailand, which sowed a new seed in my brain about backpacking across Southeast Asia with a backpack full of clothes and a laptop. Doing this in 2024 seems highly unlikely unless I'm there for work.
 
 _I look through my window and see nothing but the darkness of the sky and the ocean beneath. I stare into the darkness and pause for a while before I try to re-stimulate my brain with a sci-fi novel on my Kindle._

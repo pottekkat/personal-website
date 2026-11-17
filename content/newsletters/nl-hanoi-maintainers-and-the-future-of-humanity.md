@@ -11,7 +11,7 @@ places:
 
 Hello from Hanoi!
 
-I'm here this week for the [FOSSASIA Summit 2024](https://eventyay.com/e/55d2a466/session/8878). It is one of my favorite conferences of the year, and I have a lot of fun. Over the weekend, I caught up with my friends over some small sightseeing and big bowls of pho.
+I'm here this week for the [FOSSASIA Summit 2024](https://eventyay.com/e/55d2a466). It is one of my favorite conferences of the year, and I have a lot of fun. Over the weekend, I caught up with my friends over some small sightseeing and big bowls of pho.
 
 Coincidentally, I learned the other day that Vietnam and other Southeast and East Asian countries have a very non-confrontational work culture and, to compensate, have a very vibrant after-work drinking culture. I guess the alcohol makes it easy to have those tough conversations!
 

@@ -56,7 +56,7 @@ This is evident in Plan S’s suggestion to cap APCs and eventually offer waiver
 
 Blatantly criticizing the status quo without offering sustainable alternatives is easy. But arriving at such an alternative is non-trivial. Still, less intervening policies that can provide results in the long run are a good place to start. Workshopping such policies requires understanding the root cause of the problem—researchers choosing to publish in subscription-based, “prestigious” journals—instead of curbing its symptoms.
 
-[^1]: "Indian Science Reports." Anna University. Accessed on August 9, 2023. https://indianscience.net/index.php.
+[^1]: "Indian Science Reports." Anna University. Accessed on August 9, 2023. https://web.archive.org/web/20230410115320/http://www.indianscience.net/index.php.
 [^2]: Vasudevan Mukunth. "The open access movement, to make academic papers accessible for all." The Hindu, January 10, 2023. https://www.thehindu.com/sci-tech/science/the-open-access-movement-to-make-academic-papers-accessible-for-all/article66358199.ece.
 [^3]: Joel P Joseph. "What Is the Status of India’s ‘One Nation, One Subscription’ Plan?" The Wire - Science, September 9, 2022. https://science.thewire.in/the-sciences/india-onos-journal-subscriptions/.
 [^4]: "Paywalls and Information Costs." Duke University. Accessed on August 9, 2023. https://sites.duke.edu/library101_instructors/2018/09/05/paywalls-and-information-costs/.

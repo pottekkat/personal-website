@@ -11,10 +11,10 @@ I came in a bit late, around noon. I had to catch up on all the missed sleep in 
 
 I spent all afternoon listening to talks, and these were the ones I really liked:
 
-1.  [Creating a Telegram Web App that generates AI Art NFTs](https://eventyay.com/e/7cfe0771/session/8188) by Yukai "LaDoger" Jerng: I have been indifferent to AI-generated images, but this talk showed some cool ones. The talk might have had more than a reasonable number of anime girl images, but it was still fun.
+1.  [Creating a Telegram Web App that generates AI Art NFTs](https://web.archive.org/web/20230926194601/https://eventyay.com/e/7cfe0771/session/8188) by Yukai "LaDoger" Jerng: I have been indifferent to AI-generated images, but this talk showed some cool ones. The talk might have had more than a reasonable number of anime girl images, but it was still fun.
     {{< figure src="/images/14-4-23-fossasia-day-2/anime.jpeg#center" title="Am I really at a tech conference looking at pictures of anime girls?" caption="Lifelong Learning Institute - 14th April 2023" link="/images/14-4-23-fossasia-day-2/anime.jpeg" target="_blank" class="align-center" >}}
-2.  [Talking with management about open source](https://eventyay.com/e/7cfe0771/session/8046) by Rich Bowen: This talk provided many insights into how you can effectively communicate open source stuff with management that may not particularly see your point. Rich also discusses what not to say and how to align incentives with the company while doing open source.
-3.  [Open Source LLMs For The Win](https://eventyay.com/e/7cfe0771/session/8146) by Rohan Sood and Asankhaya Sharma: This talk shows relatively smaller, more ethical, and locally runnable AI models that can find and debug issues in code.
+2.  [Talking with management about open source](https://web.archive.org/web/20230328080039/https://eventyay.com/e/7cfe0771/session/8046) by Rich Bowen: This talk provided many insights into how you can effectively communicate open source stuff with management that may not particularly see your point. Rich also discusses what not to say and how to align incentives with the company while doing open source.
+3.  [Open Source LLMs For The Win](https://web.archive.org/web/20230414154128/https://eventyay.com/e/7cfe0771/session/8146) by Rohan Sood and Asankhaya Sharma: This talk shows relatively smaller, more ethical, and locally runnable AI models that can find and debug issues in code.
 
 We had the event party in the evening. It was awesome, filled with good food, music, and people singing Taylor Swift on the karaoke machine.
 

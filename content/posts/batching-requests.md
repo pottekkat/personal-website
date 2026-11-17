@@ -18,7 +18,7 @@ cover:
 
 With APISIX's request batching capability, you can group multiple independent API requests from the client into a single request. APISIX then turns this request into separate requests to your upstream services, aggregates the response, and sends it back to the client as a single response.
 
-Batching can be useful in many practical scenarios where multiple independent requests are needed to fulfill a task. For example, the [Conference API](https://conferenceapi.azurewebsites.net/) exposes two different endpoints, `/speaker/{speakerId}/sessions` and `/speaker/{speakerId}/topics`, for listing the sessions and topics belonging to a speaker, respectively. You can make two API calls to show both in a front-end application.
+Batching can be useful in many practical scenarios where multiple independent requests are needed to fulfill a task. For example, the [Conference API](https://web.archive.org/web/20231206202421/https://conferenceapi.azurewebsites.net/) exposes two different endpoints, `/speaker/{speakerId}/sessions` and `/speaker/{speakerId}/topics`, for listing the sessions and topics belonging to a speaker, respectively. You can make two API calls to show both in a front-end application.
 
 {{< figure src="/images/batching-requests/without-apisix.png#center" title="Making two requests" caption="Sometimes this might not be ideal." link="/images/batching-requests/without-apisix.png" target="_blank" class="align-center" >}}
 

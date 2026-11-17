@@ -11,4 +11,4 @@ Last week was a blast. I spent the weekend on my motorcycle and traveled close t
 
 My week at work still involves a lot of Kubernetes stuff. I'm behind schedule on my CKAD preparation. This week was spent on Apache APISIX Ingress controller, and I have a couple of juicy blog posts on the way.
 
-Here is a [draft](https://deploy-preview-42--navendu.netlify.app/posts/gateway-vs-ingress-api) for the five people that regularly read this.
+Here is a [draft](/posts/gateway-vs-ingress-api/) for the five people that regularly read this.

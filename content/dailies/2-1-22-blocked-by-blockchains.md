@@ -7,7 +7,7 @@ summary: "Learning about Blockchain, Crypto and Web3."
 
 I can't go a day without seeing "10 Free Resources to Learn Web3" Tweets on my feed.
 
-Web3 is the talk of the town these days. Regardless of which side of "[Web3 is Bullshit](https://www.stephendiehl.com/blog/web3-bullshit.html)" you are on, you have to admit _it is pretty cool_.
+Web3 is the talk of the town these days. Regardless of which side of "[Web3 is Bullshit](https://web.archive.org/web/20220104132541/https://www.stephendiehl.com/blog/web3-bullshit.html)" you are on, you have to admit _it is pretty cool_.
 
 I think it is.
 

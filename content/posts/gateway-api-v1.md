@@ -105,7 +105,7 @@ The SMI project [recently merged with the GAMMA initiative](https://smi-spec.io/
 
 ## Migration Guide
 
-The [Gateway API documentation](https://gateway-api.sigs.k8s.io/guides/migrating-from-ingress/) has a comprehensive guide on migrating your Ingress resources to Gateway resources. Instead of restating it, let's try using the [ingress2gateway](https://github.com/kubernetes-sigs/ingress2gateway) tool to convert our Ingress resources to corresponding Gateway API resources.
+The [Gateway API documentation](https://gateway-api.sigs.k8s.io/guides/getting-started/migrating-from-ingress/) has a comprehensive guide on migrating your Ingress resources to Gateway resources. Instead of restating it, let's try using the [ingress2gateway](https://github.com/kubernetes-sigs/ingress2gateway) tool to convert our Ingress resources to corresponding Gateway API resources.
 
 You can download and install the binary for your operating system directly from the [releases page](https://github.com/kubernetes-sigs/ingress2gateway/releases/tag/v0.1.0).
 

@@ -17,7 +17,7 @@ Wordle 266 3/6
 🟨🟨🟨⬛🟨\
 🟩🟩🟩🟩🟩
 
-I'm speaking at the [Codebar Festival](https://hopin.com/events/codebar-festival-2022) in a couple of hours.
+I'm speaking at the [Codebar Festival](https://web.archive.org/web/20220214103334/https://hopin.com/events/codebar-festival-2022) in a couple of hours.
 
 I'll be speaking about _Levelling Up Your Career Through Open Source_.
 

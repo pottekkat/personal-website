@@ -73,7 +73,7 @@ It will prompt you several times to configure your keys:
 Once you complete all the prompts, `gpg` will generate a key pair.
 
 > [!TIP]
-> As `gpg` uses entropy to generate the key pair, it will depend on how active your system is. To generate more entropy, you can use something like [rng-tools](https://www.devmanuals.net/install/ubuntu/ubuntu-12-04-lts-precise-pangolin/install-rng-tools.html).
+> As `gpg` uses entropy to generate the key pair, it will depend on how active your system is. To generate more entropy, you can use something like [rng-tools](https://web.archive.org/web/20240523114435/https://www.devmanuals.net/install/ubuntu/ubuntu-12-04-lts-precise-pangolin/install-rng-tools.html).
 
 To verify whether the key pair was created, you can run:
 
@@ -113,7 +113,7 @@ gpg --output ~/public.key --armor --export your-email@your-provider.com
 
 ## Signing Commits with Your GPG Key Pair
 
-All of my projects and the projects I contribute to are on GitHub. If you are using other platforms like GitLab, you can follow their [official documentation](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/#add-a-gpg-key-to-your-account).
+All of my projects and the projects I contribute to are on GitHub. If you are using other platforms like GitLab, you can follow their [official documentation](https://docs.gitlab.com/user/project/repository/signed_commits/gpg/#add-a-gpg-key-to-your-account).
 
 > [!NOTE]
 > The email associated with your GPG key should match a verified email configured in your GitHub account.

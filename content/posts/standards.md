@@ -112,7 +112,7 @@ When competition turns into collaboration, everyone wins.
 
 The Gateway API is likely the most collaborative Kubernetes API in terms of the number of contributors and companies (implementations) involved.
 
-The Gateway API also started collaborating with service mesh projects through the [GAMMA initiative](https://gateway-api.sigs.k8s.io/mesh/gamma/), increasing its scope to cover east-west (service-to-service) traffic. This proved successful when Istio announced they would [fully transition to the Gateway API](https://istio.io/latest/docs/setup/additional-setup/getting-started/) in the coming releases.
+The Gateway API also started collaborating with service mesh projects through the [GAMMA initiative](https://gateway-api.sigs.k8s.io/docs/mesh/gamma/), increasing its scope to cover east-west (service-to-service) traffic. This proved successful when Istio announced they would [fully transition to the Gateway API](https://istio.io/latest/docs/setup/additional-setup/getting-started/) in the coming releases.
 
 ## Evolve
 
@@ -122,7 +122,7 @@ When Ingress wasn't enough, controllers built custom APIs (CRDs) to bridge the g
 
 Instead of building from scratch, contributors involved in the individual controller projects came together to create the Gateway API, which reasonably fit all their needs.
 
-Individual features in the Gateway API also go through an evolutionary process called [support levels](https://gateway-api.sigs.k8s.io/concepts/conformance/#2-support-levels). There are three support levels:
+Individual features in the Gateway API also go through an evolutionary process called [support levels](https://gateway-api.sigs.k8s.io/docs/conformance/#support-levels). There are three support levels:
 
 * **Implementation-specific**: Features that aren't portable, specific to each implementation.
 * **Extended**: Portable features that might not be supported by each implementation.

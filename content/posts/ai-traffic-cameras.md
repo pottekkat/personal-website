@@ -173,15 +173,15 @@ These reasons suggest shortsighted decision-making by the government for publici
 [^1]: Ministry of Road Transport and Highways, Government of India. 2021. "Annual Report 2019-20." https://morth.nic.in/sites/default/files/Ministry%20Annual%20Report_2019-20.pdf.
 [^2]: Government of Andhra Pradesh. 2013. "Comparative Statistics (States)." https://web.archive.org/web/20131126011218/http://www.ap.gov.in/Other%20Docs/COMPARATIVE%20STATISTICS%20(STATES).pdf.
 [^3]: Zegeer CV et al. 1988. "Safety effects of cross-section design for two-lane roads." Transportation research record. 1195: 20-32. https://www.safetylit.org/citations/index.php?fuseaction=citations.viewdetails&citationIds[]=citjournalarticle_604175_38.
-[^4]: Høye, Alena. "Wider roads can result in fewer accidents." Nordic Roads, September 27, 2021. https://nordicroads.com/wider-roads-can-result-in-fewer-accidents/.
+[^4]: Høye, Alena. "Wider roads can result in fewer accidents." Nordic Roads, September 27, 2021. https://web.archive.org/web/20230329025818/https://nordicroads.com/wider-roads-can-result-in-fewer-accidents/.
 [^5]: Mishra, Mihir. "Highway authority projects hit road block in Kerala, Goa, Bengal." Business Standard, January 21, 2013. https://www.business-standard.com/article/economy-policy/.highway-authority-projects-hit-road-block-in-kerala-goa-bengal-112031100019_1.html.
 [^6]: Chandran, Cynthia. "Kerala: Safety card wins six-lane highway." Deccan Chronicle, March 20, 2017. https://www.deccanchronicle.com/nation/in-other-news/200317/kerala-safety-card-wins-six-lane-highway.html.
-[^7]: International Institute for Population Sciences. 2021. "National Family Health Survey (NFHS-5) - India." http://rchiips.org/nfhs/NFHS-5Reports/Kerala.pdf.
+[^7]: International Institute for Population Sciences. 2021. "National Family Health Survey (NFHS-5) - India." https://web.archive.org/web/20221021054742/http://rchiips.org/nfhs/NFHS-5Reports/Kerala.pdf.
 [^8]: Kerala Police. "Road Accidents in Kerala." May 15, 2023. https://keralapolice.gov.in/crime/road-accidents.
 [^9]: Raj, Ajith. "Over 23,500 people killed in road accidents in Kerala in past 6 years." Mathrubhumi, February 12, 2023. https://english.mathrubhumi.com/news/kerala/over-23-500-people-killed-in-road-accidents-in-kerala-in-past-6-years-1.8303973.
 [^10]: E. N. Jishnu. "AI or no AI? What do the new Kerala MVD traffic surveillance cameras offer?" Mathrubhumi, April 29, 2023. https://english.mathrubhumi.com/features/technology/ai-or-no-ai-what-do-the-new-kerala-mvd-traffic-surveillance-cameras-offer-1.8517915. 
 [^11]: "Kerala CM Launches Safe Kerala Project To Reduce Road Accidents." Outlook, April 20, 2023. https://www.outlookindia.com/national/kerala-cm-launches-safe-kerala-project-to-reduce-road-accidents-news-280032.
-[^12]: Keltron. "Tender ID : 2020_KSEDC_368203_1." November 19, 2020. https://www.keltron.org/index.php/safe-kerala.
+[^12]: Keltron. "Tender ID : 2020_KSEDC_368203_1." November 19, 2020. https://web.archive.org/web/20230606125030/https://www.keltron.org/index.php/safe-kerala.
 [^13]: S. Unnikrishnan. "Public road transport system on verge of breakdown in Kerala." New Indian Express, March 6, 2023. https://www.newindianexpress.com/states/kerala/2023/mar/06/public-road-transport-system-on-verge-of-breakdown-in-kerala-2553511.html.
 [^14]: "MVD starts issuing notices for traffic violations, fines from May 20 onwards." Mathrubhumi, May 9, 2023. https://english.mathrubhumi.com/news/kerala/ai-cameras-mvd-starts-issuing-notices-for-traffic-violations-fines-from-may-20-onwards-1.8543291.
 [^15]: INAI. "Project iRASTE Telangana." May 20, 2023. https://inai.iiit.ac.in/iraste-telangana.html.
@@ -190,4 +190,4 @@ These reasons suggest shortsighted decision-making by the government for publici
 [^18]: Singh, Priya. "'No regulations for Artificial Intelligence in India': IT Minister Ashwini Vaishnaw." Business Today, April 6, 2023. https://www.businesstoday.in/technology/news/story/no-regulations-for-artificial-intelligence-in-india-it-minister-ashwini-vaishnaw-376298-2023-04-06.
 [^19]: NITI Aayog. 2021. "Responsible AI." https://www.niti.gov.in/sites/default/files/2021-02/Responsible-AI-22022021.pdf.
 [^20]:  Ministry of Electronics & IT, Government of India. 2022. "The Digital Personal Data Protection Bill 2022." https://pib.gov.in/PressReleasePage.aspx?PRID=1881402.
-[^21]: Ministry of Communications and Information Technology, Government of India. 2011. "The Gazette of India : Extraordinary [ Part II-Sec. 3(i)]." https://www.meity.gov.in/writereaddata/files/GSR313E_10511%281%29_0.pdf.
+[^21]: Ministry of Communications and Information Technology, Government of India. 2011. "The Gazette of India : Extraordinary [ Part II-Sec. 3(i)]." https://web.archive.org/web/20230508072904/https://www.meity.gov.in/writereaddata/files/GSR313E_10511%281%29_0.pdf.

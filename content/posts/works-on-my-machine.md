@@ -39,7 +39,7 @@ But it wasn't the first solution I thought of. We could keep creating the empty 
 
 This is the definition of patchy and has a lot of potential to cascade into more bugs in the future. The first solution was the simpler one.
 
-I opened a pull request and waited for all the checks to turn green. But instead, I was greeted by some [cryptic error messages](https://github.com/api7/adc/actions/runs/6642600251/job/18047731482?pr=85).
+I opened a pull request and waited for all the checks to turn green. But instead, I was greeted by some cryptic error messages.
 
 ## The CI is Broken
 

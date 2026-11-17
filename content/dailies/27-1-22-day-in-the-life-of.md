@@ -7,7 +7,7 @@ summary: "Nothing much. Just a daily update."
 
 Boom!
 
-[Wordle](https://www.powerlanguage.co.uk/wordle/) 222 4/6
+[Wordle](https://web.archive.org/web/20220128000716/https://www.powerlanguage.co.uk/wordle/) 222 4/6
 
 ⬛🟩⬛⬛⬛\
 🟨🟨⬛⬛⬛\
@@ -30,7 +30,7 @@ _Let's see how long I can keep this up._
 
 I have a sudden craving for a Shawarma. Might get one later.
 
-I have to prepare for [my presentation at DevConf.cz](https://sched.co/siKF) on Saturday, 29th January. Seeing a lot of people RSVP to the event is _as exciting as it is nerve wracking_.
+I have to prepare for [my presentation at DevConf.cz](https://web.archive.org/web/20220129131615/https://devconfcz2022.sched.com/event/siKF) on Saturday, 29th January. Seeing a lot of people RSVP to the event is _as exciting as it is nerve wracking_.
 
 I hope to complete reading Haruki Murakami's "[Men Without Women](https://www.goodreads.com/book/show/33652490-men-without-women)" today after catching up on some schoolwork.
 

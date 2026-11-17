@@ -9,7 +9,7 @@ I have two upcoming talks in the next two weeks.
 
 My firsts in 2022. And I hope to speak more at conferences this year.
 
-The first is at [DevConf.cz 2022 on the 29th this month](https://sched.co/siKF) and the second is at [FOSDEM 2022 on the 5th of February](https://fosdem.org/2022/schedule/event/community_questions/).
+The first is at [DevConf.cz 2022 on the 29th this month](https://web.archive.org/web/20220129131615/https://devconfcz2022.sched.com/event/siKF) and the second is at [FOSDEM 2022 on the 5th of February](https://fosdem.org/2022/schedule/event/community_questions/).
 
 ## Measuring Service Mesh Performance 101
 

@@ -45,7 +45,7 @@ Other than not importing unnecessary packages, you could also reduce the size by
 
 When the [Proxy-Wasm Go SDK](https://github.com/tetratelabs/proxy-wasm-go-sdk) was first introduced, the official Go compiler did not support targeting Wasi. This means you can only build Go-Wasm binaries that can run in the browser.
 
-But the TinyGo compiler supported Wasi targets. So, it was a [natural choice](https://github.com/tetratelabs/proxy-wasm-go-sdk/blob/main/doc/OVERVIEW.md#tinygo-vs-the-official-go-compiler) for the SDK to rely on it instead of the official compiler.
+But the TinyGo compiler supported Wasi targets. So, it was a [natural choice](https://web.archive.org/web/20231203035040/https://github.com/tetratelabs/proxy-wasm-go-sdk/blob/main/doc/OVERVIEW.md#tinygo-vs-the-official-go-compiler) for the SDK to rely on it instead of the official compiler.
 
 But recently, the official compiler started supporting Wasi, and you can use it with the SDK to write plugins. Let's rebuild the binary with the Go compiler now and check its size:
 

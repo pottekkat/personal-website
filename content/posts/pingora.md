@@ -104,4 +104,4 @@ Other optimizations, like using [count-min sketch](https://en.wikipedia.org/wiki
 
 Cloudflare operates at a scale that caters to very different use cases than most Nginx users. The current landscape does not force you to pick the Nginx or the Pingora side but also provides reasonable middle grounds like APISIX.
 
-The bottom line is that the [White House likes Rust](https://www.whitehouse.gov/oncd/briefing-room/2024/02/26/press-release-technical-report/).
+The bottom line is that the [White House likes Rust](https://web.archive.org/web/20240403061319/https://www.whitehouse.gov/oncd/briefing-room/2024/02/26/press-release-technical-report/).

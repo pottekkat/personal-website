@@ -18,7 +18,7 @@ I have a lot of open tabs waiting to be read and closed. They are open on Thunde
 
 That is a lot of reading and I really want to read these too. Hopefully, I will get to it over the weekend.
 
-I'm speaking at [codebar Festival 2022](https://hopin.com/events/codebar-festival-2022) on Saturday the 12th. I'll be talking about how you can level up our career through open source.
+I'm speaking at [codebar Festival 2022](https://web.archive.org/web/20220214103334/https://hopin.com/events/codebar-festival-2022) on Saturday the 12th. I'll be talking about how you can level up our career through open source.
 
 I was preparing for the talk as well today.
 

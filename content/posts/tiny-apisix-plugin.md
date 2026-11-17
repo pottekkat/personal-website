@@ -39,7 +39,7 @@ APISIX's plugin architecture below shows native Lua plugins, external plugins th
 
 Let's get coding! To write a Go plugin, we will use the [proxy-wasm-go-sdk](https://github.com/tetratelabs/proxy-wasm-go-sdk).
 
-Reading through the documentation, you will understand why this plugin is called "tiny," i.e., the SDK uses the [TinyGo](https://tinygo.org/) compiler instead of the official Go compiler. You can read more about why this is the case on the [SDK\'s overview page](https://github.com/tetratelabs/proxy-wasm-go-sdk/blob/main/doc/OVERVIEW.md), but the TLDR version is that the Go compiler can only produce Wasm binaries that run in the browser.
+Reading through the documentation, you will understand why this plugin is called "tiny," i.e., the SDK uses the [TinyGo](https://tinygo.org/) compiler instead of the official Go compiler. You can read more about why this is the case on the [SDK\'s overview page](https://web.archive.org/web/20231203035040/https://github.com/tetratelabs/proxy-wasm-go-sdk/blob/main/doc/OVERVIEW.md), but the TLDR version is that the Go compiler can only produce Wasm binaries that run in the browser.
 
 For our example, we will create a plugin that adds a response header. The code below is pretty self-explanatory, and you can refer to [other plugins](https://github.com/apache/apisix/blob/master/t/wasm/) for more implementation details:
 

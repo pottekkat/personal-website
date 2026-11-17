@@ -198,7 +198,7 @@ Hello from API v1.0!
 This tutorial gave you an introduction to how you can extend APISIX Ingress. See the resources below to learn more about annotations, CRDs, and Plugins:
 
 -   [List of available annotations](https://apisix.apache.org/docs/ingress-controller/next/concepts/annotations/)
--   [APISIX CRDs documentation](https://apisix.apache.org/docs/ingress-controller/next/concepts/apisix_route/)
+-   [APISIX CRDs documentation](https://web.archive.org/web/20221216062055/https://apisix.apache.org/docs/ingress-controller/next/concepts/apisix_route/)
 -   [APISIX CRDs reference](https://apisix.apache.org/docs/ingress-controller/next/references/apisix_route_v2/)
 -   [APISIX Plugin documentation](https://apisix.apache.org/docs/apisix/plugins/batch-requests/)
 

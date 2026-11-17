@@ -50,7 +50,7 @@ Netlify lets you configure the build settings through the Netlify UI or a [confi
 
 With Netlify, configuring redirects is as easy as adding two lines to your configuration file. You also have the option to configure the proper status code. Now that's neat.
 
-Netlify also has a DNS service, supports storing large media (Git LFS), has split testing and rollback features, and [more](https://www.netlify.com/github-pages-vs-netlify/#:~:text=Netlify%20is%20your%20all%2Din,Netlify%20is%20the%20obvious%20upgrade.). But, these are only "nice to have" features for me now. _I will not be using these anytime soon\*_.
+Netlify also has a DNS service, supports storing large media (Git LFS), has split testing and rollback features, and [more](https://web.archive.org/web/20220809020629/https://www.netlify.com/github-pages-vs-netlify/#:~:text=Netlify%20is%20your%20all%2Din,Netlify%20is%20the%20obvious%20upgrade.). But, these are only "nice to have" features for me now. _I will not be using these anytime soon\*_.
 
 > _\* I might use these sometime soon._
 

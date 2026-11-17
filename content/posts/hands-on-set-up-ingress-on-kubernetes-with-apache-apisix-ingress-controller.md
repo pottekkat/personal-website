@@ -132,7 +132,7 @@ This will route traffic between the two application versions based on the client
 
 {{< figure src="/images/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/routing-to-v2.png#center" title="Routing requests to v2" caption="Requests to the path `/v2` should be routed to the bare-minimum-api-**v2** service" link="/images/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/routing-to-v2.png" target="_blank" class="align-center" >}}
 
-To configure Routes, APISIX comes with declarative and easy-to-use [custom resource](https://apisix.apache.org/docs/ingress-controller/next/references/apisix_route_v2beta3/):
+To configure Routes, APISIX comes with declarative and easy-to-use [custom resource](https://web.archive.org/web/20221006194959/https://apisix.apache.org/docs/ingress-controller/next/references/apisix_route_v2beta3/):
 
 ```yaml {title="apisix-ingress-manifest.yaml"}
 apiVersion: apisix.apache.org/v2beta3

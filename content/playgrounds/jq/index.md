@@ -14,7 +14,7 @@ cover:
   hidden: true
 ---
 
-Welcome to the jq playground! This sandbox is designed to help you try out [jq](https://jqlang.github.io/), a powerful tool for working with JSON.
+Welcome to the jq playground! This sandbox is designed to help you try out [jq](https://jqlang.org/), a powerful tool for working with JSON.
 
 First, add your JSON data to the `data.json` file below:
 

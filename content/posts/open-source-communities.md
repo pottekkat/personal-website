@@ -61,4 +61,4 @@ Encouraging open source projects to focus on the community can help avoid open s
 
 [^3]: The xkcd comic, [Dependency](https://xkcd.com/2347/), sums this up pretty well. 
 
-[^4]: [This article](https://orbit.love/blog/software-is-no-longer-sold-its-adopted) by Orbit CEO Patrick Woods explains this changing trend clearly and why it is the future.
+[^4]: [This article](https://web.archive.org/web/20221202163538/https://orbit.love/blog/software-is-no-longer-sold-its-adopted) by Orbit CEO Patrick Woods explains this changing trend clearly and why it is the future.

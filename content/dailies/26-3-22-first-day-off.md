@@ -56,7 +56,7 @@ People who have been conscious have benefitted from this abundance and leveraged
 
 ---
 
-My work revolves around communities. And what these communities have taught me is that [software is no longer sold\; it\'s adopted](https://orbit.love/blog/software-is-no-longer-sold-its-adopted).
+My work revolves around communities. And what these communities have taught me is that [software is no longer sold\; it\'s adopted](https://web.archive.org/web/20221202163538/https://orbit.love/blog/software-is-no-longer-sold-its-adopted).
 
 ---
 
