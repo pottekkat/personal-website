@@ -1,6 +1,6 @@
 {{- $dest := .Destination }}
 {{- $external := strings.HasPrefix $dest "http" }}
-{{- if and $external (not (strings.HasPrefix $dest "https://web.archive.org/")) (not (strings.Contains $dest "utm_source=")) }}
+{{- if and $external (ne (urls.Parse $dest).Host "web.archive.org") (not (strings.Contains $dest "utm_source=")) }}
   {{- /* Tag outbound links for the other site's analytics. The tag joins any
          query the link already has, and goes before the #fragment. An
          archive.org copy is left alone: the tag would change which page it
