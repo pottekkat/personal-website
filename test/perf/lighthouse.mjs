@@ -45,8 +45,13 @@ try {
       );
       // Lighthouse won't measure a page served with an error status (the
       // 404 page is one): it sets runtimeError and leaves every metric empty.
+      // Any other runtime error, or one after a good run, is a real failure.
       if (res.lhr.runtimeError) {
-        console.log(`${page.id.padEnd(14)} skipped: ${res.lhr.runtimeError.code}`);
+        const code = res.lhr.runtimeError.code;
+        if (i > 0 || code !== 'ERRORED_DOCUMENT_REQUEST') {
+          throw new Error(`${page.id}: Lighthouse runtime error ${code} on run ${i + 1}`);
+        }
+        console.log(`${page.id.padEnd(14)} skipped: ${code}`);
         break;
       }
       const a = res.lhr.audits;
@@ -80,6 +85,10 @@ try {
 fs.mkdirSync(RESULTS, { recursive: true });
 fs.writeFileSync(path.join(RESULTS, `lh-${label}.json`), JSON.stringify(out, null, 2));
 const ids = Object.keys(out.pages);
+if (!ids.length) {
+  console.log('no pages measured');
+  process.exit(1);
+}
 const avg = (k) => ids.reduce((s, id) => s + out.pages[id][k], 0) / ids.length;
 console.log(
   `\nMEAN over ${ids.length} pages: perf=${avg('perf').toFixed(1)} ` +
