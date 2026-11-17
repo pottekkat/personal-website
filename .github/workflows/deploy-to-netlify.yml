@@ -85,8 +85,14 @@ jobs:
           mkdir -p .indexnow
           cp public/sitemap.xml .indexnow/sitemap.xml
 
+      - name: Keep IndexNow baseline for a retry
+        if: steps.indexnow.outcome == 'failure'
+        run: |
+          mkdir -p .indexnow
+          [ -s .indexnow/sitemap.xml ] || echo '<urlset></urlset>' > .indexnow/sitemap.xml
+
       - name: Save IndexNow baseline
-        if: steps.indexnow.outcome == 'success'
+        if: steps.indexnow.outcome == 'success' || steps.indexnow.outcome == 'failure'
         uses: actions/cache/save@v4
         with:
           path: .indexnow
