@@ -83,13 +83,14 @@ try {
   await chrome.kill();
 }
 
-fs.mkdirSync(RESULTS, { recursive: true });
-fs.writeFileSync(path.join(RESULTS, `lh-${label}.json`), JSON.stringify(out, null, 2));
 const ids = Object.keys(out.pages);
+// Exit before writing, so an existing report under this label survives.
 if (!ids.length) {
   console.log('no pages measured');
   process.exit(1);
 }
+fs.mkdirSync(RESULTS, { recursive: true });
+fs.writeFileSync(path.join(RESULTS, `lh-${label}.json`), JSON.stringify(out, null, 2));
 const avg = (k) => ids.reduce((s, id) => s + out.pages[id][k], 0) / ids.length;
 console.log(
   `\nMEAN over ${ids.length} pages: perf=${avg('perf').toFixed(1)} ` +
