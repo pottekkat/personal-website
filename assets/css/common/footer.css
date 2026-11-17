@@ -44,6 +44,7 @@
 
 .top-link {
     visibility: hidden;
+    display: block;
     position: fixed;
     bottom: 60px;
     right: 30px;
