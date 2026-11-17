@@ -43,6 +43,12 @@ try {
           settings: { formFactor: 'mobile', onlyCategories: ['performance'] },
         },
       );
+      // Lighthouse won't measure a page served with an error status (the
+      // 404 page is one): it sets runtimeError and leaves every metric empty.
+      if (res.lhr.runtimeError) {
+        console.log(`${page.id.padEnd(14)} skipped: ${res.lhr.runtimeError.code}`);
+        break;
+      }
       const a = res.lhr.audits;
       samples.push({
         perf: Math.round(res.lhr.categories.performance.score * 100),
@@ -55,6 +61,7 @@ try {
         requests: a['network-requests'].details.items.length,
       });
     }
+    if (!samples.length) continue;
     const keys = Object.keys(samples[0]);
     const agg = {};
     for (const k of keys) agg[k] = median(samples.map((s) => s[k]));
