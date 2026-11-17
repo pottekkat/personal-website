@@ -41,6 +41,9 @@
           document.head.appendChild(s);
         });
       });
+      // Idle and scroll triggers fire and forget; a failed CDN load is
+      // retried later, not an error worth reporting.
+      loading.catch(function () {});
       return loading;
     }
 
