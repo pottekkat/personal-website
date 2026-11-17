@@ -88,9 +88,10 @@
         mermaid.initialize({
           startOnLoad: false,
           theme: theme,
-          // These are mermaid 11's defaults, set explicitly. Mermaid 12
-          // changes all four (ELK layout, a glow on shapes, 120px label wrap,
-          // 120px minimum box), so an upgrade keeps the current look.
+          // The look the posts were drawn with. Mermaid 12 changes it (ELK
+          // layout, a glow on shapes, 120px label wrap, 120px minimum box);
+          // these keep it. minNodeWidth isn't a mermaid 11 option and is
+          // ignored until then.
           layout: 'dagre',
           look: 'classic',
           flowchart: { wrappingWidth: 200, minNodeWidth: 0 },
