@@ -172,12 +172,13 @@
     toggleText.textContent = label;
     viewToggle.setAttribute('aria-label', `Switch to ${label}`);
     viewToggle.setAttribute('title', `Switch to ${label}`);
-    localStorage.setItem(STORAGE_KEY, view);
+    try { localStorage.setItem(STORAGE_KEY, view); } catch (e) { }
   };
 
   document.addEventListener('DOMContentLoaded', () => {
     const viewToggle = document.getElementById('view-toggle');
-    const savedView = localStorage.getItem(STORAGE_KEY) || VIEWS.GRID;
+    let savedView = VIEWS.GRID;
+    try { savedView = localStorage.getItem(STORAGE_KEY) || VIEWS.GRID; } catch (e) { }
 
     // Set initial state
     setView(savedView);

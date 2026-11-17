@@ -7,7 +7,10 @@
     // block the parser on every post that has a diagram. We load it after the
     // page has finished loading instead; everything below is unchanged apart
     // from waiting on that load.
-    var MERMAID_SRC = 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js';
+    // Pinned, so a new major version can't restyle every diagram unseen.
+    // A new version is a deliberate update, with a new hash.
+    var MERMAID_SRC = 'https://cdn.jsdelivr.net/npm/mermaid@12.3.0/dist/mermaid.min.js';
+    var MERMAID_SRI = 'sha384-HHW54r639fK42Ip0coGF3mz8oSiGn0eEoWNTLs75X7H63pLSDBa0Tqs0RwGmLlXE';
 
     // Never start the fetch before `load`: a diagram near the top of the page
     // would otherwise put 900 KB of CDN JavaScript in competition with the
@@ -24,6 +27,8 @@
         whenLoaded(function () {
           var s = document.createElement('script');
           s.src = MERMAID_SRC;
+          s.integrity = MERMAID_SRI;
+          s.crossOrigin = 'anonymous';
           s.async = true;
           s.onload = resolve;
           s.onerror = function (e) {
@@ -36,6 +41,9 @@
           document.head.appendChild(s);
         });
       });
+      // Idle and scroll triggers fire and forget; a failed CDN load is
+      // retried later, not an error worth reporting.
+      loading.catch(function () {});
       return loading;
     }
 
@@ -80,6 +88,12 @@
         mermaid.initialize({
           startOnLoad: false,
           theme: theme,
+          // Mermaid 12 lays diagrams out with ELK, draws a glow around each
+          // shape, wraps labels at 120px and stretches small boxes to 120px;
+          // these keep the look the posts were written with (mermaid 11).
+          layout: 'dagre',
+          look: 'classic',
+          flowchart: { wrappingWidth: 200, minNodeWidth: 0 },
           align: align,
           securityLevel: securityLevel,
         });
