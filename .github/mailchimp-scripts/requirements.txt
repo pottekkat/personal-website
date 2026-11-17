@@ -1,11 +1,11 @@
 certifi==2026.10.23
 charset-normalizer==3.5.2
 feedparser==6.0.14
+feedparser-sgmllib==2.1.0
 idna==3.20
 mailchimp-marketing==3.0.80
 python-dateutil==2.9.0.post0
 python-dotenv==1.2.4
 requests==2.34.2
-sgmllib3k==1.0.0
 six==1.17.0
 urllib3==2.8.0
