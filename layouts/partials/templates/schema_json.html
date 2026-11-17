@@ -151,9 +151,10 @@
 {{- with .Params.keywords | default .Params.tags }}
   {{- $post = merge $post (dict "keywords" .) }}
 {{- end }}
-{{- if .Params.cover.image }}
-  {{- with (partial "templates/share_image.html" .).url }}
-    {{- $post = merge $post (dict "image" .) }}
+{{- /* The site's default share image doesn't show what the article is about. */}}
+{{- with partial "templates/share_image.html" . }}
+  {{- if and .url (not .isDefault) }}
+    {{- $post = merge $post (dict "image" .url) }}
   {{- end }}
 {{- end }}
 <script type="application/ld+json">

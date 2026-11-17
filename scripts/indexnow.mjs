@@ -59,7 +59,12 @@ if (!/^[a-zA-Z0-9-]{8,128}$/.test(key)) fail("INDEXNOW_KEY is missing or malform
 // when the file is missing or isn't a <urlset>.
 function readSitemap(file) {
   if (!file || !existsSync(file)) return null;
-  const xml = readFileSync(file, "utf8");
+  let xml;
+  try {
+    xml = readFileSync(file, "utf8");
+  } catch {
+    return null; // a directory or an unreadable file
+  }
   if (!xml.includes("<urlset")) return null;
   const unescape = (s) =>
     s.trim()
