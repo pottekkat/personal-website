@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-11-16T20:39:59.082519",
+  "lastUpdated": "2026-11-17T19:18:48.215652",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Ultimate Movie Series",
-      "postUrl": "https://xkcd.com/3324/",
-      "publishDate": "Fri, 13 Nov 2026 05:00:00 -0000"
+      "postTitle": "Light-Day",
+      "postUrl": "https://xkcd.com/3325/",
+      "publishDate": "Mon, 16 Nov 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "datasette-maplibre 0.1a0",
-      "postUrl": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
-      "publishDate": "2026-11-15T23:58:36+00:00"
+      "postTitle": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+      "postUrl": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+      "publishDate": "2026-11-17T16:48:33+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -158,9 +158,9 @@
     {
       "blogTitle": "The Palladium Letter",
       "blogUrl": "https://letter.palladiummag.com/",
-      "postTitle": "A Movement Is Not Enough",
-      "postUrl": "https://letter.palladiummag.com/p/a-movement-is-not-enough",
-      "publishDate": "Fri, 13 Nov 2026 18:42:48 GMT"
+      "postTitle": "Who Pays for What We Know",
+      "postUrl": "https://letter.palladiummag.com/p/who-pays-for-what-we-know",
+      "publishDate": "Tue, 17 Nov 2026 19:10:35 GMT"
     },
     {
       "blogTitle": "Pathless by Paul Millerd",
