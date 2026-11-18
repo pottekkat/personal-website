@@ -59,6 +59,7 @@ params:
     author:
         name: "Navendu Pottekkat"
         email: "navendu@apache.org"
+        image: "images/profileSquare.png"
     DateFormat: "January 2, 2006"
     defaultTheme: "dark" # dark, light, auto
     disableThemeToggle: false
@@ -108,6 +109,7 @@ params:
     tocopen: false
 
     images: ["images/preview.png","Navendu Pottekkat", "https://navendu.me/"]
+    imagesAlt: "Stars and galaxies scattered across a black sky."
 
     # home-info mode
     homeInfoParams:

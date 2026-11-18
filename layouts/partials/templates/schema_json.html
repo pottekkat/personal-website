@@ -1,19 +1,46 @@
-{{ if .IsHome }}
+{{- /* The person and the website, shared by every block below. The @ids are
+       absolute: a bare "#person" on a post would name /posts/x/#person. Google
+       doesn't follow an @id to another page, so each article repeats the
+       author's name and url instead of pointing at the home page's node. */ -}}
+{{- $home := site.Home.Permalink }}
+{{- $personID := printf "%s#person" $home }}
+{{- $about := site.GetPage "/about" }}
+{{- $personURL := $home }}
+{{- with $about }}{{ $personURL = .Permalink }}{{ end }}
+{{- $personRef := dict
+      "@type" "Person"
+      "@id" $personID
+      "name" site.Params.author.name
+      "url" $personURL }}
+{{- /* sameAs lists pages about the person, so the mailto: link stays out. */}}
+{{- $profiles := site.Params.schema.sameAs }}
+{{- if not $profiles }}
+  {{- $profiles = slice }}
+  {{- range site.Params.socialIcons }}{{ $profiles = $profiles | append .url }}{{ end }}
+{{- end }}
+{{- $sameAs := slice }}
+{{- range $profiles }}
+  {{- if strings.HasPrefix . "http" }}{{ $sameAs = $sameAs | append (trim . " ") }}{{ end }}
+{{- end }}
+{{- $person := merge $personRef (dict "sameAs" $sameAs) }}
+{{- with site.Params.author.image }}
+  {{- $person = merge $person (dict "image" (absURL .)) }}
+{{- end }}
+{{- $articleSections := slice "posts" "notes" "tils" "dailies" "newsletters" "books" }}
+
+{{- if .IsHome }}
+{{- /* Google reads the site name in search results from WebSite on the home page. */}}
+{{- $website := dict
+      "@type" "WebSite"
+      "@id" (printf "%s#website" $home)
+      "url" $home
+      "name" site.Params.title
+      "alternateName" site.Params.homeInfoParams.Title
+      "description" (site.Params.description | plainify | htmlUnescape)
+      "inLanguage" site.Language.LanguageCode
+      "publisher" (dict "@id" $personID) }}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "{{- ( site.Params.schema.publisherType | default "Person") | title -}}",
-  "name": {{ site.Title }},
-  "url": {{ site.BaseURL }},
-  "description": {{ site.Params.description | plainify | truncate 180 | safeHTML }},
-  "sameAs": [
-    {{- if site.Params.schema.sameAs }}
-      {{ range $i, $e := site.Params.schema.sameAs }}{{ if $i }}, {{ end }}{{ trim $e " " }}{{ end }}
-    {{- else}}
-      {{ range $i, $e := site.Params.SocialIcons }}{{ if $i }}, {{ end }}{{ trim $e.url " " }}{{ end }}
-    {{- end}}
-  ]
-}
+{{ dict "@context" "https://schema.org" "@graph" (slice $website $person) | jsonify | safeJS }}
 </script>
 {{- else if (or .IsPage .IsSection) }}
 {{/* BreadcrumbList */}}
@@ -89,67 +116,61 @@
   ]
 }
 </script>
-{{- if .IsPage }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  {{ with $page_name -}}
-  "headline": {{ . }},
-  "name": {{ . }},
-  {{ end -}}
-  "description": {{ with .Description | plainify }}{{ . }}{{ else }}{{ .Summary | plainify  }}{{ end -}},
-  "keywords": [
-    {{- if .Params.keywords }}
-    {{ range $i, $e := .Params.keywords }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
+{{- if and .IsPage (in $articleSections .Section) }}
+{{- /* Each author named in front matter, the site's author as $personRef. */}}
+{{- $authors := slice }}
+{{- with .Params.author }}
+  {{- range (cond (reflect.IsSlice .) . (slice .)) }}
+    {{- if eq . site.Params.author.name }}
+      {{- $authors = $authors | append $personRef }}
     {{- else }}
-    {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
+      {{- $authors = $authors | append (dict "@type" "Person" "name" .) }}
     {{- end }}
-  ],
-  "articleBody": {{ .Content | safeJS | htmlUnescape | plainify }},
-  "wordCount" : "{{ .WordCount }}",
-  "inLanguage": {{ .Language.Lang | default "en-us" }},
-  {{ if .Params.cover.image -}}
-  "image":
-    {{- if (ne .Params.cover.relative true) -}}
-    {{ .Params.cover.image | absURL }},
-    {{- else -}}
-    {{ (path.Join .RelPermalink .Params.cover.image ) | absURL }},
-    {{- end}}
-  {{- end -}}
-  "datePublished": {{ .PublishDate }},
-  "dateModified": {{ .Lastmod }},
-  {{- with (.Params.author | default site.Params.author.name) }}
-  "author":
-    {{- if (or (eq (printf "%T" .) "[]string") (eq (printf "%T" .) "[]interface {}")) -}}
-  [{{- range $i, $v := . -}}
-  {{- if $i }}, {{end -}}
-  {
-    "@type": "Person",
-    "name": {{ $v }}
-  }
-  {{- end }}],
-    {{- else -}}
-  {
-    "@type": "Person",
-    "name": {{ . }}
-  },
-    {{- end -}}
   {{- end }}
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": {{ .Permalink | safeHTML }}
-  },
-  "publisher": {
-    "@type": "{{- ( site.Params.schema.publisherType | default "Person") | title -}}",
-    "name": {{ site.Title }},
-    "logo": {
-      "@type": "ImageObject",
-      "url": {{ site.Params.assets.favicon | default "favicon.ico" | absURL }}
-    }
-  }
-}
+{{- else }}
+  {{- $authors = slice $personRef }}
+{{- end }}
+{{- $rfc3339 := "2006-01-02T15:04:05Z07:00" }}
+{{- $post := dict
+      "@context" "https://schema.org"
+      "@type" "BlogPosting"
+      "description" (.Description | default .Summary | plainify | htmlUnescape | strings.TrimSpace)
+      "wordCount" .WordCount
+      "inLanguage" (.Language.Lang | default "en-us")
+      "datePublished" (.PublishDate.Format $rfc3339)
+      "dateModified" (.Lastmod.Format $rfc3339)
+      "author" $authors
+      "publisher" $personRef
+      "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink) }}
+{{- if eq (len $authors) 1 }}
+  {{- $post = merge $post (dict "author" (index $authors 0)) }}
+{{- end }}
+{{- with $page_name }}
+  {{- $post = merge $post (dict "headline" . "name" .) }}
+{{- end }}
+{{- with .Params.keywords | default .Params.tags }}
+  {{- $post = merge $post (dict "keywords" .) }}
+{{- end }}
+{{- /* The site's default share image doesn't show what the article is about. */}}
+{{- with partial "templates/share_image.html" . }}
+  {{- if and .url (not .isDefault) }}
+    {{- $post = merge $post (dict "image" .url) }}
+  {{- end }}
+{{- end }}
+<script type="application/ld+json">
+{{ $post | jsonify | safeJS }}
 </script>
-{{- end }}{{/* .IsPage end */}}
+{{- else if and $about (eq .Permalink $about.Permalink) }}
+{{- /* Google's ProfilePage, for an "About Me" page on a blog. */}}
+{{- $profile := dict
+      "@context" "https://schema.org"
+      "@type" "ProfilePage"
+      "url" .Permalink
+      "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+      "mainEntity" $person }}
+<script type="application/ld+json">
+{{ $profile | jsonify | safeJS }}
+</script>
+{{- end }}{{/* article / profile end */}}
 
 {{- end -}}

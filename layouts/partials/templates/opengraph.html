@@ -1,27 +1,18 @@
-<meta property="og:title" content="{{ .Title }}" />
+{{- /* Notes have no title; use the start of the text, as <title> does. */}}
+{{- $title := .Title }}
+{{- if not $title }}{{ $title = .Content | plainify | htmlUnescape | strings.TrimSpace | truncate 60 }}{{ end }}
+<meta property="og:title" content="{{ $title }}" />
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ if or .IsPage .Params.summary }}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
-{{- if .Params.cover.image -}}
-{{- if (ne .Params.cover.relative true) }}
-<meta property="og:image" content="{{ .Params.cover.image | absURL }}" />
-{{- else}}
-<meta property="og:image" content="{{ (path.Join .RelPermalink .Params.cover.image ) | absURL }}" />
-{{- end}}
-{{- else }}
-
-{{- with $.Params.images -}}
-{{- range first 6 . }}<meta property="og:image" content="{{ . | absURL }}" />{{ end -}}
-{{- else -}}
-{{- $images := $.Resources.ByType "image" -}}
-{{- $featured := $images.GetMatch "*feature*" -}}
-{{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
-{{- with $featured -}}
-<meta property="og:image" content="{{ $featured.Permalink }}"/>
-{{- else -}}
-{{- with site.Params.images }}<meta property="og:image" content="{{ index . 0 | absURL }}"/>{{ end -}}
-{{- end -}}
-{{- end -}}
+{{- with partial "templates/share_image.html" . }}
+{{- if .url }}
+<meta property="og:image" content="{{ .url }}" />
+{{- with .type }}<meta property="og:image:type" content="{{ . }}" />{{ end }}
+{{- with .width }}<meta property="og:image:width" content="{{ . }}" />{{ end }}
+{{- with .height }}<meta property="og:image:height" content="{{ . }}" />{{ end }}
+{{- with .alt }}<meta property="og:image:alt" content="{{ . }}" />{{ end }}
+{{- end }}
 {{- end }}
 
 {{- if .IsPage }}
@@ -32,7 +23,15 @@
 {{- end -}}
 
 {{- with .Params.audio }}<meta property="og:audio" content="{{ . }}" />{{ end }}
-{{- with .Params.locale }}<meta property="og:locale" content="{{ . }}" />{{ end }}
+{{- /* Open Graph wants language_TERRITORY (en_US), not the en-us of languageCode. */}}
+{{- with .Params.locale | default site.Language.LanguageCode }}
+{{- $locale := . }}
+{{- $parts := split (replace . "_" "-") "-" }}
+{{- if eq (len $parts) 2 }}
+{{- $locale = printf "%s_%s" (index $parts 0 | lower) (index $parts 1 | upper) }}
+{{- end }}
+<meta property="og:locale" content="{{ $locale }}" />
+{{- end }}
 {{- with site.Params.title }}<meta property="og:site_name" content="{{ . }}" />{{ end }}
 {{- with .Params.videos }}{{- range . }}
 <meta property="og:video" content="{{ . | absURL }}" />
