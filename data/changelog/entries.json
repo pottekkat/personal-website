@@ -1,6 +1,26 @@
 {
-  "lastUpdated": "2026-11-17T21:43:42+05:30",
+  "lastUpdated": "2026-11-18T21:58:31+05:30",
   "entries": [
+    {
+      "hash": "8b6c483",
+      "date": "2026-11-18T00:19:26+05:30",
+      "message": "Send all URLs to IndexNow without a baseline."
+    },
+    {
+      "hash": "effee87",
+      "date": "2026-11-18T00:08:26+05:30",
+      "message": "Retain IndexNow baseline if submission fails."
+    },
+    {
+      "hash": "23a2383",
+      "date": "2026-11-18T00:05:27+05:30",
+      "message": "Notify IndexNow after each deployment."
+    },
+    {
+      "hash": "b3c96f6",
+      "date": "2026-11-18T00:05:26+05:30",
+      "message": "Updated metadata for search and sharing functionality."
+    },
     {
       "hash": "b396de2",
       "date": "2026-11-17T21:34:03+05:30",
