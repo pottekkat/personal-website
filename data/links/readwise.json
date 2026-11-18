@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-11-18T00:48:18.336879+05:30",
+  "last_updated": "2026-11-19T00:30:15.306301+05:30",
   "links": [
+    {
+      "id": "01m7qq3ypkd185bcz8gah5zxdp",
+      "title": "I have taken a special interest in reading first hand...",
+      "author": "megan",
+      "source_url": "https://x.com/hollowandhome/status/2123037861440016564/?rw_tt_thread=True",
+      "published_date": "2026-11-18",
+      "saved_at": "2026-11-18T21:46:26.835000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m7q1mc09sw1mns7vbc2s916h",
+      "title": "HUMAN.md",
+      "author": "human-md.ai",
+      "source_url": "https://www.human-md.ai/",
+      "published_date": "2026-04-28",
+      "saved_at": "2026-11-18T15:30:56.072000+05:30",
+      "reading_time": "4 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m7py2vqq8fack2sac435gpwx",
+      "title": "I'm vegan, but I went to a steakhouse tonight and...",
+      "author": "Seth Bannon",
+      "source_url": "https://x.com/sethbannon/status/2122888496113484287/?rw_tt_thread=True",
+      "published_date": "2026-11-18",
+      "saved_at": "2026-11-18T14:28:56.631000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m7pke5g0tafj40hf2w8wvzem",
+      "title": "How are people building UI frameworks in any random language",
+      "author": "Ayush Porwal",
+      "source_url": "https://x.com/mitchellh/status/2122748925581185249/?rw_tt_thread=True",
+      "published_date": "2026-11-17",
+      "saved_at": "2026-11-18T11:22:52.735000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
+    {
+      "id": "01m7phnd0wqnjv3ra1050g9r0p",
+      "title": "Chris Hohn sold Microsoft at the bottom and is buying...",
+      "author": "Finance Jack",
+      "source_url": "https://x.com/financejack44/status/2122686947642511462/?s=46&rw_tt_thread=True",
+      "published_date": "2026-11-17",
+      "saved_at": "2026-11-18T10:51:52.667000+05:30",
+      "reading_time": "1 min",
+      "category": "tweet",
+      "notes": ""
+    },
     {
       "id": "01m7mctesb73g7vgav9mtz59wq",
       "title": "Let's Open Source the World — Brandon Thomas, ArtCraft",
