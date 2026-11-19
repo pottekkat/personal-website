@@ -28,6 +28,23 @@
             {{- $dominantColor = index $colors 0 }}
         {{- end }}
 
+        {{- /* The largest candidate is capped at $maxWidth: the cover is 720px CSS
+               wide at most, so 2000px covers a 2.75x screen. Camera originals
+               (6000px, 12MB) are never sent; smaller images keep their own width
+               and are only re-encoded. The <img> src is the 1080w WebP from the
+               srcset, so crawlers and link previews get a sane file too. */ -}}
+        {{- $maxWidth := 2000 }}
+        {{- $coverWebP := $cover.Resize (printf "%dx%d webp q85" $cover.Width $cover.Height) }}
+        {{- $coverTop := $cover }}
+        {{- if gt $cover.Width $maxWidth }}
+            {{- $coverWebP = $cover.Resize (printf "%dx webp q85" $maxWidth) }}
+            {{- $coverTop = $cover.Resize (printf "%dx" $maxWidth) }}
+        {{- end }}
+        {{- $coverSrc := $coverWebP }}
+        {{- if gt $cover.Width 1080 }}
+            {{- $coverSrc = $cover.Resize "1080x webp q85" }}
+        {{- end }}
+
         <figure class="entry-cover">
             {{- if $addLink }}<a href="{{ (path.Join .RelPermalink .Params.cover.image) | absURL }}" target="_blank" rel="noopener noreferrer">{{ end -}}
 
@@ -39,8 +56,7 @@
                         {{ printf "%s %sw, " $resized.Permalink $size -}}
                     {{- end -}}
                 {{- end -}}
-                {{- $coverWebP := $cover.Resize (printf "%dx%d webp q85" $cover.Width $cover.Height) -}}
-                {{ $coverWebP.Permalink }} {{ printf "%dw" $cover.Width }}"
+                {{- $coverWebP.Permalink }} {{ printf "%dw" $coverWebP.Width }}"
                 sizes="(min-width: 768px) 720px, 100vw">
 
                 {{/* Original format fallback */}}
@@ -49,15 +65,15 @@
                         {{- $resized := $cover.Resize (printf "%sx" $size) -}}
                         {{ printf "%s %sw, " $resized.Permalink $size -}}
                     {{- end -}}
-                {{- end -}}{{ $cover.Permalink }} {{ printf "%dw" $cover.Width }}"
+                {{- end -}}{{ $coverTop.Permalink }} {{ printf "%dw" $coverTop.Width }}"
                 sizes="(min-width: 768px) 720px, 100vw">
 
                 {{/* Fallback img for browsers that don't support picture */}}
                 <img loading="lazy"
-                     src="{{ $cover.Permalink }}"
+                     src="{{ $coverSrc.Permalink }}"
                      alt="{{ $alt }}"
-                     width="{{ $cover.Width }}"
-                     height="{{ $cover.Height }}"
+                     width="{{ $coverSrc.Width }}"
+                     height="{{ $coverSrc.Height }}"
                      {{- if $dominantColor }} style="background-color: {{ $dominantColor }};"{{- end }}>
             </picture>
 
