@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T19:00:38.995212",
+  "lastUpdated": "2026-11-19T19:08:29.283037",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Daniel Stenberg",
-      "postUrl": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
-      "publishDate": "2026-11-18T15:58:27+00:00"
+      "postTitle": "llm-gemini 0.38",
+      "postUrl": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+      "publishDate": "2026-11-18T23:59:20+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
