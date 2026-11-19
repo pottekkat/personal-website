@@ -84,7 +84,7 @@ spec:
 
 We use the [HTTPRoute](https://gateway-api.sigs.k8s.io/reference/api-types/httproute/) API to configure our Route in APISIX. The APISIX Ingress controller will convert the HTTPRoute resource to APISIX configuration.
 
-As in the [previous tutorial](/posts/canary-in-kubernetes), you can adjust the weights of the traffic split to configure a canary release. With the configuration shown above, traffic will be split equally between the two versions of the bare-minimum-api:
+As in the [previous tutorial](/posts/canary-in-kubernetes/), you can adjust the weights of the traffic split to configure a canary release. With the configuration shown above, traffic will be split equally between the two versions of the bare-minimum-api:
 
 ```shell title="output"
 ➜ curl http://127.0.0.1:56194/

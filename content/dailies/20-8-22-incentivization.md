@@ -5,7 +5,7 @@ draft: false
 summary: "The line between incentivization and gamification of open source contributions is blurry."
 ---
 
-I'm writing about how incentivizing open source contributions can quickly turn into gamification of the system. This will be featured in [my newsletter](/subscribe) this coming Friday.
+I'm writing about how incentivizing open source contributions can quickly turn into gamification of the system. This will be featured in [my newsletter](/subscribe/) this coming Friday.
 
 My newsletter and blog posts are opinionated. I'm not catering to any target audience and being cautious about my writing.
 

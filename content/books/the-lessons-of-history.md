@@ -22,4 +22,4 @@ bookMeta:
 fmContentType: Book Review
 ---
 
-_**The Lessons of History**_ is also from the same podcast where I got [The Book of Laughter and Forgetting](/books/the-book-of-laughter-and-forgetting). Pranay's introduction to the book as "compressed insights" made me want to read it.
+_**The Lessons of History**_ is also from the same podcast where I got [The Book of Laughter and Forgetting](/books/the-book-of-laughter-and-forgetting/). Pranay's introduction to the book as "compressed insights" made me want to read it.

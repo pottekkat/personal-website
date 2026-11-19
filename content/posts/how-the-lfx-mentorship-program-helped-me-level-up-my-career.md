@@ -86,4 +86,4 @@ And based on the stats, more people are applying to the program and actively par
 
 So, apply to the program if you are interested in contributing to open source, especially if you are a student. If you are a seasoned contributor, participate as a mentor and pay it forward.
 
-You can also check out other programs like LFX in [20+ Open Source Internship Programs that you can Apply to](/posts/open-source-internship-programs).
+You can also check out other programs like LFX in [20+ Open Source Internship Programs that you can Apply to](/posts/open-source-internship-programs/).

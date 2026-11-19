@@ -468,7 +468,7 @@ There could also be scenarios where you might need to pass in whole additional f
 >
 > {{< codapi sandbox="apisix" editor="off" files="./codapi/apisix.yaml:apisix.yaml" >}}
 >
-> _From [Apache APISIX Playground](/playgrounds/apisix)._
+> _From [Apache APISIX Playground](/playgrounds/apisix/)._
 
 Inside the sandbox, APISIX is first configured with the YAML configuration, and then the `curl` command is used to send a request to the configured APISIX instance.
 
