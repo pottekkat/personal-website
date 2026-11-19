@@ -1,3 +1,18 @@
+{{- /* Runs in <head>, before main: starts the paginator (main reads it with
+       .Paginator) so canonical and hreflang can name the current pager. */}}
+{{- define "page_links" }}
+{{- $url := .Permalink }}
+{{- if not (and site.Params.profileMode.enabled .IsHome) }}
+{{- $pages := union .RegularPages .Sections }}
+{{- if .IsHome }}
+{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
+{{- end }}
+{{- $url = (.Paginate $pages).URL | absURL }}
+{{- end }}
+{{- partial "page_links.html" (dict "page" . "url" $url) }}
+{{- end }}
+
 {{- define "main" }}
 
 {{- if (and site.Params.profileMode.enabled .IsHome) }}
@@ -30,14 +45,7 @@
 </div>
 {{- end }}
 
-{{- $pages := union .RegularPages .Sections }}
-
-{{- if .IsHome }}
-{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
-{{- end }}
-
-{{- $paginator := .Paginate $pages }}
+{{- $paginator := .Paginator }}
 
 {{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
 {{- partial "home_info.html" . }}

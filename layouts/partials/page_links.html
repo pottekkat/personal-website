@@ -1,0 +1,19 @@
+{{- /* Canonical and hreflang links. url is the page's own address: the
+       permalink, or the current pager on page 2+ of a list, so each pager
+       names itself as canonical. The 404 page gets neither; a page whose
+       canonicalURL points elsewhere gets no hreflang. */ -}}
+{{- $p := .page }}
+{{- $self := .url }}
+{{- if ne $p.Kind "404" }}
+<link rel="canonical" href="{{ with $p.Params.canonicalURL }}{{ trim . " " }}{{ else }}{{ $self }}{{ end }}">
+{{- if not $p.Params.canonicalURL }}
+{{- range $p.AllTranslations }}
+{{- $href := .Permalink }}
+{{- if eq .Lang $p.Lang }}{{ $href = $self }}{{ end }}
+<link rel="alternate" hreflang="{{ .Lang }}" href="{{ $href }}">
+{{- if eq .Lang site.Sites.Default.Language.Lang }}
+<link rel="alternate" hreflang="x-default" href="{{ $href }}">
+{{- end }}
+{{- end }}
+{{- end }}
+{{- end }}
