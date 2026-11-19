@@ -36,7 +36,7 @@ However, APISIX supports [exporting metrics to Prometheus](/posts/introduction-t
 
 You can also use Prometheus instead of just the receiver for [additional capabilities](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/prometheusreceiver#unsupported-features). But in this example, we are just interested in using SigNoz.
 
-{{< figure src="/images/apisix-metrics-signoz/apisix-prometheus-otel-signoz.png#center" title="APISIX + Prometheus + SigNoz" caption="You can also [use a full Prometheus instance](/posts/introduction-to-monitoring-microservices) to leverage its full capabilities." link="/images/apisix-metrics-signoz/apisix-prometheus-otel-signoz.png" target="_blank" class="align-center" >}}
+{{< figure src="/images/apisix-metrics-signoz/apisix-prometheus-otel-signoz.png#center" title="APISIX + Prometheus + SigNoz" caption="You can also [use a full Prometheus instance](/posts/introduction-to-monitoring-microservices/) to leverage its full capabilities." link="/images/apisix-metrics-signoz/apisix-prometheus-otel-signoz.png" target="_blank" class="align-center" >}}
 
 ## Configuring APISIX
 

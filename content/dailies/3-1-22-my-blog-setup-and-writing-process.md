@@ -67,11 +67,11 @@ The [Homepage](/) starts with a short bio, links to socials, a subscription form
 
 Each post belong to one category and one category only (except the "Featured" category).
 
-Posts can then be filtered by [Categories](/categories) and [Tags](/tags).
+Posts can then be filtered by [Categories](/categories/) and [Tags](/tags/).
 
-Each of the posts are searchable (by title, tags and content) and are shown chronologically in the [Archives](/archives) page.
+Each of the posts are searchable (by title, tags and content) and are shown chronologically in the [Archives](/archives/) page.
 
-Finally, there is an [About](/about) page with too much information and a [Subscribe](/subscribe) page.
+Finally, there is an [About](/about/) page with too much information and a [Subscribe](/subscribe/) page.
 
 I previously had a comments section below each post powered by [Utterances](https://utteranc.es/) which use GitHub issues.
 
@@ -83,7 +83,7 @@ The actual code of the site is [MIT licensed](https://github.com/pottekkat/perso
 
 ## Monthly Digest and Newsletter
 
-When you [subscribe](/subscribe) to my blog, you will be part of a mailing list where I will try to share monthly digests, updates on new posts and newsletters on my learnings.
+When you [subscribe](/subscribe/) to my blog, you will be part of a mailing list where I will try to share monthly digests, updates on new posts and newsletters on my learnings.
 
 This is something I setup very recently and I haven't had the time to figure out what this will be or develop a routine to publish something to the mailing list.
 

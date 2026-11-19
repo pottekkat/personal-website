@@ -1,3 +1,10 @@
+{{- /* Runs in <head>, before main: starts the paginator (main reads it with
+       .Paginator) so canonical and hreflang can name the current pager. */}}
+{{- define "page_links" }}
+{{- $pages := .RegularPages }}
+{{- partial "page_links.html" (dict "page" . "url" ((.Paginate $pages).URL | absURL)) }}
+{{- end }}
+
 {{- define "main" }}
 
 {{ $lastUpdated := .Site.Data.links.readwise.last_updated }}
@@ -6,8 +13,7 @@
 {{ $monthYear := $t.Format "January 2006" }}
 {{ $time := $t.Format "3:04 PM" }}
 
-{{- $pages := .RegularPages }}
-{{- $paginator := .Paginate $pages }}
+{{- $paginator := .Paginator }}
 
 <article class="post-single">
   <header class="post-header">

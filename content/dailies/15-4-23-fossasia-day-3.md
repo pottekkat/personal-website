@@ -9,4 +9,4 @@ I had to get up early to make it to my talk. Remind me to schedule my talks befo
 
 I think my talk went well. I got some excellent questions in the end and managed to finish the discussion on time. Yay me!
 
-The talk was [streamed to YouTube](https://www.youtube.com/live/w6fPJvszjmM?feature=share&t=1442), but you can read the article version [here](/reliable-apis).
+The talk was [streamed to YouTube](https://www.youtube.com/live/w6fPJvszjmM?feature=share&t=1442), but you can read the article version [here](/posts/best-practices-for-building-reliable-apis/).

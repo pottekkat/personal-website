@@ -39,7 +39,7 @@ And truly counts all costs incurred\
 And the opportunities foregone.
 {{< /blockquote >}}
 
-Without further ado, let's explore these lessons together. I would, once again, encourage everyone to read _The Nitopadesha_ and use this [series of articles](/series/the-nitopadesha) as a secondary resource to aid your reading and refer back in the future.
+Without further ado, let's explore these lessons together. I would, once again, encourage everyone to read _The Nitopadesha_ and use this [series of articles](/series/the-nitopadesha/) as a secondary resource to aid your reading and refer back in the future.
 
 The second book follows Udaradevan and Bellikota as they trade stories, one recalling the teachings of his grandfather, the other speaking of his many, possibly infinite, cousins.
 

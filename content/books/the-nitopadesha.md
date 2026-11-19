@@ -22,4 +22,4 @@ bookMeta:
 
 _**The Nitopadesha**_ is a collection of interwoven, _Panchatantra_-esque stories filled with talking animals and shrewd moral lessons. Beneath these fables lie deep insights into governance, economics, and statecraft—ideas that still resonate in contemporary economics textbooks nearly two millennia later.
 
-_Read my complete, four-part review [here](/series/the-nitopadesha)_.
+_Read my complete, four-part review [here](/series/the-nitopadesha/)_.

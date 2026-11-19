@@ -3,6 +3,11 @@
 
 <head>
     {{- partial "head.html" . }}
+    {{- /* List layouts that paginate override this block: they start the
+           paginator here, before main, so the links can name the current pager. */}}
+    {{- block "page_links" . }}
+    {{- partial "page_links.html" (dict "page" . "url" .Permalink) }}
+    {{- end }}
 </head>
 
 <body class="

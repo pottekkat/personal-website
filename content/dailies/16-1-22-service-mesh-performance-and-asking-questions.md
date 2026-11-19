@@ -19,7 +19,7 @@ I also look into the tools [Meshery](https://meshery.io/) and [Service Mesh Perf
 
 ## How to ask Good Questions in Open Source Communities
 
-This talk at FOSDEM 2022 is based on my article "[How I Ask Questions as a Software Engineer](/posts/how-i-ask-questions)".
+This talk at FOSDEM 2022 is based on my article "[How I Ask Questions as a Software Engineer](/posts/how-i-ask-questions/)".
 
 I narrow the scope of the talk to be more specific to open source projects/communities with key takeaways that I think are helpful to every open source contributors.
 

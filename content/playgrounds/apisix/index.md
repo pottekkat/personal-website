@@ -18,7 +18,7 @@ cover:
 
 An API gateway typically sits between your client applications and your APIs, acting as a proxy while adding authentication, traffic control, monitoring, and other capabilities.
 
-This interactive playground walks you through [configuring Apache APISIX](/tags/apache-apisix), directly in your browser.
+This interactive playground walks you through [configuring Apache APISIX](/tags/apache-apisix/), directly in your browser.
 
 > [!NOTE]
 > This playground uses a lightweight APISIX sandbox, and its performance might be (it is) sub-par compared to typical production setups. Please refer to the [APISIX in Production](https://docs.api7.ai/apisix/production/deployment-modes) guides to learn more about practical APISIX deployments.

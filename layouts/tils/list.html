@@ -1,3 +1,10 @@
+{{- /* Runs in <head>, before main: starts the paginator (main reads it with
+       .Paginator) so canonical and hreflang can name the current pager. */}}
+{{- define "page_links" }}
+{{- $pages := union .RegularPages .Sections }}
+{{- partial "page_links.html" (dict "page" . "url" ((.Paginate $pages).URL | absURL)) }}
+{{- end }}
+
 {{- define "main" }}
 
 <header class="page-header">
@@ -23,8 +30,7 @@
   <ul id="searchResults" aria-label="search results"></ul>
 </div>
 
-{{- $pages := union .RegularPages .Sections }}
-{{- $paginator := .Paginate $pages }}
+{{- $paginator := .Paginator }}
 {{- range $index, $page := $paginator.Pages }}
 
 <article class="til-post-entry">
