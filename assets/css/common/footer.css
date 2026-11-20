@@ -64,8 +64,7 @@
     display: block;
     position: relative;
     height: 100%;
-    background: var(--entry-image), var(--entry);
-    border: 1px solid var(--primary);
+    background: var(--entry);
     transition: transform 0.1s;
     animation: top-settle 0.2s cubic-bezier(.23, 1, .32, 1) backwards;
 }
@@ -84,11 +83,14 @@
     left: 11px;
     width: 18px;
     height: 18px;
-    fill: var(--primary);
+    fill: none;
+    stroke: var(--primary);
+    stroke-width: 2;
+    stroke-linecap: square;
 }
 
 .top-ink .top-arrow {
-    fill: var(--theme);
+    stroke: var(--theme);
 }
 
 /* Without scroll timelines the ink is never clipped: a solid square. */
@@ -130,15 +132,15 @@
     }
 }
 
-/* High contrast modes drop backgrounds but not SVG fills: without this the
-   ink layer's arrow would be drawn in the background colour. */
+/* High contrast modes drop backgrounds but not SVG strokes: without this
+   the ink layer's arrow would be drawn in the background colour. */
 @media (forced-colors: active) {
     .top-ink {
         display: none;
     }
 
     .top-arrow {
-        fill: LinkText;
+        stroke: LinkText;
     }
 }
 
@@ -153,7 +155,6 @@
 
     .top-link:hover .top-slip {
         transform: translateY(-2px);
-        border-color: var(--secondary);
     }
 
     .top-link:hover .top-ink {
@@ -161,7 +162,7 @@
     }
 
     .top-link:hover .top-slip > .top-arrow {
-        fill: var(--secondary);
+        stroke: var(--secondary);
     }
 }
 
