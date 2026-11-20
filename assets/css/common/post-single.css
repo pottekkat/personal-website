@@ -86,8 +86,8 @@
     scroll-margin-top: calc(var(--gap) * 2);
 }
 
-/* A faint ink wash on what a #link landed on, added for a second by the
-   script in footer.html. */
+/* An accent wash on what a #link landed on, like the selection wash
+   (theme-vars.css), added for a second by the script in footer.html. */
 .post-content .landed {
     position: relative;
     isolation: isolate;
@@ -98,8 +98,7 @@
     position: absolute;
     z-index: -1;
     inset: -4px -10px;
-    background: var(--primary);
-    opacity: .08;
+    background: rgb(from var(--accent) r g b / 0.25);
 }
 
 /* A code line washes edge to edge inside its block. */

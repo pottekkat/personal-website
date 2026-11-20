@@ -21,7 +21,7 @@
        running text (posts, the home intro, breadcrumbs, meta line, credits,
        footer) and the current menu section. The one exception is the rubric
        word in the home title. Accent marks: list markers, the blockquote
-       rule and the selection wash. Index entries, controls and icons stay
+       rule, the selection wash and the #link landing wash. Index entries, controls and icons stay
        ink. Oxblood here, pine in .dark, matching the about/stats charts. */
     --accent: rgb(178, 58, 74);
     --border: rgb(247, 247, 247);
