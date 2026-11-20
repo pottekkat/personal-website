@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-11-19T15:40:44+05:30",
+  "lastUpdated": "2026-11-20T13:02:22+05:30",
   "entries": [
+    {
+      "hash": "7f65208",
+      "date": "2026-11-20T12:58:24+05:30",
+      "message": "Removed full-size cover encode and fixed cover ratio."
+    },
+    {
+      "hash": "bc16404",
+      "date": "2026-11-20T12:05:09+05:30",
+      "message": "Updated post image source to use smallest WebP version."
+    },
+    {
+      "hash": "b2105c1",
+      "date": "2026-11-19T21:24:10+05:30",
+      "message": "Limited cover images to 2000px and eliminated original images."
+    },
     {
       "hash": "ab66b4f",
       "date": "2026-11-19T15:29:57+05:30",
