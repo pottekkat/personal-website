@@ -80,7 +80,7 @@ html.lightbox-open {
     .lightbox-bar button:hover,
     .lightbox-original:hover,
     .lightbox-caption a:hover {
-        color: var(--secondary);
+        color: var(--accent);
     }
 }
 

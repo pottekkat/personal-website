@@ -23,7 +23,7 @@
 
 @media (hover: hover) {
     .page-header a:hover {
-        color: var(--secondary);
+        color: var(--accent);
     }
 }
 
@@ -131,7 +131,7 @@ pre {
 
 @media (hover: hover) {
     .section-links-archive a:hover {
-        color: var(--secondary);
+        color: var(--accent);
     }
 }
 

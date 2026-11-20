@@ -31,7 +31,7 @@
 
 @media (hover: hover) {
     .nav a:hover {
-        color: var(--secondary);
+        color: var(--accent);
     }
 }
 
@@ -86,7 +86,7 @@ button#theme-toggle {
 
 @media (hover: hover) {
     button#theme-toggle:hover {
-        color: var(--secondary);
+        color: var(--accent);
     }
 }
 
@@ -153,7 +153,7 @@ body:not(.dark) #sun {
 
 @media (hover: hover) {
     .menu-toggle:hover {
-        color: var(--secondary);
+        color: var(--accent);
     }
 }
 

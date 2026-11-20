@@ -33,10 +33,6 @@
   gap: 8px;
 }
 
-.toggle-button:hover {
-  color: var(--primary);
-}
-
 /* Read-only filter: the pressed state follows the site's active-item
    convention (header.css #menu .active, post-single.css .tabs__tab.is-active):
    --primary text with a label-width 2px currentColor underline. The underline
@@ -48,6 +44,13 @@
 
 .toggle-button[aria-pressed="true"] {
   color: var(--primary);
+}
+
+/* After the pressed state so a pressed filter takes the accent on hover too. */
+@media (hover: hover) {
+  .toggle-button:hover {
+    color: var(--accent);
+  }
 }
 
 .toggle-button[aria-pressed="true"] .filter-text {
