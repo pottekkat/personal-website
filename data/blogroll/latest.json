@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-11-19T19:08:29.283037",
+  "lastUpdated": "2026-11-20T18:46:23.592314",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Voyager Crash",
-      "postUrl": "https://xkcd.com/3326/",
-      "publishDate": "Wed, 18 Nov 2026 05:00:00 -0000"
+      "postTitle": "Plate Maintenance",
+      "postUrl": "https://xkcd.com/3327/",
+      "publishDate": "Fri, 20 Nov 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "llm-gemini 0.38",
-      "postUrl": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
-      "publishDate": "2026-11-18T23:59:20+00:00"
+      "postTitle": "Quoting Levent Alp\u00f6ge",
+      "postUrl": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+      "publishDate": "2026-11-20T16:30:48+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
