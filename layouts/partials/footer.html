@@ -133,11 +133,20 @@
 {{- if (not site.Params.disableScrollToTop) }}
 <script type="module">
     var topNav = document.getElementById("top-link").parentElement;
+    var page = document.scrollingElement;
+    // One reading of the scroll position drives both whether the button shows
+    // and how much ink it holds, so the two can never disagree.
     function checkTopLink() {
-        topNav.hidden = document.documentElement.scrollTop <= 800 && document.body.scrollTop <= 800;
+        var y = page.scrollTop;
+        var range = page.scrollHeight - page.clientHeight;
+        topNav.hidden = y <= 800;
+        topNav.style.setProperty("--read", range > 0 ? Math.min(y / range, 1) : 0);
     }
     window.addEventListener("scroll", checkTopLink, { passive: true });
-    // A reload or back navigation can restore the page already scrolled.
+    // Back/forward cache restores and prerendered pages skip the first run.
+    window.addEventListener("pageshow", checkTopLink);
+    // Images and embeds loading in change how far the page has left to go.
+    new ResizeObserver(checkTopLink).observe(document.body);
     checkTopLink();
 
 </script>

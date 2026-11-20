@@ -56,33 +56,15 @@
     border-radius: 0;
 }
 
-/* Fills with ink from the bottom as the page is read. Without scroll
-   timelines it is never clipped: the solid square, inverted so it stands
-   out on cards and paper in both themes. */
+/* Fills with ink from the bottom as the page is read. --read (0 to 1) is
+   set by the scroll script in footer.html. */
 .top-ink {
     position: absolute;
     inset: 0;
     padding: 12px;
     color: var(--theme);
     background: var(--primary);
-}
-
-@supports (animation-timeline: scroll()) {
-    .top-ink {
-        animation: top-ink linear both;
-        animation-timeline: scroll(root);
-    }
-}
-
-/* Both ends are written out: inset() can't blend into the default none. */
-@keyframes top-ink {
-    from {
-        clip-path: inset(100% 0 0 0);
-    }
-
-    to {
-        clip-path: inset(0 0 0 0);
-    }
+    clip-path: inset(calc(100% - var(--read, 0) * 100%) 0 0 0);
 }
 
 /* reset.css gives nav display: block, which beats the browser's [hidden] */
