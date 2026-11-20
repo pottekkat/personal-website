@@ -16,6 +16,7 @@
     --hljs-bg: rgba(252, 252, 252);
     --code-bg: rgb(248, 244, 239);
     --inline-code-bg: rgb(213, 57, 0);
+    --visited: rgb(110, 62, 150);
     --border: rgb(247, 247, 247);
     --background-color: rgb(180, 180, 180);
     --background-image: url(/images/binding-dark.png);
@@ -34,6 +35,7 @@
     --hljs-bg: rgb(23, 23, 23);
     --code-bg: rgb(33, 33, 33);
     --inline-code-bg: rgb(255, 127, 80);
+    --visited: rgb(196, 165, 230);
     --border: rgb(25, 25, 25);
     --background-color: rgb(75, 75, 75);
     --background-image: url(/images/binding-dark.png);

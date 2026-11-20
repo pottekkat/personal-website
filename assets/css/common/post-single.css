@@ -114,8 +114,18 @@
     }
 }
 
+/* Visited links in body copy turn purple, the way the web always marked
+   them. Same-page anchors (footnotes, headings, TOC, code line numbers)
+   are skipped: the page itself is in history, so they would all start
+   out visited. The :not() outranks a plain :hover, so the hover rule
+   names :visited:hover too and still turns visited links grey. */
+.post-content a:visited:not([href^="#"]) {
+    color: var(--visited);
+}
+
 @media (hover: hover) {
-    .post-content a:hover {
+    .post-content a:hover,
+    .post-content a:visited:hover:not([href^="#"]) {
         color: var(--secondary);
     }
 }
