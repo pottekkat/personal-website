@@ -45,9 +45,4 @@
     #searchResults li:active {
         transform: none;
     }
-
-    /* footer: no wipe in or out; the ink still follows the scroll */
-    .top-link {
-        animation: none;
-    }
 }

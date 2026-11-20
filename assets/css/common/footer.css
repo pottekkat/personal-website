@@ -54,7 +54,6 @@
     height: 42px;
     padding: 12px;
     border-radius: 0;
-    animation: top-in 0.1s linear;
 }
 
 /* Fills with ink from the bottom as the page is read. Without scroll
@@ -83,31 +82,6 @@
 
     to {
         clip-path: inset(0 0 0 0);
-    }
-}
-
-/* Wipes up into place when shown and down out of sight when hidden. */
-@keyframes top-in {
-    from {
-        clip-path: inset(100% 0 0 0);
-    }
-
-    to {
-        clip-path: inset(0 0 0 0);
-    }
-}
-
-.top-leaving .top-link {
-    animation: top-out 0.1s linear forwards;
-}
-
-@keyframes top-out {
-    from {
-        clip-path: inset(0 0 0 0);
-    }
-
-    to {
-        clip-path: inset(100% 0 0 0);
     }
 }
 

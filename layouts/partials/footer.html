@@ -133,30 +133,9 @@
 {{- if (not site.Params.disableScrollToTop) }}
 <script type="module">
     var topNav = document.getElementById("top-link").parentElement;
-    var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-    var topShown = !topNav.hidden, topTimer;
-
-    // Showing needs no JS: the wipe in plays when the nav stops being
-    // display: none. Hiding waits for the wipe out to finish.
     function checkTopLink() {
-        var show = document.documentElement.scrollTop > 800 || document.body.scrollTop > 800;
-        if (show === topShown) return;
-        topShown = show;
-        clearTimeout(topTimer);
-        if (show) {
-            topNav.classList.remove("top-leaving");
-            topNav.hidden = false;
-        } else if (reduceMotion.matches) {
-            topNav.hidden = true;
-        } else {
-            topNav.classList.add("top-leaving");
-            topTimer = setTimeout(function () {
-                topNav.hidden = true;
-                topNav.classList.remove("top-leaving");
-            }, 100);
-        }
+        topNav.hidden = document.documentElement.scrollTop <= 800 && document.body.scrollTop <= 800;
     }
-
     window.addEventListener("scroll", checkTopLink, { passive: true });
     // A reload or back navigation can restore the page already scrolled.
     checkTopLink();
