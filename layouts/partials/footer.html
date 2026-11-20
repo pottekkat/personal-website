@@ -163,18 +163,25 @@
     }
 
     window.addEventListener("scroll", checkTopLink, { passive: true });
+    // A reload or back navigation can restore the page already scrolled.
+    checkTopLink();
 
     // After a click, stay until the smooth scroll lands so the ink can be
-    // seen draining. The timeout covers browsers without scrollend.
+    // seen draining. The timeout covers browsers without scrollend and
+    // clicks that don't scroll at all.
+    var topLandTimer;
+    function topLanded() {
+        window.removeEventListener("scrollend", topLanded);
+        clearTimeout(topLandTimer);
+        topReturning = false;
+        checkTopLink();
+    }
     topLink.addEventListener("click", function () {
         topReturning = true;
-        function landed() {
-            if (!topReturning) return;
-            topReturning = false;
-            checkTopLink();
-        }
-        window.addEventListener("scrollend", landed, { once: true });
-        setTimeout(landed, 1500);
+        window.removeEventListener("scrollend", topLanded);
+        clearTimeout(topLandTimer);
+        window.addEventListener("scrollend", topLanded);
+        topLandTimer = setTimeout(topLanded, 1500);
     });
 
 </script>

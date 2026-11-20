@@ -130,6 +130,18 @@
     }
 }
 
+/* High contrast modes drop backgrounds but not SVG fills: without this the
+   ink layer's arrow would be drawn in the background colour. */
+@media (forced-colors: active) {
+    .top-ink {
+        display: none;
+    }
+
+    .top-arrow {
+        fill: LinkText;
+    }
+}
+
 .top-link:active .top-slip {
     transform: scale(0.96);
 }
