@@ -86,6 +86,27 @@
     scroll-margin-top: calc(var(--gap) * 2);
 }
 
+/* A faint ink wash on what a #link landed on, added for a second by the
+   script in footer.html. */
+.post-content .landed {
+    position: relative;
+    isolation: isolate;
+}
+
+.post-content .landed::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: -4px -10px;
+    background: var(--primary);
+    opacity: .08;
+}
+
+/* A code line washes edge to edge inside its block. */
+.post-content .chroma .landed::before {
+    inset: 0;
+}
+
 .post-content h1 {
     margin: 40px auto 32px;
     font-size: 30px;

@@ -124,9 +124,38 @@
                 history.replaceState(null, null, " ");
             } else {
                 history.pushState(null, null, `#${id}`);
+                markLanding(id);
             }
         });
     });
+
+    // Briefly washes what a #link landed on, so the eye finds it. It shows
+    // once the scroll stops, holds for a second, and goes, all instantly.
+    var landed, landTimer, waitForStop;
+    function markLanding(id) {
+        var el = document.getElementById(decodeURIComponent(id));
+        if (!el || !el.closest(".post-content")) return;
+        // Code line numbers mark their whole line; inline targets like a
+        // footnote reference mark the paragraph or item holding them.
+        if (el.matches(".chroma .ln")) el = el.closest(".line");
+        else if (getComputedStyle(el).display.startsWith("inline")) el = el.closest("p, li, blockquote") || el;
+        if (landed) landed.classList.remove("landed");
+        window.removeEventListener("scroll", waitForStop);
+        landed = el;
+        // Every scroll event restarts the wait; 150ms without one means the
+        // smooth scroll has arrived.
+        waitForStop = function () {
+            clearTimeout(landTimer);
+            landTimer = setTimeout(function () {
+                window.removeEventListener("scroll", waitForStop);
+                el.classList.add("landed");
+                landTimer = setTimeout(function () { el.classList.remove("landed"); }, 1000);
+            }, 150);
+        };
+        window.addEventListener("scroll", waitForStop, { passive: true });
+        waitForStop();
+    }
+    if (location.hash) markLanding(location.hash.slice(1));
 
 </script>
 
