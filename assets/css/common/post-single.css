@@ -22,6 +22,11 @@
     flex-wrap: wrap;
 }
 
+/* Text links in the meta line ("Suggest Changes") carry the accent. */
+.post-meta a {
+    color: var(--accent);
+}
+
 @media (hover: hover) {
     .post-meta a:hover {
         color: var(--secondary);
@@ -53,8 +58,9 @@
     margin-bottom: 20px;
 }
 
+/* Parent crumbs are links and carry the accent; the current page stays grey. */
 .breadcrumbs a {
-    color: var(--secondary);
+    color: var(--accent);
 }
 
 @media (hover: hover) {

@@ -33,6 +33,11 @@
     -webkit-line-clamp: unset;
 }
 
+/* Links in the intro text carry the accent, like links in post copy. */
+.home-info .entry-content a {
+    color: var(--accent);
+}
+
 @media (hover: hover) {
     .home-info a:hover {
         color: var(--secondary);
