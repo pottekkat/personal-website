@@ -32,13 +32,17 @@
                wide at most, so 2000px covers a 2.75x screen. Camera originals
                (6000px, 12MB) are never sent; smaller images keep their own width
                and are only re-encoded. The <img> src is the 1080w WebP from the
-               srcset, so crawlers and link previews get a sane file too. */ -}}
+               srcset, so crawlers and link previews get a sane file too. The
+               branches are exclusive so an oversized original is never encoded
+               at full size only to be thrown away. */ -}}
         {{- $maxWidth := 2000 }}
-        {{- $coverWebP := $cover.Resize (printf "%dx%d webp q85" $cover.Width $cover.Height) }}
+        {{- $coverWebP := "" }}
         {{- $coverTop := $cover }}
         {{- if gt $cover.Width $maxWidth }}
             {{- $coverWebP = $cover.Resize (printf "%dx webp q85" $maxWidth) }}
             {{- $coverTop = $cover.Resize (printf "%dx" $maxWidth) }}
+        {{- else }}
+            {{- $coverWebP = $cover.Resize (printf "%dx%d webp q85" $cover.Width $cover.Height) }}
         {{- end }}
         {{- $coverSrc := $coverWebP }}
         {{- if gt $cover.Width 1080 }}
@@ -51,7 +55,8 @@
             <picture{{- if $dominantColor }} style="display: block; background-color: {{ $dominantColor }}; background-size: cover; background-position: center;"{{- end }}>
                 {{/* WebP srcset for modern browsers */}}
                 <source type="image/webp" srcset="{{- range $size := $sizes -}}
-                    {{- if (ge $cover.Width $size) -}}
+                    {{- /* Rungs strictly below the top candidate: srcset must not repeat a width. */ -}}
+                    {{- if (lt (int $size) $coverWebP.Width) -}}
                         {{- $resized := $cover.Resize (printf "%sx webp q85" $size) -}}
                         {{ printf "%s %sw, " $resized.Permalink $size -}}
                     {{- end -}}
@@ -61,7 +66,7 @@
 
                 {{/* Original format fallback */}}
                 <source type="{{ $cover.MediaType }}" srcset="{{- range $size := $sizes -}}
-                    {{- if (ge $cover.Width $size) -}}
+                    {{- if (lt (int $size) $coverTop.Width) -}}
                         {{- $resized := $cover.Resize (printf "%sx" $size) -}}
                         {{ printf "%s %sw, " $resized.Permalink $size -}}
                     {{- end -}}
@@ -72,8 +77,10 @@
                 <img loading="lazy"
                      src="{{ $coverSrc.Permalink }}"
                      alt="{{ $alt }}"
-                     width="{{ $coverSrc.Width }}"
-                     height="{{ $coverSrc.Height }}"
+                     {{- /* Source dimensions, not the src file's: they set the exact
+                            aspect ratio the box reserves before any candidate loads. */}}
+                     width="{{ $cover.Width }}"
+                     height="{{ $cover.Height }}"
                      {{- if $dominantColor }} style="background-color: {{ $dominantColor }};"{{- end }}>
             </picture>
 
