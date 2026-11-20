@@ -10,7 +10,7 @@
 
 @media (hover: hover) {
   .note-timestamp a:hover {
-    color: var(--accent);
+    color: var(--primary);
   }
 }
 

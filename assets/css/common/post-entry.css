@@ -35,7 +35,7 @@
 
 @media (hover: hover) {
     .home-info a:hover {
-        color: var(--accent);
+        color: var(--secondary);
     }
 }
 

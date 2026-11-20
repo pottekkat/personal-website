@@ -217,7 +217,7 @@ And sure enough, I found the pin overview table (Table 2-1), which gave some hin
 }
 @media (hover: hover) {
     .rtc-reveal:hover {
-        color: var(--accent);
+        color: var(--secondary);
     }
 }
 </style>

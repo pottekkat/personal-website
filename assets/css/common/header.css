@@ -29,9 +29,11 @@
     display: block;
 }
 
+/* Menu links grey on hover; the handwritten logo stays ink. */
 @media (hover: hover) {
-    .nav a:hover {
-        color: var(--accent);
+    #menu a:hover,
+    .lang-switch a:hover {
+        color: var(--secondary);
     }
 }
 
@@ -86,7 +88,7 @@ button#theme-toggle {
 
 @media (hover: hover) {
     button#theme-toggle:hover {
-        color: var(--accent);
+        color: var(--secondary);
     }
 }
 
@@ -115,6 +117,7 @@ body:not(.dark) #sun {
 }
 
 #menu .active {
+    color: var(--accent);
     font-weight: 500;
     border-bottom: 2px solid currentColor;
 }
@@ -153,7 +156,7 @@ body:not(.dark) #sun {
 
 @media (hover: hover) {
     .menu-toggle:hover {
-        color: var(--accent);
+        color: var(--secondary);
     }
 }
 

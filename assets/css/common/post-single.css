@@ -24,7 +24,7 @@
 
 @media (hover: hover) {
     .post-meta a:hover {
-        color: var(--accent);
+        color: var(--secondary);
     }
 }
 
@@ -59,7 +59,7 @@
 
 @media (hover: hover) {
     .breadcrumbs a:hover {
-        color: var(--accent);
+        color: var(--primary);
     }
 }
 
@@ -108,18 +108,23 @@
 
 @media (hover: hover) {
     .toc a:hover {
-        color: var(--accent);
         box-shadow: 0 1px 0;
         box-decoration-break: clone;
         -webkit-box-decoration-break: clone;
     }
 }
 
+/* Unvisited links in body copy carry the accent; same-page anchors stay
+   ink for the same reason the visited rule below skips them. */
+.post-content a:not([href^="#"]) {
+    color: var(--accent);
+}
+
 /* Visited links in body copy turn purple, the way the web always marked
    them. Same-page anchors (footnotes, headings, TOC, code line numbers)
    are skipped: the page itself is in history, so they would all start
    out visited. The :not() outranks a plain :hover, so the hover rule
-   names :visited:hover too so visited links still take the accent. */
+   names :visited:hover too and still turns visited links grey. */
 .post-content a:visited:not([href^="#"]) {
     color: var(--visited);
 }
@@ -127,7 +132,7 @@
 @media (hover: hover) {
     .post-content a:hover,
     .post-content a:visited:hover:not([href^="#"]) {
-        color: var(--accent);
+        color: var(--secondary);
     }
 }
 
@@ -551,7 +556,7 @@ body:not(.dark) .post-content figure .invert-diagram-colors {
     h5:hover .anchor,
     h6:hover .anchor {
         display: inline-flex;
-        color: var(--accent);
+        color: var(--secondary);
         margin-inline-start: 8px;
         font-weight: 500;
         user-select: none;
@@ -755,16 +760,15 @@ codapi-snippet codapi-toolbar button:after {
     user-select: none;
 }
 
+@media (hover: hover) {
+    .tabs__tab:hover {
+        color: var(--primary);
+    }
+}
+
 .tabs__tab.is-active {
     color: var(--primary);
     border-bottom-color: currentColor;
-}
-
-/* After .is-active so the selected tab takes the accent on hover too. */
-@media (hover: hover) {
-    .tabs__tab:hover {
-        color: var(--accent);
-    }
 }
 
 .tabs__panel[hidden] {
@@ -804,7 +808,7 @@ codapi-snippet codapi-toolbar button:after {
 
 @media (hover: hover) {
     .qr-code-details summary:hover {
-        color: var(--accent);
+        color: var(--secondary);
     }
 }
 
