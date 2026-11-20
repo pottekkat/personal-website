@@ -206,12 +206,12 @@
 @font-face {
     font-family: 'Grenze Gotisch';
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
     font-display: swap;
     size-adjust: 112%;
-    src: local('Grenze Gotisch Black'),
-        url('/fonts/grenzegotisch/subset-GrenzeGotisch-Black.woff2') format('woff2'),
-        url('/fonts/grenzegotisch/subset-GrenzeGotisch-Black.woff') format('woff');
+    src: local('Grenze Gotisch Bold'),
+        url('/fonts/grenzegotisch/subset-GrenzeGotisch-Bold.woff2') format('woff2'),
+        url('/fonts/grenzegotisch/subset-GrenzeGotisch-Bold.woff') format('woff');
 }
 
 [lang="ml"] {
