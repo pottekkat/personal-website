@@ -102,7 +102,11 @@
   {{- end -}}
   {{- if gt (len $set) 1 -}}{{- $srcset = delimit $set ", " -}}{{- end -}}
 
-  {{- $src = printf "%s%s" $full.RelPermalink $frag -}}
+  {{- /* srcset picks the file for every browser; src is only the fallback
+         that crawlers, link previews and feed readers see. Point it at the
+         smallest rung so those clients do not pull the 1400w file. width and
+         height still come from $full below, so layout does not change. */ -}}
+  {{- $src = printf "%s%s" (index $variants 0).RelPermalink $frag -}}
   {{- /* A caller that passes only one dimension must not get its partner from
          the processed file: the two would describe different boxes. Derive the
          missing one from the source ratio instead. */ -}}
