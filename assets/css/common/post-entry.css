@@ -33,8 +33,11 @@
     -webkit-line-clamp: unset;
 }
 
-/* One word of the site title is set in the accent, like a rubric. */
+/* One word of the site title is set in the accent and in blackletter, like a
+   rubric. */
 .home-info .title-accent {
+    font-family: 'Grenze Gotisch', 'Schibsted Grotesk', sans-serif;
+    font-weight: 900;
     color: var(--accent);
 }
 

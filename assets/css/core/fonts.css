@@ -200,6 +200,20 @@
         url('/fonts/reeniebeanie/subset-ReenieBeanie-Regular.woff') format('woff');
 }
 
+/* Subset to only the glyphs of the home title's accent word ("Absolutist").
+   size-adjust scales it to the cap and x-height of the bold Schibsted Grotesk
+   beside it; at 100% it sets about 11% shorter. */
+@font-face {
+    font-family: 'Grenze Gotisch';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    size-adjust: 112%;
+    src: local('Grenze Gotisch Black'),
+        url('/fonts/grenzegotisch/subset-GrenzeGotisch-Black.woff2') format('woff2'),
+        url('/fonts/grenzegotisch/subset-GrenzeGotisch-Black.woff') format('woff');
+}
+
 [lang="ml"] {
     font-family: 'Manjari', 'Inter', sans-serif;
 }
