@@ -244,6 +244,19 @@ body:not(.grid-active):not(.list-active) #list { display: inline-block; }
   box-shadow: none !important;
 }
 
+/* Titles skip the body-link accent: the table is an index, not prose. :link
+   leaves visited titles to the purple visited rule, and the hover rule has
+   to follow because this one outranks the plain body-link hover. */
+.books-table a:link {
+  color: inherit;
+}
+
+@media (hover: hover) {
+  .books-table a:hover {
+    color: var(--secondary);
+  }
+}
+
 /* Ring the whole row, not the wrapped title. Drawn inside the row, since
    the table's overflow clips anything outside it. Browsers without :has()
    keep the ring on the title. */

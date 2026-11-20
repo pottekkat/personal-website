@@ -682,6 +682,10 @@ codapi-snippet codapi-toolbar button:after {
     font-size: 14px;
 }
 
+.last-run a {
+    color: var(--accent);
+}
+
 #canvas-wrapper>.nofill>div>svg>rect {
     fill: none;
 }

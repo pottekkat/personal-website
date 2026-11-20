@@ -1,4 +1,5 @@
 .webring a {
+    color: inherit;
     border-bottom: none !important;
     box-shadow: none !important;
 }

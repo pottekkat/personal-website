@@ -32,6 +32,7 @@
 /* Menu links grey on hover; the handwritten logo stays ink. */
 @media (hover: hover) {
     #menu a:hover,
+    #menu a:hover .active,
     .lang-switch a:hover {
         color: var(--secondary);
     }
