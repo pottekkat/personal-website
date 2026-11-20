@@ -48,13 +48,8 @@
     bottom: 60px;
     right: 30px;
     z-index: 99;
-    /* Inverted so it stands out on cards and paper in both themes */
-    color: var(--theme);
-    background: var(--primary);
     width: 42px;
     height: 42px;
-    padding: 12px;
-    border-radius: 0;
 }
 
 /* reset.css gives nav display: block, which beats the browser's [hidden] */
@@ -62,9 +57,81 @@
     display: none;
 }
 
-.top-link,
-.top-link svg {
-    filter: drop-shadow(0px 0px 0px var(--theme));
+/* A square of paper that fills with ink as the page is read. At the end of
+   the page it is a solid ink square. The motion lives here and not on
+   .top-link, which zmedia.css moves with transform on list pages. */
+.top-slip {
+    display: block;
+    position: relative;
+    height: 100%;
+    background: var(--entry-image), var(--entry);
+    border: 1px solid var(--primary);
+    transition: transform 0.1s;
+    animation: top-settle 0.2s cubic-bezier(.23, 1, .32, 1) backwards;
+}
+
+.top-ink {
+    position: absolute;
+    inset: 0;
+    background: var(--primary);
+}
+
+/* The same arrow sits in both layers, so where the ink line crosses it the
+   arrow flips from ink on paper to paper on ink. */
+.top-arrow {
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    width: 18px;
+    height: 18px;
+    fill: var(--primary);
+}
+
+.top-ink .top-arrow {
+    fill: var(--theme);
+}
+
+/* Without scroll timelines the ink is never clipped: a solid square. */
+@supports (animation-timeline: scroll()) {
+    .top-ink {
+        animation: top-ink linear both;
+        animation-timeline: scroll(root);
+    }
+}
+
+/* Both ends are written out: inset() can't blend into the default none. */
+@keyframes top-ink {
+    from {
+        clip-path: inset(100% 0 0 0);
+    }
+
+    to {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+/* Settles onto the page: from 6px lower and slightly turned. */
+@keyframes top-settle {
+    from {
+        opacity: 0;
+        transform: translateY(6px) rotate(-3deg);
+    }
+}
+
+/* Leaves faster than it came. */
+.top-leaving .top-slip {
+    animation: top-sink 0.15s cubic-bezier(.55, .055, .675, .19) forwards;
+}
+
+@keyframes top-sink {
+    to {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+}
+
+.top-link:active .top-slip {
+    transform: scale(0.96);
 }
 
 @media (hover: hover) {
@@ -72,8 +139,17 @@
         color: var(--primary);
     }
 
-    .top-link:hover {
+    .top-link:hover .top-slip {
+        transform: translateY(-2px);
+        border-color: var(--secondary);
+    }
+
+    .top-link:hover .top-ink {
         background: var(--secondary);
+    }
+
+    .top-link:hover .top-slip > .top-arrow {
+        fill: var(--secondary);
     }
 }
 

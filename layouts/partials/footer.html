@@ -20,7 +20,7 @@
 {{- /* Hidden until the page is scrolled, so an empty landmark isn't
    announced at the top of the page or without JavaScript. */}}
 <nav class="top-link-nav" aria-label="Back to top" hidden>
-    <a href="#top" class="top-link" id="top-link" accesskey="g" aria-label="Go to top" title="Go to Top (Alt + G)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z" /></svg></a>
+    <a href="#top" class="top-link" id="top-link" accesskey="g" aria-label="Go to top" title="Go to Top (Alt + G)"><span class="top-slip"><svg class="top-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" aria-hidden="true"><path d="M3 2h12v2H3zM9 6l6 6h-5v5H8v-5H3z" /></svg><span class="top-ink"><svg class="top-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" aria-hidden="true"><path d="M3 2h12v2H3zM9 6l6 6h-5v5H8v-5H3z" /></svg></span></span></a>
 </nav>
 {{- end }}
 
@@ -132,10 +132,50 @@
 
 {{- if (not site.Params.disableScrollToTop) }}
 <script type="module">
-    var topNav = document.getElementById("top-link").parentElement;
-    window.onscroll = function () {
-        topNav.hidden = document.documentElement.scrollTop <= 800 && document.body.scrollTop <= 800;
-    };
+    var topLink = document.getElementById("top-link");
+    var topNav = topLink.parentElement;
+    var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    var topShown = !topNav.hidden, topTimer, topReturning = false;
+
+    // Showing needs no JS: the settle animation plays when the nav stops
+    // being display: none. Hiding waits for the sink animation to finish.
+    function showTopLink(show) {
+        if (show === topShown) return;
+        topShown = show;
+        clearTimeout(topTimer);
+        if (show) {
+            topNav.classList.remove("top-leaving");
+            topNav.hidden = false;
+        } else if (reduceMotion.matches) {
+            topNav.hidden = true;
+        } else {
+            topNav.classList.add("top-leaving");
+            topTimer = setTimeout(function () {
+                topNav.hidden = true;
+                topNav.classList.remove("top-leaving");
+            }, 150);
+        }
+    }
+
+    function checkTopLink() {
+        if (topReturning) return;
+        showTopLink(document.documentElement.scrollTop > 800 || document.body.scrollTop > 800);
+    }
+
+    window.addEventListener("scroll", checkTopLink, { passive: true });
+
+    // After a click, stay until the smooth scroll lands so the ink can be
+    // seen draining. The timeout covers browsers without scrollend.
+    topLink.addEventListener("click", function () {
+        topReturning = true;
+        function landed() {
+            if (!topReturning) return;
+            topReturning = false;
+            checkTopLink();
+        }
+        window.addEventListener("scrollend", landed, { once: true });
+        setTimeout(landed, 1500);
+    });
 
 </script>
 {{- end }}

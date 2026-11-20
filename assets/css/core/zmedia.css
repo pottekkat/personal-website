@@ -41,9 +41,15 @@
     .terms-tags a:active,
     .button:active,
     .post-entry:active,
-    .top-link,
+    .top-link:hover .top-slip,
+    .top-link:active .top-slip,
     #searchResults .focus,
     #searchResults li:active {
         transform: none;
+    }
+
+    /* footer: the ink level stays, it only moves when the reader scrolls */
+    .top-slip {
+        animation: none;
     }
 }
