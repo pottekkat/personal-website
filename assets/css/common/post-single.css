@@ -80,6 +80,12 @@
     margin: 24px 0 16px;
 }
 
+/* Jumping to a heading or footnote leaves room above it instead of
+   pinning it to the top edge. Covers clicks and shared #links. */
+.post-content [id] {
+    scroll-margin-top: calc(var(--gap) * 2);
+}
+
 .post-content h1 {
     margin: 40px auto 32px;
     font-size: 30px;
