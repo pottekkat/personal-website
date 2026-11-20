@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-11-20T20:44:05+05:30",
+  "lastUpdated": "2026-11-20T20:51:45+05:30",
   "entries": [
+    {
+      "hash": "db5016e",
+      "date": "2026-11-20T20:49:24+05:30",
+      "message": "Updated title font to Grenze Gotisch Bold and adjusted styles."
+    },
+    {
+      "hash": "fa85b24",
+      "date": "2026-11-20T20:39:54+05:30",
+      "message": "Enhanced title accent styling and added font subsets for better rendering."
+    },
+    {
+      "hash": "fbc01cd",
+      "date": "2026-11-20T20:34:16+05:30",
+      "message": "Introduced a development-only font switcher for the title's accent word."
+    },
     {
       "hash": "d05d3c3",
       "date": "2026-11-20T19:57:29+05:30",
