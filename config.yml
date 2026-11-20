@@ -114,6 +114,8 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "The Open Source Absolutist"
+        # Word of the title set in the accent color (home_info.html).
+        TitleAccent: "Absolutist"
         Content: |
           I'm Navendu, and welcome to "The Open Source Absolutist," aka my brain dump.
 

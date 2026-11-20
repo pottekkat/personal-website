@@ -33,6 +33,16 @@
     -webkit-line-clamp: unset;
 }
 
+/* One word of the site title is set in the accent, like a rubric. */
+.home-info .title-accent {
+    color: var(--accent);
+}
+
+/* Links in the intro text carry the accent, like links in post copy. */
+.home-info .entry-content a {
+    color: var(--accent);
+}
+
 @media (hover: hover) {
     .home-info a:hover {
         color: var(--secondary);
@@ -177,6 +187,6 @@
 }
 
 .entry-cover a {
-    color: var(--secondary);
-    box-shadow: 0 1px 0 var(--primary);
+    color: var(--accent);
+    box-shadow: 0 1px 0;
 }

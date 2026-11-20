@@ -29,8 +29,11 @@
     display: block;
 }
 
+/* Menu links grey on hover; the handwritten logo stays ink. */
 @media (hover: hover) {
-    .nav a:hover {
+    #menu a:hover,
+    #menu a:hover .active,
+    .lang-switch a:hover {
         color: var(--secondary);
     }
 }
@@ -115,6 +118,7 @@ body:not(.dark) #sun {
 }
 
 #menu .active {
+    color: var(--accent);
     font-weight: 500;
     border-bottom: 2px solid currentColor;
 }

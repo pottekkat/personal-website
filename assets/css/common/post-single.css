@@ -22,6 +22,11 @@
     flex-wrap: wrap;
 }
 
+/* Text links in the meta line ("Suggest Changes") carry the accent. */
+.post-meta a {
+    color: var(--accent);
+}
+
 @media (hover: hover) {
     .post-meta a:hover {
         color: var(--secondary);
@@ -53,8 +58,9 @@
     margin-bottom: 20px;
 }
 
+/* Parent crumbs are links and carry the accent; the current page stays grey. */
 .breadcrumbs a {
-    color: var(--secondary);
+    color: var(--accent);
 }
 
 @media (hover: hover) {
@@ -114,6 +120,12 @@
     }
 }
 
+/* Unvisited links in body copy carry the accent; same-page anchors stay
+   ink for the same reason the visited rule below skips them. */
+.post-content a:not([href^="#"]) {
+    color: var(--accent);
+}
+
 /* Visited links in body copy turn purple, the way the web always marked
    them. Same-page anchors (footnotes, headings, TOC, code line numbers)
    are skipped: the page itself is in history, so they would all start
@@ -154,6 +166,11 @@
 .post-content ul ol,
 .post-content ul ul {
     margin-bottom: 0;
+}
+
+/* List bullets and numbers are rubric marks in the accent color. */
+.post-content li::marker {
+    color: var(--accent);
 }
 
 /* Hierarchical styling for nested ordered lists */
@@ -347,7 +364,7 @@
 .post-content blockquote {
     margin: 20px auto;
     padding: 14px 14px;
-    border-inline-start: 3px solid var(--secondary);
+    border-inline-start: 3px solid var(--accent);
     background-color: var(--code-bg);
     width: 90%;
 }
@@ -663,6 +680,10 @@ codapi-snippet codapi-toolbar button:after {
     margin-bottom: 16px;
     color: var(--secondary);
     font-size: 14px;
+}
+
+.last-run a {
+    color: var(--accent);
 }
 
 #canvas-wrapper>.nofill>div>svg>rect {
