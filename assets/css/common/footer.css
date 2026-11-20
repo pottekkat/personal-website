@@ -83,14 +83,11 @@
     left: 11px;
     width: 18px;
     height: 18px;
-    fill: none;
-    stroke: var(--primary);
-    stroke-width: 2;
-    stroke-linecap: square;
+    fill: var(--primary);
 }
 
 .top-ink .top-arrow {
-    stroke: var(--theme);
+    fill: var(--theme);
 }
 
 /* Without scroll timelines the ink is never clipped: a solid square. */
@@ -132,15 +129,15 @@
     }
 }
 
-/* High contrast modes drop backgrounds but not SVG strokes: without this
-   the ink layer's arrow would be drawn in the background colour. */
+/* High contrast modes drop backgrounds but not SVG fills: without this the
+   ink layer's arrow would be drawn in the background colour. */
 @media (forced-colors: active) {
     .top-ink {
         display: none;
     }
 
     .top-arrow {
-        stroke: LinkText;
+        fill: LinkText;
     }
 }
 
@@ -162,7 +159,7 @@
     }
 
     .top-link:hover .top-slip > .top-arrow {
-        stroke: var(--secondary);
+        fill: var(--secondary);
     }
 }
 
