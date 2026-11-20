@@ -20,7 +20,7 @@
 {{- /* Hidden until the page is scrolled, so an empty landmark isn't
    announced at the top of the page or without JavaScript. */}}
 <nav class="top-link-nav" aria-label="Back to top" hidden>
-    <a href="#top" class="top-link" id="top-link" accesskey="g" aria-label="Go to top" title="Go to Top (Alt + G)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z" /></svg></a>
+    <a href="#top" class="top-link" id="top-link" accesskey="g" aria-label="Go to top" title="Go to Top (Alt + G)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z" /></svg><span class="top-ink"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z" /></svg></span></a>
 </nav>
 {{- end }}
 
@@ -133,9 +133,21 @@
 {{- if (not site.Params.disableScrollToTop) }}
 <script type="module">
     var topNav = document.getElementById("top-link").parentElement;
-    window.onscroll = function () {
-        topNav.hidden = document.documentElement.scrollTop <= 800 && document.body.scrollTop <= 800;
-    };
+    var page = document.scrollingElement;
+    // One reading of the scroll position drives both whether the button shows
+    // and how much ink it holds, so the two can never disagree.
+    function checkTopLink() {
+        var y = page.scrollTop;
+        var range = page.scrollHeight - page.clientHeight;
+        topNav.hidden = y <= 800;
+        topNav.style.setProperty("--read", range > 0 ? Math.min(y / range, 1) : 0);
+    }
+    window.addEventListener("scroll", checkTopLink, { passive: true });
+    // Back/forward cache restores and prerendered pages skip the first run.
+    window.addEventListener("pageshow", checkTopLink);
+    // Images and embeds loading in change how far the page has left to go.
+    new ResizeObserver(checkTopLink).observe(document.body);
+    checkTopLink();
 
 </script>
 {{- end }}

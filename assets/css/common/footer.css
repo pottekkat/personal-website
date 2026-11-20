@@ -48,13 +48,23 @@
     bottom: 60px;
     right: 30px;
     z-index: 99;
-    /* Inverted so it stands out on cards and paper in both themes */
-    color: var(--theme);
-    background: var(--primary);
+    color: var(--primary);
+    background: var(--entry);
     width: 42px;
     height: 42px;
     padding: 12px;
     border-radius: 0;
+}
+
+/* Fills with ink from the bottom as the page is read. --read (0 to 1) is
+   set by the scroll script in footer.html. */
+.top-ink {
+    position: absolute;
+    inset: 0;
+    padding: 12px;
+    color: var(--theme);
+    background: var(--primary);
+    clip-path: inset(calc(100% - var(--read, 0) * 100%) 0 0 0);
 }
 
 /* reset.css gives nav display: block, which beats the browser's [hidden] */
@@ -73,6 +83,10 @@
     }
 
     .top-link:hover {
+        color: var(--secondary);
+    }
+
+    .top-link:hover .top-ink {
         background: var(--secondary);
     }
 }

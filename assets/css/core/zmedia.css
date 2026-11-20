@@ -41,7 +41,6 @@
     .terms-tags a:active,
     .button:active,
     .post-entry:active,
-    .top-link,
     #searchResults .focus,
     #searchResults li:active {
         transform: none;
