@@ -173,11 +173,17 @@
         waitForStop = function () {
             clearTimeout(landTimer);
             landTimer = setTimeout(function () {
-                window.removeEventListener("scroll", waitForStop, scrolls);
-                // Only wash what's on screen: Back restores where you were,
-                // which may not show the target.
+                // Only wash what's on screen. Off screen, keep listening: an
+                // iPhone can send the first scroll event of a jump later than
+                // 50ms, and that event restarts the wait. Half a second with
+                // no scroll means none is coming, like Back restoring a spot
+                // that doesn't show the target.
                 var r = text.getBoundingClientRect();
-                if (r.bottom <= 0 || r.top >= innerHeight) return;
+                if (r.bottom <= 0 || r.top >= innerHeight) {
+                    landTimer = setTimeout(unmark, 450);
+                    return;
+                }
+                window.removeEventListener("scroll", waitForStop, scrolls);
                 wash.add(text);
                 landTimer = setTimeout(unmark, 700);
             }, 50);
