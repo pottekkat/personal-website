@@ -129,8 +129,8 @@
                 history.replaceState(null, null, " ");
             } else {
                 history.pushState(null, null, `#${id}`);
-                markLanding(id);
             }
+            markLanding(target);
         });
     });
 
@@ -141,23 +141,24 @@
     var wash = window.Highlight && CSS.highlights && new Highlight();
     if (wash) CSS.highlights.set("landed", wash);
     var landTimer, waitForStop;
+    // Capture also hears scrolling inside a code block, which doesn't bubble.
+    var scrolls = { capture: true, passive: true };
     function unmark() {
         clearTimeout(landTimer);
-        window.removeEventListener("scroll", waitForStop);
-        wash.clear();
+        window.removeEventListener("scroll", waitForStop, scrolls);
+        if (wash) wash.clear();
     }
-    function markLanding(id) {
-        if (!wash) return;
-        var el;
-        try { el = document.getElementById(decodeURIComponent(id)); } catch (e) { return; }
+    function markLanding(el) {
+        // A new jump, #top included, cancels any wash still to come.
         unmark();
         // Nothing to show for targets outside the post or hidden, like a
         // code line in a closed tab.
-        if (!el || !el.closest(".post-content") || !el.getClientRects().length) return;
-        // A code line number marks its whole line. Any other inline target,
-        // like a footnote reference, marks the block holding it.
-        if (el.matches(".chroma .ln")) el = el.closest(".line");
-        while (el.parentElement && getComputedStyle(el).display.startsWith("inline")) el = el.parentElement;
+        if (!wash || !el.closest(".post-content") || !el.getClientRects().length) return;
+        // A code line number marks its line's code, not the number. Any
+        // other inline target, like a footnote reference, marks the block
+        // holding it.
+        if (el.matches(".chroma .ln")) el = el.parentElement.querySelector(".cl") || el;
+        else while (el.parentElement && getComputedStyle(el).display.startsWith("inline")) el = el.parentElement;
         var text = document.createRange();
         text.selectNodeContents(el);
         // Every scroll event restarts the wait; 50ms (three frames) without
@@ -165,15 +166,19 @@
         waitForStop = function () {
             clearTimeout(landTimer);
             landTimer = setTimeout(function () {
-                window.removeEventListener("scroll", waitForStop);
+                window.removeEventListener("scroll", waitForStop, scrolls);
                 wash.add(text);
                 landTimer = setTimeout(unmark, 700);
             }, 50);
         };
-        window.addEventListener("scroll", waitForStop, { passive: true });
+        window.addEventListener("scroll", waitForStop, scrolls);
         waitForStop();
     }
-    if (location.hash) markLanding(location.hash.slice(1));
+    if (location.hash) {
+        var landing;
+        try { landing = document.getElementById(decodeURIComponent(location.hash.slice(1))); } catch (e) { }
+        if (landing) markLanding(landing);
+    }
 
 </script>
 
