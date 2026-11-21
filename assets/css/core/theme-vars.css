@@ -7,6 +7,10 @@
     --footer-height: 60px;
     --radius: 0;
     --theme: rgb(255, 255, 255);
+    /* The page behind the content: --theme warmed a little. A plain color,
+       because iOS 17 can't read a relative one and would drop the whole
+       background, image included. */
+    --paper: rgb(252, 243, 234);
     --content-background-color: rgba(255, 255, 255, .95);
     --entry: rgb(248, 244, 239);
     --primary: rgba(30, 30, 30, 0.87);
@@ -64,7 +68,7 @@
 } */
 
 .list {
-    background: var(--background-image), rgb(from var(--theme) calc(r/1.01) calc(g/1.05) calc(b/1.09));
+    background: var(--background-image), var(--paper);
 }
 
 .dark.list {
