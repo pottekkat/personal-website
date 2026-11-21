@@ -86,6 +86,13 @@
     scroll-margin-top: calc(var(--gap) * 2);
 }
 
+/* The text a #link landed on, washed briefly by the script in footer.html.
+   The same accent wash as a selection (theme-vars.css), but text keeps
+   its own color so code stays highlighted. */
+::highlight(landed) {
+    background: rgb(from var(--accent) r g b / 0.25);
+}
+
 .post-content h1 {
     margin: 40px auto 32px;
     font-size: 30px;

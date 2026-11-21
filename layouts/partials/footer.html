@@ -111,22 +111,90 @@
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener("click", function (e) {
-            e.preventDefault();
             var id = this.getAttribute("href").substr(1);
+            var target = byId(id);
+            // Links with no target on the page (codapi's #edit and #close,
+            // a bare #) belong to their own scripts. A bare # goes to the
+            // top, so a wash still to come is dropped.
+            if (!target) {
+                if (!id) unmark();
+                return;
+            }
+            e.preventDefault();
             if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                target.scrollIntoView({
                     behavior: "smooth"
                 });
             } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+                target.scrollIntoView();
             }
             if (id === "top") {
                 history.replaceState(null, null, " ");
             } else {
                 history.pushState(null, null, `#${id}`);
             }
+            markLanding(target);
         });
     });
+
+    function byId(id) {
+        try { return id && document.getElementById(decodeURIComponent(id)); } catch (e) { }
+    }
+
+    // Briefly washes the text a #link landed on, so the eye finds it. It
+    // shows once the scroll stops, holds briefly, and goes, all instantly.
+    // A CSS highlight paints line by line like a selection and never
+    // touches layout; browsers without one simply skip the wash.
+    var wash = window.Highlight && CSS.highlights && new Highlight();
+    if (wash) CSS.highlights.set("landed", wash);
+    var landTimer, waitForStop;
+    // Capture also hears scrolling inside a code block, which doesn't bubble.
+    var scrolls = { capture: true, passive: true };
+    function unmark() {
+        clearTimeout(landTimer);
+        window.removeEventListener("scroll", waitForStop, scrolls);
+        if (wash) wash.clear();
+    }
+    function markLanding(el) {
+        // A new jump, #top included, cancels any wash still to come.
+        unmark();
+        // Nothing to show for targets outside the post or hidden, like a
+        // code line in a closed tab.
+        if (!wash || !el.closest(".post-content") || !el.getClientRects().length) return;
+        // A code line number marks its line's code, not the number. Any
+        // other inline target, like a footnote reference, marks the block
+        // holding it.
+        if (el.matches(".chroma .ln")) el = el.parentElement.querySelector(".cl") || el;
+        else while (el.parentElement && getComputedStyle(el).display.startsWith("inline")) el = el.parentElement;
+        var text = document.createRange();
+        text.selectNodeContents(el);
+        // Every scroll event restarts the wait; 50ms (three frames) without
+        // one means the smooth scroll has arrived.
+        waitForStop = function () {
+            clearTimeout(landTimer);
+            landTimer = setTimeout(function () {
+                window.removeEventListener("scroll", waitForStop, scrolls);
+                // Only wash what's on screen: Back restores where you were,
+                // which may not show the target.
+                var r = text.getBoundingClientRect();
+                if (r.bottom <= 0 || r.top >= innerHeight) return;
+                wash.add(text);
+                landTimer = setTimeout(unmark, 700);
+            }, 50);
+        };
+        window.addEventListener("scroll", waitForStop, scrolls);
+        waitForStop();
+    }
+    // Landing from another page, from Back or Forward, or from a hash
+    // typed into the address bar. A link click on this page pushes its own
+    // hash, which fires no hashchange, so it calls markLanding itself.
+    function landOnHash() {
+        var target = byId(location.hash.slice(1));
+        if (target) markLanding(target);
+        else unmark();
+    }
+    window.addEventListener("hashchange", landOnHash);
+    landOnHash();
 
 </script>
 
