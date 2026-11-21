@@ -130,7 +130,7 @@
     });
 
     // Briefly washes what a #link landed on, so the eye finds it. It shows
-    // once the scroll stops, holds for a second, and goes, all instantly.
+    // once the scroll stops, holds briefly, and goes, all instantly.
     var landed, landTimer, waitForStop;
     function markLanding(id) {
         var el = document.getElementById(decodeURIComponent(id));
@@ -142,15 +142,15 @@
         if (landed) landed.classList.remove("landed");
         window.removeEventListener("scroll", waitForStop);
         landed = el;
-        // Every scroll event restarts the wait; 150ms without one means the
-        // smooth scroll has arrived.
+        // Every scroll event restarts the wait; 50ms (three frames) without
+        // one means the smooth scroll has arrived.
         waitForStop = function () {
             clearTimeout(landTimer);
             landTimer = setTimeout(function () {
                 window.removeEventListener("scroll", waitForStop);
                 el.classList.add("landed");
-                landTimer = setTimeout(function () { el.classList.remove("landed"); }, 1000);
-            }, 150);
+                landTimer = setTimeout(function () { el.classList.remove("landed"); }, 700);
+            }, 50);
         };
         window.addEventListener("scroll", waitForStop, { passive: true });
         waitForStop();

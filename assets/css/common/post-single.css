@@ -87,10 +87,12 @@
 }
 
 /* An accent wash on what a #link landed on, like the selection wash
-   (theme-vars.css), added for a second by the script in footer.html. */
+   (theme-vars.css), added briefly by the script in footer.html. */
 .post-content .landed {
     position: relative;
     isolation: isolate;
+    /* Hugs the text instead of spanning the column. */
+    width: fit-content;
 }
 
 .post-content .landed::before {
