@@ -34,12 +34,14 @@
 }
 
 /* One word of the site title is set in the accent and in blackletter, like a
-   rubric. line-height: 1 keeps the blackletter's taller line box from making
-   the title 1px taller. */
+   rubric. The blackletter is narrower and lighter than the title's face, so
+   it is set 15% larger to read as the same size. line-height: 0 keeps its
+   taller line box from making the title taller. */
 .home-info .title-accent {
     font-family: 'Grenze Gotisch', 'Schibsted Grotesk', sans-serif;
+    font-size: 1.15em;
     font-weight: 700;
-    line-height: 1;
+    line-height: 0;
     color: var(--accent);
 }
 
