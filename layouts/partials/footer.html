@@ -128,10 +128,11 @@
             // is the target's own. A paragraph so tall that the reference
             // would sit in its lower half lands on the reference instead.
             var block = target.closest(".post-content") && !target.matches(".chroma .ln") && blockOf(target);
+            var room = parseFloat(getComputedStyle(target).scrollMarginTop) || 0;
             var above = block && target.getBoundingClientRect().top - block.getBoundingClientRect().top;
-            if (block && block !== target && above < innerHeight / 2) {
+            if (block && block !== target && room + above < innerHeight / 2) {
                 window.scrollBy({
-                    top: block.getBoundingClientRect().top - parseFloat(getComputedStyle(target).scrollMarginTop || 0),
+                    top: block.getBoundingClientRect().top - room,
                     behavior: behavior
                 });
             } else {
