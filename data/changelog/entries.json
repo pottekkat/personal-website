@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-11-21T16:18:19+05:30",
+  "lastUpdated": "2026-11-21T17:54:36+05:30",
   "entries": [
+    {
+      "hash": "9adb53a",
+      "date": "2026-11-21T17:54:07+05:30",
+      "message": "Updated footer to display landing wash during late scroll on mobile."
+    },
     {
       "hash": "e49c731",
       "date": "2026-11-21T16:17:50+05:30",
