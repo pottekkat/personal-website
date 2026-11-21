@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T18:46:23.592314",
+  "lastUpdated": "2026-11-21T17:45:55.890822",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Quoting Levent Alp\u00f6ge",
-      "postUrl": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
-      "publishDate": "2026-11-20T16:30:48+00:00"
+      "postTitle": "Quoting Ravi Vakil",
+      "postUrl": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+      "publishDate": "2026-11-20T19:21:49+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -130,9 +130,9 @@
     {
       "blogTitle": "Anton Zhiyanov",
       "blogUrl": "https://antonz.org/",
-      "postTitle": "Probabilistic data structures in Go",
-      "postUrl": "https://antonz.org/probabilistic-data-structures/",
-      "publishDate": "Fri, 13 Nov 2026 15:00:00 +0000"
+      "postTitle": "Probabilistic data structures in Go, part 2",
+      "postUrl": "https://antonz.org/probabilistic-data-structures-2/",
+      "publishDate": "Sat, 21 Nov 2026 12:30:00 +0000"
     },
     {
       "blogTitle": "Andrew's Blog",
