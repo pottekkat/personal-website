@@ -88,9 +88,11 @@
 
 /* The text a #link landed on, washed briefly by the script in footer.html.
    The same accent wash as a selection (theme-vars.css), but text keeps
-   its own color so code stays highlighted. */
+   its own color so code stays highlighted. color-mix, not the relative
+   rgb(from ...) of the selection: iOS 17 has highlights but not relative
+   colors, and with var() inside, a color it can't read paints nothing. */
 ::highlight(landed) {
-    background: rgb(from var(--accent) r g b / 0.25);
+    background: color-mix(in srgb, var(--accent) 25%, transparent);
 }
 
 .post-content h1 {
