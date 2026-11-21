@@ -121,12 +121,21 @@
                 return;
             }
             e.preventDefault();
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                target.scrollIntoView({
-                    behavior: "smooth"
+            var behavior = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? "auto" : "smooth";
+            // An inline target in a post, like the footnote reference a
+            // footnote's return link goes to, lands on the start of its
+            // paragraph, so the sentence reads from the top. The room above
+            // is the target's own. A paragraph so tall that the reference
+            // would sit in its lower half lands on the reference instead.
+            var block = target.closest(".post-content") && !target.matches(".chroma .ln") && blockOf(target);
+            var above = block && target.getBoundingClientRect().top - block.getBoundingClientRect().top;
+            if (block && block !== target && above < innerHeight / 2) {
+                window.scrollBy({
+                    top: block.getBoundingClientRect().top - parseFloat(getComputedStyle(target).scrollMarginTop || 0),
+                    behavior: behavior
                 });
             } else {
-                target.scrollIntoView();
+                target.scrollIntoView({ behavior: behavior });
             }
             if (id === "top") {
                 history.replaceState(null, null, " ");
@@ -136,6 +145,13 @@
             markLanding(target);
         });
     });
+
+    // The block an inline target sits in, like the paragraph holding a
+    // footnote reference.
+    function blockOf(el) {
+        while (el.parentElement && getComputedStyle(el).display.startsWith("inline")) el = el.parentElement;
+        return el;
+    }
 
     function byId(id) {
         try { return id && document.getElementById(decodeURIComponent(id)); } catch (e) { }
@@ -165,7 +181,7 @@
         // other inline target, like a footnote reference, marks the block
         // holding it.
         if (el.matches(".chroma .ln")) el = el.parentElement.querySelector(".cl") || el;
-        else while (el.parentElement && getComputedStyle(el).display.startsWith("inline")) el = el.parentElement;
+        else el = blockOf(el);
         var text = document.createRange();
         text.selectNodeContents(el);
         // Every scroll event restarts the wait; 50ms (three frames) without
