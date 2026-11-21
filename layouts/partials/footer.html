@@ -111,14 +111,19 @@
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener("click", function (e) {
-            e.preventDefault();
             var id = this.getAttribute("href").substr(1);
+            var target;
+            try { target = document.getElementById(decodeURIComponent(id)); } catch (err) { }
+            // Links with no target on the page (codapi's #edit and #close,
+            // a bare #) belong to their own scripts.
+            if (!target) return;
+            e.preventDefault();
             if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                target.scrollIntoView({
                     behavior: "smooth"
                 });
             } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+                target.scrollIntoView();
             }
             if (id === "top") {
                 history.replaceState(null, null, " ");
@@ -129,33 +134,40 @@
         });
     });
 
-    // Briefly washes what a #link landed on, so the eye finds it. It shows
-    // once the scroll stops, holds briefly, and goes, all instantly.
-    var landed, landTimer, waitForStop;
-    function markLanding(id) {
-        var el = document.getElementById(decodeURIComponent(id));
-        if (!el || !el.closest(".post-content")) return;
-        // Code line numbers mark their whole line; inline targets like a
-        // footnote reference mark the paragraph or item holding them.
-        if (el.matches(".chroma .ln")) el = el.closest(".line");
-        else if (getComputedStyle(el).display.startsWith("inline")) el = el.closest("p, li, blockquote") || el;
-        if (landed) landed.classList.remove("landed");
+    // Briefly washes the text a #link landed on, so the eye finds it. It
+    // shows once the scroll stops, holds briefly, and goes, all instantly.
+    // A CSS highlight paints line by line like a selection and never
+    // touches layout; browsers without one simply skip the wash.
+    var wash = window.Highlight && CSS.highlights && new Highlight();
+    if (wash) CSS.highlights.set("landed", wash);
+    var landTimer, waitForStop;
+    function unmark() {
+        clearTimeout(landTimer);
         window.removeEventListener("scroll", waitForStop);
-        landed = el;
+        wash.clear();
+    }
+    function markLanding(id) {
+        if (!wash) return;
+        var el;
+        try { el = document.getElementById(decodeURIComponent(id)); } catch (e) { return; }
+        unmark();
+        // Nothing to show for targets outside the post or hidden, like a
+        // code line in a closed tab.
+        if (!el || !el.closest(".post-content") || !el.getClientRects().length) return;
+        // A code line number marks its whole line. Any other inline target,
+        // like a footnote reference, marks the block holding it.
+        if (el.matches(".chroma .ln")) el = el.closest(".line");
+        while (el.parentElement && getComputedStyle(el).display.startsWith("inline")) el = el.parentElement;
+        var text = document.createRange();
+        text.selectNodeContents(el);
         // Every scroll event restarts the wait; 50ms (three frames) without
         // one means the smooth scroll has arrived.
         waitForStop = function () {
             clearTimeout(landTimer);
             landTimer = setTimeout(function () {
                 window.removeEventListener("scroll", waitForStop);
-                // The wash covers the text itself, not the whole column.
-                var text = document.createRange();
-                text.selectNodeContents(el);
-                var t = text.getBoundingClientRect(), box = el.getBoundingClientRect();
-                el.style.setProperty("--wash-left", t.left - box.left + "px");
-                el.style.setProperty("--wash-width", t.width + "px");
-                el.classList.add("landed");
-                landTimer = setTimeout(function () { el.classList.remove("landed"); }, 700);
+                wash.add(text);
+                landTimer = setTimeout(unmark, 700);
             }, 50);
         };
         window.addEventListener("scroll", waitForStop, { passive: true });

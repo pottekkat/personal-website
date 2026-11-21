@@ -86,33 +86,11 @@
     scroll-margin-top: calc(var(--gap) * 2);
 }
 
-/* An accent wash on what a #link landed on, like the selection wash
-   (theme-vars.css), added briefly by the script in footer.html. */
-.post-content .landed {
-    position: relative;
-    isolation: isolate;
-}
-
-/* Sized to the text, not the column: the script measures the text and
-   sets --wash-left and --wash-width. The element's own box is untouched,
-   so nothing moves. */
-.post-content .landed::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: -4px;
-    bottom: -4px;
-    left: calc(var(--wash-left) - 10px);
-    width: calc(var(--wash-width) + 20px);
+/* The text a #link landed on, washed briefly by the script in footer.html.
+   The same accent wash as a selection (theme-vars.css), but text keeps
+   its own color so code stays highlighted. */
+::highlight(landed) {
     background: rgb(from var(--accent) r g b / 0.25);
-}
-
-/* A code line washes flush with its text, top to bottom. */
-.post-content .chroma .landed::before {
-    top: 0;
-    bottom: 0;
-    left: var(--wash-left);
-    width: var(--wash-width);
 }
 
 .post-content h1 {
