@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-11-21T17:54:36+05:30",
+  "lastUpdated": "2026-11-21T20:29:46+05:30",
   "entries": [
+    {
+      "hash": "fff85d5",
+      "date": "2026-11-21T20:29:11+05:30",
+      "message": "Updated footnote link to return at the start of its paragraph."
+    },
     {
       "hash": "9adb53a",
       "date": "2026-11-21T17:54:07+05:30",
