@@ -148,6 +148,12 @@
             clearTimeout(landTimer);
             landTimer = setTimeout(function () {
                 window.removeEventListener("scroll", waitForStop);
+                // The wash covers the text itself, not the whole column.
+                var text = document.createRange();
+                text.selectNodeContents(el);
+                var t = text.getBoundingClientRect(), box = el.getBoundingClientRect();
+                el.style.setProperty("--wash-left", t.left - box.left + "px");
+                el.style.setProperty("--wash-width", t.width + "px");
                 el.classList.add("landed");
                 landTimer = setTimeout(function () { el.classList.remove("landed"); }, 700);
             }, 50);

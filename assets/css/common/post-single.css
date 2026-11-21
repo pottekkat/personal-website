@@ -91,21 +91,28 @@
 .post-content .landed {
     position: relative;
     isolation: isolate;
-    /* Hugs the text instead of spanning the column. */
-    width: fit-content;
 }
 
+/* Sized to the text, not the column: the script measures the text and
+   sets --wash-left and --wash-width. The element's own box is untouched,
+   so nothing moves. */
 .post-content .landed::before {
     content: "";
     position: absolute;
     z-index: -1;
-    inset: -4px -10px;
+    top: -4px;
+    bottom: -4px;
+    left: calc(var(--wash-left) - 10px);
+    width: calc(var(--wash-width) + 20px);
     background: rgb(from var(--accent) r g b / 0.25);
 }
 
-/* A code line washes edge to edge inside its block. */
+/* A code line washes flush with its text, top to bottom. */
 .post-content .chroma .landed::before {
-    inset: 0;
+    top: 0;
+    bottom: 0;
+    left: var(--wash-left);
+    width: var(--wash-width);
 }
 
 .post-content h1 {
