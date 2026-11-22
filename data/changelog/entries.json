@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-11-22T15:19:24+05:30",
+  "lastUpdated": "2026-11-22T16:08:01+05:30",
   "entries": [
+    {
+      "hash": "8197a39",
+      "date": "2026-11-22T16:07:24+05:30",
+      "message": "Updated Hugo APIs to remove deprecated functions."
+    },
     {
       "hash": "4383bd7",
       "date": "2026-11-22T15:18:40+05:30",
