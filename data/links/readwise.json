@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-11-21T23:15:31.725882+05:30",
+  "last_updated": "2026-11-22T23:30:24.509324+05:30",
   "links": [
+    {
+      "id": "01m81cfxbfv0sykn4hv4zg9j93",
+      "title": "The Claude Delusion",
+      "author": "netmeister.org",
+      "source_url": "https://www.netmeister.org/blog/claude-delusion.html",
+      "published_date": "2026-11-13",
+      "saved_at": "2026-11-22T15:53:08.654000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": "While this is an extreme take, I do agree with the direction of the take. This should come as a warning sign for this generation's ambitious nerds. You should be ambitious, you should be delusional but you should also be humble to acknowledge your gaps in knowledge."
+    },
+    {
+      "id": "01m81by39yks3sd6jazq5pks6d",
+      "title": "Since last year, we asked: “What if AI solved the Riemann Hypothesis?”",
+      "author": "3Blue1Brown",
+      "source_url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+      "published_date": "2026-11-21",
+      "saved_at": "2026-11-22T15:43:24.925000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m81b1yp0v60cqt38msbfhqp4",
+      "title": "How a Group of Interns Became Billionaires",
+      "author": "Newsthink",
+      "source_url": "https://www.youtube.com/watch?v=mIq16gw7kQ4",
+      "published_date": "2026-11-21",
+      "saved_at": "2026-11-22T15:28:02.687000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m819kp3mwp7xyz1szba6nbkz",
+      "title": "The Sweet Side of the Bitter Lesson — Thariq Shihipar, Independent",
+      "author": "AI Engineer",
+      "source_url": "https://www.youtube.com/watch?v=xRJMiaUoD_8",
+      "published_date": "2026-11-19",
+      "saved_at": "2026-11-22T15:02:46.580000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m7zn5a94yfgcv77d813agweg",
+      "title": "Randomness is a lie. Let me explain",
+      "author": "Veritasium",
+      "source_url": "https://www.youtube.com/watch?v=uXuQF_PPg5U",
+      "published_date": "2026-11-18",
+      "saved_at": "2026-11-21T23:46:09.763000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01m7wsxh11mt3wy09nbbj34p5e",
       "title": "Anthropic mathematician claims to prove Riemann hypothesis, most famous problem in all of math",
