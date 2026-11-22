@@ -1,6 +1,4 @@
-{{- /* Ink on the same paper as the frame around it (--content on --entry,
-       light theme), so the code and its border read as one card. */}}
-{{ $opts := dict "level" "medium" "scale" 4 "fgColor" "#1f1f1f" "bgColor" "#f8f4ef" }}
+{{ $opts := dict "level" "medium" "scale" 4 }}
 {{ with images.QR .Permalink $opts }}
 <details class="qr-code-details">
   <summary>
