@@ -14,10 +14,10 @@
 {{- errorf "the \"tab\" shortcode must be used inside a \"tabs\" shortcode (%s)" .Position -}}
 {{- else -}}
 {{- $gid := printf "tabs-%d" .Parent.Ordinal -}}
-{{- $i := int (.Parent.Scratch.Get "count" | default 0) -}}
+{{- $i := int (.Parent.Store.Get "count" | default 0) -}}
 {{- $id := printf "%s-%d" $gid $i -}}
-{{- .Parent.Scratch.Add "tabs" (slice (dict "name" $name "id" $id)) -}}
-{{- .Parent.Scratch.Set "count" (add $i 1) -}}
+{{- .Parent.Store.Add "tabs" (slice (dict "name" $name "id" $id)) -}}
+{{- .Parent.Store.Set "count" (add $i 1) -}}
 <div id="{{ $id }}" class="tabs__panel{{ if eq $i 0 }} is-active{{ end }}" role="tabpanel" aria-labelledby="{{ $id }}-tab"{{ if ne $i 0 }} hidden{{ end }}>
 
 {{ .Inner }}

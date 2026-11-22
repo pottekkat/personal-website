@@ -32,7 +32,7 @@
   container, so an outer group would also capture the inner group's tabs.
 */ -}}
 {{- $inner := .Inner -}}{{/* evaluate children first so they populate the scratch */}}
-{{- $tabs := .Scratch.Get "tabs" -}}
+{{- $tabs := .Store.Get "tabs" -}}
 <div class="tabs" data-tabs>
   <div class="tabs__nav" role="tablist" aria-orientation="horizontal" aria-label="Tabs">
     {{- range $i, $t := $tabs -}}

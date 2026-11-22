@@ -2,7 +2,7 @@
 {{- $title := .Title }}
 {{- if not $title }}{{ $title = .Content | plainify | htmlUnescape | strings.TrimSpace | truncate 60 }}{{ end }}
 <meta property="og:title" content="{{ $title }}" />
-<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ if or .IsPage .Params.summary }}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ if or .IsPage .RawSummary }}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 {{- with partial "templates/share_image.html" . }}

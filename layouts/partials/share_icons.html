@@ -1,12 +1,12 @@
 {{- $pageurl := .Permalink }}
 {{- $title := .Title }}
 
-{{- $.Scratch.Set "tags" ""}}
+{{- $.Store.Set "tags" ""}}
 
 {{- with .Params.Tags }}
 {{- $hashtags := newScratch}}
 {{- range . }}{{ $hashtags.Add "tags" (slice (replaceRE "(\\s)" "" . ))}}{{end}}
-{{- $.Scratch.Set "tags" (delimit ($hashtags.Get "tags") ",") }}
+{{- $.Store.Set "tags" (delimit ($hashtags.Get "tags") ",") }}
 {{- end -}}
 
 {{- $custom := false }}
@@ -14,7 +14,7 @@
 {{- with $ShareButtons }}{{ $custom = true }}{{ end }}
 
 <div class="share-buttons">
-    {{- if (cond ($custom) (in $ShareButtons "twitter") (true)) }}<a target="_blank" rel="noopener noreferrer" aria-label="share {{ $title | plainify }} on twitter" href="https://twitter.com/intent/tweet/?text={{ $title }}&amp;url={{ $pageurl }}&amp;hashtags={{- $.Scratch.Get "tags" -}}"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 48 512 415.9" height="28px" width="28px"><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"></path></svg></a>{{- end }}
+    {{- if (cond ($custom) (in $ShareButtons "twitter") (true)) }}<a target="_blank" rel="noopener noreferrer" aria-label="share {{ $title | plainify }} on twitter" href="https://twitter.com/intent/tweet/?text={{ $title }}&amp;url={{ $pageurl }}&amp;hashtags={{- $.Store.Get "tags" -}}"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 48 512 415.9" height="28px" width="28px"><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"></path></svg></a>{{- end }}
     {{- if (cond ($custom) (in $ShareButtons "linkedin") (true)) }}<a target="_blank" rel="noopener noreferrer" aria-label="share {{ $title | plainify }} on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ $pageurl }}&amp;title={{ $title }}&amp;summary={{ $title }}&amp;source={{ $pageurl }}"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0.02 448 447.98" height="28px" width="28px"><path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3M447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"></path></svg></a>{{- end }}
     {{- if (cond ($custom) (in $ShareButtons "reddit") (true)) }}<a target="_blank" rel="noopener noreferrer" aria-label="share {{ $title | plainify }} on reddit" href="https://reddit.com/submit?url={{ $pageurl }}&title={{ $title }}"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 32 512 447.8" height="28px" width="28px"><path d="M373 138.6c-25.2 0-46.3-17.5-51.9-41-30.6 4.3-54.2 30.7-54.2 62.4v.2c47.4 1.8 90.6 15.1 124.9 36.3 12.6-9.7 28.4-15.5 45.5-15.5 41.3 0 74.7 33.4 74.7 74.7 0 29.8-17.4 55.5-42.7 67.5-2.4 86.8-97 156.6-213.2 156.6S45.5 410.1 43 323.4c-25.4-11.9-43-37.7-43-67.7C0 214.4 33.4 181 74.7 181c17.2 0 33 5.8 45.7 15.6 34-21.1 76.8-34.4 123.7-36.4v-.3c0-44.3 33.7-80.9 76.8-85.5C325.8 50.2 347.2 32 373 32c29.4 0 53.3 23.9 53.3 53.3s-23.9 53.3-53.3 53.3M157.5 255.3c-20.9 0-38.9 20.8-40.2 47.9s17.1 38.1 38 38.1 36.6-9.8 37.8-36.9-14.7-49.1-35.7-49.1zM395 303.1c-1.2-27.1-19.2-47.9-40.2-47.9s-36.9 22-35.7 49.1 16.9 36.9 37.8 36.9 39.3-11 38-38.1zm-60.1 70.8c1.5-3.6-1-7.7-4.9-8.1-23-2.3-47.9-3.6-73.8-3.6s-50.8 1.3-73.8 3.6c-3.9.4-6.4 4.5-4.9 8.1 12.9 30.8 43.3 52.4 78.7 52.4s65.8-21.6 78.7-52.4"></path></svg></a>{{- end }}
     <!-- {{- if (cond ($custom) (in $ShareButtons "ycombinator") (true)) }}

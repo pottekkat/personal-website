@@ -11,7 +11,7 @@
 {{- $href := .Permalink }}
 {{- if eq .Lang $p.Lang }}{{ $href = $self }}{{ end }}
 <link rel="alternate" hreflang="{{ .Lang }}" href="{{ $href }}">
-{{- if eq .Lang hugo.Sites.Default.Language.Lang }}
+{{- if eq .Lang hugo.Sites.Default.Language.Name }}
 <link rel="alternate" hreflang="x-default" href="{{ $href }}">
 {{- end }}
 {{- end }}

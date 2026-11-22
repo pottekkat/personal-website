@@ -136,7 +136,7 @@
       "@type" "BlogPosting"
       "description" (.Description | default .Summary | plainify | htmlUnescape | strings.TrimSpace)
       "wordCount" .WordCount
-      "inLanguage" (.Language.Lang | default "en-us")
+      "inLanguage" (.Language.Name | default "en-us")
       "datePublished" (.PublishDate.Format $rfc3339)
       "dateModified" (.Lastmod.Format $rfc3339)
       "author" $authors
@@ -148,7 +148,7 @@
 {{- with $page_name }}
   {{- $post = merge $post (dict "headline" . "name" .) }}
 {{- end }}
-{{- with .Params.keywords | default .Params.tags }}
+{{- with .Keywords | default .Params.tags }}
   {{- $post = merge $post (dict "keywords" .) }}
 {{- end }}
 {{- /* The site's default share image doesn't show what the article is about. */}}

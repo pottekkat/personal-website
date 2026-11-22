@@ -7,7 +7,7 @@
       {{- .Title }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
     </h1>
-    {{- with .Params.summary }}
+    {{- with .RawSummary }}
     <div class="post-description">
       {{ . }}
     </div>
