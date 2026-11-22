@@ -5,7 +5,7 @@
 # Deploy previews are built by Netlify itself (see [context.deploy-preview]),
 # so the version has to be pinned here too; it matches .github/workflows.
 [build.environment]
-  HUGO_VERSION = "0.154.5"
+  HUGO_VERSION = "0.170.1"
 
 [[plugins]]
   package = "netlify-plugin-cache"

@@ -24,8 +24,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.154.5'
-          # extended: true
+          hugo-version: '0.170.1'
 
       - name: Cache processed images
         uses: actions/cache@v4
@@ -36,9 +35,9 @@ jobs:
           # template that processes it changes. (This build has no `--gc`, so
           # stale variants are pruned only when the key rotates.)
           path: resources
-          key: hugo-resources-${{ runner.os }}-0.154.5-${{ hashFiles('static/images/**', 'assets/images/**', 'layouts/partials/responsive-image.html') }}
+          key: hugo-resources-${{ runner.os }}-0.170.1-${{ hashFiles('static/images/**', 'assets/images/**', 'layouts/partials/responsive-image.html') }}
           restore-keys: |
-            hugo-resources-${{ runner.os }}-0.154.5-
+            hugo-resources-${{ runner.os }}-0.170.1-
 
       - name: Build
         run: hugo --minify

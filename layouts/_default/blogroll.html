@@ -1,6 +1,6 @@
 {{- define "main" }}
 
-{{ $lastUpdated := .Site.Data.blogroll.latest.lastUpdated }}
+{{ $lastUpdated := hugo.Data.blogroll.latest.lastUpdated }}
 {{ $t := time $lastUpdated }}
 {{ $day := humanize $t.Day }}
 {{ $monthYear := $t.Format "January 2006" }}

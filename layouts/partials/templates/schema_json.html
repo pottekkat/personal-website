@@ -37,7 +37,7 @@
       "name" site.Params.title
       "alternateName" site.Params.homeInfoParams.Title
       "description" (site.Params.description | plainify | htmlUnescape)
-      "inLanguage" site.Language.LanguageCode
+      "inLanguage" site.Language.Locale
       "publisher" (dict "@id" $personID) }}
 <script type="application/ld+json">
 {{ dict "@context" "https://schema.org" "@graph" (slice $website $person) | jsonify | safeJS }}

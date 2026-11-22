@@ -61,8 +61,8 @@
          this leaves it lying on its side. Only pay for the extra decode on
          the images that actually claim a rotation. */ -}}
   {{- $orientation := 1 -}}
-  {{- with $res.Exif -}}
-    {{- with index .Tags "Orientation" -}}{{- $orientation = . -}}{{- end -}}
+  {{- if reflect.IsImageResourceWithMeta $res -}}
+    {{- with $res.Meta.Orientation -}}{{- $orientation = . -}}{{- end -}}
   {{- end -}}
   {{- if gt $orientation 1 -}}
     {{- $res = $res.Filter images.AutoOrient -}}

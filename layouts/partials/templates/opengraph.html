@@ -23,8 +23,8 @@
 {{- end -}}
 
 {{- with .Params.audio }}<meta property="og:audio" content="{{ . }}" />{{ end }}
-{{- /* Open Graph wants language_TERRITORY (en_US), not the en-us of languageCode. */}}
-{{- with .Params.locale | default site.Language.LanguageCode }}
+{{- /* Open Graph wants language_TERRITORY (en_US), not the en-us of locale. */}}
+{{- with .Params.locale | default site.Language.Locale }}
 {{- $locale := . }}
 {{- $parts := split (replace . "_" "-") "-" }}
 {{- if eq (len $parts) 2 }}

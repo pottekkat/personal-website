@@ -1,5 +1,5 @@
 {{- $limit := .Get "limit" | default 10 -}}
-{{- $entries := .Site.Data.changelog.entries.entries -}}
+{{- $entries := hugo.Data.changelog.entries.entries -}}
 
 {{- if $entries -}}
 <ul>

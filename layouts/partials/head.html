@@ -58,9 +58,7 @@
 {{- $img := resources.Get site.Params.label.icon }}
 {{- if $img }}
     {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
-    {{- if hugo.IsExtended -}}
-        {{- $processableFormats = $processableFormats | append "webp" -}}
-    {{- end -}}
+    {{- $processableFormats = $processableFormats | append "webp" -}}
     {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
     {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true) }}
         {{- $img1x := $img }}
@@ -172,7 +170,7 @@
 {{- end }}
 
 {{- /* Search */}}
-{{- if or (eq .Layout `search`) (eq .Layout `archives`) (and (eq .Type `books`) .IsNode) (and (eq .Type `dailies`) .IsNode) (and (eq .Type `newsletters`) .IsNode) (and (eq .Type `tils`) .IsNode) (and (eq .Type `notes`) .IsNode) -}}
+{{- if or (eq .Layout `search`) (eq .Layout `archives`) (and (eq .Type `books`) (not .IsPage)) (and (eq .Type `dailies`) (not .IsPage)) (and (eq .Type `newsletters`) (not .IsPage)) (and (eq .Type `tils`) (not .IsPage)) (and (eq .Type `notes`) (not .IsPage)) -}}
 {{- /* The search index is ~1.3 MB of full post text. Preloading it made the
        browser fetch it in parallel with the CSS and fonts that the page needs
        to paint. fastsearch.js pulls it on window.onload instead, which is well

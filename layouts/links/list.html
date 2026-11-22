@@ -7,7 +7,7 @@
 
 {{- define "main" }}
 
-{{ $lastUpdated := .Site.Data.links.readwise.last_updated }}
+{{ $lastUpdated := hugo.Data.links.readwise.last_updated }}
 {{ $t := time $lastUpdated }}
 {{ $day := humanize $t.Day }}
 {{ $monthYear := $t.Format "January 2006" }}

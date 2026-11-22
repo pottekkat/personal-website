@@ -1,7 +1,7 @@
-{{- $randomBlog := index (shuffle .Site.Data.blogroll.blogroll.feeds) 0 -}}
+{{- $randomBlog := index (shuffle hugo.Data.blogroll.blogroll.feeds) 0 -}}
 {{- $randomPost := "" -}}
 {{- if (fileExists "data/blogroll/latest.json") -}}
-  {{- range $.Site.Data.blogroll.latest.posts -}}
+  {{- range hugo.Data.blogroll.latest.posts -}}
     {{- if eq .blogTitle $randomBlog.title -}}
       {{- $randomPost = . -}}
     {{- end -}}
@@ -27,12 +27,12 @@
     </tr>
   </thead>
   <tbody>
-    {{ range sort .Site.Data.blogroll.blogroll.feeds "title" }}
+    {{ range sort hugo.Data.blogroll.blogroll.feeds "title" }}
       {{ $blogTitle := .title }}
       {{ $latestPost := "" }}
 
       {{ if (fileExists "data/blogroll/latest.json") }}
-        {{ range $.Site.Data.blogroll.latest.posts }}
+        {{ range hugo.Data.blogroll.latest.posts }}
           {{ if eq .blogTitle $blogTitle }}
             {{ $latestPost = . }}
           {{ end }}

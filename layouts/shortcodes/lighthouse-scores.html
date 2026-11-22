@@ -1,8 +1,8 @@
-{{- $perf := .Site.Data.lighthouse.scores.performance -}}
-{{- $a11y := .Site.Data.lighthouse.scores.accessibility -}}
-{{- $bp := .Site.Data.lighthouse.scores.bestPractices -}}
-{{- $seo := .Site.Data.lighthouse.scores.seo -}}
-{{- $t := time .Site.Data.lighthouse.scores.lastUpdated -}}
+{{- $perf := hugo.Data.lighthouse.scores.performance -}}
+{{- $a11y := hugo.Data.lighthouse.scores.accessibility -}}
+{{- $bp := hugo.Data.lighthouse.scores.bestPractices -}}
+{{- $seo := hugo.Data.lighthouse.scores.seo -}}
+{{- $t := time hugo.Data.lighthouse.scores.lastUpdated -}}
 {{- $day := humanize $t.Day -}}
 {{- $monthYear := $t.Format "January 2006" -}}
 {{- $time := $t.Format "3:04 PM" -}}

@@ -1,4 +1,4 @@
-{{- $data := site.Data.links.readwise -}}
+{{- $data := hugo.Data.links.readwise -}}
 {{- range $data.links -}}
   {{- $.AddPage (dict
     "kind" "page"

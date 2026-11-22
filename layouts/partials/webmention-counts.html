@@ -5,7 +5,7 @@
 
 {{- $pageUrl := .Permalink -}}
 {{- $pagePath := (urls.Parse $pageUrl).Path -}}
-{{- $allMentions := site.Data.webmentions.mentions | default slice -}}
+{{- $allMentions := hugo.Data.webmentions.mentions | default slice -}}
 {{- $mentions := slice -}}
 
 {{- /* Filter mentions for this page */ -}}
