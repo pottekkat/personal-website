@@ -1,0 +1,71 @@
+{{- define "main" }}
+
+{{- partial "home_info.html" . }}
+
+{{- $posts := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $posts = (where $posts "Params.hiddenInHomeList" "!=" "true").ByDate.Reverse }}
+{{- $featured := slice }}
+{{- with site.GetPage "/categories/featured" }}{{ $featured = .Pages }}{{ end }}
+
+{{- /* Two lists side by side. Each is a heading and five entries: home.css
+       gives the pair six shared rows, so change the count there too. */}}
+<div class="home-lists">
+  <section class="home-list">
+    <header class="home-list-header">
+      <h2>Featured</h2>
+    </header>
+    {{- range first 5 $featured }}
+    {{- template "home-entry" . }}
+    {{- end }}
+  </section>
+  <section class="home-list">
+    <header class="home-list-header">
+      <h2>All posts</h2>
+      <a href="/archives/">Archives »</a>
+    </header>
+    {{- range first 5 $posts }}
+    {{- template "home-entry" . }}
+    {{- end }}
+  </section>
+</div>
+
+{{- /* Same order as the bookshelf: what I'm reading now, then newest first. */}}
+{{- $books := where (where site.RegularPages "Type" "books") "Params.bookMeta.coverImage" "!=" nil }}
+{{- $reading := where $books "Params.status" "Reading" }}
+{{- $others := where $books "Params.status" "!=" "Reading" }}
+{{- $books = $reading.ByDate.Reverse | append $others.ByDate.Reverse }}
+<section class="home-shelf">
+  <header class="home-list-header">
+    <h2>The Bookshelf</h2>
+    <a href="/books/">All books »</a>
+  </header>
+  <div class="home-covers">
+    {{- range first 6 $books }}
+    <a href="{{ .Permalink }}" class="book-cover" title="{{ .Title }}">
+      {{- partial "book_cover.html" (dict
+        "image" .Params.bookMeta.coverImage
+        "title" .Title
+        "class" "book-cover-img"
+        "sizes" "(min-width: 768px) 114px, (min-width: 501px) calc((100vw - 104px) / 6), calc((100vw - 68px) / 3)"
+        "widths" (slice 160 240 360)) }}
+    </a>
+    {{- end }}
+  </div>
+</section>
+
+{{ partial "subscription-form.html" . }}
+
+{{- end }}{{- /* end main */ -}}
+
+{{- define "home-entry" }}
+<div class="home-entry">
+  <h3 class="archive-entry-title">
+    {{- .Title | markdownify }}
+    {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+  </h3>
+  <div class="archive-meta">
+    {{- partial "post_meta.html" (dict "page" . "hideFeatured" true) -}}
+  </div>
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</div>
+{{- end }}

@@ -1,0 +1,116 @@
+/* Home page: the intro with the section index beside it, two lists of
+   posts, a row of book covers and the subscribe box (layouts/index.html). */
+
+.home-info {
+    margin-bottom: 0;
+}
+
+/* One line per section, the count at the right edge. The lines are as tall
+   as a line of the intro, so the two columns read as one block. */
+.home-index {
+    margin-bottom: 14px;
+    font-size: 14px;
+    line-height: calc(16px * 1.6);
+}
+
+.home-index ul {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(0, 1fr);
+    column-gap: calc(var(--gap) * 2);
+    list-style: none;
+}
+
+.home-index a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-lists,
+.home-shelf,
+.home-shelf + .subscription-form {
+    margin-top: calc(var(--gap) * 2);
+}
+
+.home-lists,
+.home-list {
+    display: grid;
+    row-gap: var(--gap);
+}
+
+.home-lists {
+    row-gap: calc(var(--gap) * 2);
+}
+
+.home-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.home-list-header a {
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+@media (hover: hover) {
+    .home-index a:hover,
+    .home-list-header a:hover {
+        color: var(--secondary);
+    }
+}
+
+.home-entry {
+    position: relative;
+}
+
+.home-entry .archive-entry-title {
+    margin-top: 0;
+}
+
+.home-covers {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 12px;
+    margin-top: var(--gap);
+}
+
+@media screen and (max-width: 500px) {
+    .home-covers {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 768px) {
+    .home-intro {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 168px;
+        column-gap: calc(var(--gap) * 2);
+    }
+
+    /* First line beside the intro's first line, last beside its last. */
+    .home-index {
+        margin-top: 14px;
+    }
+
+    .home-index ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    /* Both lists sit on the same six rows (a heading and five entries), so
+       entries line up across the columns and the lists end together. */
+    .home-lists {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        column-gap: calc(var(--gap) * 2);
+        row-gap: var(--gap);
+    }
+
+    .home-list {
+        grid-row: span 6;
+        grid-template-rows: subgrid;
+    }
+}

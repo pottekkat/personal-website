@@ -87,6 +87,12 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
+# The home page no longer paginates; the archive lists every post.
+[[redirects]]
+  from = "/page/*"
+  to = "/archives/"
+  status = 301
+
 [[redirects]]
   from = "/books/page/*"
   to = "/books/"

@@ -10,9 +10,28 @@
     </h1>
   </header>
   {{ partial "social_icons.html" site.Params.socialIcons }}
-  <div class="entry-content">
-    {{ .Content | markdownify }}
+  <div class="home-intro">
+    <div class="entry-content">
+      {{ .Content | markdownify }}
+    </div>
+    {{- /* Every part of the site with the number of pages in it. Posts have
+           no list page of their own, so they point at the archive. Places is
+           a taxonomy: its count is the number of places. */}}
+    <nav class="home-index" aria-label="Sections">
+      <ul>
+        {{- range slice "posts" "books" "dailies" "places" "tils" "newsletters" "playgrounds" "notes" }}
+        {{- $name := cond (eq . "tils") "TILs" (title .) }}
+        {{- with site.GetPage (printf "/%s" .) }}
+        <li>
+          <a href="{{ cond (eq .Section "posts") "/archives/" .RelPermalink }}">
+            {{- $name -}}
+            <span class="archive-count">{{ len (cond (eq .Kind "taxonomy") .Pages .RegularPagesRecursive) }}</span>
+          </a>
+        </li>
+        {{- end }}
+        {{- end }}
+      </ul>
+    </nav>
   </div>
-  {{ partial "subscription-form.html" . }}
 </article>
 {{- end -}}

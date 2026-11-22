@@ -4,10 +4,6 @@
 {{- $url := .Permalink }}
 {{- if not (and site.Params.profileMode.enabled .IsHome) }}
 {{- $pages := union .RegularPages .Sections }}
-{{- if .IsHome }}
-{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
-{{- end }}
 {{- $url = (.Paginate $pages).URL | absURL }}
 {{- end }}
 {{- partial "page_links.html" (dict "page" . "url" $url) }}
@@ -47,19 +43,11 @@
 
 {{- $paginator := .Paginator }}
 
-{{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
-{{- partial "home_info.html" . }}
-{{- end }}
-
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 
 {{- $class := "post-entry" }}
-
-{{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
-{{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
-{{- $class = "first-entry" }}
-{{- else if $term }}
+{{- if $term }}
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
@@ -79,7 +67,7 @@
   {{- end }}
   {{- if not (.Param "hideMeta") }}
   <footer class="entry-footer">
-    {{- partial "post_meta.html" (dict "page" . "hideFeatured" (or $.IsHome (eq $term "Featured"))) -}}
+    {{- partial "post_meta.html" (dict "page" . "hideFeatured" (eq $term "Featured")) -}}
   </footer>
   {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
