@@ -15,7 +15,7 @@ bookMeta:
     - Non-Fiction
     - Philosophy
     - Science
-  rating: 1
+  rating: 4
   coverImage: /images/books/covers/the-great-mental-models.jpg
   goodreadsUrl: https://www.goodreads.com/book/show/44578509-the-great-mental-models
 fmContentType: Book Review
