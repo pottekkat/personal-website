@@ -9,7 +9,6 @@
    as a line of the intro, so the two columns read as one block. */
 .home-index {
     margin-bottom: 14px;
-    font-size: 14px;
     line-height: calc(16px * 1.6);
 }
 
@@ -24,12 +23,32 @@
 
 .home-index a {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+/* The icons of the archive page. They differ in width, so each gets the
+   same box and the names start on one line. */
+.home-index svg {
+    flex: none;
+    width: 1.25em;
+    height: 0.875em;
+    color: var(--secondary);
+}
+
+.home-index .archive-count {
+    margin-inline-start: auto;
+    font-size: inherit;
 }
 
 .home-lists,
 .home-shelf {
     margin-top: calc(var(--gap) * 2);
+}
+
+/* As much room under the covers as between the parts of the page. */
+.home-shelf {
+    margin-bottom: var(--gap);
 }
 
 .home-lists,
@@ -98,6 +117,7 @@
     /* First line beside the intro's first line, last beside its last. */
     .home-index {
         margin-top: 14px;
+        font-size: 14px;
     }
 
     .home-index ul {

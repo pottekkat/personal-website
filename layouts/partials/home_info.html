@@ -20,10 +20,12 @@
     <nav class="home-index" aria-label="Sections">
       <ul>
         {{- range slice "posts" "books" "dailies" "places" "tils" "newsletters" "playgrounds" "notes" }}
+        {{- $section := . }}
         {{- $name := cond (eq . "tils") "TILs" (title .) }}
         {{- with site.GetPage (printf "/%s" .) }}
         <li>
           <a href="{{ cond (eq .Section "posts") "/archives/" .RelPermalink }}">
+            {{- partial "section_icon.html" $section -}}
             {{- $name -}}
             <span class="archive-count">{{ len (cond (eq .Kind "taxonomy") .Pages .RegularPagesRecursive) }}</span>
           </a>
