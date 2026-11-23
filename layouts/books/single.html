@@ -301,12 +301,14 @@
     flex-direction: column;
   }
 
-  /* A set width, not max-width: a centred flex item shrinks to its content,
-     and Ladybird gives the 100%-wide cover no intrinsic width, so the cover
-     would shrink to the Goodreads button. */
+  /* A set width, not just max-width: a centred flex item shrinks to its
+     content, and Ladybird gives the 100%-wide cover no intrinsic width, so the
+     cover would shrink to the Goodreads button. max-width still lets it narrow
+     on a screen too small for 200px. */
   .book-cover-wrapper {
     align-self: center;
     width: 200px;
+    max-width: 100%;
   }
 }
 </style>
