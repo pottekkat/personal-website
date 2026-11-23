@@ -2,13 +2,14 @@
 
 {{- partial "home_info.html" . }}
 
+{{ partial "subscription-form.html" . }}
+
 {{- $posts := where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- $posts = (where $posts "Params.hiddenInHomeList" "!=" "true").ByDate.Reverse }}
 {{- $featured := slice }}
 {{- with site.GetPage "/categories/featured" }}{{ $featured = .Pages }}{{ end }}
 
-{{- /* Two lists side by side. Each is a heading and five entries: home.css
-       gives the pair six shared rows, so change the count there too. */}}
+{{- /* Two lists side by side, five entries each. */}}
 <div class="home-lists">
   <section class="home-list">
     <header class="home-list-header">
@@ -53,19 +54,22 @@
   </div>
 </section>
 
-{{ partial "subscription-form.html" . }}
-
 {{- end }}{{- /* end main */ -}}
 
 {{- define "home-entry" }}
-<div class="home-entry">
-  <h3 class="archive-entry-title">
+<article class="home-entry">
+  <h3>
     {{- .Title | markdownify }}
     {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
   </h3>
-  <div class="archive-meta">
-    {{- partial "post_meta.html" (dict "page" . "hideFeatured" true) -}}
+  {{- if (ne (.Param "hideSummary") true) }}
+  <div class="entry-content">
+    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
   </div>
+  {{- end }}
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" (dict "page" . "hideFeatured" true) -}}
+  </footer>
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
-</div>
+</article>
 {{- end }}

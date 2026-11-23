@@ -28,8 +28,7 @@
 }
 
 .home-lists,
-.home-shelf,
-.home-shelf + .subscription-form {
+.home-shelf {
     margin-top: calc(var(--gap) * 2);
 }
 
@@ -54,6 +53,12 @@
     white-space: nowrap;
 }
 
+/* The links that lead to a list are in the color of the intro's links. */
+.home-index a,
+.home-list-header a {
+    color: var(--accent);
+}
+
 @media (hover: hover) {
     .home-index a:hover,
     .home-list-header a:hover {
@@ -65,8 +70,9 @@
     position: relative;
 }
 
-.home-entry .archive-entry-title {
-    margin-top: 0;
+/* A post card one step smaller, to fit half the width. */
+.home-entry h3 {
+    font-size: 16px;
 }
 
 .home-covers {
@@ -101,16 +107,9 @@
         height: 100%;
     }
 
-    /* Both lists sit on the same six rows (a heading and five entries), so
-       entries line up across the columns and the lists end together. */
     .home-lists {
         grid-template-columns: repeat(2, minmax(0, 1fr));
         column-gap: calc(var(--gap) * 2);
-        row-gap: var(--gap);
-    }
-
-    .home-list {
-        grid-row: span 6;
-        grid-template-rows: subgrid;
+        align-items: start;
     }
 }
