@@ -1,4 +1,6 @@
-@media screen and (max-width: 768px) {
+/* Ends at 767px: the desktop rules start at min-width: 768px, and a 768px
+   screen (a tablet held upright) must not get both sets. */
+@media screen and (max-width: 767px) {
     /* theme-vars */
     :root {
         --gap: 14px;
@@ -26,6 +28,28 @@
     /* footer */
     .footer {
         padding: calc((var(--footer-height) - var(--gap) - 10px) / 2) var(--gap);
+    }
+}
+
+/* A phone column holds about half the characters of the desktop one, so
+   headings step down to keep titles to a line or two. 500px is where the
+   page title would fall under 28 characters a line. */
+@media screen and (max-width: 500px) {
+    /* theme-vars */
+    :root {
+        --title-size: 24px;
+        --heading-size: 22px;
+        --subheading-size: 18px;
+    }
+
+    /* archive */
+    .archive-year-header {
+        font-size: 20px;
+    }
+
+    .archive-month-header,
+    .archive-entry-title {
+        font-size: 16px;
     }
 }
 

@@ -5,6 +5,11 @@
     --main-width: 720px;
     --header-height: 60px;
     --footer-height: 60px;
+    /* Heading sizes. Phones get a smaller set in zmedia.css; body text
+       and everything at 16px or below is the same at every width. */
+    --title-size: 30px;
+    --heading-size: 26px;
+    --subheading-size: 20px;
     --radius: 0;
     --theme: rgb(255, 255, 255);
     /* The page behind the content: --theme warmed a little. A plain color,

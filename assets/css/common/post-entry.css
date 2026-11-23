@@ -15,7 +15,7 @@
 }
 
 .first-entry .entry-header h1 {
-    font-size: 30px;
+    font-size: var(--title-size);
     line-height: 1.3;
 }
 
@@ -105,11 +105,11 @@
 }
 
 .entry-header h2 {
-    font-size: 20px;
+    font-size: var(--subheading-size);
 }
 
 .til-entry-header h2 {
-    font-size: 20px;
+    font-size: var(--subheading-size);
 }
 
 /* The link wraps a block heading; as an inline box its focus ring has

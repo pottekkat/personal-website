@@ -131,7 +131,7 @@ body:not(.grid-active):not(.list-active) #list { display: inline-block; }
 }
 
 .book-title {
-  font-size: 20px;
+  font-size: var(--subheading-size);
 }
 
 .book-meta {
