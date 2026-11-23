@@ -79,7 +79,7 @@
 }
 
 .place-tile-text h2 {
-    font-size: 20px;
+    font-size: var(--subheading-size);
     line-height: 1.2;
     color: rgb(43, 43, 43);
     -webkit-text-stroke-width: 7px;
