@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-11-22T23:30:24.509324+05:30",
+  "last_updated": "2026-11-24T03:41:47.102173+05:30",
   "links": [
+    {
+      "id": "01m83yxjr8qcqds3vyw10g2hg8",
+      "title": "Why You Need A 3 Day Weekend",
+      "author": "InGenius by Veritasium",
+      "source_url": "https://www.youtube.com/watch?v=QwfWyJP-KtA",
+      "published_date": "2026-11-17",
+      "saved_at": "2026-11-23T15:53:39.784000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
     {
       "id": "01m81cfxbfv0sykn4hv4zg9j93",
       "title": "The Claude Delusion",
