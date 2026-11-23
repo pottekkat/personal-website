@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-11-22T23:39:16+05:30",
+  "lastUpdated": "2026-11-23T18:56:28+05:30",
   "entries": [
+    {
+      "hash": "b383436",
+      "date": "2026-11-23T18:55:53+05:30",
+      "message": "Adjusted heading sizes for better display on mobile devices."
+    },
     {
       "hash": "e1dc83b",
       "date": "2026-11-22T23:37:53+05:30",
