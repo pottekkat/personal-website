@@ -1,6 +1,7 @@
-/* Ends at 767px: the desktop rules start at min-width: 768px, and a 768px
-   screen (a tablet held upright) must not get both sets. */
-@media screen and (max-width: 767px) {
+/* Ends just under 768px: the desktop rules start at min-width: 768px, and a
+   768px screen (a tablet held upright) must not get both sets. The .98
+   covers the fractional widths a zoomed desktop browser reports. */
+@media screen and (max-width: 767.98px) {
     /* theme-vars */
     :root {
         --gap: 14px;
