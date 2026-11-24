@@ -108,7 +108,7 @@ check_url "$BASE_URL/favicon.ico" "favicon.ico"
 check_url "$BASE_URL/favicon-16x16.png" "favicon-16x16.png"
 check_url "$BASE_URL/favicon-32x32.png" "favicon-32x32.png"
 check_url "$BASE_URL/apple-touch-icon.png" "apple-touch-icon.png"
-check_url "$BASE_URL/logo.png" "logo.png"
+check_url "$BASE_URL/images/feed-logo.png" "feed-logo.png"
 check_url "$BASE_URL/site.webmanifest" "site.webmanifest"
 
 # safari-pinned-tab.svg reference was removed — should 404
