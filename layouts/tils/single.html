@@ -28,8 +28,8 @@
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}{{ .Content }}{{ end }}
-    {{- partial "print_links.html" . }}
   </div>
+  {{- partial "print_links.html" . }}
 
   {{- if (.Param "ShowWebmentions") }}
   {{- partial "webmentions.html" . }}

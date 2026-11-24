@@ -1,5 +1,5 @@
 {{- if and (or .Params.editPost.URL site.Params.editPost.URL) (not (.Param "editPost.disabled")) -}}
-{{- $fileUrlPath := path.Join .File.Path }}
+{{- $fileUrlPath := path.Join .File.Path -}}
 
 <span class="edit-post">
 {{- if or .Params.author site.Params.author (.Param "ShowReadingTime") (not .Date.IsZero) .IsTranslated }}&nbsp;·&nbsp;{{- end -}}

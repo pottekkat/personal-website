@@ -19,9 +19,32 @@
     {{- .Page.Store.Add "printLinks" (slice $dest) }}
     {{- $printRef = add (len $links) 1 }}
   {{- end }}
-  {{- $offset := len (findRE `(?m)^\[\^[^\]]+\]:` .Page.RawContent) }}
-  {{- .Page.Store.Set "printLinksOffset" $offset }}
-  {{- $printRef = add $printRef $offset }}
+  {{- /* The footnotes the post shows: a definition at the start of a line
+         (indented up to three spaces, or in a quote, as Markdown allows)
+         that the text refers to. Goldmark leaves out a definition nothing
+         refers to. Code doesn't count. Counted once per page. */}}
+  {{- if not (.Page.Store.Get "printLinksCounted") }}
+    {{- $raw := .Page.RawContent }}
+    {{- $raw = replaceRE "(?ms)^ {0,3}```.*?^ {0,3}```" "" $raw }}
+    {{- $raw = replaceRE "(?ms)^ {0,3}~~~.*?^ {0,3}~~~" "" $raw }}
+    {{- $raw = replaceRE "`[^`\n]*`" "" $raw }}
+    {{- $defs := slice }}
+    {{- range findRESubmatch `(?m)^(?: {0,3}>)* {0,3}\[\^([^\]]+)\]:` $raw }}
+      {{- $defs = $defs | append (index . 1) }}
+    {{- end }}
+    {{- $shown := slice }}
+    {{- range $defs }}
+      {{- $label := . }}
+      {{- $own := 0 }}
+      {{- range $defs }}{{ if eq . $label }}{{ $own = add $own 1 }}{{ end }}{{ end }}
+      {{- if and (gt (strings.Count (printf "[^%s]" $label) $raw) $own) (not (in $shown $label)) }}
+        {{- $shown = $shown | append $label }}
+      {{- end }}
+    {{- end }}
+    {{- .Page.Store.Set "printLinksOffset" (len $shown) }}
+    {{- .Page.Store.Set "printLinksCounted" true }}
+  {{- end }}
+  {{- $printRef = add $printRef (.Page.Store.Get "printLinksOffset") }}
 {{- end }}
 {{- if and $external (ne (urls.Parse $dest).Host "web.archive.org") (not (strings.Contains $dest "utm_source=")) }}
   {{- /* Tag outbound links for the other site's analytics. The tag joins any

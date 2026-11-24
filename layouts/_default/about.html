@@ -18,8 +18,8 @@
   <div class="post-content">
     {{- if not (.Param "disableAnchoredHeadings") }} {{- partial
     "anchored_headings.html" .Content -}} {{- else }}{{ .Content }}{{ end }}
-    {{- partial "print_links.html" . }}
   </div>
+  {{- partial "print_links.html" . }}
 </article>
 
 {{- end }}{{/* end main */}}

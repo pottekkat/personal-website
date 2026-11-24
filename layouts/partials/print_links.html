@@ -1,8 +1,11 @@
 {{- /* The addresses of the page's numbered links, which render-link.html
        collects while .Content renders, so this goes after .Content. Shown only
-       in print, where a link can't be followed. */}}
+       in print, where a link can't be followed. It sits after the post's
+       e-content, not in it: Bridgy and other microformats readers take that
+       element's text as the post and don't apply CSS. post-content gives it
+       the post's type. */}}
 {{- with .Store.Get "printLinks" }}
-<div class="print-links">
+<div class="post-content print-links">
   <hr>
   <ol>
     {{- range $i, $url := . }}
