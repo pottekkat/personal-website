@@ -5,6 +5,15 @@
        element's text as the post and don't apply CSS. post-content gives it
        the post's type. */}}
 {{- with .Store.Get "printLinks" }}
+{{- /* render-link.html counts the footnotes from the Markdown, before they
+       exist; here they are rendered. Markdown it can't read (a reference in
+       a double-backtick code span, say) would make the two series overlap
+       or skip a number on paper, so the build says so. */}}
+{{- $footnotes := len (findRE `<li id="fn:` $.Content) }}
+{{- $offset := $.Store.Get "printLinksOffset" }}
+{{- if ne $footnotes $offset }}
+  {{- warnf "%s: the printed link numbers start after %d footnotes, but the page shows %d. See render-link.html." $.RelPermalink $offset $footnotes }}
+{{- end }}
 <div class="post-content print-links">
   <hr>
   <ol>
