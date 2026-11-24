@@ -1,5 +1,5 @@
 {{- if eq .Type "alert" -}}
-  <blockquote>
+  <blockquote class="alert alert-{{ .AlertType }}">
     <p class="alert-title">
       {{- if eq .AlertType "note" -}}
         <span>

@@ -806,8 +806,44 @@ codapi-snippet codapi-toolbar button:after {
     margin-top: 0;
 }
 
+/* Alerts take their type's ink on the rule and the label, and its wash on
+   the box. Disclaimer and hiring are custom types and borrow caution and
+   note. The fallbacks cover an unknown type and the webmentions heading,
+   which reuses .alert-title. */
+.post-content .alert-note,
+.post-content .alert-hiring {
+    --alert: var(--alert-note);
+    --alert-wash: var(--alert-note-wash);
+}
+
+.post-content .alert-tip {
+    --alert: var(--alert-tip);
+    --alert-wash: var(--alert-tip-wash);
+}
+
+.post-content .alert-important {
+    --alert: var(--alert-important);
+    --alert-wash: var(--alert-important-wash);
+}
+
+.post-content .alert-warning {
+    --alert: var(--alert-warning);
+    --alert-wash: var(--alert-warning-wash);
+}
+
+.post-content .alert-caution,
+.post-content .alert-disclaimer {
+    --alert: var(--alert-caution);
+    --alert-wash: var(--alert-caution-wash);
+}
+
+.post-content .alert {
+    border-inline-start-color: var(--alert, var(--accent));
+    background-color: var(--alert-wash, var(--code-bg));
+}
+
 .alert-title {
-    color: var(--secondary);
+    color: var(--alert, var(--secondary));
     font-size: 14px;
     letter-spacing: 1px;
     margin-bottom: 10px !important;

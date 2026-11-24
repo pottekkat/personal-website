@@ -33,6 +33,20 @@
        rule, the selection wash and the #link landing wash. Index entries, controls and icons stay
        ink. Oxblood here, pine in .dark, matching the about/stats charts. */
     --accent: rgb(178, 58, 74);
+    /* Alerts, one ink per type for the rule and label, and a wash for the
+       box: the ink at 7% over --code-bg (10% in .dark), written out because
+       iOS 17 can't read a relative color. Inks stay at least 4.7:1 on the
+       wash. */
+    --alert-note: rgb(48, 88, 150);
+    --alert-note-wash: rgb(234, 233, 233);
+    --alert-tip: rgb(38, 108, 80);
+    --alert-tip-wash: rgb(233, 234, 228);
+    --alert-important: rgb(110, 62, 150);
+    --alert-important-wash: rgb(238, 231, 233);
+    --alert-warning: rgb(146, 90, 0);
+    --alert-warning-wash: rgb(241, 233, 222);
+    --alert-caution: rgb(178, 58, 74);
+    --alert-caution-wash: rgb(243, 231, 227);
     --border: rgb(247, 247, 247);
     --background-color: rgb(180, 180, 180);
     --background-image: url(/images/binding-dark.png);
@@ -53,6 +67,16 @@
     --inline-code-bg: rgb(255, 127, 80);
     --visited: rgb(196, 165, 230);
     --accent: rgb(124, 180, 170);
+    --alert-note: rgb(135, 172, 225);
+    --alert-note-wash: rgb(43, 47, 52);
+    --alert-tip: rgb(124, 184, 152);
+    --alert-tip-wash: rgb(42, 48, 45);
+    --alert-important: rgb(196, 165, 230);
+    --alert-important-wash: rgb(49, 46, 53);
+    --alert-warning: rgb(226, 176, 92);
+    --alert-warning-wash: rgb(52, 47, 39);
+    --alert-caution: rgb(236, 132, 144);
+    --alert-caution-wash: rgb(53, 43, 44);
     --border: rgb(25, 25, 25);
     --background-color: rgb(75, 75, 75);
     --background-image: url(/images/binding-dark.png);
