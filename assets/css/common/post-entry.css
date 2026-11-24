@@ -33,6 +33,15 @@
     -webkit-line-clamp: unset;
 }
 
+/* The site title is never cut short: with the logo beside it and the text
+   enlarged it can run past the three lines clamped above. flow-root keeps
+   the floated phone logo inside the header. */
+.home-info .entry-header {
+    display: flow-root;
+    overflow: visible;
+    -webkit-line-clamp: unset;
+}
+
 /* One word of the site title is set in the accent and in blackletter, like a
    rubric. The blackletter is narrower and lighter than the title's face, so
    it is set 15% larger to read as the same size. line-height: 0 keeps its
@@ -43,6 +52,70 @@
     font-weight: 700;
     line-height: 0;
     color: var(--accent);
+}
+
+/* The logo takes the theme's colours, so it turns pine with the title's
+   rubric in the dark theme. The favicons, which cannot read the page's
+   variables, repeat these colours in head.html. */
+.home-logo .logo-tile {
+    fill: var(--accent);
+}
+
+.home-logo .logo-frame {
+    fill: var(--theme);
+}
+
+.home-logo .logo-block {
+    fill: var(--primary);
+}
+
+/* On a phone the logo stands to the left of the title like a drop cap, as
+   tall as two title lines at the 1.3 line-height above. The title breaks
+   before its rubric so it fills exactly those two lines at every width: on
+   its own it would keep to one line on some screens and wrap to three on a
+   320px one. The logo is drawn at fractions of a pixel per grid unit here,
+   where snapping each edge to a pixel would make the frame's bars uneven,
+   so it is smoothed instead of crisp. */
+.home-logo {
+    shape-rendering: geometricPrecision;
+    float: inline-start;
+    width: 2.6em;
+    height: 2.6em;
+    margin-inline-end: 0.4em;
+}
+
+.home-info .title-accent::before {
+    content: "\A";
+    white-space: pre;
+}
+
+/* Once the title fits on one line beside the logo, the logo stands to the
+   left of the title and the social links together, as tall as both: one
+   title line plus the links' row, which is its 10px top padding (main.css)
+   and one 16px body line at the 1.6 line-height in reset.css. The 30px title
+   is 443px wide and needs 534px with the logo. At 640px the page's padding
+   and a 17px desktop scrollbar still leave 579px. A longer title needs a
+   wider breakpoint. */
+@media (min-width: 640px) {
+    .home-head {
+        --home-logo-size: calc(var(--title-size) * 1.3 + 10px + 16px * 1.6);
+        position: relative;
+        padding-inline-start: calc(var(--home-logo-size) + 16px);
+    }
+
+    .home-logo {
+        float: none;
+        position: absolute;
+        inset-block-start: 0;
+        inset-inline-start: 0;
+        width: var(--home-logo-size);
+        height: var(--home-logo-size);
+        margin: 0;
+    }
+
+    .home-info .title-accent::before {
+        content: none;
+    }
 }
 
 /* Links in the intro text carry the accent, like links in post copy. */

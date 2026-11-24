@@ -243,6 +243,18 @@
 </script>
 {{- end }}
 
+<script type="module">
+    // The page's theme can differ from the system's (a stored choice or the
+    // default theme), so point the SVG favicon at the copy for the theme the
+    // page shows, and follow it when the toggle changes it.
+    const favicon = document.getElementById("favicon-svg");
+    const syncFavicon = () => {
+        favicon.href = document.body.classList.contains("dark") ? favicon.dataset.dark : favicon.dataset.light;
+    };
+    syncFavicon();
+    new MutationObserver(syncFavicon).observe(document.body, { attributes: true, attributeFilter: ["class"] });
+</script>
+
 {{- if (not site.Params.disableThemeToggle) }}
 <script type="module">
     document.getElementById("theme-toggle").addEventListener("click", () => {

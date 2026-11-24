@@ -1,0 +1,19 @@
+{{- /*
+The site's logo: a square, open at one corner, with the dark block that got
+out sitting in the gap. It is drawn on a 16-unit grid in whole units, so every
+edge lands on a pixel at 16, 32 and 48px.
+
+The shapes only carry classes. The home page colours them from the theme in
+CSS; the favicons pass their own colours in "style".
+
+Params (dict):
+  class  class for the <svg>
+  style  CSS for a <style> inside the SVG, for standalone files
+*/ -}}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges"
+  {{- with .class }} class="{{ . }}"{{ end }} aria-hidden="true">
+  {{- with .style }}<style>{{ . | safeCSS }}</style>{{ end -}}
+  <rect class="logo-tile" width="16" height="16"/>
+  <path class="logo-frame" d="M2 2h7v2H4v8h8V7h2v7H2z"/>
+  <rect class="logo-block" x="10" y="2" width="4" height="4"/>
+</svg>
