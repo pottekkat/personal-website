@@ -245,6 +245,15 @@
 
 {{- if (not site.Params.disableThemeToggle) }}
 <script type="module">
+    // The SVG favicon follows the system theme on its own; the site's toggle
+    // can differ from it, so point the icon at the copy for the page's theme.
+    const favicon = document.getElementById("favicon-svg");
+    const syncFavicon = () => {
+        favicon.href = document.body.classList.contains("dark") ? favicon.dataset.dark : favicon.dataset.light;
+    };
+    syncFavicon();
+    new MutationObserver(syncFavicon).observe(document.body, { attributes: true, attributeFilter: ["class"] });
+
     document.getElementById("theme-toggle").addEventListener("click", () => {
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');

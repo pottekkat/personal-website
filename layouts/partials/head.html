@@ -200,10 +200,19 @@
 {{- end }}
 {{- end }}
 
-{{- /* Favicons */}}
-<link rel="icon" href="{{ site.Params.assets.favicon | default "favicon.ico" | relURL }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ site.Params.assets.favicon16x16 | default "favicon-16x16.png" | relURL }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ site.Params.assets.favicon32x32 | default "favicon-32x32.png" | relURL }}">
+{{- /* Favicons. The SVG is the logo partial in the theme colours from
+   theme-vars.css: light by default, dark when the system is dark. The two
+   single-theme copies let footer.html match the site's own theme toggle.
+   favicon.ico and the PNGs are the light logo, for anything that cannot
+   read an SVG. */}}
+{{- $light := ".logo-tile{fill:rgb(178,58,74)}.logo-frame{fill:rgb(255,255,255)}.logo-block{fill:rgb(30,30,30)}" }}
+{{- $dark := ".logo-tile{fill:rgb(124,180,170)}.logo-frame{fill:rgb(17,17,17)}.logo-block{fill:rgb(241,241,241)}" }}
+{{- $favicon := partial "logo.html" (dict "style" (printf "%s@media (prefers-color-scheme:dark){%s}" $light $dark)) | resources.FromString "favicon.svg" }}
+{{- $faviconLight := partial "logo.html" (dict "style" $light) | resources.FromString "favicon-light.svg" }}
+{{- $faviconDark := partial "logo.html" (dict "style" $dark) | resources.FromString "favicon-dark.svg" }}
+<link rel="icon" href="{{ site.Params.assets.favicon | default "favicon.ico" | relURL }}" sizes="32x32">
+<link rel="icon" type="image/svg+xml" href="{{ $favicon.RelPermalink }}" id="favicon-svg"
+  data-light="{{ $faviconLight.RelPermalink }}" data-dark="{{ $faviconDark.RelPermalink }}">
 <link rel="apple-touch-icon" href="{{ site.Params.assets.apple_touch_icon | default "apple-touch-icon.png" | relURL }}">
 <meta name="theme-color" content="{{ site.Params.assets.theme_color | default "#2e2e33" }}">
 <meta name="msapplication-TileColor" content="{{ site.Params.assets.msapplication_TileColor | default "#2e2e33" }}">
