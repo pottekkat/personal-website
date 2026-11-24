@@ -31,8 +31,8 @@
 {{- with .Content }}
 <div class="post-content">
   {{- . }}
-  {{- partial "print_links.html" $ }}
 </div>
+{{- partial "print_links.html" $ }}
 {{- end }}
 
 {{- /* A grid of map tiles, two across, one on phones. The title and post
@@ -73,6 +73,9 @@
 (() => {
   const load = (use) => use.setAttribute('href', use.dataset.href);
   const waiting = document.querySelectorAll('.places-grid use[data-href]');
+  // A print shows every tile, so the maps not yet scrolled to start
+  // loading, as footer.html does for lazy images.
+  addEventListener('beforeprint', () => waiting.forEach(load));
   if (!('IntersectionObserver' in window)) return waiting.forEach(load);
   // A few hundred pixels early, so the map is there by the time it scrolls in.
   const io = new IntersectionObserver((entries) => {

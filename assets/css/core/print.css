@@ -69,6 +69,16 @@
         color: var(--secondary);
     }
 
+    /* A note or a book has no line of metadata, so its address prints
+       on its own, under the heading. */
+    .post-header > .u-url,
+    .post-single > .u-url {
+        display: block !important;
+        margin-bottom: var(--gap);
+        color: var(--secondary);
+        font-size: 14px;
+    }
+
     /* Paper has no hover or click, so links lose their underline. A link out
        of the site carries a number in the footnotes' style, and its address
        is listed at the end of the post (render-link.html). */
@@ -79,7 +89,7 @@
 
     /* Only where the page lists the addresses: a list page showing several
        entries in full has no list, so its links print plain. */
-    .post-content:has(> .print-links) a[data-print-ref]::after {
+    .post-content:has(+ .print-links) a[data-print-ref]::after {
         content: attr(data-print-ref);
         color: var(--content);
         font-size: smaller;
@@ -128,14 +138,25 @@
         font-size: 14px;
     }
 
-    /* A diagram drawn for the dark theme prints its light copy
-       (mermaid.html). */
-    .mermaid[data-rendered-theme="dark"]:has(+ .mermaid-print svg) {
+    /* A diagram prints its light copy, when it has one (mermaid.html). One
+       still drawn dark without it prints inverted, as on screen a dark
+       diagram image is in the light theme. */
+    .mermaid:has(+ .mermaid-print[hidden]) {
         display: none;
     }
 
-    .mermaid[data-rendered-theme="dark"] + .mermaid-print[hidden] {
+    .mermaid-print[hidden] {
         display: flex;
+    }
+
+    .mermaid[data-rendered-theme="dark"]:not(:has(+ .mermaid-print[hidden])) svg {
+        filter: invert(100%) brightness(100%) contrast(120%);
+    }
+
+    /* A diagram image drawn on dark prints inverted, as in the light
+       theme, even when no script took the dark class off for the print. */
+    .post-content figure .invert-diagram-colors {
+        filter: invert(100%) brightness(100%) contrast(120%);
     }
 
     /* Tables lay out as tables and wrap, instead of scrolling. Code blocks
@@ -188,7 +209,8 @@
     .post-content tr,
     .post-entry,
     .til-post-entry,
-    .book-card {
+    .book-card,
+    .place-tile {
         break-inside: avoid;
     }
 
