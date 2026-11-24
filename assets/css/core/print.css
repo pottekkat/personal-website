@@ -83,7 +83,8 @@
        of the site carries a number in the footnotes' style, and its address
        is listed at the end of the post (render-link.html). */
     .post-content a:not(.lnlinks):not(.ln):not(.lnt),
-    .entry-content a {
+    .entry-content a,
+    .entry-cover a {
         box-shadow: none;
     }
 
@@ -123,6 +124,13 @@
     .post-content pre code {
         overflow: visible;
         white-space: pre-wrap;
+    }
+
+    /* A closed disclosure prints open. footer.html opens them for the
+       print, and this does it where no script runs. A browser without
+       ::details-content skips the rule. */
+    details::details-content {
+        content-visibility: visible;
     }
 
     /* Every tab's panel prints, each under its tab's name. */
