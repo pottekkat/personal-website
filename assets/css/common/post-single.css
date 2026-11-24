@@ -311,9 +311,13 @@
     tab-size: 4;
 }
 
-.dark .post-content .highlight:not(table),
-.dark .post-content pre {
-    background: var(--hljs-bg) !important;
+/* Screens only: paper stays light even when no script took the dark class
+   off for the print. */
+@media screen {
+    .dark .post-content .highlight:not(table),
+    .dark .post-content pre {
+        background: var(--hljs-bg) !important;
+    }
 }
 
 .post-content li>.highlight {

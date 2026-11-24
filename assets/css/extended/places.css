@@ -19,16 +19,20 @@
     background: var(--map-land);
 }
 
-.dark .place-map {
-    --map-land: rgb(26, 26, 26);
-    --map-urban: rgb(31, 31, 31);
-    --map-park: rgb(30, 42, 29);
-    --map-water: rgb(23, 38, 51);
-    --map-building: rgb(42, 42, 42);
-    --map-casing: rgb(17, 17, 17);
-    --map-road: rgb(72, 72, 72);
-    --map-major: rgb(118, 99, 62);
-    --map-rail: rgb(85, 85, 85);
+/* Screens only: paper stays light even when no script took the dark class
+   off for the print. */
+@media screen {
+    .dark .place-map {
+        --map-land: rgb(26, 26, 26);
+        --map-urban: rgb(31, 31, 31);
+        --map-park: rgb(30, 42, 29);
+        --map-water: rgb(23, 38, 51);
+        --map-building: rgb(42, 42, 42);
+        --map-casing: rgb(17, 17, 17);
+        --map-road: rgb(72, 72, 72);
+        --map-major: rgb(118, 99, 62);
+        --map-rail: rgb(85, 85, 85);
+    }
 }
 
 .place-map svg {
@@ -85,8 +89,12 @@
     -webkit-text-stroke-width: 7px;
 }
 
-.dark .place-tile-text h2 {
-    color: var(--primary);
+/* Screens only: paper stays light even when no script took the dark class
+   off for the print. */
+@media screen {
+    .dark .place-tile-text h2 {
+        color: var(--primary);
+    }
 }
 
 .place-tile-text .entry-footer {
