@@ -30,6 +30,10 @@
 #webmentions-container blockquote {
     margin: 0;
     width: 100%;
+}
+
+/* Only the mention's own box takes its colour, not a quote inside its text. */
+#webmentions-container .webmention-item > blockquote {
     border-inline-start-color: var(--alert, var(--accent));
     background-color: var(--alert-wash, var(--code-bg));
 }
