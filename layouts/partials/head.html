@@ -218,6 +218,7 @@
 <link rel="icon" type="image/svg+xml" sizes="any" href="{{ $favicon.RelPermalink }}" id="favicon-svg"
   data-light="{{ $faviconLight.RelPermalink }}" data-dark="{{ $faviconDark.RelPermalink }}">
 <link rel="apple-touch-icon" href="{{ site.Params.assets.apple_touch_icon | default "apple-touch-icon.png" | relURL }}">
+<link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
 <meta name="theme-color" content="{{ site.Params.assets.theme_color | default "#2e2e33" }}">
 <meta name="msapplication-TileColor" content="{{ site.Params.assets.msapplication_TileColor | default "#2e2e33" }}">
 
