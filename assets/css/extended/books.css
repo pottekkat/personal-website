@@ -146,15 +146,18 @@ body:not(.grid-active):not(.list-active) #list { display: inline-block; }
 }
 
 /* Star rating */
-.book-rating,
-.td-rating {
+.book-rating {
   display: flex;
   align-items: center;
   gap: 5px;
   color: var(--primary);
 }
 
+/* Stars borrow the warning ochre from theme-vars.css: a gold that reads on
+   both themes without adding a colour. Set on .star so the table, which has
+   no rating class, gets it too. */
 .star {
+  color: var(--alert-warning);
   display: inline-flex;
   width: var(--star-size);
   height: var(--star-size);
@@ -174,10 +177,16 @@ body:not(.grid-active):not(.list-active) #list { display: inline-block; }
   color: var(--content);
 }
 
-.book-status.reading { font-style: italic; }
-.book-status.read { font-weight: 600; }
-.book-status.paused { color: var(--secondary); }
-.book-status.abandoned { color: var(--secondary); font-style: italic; }
+/* Each status set by hand takes an alert ink on a pill of its wash (tokens
+   in theme-vars.css). Want to Read is most of the shelf and stays plain. */
+.book-status.reading { font-style: italic; color: var(--alert-note); background: var(--alert-note-wash); }
+.book-status.read { font-weight: 600; color: var(--alert-tip); background: var(--alert-tip-wash); }
+.book-status.paused { color: var(--alert-warning); background: var(--alert-warning-wash); }
+.book-status.abandoned { font-style: italic; color: var(--alert-caution); background: var(--alert-caution-wash); }
+/* On cards and in the table the pill hugs its text: the card stacks its meta
+   in a column, which would stretch it wide. The book page pads its own. */
+.book-meta > .book-status:is(.reading, .read, .paused, .abandoned),
+.books-table .book-status:is(.reading, .read, .paused, .abandoned) { padding: 2px 8px; align-self: flex-start; }
 
 /* Table (list) view */
 .books-table {
