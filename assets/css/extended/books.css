@@ -146,8 +146,7 @@ body:not(.grid-active):not(.list-active) #list { display: inline-block; }
 }
 
 /* Star rating */
-.book-rating,
-.td-rating {
+.book-rating {
   display: flex;
   align-items: center;
   gap: 5px;
@@ -184,10 +183,10 @@ body:not(.grid-active):not(.list-active) #list { display: inline-block; }
 .book-status.read { font-weight: 600; color: var(--alert-tip); background: var(--alert-tip-wash); }
 .book-status.paused { color: var(--alert-warning); background: var(--alert-warning-wash); }
 .book-status.abandoned { font-style: italic; color: var(--alert-caution); background: var(--alert-caution-wash); }
-/* :where keeps this at the base rule's weight, so the book page's own padding wins there. */
-.book-status:where(:not(.want-to-read)) { padding: 2px 8px; }
-/* The card stacks its meta in a column, which would stretch the pill wide. */
-.book-meta > .book-status { align-self: flex-start; }
+/* On cards and in the table the pill hugs its text: the card stacks its meta
+   in a column, which would stretch it wide. The book page pads its own. */
+.book-meta > .book-status:not(.want-to-read),
+.books-table .book-status:not(.want-to-read) { padding: 2px 8px; align-self: flex-start; }
 
 /* Table (list) view */
 .books-table {
