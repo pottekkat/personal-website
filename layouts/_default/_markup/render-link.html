@@ -7,10 +7,13 @@
        footnotes) needs no number, and neither does a linked image. The listed
        address is the one written in the post, without the tag added below.
        markdownify runs this hook as the home page, which has no list, so a
-       link it renders (a cover's photo credit) stays unnumbered. */}}
+       link it renders (a cover's photo credit) stays unnumbered. A link to
+       this site written with its full address is a link within the site,
+       like a relative one, and stays unnumbered too. */}}
 {{- $printRef := 0 }}
 {{- $text := string .Text }}
-{{- if and $external (not .Page.IsHome) (ne $text $dest) (not (strings.Contains $text "<img")) }}
+{{- $ownSite := eq (strings.TrimPrefix "www." (urls.Parse $dest).Host) site.Params.webmentionDomain }}
+{{- if and $external (not $ownSite) (not .Page.IsHome) (ne $text $dest) (not (strings.Contains $text "<img")) }}
   {{- $links := .Page.Store.Get "printLinks" | default slice }}
   {{- range $i, $l := $links }}
     {{- if eq $l $dest }}{{ $printRef = add $i 1 }}{{ end }}
