@@ -1,6 +1,11 @@
 {
-  "lastUpdated": "2026-11-24T15:46:34+05:30",
+  "lastUpdated": "2026-11-24T16:10:15+05:30",
   "entries": [
+    {
+      "hash": "fb61a60",
+      "date": "2026-11-24T16:09:37+05:30",
+      "message": "Updated styles for book statuses, webmentions, and star ratings."
+    },
     {
       "hash": "82a494f",
       "date": "2026-11-24T15:45:53+05:30",
