@@ -69,6 +69,18 @@
     fill: var(--primary);
 }
 
+/* On hover the tile and the block swap colours: the square goes ink and the
+   block that got out takes the accent. */
+@media (hover: hover) {
+    .home-logo:hover .logo-tile {
+        fill: var(--primary);
+    }
+
+    .home-logo:hover .logo-block {
+        fill: var(--accent);
+    }
+}
+
 /* On a phone the logo stands to the left of the title like a drop cap, as
    tall as two title lines at the 1.3 line-height above. The title breaks
    before its rubric so it fills exactly those two lines at every width: on
