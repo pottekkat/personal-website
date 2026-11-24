@@ -54,34 +54,39 @@
     --content-background: none;
 }
 
-.dark {
-    --theme: rgb(17,17,17);
-    --content-background-color: rgba(22, 22, 22, .9);
-    --entry: rgb(33, 33, 33);
-    --primary: rgb(241, 241, 241);
-    --secondary: rgb(180, 180, 180);
-    --tertiary: rgb(33, 33, 33);
-    --content: rgb(216, 216, 216);
-    --hljs-bg: rgb(23, 23, 23);
-    --code-bg: rgb(33, 33, 33);
-    --inline-code-bg: rgb(255, 127, 80);
-    --visited: rgb(196, 165, 230);
-    --accent: rgb(124, 180, 170);
-    --alert-note: rgb(135, 172, 225);
-    --alert-note-wash: rgb(43, 47, 52);
-    --alert-tip: rgb(124, 184, 152);
-    --alert-tip-wash: rgb(42, 48, 45);
-    --alert-important: rgb(196, 165, 230);
-    --alert-important-wash: rgb(49, 46, 53);
-    --alert-warning: rgb(226, 176, 92);
-    --alert-warning-wash: rgb(52, 47, 39);
-    --alert-caution: rgb(236, 132, 144);
-    --alert-caution-wash: rgb(53, 43, 44);
-    --border: rgb(25, 25, 25);
-    --background-color: rgb(75, 75, 75);
-    --background-image: url(/images/binding-dark.png);
-    --entry-image: url(/images/white-wall.png);
-    --content-background: none;
+/* Screens only: paper is white, so a print keeps the light colours even
+   where the page's script, which takes the theme off for a print
+   (footer.html), doesn't run. */
+@media screen {
+    .dark {
+        --theme: rgb(17,17,17);
+        --content-background-color: rgba(22, 22, 22, .9);
+        --entry: rgb(33, 33, 33);
+        --primary: rgb(241, 241, 241);
+        --secondary: rgb(180, 180, 180);
+        --tertiary: rgb(33, 33, 33);
+        --content: rgb(216, 216, 216);
+        --hljs-bg: rgb(23, 23, 23);
+        --code-bg: rgb(33, 33, 33);
+        --inline-code-bg: rgb(255, 127, 80);
+        --visited: rgb(196, 165, 230);
+        --accent: rgb(124, 180, 170);
+        --alert-note: rgb(135, 172, 225);
+        --alert-note-wash: rgb(43, 47, 52);
+        --alert-tip: rgb(124, 184, 152);
+        --alert-tip-wash: rgb(42, 48, 45);
+        --alert-important: rgb(196, 165, 230);
+        --alert-important-wash: rgb(49, 46, 53);
+        --alert-warning: rgb(226, 176, 92);
+        --alert-warning-wash: rgb(52, 47, 39);
+        --alert-caution: rgb(236, 132, 144);
+        --alert-caution-wash: rgb(53, 43, 44);
+        --border: rgb(25, 25, 25);
+        --background-color: rgb(75, 75, 75);
+        --background-image: url(/images/binding-dark.png);
+        --entry-image: url(/images/white-wall.png);
+        --content-background: none;
+    }
 }
 
 /* .dark {
