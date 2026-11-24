@@ -1,0 +1,89 @@
+/* Printing a page keeps the writing and drops the site around it. A dark
+   theme is a class on body, which printing doesn't change, so footer.html
+   takes it off for the print; these rules then only have the light theme to
+   deal with. head.html loads this file after every other stylesheet, so it
+   wins ties. */
+@media print {
+    @page {
+        margin: 2cm;
+    }
+
+    /* The site's chrome, and everything after the post that only works on
+       a screen: sharing, editing, the contents, the QR code, replies, the
+       forms and the links to other posts. */
+    .header,
+    .footer,
+    .top-link-nav,
+    .breadcrumbs,
+    .share-buttons,
+    .toc,
+    .qr-code-details,
+    .webmentions-container,
+    .webmention-submission-form,
+    .subscribe-content,
+    .post-footer,
+    .edit-post,
+    .anchor,
+    .copy-code {
+        display: none;
+    }
+
+    /* Paper has its own margins and colour. */
+    body,
+    .main {
+        background: none;
+    }
+
+    .main {
+        min-height: 0;
+        max-width: none;
+        padding: 0;
+        clip-path: none;
+    }
+
+    /* The page's address, which the h-entry markup already carries hidden,
+       on a line of its own under the date, so a printout says where it came
+       from. */
+    .post-meta .u-url {
+        display: block !important;
+        order: 1;
+        flex-basis: 100%;
+    }
+
+    /* Links on paper can't be followed, so links out of the site print
+       their address. Same-page links (footnotes, headings) and links
+       wrapping an image are left alone. */
+    .post-content a[href^="http"]:not(:has(img))::after {
+        content: " (" attr(href) ")";
+        color: var(--secondary);
+        word-break: break-word;
+    }
+
+    /* Code can't scroll on paper, so long lines wrap. */
+    .post-content pre,
+    .post-content pre code {
+        overflow: visible;
+        white-space: pre-wrap;
+    }
+
+    /* Keep blocks whole, and headings with the text that follows them. */
+    .post-content pre,
+    .post-content blockquote,
+    .post-content figure,
+    .post-content img,
+    .post-content table {
+        break-inside: avoid;
+    }
+
+    .post-content h1,
+    .post-content h2,
+    .post-content h3,
+    .post-content h4 {
+        break-after: avoid;
+    }
+
+    .post-content p {
+        orphans: 3;
+        widows: 3;
+    }
+}

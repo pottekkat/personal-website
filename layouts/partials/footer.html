@@ -255,6 +255,22 @@
     new MutationObserver(syncFavicon).observe(document.body, { attributes: true, attributeFilter: ["class"] });
 </script>
 
+<script type="module">
+    // Paper is white, so a page in the dark theme prints in the light one:
+    // the theme is a class on body, which printing alone doesn't change.
+    // Lazy images below the fold would print as gaps in Safari, so they
+    // start loading before the print.
+    let wasDark = false;
+    addEventListener("beforeprint", () => {
+        wasDark = document.body.classList.contains("dark");
+        document.body.classList.remove("dark");
+        document.querySelectorAll('img[loading="lazy"]').forEach((img) => { img.loading = "eager"; });
+    });
+    addEventListener("afterprint", () => {
+        if (wasDark) document.body.classList.add("dark");
+    });
+</script>
+
 {{- if (not site.Params.disableThemeToggle) }}
 <script type="module">
     document.getElementById("theme-toggle").addEventListener("click", () => {

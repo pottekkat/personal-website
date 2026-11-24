@@ -160,7 +160,9 @@
 
 {{- /* bundle all required css */}}
 {{- /* Add extended css after theme style */ -}}
-{{- $stylesheet := (slice $license_css $core $extended) | resources.Concat "assets/css/stylesheet.css"  }}
+{{- /* Print rules come last so they win ties with every screen rule. */}}
+{{- $print := (resources.Get "css/core/print.css") | resources.Minify }}
+{{- $stylesheet := (slice $license_css $core $extended $print) | resources.Concat "assets/css/stylesheet.css"  }}
 
 {{- if not site.Params.assets.disableFingerprinting }}
 {{- $stylesheet := $stylesheet | fingerprint }}
