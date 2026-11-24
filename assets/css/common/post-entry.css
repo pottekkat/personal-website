@@ -60,21 +60,31 @@
     fill: var(--primary);
 }
 
-/* On a phone the title wraps, so the logo sits in its first line like an
-   initial and wraps with it. The space after it in the markup sets the gap. */
+/* On a phone the logo stands to the left of the title like a drop cap, as
+   tall as two title lines at the 1.3 line-height above. The title breaks
+   before its rubric so it fills exactly those two lines at every width: on
+   its own it would keep to one line on some screens and wrap to three on a
+   320px one. */
 .home-logo {
-    display: inline-block;
-    width: 0.9em;
-    height: 0.9em;
-    vertical-align: -0.08em;
+    float: inline-start;
+    width: 2.6em;
+    height: 2.6em;
+    margin-inline-end: 0.4em;
 }
 
-/* From tablet width the title stays on one line, and the logo stands to its
-   left as tall as the title and the social links together: one title line
-   (the 1.3 line-height above) plus the links' row, which is its 10px top
-   padding (main.css) and one 16px body line at the 1.6 line-height in
-   reset.css. */
-@media (min-width: 768px) {
+.home-info .title-accent::before {
+    content: "\A";
+    white-space: pre;
+}
+
+/* Once the title fits on one line beside the logo, the logo stands to the
+   left of the title and the social links together, as tall as both: one
+   title line plus the links' row, which is its 10px top padding (main.css)
+   and one 16px body line at the 1.6 line-height in reset.css. The 30px title
+   is 443px wide and needs 534px with the logo. At 640px the page's padding
+   and a 17px desktop scrollbar still leave 579px. A longer title needs a
+   wider breakpoint. */
+@media (min-width: 640px) {
     .home-head {
         --home-logo-size: calc(var(--title-size) * 1.3 + 10px + 16px * 1.6);
         position: relative;
@@ -82,11 +92,17 @@
     }
 
     .home-logo {
+        float: none;
         position: absolute;
         inset-block-start: 0;
         inset-inline-start: 0;
         width: var(--home-logo-size);
         height: var(--home-logo-size);
+        margin: 0;
+    }
+
+    .home-info .title-accent::before {
+        content: none;
     }
 }
 
