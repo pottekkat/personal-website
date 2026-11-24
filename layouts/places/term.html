@@ -38,6 +38,7 @@
     {{- if not ($.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" . -}}
     {{- else }}{{ . }}{{ end }}
+    {{- partial "print_links.html" $ }}
   </div>
   {{- end }}
 

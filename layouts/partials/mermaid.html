@@ -59,6 +59,21 @@
       return node.getClientRects().length > 0;
     }
 
+    function config(theme) {
+      return {
+        startOnLoad: false,
+        theme: theme,
+        // The look the posts were drawn with. Mermaid 12 changes it (ELK
+        // layout, a glow on shapes, 120px label wrap, 120px minimum box);
+        // these keep it. minNodeWidth isn't a mermaid 11 option and is
+        // ignored until then.
+        layout: 'dagre',
+        look: 'classic',
+        flowchart: { wrappingWidth: 200, minNodeWidth: 0 },
+        align: align,
+        securityLevel: securityLevel,
+      };
+    }
     // Snapshot each diagram's original markup before mermaid replaces it with an
     // SVG. Mermaid reads the definition from innerHTML (not textContent), so we
     // capture and restore innerHTML to stay faithful to labels like <br/>.
@@ -85,27 +100,48 @@
           node.removeAttribute('data-processed');
           node.setAttribute('data-rendered-theme', theme);
         });
-        mermaid.initialize({
-          startOnLoad: false,
-          theme: theme,
-          // The look the posts were drawn with. Mermaid 12 changes it (ELK
-          // layout, a glow on shapes, 120px label wrap, 120px minimum box);
-          // these keep it. minNodeWidth isn't a mermaid 11 option and is
-          // ignored until then.
-          layout: 'dagre',
-          look: 'classic',
-          flowchart: { wrappingWidth: 200, minNodeWidth: 0 },
-          align: align,
-          securityLevel: securityLevel,
+        mermaid.initialize(config(theme));
+        return mermaid.run({ nodes: live }).then(function () {
+          if (theme === 'dark') return drawForPrint(live);
         });
-        return mermaid.run({ nodes: live });
       }).catch(function () {});
       return pending;
+    }
+    // Paper is always light, and a print can't wait for an async render. So
+    // when a diagram is drawn dark, a light copy is drawn too, once, and kept
+    // hidden next to it; print.css shows it in place of the dark one. It is
+    // drawn off-screen rather than hidden because mermaid measures its labels.
+    function drawForPrint(list) {
+      var copies = list.filter(function (node) {
+        var next = node.nextElementSibling;
+        return !(next && next.classList.contains('mermaid-print'));
+      }).map(function (node) {
+        var copy = document.createElement('div');
+        copy.className = 'mermaid mermaid-print';
+        copy.innerHTML = sources[nodes.indexOf(node)];
+        copy.style.cssText = 'position:absolute;left:-10000px;top:0;width:' + node.clientWidth + 'px';
+        node.after(copy);
+        return copy;
+      });
+      if (!copies.length) return;
+      mermaid.initialize(config('default'));
+      return mermaid.run({ nodes: copies }).then(function () {
+        copies.forEach(function (copy) {
+          copy.removeAttribute('style');
+          copy.hidden = true;
+        });
+      });
     }
 
     // Render the visible diagrams that aren't already drawn for the current
     // theme. Hidden diagrams (inactive tabs) are skipped and picked up later.
     function renderStale(list) {
+      // While printing, the page's theme is switched to light for the paper
+      // (footer.html), but a re-render is async and would replace the
+      // diagram with its source before the page is printed. The printed copy
+      // keeps the drawn diagram, and a dark one is swapped for its light copy
+      // (drawForPrint).
+      if (document.body.hasAttribute('data-printing')) return pending;
       var theme = currentTheme();
       var todo = list.filter(function (node) {
         return isVisible(node) && node.getAttribute('data-rendered-theme') !== theme;
@@ -160,6 +196,7 @@
     // above) when their tab is next revealed.
     var lastTheme = currentTheme();
     new MutationObserver(function () {
+      if (document.body.hasAttribute('data-printing')) return;
       var theme = currentTheme();
       if (theme !== lastTheme) {
         lastTheme = theme;

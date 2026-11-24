@@ -1,5 +1,28 @@
 {{- $dest := .Destination }}
 {{- $external := strings.HasPrefix $dest "http" }}
+{{- /* A printed page can't follow links, so each link out of the site gets a
+       number, and print_links.html lists the numbered addresses at the end of
+       the post. The numbers carry on from the post's footnotes, so the two read as
+       one series. A link whose text is already its address (as in most
+       footnotes) needs no number, and neither does a linked image. The listed
+       address is the one written in the post, without the tag added below.
+       markdownify runs this hook as the home page, which has no list, so a
+       link it renders (a cover's photo credit) stays unnumbered. */}}
+{{- $printRef := 0 }}
+{{- $text := string .Text }}
+{{- if and $external (not .Page.IsHome) (ne $text $dest) (not (strings.Contains $text "<img")) }}
+  {{- $links := .Page.Store.Get "printLinks" | default slice }}
+  {{- range $i, $l := $links }}
+    {{- if eq $l $dest }}{{ $printRef = add $i 1 }}{{ end }}
+  {{- end }}
+  {{- if not $printRef }}
+    {{- .Page.Store.Add "printLinks" (slice $dest) }}
+    {{- $printRef = add (len $links) 1 }}
+  {{- end }}
+  {{- $offset := len (findRE `(?m)^\[\^[^\]]+\]:` .Page.RawContent) }}
+  {{- .Page.Store.Set "printLinksOffset" $offset }}
+  {{- $printRef = add $printRef $offset }}
+{{- end }}
 {{- if and $external (ne (urls.Parse $dest).Host "web.archive.org") (not (strings.Contains $dest "utm_source=")) }}
   {{- /* Tag outbound links for the other site's analytics. The tag joins any
          query the link already has, and goes before the #fragment. An
@@ -10,5 +33,5 @@
   {{- $sep := cond (strings.Contains $base "?") "&" "?" }}
   {{- $dest = printf "%s%sutm_source=navendu_blog&utm_medium=referral&utm_campaign=%s%s" $base $sep (.Page.Title | urlize) $frag }}
 {{- end -}}
-<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $external }} target="_blank"{{ end }}>{{ .Text }}</a>
+<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $external }} target="_blank"{{ end }}{{ with $printRef }} data-print-ref="{{ . }}"{{ end }}>{{ .Text }}</a>
 {{- /* This comment removes trailing newlines. */ -}}

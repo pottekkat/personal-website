@@ -15,7 +15,7 @@
       <a class="u-author h-card" href="{{ site.BaseURL }}" style="display: none;">
         <span class="p-name">{{ site.Params.author.name }}</span>
       </a>
-      <a class="u-url" href="{{ .Permalink }}" style="display: none;">{{ .Permalink }}</a>
+      <a class="u-url" href="{{ .Permalink }}" style="display: none;">{{ replaceRE `^https?://` "" .Permalink }}</a>
       {{- partial "post_meta.html" . -}}
       {{- partial "translation_list.html" . -}}
       {{- partial "post_canonical.html" . -}}
@@ -28,6 +28,7 @@
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}{{ .Content }}{{ end }}
+    {{- partial "print_links.html" . }}
   </div>
 
   {{- if (.Param "ShowWebmentions") }}

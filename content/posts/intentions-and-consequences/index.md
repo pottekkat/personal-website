@@ -110,6 +110,17 @@ Let's see if your instincts match reality.
 #placeholder {
     margin-top: 20px;
 }
+
+/* Paper can't take the exercise, so a printout keeps the rest of the post. */
+@media print {
+    #quiz-end {
+        display: block;
+    }
+
+    #placeholder {
+        display: none;
+    }
+}
 </style>
 
 <div id="quiz-container"></div>

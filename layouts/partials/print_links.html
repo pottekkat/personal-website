@@ -1,0 +1,13 @@
+{{- /* The addresses of the page's numbered links, which render-link.html
+       collects while .Content renders, so this goes after .Content. Shown only
+       in print, where a link can't be followed. */}}
+{{- with .Store.Get "printLinks" }}
+<div class="print-links">
+  <hr>
+  <ol>
+    {{- range $i, $url := . }}
+    <li value="{{ add $i 1 ($.Store.Get "printLinksOffset") }}">{{ $url }}</li>
+    {{- end }}
+  </ol>
+</div>
+{{- end }}
