@@ -153,10 +153,17 @@
       var host = node.closest('.post-content') || document.body;
       var copy = document.createElement('div');
       copy.className = 'mermaid mermaid-print';
-      copy.innerHTML = sources[nodes.indexOf(node)];
+      // The light theme goes in the copy's own source, which mermaid resets
+      // after each diagram. Setting it for all of mermaid would leak into
+      // the next diagram drawn for the screen, such as a post's own
+      // mermaid.render() call. An init directive goes after any front matter.
+      var source = sources[nodes.indexOf(node)];
+      var front = /^\s*---\n[\s\S]*?\n---\n/.exec(source);
+      var at = front ? front[0].length : 0;
+      copy.innerHTML = source.slice(0, at) + '%%{init: {"theme": "default"}}%%\n' + source.slice(at);
       copy.style.cssText = 'position:absolute;left:-10000px;top:0;width:' + (node.clientWidth || host.clientWidth) + 'px';
       host.appendChild(copy);
-      mermaid.initialize(config('default'));
+      mermaid.initialize(config(currentTheme()));
       return mermaid.run({ nodes: [copy] }).then(function () {
         copy.removeAttribute('style');
         copy.hidden = true;
