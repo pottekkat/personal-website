@@ -3,11 +3,27 @@
     left: 0;
     right: 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 80%;
+}
+
+.not-found h1 {
     font-size: 160px;
     font-weight: 700;
-    font-family: inherit;
-    line-height: inherit;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+/* At 160px the number is 303px wide, wider than a phone's content. */
+@media screen and (max-width: 500px) {
+    .not-found h1 {
+        font-size: 120px;
+    }
+}
+
+.not-found p a {
+    color: var(--accent);
+    box-shadow: 0 1px 0;
 }
