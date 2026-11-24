@@ -125,11 +125,15 @@
       });
       if (!copies.length) return;
       mermaid.initialize(config('default'));
+      // A copy that failed to draw is removed, so the next dark render
+      // tries again instead of finding it and skipping.
       return mermaid.run({ nodes: copies }).then(function () {
         copies.forEach(function (copy) {
           copy.removeAttribute('style');
           copy.hidden = true;
         });
+      }, function () {
+        copies.forEach(function (copy) { copy.remove(); });
       });
     }
 

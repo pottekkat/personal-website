@@ -134,7 +134,7 @@
         display: none;
     }
 
-    .mermaid-print[hidden] {
+    .mermaid[data-rendered-theme="dark"] + .mermaid-print[hidden] {
         display: flex;
     }
 
