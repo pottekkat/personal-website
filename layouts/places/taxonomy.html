@@ -30,7 +30,7 @@
 
 {{- with .Content }}
 <div class="post-content">
-  {{- . }}
+  {{- partial "print_refs.html" (dict "page" $ "html" .) }}
 </div>
 {{- partial "print_links.html" $ }}
 {{- end }}

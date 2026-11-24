@@ -1,19 +1,10 @@
-{{- /* The addresses of the page's numbered links, which render-link.html
-       collects while .Content renders, so this goes after .Content. Shown only
+{{- /* The addresses of the page's numbered links, which print_refs.html
+       collects from the rendered post, so this goes after the post. Shown only
        in print, where a link can't be followed. It sits after the post's
        e-content, not in it: Bridgy and other microformats readers take that
        element's text as the post and don't apply CSS. post-content gives it
        the post's type. */}}
 {{- with .Store.Get "printLinks" }}
-{{- /* render-link.html counts the footnotes from the Markdown, before they
-       exist; here they are rendered. Markdown it can't read (a reference in
-       a double-backtick code span, say) would make the two series overlap
-       or skip a number on paper, so the build says so. */}}
-{{- $footnotes := len (findRE `<li id="fn:` $.Content) }}
-{{- $offset := $.Store.Get "printLinksOffset" }}
-{{- if ne $footnotes $offset }}
-  {{- warnf "%s: the printed link numbers start after %d footnotes, but the page shows %d. See render-link.html." $.RelPermalink $offset $footnotes }}
-{{- end }}
 <div class="post-content print-links">
   <hr>
   <ol>

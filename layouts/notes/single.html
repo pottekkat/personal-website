@@ -15,8 +15,8 @@
   {{- partial "response-context.html" . -}}
   <div class="post-content e-content">
     {{- if not (.Param "disableAnchoredHeadings") }}
-    {{- partial "anchored_headings.html" .Content -}}
-    {{- else }}{{ .Content }}{{ end }}
+    {{- partial "print_refs.html" (dict "page" . "html" (partial "anchored_headings.html" .Content)) -}}
+    {{- else }}{{ partial "print_refs.html" (dict "page" . "html" .Content) }}{{ end }}
   </div>
   {{- partial "print_links.html" . }}
 

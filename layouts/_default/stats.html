@@ -9,7 +9,7 @@
   <a class="u-url" href="{{ .Permalink }}" style="display: none;">{{ replaceRE `^https?://` "" .Permalink }}</a>
   <div class="post-content">
     {{- if not (.Param "disableAnchoredHeadings") }} {{- partial
-    "anchored_headings.html" .Content -}} {{- else }}{{ .Content }}{{ end }}
+    "print_refs.html" (dict "page" . "html" (partial "anchored_headings.html" .Content)) -}} {{- else }}{{ partial "print_refs.html" (dict "page" . "html" .Content) }}{{ end }}
     <section class="stats">
       <h2 id="visitors-by-country">Visitors by Country<a hidden="" class="anchor" aria-hidden="true" href="#visitors-by-country">#</a></h2>
       <p>

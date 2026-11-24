@@ -1,64 +1,14 @@
 {{- $dest := .Destination }}
 {{- $external := strings.HasPrefix $dest "http" }}
-{{- /* A printed page can't follow links, so each link out of the site gets a
-       number, and print_links.html lists the numbered addresses at the end of
-       the post. The numbers carry on from the post's footnotes, so the two read as
-       one series. A link whose text is already its address (as in most
-       footnotes) needs no number, and neither does a linked image. The listed
-       address is the one written in the post, without utm tags.
-       markdownify runs this hook as the home page, which has no list, so a
-       link it renders (a cover's photo credit) stays unnumbered. A link to
-       this site written with its full address is a link within the site,
-       like a relative one, and stays unnumbered too. */}}
-{{- $printRef := 0 }}
+{{- /* A printed page can't follow links, so each link out of the site is
+       marked with the address to list for it (print_key.html), and
+       print_refs.html numbers the marks once the post is rendered. A link
+       whose text is already its address (as in most footnotes) needs no
+       number, and neither does a linked image. */}}
+{{- $printKey := "" }}
 {{- $text := string .Text }}
-{{- $ownSite := eq (strings.TrimPrefix "www." (urls.Parse $dest).Host) site.Params.webmentionDomain }}
-{{- if and $external (not $ownSite) (not .Page.IsHome) (ne $text $dest) (not (strings.Contains $text "<img")) }}
-  {{- /* The listed address drops any utm_ tags the post's link already has. */}}
-  {{- $listed := $dest }}
-  {{- $noFrag := index (split $dest "#") 0 }}
-  {{- if strings.Contains $noFrag "?" }}
-    {{- $path := index (split $noFrag "?") 0 }}
-    {{- $kept := slice }}
-    {{- range split (strings.TrimPrefix (printf "%s?" $path) $noFrag) "&" }}
-      {{- if not (strings.HasPrefix . "utm_") }}{{ $kept = $kept | append . }}{{ end }}
-    {{- end }}
-    {{- $listed = printf "%s%s%s" $path (cond (gt (len $kept) 0) (printf "?%s" (delimit $kept "&")) "") (strings.TrimPrefix $noFrag $dest) }}
-  {{- end }}
-  {{- $links := .Page.Store.Get "printLinks" | default slice }}
-  {{- range $i, $l := $links }}
-    {{- if eq $l $listed }}{{ $printRef = add $i 1 }}{{ end }}
-  {{- end }}
-  {{- if not $printRef }}
-    {{- .Page.Store.Add "printLinks" (slice $listed) }}
-    {{- $printRef = add (len $links) 1 }}
-  {{- end }}
-  {{- /* The footnotes the post shows: a definition at the start of a line
-         (indented up to three spaces, or in a quote, as Markdown allows)
-         that the text refers to. Goldmark leaves out a definition nothing
-         refers to. Code doesn't count. Counted once per page. */}}
-  {{- if not (.Page.Store.Get "printLinksCounted") }}
-    {{- $raw := .Page.RawContent }}
-    {{- $raw = replaceRE "(?ms)^ {0,3}```.*?^ {0,3}```" "" $raw }}
-    {{- $raw = replaceRE "(?ms)^ {0,3}~~~.*?^ {0,3}~~~" "" $raw }}
-    {{- $raw = replaceRE "`[^`\n]*`" "" $raw }}
-    {{- $defs := slice }}
-    {{- range findRESubmatch `(?m)^(?: {0,3}>)* {0,3}\[\^([^\]]+)\]:` $raw }}
-      {{- $defs = $defs | append (index . 1) }}
-    {{- end }}
-    {{- $shown := slice }}
-    {{- range $defs }}
-      {{- $label := . }}
-      {{- $own := 0 }}
-      {{- range $defs }}{{ if eq . $label }}{{ $own = add $own 1 }}{{ end }}{{ end }}
-      {{- if and (gt (strings.Count (printf "[^%s]" $label) $raw) $own) (not (in $shown $label)) }}
-        {{- $shown = $shown | append $label }}
-      {{- end }}
-    {{- end }}
-    {{- .Page.Store.Set "printLinksOffset" (len $shown) }}
-    {{- .Page.Store.Set "printLinksCounted" true }}
-  {{- end }}
-  {{- $printRef = add $printRef (.Page.Store.Get "printLinksOffset") }}
+{{- if and (ne $text $dest) (not (strings.Contains $text "<img")) }}
+  {{- $printKey = partial "print_key.html" $dest }}
 {{- end }}
 {{- if and $external (ne (urls.Parse $dest).Host "web.archive.org") (not (strings.Contains $dest "utm_source=")) }}
   {{- /* Tag outbound links for the other site's analytics. The tag joins any
@@ -70,5 +20,5 @@
   {{- $sep := cond (strings.Contains $base "?") "&" "?" }}
   {{- $dest = printf "%s%sutm_source=navendu_blog&utm_medium=referral&utm_campaign=%s%s" $base $sep (.Page.Title | urlize) $frag }}
 {{- end -}}
-<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $external }} target="_blank"{{ end }}{{ with $printRef }} data-print-ref="{{ . }}"{{ end }}>{{ .Text }}</a>
+<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $external }} target="_blank"{{ end }}{{ with $printKey }} data-print-key="{{ . }}"{{ end }}>{{ .Text }}</a>
 {{- /* This comment removes trailing newlines. */ -}}

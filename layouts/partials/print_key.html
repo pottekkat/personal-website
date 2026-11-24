@@ -1,0 +1,21 @@
+{{- /* The address a printed page lists for a link, or "" for a link that
+       gets no number: one within the site, written relative or with the
+       site's full address. The address drops any utm tags, and keeps other
+       query parameters and the #fragment. render-link.html and the
+       blockquote shortcode mark their links with it, and print_refs.html
+       numbers the marks. */}}
+{{- $dest := . }}
+{{- $listed := "" }}
+{{- if and (strings.HasPrefix $dest "http") (ne (strings.TrimPrefix "www." (urls.Parse $dest).Host) site.Params.webmentionDomain) }}
+  {{- $listed = $dest }}
+  {{- $noFrag := index (split $dest "#") 0 }}
+  {{- if strings.Contains $noFrag "?" }}
+    {{- $path := index (split $noFrag "?") 0 }}
+    {{- $kept := slice }}
+    {{- range split (strings.TrimPrefix (printf "%s?" $path) $noFrag) "&" }}
+      {{- if not (strings.HasPrefix . "utm_") }}{{ $kept = $kept | append . }}{{ end }}
+    {{- end }}
+    {{- $listed = printf "%s%s%s" $path (cond (gt (len $kept) 0) (printf "?%s" (delimit $kept "&")) "") (strings.TrimPrefix $noFrag $dest) }}
+  {{- end }}
+{{- end }}
+{{- return $listed }}

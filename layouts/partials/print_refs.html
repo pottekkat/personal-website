@@ -1,0 +1,27 @@
+{{- /* Numbers the post's links for print, in the order they appear in the
+       rendered post: links from Markdown, from shortcodes (a quote's
+       citation) and from footnotes alike. Each is marked with the address it
+       lists (print_key.html). A link to an address already listed shares its
+       number. The numbers carry on from the post's footnotes, so the two read
+       as one series. print_links.html lists the addresses after the post.
+       Takes the page and its rendered content; returns the content. */}}
+{{- $html := string .html }}
+{{- $keys := slice }}
+{{- range findRESubmatch ` data-print-key="([^"]*)"` $html }}
+  {{- if not (in $keys (index . 1)) }}{{ $keys = $keys | append (index . 1) }}{{ end }}
+{{- end }}
+{{- /* Marks are only ever attributes of a link. The text data-print-key="
+       written anywhere else (raw HTML in a post) would be renumbered too,
+       so say so rather than print it changed. */}}
+{{- if ne (len (findRE ` data-print-key="` $html)) (len (findRE `<a [^<>]* data-print-key="` $html)) }}
+  {{- warnf "%s: data-print-key appears outside a link; print numbers may be off" .page.RelPermalink }}
+{{- end }}
+{{- $offset := len (findRE `<li id="fn:` $html) }}
+{{- $listed := slice }}
+{{- range $i, $k := $keys }}
+  {{- $html = replace $html (printf ` data-print-key="%s"` $k) (printf ` data-print-ref="%d"` (add $i 1 $offset)) }}
+  {{- $listed = $listed | append (htmlUnescape $k) }}
+{{- end }}
+{{- .page.Store.Set "printLinks" $listed }}
+{{- .page.Store.Set "printLinksOffset" $offset }}
+{{- return ($html | safeHTML) }}

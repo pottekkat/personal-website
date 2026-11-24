@@ -63,7 +63,7 @@
     {{ else }}
       {{ with $.Store.Get "bl_link" }}
         <cite>
-          <a target="_blank" href="{{ . }}" title="{{ . }}">{{ $.Store.Get "bl_title" }}</a> <!-- can't have new lines here -->
+          <a target="_blank" href="{{ . }}" title="{{ . }}"{{ with partial "print_key.html" . }} data-print-key="{{ . }}"{{ end }}>{{ $.Store.Get "bl_title" }}</a> <!-- can't have new lines here -->
         </cite>
       {{ else }}
         {{ with $.Store.Get "bl_title" }}
