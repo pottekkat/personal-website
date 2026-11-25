@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-24T20:49:56.776362",
+  "lastUpdated": "2026-11-25T20:06:34.373667",
   "posts": [
     {
       "blogTitle": "XKCD",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "GPT 6.2 Astra Solves a Historical Mystery",
-      "postUrl": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
-      "publishDate": "2026-11-24T16:53:59+00:00"
+      "postTitle": "Three LLM inflection points in twelve months",
+      "postUrl": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "publishDate": "2026-11-24T23:02:07+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
