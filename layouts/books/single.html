@@ -20,7 +20,7 @@
   <a class="u-author h-card" href="{{ site.BaseURL }}" style="display: none;">
     <span class="p-name">{{ site.Params.author.name }}</span>
   </a>
-  <a class="u-url" href="{{ .Permalink }}" style="display: none;">{{ .Permalink }}</a>
+  <a class="u-url" href="{{ .Permalink }}" style="display: none;">{{ replaceRE `^https?://` "" .Permalink }}</a>
 
   <div class="book-layout">
     {{- with .Params.bookMeta }}
@@ -112,9 +112,10 @@
   {{- partial "qr_code_icon.html" . -}}
   <div class="post-content e-content">
     {{- if not (.Param "disableAnchoredHeadings") }}
-    {{- partial "anchored_headings.html" .Content -}}
-    {{- else }}{{ .Content }}{{ end }}
+    {{- partial "print_refs.html" (dict "page" . "html" (partial "anchored_headings.html" .Content)) -}}
+    {{- else }}{{ partial "print_refs.html" (dict "page" . "html" .Content) }}{{ end }}
   </div>
+  {{- partial "print_links.html" . }}
   <footer class="post-footer">
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "book_nav_links.html" . }}

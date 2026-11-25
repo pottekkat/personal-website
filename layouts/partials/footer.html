@@ -255,6 +255,30 @@
     new MutationObserver(syncFavicon).observe(document.body, { attributes: true, attributeFilter: ["class"] });
 </script>
 
+<script type="module">
+    // Paper is white, so a page in the dark theme prints in the light one:
+    // the theme is a class on body, which printing alone doesn't change.
+    // data-printing tells the diagram script (mermaid.html) not to redraw for
+    // the switch. Collapsed sections open so their text is on paper, and lazy
+    // images start loading, or Safari prints them as gaps. All of it is put
+    // back after the print.
+    let wasDark = false;
+    let opened = [];
+    addEventListener("beforeprint", () => {
+        document.body.setAttribute("data-printing", "");
+        wasDark = document.body.classList.contains("dark");
+        document.body.classList.remove("dark");
+        opened = [...document.querySelectorAll(".post-content details:not([open])")];
+        opened.forEach((d) => { d.open = true; });
+        document.querySelectorAll('img[loading="lazy"]').forEach((img) => { img.loading = "eager"; });
+    });
+    addEventListener("afterprint", () => {
+        if (wasDark) document.body.classList.add("dark");
+        opened.forEach((d) => { d.open = false; });
+        document.body.removeAttribute("data-printing");
+    });
+</script>
+
 {{- if (not site.Params.disableThemeToggle) }}
 <script type="module">
     document.getElementById("theme-toggle").addEventListener("click", () => {

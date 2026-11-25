@@ -15,10 +15,12 @@
     </h1>
   </header>
   <div class="last-run">Last updated at {{ $time }}, {{ $day }} {{ $monthYear }}</div>
+  <a class="u-url" href="{{ .Permalink }}" style="display: none;">{{ replaceRE `^https?://` "" .Permalink }}</a>
   <div class="post-content">
     {{- if not (.Param "disableAnchoredHeadings") }} {{- partial
-    "anchored_headings.html" .Content -}} {{- else }}{{ .Content }}{{ end }}
+    "print_refs.html" (dict "page" . "html" (partial "anchored_headings.html" .Content)) -}} {{- else }}{{ partial "print_refs.html" (dict "page" . "html" .Content) }}{{ end }}
   </div>
+  {{- partial "print_links.html" . }}
 </article>
 
 {{- end }}{{/* end main */}}

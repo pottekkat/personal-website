@@ -31,11 +31,11 @@
                 {{ . }}
             {{- end -}}
             {{- if or (.Get "caption") (.Get "attr") -}}<p>
-                {{- .Get "caption" | markdownify -}}
+                {{- .Get "caption" | .Page.RenderString -}}
                 {{- with .Get "attrlink" }}
                     <a href="{{ . }}">
                 {{- end -}}
-                {{- .Get "attr" | markdownify -}}
+                {{- .Get "attr" | .Page.RenderString -}}
                 {{- if .Get "attrlink" }}</a>{{ end }}</p>
             {{- end }}
         </figcaption>

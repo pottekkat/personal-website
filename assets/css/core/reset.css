@@ -29,8 +29,12 @@ body {
     background: var(--background-image), var(--paper);
 }
 
-body.dark {
-    background: var(--background-image), var(--theme);
+/* Screens only: paper stays light even when no script took the dark class
+   off for the print. */
+@media screen {
+    body.dark {
+        background: var(--background-image), var(--theme);
+    }
 }
 
 article,

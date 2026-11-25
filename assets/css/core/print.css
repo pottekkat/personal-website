@@ -1,0 +1,236 @@
+/* Printing a page keeps the writing and drops the site around it. A dark
+   theme is a class on body, which printing doesn't change, so footer.html
+   takes it off for the print; these rules then only have the light theme to
+   deal with. head.html loads this file after every other stylesheet, so it
+   wins ties. */
+@media print {
+    @page {
+        margin: 2cm;
+    }
+
+    /* The site's chrome, and everything that only works on a screen:
+       sharing, editing, the contents, the QR code, replies and likes,
+       forms, feeds, footnotes' links back,
+       page and post navigation, tab buttons, dialogs and code tools. */
+    .header,
+    .footer,
+    .top-link-nav,
+    .breadcrumbs,
+    .share-buttons,
+    .toc,
+    .qr-code-details,
+    #webmentions-container,
+    .subscribe-content,
+    .subscription-form,
+    .post-footer,
+    .pagination,
+    .edit-post,
+    .social-icons,
+    .rss-icon-link,
+    .view-toggle-wrapper,
+    #searchInput,
+    #lightbox,
+    #shortcuts,
+    .tabs__nav,
+    codapi-snippet codapi-toolbar,
+    .anchor,
+    .copy-code,
+    .footnote-backref,
+    .note-interactions {
+        display: none;
+    }
+
+    /* Paper has its own margins and colour. */
+    body,
+    .list,
+    .main {
+        background: none;
+    }
+
+    .main {
+        min-height: 0;
+        max-width: none;
+        padding: 0;
+        clip-path: none;
+    }
+
+    /* An open image viewer locks the page's scrolling. */
+    html.lightbox-open {
+        overflow: visible;
+    }
+
+    /* The page's address, which the h-entry markup already carries hidden,
+       on a line of its own under the date, so a printout says where it came
+       from. */
+    .post-meta .u-url {
+        display: block !important;
+        order: 1;
+        flex-basis: 100%;
+        color: var(--secondary);
+    }
+
+    /* A note or a book has no line of metadata, so its address prints
+       on its own, under the heading. */
+    .post-header > .u-url,
+    .post-single > .u-url {
+        display: block !important;
+        margin-bottom: var(--gap);
+        color: var(--secondary);
+        font-size: 14px;
+    }
+
+    /* Paper has no hover or click, so links lose their underline. A link out
+       of the site carries a number in the footnotes' style, and its address
+       is listed at the end of the post (render-link.html). */
+    .post-content a:not(.lnlinks):not(.ln):not(.lnt),
+    .entry-content a,
+    .entry-cover a {
+        box-shadow: none;
+    }
+
+    /* Only where the page lists the addresses: a list page showing several
+       entries in full has no list, so its links print plain. */
+    .post-content:has(+ .print-links) a[data-print-ref]::after {
+        content: attr(data-print-ref);
+        color: var(--content);
+        font-size: smaller;
+        vertical-align: super;
+        line-height: 0;
+    }
+
+    .print-links {
+        display: block;
+        word-break: break-word;
+    }
+
+    /* A list's numbers hang outside its text, and two-digit ones need more
+       room than the screen gives them or their first digit is cut off. */
+    .print-links ol,
+    .footnotes ol {
+        padding-inline-start: 2em;
+    }
+
+    /* Code keeps its tinted background and title bar, as on screen, even
+       when the browser leaves backgrounds out. */
+    .post-content code,
+    .post-content pre,
+    .highlight-title {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+
+    /* Code can't scroll on paper, so long lines wrap. */
+    .post-content pre,
+    .post-content pre code {
+        overflow: visible;
+        white-space: pre-wrap;
+    }
+
+    /* A closed disclosure prints open. footer.html opens them for the
+       print, and this does it where no script runs. A browser without
+       ::details-content skips the rule. */
+    details::details-content {
+        content-visibility: visible;
+    }
+
+    /* Every tab's panel prints, each under its tab's name. */
+    .tabs__panel[hidden] {
+        display: block;
+    }
+
+    .tabs__panel::before {
+        content: attr(data-label);
+        display: block;
+        margin-top: var(--gap);
+        color: var(--secondary);
+        font-size: 14px;
+    }
+
+    /* A diagram prints its light copy, when it has one (mermaid.html). One
+       still drawn dark without it prints inverted, as on screen a dark
+       diagram image is in the light theme. */
+    .mermaid:has(+ .mermaid-print[hidden]) {
+        display: none;
+    }
+
+    .mermaid-print[hidden] {
+        display: flex;
+    }
+
+    .mermaid[data-rendered-theme="dark"]:not(:has(+ .mermaid-print[hidden])) svg {
+        filter: invert(100%) brightness(100%) contrast(120%);
+    }
+
+    /* A diagram image drawn on dark prints inverted, as in the light
+       theme, even when no script took the dark class off for the print. */
+    .post-content figure .invert-diagram-colors {
+        filter: invert(100%) brightness(100%) contrast(120%);
+    }
+
+    /* Tables lay out as tables and wrap, instead of scrolling. Code blocks
+       with line numbers are tables too, and keep their own layout. */
+    .post-content table:not(.lntable) {
+        display: table;
+        overflow: visible;
+        word-break: normal;
+        overflow-wrap: break-word;
+    }
+
+    /* Code in a callout has no border of its own on paper, as on screen
+       its block's background sets it apart. */
+    .post-content blockquote pre code {
+        border: none;
+    }
+
+    /* A photo fits on one page with its caption. */
+    .post-content img {
+        max-height: 18cm;
+        width: auto;
+        object-fit: contain;
+    }
+
+    /* Four books to a row, with smaller titles and tighter cards, so a
+       page holds two rows instead of one. */
+    .books-container {
+        grid-template-columns: repeat(4, 1fr);
+        gap: var(--gap);
+    }
+
+    .book-card {
+        word-break: normal;
+        overflow-wrap: break-word;
+    }
+
+    .book-info {
+        padding: 8px;
+    }
+
+    .book-title {
+        font-size: 16px;
+    }
+
+    /* Keep blocks whole, and headings with the text that follows them. */
+    .post-content pre,
+    .post-content blockquote,
+    .post-content figure,
+    .post-content img,
+    .post-content tr,
+    .post-entry,
+    .til-post-entry,
+    .book-card,
+    .place-tile {
+        break-inside: avoid;
+    }
+
+    .post-content h1,
+    .post-content h2,
+    .post-content h3,
+    .post-content h4 {
+        break-after: avoid;
+    }
+
+    .post-content p {
+        orphans: 3;
+        widows: 3;
+    }
+}

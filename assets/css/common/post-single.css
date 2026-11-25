@@ -121,6 +121,11 @@
     font-size: 12px;
 }
 
+/* The addresses of numbered links, for print only (print.css). */
+.print-links {
+    display: none;
+}
+
 .post-content a:not(.lnlinks):not(.ln):not(.lnt) {
     box-shadow: 0 1px 0;
     box-decoration-break: clone;
@@ -306,9 +311,13 @@
     tab-size: 4;
 }
 
-.dark .post-content .highlight:not(table),
-.dark .post-content pre {
-    background: var(--hljs-bg) !important;
+/* Screens only: paper stays light even when no script took the dark class
+   off for the print. */
+@media screen {
+    .dark .post-content .highlight:not(table),
+    .dark .post-content pre {
+        background: var(--hljs-bg) !important;
+    }
 }
 
 .post-content li>.highlight {
@@ -733,6 +742,12 @@ codapi-snippet codapi-toolbar button:after {
 /* Handle on hover */
 .katex-display::-webkit-scrollbar-thumb:hover {
     background: var(--secondary);
+}
+
+/* The light copy of a dark diagram, drawn for print (mermaid.html). The
+   rule below would otherwise override the hidden attribute. */
+.mermaid-print[hidden] {
+    display: none;
 }
 
 .mermaid {

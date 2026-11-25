@@ -36,9 +36,10 @@
   {{- with .Content }}
   <div class="post-content">
     {{- if not ($.Param "disableAnchoredHeadings") }}
-    {{- partial "anchored_headings.html" . -}}
-    {{- else }}{{ . }}{{ end }}
+    {{- partial "print_refs.html" (dict "page" $ "html" (partial "anchored_headings.html" .)) -}}
+    {{- else }}{{ partial "print_refs.html" (dict "page" $ "html" .) }}{{ end }}
   </div>
+  {{- partial "print_links.html" $ }}
   {{- end }}
 
   {{- /* Posts, dailies, newsletters and book reviews that list this place in

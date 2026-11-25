@@ -1,5 +1,15 @@
 {{- $dest := .Destination }}
 {{- $external := strings.HasPrefix $dest "http" }}
+{{- /* A printed page can't follow links, so each link out of the site is
+       marked with the address to list for it (print_key.html), and
+       print_refs.html numbers the marks once the post is rendered. A link
+       whose text is already its address (as in most footnotes) needs no
+       number, and neither does a linked image. */}}
+{{- $printKey := "" }}
+{{- $text := string .Text }}
+{{- if and (ne $text $dest) (not (strings.Contains $text "<img")) }}
+  {{- $printKey = partial "print_key.html" $dest }}
+{{- end }}
 {{- if and $external (ne (urls.Parse $dest).Host "web.archive.org") (not (strings.Contains $dest "utm_source=")) }}
   {{- /* Tag outbound links for the other site's analytics. The tag joins any
          query the link already has, and goes before the #fragment. An
@@ -10,5 +20,5 @@
   {{- $sep := cond (strings.Contains $base "?") "&" "?" }}
   {{- $dest = printf "%s%sutm_source=navendu_blog&utm_medium=referral&utm_campaign=%s%s" $base $sep (.Page.Title | urlize) $frag }}
 {{- end -}}
-<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $external }} target="_blank"{{ end }}>{{ .Text }}</a>
+<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $external }} target="_blank"{{ end }}{{ with $printKey }} data-print-key="{{ . }}"{{ end }}>{{ .Text }}</a>
 {{- /* This comment removes trailing newlines. */ -}}

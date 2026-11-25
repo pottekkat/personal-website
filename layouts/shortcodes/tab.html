@@ -18,7 +18,7 @@
 {{- $id := printf "%s-%d" $gid $i -}}
 {{- .Parent.Store.Add "tabs" (slice (dict "name" $name "id" $id)) -}}
 {{- .Parent.Store.Set "count" (add $i 1) -}}
-<div id="{{ $id }}" class="tabs__panel{{ if eq $i 0 }} is-active{{ end }}" role="tabpanel" aria-labelledby="{{ $id }}-tab"{{ if ne $i 0 }} hidden{{ end }}>
+<div id="{{ $id }}" class="tabs__panel{{ if eq $i 0 }} is-active{{ end }}" role="tabpanel" data-label="{{ $name }}" aria-labelledby="{{ $id }}-tab"{{ if ne $i 0 }} hidden{{ end }}>
 
 {{ .Inner }}
 

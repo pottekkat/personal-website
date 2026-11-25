@@ -6,9 +6,10 @@
     <h1 class="post-title">{{ .Title }}</h1>
   </header>
   <div class="last-run">Auto updated at {{hugo.Data.stats.stats.runtime}}</div>
+  <a class="u-url" href="{{ .Permalink }}" style="display: none;">{{ replaceRE `^https?://` "" .Permalink }}</a>
   <div class="post-content">
     {{- if not (.Param "disableAnchoredHeadings") }} {{- partial
-    "anchored_headings.html" .Content -}} {{- else }}{{ .Content }}{{ end }}
+    "print_refs.html" (dict "page" . "html" (partial "anchored_headings.html" .Content)) -}} {{- else }}{{ partial "print_refs.html" (dict "page" . "html" .Content) }}{{ end }}
     <section class="stats">
       <h2 id="visitors-by-country">Visitors by Country<a hidden="" class="anchor" aria-hidden="true" href="#visitors-by-country">#</a></h2>
       <p>
@@ -72,6 +73,7 @@
         <p>What should I add next here? Send your suggestions to <a href="mailto:navendu@apache.org">navendu@apache.org</a></p>
     </section>
   </div>
+  {{- partial "print_links.html" . }}
 </article>
 
 {{- end }}{{/* end main */}}
