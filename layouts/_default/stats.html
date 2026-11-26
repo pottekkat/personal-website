@@ -8,8 +8,17 @@
   <div class="last-run">Auto updated at {{hugo.Data.stats.stats.runtime}}</div>
   <a class="u-url" href="{{ .Permalink }}" style="display: none;">{{ replaceRE `^https?://` "" .Permalink }}</a>
   <div class="post-content">
-    {{- if not (.Param "disableAnchoredHeadings") }} {{- partial
-    "print_refs.html" (dict "page" . "html" (partial "anchored_headings.html" .Content)) -}} {{- else }}{{ partial "print_refs.html" (dict "page" . "html" .Content) }}{{ end }}
+    {{- /* One numbering pass over the post and the stats below it, so the
+           stats' own links print with numbers too. */}}
+    {{- $content := cond (not (.Param "disableAnchoredHeadings")) (partial "anchored_headings.html" .Content) .Content }}
+    {{- partial "print_refs.html" (dict "page" . "html" (printf "%s%s" $content (partial "stats-section.html" .))) }}
+  </div>
+  {{- partial "print_links.html" . }}
+</article>
+
+{{- end }}{{/* end main */}}
+
+{{- define "_partials/stats-section.html" }}
     <section class="stats">
       <h2 id="visitors-by-country">Visitors by Country<a hidden="" class="anchor" aria-hidden="true" href="#visitors-by-country">#</a></h2>
       <p>
@@ -28,7 +37,7 @@
           Stats from the last 30 days<p>Last updated at {{hugo.Data.stats.stats.runtime}}</p>
         </figcaption>
         </figure>
-        <p>Shoutout to <a href="https://www.linkedin.com/in/christy-m-thomas/">Christy</a>, an actual GIS Engineer, who helped me create this chart.</p>
+        <p>Shoutout to {{ $christy := "https://www.linkedin.com/in/christy-m-thomas/" }}<a href="{{ $christy }}"{{ with partial "print_key.html" $christy }} data-print-key="{{ . }}"{{ end }}>Christy</a>, an actual GIS Engineer, who helped me create this chart.</p>
         <h2 id="visitors-per-day">Visitors per Day<a hidden="" class="anchor" aria-hidden="true" href="#visitors-per-day">#</a></h2>
         <p>
         {{hugo.Data.stats.stats.most_visitors_visitors}} people visited the
@@ -72,8 +81,4 @@
         </figure>
         <p>What should I add next here? Send your suggestions to <a href="mailto:navendu@apache.org">navendu@apache.org</a></p>
     </section>
-  </div>
-  {{- partial "print_links.html" . }}
-</article>
-
-{{- end }}{{/* end main */}}
+{{- end }}
