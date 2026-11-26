@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-11-25T20:06:34.373667",
+  "lastUpdated": "2026-11-26T19:47:07.004453",
   "posts": [
     {
       "blogTitle": "XKCD",
       "blogUrl": "https://xkcd.com/",
-      "postTitle": "Ivory Tower Elites",
-      "postUrl": "https://xkcd.com/3328/",
-      "publishDate": "Mon, 23 Nov 2026 05:00:00 -0000"
+      "postTitle": "Cesium Atom",
+      "postUrl": "https://xkcd.com/3329/",
+      "publishDate": "Wed, 25 Nov 2026 05:00:00 -0000"
     },
     {
       "blogTitle": "David Heinemeier Hansson",
@@ -18,9 +18,9 @@
     {
       "blogTitle": "Simon Willison's Weblog",
       "blogUrl": "https://simonwillison.net/",
-      "postTitle": "Three LLM inflection points in twelve months",
-      "postUrl": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
-      "publishDate": "2026-11-24T23:02:07+00:00"
+      "postTitle": "Quoting Jack Despain Zhou",
+      "postUrl": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+      "publishDate": "2026-11-26T15:09:31+00:00"
     },
     {
       "blogTitle": "Paul Graham: Essays",
@@ -95,8 +95,9 @@
     {
       "blogTitle": "Kaazhchakal",
       "blogUrl": "https://yezhuvath.com/",
-      "error": true,
-      "errorMessage": "403 Forbidden (feedparser)"
+      "postTitle": "Venice Biennale 2026",
+      "postUrl": "https://yezhuvath.com/2026/11/23/venice-biennale-2026/",
+      "publishDate": "Mon, 23 Nov 2026 08:23:37 +0000"
     },
     {
       "blogTitle": "Tangled Bytes",
@@ -164,9 +165,9 @@
     {
       "blogTitle": "Pathless by Paul Millerd",
       "blogUrl": "https://newsletter.pathlesspath.com/",
-      "postTitle": "How I\u2019m using AI without losing my mind | #333",
-      "postUrl": "https://newsletter.pathlesspath.com/p/how-im-using-ai-without-losing-my",
-      "publishDate": "Mon, 09 Nov 2026 04:49:40 GMT"
+      "postTitle": "9 Ways AI Is Changing How I Work",
+      "postUrl": "https://newsletter.pathlesspath.com/p/9-ways-ai-is-changing-how-i-work",
+      "publishDate": "Thu, 26 Nov 2026 01:34:47 GMT"
     },
     {
       "blogTitle": "SatPost by Trung Phan",
