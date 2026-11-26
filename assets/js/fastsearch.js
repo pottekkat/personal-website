@@ -67,8 +67,10 @@ function loadSearchIndex() {
             fields: ["title", "categories", "summary", "content"],
             searchOptions: {
               boost: { title: 5, categories: 2, summary: 1.5 },
+              // Typo matching costs memory that grows with the square of
+              // the word's length, so a pasted run of letters gets none.
               fuzzy: function (term) {
-                return term.length > 4 ? 0.2 : 0;
+                return term.length > 4 && term.length <= 30 ? 0.2 : 0;
               },
               prefix: true,
               combineWith: "AND",
@@ -137,7 +139,8 @@ function reset() {
 // searches, and keys that change nothing (arrows, Shift) do not re-run it.
 function runSearch() {
   if (index) {
-    const query = sInput.value.trim();
+    // No real query is this long; a paste that is costs no more than one.
+    const query = sInput.value.trim().slice(0, 200);
     // Posts with every word first; if none has them all, posts with any.
     let found = index.search(query);
     if (!found.length) found = index.search(query, { combineWith: "OR" });
