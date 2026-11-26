@@ -72,7 +72,11 @@ function loadSearchIndex() {
               fuzzy: function (term) {
                 return term.length > 4 && term.length <= 30 ? 0.2 : 0;
               },
-              prefix: true,
+              // Only the word still being typed is a prefix; an earlier
+              // "go" should not also match "google" and "good".
+              prefix: function (term, i, terms) {
+                return i === terms.length - 1;
+              },
               combineWith: "AND",
             },
           });
