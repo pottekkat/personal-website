@@ -1,6 +1,7 @@
 import * as params from "@params";
 
-let fuse; // holds our search engine
+let index; // the search index, built once the post text has loaded
+let pages; // the posts the index was built from, by id
 let resList = document.getElementById("searchResults");
 let sInput = document.getElementById("searchInput");
 let first,
@@ -49,36 +50,38 @@ function loadSearchIndex() {
           });
         }
         if (data) {
-          // fuse.js options; check fuse.js website for details
-          let options = {
-            distance: 100,
-            threshold: 0.4,
-            ignoreLocation: true,
-            keys: ["title", "permalink", "summary", "content", "categories", "section"],
-          };
-          if (params.fuseOpts) {
-            options = {
-              isCaseSensitive: params.fuseOpts.iscasesensitive ?? false,
-              includeScore: params.fuseOpts.includescore ?? false,
-              includeMatches: params.fuseOpts.includematches ?? false,
-              minMatchCharLength: params.fuseOpts.minmatchcharlength ?? 1,
-              shouldSort: params.fuseOpts.shouldsort ?? true,
-              findAllMatches: params.fuseOpts.findallmatches ?? false,
-              keys: params.fuseOpts.keys ?? [
-                "title",
-                "permalink",
-                "summary",
-                "content",
-                "categories",
-                "section",
-              ],
-              location: params.fuseOpts.location ?? 0,
-              threshold: params.fuseOpts.threshold ?? 0.4,
-              distance: params.fuseOpts.distance ?? 100,
-              ignoreLocation: params.fuseOpts.ignorelocation ?? true,
+          // Each word is matched on its own, so word order does not matter.
+          // A word longer than four letters forgives a typo or two
+          // ("kubernets"), and the last word matches as a prefix while it is
+          // still being typed. A match in the title counts most.
+          let docs = data.map(function (item, i) {
+            return {
+              id: i,
+              title: item.title,
+              categories: (item.categories || []).join(" "),
+              summary: item.summary,
+              content: item.content,
             };
-          }
-          fuse = new Fuse(data, options); // build the index from the json file
+          });
+          index = new MiniSearch({
+            fields: ["title", "categories", "summary", "content"],
+            searchOptions: {
+              boost: { title: 5, categories: 2, summary: 1.5 },
+              // Typo matching costs memory that grows with the square of
+              // the word's length, so a pasted run of letters gets none.
+              fuzzy: function (term) {
+                return term.length > 4 && term.length <= 30 ? 0.2 : 0;
+              },
+              // Only the word still being typed is a prefix; an earlier
+              // "go" should not also match "google" and "good".
+              prefix: function (term, i, terms) {
+                return i === terms.length - 1;
+              },
+              combineWith: "AND",
+            },
+          });
+          index.addAll(docs);
+          pages = data;
           // Someone may have typed while the index was still downloading.
           if (sInput.value.trim()) runSearch();
         }
@@ -139,18 +142,23 @@ function reset() {
 // paste from the context menu, autofill, drag and drop or speech input also
 // searches, and keys that change nothing (arrows, Shift) do not re-run it.
 function runSearch() {
-  if (fuse) {
-    const results = fuse.search(sInput.value.trim(), {
-      limit: params.fuseOpts.limit,
-    }); // the actual query being run using fuse.js
+  if (index) {
+    // No real query is this long; a paste that is costs no more than one.
+    const query = sInput.value.trim().slice(0, 200);
+    // Posts with every word first; if none has them all, posts with any.
+    let found = index.search(query);
+    if (!found.length) found = index.search(query, { combineWith: "OR" });
+    const results = found.slice(0, params.limit).map(function (r) {
+      return pages[r.id];
+    });
     if (results.length !== 0) {
       // build our html if result exists
       let resultSet = ""; // our results bucket
 
       for (let item in results) {
         resultSet +=
-          `<li class="post-entry"><header class="entry-header">${results[item].item.title}&nbsp;»</header>` +
-          `<a href="${results[item].item.permalink}" aria-label="${results[item].item.title}"></a></li>`;
+          `<li class="post-entry"><header class="entry-header">${results[item].title}&nbsp;»</header>` +
+          `<a href="${results[item].permalink}" aria-label="${results[item].title}"></a></li>`;
       }
 
       resList.innerHTML = resultSet;

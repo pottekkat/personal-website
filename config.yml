@@ -171,17 +171,8 @@ params:
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
-    # for search
-    # https://fusejs.io/api/options.html
-    fuseOpts:
-        isCaseSensitive: false
-        shouldSort: true
-        location: 0
-        distance: 1000
-        threshold: 0.1
-        minMatchCharLength: 0
-        limit: 5
-        keys: ["title", "permalink", "summary", "content", "categories"]
+    # How many results the search box lists (assets/js/fastsearch.js).
+    searchLimit: 5
 
     assets:
         disableHLJS: true
