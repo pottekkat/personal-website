@@ -198,6 +198,13 @@
     box-shadow: none;
 }
 
+/* A link that is only code drops its underline too. The code box used to
+   hang below the link's box and hide it; the serif's taller line box ends
+   the link at the code's edge, so the underline showed. */
+.post-content a:not(.lnlinks):not(.ln):not(.lnt):has(> code:only-child) {
+    box-shadow: none;
+}
+
 .post-content del {
     text-decoration: line-through;
 }
