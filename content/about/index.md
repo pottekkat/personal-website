@@ -76,7 +76,7 @@ Click on the commit hash to see exactly what changed.
       <span style="font-family: 'Source Serif 4', serif !important;">Body: "Source Serif 4"</span><br>
       <span style="font-family: 'Inter', sans-serif !important;">Interface: "Inter"</span><br>
       <span style="font-family: 'JetBrains Mono', monospace !important;"><code>Code snippets: "JetBrains Mono"</code></span><br>
-      <span style="font-family: 'Manjari', 'Inter', sans-serif !important;">Malayalam/മലയാളം: "Manjari/മഞ്ജരി"</span><br>
+      <span style="font-family: 'Manjari', 'Inter', sans-serif !important; font-size: 16px;">Malayalam/മലയാളം: "Manjari/മഞ്ജരി"</span><br>
     </td>
   </tr>
   <tr>

@@ -96,6 +96,11 @@
     font-size: 16px;
 }
 
+/* Malayalam inside body text keeps the 16px it had before the serif. */
+:where(.post-content) :where(p, li, blockquote, dd, dt, td, details, summary) :where([lang="ml"]) {
+    font-size: 16px;
+}
+
 /* Form controls need one element of specificity to beat reset.css's
    `font: inherit`; Codapi's toolbar sets its own font and is left alone. */
 :where(.post-content) :where(p, li, blockquote, dd, dt, td, details, summary) :is(button, input, select, textarea):where(:not(codapi-snippet *)) {
