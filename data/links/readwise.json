@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-11-27T01:16:46.503902+05:30",
+  "last_updated": "2026-11-28T01:07:51.619264+05:30",
   "links": [
+    {
+      "id": "01m8dqr7svnn0tn51xyjeq5xkv",
+      "title": "AI made self-hosting fun again",
+      "author": "Jan-Lukas Else",
+      "source_url": "https://janlukas.blog/posts/ai-self-hosting",
+      "published_date": "2026-11-26",
+      "saved_at": "2026-11-27T11:00:49.018000+05:30",
+      "reading_time": "6 mins",
+      "category": "article",
+      "notes": ""
+    },
+    {
+      "id": "01m8dpn2szshpc6tcd5p36p5ca",
+      "title": "Spitting in the Face of Glaude",
+      "author": "Jack Despain Zhou",
+      "source_url": "https://www.tracingwoodgrains.com/p/spitting-in-the-face-of-glaude",
+      "published_date": "2026-11-26",
+      "saved_at": "2026-11-27T10:41:37.022000+05:30",
+      "reading_time": "32 mins",
+      "category": "article",
+      "notes": ""
+    },
     {
       "id": "01m8bjpt41b5dqqf2kzpxqqth7",
       "title": "GitHub Engineer: \"We're Trying to Kill the PR\" (and What Comes Next)",
