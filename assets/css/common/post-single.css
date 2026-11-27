@@ -73,6 +73,29 @@
     color: var(--content);
 }
 
+/* Body text is Source Serif 4 at 18px. Only the running text changes:
+   headings, captions, controls, code, diagrams and Malayalam keep their own
+   fonts, as do the blocks that reuse .post-content (webmentions, the
+   subscribe box, print links, the books table). :where() keeps this at zero
+   specificity so any rule that sets its own font or size still wins. */
+:where(.post-content:not(#webmentions-container, .subscribe-content, .print-links, .books-table)) :where(p, li, blockquote, dd, dt, td, details, summary):where(:not(svg *, .mermaid *, figcaption, figcaption *, #chart-caption *, .alert-title, .question-title, [lang="ml"], [lang="ml"] *)) {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 18px;
+}
+
+/* Table headers keep their 14px size and take the serif face. */
+:where(.post-content:not(#webmentions-container, .subscribe-content, .print-links, .books-table)) :where(th) {
+    font-family: 'Source Serif 4', Georgia, serif;
+}
+
+/* Captions, labels, buttons and code blocks inside a list item or quote
+   would inherit the serif and the 18px their em sizes scale from; hand them
+   back the body defaults. */
+:where(.post-content) :where(p, li, blockquote, dd, dt, td, details, summary) :where(figcaption, button, .alert-title, .readwise-note, .highlight, codapi-snippet) {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
 .post-content h3,
 .post-content h4,
 .post-content h5,
