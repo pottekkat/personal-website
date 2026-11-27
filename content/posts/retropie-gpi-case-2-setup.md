@@ -10,7 +10,7 @@ categories: ["Raspberry Pi"]
 cover:
     image: "/images/retropie-gpi-case-2-setup/game-console-banner.jpeg"
     alt: "A photo of a retro gaming console and controller."
-    caption: "Photo by [Lisa Fotios](https://www.pexels.com/photo/photo-of-video-game-console-on-brown-wooden-table-4511372/)"
+    caption: "Photo by [Lisa Fotios](https://www.pexels.com/photo/photo-of-video-game-console-on-brown-wooden-table-4511372/)."
     relative: false
 ---
 

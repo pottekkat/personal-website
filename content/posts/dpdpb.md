@@ -10,7 +10,7 @@ categories: ["Public Policy"]
 cover:
     image: "/images/dpdpb/red-robot-banner.jpg"
     alt: "Abstract image of a robot and red Lego-like bricks."
-    caption: "Photo by [rishi](https://unsplash.com/@beingabstrac) on [Unsplash](https://unsplash.com/photos/WiCvC9u7OpE)"
+    caption: "Photo by [rishi](https://unsplash.com/@beingabstrac) on [Unsplash](https://unsplash.com/photos/WiCvC9u7OpE)."
     relative: false
 ---
 

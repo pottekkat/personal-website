@@ -10,7 +10,7 @@ series: ["Hands-On With Apache APISIX Ingress"]
 cover:
     image: "/images/custom-plugins-in-apisix-ingress/jigsaw-banner.jpeg"
     alt: "A jigsaw puzzle with a piece missing."
-    caption: "Photo by [Pixabay](https://www.pexels.com/photo/white-jigsaw-puzzle-illustration-262488/)"
+    caption: "Photo by [Pixabay](https://www.pexels.com/photo/white-jigsaw-puzzle-illustration-262488/)."
     relative: false
 ---
 

@@ -11,7 +11,7 @@ mermaid: true
 cover:
     image: "/images/encrypted-communication-with-gpg/kids-whisper-banner.jpeg"
     alt: "Kids whispering while playing sports."
-    caption: "Photo by [cottonbro studio](https://www.pexels.com/photo/kids-in-active-wear-engaged-in-sports-9654720/)"
+    caption: "Photo by [cottonbro studio](https://www.pexels.com/photo/kids-in-active-wear-engaged-in-sports-9654720/)."
     relative: false
 ---
 

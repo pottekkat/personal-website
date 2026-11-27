@@ -9,7 +9,7 @@ categories: ["Essays"]
 cover:
     image: "/images/upi-vs-crypto/theyyam-banner.jpeg"
     alt: "A photo of a traditional artist from Kerala."
-    caption: "Photo by [Arjun MJ](https://www.pexels.com/photo/a-man-in-red-costume-holding-sticks-with-fire-8893040/)"
+    caption: "Photo by [Arjun MJ](https://www.pexels.com/photo/a-man-in-red-costume-holding-sticks-with-fire-8893040/)."
     relative: false
 ---
 

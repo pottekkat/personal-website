@@ -10,7 +10,7 @@ aliases: [/asking-questions]
 cover:
   image: "images/how-i-ask-questions/banner-student-raising-hand.jpeg"
   alt: "Student in classroom raising hand to ask a question"
-  caption: "Photo by [National Cancer Institute](https://unsplash.com/@nci?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/indian-classroom?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
+  caption: "Photo by [National Cancer Institute](https://unsplash.com/@nci?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/indian-classroom?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)."
   relative: false
 ---
 

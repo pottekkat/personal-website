@@ -14,7 +14,7 @@ aliases:
 cover:
   image: /images/how-the-lfx-mentorship-program-helped-me-level-up-my-career/banner-stairs.jpeg
   alt: Photo of stairs designed in a modern fashion over an orange background
-  caption: Photo by [Kanhaiya Sharma](https://www.pexels.com/photo/white-plastic-tool-on-orange-surface-1306256)
+  caption: Photo by [Kanhaiya Sharma](https://www.pexels.com/photo/white-plastic-tool-on-orange-surface-1306256).
   relative: false
 ---
 

@@ -10,7 +10,7 @@ categories: ["Microservices"]
 cover:
     image: "/images/introduction-to-monitoring-microservices/man-in-cave-banner.png"
     alt: "A man exploring a cave with a lit torch."
-    caption: "Photo by [Bobby Stevenson](https://unsplash.com/@bobbystevenson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/fire-torch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
+    caption: "Photo by [Bobby Stevenson](https://unsplash.com/@bobbystevenson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/fire-torch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)."
     relative: false
 ---
 

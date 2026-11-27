@@ -9,7 +9,7 @@ categories: ["Essays"]
 cover:
     image: "/images/computer-science-degree/graduating-banner.jpeg"
     alt: "Students throwing graduation caps."
-    caption: "Photo by [Emily Ranquist](https://www.pexels.com/photo/photography-of-people-graduating-1205651/)"
+    caption: "Photo by [Emily Ranquist](https://www.pexels.com/photo/photography-of-people-graduating-1205651/)."
     relative: false
 ---
 

@@ -11,7 +11,7 @@ categories:
 cover:
   image: images/pull-requests-like-a-pro/formula-1-banner.jpeg
   alt: Photo of a Formula 1 racing car coming out of the pit stops.
-  caption: Photo by [Dimitrije Djekanovic](https://www.pexels.com/photo/racing-team-with-their-racing-car-13857977/)
+  caption: Photo by [Dimitrije Djekanovic](https://www.pexels.com/photo/racing-team-with-their-racing-car-13857977/).
   relative: false
 ---
 

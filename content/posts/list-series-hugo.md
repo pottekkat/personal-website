@@ -47,7 +47,7 @@ series: ["Hands-On With Apache APISIX Ingress"]
 cover:
   image: "/images/canary-in-kubernetes/roads-banner.jpeg"
   alt: "Aerial photo of city street and buildings in Kuala Lumpur."
-  caption: "Photo by [Deva Darshan](https://www.pexels.com/photo/aerial-photo-of-city-street-and-buildings-1044329/)"
+  caption: "Photo by [Deva Darshan](https://www.pexels.com/photo/aerial-photo-of-city-street-and-buildings-1044329/)."
   relative: false
 ```
 

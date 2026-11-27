@@ -17,7 +17,7 @@ categories:
 cover:
   image: /images/amesh/sidecar-banner.jpeg
   alt: A motorcycle with a sidecar on a road.
-  caption: Photo by [Zszen John](https://www.pexels.com/photo/a-motorcycle-with-a-sidecar-on-a-road-12009262/)
+  caption: Photo by [Zszen John](https://www.pexels.com/photo/a-motorcycle-with-a-sidecar-on-a-road-12009262/).
   relative: false
 ---
 

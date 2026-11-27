@@ -9,7 +9,7 @@ categories: ["Writing/Blogging"]
 cover:
   image: "/images/my-blog-setup-and-writing-process/banner-typewriter.jpeg"
   alt: "A photo of a typewriter."
-  caption: "Photo by [Caryn](https://www.pexels.com/photo/typewriter-keys-938165/)"
+  caption: "Photo by [Caryn](https://www.pexels.com/photo/typewriter-keys-938165/)."
   relative: false
 ---
 

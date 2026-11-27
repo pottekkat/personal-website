@@ -11,7 +11,7 @@ aliases: [/apisix-ingress-101]
 cover:
   image: "/images/hands-on-set-up-ingress-on-kubernetes-with-apache-apisix-ingress-controller/gate-banner.jpeg"
   alt: "Photo of a Japanese-style gate in the middle of a pond."
-  caption: "Photo by [Pixabay](https://www.pexels.com/photo/pagoda-in-gray-scale-shot-301614/)"
+  caption: "Photo by [Pixabay](https://www.pexels.com/photo/pagoda-in-gray-scale-shot-301614/)."
   relative: false
 ---
 

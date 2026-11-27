@@ -9,7 +9,7 @@ categories: ["Book Review"]
 cover:
   image: "/images/the-psychology-of-money/chapter-1-cover.jpeg"
   alt: "Quote from the first chapter of Morgan Housel's \"The Psychology of Money\""
-  caption: "Photo by [Morgan Housel](https://unsplash.com/@morganhousel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/@morganhousel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
+  caption: "Photo by [Morgan Housel](https://unsplash.com/@morganhousel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/@morganhousel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)."
   relative: false
 ---
 
@@ -21,7 +21,7 @@ These are my key takeaways from [Morgan Housel](https://www.goodreads.com/author
 
 I have kept my learnings to be short and skimmable and I would urge everyone reading this article to _read the entire book_.
 
-{{< figure src="/images/the-psychology-of-money/book-cover.jpeg#center" title="The Psychology of Money" caption="Photo by [Morgan Housel](https://unsplash.com/@morganhousel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/@morganhousel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)" link="/images/the-psychology-of-money/book-cover.jpeg" target="_blank" class="align-center" >}}
+{{< figure src="/images/the-psychology-of-money/book-cover.jpeg#center" title="The Psychology of Money" caption="Photo by [Morgan Housel](https://unsplash.com/@morganhousel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/@morganhousel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)." link="/images/the-psychology-of-money/book-cover.jpeg" target="_blank" class="align-center" >}}
 
 The book is only about 240 pages long and it is a fast read. I read it cover to cover in two sittings—_it was a real page turner_.
 

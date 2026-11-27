@@ -13,7 +13,7 @@ I am Navendu Pottekkat. I am from [Chittur](https://goo.gl/maps/5AhUrxvBZMiFrbYB
 
 Our town is known for its paddy fields and toddy (palm wine) shops. We also commemorate a war ([Konganpada festival](https://www.onmanorama.com/travel/kerala/2018/06/30/konganpada-a-war-that-became-a-festival.html)) (said to have occurred around AD 918) we won over the king of Kongu (said to be present day [Coimbatore](https://goo.gl/maps/pERBjPQX8NEPw1kx6)) every year for a couple of days. The father of the [Malayalam](https://en.wikipedia.org/wiki/Malayalam) language, [Thunjathu Ramanujan Ezhuthachan](https://en.wikipedia.org/wiki/Thunchaththu_Ezhuthachan), spent his last days on the banks on the river [Sokanashini](https://en.wikipedia.org/wiki/Kannadipuzha_River), the heart of Chittur.
 
-{{< figure src="/images/about/chittur-river.jpeg#center" title="Sokanashini River/ Chittur River" caption="Photo by Prashanth from Flickr" link="/images/about/chittur-river.jpeg" target="_blank" class="align-center" >}}
+{{< figure src="/images/about/chittur-river.jpeg#center" title="Sokanashini River/ Chittur River" caption="Photo by Prashanth from Flickr." link="/images/about/chittur-river.jpeg" target="_blank" class="align-center" >}}
 
 Like every other Indian kid born in the 90s, my days were filled with [cricket](https://en.wikipedia.org/wiki/Cricket) matches and [Cartoon Network](https://en.wikipedia.org/wiki/Cartoon_Network). I wasn’t bad at school and knew I had a knack for building things. This led me to take science (physics, chemistry, mathematics) with computer science in high school (higher secondary in India).
 
