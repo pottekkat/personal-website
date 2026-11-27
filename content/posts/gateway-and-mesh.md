@@ -11,7 +11,7 @@ categories: ["API Gateway", "Featured"]
 cover:
   image: "/images/gateway-and-mesh/mesh-banner.jpeg"
   alt: "A photo of a mesh that is likely the weaving in a wooden chair."
-  caption: "Photo by [Anna Tarazevich](https://www.pexels.com/photo/close-up-photo-of-natural-rattan-hexagonal-woven-material-6594391/)"
+  caption: "Photo by [Anna Tarazevich](https://www.pexels.com/photo/close-up-photo-of-natural-rattan-hexagonal-woven-material-6594391/)."
   relative: false
 ---
 

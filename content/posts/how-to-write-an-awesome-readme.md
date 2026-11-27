@@ -9,7 +9,7 @@ ShowCanonicalLink: true
 cover:
     image: "images/awesome-readme/cover.jpeg"
     alt: "A stack of folders on a table."
-    caption: "Photo by [Pixabay](https://www.pexels.com/@pixabay)"
+    caption: "Photo by [Pixabay](https://www.pexels.com/@pixabay)."
     relative: false
 ---
 

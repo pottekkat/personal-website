@@ -13,7 +13,7 @@ aliases: [/reliable-apis]
 cover:
     image: "/images/best-practices-for-building-reliable-apis/banner-construction.jpeg"
     alt: "Photo of construction workers on a site."
-    caption: "Photo by [Pixabay](https://www.pexels.com/photo/man-in-yellow-safety-vest-climbing-on-ladder-159358/)"
+    caption: "Photo by [Pixabay](https://www.pexels.com/photo/man-in-yellow-safety-vest-climbing-on-ladder-159358/)."
     relative: false
 ---
 

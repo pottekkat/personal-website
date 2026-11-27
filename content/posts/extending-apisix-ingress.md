@@ -10,7 +10,7 @@ series: ["Hands-On With Apache APISIX Ingress"]
 cover:
     image: "/images/extending-apisix-ingress/docks-banner.jpeg"
     alt: "A photo of a dock that is almost empty."
-    caption: "Photo by [Pixabay](https://www.pexels.com/photo/sea-sunset-ocean-relaxing-55839/)"
+    caption: "Photo by [Pixabay](https://www.pexels.com/photo/sea-sunset-ocean-relaxing-55839/)."
     relative: false
 ---
 

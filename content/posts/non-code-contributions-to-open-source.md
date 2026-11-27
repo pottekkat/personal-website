@@ -14,7 +14,7 @@ aliases:
 cover:
   image: images/non-code-contributions-to-open-source/pencils-banner.jpeg
   alt: Banner showing non-code contributions to open-source.
-  caption: Photo by [Alexander Grey](https://unsplash.com/@sharonmccutcheon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/diversity?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  caption: Photo by [Alexander Grey](https://unsplash.com/@sharonmccutcheon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/diversity?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
   relative: false
 ---
 

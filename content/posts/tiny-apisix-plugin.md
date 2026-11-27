@@ -10,7 +10,7 @@ categories: ["API Gateway"]
 cover:
     image: "/images/tiny-apisix-plugin/gopher-banner.jpg"
     alt: "A gopher coming out of its cave."
-    caption: "Photo by [Reagan Ross](https://www.pexels.com/photo/gopher-on-gray-soil-13631585/)"
+    caption: "Photo by [Reagan Ross](https://www.pexels.com/photo/gopher-on-gray-soil-13631585/)."
     relative: false
 ---
 

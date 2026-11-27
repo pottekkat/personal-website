@@ -12,7 +12,7 @@ categories: ["API Gateway"]
 cover:
     image: "/images/apisix-go-brr/hood-banner.jpeg"
     alt: "Open hood of a sport car."
-    caption: "Photo by [Juan Montes](https://www.pexels.com/photo/a-red-camaro-car-parked-on-the-street-with-it-s-hood-open-12385624/)"
+    caption: "Photo by [Juan Montes](https://www.pexels.com/photo/a-red-camaro-car-parked-on-the-street-with-it-s-hood-open-12385624/)."
     relative: false
 ---
 

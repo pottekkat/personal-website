@@ -10,7 +10,7 @@ categories: ["Kubernetes", "Featured"]
 cover:
     image: "/images/gateway-vs-ingress-api/banner-comparing-apples.jpeg"
     alt: "Photo of a person comparing peaches in a food market."
-    caption: "Photo by [Michael Burrows](https://www.pexels.com/photo/crop-faceless-male-choosing-peaches-in-food-market-7129157/)"
+    caption: "Photo by [Michael Burrows](https://www.pexels.com/photo/crop-faceless-male-choosing-peaches-in-food-market-7129157/)."
     relative: false
 ---
 

@@ -10,7 +10,7 @@ categories: ["Tutorials"]
 cover:
   image: "/images/how-and-why-i-migrated-my-blog-from-github-pages-to-netlify/banner-moving-boxes.jpeg"
   alt: "Photo of two people moving boxes."
-  caption: "Photo by [Karolina Grabowska](https://www.pexels.com/photo/couple-carrying-cardboard-boxes-in-living-room-4506270/)"
+  caption: "Photo by [Karolina Grabowska](https://www.pexels.com/photo/couple-carrying-cardboard-boxes-in-living-room-4506270/)."
   relative: false
 ---
 

@@ -10,7 +10,7 @@ categories: ["Public Policy"]
 cover:
     image: "/images/ai-traffic-cameras/cameras-banner.jpeg"
     alt: "Multiple traffic cameras installed on a pole."
-    caption: "Photo by [Jürgen Jester](https://unsplash.com/es/@juergenjester) on [Unsplash](https://unsplash.com/photos/_PizUeTnvFE)"
+    caption: "Photo by [Jürgen Jester](https://unsplash.com/es/@juergenjester) on [Unsplash](https://unsplash.com/photos/_PizUeTnvFE)."
     relative: false
 ---
 

@@ -16,7 +16,7 @@ aliases:
 cover:
   image: images/open-source-internship-programs/open-sign.jpeg
   alt: A sign that says open.
-  caption: Photo by [Ben Taylor](https://www.pexels.com/photo/yellow-and-teal-open-neon-signage-109998/)
+  caption: Photo by [Ben Taylor](https://www.pexels.com/photo/yellow-and-teal-open-neon-signage-109998/).
   relative: false
 ---
 

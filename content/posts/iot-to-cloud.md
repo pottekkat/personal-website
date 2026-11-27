@@ -10,7 +10,7 @@ categories: ["IoT"]
 cover:
   image: "/images/iot-to-cloud/electronics-banner.jpg"
   alt: "Photo of electronics components laid out in a table."
-  caption: "Photo by [Robin Glauser](https://unsplash.com/@nahakiole) on [Unsplash](https://unsplash.com/photos/zP7X_B86xOg)"
+  caption: "Photo by [Robin Glauser](https://unsplash.com/@nahakiole) on [Unsplash](https://unsplash.com/photos/zP7X_B86xOg)."
   relative: false
 ---
 

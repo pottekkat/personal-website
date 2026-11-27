@@ -20,7 +20,7 @@ aliases: []
 cover:
   image: /images/hugo-version-manager/buildings-banner.jpg
   alt: An old and a new building standing adjacent to each other.
-  caption: Photo by [Nicolas Postiglioni](https://www.pexels.com/photo/low-angle-photo-of-two-adjacent-apartment-buildings-2374976/)
+  caption: Photo by [Nicolas Postiglioni](https://www.pexels.com/photo/low-angle-photo-of-two-adjacent-apartment-buildings-2374976/).
   relative: false
 fmContentType: Post (default)
 ---

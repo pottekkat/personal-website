@@ -19,7 +19,7 @@ aliases: []
 cover:
   image: /images/creating-today-learned-til-section-hugo-website/classroom-banner.jpg
   alt: Children sitting in a classroom.
-  caption: Photo by [Kunal Lakhotia](https://www.pexels.com/photo/smiling-girl-and-boys-sitting-under-walls-with-letters-at-school-20556421/)
+  caption: Photo by [Kunal Lakhotia](https://www.pexels.com/photo/smiling-girl-and-boys-sitting-under-walls-with-letters-at-school-20556421/).
   relative: "true"
 fmContentType: Post (default)
 ---

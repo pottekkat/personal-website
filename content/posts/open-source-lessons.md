@@ -11,7 +11,7 @@ categories:
 cover:
   image: /images/open-source-lessons/banner-book-of-kells.jpeg
   alt: A photo of the Book of Kells library from Trinity College Dublin.
-  caption: Photo by [Andrea Barsali](https://www.pexels.com/photo/wooden-book-shelves-inside-library-of-trinity-college-in-dublin-12030035/)
+  caption: Photo by [Andrea Barsali](https://www.pexels.com/photo/wooden-book-shelves-inside-library-of-trinity-college-in-dublin-12030035/).
   relative: false
 ---
 

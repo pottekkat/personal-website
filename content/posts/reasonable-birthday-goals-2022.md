@@ -9,7 +9,7 @@ categories: ["Life"]
 cover:
     image: "/images/reasonable-birthday-goals-2022/birthday-cake-banner.jpeg"
     alt: "A photo of a 25 number candle being lit on a birthday cake."
-    caption: "Photo by [Tima Miroshnichenko](https://www.pexels.com/photo/person-holding-cake-with-candles-for-25th-birthday-5804891/)"
+    caption: "Photo by [Tima Miroshnichenko](https://www.pexels.com/photo/person-holding-cake-with-candles-for-25th-birthday-5804891/)."
     relative: false
 ---
 

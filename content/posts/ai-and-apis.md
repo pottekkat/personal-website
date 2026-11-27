@@ -10,7 +10,7 @@ categories: ["AI"]
 cover:
     image: "/images/ai-and-apis/beach-banner.jpeg"
     alt: "Aerial photo of a beach and sea."
-    caption: "Photo by [Damon Hall](https://www.pexels.com/photo/aerial-photo-of-seashore-1319110/)"
+    caption: "Photo by [Damon Hall](https://www.pexels.com/photo/aerial-photo-of-seashore-1319110/)."
     relative: false
 ---
 

@@ -9,7 +9,7 @@ categories: ["Writing/Blogging"]
 cover:
     image: "/images/write-stuff-down/pen-banner.jpeg"
     alt: "A photo of a fountain pen on a paper."
-    caption: "Photo by [Janson A](https://www.pexels.com/photo/person-holding-fountain-pen-753695/)"
+    caption: "Photo by [Janson A](https://www.pexels.com/photo/person-holding-fountain-pen-753695/)."
     relative: false
 ---
 

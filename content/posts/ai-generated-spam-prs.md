@@ -13,7 +13,7 @@ categories:
 cover:
   image: /images/ai-generated-spam-prs/owl-banner.jpeg
   alt: Close-up photo of an owl.
-  caption: Photo by [Pixabay](https://www.pexels.com/photo/brown-and-black-owl-staring-86596/)
+  caption: Photo by [Pixabay](https://www.pexels.com/photo/brown-and-black-owl-staring-86596/).
   relative: false
 ---
 

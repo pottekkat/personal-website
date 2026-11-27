@@ -9,7 +9,7 @@ categories: ["Writing/Blogging"]
 cover:
   image: "/images/why-developers-should-blog/person-typing-banner.jpeg"
   alt: "Photo of a person typing on a laptop"
-  caption: "Photo by [Canva Studio](https://www.pexels.com/@canvastudio) from [Pexels](https://www.pexels.com/photo/photo-of-man-using-laptop-3194523/)"
+  caption: "Photo by [Canva Studio](https://www.pexels.com/@canvastudio) from [Pexels](https://www.pexels.com/photo/photo-of-man-using-laptop-3194523/)."
   relative: false
 ---
 

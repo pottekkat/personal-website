@@ -15,7 +15,7 @@ author: ["Zeping Bai", "Navendu Pottekkat"]
 cover:
   image: "/images/data-mask-plugin/credit-card-banner.jpeg"
   alt: "Photo of a credit card."
-  caption: "Photo by [Dom J](https://www.pexels.com/photo/natwest-atm-card-45111/)"
+  caption: "Photo by [Dom J](https://www.pexels.com/photo/natwest-atm-card-45111/)."
   relative: false
 ---
 

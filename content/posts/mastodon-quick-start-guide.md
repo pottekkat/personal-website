@@ -10,7 +10,7 @@ categories: ["Tutorials"]
 cover:
     image: "/images/mastodon-quick-start-guide/rocket-banner.jpeg"
     alt: "A photo of a rocket taking off with a space shuttle."
-    caption: "Photo by [Pixabay](https://www.pexels.com/photo/flight-sky-earth-space-2166/)"
+    caption: "Photo by [Pixabay](https://www.pexels.com/photo/flight-sky-earth-space-2166/)."
     relative: false
 ---
 

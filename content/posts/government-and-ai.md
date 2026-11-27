@@ -11,7 +11,7 @@ categories: ["Public Policy"]
 cover:
     image: "/images/government-and-ai/eight-ball-banner.jpg"
     alt: "A person playing pool aiming at the eight ball."
-    caption: "Photo by [Alex Lion](https://unsplash.com/@alexandrelion) on [Unsplash](https://unsplash.com/photos/LsEL4F5POBI)"
+    caption: "Photo by [Alex Lion](https://unsplash.com/@alexandrelion) on [Unsplash](https://unsplash.com/photos/LsEL4F5POBI)."
     relative: false
 ---
 

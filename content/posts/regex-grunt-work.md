@@ -10,7 +10,7 @@ categories: ["Automation"]
 cover:
     image: "/images/regex-grunt-work/scrabble-tiles-banner.jpg"
     alt: "Scrabble tiles falling in the air."
-    caption: "Photo by [Piotr Łaskawski](https://unsplash.com/@tot87) on [Unsplash](https://unsplash.com/photos/gL7oJLJOb_I)"
+    caption: "Photo by [Piotr Łaskawski](https://unsplash.com/@tot87) on [Unsplash](https://unsplash.com/photos/gL7oJLJOb_I)."
     relative: false
 ---
 
