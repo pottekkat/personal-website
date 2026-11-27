@@ -91,7 +91,14 @@
 /* Captions, labels, buttons and code blocks inside a list item or quote
    would inherit the serif and the 18px their em sizes scale from; hand them
    back the body defaults. */
-:where(.post-content) :where(p, li, blockquote, dd, dt, td, details, summary) :where(figcaption, button, .alert-title, .readwise-note, .highlight, codapi-snippet) {
+:where(.post-content) :where(p, li, blockquote, dd, dt, td, details, summary) :where(figcaption, .alert-title, .readwise-note, .highlight, codapi-snippet) {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+/* Form controls need one element of specificity to beat reset.css's
+   `font: inherit`; Codapi's toolbar sets its own font and is left alone. */
+:where(.post-content) :where(p, li, blockquote, dd, dt, td, details, summary) :is(button, input, select, textarea):where(:not(codapi-snippet *)) {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
 }
