@@ -20,7 +20,7 @@ Parks and Recreation is the best TV show ever created.
 
 {{< rawhtml >}}
 
-<div style="width:480px"><iframe allow="fullscreen" frameBorder="0" height="270" src="https://giphy.com/embed/702ybfQFkrkrWnIByR/video" width="480"></iframe></div>
+<div style="width:480px;max-width:100%"><iframe allow="fullscreen" frameBorder="0" height="270" src="https://giphy.com/embed/702ybfQFkrkrWnIByR/video" width="480"></iframe></div>
 {{< /rawhtml >}}
 
 There has never been a show where the characters have authentic relationships, are relatable and develop throughout the show, which makes you fall in love with them.
