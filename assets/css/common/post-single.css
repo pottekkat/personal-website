@@ -78,13 +78,13 @@
    fonts, as do the blocks that reuse .post-content (webmentions, the
    subscribe box, print links, the books table). :where() keeps this at zero
    specificity so any rule that sets its own font or size still wins. */
-:where(.post-content:not(#webmentions-container, .subscribe-content, .print-links, .books-table)) :where(p, li, blockquote, dd, dt, td, details, summary):where(:not(svg *, .mermaid *, figcaption, figcaption *, #chart-caption *, .alert-title, .question-title, [lang="ml"], [lang="ml"] *)) {
+:where(.post-content:not(#webmentions-container, .subscribe-content, .print-links, .books-table)) :where(p, li, blockquote, dd, dt, td, details, summary):where(:not(svg *, .mermaid *, figcaption, figcaption *, #chart-caption *, .highlight *, .alert-title, .question-title, [lang="ml"], [lang="ml"] *)) {
     font-family: 'Source Serif 4', Georgia, serif;
     font-size: 18px;
 }
 
 /* Table headers keep their 14px size and take the serif face. */
-:where(.post-content:not(#webmentions-container, .subscribe-content, .print-links, .books-table)) :where(th) {
+:where(.post-content:not(#webmentions-container, .subscribe-content, .print-links, .books-table)) :where(th):where(:not([lang="ml"], [lang="ml"] *)) {
     font-family: 'Source Serif 4', Georgia, serif;
 }
 
