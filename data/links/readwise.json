@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-11-26T01:36:15.681045+05:30",
+  "last_updated": "2026-11-27T01:16:46.503902+05:30",
   "links": [
+    {
+      "id": "01m8bjpt41b5dqqf2kzpxqqth7",
+      "title": "GitHub Engineer: \"We're Trying to Kill the PR\" (and What Comes Next)",
+      "author": "Joel Hooks",
+      "source_url": "https://www.youtube.com/watch?v=_TyqBOXSAmw",
+      "published_date": "2026-11-19",
+      "saved_at": "2026-11-26T14:54:10.497000+05:30",
+      "reading_time": null,
+      "category": "video",
+      "notes": ""
+    },
+    {
+      "id": "01m8bgbphrzdstwkzxzjxzd93t",
+      "title": "Slouching Towards Bethlehem",
+      "author": "Joan Didion",
+      "source_url": "https://d242fdlp0qlcia.cloudfront.net/uploads/2015/09/22211308/joan-didion-goodbye-to-all-that-1.pdf",
+      "published_date": "2013-04-09",
+      "saved_at": "2026-11-26T14:13:09.239000+05:30",
+      "reading_time": "17 mins",
+      "category": "pdf",
+      "notes": ""
+    },
     {
       "id": "01m89070kzd0v20kjh44ardmz8",
       "title": "Tech companies are still bottlenecked on their ambitions",
