@@ -53,6 +53,8 @@
 
 .place-tile {
     position: relative;
+    /* Without it, WebKit keeps a tile's old width when the window narrows. */
+    min-width: 0;
     aspect-ratio: 4 / 3;
     transition: transform 0.1s;
     border: 1px solid var(--border);
