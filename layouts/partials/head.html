@@ -45,7 +45,7 @@
 <link rel="preload" href="/fonts/inter/subset-Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/schibstedgrotesk/subset-SchibstedGrotesk-Bold.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/reeniebeanie/subset-ReenieBeanie-Regular.woff2" as="font" type="font/woff2" crossorigin>
-{{- if .IsPage }}
+{{- if or .IsPage .IsHome }}
 <link rel="preload" href="/fonts/sourceserif4/SourceSerif4-Latin.woff2" as="font" type="font/woff2" crossorigin>
 {{- end }}
 {{- if .IsHome }}
