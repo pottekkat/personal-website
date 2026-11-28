@@ -1,6 +1,56 @@
 {
-  "lastUpdated": "2026-11-28T01:58:49+05:30",
+  "lastUpdated": "2026-11-28T11:39:17+05:30",
   "entries": [
+    {
+      "hash": "c7d74e9",
+      "date": "2026-11-28T11:38:20+05:30",
+      "message": "Updated body text font to Source Serif 4 at 18px."
+    },
+    {
+      "hash": "c7d74e9",
+      "date": "2026-11-28T11:38:20+05:30",
+      "message": "Modified font files to include Source Serif 4."
+    },
+    {
+      "hash": "c7d74e9",
+      "date": "2026-11-28T11:38:20+05:30",
+      "message": "Added min-width to place tiles for better layout."
+    },
+    {
+      "hash": "c7d74e9",
+      "date": "2026-11-28T11:38:20+05:30",
+      "message": "Adjusted font styles in the about page."
+    },
+    {
+      "hash": "c7d74e9",
+      "date": "2026-11-28T11:38:20+05:30",
+      "message": "Updated iframe width in daily post."
+    },
+    {
+      "hash": "c7d74e9",
+      "date": "2026-11-28T11:38:20+05:30",
+      "message": "Preloaded new font files in the head layout."
+    },
+    {
+      "hash": "c7d74e9",
+      "date": "2026-11-28T11:38:20+05:30",
+      "message": "Added license information for the site."
+    },
+    {
+      "hash": "c7d74e9",
+      "date": "2026-11-28T11:38:20+05:30",
+      "message": "Included Source Serif 4 license documentation."
+    },
+    {
+      "hash": "c7d74e9",
+      "date": "2026-11-28T11:38:20+05:30",
+      "message": "Added Source Serif 4 italic font file."
+    },
+    {
+      "hash": "c7d74e9",
+      "date": "2026-11-28T11:38:20+05:30",
+      "message": "Added Source Serif 4 extended italic font file."
+    },
     {
       "hash": "6c13dc3",
       "date": "2026-11-28T01:58:08+05:30",
